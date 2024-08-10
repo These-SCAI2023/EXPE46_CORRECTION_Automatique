@@ -2,12 +2,12 @@
 
 | O
 1e O
-Gallica B-PER
+Gallica B-MISC
 |
 
-| O
-Le B-LOC
-château I-LOC
+| I-MISC
+Le O
+château B-LOC
 de I-LOC
 Sinon I-LOC
 . O
@@ -23,22 +23,22 @@ Dash I-PER
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| O
-11 O
-Gallica B-MISC
+| I-LOC
+11 I-LOC
+Gallica I-LOC
 |
 
  
 
-| O
-Comtesse B-MISC
-Dash I-MISC
+| I-LOC
+Comtesse I-LOC
+Dash I-LOC
 ( O
 1804 O
 - O
@@ -58,8 +58,8 @@ Sinon I-LOC
 . O
 VOL1 B-ORG
 / O
-Comtesse B-MISC
-Dash I-MISC
+Comtesse B-PER
+Dash I-PER
 . O
 1844 O
 . O
@@ -175,10 +175,10 @@ après O
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 » O
 ou O
 « O
@@ -284,16 +284,16 @@ etc. O
 |
 
 | O
-CLIQUER B-MISC
-ICI I-MISC
+CLIQUER O
+ICI O
 POUR O
-ACCÉDER B-ORG
-AUX O
-TARIFS B-MISC
-ET O
-À B-MISC
-LA I-MISC
-LICENCE I-MISC
+ACCÉDER O
+AUX B-MISC
+TARIFS I-MISC
+ET I-MISC
+À O
+LA O
+LICENCE B-MISC
 |
 
 | I-MISC
@@ -301,7 +301,7 @@ LICENCE I-MISC
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriété O
@@ -456,7 +456,7 @@ réutilisation O
 
 | O
 4/ O
-Gallica B-LOC
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -475,9 +475,9 @@ au O
 sens O
 des O
 articles O
-L341 B-MISC
-- I-MISC
-1 I-MISC
+L341 O
+- O
+1 O
 et O
 |
 | O
@@ -501,7 +501,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 régies O
 par O
@@ -609,7 +609,7 @@ obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 définition O
@@ -624,7 +624,7 @@ bnf.fr O
 
 | O
 L' O
-HOTELLERIE B-ORG
+HOTELLERIE O
 , O
 |
 
@@ -714,7 +714,7 @@ Enfin O
 l' O
 auberge O
 de O
-Saint-Gabriel B-LOC
+Saint-Gabriel O
 , O
 |
 | O
@@ -726,9 +726,9 @@ Saint-Gabriel B-LOC
 | O
 2 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -760,7 +760,7 @@ re- O
 | O
 ferma O
 , O
-augrand O
+augrand B-PER
 désappointement O
 des O
 curieux O
@@ -849,9 +849,9 @@ des O
 | O
 seigneurs O
 de O
-Lameth B-LOC
+Lameth B-PER
 , O
-amsi O
+amsi B-LOC
 qu' O
 ils O
 en O
@@ -874,7 +874,7 @@ sans O
 répondre O
 , O
 les O
-de- O
+de- B-LOC
 |
 | O
 grés O
@@ -995,9 +995,9 @@ seules O
 
 | O
 — O
-Eh B-MISC
-bien I-MISC
-! I-MISC
+Eh O
+bien O
+! O
 Louison B-PER
 , O
 dit O
@@ -1014,7 +1014,7 @@ de O
 ce O
 lieu O
 - O
-c1 B-ORG
+c1 O
 ? O
 |
 
@@ -1026,7 +1026,7 @@ trouve O
 abominable O
 , O
 ; O
-mademoïselle O
+mademoïselle B-LOC
 . O
 |
 | O
@@ -1064,7 +1064,7 @@ cœur O
 | O
 _ O
 — O
-Aller B-PER
+Aller O
 choisir O
 dans O
 Paris B-LOC
@@ -1082,8 +1082,8 @@ y O
 a O
 que O
 M. B-PER
-de O
-Bussy B-LOC
+de I-PER
+Bussy I-PER
 capable O
 |
 | O
@@ -1116,18 +1116,18 @@ selle O
 
 | O
 — O
-Que B-LOC
-veux I-LOC
-- O
-tu O
-dire O
-par O
-là O
-? O
+Que B-MISC
+veux I-MISC
+- I-MISC
+tu I-MISC
+dire I-MISC
+par I-MISC
+là I-MISC
+? I-MISC
 |
 
-| O
-— O
+| I-MISC
+— I-MISC
 Ce O
 que O
 j' O
@@ -1172,7 +1172,7 @@ persister O
 
 | O
 — O
-Ei O
+Ei B-LOC
 quoi O
 donc O
 ? O
@@ -1210,9 +1210,9 @@ mois O
 | O
 4 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -1228,18 +1228,18 @@ Sissone B-LOC
 dans O
 Île B-LOC
 |
-| I-LOC
-grand I-LOC
-verger I-LOC
+| O
+grand O
+verger O
 , O
 avec O
 M. B-PER
 le I-PER
 comte I-PER
 de I-PER
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy I-PER
+- I-PER
+Lameth I-PER
 |
 | O
 le O
@@ -1253,7 +1253,7 @@ des O
 raisins O
 , O
 cachée O
-de- O
+de- B-LOC
 |
 | O
 rèle O
@@ -1272,9 +1272,9 @@ vissent O
 |
 | O
 car O
-M. O
-le O
-comte O
+M. B-PER
+le I-PER
+comte I-PER
 m' O
 aurait O
 grondée O
@@ -1314,12 +1314,12 @@ toute O
 leur O
 conversation O
 , O
-D' B-MISC
-abord I-MISC
-je I-MISC
-n' I-MISC
-écoutais I-MISC
-pas I-MISC
+D' O
+abord O
+je O
+n' O
+écoutais O
+pas O
 , O
 |
 | O
@@ -1415,7 +1415,7 @@ pas O
 — O
 Je O
 connaïs O
-Henriette B-PER
+Henriette O
 et O
 je O
 vous O
@@ -1433,7 +1433,7 @@ vous O
 êtes O
 faible O
 ; O
-VOUS O
+VOUS B-MISC
 |
 | O
 ne O
@@ -1461,9 +1461,9 @@ obéassez O
 
 | O
 LE O
-CHATEAU B-ORG
-DE I-ORG
-PENON I-ORG
+CHATEAU O
+DE O
+PENON O
 . O
 5 O
 |
@@ -1676,9 +1676,9 @@ Châtelaine B-PER
 de I-PER
 Sinon I-PER
 , O
-comtesse B-LOC
-de I-LOC
-Lameth I-LOC
+comtesse B-PER
+de I-PER
+Lameth I-PER
 , O
 |
 | O
@@ -1711,9 +1711,9 @@ elle O
 | O
 6 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -1794,7 +1794,7 @@ voudrait O
 sa O
 fierté O
 . O
-Cédés O
+Cédés B-LOC
 à O
 son O
 désir O
@@ -1849,9 +1849,9 @@ tête O
 comment O
 nous O
 y O
-prendrions O
-- O
-nôs O
+prendrions B-LOC
+- I-LOC
+nôs I-LOC
 pour O
 |
 | O
@@ -1921,8 +1921,8 @@ manquer O
 
 | O
 — O
-Nous B-MISC
-irons I-MISC
+Nous O
+irons O
 donc O
 à O
 Paris B-LOC
@@ -1948,9 +1948,9 @@ mme O
 
 | O
 LÉ O
-CHATEAU O
-DÉ B-ORG
-SINON I-ORG
+CHATEAU B-MISC
+DÉ I-MISC
+SINON I-MISC
 . O
 7 O
 |
@@ -2022,7 +2022,7 @@ M. B-PER
 votre O
 père O
 un O
-sémon O
+sémon B-PER
 sur O
 sa O
 |
@@ -2050,7 +2050,7 @@ il O
 déran- O
 |
 | O
-great O
+great B-PER
 tous O
 les O
 plans O
@@ -2161,12 +2161,12 @@ pro- O
 | O
 fonde O
 . O
-|||| O
-|||| O
+|||| B-PER
+|||| I-PER
 |
-| O
-Ah B-MISC
-! I-MISC
+| I-PER
+Ah I-PER
+! I-PER
 c' O
 està O
 leur O
@@ -2251,7 +2251,7 @@ et O
 |
 | O
 ils O
-n’ B-PER
+n’ O
 en O
 sont O
 pas O
@@ -2340,7 +2340,7 @@ royal O
 la O
 bohémienne O
 de O
-Sissone B-LOC
+Sissone B-PER
 me O
 l' O
 a O
@@ -2375,24 +2375,24 @@ la O
 change- O
 |
 | O
-rai B-ORG
+rai B-MISC
 , O
 cela O
 dépend O
 de O
 moi O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 M. O
 de O
 Bussy B-LOC
 , O
-M. B-LOC
-de I-LOC
+M. B-PER
+de I-PER
 |
-| I-LOC
-Bussy B-LOC
+| I-PER
+Bussy I-PER
 , O
 vous O
 verrez O
@@ -2469,9 +2469,9 @@ ses O
 | O
 |||| O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 “ O
 $ O
@@ -2488,7 +2488,7 @@ ar- O
 |
 | O
 rière O
-d’ B-PER
+d’ O
 un O
 mouvement O
 gracieux O
@@ -2583,24 +2583,24 @@ le O
 | O
 commencement O
 de O
-la O
-leçon O
+la B-MISC
+leçon I-MISC
 , O
 c' O
 est O
 égal O
 , O
 va O
-de- O
+de- B-LOC
 |
 | O
 mander O
 à O
 M. B-PER
 le O
-comte O
-de O
-Roucy O
+comte B-PER
+de I-PER
+Roucy I-PER
 ses O
 ordres O
 pour O
@@ -2625,7 +2625,7 @@ société O
 des O
 comtes O
 de O
-Lameth O
+Lameth B-PER
 . O
 |
 
@@ -2641,7 +2641,7 @@ temps O
 made- O
 |
 | O
-moselle O
+moselle B-LOC
 de O
 Roucy B-LOC
 s' O
@@ -2712,9 +2712,9 @@ de O
 | O
 10 O
 LE O
-CHATÉAU B-ORG
-DE I-ORG
-SINON B-ORG
+CHATÉAU B-MISC
+DE I-MISC
+SINON I-MISC
 . O
 |
 | O
@@ -2867,9 +2867,9 @@ cham- O
 bre O
 , O
 et O
-MM. O
-de O
-Bussy B-LOC
+MM. B-PER
+de I-PER
+Bussy I-PER
 attendent O
 chez O
 M. B-PER
@@ -2885,10 +2885,10 @@ plaisir O
 
 | O
 — O
-Je B-MISC
-m' I-MISC
-en I-MISC
-doutais I-MISC
+Je O
+m' O
+en O
+doutais O
 . O
 Aussi O
 vois O
@@ -2908,8 +2908,8 @@ belle O
 
 | O
 = O
-Eh B-LOC
-! I-LOC
+Eh B-MISC
+! I-MISC
 pouf O
 plaire O
 à O
@@ -2961,18 +2961,18 @@ SINON I-MISC
 | O
 nent O
 que O
-jé O
+jé B-PER
 les O
 laisserai O
-arranger O
-ma O
-déstin O
-é O
+arranger B-PER
+ma I-PER
+déstin I-PER
+é I-PER
 |
-| O
-sans O
-m' O
-occuper O
+| I-PER
+sans I-PER
+m' I-PER
+occuper I-PER
 de O
 la O
 diriger O
@@ -2998,7 +2998,7 @@ comte O
 |
 | O
 de O
-Lameth O
+Lameth B-PER
 , O
 amoureux O
 fou O
@@ -3015,7 +3015,7 @@ de O
 lui O
 apprédre O
 par O
-âlancé B-PER
+âlancé O
 le O
 métier O
 de O
@@ -3060,7 +3060,7 @@ des O
 servantes O
 , O
 qui O
-Venaient B-PER
+Venaient B-ORG
 dresser O
 |
 | O
@@ -3072,7 +3072,7 @@ interrompit O
 propos O
 . O
 Henriette B-PER
-re- I-PER
+re- O
 |
 | O
 garda O
@@ -3099,7 +3099,7 @@ elles O
 
 | O
 — O
-N' B-LOC
+N' O
 y O
 a O
 - O
@@ -3154,13 +3154,13 @@ des O
 | O
 filles O
 . O
-k O
-|||| O
-|||| O
-|||| O
+k B-MISC
+|||| I-MISC
+|||| I-MISC
+|||| I-MISC
 |
 
-| O
+| I-MISC
 - O
 Cette O
 auberge O
@@ -3181,12 +3181,12 @@ qualité O
 
 | O
 — O
-Presque O
-jamais O
+Presque B-MISC
+jamais I-MISC
 , O
-madame O
+madame B-PER
 . O
-Cé O
+Cé B-LOC
 sont O
 des O
 |
@@ -3194,9 +3194,9 @@ des O
 | O
 12 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -3233,7 +3233,7 @@ servi O
 | O
 vous O
 avertir O
-MM. O
+MM. B-PER
 les O
 comtes O
 de O
@@ -3242,7 +3242,7 @@ Bussy B-LOC
 La- I-LOC
 |
 | O
-meth B-LOC
+meth O
 , O
 et O
 M. B-PER
@@ -3335,7 +3335,7 @@ tête O
 le O
 comte O
 de O
-Rou- O
+Rou- B-LOC
 |
 | O
 C B-MISC
@@ -3428,7 +3428,7 @@ SINON I-MISC
 |
 
 | O
-Derrière B-LOC
+Derrière B-PER
 lui O
 marchait O
 un O
@@ -3461,7 +3461,7 @@ nants O
 froncés O
 et O
 rapprochés O
-l’ B-LOC
+l’ O
 un O
 de O
 l' O
@@ -3521,9 +3521,9 @@ tait O
 le O
 comte O
 de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy O
+- O
+Lameth O
 . O
 |||| O
 |
@@ -3554,12 +3554,12 @@ semblant O
 frappante O
 avec O
 le O
-comte B-PER
-de I-PER
-Bussy- I-PER
+comte O
+de O
+Bussy- B-PER
 |
-| O
-Lameth B-PER
+| I-PER
+Lameth I-PER
 , O
 le O
 faisait O
@@ -3585,7 +3585,7 @@ noble O
 et O
 élevée O
 , O
-IL B-ORG
+IL B-LOC
 avait O
 la O
 même O
@@ -3598,7 +3598,7 @@ regard O
 modifiée O
 par O
 la O
-jénesse O
+jénesse B-LOC
 , O
 et O
 était O
@@ -3650,9 +3650,9 @@ davantage O
 | O
 14 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -3662,7 +3662,7 @@ les O
 deux O
 saluëèrent O
 profondément O
-Hen- O
+Hen- B-PER
 |
 | O
 rette O
@@ -3790,9 +3790,9 @@ cham- O
 bre O
 , O
 continua O
-M. O
-de O
-Roucy B-LOC
+M. B-PER
+de I-PER
+Roucy I-PER
 , O
 et O
 que O
@@ -3841,7 +3841,7 @@ pro- O
 |
 
 | O
-pre O
+pre B-ORG
 et O
 avenant O
 en O
@@ -3914,7 +3914,7 @@ en O
 honteuse O
 en O
 quittant O
-Sis- O
+Sis- B-MISC
 |
 | O
 sone O
@@ -3959,7 +3959,7 @@ atmosphère O
 | O
 quelque O
 chose O
-d’ B-MISC
+d’ O
 enivrant O
 , O
 le O
@@ -4014,7 +4014,7 @@ Lameth I-LOC
 Sissone B-LOC
 , O
 à O
-Sinon B-PER
+Sinon B-LOC
 , O
 quand O
 |
@@ -4111,9 +4111,9 @@ et O
 | O
 16 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -4173,19 +4173,19 @@ province O
 D' O
 ailleurs O
 ? O
-répéla O
+répéla B-PER
 le O
-comte O
-de O
-Roucy O
+comte B-PER
+de I-PER
+Roucy I-PER
 . O
 |
 
 | O
 — O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 mon O
 père O
 , O
@@ -4193,7 +4193,7 @@ père O
 Sissone B-LOC
 , O
 à O
-Sinon B-PER
+Sinon B-LOC
 , O
 je O
 |
@@ -4211,7 +4211,7 @@ amuserai O
 
 | O
 — O
-Voilà B-PER
+Voilà O
 un O
 vrai O
 argument O
@@ -4257,8 +4257,8 @@ répliqua O
 sentencieusement O
 |
 | O
-M. B-PER
-de I-PER
+M. O
+de O
 Bussy B-LOC
 - I-LOC
 Lameth I-LOC
@@ -4317,8 +4317,8 @@ doute O
 
 | O
 — O
-Vous B-LOC
-irez I-LOC
+Vous O
+irez O
 à O
 la O
 cour O
@@ -4342,9 +4342,9 @@ dentelles O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 , O
 17 O
 |
@@ -4428,7 +4428,7 @@ Madame B-PER
 la O
 marquise O
 d' O
-Jeudi- B-PER
+Jeudi- B-MISC
 |
 | O
 court O
@@ -4448,8 +4448,8 @@ et O
 vous O
 présentera O
 à O
-Leurs B-PER
-Majestés I-PER
+Leurs B-MISC
+Majestés I-MISC
 . O
 |
 | O
@@ -4506,7 +4506,7 @@ s' O
 -t O
 -elle O
 avec O
-l’ B-ORG
+l’ O
 étourderie O
 de O
 son O
@@ -4558,16 +4558,16 @@ la O
 | O
 E B-LOC
 , O
-|||| O
+|||| B-LOC
 a O
 |
 
 | O
 18 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -4617,7 +4617,7 @@ rions O
 pas O
 pu O
 venir O
-ICI O
+ICI B-LOC
 . O
 |
 
@@ -4700,7 +4700,7 @@ voir O
 bonne O
 mine O
 ; O
-c’ B-MISC
+c’ O
 est O
 assez O
 pour O
@@ -4719,7 +4719,7 @@ mon O
 Le O
 comte B-PER
 de I-PER
-Roucy O
+Roucy I-PER
 secoua O
 la O
 tête O
@@ -4730,8 +4730,8 @@ lançant O
 un O
 coup-d'œil O
 à O
-M. B-PER
-de I-PER
+M. O
+de O
 Bussy B-LOC
 - I-LOC
 Lameth I-LOC
@@ -4751,8 +4751,8 @@ point O
 
 | O
 — O
-Permettez B-PER
--moi I-PER
+Permettez B-MISC
+-moi O
 , O
 mademoiselle O
 , O
@@ -4789,15 +4789,15 @@ par O
 les O
 séductions O
 . O
-Rappelez B-PER
+Rappelez O
 -vous O
 |
 
 | O
 LE O
-CHATEAU B-ORG
-DÉ B-ORG
-SINON I-ORG
+CHATEAU B-MISC
+DÉ I-MISC
+SINON I-MISC
 . O
 19 O
 |
@@ -4904,9 +4904,9 @@ diamants O
 de O
 la O
 feue O
-comtesse B-LOC
-de I-LOC
-Roucy I-LOC
+comtesse B-PER
+de I-PER
+Roucy I-PER
 , O
 |
 | O
@@ -4970,16 +4970,16 @@ inquiétude O
 |
 | O
 la O
-comtesse O
-de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+comtesse B-PER
+de I-PER
+Bussy O
+- O
+Lameth O
 n' O
 aura O
 rien O
 à O
-en- O
+en- B-LOC
 |
 | O
 vier O
@@ -5019,22 +5019,22 @@ retirèrent O
 | O
 20 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
-Bon B-PER
-Dieu I-PER
-! I-PER
+Bon B-MISC
+Dieu I-MISC
+! I-MISC
 mademoiselle O
 , O
-s’ B-PER
-écria I-PER
-Louison I-PER
+s’ O
+écria O
+Louison B-PER
 , O
 |
 | O
@@ -5057,7 +5057,7 @@ soirée O
 , O
 qu' O
 il O
-n’ B-PER
+n’ O
 a O
 |
 | O
@@ -5124,7 +5124,7 @@ yeux O
 de O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 , O
 lorsqu' O
 elle O
@@ -5144,7 +5144,7 @@ Il O
 |
 | O
 LA O
-PRÉSENTATION B-ORG
+PRÉSENTATION O
 , O
 - O
 |
@@ -5160,10 +5160,10 @@ Dès O
 le O
 matin O
 , O
-En- O
+En- B-MISC
 |
-| O
-miette O
+| I-MISC
+miette I-MISC
 , O
 se O
 mit O
@@ -5198,7 +5198,7 @@ faut O
 que O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 , O
 qui O
 va O
@@ -5217,7 +5217,7 @@ de O
 |
 | O
 Tours B-LOC
-blanc O
+blanc I-LOC
 , O
 sans O
 bijoux O
@@ -5225,7 +5225,7 @@ bijoux O
 sans O
 points O
 de O
-Son- B-ORG
+Son- O
 |
 
 | O
@@ -5246,18 +5246,18 @@ la O
 22 O
 |||| O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
-Cour B-ORG
+Cour B-PER
 . O
-Arrange B-ORG
-- I-ORG
-toi I-ORG
+Arrange O
+- O
+toi O
 donc O
 de O
 manière O
@@ -5324,7 +5324,7 @@ bois O
 |
 | O
 de O
-Sissone B-LOC
+Sissone B-PER
 , O
 et O
 je O
@@ -5365,8 +5365,8 @@ prête O
 et O
 que O
 madame B-PER
-d' I-PER
-Heu- I-PER
+d' O
+Heu- B-LOC
 |
 | O
 ricourt O
@@ -5382,9 +5382,9 @@ son O
 | O
 père O
 et O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 reculèrent O
 de O
 surprise O
@@ -5467,7 +5467,7 @@ tout O
 le O
 voyage O
 , O
-Henriette B-PER
+Henriette B-MISC
 fut O
 dis- O
 |
@@ -5524,11 +5524,11 @@ Lorsqu' O
 elle O
 aperçut O
 le O
-château O
+château B-LOC
 |
-| O
-de O
-Versailles O
+| I-LOC
+de I-LOC
+Versailles I-LOC
 , O
 lorsqu' O
 elle O
@@ -5545,7 +5545,7 @@ escalier O
 de O
 marbre O
 , O
-en- O
+en- B-LOC
 |
 | O
 comboé O
@@ -5587,7 +5587,7 @@ plus O
 quit- O
 |
 | O
-ter O
+ter B-ORG
 ce O
 séjour O
 enchanteur O
@@ -5600,9 +5600,9 @@ Bonne B-PER
 de I-PER
 Pons I-PER
 , O
-marquise O
-d' O
-Audincourt B-LOC
+marquise B-PER
+d' I-PER
+Audincourt I-PER
 , O
 |
 | O
@@ -5615,11 +5615,11 @@ mieux O
 placée O
 à O
 la O
-Cour B-ORG
+Cour B-LOC
 . O
 |
 | O
-Liée B-LOC
+Liée B-PER
 d' O
 amitié O
 avec O
@@ -5760,12 +5760,12 @@ de O
 la O
 galerie O
 , O
-sa- O
+sa- B-ORG
 |
-| O
-Jouant O
-les O
-femmes O
+| I-ORG
+Jouant I-ORG
+les I-ORG
+femmes I-ORG
 , O
 leur O
 parlant O
@@ -5811,7 +5811,7 @@ Ses O
 yeux O
 tombèrent O
 sur O
-Henriette B-PER
+Henriette B-MISC
 , O
 rouge O
 |
@@ -5827,8 +5827,8 @@ madame B-PER
 de I-PER
 Mon- I-PER
 |
-| O
-tespan B-LOC
+| I-PER
+tespan I-PER
 elle-même O
 . O
 |||| O
@@ -5842,27 +5842,27 @@ cette O
 charmante O
 personne O
 ? O
-de- O
+de- B-LOC
 |
 | O
 _ O
-manda B-MISC
-- I-MISC
-t-1l I-MISC
+manda O
+- O
+t-1l O
 . O
 |
 
 | O
 — O
-Sire B-LOC
+Sire B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 mademoiselle O
 de O
-Roucy B-LOC
-de I-LOC
-Sis- I-LOC
+Roucy B-PER
+de I-PER
+Sis- I-PER
 |
 | O
 sone O
@@ -5894,8 +5894,8 @@ armées O
 |
 
 | O
-Le O
-roi O
+Le B-PER
+roi I-PER
 regarda O
 longtemps O
 Henriette B-PER
@@ -5998,7 +5998,7 @@ jour O
 . O
 Madame B-PER
 d' I-PER
-Audincourt I-PER
+Audincourt B-LOC
 ne O
 pouvait O
 suffire O
@@ -6135,7 +6135,7 @@ jeunesse O
 
 | O
 — O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 arrive O
 de O
 province O
@@ -6183,9 +6183,9 @@ P B-LOC
 | O
 26 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -6243,7 +6243,7 @@ Je O
 vous O
 remercie O
 , O
-madame O
+madame B-PER
 , O
 de O
 cette O
@@ -6357,7 +6357,7 @@ Roucy I-PER
 fut O
 présentée O
 à O
-La- O
+La- B-PER
 |
 | O
 dame O
@@ -6381,9 +6381,9 @@ ajoutant O
 
 | O
 — O
-Prenez B-LOC
-- I-LOC
-garde I-LOC
+Prenez O
+- O
+garde O
 , O
 Mademoiselle B-PER
 , O
@@ -6396,7 +6396,7 @@ prenez- O
 
 | I-MISC
 LE I-MISC
-CHATEAU B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -6417,7 +6417,7 @@ et O
 on O
 |
 | O
-s’ B-PER
+s’ O
 en O
 repent O
 , O
@@ -6489,8 +6489,8 @@ sa O
 pro- O
 |
 | O
-pre O
-assurance O
+pre B-ORG
+assurance I-ORG
 à O
 leur O
 timidité O
@@ -6565,7 +6565,7 @@ ce O
 jour O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 commença O
 |
 | O
@@ -6629,9 +6629,9 @@ brus- O
 | O
 28 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -6673,12 +6673,12 @@ du O
 roi O
 près O
 de O
-mademoiselle B-LOC
-de I-LOC
+mademoiselle O
+de O
 |
-| I-LOC
-la I-LOC
-Vallière I-LOC
+| O
+la B-PER
+Vallière I-PER
 . O
 Aussi O
 lorsqu' O
@@ -6814,10 +6814,10 @@ monde O
 |
 | O
 — O
-Voyez B-MISC
+Voyez O
 -vous O
 , O
-Mesdemoiselles B-LOC
+Mesdemoiselles B-MISC
 , O
 disait O
 -elle O
@@ -6919,17 +6919,17 @@ Qui O
 s' O
 y O
 frotte O
-s’ B-PER
+s’ O
 y O
 pique O
 . O
 |
 
 | O
-Un O
-matin O
-les O
-filles O
+Un B-MISC
+matin I-MISC
+les I-MISC
+filles I-MISC
 de O
 Madame B-PER
 étaient O
@@ -6986,15 +6986,15 @@ lonel O
 du O
 régiment O
 de O
-Navarre B-PER
+Navarre O
 , O
 demanda O
 made- O
 |
 | O
-moselle O
-de O
-Hautefort B-LOC
+moselle B-LOC
+de I-LOC
+Hautefort I-LOC
 . O
 |
 
@@ -7007,9 +7007,9 @@ répondit O
 
 | O
 — O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 je O
 suis O
 la O
@@ -7071,7 +7071,7 @@ nobiliaire O
 
 | O
 si O
-VOUS O
+VOUS B-MISC
 ignorez O
 que O
 c' O
@@ -7084,9 +7084,9 @@ Amani- I-PER
 | O
 30 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -7130,10 +7130,10 @@ neveu O
 | O
 de O
 M. B-PER
-le O
-maréchal O
-d’ O
-Albret B-PER
+le I-PER
+maréchal I-PER
+d’ I-PER
+Albret I-PER
 , O
 et O
 parent O
@@ -7198,7 +7198,7 @@ pompeux O
 
 | O
 — O
-Ajoutez B-LOC
+Ajoutez B-MISC
 , O
 s' O
 il O
@@ -7245,12 +7245,12 @@ Il O
 ce O
 matin O
 chez O
-La- O
+La- B-PER
 |
 | O
 dame O
 , O
-d’ B-PER
+d’ O
 un O
 air O
 à O
@@ -7268,7 +7268,7 @@ honneur O
 
 | O
 — O
-Lui B-PER
+Lui O
 connait O
 -on O
 un O
@@ -7312,7 +7312,7 @@ son O
 indifférence O
 . O
 Elle O
-l’ B-LOC
+l’ O
 a O
 |
 
@@ -7373,7 +7373,7 @@ dit O
 même O
 |
 | O
-qu’ B-PER
+qu’ O
 elle O
 ne O
 consultant O
@@ -7460,7 +7460,7 @@ plait O
 
 | O
 — O
-Î O
+Î B-LOC
 ] O
 est O
 certain O
@@ -7495,7 +7495,7 @@ corps O
 établis O
 près O
 d' O
-Henriette B-PER
+Henriette B-LOC
 , O
 qui O
 |
@@ -7530,11 +7530,11 @@ pas O
 reprit O
 mademoiselle O
 de O
-Cossé B-LOC
+Cossé B-PER
 , O
 |
 | O
-Croyez B-MISC
+Croyez B-LOC
 -vous O
 qu' O
 ils O
@@ -7590,7 +7590,7 @@ les O
 gardiens O
 |
 | O
-de.la O
+de.la B-PER
 pomme O
 d' O
 or O
@@ -7612,7 +7612,7 @@ sont O
 , O
 |
 | O
-Roue B-LOC
+Roue B-PER
 , O
 dites O
 -nous O
@@ -7634,7 +7634,7 @@ Bussy B-LOC
 La- I-LOC
 |
 | O
-meth B-LOC
+meth O
 , O
 propriétaires O
 du O
@@ -7705,7 +7705,7 @@ avoir O
 |
 | O
 comme O
-Henriette B-PER
+Henriette B-MISC
 , O
 en O
 manière O
@@ -7775,7 +7775,7 @@ tions O
 de O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 , O
 nous O
 ne O
@@ -7806,7 +7806,7 @@ SINON I-MISC
 | O
 là O
 , O
-jusqu’ B-PER
+jusqu’ O
 à O
 ce O
 qu’ O
@@ -7815,11 +7815,11 @@ nous O
 soit O
 démontré O
 que O
-no- O
+no- B-PER
 |
-| O
-tre O
-champion O
+| I-PER
+tre I-PER
+champion I-PER
 a O
 échoué O
 et O
@@ -7855,7 +7855,7 @@ défi O
 , O
 répliqua O
 vivement O
-Hen- O
+Hen- B-PER
 |
 
 | O
@@ -7937,7 +7937,7 @@ des O
 mais O
 , O
 elles O
-n’ B-PER
+n’ O
 en O
 trouveront O
 ja- O
@@ -7948,7 +7948,7 @@ mais O
 dit O
 demploisélle O
 de O
-Cossé B-MISC
+Cossé B-PER
 avec O
 une O
 mine O
@@ -7962,7 +7962,7 @@ _ O
 
 | O
 — O
-N' B-PER
+N' O
 importe O
 ! O
 j' O
@@ -8012,8 +8012,8 @@ madeira- O
 |
 
 | O
-L. B-MISC
-5 I-MISC
+L. O
+5 O
 |
 
 | O
@@ -8059,9 +8059,9 @@ bou- O
 cherie O
 ce O
 charmant O
-colonel B-PER
-de I-PER
-Navarre I-PER
+colonel O
+de O
+Navarre O
 , O
 inter- O
 |
@@ -8134,12 +8134,12 @@ peur O
 — O
 Oh B-MISC
 ! I-MISC
-c’ B-MISC
+c’ O
 est O
 que O
 l' O
 on O
-m’ B-PER
+m’ O
 a O
 prédit O
 des O
@@ -8181,7 +8181,7 @@ service O
 reprit O
 mademoiselle O
 de O
-Cossé B-LOC
+Cossé B-PER
 . O
 Demain O
 nous O
@@ -8235,9 +8235,9 @@ sé- O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 35 O
 |
@@ -8271,9 +8271,9 @@ père O
 ou O
 M. B-PER
 de I-PER
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy I-PER
+- I-PER
+Lameth I-PER
 en O
 étaient O
 |
@@ -8321,10 +8321,10 @@ elle O
 avait O
 risquée O
 ; O
-l’ B-MISC
-amour I-MISC
-- I-MISC
-propre I-MISC
+l’ O
+amour O
+- O
+propre O
 , O
 |
 | O
@@ -8359,11 +8359,11 @@ Oh B-MISC
 ! I-MISC
 |
 
-| O
-Un O
-sourire O
-de O
-triomphe O
+| I-MISC
+Un B-MISC
+sourire I-MISC
+de I-MISC
+triomphe I-MISC
 erra O
 sur O
 ses O
@@ -8372,7 +8372,7 @@ lèvres O
 |
 | O
 elle O
-n’ B-PER
+n’ O
 osait O
 pas O
 se O
@@ -8487,11 +8487,11 @@ de I-PER
 Montespan I-PER
 et O
 avec O
-mademoiselle O
-de O
+mademoiselle B-PER
+de I-PER
 |
-| O
-Lavallière B-PER
+| I-PER
+Lavallière I-PER
 . O
 Celle O
 - O
@@ -8625,7 +8625,7 @@ debout O
 et O
 causaient O
 , O
-l’ B-LOC
+l’ O
 un O
 était O
 le O
@@ -8634,7 +8634,7 @@ mar- O
 | O
 quis O
 de O
-Lafarge B-PER
+Lafarge B-ORG
 , O
 l' O
 autre O
@@ -8650,14 +8650,14 @@ Quoi O
 donc O
 ? O
 disait O
-Lafarge B-PER
+Lafarge B-ORG
 , O
 vous O
 êtes O
 de- O
 |
 | O
-meuré O
+meuré B-LOC
 en O
 route O
 pour O
@@ -8671,7 +8671,7 @@ chose O
 | O
 — O
 Ce O
-n’ B-PER
+n’ O
 est O
 pas O
 peu O
@@ -8726,7 +8726,7 @@ L B-MISC
 
 | I-MISC
 LE I-MISC
-CHATEAU B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -8821,12 +8821,12 @@ temps O
 |
 
 | O
-Lejeune B-LOC
+Lejeune B-PER
 hommeavait O
 un O
 justaucorps O
 gris O
-perlé B-LOC
+perlé O
 |
 | O
 avec O
@@ -8860,7 +8860,7 @@ plus O
 fine O
 batiste O
 , O
-cepe O
+cepe B-PER
 ne O
 |
 | O
@@ -8879,8 +8879,8 @@ excessive O
 firent O
 souvenir O
 Henriette B-PER
-du I-PER
-colonel I-PER
+du O
+colonel B-PER
 |
 | I-PER
 de I-PER
@@ -8960,14 +8960,14 @@ elle O
 | O
 38 O
 LE O
-CHATEAU B-ORG
-LE O
-SINON B-ORG
+CHATEAU B-MISC
+LE I-MISC
+SINON I-MISC
 . O
 |
 | O
 sentit O
-qu’ B-PER
+qu’ O
 elle O
 avait O
 à O
@@ -9011,9 +9011,9 @@ du O
 |
 
 | O
-marquis B-PER
-de I-PER
-Lafarge I-PER
+marquis O
+de O
+Lafarge B-ORG
 . O
 |
 
@@ -9028,8 +9028,8 @@ la O
 |
 
 | O
-pr O
-emière O
+pr B-PER
+emière I-PER
 fois O
 . O
 |
@@ -9085,9 +9085,9 @@ et O
 le O
 comte O
 de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy O
+- O
+Lameth O
 . O
 1 O
 |
@@ -9138,8 +9138,8 @@ marquis B-PER
 d' I-PER
 Al- I-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 , O
 pour O
 l' O
@@ -9187,9 +9187,9 @@ t O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 39 O
 |
@@ -9217,14 +9217,14 @@ roi O
 |
 | O
 = O
-Je O
-suis O
-trop O
-heureux O
-d' O
-obéir O
-à O
-Sa B-MISC
+Je B-MISC
+suis I-MISC
+trop I-MISC
+heureux I-MISC
+d' I-MISC
+obéir I-MISC
+à I-MISC
+Sa I-MISC
 Majesté I-MISC
 , O
 |
@@ -9360,13 +9360,13 @@ cher- O
 chaient O
 , O
 à O
-Qui B-LOC
-plaire I-LOC
-et O
-à O
-attirer O
-son O
-suffrage O
+Qui B-MISC
+plaire I-MISC
+et I-MISC
+à I-MISC
+attirer I-MISC
+son I-MISC
+suffrage I-MISC
 . O
 Il O
 |
@@ -9375,7 +9375,7 @@ s' O
 avança O
 enfin O
 vers O
-Henriette B-PER
+Henriette B-MISC
 . O
 |
 
@@ -9557,10 +9557,10 @@ prêcher O
 La O
 fête O
 arriva O
-àsa O
+àsa B-MISC
 fin O
 . O
-Henriette B-PER
+Henriette B-MISC
 , O
 retirée O
 dans O
@@ -9621,15 +9621,15 @@ la O
 promesse O
 de O
 son O
-père;'ses B-MISC
-engag- I-MISC
+père;'ses O
+engag- O
 |
 
-| I-MISC
-LE I-MISC
-CHATEAU B-MISC
-DE I-MISC
-PINOT I-MISC
+| O
+LE O
+CHATEAU O
+DE O
+PINOT O
 , O
 41 O
 |
@@ -9643,18 +9643,18 @@ les O
 rompre O
 , O
 el B-LOC
-sur- O
+sur- I-LOC
 |
 | O
 tout O
 la O
 crainte O
 du O
-comte O
-de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+comte B-PER
+de I-PER
+Bussy I-PER
+- O
+Lameth O
 lui O
 |
 
@@ -9699,7 +9699,7 @@ sans O
 gie O
 . O
 Elle O
-n’ B-PER
+n’ O
 écouta O
 point O
 les O
@@ -9788,14 +9788,14 @@ mois O
 
 | O
 « O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 , O
 |
 
 | O
 « O
-Le B-MISC
-Roiï I-MISC
+Le O
+Roiï B-ORG
 , O
 et O
 son O
@@ -9916,9 +9916,9 @@ madame B-PER
 | O
 « O
 la O
-marquise O
-d' O
-Audincourt B-LOC
+marquise B-PER
+d' I-PER
+Audincourt I-PER
 , O
 pour O
 arranger O
@@ -9966,10 +9966,10 @@ bien- O
 fall O
 , O
 car O
-On B-MISC
-ne I-MISC
-saurait I-MISC
-être I-MISC
+On O
+ne O
+saurait O
+être O
 , O
 plus O
 passionné- O
@@ -10000,9 +10000,9 @@ esclave O
 | O
 « O
 Le O
-marquis B-PER
-D' I-PER
-ALBRET I-PER
+marquis O
+D' O
+ALBRET O
 . O
 » O
 |
@@ -10014,7 +10014,7 @@ ALBRET I-PER
 | O
 — O
 Comme O
-Henriette B-PER
+Henriette B-MISC
 a O
 rougi O
 ! O
@@ -10060,9 +10060,9 @@ encore O
 reprit O
 |
 | O
-mademoiselle B-PER
-de I-PER
-Cossé I-PER
+mademoiselle O
+de O
+Cossé B-PER
 . O
 |
 
@@ -10079,14 +10079,14 @@ Mesdemoiselles B-LOC
 |
 
 | O
-RP B-MISC
+RP O
 |
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 43 O
 |
@@ -10133,7 +10133,7 @@ m' O
 amuse O
 guère O
 . O
-Lisez B-PER
+Lisez O
 plutôt O
 . O
 |||| O
@@ -10157,10 +10157,10 @@ m O
 éclaire O
 , O
 dit O
-mademoiselle O
-de O
-la O
-Mothe B-LOC
+mademoiselle B-PER
+de I-PER
+la I-PER
+Mothe I-PER
 . O
 |
 
@@ -10198,7 +10198,7 @@ beaux O
 esprits O
 , O
 ne O
-s’ B-PER
+s’ O
 écrivent O
 pas O
 au- O
@@ -10259,8 +10259,8 @@ made- O
 |
 | O
 moselle B-LOC
-de I-LOC
-Roucy I-LOC
+de O
+Roucy B-LOC
 . O
 |||| O
 |
@@ -10316,22 +10316,22 @@ elle-même O
 | O
 : O
 — O
-Allons B-LOC
+Allons O
 donc O
 , O
 ma O
 chère O
 , O
-minauda B-MISC
-En- O
+minauda B-PER
+En- I-PER
 |
 
 | O
 44 O
 LE O
-CHATEAU B-MISC
-DB I-MISC
-SINON I-MISC
+CHATEAU O
+DB O
+SINON O
 . O
 |
 | O
@@ -10340,12 +10340,12 @@ rette O
 Je B-MISC
 ne I-MISC
 sais I-MISC
-ce O
-que O
-vous O
-entendez O
-par O
-là O
+ce I-MISC
+que I-MISC
+vous I-MISC
+entendez I-MISC
+par I-MISC
+là I-MISC
 . O
 Je O
 |
@@ -10439,17 +10439,17 @@ se O
 regarda O
 , O
 et O
-madame O
+madame B-PER
 |
-| O
-d' O
-Audincourt B-LOC
+| I-PER
+d' I-PER
+Audincourt I-PER
 dit O
 à O
 l' O
 oreille O
 de O
-madame O
+madame B-PER
 la O
 prin- O
 |
@@ -10555,11 +10555,11 @@ princesse O
 | O
 — O
 ( O
-Gardez B-LOC
--vous O
--en O
-bien O
-! O
+Gardez B-MISC
+-vous I-MISC
+-en I-MISC
+bien I-MISC
+! I-MISC
 Madame B-PER
 ferait O
 un O
@@ -10567,9 +10567,9 @@ un O
 
 | O
 LE O
-CHATEAU B-ORG
-DÉ B-ORG
-SINON I-ORG
+CHATEAU B-MISC
+DÉ I-MISC
+SINON I-MISC
 . O
 45 O
 |
@@ -10589,7 +10589,7 @@ la O
 faire O
 taire O
 . O
-Laissons O
+Laissons B-PER
 aller O
 les O
 choses O
@@ -10654,9 +10654,9 @@ fort O
 Mademoiselle B-PER
 , O
 dit O
-madame O
-d' O
-Audincourt B-LOC
+madame B-PER
+d' I-PER
+Audincourt I-PER
 |
 | O
 lorsqu' O
@@ -10749,7 +10749,7 @@ logement O
 , O
 il O
 faut O
-s’ B-PER
+s’ O
 y O
 arranger O
 à O
@@ -10950,7 +10950,7 @@ roi O
 chez O
 madame B-PER
 de I-PER
-Montes- B-PER
+Montes- I-PER
 |
 | I-PER
 pan I-PER
@@ -10960,7 +10960,7 @@ XIV I-PER
 trouva O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 |
 | O
 adorable O
@@ -11032,9 +11032,9 @@ et O
 de O
 la O
 belle O
-Picarde B-PER
+Picarde B-LOC
 . O
-Madame B-PER
+Madame O
 |
 
 | O
@@ -11045,31 +11045,31 @@ ou O
 
 | O
 de O
-Re B-LOC
-et O
-de O
-de O
+Re B-MISC
+et I-MISC
+de I-MISC
+de I-MISC
+|
+
+| I-MISC
+TE I-MISC
+A I-MISC
+— O
+— O
+- O
 |
 
 | O
-TE B-LOC
-A I-LOC
-— I-LOC
-— I-LOC
-- I-LOC
-|
-
-| I-LOC
-T I-LOC
+T O
 |
 
 | O
 |||| O
 LE O
 . O
-CHATEAU B-ORG
-DE O
-SINON B-ORG
+CHATEAU B-MISC
+DE I-MISC
+SINON I-MISC
 . O
 _ O
 47 O
@@ -11088,7 +11088,7 @@ soupçons O
 |
 | O
 il O
-n’ B-PER
+n’ O
 en O
 fallait O
 pas O
@@ -11118,7 +11118,7 @@ roi O
 ne O
 regarda O
 plus O
-Henriette B-PER
+Henriette B-MISC
 , O
 car O
 |
@@ -11212,7 +11212,7 @@ A O
 |
 | O
 bret O
-s’ B-LOC
+s’ O
 approcha O
 un O
 soir O
@@ -11221,7 +11221,7 @@ mademoiselle O
 de O
 |
  | O
-Roucy B-LOC
+Roucy B-PER
 , O
 au O
 moment O
@@ -11242,7 +11242,7 @@ fenêtre O
 
 | O
 — O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 lui O
 dit-1l O
@@ -11272,7 +11272,7 @@ et O
 une O
 couleur O
 . O
-Jusqu B-PER
+Jusqu O
 ici O
 |
 | O
@@ -11301,16 +11301,16 @@ goüt O
 | O
 48 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
 _ O
-Vraiment O
+Vraiment B-PER
 , O
 Monsieur B-PER
 , O
@@ -11455,10 +11455,10 @@ les O
 . O
 M. O
 d' O
-Al- O
+Al- B-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 comprit O
 très O
 bien O
@@ -11524,29 +11524,29 @@ La I-PER
 
  
 
-| O
-|||| O
+| I-PER
+|||| I-PER
 |
-| O
-|||| O
+| I-PER
+|||| I-PER
 |
-| O
-|||| O
+| I-PER
+|||| I-PER
 |
-| O
-|||| O
+| I-PER
+|||| I-PER
 |
 
-| O
-LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+| I-PER
+LE I-PER
+CHATEAU I-PER
+DE I-PER
+SINON I-PER
 . O
 49 O
 |
 | O
-Vallière B-LOC
+Vallière B-MISC
 . O
 Au O
 moment O
@@ -11556,11 +11556,11 @@ passe O
 ce O
 récit O
 , O
-en- O
+en- B-MISC
 |
 
-| O
-tièrement O
+| I-MISC
+tièrement I-MISC
 subjugué O
 par O
 madame B-PER
@@ -11576,8 +11576,8 @@ n' O
 avait O
 ni O
 cœur O
-n1 B-MISC
-imagination I-MISC
+n1 O
+imagination O
 , O
 et O
 à O
@@ -11634,8 +11634,8 @@ marquis O
 
 | O
 _ O
-d' O
-Albret B-PER
+d' B-PER
+Albret I-PER
 , O
 commandanile O
 quadrille O
@@ -11656,9 +11656,9 @@ de O
 |
 
 | O
-Jour B-MISC
-en I-MISC
-émeraudes I-MISC
+Jour B-LOC
+en O
+émeraudes O
 , O
 avec O
 les O
@@ -11688,7 +11688,7 @@ de O
 sa O
 taille O
 , O
-l’ B-LOC
+l’ O
 adresse O
 qu' O
 il O
@@ -11729,7 +11729,7 @@ de O
 made- O
 |
 | O
-moselle O
+moselle B-LOC
 de O
 Roucy B-LOC
 , O
@@ -11764,7 +11764,7 @@ elle O
 Le O
 comte B-PER
 de I-PER
-Roucy O
+Roucy I-PER
 était O
 retourné O
 à O
@@ -11774,10 +11774,10 @@ Sissone B-LOC
 
 | O
 mais O
-MM. O
-de O
-Bussy- B-PER
-Lameth I-PER
+MM. B-PER
+de I-PER
+Bussy- I-PER
+Lameth O
 restèrent O
 à O
 Paris B-LOC
@@ -11791,9 +11791,9 @@ I. O
 | O
 50 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -11863,7 +11863,7 @@ elle O
 s' O
 enivrait O
 de O
-l’ B-LOC
+l’ O
 encens O
 dont O
 elle O
@@ -11892,10 +11892,10 @@ elle O
 
 | O
 — O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 lui O
-dit-1l O
+dit-1l B-PER
 , O
 me O
 sera O
@@ -11926,7 +11926,7 @@ couleurs O
 
 | O
 Elle O
-s’ B-LOC
+s’ O
 inclina O
 sans O
 répondre O
@@ -12011,7 +12011,7 @@ de O
 vos O
 dons O
 ? O
-Croyez B-MISC
+Croyez B-LOC
 -vous O
 donc O
 que O
@@ -12065,9 +12065,9 @@ o1 B-MISC
 
 | O
 — O
-Allons B-LOC
-donc O
-! O
+Allons B-MISC
+donc I-MISC
+! I-MISC
 répliqua O
 -t O
 -elle O
@@ -12095,10 +12095,10 @@ en O
 a O
 prévenue O
 , O
-Demploi- B-MISC
+Demploi- B-PER
 |
-| I-MISC
-selle I-MISC
+| O
+selle O
 , O
 cette O
 cour O
@@ -12148,7 +12148,7 @@ Le O
 jeune O
 comte O
 pâlit O
-éencore O
+éencore B-LOC
 , O
 regarda O
 un O
@@ -12156,7 +12156,7 @@ ins- O
 |
 | O
 tant O
-Henriette B-PER
+Henriette B-MISC
 et O
 se O
 retira O
@@ -12245,9 +12245,9 @@ moindre O
 
 | O
 — O
-Qu' O
-importe O
-! O
+Qu' B-MISC
+importe I-MISC
+! I-MISC
 s' O
 écria O
 -t O
@@ -12300,9 +12300,9 @@ gentilshommes O
 | O
 02 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -12364,8 +12364,8 @@ pétueuse O
 , O
 incessante O
 . O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 notre O
 cœur O
 est O
@@ -12392,17 +12392,17 @@ vainqueur O
 |
 
 | O
-Peer B-PER
+Peer B-MISC
 |
 
-| O
-TIT O
+| I-MISC
+TIT I-MISC
 |
 
 | O
 UN O
 ASTRE O
-ÉCLIPSE B-MISC
+ÉCLIPSE O
 . O
 |
 
@@ -12476,11 +12476,11 @@ Fontainebleau B-LOC
 . O
 Madame B-PER
 de I-PER
-Montes- I-PER
+Montes- B-PER
 |
 
-| I-PER
-pan I-PER
+| O
+pan O
 , O
 par O
 calcul O
@@ -12496,9 +12496,9 @@ om- O
 | O
 54 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -12509,11 +12509,11 @@ roi O
 contre O
 le O
 de O
-de O
-Lauzun B-LOC
+de B-PER
+Lauzun I-PER
 . O
-Le O
-roi O
+Le B-PER
+roi I-PER
 ne O
 |
 | O
@@ -12557,7 +12557,7 @@ de O
 son O
 intimité O
 . O
-LL O
+LL B-ORG
 |
 
 | O
@@ -12587,7 +12587,7 @@ Audincourt I-PER
 — O
 Oui O
 , O
-Sire B-LOC
+Sire B-PER
 , O
 du O
 moins O
@@ -12666,7 +12666,7 @@ pour O
 corriger O
 ces O
 . O
-abus B-MISC
+abus O
 . O
 |
 
@@ -12676,7 +12676,7 @@ Que O
 faire O
 alors O
 , O
-Sire B-LOC
+Sire B-PER
 ? O
 |
 
@@ -12738,9 +12738,9 @@ garde O
 | O
 - O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 55 O
 |
@@ -12758,13 +12758,13 @@ rien O
 crain- O
 |
 | O
-dre O
+dre B-ORG
 . O
 |
 
 | O
-La O
-reine O
+La B-PER
+reine I-PER
 regarda O
 un O
 instant O
@@ -12841,8 +12841,8 @@ et O
 le O
 désir O
 de O
-la O
-tourénter O
+la B-PER
+tourénter I-PER
 fut O
 plus O
 fort O
@@ -12887,7 +12887,7 @@ les O
 |
 | O
 respects O
-düs O
+düs B-ORG
 à O
 son O
 rang O
@@ -12951,9 +12951,9 @@ et O
 je O
 recommanderai O
 à O
-madame O
-de O
-Na- O
+madame B-PER
+de I-PER
+Na- I-PER
 |
 
 | O
@@ -12973,28 +12973,28 @@ Picarde B-LOC
 
 | O
 5 O
-G B-PER
-LE I-PER
-CHATEAU I-PER
-DE I-PER
-SINON I-PER
+G O
+LE O
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
-La B-PER
-reine I-PER
+La O
+reine O
 sait O
 qu’ O
 on O
 peut O
 tromper O
-madame O
+madame B-PER
 |
-| O
-de O
-Batailles B-LOC
+| I-PER
+de I-PER
+Batailles I-PER
 , O
 reprit O
 madame B-PER
@@ -13024,8 +13024,8 @@ Vallière I-LOC
 
 | O
 — O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 Madame B-PER
 , O
 je O
@@ -13075,7 +13075,7 @@ signifié O
 à O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 qu' O
 elle O
 allait O
@@ -13159,8 +13159,8 @@ va O
 faire O
 une O
 seconde O
-La B-LOC
-Vallière I-LOC
+La B-PER
+Vallière I-PER
 , O
 ré- O
 |
@@ -13185,19 +13185,19 @@ jusque-là O
 madame B-PER
 |
 
-| O
-qq O
+| I-PER
+qq I-PER
 . O
 |
 
 | O
-CRETE B-MISC
+CRETE B-LOC
 |
 
 | O
 _ O
-GA B-MISC
-A I-MISC
+GA O
+A O
 |
 
  
@@ -13214,7 +13214,7 @@ SINON I-MISC
 |
 | O
 de O
-Montespan O
+Montespan B-PER
 ne O
 le O
 permettra O
@@ -13223,10 +13223,10 @@ pas O
 continua O
 |
 | O
-mademoiselle O
-de O
-la O
-Mothe B-LOC
+mademoiselle B-PER
+de I-PER
+la I-PER
+Mothe I-PER
 . O
 |
 
@@ -13246,7 +13246,7 @@ trée O
 sans O
 qu' O
 on O
-l’ B-ORG
+l’ O
 entendit O
 , O
 vous O
@@ -13266,14 +13266,14 @@ votre O
 cou- O
 |
 | O
-sine B-LOC
+sine O
 , O
-mademoiselle O
-de O
-la O
-Mothe B-LOC
-- I-LOC
-Houdancourt I-LOC
+mademoiselle B-PER
+de I-PER
+la I-PER
+Mothe I-PER
+- I-PER
+Houdancourt I-PER
 , O
 |
 
@@ -13284,7 +13284,7 @@ de O
 trois O
 semaines O
 . O
-Soyez B-ORG
+Soyez O
 tranquille O
 , O
 |
@@ -13312,7 +13312,7 @@ la O
 reine O
 au O
 lieu O
-d’ B-LOC
+d’ O
 être O
 fille O
 de O
@@ -13327,8 +13327,8 @@ voilà O
 tout O
 . O
 Madame B-PER
-la O
-duchesse B-PER
+la I-PER
+duchesse I-PER
 de I-PER
 |
 
@@ -13397,9 +13397,9 @@ la O
 pensée O
 d' O
 être O
-marquise O
-d' O
-Albret B-PER
+marquise B-PER
+d' I-PER
+Albret I-PER
 , O
 d' O
 ob- O
@@ -13453,7 +13453,7 @@ Picardie B-LOC
 , O
 Laon B-LOC
 . O
-Sinon B-PER
+Sinon O
 , O
 Sissone B-PER
 , O
@@ -13464,22 +13464,22 @@ ré- O
 | O
 tr O
 mtmmPope O
-Pa O
+Pa B-MISC
 sms O
 cm O
 de O
 mens O
 ne O
 4e O
-Vtt B-PER
-unes O
-à O
+Vtt B-MISC
+unes I-MISC
+à I-MISC
 |
 
-| O
-58 O
-LE O
-CHATEAU B-MISC
+| I-MISC
+58 I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -13491,13 +13491,13 @@ province O
 , O
 madame B-PER
 Ja I-PER
-baillie O
+baillie I-PER
 et O
-la- O
+la- B-PER
 |
-| O
-dame O
-l’ B-ORG
+| I-PER
+dame I-PER
+l’ O
 éle O
 lui O
 revenaient O
@@ -13521,7 +13521,7 @@ pour O
 |
 | O
 jurer O
-qu’ B-PER
+qu’ O
 elle O
 ne O
 consentirait O
@@ -13537,8 +13537,8 @@ Elle O
 trouvait O
 aussi O
 le O
-marquis O
-d’ B-PER
+marquis B-PER
+d’ I-PER
 Albret I-PER
 |
 | O
@@ -13555,7 +13555,7 @@ Bussy B-LOC
 La- I-LOC
 |
 | O
-meth B-LOC
+meth O
 . O
 Son O
 amour O
@@ -13619,7 +13619,7 @@ passerait O
 un O
 mois O
 . O
-L’ B-PER
+L’ O
 espèce O
 d' O
 attention O
@@ -13631,9 +13631,9 @@ par O
 le O
 roi O
 à O
-mademoiselle O
-de O
-Roucy B-LOC
+mademoiselle B-PER
+de I-PER
+Roucy B-PER
 cessa O
 dès O
 |
@@ -13654,9 +13654,9 @@ alerte O
 eut O
 sacrifié O
 le O
-duc O
-de O
-Lauzun B-LOC
+duc B-PER
+de I-PER
+Lauzun I-PER
 . O
 Mais O
 |
@@ -13674,13 +13674,13 @@ en O
 casse O
 récidive O
 . O
-Nile B-PER
+Nile B-MISC
 roi O
 ni O
 la O
 marquise O
 n' O
-Ou- O
+Ou- B-LOC
 |
 | O
 _ O
@@ -13697,7 +13697,7 @@ expir O
 |
 | O
 à O
-Pignerol B-PER
+Pignerol B-LOC
 , O
 et O
 Henriette B-PER
@@ -13715,9 +13715,9 @@ tard O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 99 O
 |
@@ -13736,7 +13736,7 @@ vieux O
 | O
 château O
 de O
-François B-LOC
+François O
 1 O
 ° O
 fut O
@@ -13810,7 +13810,7 @@ on O
 |
 
 | O
-s’ B-PER
+s’ O
 obstinait O
 à O
 l' O
@@ -13838,7 +13838,7 @@ un O
 | O
 air O
 si O
-conquérant B-PER
+conquérant O
 qu’ O
 elle O
 ne O
@@ -13885,11 +13885,11 @@ belle O
 | O
 maitresse O
 . O
-MM. B-LOC
+MM. O
 de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy O
+- O
+Lameth O
 étaientretour- O
 |
 
@@ -13928,7 +13928,7 @@ la O
 chasse O
 à O
 côté O
-l’ B-LOC
+l’ O
 un O
 de O
 l' O
@@ -14003,7 +14003,7 @@ devait O
 à O
 merveille O
 , O
-l’ B-LOC
+l’ O
 excitait O
 encore O
 par O
@@ -14015,10 +14015,10 @@ lége O
 de O
 la O
 plus O
-afroïte O
-coquetterie O
+afroïte B-PER
+coquetterie I-PER
 . O
-Tantôt B-PER
+Tantôt O
 elle O
 |
 | O
@@ -14047,7 +14047,7 @@ de O
 | O
 venait O
 pâle O
-.et O
+.et B-ORG
 se O
 suspendait O
 à O
@@ -14134,7 +14134,7 @@ la O
 comp- O
 |
 | O
-gnie B-LOC
+gnie O
 , O
 et O
 - O
@@ -14166,8 +14166,8 @@ vie O
 belle O
 |
 | O
-Henriette B-PER
-! I-PER
+Henriette B-MISC
+! O
 et O
 que O
 ne O
@@ -14277,7 +14277,7 @@ Je O
 ne O
 vous O
 ai O
-Jamais B-PER
+Jamais O
 dit O
 que O
 je O
@@ -14348,9 +14348,9 @@ jette O
 vos O
 pieds O
 . O
-Prononcez B-PER
-- I-PER
-le I-PER
+Prononcez O
+- O
+le O
 , O
 et O
 |
@@ -14380,10 +14380,10 @@ vous O
 
 | O
 — O
-Vous B-MISC
-connaissez I-MISC
-ma I-MISC
-position I-MISC
+Vous O
+connaissez O
+ma O
+position O
 , O
 Monsieur B-PER
 ; O
@@ -14416,7 +14416,7 @@ moins O
 votre O
 cœur O
 de O
-l’ B-LOC
+l’ O
 est O
 pas O
 ? O
@@ -14444,9 +14444,9 @@ ineffable O
 | O
 62 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -14480,7 +14480,7 @@ Hélas B-MISC
 , O
 je O
 ne O
-l’ B-LOC
+l’ O
 ai O
 avoué O
 à O
@@ -14545,10 +14545,10 @@ mien O
 
 | O
 — O
-Et B-MISC
-qui I-MISC
-est-11 I-MISC
-? I-MISC
+Et O
+qui O
+est-11 O
+? O
 Nommez O
 - O
 le O
@@ -14576,7 +14576,7 @@ le O
 lui O
 dire O
 que O
-s’ B-PER
+s’ O
 il O
 |
 | O
@@ -14601,7 +14601,7 @@ croire O
 Cela O
 |
 | O
-est-1l B-ORG
+est-1l O
 vrai O
 ? O
 |
@@ -14681,19 +14681,19 @@ pente O
 nn O
 + O
 en O
-dé O
-ie O
+dé B-MISC
+ie I-MISC
 |
-| O
-eo O
-de O
-A B-LOC
-+ O
+| I-MISC
+eo I-MISC
+de I-MISC
+A I-MISC
++ I-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -14727,15 +14727,15 @@ maines O
 , O
 et O
 que O
-Je B-MISC
-vous I-MISC
-rappellerai I-MISC
-tout I-MISC
-haut I-MISC
-mon I-MISC
+Je O
+vous O
+rappellerai O
+tout O
+haut O
+mon O
 |
-| I-MISC
-maitre I-MISC
+| O
+maitre O
 et O
 seigneur O
 ? O
@@ -14764,8 +14764,8 @@ trement O
 
 | O
 — O
-Vous B-PER
-mesurez I-PER
+Vous O
+mesurez O
 donc O
 de O
 m' O
@@ -14821,16 +14821,16 @@ une O
 fer- O
 |
 | O
-meté O
-mébranlable O
+meté B-PER
+mébranlable I-PER
 . O
 |
 
 | O
 — O
-Comptez B-LOC
-sur O
-moi O
+Comptez B-MISC
+sur I-MISC
+moi I-MISC
 . O
 |
 
@@ -14868,12 +14868,12 @@ monde O
 mais O
 nous O
 avons O
-MM. O
-de O
+MM. B-PER
+de I-PER
 |
 
-| O
-Lameth B-PER
+| I-PER
+Lameth I-PER
 ; O
 ils O
 persuaderont O
@@ -14913,9 +14913,9 @@ sais O
 | O
 64 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -14934,7 +14934,7 @@ défiera O
 | O
 M. B-PER
 de I-PER
-Lameth B-PER
+Lameth I-PER
 fils O
 , O
 nous O
@@ -15093,7 +15093,7 @@ lui O
 donne O
 ordre O
 , O
-s’ B-PER
+s’ O
 il O
 le O
 faut O
@@ -15140,7 +15140,7 @@ bonté O
 n' O
 ira O
 pas O
-jusqu’ B-PER
+jusqu’ O
 à O
 vous O
 marier O
@@ -15183,7 +15183,7 @@ le- O
 |
 
 | O
-rai B-ORG
+rai B-PER
 tuer O
 plutôt O
 que O
@@ -15264,11 +15264,11 @@ peut-être O
 notre O
 secours O
 . O
-|||| O
+|||| B-MISC
 |
 
-| O
-Hélas B-MISC
+| I-MISC
+Hélas I-MISC
 ! I-MISC
 ainsi O
 est O
@@ -15289,7 +15289,7 @@ lendemain O
 même O
 lorsqu' O
 il O
-s’ B-PER
+s’ O
 agit O
 |
 
@@ -15382,16 +15382,16 @@ essaierai O
 | O
 1 O
 . O
-Ÿ O
+Ÿ B-LOC
 . O
 |
 
 | O
 66 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -15477,7 +15477,7 @@ ayant O
 ses O
 côlés O
 mademoiselle O
-Char- O
+Char- B-PER
 |
 | O
 lotte O
@@ -15488,18 +15488,18 @@ fille O
 du O
 maréchal O
 et O
-cousine O
-ger- O
+cousine B-PER
+ger- I-PER
 |
-| O
-maine O
+| I-PER
+maine I-PER
 du O
 marquis O
 . O
 Cette O
 jeune O
 fille O
-n’ B-PER
+n’ O
 était O
 point O
 |
@@ -15530,14 +15530,14 @@ Une O
 sorte O
 de O
 répulsion O
-l’ B-ORG
+l’ O
 éloignait O
 |
 | O
 de O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 ; O
 c' O
 était O
@@ -15550,7 +15550,7 @@ de O
 jalousie O
 . O
 Elles O
-s’ B-PER
+s’ O
 examinaient O
 sans O
 se O
@@ -15562,7 +15562,7 @@ le O
 marquis O
 s' O
 en O
-aperçtet O
+aperçtet B-MISC
 en O
 fit O
 le O
@@ -15608,8 +15608,8 @@ cette O
 Jeune B-MISC
 fille I-MISC
 vous I-MISC
-est I-MISC
-destinée I-MISC
+est O
+destinée O
 . O
 |
 
@@ -15664,7 +15664,7 @@ Lui- B-ORG
 |
 | O
 son O
-Beaupré B-MISC
+Beaupré B-ORG
 de O
 la O
 chambre O
@@ -15682,7 +15682,7 @@ voir O
 la O
 marquise O
 d' O
-Audincourt B-LOC
+Audincourt O
 . O
 Elle O
 |
@@ -15776,7 +15776,7 @@ la- O
 | O
 dame O
 de O
-Batailles B-LOC
+Batailles O
 , O
 qui O
 , O
@@ -15790,7 +15790,7 @@ Henriette B-PER
 de O
 sortir O
 de O
-l’ B-LOC
+l’ O
 appartement O
 des O
 filles O
@@ -15884,7 +15884,7 @@ sans O
 penser O
 au O
 mal O
-qu’ B-MISC
+qu’ O
 en O
 ressentirait O
 demploi- O
@@ -15892,7 +15892,7 @@ demploi- O
 | O
 selle O
 d' O
-Albret B-PER
+Albret O
 . O
 |||| O
 |
@@ -15988,7 +15988,7 @@ Charlotte B-PER
 d’ O
 un O
 air”de O
-dédam O
+dédam B-MISC
 . O
 |
 
@@ -16186,8 +16186,8 @@ elle O
 nia O
 tout O
 . O
-La O
-reine O
+La B-PER
+reine I-PER
 fut O
 instruire O
 , O
@@ -16233,9 +16233,9 @@ marier O
 
 | O
 — O
-M. B-PER
-de I-PER
-Roucy I-PER
+M. O
+de O
+Roucy B-PER
 n' O
 y O
 consentira O
@@ -16245,9 +16245,9 @@ réon- O
 |
 | O
 dit O
-madame O
-d' O
-Audincourt O
+madame B-PER
+d' I-PER
+Audincourt I-PER
 ; O
 1l O
 a O
@@ -16258,10 +16258,10 @@ parole O
 | O
 à O
 M. B-PER
-de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+de I-PER
+Bussy I-PER
+- I-PER
+Lameth I-PER
 , O
 qui O
 ne O
@@ -16291,7 +16291,7 @@ demander O
 en O
 mariage O
 ; O
-s’ B-PER
+s’ O
 il O
 est O
 |
@@ -16311,17 +16311,17 @@ côté O
 
 | O
 — O
-Votre B-PER
-Majesté I-PER
+Votre B-MISC
+Majesté I-MISC
 rendra O
 le O
-maréchal O
-d’ O
-Al- B-PER
+maréchal B-PER
+d’ I-PER
+Al- I-PER
 |
 
-| O
-bret O
+| I-PER
+bret I-PER
 bien O
 malheureux O
 , O
@@ -16335,15 +16335,15 @@ mar- O
 | O
 70 O
 DE O
-CHATEAU B-ORG
+CHATEAU O
 DE O
-SINON B-ORG
+SINON O
 . O
 |
 | O
 quis O
 à O
-mademoiselle O
+mademoiselle B-PER
 sa O
 fille O
 , O
@@ -16352,7 +16352,7 @@ madame B-PER
 |
 | I-PER
 de I-PER
-Richelieu B-PER
+Richelieu I-PER
 . O
 |||| O
 |
@@ -16452,7 +16452,7 @@ comte O
 |
 | O
 de O
-Roucy B-LOC
+Roucy B-PER
 et O
 le O
 comit O
@@ -16472,7 +16472,7 @@ tombant O
 ses O
 pieds O
 ne O
-l’ B-LOC
+l’ O
 est O
 pas O
 plus O
@@ -16544,21 +16544,21 @@ honneur O
 — O
 Vous O
 venez O
-mé O
-chercher O
+mé B-PER
+chercher I-PER
 , O
-Monsieur B-PER
-! O
-s’ B-PER
+Monsieur B-MISC
+! I-MISC
+s’ O
 é- O
 |
 
 | O
-cria B-LOC
-- I-LOC
-t I-LOC
-- I-LOC
-ellé I-LOC
+cria O
+- O
+t O
+- O
+ellé O
 . O
 |
 
@@ -16575,7 +16575,7 @@ SINON I-MISC
 — O
 Oui O
 , O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 , O
 et O
 , O
@@ -16614,11 +16614,11 @@ nom O
 , O
 dit O
 le O
-comte O
-de O
+comte B-PER
+de I-PER
 |
-| O
-Bussy B-LOC
+| I-PER
+Bussy I-PER
 . O
 |
 
@@ -16633,7 +16633,7 @@ Monsieur B-PER
 répliqua O
 |
 | O
-Henrietteé B-LOC
+Henrietteé B-PER
 qui O
 , O
 après O
@@ -16678,8 +16678,8 @@ refuse O
 
 | O
 — O
-Vous B-MISC
-refusez I-MISC
+Vous O
+refusez O
 , O
 Mademoiselle B-PER
 , O
@@ -16726,7 +16726,7 @@ honneur O
 ; O
 mademoiselle O
 de O
-Roucy B-LOC
+Roucy B-PER
 |
 | O
 n' O
@@ -16857,7 +16857,7 @@ de I-PER
 Lameth I-PER
 ; O
 vous O
-tiendriez O
+tiendriez B-PER
 |
 | O
 votre O
@@ -16900,13 +16900,13 @@ parlait O
 ainsi O
 , O
 le O
-comte O
-de O
+comte B-PER
+de I-PER
 |
-| O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+| I-PER
+Bussy O
+- O
+Lameth O
 se O
 promenait O
 dans O
@@ -16930,8 +16930,8 @@ fin O
 , O
 il O
 croisades O
-braset O
-s’ B-PER
+braset B-PER
+s’ O
 arréta O
 droit O
 devant O
@@ -16942,20 +16942,20 @@ elle O
 | O
 * O
 — O
-Si B-MISC
-c' I-MISC
-était I-MISC
-moi I-MISC
-qui I-MISC
-ai I-MISC
-reçu I-MISC
-la I-MISC
-promesse I-MISC
-de I-MISC
+Si O
+c' O
+était O
+moi O
+qui O
+ai O
+reçu O
+la O
+promesse O
+de O
 |
-| I-MISC
-votre I-MISC
-père I-MISC
+| O
+votre O
+père O
 , O
 de O
 la O
@@ -17018,7 +17018,7 @@ ne O
 re- O
 |
 | O
-noncerai O
+noncerai B-LOC
 donc O
 pas O
 à O
@@ -17041,7 +17041,7 @@ je O
 vous O
 prie O
 , O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 de O
 |
@@ -17104,7 +17104,7 @@ marquis O
 |
 | O
 il O
-l’ B-ORG
+l’ O
 a O
 dit O
 , O
@@ -17117,8 +17117,8 @@ sûre O
 
 | O
 — O
-Sa O
-Majesté B-MISC
+Sa B-PER
+Majesté I-PER
 a O
 entendu O
 monsieur O
@@ -17127,7 +17127,7 @@ père O
 |
 | O
 et O
-l’ B-LOC
+l’ O
 a O
 autorisé O
 à O
@@ -17344,11 +17344,11 @@ oublier O
 
 | O
 — O
-Vous B-MISC
-obéirez I-MISC
-à I-MISC
-mes I-MISC
-ordres I-MISC
+Vous O
+obéirez B-PER
+à O
+mes O
+ordres O
 . O
 |
 
@@ -17408,7 +17408,7 @@ dans O
 ses O
 yeux O
 en O
-de- O
+de- B-LOC
 |
 
 | O
@@ -17457,9 +17457,9 @@ rompre O
 |
 
 | O
-M. B-PER
-de I-PER
-Bussy I-PER
+M. O
+de O
+Bussy B-LOC
 haussa O
 les O
 épaules O
@@ -17481,7 +17481,7 @@ porte O
 
 | O
 — O
-Dites O
+Dites B-LOC
 bien O
 un O
 éternel O
@@ -17715,7 +17715,7 @@ son O
 sort O
 . O
 Il O
-s’'approcha B-LOC
+s’'approcha O
 d' O
 elle O
 lorsque O
@@ -17775,9 +17775,9 @@ r O
 | O
 76 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 . O
 |
@@ -17818,7 +17818,7 @@ amour O
 . O
 |
 | O
-Dites O
+Dites B-LOC
 -moi O
 maintenant O
 que O
@@ -17923,8 +17923,8 @@ NOUS O
 nous O
 reverrons O
 , O
-OU O
-Je O
+OU B-MISC
+Je I-MISC
 serai O
 |
 | O
@@ -17937,9 +17937,9 @@ Ils O
 se O
 quittérent O
 ; O
-madame O
-d' O
-Audincourt B-LOC
+madame B-PER
+d' I-PER
+Audincourt I-PER
 s' O
 ap- O
 |
@@ -17952,7 +17952,7 @@ eux O
 
 | O
 — O
-Venez B-LOC
+Venez B-MISC
 , O
 mademoiselle O
 , O
@@ -18009,9 +18009,9 @@ Richelieu I-PER
  
 
 | O
-LE.CHATEAU O
-DE O
-SINON B-ORG
+LE.CHATEAU B-MISC
+DE I-MISC
+SINON I-MISC
 . O
 ‘ O
 77 O
@@ -18019,9 +18019,9 @@ SINON B-ORG
 
 | O
 — O
-Nous B-MISC
-vous I-MISC
-perdons I-MISC
+Nous O
+vous O
+perdons O
 , O
 mademoiselle O
 , O
@@ -18070,7 +18070,7 @@ dans O
 votre O
 famille O
 . O
-Recevez B-PER
+Recevez O
 -en O
 |
 | O
@@ -18239,14 +18239,14 @@ apprendre O
 | O
 78 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
 . O
-Fière B-PER
+Fière O
 de O
 ce O
 trait O
@@ -18262,7 +18262,7 @@ en- O
 demie O
 , O
 elle O
-n’ B-PER
+n’ O
 attendait O
 pas O
 de O
@@ -18285,11 +18285,11 @@ retira O
 IV O
 |
 | O
-ARMÉE B-ORG
+ARMÉE O
 JUSQU' O
 A O
 LA O
-MORT B-ORG
+MORT B-MISC
 , O
 |
 
@@ -18300,7 +18300,7 @@ la O
 durée O
 du O
 voyage O
-Henriette B-PER
+Henriette B-MISC
 |
 | O
 resta O
@@ -18426,8 +18426,8 @@ aper- O
 cevant O
 le O
 jeune O
-comte O
-de O
+comte B-PER
+de I-PER
 Bussy B-LOC
 - I-LOC
 Lameth I-LOC
@@ -18471,7 +18471,7 @@ réveil O
 , O
 elle O
 vit O
-en- O
+en- B-LOC
 |
 | O
 tre O
@@ -18537,7 +18537,7 @@ point O
 être O
 dérangé O
 . O
-Louison O
+Louison B-PER
 , O
 laissez O
 -nous O
@@ -18572,10 +18572,10 @@ décidé O
 vous O
 ramener O
 à O
-Sis- B-LOC
+Sis- B-MISC
 |
 | O
-sone B-LOC
+sone O
 , O
 vous O
 les O
@@ -18619,13 +18619,13 @@ PINOT I-MISC
 |
 
 | O
-comte O
-de O
-Lameth O
+comte B-PER
+de I-PER
+Lameth I-PER
 a O
 toujours O
 été O
-l’ B-ORG
+l’ O
 objet O
 de O
 mes O
@@ -18639,7 +18639,7 @@ chers O
 |
 | O
 — O
-Oui B-PER
+Oui O
 , O
 Monsieur B-PER
 . O
@@ -18674,13 +18674,13 @@ ans O
 , O
 Henriette B-PER
 , O
-pensez B-PER
-- I-PER
-y. I-PER
+pensez O
+- O
+y. O
 |
 
-| I-PER
-— I-PER
+| O
+— O
 Oui O
 , O
 Monsieur B-PER
@@ -18719,7 +18719,7 @@ ces O
 Les O
 seigneurs O
 de O
-Lameth B-LOC
+Lameth B-PER
 |
 | O
 veulent O
@@ -18779,16 +18779,16 @@ foi O
 à O
 M. B-PER
 le O
-marquis O
-d’ O
-Al- B-PER
+marquis B-PER
+d’ I-PER
+Al- I-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 , O
 et O
 je O
-n’ B-PER
+n’ O
 appartiendrait O
 qu’ O
 à O
@@ -18806,10 +18806,10 @@ vivant O
 
 | O
 — O
-Vous B-MISC
-réfléchire I-MISC
+Vous O
+réfléchire O
 , O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 . O
 |
 
@@ -18837,24 +18837,24 @@ ne I-MISC
 vous I-MISC
 prie I-MISC
 pas I-MISC
-, O
-je O
-n' O
-es- O
+, I-MISC
+je I-MISC
+n' I-MISC
+es- I-MISC
 |
-| O
-I. O
-6 O
+| I-MISC
+I. I-MISC
+6 I-MISC
 |
 
-| O
-+ O
+| I-MISC
++ I-MISC
 |
 
-| O
-82 O
-LE O
-CHATEAU B-MISC
+| I-MISC
+82 I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -18897,8 +18897,8 @@ irrévocable O
 Eh B-MISC
 bien I-MISC
 ! I-MISC
-ma O
-fille O
+ma I-MISC
+fille I-MISC
 , O
 si O
 votre O
@@ -18920,7 +18920,7 @@ vous O
 |
 | O
 vous O
-croyez B-ORG
+croyez O
 assez O
 forte O
 sans O
@@ -19058,7 +19058,7 @@ Et O
 vous O
 ne O
 recevrez O
-n1 O
+n1 B-PER
 n' O
 écrirez O
 aucune O
@@ -19100,7 +19100,7 @@ décidée O
 
 | O
 — O
-Absolument B-LOC
+Absolument O
 . O
 |
 
@@ -19108,7 +19108,7 @@ Absolument B-LOC
 — O
 Adieu B-PER
 , O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 je O
 reviendrai O
@@ -19191,7 +19191,7 @@ porte O
 , O
 mit O
 le O
-verrou B-LOC
+verrou O
 , O
 et O
 prenant O
@@ -19273,7 +19273,7 @@ persécutions O
 |
 | O
 « O
-n1 B-ORG
+n1 O
 menaces O
 , O
 et O
@@ -19299,11 +19299,11 @@ me O
 
 | O
 « O
-Conserver B-ORG
+Conserver O
 à O
 vous O
 . O
-Ecrivez B-MISC
+Ecrivez O
 -moi O
 : O
 adresse O
@@ -19313,9 +19313,9 @@ la O
 | O
 61 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 , O
 |||| O
 |
@@ -19332,7 +19332,7 @@ arrivera O
 |
 | O
 « O
-Lôl B-PER
+Lôl B-LOC
 ou O
 tard O
 . O
@@ -19360,9 +19360,9 @@ aime O
 
 | O
 « O
-HenRiETTE O
-DE O
-Roucy B-LOC
+HenRiETTE B-MISC
+DE I-MISC
+Roucy I-MISC
 . O
 » O
 |
@@ -19370,7 +19370,7 @@ Roucy B-LOC
 | O
 Elle O
 appela O
-Louison O
+Louison B-PER
 , O
 { O
 ui O
@@ -19464,7 +19464,7 @@ M. B-PER
 son O
 père O
 , O
-qu’ B-PER
+qu’ O
 elle O
 devait O
 |
@@ -19509,7 +19509,7 @@ vations O
 La O
 vieille O
 femme O
-s’ B-PER
+s’ O
 assit O
 près O
 de O
@@ -19520,7 +19520,7 @@ et O
 |
 
 | O
-tricota O
+tricota B-MISC
 . O
 |
 
@@ -19535,11 +19535,11 @@ SINON I-MISC
 | O
 _ O
 — O
-Vous B-MISC
-ne I-MISC
-me I-MISC
-serviriez I-MISC
-pas I-MISC
+Vous O
+ne O
+me O
+serviriez O
+pas O
 , O
 il O
 n' O
@@ -19570,7 +19570,7 @@ ne O
 parlera O
 pas O
 à O
-Mademoiselle B-LOC
+Mademoiselle B-PER
 à O
 voix O
 |
@@ -19627,7 +19627,7 @@ Tu O
 as O
 entendu O
 , O
-Loui- O
+Loui- B-PER
 |
 | O
 son O
@@ -19649,7 +19649,7 @@ père O
 trois O
 Jours B-MISC
 . O
-Pa- O
+Pa- B-MISC
 : O
 |
 | O
@@ -19692,9 +19692,9 @@ avait O
 raison O
 . O
 Le O
-comte O
-de O
-Roucy O
+comte B-PER
+de I-PER
+Roucy I-PER
 |
 | O
 _ O
@@ -19724,9 +19724,9 @@ sonore- O
 | O
 tour O
 le O
-château B-LOC
-de I-LOC
-Sissone I-LOC
+château O
+de O
+Sissone B-LOC
 lui O
 paraissait O
 d' O
@@ -19754,13 +19754,13 @@ de O
 la O
 forâtre O
 et O
-gra- O
+gra- B-MISC
 |
 
-| O
-86 O
-LE O
-CHATEAU B-MISC
+| I-MISC
+86 I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -19856,7 +19856,7 @@ pas O
 s' O
 occuper O
 du O
-de- O
+de- B-LOC
 |
 | O
 hors O
@@ -20124,7 +20124,7 @@ qui O
 aurait O
 fait O
 trembler O
-Hen- O
+Hen- B-PER
 |
 | O
 rette O
@@ -20163,7 +20163,7 @@ sa O
 chambre O
 jusqu O
 à O
-ceé O
+ceé B-ORG
 |
 
 | O
@@ -20236,15 +20236,15 @@ larmes O
 | O
 88 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
 — O
-Soyez B-ORG
-tranquille O
+Soyez B-MISC
+tranquille I-MISC
 , O
 elle O
 ne O
@@ -20328,9 +20328,9 @@ mon- O
 | O
 me O
 et O
-Je B-MISC
-vous I-MISC
-rendra I-MISC
+Je O
+vous O
+rendra O
 compte O
 de O
 la O
@@ -20357,7 +20357,7 @@ une O
 grande O
 révérence O
 , O
-COMME B-ORG
+COMME B-MISC
 |
 | O
 à O
@@ -20391,10 +20391,10 @@ menez O
 |
 | O
 — O
-Je B-MISC
-m' I-MISC
-y I-MISC
-résigne I-MISC
+Je O
+m' O
+y O
+résigne O
 , O
 Monsieur B-PER
 , O
@@ -20422,8 +20422,8 @@ cruelle O
 |
 | O
 — O
-Vous B-MISC
-êtes I-MISC
+Vous O
+êtes O
 donc O
 toujours O
 aussi O
@@ -20446,9 +20446,9 @@ serment O
 — O
 Oh B-MISC
 ! I-MISC
-ma I-MISC
-fille I-MISC
-! I-MISC
+ma O
+fille O
+! O
 ma O
 fille O
 ! O
@@ -20474,9 +20474,9 @@ SINON I-MISC
 
 | O
 — O
-Mon O
-bon O
-père O
+Mon B-MISC
+bon I-MISC
+père I-MISC
 , O
 si O
 vous O
@@ -20579,9 +20579,9 @@ voyage O
 
 | O
 -— O
-Vous B-MISC
-vous I-MISC
-trompez I-MISC
+Vous O
+vous O
+trompez O
 , O
 mon O
 père O
@@ -20608,8 +20608,8 @@ suis O
 tue O
 , O
 mais O
-J B-MISC
-ai I-MISC
+J B-PER
+ai O
 toujours O
 compté O
 sur O
@@ -20706,17 +20706,17 @@ couvent O
 | O
 90 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
-Cent O
-fois O
-! O
+Cent B-MISC
+fois I-MISC
+! I-MISC
 |
 
 | O
@@ -20908,8 +20908,8 @@ regardant O
 madame B-PER
 Jo- I-PER
 |
-| I-PER
-guet I-PER
+| O
+guet O
 , O
 dont O
 les O
@@ -20932,12 +20932,12 @@ baissa O
 , O
 comme O
 pour O
-r- O
+r- B-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -20966,11 +20966,11 @@ que O
 ce- O
 |
 | O
-Je B-MISC
-- I-MISC
-ci I-MISC
-l' I-MISC
-aperçut I-MISC
+Je O
+- O
+ci O
+l' O
+aperçut O
 , O
 son O
 cœur O
@@ -21019,11 +21019,11 @@ apporta O
 un O
 volume O
 du O
-théâtre O
-de O
+théâtre B-LOC
+de I-LOC
 |
-| O
-Corneille B-PER
+| I-LOC
+Corneille O
 . O
 |||| O
 |
@@ -21037,7 +21037,7 @@ celui O
 -là O
 ; O
 ce O
-Nicolle B-LOC
+Nicolle B-PER
 qui O
 est O
 là- O
@@ -21074,7 +21074,7 @@ gros-là O
 
 | O
 Louison B-PER
-sourit I-PER
+sourit O
 , O
 car O
 elle O
@@ -21083,7 +21083,7 @@ de O
 comprend- O
 |
 | O
-dre O
+dre B-ORG
 . O
 Elle O
 apporta O
@@ -21094,12 +21094,12 @@ volume O
 
 | O
 — O
-Donne B-PER
--moi O
-un O
-morceau O
-de O
-papier O
+Donne B-MISC
+-moi I-MISC
+un I-MISC
+morceau I-MISC
+de I-MISC
+papier I-MISC
 , O
 le O
 feu O
@@ -21114,8 +21114,8 @@ pas O
 
 | O
 — O
-Je B-MISC
-n’ I-MISC
+Je O
+n’ O
 en O
 ai O
 point O
@@ -21159,9 +21159,9 @@ qui O
 | O
 92 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -21217,10 +21217,10 @@ d' O
 un O
 air O
 de O
-mé- B-PER
+mé- O
 |
 | O
-fiance B-LOC
+fiance O
 . O
 |||| O
 |||| O
@@ -21239,8 +21239,8 @@ vient O
 de O
 Ma- B-PER
 |
-| O
-demoiselle O
+| I-PER
+demoiselle I-PER
 , O
 il O
 embaume O
@@ -21263,11 +21263,11 @@ comptes O
 de O
 linges O
 , O
-Louison B-MISC
+Louison B-PER
 les O
 porta O
 à O
-mademoïselle O
+mademoïselle B-LOC
 de O
 |
 | O
@@ -21437,7 +21437,7 @@ défendu O
 Alors O
 écoutez O
 , O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 . O
 Je O
 vais O
@@ -21553,7 +21553,7 @@ pour O
 moi O
 , O
 adorable O
-Hen. B-LOC
+Hen. B-PER
 … O
 . O
 » O
@@ -21561,7 +21561,7 @@ Hen. B-LOC
 
 | O
 Comment O
-s’ B-PER
+s’ O
 appelle O
 -t O
 -elle O
@@ -21588,7 +21588,7 @@ s' O
 appelle O
 Charlotte B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 écrit O
 là O
@@ -21616,9 +21616,9 @@ racheter O
 94 O
 Ÿ O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -21672,7 +21672,7 @@ peut-être O
 |
 | O
 « O
-Dù B-PER
+Dù O
 jé O
 pourrai O
 vous O
@@ -21685,7 +21685,7 @@ reconnais- O
 « O
 sance O
 . O
-Vaudois B-PER
+Vaudois B-LOC
 -je O
 faire O
 ? O
@@ -21699,7 +21699,7 @@ ordres O
 « O
 Soyez B-MISC
 mon I-MISC
-ange O
+ange I-MISC
 tutélaire O
 emma O
 souveraine O
@@ -21872,9 +21872,9 @@ Je O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 95 O
 |
@@ -21932,7 +21932,7 @@ mademoiselle O
 |
 | O
 de O
-Roucy B-LOC
+Roucy B-PER
 , O
 qui O
 s' O
@@ -21955,7 +21955,7 @@ finit O
 
 | O
 — O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 je O
 suis O
@@ -22008,7 +22008,7 @@ affreux O
 |
 
 | O
-Soit B-LOC
+Soit B-PER
 , O
 raconte O
 le O
@@ -22026,13 +22026,13 @@ ils O
 — O
 Oui O
 , O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 ? O
 |
 
 | O
 — O
-Etils O
+Etils B-LOC
 furent O
 heureux O
 ? O
@@ -22068,13 +22068,13 @@ ne O
 | O
 96 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
-s’ B-LOC
+s’ O
 aimèrent O
 plus O
 et O
@@ -22143,7 +22143,7 @@ Eh B-MISC
 mon O
 Dieu B-MISC
 ! I-MISC
-Mademoiselle O
+Mademoiselle B-MISC
 , O
 dans O
 mon O
@@ -22402,7 +22402,7 @@ sortie O
 
 | O
 — O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 doit O
 bien O
 s' O
@@ -22432,8 +22432,8 @@ pas O
 
 | O
 . O
-— B-LOC
-Que I-LOC
+— O
+Que O
 voulez O
 -vous O
 que O
@@ -22445,7 +22445,7 @@ dise O
 | O
 — O
 Si O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 avait O
 envie O
 de O
@@ -22469,7 +22469,7 @@ Donnez B-PER
 . O
 Qui O
 vous O
-l’ B-LOC
+l’ O
 a O
 remise O
 ? O
@@ -22497,9 +22497,9 @@ parcourut O
 | O
 98 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -22585,8 +22585,8 @@ feuille O
 
 | O
 — O
-On B-LOC
-s’ I-LOC
+On O
+s’ O
 est O
 battu O
 , O
@@ -22612,7 +22612,7 @@ gazette O
 — O
 Oui O
 , O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 , O
 un O
 peu O
@@ -22634,7 +22634,7 @@ h O
 Ah B-MISC
 ! I-MISC
 mon O
-Dieu O
+Dieu B-MISC
 ! O
 |
 
@@ -22804,7 +22804,7 @@ soumission O
 . O
 Un O
 soir O
-Louison B-MISC
+Louison B-PER
 |
 | O
 vint O
@@ -22820,7 +22820,7 @@ de O
 |
 
 | O
-Bussy B-LOC
+Bussy O
 allaient O
 monter O
 chez O
@@ -22852,7 +22852,7 @@ triste O
 comme O
 s' O
 il O
-s’ B-PER
+s’ O
 agit- O
 |
 | O
@@ -22876,8 +22876,8 @@ vaincus O
 | O
 * O
 — O
-Mon B-MISC
-père I-MISC
+Mon O
+père O
 , O
 ce O
 serait O
@@ -22934,8 +22934,8 @@ entendit O
 des O
 pas O
 dans O
-l’ B-MISC
-antichambre I-MISC
+l’ O
+antichambre O
 , O
 c' O
 é- O
@@ -22947,7 +22947,7 @@ les O
 visiteurs O
 annoncés O
 . O
-Henriette B-PER
+Henriette O
 com- O
 |
 
@@ -22992,7 +22992,7 @@ comte O
 je O
 viens O
 de O
-re- B-PER
+re- O
 |
 | O
 cevoir O
@@ -23085,18 +23085,18 @@ Dieu B-MISC
 
 | O
 — O
-Mon O
-père O
-vous O
-me O
-faites O
-mourir O
-d' O
-impa- O
+Mon B-MISC
+père I-MISC
+vous I-MISC
+me I-MISC
+faites I-MISC
+mourir I-MISC
+d' I-MISC
+impa- I-MISC
 |
-| O
-rience O
-! O
+| I-MISC
+rience I-MISC
+! I-MISC
 |||| O
 |
 
@@ -23135,11 +23135,11 @@ armée O
 , O
 par O
 le O
-chevalier O
+chevalier B-PER
 |
-| O
-d' O
-Artagnan B-PER
+| I-PER
+d' I-PER
+Artagnan I-PER
 , O
 vous O
 pouvez O
@@ -23150,7 +23150,7 @@ lire O
 
 | O
 - O
-Henriette O
+Henriette B-PER
 ouvrit O
 de O
 grands O
@@ -23175,13 +23175,13 @@ DE I-MISC
 SINON I-MISC
 . O
 { O
-OI B-ORG
+OI O
 |
 | O
 — O
-Vous B-MISC
-dites I-MISC
-... I-MISC
+Vous O
+dites O
+... O
 mon O
 père O
 reprit O
@@ -23244,14 +23244,14 @@ guérira O
 — O
 Oh B-MISC
 ! I-MISC
-mon I-MISC
-Dieu I-MISC
+mon O
+Dieu B-MISC
 ! I-MISC
 mon O
 Dieu B-MISC
 ! O
-s’ B-PER
-écria I-PER
+s’ O
+écria O
 -t O
 -elle O
 . O
@@ -23289,7 +23289,7 @@ physionomie O
 
 | O
 — O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 lui O
 dit O
@@ -23385,7 +23385,7 @@ mon O
 père O
 ! O
 criait O
-Henriette B-PER
+Henriette B-MISC
 au O
 |
 
@@ -23423,14 +23423,14 @@ encore O
 
 | O
 — O
-Ma B-MISC
-fille I-MISC
-, I-MISC
-mon I-MISC
+Ma O
+fille O
+, O
+mon O
 Henriette B-PER
 , O
-n’ B-PER
-aimez I-PER
+n’ O
+aimez O
 -vous O
 |
 | O
@@ -23476,7 +23476,7 @@ est-elle O
 A B-LOC
 |
 
-| I-LOC
+| O
 — O
 La O
 voilà O
@@ -23527,9 +23527,9 @@ duire O
 Laon B-LOC
 , O
 au O
-couvent O
-des O
-Ursulines B-LOC
+couvent B-LOC
+des I-LOC
+Ursulines I-LOC
 . O
 C' O
 est O
@@ -23561,19 +23561,19 @@ vœux O
 
 | O
 — O
-Vous B-MISC
-voulez I-MISC
-me I-MISC
-quitter I-MISC
+Vous O
+voulez O
+me O
+quitter O
 , O
-Henriette B-PER
+Henriette B-MISC
 ! O
 |
 
 | O
 — O
-Mon O
-père O
+Mon B-MISC
+père I-MISC
 , O
 je O
 ne O
@@ -23611,9 +23611,9 @@ lui O
 | O
 Le O
 lendemain O
-Mademoiselle B-MISC
-de O
-Roucy O
+Mademoiselle B-PER
+de I-PER
+Roucy I-PER
 coucha O
 |
 
@@ -23631,7 +23631,7 @@ mr O
 |
 
 | O
-SINON B-ORG
+SINON O
 , O
 |
 
@@ -23648,8 +23648,8 @@ envole O
 , O
 |
 | O
-Le O
-temps O
+Le B-MISC
+temps I-MISC
 ramène O
 les O
 plaisirs O
@@ -23764,9 +23764,9 @@ ciel O
 , O
 et O
 lorsque O
-madame O
-l’ O
-Abbesse B-PER
+madame B-PER
+l’ I-PER
+Abbesse I-PER
 lui O
 |
 | O
@@ -23864,8 +23864,8 @@ ainsi O
 — O
 Mon B-MISC
 Dieu I-MISC
-! O
-Louison O
+! I-MISC
+Louison B-PER
 , O
 dit O
 -elle O
@@ -23896,12 +23896,12 @@ prison O
 
 | O
 — O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 devrait O
 en O
 être O
 dehors O
-de- O
+de- B-LOC
 |
 | O
 puis O
@@ -23954,7 +23954,7 @@ province O
 
 | O
 — O
-Pas B-LOC
+Pas O
 le O
 moins O
 du O
@@ -23967,8 +23967,8 @@ u I-MISC
 |
 
 | I-MISC
-LE O
-CHATEAU B-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -24012,16 +24012,16 @@ religion O
 P B-LOC
 |
 
-| I-LOC
-_ I-LOC
-Que I-LOC
-te I-LOC
-semble I-LOC
-de I-LOC
-la I-LOC
-belle I-LOC
-flamme I-LOC
-de I-LOC
+| O
+_ O
+Que O
+te O
+semble O
+de O
+la O
+belle O
+flamme O
+de O
 |
 | O
 M. B-PER
@@ -24060,7 +24060,7 @@ bien O
 que O
 non O
 , O
-Made- O
+Made- B-LOC
 |
 | O
 moselle B-LOC
@@ -24081,8 +24081,8 @@ pire O
 | O
 © O
 — O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 ce O
 pauvre O
 marquis O
@@ -24195,9 +24195,9 @@ certaine O
 | O
 106 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -24209,10 +24209,10 @@ demande O
 le O
 pour O
 moi O
-À O
-mon O
-1 O
-père O
+À B-MISC
+mon I-MISC
+1 I-MISC
+père I-MISC
 , O
 { O
 tu O
@@ -24256,7 +24256,7 @@ céderai O
 |
 
 | O
-Ten B-LOC
+Ten B-PER
 sera O
 ravi O
 . O
@@ -24265,9 +24265,9 @@ vais O
 engager O
 madame B-PER
 |
-| I-PER
-l I-PER
-Abbesse I-PER
+| O
+l O
+Abbesse B-PER
 à O
 lui O
 é O
@@ -24282,7 +24282,7 @@ matin O
 le O
 comte B-PER
 de I-PER
-Roucy O
+Roucy I-PER
 était O
 |
 | O
@@ -24369,9 +24369,9 @@ pensionnaire O
 aux O
 Ursulines B-LOC
 ; O
-madame O
-l’ O
-Abbesse B-PER
+madame B-PER
+l’ I-PER
+Abbesse I-PER
 m' O
 a O
 écrit O
@@ -24396,7 +24396,7 @@ père O
 
 | O
 — O
-Certainement B-PER
+Certainement O
 , O
 ma O
 fille O
@@ -24448,16 +24448,16 @@ père O
 | O
 . O
 — O
-Prenez B-PER
+Prenez O
 huït O
 jours O
 de O
 réflexions O
 , O
-Demploi- B-MISC
+Demploi- B-PER
 |
-| I-MISC
-selle I-MISC
+| O
+selle O
 , O
 d' O
 ici O
@@ -24469,19 +24469,19 @@ pas O
 de O
 réponse O
 . O
-Enfer- O
+Enfer- B-ORG
 |
-| O
-mée O
+| I-ORG
+mée I-ORG
 dans O
 voire O
 appartement O
 avec O
-Louison B-PER
-Beau- O
+Louison B-MISC
+Beau- I-MISC
 |
-| O
-pré O
+| I-MISC
+pré I-MISC
 , O
 vous O
 ne O
@@ -24592,7 +24592,7 @@ Loüson B-LOC
 Je O
 pense O
 , O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 que O
 cela O
@@ -24611,11 +24611,11 @@ avez O
 deviné O
 juste O
 , O
-M. B-MISC
-le I-MISC
+M. O
+le O
 |
-| I-MISC
-comte I-MISC
+| O
+comte O
 est O
 conduit O
 et O
@@ -24671,15 +24671,15 @@ bon O
 | O
 108 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
 |||| O
 — O
-Moi B-PER
+Moi O
 , O
 je O
 ne O
@@ -24874,7 +24874,7 @@ et O
 des O
 robes O
 de O
-bure B-LOC
+bure O
 . O
 |||| O
 |
@@ -24956,8 +24956,8 @@ pauvre O
 |
 
 | O
-Louison B-PER
-! O
+Louison B-MISC
+! I-MISC
 |||| O
 |
 
@@ -25047,17 +25047,17 @@ pas O
 ! O
 |
 | O
-- B-LOC
-— I-LOC
-Louison I-LOC
+- O
+— O
+Louison B-PER
 , O
 que O
-ferais B-LOC
-- I-LOC
-tu I-LOC
-à I-LOC
-ma I-LOC
-place I-LOC
+ferais O
+- O
+tu O
+à O
+ma O
+place O
 ? O
 |
 | O
@@ -25068,7 +25068,7 @@ que O
 je O
 ferais O
 , O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 ? O
 j' O
 écrirais O
@@ -25102,11 +25102,11 @@ n' O
 aime O
 pas O
 le O
-comte O
-de O
+comte B-PER
+de I-PER
 |
-| O
-Lameth O
+| I-PER
+Lameth I-PER
 . O
 |
 
@@ -25118,7 +25118,7 @@ Mademoiselle B-MISC
 , O
 l' O
 amour O
-s’ B-PER
+s’ O
 en O
 va O
 si O
@@ -25137,7 +25137,7 @@ SINON I-MISC
 vite O
 que O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 la O
@@ -25158,8 +25158,8 @@ vie O
 
 | O
 — O
-Tu B-PER
-crois I-PER
+Tu O
+crois O
 ? O
 |||| O
 |||| O
@@ -25223,7 +25223,7 @@ gros O
 sou- O
 |
 | O
-pir O
+pir B-LOC
 .. O
 … O
 . O
@@ -25234,7 +25234,7 @@ pir O
 Enfin O
 , O
 vous O
-n’ B-PER
+n’ O
 en O
 êtes O
 pas O
@@ -25282,15 +25282,15 @@ Eh B-MISC
 Mademoiselle O
 , O
 devenez O
-comtesse O
-de O
+comtesse B-PER
+de I-PER
 |
-| O
-Lameth O
+| I-PER
+Lameth I-PER
 , O
 dam O
 de O
-Pion B-LOC
+Pion B-PER
 , O
 et O
 puis O
@@ -25306,16 +25306,16 @@ après O
 
 | O
 — O
-Vraiment O
-, O
-tu O
-me O
-fais O
-rire O
+Vraiment B-MISC
+, I-MISC
+tu I-MISC
+me I-MISC
+fais I-MISC
+rire I-MISC
 , O
 quoique O
 je O
-n’ B-PER
+n’ O
 en O
 |
 | O
@@ -25333,7 +25333,7 @@ en O
 avez O
 besoin O
 , O
-c’ B-MISC
+c’ O
 est O
 bien O
 pis O
@@ -25352,29 +25352,29 @@ fois O
 
 | O
 à O
-PASSENT O
-PURE O
-EC O
-EAP O
+PASSENT B-ORG
+PURE B-MISC
+EC I-MISC
+EAP I-MISC
 RE O
 MONET O
 LATE O
-ETS O
-TT O
-Se O
-s O
-se O
-S B-MISC
+ETS B-MISC
+TT I-MISC
+Se I-MISC
+s I-MISC
+se I-MISC
+S I-MISC
 a I-MISC
 Tea I-MISC
 DO I-MISC
 TT I-MISC
 ve O
-VOOR B-ORG
+VOOR B-MISC
 me O
 te O
-ET O
-RS O
+ET B-MISC
+RS I-MISC
 et O
 |
 
@@ -25415,7 +25415,7 @@ n' O
 aimait O
 pas O
 . O
-Hen- O
+Hen- B-PER
 |
 
 | O
@@ -25606,7 +25606,7 @@ par O
 « O
 vous O
 . O
-C’ B-MISC
+C’ O
 est O
 aux O
 pieds O
@@ -25660,15 +25660,15 @@ de O
 
 | O
 « O
-comtesse B-LOC
-de I-LOC
-Lameth I-LOC
+comtesse B-PER
+de I-PER
+Lameth I-PER
 . O
 |
 
 | O
 « O
-Votre B-LOC
+Votre O
 soumise O
 et O
 affectueuse O
@@ -25678,18 +25678,18 @@ fille O
 
 | O
 « O
-HENRIETTE O
-DE O
-Roucy B-LOC
+HENRIETTE B-MISC
+DE I-MISC
+Roucy I-MISC
 . O
 » O
 |
 
 | O
 — O
-Vivant B-PER
-! O
-Mademoiselle B-PER
+Vivant B-MISC
+! I-MISC
+Mademoiselle B-MISC
 , O
 s' O
 écria O
@@ -25712,7 +25712,7 @@ remise O
 au O
 comte B-PER
 de I-PER
-Roucy O
+Roucy I-PER
 . O
 Il O
 y O
@@ -25726,7 +25726,7 @@ une O
 grande O
 joie O
 dans O
-Sissone B-LOC
+Sissone B-PER
 . O
 |
 
@@ -25831,7 +25831,7 @@ lui O
 serait O
 agréable O
 , O
-qu’ B-PER
+qu’ O
 il O
 lui O
 permettait O
@@ -25841,8 +25841,8 @@ de O
 | O
 rester O
 à O
-Laon B-PER
-jusqu’ I-PER
+Laon B-LOC
+jusqu’ O
 à O
 son O
 mariage O
@@ -25902,7 +25902,7 @@ lui O
 le O
 comte B-PER
 de I-PER
-Lameth O
+Lameth I-PER
 est O
 trans- O
 |
@@ -25942,8 +25942,8 @@ commence O
 |
 | O
 .— O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 répondait O
 Henriette B-PER
 , O
@@ -25970,11 +25970,11 @@ dans O
 
 | O
 la O
-chambre B-LOC
-de I-LOC
-mademoiselle I-LOC
-de I-LOC
-Roucy B-LOC
+chambre O
+de O
+mademoiselle O
+de O
+Roucy B-PER
 pour O
 la O
 |
@@ -26029,7 +26029,7 @@ recevoir O
 personne O
 , O
 elle O
-s’ B-PER
+s’ O
 enferma O
 un O
 |
@@ -26055,7 +26055,7 @@ cacheté O
 
 | O
 — O
-Garde-moi B-LOC
+Garde-moi O
 cela O
 , O
 lui O
@@ -26082,14 +26082,14 @@ surtout O
 |
 | O
 L. B-MISC
-|||| O
-8 O
+|||| I-MISC
+8 I-MISC
 |
 
-| O
-114 O
-LE O
-CHATEAU B-MISC
+| I-MISC
+114 I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -26117,7 +26117,7 @@ courage O
 |
 | O
 . O
-Eden B-ORG
+Eden B-PER
 même O
 temps O
 elle O
@@ -26135,8 +26135,8 @@ argent O
 qu' O
 elle O
 allait O
-T' O
-E= O
+T' B-MISC
+E= I-MISC
 |
 | O
 vétir O
@@ -26148,7 +26148,7 @@ L O
 — O
 Oui O
 , O
-Mademoiselle B-LOC
+Mademoiselle B-PER
 , O
 répondit O
 Louison B-PER
@@ -26172,11 +26172,11 @@ prénds O
 à O
 merveille O
 , O
-Soyez B-ORG
-tranquille O
-, O
-je O
-garderai O
+Soyez B-MISC
+tranquille I-MISC
+, I-MISC
+je I-MISC
+garderai I-MISC
 |
 | O
 tout O
@@ -26184,7 +26184,7 @@ cela O
 , O
 et O
 vous O
-n’ B-PER
+n’ O
 en O
 entendrez O
 plus O
@@ -26213,11 +26213,11 @@ coiffure O
 |
 | O
 — O
-Voilà B-PER
-une O
-douleur O
-réellement O
-touchante O
+Voilà B-MISC
+une I-MISC
+douleur I-MISC
+réellement I-MISC
+touchante I-MISC
 , O
 |
 | O
@@ -26258,7 +26258,7 @@ toilette O
 | O
 Les O
 portes O
-s’ B-PER
+s’ O
 ouvrirent O
 et O
 les O
@@ -26270,8 +26270,8 @@ pro- O
 | O
 fesses O
 , O
-l’ B-PER
-Abbesse I-PER
+l’ O
+Abbesse B-PER
 , O
 toute O
 la O
@@ -26306,14 +26306,14 @@ de O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 115 O
 |
 | O
-brocäet B-PER
+brocäet O
 d' O
 argent O
 , O
@@ -26439,7 +26439,7 @@ père O
 le O
 comte B-PER
 de I-PER
-Roucy O
+Roucy I-PER
 , O
 et O
 toute O
@@ -26450,7 +26450,7 @@ noblesse O
 de O
 Picardie B-LOC
 qui O
-l’ B-LOC
+l’ O
 attendaient O
 . O
 Sa O
@@ -26566,12 +26566,12 @@ les O
 gens O
 de O
 madame B-PER
-la I-PER
+la O
 comtesse O
 |
 | O
 de O
-Lameth O
+Lameth B-PER
 , O
 il O
 tressaillit O
@@ -26590,17 +26590,17 @@ allons O
 nous O
 rendre O
 à O
-Sinon B-PER
-sur-le- I-PER
+Sinon B-LOC
+sur-le- I-LOC
 |
 | O
 champ O
 , O
 dit O
 le O
-comte O
-de O
-Bussy O
+comte B-PER
+de I-PER
+Bussy I-PER
 , O
 si O
 cela O
@@ -26634,8 +26634,8 @@ pourra O
 agréable O
 à O
 M. B-PER
-le I-PER
-comte I-PER
+le O
+comte O
 , O
 répondit O
 -elle O
@@ -26748,14 +26748,14 @@ de O
 l' O
 enthousiasme O
 . O
-|||| O
-|||| O
-|||| O
+|||| B-PER
+|||| I-PER
+|||| I-PER
 |
 
-| O
-— O
-Qu' O
+| I-PER
+— I-PER
+Qu' I-PER
 elle O
 est O
 belle O
@@ -26788,9 +26788,9 @@ Le O
 |
 | O
 pauvre O
-marquis O
-d' O
-Albret B-PER
+marquis B-PER
+d' I-PER
+Albret I-PER
 était O
 alors O
 bien O
@@ -26847,7 +26847,7 @@ dit O
 | O
 M. B-PER
 de I-PER
-Lameth B-PER
+Lameth I-PER
 crut O
 voir O
 le O
@@ -26860,7 +26860,7 @@ ouvert O
 On O
 arriva O
 à O
-Sinon B-PER
+Sinon B-LOC
 . O
 La O
 route O
@@ -26927,7 +26927,7 @@ qu' O
 on O
 entra O
 dans O
-l’ B-ORG
+l’ O
 avenue O
 , O
 les O
@@ -26961,7 +26961,7 @@ qui O
 
 | O
 |||| O
-celaient O
+celaient B-LOC
 au O
 soleil B-LOC
 . O
@@ -26969,19 +26969,19 @@ soleil B-LOC
 
 | O
 -.æ— O
-Voilà B-LOC
-votre O
-royaume O
+Voilà B-MISC
+votre I-MISC
+royaume I-MISC
 , O
 dit O
 le O
 comte O
 de O
-La- O
+La- B-PER
 |
 
 | O
-meth B-LOC
+meth O
 , O
 et O
 voici O
@@ -27064,10 +27064,10 @@ Raoul B-PER
 , O
 prêt O
 à O
-parür O
+parür B-MISC
 pour O
-la B-LOC
-Terre I-LOC
+la O
+Terre B-LOC
 - I-LOC
 Sainte I-LOC
 , O
@@ -27120,7 +27120,7 @@ année O
 suivante O
 , O
 à O
-Saint-Jean-d'Acre O
+Saint-Jean-d'Acre B-LOC
 . O
 |
 | O
@@ -27274,12 +27274,12 @@ ga- O
 | O
 lante O
 . O
-- O
-L O
-|||| O
+- B-PER
+L I-PER
+|||| I-PER
 |
-| O
-Ce O
+| I-PER
+Ce I-PER
 même O
 Robert B-PER
 combattit O
@@ -27304,7 +27304,7 @@ que O
 | O
 trois O
 . O
-T O
+T B-PER
 mourut O
 et O
 laissa O
@@ -27322,9 +27322,9 @@ Simon B-PER
 resta O
 dans O
 la O
-maison B-LOC
-de I-LOC
-Coucy I-LOC
+maison O
+de O
+Coucy B-LOC
 |
 | O
 pendant O
@@ -27333,7 +27333,7 @@ générations O
 . O
 Robert B-PER
 [ O
-IL O
+IL B-LOC
 n' O
 est O
 |
@@ -27381,7 +27381,7 @@ cédèrent O
 la O
 châtellenie O
 de O
-Pion B-MISC
+Pion B-PER
 , O
 et O
 |
@@ -27389,9 +27389,9 @@ et O
 la O
 marièrent O
 à O
-Dreux B-PER
-de I-PER
-Crèvecœur I-PER
+Dreux B-LOC
+de I-LOC
+Crèvecœur I-LOC
 , O
 en O
 1383 O
@@ -27567,7 +27567,7 @@ maison O
 de O
 |
 | O
-Lameth B-LOC
+Lameth O
 . O
 Est O
 -ce O
@@ -27640,7 +27640,7 @@ de O
 La- B-PER
 |
 | O
-meth B-LOC
+meth O
 , O
 que O
 nos O
@@ -27676,7 +27676,7 @@ celles-ci O
 
 | O
 « O
-Chevalier B-ORG
+Chevalier B-PER
 , O
 seigneur O
 de O
@@ -27713,7 +27713,7 @@ fut O
 depuis O
 décoré O
 de O
-l’ B-ORG
+l’ O
 ordre O
 du O
 Roi B-PER
@@ -27764,14 +27764,14 @@ de I-PER
 Biencourt I-PER
 , O
 de O
-Bou- O
+Bou- B-LOC
 |
 | O
-chavannes O
+chavannes B-LOC
 , O
 seigneur O
 de O
-Quincy B-LOC
+Quincy B-PER
 . O
 |
 
@@ -27800,9 +27800,9 @@ de O
 la O
 |
 | O
-ligue O
-et O
-tralta O
+ligue B-MISC
+et I-MISC
+tralta I-MISC
 directement O
 avec O
 Henri B-PER
@@ -27833,16 +27833,16 @@ e1 O
 se O
 fit O
 appeler O
-vicomte B-PER
+vicomte O
 , O
 puis O
 comte O
 de O
-Bussy B-LOC
-- I-LOC
+Bussy O
+- O
 |
-| I-LOC
-Lameth I-LOC
+| O
+Lameth O
 , O
 comme O
 titulaire O
@@ -27961,9 +27961,9 @@ néalogie O
 | O
 122 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -28042,8 +28042,8 @@ Sans O
 doute O
 . O
 Bussy B-LOC
-de O
-Clermont B-LOC
+de I-LOC
+Clermont I-LOC
 d' I-LOC
 Amboise I-LOC
 |
@@ -28135,8 +28135,8 @@ semble O
 mon O
 père O
 , O
-ditlejeune O
-comte O
+ditlejeune B-PER
+comte I-PER
 , O
 |
 | O
@@ -28167,7 +28167,7 @@ Monsieur B-PER
 , O
 non O
 , O
-l’ B-LOC
+l’ O
 arme O
 des O
 lâches O
@@ -28230,8 +28230,8 @@ le O
 sort O
 de O
 Bussy B-LOC
-d’ O
-Am- O
+d’ I-LOC
+Am- I-LOC
 |
 | O
 boise O
@@ -28307,11 +28307,11 @@ le I-PER
 |
 | I-PER
 comte I-PER
-! O
+! I-PER
 vive O
-madame O
-la O
-comtesse O
+madame B-PER
+la I-PER
+comtesse I-PER
 ! O
 Henriette B-PER
 se O
@@ -28329,7 +28329,7 @@ des- O
 | O
 pendant O
 de O
-carrosse B-PER
+carrosse O
 , O
 elle O
 jeta O
@@ -28432,9 +28432,9 @@ une O
 | O
 124 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -28511,7 +28511,7 @@ plus O
 |
 | O
 brillant O
-l’ B-LOC
+l’ O
 entourait O
 , O
 elle O
@@ -28625,7 +28625,7 @@ d' O
 abord O
 modeste O
 et O
-retenue,-ne B-LOC
+retenue,-ne O
 laissant O
 paraitre O
 |
@@ -28703,9 +28703,9 @@ jusqu O
 au O
 comte O
 de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy O
+- O
+Lameth O
 , O
 |
 | O
@@ -28891,7 +28891,7 @@ par O
 |
 
 | O
-UN B-LOC
+UN B-MISC
 de O
 rer O
 |
@@ -28978,9 +28978,9 @@ beau-père O
 
 | O
 — O
-Malgré B-LOC
-mon I-LOC
-beau-père I-LOC
+Malgré O
+mon O
+beau-père O
 ; O
 mon O
 mari O
@@ -29042,7 +29042,7 @@ pas O
 |
 
 | O
-CISION B-ORG
+CISION O
 , O
 |
 
@@ -29075,9 +29075,9 @@ de O
 Laon B-LOC
 . O
 Le O
-cardinal B-PER
-d' I-PER
-Estrées I-PER
+cardinal O
+d' O
+Estrées B-LOC
 , O
 qui O
 l' O
@@ -29112,7 +29112,7 @@ ga- O
 |
 
 | O
-lanterne B-LOC
+lanterne O
 , O
 malgré O
 son O
@@ -29152,9 +29152,9 @@ TR I-ORG
 | O
 128 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -29203,7 +29203,7 @@ le O
 bourg O
 d' O
 Anizy B-LOC
-figura I-LOC
+figura O
 dans O
 |
 | O
@@ -29219,7 +29219,7 @@ un O
 |
 | O
 ou O
-l’ B-ORG
+l’ O
 autre O
 parti O
 ; O
@@ -29271,7 +29271,7 @@ de O
 nos O
 rois O
 , O
-entr'au- B-ORG
+entr'au- B-LOC
 |
 | O
 tres O
@@ -29305,7 +29305,7 @@ et O
 le O
 voisinage O
 de O
-Pignon B-LOC
+Pignon B-PER
 n' O
 était O
 |
@@ -29327,17 +29327,17 @@ valent O
 
 | O
 Le O
-cardinal B-PER
-d' I-PER
-Estrées I-PER
+cardinal O
+d' O
+Estrées B-LOC
 avait O
 connu O
 le O
-comte O
-de O
+comte B-PER
+de I-PER
 |
-| O
-Bussy B-LOC
+| I-PER
+Bussy I-PER
 à O
 la O
 cour O
@@ -29362,9 +29362,9 @@ faite O
 made- O
 |
 | O
-moselle O
-de O
-Roucy B-LOC
+moselle B-LOC
+de I-LOC
+Roucy I-LOC
 ; O
 par O
 une O
@@ -29413,9 +29413,9 @@ ne O
 pas O
 comprendre O
 que O
-MM. B-MISC
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 |
 | O
 devaient O
@@ -29536,9 +29536,9 @@ de O
 4774 O
 , O
 le O
-cardinal B-PER
-d' I-PER
-Entrée I-PER
+cardinal O
+d' O
+Entrée O
 s' O
 é- O
 |
@@ -29632,8 +29632,8 @@ I. O
 
 | O
 130 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -29664,7 +29664,7 @@ distinction O
 La O
 journée O
 était O
-süperte O
+süperte B-LOC
 ; O
 on O
 lui O
@@ -29693,34 +29693,34 @@ assistants O
 Monseigneur B-PER
 , O
 dit O
-madarné O
-de O
-Lameth B-PER
+madarné B-PER
+de I-PER
+Lameth I-PER
 au O
 |
 | O
 cardinal O
 ; O
 votre O
-Éminence B-LOC
+Éminence B-MISC
 a O
 donc O
-échoisi O
-lé O
-san- O
+échoisi B-PER
+lé I-PER
+san- I-PER
 |
-| O
-lier O
+| I-PER
+lier I-PER
 ? O
 |
 
 | O
 — O
-Certainement B-PER
+Certainement O
 , O
 madameé B-PER
-la O
-comtesse O
+la I-PER
+comtesse I-PER
 , O
 et O
 je O
@@ -29772,7 +29772,7 @@ ve- O
 |
 | O
 raisons O
-possibleés B-LOC
+possibleés O
 , O
 lorsqu' O
 elle O
@@ -29787,7 +29787,7 @@ modée O
 | O
 © O
 — O
-Jé B-LOC
+Jé B-MISC
 ne O
 m' O
 en O
@@ -29798,9 +29798,9 @@ guère O
 
 | O
 — O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 madame O
 la O
 comtesse O
@@ -29811,8 +29811,8 @@ en O
 |
 | O
 Fra B-PER
-i O
-goûler O
+i I-PER
+goûler I-PER
 à O
 ‘ O
 Anim B-LOC
@@ -29835,12 +29835,12 @@ la I-MISC
 parole I-MISC
 de I-MISC
 votre I-MISC
-Emi- O
+Emi- I-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -29932,7 +29932,7 @@ deux O
 seigneurs O
 de O
 laà O
-Cour B-ORG
+Cour B-LOC
 , O
 |
 | O
@@ -29941,7 +29941,7 @@ pour O
 mieux O
 dire O
 de O
-l’ B-LOC
+l’ O
 armée O
 , O
 et O
@@ -29962,8 +29962,8 @@ la O
 pro- O
 |
 | O
-|||| O
-vince O
+|||| B-LOC
+vince I-LOC
 . O
 |
 
@@ -30049,13 +30049,13 @@ ne O
 | O
 faut O
 pas O
-qu’ B-PER
+qu’ O
 ils O
 puissent O
 dire O
 à O
 la O
-Cour B-ORG
+Cour B-LOC
 que O
 vous O
 |
@@ -30072,21 +30072,21 @@ Picarde B-LOC
 | O
 132 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
-Nürons B-PER
+Nürons B-MISC
 -nous O
 pas O
 bientôt O
 à O
 la O
-Cour B-ORG
+Cour B-LOC
 , O
 mon- O
 |
@@ -30106,11 +30106,11 @@ prochaine O
 j' O
 espère O
 , O
-répliqua B-LOC
-- I-LOC
-t I-LOC
-- I-LOC
-l I-LOC
+répliqua O
+- O
+t O
+- O
+l O
 |
 | O
 d' O
@@ -30119,7 +30119,7 @@ air O
 embarrassé O
 . O
 Mais O
-n’ B-PER
+n’ O
 êtes O
 -vous O
 donc O
@@ -30131,10 +30131,10 @@ bien O
 P B-LOC
 |
 
-| I-LOC
-— I-LOC
-À I-LOC
-merveille I-LOC
+| O
+— O
+À O
+merveille O
 ; O
 pourtant O
 ... O
@@ -30170,20 +30170,20 @@ Madame B-PER
 ? O
 reprit O
 le O
-comte O
-de O
-Bussy B-LOC
+comte B-PER
+de I-PER
+Bussy I-PER
 , O
 qui O
 avait O
 |
 | O
 écouté O
-jusque-\à O
-la O
-conversation O
-en O
-silence O
+jusque-\à B-MISC
+la I-MISC
+conversation I-MISC
+en I-MISC
+silence I-MISC
 . O
 |
 
@@ -30193,8 +30193,8 @@ silence O
 
 | O
 — O
-Encore B-MISC
-! I-MISC
+Encore O
+! O
 Monsieur B-PER
 , O
 s' O
@@ -30295,7 +30295,7 @@ prendre O
 un O
 jour O
 . O
-fc O
+fc B-MISC
 , O
 |
 
@@ -30336,7 +30336,7 @@ la O
 Cour B-ORG
 ! I-ORG
 |
-| O
+| I-ORG
 Vous O
 avez O
 donc O
@@ -30346,7 +30346,7 @@ passé O
 , O
 Madame B-PER
 ? O
-P O
+P B-PER
 |
 | O
 _ O
@@ -30401,8 +30401,8 @@ Du O
 | O
 reste O
 , O
-soyez B-PER
-tranquille I-PER
+soyez O
+tranquille O
 , O
 je O
 vois O
@@ -30456,11 +30456,11 @@ en O
 resta O
 là O
 . O
-|||| O
-|||| O
+|||| B-PER
+|||| I-PER
 |
-| O
-Henriette B-PER
+| I-PER
+Henriette I-PER
 ne O
 fut O
 plus O
@@ -30497,9 +30497,9 @@ tra- O
 |
 
 | O
-väux B-PER
-de I-PER
-coquetterie I-PER
+väux O
+de O
+coquetterie O
 , O
 après O
 avoir O
@@ -30509,7 +30509,7 @@ un O
 |
 | O
 après O
-l’ B-ORG
+l’ O
 autre O
 tous O
 les O
@@ -30537,7 +30537,7 @@ osé O
 porter O
 encore O
 , O
-quoiqu’ B-ORG
+quoiqu’ O
 elle O
 lui O
 et O
@@ -30643,7 +30643,7 @@ sei- O
 | O
 neurs O
 de O
-Lameth B-LOC
+Lameth B-PER
 , O
 qui O
 se O
@@ -30737,7 +30737,7 @@ pas O
 
 | O
 — O
-Aïni B-LOC
+Aïni B-PER
 que O
 de O
 l' O
@@ -30802,9 +30802,9 @@ sera O
 
 | O
 LE O
-CHATEAU B-ORG
-DE O
-PINK B-ORG
+CHATEAU B-MISC
+DE I-MISC
+PINK I-MISC
 . O
 135 O
 |
@@ -30870,7 +30870,7 @@ ira O
 admir- O
 |
 | O
-Rement B-ORG
+Rement B-PER
 avec O
 sa O
 coiffure O
@@ -30892,7 +30892,7 @@ _ O
 Oh O
 ! O
 : O
-Louison O
+Louison B-PER
 que O
 € O
 ‘ O
@@ -31050,8 +31050,8 @@ visage O
 136 O
 . O
 . O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -31059,8 +31059,8 @@ SINON I-MISC
 | O
 _ O
 — O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 Madame B-PER
 , O
 l' O
@@ -31088,7 +31088,7 @@ cela O
 madame B-PER
 a O
 heureusement O
-l’ B-LOC
+l’ O
 un O
 et O
 l' O
@@ -31332,7 +31332,7 @@ au O
 clair O
 de O
 la O
-lune B-LOC
+lune O
 ; O
 |
 | O
@@ -31369,7 +31369,7 @@ côté O
 
 | O
 — O
-Attends B-LOC
+Attends B-PER
 , O
 Louison B-PER
 , O
@@ -31418,14 +31418,14 @@ ici O
 
 | O
 — O
-Jésus B-PER
-! O
+Jésus B-MISC
+! I-MISC
 mon O
-Dieu O
+Dieu B-MISC
 ! O
-s’ B-PER
-écria I-PER
-Louison I-PER
+s’ O
+écria O
+Louison B-PER
 en O
 fai- O
 |
@@ -31442,9 +31442,9 @@ pas O
 , O
 Ma- B-PER
 |
-| O
-dame O
-! O
+| I-PER
+dame I-PER
+! I-PER
 |||| O
 L O
 |
@@ -31466,9 +31466,9 @@ t-1 O
 | O
 _ O
 — O
-N' B-PER
-approchez I-PER
-pas I-PER
+N' O
+approchez O
+pas O
 , O
 je O
 vous O
@@ -31519,19 +31519,19 @@ marquis B-PER
 d' I-PER
 Albret I-PER
 , O
-Ma- O
+Ma- B-MISC
 |
 
-| O
-# O
+| I-MISC
+# I-MISC
 |
 
-| O
-138 O
+| I-MISC
+138 I-MISC
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |||| O
 |
@@ -31553,9 +31553,9 @@ vous O
 aime O
 encore O
 dans O
-l’ B-ORG
-autre I-ORG
-monde I-ORG
+l’ O
+autre O
+monde O
 . O
 : O
 |
@@ -31627,7 +31627,7 @@ dont O
 Hen- B-PER
 |
 | O
-rette B-PER
+rette O
 était O
 couverte O
 . O
@@ -31666,7 +31666,7 @@ nouveau O
 enten- O
 |
 | O
-dre O
+dre B-ORG
 ; O
 le O
 cavalier O
@@ -31701,9 +31701,9 @@ l' O
 
 | O
 — O
-Qu' O
-ai O
--je O
+Qu' B-MISC
+ai I-MISC
+-je I-MISC
 vu O
 ? O
 murmure O
@@ -31720,7 +31720,7 @@ le I-MISC
 courage I-MISC
 d' I-MISC
 aller I-MISC
-Jus- B-MISC
+Jus- I-MISC
 |
 | O
 qu' O
@@ -31759,14 +31759,14 @@ l' O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 139 O
 |
 | O
-yêque B-PER
+yêque B-LOC
 a O
 seul O
 la O
@@ -31854,8 +31854,8 @@ elle O
 
 | O
 — O
-N' B-LOC
-avez I-LOC
+N' O
+avez O
 -vous O
 donc O
 rien O
@@ -31880,9 +31880,9 @@ garde O
 _ O
 Rien O
 , O
-madame O
-la O
-comtesse O
+madame B-PER
+la I-PER
+comtesse I-PER
 , O
 |
 
@@ -31915,7 +31915,7 @@ Un B-MISC
 homme I-MISC
 à I-MISC
 cheval I-MISC
-! I-MISC
+! O
 cela O
 n' O
 est O
@@ -31971,28 +31971,28 @@ Lui- B-ORG
 |
 | O
 son O
-Beaupré B-MISC
+Beaupré B-ORG
 : O
 |
 
 | O
 _ O
 — O
-Demain B-PER
+Demain O
 je O
 demanderai O
 à O
 M. B-PER
-le O
-cardinal O
+le I-PER
+cardinal I-PER
 |
 
 | O
 140 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -32019,7 +32019,7 @@ justement O
 aujourd’hui O
 samedi O
 , O
-La- O
+La- B-PER
 |
 | O
 dame O
@@ -32058,9 +32058,9 @@ côté O
 de O
 |
 | O
-M. B-PER
-le I-PER
-comte I-PER
+M. O
+le O
+comte O
 , O
 je O
 ne O
@@ -32128,7 +32128,7 @@ insensible O
 — O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 s’'écria O
 -t O
 -elle O
@@ -32177,7 +32177,7 @@ la O
 nuit O
 . O
 Il O
-l’ B-LOC
+l’ O
 interrogea O
 avec O
 anxiété O
@@ -32241,8 +32241,8 @@ château O
 
 | O
 — O
-Quel B-MISC
-homme I-MISC
+Quel O
+homme O
 était O
 -ce O
 ? O
@@ -32261,9 +32261,9 @@ certainement O
 |
 | O
 — O
-Où O
-voulez O
--vous O
+Où B-MISC
+voulez I-MISC
+-vous I-MISC
 qu' O
 il O
 soit O
@@ -32334,8 +32334,8 @@ rire O
 | O
 : O
 — O
-Et B-LOC
-l’ I-LOC
+Et O
+l’ O
 avez O
 -vous O
 reconnu O
@@ -32381,10 +32381,10 @@ manant O
 |||| O
 |
 | O
-Voilà B-PER
-qui O
-est O
-étrange O
+Voilà B-MISC
+qui I-MISC
+est I-MISC
+étrange I-MISC
 , O
 répliqua O
 le O
@@ -32395,8 +32395,8 @@ comit O
 . O
 M. O
 de O
-Bu B-LOC
-ssy O
+Bu B-PER
+ssy I-PER
 vint O
 à O
 son O
@@ -32433,9 +32433,9 @@ vous O
 | O
 142 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -32495,14 +32495,14 @@ parlerai O
 
 | O
 — O
-Miséricorde B-LOC
+Miséricorde B-PER
 ! O
-Adamé O
+Adamé B-PER
 , O
 que O
 M. B-PER
-le I-PER
-comte I-PER
+le O
+comte O
 |
 | O
 de O
@@ -32569,10 +32569,10 @@ souffrir O
 
 | O
 — O
-Heureusement B-PER
-M. I-PER
-le I-PER
-comte I-PER
+Heureusement O
+M. O
+le O
+comte O
 aime O
 tant O
 ma- O
@@ -32585,7 +32585,7 @@ la O
 comtesse O
 qu' O
 il O
-n’ B-PER
+n’ O
 est O
 pas O
 à O
@@ -32635,7 +32635,7 @@ cesse O
 |
 | O
 qu' O
-ine O
+ine B-ORG
 faut O
 rien O
 pardonner O
@@ -32653,7 +32653,7 @@ aucuns O
 cas O
 , O
 servir O
-d’ B-PER
+d’ O
 excuse O
 à O
 la O
@@ -32690,9 +32690,9 @@ fait O
 | O
 |||| O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 143 O
 |
@@ -32722,8 +32722,8 @@ terreur O
 Oh B-MISC
 ! I-MISC
 |
-| O
-Louison B-PER
+| I-MISC
+Louison I-MISC
 , O
 je O
 n O
@@ -32740,7 +32740,7 @@ horrible O
 
 | O
 — O
-Réellement B-PER
+Réellement O
 , O
 Madame B-PER
 , O
@@ -32807,13 +32807,13 @@ en O
 parlera O
 à O
 son O
-Éminence B-LOC
+Éminence B-MISC
 ? O
 |
 
 | O
 — O
-Certainement B-PER
+Certainement O
 , O
 et O
 je O
@@ -32841,7 +32841,7 @@ je O
 la O
 rencontrerai O
 bien O
-d’ B-PER
+d’ O
 au- O
 |
 | O
@@ -32867,7 +32867,7 @@ spirituelles O
 
 | O
 — O
-Pauvre B-PER
+Pauvre O
 marquis O
 ! O
 comme O
@@ -32877,12 +32877,12 @@ armait O
 , O
 |
 | O
-Madame B-PER
-! O
+Madame B-MISC
+! I-MISC
 |
-| O
-|||| O
-— O
+| I-MISC
+|||| I-MISC
+— I-MISC
 Oui O
 , O
 Louison B-PER
@@ -32926,16 +32926,16 @@ Madame B-PER
 | O
 144 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
-Dis B-LOC
--moi I-LOC
+Dis B-MISC
+-moi I-MISC
 , O
 Louison B-PER
 , O
@@ -32954,7 +32954,7 @@ Montespan I-PER
 
 | O
 — O
-Mille B-PER
+Mille B-MISC
 fois O
 davantage O
 , O
@@ -33113,7 +33113,7 @@ du O
 pays O
 , O
 et O
-Deschamps B-MISC
+Deschamps B-PER
 |
 | O
 a O
@@ -33143,11 +33143,11 @@ monde O
 
 | O
 — O
-Vraiment O
-? O
+Vraiment B-MISC
+? I-MISC
 |
 
-| O
+| I-MISC
 LE O
 CHATEAU B-MISC
 DE I-MISC
@@ -33158,9 +33158,9 @@ SINON I-MISC
 
 | O
 — O
-Vous B-MISC
-y I-MISC
-trouverez I-MISC
+Vous O
+y O
+trouverez O
 aussi O
 la O
 jolie O
@@ -33186,7 +33186,7 @@ va O
 rentrer O
 dans O
 Îles B-LOC
-compagnies I-LOC
+compagnies O
 . O
 |
 
@@ -33217,7 +33217,7 @@ le O
 | O
 lieutenant O
 de O
-Roï B-LOC
+Roï B-PER
 , O
 son O
 oncle O
@@ -33349,7 +33349,7 @@ faire O
 baisser O
 pavillon O
 aux O
-Grâces B-PER
+Grâces B-LOC
 . O
 |
 | O
@@ -33368,9 +33368,9 @@ SINON I-MISC
 
 | O
 Les O
-comtes B-LOC
-de I-LOC
-Lameth O
+comtes O
+de O
+Lameth B-PER
 en O
 furent O
 frappés O
@@ -33387,7 +33387,7 @@ deux O
 Eh B-MISC
 bien I-MISC
 ! I-MISC
-Monsieur B-PER
+Monsieur O
 , O
 dit O
 -elle O
@@ -33411,7 +33411,7 @@ Pi- O
 carde O
 . O
 ‘ O
-Fe O
+Fe B-LOC
 |
 
 | O
@@ -33428,14 +33428,14 @@ une O
 di- O
 |
 | O
-vingté B-PER
+vingté B-ORG
 . O
 |||| O
 |
 
 | O
 — O
-Voilà B-PER
+Voilà O
 qui O
 est O
 bien O
@@ -33461,7 +33461,7 @@ leva O
 les O
 yeux O
 au O
-cel O
+cel B-LOC
 |
 | O
 comme O
@@ -33509,7 +33509,7 @@ de O
 la O
 comtesse O
 . O
-I B-LOC
+I O
 ign- O
 |
 | O
@@ -33630,9 +33630,9 @@ nuit O
 
 | O
 Le O
-trajet O
-de O
-Sinon B-PER
+trajet B-LOC
+de I-LOC
+Sinon I-LOC
 à O
 Anizy B-LOC
 se O
@@ -33649,11 +33649,11 @@ parcs O
 se O
 touchent O
 . O
-Madame B-PER
-de I-PER
+Madame O
+de O
 |
-| I-PER
-Lameth I-PER
+| O
+Lameth B-PER
 remarqua O
 joyeusement O
 les O
@@ -33737,7 +33737,7 @@ la O
 comtesse O
 parut O
 . O
-Accoutumée O
+Accoutumée B-LOC
 à O
 pro- O
 |
@@ -33747,7 +33747,7 @@ cet O
 effet O
 , O
 elle O
-n’ B-PER
+n’ O
 en O
 était O
 pas O
@@ -33779,7 +33779,7 @@ de O
 l' O
 armée O
 , O
-neä O
+neä B-ORG
 quittait O
 |
 | O
@@ -33821,8 +33821,8 @@ s O
 
 | O
 148 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -33943,7 +33943,7 @@ en O
 supplie O
 ? O
 répliqua O
-l’ B-ORG
+l’ O
 autre O
 . O
 |
@@ -33953,9 +33953,9 @@ _ O
 Je B-MISC
 la I-MISC
 vois I-MISC
-monter O
-l' O
-escalier O
+monter I-MISC
+l' I-MISC
+escalier I-MISC
 . O
 Elle O
 est O
@@ -33988,7 +33988,7 @@ pas O
 
 | O
 — O
-Nous B-PER
+Nous O
 voit O
 -elle O
 ? O
@@ -34037,9 +34037,9 @@ Tout O
 à O
 coup O
 la O
-comtesse O
-de O
-Lameth O
+comtesse B-PER
+de I-PER
+Lameth I-PER
 au O
 mo- O
 |
@@ -34081,7 +34081,7 @@ VII O
 |
 
 | O
-BELLES B-ORG
+BELLES O
 AMOUR O
 , O
 |
@@ -34235,7 +34235,7 @@ valets O
 de O
 sortir O
 , O
-el B-LOC
+el B-PER
 |
 | O
 voulut O
@@ -34252,7 +34252,7 @@ signifient O
 ces O
 paroles O
 ? O
-madame O
+madame B-PER
 la O
 |
 | O
@@ -34268,8 +34268,8 @@ seuls O
 avec O
 |
 | O
-MM. B-MISC
-deLameth I-MISC
+MM. B-PER
+deLameth I-PER
 , O
 quel O
 danger O
@@ -34278,7 +34278,7 @@ pouvez O
 craig- O
 |
 | O
-dre O
+dre B-ORG
 ici O
 , O
 dans O
@@ -34288,8 +34288,8 @@ château O
 près O
 de O
 M. B-PER
-le O
-comte O
+le I-PER
+comte I-PER
 ? O
 |
 
@@ -34399,7 +34399,7 @@ présent O
 | O
 _ O
 _ O
-Pas B-LOC
+Pas O
 un O
 mot O
 de O
@@ -34420,7 +34420,7 @@ oreille O
 le O
 comte O
 de O
-Bussy B-LOC
+Bussy O
 . O
 |
 
@@ -34451,13 +34451,13 @@ douteé O
 il O
 souffre O
 dans O
-l’ B-ORG
-autre I-ORG
-monde I-ORG
-pour I-ORG
-m' I-ORG
-avoir I-ORG
-ché- I-ORG
+l’ O
+autre O
+monde O
+pour O
+m' O
+avoir O
+ché- O
 |
 | O
 rie O
@@ -34484,9 +34484,9 @@ vision O
 P B-LOC
 |
 
-| I-LOC
-— I-LOC
-Henriette I-LOC
+| O
+— O
+Henriette B-PER
 , O
 ma O
 chère O
@@ -34528,11 +34528,11 @@ doute O
 Monseigneur B-PER
 , O
 continua O
-M. O
-de O
+M. B-PER
+de I-PER
 |
-| O
-Bussy B-LOC
+| I-PER
+Bussy I-PER
 , O
 Madame B-PER
 de I-PER
@@ -34568,7 +34568,7 @@ de O
 son O
 imagination O
 . O
-Mal- O
+Mal- B-MISC
 |
 | O
 gré O
@@ -34627,7 +34627,7 @@ rosse O
 et O
 retourner O
 à O
-Sinon B-PER
+Sinon B-LOC
 . O
 Elle O
 se O
@@ -34641,10 +34641,10 @@ on O
 enverra O
 chercher O
 le O
-médean B-PER
+médean O
 , O
 et O
-aéc O
+aéc B-ORG
 quel- O
 |
 
@@ -34693,8 +34693,8 @@ le O
 
 | O
 152 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -34751,7 +34751,7 @@ M. B-PER
 de I-PER
 |
 | I-PER
-Bussy B-LOC
+Bussy I-PER
 , O
 ne O
 le O
@@ -34890,7 +34890,7 @@ que O
 ressemblance O
 , O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 pas O
@@ -34980,7 +34980,7 @@ diner O
 | O
 — O
 > O
-Croyez B-MISC
+Croyez B-LOC
 -vous O
 , O
 Monseigneur B-PER
@@ -35020,14 +35020,14 @@ donc O
 pas O
 oublié O
 , O
-Henriette B-PER
-! O
+Henriette B-MISC
+! I-MISC
 |
-| O
-dit O
-tout O
-bas O
-lejeune O
+| I-MISC
+dit I-MISC
+tout I-MISC
+bas I-MISC
+lejeune I-MISC
 comte O
 . O
 |
@@ -35084,12 +35084,12 @@ scandale O
 | O
 _ O
 — O
-Je B-MISC
-vais I-MISC
-annoncer I-MISC
-cette I-MISC
-bonne I-MISC
-nouvelle I-MISC
+Je O
+vais O
+annoncer O
+cette O
+bonne O
+nouvelle O
 , O
 |
 | O
@@ -35130,7 +35130,7 @@ le O
 | O
 comte O
 de O
-Bussy B-LOC
+Bussy O
 en O
 se O
 retournant O
@@ -35147,10 +35147,10 @@ rentrer O
 
 | O
 — O
-Est O
--ce O
-votre O
-avis O
+Est B-MISC
+-ce I-MISC
+votre I-MISC
+avis I-MISC
 , O
 Monsieur B-PER
 ? O
@@ -35168,8 +35168,8 @@ mari O
 | O
 . O
 194 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -35331,9 +35331,9 @@ portée O
 
 | O
 — O
-Vous B-MISC
-vous I-MISC
-trompez I-MISC
+Vous O
+vous O
+trompez O
 , O
 Madame B-PER
 , O
@@ -35349,17 +35349,17 @@ malade O
 | O
 — O
 Jenem' B-PER
-eniraipas I-PER
+eniraipas O
 . O
 |
 
 | O
 — O
-Vous B-MISC
-allez I-MISC
-monter I-MISC
-en I-MISC
-carrosse I-MISC
+Vous O
+allez O
+monter O
+en O
+carrosse O
 ou O
 . O
 |
@@ -35390,7 +35390,7 @@ SINON I-MISC
 — O
 Eh B-MISC
 ! I-MISC
-mobile I-MISC
+mobile O
 , O
 Madame B-PER
 , O
@@ -35451,7 +35451,7 @@ tyrannie O
 
 | O
 — O
-Prenez B-PER
+Prenez O
 garde O
 , O
 Madame B-PER
@@ -35476,7 +35476,7 @@ esclave O
 |
 | O
 mais O
-VOUS O
+VOUS B-MISC
 ne O
 pouvez O
 savoir O
@@ -35544,7 +35544,7 @@ enlevant O
 je O
 vousépargnerai O
 une O
-actionindigne O
+actionindigne B-LOC
 |
 | O
 d' O
@@ -35647,8 +35647,8 @@ humeur O
 |
 
 | O
-Singulière B-LOC
-nature O
+Singulière B-MISC
+nature I-MISC
 , O
 chez O
 laquelle O
@@ -35713,16 +35713,16 @@ passa O
 sans O
 qu' O
 elle O
-aùt O
+aùt B-ORG
 échangé O
 |
 | O
 un O
 mot O
 avec O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 , O
 qui O
 semblaient O
@@ -35738,7 +35738,7 @@ descendant O
 |
 | O
 de O
-carrosse B-PER
+carrosse O
 , O
 son O
 mari O
@@ -35753,7 +35753,7 @@ acroni- O
 | O
 _ O
 gagna O
-jusqu’ B-PER
+jusqu’ O
 à O
 sa O
 chambre O
@@ -35837,9 +35837,9 @@ mon O
 | O
 appartement O
 , O
-Je B-MISC
-n' I-MISC
-oublierai I-MISC
+Je O
+n' O
+oublierai O
 jamais O
 ce O
 qui O
@@ -35883,7 +35883,7 @@ combien O
 je O
 souffre O
 , O
-Mada- O
+Mada- B-PER
 |
 | O
 me O
@@ -35906,7 +35906,7 @@ je O
 ne O
 reviendrai O
 que O
-d’ B-PER
+d’ O
 après O
 vos O
 |
@@ -36050,7 +36050,7 @@ vu O
 , O
 ma O
 pauvre O
-Loui- O
+Loui- B-PER
 |
 | O
 son O
@@ -36058,23 +36058,23 @@ son O
 vu O
 comme O
 je O
-Le B-MISC
-VOIS I-MISC
+Le B-PER
+VOIS I-PER
 . O
 |
 
 | O
 Louison B-PER
-sourit I-PER
+sourit O
 . O
 |
 
 | O
 158 O
 LE O
-CHATEAU B-ORG
-DÉ B-ORG
-SINON I-ORG
+CHATEAU B-MISC
+DÉ I-MISC
+SINON I-MISC
 . O
 |
 
@@ -36107,7 +36107,7 @@ justaucorps O
 |
 | O
 gris O
-perlé B-LOC
+perlé O
 . O
 |
 
@@ -36161,22 +36161,22 @@ Dieu B-MISC
 
 | O
 — O
-Que B-LOC
-veux I-LOC
-- I-LOC
-tu I-LOC
-dire I-LOC
-? O
+Que B-MISC
+veux I-MISC
+- I-MISC
+tu I-MISC
+dire I-MISC
+? I-MISC
 |
 
-| O
-— O
+| I-MISC
+— I-MISC
 Oh B-MISC
 ! I-MISC
-ma I-MISC
-chère I-MISC
-maitresse B-PER
-préparez I-PER
+ma O
+chère O
+maitresse O
+préparez O
 -vous O
 à O
 |
@@ -36193,7 +36193,7 @@ Qu' O
 est O
 -ce O
 que O
-c’ B-MISC
+c’ O
 est O
 , O
 mon O
@@ -36254,13 +36254,13 @@ avons O
 rencontré O
 hier O
 , O
-C' B-MISC
-est I-MISC
-lui I-MISC
-que I-MISC
-vous I-MISC
-avez I-MISC
-aperçu I-MISC
+C' O
+est O
+lui O
+que O
+vous O
+avez O
+aperçu O
 |
 | O
 aujourd'hui O
@@ -36271,16 +36271,16 @@ aujourd'hui O
 — O
 Oh B-MISC
 ! I-MISC
-mon I-MISC
-Dieu I-MISC
-! O
+mon O
+Dieu B-MISC
+! I-MISC
 |
 
-| O
-LE O
-CHATÉAU B-ORG
-DE O
-SINON O
+| I-MISC
+LE I-MISC
+CHATÉAU I-MISC
+DE I-MISC
+SINON I-MISC
 . O
 { O
 59 O
@@ -36360,7 +36360,7 @@ Cour B-LOC
 
 | O
 — O
-Certainement B-PER
+Certainement O
 . O
 Après O
 ? O
@@ -36499,7 +36499,7 @@ revint O
 
 | O
 — O
-Allons B-PER
+Allons B-MISC
 , O
 parle O
 , O
@@ -36540,11 +36540,11 @@ Lorsque O
 Madame B-PER
 quitta O
 la O
-Cour B-ORG
+Cour B-LOC
 , O
-M. B-MISC
-le I-MISC
-mar- I-MISC
+M. O
+le O
+mar- O
 |
 | O
 quis O
@@ -36565,17 +36565,17 @@ ter O
 ses O
 pieds O
 , O
-aitendrir O
-monsieur O
+aitendrir B-PER
+monsieur I-PER
 son O
 père O
 , O
 |
 | O
 tuer O
-M. O
-le O
-comte O
+M. B-PER
+le I-PER
+comte I-PER
 , O
 que O
 sais O
@@ -36680,7 +36680,7 @@ et O
 le O
 régiment O
 de O
-Na- O
+Na- B-LOC
 |
 | O
 varie O
@@ -36743,11 +36743,11 @@ la O
 tente O
 de O
 M. B-PER
-de O
+de I-PER
 |
 
-| O
-Pavois B-LOC
+| I-PER
+Pavois I-PER
 avec O
 M. B-PER
 le I-PER
@@ -36770,7 +36770,7 @@ SINON I-MISC
 | O
 de O
 la O
-Cour B-ORG
+Cour B-LOC
 et O
 parmi O
 elles O
@@ -36794,7 +36794,7 @@ L O
 — O
 Cette O
 belle O
-Picarde B-PER
+Picarde B-LOC
 dit O
 M. B-PER
 d' I-PER
@@ -36807,7 +36807,7 @@ Artagnan I-PER
 disparu O
 de O
 la O
-Cour B-ORG
+Cour B-LOC
 bien O
 promptement O
 . O
@@ -36822,11 +36822,11 @@ vrai O
 , O
 répliqua O
 le O
-chevalier O
-de O
+chevalier B-PER
+de I-PER
 |
-| O
-Grignan B-LOC
+| I-PER
+Grignan I-PER
 . O
 Sait O
 -on O
@@ -36867,7 +36867,7 @@ tère O
 . O
 « O
 — O
-Enqu' O
+Enqu' B-LOC
 est O
 -ce O
 donc O
@@ -36875,11 +36875,11 @@ donc O
 dit O
 avec O
 hauteur O
-M. B-PER
+M. O
 le O
 |
 | O
-marquis B-PER
+marquis O
 . O
 |||| O
 |
@@ -36983,8 +36983,8 @@ Ai B-MISC
 
 | I-MISC
 162 I-MISC
-LE O
-CHATEAU B-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -37006,8 +37006,8 @@ amie O
 , O
 elle O
 a O
-l’ B-ORG
-honneur I-ORG
+l’ O
+honneur O
 des O
 bonnes O
 grâces O
@@ -37137,9 +37137,9 @@ Monsieur B-PER
 | O
 « O
 — O
-Eh B-MISC
-! I-MISC
-Monsieur B-PER
+Eh O
+! O
+Monsieur O
 , O
 tout O
 ce O
@@ -37196,15 +37196,15 @@ porta O
 à O
 M. B-PER
 le O
-par- O
+par- B-MISC
 |
 
-| O
-LE O
-CHATEAU B-ORG
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE O
 . O
-SINON B-ORG
+SINON B-MISC
 . O
 f63 B-MISC
 |
@@ -37238,15 +37238,15 @@ sang O
 Etc' B-LOC
 était O
 pour O
-moïf O
+moïf B-LOC
 : O
 s' O
 écria O
-madame O
-de O
+madame B-PER
+de I-PER
 |
-| O
-Lemeth O
+| I-PER
+Lemeth I-PER
 .. O
 |
 
@@ -37319,7 +37319,7 @@ le O
 sais O
 ! O
 continua O
-Henriette B-PER
+Henriette B-MISC
 : O
 |
 
@@ -37331,8 +37331,8 @@ mot O
 de O
 M B-PER
 : O
-d' O
-Albret B-PER
+d' B-PER
+Albret I-PER
 en O
 reve- O
 |
@@ -37458,8 +37458,8 @@ de O
 
 | O
 164 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -37537,7 +37537,7 @@ et O
 revint O
 à O
 la O
-Cour B-ORG
+Cour B-LOC
 . O
 |
 
@@ -37589,14 +37589,14 @@ Comment O
 
 | O
 — O
-Ecoutez B-PER
+Ecoutez O
 la O
 fin O
 . O
 |
 
 | O
-Lassée B-PER
+Lassée O
 des O
 persécutions O
 et O
@@ -37621,7 +37621,7 @@ bruit O
 | O
 du O
 dehors O
-n’ B-PER
+n’ O
 arrivait O
 jusqu' O
 à O
@@ -37652,10 +37652,10 @@ vous O
 devient O
 comtesse O
 de O
-La- B-LOC
+La- B-PER
 |
 | O
-meth B-LOC
+meth O
 . O
 On O
 ne O
@@ -37665,7 +37665,7 @@ pas O
 l' O
 apprendre O
 à O
-Ver- O
+Ver- B-LOC
 |
 | O
 sailles O
@@ -37722,9 +37722,9 @@ SINON I-MISC
 ami O
 particulier O
 du O
-comte O
-de O
-Bussy B-LOC
+comte B-PER
+de I-PER
+Bussy I-PER
 , O
 en O
 avait O
@@ -37802,10 +37802,10 @@ en O
 reste O
 avec O
 Vous B-MISC
-, I-MISC
-et I-MISC
-que I-MISC
-Si O
+, O
+et O
+que O
+Si B-MISC
 vous O
 l' O
 aviez O
@@ -37819,14 +37819,14 @@ vous O
 le O
 rendre O
 . O
-|||| O
+|||| B-PER
 |
 
-| O
-J B-MISC
-épousa I-MISC
-mademoiselle I-MISC
-Marie-Charlotte O
+| I-PER
+J I-PER
+épousa O
+mademoiselle O
+Marie-Charlotte B-PER
 d' O
 AI- O
 |
@@ -37904,7 +37904,7 @@ lâché O
 je O
 |
 | O
-Vous O
+Vous B-MISC
 assure O
 . O
 |
@@ -37998,8 +37998,8 @@ deux O
 
 | O
 — O
-Tu B-PER
-crois I-PER
+Tu O
+crois O
 , O
 Louison B-PER
 ? O
@@ -38141,7 +38141,7 @@ d' I-PER
 Albert I-PER
 , O
 il O
-l’ B-LOC
+l’ O
 a O
 recu O
 à O
@@ -38175,7 +38175,7 @@ de O
 |
 | O
 la O
-lune B-LOC
+lune O
 , O
 et O
 prie O
@@ -38207,7 +38207,7 @@ mutuelle O
 mais O
 1l O
 ne O
-s’ B-PER
+s’ O
 en O
 |
 | O
@@ -38313,7 +38313,7 @@ voir I-MISC
 ! I-MISC
 et O
 il O
-s’ B-PER
+s’ O
 est O
 marié O
 ! O
@@ -38322,7 +38322,7 @@ jamais O
 |
 | O
 “ O
-L1l O
+L1l B-PER
 vous O
 aime O
 toujours O
@@ -38338,15 +38338,15 @@ assure O
 |
 | O
 — O
-Que B-MISC
-m' I-MISC
-importe I-MISC
-! I-MISC
+Que O
+m' O
+importe O
+! O
 puisqu' O
 il O
 en O
 à O
-épouré O
+épouré B-LOC
 unê B-ORG
 |
 | O
@@ -38357,9 +38357,9 @@ autre O
 | O
 168 O
 LE O
-CHATEAU B-ORG
-DE O
-PIGNON B-ORG
+CHATEAU B-MISC
+DE I-MISC
+PIGNON I-MISC
 , O
 |
 
@@ -38420,9 +38420,9 @@ Il O
 à O
 emmené O
 le O
-comit B-MISC
-de I-MISC
-Fresque I-MISC
+comit O
+de O
+Fresque B-PER
 , O
 1l O
 ont O
@@ -38440,9 +38440,9 @@ sont O
 chez O
 |
 | O
-M. B-PER
-le I-PER
-cardinal I-PER
+M. O
+le O
+cardinal O
 . O
 |||| O
 |
@@ -38497,10 +38497,10 @@ glace O
 |
 
 | O
-— B-LOC
-- I-LOC
-Pauvre I-LOC
-marquis O
+— O
+- B-PER
+Pauvre I-PER
+marquis I-PER
 ! O
 |
 
@@ -38545,16 +38545,16 @@ matin O
 
 | O
 — O
-Mon O
-beau-pèrent O
-mon O
-mari O
+Mon B-MISC
+beau-pèrent I-MISC
+mon I-MISC
+mari I-MISC
 sont O
 instruits O
 |
 | O
 de O
-narriveée O
+narriveée B-PER
 ; O
 voilà O
 pourquoi O
@@ -38610,8 +38610,8 @@ présent O
 
 | O
 — O
-Je B-MISC
-n’ I-MISC
+Je O
+n’ O
 en O
 doute O
 pas O
@@ -38632,7 +38632,7 @@ seront O
 | O
 interprêtées O
 . O
-Louison O
+Louison B-PER
 , O
 je O
 crains O
@@ -38661,7 +38661,7 @@ il O
 en O
 pourrait O
 de O
-chagrin B-PER
+chagrin O
 . O
 |
 
@@ -38817,30 +38817,30 @@ inquisition O
 du O
 monde O
 . O
-M. O
-Jouet B-PER
+M. B-PER
+Jouet I-PER
 , O
 som- O
 |
 
 | O
 170 O
-LE O
-CHATÉAU B-ORG
-DE O
-SINON B-ORG
+LE B-MISC
+CHATÉAU I-MISC
+DE I-MISC
+SINON I-MISC
 . O
 |
 | O
 métier O
 de O
 M. B-PER
-le O
-comte O
-de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+le I-PER
+comte I-PER
+de I-PER
+Bussy I-PER
+- I-PER
+Lameth I-PER
 , O
 e O
 |
@@ -38897,11 +38897,11 @@ son O
 maître O
 . O
 Si O
-M. O
-le O
-comte O
-de O
-Bussy B-LOC
+M. B-PER
+le I-PER
+comte I-PER
+de I-PER
+Bussy I-PER
 lui O
 disa O
 |
@@ -38912,7 +38912,7 @@ faire O
 tuer O
 pour O
 le O
-diverür O
+diverür B-PER
 , O
 il O
 n' O
@@ -38955,16 +38955,16 @@ tromper O
 
 | O
 — O
-Nous B-MISC
-essaierons I-MISC
+Nous O
+essaierons O
 . O
 |
 
 | O
 — O
 Sais B-LOC
-- I-LOC
-tu I-LOC
+- O
+tu O
 ce O
 qu' O
 on O
@@ -38999,13 +38999,13 @@ vagues O
 — O
 Connaissent B-PER
 -ils I-PER
-Rémond B-PER
+Rémond I-PER
 ? O
 |
 
 | O
 — O
-Non B-PER
+Non O
 , O
 Madame B-PER
 , O
@@ -39021,7 +39021,7 @@ ici O
 | O
 = O
 Alors O
-attendons B-LOC
+attendons O
 . O
 |||| O
 |
@@ -39058,7 +39058,7 @@ Je B-MISC
 
 | I-MISC
 LE I-MISC
-CHATEAU B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -39160,11 +39160,11 @@ _ O
 | O
 _ O
 — O
-Mais B-PER
+Mais O
 , O
-madame O
-la O
-comtesse O
+madame B-PER
+la I-PER
+comtesse I-PER
 , O
 les O
 ordres O
@@ -39245,8 +39245,8 @@ pensait O
 à O
 moi O
 . O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 pourquoi O
 , O
 pourquoi O
@@ -39263,7 +39263,7 @@ mariage O
 M. O
 le O
 marquis O
-s’ B-PER
+s’ O
 expliquera O
 , O
 Madame B-PER
@@ -39273,9 +39273,9 @@ Madame B-PER
 | O
 172 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -39306,11 +39306,11 @@ autre O
 
 | O
 — O
-Où O
-serait O
-le O
-mal O
-? O
+Où B-MISC
+serait I-MISC
+le I-MISC
+mal I-MISC
+? I-MISC
 Ne O
 pouvez O
 -vous O
@@ -39385,7 +39385,7 @@ de O
 princi- O
 |
 | O
-pes O
+pes B-ORG
 combattit O
 dans O
 sa O
@@ -39568,8 +39568,8 @@ marquis B-PER
 d' I-PER
 Al- I-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 . O
 |
 
@@ -39782,8 +39782,8 @@ D O
 
 | O
 176 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -39826,21 +39826,21 @@ pourtant I-MISC
 | I-MISC
 « I-MISC
 écrit I-MISC
-: O
-Tant O
-que O
-vous O
-serez O
-au O
-monde O
-je O
+: I-MISC
+Tant I-MISC
+que I-MISC
+vous I-MISC
+serez I-MISC
+au I-MISC
+monde I-MISC
+je I-MISC
 |
-| O
-« O
-vous O
-garderai O
-ma O
-foi O
+| I-MISC
+« I-MISC
+vous I-MISC
+garderai I-MISC
+ma I-MISC
+foi I-MISC
 . O
 J' O
 ai O
@@ -39856,7 +39856,7 @@ tait O
 pour O
 vous O
 , O
-Henriette B-PER
+Henriette B-MISC
 . O
 J' O
 étais O
@@ -39920,11 +39920,11 @@ nouvelle O
 Je B-MISC
 ne I-MISC
 pouvais I-MISC
-y O
+y I-MISC
 |
-| O
-« O
-croire O
+| I-MISC
+« I-MISC
+croire I-MISC
 , O
 et O
 si O
@@ -39995,12 +39995,12 @@ me O
 venger O
 , O
 à O
-VOUS O
+VOUS B-ORG
 ren- O
 |
 | O
 « O
-dre O
+dre B-ORG
 offense O
 pour O
 offense O
@@ -40038,7 +40038,7 @@ SINON I-MISC
 |
 | O
 « O
-üne O
+üne B-ORG
 consolation O
 , O
 un O
@@ -40113,10 +40113,10 @@ l' O
 ignorer O
 toujours O
 . O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 je O
-n’ B-PER
+n’ O
 en O
 eus O
 |
@@ -40124,15 +40124,15 @@ eus O
 | O
 « O
 pas O
-lé O
-courage O
+lé B-MISC
+courage I-MISC
 . O
 |
 
 | O
 “ O
 « O
-Besoin B-LOC
+Besoin O
 de O
 vous O
 revoir O
@@ -40191,7 +40191,7 @@ Un O
 ami O
 consentit O
 à O
-m’ B-PER
+m’ O
 accompagner O
 . O
 |
@@ -40209,7 +40209,7 @@ vimes O
 |
 | O
 « O
-Anizy B-ORG
+Anizy B-LOC
 . O
 Pourquoi O
 n' O
@@ -40264,7 +40264,7 @@ peut-être O
 
 | O
 « O
-Henriette B-PER
+Henriette B-MISC
 , O
 au O
 nom O
@@ -40296,8 +40296,8 @@ minute O
 
 | O
 178 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -40365,9 +40365,9 @@ tout O
 
 | O
 « O
-Prononcez B-PER
+Prononcez B-LOC
 , O
-Henriette B-PER
+Henriette B-MISC
 , O
 un O
 mot O
@@ -40387,17 +40387,17 @@ vos O
 mains O
 Ma B-MISC
 destinée I-MISC
-, O
+, I-MISC
 |
-| O
-g O
-Jamais O
-femme O
-ne O
-fut O
-aimée O
-comme O
-vous O
+| I-MISC
+g I-MISC
+Jamais I-MISC
+femme I-MISC
+ne I-MISC
+fut I-MISC
+aimée I-MISC
+comme I-MISC
+vous I-MISC
 , O
 a- O
 |
@@ -40463,8 +40463,8 @@ moi O
 Charles B-PER
 - I-PER
 Amanieu I-PER
-d' O
-ALBRET B-ORG
+d' I-PER
+ALBRET I-PER
 . O
 » O
 |
@@ -40499,16 +40499,16 @@ ai- O
 me O
 ! O
 Ah B-MISC
-que O
-je O
-suis O
-heureuse O
-! O
+que I-MISC
+je I-MISC
+suis I-MISC
+heureuse I-MISC
+! I-MISC
 |
 
-| O
-— O
-Oh B-PER
+| I-MISC
+— I-MISC
+Oh O
 : O
 oui O
 , O
@@ -40546,7 +40546,7 @@ a O
 
 | O
 os O
-PR B-ORG
+PR O
 , O
 un O
 dur O
@@ -40555,9 +40555,9 @@ cit O
 
 | O
 LE O
-CHATEAU B-ORG
-DE O
-PINK B-ORG
+CHATEAU B-MISC
+DE I-MISC
+PINK I-MISC
 . O
 179 O
 |
@@ -40684,9 +40684,9 @@ ciel O
 
 | O
 — O
-Qu' O
-ai O
--je O
+Qu' B-MISC
+ai I-MISC
+-je I-MISC
 à O
 craindre O
 ? O
@@ -40742,7 +40742,7 @@ pére O
 -— O
 Mon B-MISC
 père I-MISC
-! O
+! I-MISC
 il O
 a O
 été O
@@ -40819,21 +40819,21 @@ Tant O
 
 | O
 180 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 , O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 sera O
 dans O
 ce O
 pays O
 , O
-madame O
+madame B-PER
 la O
 comtesse O
 |
@@ -40850,7 +40850,7 @@ liberté O
 
 | O
 — O
-Ïs O
+Ïs B-ORG
 en O
 sont O
 bien O
@@ -40861,7 +40861,7 @@ capables O
 | O
 — O
 ( O
-Concerne O
+Concerne B-LOC
 qu' O
 ils O
 n' O
@@ -40972,9 +40972,9 @@ prendre O
 — O
 Monsieur B-PER
 le O
-comte O
-de O
-Bussy O
+comte B-PER
+de I-PER
+Bussy I-PER
 est O
 bien O
 mé- O
@@ -41030,14 +41030,14 @@ tout O
 
 | O
 -— O
-Eh B-MISC
-bien I-MISC
+Eh O
+bien O
 , O
 qu' O
 importe O
 ! O
-s’ B-PER
-écria I-PER
+s’ O
+écria O
 Henriette B-PER
 en O
 |
@@ -41058,7 +41058,7 @@ par O
 la O
 chambre O
 ; O
-s’ B-PER
+s’ O
 ils O
 me O
 surprend- O
@@ -41093,7 +41093,7 @@ ont O
 | O
 trompée O
 ! O
-S O
+S B-LOC
 se O
 sont O
 joués O
@@ -41253,9 +41253,9 @@ rassurerai O
 — O
 M. O
 le O
-comte O
-de O
-Bussy B-LOC
+comte B-PER
+de I-PER
+Bussy I-PER
 le O
 forcera O
 à O
@@ -41293,14 +41293,14 @@ n' O
 est O
 peut-être O
 pas O
-toul O
+toul B-LOC
 . O
 |
 
 | O
 182 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -41308,8 +41308,8 @@ SINON I-MISC
 
 | O
 — O
-Quoi B-MISC
-! I-MISC
+Quoi O
+! O
 un O
 duel O
 ? O
@@ -41321,10 +41321,10 @@ pas O
 . O
 M. O
 d' O
-Al- O
+Al- B-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 est O
 aimé O
 du O
@@ -41365,11 +41365,11 @@ bien O
 | O
 _ O
 — O
-N' B-PER
+N' O
 importe O
 , O
-Madame B-PER
-! O
+Madame B-MISC
+! I-MISC
 il O
 serait O
 mort O
@@ -41425,11 +41425,11 @@ et O
 mon O
 parasol O
 . O
-|||| O
+|||| B-PER
 |
 
-| O
-Louison B-PER
+| I-PER
+Louison I-PER
 obéit O
 sans O
 répondre O
@@ -41475,7 +41475,7 @@ marquis O
 conduisait O
 madame B-PER
 de I-PER
-Lameth B-PER
+Lameth I-PER
 dans O
 les O
 jardins O
@@ -41540,7 +41540,7 @@ bas O
 
 | O
 _ O
-Louison B-LOC
+Louison B-PER
 . O
 |
 
@@ -41550,23 +41550,23 @@ D O
 
 | O
 LE O
-CHÂTEAU B-ORG
-DE I-ORG
-SINON I-ORG
+CHÂTEAU O
+DE O
+SINON O
 . O
 183 O
 |
 | O
 . O
-ik B-MISC
-Cêries I-MISC
+ik B-PER
+Cêries I-PER
 , O
 je O
 le O
 vois O
 , O
 et O
-jé O
+jé B-MISC
 vais O
 faire O
 cesser O
@@ -41612,7 +41612,7 @@ seule O
 choï- O
 |
 | O
-sissez O
+sissez B-PER
 un O
 autre O
 but O
@@ -41628,17 +41628,17 @@ J' O
 ordre O
 dé O
 M. B-PER
-lé O
+lé I-PER
 comte O
 de O
 marquer O
 les O
 |
 | O
-arrét O
-dé O
-cetié O
-allée O
+arrét B-PER
+dé I-PER
+cetié I-PER
+allée I-PER
 , O
 pour O
 là O
@@ -41651,15 +41651,15 @@ doit O
 faire O
 bientôt O
 , O
-madäme O
-la O
-comtesse O
+madäme B-PER
+la I-PER
+comtesse I-PER
 . O
 |
 | O
-Vous O
-ÿ O
-téviendraés O
+Vous B-PER
+ÿ I-PER
+téviendraés I-PER
 dans O
 un O
 dütré O
@@ -41686,35 +41686,35 @@ rendre O
 compte O
 ce O
 soir O
-À B-MISC
+À O
 |
-| I-MISC
-mon I-MISC
-maté I-MISC
+| O
+mon O
+maté O
 . O
 |||| O
 |
 | O
 LE O
-SE B-LOC
-HO I-LOC
+SE O
+HO O
 , O
 j O
 , O
 jé O
-Vous B-MISC
-6rdoïine I-MISC
-de I-MISC
-retourner I-MISC
+Vous O
+6rdoïine O
+de O
+retourner O
 au O
 |||| O
 |
 | O
 dâtés O
 ; O
-lé O
+lé B-MISC
 ne O
-Chäre B-PER
+Chäre B-MISC
 dé O
 tout O
 auprès O
@@ -41733,18 +41733,18 @@ C' O
 ML B-MISC
 . O
 lé O
-Conte B-LOC
-dé I-LOC
-Bussy I-LOC
+Conte O
+dé O
+Bussy O
 que O
 j' O
 ai O
 des O
 |
 | O
-Comptes B-LOC
-à O
-rendreé O
+Comptes B-MISC
+à I-MISC
+rendreé I-MISC
 . O
 |||| O
 |||| O
@@ -41756,10 +41756,10 @@ bien O
 , O
 jé O
 les O
-lüi B-ORG
+lüi B-LOC
 rendrai O
 , O
-mOi B-PER
+mOi O
 ; O
 ençore O
 |
@@ -41767,7 +41767,7 @@ ençore O
 | O
 à O
 . O
-Nyse O
+Nyse B-ORG
 |
 
 | O
@@ -41782,15 +41782,15 @@ ne O
 vous O
 à O
 pas O
-com O
+com B-ORG
 |
 
-| O
-184 O
-LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+| I-ORG
+184 I-ORG
+LE I-ORG
+CHATEAU I-ORG
+DE I-ORG
+SINON I-ORG
 . O
 |
 | O
@@ -41872,7 +41872,7 @@ aperçois O
 le O
 toit O
 d' O
-Anizy B-ORG
+Anizy B-LOC
 entre O
 les O
 char- O
@@ -42095,7 +42095,7 @@ y O
 baigneïent O
 . O
 Elle O
-s’ B-PER
+s’ O
 y O
 |
 | O
@@ -42107,12 +42107,12 @@ devant O
 elle O
 . O
 Le O
-marquis O
-d’ O
-Al- B-PER
+marquis B-PER
+d’ I-PER
+Al- I-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 était O
 de O
 l' O
@@ -42185,9 +42185,9 @@ pas O
 |
 | O
 — O
-Henriette B-PER
+Henriette B-MISC
 ! O
-s’ B-PER
+s’ O
 écriait O
 -il O
 , O
@@ -42199,7 +42199,7 @@ mains O
 |
 | O
 mon O
-Henriette B-PER
+Henriette B-MISC
 , O
 vous O
 voilà O
@@ -42289,7 +42289,7 @@ trahi O
 LE O
 CHATEAU B-MISC
 DE I-MISC
-SINON B-ORG
+SINON I-MISC
 : O
 |
 
@@ -42374,9 +42374,9 @@ d' O
 ennuis O
 , O
 de O
-tourneñts B-LOC
+tourneñts B-PER
 que O
-celaà O
+celaà B-PER
 était O
 au- O
 |
@@ -42414,7 +42414,7 @@ vous O
 en O
 avez O
 évousé O
-üne O
+üne B-ORG
 autre O
 . O
 |
@@ -42449,7 +42449,7 @@ nous O
 voilà O
 séparés O
 à O
-La- B-LOC
+La- B-PER
 |
 | O
 mais O
@@ -42492,7 +42492,7 @@ de O
 nos O
 éennemis O
 : O
-Môn B-PER
+Môn B-LOC
 tari O
 m' O
 est O
@@ -42500,10 +42500,10 @@ est O
 | O
 odieux O
 ; O
-jé O
-hé O
-cräandräi O
-fién O
+jé B-PER
+hé I-PER
+cräandräi I-PER
+fién I-PER
 pour O
 nié O
 rapprocher O
@@ -42519,9 +42519,9 @@ vous O
 4 O
 |||| O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-BINON I-MISC
+CHATEAU O
+DE O
+BINON O
 . O
 187 O
 |
@@ -42555,7 +42555,7 @@ donc O
 |
 
 | O
-.= B-PER
+.= O
 Comment O
 . O
 |||| O
@@ -42572,13 +42572,13 @@ j' O
 y O
 réussirai O
 . O
-Partez O
+Partez B-LOC
 |
 | O
 bién O
 bruyamment O
 . O
-Emmenez B-LOC
+Emmenez O
 vos O
 gens O
 , O
@@ -42596,14 +42596,14 @@ pays O
 . O
 Leurs O
 soupçons O
-s’ B-PER
+s’ O
 en- O
 |
 | O
 dotñiront O
 alors O
 . O
-Tenez B-PER
+Tenez O
 , O
 aoüa O
 -t O
@@ -42700,7 +42700,7 @@ doute O
 de O
 rien O
 . O
-Cachez O
+Cachez B-PER
 -vous O
 |
 | O
@@ -42919,7 +42919,7 @@ madame B-PER
 de I-PER
 Corcy I-PER
 et O
-M. O
+M. B-PER
 son O
 oncle O
 , O
@@ -42949,10 +42949,10 @@ Oui O
 , O
 et O
 M. B-PER
-le I-PER
-cardinal I-PER
-d' I-PER
-Estrées I-PER
+le O
+cardinal O
+d' O
+Estrées B-LOC
 vient O
 égale- O
 |
@@ -43008,47 +43008,47 @@ jalousie O
 commençait O
 à O
 céder O
-de- O
+de- B-LOC
 |
 
 | O
 PAT O
 PES O
 AMIE O
-LATE O
-A O
-ET O
-BAT O
-TNT O
-Ge O
-RAGE B-MISC
+LATE B-MISC
+A I-MISC
+ET I-MISC
+BAT I-MISC
+TNT I-MISC
+Ge I-MISC
+RAGE I-MISC
 7 I-MISC
-Ze O
+Ze I-MISC
 |
 | O
 À B-MISC
 DE I-MISC
 re I-MISC
-= I-MISC
+= O
 |
 
-| I-MISC
-à I-MISC
-ET I-MISC
-PETITE B-LOC
+| O
+à O
+ET B-LOC
+PETITE I-LOC
 A I-LOC
 , O
-TU B-ORG
-CANTAL I-ORG
-AA I-ORG
-ET I-ORG
-ET I-ORG
-EN O
-EEE B-ORG
+TU B-MISC
+CANTAL I-MISC
+AA I-MISC
+ET I-MISC
+ET I-MISC
+EN I-MISC
+EEE I-MISC
 , O
 8 O
-PE O
-ET O
+PE B-MISC
+ET I-MISC
 RE O
 ANA B-MISC
 |
@@ -43068,7 +43068,7 @@ ses O
 côtés O
 . O
 Ni O
-l’ B-LOC
+l’ O
 un O
 ni O
 l' O
@@ -43088,11 +43088,11 @@ château O
 
 | O
 — O
-Je B-MISC
-vais I-MISC
-faire I-MISC
-ma I-MISC
-toilette I-MISC
+Je O
+vais O
+faire O
+ma O
+toilette O
 , O
 dit O
 négligemment O
@@ -43140,8 +43140,8 @@ l' O
 
 | O
 ‘ O
-Le O
-comte O
+Le B-PER
+comte I-PER
 devint O
 rouge O
 comme O
@@ -43159,7 +43159,7 @@ belle O
 , O
 Madame B-PER
 , O
-d’ B-PER
+d’ O
 ail- O
 |
 
@@ -43201,8 +43201,8 @@ cardinal O
 — O
 Madame B-PER
 ! O
-Madame B-PER
-|||| O
+Madame B-MISC
+|||| I-MISC
 ... O
 |
 
@@ -43211,7 +43211,7 @@ Madame B-PER
 Eh B-MISC
 bien I-MISC
 ! I-MISC
-Monsieur B-PER
+Monsieur O
 , O
 d' O
 où O
@@ -43261,9 +43261,9 @@ messieurs O
 | O
 190 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -43281,9 +43281,9 @@ sais O
 | O
 _ O
 — O
-Nous B-MISC
-les I-MISC
-connaissons I-MISC
+Nous O
+les O
+connaissons O
 , O
 peut-être O
 . O
@@ -43304,7 +43304,7 @@ Très O
 bien O
 , O
 ajouta O
-Henriette B-PER
+Henriette B-MISC
 , O
 11 O
 paraït O
@@ -43401,7 +43401,7 @@ appartement O
 
 | O
 — O
-Maintenant B-LOC
+Maintenant O
 , O
 Louison B-PER
 , O
@@ -43440,7 +43440,7 @@ Nous O
 allons O
 |
 | O
-Jouer B-PER
+Jouer B-LOC
 au O
 plus O
 fin O
@@ -43480,7 +43480,7 @@ père O
 
 | O
 — O
-Non B-PER
+Non O
 , O
 j' O
 ai O
@@ -43525,18 +43525,18 @@ le O
 carrosse O
 de O
 son O
-Ami- O
+Ami- B-PER
 |
-| O
-PR B-ORG
-RATS O
-NO O
-CHE O
+| I-PER
+PR I-PER
+RATS I-PER
+NO I-PER
+CHE I-PER
 ss O
 de O
 \ O
 _ O
-PL B-ORG
+PL B-MISC
 uu O
 ë O
 |
@@ -43573,7 +43573,7 @@ Madame B-PER
 de I-PER
 Corsy I-PER
 et O
-M. O
+M. B-MISC
 son O
 oncle O
 . O
@@ -43626,7 +43626,7 @@ comtes O
 , O
 dont O
 le O
-Vi- O
+Vi- B-LOC
 |
 
 | O
@@ -43662,8 +43662,8 @@ nouvelles O
 , O
 Ma- B-PER
 |
-| O
-dame O
+| I-PER
+dame I-PER
 dit O
 le O
 cardinal O
@@ -43685,7 +43685,7 @@ monseigneur B-PER
 
 | O
 votre O
-Minence B-LOC
+Minence B-MISC
 est O
 bien O
 bonne O
@@ -43707,12 +43707,12 @@ chose O
 | O
 _ O
 — O
-Nous B-MISC
-étions I-MISC
-très I-MISC
-inquiets I-MISC
+Nous O
+étions O
+très O
+inquiets O
 , O
-madame O
+madame B-PER
 la O
 com- O
 |
@@ -43730,8 +43730,8 @@ criminel O
 
 | O
 192 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 D I-MISC
 SINON I-MISC
 . O
@@ -43752,7 +43752,7 @@ je O
 |
 | O
 suis O
-guérie B-LOC
+guérie O
 . O
 |
 
@@ -43772,15 +43772,15 @@ Madame B-PER
 | O
 interrompit O
 Madame B-PER
-de O
+de I-PER
 . O
-Corcy B-PER
+Corcy B-LOC
 . O
 |
 
 | O
 — O
-Absolument B-LOC
+Absolument O
 et O
 sans O
 retour O
@@ -43789,18 +43789,18 @@ retour O
 
 | O
 — O
-Prenez B-PER
+Prenez O
 garde O
 , O
 Madame B-PER
 , O
 reprit O
 le O
-comte O
-de O
+comte B-PER
+de I-PER
 |
-| O
-Bussy B-LOC
+| I-PER
+Bussy I-PER
 , O
 la O
 crainte O
@@ -43822,7 +43822,7 @@ Je O
 n' O
 ai O
 pas O
-besom O
+besom B-PER
 de O
 crainte O
 pour O
@@ -43910,10 +43910,10 @@ que O
 sont O
 -ils O
 devenus O
-Monsei- O
+Monsei- B-ORG
 |
-| O
-gneur O
+| I-ORG
+gneur I-ORG
 ? O
 ‘ O
 |
@@ -43991,10 +43991,10 @@ obéir O
 
 | O
 — O
-Voilà B-PER
-une O
-belle O
-pensée O
+Voilà B-MISC
+une I-MISC
+belle I-MISC
+pensée I-MISC
 , O
 Monseigneur B-PER
 , O
@@ -44076,7 +44076,7 @@ sexuelle O
 pour O
 vous O
 . O
-Co O
+Co B-LOC
 |
 
 | O
@@ -44112,7 +44112,7 @@ d' O
 un O
 quinconce O
 , O
-en- O
+en- B-LOC
 |
 | O
 _ O
@@ -44144,11 +44144,11 @@ agréa- O
 | O
 ble O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-Henriette B-PER
+| I-MISC
+Henriette I-MISC
 rougit O
 beaucoup O
 , O
@@ -44158,7 +44158,7 @@ de O
 |
 
 | O
-Comprendre B-LOC
+Comprendre B-PER
 . O
 |
 | O
@@ -44177,8 +44177,8 @@ SINON I-MISC
 
 | O
 — O
-Je B-LOC
-l’ I-LOC
+Je O
+l’ O
 accepte O
 , O
 Madame B-PER
@@ -44289,16 +44289,16 @@ passer O
 quelque O
 temps O
 à O
-Sinon B-PER
-’ I-PER
-Je O
-suis O
-jalouse O
+Sinon B-MISC
+’ I-MISC
+Je I-MISC
+suis I-MISC
+jalouse I-MISC
 |
-| O
-de O
-son O
-Minence B-LOC
+| I-MISC
+de I-MISC
+son I-MISC
+Minence I-MISC
 chez O
 laquelle O
 vous O
@@ -44314,10 +44314,10 @@ jours O
 
 | O
 — O
-Je B-MISC
-dois I-MISC
-retourner I-MISC
-demain I-MISC
+Je O
+dois O
+retourner O
+demain O
 à O
 Coucy B-LOC
 avec O
@@ -44426,10 +44426,10 @@ _ O
 |
 
 | O
-Le B-PER
-comte I-PER
-de I-PER
-Bussy I-PER
+Le O
+comte O
+de O
+Bussy O
 et O
 son O
 fils O
@@ -44440,7 +44440,7 @@ une O
 invitation O
 . O
 Henriette B-PER
-s’ I-PER
+s’ O
 en O
 aperçut O
 . O
@@ -44511,9 +44511,9 @@ y O
 trouvaient O
 . O
 Quoique O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 ne O
 m' O
 en O
@@ -44523,8 +44523,8 @@ ayant O
 point O
 parlé O
 , O
-Je B-MISC
-n’ I-MISC
+Je O
+n’ O
 ignore O
 ‘ O
 rien O
@@ -44593,10 +44593,10 @@ un O
 vieux O
 prêtre O
 , O
-Je B-MISC
-ne I-MISC
-partirais I-MISC
-plus I-MISC
+Je O
+ne O
+partirais O
+plus O
 devant O
 |
 
@@ -44623,8 +44623,8 @@ duisante O
 | O
 196 O
 _ O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -44639,10 +44639,10 @@ est O
 mort O
 encore O
 , O
-Monsei- B-ORG
+Monsei- B-MISC
 |
-| O
-gneur O
+| I-MISC
+gneur I-MISC
 , O
 cela O
 doit O
@@ -44663,14 +44663,14 @@ de I-PER
 La- I-PER
 |
 | O
-meth B-LOC
+meth O
 rentra O
 chez O
 elle O
 , O
 son O
 mari O
-suivitson O
+suivitson B-PER
 père O
 . O
 |
@@ -44826,9 +44826,9 @@ dévoué O
 
 | O
 : O
-M. O
-de O
-Lameth B-PER
+M. B-PER
+de I-PER
+Lameth I-PER
 baissa O
 la O
 tête O
@@ -44856,9 +44856,9 @@ et O
 
 | O
 LE O
-CHATEAU B-ORG
+CHATEAU O
 DE O
-LINON B-ORG
+LINON O
 , O
 { O
 97 O
@@ -44866,7 +44866,7 @@ LINON B-ORG
 
 | O
 continua O
-Henriette B-PER
+Henriette B-MISC
 , O
 elle O
 vit O
@@ -44955,7 +44955,7 @@ mari O
 elle O
 courut O
 les O
-en- O
+en- B-LOC
 |
 | O
 virons O
@@ -44994,7 +44994,7 @@ elle O
 ne O
 voulut O
 pas O
-s’ B-PER
+s’ O
 en O
 apercevoir O
 , O
@@ -45049,7 +45049,7 @@ trer O
 , O
 et O
 où O
-l’ B-LOC
+l’ O
 on O
 ne O
 risquait O
@@ -45084,8 +45084,8 @@ marquis O
 
 | O
 198 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -45142,9 +45142,9 @@ et O
 | O
 votre O
 amour O
-st O
-pur O
-! O
+st B-MISC
+pur I-MISC
+! I-MISC
 |
 
 | O
@@ -45304,7 +45304,7 @@ resta O
 trois O
 semaines O
 à O
-Pi- O
+Pi- B-LOC
 |
 | O
 ion O
@@ -45321,9 +45321,9 @@ grâces O
 
 | O
 de O
-MM. B-MISC
-dé O
-Laïïdét B-ORG
+MM. B-PER
+dé I-PER
+Laïïdét I-PER
 , O
 au O
 point O
@@ -45362,7 +45362,7 @@ ils O
 l' O
 engagèrent O
 à O
-de- O
+de- B-LOC
 |
 | O
 venir O
@@ -45413,7 +45413,7 @@ première O
 fois O
 l' O
 éternel O
-J O
+J B-PER
 guet O
 resta O
 au O
@@ -45423,8 +45423,8 @@ logis O
 
 | O
 — O
-Vous B-MISC
-êtes I-MISC
+Vous O
+êtes O
 en O
 grande O
 faveur O
@@ -45442,9 +45442,9 @@ comtesse O
 vous O
 tenez O
 la O
-place O
-de O
-Jo- O
+place B-LOC
+de I-LOC
+Jo- I-LOC
 |
 
 | O
@@ -45459,9 +45459,9 @@ n' O
 ai O
 jamais O
 aimé O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 , O
 me O
 |
@@ -45531,7 +45531,7 @@ que O
 vous O
 êtes O
 une O
-Sirène B-PER
+Sirène B-MISC
 et O
 qu' O
 on O
@@ -45565,18 +45565,18 @@ promettez O
 | O
 200 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
 — O
-Je B-MISC
-e I-MISC
-vous I-MISC
-le I-MISC
-promets I-MISC
+Je O
+e O
+vous O
+le O
+promets O
 . O
 |
 | O
@@ -45607,12 +45607,12 @@ IX O
 | O
 LES O
 DEUX O
-GABRIELLE B-ORG
+GABRIELLE O
 , O
 |
 
 | O
-Six B-PER
+Six O
 mois O
 se O
 passèrent O
@@ -45629,7 +45629,7 @@ tant O
 d' O
 adresse O
 , O
-qu’ B-PER
+qu’ O
 elle O
 écarta O
 les O
@@ -45637,9 +45637,9 @@ les O
 | O
 soupçons O
 de O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 . O
 Quoiqu' O
 il O
@@ -45714,9 +45714,9 @@ regard- O
 | O
 202 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -45747,9 +45747,9 @@ mêmes O
 , O
 |
 | O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 vont O
 aller O
 en O
@@ -45887,7 +45887,7 @@ resta O
 quinze O
 jours O
 à O
-Pi- O
+Pi- B-LOC
 |
 | O
 non O
@@ -45958,7 +45958,7 @@ SINON I-MISC
 
 | O
 — O
-J B-LOC
+J O
 jusqu' O
 à O
 un O
@@ -45974,14 +45974,14 @@ avons O
 encore O
 un O
 espion O
-ICI O
+ICI B-MISC
 ce O
 rons- O
 |
 | O
 tre O
 de O
-Jouet B-LOC
+Jouet O
 . O
 |||| O
 |||| O
@@ -45989,10 +45989,10 @@ Jouet B-LOC
 
 | O
 — O
-Je B-MISC
-m' I-MISC
-en I-MISC
-doutais I-MISC
+Je O
+m' O
+en O
+doutais O
 ; O
 mais O
 comment O
@@ -46018,7 +46018,7 @@ le O
 nouveau O
 |
 | O
-Jaquais B-LOC
+Jaquais B-PER
 récommandé O
 par O
 madame B-PER
@@ -46153,7 +46153,7 @@ marquis O
 à O
 |
 | O
-Cüce B-PER
+Cüce B-MISC
 , O
 la O
 semaine O
@@ -46164,7 +46164,7 @@ prochaine O
 | O
 — O
 Et O
-s’ B-LOC
+s’ O
 il O
 le O
 découvre O
@@ -46225,9 +46225,9 @@ tromperons O
 
 | O
 — O
-M. B-PER
-le I-PER
-marquis I-PER
+M. O
+le O
+marquis O
 est O
 prévenu O
 ? O
@@ -46277,7 +46277,7 @@ tombe O
 a O
 cru O
 servir O
-M. B-PER
+M. O
 le O
 lieutenant O
 - O
@@ -46286,7 +46286,7 @@ crime O
 |
 
 | O
-nel B-LOC
+nel O
 . O
 |
 
@@ -46323,9 +46323,9 @@ cor- O
 |
 | O
 dialement O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 , O
 et O
 puis O
@@ -46355,7 +46355,7 @@ chose O
 
 | O
 — O
-Où B-MISC
+Où O
 est O
 M. O
 le O
@@ -46374,7 +46374,7 @@ il O
 n' O
 ira O
 à O
-l’ B-LOC
+l’ O
 armée O
 que O
 plus O
@@ -46453,8 +46453,8 @@ maîtres O
 |
 
 | O
-La B-MISC
-comtesse I-MISC
+La O
+comtesse O
 donna O
 des O
 ordres O
@@ -46528,7 +46528,7 @@ accueillirent O
 la O
 comtesse O
 à O
-brasouverts O
+brasouverts B-PER
 . O
 Ils O
 étaient O
@@ -46567,13 +46567,13 @@ empressement O
 _ O
 . O
 — O
-Avez B-LOC
+Avez O
 -vous O
 la O
 réponse O
 ? O
 dit O
-madame O
+madame B-PER
 de O
 |
 | O
@@ -46634,18 +46634,18 @@ terre O
 | O
 208 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
 | O
 — O
-- O
-Pauvre O
-marquis O
-! O
+- B-PER
+Pauvre I-PER
+marquis I-PER
+! I-PER
 il O
 est O
 d O
@@ -46657,11 +46657,11 @@ peut-être O
 | O
 — O
 _ O
-Je B-MISC
-ne I-MISC
-le I-MISC
-crois I-MISC
-pas I-MISC
+Je O
+ne O
+le O
+crois O
+pas O
 . O
 Je O
 lui O
@@ -46773,7 +46773,7 @@ veuve O
 en O
 |
 | O
-s’ B-PER
+s’ O
 approchant O
 d' O
 une O
@@ -46881,10 +46881,10 @@ son O
 
 | O
 LE O
-CH B-MISC
-TEAU I-MISC
+CH O
+TEAU B-MISC
 DE I-MISC
-SINON B-ORG
+SINON I-MISC
 .. O
 207 O
 |
@@ -46915,14 +46915,14 @@ Madame B-PER
 | O
 — O
 _ O
-Ilest B-LOC
-charmant O
-! O
+Ilest B-MISC
+charmant I-MISC
+! I-MISC
 |
 
-| O
-La B-PER
-comtesse I-PER
+| I-MISC
+La I-MISC
+comtesse I-MISC
 écrivit O
 , O
 on O
@@ -47100,8 +47100,8 @@ mème O
 Il O
 a O
 lu O
-La O
-lettre O
+La B-MISC
+lettre I-MISC
 , O
 et O
 1l O
@@ -47135,9 +47135,9 @@ poche O
 | O
 208 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -47224,8 +47224,8 @@ il O
 vous O
 aime O
 . O
-belle B-PER
-comtesse I-PER
+belle O
+comtesse O
 : O
 il O
 a O
@@ -47268,7 +47268,7 @@ présent O
 ; O
 par O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 mon O
@@ -47307,7 +47307,7 @@ néanmoins O
 
 | O
 — O
-Battu B-LOC
+Battu O
 pour O
 moi O
 , O
@@ -47350,9 +47350,9 @@ Bien O
 volontiers O
 . O
 Ce O
-pays O
-- O
-c1 B-ORG
+pays B-LOC
+- I-LOC
+c1 I-LOC
 est O
 charmant O
 . O
@@ -47371,9 +47371,9 @@ de O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 209 O
 |
@@ -47411,12 +47411,12 @@ _ O
 — O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 quelle O
 jolie O
 vue O
 ! O
-s’ B-PER
+s’ O
 écria O
 la O
 |
@@ -47428,10 +47428,10 @@ comtesse O
 
 | O
 — O
-Voilà B-PER
-notre O
-pauvre O
-château O
+Voilà B-MISC
+notre I-MISC
+pauvre I-MISC
+château I-MISC
 qu’ O
 on O
 nous O
@@ -47451,14 +47451,14 @@ la O
 |
 
 | O
-Fronde B-LOC
+Fronde B-MISC
 . O
 Le O
 cardinal B-PER
 Mazarin I-PER
 a O
 tué O
-Coucy O
+Coucy B-LOC
 . O
 Je O
 |
@@ -47568,7 +47568,7 @@ ville O
 
 | O
 — O
-Savez B-PER
+Savez O
 -vous O
 que O
 vous O
@@ -47583,7 +47583,7 @@ airs O
 de O
 forteresse O
 ? O
-Vos B-PER
+Vos O
 portes O
 , O
 vos O
@@ -47599,9 +47599,9 @@ fossés O
 | O
 210 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -47609,7 +47609,7 @@ SINON I-MISC
 vos O
 murailles O
 , O
-c’ B-MISC
+c’ O
 est O
 presque O
 comme O
@@ -47637,13 +47637,13 @@ comblent O
 , O
 nos O
 murailles O
-s’ B-PER
-écroulent I-PER
+s’ O
+écroulent O
 . O
 |
 | O
 Il O
-n’ B-PER
+n’ O
 y O
 a O
 que O
@@ -47714,8 +47714,8 @@ chie O
 
 | O
 — O
-Ÿ O
-a O
+Ÿ B-LOC
+a I-LOC
 - O
 t-1l O
 encore O
@@ -47726,7 +47726,7 @@ Coucy B-LOC
 
 | O
 — O
-Pas B-LOC
+Pas O
 un O
 , O
 et O
@@ -47789,7 +47789,7 @@ même O
 un O
 bâtard O
 : O
-c’ B-MISC
+c’ O
 est O
 un O
 nom O
@@ -47840,9 +47840,9 @@ admirable O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 211 O
 |
@@ -47915,7 +47915,7 @@ oncle O
 
 | O
 — O
-Me O
+Me B-PER
 voilà O
 bien O
 au O
@@ -47925,7 +47925,7 @@ Coucy B-LOC
 mainte- O
 |
 | O
-nant O
+nant B-LOC
 , O
 et O
 je O
@@ -47988,7 +47988,7 @@ rui- O
 nes O
 éclairés O
 par O
-l’ B-ORG
+l’ O
 autre O
 des O
 amants O
@@ -47998,8 +47998,8 @@ en O
 se- O
 |
 | O
-rez B-PER
-charmée I-PER
+rez O
+charmée O
 . O
 |
 
@@ -48043,9 +48043,9 @@ plaira O
 | O
 © O
 — O
-Que B-MISC
-la I-MISC
-journée I-MISC
+Que O
+la O
+journée O
 est O
 longue O
 ! O
@@ -48069,9 +48069,9 @@ succède O
 | O
 212 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -48149,8 +48149,8 @@ comtesse O
 
 | O
 — O
-Egoïste B-MISC
-! I-MISC
+Egoïste O
+! O
 pensa O
 madame B-PER
 de I-PER
@@ -48182,7 +48182,7 @@ L' B-MISC
 as I-MISC
 - I-MISC
 tu I-MISC
-vu I-MISC
+vu O
 , O
 Louison B-PER
 ? O
@@ -48217,9 +48217,9 @@ il O
 |
 | O
 cherche O
-madame O
-la O
-comtesse O
+madame B-PER
+la I-PER
+comtesse I-PER
 , O
 triste O
 et O
@@ -48236,7 +48236,7 @@ apercevoir O
 
 | O
 — O
-Ouvre B-LOC
+Ouvre O
 cette O
 fenêtre O
 , O
@@ -48329,7 +48329,7 @@ sous O
 ses O
 rideaux O
 , O
-s’ B-PER
+s’ O
 enivrait O
 du O
 bonheur O
@@ -48387,7 +48387,7 @@ fou O
 
 | O
 — O
-Savez B-PER
+Savez O
 -vous O
 , O
 Madame B-PER
@@ -48402,14 +48402,14 @@ déteste O
 tant O
 messieurs O
 de O
-Lameth B-LOC
+Lameth B-PER
 ? O
-de- O
+de- B-LOC
 |
 | O
 |||| O
 manda O
-Louison O
+Louison B-PER
 à O
 sa O
 maitresse O
@@ -48461,9 +48461,9 @@ bien I-MISC
 ! I-MISC
 |
 
-| I-MISC
-— I-MISC
-Elle I-MISC
+| O
+— O
+Elle O
 a O
 dû O
 épouser O
@@ -48475,9 +48475,9 @@ comte O
 
 | O
 — O
-Allons B-LOC
-donc O
-! O
+Allons B-MISC
+donc I-MISC
+! I-MISC
 noire O
 mariage O
 est O
@@ -48561,7 +48561,7 @@ la O
 connaissait O
 pas O
 . O
-Monsieur B-PER
+Monsieur O
 |
 | O
 le O
@@ -48591,7 +48591,7 @@ Bussy B-LOC
 La- I-LOC
 |
 | O
-meth B-LOC
+meth O
 , O
 celui-ci O
 a O
@@ -48622,8 +48622,8 @@ monsieur O
 d' O
 Al B-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 , O
 seulement O
 monsieur O
@@ -48686,7 +48686,7 @@ tromper O
 
 | O
 — O
-Voïlà B-PER
+Voïlà B-MISC
 pourquoi O
 aussi O
 mon O
@@ -48710,7 +48710,7 @@ a O
 tant O
 cherché O
 à O
-l’ B-LOC
+l’ O
 éloigner O
 . O
 |
@@ -48783,12 +48783,12 @@ SINON I-MISC
 amant O
 , O
 en O
-l’ B-LOC
+l’ O
 adorant O
 en O
 silence O
 . O
-C’ B-MISC
+C’ O
 est O
 bien O
 pos- O
@@ -48809,7 +48809,7 @@ propre O
 |
 
 | O
-Monsieur B-PER
+Monsieur O
 de O
 Lameth B-PER
 aura O
@@ -48940,12 +48940,12 @@ coutume O
 | O
 |||| O
 — O
-Et B-LOC
-Qui I-LOC
-donc I-LOC
+Et O
+Qui O
+donc O
 , O
 monsieur O
-Îe O
+Îe B-PER
 marquis O
 ? O
 Je O
@@ -48965,7 +48965,7 @@ minutes O
  | O
 — O
 Tâche B-PER
-de I-PER
+de O
 voir O
 Rémond B-PER
 . O
@@ -49129,7 +49129,7 @@ veiller O
 . O
 |
 | O
-Nousdemeureronstouteslesdeux O
+Nousdemeureronstouteslesdeux B-MISC
 . O
 Vous O
 prendrez O
@@ -49200,7 +49200,7 @@ embuscade O
 entra O
 dans O
 le O
-moïdre O
+moïdre B-LOC
 bruit O
 . O
 |
@@ -49209,7 +49209,7 @@ bruit O
 Madame B-PER
 de I-PER
 Corcy I-PER
-lé O
+lé I-PER
 reçet O
 la O
 première O
@@ -49224,12 +49224,12 @@ la O
 comtesse O
 , O
 qui O
-l’ B-ORG
+l’ O
 attendait O
 |
 | O
-En B-LOC
-l’ I-LOC
+En B-MISC
+l’ I-MISC
 apercevant O
 , O
 il O
@@ -49261,7 +49261,7 @@ SINON I-MISC
 — O
 Mon B-MISC
 Henriette I-MISC
-! O
+! I-MISC
 s' O
 écria O
 -t O
@@ -49324,7 +49324,7 @@ Albret I-PER
 Et O
 moi O
 , O
-monamil O
+monamil B-PER
 |
 | O
 — O
@@ -49377,7 +49377,7 @@ difficile O
 | O
 _ O
 — O
-Rien B-PER
+Rien O
 ne O
 me O
 coûte O
@@ -49389,9 +49389,9 @@ Monsieur B-PER
 |
 | O
 — O
-Chère B-PER
-Henriette I-PER
-! O
+Chère B-MISC
+Henriette I-MISC
+! I-MISC
 vous O
 voilà O
 plus O
@@ -49433,10 +49433,10 @@ possible O
 — O
 Et O
 la O
-Cour O
+Cour B-LOC
 , O
 que O
-s’ B-PER
+s’ O
 y O
 passe O
 - O
@@ -49468,13 +49468,13 @@ aime O
 -t O
 -il O
 toujours O
-madame O
-de O
-Mon- O
+madame B-PER
+de I-PER
+Mon- I-PER
 |
 
 | O
-span B-LOC
+span O
 ? O
 - O
 |
@@ -49537,11 +49537,11 @@ importe O
 |
 | O
 — O
-Vous B-MISC
-êtes I-MISC
-un I-MISC
-grand I-MISC
-enfant I-MISC
+Vous O
+êtes O
+un O
+grand O
+enfant O
 , O
 marquis O
 . O
@@ -49561,7 +49561,7 @@ froide O
 — O
 Oh B-MISC
 ! I-MISC
-froide I-MISC
+froide O
 ! O
 Charles B-PER
 , O
@@ -49584,7 +49584,7 @@ autres O
 , O
 de O
 la O
-Cour B-ORG
+Cour B-LOC
 , O
 |
 | O
@@ -49642,7 +49642,7 @@ quel O
 |
 | O
 — O
-Devinez B-LOC
+Devinez B-PER
 . O
 |
 | O
@@ -49660,9 +49660,9 @@ désirez I-MISC
 -vous I-MISC
 le I-MISC
 plus I-MISC
-? O
+? I-MISC
 |
-| O
+| I-MISC
 — O
 Je O
 ne O
@@ -49756,7 +49756,7 @@ anneau O
 
 | O
 + O
-Pas B-LOC
+Pas O
 davantage O
 . O
 |||| O
@@ -49808,9 +49808,9 @@ habile O
 |||| O
 |
 | O
-LT B-ORG
-J I-ORG
-e I-ORG
+LT O
+J O
+e O
 ne O
 suis O
 qu O
@@ -49868,7 +49868,7 @@ alors O
 | O
 .. O
 — O
-Votre B-MISC
+Votre O
 portrait O
 ! O
 Il O
@@ -49889,9 +49889,9 @@ vie O
 | O
 220 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -49913,9 +49913,9 @@ ressemble O
 
 | O
 — O
-Etes B-MISC
--vous I-MISC
-content I-MISC
+Etes O
+-vous O
+content O
 ? O
 |
 
@@ -49925,8 +49925,8 @@ Oh B-MISC
 ! I-MISC
 merci O
 ! O
-merci B-MISC
-! I-MISC
+merci O
+! O
 |||| O
 |
 
@@ -49982,10 +49982,10 @@ quelle O
 belle O
 fête O
 que O
-l’ B-MISC
-amour I-MISC
+l’ O
+amour O
 ! O
-Voyez B-MISC
+Voyez O
 , O
 |
 | O
@@ -50035,8 +50035,8 @@ qui O
 me O
 rüle O
 . O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 je O
 ne O
 pas O
@@ -50129,8 +50129,8 @@ SINON I-MISC
 | O
 me O
 au O
-Cœur B-LOC
-chaud I-LOC
+Cœur B-MISC
+chaud I-MISC
 , O
 à O
 l' O
@@ -50379,9 +50379,9 @@ position O
 | O
 299 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -50390,10 +50390,10 @@ son O
 avenir O
 , O
 elle O
-l’ B-LOC
+l’ O
 est O
 repoussé O
-sur-le-champ B-LOC
+sur-le-champ O
 . O
 |
 
@@ -50422,7 +50422,7 @@ sorte O
 |
 | O
 de O
-bravade B-LOC
+bravade O
 romanesque O
 . O
 Elle O
@@ -50433,7 +50433,7 @@ si O
 | O
 M. B-PER
 de I-PER
-Lameth B-PER
+Lameth I-PER
 l' O
 abandonnait O
 , O
@@ -50525,7 +50525,7 @@ en O
 soit O
 , O
 elle O
-n’ B-MISC
+n’ O
 a- O
 |
 
@@ -50567,7 +50567,7 @@ ca- O
 rantère O
 » O
 ( O
-TOP B-MISC
+TOP B-ORG
 étrange O
 s’ O
 il O
@@ -50617,32 +50617,32 @@ heureïls O
 causaient O
 ainsi O
 sans O
-s’ B-LOC
+s’ O
 en O
 : O
 |
 
 | O
 Le O
-ER B-LOC
+ER O
 LA O
 TRE B-MISC
 IT I-MISC
-RAT O
-EN O
-ne O
-D B-MISC
+RAT I-MISC
+EN I-MISC
+ne I-MISC
+D I-MISC
 TRE I-MISC
 de O
-DE O
-SON O
-ART O
-an O
-Se O
-ARR B-LOC
-di I-LOC
+DE B-MISC
+SON I-MISC
+ART I-MISC
+an I-MISC
+Se I-MISC
+ARR I-MISC
+di I-MISC
 |
-| I-LOC
+| I-MISC
 - O
 E O
 L O
@@ -50657,12 +50657,12 @@ RS B-ORG
 ENNE I-ORG
 RARE O
 ET O
-RE B-MISC
+RE O
 ET O
-DISTANT B-MISC
+DISTANT O
 |
 
-| I-MISC
+| O
 RE O
 PAST O
 ARRETE O
@@ -50675,7 +50675,7 @@ ARRETE O
 
 | O
 IPS O
-E O
+E B-LOC
 pR O
 : O
 |
@@ -50696,9 +50696,9 @@ Le O
 
 | O
 LE O
-GMATEAU B-ORG
-DE I-ORG
-SINON I-ORG
+GMATEAU B-MISC
+DE I-MISC
+SINON I-MISC
 . O
 223 O
 |
@@ -50745,21 +50745,21 @@ propre O
 lumière O
 , O
 Voilà B-MISC
-pourquoi O
-il O
-nous O
-aveu- O
+pourquoi I-MISC
+il I-MISC
+nous I-MISC
+aveu- I-MISC
 |
-| O
-se O
-sur O
-l’ B-LOC
-objet O
+| I-MISC
+se I-MISC
+sur I-MISC
+l’ I-MISC
+objet I-MISC
 qui O
 l' O
 inspire O
 , O
-c’ B-MISC
+c’ O
 est O
 nous O
 que O
@@ -50793,7 +50793,7 @@ heureux O
 
 | O
 _ O
-K' O
+K' B-MISC
 mélancolique O
 , O
 elle O
@@ -50844,11 +50844,11 @@ rappellent O
 CT O
 : O
 Le O
-voulez B-LOC
-- I-LOC
-vo I-LOC
-us I-LOC
-’ I-LOC
+voulez O
+- O
+vo O
+us O
+’ O
 ? O
 rien O
 n O
@@ -50868,9 +50868,9 @@ clef O
 | O
 “ O
 52e O
-Allons B-LOC
-- I-LOC
-y I-LOC
+Allons B-MISC
+- I-MISC
+y I-MISC
 , O
 je O
 vous O
@@ -50934,7 +50934,7 @@ heure O
 |
 
 | O
-Mini B-PER
+Mini B-MISC
 sonna O
 à O
 l O
@@ -50969,9 +50969,9 @@ tête O
 | O
 224 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -51300,7 +51300,7 @@ IV I-PER
 j' O
 ai O
 ma O
-Gabrielle O
+Gabrielle B-PER
 , O
 mille O
 |
@@ -51322,17 +51322,17 @@ aurai O
 | O
 pas O
 comme O
-Îun B-MISC
-sacrifié I-MISC
-mon I-MISC
-amour I-MISC
-à I-MISC
-une I-MISC
-al- I-MISC
+Îun B-PER
+sacrifié O
+mon O
+amour O
+à O
+une O
+al- O
 |
 | O
-lance B-PER
-couronnée I-PER
+lance O
+couronnée O
 . O
 |||| O
 |
@@ -51385,19 +51385,19 @@ silence O
 
 | O
 — O
-Voyez B-LOC
--vous O
-là O
-- O
-bas O
-ce O
-petit O
-château O
-dont O
-la O
+Voyez B-MISC
+-vous I-MISC
+là I-MISC
+- I-MISC
+bas I-MISC
+ce I-MISC
+petit I-MISC
+château I-MISC
+dont I-MISC
+la I-MISC
 |
-| O
-Jeune B-LOC
+| I-MISC
+Jeune I-MISC
 fait O
 briller O
 le O
@@ -51434,9 +51434,9 @@ on O
 056 O
 47 O
 26 O
-S O
-te O
-D O
+S B-LOC
+te I-LOC
+D I-LOC
 Et O
 où O
 |
@@ -51453,10 +51453,10 @@ SINON I-MISC
 
 | O
 — O
-Eh O
-bien O
-! O
-c’ B-MISC
+Eh B-MISC
+bien I-MISC
+! I-MISC
+c’ O
 est O
 encore O
 un O
@@ -51501,7 +51501,7 @@ Là O
 vécut O
 une O
 autre O
-Gabrielle B-LOC
+Gabrielle B-PER
 . O
 |
 
@@ -51513,7 +51513,7 @@ là O
 vécut O
 une O
 autre O
-Gabrielle B-LOC
+Gabrielle B-PER
 , O
 qui O
 |
@@ -51654,8 +51654,8 @@ Non O
 parlons O
 plutôt O
 de O
-la O
-Ga- O
+la B-MISC
+Ga- I-MISC
 |
 
 | O
@@ -51761,9 +51761,9 @@ monarque O
 | O
 . O
 — O
-Hélas B-MISC
-! I-MISC
-Henriette B-PER
+Hélas O
+! O
+Henriette B-MISC
 , O
 si O
 j' O
@@ -51806,8 +51806,8 @@ doute O
 vous O
 feriez O
 comme O
-Henri B-MISC
-1V I-MISC
+Henri B-PER
+1V I-PER
 , O
 |
 | O
@@ -51836,11 +51836,11 @@ Hélas B-MISC
 |
 
 | I-MISC
-Un I-MISC
+Un B-MISC
 nuage I-MISC
 de I-MISC
 tristesse I-MISC
-s’ B-PER
+s’ O
 étendit O
 entre O
 les O
@@ -51918,7 +51918,7 @@ mémoire O
 Croyez B-LOC
 -vous O
 aux O
-Bohémiens B-LOC
+Bohémiens B-MISC
 , O
 Charles B-PER
 ? O
@@ -51934,8 +51934,8 @@ elle O
 
 | O
 — O
-Je B-MISC
-n’ I-MISC
+Je O
+n’ O
 en O
 ai O
 jamais O
@@ -51961,7 +51961,7 @@ eux O
 | O
 _ O
 — O
-Piût B-PER
+Piût B-LOC
 au O
 ciel O
 que O
@@ -51987,8 +51987,8 @@ arrivé O
 
 | O
 — O
-Une B-PER
-Bohémienne I-PER
+Une B-MISC
+Bohémienne I-MISC
 , O
 que O
 j' O
@@ -52126,22 +52126,22 @@ autour- O
 
 | O
 d O
-hu B-PER
+hu O
 ? O
 |
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 229 O
 |||| O
 |
 | O
 — O
-Dédaigné B-LOC
+Dédaigné B-MISC
 , O
 Charles B-PER
 ? O
@@ -52149,8 +52149,8 @@ Charles B-PER
 |
 | O
 — O
-Mon B-PER
-Henriette I-PER
+Mon B-MISC
+Henriette I-MISC
 , O
 je O
 n' O
@@ -52195,7 +52195,7 @@ sont O
 malheureux O
 |
 | O
-jusqu’ B-PER
+jusqu’ O
 à O
 ce O
 qu' O
@@ -52207,14 +52207,14 @@ ingrats O
 |
 | O
 — O
-Henriette B-PER
+Henriette B-MISC
 ! O
 |
 
 | O
 — O
-Eh B-LOC
-bien I-LOC
+Eh O
+bien O
 . O
 à O
 demain O
@@ -52233,20 +52233,20 @@ _ O
 . O
 : O
 ot O
-cn B-LOC
-ss I-LOC
+cn O
+ss O
 - O
 ver O
 . O
-eee O
-nv O
-m4 B-MISC
+eee B-MISC
+nv I-MISC
+m4 I-MISC
 |
 
  
 
 | O
-EXPLICATION O
+EXPLICATION B-MISC
 , O
 |
 
@@ -52298,9 +52298,9 @@ et O
 
 | O
 — O
-Voilà B-PER
-la O
-vie O
+Voilà B-MISC
+la I-MISC
+vie I-MISC
 Madame B-PER
 , O
 dit O
@@ -52338,9 +52338,9 @@ hui O
 | O
 232 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -52434,7 +52434,7 @@ tout O
 s' O
 arrangera O
 . O
-Voulez B-LOC
+Voulez O
 -vous O
 étre O
 |
@@ -52464,7 +52464,7 @@ saluer O
 , O
 et O
 vous O
-n’ B-PER
+n’ O
 entendrez O
 plus O
 parler O
@@ -52490,8 +52490,8 @@ Madame B-PER
 
 | O
 — O
-Mon O
-oncle O
+Mon B-MISC
+oncle I-MISC
 n' O
 y O
 songera O
@@ -52549,9 +52549,9 @@ moi O
 
 | O
 LE O
-CHATEAU B-ORG
+CHATEAU O
 DE O
-PINK B-ORG
+PINK O
 , O
 233 O
 |
@@ -52584,7 +52584,7 @@ madame B-PER
 de I-PER
 Corcy I-PER
 et O
-Louison B-PER
+Louison B-LOC
 , O
 de O
 l' O
@@ -52723,13 +52723,13 @@ ce O
 vieux O
 château O
 où O
-Je B-MISC
+Je O
 |
-| I-MISC
-dois I-MISC
-passer I-MISC
-ma I-MISC
-vie I-MISC
+| O
+dois O
+passer O
+ma O
+vie O
 . O
 Nos O
 adieux O
@@ -52768,7 +52768,7 @@ soupçons O
 | O
 de O
 mes O
-Cerbères B-LOC
+Cerbères O
 sont O
 endormis O
 , O
@@ -52779,13 +52779,13 @@ dé- O
 |
 
 | O
-Aider B-PER
-à O
-me O
-conduire O
-à O
-la O
-cour O
+Aider B-MISC
+à I-MISC
+me I-MISC
+conduire I-MISC
+à I-MISC
+la I-MISC
+cour I-MISC
 ; O
 mon O
 mari O
@@ -52798,7 +52798,7 @@ L O
 * O
 CHATEAU B-MISC
 DE I-MISC
-SINON B-ORG
+SINON I-MISC
 , O
 |
 
@@ -52815,7 +52815,7 @@ plus O
 li- O
 |
 | O
-bres O
+bres B-LOC
 . O
 |
 
@@ -52836,7 +52836,7 @@ que O
 ma O
 visite O
 à O
-Pion B-LOC
+Pion B-PER
 ne O
 compromette O
 cet O
@@ -52864,7 +52864,7 @@ l' O
 | O
 ter O
 . O
-Gardez B-PER
+Gardez O
 votre O
 habit O
 de O
@@ -52920,7 +52920,7 @@ porter O
 son O
 père O
 à O
-Sissone B-LOC
+Sissone B-PER
 : O
 cette O
 lettre O
@@ -52964,7 +52964,7 @@ ville O
 . O
 M. O
 de O
-Roucy B-LOC
+Roucy B-PER
 , O
 esclave O
 des O
@@ -52975,7 +52975,7 @@ sa O
 | O
 fille O
 , O
-n’ B-PER
+n’ O
 eut O
 garde O
 de O
@@ -52993,12 +52993,12 @@ singulière O
 qu' O
 elle O
 lui O
-parüt O
+parüt B-LOC
 . O
 |
 
 | O
-Jouet B-LOC
+Jouet B-PER
 , O
 écarté O
 , O
@@ -53150,7 +53150,7 @@ larmes O
 
 | O
 — O
-Aimez B-LOC
+Aimez O
 -moi O
 toujours O
 , O
@@ -53171,7 +53171,7 @@ vie O
 |
 
 | O
-I B-LOC
+I O
 monta O
 à O
 cheval O
@@ -53206,7 +53206,7 @@ qu' O
 un O
 habitant O
 de O
-l’ B-LOC
+l’ O
 autre O
 monde O
 . O
@@ -53214,9 +53214,9 @@ monde O
 
 | O
 — O
-Pauvre B-PER
-Charles I-PER
-! I-PER
+Pauvre O
+Charles O
+! O
 murmure O
 -t O
 -elle O
@@ -53231,7 +53231,7 @@ bien O
 |||| O
 |
 | O
-Jouet B-PER
+Jouet O
 revint O
 le O
 surlendemain O
@@ -53260,8 +53260,8 @@ SINON I-MISC
 
 | O
 — O
-Mon O
-maitre O
+Mon B-MISC
+maitre I-MISC
 va O
 arriver O
 , O
@@ -53378,8 +53378,8 @@ enten- O
 dre O
 avec O
 M. B-PER
-le O
-forestier O
+le I-PER
+forestier I-PER
 sur O
 des O
 achats O
@@ -53408,11 +53408,11 @@ dire O
 à O
 |
 | O
-M. B-PER
+M. O
 le O
-comte O
-de O
-Bussy B-LOC
+comte B-PER
+de I-PER
+Bussy I-PER
 que O
 je O
 ne O
@@ -53448,7 +53448,7 @@ possible O
 Je O
 n' O
 y O
-Manquerai B-LOC
+Manquerai B-PER
 pas O
 . O
 |
@@ -53481,8 +53481,8 @@ retour O
 | O
 . O
 _ O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -53495,7 +53495,7 @@ Encore O
 des O
 mensonges O
 , O
-Louison B-MISC
+Louison B-PER
 ; O
 quelle O
 |
@@ -53554,9 +53554,9 @@ rien O
 |
 
 | O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 arrivèrent O
 . O
 |
@@ -53588,7 +53588,7 @@ Bussy I-PER
 
 | O
 demanda O
-Jouet B-LOC
+Jouet B-PER
 . O
 |
 
@@ -53637,8 +53637,8 @@ bien O
 
 | O
 — O
-Mon B-PER
-Henriette I-PER
+Mon B-MISC
+Henriette I-MISC
 , O
 disait O
 le O
@@ -53674,7 +53674,7 @@ la O
 même O
 phrase O
 en O
-l’ B-LOC
+l’ O
 abordant O
 . O
 |
@@ -53684,10 +53684,10 @@ abordant O
 | O
 238 O
 _ O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
-SINON B-ORG
+SINON I-MISC
 . O
 |
 | O
@@ -53740,10 +53740,10 @@ remords O
 |
 
 | O
-Le B-PER
-comte I-PER
-de I-PER
-Bussy I-PER
+Le O
+comte O
+de O
+Bussy O
 ronça O
 le O
 sourcil O
@@ -53753,8 +53753,8 @@ il O
 | O
 vit O
 M. B-PER
-de O
-Lameth B-PER
+de I-PER
+Lameth I-PER
 entourer O
 sa O
 femme O
@@ -53786,7 +53786,7 @@ mettre O
 à O
 table O
 . O
-I O
+I B-LOC
 |
 | O
 rentra O
@@ -53844,9 +53844,9 @@ long O
 entretien O
 avec O
 le O
-comte O
-de O
-Bussy B-LOC
+comte B-PER
+de I-PER
+Bussy I-PER
 , O
 avant O
 que O
@@ -53854,7 +53854,7 @@ les O
 |
 | O
 Jeunes B-MISC
-époux I-MISC
+époux O
 ne O
 fussent O
 sortis O
@@ -53878,7 +53878,7 @@ grande O
 importance O
 , O
 car O
-M B-PER
+M B-LOC
 , O
 de O
 Bussy B-LOC
@@ -53987,7 +53987,7 @@ M B-PER
 le O
 comte O
 de O
-Bussy B-LOC
+Bussy O
 avec O
 M. B-PER
 de I-PER
@@ -54015,10 +54015,10 @@ mystère O
 
 | O
 — O
-Que B-LOC
-veux I-LOC
-- I-LOC
-tu I-LOC
+Que B-MISC
+veux I-MISC
+- I-MISC
+tu I-MISC
 qu' O
 il O
 y O
@@ -54054,13 +54054,13 @@ rien O
 vu O
 , O
 et O
-d’ B-MISC
+d’ O
 ail- O
 |
 | O
 leurs O
 il O
-n’ B-PER
+n’ O
 a O
 pas O
 de O
@@ -54106,7 +54106,7 @@ peur O
 | O
 - O
 æ O
-Coiffe B-PER
+Coiffe O
 -moi O
 , O
 fais O
@@ -54130,7 +54130,7 @@ comte O
 |
 | O
 de O
-Lameth O
+Lameth B-PER
 . O
 |||| O
 |
@@ -54150,9 +54150,9 @@ et O
 | O
 _ O
 que O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 attendaient O
 dans O
 la O
@@ -54168,9 +54168,9 @@ manger O
 | O
 240 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -54182,7 +54182,7 @@ vois O
 , O
 ma O
 mie O
-Louison O
+Louison B-PER
 , O
 1s O
 n' O
@@ -54199,7 +54199,7 @@ ils O
 m' O
 attendent O
 . O
-Tranquil- O
+Tranquil- B-PER
 |
 | O
 lise O
@@ -54535,9 +54535,9 @@ ordinaire O
 le O
 matin O
 . O
-MM. B-MISC
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 la O
 suivi- O
 |
@@ -54650,10 +54650,10 @@ L. B-MISC
 16 I-MISC
 |
 
-| O
-249 O
-LE O
-CHATEAU B-MISC
+| I-MISC
+249 I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -54678,12 +54678,12 @@ déchirante O
 
 | O
 — O
-Vous B-MISC
-m' I-MISC
-avez I-MISC
-trompé I-MISC
+Vous O
+m' O
+avez O
+trompé O
 , O
-Henriette B-PER
+Henriette B-MISC
 ! O
 |
 
@@ -54692,7 +54692,7 @@ Elle O
 s' O
 attendait O
 à O
-lout O
+lout B-LOC
 , O
 excepté O
 à O
@@ -54768,12 +54768,12 @@ temps O
 le O
 comte O
 de O
-Bussy B-LOC
+Bussy O
 conti- O
 |
 | O
 . O
-nuaït O
+nuaït B-PER
 à O
 marcher O
 dans O
@@ -54798,7 +54798,7 @@ conte- O
 | O
 nait O
 à O
-grand’-peine B-LOC
+grand’-peine B-ORG
 . O
 |||| O
 |
@@ -54841,7 +54841,7 @@ levant O
 vivement O
 , O
 cela O
-n’ B-PER
+n’ O
 est O
 pas O
 possible O
@@ -55065,7 +55065,7 @@ auprès O
 de O
 vous O
 . O
-Osez B-PER
+Osez O
 nier O
 ces O
 faits O
@@ -55118,9 +55118,9 @@ Albret I-PER
 
 | O
 — O
-Ecoutez B-PER
+Ecoutez O
 , O
-Henriette B-PER
+Henriette B-MISC
 , O
 ne O
 me O
@@ -55335,7 +55335,7 @@ sont O
 | O
 les O
 ( O
-émoins O
+émoins B-PER
 que O
 vous O
 avez O
@@ -55347,8 +55347,8 @@ opposer O
 
 | O
 — O
-Un B-MISC
-homme I-MISC
+Un O
+homme O
 qui O
 vous O
 à O
@@ -55358,15 +55358,15 @@ vue O
 
 | O
 — O
-Qu' B-MISC
-il I-MISC
-vienne I-MISC
+Qu' O
+il O
+vienne O
 , O
 je O
 ne O
-Je B-MISC
-crains I-MISC
-pas I-MISC
+Je O
+crains O
+pas O
 . O
 |
 
@@ -55415,10 +55415,10 @@ SINON I-MISC
 |
 | O
 _ O
-Le O
-comte O
-de O
-Bussy O
+Le B-PER
+comte I-PER
+de I-PER
+Bussy I-PER
 haussa O
 les O
 épaules O
@@ -55443,7 +55443,7 @@ accusateur O
 | O
 _ O
 — O
-FataL B-LOC
+FataL B-PER
 l' O
 appeler O
 ? O
@@ -55453,10 +55453,10 @@ père O
 |
  | O
 — O
-Vous B-MISC
-êtes I-MISC
-le I-MISC
-maitre I-MISC
+Vous O
+êtes O
+le O
+maitre O
 , O
 mon O
 fils O
@@ -55478,9 +55478,9 @@ L O
 : O
 . O
 — O
-Jouet B-PER
-! O
-s’ B-PER
+Jouet B-MISC
+! I-MISC
+s’ O
 écria O
 la O
 comtesse O
@@ -55542,9 +55542,9 @@ veux O
 pas O
 exposer O
 la O
-comtesse B-LOC
-de I-LOC
-Lameth I-LOC
+comtesse B-PER
+de I-PER
+Lameth I-PER
 à O
 |
 | O
@@ -55658,8 +55658,8 @@ plus O
 . O
 Re O
 ne O
-nee B-ORG
-cape O
+nee B-PER
+cape I-PER
 dans O
 |
 
@@ -55715,7 +55715,7 @@ repentir O
 , O
 car O
 je O
-n’ B-PER
+n’ O
 ai O
 pas O
 succombé O
@@ -55726,7 +55726,7 @@ vous O
 |
 | O
 ne O
-Chasse B-MISC
+Chasse B-LOC
 pas O
 à O
 l' O
@@ -55793,7 +55793,7 @@ plus O
 que O
 son O
 fils O
-s’ B-PER
+s’ O
 humilie O
 devant O
 |
@@ -55887,7 +55887,7 @@ savez O
 pas O
 qu' O
 il O
-n’ B-PER
+n’ O
 y O
 existe O
 |
@@ -55906,7 +55906,7 @@ elle O
 vous O
 préfère O
 , O
-elle' O
+elle' B-MISC
 a O
 pas O
 seulement O
@@ -55917,13 +55917,13 @@ excuse O
 
 | O
 — O
-Monsieur B-PER
-! O
+Monsieur B-MISC
+! I-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -55932,7 +55932,7 @@ _ O
 |
 | O
 — O
-Non B-PER
+Non O
 , O
 je O
 ne O
@@ -56065,8 +56065,8 @@ province O
 d' O
 Al B-LOC
 |
-| O
-bret O
+| I-LOC
+bret I-LOC
 à O
 reparu O
 : O
@@ -56189,7 +56189,7 @@ depuis O
 son O
 enfance O
 . O
-Sivous O
+Sivous B-MISC
 eussiez O
 vou- O
 |
@@ -56197,15 +56197,15 @@ vou- O
 | O
 249 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
-lu B-PER
-me I-PER
-croireé I-PER
+lu O
+me O
+croireé O
 , O
 elle O
 ne O
@@ -56241,7 +56241,7 @@ la O
 fureur O
 , O
 en O
-s’ B-LOC
+s’ O
 approchant O
 de O
 son O
@@ -56278,7 +56278,7 @@ grâce O
 
 | O
 — O
-Vousvoulezquitter B-PER
+Vousvoulezquitter B-LOC
 notre O
 maison O
 , O
@@ -56345,7 +56345,7 @@ refuser O
 , O
 je O
 vous O
-l’ B-ORG
+l’ O
 accordeà O
 |
 | O
@@ -56406,21 +56406,21 @@ Jamais B-MISC
 ! I-MISC
 |
 
-| O
-_ O
+| I-MISC
+_ I-MISC
 … O
 — O
 Puis O
 vous O
 enverrez O
 celte O
-Louison B-PER
-Beau- O
+Louison B-MISC
+Beau- I-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -56510,7 +56510,7 @@ je O
 vous O
 admire O
 , O
-ré- O
+ré- B-PER
 |
 | O
 pliqua O
@@ -56566,7 +56566,7 @@ vérité O
 la O
 voici O
 , O
-Mon- B-ORG
+Mon- B-PER
 |
 | O
 _ O
@@ -56617,9 +56617,9 @@ je O
 serais O
 restée O
 attachée O
-àM. O
-de O
-Lameth B-PER
+àM. B-PER
+de I-PER
+Lameth I-PER
 , O
 |
 | O
@@ -56662,9 +56662,9 @@ envers O
 | O
 250 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -56677,7 +56677,7 @@ volontaires O
 , O
 il O
 ne O
-meles O
+meles B-MISC
 a O
 pas O
 |
@@ -56703,12 +56703,12 @@ n' O
 ai O
 point O
 vu O
-monsieur O
+monsieur B-PER
 d O
 Al- B-PER
 |
-| O
-bret O
+| I-PER
+bret I-PER
 : O
 mais O
 puisque O
@@ -56834,7 +56834,7 @@ haut O
 la O
 face O
 du O
-soleil O
+soleil B-LOC
 , O
 mon O
 |
@@ -56852,16 +56852,16 @@ amant O
 Taisez B-PER
 -vous O
 , O
-Madame B-PER
-! O
-s’ B-PER
+Madame B-MISC
+! I-MISC
+s’ O
 écria O
 le O
-comte O
-de O
+comte B-PER
+de I-PER
 |
-| O
-Bussy B-LOC
+| I-PER
+Bussy I-PER
 , O
 ne O
 poussez O
@@ -56887,9 +56887,9 @@ dois O
 | O
 tuer O
 ce O
-marquis O
-d' O
-Albret B-PER
+marquis B-PER
+d' I-PER
+Albret I-PER
 ! O
 Je O
 vous O
@@ -56960,7 +56960,7 @@ un O
 combat O
 qui O
 ne O
-l’ B-LOC
+l’ O
 effacerait O
 point O
 . O
@@ -56968,11 +56968,11 @@ point O
 
 | O
 — O
-Que O
-faire O
-. O
-mon B-MISC
-Dieu I-MISC
+Que B-MISC
+faire I-MISC
+. I-MISC
+mon O
+Dieu B-MISC
 ! O
 que O
 faire O
@@ -56989,7 +56989,7 @@ Madame B-PER
 |
 | O
 — O
-Hélas B-PER
+Hélas O
 : O
 mon O
 père O
@@ -57003,7 +57003,7 @@ aime O
 — O
 Mon B-MISC
 enfant I-MISC
-! O
+! I-MISC
 mon O
 pauvre O
 enfant O
@@ -57035,8 +57035,8 @@ tendres O
 |
 | O
 — O
-Un O
-instant O
+Un B-MISC
+instant I-MISC
 , O
 Madame B-PER
 , O
@@ -57048,11 +57048,11 @@ prie O
 |
 | O
 — O
-Je B-MISC
-vais I-MISC
-faire I-MISC
-mes I-MISC
-paquets I-MISC
+Je O
+vais O
+faire O
+mes O
+paquets O
 , O
 Monsieur B-PER
 , O
@@ -57061,7 +57061,7 @@ et O
 | O
 partir O
 pour O
-Sissone B-LOC
+Sissone B-PER
 , O
 |
 | O
@@ -57099,7 +57099,7 @@ marbre O
 et O
 dur O
 comme O
-l’ B-ORG
+l’ O
 acier O
 . O
 Vous O
@@ -57168,9 +57168,9 @@ tra- O
 | O
 259 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -57274,7 +57274,7 @@ vous O
 apprend- O
 |
 | O
-drez O
+drez B-PER
 ce O
 que O
 je O
@@ -57290,10 +57290,10 @@ nous O
 | O
 nous O
 dévoirlons O
-l’ B-LOC
+l’ O
 un O
 à O
-l’ B-LOC
+l’ O
 autre O
 . O
 |
@@ -57358,8 +57358,8 @@ y O
 verraï O
 pas O
 , O
-J' B-PER
-espère I-PER
+J' O
+espère O
 . O
 |
 
@@ -57379,19 +57379,19 @@ cet O
 
 | O
 — O
-Fort B-LOC
-bien I-LOC
+Fort O
+bien O
 ; O
 on O
 renouvelle O
 les O
 scènes O
 de O
-Sis- B-LOC
+Sis- B-MISC
 |
 
-| O
-sone O
+| I-MISC
+sone I-MISC
 , O
 je O
 m' O
@@ -57582,7 +57582,7 @@ pour O
 |
 | O
 quitter O
-Mon B-LOC
+Mon B-MISC
 . O
 |
 
@@ -57599,7 +57599,7 @@ démon O
 
 | O
 — O
-Surveillée B-PER
+Surveillée O
 par O
 vous O
 , O
@@ -57651,9 +57651,9 @@ faudra O
 | O
 254 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -57763,7 +57763,7 @@ Ma B-MISC
 passion I-MISC
 |
 | I-MISC
-Vaincra I-MISC
+Vaincra B-PER
 tous O
 les O
 obstacles O
@@ -57786,7 +57786,7 @@ peine O
 depuis O
 longtemps O
 , O
-s’ B-PER
+s’ O
 élança O
 vers O
 la O
@@ -57856,11 +57856,11 @@ mari O
 vous O
 laisse O
 votreé O
-Im- B-MISC
+Im- B-LOC
 |
-| I-MISC
-digne I-MISC
-confidente I-MISC
+| O
+digne O
+confidente O
 , O
 malgré O
 lui O
@@ -57875,7 +57875,7 @@ garantis O
 notre O
 honneur O
 . O
-C’ B-MISC
+C’ O
 est O
 moi O
 , O
@@ -57890,7 +57890,7 @@ Madame B-PER
 moi O
 , O
 qui O
-n’ B-PER
+n’ O
 ai O
 jamais O
 fléchi O
@@ -57898,9 +57898,9 @@ fléchi O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 255 O
 |
@@ -57943,7 +57943,7 @@ fils O
 .Eh O
 bien O
 ! O
-Monsieur B-PER
+Monsieur O
 , O
 vous O
 ne O
@@ -57973,7 +57973,7 @@ vous O
 parle- O
 |
 | O
-niéz O
+niéz B-PER
 à O
 tromper O
 ma O
@@ -57995,7 +57995,7 @@ rougir O
 |
 | O
 rien O
-n’ B-PER
+n’ O
 arrêterait O
 ma O
 vengeance O
@@ -58045,7 +58045,7 @@ avant O
 de O
 |
 | O
-épondre O
+épondre B-LOC
 . O
 |
 
@@ -58057,7 +58057,7 @@ Eh B-MISC
 bien O
 oui O
 . O
-Craignez B-LOC
+Craignez O
 pour O
 votre O
 vie O
@@ -58091,8 +58091,8 @@ Monsieur B-PER
 
 | O
 — O
-Mon O
-père O
+Mon B-MISC
+père I-MISC
 , O
 interrompit O
 M. B-PER
@@ -58117,8 +58117,8 @@ re- O
 | O
 ire O
 . O
-Oh O
-! O
+Oh B-MISC
+! I-MISC
 que O
 je O
 suis O
@@ -58129,9 +58129,9 @@ malheureux O
 | O
 256 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -58208,7 +58208,7 @@ encore O
 | O
 où O
 vous O
-croyez B-MISC
+croyez O
 pourtant O
 , O
 mon O
@@ -58256,7 +58256,7 @@ le O
 | O
 Roi B-PER
 , O
-s’ B-PER
+s’ O
 il O
 le O
 faut O
@@ -58310,17 +58310,17 @@ qu' O
 elle O
 s' O
 en O
-allät O
+allät B-MISC
 , O
 Je B-MISC
 |
 | I-MISC
 me I-MISC
 serais I-MISC
-jeté O
-à O
-ses O
-genoux O
+jeté I-MISC
+à I-MISC
+ses I-MISC
+genoux I-MISC
 . O
 |
 
@@ -58331,7 +58331,7 @@ Oh B-MISC
 mon O
 Dieu B-MISC
 ! O
-s’ B-PER
+s’ O
 écria O
 le O
 comte O
@@ -58346,16 +58346,16 @@ de O
 Bussy B-LOC
 est O
 perdue O
-l. O
+l. B-MISC
 |
 
-| O
-XI O
+| I-MISC
+XI I-MISC
 |
 
-| O
-° O
-RETRAITE O
+| I-MISC
+° I-MISC
+RETRAITE I-MISC
 , O
 |
 
@@ -58372,7 +58372,7 @@ fut O
 man- O
 |
 | O
-dée O
+dée B-MISC
 devant O
 les O
 deux O
@@ -58508,9 +58508,9 @@ malade O
 |
 
 | O
-On B-MISC
-renvoya I-MISC
-Louison I-MISC
+On O
+renvoya O
+Louison B-PER
 avec O
 une O
 morale O
@@ -58586,7 +58586,7 @@ gards O
 |
 
 | O
-Rentrée B-PER
+Rentrée O
 chez O
 la O
 comtesse O
@@ -58615,8 +58615,8 @@ quel O
 moyèrni O
 MM. O
 dé O
-Lameéth B-ORG
-avaitñl I-ORG
+Lameéth O
+avaitñl O
 |
 | O
 pu O
@@ -58635,7 +58635,7 @@ absent O
 disait O
 Henriette B-PER
 , O
-Î B-LOC
+Î B-PER
 |
 | O
 ñe O
@@ -58674,21 +58674,21 @@ qui O
 ne O
 sait O
 pas O
-tou O
+tou B-ORG
 . O
 |
 
 | O
 L£ O
-CHATEAU B-ORG
+CHATEAU O
 DE O
-BINON B-LOC
+BINON O
 . O
 D59 B-LOC
 |
 | O
 æ O
-UNü B-ORG
+UNü B-MISC
 dômétique O
 sportingé O
 , O
@@ -58733,14 +58733,14 @@ il O
 lui O
 éest O
 dévoué O
-Et B-MISC
-- I-MISC
-éelle I-MISC
+Et O
+- O
+éelle O
 |
 
-| I-MISC
-vous I-MISC
-l’ I-MISC
+| O
+vous O
+l’ O
 a O
 recommandé O
 , O
@@ -58758,10 +58758,10 @@ elle-même O
 |
 | O
 — O
-Tâché B-LOC
-de I-LOC
-lé I-LOC
-quéstionsér I-LOC
+Tâché B-PER
+de I-PER
+lé I-PER
+quéstionsér I-PER
 . O
 Ceci O
 m8 B-ORG
@@ -58832,7 +58832,7 @@ lui O
 confie O
 rien O
 , O
-c’ B-MISC
+c’ O
 est O
 plus O
 sùr O
@@ -58843,7 +58843,7 @@ sùr O
 De O
 longtemps O
 , O
-Madäme B-PER
+Madäme B-MISC
 , O
 nous O
 r’aurons O
@@ -58851,11 +58851,11 @@ r’aurons O
 
 | O
 ‘ O
-Tién B-PER
+Tién B-LOC
 à O
 confier O
 à O
-péraconte O
+péraconte B-PER
 , O
 on O
 va O
@@ -58875,9 +58875,9 @@ privée O
 : O
 : O
 2hEureuseémétit O
-mädiane O
-dé O
-Corcy O
+mädiane B-PER
+dé I-PER
+Corcy I-PER
 nous O
 |
 
@@ -58938,13 +58938,13 @@ Coucy B-LOC
 
 | O
 — O
-Certainement B-PER
+Certainement O
 . O
 |
 
 | O
 — O
-ÎÏls O
+ÎÏls B-LOC
 nous O
 serviront O
 de O
@@ -58960,7 +58960,7 @@ c' O
 est O
 juste O
 . O
-Combien B-LOC
+Combien O
 en O
 as O
 - O
@@ -58970,7 +58970,7 @@ tu O
 
 | O
 — O
-Quatre B-LOC
+Quatre O
 . O
 |
 
@@ -58994,7 +58994,7 @@ merveilleusement O
 
 | O
 — O
-Îils B-PER
+Îils B-LOC
 ont O
 pris O
 les O
@@ -59040,7 +59040,7 @@ de I-PER
 | I-PER
 Corcy I-PER
 et O
-l’ B-LOC
+l’ O
 engager O
 à O
 venir O
@@ -59056,9 +59056,9 @@ peut-être O
 |
 | O
 _ O
-Mets B-PER
-les I-PER
-verroux I-PER
+Mets B-MISC
+les I-MISC
+verroux I-MISC
 , O
 surtout O
 du O
@@ -59226,7 +59226,7 @@ dans O
 la O
 chambre O
 , O
-etils O
+etils B-PER
 ne O
 s' O
 perce- O
@@ -59302,18 +59302,18 @@ faveur O
 | O
 262 O
 LE O
-CHATEAU B-MISC
-RE I-MISC
-PENON I-MISC
+CHATEAU O
+RE O
+PENON O
 . O
 |
 
 | O
-mir B-PER
+mir B-MISC
 |
 
-| I-PER
-Blouson I-PER
+| I-MISC
+Blouson I-MISC
 ouvrit O
 la O
 fenêtre O
@@ -59324,7 +59324,7 @@ s' O
 en- O
 |
 | O
-vola B-PER
+vola O
 . O
 |||| O
 |
@@ -59341,12 +59341,12 @@ en O
 
 | O
 Et O
-La O
-7 O
+La B-MISC
+7 I-MISC
 |
 
-| O
-tremblant O
+| I-MISC
+tremblant I-MISC
 . O
 Si O
 un O
@@ -59357,7 +59357,7 @@ aperu O
 le O
 |
 | O
-mali O
+mali B-LOC
 courrier O
 , O
 c' O
@@ -59393,7 +59393,7 @@ dans O
 la O
 direction O
 de O
-Corey B-LOC
+Corey B-PER
 . O
 |
 | O
@@ -59416,7 +59416,7 @@ me O
 défie O
 , O
 ce O
-Répond B-LOC
+Répond B-PER
 , O
 en O
 es O
@@ -59428,8 +59428,8 @@ sûre O
 |
 | O
 — O
-Que B-PER
-madame I-PER
+Que O
+madame B-PER
 est O
 peureuse O
 , O
@@ -59438,30 +59438,30 @@ aujourd'hui O
 |
 | O
 + O
-Je O
-suis O
-payée O
-pour O
-l' O
-être O
-, O
-notre O
-aventure O
-|
-| O
-essi O
-extraordinaire O
-! O
-oo O
-L B-MISC
+Je B-MISC
+suis I-MISC
+payée I-MISC
+pour I-MISC
+l' I-MISC
+être I-MISC
+, I-MISC
+notre I-MISC
+aventure I-MISC
 |
 | I-MISC
-_ I-MISC
-En' I-MISC
-aime I-MISC
-pas I-MISC
-beaucoup I-MISC
-Rément O
+essi I-MISC
+extraordinaire I-MISC
+! I-MISC
+oo O
+L O
+|
+| O
+_ O
+En' B-PER
+aime O
+pas O
+beaucoup O
+Rément B-PER
 non O
 plus O
 : O
@@ -59491,8 +59491,8 @@ a O
 |
 | O
 — O
-Heureusement B-PER
-M. I-PER
+Heureusement O
+M. B-PER
 d' I-PER
 Albret I-PER
 le O
@@ -59517,13 +59517,13 @@ faussaire I-MISC
 , O
 ma O
 pauvre O
-Louison O
+Louison B-PER
 ? O
 |
 | O
-Dien B-MISC
-les I-MISC
-fêtes I-MISC
+Dien B-LOC
+les O
+fêtes O
 ; O
 les O
 hommages O
@@ -59535,19 +59535,19 @@ toilettes O
 
 | O
 LE O
-CHATEAU B-MISC
-PE I-MISC
-SINON I-MISC
+CHATEAU O
+PE O
+SINON O
 . O
 263 O
 |
 | O
-Nous O
-voilà O
-cette O
-fois O
-- O
-ci O
+Nous B-MISC
+voilà I-MISC
+cette I-MISC
+fois I-MISC
+- I-MISC
+ci I-MISC
 plus O
 enfermées O
 encore O
@@ -59561,8 +59561,8 @@ Sissone B-LOC
 
 | O
 — O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 oui O
 , O
 Madame B-PER
@@ -59668,8 +59668,8 @@ sombre O
 | O
 : O
 — O
-Nous B-MISC
-travaillerons I-MISC
+Nous O
+travaillerons O
 , O
 Madame B-PER
 , O
@@ -59690,7 +59690,7 @@ Quoi O
 le O
 missel O
 du O
-Chapelain B-LOC
+Chapelain B-PER
 ? O
 |
 
@@ -59735,9 +59735,9 @@ h O
 | O
 : O
 — O
-Grois B-PER
-- I-PER
-tu I-PER
+Grois O
+- O
+tu O
 qu' O
 on O
 me O
@@ -59749,9 +59749,9 @@ promener O
 | O
 264 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -59776,8 +59776,8 @@ ment O
 Que O
 je O
 hais O
-Jouet B-PER
-! O
+Jouet B-MISC
+! I-MISC
 ” O
 |
 
@@ -59809,7 +59809,7 @@ façon O
 — O
 ÂAttendons B-MISC
 , O
-Louison B-MISC
+Louison B-PER
 , O
 le O
 temps O
@@ -59836,9 +59836,9 @@ arriva O
 . O
 |
 | O
-MM. O
-de O
-Lameth B-PER
+MM. B-PER
+de I-PER
+Lameth I-PER
 lui O
 dirent O
 que O
@@ -59866,16 +59866,16 @@ conduisit O
 Elles O
 eurent O
 une O
-Convers- B-ORG
+Convers- B-LOC
 |
-| I-ORG
-tion I-ORG
-particulière I-ORG
+| O
+tion O
+particulière O
 dans O
 laquelle O
 madame B-PER
 de I-PER
-Corcy B-PER
+Corcy I-PER
 |
 
 | O
@@ -59941,7 +59941,7 @@ frappée O
 |
 
 | O
-sur-le-champ B-LOC
+sur-le-champ O
 . O
 |
 
@@ -59949,7 +59949,7 @@ sur-le-champ B-LOC
 Il O
 fut O
 résolu O
-qu’ B-PER
+qu’ O
 elle O
 interrogeait O
 Lambert B-PER
@@ -60013,9 +60013,9 @@ même O
 |
 | O
 : O
-MM. B-MISC
-de O
-Lameth O
+MM. B-PER
+de I-PER
+Lameth I-PER
 n' O
 avaient O
 pas O
@@ -60087,8 +60087,8 @@ que O
 la O
 colère O
 de O
-madame O
-de O
+madame B-PER
+de I-PER
 Lameth.se B-PER
 porta O
 |
@@ -60107,7 +60107,7 @@ serait O
 éloi- O
 |
 | O
-gné O
+gné B-ORG
 , O
 sil O
 y O
@@ -60144,8 +60144,8 @@ restée O
 quelques O
 |
 | O
-joursà O
-Sinon B-PER
+joursà B-PER
+Sinon I-PER
 , O
 retourna O
 près O
@@ -60356,7 +60356,7 @@ et O
 elle O
 |
 | O
-jura B-LOC
+jura O
 d' O
 y O
 mettre O
@@ -60437,9 +60437,9 @@ de O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 , O
 207 O
 |
@@ -60479,11 +60479,11 @@ elle O
 se O
 résigna O
 . O
-Madame B-PER
+Madame O
 |
-| I-PER
-de I-PER
-Corey I-PER
+| O
+de O
+Corey B-PER
 avait O
 tellement O
 gagné O
@@ -60620,7 +60620,7 @@ rencontrer O
 . O
 |
  | O
-Voñs O
+Voñs B-PER
 me O
 faites O
 prisonnière O
@@ -60628,13 +60628,13 @@ prisonnière O
 dit O
 -elle O
 au O
-|||| O
+|||| B-PER
 |
 
-| O
-comte O
-de O
-Lameth O
+| I-PER
+comte I-PER
+de I-PER
+Lameth I-PER
 , O
 je O
 dois O
@@ -60698,9 +60698,9 @@ séparation O
 | O
 268 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 , O
 |
 
@@ -60734,7 +60734,7 @@ lui O
 avoir O
 enlevée O
 . O
-C’ B-MISC
+C’ O
 est O
 ainsi O
 qu' O
@@ -60813,7 +60813,7 @@ le O
 mari O
 , O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 rien O
@@ -60865,8 +60865,8 @@ reprocher O
 
 | O
 — O
-Patience B-LOC
-! O
+Patience B-MISC
+! I-MISC
 mon O
 fils O
 , O
@@ -60900,9 +60900,9 @@ pensez O
 
 | O
 Quoique O
-M. O
-de O
-Bussy B-LOC
+M. B-PER
+de I-PER
+Bussy I-PER
 eut O
 sa O
 maison O
@@ -61071,7 +61071,7 @@ _ O
 de O
 temporisation O
 , O
-Songea B-LOC
+Songea B-PER
 à O
 secouer O
 ce O
@@ -61128,10 +61128,10 @@ fuite O
 | O
 _ O
 — O
-Je B-MISC
-vais I-MISC
-lui I-MISC
-écrire I-MISC
+Je O
+vais O
+lui O
+écrire O
 , O
 le O
 pigeon O
@@ -61144,9 +61144,9 @@ lettre O
 Coucy B-LOC
 , O
 disait O
-Henriette B-PER
+Henriette B-MISC
 . O
-J1 O
+J1 B-MISC
 viendra O
 à O
 |
@@ -61178,9 +61178,9 @@ de O
 |
 
  | O
-Schomberg O
+Schomberg B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 très O
 près O
@@ -61196,9 +61196,9 @@ pas O
 | O
 350 O
 LE O
-CHATEAU B-MISC
-D I-MISC
-BINON I-MISC
+CHATEAU O
+D O
+BINON O
 . O
 |
 | O
@@ -61235,23 +61235,23 @@ feutre O
 à O
 de O
 voire O
-Ca- O
+Ca- B-ORG
 |
-| O
-cs O
-À O
-Hu B-PER
+| I-ORG
+cs I-ORG
+À I-ORG
+Hu I-ORG
 : O
 $ O
 agit O
-Seulement B-MISC
-que I-MISC
-de I-MISC
-traverser I-MISC
+Seulement O
+que O
+de O
+traverser O
 |
-| I-MISC
-lé I-MISC
-t6sÉ I-MISC
+| O
+lé B-LOC
+t6sÉ I-LOC
 à O
 là O
 nage O
@@ -61259,7 +61259,7 @@ nage O
 dans O
 cette O
 saison O
-c’ B-MISC
+c’ O
 est O
 très O
 |||| O
@@ -61273,8 +61273,8 @@ d O
 ailleurs O
 , O
 le O
-mur O
-éest O
+mur B-MISC
+éest I-MISC
 dégradé O
 près O
 de O
@@ -61300,7 +61300,7 @@ fins O
 fui O
 jétèt B-PER
 üne I-PER
-plänche O
+plänche I-PER
 . O
 |
 
@@ -61342,8 +61342,8 @@ autour O
 de O
 nous O
 . O
-Aucunes B-MISC
-fené- I-MISC
+Aucunes O
+fené- O
 |
 | O
 tres O
@@ -61359,7 +61359,7 @@ du O
 |
 
 | O
-Château B-LOC
+Château O
 . O
 En O
 évitant O
@@ -61407,7 +61407,7 @@ ailleurs O
 -Ayons O
 de O
 la O
-härdièsse O
+härdièsse B-LOC
 , O
 du O
 cou- O
@@ -61424,24 +61424,24 @@ réussira O
 
 | O
 LE O
-GHAÏEAU B-MISC
+GHAÏEAU O
 DE O
-SINON B-ORG
+SINON O
 . O
 . O
 971 O
 |
 | O
 2 O
-Jé B-PER
-n’ I-PER
+Jé B-MISC
+n’ O
 abaïdôune O
-À O
-toi O
+À B-MISC
+toi I-MISC
 . O
 Aussi O
-biét O
-fl O
+biét B-PER
+fl I-PER
 fie O
 |
 | O
@@ -61459,17 +61459,17 @@ est O
 | O
 ‘ O
 es O
-Nôûs B-MISC
-hot I-MISC
-SouVenons I-MISC
+Nôûs O
+hot O
+SouVenons O
 , O
 nous O
 irons O
-À B-MISC
-Sis- I-MISC
+À O
+Sis- B-LOC
 |
-| I-MISC
-sOie I-MISC
+| O
+sOie B-MISC
 . O
 |||| O
 |||| O
@@ -61505,11 +61505,11 @@ quel O
 prétexte O
 , O
 Madame B-PER
-i I-PER
+i O
 |
 
-| I-PER
-— I-PER
+| O
+— O
 Oh B-MISC
 ! I-MISC
 j' O
@@ -61528,16 +61528,16 @@ la O
 bonne O
 heure O
 . O
-Écrivez B-LOC
+Écrivez O
 donc O
 . O
 |
 
 | O
 — O
-My O
-voilà O
-! O
+My B-MISC
+voilà I-MISC
+! I-MISC
 |
 
 | O
@@ -61578,7 +61578,7 @@ entendit O
 |
 | O
 ü O
-COUP O
+COUP B-MISC
 d' O
 arquebuse O
 . O
@@ -61588,8 +61588,8 @@ arquebuse O
 — O
 Mon B-MISC
 Dieu I-MISC
-! O
-s’ B-PER
+! I-MISC
+s’ O
 écria O
 la O
 comtesse O
@@ -61631,7 +61631,7 @@ elle O
 c' O
 est O
 Lambert B-PER
-quis' O
+quis' I-PER
 exerce O
 |
 
@@ -61640,7 +61640,7 @@ contre O
 les O
 moineaux O
 . O
-Tenez B-LOC
+Tenez O
 , O
 il O
 nous O
@@ -61826,7 +61826,7 @@ vue O
 | O
 et O
 , O
-d’ B-MISC
+d’ O
 un O
 autre O
 côté O
@@ -61905,7 +61905,7 @@ amie O
 
 | O
 — O
-Prenez B-PER
+Prenez O
 garde O
 , O
 dit O
@@ -61950,8 +61950,8 @@ importante O
 
 | O
 — O
-Comment B-MISC
-! I-MISC
+Comment O
+! O
 ne O
 vous O
 est-elle O
@@ -61972,7 +61972,7 @@ tourterelles O
 Non O
 , O
 je O
-l’ B-LOC
+l’ O
 ai O
 reçue O
 par O
@@ -61996,7 +61996,7 @@ soir O
 
 | O
 — O
-Hier B-PER
+Hier O
 au O
 soir O
 ! O
@@ -62009,8 +62009,8 @@ depuis O
 | O
 plus O
 de O
-auït O
-jours O
+auït B-PER
+jours I-PER
 , O
 sous O
 l' O
@@ -62041,10 +62041,10 @@ signifie O
 | O
 — O
 … O
-Je O
-suis O
-perdue O
-! O
+Je B-MISC
+suis I-MISC
+perdue I-MISC
+! I-MISC
 s' O
 éeric O
 la O
@@ -62094,9 +62094,9 @@ comte O
 
 | O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 , O
 275 O
 |
@@ -62162,10 +62162,10 @@ vées O
 entre O
 nous O
 . O
-Monsieur B-PER
-Cœur O
-dé O
-Roy B-PER
+Monsieur O
+Cœur B-PER
+dé I-PER
+Roy I-PER
 doit O
 ve- O
 |
@@ -62178,7 +62178,7 @@ et O
 nous O
 sérir O
 d’ O
-arbitré B-PER
+arbitré O
 . O
 |
 
@@ -62234,7 +62234,7 @@ il O
 vous O
 |
 | O
-J' B-LOC
+J' O
 auraient O
 point O
 envoyée O
@@ -62259,7 +62259,7 @@ Pourtant O
 Voici O
 comment O
 la O
-choseé O
+choseé B-LOC
 est O
 arrivée O
 , O
@@ -62287,7 +62287,7 @@ trouvé O
 la O
 lettre O
 et O
-l’ B-ORG
+l’ O
 a O
 |
 | O
@@ -62333,17 +62333,17 @@ terme O
 à O
 cela O
 , O
-s’ B-PER
-écria I-PER
+s’ O
+écria O
 rés- O
 |
 
 | O
 276 O
 DE O
-CHATEAU B-ORG
+CHATEAU O
 DE O
-SINON B-ORG
+SINON O
 . O
 |
 
@@ -62361,7 +62361,7 @@ irai O
 à O
 |
 | O
-Sissone B-PER
+Sissone B-LOC
 , O
 et O
 là O
@@ -62407,7 +62407,7 @@ ainsi O
 | O
 que O
 je O
-l’ B-LOC
+l’ O
 ai O
 dit O
 à O
@@ -62521,8 +62521,8 @@ de O
 La- B-PER
 |
 | O
-meth B-PER
-n’ I-PER
+meth O
+n’ O
 est O
 . O
 pas O
@@ -62560,8 +62560,8 @@ pourtant O
 — O
 Ah B-MISC
 ! I-MISC
-bah B-ORG
-! I-ORG
+bah O
+! O
 murmure O
 la O
 comtesse O
@@ -62595,7 +62595,7 @@ oseriez O
 LÉ O
 CHATEAU O
 DE O
-SINON B-ORG
+SINON O
 , O
 277 O
 |
@@ -62604,7 +62604,7 @@ SINON B-ORG
 .— O
 Ma O
 chère O
-Corcy B-MISC
+Corcy O
 , O
 pour O
 sortir O
@@ -62707,7 +62707,7 @@ vous O
 ne O
 |
 | O
-haïassez O
+haïassez B-PER
 pas O
 comme O
 moi O
@@ -62726,7 +62726,7 @@ vengeance O
 
 | O
 — O
-Pardonnez B-LOC
+Pardonnez B-MISC
 -moi O
 , O
 Madame B-PER
@@ -62738,25 +62738,25 @@ comprends I-MISC
 | I-MISC
 à I-MISC
 merveille I-MISC
-, O
-répondit O
-la O
-veuve O
-d' O
-un O
-air O
-sombre O
+, I-MISC
+répondit I-MISC
+la I-MISC
+veuve I-MISC
+d' I-MISC
+un I-MISC
+air I-MISC
+sombre I-MISC
 . O
 |
 | O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 oui O
 , O
-perdez B-PER
-- I-PER
-les I-PER
+perdez O
+- O
+les O
 , O
 mettez O
 - O
@@ -62825,9 +62825,9 @@ promenade O
 | O
 278 O
 LE O
-CHATEAUË B-ORG
-DE O
-SINON O
+CHATEAUË B-MISC
+DE I-MISC
+SINON I-MISC
 . O
 |
 | O
@@ -62873,10 +62873,10 @@ respirer O
 . O
 |
 | O
-Donne B-PER
--moi O
-ma O
-mante O
+Donne B-MISC
+-moi I-MISC
+ma I-MISC
+mante I-MISC
 . O
 |||| O
 |
@@ -62993,7 +62993,7 @@ tion O
 
 | O
 — O
-Non B-PER
+Non O
 , O
 Madame B-PER
 ; O
@@ -63028,14 +63028,14 @@ obéit O
 Elles O
 recommencèrent O
 à O
-au- O
+au- B-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
-PION O
+PION I-MISC
 . O
 279 O
 |
@@ -63095,9 +63095,9 @@ comtes O
 de O
 |
 | O
-Lameth B-LOC
+Lameth B-PER
 . O
-ON O
+ON B-LOC
 n' O
 était O
 pas O
@@ -63185,7 +63185,7 @@ merveille O
 
 | O
 — O
-Désirez B-PER
+Désirez B-LOC
 -vous O
 quelque O
 chose O
@@ -63202,7 +63202,7 @@ désire O
 , O
 Monsieur B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 de O
 con- O
@@ -63225,7 +63225,7 @@ pourtant O
 . O
 Madame B-PER
 de I-PER
-Corée I-PER
+Corée B-LOC
 , O
 per- O
 |
@@ -63240,14 +63240,14 @@ Ce O
 
 | O
 — O
-Mon O
-fils O
+Mon B-MISC
+fils I-MISC
 , O
 poursuivit O
 le O
 comte O
 de O
-Bussy B-LOC
+Bussy O
 , O
 ne O
 |
@@ -63305,7 +63305,7 @@ ne O
 puis O
 laisser O
 passer O
-l’ B-ORG
+l’ O
 occasion O
 |
 | O
@@ -63326,7 +63326,7 @@ de O
 me O
 voir O
 , O
-Henriette B-PER
+Henriette B-MISC
 , O
 et O
 vous O
@@ -63406,8 +63406,8 @@ sur O
 les O
 projets O
 de O
-sès O
-ennemis O
+sès B-PER
+ennemis I-PER
 , O
 elle O
 s' O
@@ -63585,7 +63585,7 @@ vous O
 reprend- O
 |
 | O
-drez O
+drez B-PER
 votre O
 liberté O
 tout O
@@ -63614,7 +63614,7 @@ sans O
 répon- O
 |
 | O
-dre O
+dre B-ORG
 . O
 |
 
@@ -63624,7 +63624,7 @@ Je O
 vous O
 aime O
 , O
-Henriette B-PER
+Henriette B-MISC
 , O
 je O
 vous O
@@ -63738,8 +63738,8 @@ geste O
 
 | O
 289 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -63825,7 +63825,7 @@ Infâme B-MISC
 
 | O
 — O
-Jé B-PER
+Jé B-LOC
 vous O
 ai O
 dit O
@@ -63849,7 +63849,7 @@ un O
 autre O
 ! O
 vous O
-de- O
+de- B-LOC
 |
 | O
 vez O
@@ -64001,7 +64001,7 @@ lois O
 celui O
 du O
 roi O
-s’ B-PER
+s’ O
 il O
 le O
 |
@@ -64041,10 +64041,10 @@ Monsieur B-PER
 
 | O
 — O
-Henriette B-PER
+Henriette B-MISC
 ! O
-Henriette B-PER
-! I-PER
+Henriette B-MISC
+! I-MISC
 murmure O
 le O
 comte O
@@ -64092,8 +64092,8 @@ publique O
 je O
 vous O
 montrera O
-coque O
-jesus O
+coque B-PER
+jesus I-PER
 , O
 |
 | O
@@ -64179,7 +64179,7 @@ la- O
 | O
 dame O
 de O
-Corcy B-PER
+Corcy O
 . O
 |
 
@@ -64192,7 +64192,7 @@ l' O
 avez O
 voulu O
 , O
-Henriette B-PER
+Henriette B-MISC
 , O
 conti- O
 |
@@ -64217,8 +64217,8 @@ vengera O
 
 | O
 284 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -64270,7 +64270,7 @@ violence O
 — O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 dit O
 Louison B-PER
 tout O
@@ -64288,11 +64288,11 @@ finira O
 - O
 til O
 , O
-Madame B-PER
-! O
+Madame B-MISC
+! I-MISC
 |
 
-| O
+| I-MISC
 — O
 Je O
 ne O
@@ -64377,14 +64377,14 @@ a O
 -elle O
 revu O
 M. B-PER
-le O
-marquis B-PER
+le I-PER
+marquis I-PER
 d' I-PER
 Al- I-PER
 |
-| O
-bret O
-! O
+| I-PER
+bret I-PER
+! I-PER
 |||| O
 |
 
@@ -64399,7 +64399,7 @@ la O
 fin- O
 |
 | O
-taine B-PER
+taine O
 , O
 placée O
 sous O
@@ -64458,9 +64458,9 @@ ET I-MISC
 
 | I-MISC
 LE I-MISC
-CHATEAU B-ORG
-DE O
-PINK B-ORG
+CHATEAU I-MISC
+DE I-MISC
+PINK I-MISC
 . O
 285 O
 |
@@ -64539,9 +64539,9 @@ informer O
 | O
 — O
 Que O
-madame O
-la O
-comtesse O
+madame B-PER
+la I-PER
+comtesse I-PER
 me O
 pardonne O
 . O
@@ -64654,20 +64654,20 @@ au O
 service O
 de O
 madame B-PER
-la O
-comtesse O
-de O
+la I-PER
+comtesse I-PER
+de I-PER
 |
 
-| O
-Lameth O
+| I-PER
+Lameth I-PER
 ? O
 |
 
 | O
 _ O
 — O
-Que B-PER
+Que O
 lui O
 voulez O
 -vous O
@@ -64677,9 +64677,9 @@ voulez O
 | O
 286 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -64709,9 +64709,9 @@ donnée O
 
 | O
 — O
-Un B-MISC
-seigneur I-MISC
-descendu I-MISC
+Un O
+seigneur O
+descendu O
 à O
 l' O
 auberge O
@@ -64728,7 +64728,7 @@ avec O
 son O
 hômine O
 de O
-chäombre O
+chäombre B-PER
 , O
 |
 
@@ -64738,12 +64738,12 @@ C' O
 est O
 bien O
 , O
-jé O
+jé B-MISC
 vais O
 la O
 refnéttre O
 à O
-Jambeït B-LOC
+Jambeït B-PER
 , O
 |
 | O
@@ -64758,10 +64758,10 @@ moi O
 Noï O
 , O
 on O
-n’ B-PER
+n’ O
 a O
-bieri O
-récoriiiandé O
+bieri B-PER
+récoriiiandé I-PER
 de O
 ne O
 le O
@@ -64776,9 +64776,9 @@ lui O
 
 | O
 — O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 c' O
 est O
 moi O
@@ -64790,7 +64790,7 @@ in- O
 |
 | O
 térompit O
-Piélaïd B-PER
+Piélaïd B-ORG
 , O
 qui O
 s' O
@@ -64951,11 +64951,11 @@ suseription O
 = O
 = O
 À O
-madame O
-la O
-comtesse B-MISC
-de I-MISC
-Lameth I-MISC
+madame B-PER
+la I-PER
+comtesse I-PER
+de I-PER
+Lameth I-PER
 . O
 |
 | O
@@ -64966,20 +64966,20 @@ C. B-PER
 |
 
 | I-PER
-Cés B-LOC
+Cés O
 trois O
 létrés O
 signifiaitént O
 : O
-Chaïlés B-LOC
+Chaïlés B-MISC
 , O
-Ama- O
+Ama- B-LOC
 |
 | O
 tiéux O
 , O
-d' O
-Albret B-PER
+d' B-PER
+Albret I-PER
 . O
 |
 | O
@@ -65015,7 +65015,7 @@ services O
 ” O
 M. O
 de O
-Cabinet B-PER
+Cabinet B-MISC
 entra O
 en O
 cet O
@@ -65025,8 +65025,8 @@ Son O
 vi- O
 |
 | O
-sâde O
-lâle B-LOC
+sâde B-LOC
+lâle I-LOC
 se O
 color O
 légèrement O
@@ -65064,10 +65064,10 @@ pour O
 la O
 comtesse O
 , O
-Mon- O
+Mon- B-PER
 |
-| O
-sieur O
+| I-PER
+sieur I-PER
 , O
 dit O
 -il O
@@ -65106,7 +65106,7 @@ est O
 de O
 lui O
 ! O
-s’ B-PER
+s’ O
 écria O
 le O
 jeune O
@@ -65116,12 +65116,12 @@ Oh B-MISC
 ! I-MISC
 |
 
-| O
-288 O
+| I-MISC
+288 I-MISC
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -65203,7 +65203,7 @@ lentement O
 |
 | O
 comme O
-s’ B-PER
+s’ O
 il O
 prononçait O
 une O
@@ -65292,7 +65292,7 @@ pa- O
 | O
 tences O
 . O
-Agissez B-PER
+Agissez O
 comme O
 bon O
 vous O
@@ -65426,8 +65426,8 @@ palet- O
 tre O
 de O
 M. B-PER
-le O
-marquis B-PER
+le I-PER
+marquis I-PER
 d' I-PER
 Albret I-PER
 . O
@@ -65455,7 +65455,7 @@ vingt O
 fois O
 qu' O
 elle O
-s’ B-PER
+s’ O
 aperçut O
 que O
 |
@@ -65478,11 +65478,11 @@ le O
 plus O
 simple O
 que O
-l’ B-LOC
+l’ O
 envie- O
 |
 | O
-loppe O
+loppe B-PER
 portait O
 son O
 propre O
@@ -65506,14 +65506,14 @@ pru- O
 | O
 dence O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-— O
-Tu O
-as O
-raison O
+| I-MISC
+— I-MISC
+Tu I-MISC
+as I-MISC
+raison I-MISC
 . O
 Attend O
 -on O
@@ -65526,9 +65526,9 @@ réponse O
 — O
 Oui O
 , O
-madame O
-la O
-comtesse O
+madame B-PER
+la I-PER
+comtesse I-PER
 , O
 |||| O
 |
@@ -65543,7 +65543,7 @@ par O
 prudence O
 aussi O
 je O
-n’ B-PER
+n’ O
 écrirai O
 |
 | O
@@ -65566,7 +65566,7 @@ sortit O
 
 | O
 — O
-Savez B-PER
+Savez O
 -vous O
 ce O
 qu' O
@@ -65603,7 +65603,7 @@ avec O
 lui O
 jusqu' O
 à O
-Sis- O
+Sis- B-LOC
 |
 | O
 I B-LOC
@@ -65613,7 +65613,7 @@ I B-LOC
 
 | O
 _ O
-Æ O
+Æ B-LOC
 |
 
 | O
@@ -65621,7 +65621,7 @@ _ O
 LE O
 CHATEAU B-MISC
 DE I-MISC
-SINON B-ORG
+SINON I-MISC
 . O
 |
 | O
@@ -65631,11 +65631,11 @@ et O
 de O
 là O
 je O
-dicterai O
+dicterai B-PER
 mes O
 lois O
 . O
-Comprenez- O
+Comprenez- B-MISC
 |
 | O
 vous O
@@ -65668,9 +65668,9 @@ entrevue O
 
 | O
 — O
-Un O
-danger O
-! O
+Un B-MISC
+danger I-MISC
+! I-MISC
 lequel O
 ? O
 à O
@@ -65701,7 +65701,7 @@ aura O
 bientôt O
 franchi O
 , O
-c’ B-MISC
+c’ O
 est O
 un O
 fort O
@@ -65751,13 +65751,13 @@ moyen O
 . O
 L' O
 essentiel O
-c’ B-MISC
+c’ O
 est O
 |
 | O
 qu O
 1l O
-vienne B-LOC
+vienne O
 . O
 |
 
@@ -65830,7 +65830,7 @@ ce O
 soir O
 la O
 belle O
-Picarde B-PER
+Picarde B-LOC
 dans O
 toute O
 |
@@ -65962,9 +65962,9 @@ reine O
 
 | O
 — O
-Vous O
-devriez O
-rester O
+Vous B-MISC
+devriez I-MISC
+rester I-MISC
 ainsi O
 , O
 Madame B-PER
@@ -65995,7 +65995,7 @@ répondit O
 |
 | O
 — O
-Non B-PER
+Non O
 , O
 il O
 croirait O
@@ -66077,9 +66077,9 @@ Beaupré I-PER
 | O
 292 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 | O
@@ -66088,7 +66088,7 @@ Que B-MISC
 Dieu I-MISC
 le I-MISC
 conduise I-MISC
-! O
+! I-MISC
 reprit O
 vivement O
 la O
@@ -66109,17 +66109,17 @@ ce O
 |
 
 | O
-SOIT B-ORG
+SOIT O
 . O
 |
 
 | O
-XIT O
+XIT B-MISC
 |
 
-| O
-LE O
-PORTRAIT B-MISC
+| I-MISC
+LE I-MISC
+PORTRAIT I-MISC
 . O
 |
 
@@ -66164,7 +66164,7 @@ Corcy I-PER
 | O
 _ O
 — O
-Acceptez B-LOC
+Acceptez B-MISC
 , O
 dit O
 vivement O
@@ -66190,19 +66190,19 @@ allons O
 descendre O
 , O
 continua O
-madame O
+madame B-PER
 |
-| O
-de O
-Lameth B-PER
+| I-PER
+de I-PER
+Lameth I-PER
 ; O
 nous O
 ne O
 laisserons O
 pas O
 M. B-PER
-de O
-Bussy B-LOC
+de I-PER
+Bussy I-PER
 |
 
 | O
@@ -66284,7 +66284,7 @@ grande O
 cé- O
 |
 | O
-rémonie O
+rémonie B-LOC
 , O
 elle O
 lui O
@@ -66310,9 +66310,9 @@ yeux O
 
 | O
 — O
-Toujours O
-insolent O
-! O
+Toujours B-MISC
+insolent I-MISC
+! I-MISC
 dit O
 -elle O
 , O
@@ -66351,7 +66351,7 @@ releva O
 la O
 tête O
 , O
-l’ B-ORG
+l’ O
 expres- O
 |
 | O
@@ -66359,7 +66359,7 @@ sion O
 de O
 ses O
 traits O
-l’ B-ORG
+l’ O
 eut O
 fait O
 frissonner O
@@ -66370,9 +66370,9 @@ frissonner O
 Le O
 comte O
 de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy O
+- O
+Lameth O
 salua O
 d' O
 un O
@@ -66389,7 +66389,7 @@ il O
 attendait O
 , O
 faisant O
-si- O
+si- B-PER
 |
 | O
 gne O
@@ -66420,12 +66420,12 @@ droite O
 
 | O
 — O
-Nous B-MISC
-aurons I-MISC
-M. O
-Cœur-de-Roy B-PER
+Nous O
+aurons O
+M. B-PER
+Cœur-de-Roy I-PER
 , O
-Mada- B-LOC
+Mada- B-PER
 . O
 |
 | O
@@ -66442,7 +66442,7 @@ singulièrement O
 désa- O
 |
 | O
-gréable O
+gréable B-PER
 , O
 mon O
 fils O
@@ -66461,26 +66461,26 @@ Laon B-LOC
 Mais O
 , O
 comme O
-c’ B-MISC
+c’ O
 est O
 demain O
 la O
-Fête- O
+Fête- B-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
-295 O
+295 B-MISC
 |
 
-| O
-Dieu B-MISC
+| I-MISC
+Dieu I-MISC
 , O
-M. O
+M. B-PER
 le O
 lieutenant O
 de O
@@ -66524,7 +66524,7 @@ heure O
 
 | O
 — O
-Pensez B-PER
+Pensez O
 -vous O
 donc O
 qu' O
@@ -66579,13 +66579,13 @@ silence O
 
 | O
 — O
-Nous B-MISC
-restez I-MISC
--vous I-MISC
-quelques I-MISC
-jours I-MISC
+Nous O
+restez O
+-vous O
+quelques O
+jours O
 , O
-La- O
+La- B-PER
 |
 | O
 dame O
@@ -66646,7 +66646,7 @@ N' O
 avez O
 -vous O
 pas O
-M. B-PER
+M. O
 le O
 président O
 Dubois B-PER
@@ -66660,10 +66660,10 @@ actuellement O
 son O
 château O
 d' O
-Hai- B-MISC
+Hai- O
 |
-| I-MISC
-val I-MISC
+| O
+val O
 , O
 ou O
 à O
@@ -66713,8 +66713,8 @@ L O
 
 | O
 296 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -66748,7 +66748,7 @@ avis O
 — O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 Monsieur B-PER
 , O
 répliqua O
@@ -66762,7 +66762,7 @@ autant O
 de O
 procès O
 que O
-Chicaneau B-ORG
+Chicaneau B-PER
 lui- O
 |
 | O
@@ -66795,11 +66795,11 @@ Madame B-PER
 difficile O
 À B-MISC
 vivre I-MISC
-, O
-sans O
+, I-MISC
+sans I-MISC
 |
-| O
-formes O
+| I-MISC
+formes I-MISC
 , O
 sans O
 politesse O
@@ -66820,8 +66820,8 @@ manières O
 . O
 Depuis O
 Bussy B-LOC
-d' O
-Am- O
+d' I-LOC
+Am- I-LOC
 |
 | O
 boise O
@@ -66852,12 +66852,12 @@ Bussy B-LOC
 |
 | O
 d' O
-Amboise O
+Amboise B-LOC
 , O
 Monsieur B-PER
 ? O
 ce O
-n’ B-PER
+n’ O
 est O
 point O
 un O
@@ -66892,11 +66892,11 @@ n' O
 est O
 point O
 entendu O
-madame O
+madame B-PER
 |
-| O
-de O
-Lameth B-PER
+| I-PER
+de I-PER
+Lameth I-PER
 ; O
 c' O
 était O
@@ -66939,7 +66939,7 @@ gale- O
 LÉ O
 CHATEAU O
 DE O
-SINON B-ORG
+SINON O
 . O
 297 O
 |
@@ -66963,7 +66963,7 @@ de O
 cette O
 façon O
 , O
-n’ B-PER
+n’ O
 est O
 pas O
 digne O
@@ -67026,7 +67026,7 @@ mari O
 Madame B-PER
 ; O
 cela O
-n’ B-PER
+n’ O
 est O
 |
 | O
@@ -67129,16 +67129,16 @@ salon O
 Mon O
 appartement O
 est O
-en- O
+en- B-MISC
 |
 
-| O
-# O
-4 O
+| I-MISC
+# I-MISC
+4 I-MISC
 |
 
-| O
-comboé O
+| I-MISC
+comboé I-MISC
 de O
 mes O
 tapisseries O
@@ -67177,9 +67177,9 @@ comtesse O
 | O
 298 O
 LE O
-CHATEAU B-LOC
-DE I-LOC
--SINON I-LOC
+CHATEAU O
+DE O
+-SINON O
 . O
 |
 
@@ -67227,7 +67227,7 @@ quelle O
 énergie O
 ! O
 ' O
-IL B-ORG
+IL B-LOC
 a O
 les O
 passions O
@@ -67249,7 +67249,7 @@ fils O
 
 | O
 — O
-Persiste B-PER
+Persiste O
 -vous O
 dans O
 votre O
@@ -67257,8 +67257,8 @@ dessein O
 , O
 Ma- B-PER
 |
-| O
-dame O
+| I-PER
+dame I-PER
 ? O
 |
 
@@ -67302,7 +67302,7 @@ lettre O
 
 | O
 — O
-Etsi B-LOC
+Etsi B-MISC
 votre O
 mari O
 revient O
@@ -67373,7 +67373,7 @@ tout O
 coup O
 Louison B-PER
 , O
-M. O
+M. B-PER
 le O
 |
 
@@ -67392,8 +67392,8 @@ son O
 | O
 _ O
 _ O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -67461,7 +67461,7 @@ donc O
 trouver O
 Lambert B-PER
 , O
-qu’ B-LOC
+qu’ O
 il O
 prenne O
 un O
@@ -67480,7 +67480,7 @@ d' O
 | O
 prudent O
 , O
-qu’ B-LOC
+qu’ O
 il O
 ne O
 nomme O
@@ -67521,10 +67521,10 @@ pourquoi O
 , O
 continua O
 la O
-belle B-PER
+belle O
 |
-| I-PER
-Picarde I-PER
+| O
+Picarde B-LOC
 , O
 j' O
 ai O
@@ -67559,9 +67559,9 @@ absence O
 
 | O
 — O
-Vous B-MISC
-l' I-MISC
-aimez I-MISC
+Vous O
+l' O
+aimez O
 donc O
 beaucoup O
 ? O
@@ -67569,14 +67569,14 @@ beaucoup O
 
 | O
 — O
-Passionnément B-LOC
+Passionnément O
 . O
 |||| O
 |
 | O
 — O
-E B-PER
-s’ I-PER
+E B-LOC
+s’ O
 il O
 n' O
 était O
@@ -67597,11 +67597,11 @@ encore O
 
 | O
 — O
-Je B-MISC
-n’ I-MISC
-ai I-MISC
-point I-MISC
-songé I-MISC
+Je O
+n’ O
+ai O
+point O
+songé O
 à O
 cela O
 ; O
@@ -67642,11 +67642,11 @@ pas O
 
 | O
 — O
-Allons B-LOC
-donc O
-! O
+Allons B-MISC
+donc I-MISC
+! I-MISC
 chère O
-Corcy B-PER
+Corcy B-LOC
 , O
 est O
 -ce O
@@ -67665,7 +67665,7 @@ alors O
 |
 
 | O
-Pauvre B-PER
+Pauvre O
 marquis O
 , O
 1l O
@@ -67902,7 +67902,7 @@ serait O
 une O
 folie O
 que O
-d’ B-MISC
+d’ O
 essayer O
 d' O
 approcher O
@@ -67921,7 +67921,7 @@ _ O
 sont O
 , O
 en O
-l’ B-LOC
+l’ O
 attendant O
 , O
 sous O
@@ -67933,13 +67933,13 @@ le O
 mar- O
 |
 | O
-quis B-LOC
+quis O
 trouvera O
 ici O
 un O
 posülyon O
 qui O
-luiï O
+luiï B-PER
 servira O
 de O
 |
@@ -67960,9 +67960,9 @@ hon- O
 |
 | O
 neur O
-d’ B-MISC
-escorter O
-Monsieur B-PER
+d’ O
+escorter B-PER
+Monsieur I-PER
 jusqu' O
 aux O
 environs O
@@ -67994,8 +67994,8 @@ tout O
 
 | O
 — O
-Tu B-MISC
-diras I-MISC
+Tu O
+diras O
 à O
 la O
 dive O
@@ -68102,8 +68102,8 @@ encore O
 
 | O
 Lambert B-PER
-s’ I-PER
-inclina I-PER
+s’ O
+inclina O
 , O
 prit O
 l' O
@@ -68150,12 +68150,12 @@ le O
 | O
 comte O
 de O
-Bussy B-LOC
-- I-LOC
-Lameth I-LOC
+Bussy O
+- O
+Lameth O
 qui O
 semblait O
-l’ B-LOC
+l’ O
 attendre O
 . O
 |
@@ -68233,17 +68233,17 @@ sûr O
 
 | O
 — O
-Parfaitement B-MISC
-certain I-MISC
+Parfaitement O
+certain O
 . O
 |
 
 | O
 — O
-As B-LOC
-- I-LOC
-tu I-LOC
-paré I-LOC
+As O
+- O
+tu O
+paré O
 à O
 son O
 valet O
@@ -68273,7 +68273,7 @@ _ O
 | O
 _ O
 — O
-Exil B-PER
+Exil O
 viendra O
 ? O
 |
@@ -68292,7 +68292,7 @@ chercher O
 à O
 |
 | O
-Anizy B-ORG
+Anizy B-LOC
 . O
 Les O
 chevaux O
@@ -68314,7 +68314,7 @@ pare O
 
 | O
 — O
-Cest B-LOC
+Cest B-MISC
 bien O
 , O
 va O
@@ -68384,7 +68384,7 @@ lieutenant O
 général O
 |
 | O
-deCoucy O
+deCoucy B-MISC
 , O
 pour O
 leroi B-PER
@@ -68393,7 +68393,7 @@ monseigneur B-PER
 le I-PER
 duc I-PER
 : O
-Or- B-PER
+Or- B-LOC
 |
 | O
 léans O
@@ -68489,8 +68489,8 @@ comtesse O
 |
 | O
 accueillit O
-M. O
-Cœur-de-Roy B-PER
+M. B-PER
+Cœur-de-Roy I-PER
 par O
 un O
 dess O
@@ -68524,9 +68524,9 @@ monde O
 | O
 : O
 — O
-M. B-PER
-de I-PER
-Lameth I-PER
+M. O
+de O
+Lameth B-PER
 est O
 absent O
 , O
@@ -68562,15 +68562,15 @@ celle O
 | O
 de O
 M. B-PER
-le O
-comte O
-de O
-Bussy B-LOC
+le I-PER
+comte I-PER
+de I-PER
+Bussy I-PER
 . O
 Ce O
-château O
-de O
-Pignon B-LOC
+château B-LOC
+de I-LOC
+Pignon I-LOC
 |
 
 | O
@@ -68581,7 +68581,7 @@ très O
 gai O
 , O
 mais O
-nôs O
+nôs B-ORG
 tâcherons O
 pour- O
 |
@@ -68589,10 +68589,10 @@ pour- O
 | O
 304 O
 LE O
-CHATEAU B-ORG
+CHATEAU O
 . O
 DE O
-SINON B-ORG
+SINON O
 . O
 |
 
@@ -68626,17 +68626,17 @@ répondre O
 . O
 La O
 belle O
-Picarde B-MISC
+Picarde B-LOC
 , O
 |
 | O
 si O
 fière O
-À B-MISC
-l' I-MISC
-égard I-MISC
-de I-MISC
-tous I-MISC
+À O
+l' O
+égard O
+de O
+tous O
 , O
 se O
 donnait O
@@ -68729,7 +68729,7 @@ ton O
 enjoué O
 jusqu' O
 à O
-l’ B-LOC
+l’ O
 arrivée O
 de O
 son O
@@ -68737,8 +68737,8 @@ beau-père O
 . O
 |
 | O
-Un O
-spectateur O
+Un B-MISC
+spectateur I-MISC
 , O
 ignorant O
 de O
@@ -68853,7 +68853,7 @@ pitié O
 | O
 et O
 de O
-l’ B-LOC
+l’ O
 affermir O
 dans O
 ses O
@@ -68869,9 +68869,9 @@ C' O
 est O
 demain O
 la O
-fête B-MISC
-de I-MISC
-Coucy I-MISC
+fête O
+de O
+Coucy B-LOC
 , O
 Monsieur B-PER
 , O
@@ -68953,9 +68953,9 @@ parler O
 
 | O
 — O
-Dans B-MISC
-ma I-MISC
-jeunesse I-MISC
+Dans O
+ma O
+jeunesse O
 , O
 reprit O
 le O
@@ -69007,7 +69007,7 @@ hauts-de-chausses O
 et O
 des O
 rubans O
-d’ B-MISC
+d’ O
 é- O
 |
 | O
@@ -69022,7 +69022,7 @@ de O
 dé- O
 |
 | O
-dan B-ORG
+dan O
 . O
 |
 
@@ -69086,9 +69086,9 @@ SINON I-MISC
 
 | O
 — O
-Je B-MISC
-suis I-MISC
-charmée I-MISC
+Je O
+suis O
+charmée O
 de O
 l' O
 apprendre O
@@ -69149,7 +69149,7 @@ Cœur O
 de- O
 |
 | O
-Roy B-PER
+Roy O
 l’ O
 aide O
 de O
@@ -69158,12 +69158,12 @@ son O
 pouvoir O
 et O
 sans O
-s’ B-PER
+s’ O
 en O
-du- O
+du- B-LOC
 |
 | O
-ter B-ORG
+ter O
 . O
 |||| O
 |
@@ -69245,7 +69245,7 @@ et O
 un O
 tour O
 de O
-Ve- O
+Ve- B-PER
 |
 | O
 aise O
@@ -69266,7 +69266,7 @@ galantin O
 |
 | O
 — O
-N' B-PER
+N' O
 est O
 -il O
 pas O
@@ -69286,7 +69286,7 @@ votre O
 visite O
 , O
 et O
-jem' O
+jem' B-PER
 habille O
 rarement O
 |
@@ -69332,19 +69332,19 @@ du O
 souper O
 , O
 poursuivit O
-la- O
+la- B-PER
 |
 | O
 dame O
 de O
-Corcy B-PER
+Corcy O
 , O
 on O
 n' O
 attend O
 donc O
 pas O
-M. B-PER
+M. O
 le O
 |
 | O
@@ -69394,7 +69394,7 @@ y O
 suivra O
 seulement O
 pour O
-l’ B-ORG
+l’ O
 hon- O
 |
 | O
@@ -69447,13 +69447,13 @@ miracle O
 
 | O
 — O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 Monsieur B-PER
 , O
 cependant O
 je O
-n’ B-PER
+n’ O
 en O
 fait O
 |
@@ -69464,10 +69464,10 @@ plus O
 |
 
 | O
-Jouet B-PER
+Jouet O
 vint O
 avertir O
-qu’ B-MISC
+qu’ O
 on O
 était O
 servi O
@@ -69492,7 +69492,7 @@ dans O
 la O
 salle O
 à O
-manger O
+manger B-LOC
 . O
 |
 
@@ -69512,10 +69512,10 @@ regard- O
 
 | O
 305 O
-TE O
-CHATEAU B-MISC
-DE O
-SINON B-ORG
+TE B-MISC
+CHATEAU I-MISC
+DE I-MISC
+SINON I-MISC
 . O
 |
 
@@ -69573,7 +69573,7 @@ au- O
 les O
 de O
 la O
-Belette B-LOC
+Belette O
 , O
 Madame B-PER
 . O
@@ -69683,9 +69683,9 @@ mal O
 la O
 tête O
 , O
-voulez O
-- O
-vous' O
+voulez B-MISC
+- I-MISC
+vous' I-MISC
 monter O
 dans O
 votre O
@@ -69708,8 +69708,8 @@ l' O
 arrivée O
 de O
 M. B-PER
-le O
-comte O
+le I-PER
+comte I-PER
 ? O
 |||| O
 |||| O
@@ -69768,7 +69768,7 @@ dans O
 son O
 appartement O
 . O
-LL O
+LL B-ORG
 |
 | O
 _ O
@@ -69798,7 +69798,7 @@ l' O
 escalier O
 elle O
 trouva O
-Louison B-MISC
+Louison B-PER
 , O
 qui O
 |
@@ -69831,14 +69831,14 @@ six O
 domestiques O
 jusqu' O
 à O
-l’ B-LOC
+l’ O
 arrivée O
 de O
 |
 | O
-M. B-PER
-le I-PER
-comte I-PER
+M. O
+le O
+comte O
 . O
 |||| O
 |||| O
@@ -69857,7 +69857,7 @@ au O
 caba- O
 |
 | O
-ret O
+ret B-ORG
 du O
 village O
 , O
@@ -69910,7 +69910,7 @@ et O
 ils O
 seront O
 couchés O
-de- O
+de- B-LOC
 |
 | O
 puis O
@@ -69975,8 +69975,8 @@ v O
 
 | O
 310 O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -69989,11 +69989,11 @@ rez-de-chaussée O
 , O
 madame B-PER
 de I-PER
-La- O
+La- I-PER
 |
 
 | O
-meth B-PER
+meth O
 se O
 jeta O
 dans O
@@ -70074,12 +70074,12 @@ encore O
 de O
 la O
 belle O
-Picarde B-MISC
-! I-MISC
+Picarde B-LOC
+! O
 |
 
-| I-MISC
-— I-MISC
+| O
+— O
 - O
 Madame B-PER
 , O
@@ -70141,9 +70141,9 @@ Nous O
 1rons O
 jusqu' O
 au O
-rot O
+rot B-ORG
 , O
-s’ B-PER
+s’ O
 il O
 le O
 faut O
@@ -70170,10 +70170,10 @@ avais O
 voulu O
 , O
 et O
-pouräet B-PER
-je O
-n O
-étais O
+pouräet B-MISC
+je I-MISC
+n I-MISC
+étais I-MISC
 encore O
 |
 | O
@@ -70219,9 +70219,9 @@ grâce O
 
 | O
 LE O
-CHATÉAU B-ORG
-DE O
-SINON O
+CHATÉAU B-MISC
+DE I-MISC
+SINON I-MISC
 . O
 3fi O
 |
@@ -70231,8 +70231,8 @@ me O
 maänquaient O
 alors O
 . O
-Le O
-roi O
+Le B-PER
+roi I-PER
 m' O
 écoutera O
 . O
@@ -70292,8 +70292,8 @@ séparer O
 Ils O
 attendent O
 M. B-PER
-de O
-Lameth B-PER
+de I-PER
+Lameth I-PER
 . O
 |||| O
 |
@@ -70310,7 +70310,7 @@ le O
 maudit O
 voyage O
 ! O
-Pour- O
+Pour- B-LOC
 |
 | O
 qui O
@@ -70457,9 +70457,9 @@ réfléchis- O
 . O
 LE O
 . O
-CHATEAU B-ORG
-DE I-ORG
-PENON I-ORG
+CHATEAU B-MISC
+DE I-MISC
+PENON I-MISC
 . O
 |
 
@@ -70526,8 +70526,8 @@ Loui- B-PER
 son O
 , O
 va O
-ten O
-informer O
+ten B-PER
+informer I-PER
 , O
 ma O
 mie O
@@ -70554,7 +70554,7 @@ tour O
 |
 
  | O
-Louison O
+Louison B-PER
 sortit O
 et O
 revint O
@@ -70562,10 +70562,10 @@ un O
 instant O
 après O
 , O
-en- O
+en- B-PER
 |
-| O
-nonçant O
+| I-PER
+nonçant I-PER
 que O
 le O
 vieillard O
@@ -70589,10 +70589,10 @@ matin O
 
 | O
 — O
-Vous B-MISC
-verrez I-MISC
+Vous O
+verrez O
 , O
-Corcy B-PER
+Corcy B-LOC
 , O
 que O
 les O
@@ -70684,8 +70684,8 @@ l O
 |
 
 | O
-APP O
-TR O
+APP B-MISC
+TR I-MISC
 7 O
 , O
 |
@@ -70788,7 +70788,7 @@ en O
 irai O
 pas O
 moins O
-jusqu’ B-PER
+jusqu’ O
 au O
 |
 | O
@@ -70836,10 +70836,10 @@ pas O
 |
 
 | O
-Inconséquence B-PER
-funeste O
-des O
-passions O
+Inconséquence B-MISC
+funeste I-MISC
+des I-MISC
+passions I-MISC
 ; O
 c' O
 est O
@@ -70918,18 +70918,18 @@ compter O
 ce O
 soir O
 sur O
-M. B-MISC
-le I-MISC
-comit I-MISC
+M. O
+le O
+comit O
 . O
 |
 
 | O
 314 O
 LE O
-CHATEAU B-MISC
-DÉ I-MISC
-SINON I-MISC
+CHATEAU O
+DÉ O
+SINON O
 . O
 |
 
@@ -70986,7 +70986,7 @@ Anizy B-LOC
 . O
 Ils O
 doivent O
-s’ B-PER
+s’ O
 y O
 rencontrer O
 à O
@@ -71001,7 +71001,7 @@ demie O
 | O
 — O
 _ O
-Puissent B-LOC
+Puissent O
 -ils O
 arriver O
 sans O
@@ -71074,7 +71074,7 @@ celle O
 d' O
 écouter O
 . O
-L’ B-PER
+L’ O
 oreille O
 et O
 le O
@@ -71095,7 +71095,7 @@ Anizy B-LOC
 | O
 elle O
 dévorait O
-l’ B-LOC
+l’ O
 espace O
 et O
 les O
@@ -71151,7 +71151,7 @@ sur O
 | O
 à O
 de O
-Péne B-PER
+Péne B-MISC
 a O
 a O
 co O
@@ -71166,9 +71166,9 @@ mms I-MISC
 aa I-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -71209,7 +71209,7 @@ amour O
 . O
 H B-PER
 trouva O
-Lam- O
+Lam- B-PER
 |
 | O
 bert O
@@ -71217,7 +71217,7 @@ bert O
 moitié O
 chemin O
 et O
-l’ B-LOC
+l’ O
 interrogea O
 sur O
 les O
@@ -71270,7 +71270,7 @@ Albret I-PER
 ne O
 |
 | O
-s’ B-PER
+s’ O
 en O
 aperévait O
 pas O
@@ -71460,7 +71460,7 @@ ordres O
 et O
 |
 | O
-neûs B-LOC
+neûs B-PER
 nous O
 procurerons O
 , O
@@ -71511,7 +71511,7 @@ mois O
 d' O
 août O
 . O
-Îs O
+Îs B-MISC
 s' O
 en O
 approchèrent O
@@ -71529,10 +71529,10 @@ jeta O
 la O
 bride O
 au O
-pos- O
+pos- B-PER
 |
-| O
-ülyon O
+| I-PER
+ülyon I-PER
 , O
 . O
 puis O
@@ -71586,15 +71586,15 @@ selle O
 Que O
 craint O
 donc O
-M. B-PER
-le I-PER
-marquis I-PER
+M. O
+le O
+marquis O
 ? O
 dit O
-Lam- O
+Lam- B-PER
 |
-| O
-bert B-MISC
+| I-PER
+bert I-PER
 . O
 |||| O
 |
@@ -71629,9 +71629,9 @@ des O
 
 | O
 LE O
-CHATEAU B-ORG
+CHATEAU O
 LE O
-SINON B-ORG
+SINON O
 . O
 317 O
 |
@@ -71749,12 +71749,12 @@ peine O
 
 | O
 — O
-Le O
-voilà O
-! O
+Le B-MISC
+voilà I-MISC
+! I-MISC
 |
 
-| O
+| I-MISC
 Ce O
 mot O
 résume O
@@ -71832,7 +71832,7 @@ tout O
 ! O
 |
 | O
-Lorsqu B-PER
+Lorsqu O
 ils O
 ne O
 furent O
@@ -71848,7 +71848,7 @@ du O
 château O
 , O
 Lambert B-PER
-siffia O
+siffia I-PER
 doucement O
 ; O
 il O
@@ -71857,16 +71857,16 @@ il O
 
 | O
 DE O
-Là B-LOC
+Là O
 |
 
 | O
 318 O
 |||| O
 DE O
-CHATEAU B-ORG
+CHATEAU O
 DE O
-SINON B-ORG
+SINON O
 . O
 |
 | O
@@ -71879,7 +71879,7 @@ sa O
 maîtresse O
 . O
 Il O
-n’ B-PER
+n’ O
 en O
 |
 | O
@@ -71895,7 +71895,7 @@ prévenue O
 
 | O
 — O
-Prenez B-PER
+Prenez O
 garde O
 , O
 M. B-PER
@@ -72074,12 +72074,12 @@ dit O
 le O
 marquis O
 , O
-À O
-voix O
+À B-MISC
+voix I-MISC
 |
 
-| O
-basse O
+| I-MISC
+basse I-MISC
 , O
 nous O
 ne O
@@ -72183,7 +72183,7 @@ y O
 parvient- O
 |
 | O
-drez O
+drez B-PER
 sans O
 vous O
 mouiller O
@@ -72348,9 +72348,9 @@ côté O
 | O
 320 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -72444,7 +72444,7 @@ fait O
 trois O
 pas O
 , O
-qu’ B-PER
+qu’ O
 on O
 lui O
 cria O
@@ -72470,7 +72470,7 @@ tut O
 Qui O
 vive O
 ? O
-répét B-LOC
+répét O
 -t O
 -on O
 . O
@@ -72482,7 +72482,7 @@ se O
 blottit O
 contre O
 le O
-mur O
+mur B-MISC
 et O
 retint O
 sa O
@@ -72583,27 +72583,27 @@ d' O
 
 | O
 de O
-UE B-ORG
-67 I-ORG
-À I-ORG
-DE I-ORG
-D I-ORG
-ni I-ORG
-De I-ORG
-m I-ORG
-me I-ORG
-2 I-ORG
-les I-ORG
-ET B-MISC
+UE B-MISC
+67 I-MISC
+À I-MISC
+DE I-MISC
+D I-MISC
+ni O
+De B-MISC
+m I-MISC
+me I-MISC
+2 I-MISC
+les O
+ET O
 mm O
-tm O
-then O
-" O
+tm B-MISC
+then I-MISC
+" I-MISC
 |
 
-| O
-LE O
-CHATEAU B-MISC
+| I-MISC
+LE I-MISC
+CHATEAU I-MISC
 DE I-MISC
 SINON I-MISC
 . O
@@ -72806,10 +72806,10 @@ coucha O
 en O
 joue O
 , O
-M. B-MISC
-d’ I-MISC
-Albret I-MISC
-s’ I-MISC
+M. B-PER
+d’ I-PER
+Albret I-PER
+s’ O
 en O
 aper- O
 |
@@ -72856,7 +72856,7 @@ les O
 |
 | O
 Ï. O
-É O
+É B-LOC
 21 O
 |
 
@@ -72954,7 +72954,7 @@ clameurs O
 
 | O
 Henriette B-PER
-el O
+el I-PER
 ses O
 compagnes O
 , O
@@ -73022,7 +73022,7 @@ Il O
 est O
 mort O
 ! O
-s’ B-PER
+s’ O
 écria O
 la O
 comtesse O
@@ -73174,13 +73174,13 @@ murmure O
 
 | O
 — O
-Ils B-LOC
-l’ I-LOC
+Ils O
+l’ O
 éont O
 tué O
 , O
-Louison B-MISC
-! I-MISC
+Louison B-PER
+! O
 ils O
 l' O
 ont O
@@ -73282,19 +73282,19 @@ bien I-MISC
 ! I-MISC
 |
 
-| O
-je O
-veux O
-le O
-voir O
-aussi O
-, O
-moi O
-! O
+| I-MISC
+je I-MISC
+veux I-MISC
+le I-MISC
+voir I-MISC
+aussi I-MISC
+, I-MISC
+moi I-MISC
+! I-MISC
 |
 
-| O
-— O
+| I-MISC
+— I-MISC
 Au O
 nom O
 du O
@@ -73308,10 +73308,10 @@ ce O
 |
 
 | O
-J24 B-LOC
+J24 O
 . O
-LE O
-CHATEAU B-MISC
+LE B-MISC
+CHATEAU I-MISC
 DE I-MISC
 BINON I-MISC
 , O
@@ -73336,11 +73336,11 @@ phr O
 
 | O
 — O
-Vous B-MISC
-ne I-MISC
-me I-MISC
-connaissez I-MISC
-pas I-MISC
+Vous O
+ne O
+me O
+connaissez O
+pas O
 , O
 madame B-PER
 de I-PER
@@ -73376,7 +73376,7 @@ peuvent O
 se O
 servir O
 contre O
-moï O
+moï B-PER
 ? O
 |
 | O
@@ -73670,7 +73670,7 @@ de O
 |
 | O
 Dieu B-MISC
-! I-MISC
+! O
 Tui O
 dit O
 à O
@@ -73719,9 +73719,9 @@ expliquer O
 
 | O
 — O
-Interrogez B-LOC
-- I-LOC
-les I-LOC
+Interrogez O
+- O
+les O
 , O
 Monsieur B-PER
 , O
@@ -73731,7 +73731,7 @@ moi O
 je O
 |
 | O
-n’ B-PER
+n’ O
 en O
 ai O
 pas O
@@ -73746,7 +73746,7 @@ force O
 Ce O
 sont O
 des O
-Bohémiens B-LOC
+Bohémiens B-MISC
 que O
 nous O
 avons O
@@ -73786,11 +73786,11 @@ nous O
 coucher O
 , O
 repliqua O
-Pi- O
+Pi- B-MISC
 |
 
-| O
-326 O
+| I-MISC
+326 I-MISC
 LE O
 CHATEAU B-MISC
 DE I-MISC
@@ -73798,9 +73798,9 @@ SINON I-MISC
 . O
 |
 | O
-chard O
+chard B-PER
 , O
-l’ B-ORG
+l’ O
 écuyer O
 de O
 la O
@@ -73855,7 +73855,7 @@ Après O
 | O
 _ O
 — O
-Leurs B-LOC
+Leurs O
 corps O
 sont O
 près O
@@ -73925,8 +73925,8 @@ méprise O
 
 | O
 — O
-Conduisez B-PER
--moi O
+Conduisez B-MISC
+-moi I-MISC
 vers O
 lui O
 . O
@@ -73942,8 +73942,8 @@ Madame B-PER
 
 | O
 — O
-Conduisez O
--moi O
+Conduisez B-MISC
+-moi I-MISC
 , O
 vous O
 dis O
@@ -73974,7 +73974,7 @@ de O
 Cœur-de-Roy B-PER
 , O
 qui O
-Kexhortait B-PER
+Kexhortait B-LOC
 à O
 rentrer O
 |||| O
@@ -73993,7 +73993,7 @@ Eouison B-PER
 , O
 |
 | O
-s’ B-PER
+s’ O
 approcha O
 de O
 la O
@@ -74060,9 +74060,9 @@ cadavre O
 
 | O
 — O
-Découvrez B-PER
-- I-PER
-le I-PER
+Découvrez O
+- O
+le O
 , O
 dit O
 -elle O
@@ -74078,7 +74078,7 @@ obéit O
 
 | O
 — O
-Découvrez B-PER
+Découvrez O
 son O
 visage O
 . O
@@ -74114,7 +74114,7 @@ se O
 baissa O
 , O
 et O
-sé O
+sé B-PER
 mit O
 à O
 genoux O
@@ -74146,11 +74146,11 @@ chemise O
 — O
 Oui O
 , O
-continua B-LOC
-- I-LOC
-t I-LOC
-- I-LOC
-ëelle I-LOC
+continua O
+- O
+t O
+- O
+ëelle O
 comme O
 se O
 parlant O
@@ -74194,7 +74194,7 @@ mania O
 
 | O
 — O
-Voilà B-PER
+Voilà O
 , O
 ajouta O
 -t O
@@ -74242,9 +74242,9 @@ La- I-PER
 | O
 3928 O
 LE O
-CHATEAU B-MISC
-DE I-MISC
-SINON I-MISC
+CHATEAU O
+DE O
+SINON O
 . O
 |
 
@@ -74295,8 +74295,8 @@ demanda O
 On O
 lui O
 remit O
-sou O
-justaucorps O
+sou B-PER
+justaucorps I-PER
 et O
 sa O
 veste O
@@ -74317,12 +74317,12 @@ abord O
 |
 
 | O
-Un B-MISC
-étui I-MISC
-à I-MISC
-cure I-MISC
-- I-MISC
-denis I-MISC
+Un O
+étui O
+à O
+cure B-LOC
+- I-LOC
+denis I-LOC
 . O
 |
 
@@ -74338,8 +74338,8 @@ d’ O
 “ O
 Un O
 étui O
-À O
-ciseaux O
+À B-MISC
+ciseaux I-MISC
 . O
 |
 
@@ -74449,7 +74449,7 @@ en O
 
 | O
 _ O
-meth B-LOC
+meth O
 , O
 depuis O
 l' O
@@ -74475,9 +74475,9 @@ n' O
 aurais O
 pas O
 osé O
-Les O
-inventer O
-. O
+Les B-MISC
+inventer I-MISC
+. I-MISC
 |
 
 | O
@@ -74632,7 +74632,7 @@ remit O
 sa O
 |
 | O
-maïivresse O
+maïivresse B-LOC
 . O
 |
 
@@ -74682,7 +74682,7 @@ Puis O
 elle O
 les O
 regarda O
-brüler O
+brüler B-PER
 , O
 un O
 fragment O
@@ -74720,12 +74720,12 @@ comme O
 les O
 autres O
 , O
-jusqu’ B-PER
+jusqu’ O
 à O
 ce O
 qu' O
 il O
-n’ B-PER
+n’ O
 en O
 |
 | O
@@ -74768,7 +74768,7 @@ joues O
 , O
 elle O
 ne O
-l’ B-LOC
+l’ O
 essuya O
 point O
 et O
@@ -74778,7 +74778,7 @@ pas O
 |
 
 | O
-s’ B-LOC
+s’ O
 apercevoir O
 qu' O
 elle O
@@ -74820,7 +74820,7 @@ Que O
 se O
 passait-1l O
 dans O
-l’ B-LOC
+l’ O
 âme O
 |
 | O
@@ -74966,13 +74966,13 @@ puis O
 elle O
 le O
 repoussa O
-|||| O
+|||| B-MISC
 |
-| O
-du O
-pied O
-en O
-disant O
+| I-MISC
+du I-MISC
+pied I-MISC
+en I-MISC
+disant I-MISC
 : O
 |||| O
 |
@@ -74982,7 +74982,7 @@ disant O
 Dieu B-MISC
 ! O
 que O
-c’ B-MISC
+c’ O
 est O
 laid O
 un O
@@ -75049,7 +75049,7 @@ de I-PER
 Corey I-PER
 et O
 de O
-Louison B-LOC
+Louison B-PER
 . O
 Arrivée O
 sous O
@@ -75072,13 +75072,13 @@ au O
 pied O
 de O
 la O
-tour B-LOC
+tour O
 . O
 |
 
 | O
 — O
-Ramasse B-LOC
+Ramasse B-MISC
 cette O
 arme O
 , O
@@ -75118,7 +75118,7 @@ soutenait O
 le O
 sien O
 , O
-ilsont O
+ilsont B-PER
 tué O
 celui O
 que O
@@ -75202,7 +75202,7 @@ son O
 lit O
 , O
 tombant O
-presqu’ B-PER
+presqu’ O
 en O
 faiblesse O
 , O
@@ -75213,7 +75213,7 @@ liant O
 la O
 présence O
 du O
-baïl O
+baïl B-LOC
 et O
 de O
 son O
@@ -75263,10 +75263,10 @@ accomplie O
 |
 
 | O
-FIN O
-DU O
-PREMIER O
-VOLUME B-ORG
+FIN B-MISC
+DU I-MISC
+PREMIER I-MISC
+VOLUME I-MISC
 . O
 |
 

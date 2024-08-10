@@ -558,7 +558,7 @@ Search O
 |
 
 | O
-Google O
+Google B-ORG
 ’s O
 mission O
 is O
@@ -577,9 +577,9 @@ accessible O
 and O
 useful O
 . O
-Google B-PERSON
-Book I-PERSON
-Search I-PERSON
+Google B-ORG
+Book I-ORG
+Search I-ORG
 helps O
 readers O
 |
@@ -616,7 +616,7 @@ web O
 | O
 a[http://books O
 . O
-google B-PERSON
+google O
 . O
 com/ O
 |
@@ -627,6 +627,16 @@ com/ O
 
 | O
 rom O
+the B-PRODUCT
+Ewald I-PRODUCT
+Fliigel I-PRODUCT
+Lil I-PRODUCT
+|
+
+ 
+
+| O
+Prom O
 the O
 Ewald O
 Fliigel O
@@ -635,20 +645,10 @@ Lil O
 
  
 
+
+
 | O
-Prom O
-the B-FAC
-Ewald I-FAC
-Fliigel I-FAC
-Lil I-FAC
-|
-
- 
-
-
-
-| I-FAC
-COLLECTION I-FAC
+COLLECTION O
 |
 
 | O
@@ -663,18 +663,18 @@ AUTHORS O
 | O
 VOL O
 . O
-CLXXXI O
+CLXXXI B-ORG
 . O
 |
 
 | O
-MARY O
-BARTON O
-A O
-TALE O
-OF O
-MANCHESTER O
-LIFE O
+MARY B-ORG
+BARTON I-ORG
+A I-ORG
+TALE I-ORG
+OF I-ORG
+MANCHESTER I-ORG
+LIFE I-ORG
 . O
 |
 
@@ -687,33 +687,33 @@ VOLUME O
 
 
 | O
-Goptaatt B-ORG
+Goptaatt B-GPE
 , O
 re O
-EWiyerath B-ORG
-, I-ORG
-Cle I-ORG
-given I-ORG
+EWiyerath B-GPE
+, I-GPE
+Cle B-GPE
+given O
 ( O
-CBee O
+CBee B-PERSON
 |
 
 | O
 MARY O
-BARTON O
+BARTON B-ORG
 |
 
-| O
-TALE O
-OF O
-MANCHESTER O
-LIFE O
+| I-ORG
+TALE I-ORG
+OF I-ORG
+MANCHESTER I-ORG
+LIFE I-ORG
 |
 | O
 ( O
-4 B-CARDINAL
-hy O
-Gaskill O
+4 B-QUANTITY
+hy I-QUANTITY
+Gaskill I-QUANTITY
 ) O
 |
 
@@ -724,13 +724,13 @@ EDITION O
 |
 
 | O
-LEIPZIG O
+LEIPZIG B-ORG
 |
 | O
 BERNH B-ORG
 . O
 TAUCHNITZ B-ORG
-JUN I-ORG
+JUN B-DATE
 . O
 |
 
@@ -743,7 +743,7 @@ rE O
 |
 
 | O
-219811 B-DATE
+219811 O
 |
 
 | O
@@ -774,11 +774,11 @@ sit O
 , O
 am O
 the O
-Foolishest O
+Foolishest B-ORG
 of O
 existing O
 mortals O
-; O
+  O
 that O
 |
 | O
@@ -811,7 +811,7 @@ the O
 means O
 , O
 under O
-Providence B-PERSON
+Providence B-GPE
 , O
 of O
 |
@@ -879,24 +879,24 @@ Miethe O
 , O
 |
 | O
-Die B-ORG
-iG I-ORG
+Die O
+iG O
 gerne O
-dretfadh O
-biete O
+dretfadh B-PERSON
+biete I-PERSON
 ! O
 |
 | O
-Sween B-PERSON
+Sween O
 , O
 die O
-mit O
-mir B-PERSON
-iberfubren I-PERSON
+mit B-ORG
+mir I-ORG
+iberfubren I-ORG
 , O
 |
 | O
-Baren B-ORG
+Baren O
 geiftige O
 Naturen O
 . O
@@ -975,7 +975,7 @@ convulses O
 this O
 dumb O
 people O
-; O
+  O
 the O
 agony O
 of O
@@ -1054,7 +1054,7 @@ error O
 so O
 bitter O
 in O
-ite O
+ite B-ORG
 |
 | O
 consequences O
@@ -1085,8 +1085,8 @@ way O
 of O
 |
 | O
-mercifal O
-deeds O
+mercifal B-PERSON
+deeds I-PERSON
 , O
 or O
 helpless O
@@ -1134,9 +1134,9 @@ me O
 |
 | O
 to O
-beleft O
-ina O
-state O
+beleft B-ORG
+ina I-ORG
+state I-ORG
 , O
 wherein O
 lamentations O
@@ -1178,8 +1178,8 @@ I O
 know O
 nothing O
 of O
-Political B-ORG
-Economy I-ORG
+Political O
+Economy O
 , O
 or O
 the O
@@ -1195,7 +1195,7 @@ tried O
 to O
 write O
 truthfully O
-; O
+  O
 and O
 if O
 my O
@@ -1262,8 +1262,8 @@ tale O
 completed O
 |
 | O
-above O
-a B-DATE
+above B-DATE
+a I-DATE
 year I-DATE
 ago I-DATE
 ) O
@@ -1295,7 +1295,7 @@ Continent O
 |
 
 | O
-Ocroser B-ORG
+Ocroser B-GPE
 , O
 1848 B-DATE
 . O
@@ -1308,7 +1308,7 @@ Ocroser B-ORG
    
 
 | O
-2 O
+2 B-CARDINAL
 |
 
 | O
@@ -1363,7 +1363,7 @@ resort O
 at O
 every O
 holiday O
-tihe;"dact O
+tihe "dact O
 you O
 would O
 not O
@@ -1378,7 +1378,7 @@ could O
 \ce O
 , O
 : O
-6¢ B-CARDINAL
+6¢ O
 Eproperly O
 describe O
 , O
@@ -1387,9 +1387,9 @@ charm O
 |
 | O
 of O
-ono O
-pettigulay O
-style O
+ono B-PERSON
+pettigulay I-PERSON
+style I-PERSON
 , O
 tlrat O
 it O
@@ -1517,7 +1517,7 @@ by O
 arose O
 - O
 tree O
-; O
+  O
 and O
 the O
 little O
@@ -1576,7 +1576,7 @@ lavender O
 , O
 sage O
 , O
-balm B-PERSON
+balm O
 ( O
 for O
 tea O
@@ -1594,7 +1594,7 @@ flowers O
 , O
 onions O
 and O
-jessamine O
+jessamine B-ORG
 , O
 |
 | O
@@ -1650,7 +1650,7 @@ and O
 black O
 - O
 thorn O
-; O
+  O
 |
 | O
 and O
@@ -1700,7 +1700,7 @@ know O
 whether O
 it O
 was O
-ona O
+ona B-PERSON
 holiday O
 granted O
 by O
@@ -1760,11 +1760,11 @@ May O
 evening O
 — O
 the O
-April B-DATE
+April O
 of O
 the O
 poets O
-; O
+  O
 for O
 heavy O
 |
@@ -1833,7 +1833,7 @@ visibly O
 fluttered O
 into O
 life O
-; O
+  O
 and O
 the O
 |
@@ -1863,7 +1863,7 @@ reflection O
 
 | O
 sisters O
-; O
+  O
 never O
 . O
 Not O
@@ -1914,7 +1914,7 @@ of O
 advice O
 to O
 her O
-; O
+  O
 my O
 wife O
 spoiled O
@@ -1936,7 +1936,7 @@ so O
 much O
 older O
 than O
-Esther O
+Esther B-PERSON
 she O
 was O
 more O
@@ -2007,8 +2007,8 @@ themselves O
 any O
 how O
 . O
-My O
-Mary B-PERSON
+My B-PERSON
+Mary I-PERSON
 shall O
 never O
 work O
@@ -2042,7 +2042,7 @@ off O
 her O
 pretty O
 face O
-; O
+  O
 and O
 got O
 to O
@@ -2051,9 +2051,9 @@ home O
 |
 | O
 so O
-late B-TIME
-at I-TIME
-night I-TIME
+late O
+at O
+night B-TIME
 , O
 that O
 at O
@@ -2098,7 +2098,7 @@ Says O
 I O
 , O
 ‘ O
-Esther O
+Esther B-PERSON
 , O
 I O
 see O
@@ -2133,7 +2133,7 @@ are O
 in O
 their O
 beds O
-; O
+  O
 you O
 ‘ O
 Il O
@@ -2236,7 +2236,7 @@ out O
 of O
 her O
 eyes O
-; O
+  O
 but O
 when O
 she O
@@ -2395,7 +2395,7 @@ again O
 Folks O
 always O
 make O
-one O
+one B-CARDINAL
 a O
 deal O
 worse O
@@ -2458,7 +2458,7 @@ tea O
 | O
 with O
 Mary B-PERSON
-; O
+  O
 and O
 that O
 was O
@@ -2705,7 +2705,7 @@ baby O
 , O
 for O
 if O
-Wilson B-ORG
+Wilson B-PERSON
 ’s O
 arms O
 be O
@@ -2744,9 +2744,9 @@ infants O
 , O
 and O
 with O
-some B-CARDINAL
-little I-CARDINAL
-foresight I-CARDINAL
+some O
+little O
+foresight O
 of O
 the O
 |
@@ -2757,10 +2757,10 @@ to O
 happen O
 at O
 home O
-; O
+  O
 while O
 young O
-Wilson B-PERSON
+Wilson B-ORG
 seemed O
 to O
 |
@@ -2835,8 +2835,8 @@ it O
 |
 
 | O
-CHAPTER B-LAW
-II I-LAW
+CHAPTER O
+II O
 . O
 |
 
@@ -2886,7 +2886,7 @@ we O
 are O
 , O
 wife O
-; O
+  O
 didst O
 thou O
 think O
@@ -2901,7 +2901,7 @@ quoth O
 hearty O
 - O
 voiced O
-Wilson B-ORG
+Wilson B-PERSON
 , O
 as O
 the O
@@ -2945,7 +2945,7 @@ thoughts O
 to O
 her O
 friend O
-; O
+  O
 and O
 her O
 |
@@ -2969,9 +2969,9 @@ party O
 should O
 adjourn O
 from O
-Green B-ORG
-Heys I-ORG
-Fields I-ORG
+Green B-PRODUCT
+Heys I-PRODUCT
+Fields I-PRODUCT
 |
 
  
@@ -3063,7 +3063,7 @@ to O
 warm O
 the O
 tea O
-; O
+  O
 thou O
 'll O
 get O
@@ -3083,7 +3083,7 @@ go O
 to O
 Alice B-PERSON
 Wilson I-PERSON
-; O
+  O
 he O
 says O
 she O
@@ -3096,8 +3096,8 @@ round O
 the O
 corner O
 , O
-under B-DATE
-14 I-DATE
+under O
+14 B-DATE
 , O
 Barber B-PERSON
 street O
@@ -3127,7 +3127,7 @@ her O
 tea O
 with O
 us O
-; O
+  O
 she O
 'll O
 like O
@@ -3174,11 +3174,11 @@ for O
 we O
 have O
 but O
-half O
-- O
-a O
-- O
-dozen O
+half B-DATE
+- I-DATE
+a I-DATE
+- I-DATE
+dozen I-DATE
 , O
 and O
 here O
@@ -3192,7 +3192,7 @@ said O
 Mrs. O
 |
 | O
-Barton B-GPE
+Barton B-PERSON
 . O
 |
 
@@ -3322,7 +3322,7 @@ hedge O
 and O
 field O
 simples O
-; O
+  O
 and O
 on O
 |
@@ -3408,7 +3408,7 @@ the O
 perfection O
 of O
 cleanliness O
-; O
+  O
 in O
 one B-CARDINAL
 |
@@ -3533,12 +3533,12 @@ ditch O
  
 
 | O
-18 B-CARDINAL
+18 B-QUANTITY
 |
 
-| O
-CHAPTER O
-III O
+| I-QUANTITY
+CHAPTER I-QUANTITY
+III I-QUANTITY
 . O
 |
 | O
@@ -3577,7 +3577,7 @@ than O
 ours O
 . O
 ” O
-Hoon O
+Hoon B-PERSON
 . O
 |
 
@@ -3617,13 +3617,13 @@ knocking O
 which O
 had O
 at O
-first O
+first B-ORDINAL
 made O
 part O
 of O
 her O
 dream O
-; O
+  O
 but O
 |
 | O
@@ -3790,8 +3790,8 @@ like O
 |
 | O
 an O
-automaton B-GPE
-; O
+automaton O
+  O
 her O
 eyes O
 tearless O
@@ -3870,7 +3870,7 @@ call O
 upon O
 his O
 services O
-; O
+  O
 and O
 then O
 he O
@@ -3906,7 +3906,7 @@ house O
 . O
 |
 | O
-Barton B-GPE
+Barton B-PERSON
 absolutely O
 stamped O
 with O
@@ -3924,7 +3924,7 @@ before O
 he O
 came O
 down O
-; O
+  O
 and O
 walked O
 so O
@@ -4066,7 +4066,7 @@ influences O
 over O
 John B-PERSON
 Barton I-PERSON
-’s O
+’s I-PERSON
 life O
 had O
 de- O
@@ -4091,7 +4091,7 @@ the O
 gentle O
 humanities O
 of O
-carth O
+carth B-ORG
 was O
 loosened O
 , O
@@ -4190,7 +4190,7 @@ Mary B-PERSON
 with O
 tender O
 love O
-; O
+  O
 she O
 had O
 |
@@ -4223,7 +4223,7 @@ necessity O
 of O
 the O
 case O
-; O
+  O
 for O
 , O
 of O
@@ -4328,7 +4328,7 @@ him O
 heart O
 and O
 soul O
-; O
+  O
 |
 | O
 she O
@@ -4501,7 +4501,7 @@ employer O
 | O
 removing O
 from O
-house O
+house B-ORG
 to O
 house O
 , O
@@ -4621,7 +4621,7 @@ shillings O
 to O
 rely O
 on O
-; O
+  O
 but O
 |
 | O
@@ -4682,8 +4682,8 @@ were O
 working O
 |
 | O
-short O
-hours O
+short B-TIME
+hours I-TIME
 , O
 some O
 were O
@@ -4824,12 +4824,12 @@ one B-CARDINAL
 little O
 meal O
 . O
-Barton B-PERSON
+Barton B-ORG
 tried O
 |
 | O
 credit O
-; O
+  O
 but O
 it O
 was O
@@ -4866,7 +4866,7 @@ and O
 would O
 have O
 stolen O
-; O
+  O
 but O
 he O
 could O
@@ -4933,12 +4933,12 @@ luxuries O
 | O
 are O
 displayed O
-; O
+  O
 haunches O
 of O
 venison O
 , O
-Stilton B-GPE
+Stilton B-PERSON
 cheeses O
 , O
 moulds O
@@ -4979,7 +4979,7 @@ carriage O
 followed O
 by O
 the O
-shopman O
+shopman B-ORG
 loaded O
 with O
 purchases O
@@ -5002,9 +5002,9 @@ drove O
 |
 | O
 away O
-; O
+  O
 and O
-Barton B-GPE
+Barton B-PERSON
 returned O
 home O
 with O
@@ -5080,7 +5080,7 @@ in O
 the O
 working O
 classes O
-; O
+  O
 who O
 know O
 how O
@@ -5096,7 +5096,7 @@ power O
 at O
 their O
 command O
-; O
+  O
 |
 
  
@@ -5206,7 +5206,7 @@ if O
 she O
 is O
 pretty O
-; O
+  O
 concerning O
 |
 | O
@@ -5238,7 +5238,7 @@ make O
 her O
 a O
 lady O
-; O
+  O
 the O
 rank O
 she O
@@ -5252,7 +5252,7 @@ father O
 |
 | O
 abuse O
-; O
+  O
 the O
 rank O
 to O
@@ -5325,7 +5325,7 @@ to O
 |
 | O
 appearance O
-; O
+  O
 must O
 never O
 soil O
@@ -5419,7 +5419,7 @@ to O
 be O
 a O
 dressmaker O
-; O
+  O
 |
 | O
 and O
@@ -5475,8 +5475,8 @@ at O
 |
 | O
 all O
-; O
-poorman O
+  O
+poorman B-PERSON
 ! O
 he O
 might O
@@ -5486,10 +5486,10 @@ that O
 without O
 giving O
 up O
-a O
+a B-DATE
 |
-| O
-day B-DATE
+| I-DATE
+day I-DATE
 ’s O
 work O
 to O
@@ -5555,7 +5555,7 @@ second B-ORDINAL
 - O
 rate O
 places O
-; O
+  O
 at O
 all O
 the O
@@ -5595,7 +5595,7 @@ was O
 | O
 time O
 lost O
-; O
+  O
 that O
 dressmaking O
 was O
@@ -5666,7 +5666,7 @@ any O
 real O
 ease O
 ) O
-; O
+  O
 a O
 little O
 , O
@@ -5690,7 +5690,7 @@ time O
 was O
 blazing O
 merrily O
-; O
+  O
 her O
 unlackered O
 , O
@@ -5758,7 +5758,7 @@ butter O
 flourished O
 away O
 ) O
-; O
+  O
 all O
 |
 | O
@@ -5881,9 +5881,9 @@ bread O
 of O
 |
 | O
-Cumberland B-ORG
+Cumberland B-GPE
 and O
-Westmoreland B-ORG
+Westmoreland B-GPE
 , O
 and O
 descending O
@@ -6009,7 +6009,7 @@ in O
 its O
 paper O
 parcel O
-; O
+  O
 |
 | O
 all O
@@ -6087,7 +6087,7 @@ with O
 a O
 careworn O
 look O
-; O
+  O
 her O
 dress O
 was O
@@ -6129,9 +6129,9 @@ down O
 behind O
 and O
 at O
-the B-FAC
-sidesin I-FAC
-front I-FAC
+the O
+sidesin B-GPE
+front O
 . O
 The O
 |
@@ -6327,7 +6327,7 @@ yellow O
 , O
 some O
 brown O
-; O
+  O
 and O
 |
 | O
@@ -6556,7 +6556,7 @@ spot O
 once O
 again O
 . O
-May O
+May B-DATE
 be O
 next B-DATE
 summer I-DATE
@@ -6606,13 +6606,13 @@ Why O
 iass O
 ! O
 first B-ORDINAL
-one B-CARDINAL
+one O
 wanted O
 me O
 and O
 then O
 another O
-; O
+  O
 and O
 I O
 |
@@ -6652,7 +6652,7 @@ one B-CARDINAL
 kind O
 or O
 another O
-; O
+  O
 and O
 his O
 wife O
@@ -6695,7 +6695,7 @@ always O
 | O
 in O
 trouble O
-; O
+  O
 so O
 Thad B-PERSON
 enough O
@@ -6718,7 +6718,7 @@ matter O
 They O
 died O
 within O
-twelvemonth B-ORDINAL
+twelvemonth B-DATE
 |
 | O
 of O
@@ -6746,7 +6746,7 @@ to O
 himself O
 ) O
 , O
-Will O
+Will B-PERSON
 , O
 as O
 I O
@@ -6754,16 +6754,16 @@ was O
 telling O
 you O
 on O
-; O
+  O
 |
 
  
 
 | O
-36 B-CARDINAL
+36 B-QUANTITY
 |
 
-| O
+| I-QUANTITY
 With O
 s O
 faint O
@@ -6803,7 +6803,7 @@ you O
 |
 | O
 are O
-Lancashire B-PERSON
+Lancashire B-GPE
 born O
 and O
 bred O
@@ -6813,7 +6813,7 @@ it O
 is O
 a O
 complete O
-Lancashire B-ORG
+Lancashire B-GPE
 |
 | O
 ditty O
@@ -6847,14 +6847,14 @@ cotton O
 weyver O
 , O
 as O
-mony B-PERSON
+mony O
 a O
 one B-CARDINAL
 knoowas O
 , O
 |
 | O
-Oi've O
+Oi've B-PRODUCT
 nowt O
 for O
 t O
@@ -6865,13 +6865,13 @@ an O
 ’ O
 oi’ve O
 worn O
-eawt O
+eawt B-GPE
 my O
-cloas O
+cloas B-ORG
 , O
 |
 | O
-Yo'ad B-PERSON
+Yo'ad B-LANGUAGE
 hardly O
 gi O
 ’ O
@@ -6897,7 +6897,7 @@ an O
 stuckings O
 |
 | O
-Yo B-ORG
+Yo O
 'd O
 think O
 it O
@@ -6936,8 +6936,8 @@ con O
 1 B-CARDINAL
 |
 | O
-Ovd B-GPE
-Dicky I-GPE
+Ovd O
+Dicky O
 o O
 ° O
 Billy B-PERSON
@@ -6950,14 +6950,14 @@ lung O
 |
 | O
 ‘ O
-Wee O
-s'd O
+Wee B-PERSON
+s'd I-PERSON
 ha O
 ’ O
 better O
 toimes O
 if O
-1’d B-PERSON
+1’d O
 but O
 how O
 d O
@@ -6966,10 +6966,10 @@ tung O
 , O
 |
 | O
-Oi've O
-howden O
-my O
-tung B-GPE
+Oi've B-PERSON
+howden I-PERSON
+my I-PERSON
+tung O
 , O
 till O
 oi've O
@@ -6988,9 +6988,9 @@ my O
 heeart O
 oi’se O
 soon O
-clem O
+clem B-GPE
 to O
-deeath O
+deeath B-PERSON
 , O
 |
 | O
@@ -7004,8 +7004,8 @@ crammed O
 | O
 He O
 never O
-wur O
-clemmed O
+wur B-ORG
+clemmed I-ORG
 , O
 |
 | O
@@ -7025,7 +7025,7 @@ loife O
 * O
 |
 | O
-mm B-PERSON
+mm O
 . O
 |
 | O
@@ -7055,9 +7055,9 @@ till O
 neaw O
 we O
 ’re O
-quoite O
+quoite B-NORP
 fast O
-; O
+  O
 |
 | O
 We O
@@ -7067,22 +7067,22 @@ upo O
 nettles O
 , O
 whoile O
-nettles B-PERSON
-wur I-PERSON
+nettles O
+wur O
 good O
 , O
 |
 | O
 An O
 ’ O
-Waterloo B-PERSON
+Waterloo B-PRODUCT
 porridge O
 the O
 best O
-0 B-CARDINAL
-° O
-eawr B-NORP
-food O
+0 B-QUANTITY
+° I-QUANTITY
+eawr B-ORG
+food I-ORG
 , O
 |
 | O
@@ -7096,7 +7096,7 @@ true O
 , O
 |
 | O
-Qi O
+Qi B-PERSON
 can O
 find O
 folk O
@@ -7106,8 +7106,8 @@ enow O
 | O
 ‘ O
 As O
-wur B-PERSON
-livin I-PERSON
+wur O
+livin O
 ’ O
 na O
 better O
@@ -7116,7 +7116,7 @@ me O
 . O
 |
 | O
-1v B-DATE
+1v O
 . O
 |
 | O
@@ -7125,19 +7125,19 @@ Ovd O
 Billy O
 o O
 ’ O
-Dans B-NORP
+Dans B-ORG
 sent O
 th O
 ’ O
 baileys O
-one O
-day O
+one B-DATE
+day I-DATE
 , O
 |
 | O
-Fura B-PRODUCT
+Fura B-PERSON
 shop O
-deebt O
+deebt B-NORP
 oi O
 eawd O
 him O
@@ -7159,11 +7159,11 @@ lat O
 fur O
 owd O
 Billy B-PERSON
-o O
-° O
+o I-PERSON
+° I-PERSON
 th O
 ’ O
-Bent B-PERSON
+Bent O
 , O
 |
 | O
@@ -7189,21 +7189,21 @@ rent O
 | O
 We O
 'd O
-neawt O
+neawt B-PERSON
 left O
 bo O
 ' O
 th O
 ’ O
-owd O
-stoo O
-’ O
+owd B-PERSON
+stoo I-PERSON
+’ I-PERSON
 , O
 |
 | O
 ‘ O
 That O
-wur O
+wur B-ORG
 seats O
 fur O
 two B-CARDINAL
@@ -7239,7 +7239,7 @@ me O
 | O
 * O
 “ O
-Clem B-ORG
+Clem O
 , O
 ” O
 to O
@@ -7309,7 +7309,7 @@ David B-PERSON
 ” O
 Mary B-PERSON
 held O
-herbresth O
+herbresth B-ORG
 , O
 unwilling O
 to O
@@ -7418,7 +7418,7 @@ art O
 | O
 She O
 stopped O
-; O
+  O
 and O
 with O
 tears O
@@ -7570,7 +7570,7 @@ say O
 nay O
 , O
 for O
-Ihave B-PERSON
+Ihave O
 to O
 be O
 up O
@@ -7587,7 +7587,7 @@ at O
 Mrs. O
 Simpson B-PERSON
 ’s O
-; O
+  O
 but O
 I O
 shall O
@@ -7605,7 +7605,7 @@ any O
 time O
 , O
 lasses O
-; O
+  O
 and O
 I O
 hope O
@@ -7667,16 +7667,16 @@ consented O
 |
 
 | O
-CHAPTER B-LAW
-V. I-LAW
+CHAPTER O
+V. O
 |
 
-| I-LAW
-“ I-LAW
+| O
+“ O
 Learned O
 he O
 was O
-; O
+  O
 nor O
 bird O
 , O
@@ -7725,7 +7725,7 @@ could O
 tell O
 . O
 ” O
-Etrorr B-ORG
+Etrorr B-PERSON
 . O
 |
 
@@ -7781,7 +7781,7 @@ I O
 said O
 in O
 “ O
-Manchester B-WORK_OF_ART
+Manchester B-GPE
 , O
 ” O
 * O
@@ -7815,7 +7815,7 @@ proceeded O
 by O
 boat O
 to O
-Manchester B-ORG
+Manchester B-GPE
 , O
 and O
 on O
@@ -7871,7 +7871,7 @@ my O
 |
 | O
 way O
-; O
+  O
 ’’ O
 and O
 , O
@@ -7899,7 +7899,7 @@ weaver O
 were O
 skilful O
 botanists O
-; O
+  O
 |
 | O
 and O
@@ -7952,7 +7952,7 @@ Margaret B-PERSON
 ’s O
 grandfather O
 was O
-one O
+one B-CARDINAL
 of O
 these O
 . O
@@ -8014,7 +8014,7 @@ sides O
 of O
 his O
 head O
-; O
+  O
 his O
 forehead O
 was O
@@ -8059,7 +8059,7 @@ absolutely O
 gleamed O
 with O
 intelligence O
-; O
+  O
 so O
 keen O
 , O
@@ -8107,7 +8107,7 @@ frames O
 of O
 impaled O
 insects O
-; O
+  O
 |
 | O
 the O
@@ -8118,7 +8118,7 @@ covered O
 with O
 cabalistic O
 books O
-; O
+  O
 and O
 beside O
 |
@@ -8134,10 +8134,10 @@ instruments O
 one B-CARDINAL
 of O
 which O
-Job B-PERSON
+Job O
 |
-| I-PERSON
-Legh I-PERSON
+| O
+Legh O
 was O
 using O
 when O
@@ -8192,7 +8192,7 @@ her O
 | O
 first B-ORDINAL
 born O
-; O
+  O
 stroking O
 her O
 with O
@@ -8281,7 +8281,7 @@ in O
 the O
 same O
 voice O
-; O
+  O
 “ O
 but O
 you O
@@ -8325,7 +8325,7 @@ the O
 |
 | O
 fire O
-; O
+  O
 and O
 a O
 good O
@@ -8476,8 +8476,8 @@ another O
 , O
 and O
 in O
-a O
-minute O
+a B-TIME
+minute I-TIME
 it O
 was O
 as O
@@ -8522,7 +8522,7 @@ why O
 , O
 I O
 jumped O
-first B-ORDINAL
+first O
 ona O
 chair O
 , O
@@ -8572,7 +8572,7 @@ tome O
 Why O
 , O
 if O
-1d B-CARDINAL
+1d O
 come O
 up O
 by O
@@ -8692,7 +8692,7 @@ the O
 lid O
 , O
 and O
-peepsin O
+peepsin B-GPE
 . O
 What O
 on O
@@ -8707,7 +8707,7 @@ for O
 , O
 thinks O
 I O
-; O
+  O
 he O
 “ O
 ll O
@@ -8795,7 +8795,7 @@ Ay O
 , O
 sure O
 enough O
-; O
+  O
 he O
 boiled O
 for O
@@ -8995,14 +8995,14 @@ might O
 be O
 for O
 the O
-dun O
+dun B-ORG
 looks O
 |
 | O
 of O
 the O
 landscape O
-; O
+  O
 for O
 soft O
 water O
@@ -9017,7 +9017,7 @@ even O
 to O
 be O
 purchased O
-; O
+  O
 and O
 the O
 poor O
@@ -9053,7 +9053,7 @@ neighbourhood O
 . O
 |
 | O
-Peopleprophesied O
+Peopleprophesied B-PERSON
 a O
 long O
 continuance O
@@ -9063,9 +9063,9 @@ already O
 lengthen O
 |
 | O
-ed B-PERSON
-frost I-PERSON
-; O
+ed O
+frost O
+  O
 said O
 the B-DATE
 spring I-DATE
@@ -9073,14 +9073,14 @@ would O
 be O
 very O
 late O
-; O
+  O
 no O
 spring O
 |
 | O
 fashions O
 required O
-; O
+  O
 no B-DATE
 summer I-DATE
 clothing O
@@ -9090,8 +9090,8 @@ a O
 short O
 |
 | O
-uncertain O
-summer B-DATE
+uncertain B-DATE
+summer I-DATE
 . O
 Indeed O
 there O
@@ -9188,8 +9188,8 @@ court O
 
 | O
 “ O
-Bless B-WORK_OF_ART
-me I-WORK_OF_ART
+Bless O
+me O
 Margaret B-PERSON
 ! O
 is O
@@ -9237,7 +9237,7 @@ finish O
 to O
 - O
 night O
-; O
+  O
 mourning O
 , O
 as O
@@ -9252,8 +9252,8 @@ the O
 funeral O
 to O
 - O
-morrow O
-; O
+morrow B-DATE
+  O
 and O
 grandfather O
 has O
@@ -9318,7 +9318,7 @@ order O
 yesterday B-DATE
 at O
 noon B-TIME
-; O
+  O
 and O
 there O
 's O
@@ -9329,7 +9329,7 @@ girls O
 beside O
 the O
 mother O
-; O
+  O
 and O
 what O
 with O
@@ -9373,14 +9373,14 @@ to O
 |
 | O
 make O
-; O
+  O
 I O
 kept O
 that O
 work O
 till O
 candlelight O
-; O
+  O
 and O
 the O
 sleeves O
@@ -9396,7 +9396,7 @@ bits O
 to O
 the O
 bodies O
-; O
+  O
 for O
 the O
 missis O
@@ -9569,7 +9569,7 @@ who O
 stiff O
 and O
 cold O
-; O
+  O
 |
 | O
 and O
@@ -9606,9 +9606,9 @@ to O
 |
 | O
 pinch O
-many O
-a O
-year O
+many B-DATE
+a I-DATE
+year I-DATE
 to O
 pay O
 the O
@@ -9653,7 +9653,7 @@ why O
 folks O
 wear O
 mourning O
-; O
+  O
 it O
 ’s O
 not O
@@ -9662,7 +9662,7 @@ or O
 |
 | O
 becoming O
-; O
+  O
 and O
 it O
 costs O
@@ -9679,7 +9679,7 @@ can O
 spare O
 it O
 least O
-; O
+  O
 and O
 if O
 what O
@@ -9713,7 +9713,7 @@ his O
 |
 | O
 rest O
-; O
+  O
 and O
 as O
 for O
@@ -9845,7 +9845,7 @@ how O
 they O
 were O
 grieving O
-; O
+  O
 for O
 , O
 perhaps O
@@ -9909,7 +9909,7 @@ over O
 and O
 fix O
 about O
-; O
+  O
 and O
 I O
 left O
@@ -9963,8 +9963,8 @@ n’t O
 
 | O
 “ O
-Old O
-Alice O
+Old B-WORK_OF_ART
+Alice I-WORK_OF_ART
 is O
 one O
 in O
@@ -10158,7 +10158,7 @@ as O
 a O
 steadying O
 guide O
-; O
+  O
 it O
 encouraged O
 the O
@@ -10210,8 +10210,8 @@ the O
 |
 | O
 four B-CARDINAL
-or I-CARDINAL
-five I-CARDINAL
+or O
+five B-CARDINAL
 paces O
 between O
 him O
@@ -10259,7 +10259,7 @@ very O
 throats O
 would O
 crack O
-; O
+  O
 and O
 then O
 , O
@@ -10300,8 +10300,8 @@ to O
 get O
 out O
 of O
-Dunham O
-Street O
+Dunham B-FAC
+Street I-FAC
 , O
 and O
 back O
@@ -10428,7 +10428,7 @@ clean O
 |
 | O
 pavement O
-; O
+  O
 and O
 the O
 change O
@@ -10614,7 +10614,7 @@ never O
 go O
 very O
 quickly O
-; O
+  O
 and O
 I O
 am O
@@ -10634,7 +10634,7 @@ the O
 two B-CARDINAL
 younger O
 Miss O
-Ogdens B-PERSON
+Ogdens O
 were O
 in O
 |
@@ -10685,8 +10685,8 @@ off O
 |
 
 | O
-CHAPTER B-LAW
-VI I-LAW
+CHAPTER O
+VI O
 . O
 |
 
@@ -10711,7 +10711,7 @@ feels O
 |
 | O
 When O
-Want B-PERSON
+Want O
 , O
 like O
 some O
@@ -10721,7 +10721,7 @@ foe O
 , O
 |
 | O
-Nearer B-CARDINAL
+Nearer B-PRODUCT
 and O
 nearer O
 steals O
@@ -10818,11 +10818,11 @@ find O
 He O
 never O
 saw O
-bis O
-di O
+bis B-ORG
+di I-ORG
 |
-| O
-Shivering O
+| I-ORG
+Shivering I-ORG
 , O
 the O
 fi O
@@ -10845,9 +10845,9 @@ Daddy O
 a O
 bit O
 of O
-1 B-CARDINAL
-MaNcHEstan O
-Sons O
+1 B-MONEY
+MaNcHEstan I-MONEY
+Sons I-MONEY
 . O
 |
 
@@ -10891,7 +10891,7 @@ They O
 were O
 well O
 insured O
-; O
+  O
 |
 | O
 the O
@@ -10928,7 +10928,7 @@ trade O
 was O
 very O
 slack O
-; O
+  O
 cottons O
 could O
 |
@@ -10999,7 +10999,7 @@ readi- O
 
 | O
 got O
-; O
+  O
 and O
 taking O
 off O
@@ -11126,7 +11126,7 @@ some O
 |
 | O
 gruel O
-; O
+  O
 and O
 when O
 it O
@@ -11206,7 +11206,7 @@ up O
 and O
 looked O
 round O
-; O
+  O
 and O
 recollecting O
 all O
@@ -11286,7 +11286,7 @@ in O
 preference O
 to O
 flags O
-; O
+  O
 over O
 it O
 was O
@@ -11306,7 +11306,7 @@ skeleton O
 of O
 a O
 body O
-; O
+  O
 |
 | O
 above O
@@ -11330,7 +11330,7 @@ children O
 this O
 bitter O
 weather O
-; O
+  O
 and O
 in O
 |
@@ -11358,8 +11358,8 @@ they O
 have O
 been O
 kept O
-onhim O
-; O
+onhim B-DATE
+  O
 but O
 as O
 he O
@@ -11369,7 +11369,7 @@ restlessly O
 tossed O
 to O
 and O
-fro O
+fro B-ORG
 , O
 they O
 fell O
@@ -11417,7 +11417,7 @@ fearful O
 plague O
 - O
 picture O
-; O
+  O
 but O
 he O
 soon O
@@ -11459,7 +11459,7 @@ He O
 was O
 thankful O
 when O
-Wilson B-ORG
+Wilson B-PERSON
 reappeared O
 , O
 |
@@ -11481,7 +11481,7 @@ the O
 | O
 poor O
 wife O
-; O
+  O
 but O
 when O
 the O
@@ -11588,14 +11588,14 @@ as O
 Bible B-WORK_OF_ART
 - O
 words O
-; O
-ne’er O
+  O
+ne’er B-ORG
 |
-| O
-awordo O
-’ O
-repining O
-; O
+| I-ORG
+awordo I-ORG
+’ I-ORG
+repining I-ORG
+  O
 a O
 ’ O
 about O
@@ -11622,7 +11622,7 @@ sends O
 
 | O
 “ O
-Don O
+Don B-PERSON
 ye O
 think O
 he O
@@ -11657,9 +11657,9 @@ Eh O
 John B-PERSON
 ! O
 donna B-PERSON
-talk I-PERSON
+talk O
 so O
-; O
+  O
 sure O
 there O
 ’s O
@@ -11731,11 +11731,11 @@ us O
 
 | O
 But O
-Wilson B-ORG
+Wilson B-PERSON
 was O
 no O
 arguer O
-; O
+  O
 no O
 speechifier O
 , O
@@ -11790,7 +11790,7 @@ getten O
 capital O
 an O
 ’ O
-we’n B-EVENT
+we’n O
 getten O
 none O
 . O
@@ -11861,25 +11861,25 @@ to O
 begin O
 wi O
 ’ O
-; O
+  O
 there O
 ’s O
-Carsons O
+Carsons B-PERSON
 , O
 and O
 |
 | O
-Duncombes B-GPE
+Duncombes B-PERSON
 , O
 and O
-Mengies B-GPE
+Mengies B-PERSON
 , O
 and O
 many O
 another O
 , O
 as O
-comed O
+comed B-ORG
 into O
 |
 | O
@@ -11917,7 +11917,7 @@ of O
 | O
 our O
 labour O
-; O
+  O
 why O
 the O
 very O
@@ -11965,8 +11965,8 @@ poor O
 |
 | O
 Davenportyonder B-ORG
-; O
-whatten O
+  O
+whatten B-PERSON
 better O
 are O
 we O
@@ -12088,7 +12088,7 @@ I O
 | O
 assure O
 ye O
-; O
+  O
 ’ O
 so O
 yo O
@@ -12132,7 +12132,7 @@ bave O
 preparations O
 for O
 breakfast O
-; O
+  O
 but O
 good O
 - O
@@ -12155,7 +12155,7 @@ could O
 soon O
 letMr O
 . O
-Carsons O
+Carsons B-PERSON
 |
 | O
 know O
@@ -12202,7 +12202,7 @@ nature O
 | O
 and O
 use O
-Wilson B-ORG
+Wilson B-PERSON
 amused O
 himself O
 by O
@@ -12217,8 +12217,8 @@ servants O
 bustled O
 to O
 and O
-fro O
-; O
+fro B-ORG
+  O
 an O
 out O
 - O
@@ -12284,7 +12284,7 @@ began O
 to O
 |
 | O
-yearn O
+yearn B-DATE
 for O
 food O
 to O
@@ -12323,7 +12323,7 @@ and O
 bread O
 in O
 abundance O
-; O
+  O
 but O
 |
 | O
@@ -12352,7 +12352,7 @@ another O
 might O
 . O
 So O
-Wilson B-ORG
+Wilson B-PERSON
 ’s O
 |
 | O
@@ -12398,14 +12398,14 @@ Thomas B-PERSON
 
 | O
 “ O
-Yes B-WORK_OF_ART
-, I-WORK_OF_ART
-Iwas I-WORK_OF_ART
+Yes O
+, O
+Iwas B-PERSON
 right O
 weary O
 of O
 waiting O
-; O
+  O
 they O
 told O
 me O
@@ -12418,9 +12418,9 @@ the O
 rooms O
 by O
 twelve B-CARDINAL
-; O
+  O
 and O
-thereI B-ORG
+thereI O
 was O
 . O
 But O
@@ -12532,11 +12532,11 @@ there O
 . O
 No O
 ! O
-Iput O
+Iput B-PERSON
 |
-| O
-th O
-’ O
+| I-PERSON
+th I-PERSON
+’ I-PERSON
 horses O
 up O
 in O
@@ -12546,8 +12546,8 @@ stables O
 at O
 th O
 ’ O
-Spread B-PRODUCT
-Eagle I-PRODUCT
+Spread O
+Eagle O
 , O
 and O
 went O
@@ -12561,7 +12561,7 @@ and O
 got O
 a’glass O
 or O
-two B-CARDINAL
+two O
 by O
 th O
 ’ O
@@ -12619,11 +12619,11 @@ cold O
 
 | O
 “ O
-Mercy O
+Mercy B-ORG
 onus O
 , O
 Thomas B-PERSON
-; O
+  O
 you O
 ll O
 get O
@@ -12639,7 +12639,7 @@ last O
 | O
 “ O
 Tf O
-Ido O
+Ido B-PERSON
 , O
 I O
 know O
@@ -12686,7 +12686,7 @@ a O
 lovely O
 girl O
 of O
-sixteen B-CARDINAL
+sixteen B-DATE
 , O
 fresh O
 and O
@@ -12750,7 +12750,7 @@ him O
 in O
 his O
 loneliness O
-; O
+  O
 |
 | O
 and O
@@ -12762,9 +12762,9 @@ much O
 tired O
 , O
 like O
-Sophy B-GPE
+Sophy B-ORG
 and O
-Helen B-GPE
+Helen B-PERSON
 , O
 to O
 |
@@ -12912,7 +12912,7 @@ say O
 |
 | O
 that O
-; O
+  O
 but O
 I O
 ’m O
@@ -12934,7 +12934,7 @@ what O
 I O
 tell O
 him O
-; O
+  O
 do O
 you O
 , O
@@ -12963,13 +12963,13 @@ of O
 |
 | O
 Amy B-PERSON
-; O
-Lexpected O
+  O
+Lexpected B-PERSON
 praise O
 and O
 not O
 blame O
-; O
+  O
 for O
 did O
 not O
@@ -12979,9 +12979,9 @@ you O
 |
 | O
 that O
-eau B-PERSON
-de I-PERSON
-Portugal I-PERSON
+eau O
+de O
+Portugal B-GPE
 from O
 town O
 , O
@@ -12995,7 +12995,7 @@ with O
 | O
 at O
 Hughes B-ORG
-’ O
+’ I-ORG
 , O
 you O
 little O
@@ -13014,19 +13014,19 @@ Ob O
 , O
 sweet O
 Harry B-PERSON
-; O
+  O
 you O
 're O
 as O
 sweet O
 as O
-eau B-PERSON
-de I-PERSON
+eau O
+de O
 |
-| I-PERSON
+| O
 Portugal B-GPE
 yourself O
-; O
+  O
 you O
 ’re O
 almost O
@@ -13034,7 +13034,7 @@ as O
 good O
 as O
 papa O
-; O
+  O
 but O
 still O
 |
@@ -13088,18 +13088,18 @@ got O
 |
 | O
 the O
-Rose B-PERSON
+Rose B-GPE
 , O
 sans O
 reproche O
-; O
+  O
 but O
 do O
 you O
 know O
 , O
 little O
-Miss B-PERSON
+Miss O
 Extra- O
 |
 | O
@@ -13120,13 +13120,13 @@ guinea O
 “ O
 Oh O
 , O
-Idon’t B-NORP
+Idon’t O
 mind O
 . O
 Papa O
 will O
 give O
-itme O
+itme B-ORG
 , O
 wo O
 n't O
@@ -13243,8 +13243,8 @@ up O
 , O
 and O
 pulled O
-five B-CARDINAL
-shillings O
+five B-MONEY
+shillings I-MONEY
 out O
 of O
 his O
@@ -13256,7 +13256,7 @@ which O
 he O
 gave O
 to O
-Wilson B-ORG
+Wilson B-PERSON
 as O
 he O
 passed O
@@ -13285,7 +13285,7 @@ his O
 horse O
 , O
 mounted O
-gaily O
+gaily B-DATE
 , O
 and O
 rode O
@@ -13408,7 +13408,7 @@ breakfast O
 was O
 |
 | O
-sentin O
+sentin B-ORG
 , O
 had O
 noticed O
@@ -13435,7 +13435,7 @@ out O
 of O
 the O
 parlour O
-; O
+  O
 and O
 |
 | O
@@ -13492,7 +13492,7 @@ door O
 , O
 and O
 saw O
-Barton B-PERSON
+Barton B-ORG
 and O
 the O
 |
@@ -13627,7 +13627,7 @@ to O
 mutter O
 and O
 moan O
-; O
+  O
 but O
 he O
 soon O
@@ -13702,7 +13702,7 @@ and O
 |
 | O
 silent O
-; O
+  O
 even O
 the O
 wife O
@@ -13862,7 +13862,7 @@ lonesome O
 you O
 must O
 feel O
-; O
+  O
 but O
 think O
 of O
@@ -13893,7 +13893,7 @@ he O
 ’d O
 be O
 , O
-ifhe B-PERSON
+ifhe O
 sees O
 you O
 fretting O
@@ -13933,7 +13933,7 @@ widow O
 |
 
 | O
-Tt B-PRODUCT
+Tt O
 was O
 agreed O
 the O
@@ -13941,7 +13941,7 @@ town O
 must O
 bury O
 him O
-; O
+  O
 he O
 had O
 paid O
@@ -13962,7 +13962,7 @@ by O
 a B-DATE
 few I-DATE
 weeks I-DATE
-’ O
+’ I-DATE
 omis- O
 |
 | O
@@ -14005,7 +14005,7 @@ she O
 urged O
 this O
 plan O
-; O
+  O
 but O
 |
 | O
@@ -14027,7 +14027,7 @@ would O
 the O
 mourner O
 be O
-; O
+  O
 and O
 all O
 that O
@@ -14116,8 +14116,8 @@ scolding O
 from O
 Miss O
 Simmonds B-PERSON
-that B-DATE
-day I-DATE
+that O
+day O
 |
 | O
 for O
@@ -14144,8 +14144,8 @@ non O
 - O
 appearance O
 in O
-the O
-morning O
+the B-TIME
+morning I-TIME
 with O
 |
 | O
@@ -14169,9 +14169,9 @@ adress O
 to O
 be O
 worn O
-that O
-night O
-; O
+that B-TIME
+night I-TIME
+  O
 but O
 it O
 was O
@@ -14188,7 +14188,7 @@ what O
 she O
 was O
 about O
-; O
+  O
 she O
 was O
 too O
@@ -14255,7 +14255,7 @@ of O
 retribution O
 for O
 her O
-morning O
+morning B-TIME
 ’s O
 negligence O
 ) O
@@ -14306,11 +14306,11 @@ ditties O
  
 
 | O
-80 B-CARDINAL
+80 B-MONEY
 |
 
-| O
-shillings O
+| I-MONEY
+shillings I-MONEY
 beforehand O
 with O
 the O
@@ -14360,7 +14360,7 @@ inquired O
 into O
 her O
 case O
-; O
+  O
 |
 | O
 and O
@@ -14370,8 +14370,8 @@ of O
 sending O
 her O
 to O
-Stoke B-ORG
-Claypole I-ORG
+Stoke B-PERSON
+Claypole I-PERSON
 , O
 her O
 husband O
@@ -14410,7 +14410,7 @@ now O
 required O
 to O
 find O
-; O
+  O
 only O
 for O
 three B-CARDINAL
@@ -14418,7 +14418,7 @@ she O
 would O
 have O
 said O
-; O
+  O
 for O
 her- O
 |
@@ -14509,7 +14509,7 @@ helplessness O
 of O
 a O
 crumb O
-; O
+  O
 and O
 |
 | O
@@ -14523,7 +14523,7 @@ their O
 mother O
 ’s O
 at O
-night O
+night B-TIME
 , O
 she O
 |
@@ -14578,7 +14578,7 @@ Ben B-PERSON
 | O
 was O
 above O
-thirteen B-CARDINAL
+thirteen O
 . O
 Her O
 plan O
@@ -14665,7 +14665,7 @@ say O
 , O
 one B-CARDINAL
 brain O
-; O
+  O
 for O
 they O
 were O
@@ -14716,7 +14716,7 @@ talking O
 late O
 every O
 way O
-; O
+  O
 had O
 to O
 be O
@@ -14873,7 +14873,7 @@ Mary B-PERSON
 could O
 not O
 speak O
-; O
+  O
 she O
 did O
 not O
@@ -14881,7 +14881,7 @@ know O
 what O
 to O
 say O
-; O
+  O
 it O
 |
 | O
@@ -15104,7 +15104,7 @@ inquiry O
 | O
 “ O
 Ay O
-; O
+  O
 donno O
 ’ O
 ye O
@@ -15135,7 +15135,7 @@ to O
 | O
 stay O
 on O
-earth B-LOC
+earth O
 . O
 The O
 soul O
@@ -15155,7 +15155,7 @@ dying O
 soul O
 go O
 free O
-; O
+  O
 so O
 it O
 has O
@@ -15328,16 +15328,16 @@ little O
 
 | O
 ‘ O
-Wit B-PERSON
-fei I-PERSON
+Wit O
+fei O
 labour O
 to O
 live O
 . O
 ” O
 — O
-Piers B-PERSON
-Ploughman I-PERSON
+Piers B-ORG
+Ploughman I-ORG
 , O
 |
 
@@ -15405,7 +15405,7 @@ how O
 I O
 loved O
 her O
-; O
+  O
 no O
 |
 | O
@@ -15549,9 +15549,9 @@ a O
 little O
 sleep O
 before O
-work B-TIME
-- I-TIME
-hour I-TIME
+work O
+- O
+hour O
 . O
 So O
 leaving O
@@ -15596,9 +15596,9 @@ she O
 stepped O
 out O
 into O
-the B-TIME
-bright I-TIME
-morning I-TIME
+the O
+bright O
+morning O
 light O
 , O
 |
@@ -15644,7 +15644,7 @@ bed O
 in O
 her O
 clothes O
-; O
+  O
 and O
 whether O
 it O
@@ -15700,7 +15700,7 @@ Jem B-PERSON
 manner O
 and O
 words O
-; O
+  O
 not O
 but O
 what O
@@ -15714,10 +15714,10 @@ they O
 | O
 told O
 for O
-many O
-a O
-day O
-; O
+many B-DATE
+a I-DATE
+day I-DATE
+  O
 but O
 still O
 she O
@@ -15726,7 +15726,7 @@ he O
 had O
 not O
 put O
-itso O
+itso B-PERSON
 |
 | O
 plainly O
@@ -15756,7 +15756,7 @@ mis- O
 take O
 me O
 so O
-; O
+  O
 I O
 never O
 dare O
@@ -15789,7 +15789,7 @@ on O
 |
 | O
 me O
-; O
+  O
 for O
 father O
 and O
@@ -15798,9 +15798,9 @@ Wilson I-PERSON
 are O
 old O
 friends O
-; O
+  O
 and O
-Jem B-PERSON
+Jem O
 |
 | O
 and O
@@ -15926,7 +15926,7 @@ human O
 heart O
 , O
 from O
-Eve O
+Eve B-PERSON
 downwards O
 , O
 that O
@@ -15938,7 +15938,7 @@ our O
 old O
 |
 | O
-Adam B-PERSON
+Adam O
 state O
 , O
 fancy O
@@ -16045,7 +16045,7 @@ the O
 two B-CARDINAL
 elder O
 Miss O
-Carsons O
+Carsons B-PERSON
 , O
 acknowledged O
 beau- O
@@ -16119,7 +16119,7 @@ relating O
 to O
 her O
 father O
-; O
+  O
 her O
 dear O
 father O
@@ -16165,7 +16165,7 @@ live O
 with O
 them O
 ) O
-; O
+  O
 till O
 he O
 should O
@@ -16222,7 +16222,7 @@ the O
 air O
 , O
 the O
-Alnaschar B-GPE
+Alnaschar B-LOC
 - O
 visions O
 in O
@@ -16327,12 +16327,12 @@ brothers O
    
 
 | O
-89 B-CARDINAL
+89 B-QUANTITY
 |
 
-| O
-CHAPTER B-LAW
-VII I-LAW
+| I-QUANTITY
+CHAPTER I-QUANTITY
+VII I-QUANTITY
 . O
 |
 
@@ -16403,7 +16403,7 @@ Theory B-ORG
 does O
 not O
 teach O
-; O
+  O
 |
 
 | O
@@ -16450,7 +16450,7 @@ Taove I-WORK_OF_ART
 |
 
 | O
-One B-CARDINAL
+One O
 Sunday B-DATE
 afternoon B-TIME
 , O
@@ -16495,7 +16495,7 @@ Sunday B-DATE
 suit O
 of O
 course O
-; O
+  O
 while O
 his O
 face O
@@ -16551,7 +16551,7 @@ Nancy B-PERSON
 is O
 its O
 pretty O
-Lancashire B-ORG
+Lancashire B-GPE
 name O
 ) O
 , O
@@ -16577,7 +16577,7 @@ ither O
 |
 
 | O
-Tt B-PRODUCT
+Tt O
 was O
 a O
 bad O
@@ -16590,11 +16590,11 @@ happiness O
 that O
 Mary B-PERSON
 |
-| O
+| I-PERSON
 saw O
 him O
-some O
-minutes O
+some B-TIME
+minutes I-TIME
 before O
 he O
 came O
@@ -16625,7 +16625,7 @@ window- O
 blind O
 drawn O
 on O
-one O
+one B-CARDINAL
 side O
 , O
 in O
@@ -16669,7 +16669,7 @@ friend O
 | O
 gave O
 Jem B-PERSON
-; O
+  O
 she O
 saw O
 the O
@@ -16737,10 +16737,10 @@ he O
 read O
 an O
 old O
-“ B-FAC
-‘ I-FAC
-Nothern I-FAC
-Star I-FAC
+“ O
+‘ O
+Nothern O
+Star O
 , O
 ” O
 borrowed O
@@ -16796,7 +16796,7 @@ busy O
 adjusting O
 her O
 dress O
-; O
+  O
 a O
 forced O
 and O
@@ -16821,7 +16821,7 @@ friendly O
 , O
 if O
 grave O
-; O
+  O
 she O
 felt O
 that O
@@ -16874,7 +16874,7 @@ was O
 very O
 cunning O
 , O
-Iam B-PERSON
+Iam O
 afraid O
 . O
 She O
@@ -16961,14 +16961,14 @@ a O
 word O
 to O
 Jem B-PERSON
-; O
+  O
 |
 | O
 scarcely O
 looked O
 at O
 him O
-; O
+  O
 never O
 noticed O
 his O
@@ -16998,7 +16998,7 @@ not O
 know O
 — O
 that O
-pang B-GPE
+pang O
 was O
 spared O
 — O
@@ -17091,16 +17091,16 @@ might O
 
 | O
 “ O
-There B-WORK_OF_ART
-’s I-WORK_OF_ART
-the I-WORK_OF_ART
-right I-WORK_OF_ART
-stuff I-WORK_OF_ART
+There O
+’s O
+the O
+right O
+stuff O
 in O
 this O
-here B-WORK_OF_ART
-‘ I-WORK_OF_ART
-Star I-WORK_OF_ART
+here O
+‘ O
+Star O
 , O
 ’ O
 and O
@@ -17140,10 +17140,10 @@ Jem B-PERSON
 
 | O
 “ O
-Ay O
-, O
-ay O
-! O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
+! I-WORK_OF_ART
 else O
 where O
 ’s O
@@ -17318,7 +17318,7 @@ his O
 |
 | O
 papers O
-; O
+  O
 and O
 we O
 'll O
@@ -17354,7 +17354,7 @@ wanted O
 |
 | O
 but O
-one O
+one B-CARDINAL
 word O
 to O
 that O
@@ -17370,7 +17370,7 @@ and O
 |
 | O
 copying O
-; O
+  O
 th O
 ’ O
 writing O
@@ -17397,14 +17397,14 @@ Wick O
 alive O
 . O
 Anglo B-NORP
-- O
-Saxon O
+- I-NORP
+Saxon I-NORP
 , O
 ewic O
 . O
 “ O
 The O
-guick O
+guick B-ORG
 and O
 the O
 dead O
@@ -17440,8 +17440,8 @@ king O
 ” O
 |
 | O
-Chaucer B-ORG
-; O
+Chaucer B-PERSON
+  O
 * O
 The O
 Squire O
@@ -17477,7 +17477,7 @@ of O
 the O
 awful O
 truth O
-; O
+  O
 they O
 could O
 only O
@@ -17543,7 +17543,7 @@ causes O
 of O
 the O
 misery O
-; O
+  O
 the O
 whole O
 matter O
@@ -17655,7 +17655,7 @@ their O
 oppressors O
 and O
 enemies O
-; O
+  O
 and O
 |
 | O
@@ -17745,7 +17745,7 @@ will O
 not O
 attempt O
 it O
-; O
+  O
 and O
 yet O
 I O
@@ -17754,10 +17754,10 @@ again O
 that O
 surely O
 , O
-ina O
+ina B-NORP
 |
-| O
-Christian B-NORP
+| I-NORP
+Christian I-NORP
 land O
 , O
 it O
@@ -17826,7 +17826,7 @@ whenI O
 hear O
 , O
 as O
-Ihave B-PERSON
+Ihave O
 heard O
 , O
 of O
@@ -17981,7 +17981,7 @@ went O
 a O
 little O
 further O
-; O
+  O
 and O
 last O
 , O
@@ -18102,7 +18102,7 @@ morning I-TIME
 on O
 which O
 the O
-Manchester B-ORG
+Manchester B-GPE
 |
 | O
 delegates O
@@ -18112,7 +18112,7 @@ leave O
 for O
 London B-GPE
 , O
-Barton B-GPE
+Barton B-ORG
 might O
 be O
 said O
@@ -18130,10 +18130,10 @@ came O
 dropping O
 in O
 . O
-Job B-PERSON
+Job O
 |
-| I-PERSON
-Legh I-PERSON
+| O
+Legh O
 had O
 early O
 established O
@@ -18147,7 +18147,7 @@ Bar- I-PERSON
 |
 | I-PERSON
 ton I-PERSON
-’s I-PERSON
+’s O
 fire O
 , O
 not O
@@ -18229,7 +18229,7 @@ pantry O
 back O
 - O
 kitchen O
-; O
+  O
 for O
 she O
 was O
@@ -18311,7 +18311,7 @@ yo O
 said O
 |
 | O
-one O
+one B-CARDINAL
 . O
 |
 
@@ -18319,8 +18319,8 @@ one O
 “ O
 Ay O
 , O
-Isuppose O
-Imun O
+Isuppose B-PERSON
+Imun I-PERSON
 go O
 , O
 ” O
@@ -18361,7 +18361,7 @@ the O
 parliament O
 people O
 . O
-Thou B-PERSON
+Thou O
 lt O
 not O
 spare’em O
@@ -18374,10 +18374,10 @@ hope O
 |
 | O
 ‘ O
-Tell’em O
+Tell’em B-PRODUCT
 our O
 minds O
-; O
+  O
 how O
 we O
 ’re O
@@ -18396,7 +18396,7 @@ and O
 we O
 donnot O
 see O
-whatten O
+whatten B-PERSON
 good O
 they O
 ’ O
@@ -18433,10 +18433,10 @@ born O
 
 | O
 “ O
-Ay O
-, O
-ay O
-! O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
+! I-WORK_OF_ART
 I O
 'll O
 tell’em O
@@ -18456,7 +18456,7 @@ gets O
 to O
 my O
 turn O
-; O
+  O
 but O
 thou O
 knows O
@@ -18502,7 +18502,7 @@ ask’em O
 |
 
 | O
-Sankey B-GPE
+Sankey B-PERSON
 ’s O
 little O
 rittling O
@@ -18539,7 +18539,7 @@ better O
 “ O
 I O
 ’ve O
-one O
+one B-CARDINAL
 plan O
 I O
 wish O
@@ -18580,7 +18580,7 @@ house O
 . O
 My O
 mother O
-comed O
+comed B-PERSON
 out O
 ! O
 o O
@@ -18606,7 +18606,7 @@ Dash- O
 wood O
 ’s O
 family O
-; O
+  O
 and O
 when O
 we O
@@ -18655,12 +18655,12 @@ as O
 a O
 parliament O
 man O
-; O
+  O
 and O
 many O
 on’em O
 , O
-Ihan B-GPE
+Ihan B-LOC
 no O
 doubt O
 , O
@@ -18706,7 +18706,7 @@ made O
 o O
 ’ O
 calico O
-; O
+  O
 ’ O
 t O
 would O
@@ -18733,8 +18733,8 @@ wear O
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 now O
 put O
 in O
@@ -18776,7 +18776,7 @@ no O
 offence O
 mind O
 ye O
-; O
+  O
 there O
 's O
 |
@@ -18797,7 +18797,7 @@ shirts O
 to O
 their O
 back O
-; O
+  O
 but O
 there O
 ’s O
@@ -18811,7 +18811,7 @@ poor O
 | O
 weavers O
 as O
-han B-NORP
+han B-ORG
 only O
 gotten O
 one B-CARDINAL
@@ -18821,7 +18821,7 @@ i O
 th O
 ’ O
 world O
-; O
+  O
 ay O
 , O
 and O
@@ -18852,16 +18852,16 @@ miles O
 0 O
 ’ O
 calico O
-every B-DATE
-day I-DATE
-; O
+every O
+day O
+  O
 and O
 many O
-0 B-QUANTITY
-’ I-QUANTITY
+0 O
+’ O
 |
-| I-QUANTITY
-mile I-QUANTITY
+| O
+mile O
 o’t O
 is O
 lying O
@@ -18873,8 +18873,8 @@ up O
 trade O
 for O
 want O
-0 B-CARDINAL
-° O
+0 B-QUANTITY
+° I-QUANTITY
 |
 | O
 purchasers O
@@ -18922,7 +18922,7 @@ shirts O
 a B-DATE
 - I-DATE
 year I-DATE
-; O
+  O
 that O
 |
 | O
@@ -18989,7 +18989,7 @@ telling O
 all O
 yo O
 say O
-; O
+  O
 what O
 I O
 think O
@@ -19045,7 +19045,7 @@ for O
 th O
 ’ O
 mother O
-; O
+  O
 when O
 they O
 hear O
@@ -19075,7 +19075,7 @@ some O
 | O
 + O
 “ O
-Ritling O
+Ritling B-WORK_OF_ART
 , O
 ” O
 probably O
@@ -19086,7 +19086,7 @@ of O
 ricketling O
 , O
 ” O
-# B-CARDINAL
+# O
 child O
 that O
 |
@@ -19141,7 +19141,7 @@ slanting O
 rays O
 of O
 the O
-morning B-TIME
+morning O
 sun O
 , O
 and O
@@ -19178,7 +19178,7 @@ evening I-TIME
 and O
 morning B-TIME
 solitude O
-; O
+  O
 |
 | O
 for O
@@ -19201,7 +19201,7 @@ wondered O
 where O
 he O
 was O
-; O
+  O
 she O
 made O
 good O
@@ -19213,7 +19213,7 @@ according O
 to O
 her O
 lights O
-; O
+  O
 and O
 by O
 - O
@@ -19296,7 +19296,7 @@ con- O
 science O
 after O
 all O
-; O
+  O
 for O
 this O
 very O
@@ -19317,7 +19317,7 @@ him O
 at O
 any O
 time O
-; O
+  O
 and O
 yet O
 |
@@ -19406,7 +19406,7 @@ he O
 would O
 disapprove O
 of O
-; O
+  O
 no O
 , O
 not O
@@ -19472,8 +19472,8 @@ of O
 * O
 |
 | O
-some O
-third B-ORDINAL
+some B-CARDINAL
+third I-CARDINAL
 person O
 to O
 carry O
@@ -19540,7 +19540,7 @@ excitement O
 of O
 the O
 thing O
-; O
+  O
 but O
 her O
 |
@@ -19580,7 +19580,7 @@ to O
 the O
 last O
 degree O
-; O
+  O
 |
 | O
 never O
@@ -19593,7 +19593,7 @@ of O
 love O
 and O
 lovers O
-; O
+  O
 in O
 her O
 eyes O
@@ -19637,7 +19637,7 @@ haired O
 freckled O
 , O
 girl O
-; O
+  O
 never O
 likely O
 , O
@@ -19718,7 +19718,7 @@ of O
 | O
 George B-PERSON
 Wilson I-PERSON
-’s I-PERSON
+’s O
 sudden O
 death O
 : O
@@ -19780,11 +19780,11 @@ brought O
 home O
 to O
 her O
-this O
-last O
-three O
-or O
-four B-DATE
+this B-DATE
+last I-DATE
+three I-DATE
+or I-DATE
+four I-DATE
 months I-DATE
 . O
 It O
@@ -19813,10 +19813,10 @@ had O
 dreaded O
 Jane B-PERSON
 Wilson I-PERSON
-’s I-PERSON
+’s O
 death O
-the O
-evening B-TIME
+the B-TIME
+evening I-TIME
 before O
 |
 | O
@@ -19893,7 +19893,7 @@ her O
 power O
 to O
 give O
-; O
+  O
 for O
 she O
 had O
@@ -19901,7 +19901,7 @@ resolved O
 to O
 avoid O
 Jem B-PERSON
-; O
+  O
 |
 | O
 and O
@@ -19982,7 +19982,7 @@ Mr. O
 Carsons B-PERSON
 to O
 - O
-morrow O
+morrow B-DATE
 how O
 you O
 re O
@@ -19992,7 +19992,7 @@ fret- O
 ting O
 for O
 him O
-; O
+  O
 it O
 ’s O
 no O
@@ -20066,12 +20066,12 @@ days I-DATE
 over O
 your O
 work O
-; O
+  O
 now O
 , O
 |
 | O
-arn’t O
+arn’t B-CARDINAL
 you O
 a O
 little O
@@ -20098,7 +20098,7 @@ and O
 whom O
 you O
 love O
-; O
+  O
 ‘ O
 How O
 much O
@@ -20139,7 +20139,7 @@ said O
 Mary B-PERSON
 , O
 pouting O
-; O
+  O
 “ O
 I O
 often O
@@ -20280,7 +20280,7 @@ seemed O
 to O
 say O
 the O
-wiiter O
+wiiter B-PERSON
 was O
 not O
 indifferent O
@@ -20321,7 +20321,7 @@ said O
 I O
 wo O
 n’t O
-mect O
+mect B-ORG
 him O
 while O
 father O
@@ -20418,7 +20418,7 @@ answer O
 I O
 wo O
 n't O
-; O
+  O
 and O
 I O
 |
@@ -20451,7 +20451,7 @@ o O
 ’ O
 sending O
 me O
-; O
+  O
 he O
 ’d O
 may O
@@ -20539,7 +20539,7 @@ ever O
 had O
 a O
 lover O
-; O
+  O
 have O
 you O
 never O
@@ -20592,8 +20592,8 @@ had O
 |
 | O
 begged O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 to O
 let O
 her O
@@ -20634,7 +20634,7 @@ person O
 “ O
 Well O
 , O
-Imust O
+Imust B-ORG
 go O
 , O
 Mary B-PERSON
@@ -20661,7 +20661,7 @@ word O
 Yes O
 , O
 yes O
-; O
+  O
 good O
 night O
 . O
@@ -20724,7 +20724,7 @@ clapped O
 and O
 stamped O
 after O
-1’d B-CARDINAL
+1’d O
 done O
 , O
 till O
@@ -20767,7 +20767,7 @@ again O
 o O
 ’ O
 Thursday B-DATE
-; O
+  O
 |
 | O
 and O
@@ -20907,7 +20907,7 @@ wi O
 a O
 heavy O
 heart O
-; O
+  O
 but O
 this B-TIME
 morning I-TIME
@@ -20943,7 +20943,7 @@ man O
 of O
 many O
 words O
-; O
+  O
 and O
 it O
 took O
@@ -20964,7 +20964,7 @@ I O
 wonder O
 at O
 that O
-; O
+  O
 I O
 ’ve O
 noticed O
@@ -20998,8 +20998,8 @@ seen O
 me O
 |
 | O
-every O
-day O
+every B-DATE
+day I-DATE
 , O
 you O
 'd O
@@ -21075,7 +21075,7 @@ me O
 , O
 |
 | O
-yo’d O
+yo’d B-ORG
 think O
 it O
 strange O
@@ -21122,7 +21122,7 @@ him O
 all O
 about O
 it O
-; O
+  O
 |
 | O
 howI’d O
@@ -21134,7 +21134,7 @@ downcast O
 I O
 ’d O
 been O
-; O
+  O
 and O
 how O
 I O
@@ -21154,7 +21154,7 @@ th O
 Lord O
 ’s O
 will O
-; O
+  O
 and O
 how O
 I O
@@ -21166,7 +21166,7 @@ earn O
 money O
 by O
 singing O
-; O
+  O
 and O
 while O
 I O
@@ -21186,7 +21186,7 @@ on O
 th O
 ’ O
 book O
-; O
+  O
 but O
 in O
 |
@@ -21245,7 +21245,7 @@ thought O
 I O
 might O
 want O
-; O
+  O
 never O
 knowing O
 I O
@@ -21370,7 +21370,7 @@ Making O
 life O
 seem O
 all O
-untruc O
+untruc B-PERSON
 , O
 |
 | O
@@ -21435,7 +21435,7 @@ sang O
 it O
 at O
 the O
-Mechanics B-NORP
+Mechanics B-ORG
 ’ O
 with O
 |
@@ -21502,7 +21502,7 @@ she O
 thought O
 of O
 it O
-; O
+  O
 and O
 partly O
 to O
@@ -21668,12 +21668,12 @@ complain O
 ” O
 |
 | O
-Mas B-PERSON
+Mas O
 . O
-Nonton B-PERSON
+Nonton B-GPE
 ’s O
 ‘ O
-Curt O
+Curt B-PERSON
 or O
 THR B-ORG
 Istanns I-ORG
@@ -21682,9 +21682,9 @@ Istanns I-ORG
 |
 
 | O
-Tue O
-next O
-evening O
+Tue B-TIME
+next I-TIME
+evening I-TIME
 it O
 was O
 a O
@@ -21715,11 +21715,11 @@ Man- O
 | O
 + O
 “ O
-Reet O
+Reet B-PERSON
 , O
 ” O
 right O
-; O
+  O
 often O
 used O
 for O
@@ -21743,7 +21743,7 @@ very O
 |
 
 | O
-chester O
+chester B-PERSON
 , O
 where O
 , O
@@ -21765,7 +21765,7 @@ disheartening O
 and O
 gloomy O
 effect O
-; O
+  O
 the O
 streets O
 were O
@@ -21803,7 +21803,7 @@ within- O
 |
 | O
 doors O
-; O
+  O
 and O
 there O
 was O
@@ -21828,12 +21828,12 @@ had O
 to O
 change O
 her O
-Glothes B-ORG
+Glothes B-PERSON
 after O
 her O
 walk O
 home O
-; O
+  O
 and O
 |
 | O
@@ -22129,15 +22129,15 @@ the O
 Conqueror O
 on O
 his O
-Pale B-ORG
-Horse I-ORG
+Pale B-WORK_OF_ART
+Horse I-WORK_OF_ART
 , O
 among O
 |
 | O
 the O
 people O
-; O
+  O
 which O
 was O
 crushing O
@@ -22176,7 +22176,7 @@ silence O
 for O
 some O
 time O
-; O
+  O
 for O
 Mary B-PERSON
 wished O
@@ -22201,7 +22201,7 @@ this O
 she O
 was O
 wise O
-; O
+  O
 for O
 when O
 |
@@ -22309,7 +22309,7 @@ why O
 Mary B-PERSON
 , O
 we O
-mun O
+mun B-PERSON
 speak O
 to O
 our O
@@ -22325,7 +22325,7 @@ will O
 | O
 not O
 hearken O
-; O
+  O
 no O
 , O
 not O
@@ -22411,15 +22411,15 @@ had O
 remained O
 unchanged O
 for O
-more O
-than O
+more B-CARDINAL
+than I-CARDINAL
 |
-| O
-half O
-- O
-an O
-- O
-hour O
+| I-CARDINAL
+half I-CARDINAL
+- I-CARDINAL
+an I-CARDINAL
+- I-CARDINAL
+hour I-CARDINAL
 , O
 his O
 eyes O
@@ -22497,7 +22497,7 @@ you O
 know O
 George B-PERSON
 Wilson I-PERSON
-’s I-PERSON
+’s O
 dead O
 ? O
 ” O
@@ -22524,8 +22524,8 @@ dead O
 in O
 Oxford B-FAC
 Road I-FAC
-yester B-TIME
-morning I-TIME
+yester I-FAC
+morning I-FAC
 . O
 It O
 ’s O
@@ -22640,8 +22640,8 @@ but O
 really O
 to O
 ask O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 to O
 come O
 and O
@@ -22791,7 +22791,7 @@ yo O
 may O
 be O
 sure O
-; O
+  O
 and O
 such O
 a O
@@ -22926,8 +22926,8 @@ up O
 at O
 |
 | O
-Oxford B-ORG
-Street I-ORG
+Oxford B-FAC
+Street I-FAC
 . O
 We O
 getten O
@@ -22963,7 +22963,7 @@ houses O
 though O
 in O
 London B-GPE
-; O
+  O
 there O
 ’d O
 be O
@@ -22980,7 +22980,7 @@ builder O
 there O
 , O
 as O
-know'd B-PERSON
+know'd O
 |
 | O
 his O
@@ -23008,7 +23008,7 @@ body O
 to O
 live O
 in O
-; O
+  O
 some O
 on O
 ’em O
@@ -23170,7 +23170,7 @@ I O
 saw O
 th O
 ’ O
-Queen B-PERSON
+Queen O
 . O
 Yo O
 ' O
@@ -23186,7 +23186,7 @@ wi O
 white O
 plumes O
 , O
-Job B-PERSON
+Job O
 ? O
 ” O
 |
@@ -23284,12 +23284,12 @@ gentlemen O
 like O
 circus O
 folk O
-in’em B-ORG
+in’em O
 , O
 and O
 rucks O
 * O
-0 O
+0 B-CARDINAL
 ” O
 |
 | O
@@ -23306,10 +23306,10 @@ too O
 . O
 |
 | O
-Some O
-o O
-’ O
-th O
+Some B-DATE
+o I-DATE
+’ I-DATE
+th I-DATE
 ’ O
 gentlemen O
 as O
@@ -23357,7 +23357,7 @@ hire O
 | O
 + O
 “ O
-Rueks O
+Rueks B-PERSON
 , O
 ” O
 a O
@@ -23513,7 +23513,7 @@ surprise O
 and O
 looking O
 at O
-Job B-LOC
+Job O
 with O
 |
 | O
@@ -23625,7 +23625,7 @@ a O
 joiner O
 lodging O
 near O
-us B-GPE
+us O
 ) O
 should O
 be O
@@ -23668,7 +23668,7 @@ away O
 from O
 |
 | O
-myhome O
+myhome B-FAC
 . O
 However O
 , O
@@ -23864,7 +23864,7 @@ were O
 to O
 go O
 there O
-; O
+  O
 |
 | O
 and O
@@ -23888,8 +23888,8 @@ yet O
 at O
 thought O
 of O
-those B-DATE
-days I-DATE
+those O
+days O
 . O
 She O
 so O
@@ -23901,7 +23901,7 @@ so O
 |
 | O
 happy O
-; O
+  O
 only O
 the O
 poor O
@@ -23944,7 +23944,7 @@ it O
 ? O
 |
 | O
-Woll B-ORG
+Woll B-PERSON
 , O
 poor O
 babby O
@@ -23965,10 +23965,10 @@ till O
 we O
 got O
 to O
-Brummagem B-GPE
+Brummagem B-PERSON
 for O
-the O
-night O
+the B-TIME
+night I-TIME
 . O
 My O
 heart O
@@ -24021,7 +24021,7 @@ It O
 wanted O
 its O
 . O
-mammy B-PERSON
+mammy O
 , O
 as O
 |
@@ -24068,12 +24068,12 @@ Let O
 |
 | O
 get O
-xome O
+xome B-GPE
 woman O
 to O
 feed O
 it O
-; O
+  O
 it O
 comes O
 natural O
@@ -24142,9 +24142,9 @@ the O
 apen O
 air O
 , O
-Th O
+Th B-ORG
 ’ O
-chambersmaid O
+chambersmaid B-PERSON
 said O
 she O
 would O
@@ -24158,8 +24158,8 @@ aleep O
 wil O
 her O
 , O
-anly O
-missis O
+anly B-PERSON
+missis I-PERSON
 would O
 scold O
 £ O
@@ -24169,11 +24169,11 @@ it O
 |
 | O
 Joaked B-PERSON
-eo O
-quict O
+eo I-PERSON
+quict I-PERSON
 and O
 anuiling O
-Vike B-PERSON
+Vike B-PRODUCT
 , O
 as O
 it O
@@ -24236,7 +24236,7 @@ thoughtfallooking O
 | O
 though O
 Lnerer B-PERSON
-heant O
+heant I-PERSON
 him O
 say O
 any O
@@ -24244,18 +24244,18 @@ thing O
 very O
 deep O
 . O
-Ar O
-lax O
+Ar B-PERSON
+lax I-PERSON
 |
-| O
-wat O
+| I-PERSON
+wat I-PERSON
 he O
 — O
 |
 
 | O
 ss O
-Young B-GPE
+Young O
 woman O
 ! O
 have O
@@ -24272,22 +24272,22 @@ can O
 
 | O
 So O
-Mises B-PERSON
+Mises O
 always O
-Keeps B-PERSON
-night I-PERSON
+Keeps O
+night O
 - O
 caps O
 for O
-gertlemer O
+gertlemer B-PERSON
 as O
-nes O
+nes B-ORG
 |
-| O
-wot O
-Whe O
-to O
-mapack O
+| I-ORG
+wot I-ORG
+Whe I-ORG
+to I-ORG
+mapack I-ORG
 ” O
 says O
 she O
@@ -24300,10 +24300,10 @@ quick O
 Se O
 AQ O
 . O
-Na O
-Yona O
+Na B-PERSON
+Yona I-PERSON
 , O
-wowmaa O
+wowmaa B-ORG
 , O
 it O
 's O
@@ -24311,18 +24311,18 @@ one B-CARDINAL
 oF O
 |
 | O
-Awan B-PERSON
+Awan O
 , O
-TA B-ORG
+TA O
 ahs O
 |
 | O
 way O
 SoA O
-dark O
+dark B-PERSON
 |
-| O
-wepkerap O
+| I-PERSON
+wepkerap I-PERSON
 an O
 ” O
 |
@@ -24333,15 +24333,15 @@ Tre B-PERSON
 Chavabeewald I-PERSON
 sositied O
 and O
-wens O
-ise O
+wens B-PERSON
+ise I-PERSON
 a O
 cop O
 . O
-toad O
+toad B-PERSON
 |
-| O
-Braghod B-PERSON
+| I-PERSON
+Braghod I-PERSON
 weet O
 at O
 2 B-CARDINAL
@@ -24354,7 +24354,7 @@ be O
 make O
 |
 | O
-Wesse B-LOC
+Wesse O
 . O
 bhe O
 swounex O
@@ -24372,16 +24372,16 @@ be O
 langhed O
 ant O
 ae O
-SE O
+SE B-PERSON
 |
-| O
-whe O
+| I-PERSON
+whe I-PERSON
 . O
 Seksehtacwe O
 had O
 eg O
 Rabie B-PERSON
-heuer O
+heuer I-PERSON
 comm O
 |
 | O
@@ -24389,23 +24389,23 @@ oa O
 and O
 Belo B-GPE
 , O
-aed B-PERSON
-wr I-PERSON
-ook O
-x O
-ot O
-oz O
-sé O
-reaihvan O
-wy O
-sk O
+aed O
+wr B-PERSON
+ook I-PERSON
+x I-PERSON
+ot I-PERSON
+oz I-PERSON
+sé I-PERSON
+reaihvan I-PERSON
+wy I-PERSON
+sk I-PERSON
 |
-| O
-Spats B-ORG
-Me I-ORG
+| I-PERSON
+Spats I-PERSON
+Me O
 heirs O
-wesc O
-ees O
+wesc B-PERSON
+ees I-PERSON
 sve O
 he O
 See O
@@ -24424,8 +24424,8 @@ me O
 
 | O
 wo O
-awamer O
-Soke B-PERSON
+awamer B-PERSON
+Soke I-PERSON
 Te I-PERSON
 Siting I-PERSON
 ot O
@@ -24453,7 +24453,7 @@ our O
 breakfast O
 , O
 and O
-Jennings B-ORG
+Jennings B-PERSON
 were O
 looking O
 hard O
@@ -24487,14 +24487,14 @@ says O
 he O
 , O
 ‘ O
-Iha O
+Iha B-PERSON
 ’ O
 learnt O
 th O
 ’ O
 way O
 now O
-; O
+  O
 |
 | O
 it O
@@ -24584,7 +24584,7 @@ sharp O
 T O
 say O
 , O
-Missis B-PERSON
+Missis O
 , O
 I O
 ’m O
@@ -24622,7 +24622,7 @@ long O
 , O
 soft O
 kiss O
-; O
+  O
 and O
 |
 | O
@@ -24717,7 +24717,7 @@ at O
 | O
 all O
 bare O
-0 B-CARDINAL
+0 O
 ’ O
 cash O
 . O
@@ -24745,7 +24745,7 @@ all O
 his O
 ears O
 nevertheless O
-; O
+  O
 and O
 |
 | O
@@ -24823,7 +24823,7 @@ I O
 ‘ O
 And O
 , O
-Missis B-PERSON
+Missis O
 , O
 what O
 should O
@@ -24890,7 +24890,7 @@ beena O
 |
 | O
 work O
-0 B-CARDINAL
+0 O
 ’ O
 love O
 ) O
@@ -24964,7 +24964,7 @@ at O
 |
 | O
 her O
-; O
+  O
 such O
 a O
 scowling O
@@ -25172,7 +25172,7 @@ poem O
 of O
 Samuel B-PERSON
 Bamford I-PERSON
-’s O
+’s I-PERSON
 * O
 he O
 had O
@@ -25185,8 +25185,8 @@ somewhere O
 |
 
 | O
-God O
-belp O
+God B-PERSON
+belp I-PERSON
 the O
 poor O
 , O
@@ -25195,7 +25195,7 @@ who O
 on O
 this O
 wintry O
-morn O
+morn B-TIME
 , O
 |
 | O
@@ -25229,7 +25229,7 @@ her O
 affliction O
 doth O
 endure O
-; O
+  O
 |
 | O
 God O
@@ -25238,7 +25238,7 @@ her O
 , O
 outcast O
 lamb O
-; O
+  O
 she O
 trembling O
 stands O
@@ -25255,7 +25255,7 @@ frozen O
 red O
 ber O
 hands O
-; O
+  O
 |
 | O
 Her O
@@ -25279,7 +25279,7 @@ on O
 the O
 fitful O
 blast O
-; O
+  O
 |
 | O
 Her O
@@ -25305,7 +25305,7 @@ snow O
 lies O
 there O
 congealed O
-; O
+  O
 |
 | O
 Her O
@@ -25387,7 +25387,7 @@ it O
 from O
 the O
 cold O
-; O
+  O
 |
 
 | O
@@ -25400,7 +25400,7 @@ bonnet O
 crushed O
 and O
 torn O
-; O
+  O
 |
 | O
 ‘ O
@@ -25408,7 +25408,7 @@ A O
 thin O
 shaw O
 ! O
-doth O
+doth B-PERSON
 her O
 baby O
 dear O
@@ -25426,7 +25426,7 @@ the O
 ruthless O
 gale O
 of O
-morn O
+morn B-TIME
 , O
 |
 | O
@@ -25470,7 +25470,7 @@ goes O
 past O
 the O
 nook O
-; O
+  O
 |
 
 | O
@@ -25515,10 +25515,10 @@ help O
 the O
 poor O
 ! O
-Behold B-PERSON
-yon I-PERSON
-famished I-PERSON
-lad I-PERSON
+Behold O
+yon O
+famished O
+lad O
 , O
 |
 | O
@@ -25526,13 +25526,13 @@ No O
 shoes O
 , O
 nor O
-hose B-PERSON
+hose O
 , O
 his O
 wounded O
 feet O
 protect O
-; O
+  O
 |
 | O
 With O
@@ -25578,11 +25578,11 @@ of O
 ‘ O
 Passages O
 in O
-the B-ORG
-Life I-ORG
-of I-ORG
-a I-ORG
-Radical I-ORG
+the O
+Life O
+of O
+a O
+Radical O
 ’ O
 |
 | O
@@ -25639,7 +25639,7 @@ gloating O
 on O
 the O
 ills O
-1 O
+1 B-CARDINAL
 can O
 not O
 cure O
@@ -25666,7 +25666,7 @@ not O
 fall O
 like O
 me O
-; O
+  O
 |
 | O
 * O
@@ -25676,8 +25676,8 @@ better O
 , O
 ob O
 ! O
-a B-CARDINAL
-thousand I-CARDINAL
+a O
+thousand B-CARDINAL
 times O
 , O
 |
@@ -25705,7 +25705,7 @@ like O
 a O
 heavy O
 cloud O
-; O
+  O
 and O
 now O
 and O
@@ -25768,7 +25768,7 @@ experience O
 of O
 our O
 forefathers O
-; O
+  O
 but O
 now O
 , O
@@ -25787,17 +25787,17 @@ turning O
 , O
 ” O
 “ O
-the O
-weariest O
-day O
+the B-DATE
+weariest I-DATE
+day I-DATE
 draws O
 to O
 an O
 end O
 , O
 ” O
-& B-PERSON
-c. I-PERSON
+& O
+c. O
 , O
 |
 | O
@@ -25831,7 +25831,7 @@ sank O
 | O
 the O
 poor O
-; O
+  O
 it O
 showed O
 how O
@@ -25878,7 +25878,7 @@ in O
 their O
 humble O
 sphere O
-; O
+  O
 the O
 aged O
 , O
@@ -25900,7 +25900,7 @@ noted O
 by O
 the O
 world O
-; O
+  O
 and O
 yet O
 to O
@@ -25915,13 +25915,13 @@ make O
 a O
 blank O
 which O
-long O
-years O
+long B-DATE
+years I-DATE
 will O
 |
 | O
 never O
-fillup O
+fillup B-ORG
 . O
 Remember O
 , O
@@ -26010,7 +26010,7 @@ found O
 its O
 yoke O
 heavy O
-; O
+  O
 but O
 this B-DATE
 year I-DATE
@@ -26102,7 +26102,7 @@ thrown O
 up O
 his O
 place O
-; O
+  O
 and O
 now O
 , O
@@ -26158,7 +26158,7 @@ meet- O
 | O
 and O
 summer B-DATE
-evening B-TIME
+evening O
 strolls O
 , O
 and O
@@ -26207,7 +26207,7 @@ order O
 to O
 be O
 certain O
-; O
+  O
 for O
 Mary B-PERSON
 |
@@ -26241,7 +26241,7 @@ in O
 the O
 long O
 run O
-; O
+  O
 |
 | O
 for O
@@ -26308,7 +26308,7 @@ in O
 | O
 the O
 sweet O
-summer B-DATE
+summer O
 air O
 . O
 For O
@@ -26316,8 +26316,8 @@ when O
 she O
 returned O
 for O
-the B-TIME
-night I-TIME
+the O
+night O
 |
 | O
 her O
@@ -26369,7 +26369,7 @@ was O
 dingy O
 and O
 comfortless O
-; O
+  O
 for O
 , O
 of O
@@ -26416,7 +26416,7 @@ places O
 . O
 And O
 Alice B-PERSON
-; O
+  O
 oh O
 , O
 Mary B-PERSON
@@ -26452,7 +26452,7 @@ Mary B-PERSON
 felt O
 very O
 guilty O
-; O
+  O
 she O
 had O
 put O
@@ -26498,7 +26498,7 @@ with O
 him O
 as O
 formerly O
-; O
+  O
 and O
 now O
 she O
@@ -26536,7 +26536,7 @@ it O
 was O
 no O
 better O
-; O
+  O
 indeed O
 it O
 was O
@@ -26551,7 +26551,7 @@ spoke O
 less O
 than O
 ever O
-; O
+  O
 and O
 often O
 when O
@@ -26592,7 +26592,7 @@ not O
 over O
 - O
 mild O
-; O
+  O
 and O
 once O
 in O
@@ -26658,7 +26658,7 @@ days I-DATE
 that O
 were O
 gone O
-; O
+  O
 |
 | O
 ‘ O
@@ -26698,7 +26698,7 @@ ready O
 for O
 any O
 thing O
-; O
+  O
 made O
 ready O
 by O
@@ -26708,7 +26708,7 @@ want O
 
 | O
 While O
-ali O
+ali B-PERSON
 this O
 change O
 for O
@@ -26768,7 +26768,7 @@ he O
 | O
 had O
 been O
-; O
+  O
 but O
 at O
 the O
@@ -26791,7 +26791,7 @@ Now O
 however O
 , O
 he O
-grufily O
+grufily B-PERSON
 told O
 her O
 to O
@@ -26843,7 +26843,7 @@ in- O
 | O
 stance O
 required O
-; O
+  O
 and O
 accordingly O
 , O
@@ -26858,20 +26858,20 @@ to O
 avoid O
 Jem B-PERSON
 ’s O
-hours O
+hours B-TIME
 at O
 home O
 , O
 she O
 went O
-the B-TIME
-following I-TIME
-afternoon I-TIME
+the O
+following O
+afternoon B-TIME
 . O
 |
 | O
 to O
-Ancoats B-NORP
+Ancoats O
 . O
 |
 
@@ -26891,7 +26891,7 @@ dif- O
 |
 | O
 ferent O
-; O
+  O
 for O
 the O
 door O
@@ -27024,7 +27024,7 @@ the O
 after- O
 |
 | O
-noon O
+noon B-TIME
 sun O
 . O
 Mrs. O
@@ -27089,7 +27089,7 @@ talked O
 |
 | O
 over O
-; O
+  O
 she O
 saw O
 a O
@@ -27118,8 +27118,8 @@ come O
 
 | O
 “ O
-Dear B-WORK_OF_ART
-! I-WORK_OF_ART
+Dear O
+! O
 Mary B-PERSON
 , O
 is O
@@ -27153,7 +27153,7 @@ clean O
 | O
 forgotten O
 us O
-; O
+  O
 and O
 Jem B-PERSON
 has O
@@ -27189,7 +27189,7 @@ had O
 been O
 sorely O
 tried O
-; O
+  O
 and O
 at O
 |
@@ -27256,8 +27256,8 @@ had O
 gone O
 back O
 to O
-those B-DATE
-days I-DATE
+those O
+days O
 , O
 and O
 her O
@@ -27337,7 +27337,7 @@ her O
 eyes O
 for O
 him O
-; O
+  O
 she O
 as O
 is O
@@ -27364,7 +27364,7 @@ beauty O
 |
 | O
 then O
-; O
+  O
 and O
 Carsons B-PERSON
 warn’t O
@@ -27423,7 +27423,7 @@ mother O
 of O
 her O
 lover O
-; O
+  O
 but O
 she O
 durst O
@@ -27447,9 +27447,9 @@ and O
 |
 | O
 their O
-early B-DATE
-married I-DATE
-days I-DATE
+early O
+married O
+days O
 . O
 |
 
@@ -27479,7 +27479,7 @@ keeping O
 as O
 I O
 were O
-; O
+  O
 and O
 yet O
 he O
@@ -27608,7 +27608,7 @@ were O
 boiled O
 , O
 and O
-know’d B-GPE
+know’d O
 their O
 skins O
 were O
@@ -27740,10 +27740,10 @@ and O
 at O
 twenty B-TIME
 minutes I-TIME
-past I-TIME
+past O
 |
-| I-TIME
-twelve I-TIME
+| O
+twelve B-CARDINAL
 he O
 comes O
 home O
@@ -27774,7 +27774,7 @@ out O
 th O
 ’ O
 pot O
-; O
+  O
 but O
 oh O
 ! O
@@ -27839,7 +27839,7 @@ Queen B-PERSON
 as O
 makes O
 laws O
-; O
+  O
 |
 | O
 and O
@@ -27849,8 +27849,8 @@ she O
 bound O
 to O
 obey O
-Prince O
-Albert B-PERSON
+Prince B-PERSON
+Albert I-PERSON
 ? O
 And O
 if O
@@ -27899,7 +27899,7 @@ more O
 
 | O
 « O
-Jem B-PERSON
+Jem O
 ’s O
 getten O
 on O
@@ -27982,7 +27982,7 @@ while O
 turning O
 off O
 hands O
-; O
+  O
 but O
 he O
 said O
@@ -27995,7 +27995,7 @@ na O
 part O
 wi O
 ’ O
-Jem B-PERSON
+Jem O
 , O
 nohow O
 . O
@@ -28066,7 +28066,7 @@ at O
 hearing O
 |
 | O
-Jem B-PERSON
+Jem O
 so O
 spoken O
 of O
@@ -28356,10 +28356,10 @@ eyes O
 at O
 our O
 Jem B-PERSON
-this O
-many O
-a O
-day O
+this B-DATE
+many I-DATE
+a I-DATE
+day I-DATE
 , O
 but O
 he O
@@ -28392,7 +28392,7 @@ think O
 Did O
 |
 | O
-Jem B-PERSON
+Jem O
 really O
 care O
 for O
@@ -28508,7 +28508,7 @@ a O
 meeting O
 of O
 the O
-Trades B-ORG
+Trades O
 ’ O
 |
 | O
@@ -28522,10 +28522,10 @@ belonged O
 The B-TIME
 morning I-TIME
 of O
-the O
+the B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 on O
 which O
 it O
@@ -28624,18 +28624,18 @@ natural O
 state O
 formerly O
 . O
-Eight B-CARDINAL
+Eight B-TIME
 |
-| O
-o’clock O
+| I-TIME
+o’clock I-TIME
 was O
-the O
-hour O
+the B-TIME
+hour I-TIME
 fixed O
 for O
 the O
 meeting O
-; O
+  O
 and O
 at O
 it O
@@ -28668,7 +28668,7 @@ brooded O
 over O
 the O
 assembly O
-; O
+  O
 |
 | O
 and O
@@ -28742,7 +28742,7 @@ soaking O
 rain O
 was O
 falling O
-; O
+  O
 the O
 very O
 lamps O
@@ -28782,7 +28782,7 @@ of O
 passers O
 - O
 by O
-; O
+  O
 not O
 creature O
 seemed O
@@ -28807,7 +28807,7 @@ cape O
 . O
 |
 | O
-Barton B-PERSON
+Barton B-ORG
 wished O
 the O
 others O
@@ -28817,7 +28817,7 @@ night O
 , O
 and O
 set O
-offhome O
+offhome B-DATE
 . O
 He O
 |
@@ -28839,7 +28839,7 @@ behind O
 |
 | O
 him O
-; O
+  O
 but O
 he O
 did O
@@ -28946,7 +28946,7 @@ did O
 she O
 gasp O
 for O
-mercy,—he O
+mercy,—he B-GPE
 burst O
 forth O
 again O
@@ -28977,7 +28977,7 @@ bring O
 thee O
 mercy O
 ! O
-Dost O
+Dost B-PERSON
 thou O
 know O
 it O
@@ -28995,7 +28995,7 @@ as O
 ever O
 Cain B-PERSON
 killed O
-Abel O
+Abel B-PERSON
 . O
 She O
 ’d O
@@ -29038,7 +29038,7 @@ less B-DATE
 than I-DATE
 athree I-DATE
 week I-DATE
-; O
+  O
 and O
 ather O
 judgment O
@@ -29056,7 +29056,7 @@ thee O
 as O
 her O
 murderer O
-; O
+  O
 or O
 if O
 she O
@@ -29147,7 +29147,7 @@ she O
 |
 | O
 was O
-tipsy B-PERSON
+tipsy O
 , O
 he O
 took O
@@ -29253,7 +29253,7 @@ not O
 listen O
 to O
 me O
-; O
+  O
 what O
 canI O
 do O
@@ -29305,7 +29305,7 @@ a O
 one B-CARDINAL
 asI O
 am O
-; O
+  O
 such O
 a O
 wretched O
@@ -29362,9 +29362,9 @@ heed O
 | O
 it O
 more O
-thanI B-CARDINAL
+thanI O
 did O
-; O
+  O
 and O
 who O
 loves O
@@ -29397,9 +29397,9 @@ wo O
 n't O
 pray O
 forher O
-; O
+  O
 sinner O
-thatIam B-PERSON
+thatIam O
 ! O
 Can O
 |
@@ -29438,15 +29438,15 @@ me O
 
 | O
 So O
-the O
-night O
+the B-TIME
+night I-TIME
 wore O
 away O
 . O
 ‘ O
-The O
-next O
-morning O
+The B-TIME
+next I-TIME
+morning I-TIME
 she O
 was O
 taken O
@@ -29455,8 +29455,8 @@ taken O
 up O
 to O
 the O
-New B-GPE
-Bailey I-GPE
+New O
+Bailey O
 . O
 It O
 was O
@@ -29475,8 +29475,8 @@ was O
 committed O
 to O
 prison O
-fora O
-month B-DATE
+fora B-DATE
+month I-DATE
 . O
 How O
 |
@@ -29541,9 +29541,9 @@ returned O
 , O
 |
 | O
-night O
-after O
 night B-TIME
+after I-TIME
+night I-TIME
 , O
 disappointed O
 in O
@@ -29625,7 +29625,7 @@ likeness O
 in O
 their O
 fate O
-; O
+  O
 and O
 then O
 this O
@@ -29725,7 +29725,7 @@ concerning O
 |
 | O
 her O
-hours O
+hours B-TIME
 of O
 leaving O
 off O
@@ -29740,14 +29740,14 @@ straight O
 | O
 home O
 , O
-& B-PERSON
-c. I-PERSON
+& O
+c. O
 She O
 could O
 not O
 tell O
 lies O
-; O
+  O
 though O
 she O
 could O
@@ -29766,10 +29766,10 @@ she O
 took O
 refuge O
 in O
-ob- O
+ob- B-GPE
 |
-| O
-stinate O
+| I-GPE
+stinate I-GPE
 silence O
 , O
 alleging O
@@ -29813,7 +29813,7 @@ dearly O
 loved O
 each O
 other O
-; O
+  O
 and O
 in O
 the O
@@ -30060,7 +30060,7 @@ more O
 
 | O
 Poor O
-Jem B-PERSON
+Jem O
 ! O
 it O
 is O
@@ -30103,15 +30103,15 @@ sewing O
 trying O
 to O
 earn O
-a O
-few O
-pence O
+a B-MONEY
+few I-MONEY
+pence I-MONEY
 |
 | O
 by O
 working O
-over B-TIME
-hours I-TIME
+over O
+hours O
 at O
 some O
 mourning O
@@ -30119,7 +30119,7 @@ mourning O
 |
 
 | O
-Jem B-PERSON
+Jem O
 entered O
 , O
 looking O
@@ -30169,8 +30169,8 @@ chair O
 but O
 after O
 standing O
-a B-TIME
-minute I-TIME
+a O
+minute O
 or O
 two B-CARDINAL
 he O
@@ -30288,7 +30288,7 @@ once O
 
 | O
 “ O
-Mary B-PERSON
+Mary O
 ! O
 ” O
 said O
@@ -30351,7 +30351,7 @@ she O
 was O
 sure O
 of O
-; O
+  O
 nothing O
 he O
 could O
@@ -30414,7 +30414,7 @@ her O
 “ O
 Dear B-WORK_OF_ART
 Mary I-WORK_OF_ART
-! O
+! I-WORK_OF_ART
 ( O
 for O
 how O
@@ -30457,7 +30457,7 @@ and O
 known O
 it O
 long O
-; O
+  O
 for O
 since O
 we O
@@ -30481,7 +30481,7 @@ mother O
 | O
 and O
 all O
-; O
+  O
 and O
 all O
 I O
@@ -30530,7 +30530,7 @@ tie O
 | O
 you O
 down O
-; O
+  O
 and O
 I O
 lived O
@@ -30619,7 +30619,7 @@ passion O
 |
 | O
 “ O
-Mary B-PERSON
+Mary O
 ! O
 you O
 ’ O
@@ -30700,7 +30700,7 @@ try O
 and O
 like O
 me O
-; O
+  O
 will O
 |
 | O
@@ -30779,7 +30779,7 @@ bear O
 | O
 to O
 wait O
-; O
+  O
 he O
 would O
 not O
@@ -30790,7 +30790,7 @@ be O
 dashed O
 away O
 again O
-; O
+  O
 he O
 |
 | O
@@ -30855,10 +30855,10 @@ It O
 was O
 too O
 late O
-; O
+  O
 he O
 left O
-strect O
+strect B-ORG
 after O
 street O
 behind O
@@ -30959,7 +30959,7 @@ not O
 have O
 told O
 at O
-first O
+first B-ORDINAL
 ( O
 if O
 you O
@@ -31057,7 +31057,7 @@ crying O
 She O
 sat O
 down O
-; O
+  O
 and O
 now O
 |
@@ -31250,7 +31250,7 @@ light O
 under O
 the O
 door O
-; O
+  O
 and O
 sat O
 down O
@@ -31333,7 +31333,7 @@ for O
 showing O
 |
 | O
-Jem B-PERSON
+Jem O
 how O
 much O
 she O
@@ -31418,7 +31418,7 @@ with O
 | O
 one B-CARDINAL
 rejection O
-; O
+  O
 she O
 believed O
 she O
@@ -31660,7 +31660,7 @@ she O
 expected O
 , O
 empty O
-; O
+  O
 for O
 she O
 knew O
@@ -31736,7 +31736,7 @@ the O
 form O
 of O
 Sally B-PERSON
-Leadbitter I-PERSON
+Leadbitter O
 passing O
 the O
 window O
@@ -31823,7 +31823,7 @@ her O
 just O
 then O
 ) O
-; O
+  O
 “ O
 it O
 's O
@@ -31932,7 +31932,7 @@ she O
 |
 | O
 could O
-; O
+  O
 for O
 Mary B-PERSON
 made O
@@ -32099,7 +32099,7 @@ last O
 |
 | O
 heartily O
-; O
+  O
 and O
 running O
 to O
@@ -32169,7 +32169,7 @@ mad O
 if O
 he O
 hears O
-; O
+  O
 hell O
 kill O
 me O
@@ -32298,7 +32298,7 @@ which O
 was O
 to O
 follow O
-; O
+  O
 but O
 even O
 if O
@@ -32366,10 +32366,10 @@ the O
 building O
 rubbish O
 from O
-ii O
+ii B-ORG
 |
-| O
-truding O
+| I-ORG
+truding I-ORG
 on O
 the O
 foot O
@@ -32380,8 +32380,8 @@ Inside O
 this O
 fence O
 , O
-a B-TIME
-minute I-TIME
+a O
+minute O
 |
 | O
 afterwards O
@@ -32392,7 +32392,7 @@ were O
 standing O
 by O
 him O
-; O
+  O
 Mary B-PERSON
 now O
 return- O
@@ -32589,7 +32589,7 @@ to O
 you O
 . O
 for O
-onee O
+onee B-GPE
 and O
 for O
 |
@@ -32634,9 +32634,9 @@ leading O
 you O
 to O
 think O
-Iliked O
+Iliked B-PERSON
 you O
-; O
+  O
 but O
 |
 | O
@@ -32650,7 +32650,7 @@ know O
 my O
 own O
 mind O
-; O
+  O
 and O
 I O
 humbly O
@@ -32686,7 +32686,7 @@ instant O
 he O
 was O
 surprised O
-; O
+  O
 the O
 next O
 , O
@@ -32801,7 +32801,7 @@ do O
 love O
 you O
 dearly O
-; O
+  O
 and O
 I O
 wo O
@@ -32900,7 +32900,7 @@ be O
 and O
 so O
 much O
-widicule O
+widicule B-GPE
 should O
 I O
 have O
@@ -32940,16 +32940,16 @@ sank O
 those O
 words O
 into O
-Mary’sheart O
+Mary’sheart B-WORK_OF_ART
 . O
 ) O
 “ O
-Butnow O
+Butnow B-WORK_OF_ART
 , O
 if O
-youlike O
+youlike B-PERSON
 , O
-Ill B-GPE
+Ill B-ORG
 |
 | O
 get O
@@ -32957,7 +32957,7 @@ a O
 licence O
 to O
 - O
-morrow O
+morrow B-DATE
 morning B-TIME
 — O
 nay O
@@ -32967,7 +32967,7 @@ to O
 night O
 , O
 and O
-1'll B-CARDINAL
+1'll O
 |
 | O
 marry O
@@ -33080,7 +33080,7 @@ good O
 deal O
 for O
 you O
-; O
+  O
 I O
 |
 | O
@@ -33095,7 +33095,7 @@ your O
 little O
 ambitious O
 heart O
-; O
+  O
 |
 | O
 80 B-CARDINAL
@@ -33149,8 +33149,8 @@ for O
 so O
 |
 | O
-many O
-months O
+many B-DATE
+months I-DATE
 in O
 being O
 the O
@@ -33213,7 +33213,7 @@ she O
 might O
 have O
 created O
-; O
+  O
 the O
 deep O
 feeling O
@@ -33277,7 +33277,7 @@ object O
 of O
 its O
 affection O
-; O
+  O
 |
 | O
 that O
@@ -33445,7 +33445,7 @@ a O
 |
 | O
 station O
-; O
+  O
 at O
 any O
 rate O
@@ -33536,7 +33536,7 @@ with O
 her O
 than O
 ever O
-; O
+  O
 |
 | O
 even O
@@ -33628,8 +33628,8 @@ parted O
 . O
 |
 | O
-CHAPTER B-ORG
-XII I-ORG
+CHAPTER O
+XII O
 . O
 |
 
@@ -33638,7 +33638,7 @@ XII I-ORG
 Tlov'd O
 him O
 not O
-; O
+  O
 and O
 yet O
 , O
@@ -33663,7 +33663,7 @@ him O
 while O
 he O
 spoke O
-; O
+  O
 yet O
 could O
 he O
@@ -33705,7 +33705,7 @@ Lanpor I-PERSON
 . O
 |
 | O
-Anp B-PERSON
+Anp O
 now O
 Mary B-PERSON
 had O
@@ -33846,18 +33846,18 @@ now O
 sit O
 quietly O
 through O
-the O
-evening O
+the B-TIME
+evening I-TIME
 at O
 her O
 work O
-; O
+  O
 or O
 , O
-ifshe O
+ifshe B-PERSON
 |
-| O
-kept O
+| I-PERSON
+kept I-PERSON
 , O
 by O
 a O
@@ -33925,7 +33925,7 @@ enough O
 for O
 happy O
 times O
-; O
+  O
 but O
 now O
 she O
@@ -34038,9 +34038,9 @@ she O
 | O
 had O
 earned O
-a O
-few O
-pence O
+a B-MONEY
+few I-MONEY
+pence I-MONEY
 , O
 enough O
 for O
@@ -34068,8 +34068,8 @@ could O
 | O
 do O
 in O
-the O
-morning O
+the B-TIME
+morning I-TIME
 , O
 ufter O
 her O
@@ -34132,7 +34132,7 @@ father O
 ’s O
 eager O
 clutch O
-; O
+  O
 sometimes O
 prompted O
 by O
@@ -34181,17 +34181,17 @@ long O
 fast O
 from O
 the O
-one B-CARDINAL
-o’clock O
-dinner B-TIME
+one B-TIME
+o’clock I-TIME
+dinner I-TIME
 - I-TIME
 hour I-TIME
 at O
-Miss O
+Miss B-ORG
 |
-| O
-Simmonds B-PERSON
-’ O
+| I-ORG
+Simmonds I-ORG
+’ I-ORG
 to O
 the O
 close O
@@ -34224,7 +34224,7 @@ learned O
 to O
 bear O
 “ O
-clemming O
+clemming B-ORG
 . O
 ” O
 |
@@ -34347,7 +34347,7 @@ from O
 him O
 , O
 and O
-ta’en B-CARDINAL
+ta’en O
 outa O
 patent O
 , O
@@ -34406,7 +34406,7 @@ happened O
 afore O
 he O
 left O
-Manchester B-ORG
+Manchester B-GPE
 , O
 |
 | O
@@ -34433,8 +34433,8 @@ after O
 he O
 got O
 to O
-Halifax B-ORG
-; O
+Halifax B-GPE
+  O
 however O
 , O
 he O
@@ -34445,9 +34445,9 @@ or O
 ’ O
 |
 | O
-three B-QUANTITY
-hunder I-QUANTITY
-pounds I-QUANTITY
+three B-CARDINAL
+hunder O
+pounds O
 for O
 his O
 invention O
@@ -34478,7 +34478,7 @@ been O
 quarrelling O
 wi O
 ’ O
-Jem B-PERSON
+Jem O
 , O
 surely O
 . O
@@ -34490,7 +34490,7 @@ Now O
 Mary B-PERSON
 cried O
 outright O
-; O
+  O
 she O
 was O
 weak O
@@ -34548,7 +34548,7 @@ been O
 vain O
 and O
 foolish O
-; O
+  O
 she O
 hoped O
 that O
@@ -34576,7 +34576,7 @@ it O
 Oh O
 , O
 Margaret B-PERSON
-; O
+  O
 do O
 you O
 know O
@@ -34641,8 +34641,8 @@ told O
 him O
 |
 | O
-Ididn’t O
-; O
+Ididn’t B-GPE
+  O
 and O
 , O
 Margaret B-PERSON
@@ -34663,7 +34663,7 @@ sad O
 and O
 so O
 angry O
-; O
+  O
 and O
 now O
 I O
@@ -34701,7 +34701,7 @@ sorrow O
 but O
 with O
 hope O
-; O
+  O
 for O
 she O
 had O
@@ -34729,7 +34729,7 @@ ment O
 
 | O
 “ O
-Tellme B-ORG
+Tellme B-WORK_OF_ART
 , O
 Margaret B-PERSON
 , O
@@ -34950,7 +34950,7 @@ up O
 | O
 to O
 you O
-; O
+  O
 — O
 but O
 would O
@@ -35028,7 +35028,7 @@ it O
 used O
 to O
 do O
-; O
+  O
 and O
 |
 | O
@@ -35125,7 +35125,7 @@ I O
 must O
 say O
 just O
-one B-CARDINAL
+one O
 more O
 word O
 . O
@@ -35231,7 +35231,7 @@ in O
 Margaret B-PERSON
 's O
 sympathy O
-; O
+  O
 and O
 last O
 , O
@@ -35319,7 +35319,7 @@ father O
 that O
 very O
 night O
-; O
+  O
 and O
 acting O
 instantly O
@@ -35357,8 +35357,8 @@ late O
 |
 
 | O
-That O
-night O
+That B-TIME
+night I-TIME
 the O
 cottage O
 shone O
@@ -35371,7 +35371,7 @@ fire- O
 |
 | O
 gleam O
-; O
+  O
 and O
 the O
 father O
@@ -35478,7 +35478,7 @@ she O
 really O
 could O
 not O
-; O
+  O
 but O
 the O
 tears O
@@ -35661,7 +35661,7 @@ This O
 seemed O
 to O
 arouse O
-Alice B-PRODUCT
+Alice B-PERSON
 from O
 her O
 ‘ O
@@ -35807,8 +35807,8 @@ be O
 ” O
 |
 | O
-CHAPTER B-ORG
-XII I-ORG
+CHAPTER O
+XII O
 . O
 |
 | O
@@ -35842,10 +35842,10 @@ song O
 
 | O
 And O
-bap O
-ae O
-tbe O
-mermati O
+bap B-PERSON
+ae I-PERSON
+tbe I-PERSON
+mermati I-PERSON
 ’s O
 song O
 you O
@@ -35865,8 +35865,8 @@ but O
 follow O
 the O
 sur O
-all O
-day O
+all B-DATE
+day I-DATE
 , O
 |
 | O
@@ -35880,7 +35880,7 @@ the O
 sea O
 . O
 ” O
-W.8 O
+W.8 B-ORG
 . O
 Laon O
 . O
@@ -35911,8 +35911,8 @@ that O
 one B-TIME
 evening I-TIME
 , O
-a3 B-PERSON
-Mary I-PERSON
+a3 O
+Mary B-PERSON
 stood O
 |
 
@@ -35929,7 +35929,7 @@ stood O
 |
 
 | O
-Job B-PERSON
+Job O
 took O
 his O
 pipe O
@@ -35993,7 +35993,7 @@ the O
 barbers O
 ’ O
 shops O
-; O
+  O
 only O
 , O
 |
@@ -36002,7 +36002,7 @@ Mary B-PERSON
 , O
 there O
 were O
-one O
+one B-CARDINAL
 little O
 difference O
 : O
@@ -36035,7 +36035,7 @@ hesi- O
 |
 | O
 tatingly O
-; O
+  O
 as O
 if O
 not O
@@ -36106,7 +36106,7 @@ green O
 hair O
 sure O
 enough O
-; O
+  O
 |
 | O
 and O
@@ -36117,7 +36117,7 @@ of O
 it O
 , O
 too O
-; O
+  O
 for O
 she O
 were O
@@ -36134,7 +36134,7 @@ first B-ORDINAL
 they O
 sawher O
 . O
-They‘all B-PERSON
+They‘all B-WORK_OF_ART
 thought O
 she O
 |
@@ -36190,7 +36190,7 @@ was O
 a O
 hit O
 at O
-Job O
+Job B-ORG
 , O
 who O
 retaliated O
@@ -36275,7 +36275,7 @@ she O
 ” O
 ’ O
 asked O
-Job B-PERSON
+Job O
 . O
 |
 
@@ -36340,7 +36340,7 @@ third B-ORDINAL
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 with O
 provoking O
@@ -36355,7 +36355,7 @@ No O
 Ididn’t O
 ! O
 at O
-leastif O
+leastif B-PERSON
 I O
 did O
 , O
@@ -36403,7 +36403,7 @@ de- O
 cidedly O
 towards O
 her O
-; O
+  O
 “ O
 when O
 she O
@@ -36482,7 +36482,7 @@ the O
 won- O
 |
 | O
-ders B-CARDINAL
+ders O
 of O
 the O
 deep O
@@ -36492,12 +36492,12 @@ the O
 incredulity O
 with O
 which O
-Job B-PERSON
+Job O
 |
-| I-PERSON
-Legh I-PERSON
+| O
+Legh O
 received O
-Wilson B-ORG
+Wilson B-PERSON
 ’s O
 account O
 of O
@@ -36528,8 +36528,8 @@ his O
 lips O
 again O
 through O
-the B-TIME
-evening I-TIME
+the O
+evening O
 , O
 she O
 eagerly O
@@ -36728,10 +36728,10 @@ said O
 
 | O
 “ O
-Ay O
-, O
-ay O
-! O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
+! I-WORK_OF_ART
 young O
 man O
 . O
@@ -36850,12 +36850,12 @@ dog O
 , O
 ” O
 was O
-Will O
-Wil- O
+Will B-PERSON
+Wil- I-PERSON
 |
-| O
-son O
-'s O
+| I-PERSON
+son I-PERSON
+'s I-PERSON
 motto O
 , O
 only O
@@ -36871,7 +36871,7 @@ Jack B-PERSON
 |
 | I-PERSON
 Harris I-PERSON
-; O
+  O
 ” O
 and O
 the O
@@ -36897,15 +36897,15 @@ been O
 
 | O
 “ O
-It B-WORK_OF_ART
-’s I-WORK_OF_ART
-the I-WORK_OF_ART
-Exocetus I-WORK_OF_ART
-; O
+It O
+’s O
+the O
+Exocetus B-PRODUCT
+  O
 one B-CARDINAL
 of O
 the O
-Malacopterygii B-LOC
+Malacopterygii B-ORG
 Abdomi- O
 |
 | O
@@ -36913,7 +36913,7 @@ nales O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 much O
 interested O
@@ -36930,7 +36930,7 @@ go O
 ! O
 You O
 're O
-one O
+one B-CARDINAL
 o O
 ’ O
 them O
@@ -36993,7 +36993,7 @@ o O
 ’ O
 your O
 kidney O
-; O
+  O
 and O
 if O
 I O
@@ -37022,10 +37022,10 @@ of O
 | O
 aname O
 . O
-Mermaidicus B-ORG
-Jack I-ORG
-Harrisensis I-ORG
-; O
+Mermaidicus B-PERSON
+Jack I-PERSON
+Harrisensis I-PERSON
+  O
 that O
 ’s O
 just O
@@ -37056,7 +37056,7 @@ en- O
 |
 | O
 tranced O
-; O
+  O
 mouth O
 , O
 eyes O
@@ -37260,7 +37260,7 @@ song O
 sidled O
 up O
 to O
-Job B-LOC
+Job O
 , O
 |
 | O
@@ -37284,7 +37284,7 @@ n’t O
 like O
 a O
 live O
-Manx B-PERSON
+Manx O
 cat O
 , O
 would O
@@ -37297,11 +37297,11 @@ master O
 
 | O
 “ O
-Awhat O
+Awhat B-PERSON
 ? O
 ” O
 exclaimed O
-Job B-PERSON
+Job O
 . O
 |
 
@@ -37317,7 +37317,7 @@ name O
 , O
 ” O
 said O
-Will O
+Will B-PERSON
 , O
 humbly O
 . O
@@ -37330,7 +37330,7 @@ we O
 call O
 ’em O
 just O
-Manx B-PERSON
+Manx B-NORP
 cats O
 . O
 They O
@@ -37360,7 +37360,7 @@ of O
 | O
 such O
 animals O
-; O
+  O
 so O
 Will O
 continued O
@@ -37490,7 +37490,7 @@ ba- O
 |
 | O
 lancing O
-; O
+  O
 but O
 these O
 cats O
@@ -37578,7 +37578,7 @@ can O
 not O
 justly O
 say O
-; O
+  O
 our O
 ship O
 ’s O
@@ -37662,7 +37662,7 @@ haunted O
 her O
 both O
 by O
-night O
+night B-TIME
 and O
 by O
 day O
@@ -37672,7 +37672,7 @@ with O
 | O
 monomaniacal O
 incessancy O
-; O
+  O
 and O
 that O
 thought O
@@ -37738,7 +37738,7 @@ addressing O
 John B-PERSON
 Barton I-PERSON
 again O
-; O
+  O
 her O
 |
 | O
@@ -37803,7 +37803,7 @@ warning O
 She O
 must O
 speak O
-; O
+  O
 to O
 that O
 she O
@@ -37812,7 +37812,7 @@ soul- O
 |
 | O
 compelled O
-; O
+  O
 but O
 to O
 whom O
@@ -37898,8 +37898,8 @@ unclean O
 | O
 In O
 her O
-wild O
-night O
+wild B-TIME
+night I-TIME
 wanderings O
 , O
 she O
@@ -38016,9 +38016,9 @@ Barton I-PERSON
 on O
 |
 | O
-that O
-unfortunate O
-night O
+that B-TIME
+unfortunate I-TIME
+night I-TIME
 , O
 which O
 had O
@@ -38041,9 +38041,9 @@ her O
 She O
 had O
 also O
-ob- O
+ob- B-PERSON
 |
-| O
+| I-PERSON
 served O
 that O
 he O
@@ -38068,14 +38068,14 @@ both O
 father O
 and O
 son O
-; O
+  O
 her O
 |
 | O
 old O
 friends O
 too O
-; O
+  O
 and O
 she O
 had O
@@ -38151,7 +38151,7 @@ the@ays O
  
 
 | O
-188 O
+188 B-CARDINAL
 |
 
 | O
@@ -38199,7 +38199,7 @@ mono- O
 |
 | O
 mania O
-; O
+  O
 so O
 haunting O
 , O
@@ -38257,7 +38257,7 @@ conve- O
 nience O
 and O
 luxury O
-; O
+  O
 and O
 at O
 first B-ORDINAL
@@ -38330,9 +38330,9 @@ day O
 by O
 day O
 , O
-nearer B-CARDINAL
-and I-CARDINAL
-nearer I-CARDINAL
+nearer O
+and O
+nearer O
 , O
 came O
 the O
@@ -38449,7 +38449,7 @@ from O
 the O
 same O
 circumstances O
-; O
+  O
 all O
 around O
 you O
@@ -38460,7 +38460,7 @@ though O
 | O
 they O
 use O
-no'words B-LANGUAGE
+no'words O
 or O
 language O
 ) O
@@ -38529,7 +38529,7 @@ obli- O
 |
 | O
 vion O
-; O
+  O
 but O
 can O
 you O
@@ -38555,7 +38555,7 @@ a O
 heavy O
 price O
 . O
-Days O
+Days B-DATE
 of O
 oppres- O
 |
@@ -38575,8 +38575,8 @@ sickli- O
 | O
 nessof O
 dreams O
-; O
-nights B-TIME
+  O
+nights O
 , O
 whose O
 dreamsare O
@@ -38584,7 +38584,7 @@ fierce O
 realities O
 of O
 agony O
-; O
+  O
 |
 | O
 sinking O
@@ -38606,7 +38606,7 @@ consciousness O
 of O
 incipient O
 madness O
-; O
+  O
 this O
 is O
 the O
@@ -38652,7 +38652,7 @@ was O
 rich O
 and O
 poor O
-; O
+  O
 why O
 are O
 they O
@@ -38759,7 +38759,7 @@ afeard O
 it O
 was O
 true O
-; O
+  O
 yet O
 I O
 were O
@@ -38892,7 +38892,7 @@ my O
 post O
 this B-TIME
 morning I-TIME
-; O
+  O
 for O
 another O
 , O
@@ -38951,7 +38951,7 @@ disapprobation O
 but O
 John B-PERSON
 |
-| I-PERSON
+| O
 did O
 not O
 mind O
@@ -39026,7 +39026,7 @@ right O
 to O
 his O
 opinion O
-; O
+  O
 but O
 since O
 I O
@@ -39062,7 +39062,7 @@ the O
 poor O
 like O
 ourselves O
-; O
+  O
 |
 | O
 them O
@@ -39073,7 +39073,7 @@ to O
 help O
 , O
 but O
-mun O
+mun B-PERSON
 choose O
 between O
 vitriol O
@@ -39133,7 +39133,7 @@ spoke O
 |
 | O
 lower O
-; O
+  O
 all O
 listened O
 with O
@@ -39153,7 +39153,7 @@ has O
 wrought O
 this O
 woe O
-; O
+  O
 it O
 ’s O
 the O
@@ -39179,7 +39179,7 @@ may O
 | O
 try O
 if O
-Iam B-PERSON
+Iam O
 one O
 or O
 not O
@@ -39237,7 +39237,7 @@ life O
 , O
 ” O
 said O
-one O
+one B-CARDINAL
 . O
 |
 
@@ -39362,7 +39362,7 @@ say O
 good O
 - O
 bye O
-; O
+  O
 and O
 few O
 |
@@ -39427,7 +39427,7 @@ had O
 always O
 liked O
 Will O
-; O
+  O
 but O
 now O
 it O
@@ -39512,7 +39512,7 @@ it O
 | O
 is O
 n’t O
-; O
+  O
 ” O
 ” O
 rousing O
@@ -39534,8 +39534,8 @@ captain O
 told O
 me O
 in O
-8 B-CARDINAL
-fortnight O
+8 B-DATE
+fortnight I-DATE
 he O
 would O
 be O
@@ -39543,7 +39543,7 @@ ready O
 to O
 sail O
 again O
-; O
+  O
 |
 | O
 butit O
@@ -39553,7 +39553,7 @@ sudden O
 on O
 me O
 , O
-Ihad O
+Ihad B-PERSON
 got O
 so O
 fond O
@@ -39596,17 +39596,17 @@ since O
 you O
 came O
 . O
-Nota B-PERSON
-fortnight O
+Nota O
+fortnight B-DATE
 |
 | O
 since O
 you O
 knocked O
 at O
-Jane B-FAC
-Wilson I-FAC
-’s I-FAC
+Jane B-PERSON
+Wilson I-PERSON
+’s I-PERSON
 door O
 , O
 and O
@@ -39630,7 +39630,7 @@ fortnight O
 | O
 “ O
 No O
-; O
+  O
 I O
 know O
 it O
@@ -39646,10 +39646,10 @@ I O
 got O
 a O
 letter O
-this B-TIME
+this O
 |
-| I-TIME
-afternoon I-TIME
+| O
+afternoon B-TIME
 from O
 Jack B-PERSON
 Harris I-PERSON
@@ -39665,7 +39665,7 @@ Tuesday B-DATE
 |
 | O
 next O
-; O
+  O
 and O
 it O
 ’s O
@@ -39692,15 +39692,15 @@ Kirk B-ORG
 Christ I-ORG
 , O
 beyond O
-Ramsay B-ORG
+Ramsay B-PERSON
 , O
 in O
-the O
+the B-GPE
 |
-| O
-Isle B-LOC
-of I-LOC
-Man I-LOC
+| I-GPE
+Isle I-GPE
+of I-GPE
+Man I-GPE
 ) O
 that O
 I O
@@ -39728,7 +39728,7 @@ I O
 ’m O
 sorry O
 enough O
-; O
+  O
 but O
 I O
 must O
@@ -39741,7 +39741,7 @@ mother O
 ’s O
 friends O
 . O
-Imust O
+Imust B-ORG
 go O
 . O
 Do O
@@ -39793,7 +39793,7 @@ say O
 you O
 ’re O
 right O
-; O
+  O
 only O
 I O
 |
@@ -39854,7 +39854,7 @@ go O
 to O
 Liverpool B-GPE
 ! O
-May O
+May B-DATE
 be O
 you O
 and O
@@ -39869,7 +39869,7 @@ He O
 ’s O
 going O
 to O
-Glasgow B-PERSON
+Glasgow B-GPE
 , O
 by O
 way O
@@ -39888,7 +39888,7 @@ No O
 I O
 ’m O
 walking O
-; O
+  O
 and O
 I O
 do O
@@ -39923,7 +39923,7 @@ You O
 can O
 get O
 b O
-; O
+  O
 |
 | O
 railway O
@@ -39936,7 +39936,7 @@ sixpence O
 . O
 ” O
 _ O
-seer B-PERSON
+seer O
 |
 
  
@@ -40025,7 +40025,7 @@ of O
 Margaret B-PERSON
 as.an I-PERSON
 angel O
-; O
+  O
 it O
 was O
 so O
@@ -40110,7 +40110,7 @@ may O
 laugh O
 , O
 Mary B-PERSON
-; O
+  O
 it O
 only O
 shows O
@@ -40218,7 +40218,7 @@ this O
 | O
 voyage O
 , O
-Iwill B-ORG
+Iwill O
 speak O
 . O
 It O
@@ -40266,7 +40266,7 @@ offer O
 |
 | O
 Margaret B-PERSON
-; O
+  O
 and O
 her O
 father O
@@ -40311,7 +40311,7 @@ and O
 would O
 marry O
 me O
-; O
+  O
 d’ye O
 think O
 she O
@@ -40383,11 +40383,11 @@ Margaret B-PERSON
 not O
 me O
 , O
-Will O
-; O
+Will B-PERSON
+  O
 she O
 ’s O
-nevernamed O
+nevernamed B-PERSON
 |
 | O
 your O
@@ -40418,7 +40418,7 @@ a O
 girl O
 like O
 her O
-; O
+  O
 I O
 ’ve O
 no O
@@ -40430,10 +40430,10 @@ say O
 what O
 I O
 think O
-; O
+  O
 but O
 , O
-ifI O
+ifI B-PERSON
 was O
 you O
 , O
@@ -40498,7 +40498,7 @@ I O
 planned O
 to O
 say O
-; O
+  O
 and O
 I O
 never O
@@ -40627,8 +40627,8 @@ attending O
 |
 | O
 to O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 , O
 she O
 tried O
@@ -40714,11 +40714,11 @@ company O
 for O
 an B-TIME
 hour I-TIME
-or I-TIME
-so I-TIME
-this I-TIME
+or O
+so O
+this B-TIME
 evening I-TIME
-; O
+  O
 as O
 soon O
 as O
@@ -40733,7 +40733,7 @@ have O
 started O
 for O
 Liverpool B-GPE
-; O
+  O
 for O
 she O
 |
@@ -40748,9 +40748,9 @@ a O
 bit O
 lonesome O
 . O
-Th O
-’ O
-Union O
+Th B-ORG
+’ I-ORG
+Union I-ORG
 is O
 |
 | O
@@ -40772,7 +40772,7 @@ Yes O
 they O
 ’ O
 ve O
-giv'n O
+giv'n B-PERSON
 him O
 a O
 sovereign O
@@ -40801,7 +40801,7 @@ one O
 , O
 sure O
 enough O
-; O
+  O
 but O
 I O
 ’m O
@@ -40889,7 +40889,7 @@ wise O
 as O
 they O
 are O
-; O
+  O
 now O
 |
 | O
@@ -41002,12 +41002,12 @@ could O
 |
 | O
 get O
-; O
+  O
 I O
 think O
 half B-CARDINAL
 a O
-loafis O
+loafis B-GPE
 better O
 than O
 no O
@@ -41032,7 +41032,7 @@ But O
 , O
 comes O
 the O
-Trades B-ORG
+Trades O
 ’ O
 |
 | O
@@ -41079,7 +41079,7 @@ worried O
 ? O
 ’ O
 Now O
-clemming O
+clemming B-ORG
 is O
 a O
 quiet O
@@ -41088,7 +41088,7 @@ death O
 and O
 worrying O
 is O
-n’t B-GPE
+n’t O
 , O
 |
 | O
@@ -41117,7 +41117,7 @@ me O
 free O
 , O
 if O
-ama O
+ama B-ORG
 fool O
 . O
 ” O
@@ -41156,7 +41156,7 @@ life O
 there O
 is O
 hope O
-; O
+  O
 th O
 ’ O
 next O
@@ -41224,7 +41224,7 @@ of O
 |
 | O
 tea O
-; O
+  O
 while O
 Job B-PERSON
 , O
@@ -41244,13 +41244,13 @@ silent O
 
 | O
 “ O
-Ill O
+Ill B-ORG
 go O
-first O
+first B-ORDINAL
 thing O
 to O
 - O
-morrow O
+morrow B-DATE
 morning B-TIME
 , O
 and O
@@ -41260,7 +41260,7 @@ she O
 |
 | O
 is O
-; O
+  O
 and O
 I O
 'll O
@@ -41293,7 +41293,7 @@ gone O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 . O
 |
 
@@ -41410,7 +41410,7 @@ wrong O
 . O
 Will O
 gone O
-; O
+  O
 her O
 father O
 gone O
@@ -41430,7 +41430,7 @@ so O
 mysteriously O
 distant O
 as O
-Glasgow B-PERSON
+Glasgow B-GPE
 seemed O
 . O
 |
@@ -41456,7 +41456,7 @@ Carsons I-PERSON
 and O
 his O
 threats O
-; O
+  O
 and O
 now O
 she O
@@ -41482,7 +41482,7 @@ too O
 |
 | O
 about O
-Jem B-PERSON
+Jem O
 . O
 She O
 feared O
@@ -41492,7 +41492,7 @@ ceased O
 to O
 love O
 her O
-; O
+  O
 and O
 she O
 — O
@@ -41544,8 +41544,8 @@ stroke O
 |
 
 | O
-CHAPTER B-LAW
-XVIIE I-LAW
+CHAPTER O
+XVIIE O
 . O
 |
 | O
@@ -41565,13 +41565,13 @@ Nor O
 on O
 his O
 lips O
-one O
+one B-CARDINAL
 dying O
 sob O
-; O
+  O
 |
 | O
-Sigh B-PERSON
+Sigh O
 , O
 nor O
 word O
@@ -41592,7 +41592,7 @@ death O
 ” O
 Seca O
 or O
-Conintn B-ORG
+Conintn B-PRODUCT
 , O
 |
 | O
@@ -41605,7 +41605,7 @@ way O
 and O
 that O
 way O
-; O
+  O
 " O
 t O
 will O
@@ -41663,7 +41663,7 @@ and O
 the O
 three B-CARDINAL
 Miss O
-Carsons O
+Carsons B-PERSON
 were O
 sitting O
 in O
@@ -41833,7 +41833,7 @@ voices O
 to O
 a O
 whisper O
-; O
+  O
 but O
 a O
 fearful O
@@ -41917,7 +41917,7 @@ tale O
 could O
 be O
 true O
-; O
+  O
 and O
 when O
 she O
@@ -41962,7 +41962,7 @@ sat O
 down O
 on O
 an O
-ottoman O
+ottoman B-NORP
 , O
 and O
 covered O
@@ -41979,7 +41979,7 @@ it O
 . O
 That O
 was O
-Sophy B-PERSON
+Sophy O
 . O
 Helen B-PERSON
 threw O
@@ -42005,7 +42005,7 @@ stifle O
 the O
 screams O
 and O
-moans B-NORP
+moans O
 |
 | O
 which O
@@ -42037,7 +42037,7 @@ me O
 , O
 ” O
 said O
-Sophy B-PERSON
+Sophy B-WORK_OF_ART
 , O
 looking O
 up O
@@ -42075,7 +42075,7 @@ didyousay O
 Have O
 you O
 sent O
-fora O
+fora B-PERSON
 doctor O
 ? O
 Oh O
@@ -42108,7 +42108,7 @@ to O
 her O
 feet O
 . O
-Helen O
+Helen B-PERSON
 lifted O
 herself O
 up O
@@ -42169,7 +42169,7 @@ home O
 asked O
 |
 | O
-Sophy B-ORG
+Sophy O
 . O
 . O
 |
@@ -42177,15 +42177,15 @@ Sophy B-ORG
 | O
 « O
 Perhaps O
-ten O
-minutes O
-ago O
+ten B-TIME
+minutes I-TIME
+ago I-TIME
 . O
 Before O
 you O
 rang O
 for O
-Parker B-ORG
+Parker B-PERSON
 . O
 ” O
 |
@@ -42251,11 +42251,11 @@ arm O
  
 
 | O
-230 B-CARDINAL
+230 B-QUANTITY
 |
 
-| O
-twenty B-QUANTITY
+| I-QUANTITY
+twenty I-QUANTITY
 yards I-QUANTITY
 off O
 . O
@@ -42291,7 +42291,7 @@ had O
 sprung O
 his O
 rattle O
-; O
+  O
 and O
 when O
 another O
@@ -42373,8 +42373,8 @@ here O
 ‘ O
 That O
 two B-CARDINAL
-or O
-three B-CARDINAL
+or I-CARDINAL
+three I-CARDINAL
 po- O
 |
 | O
@@ -42626,7 +42626,7 @@ dreaded O
 , O
 to O
 return O
-; O
+  O
 and O
 with O
 nervous O
@@ -42676,7 +42676,7 @@ dead O
 | O
 for O
 any O
-one B-CARDINAL
+one O
 living O
 . O
 |
@@ -42767,7 +42767,7 @@ police O
 superintendent O
 came O
 , O
-ond O
+ond B-GPE
 after O
 him O
 the O
@@ -42786,7 +42786,7 @@ the O
 
 | O
 dead O
-; O
+  O
 when O
 the O
 door O
@@ -42881,8 +42881,8 @@ questioned O
 | O
 All O
 through O
-the B-TIME
-night I-TIME
+the O
+night O
 there O
 was O
 bustle O
@@ -42962,7 +42962,7 @@ death O
 
 | O
 When O
-night B-TIME
+night O
 was O
 passing O
 into O
@@ -43015,7 +43015,7 @@ refreshment O
 of O
 the O
 cooler O
-morning B-TIME
+morning O
 |
 | O
 air O
@@ -43125,8 +43125,8 @@ me O
 at O
 any B-TIME
 hour I-TIME
-, O
-night O
+, I-TIME
+night I-TIME
 or O
 day O
 , O
@@ -43368,7 +43368,7 @@ th O
 very O
 church O
 itself O
-; O
+  O
 oh O
 ! O
 mo- O
@@ -43527,8 +43527,8 @@ mother O
 
 | O
 Mary B-PERSON
-pulled O
-Margaret B-PERSON
+pulled I-PERSON
+Margaret I-PERSON
 away O
 from O
 the O
@@ -43601,7 +43601,7 @@ I O
 ’d O
 give O
 aught O
-Ihave B-PERSON
+Ihave O
 to O
 |
 | O
@@ -43633,7 +43633,7 @@ Jane B-PERSON
 Wilson I-PERSON
 is O
 alone O
-; O
+  O
 and O
 I O
 would O
@@ -43691,7 +43691,7 @@ day I-DATE
 
 | O
 “ O
-J'll O
+J'll B-PERSON
 come O
 , O
 ” O
@@ -43726,9 +43726,9 @@ and O
 you O
 could O
 take O
-th O
-’ O
-night O
+th B-TIME
+’ I-TIME
+night I-TIME
 between O
 you O
 , O
@@ -43747,7 +43747,7 @@ sleep O
 in O
 his O
 bed O
-; O
+  O
 for O
 she O
 were O
@@ -43799,8 +43799,8 @@ voice O
 roused O
 her O
 in O
-a O
-minute O
+a B-TIME
+minute I-TIME
 . O
 ” O
 |
@@ -43834,7 +43834,7 @@ none O
 of O
 my O
 business O
-; O
+  O
 and O
 , O
 indeed O
@@ -43858,10 +43858,10 @@ He O
 were O
 in O
 again O
-this B-TIME
+this O
 |
-| I-TIME
-morning I-TIME
+| O
+morning O
 , O
 and O
 seemed O
@@ -43981,7 +43981,7 @@ odd O
 mixture O
 of O
 feelings O
-; O
+  O
 a O
 little O
 contempt O
@@ -44046,7 +44046,7 @@ attempt O
 to O
 baffle O
 him O
-; O
+  O
 he O
 was O
 |
@@ -44079,7 +44079,7 @@ fox O
 hunting O
 , O
 if O
-Reynard B-ORG
+Reynard B-PERSON
 |
 | O
 yielded O
@@ -44118,7 +44118,7 @@ Service I-ORG
 though O
 he O
 was O
-; O
+  O
 and O
 he O
 felt O
@@ -44171,7 +44171,7 @@ superinten- O
 |
 | O
 dent O
-; O
+  O
 and O
 the O
 result O
@@ -44274,7 +44274,7 @@ red O
 glared O
 over O
 all O
-; O
+  O
 the O
 furnace O
 roared O
@@ -44369,7 +44369,7 @@ every O
 instant O
 more O
 fierce O
-; O
+  O
 the O
 policemen O
 |
@@ -44428,7 +44428,7 @@ of O
 voices O
 rose O
 again O
-; O
+  O
 there O
 |
 | O
@@ -44444,7 +44444,7 @@ and O
 wipe O
 the O
 brows O
-; O
+  O
 and O
 then O
 , O
@@ -44472,8 +44472,8 @@ employment O
 | O
 No O
 . O
-B. B-DATE
-72 I-DATE
+B. B-PERSON
+72 I-PERSON
 , O
 pointed O
 out O
@@ -44541,7 +44541,7 @@ haunted O
 her O
 all O
 day O
-; O
+  O
 she O
 cared O
 less O
@@ -44556,7 +44556,7 @@ her O
 fellow O
 - O
 workwomen O
-; O
+  O
 the O
 old O
 associa- O
@@ -44649,7 +44649,7 @@ more O
 beset O
 her O
 path O
-; O
+  O
 inthe O
 security O
 with O
@@ -44716,7 +44716,7 @@ see O
 to O
 hear O
 Jem B-PERSON
-; O
+  O
 and O
 |
 | O
@@ -44832,7 +44832,7 @@ her O
 bit O
 of O
 cookery O
-; O
+  O
 but O
 more O
 with O
@@ -44993,7 +44993,7 @@ me O
 his O
 mother O
 ? O
-Dost O
+Dost B-PERSON
 thou O
 know O
 where O
@@ -45037,9 +45037,9 @@ face O
 | O
 thou O
 whited O
-sepulchre B-GPE
+sepulchre O
 . O
-Dost O
+Dost B-PERSON
 thou O
 know O
 where O
@@ -45280,8 +45280,8 @@ far O
 | O
 distant O
 “ O
-Mamma O
-mia O
+Mamma B-PERSON
+mia I-PERSON
 ! O
 ” O
 |
@@ -45308,7 +45308,7 @@ food O
 the O
 girl O
 brought O
-; O
+  O
 she O
 whose O
 face O
@@ -45327,7 +45327,7 @@ first B-ORDINAL
 to O
 address O
 her O
-; O
+  O
 and O
 , O
 with O
@@ -45396,7 +45396,7 @@ of O
 his O
 infantine O
 gladness O
-; O
+  O
 and O
 then O
 bending O
@@ -45494,7 +45494,7 @@ her O
 soft O
 limbs O
 down O
-; O
+  O
 and O
 the O
 comb O
@@ -45561,8 +45561,8 @@ for O
 thy O
 poor O
 child O
-that O
-night O
+that B-TIME
+night I-TIME
 . O
 None O
 to O
@@ -45617,7 +45617,7 @@ wealth O
 |
 
 | O
-253 B-CARDINAL
+253 O
 |
 
 | O
@@ -45650,7 +45650,7 @@ had O
 deserved O
 it O
 all O
-; O
+  O
 but O
 he O
 was O
@@ -45712,7 +45712,7 @@ he O
 had O
 learnt O
 all O
-; O
+  O
 and O
 what O
 would O
@@ -45742,7 +45742,7 @@ and O
 | O
 be O
 content O
-; O
+  O
 it O
 was O
 his O
@@ -45771,10 +45771,10 @@ which O
 , O
 when O
 Mrs. O
-Wil- O
+Wil- B-PERSON
 |
-| O
-son O
+| I-PERSON
+son I-PERSON
 had O
 given O
 them O
@@ -45822,7 +45822,7 @@ blood- O
 |
 | O
 guiltiness O
-; O
+  O
 he O
 who O
 had O
@@ -45849,7 +45849,7 @@ from O
 him O
 in O
 thought O
-; O
+  O
 and O
 |
 | O
@@ -45916,7 +45916,7 @@ have O
 been O
 by O
 jealousy O
-; O
+  O
 how O
 one B-CARDINAL
 moment O
@@ -45966,7 +45966,7 @@ burst O
 out O
 crying O
 afresh O
-; O
+  O
 and O
 when O
 weary O
@@ -46016,7 +46016,7 @@ she O
 was O
 going O
 mad O
-; O
+  O
 and O
 for O
 |
@@ -46065,7 +46065,7 @@ long O
 - O
 past O
 times O
-; O
+  O
 — O
 of O
 those B-DATE
@@ -46104,13 +46104,13 @@ error O
 what O
 it O
 might O
-; O
+  O
 — O
 of O
 |
 | O
-those O
-days O
+those B-DATE
+days I-DATE
 when O
 she O
 had O
@@ -46131,7 +46131,7 @@ to O
 last O
 for O
 ever O
-; O
+  O
 — O
 of O
 those B-DATE
@@ -46168,7 +46168,7 @@ about O
 and O
 mourned O
 over O
-; O
+  O
 — O
 |
 | O
@@ -46179,7 +46179,7 @@ she O
 had O
 played O
 together O
-; O
+  O
 he O
 , O
 with O
@@ -46382,7 +46382,7 @@ could O
 not O
 bea O
 flower O
-; O
+  O
 — O
 |
 | O
@@ -46450,7 +46450,7 @@ in- O
 |
 | O
 stantly O
-; O
+  O
 it O
 was O
 the O
@@ -46487,7 +46487,7 @@ a B-TIME
 few I-TIME
 hours I-TIME
 before O
-; O
+  O
 probably O
 ( O
 as O
@@ -46555,7 +46555,7 @@ known O
 what O
 they O
 suffered O
-; O
+  O
 and O
 besides O
 this O
@@ -46605,7 +46605,7 @@ had O
 dreaded O
 for O
 her O
-; O
+  O
 and O
 how O
 would O
@@ -46625,7 +46625,7 @@ her O
 todo O
 ? O
 Poor O
-Mary B-PERSON
+Mary O
 ! O
 who O
 |
@@ -46662,7 +46662,7 @@ should O
 | O
 reach O
 her O
-; O
+  O
 and O
 she O
 longed O
@@ -46695,8 +46695,8 @@ the O
 slanting O
 rays O
 of O
-thé B-TIME
-morning I-TIME
+thé O
+morning O
 sun O
 . O
 |
@@ -46811,7 +46811,7 @@ had O
 loved O
 her O
 once O
-; O
+  O
 and O
 yet O
 she O
@@ -47116,7 +47116,7 @@ the O
 gun O
 , O
 Ixreckon B-ORG
-; O
+  O
 indeed O
 , O
 that O
@@ -47186,7 +47186,7 @@ little O
 to O
 convict O
 him O
-; O
+  O
 the O
 police O
 are O
@@ -47280,7 +47280,7 @@ questioned O
 , O
 and O
 examined O
-; O
+  O
 a O
 thing O
 to O
@@ -47319,7 +47319,7 @@ suspicions O
 | O
 against O
 Jem B-PERSON
-; O
+  O
 her O
 aunt O
 was O
@@ -47422,7 +47422,7 @@ an O
 instant O
 to O
 think O
-; O
+  O
 and O
 rising O
 |
@@ -47447,7 +47447,7 @@ purpose O
 up O
 the O
 stairs O
-; O
+  O
 — O
 passed O
 her O
@@ -47478,7 +47478,7 @@ I O
 must O
 tell O
 you O
-; O
+  O
 I O
 must O
 put O
@@ -47679,7 +47679,7 @@ away O
 to O
 some O
 friend O
-; O
+  O
 and O
 if O
 so O
@@ -47813,7 +47813,7 @@ have O
 given O
 it O
 away O
-; O
+  O
 but O
 then O
 must O
@@ -47824,7 +47824,7 @@ been O
 to O
 |
 | O
-Jem B-PERSON
+Jem O
 ? O
 It O
 was O
@@ -47876,7 +47876,7 @@ could O
 afford O
 to O
 have O
-Sun- O
+Sun- B-ORG
 |
 | O
 day O
@@ -47924,9 +47924,9 @@ venture O
 to O
 contemplate O
 , O
-a O
-little O
-spring O
+a B-DATE
+little I-DATE
+spring I-DATE
 of O
 comfort O
 was O
@@ -48055,7 +48055,7 @@ that O
 may O
 be O
 avoided O
-; O
+  O
 and O
 by O
 degrees O
@@ -48234,7 +48234,7 @@ grief O
 . O
 |
 | O
-Giver B-ORG
+Giver O
 me O
 nobler O
 and O
@@ -48266,7 +48266,7 @@ fully O
 to O
 be O
 patient O
-; O
+  O
 but O
 mock O
 me O
@@ -48354,7 +48354,7 @@ must O
 | O
 do O
 it O
-; O
+  O
 for O
 , O
 was O
@@ -48375,7 +48375,7 @@ father O
 was O
 not O
 suspected O
-; O
+  O
 and O
 never O
 should O
@@ -48521,7 +48521,7 @@ sway O
 gently O
 to O
 and O
-fro O
+fro B-ORG
 in O
 the O
 |
@@ -48535,7 +48535,7 @@ of O
 almost O
 human O
 motion O
-; O
+  O
 and O
 the O
 |
@@ -48590,8 +48590,8 @@ torest O
 | O
 But O
 Mary B-PERSON
-re I-PERSON
-- I-PERSON
+re O
+- O
 entered O
 her O
 home O
@@ -48703,9 +48703,9 @@ in- O
 | O
 tervened O
 before O
-day O
-- O
-dawn O
+day B-DATE
+- I-DATE
+dawn I-DATE
 . O
 She O
 believed O
@@ -48725,11 +48725,11 @@ and O
 shut O
 her O
 eyes O
-; O
+  O
 and O
-before O
-many O
-minutes O
+before B-TIME
+many I-TIME
+minutes I-TIME
 |
 | O
 she O
@@ -48771,7 +48771,7 @@ much O
 refreshed O
 in O
 body O
-; O
+  O
 but O
 |
 | O
@@ -48824,7 +48824,7 @@ weakness O
 of O
 an O
 instant O
-; O
+  O
 for O
 were O
 not O
@@ -48852,7 +48852,7 @@ had O
 finished O
 the O
 necessary O
-morning O
+morning B-TIME
 business O
 of O
 |
@@ -48942,7 +48942,7 @@ the O
 crime O
 was O
 committed O
-; O
+  O
 probably O
 with O
 |
@@ -48997,7 +48997,7 @@ she O
 wished O
 to O
 accomplish O
-; O
+  O
 but O
 she O
 was O
@@ -49042,7 +49042,7 @@ Oh O
 Job O
 , O
 Job O
-; O
+  O
 believe O
 me O
 , O
@@ -49061,7 +49061,7 @@ one O
 “ O
 Not O
 afore O
-; O
+  O
 — O
 and O
 mind O
@@ -49101,7 +49101,7 @@ moment O
 Well B-WORK_OF_ART
 , I-WORK_OF_ART
 Job I-WORK_OF_ART
-, I-WORK_OF_ART
+, O
 you O
 'll O
 not O
@@ -49154,17 +49154,17 @@ only O
 | O
 supposing O
 , O
-Job B-PERSON
+Job O
 , O
 — O
 what O
 must O
-Ido O
+Ido B-PERSON
 to O
 prove O
 it O
 ? O
-Tellme B-ORG
+Tellme O
 , O
 Job O
 ! O
@@ -49234,8 +49234,8 @@ enough O
 If O
 it O
 was O
-n’t B-GPE
-Jem I-GPE
+n’t O
+Jem B-PERSON
 , O
 who O
 was O
@@ -49262,7 +49262,7 @@ terror O
 lest O
 |
 | O
-Job B-LOC
+Job O
 ’s O
 question O
 was O
@@ -49335,7 +49335,7 @@ believe O
 that O
 Mary B-PERSON
 |
-| O
+| I-PERSON
 was O
 aware O
 of O
@@ -49425,7 +49425,7 @@ if O
 we O
 'd O
 time O
-; O
+  O
 but O
 they O
 |
@@ -49447,7 +49447,7 @@ hiding O
 it O
 , O
 Mary B-PERSON
-; O
+  O
 |
 | O
 things O
@@ -49495,7 +49495,7 @@ time O
 of O
 the O
 murder O
-; O
+  O
 |
 | O
 and O
@@ -49541,7 +49541,7 @@ his O
 whereabouts O
 that B-TIME
 night I-TIME
-; O
+  O
 |
 | O
 the O
@@ -49765,7 +49765,7 @@ exposes O
 | O
 so O
 many O
-; O
+  O
 no O
 sympathy O
 with O
@@ -49832,7 +49832,7 @@ to O
 do O
 so O
 again O
-; O
+  O
 and O
 she O
 had O
@@ -49890,12 +49890,12 @@ Margaret B-PERSON
 considered O
 herself O
 deceived O
-; O
+  O
 |
 | O
 felt O
 aggrieved O
-; O
+  O
 and O
 , O
 at O
@@ -50012,9 +50012,9 @@ night I-TIME
 , O
 or O
 rather O
-the O
-same O
-early B-TIME
+the B-TIME
+same I-TIME
+early I-TIME
 morning I-TIME
 , O
 that O
@@ -50045,7 +50045,7 @@ you O
 can O
 tell O
 me O
-; O
+  O
 you O
 were O
 there O
@@ -50055,9 +50055,9 @@ he O
 | O
 came O
 back O
-that O
-night O
-; O
+that B-TIME
+night I-TIME
+  O
 were O
 you O
 not O
@@ -50067,7 +50067,7 @@ No O
 you O
 were O
 not O
-; O
+  O
 but O
 |
 | O
@@ -50075,8 +50075,8 @@ you O
 were O
 there O
 not O
-many B-TIME
-hours I-TIME
+many O
+hours O
 after O
 . O
 Did O
@@ -50086,14 +50086,14 @@ hear O
 where O
 |
 | O
-hhe’d O
+hhe’d B-PRODUCT
 been O
 ? O
 He O
 was O
 away O
-the O
-night O
+the B-TIME
+night I-TIME
 before O
 , O
 too O
@@ -50105,7 +50105,7 @@ Alice B-PERSON
 was O
 first B-ORDINAL
 taken O
-; O
+  O
 when O
 you O
 were O
@@ -50157,7 +50157,7 @@ in O
 his O
 walk O
 to O
-Liver- O
+Liver- B-ORG
 |
 | O
 pool O
@@ -50174,8 +50174,8 @@ was O
 so O
 much O
 happened O
-that O
-night O
+that B-TIME
+night I-TIME
 " O
 |
 
@@ -50186,7 +50186,7 @@ Barton I-PERSON
 |
 
 | O
-274 B-CARDINAL
+274 O
 |
 
 | O
@@ -50289,7 +50289,7 @@ walked O
 to O
 Jane B-PERSON
 Wilson I-PERSON
-’s I-PERSON
+’s O
 , O
 alone O
 in O
@@ -50306,13 +50306,13 @@ secret O
 | O
 Jane B-PERSON
 Wilson I-PERSON
-’s I-PERSON
+’s O
 eyes O
 were O
 swelled O
 with O
 crying O
-; O
+  O
 and O
 it O
 was O
@@ -50343,8 +50343,8 @@ and I-DATE
 twenty I-DATE
 hours I-DATE
 . O
-All B-TIME
-night I-TIME
+All O
+night B-TIME
 long O
 she O
 ’ O
@@ -50413,7 +50413,7 @@ proud O
 of O
 her O
 martyrdom O
-; O
+  O
 she O
 had O
 grown O
@@ -50421,7 +50421,7 @@ to O
 hug O
 her O
 grief O
-; O
+  O
 to O
 feel O
 |
@@ -50521,7 +50521,7 @@ llsee O
 Do O
 n’t O
 fret O
-; O
+  O
 they O
 ca O
 n’t O
@@ -50546,7 +50546,7 @@ interrupted O
 Mrs. O
 Wilson B-PERSON
 , O
-half- O
+half- B-CARDINAL
 |
 | O
 irritated O
@@ -50564,9 +50564,9 @@ in O
 which O
 Mary B-PERSON
 |
-| O
-spoke O
-; O
+| I-PERSON
+spoke I-PERSON
+  O
 and O
 a O
 little O
@@ -50616,7 +50616,7 @@ misery O
 thou O
 hast O
 caused O
-; O
+  O
 but O
 I O
 shall O
@@ -50641,7 +50641,7 @@ I O
 know O
 he O
 will O
-; O
+  O
 and O
 all O
 for O
@@ -50657,7 +50657,7 @@ no O
 he O
 never O
 did O
-; O
+  O
 my O
 own O
 blessed O
@@ -50675,7 +50675,7 @@ to O
 be O
 angry O
 long O
-; O
+  O
 her O
 wrath O
 sank O
@@ -50689,7 +50689,7 @@ and O
 worn O
 - O
 out O
-moans B-NORP
+moans O
 , O
 |
 
@@ -50711,7 +50711,7 @@ either O
 grief O
 or O
 anger O
-; O
+  O
 she O
 did O
 so O
@@ -50725,7 +50725,7 @@ her O
 |
 | O
 recollection O
-; O
+  O
 and O
 , O
 besides O
@@ -50824,8 +50824,8 @@ changed O
 the O
 subject O
 to O
-Alice B-ORG
-; O
+Alice B-PERSON
+  O
 and O
 |
 | O
@@ -50880,7 +50880,7 @@ what O
 ’s O
 going O
 on O
-; O
+  O
 but O
 th O
 ’ O
@@ -50894,7 +50894,7 @@ weaker O
 and O
 weaker O
 . O
-Thou B-PERSON
+Thou O
 ‘ O
 It O
 may O
@@ -50955,7 +50955,7 @@ of O
 | O
 the O
 invitation O
-; O
+  O
 and O
 partly O
 because O
@@ -51008,7 +51008,7 @@ outward O
 expression O
 of O
 it O
-; O
+  O
 but O
 |
 | O
@@ -51120,7 +51120,7 @@ motions O
 were O
 more O
 languid O
-; O
+  O
 |
 | O
 she O
@@ -51128,7 +51128,7 @@ was O
 evidently O
 passing O
 away O
-; O
+  O
 but O
 how O
 happily O
@@ -51160,7 +51160,7 @@ kissed O
 Alice B-PERSON
 ’s O
 cheek O
-; O
+  O
 and O
 |
 | O
@@ -51267,7 +51267,7 @@ felt O
 as O
 |
 | O
-if'a B-NORP
+if'a O
 sun O
 - O
 beam O
@@ -51290,7 +51290,7 @@ Mary B-PERSON
 ’s O
 heart O
 ached O
-; O
+  O
 for O
 more O
 and O
@@ -51322,7 +51322,7 @@ dwell O
 on O
 this O
 conviction O
-; O
+  O
 to O
 think O
 alone O
@@ -51352,7 +51352,7 @@ the O
 |
 | O
 Monday B-DATE
-; O
+  O
 and O
 on O
 the O
@@ -51414,7 +51414,7 @@ she O
 would O
 not O
 trust O
-; O
+  O
 to O
 find O
 out O
@@ -51425,7 +51425,7 @@ in O
 |
 | O
 Liverpool B-GPE
-; O
+  O
 to O
 try O
 and O
@@ -51524,7 +51524,7 @@ so O
 expressive O
 to O
 a O
-Lancashire B-PERSON
+Lancashire B-GPE
 ear O
 ) O
 |
@@ -51553,7 +51553,7 @@ and O
 distressing O
 ‘ O
 thoughts O
-; O
+  O
 incapable O
 of O
 concentrating O
@@ -51561,7 +51561,7 @@ concentrating O
 | O
 her O
 mind O
-; O
+  O
 and O
 at O
 the O
@@ -51800,7 +51800,7 @@ liberator O
 , O
 his O
 deliverer O
-; O
+  O
 to O
 win O
 him O
@@ -51847,7 +51847,7 @@ blood O
 - O
 stained O
 man O
-; O
+  O
 and O
 yet O
 whose O
@@ -51899,7 +51899,7 @@ dazed O
 . O
 " O
 — O
-Skelton B-GPE
+Skelton B-PERSON
 , O
 |
 
@@ -51971,7 +51971,7 @@ certain O
 to O
 be O
 hung O
-; O
+  O
 |
 | O
 and O
@@ -52028,8 +52028,8 @@ meeting O
 not O
 as O
 lovers O
-mee O
-; O
+mee B-PERSON
+  O
 |
 | O
 should O
@@ -52065,7 +52065,7 @@ her O
 presence O
 so O
 little O
-; O
+  O
 “ O
 thou O
 ‘ O
@@ -52097,7 +52097,7 @@ for O
 keeping O
 it O
 mysel O
-; O
+  O
 he O
 ’s O
 th O
@@ -52164,8 +52164,8 @@ would O
 take O
 it O
 to O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 , O
 |
 | O
@@ -52227,9 +52227,9 @@ air O
 of O
 a O
 connoisseur O
-; O
+  O
 for O
-Job B-NORP
+Job O
 loved O
 hard O
 words O
@@ -52308,7 +52308,7 @@ suspense O
 |
 
 | O
-Job B-PERSON
+Job O
 was O
 struck O
 with O
@@ -52387,9 +52387,9 @@ the O
 | O
 murder O
 of O
-Henry B-ORG
-Carsons I-ORG
-; O
+Henry B-PERSON
+Carsons I-PERSON
+  O
 that O
 ’s O
 the O
@@ -52435,7 +52435,7 @@ time O
 |
 | O
 myself O
-; O
+  O
 there O
 ’s O
 nothing O
@@ -52444,7 +52444,7 @@ to O
 be O
 afeared O
 on O
-; O
+  O
 if O
 they O
 are O
@@ -52484,7 +52484,7 @@ on O
 echoed O
 Mary B-PERSON
 , O
-butin O
+butin B-PERSON
 such O
 |
 | O
@@ -52503,7 +52503,7 @@ for O
 answering O
 it O
 wrong O
-; O
+  O
 iftthey O
 asked O
 me O
@@ -52517,18 +52517,18 @@ on O
 a O
 Saturday B-DATE
 , O
-ora O
-Tuesday O
+ora B-GPE
+Tuesday I-GPE
 , O
 or O
-any O
-day O
+any B-DATE
+day I-DATE
 , O
 I O
 should O
 have O
 clean O
-for- O
+for- B-CARDINAL
 |
 | O
 gotten O
@@ -52565,7 +52565,7 @@ notions O
 into O
 your O
 head O
-; O
+  O
 |
 | O
 they O
@@ -52684,7 +52684,7 @@ a O
 | O
 severe O
 judge O
-; O
+  O
 she O
 , O
 listening O
@@ -52713,14 +52713,14 @@ the O
 | O
 sympathy O
 of O
-Job O
+Job B-ORG
 . O
 Mary B-PERSON
 knew O
 herself O
 to O
 blame O
-; O
+  O
 felt O
 her O
 errors O
@@ -52732,7 +52732,7 @@ fibre O
 of O
 her O
 heart O
-; O
+  O
 but O
 yet O
 she O
@@ -52778,13 +52778,13 @@ morning I-TIME
 
 | O
 “ O
-Here B-WORK_OF_ART
-’s I-WORK_OF_ART
-Mary I-WORK_OF_ART
+Here O
+’s O
+Mary B-PERSON
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 almost O
 as O
@@ -52833,12 +52833,12 @@ self O
 to O
 - O
 day O
-; O
+  O
 and O
 she O
 looks O
 as O
-wan O
+wan B-PERSON
 and O
 pale O
 as O
@@ -52849,7 +52849,7 @@ ghost O
 |
 
 | O
-Tt B-PRODUCT
+Tt O
 was O
 calling O
 out O
@@ -52911,8 +52911,8 @@ she O
 had O
 used O
 in O
-the O
-morning O
+the B-TIME
+morning I-TIME
 . O
 |
 
@@ -52922,10 +52922,10 @@ Nay O
 , O
 Mary B-PERSON
 , O
-thou B-PERSON
-know’st I-PERSON
-thou I-PERSON
-’ I-PERSON
+thou O
+know’st O
+thou O
+’ O
 st O
 getten O
 nought O
@@ -52981,7 +52981,7 @@ ate O
 their O
 dinner O
 quietly O
-; O
+  O
 for O
 to O
 all O
@@ -53018,7 +53018,7 @@ the O
 meal O
 was O
 ended O
-Job B-PERSON
+Job O
 began O
 again O
 on O
@@ -53135,7 +53135,7 @@ my O
 trust O
 in O
 Him O
-; O
+  O
 for O
 I O
 ’m O
@@ -53201,7 +53201,7 @@ to O
 love O
 her O
 again O
-; O
+  O
 to O
 see O
 in O
@@ -53262,14 +53262,14 @@ know O
 the O
 name O
 of O
-Will B-PERSON
+Will O
 ’s O
 vessel O
 — O
-the O
-John B-PERSON
-Cropper I-PERSON
-; O
+the B-LOC
+John I-LOC
+Cropper I-LOC
+  O
 |
 | O
 and O
@@ -53301,7 +53301,7 @@ where O
 he O
 lodges O
 in O
-Liver- O
+Liver- B-ORG
 |
 | O
 pool O
@@ -53318,7 +53318,7 @@ good O
 , O
 trustworthy O
 woman O
-; O
+  O
 |
 | O
 but O
@@ -53377,7 +53377,7 @@ and O
 | O
 Will O
 together O
-; O
+  O
 she O
 asked O
 her O
@@ -53467,7 +53467,7 @@ go O
 | O
 to O
 sea O
-; O
+  O
 she O
 is O
 a O
@@ -53498,7 +53498,7 @@ prayers O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 . O
 “ O
 It O
@@ -53532,7 +53532,7 @@ happy O
 or O
 very O
 sorry O
-; O
+  O
 I O
 ’ve O
 catched O
@@ -53562,7 +53562,7 @@ day O
 for O
 an O
 out O
-; O
+  O
 but O
 I O
 can O
@@ -53640,7 +53640,7 @@ insect O
 and O
 a O
 good O
-kind.o’chap B-PERSON
+kind.o’chap B-ORG
 . O
 He O
 and O
@@ -53668,7 +53668,7 @@ moment O
 “ O
 Oh O
 . O
-speaix O
+speaix B-PERSON
 ’ O
 Margaret B-PERSON
 , O
@@ -53691,7 +53691,7 @@ about O
 law O
 . O
 or O
-elibis O
+elibis B-PERSON
 . O
 ” O
 replied O
@@ -53706,7 +53706,7 @@ but O
 Mary B-PERSON
 . O
 as O
-grandiather O
+grandiather B-PERSON
 says O
 , O
 are O
@@ -53722,7 +53722,7 @@ what O
 Jane B-PERSON
 Wilson I-PERSON
 has O
-toid O
+toid B-ORG
 vou O
 about O
 his O
@@ -53753,7 +53753,7 @@ and O
 watching O
 , O
 and O
-overmach O
+overmach B-GPE
 trouble O
 : O
 and O
@@ -53764,7 +53764,7 @@ wonder O
 Or O
 |
 | O
-Jem B-PERSON
+Jem O
 may O
 have O
 told O
@@ -53783,7 +53783,7 @@ blind O
 |
 
 | O
-~You O
+~You B-PERSON
 do O
 n't O
 know O
@@ -53863,7 +53863,7 @@ absent O
 |
 | O
 from O
-bome O
+bome B-FAC
 at O
 that O
 very O
@@ -53892,7 +53892,7 @@ called O
 on O
 to O
 prove O
-; O
+  O
 and O
 there O
 ’s O
@@ -53982,10 +53982,10 @@ Ican O
 prove O
 it O
 . O
-Blonday B-TIME
+Blonday O
 |
-| I-TIME
-morning I-TIME
+| O
+morning O
 I O
 ‘ O
 ll O
@@ -54014,7 +54014,7 @@ I O
 will O
 find O
 Will O
-; O
+  O
 and O
 then O
 , O
@@ -54090,7 +54090,7 @@ for O
 sucking O
 up O
 money O
-; O
+  O
 |
 | O
 let O
@@ -54148,12 +54148,12 @@ it O
 to O
 |
 | O
-Jem B-PERSON
+Jem O
 , O
 not O
 to O
 you O
-; O
+  O
 it O
 ’s O
 for O
@@ -54173,12 +54173,12 @@ it O
 “ O
 Iknow O
 — O
-Isee O
+Isee B-NORP
 . O
 Thank O
 you O
 Margaret B-PERSON
-; O
+  O
 you O
 ’re O
 a O
@@ -54196,7 +54196,7 @@ take O
 it O
 for O
 Jem B-PERSON
-; O
+  O
 and O
 I O
 'll O
@@ -54215,7 +54215,7 @@ Not O
 all O
 , O
 though O
-; O
+  O
 do O
 n’t O
 think O
@@ -54323,7 +54323,7 @@ not O
 Mr. O
 Cheshire B-PERSON
 though O
-; O
+  O
 trials O
 for O
 murder O
@@ -54351,7 +54351,7 @@ to O
 another O
 ’ O
 torney O
-; O
+  O
 a O
 |
 | O
@@ -54365,7 +54365,7 @@ much O
 of O
 a O
 talker O
-; O
+  O
 I O
 could O
 hardly O
@@ -54396,7 +54396,7 @@ points O
 again O
 to O
 him O
-; O
+  O
 may O
 be O
 you O
@@ -54427,7 +54427,7 @@ was O
 pressed O
 for O
 time O
-; O
+  O
 and O
 he O
 said O
@@ -54510,13 +54510,13 @@ two B-TIME
 | I-TIME
 o'clock I-TIME
 . O
-Thou’rt O
+Thou’rt B-CARDINAL
 taking O
 it O
 in O
 , O
 Mary B-PERSON
-; O
+  O
 thou’rt O
 to O
 call O
@@ -54527,16 +54527,16 @@ in O
 | O
 Liverpool B-GPE
 at O
-two B-TIME
-, I-TIME
-Monday I-TIME
-afternoon I-TIME
+two B-DATE
+, I-DATE
+Monday I-DATE
+afternoon B-TIME
 ? O
 ” O
 |
 
 | O
-Job B-LOC
+Job O
 had O
 reason O
 to O
@@ -54546,13 +54546,13 @@ she O
 fully O
 understood O
 him O
-; O
+  O
 for O
 all O
 |
 | O
-this O
-minuteness O
+this B-TIME
+minuteness I-TIME
 of O
 detail O
 , O
@@ -54663,7 +54663,7 @@ would O
 see O
 and O
 question O
-Jem B-PERSON
+Jem O
 ina O
 |
 | O
@@ -54689,7 +54689,7 @@ day I-DATE
 after O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 and O
 on O
@@ -54707,7 +54707,7 @@ realities O
 to O
 her O
 lover O
-; O
+  O
 or O
 else O
 |
@@ -54741,12 +54741,12 @@ again O
 | O
 “ O
 Monday B-DATE
-; O
+  O
 at O
 two B-TIME
 o'clock I-TIME
 mind O
-; O
+  O
 and O
 here O
 ’s O
@@ -54757,12 +54757,12 @@ card O
 Mr. O
 |
 | O
-Bridgenorth B-ORG
+Bridgenorth O
 , O
-41 B-CARDINAL
+41 B-DATE
 , O
-Renshaw B-ORG
-Street I-ORG
+Renshaw B-FAC
+Street I-FAC
 , O
 Liverpool B-GPE
 . O
@@ -54779,7 +54779,7 @@ there O
 |
 
 | O
-Job B-PERSON
+Job O
 ceased O
 talking O
 , O
@@ -54805,7 +54805,7 @@ very O
 kind O
 , O
 Job O
-; O
+  O
 very O
 . O
 You O
@@ -54833,7 +54833,7 @@ Pooh O
 pooh O
 ! O
 wench O
-; O
+  O
 do O
 n’t O
 lose O
@@ -54900,7 +54900,7 @@ chair O
 as O
 Mary B-PERSON
 entered O
-; O
+  O
 so O
 |
 | O
@@ -54934,8 +54934,8 @@ looked O
 very O
 pale O
 and O
-wan O
-; O
+wan B-PERSON
+  O
 but O
 the O
 quietness O
@@ -54992,7 +54992,7 @@ it O
 ‘ O
 Mrs O
 , O
-Davenport B-GPE
+Davenport B-PERSON
 , O
 who O
 was O
@@ -55001,7 +55001,7 @@ there O
 plucked O
 Mary B-PERSON
 by O
-the’gown O
+the’gown B-ORG
 , O
 |
 | O
@@ -55015,7 +55015,7 @@ whispered O
 Never O
 heed O
 her O
-; O
+  O
 she O
 ’s O
 worn O
@@ -55056,10 +55056,10 @@ look O
 with O
 which O
 Mrs. O
-Wil- O
+Wil- B-PERSON
 |
-| O
-son O
+| I-PERSON
+son I-PERSON
 gazed O
 at O
 her O
@@ -55149,7 +55149,7 @@ heart O
 sickened O
 within O
 her O
-; O
+  O
 and O
 she O
 could O
@@ -55245,12 +55245,12 @@ belike O
 |
 | O
 was O
-notin O
+notin B-PERSON
 when O
 they O
 sarved O
 it O
-; O
+  O
 but O
 Mrs. O
 Heming B-PERSON
@@ -55306,7 +55306,7 @@ swear O
 to O
 the O
 gun O
-; O
+  O
 for O
 yo O
 |
@@ -55315,9 +55315,9 @@ see O
 , O
 there O
 ’s O
-nobbut O
-® O
-her O
+nobbut B-ORG
+® I-ORG
+her I-ORG
 as O
 can O
 testify O
@@ -55356,7 +55356,7 @@ now O
 . O
 Poor O
 body O
-; O
+  O
 she O
 takes O
 it O
@@ -55433,7 +55433,7 @@ sone O
 — O
 Wiclif B-PERSON
 's O
-Version B-ORG
+Version O
 : O
 |
 
@@ -55470,8 +55470,8 @@ intended O
 to O
 keep O
 vigil O
-that O
-night O
+that B-TIME
+night I-TIME
 in O
 ’ O
 the O
@@ -55518,7 +55518,7 @@ little O
 pallet O
 - O
 bed O
-; O
+  O
 |
 | O
 and O
@@ -55576,7 +55576,7 @@ me O
 what O
 itis O
 . O
-Whatisit B-PERSON
+Whatisit O
 ? O
 ” O
 |
@@ -55665,22 +55665,22 @@ up O
 | O
 She O
 dreaded O
-the O
-night O
+the B-TIME
+night I-TIME
 before O
 her O
 . O
 Alice B-PERSON
 might O
 die O
-; O
+  O
 the O
 doctor O
 |
 | O
 had O
-that O
-day O
+that B-DATE
+day I-DATE
 declared O
 her O
 case O
@@ -55691,7 +55691,7 @@ not O
 far O
 from O
 death O
-; O
+  O
 |
 | O
 and O
@@ -55722,7 +55722,7 @@ dead O
 came O
 over O
 Mary B-PERSON
-; O
+  O
 and O
 she O
 bent O
@@ -55751,7 +55751,7 @@ Alice B-PERSON
 | O
 OrMrs B-ORG
 . O
-Wilson B-ORG
+Wilson B-PERSON
 might O
 awake O
 in O
@@ -55770,7 +55770,7 @@ anticipated O
 while O
 she O
 dreaded O
-; O
+  O
 — O
 in O
 a O
@@ -55835,7 +55835,7 @@ Mrs. O
 Heming B-PERSON
 had O
 given O
-; O
+  O
 and O
 |
 | O
@@ -56109,7 +56109,7 @@ too O
 appeared O
 sleeping O
 soundly O
-; O
+  O
 |
 | O
 but O
@@ -56255,7 +56255,7 @@ every O
 thing O
 this B-TIME
 morning I-TIME
-; O
+  O
 it O
 was O
 |
@@ -56278,8 +56278,8 @@ fected O
 her O
 so O
 much O
-last B-TIME
-night I-TIME
+last O
+night O
 in O
 her O
 weak O
@@ -56342,8 +56342,8 @@ stood O
 by O
 Alice B-PERSON
 |
-| O
-for O
+| I-PERSON
+for I-PERSON
 a B-TIME
 minute I-TIME
 or O
@@ -56473,8 +56473,8 @@ to O
 Mr. O
 |
 | O
-Bridgenorth B-ORG
-; O
+Bridgenorth O
+  O
 all O
 her O
 own O
@@ -56483,13 +56483,13 @@ for O
 seeking O
 out O
 Will O
-; O
+  O
 all O
 her O
 |
 | O
 hopes O
-; O
+  O
 and O
 concealed O
 as O
@@ -56545,7 +56545,7 @@ Oh O
 | O
 wench O
 ! O
-Iam B-PERSON
+Iam O
 his O
 mother O
 , O
@@ -56579,8 +56579,8 @@ as O
 sees O
 its O
 , O
-mammy O
-ill O
+mammy B-ORG
+ill I-ORG
 , O
 |
 
@@ -56593,7 +56593,7 @@ ill O
 | O
 his O
 profession O
-; O
+  O
 for O
 it O
 was O
@@ -56648,7 +56648,7 @@ patient O
 friend O
 ( O
 and O
-Mary’s B-ORG
+Mary’s O
 - O
 sad O
 , O
@@ -56905,7 +56905,7 @@ to O
 | O
 “ O
 take O
-one O
+one B-CARDINAL
 side O
 in O
 his O
@@ -56929,7 +56929,7 @@ favourable O
 verdict O
 or O
 otherwise O
-; O
+  O
 but O
 . O
 |
@@ -56959,7 +56959,7 @@ is O
 weak O
 , O
 certainly O
-; O
+  O
 the O
 natural O
 result O
@@ -57089,7 +57089,7 @@ I O
 ’m O
 not O
 very O
-correctin O
+correctin B-PERSON
 my O
 story O
 . O
@@ -57101,7 +57101,7 @@ say O
 he O
 ’s O
 innocent O
-; O
+  O
 I O
 ’m O
 sure O
@@ -57147,15 +57147,15 @@ next O
 |
 | O
 room O
-; O
+  O
 — O
 weak O
 — O
 certainly O
-; O
+  O
 but O
 a O
-day B-DATE
+day O
 or O
 two B-CARDINAL
 's O
@@ -57209,7 +57209,7 @@ she O
 | O
 was O
 herself O
-; O
+  O
 for O
 indeed O
 she O
@@ -57246,7 +57246,7 @@ Presently O
 she O
 went O
 to O
-Job B-PERSON
+Job O
 ( O
 the O
 ever O
@@ -57348,7 +57348,7 @@ so O
 , O
 at O
 least O
-; O
+  O
 and O
 to O
 - O
@@ -57379,7 +57379,7 @@ for O
 Jem B-PERSON
 ’s O
 sake O
-; O
+  O
 and O
 |
 | O
@@ -57413,8 +57413,8 @@ doctor O
 's O
 advice O
 . O
-Yo B-PERSON
-tarry I-PERSON
+Yo O
+tarry O
 |
 | O
 at O
@@ -57425,9 +57425,9 @@ come O
 to O
 yo O
 in O
-an O
-hour B-TIME
-'s O
+an B-TIME
+hour I-TIME
+'s I-TIME
 time O
 . O
 Go O
@@ -57442,8 +57442,8 @@ wench O
 |
 
 | O
-CHAPTER B-LAW
-XXV I-LAW
+CHAPTER O
+XXV O
 . O
 |
 | O
@@ -57461,7 +57461,7 @@ say O
 , O
 |
 | O
-Clouds B-ORG
+Clouds O
 lightly O
 passing O
 on O
@@ -57571,7 +57571,7 @@ still O
 by O
 an O
 effort O
-; O
+  O
 sitting O
 near O
 the O
@@ -57664,7 +57664,7 @@ curious O
 to O
 see O
 Mary B-PERSON
-; O
+  O
 her O
 connexion O
 with O
@@ -57716,7 +57716,7 @@ her O
 . O
 But O
 Mary B-PERSON
-* I-PERSON
+* O
 |
 | O
 had O
@@ -57738,7 +57738,7 @@ this O
  
 
 | O
-Cranne B-PERSON
+Cranne B-PRODUCT
 . O
 |
 
@@ -57779,7 +57779,7 @@ than O
 |
 | O
 otherwise O
-; O
+  O
 and O
 dearly O
 now O
@@ -57841,7 +57841,7 @@ answer O
 
 | O
 “ O
-Lal B-PERSON
+Lal O
 ! O
 what O
 impudent O
@@ -57988,7 +57988,7 @@ colour O
 suits O
 you O
 . O
-Nowmind O
+Nowmind B-PERSON
 , O
 Mary B-PERSON
 . O
@@ -58065,7 +58065,7 @@ bring O
 it O
 to O
 - O
-morrow O
+morrow B-DATE
 before O
 you O
 start O
@@ -58083,7 +58083,7 @@ n't O
 ” O
 said O
 Mary B-PERSON
-; O
+  O
 “ O
 thank O
 you O
@@ -58111,10 +58111,10 @@ know O
 all O
 your O
 clothes O
-as.well O
+as.well B-ORG
 |
-| O
-asI O
+| I-ORG
+asI I-ORG
 do O
 my O
 own O
@@ -58199,7 +58199,7 @@ a O
 that O
 - O
 ns O
-; O
+  O
 _ O
 how O
 can O
@@ -58239,7 +58239,7 @@ girl O
 ! O
 It O
 ’s O
-Jem B-PERSON
+Jem O
 , O
 isit O
 ? O
@@ -58383,7 +58383,7 @@ I O
 ’ve O
 seen O
 Mr. O
-Bridge- B-PERSON
+Bridge- O
 |
 | O
 north O
@@ -58400,7 +58400,7 @@ same O
 mind O
 as O
 we O
-; O
+  O
 he O
 thinks O
 it O
@@ -58424,9 +58424,9 @@ lad O
 on O
 his O
 trial O
-; O
+  O
 still O
-if'she B-ORG
+if'she O
 ’s O
 ill O
 she O
@@ -58542,7 +58542,7 @@ other O
 ” O
 ’ O
 replied O
-Job B-PERSON
+Job O
 , O
 whose O
 contempt O
@@ -58636,7 +58636,7 @@ particular O
 employment O
 going O
 on O
-; O
+  O
 people O
 watching O
 and O
@@ -58658,7 +58658,7 @@ violent O
 |
 | O
 attacks O
-; O
+  O
 what O
 little O
 movement O
@@ -58672,7 +58672,7 @@ and O
 |
 | O
 hushed O
-; O
+  O
 the O
 furniture O
 all O
@@ -58691,7 +58691,7 @@ comfort O
 of O
 the O
 afflicted O
-; O
+  O
 the O
 window O
 - O
@@ -58712,7 +58712,7 @@ a O
 sun O
 - O
 beam O
-; O
+  O
 the O
 same O
 sad- O
@@ -58793,8 +58793,8 @@ left O
 on O
 her O
 face O
-; O
-Mrs.!Davenport B-FAC
+  O
+Mrs.!Davenport B-ORG
 went O
 about O
 with O
@@ -58880,7 +58880,7 @@ with O
 her O
 unseen O
 companions O
-; O
+  O
 “ O
 unseen O
 , O
@@ -58993,11 +58993,11 @@ can O
 see O
 his O
 face O
-; O
+  O
 for O
 maybe O
-the O
-minutes O
+the B-TIME
+minutes I-TIME
 are O
 numbered O
 , O
@@ -59009,7 +59009,7 @@ count O
 but O
 small O
 . O
-IknowI O
+IknowI B-ORG
 can O
 be O
 a O
@@ -59059,7 +59059,7 @@ a O
 |
 | O
 bit O
-; O
+  O
 and O
 I O
 am O
@@ -59068,7 +59068,7 @@ leave O
 him O
 now O
 to O
-dree O
+dree B-ORG
 all O
 the O
 cruel O
@@ -59103,7 +59103,7 @@ can O
 do O
 nought O
 else O
-; O
+  O
 and O
 he O
 ’ll O
@@ -59191,7 +59191,7 @@ never O
 | O
 guide O
 me O
-; O
+  O
 and O
 he O
 'd O
@@ -59221,7 +59221,7 @@ to O
 Liverpool B-GPE
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 and O
 find O
@@ -59238,7 +59238,7 @@ through O
 thick O
 and O
 thin O
-; O
+  O
 and O
 if O
 he O
@@ -59295,7 +59295,7 @@ effort O
 she O
 had O
 made O
-; O
+  O
 but O
 if O
 they O
@@ -59356,7 +59356,7 @@ un- O
 |
 | O
 decided O
-; O
+  O
 Mr. O
 Bridgenorth B-PERSON
 had O
@@ -59417,7 +59417,7 @@ be O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 “ O
 for O
@@ -59432,8 +59432,8 @@ early O
 | O
 to O
 - O
-morrow O
-morning O
+morrow B-DATE
+morning B-TIME
 , O
 and O
 yo O
@@ -59488,7 +59488,7 @@ Bridgenorth B-PERSON
 at O
 two B-TIME
 o’clock I-TIME
-; O
+  O
 for O
 , O
 I O
@@ -59533,7 +59533,7 @@ disliked O
 this O
 plan O
 inexpressibly O
-; O
+  O
 her O
 dislike O
 was O
@@ -59664,7 +59664,7 @@ a O
 few O
 dissenting O
 grants O
-; O
+  O
 but O
 on O
 the O
@@ -59692,7 +59692,7 @@ only B-TIME
 a I-TIME
 few I-TIME
 minutes I-TIME
-bofore O
+bofore B-PERSON
 . O
 |
 
@@ -59750,7 +59750,7 @@ child O
 - O
 like O
 gesture O
-; O
+  O
 and O
 when O
 she O
@@ -59798,7 +59798,7 @@ been O
 a O
 child O
 of O
-bis O
+bis B-ORG
 own O
 . O
 |
@@ -59806,7 +59806,7 @@ own O
 | O
 ‘ O
 To O
-Mary B-PERSON
+Mary O
 the O
 old O
 man O
@@ -59821,8 +59821,8 @@ power O
 |
 
 | O
-CHAPTER B-LAW
-XXVI I-LAW
+CHAPTER O
+XXVI O
 . O
 |
 
@@ -59842,7 +59842,7 @@ is O
 floating O
 over O
 death O
-; O
+  O
 |
 | O
 Above O
@@ -59877,7 +59877,7 @@ a O
 plank O
 most O
 frail O
-; O
+  O
 |
 | O
 Tossed O
@@ -59918,7 +59918,7 @@ sea O
 , O
 |
 | O
-Shipwreck B-GPE
+Shipwreck O
 yet O
 has O
 he O
@@ -59936,7 +59936,7 @@ will O
 be O
 . O
 ” O
-Ricmenr O
+Ricmenr B-PERSON
 . O
 |
 
@@ -59977,7 +59977,7 @@ all O
 going O
 to O
 the O
-Assizes B-PRODUCT
+Assizes O
 . O
 ‘ O
 They O
@@ -59999,7 +59999,7 @@ stirring O
 at O
 his O
 heart O
-; O
+  O
 |
 | O
 though O
@@ -60028,7 +60028,7 @@ same O
 predicament O
 through O
 life O
-; O
+  O
 each O
 with O
 a O
@@ -60187,9 +60187,9 @@ crowded O
 
 | O
 “ O
-Ay O
-, O
-ay O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
 , O
 the O
 ladies O
@@ -60283,7 +60283,7 @@ to O
 Mary B-PERSON
 's O
 cup O
-; O
+  O
 but O
 she O
 was O
@@ -60294,7 +60294,7 @@ in O
 that O
 state O
 which O
-Crabbe B-ORG
+Crabbe B-PERSON
 describes O
 , O
 |
@@ -60312,7 +60312,7 @@ cup O
 of O
 sorrows O
 flows O
-7 O
+7 B-CARDINAL
 |
 
 | O
@@ -60348,7 +60348,7 @@ in O
 |
 | O
 Liverpool B-GPE
-; O
+  O
 and O
 she O
 must O
@@ -60369,7 +60369,7 @@ was O
 creeping O
 over O
 her O
-; O
+  O
 the O
 result O
 of O
@@ -60438,7 +60438,7 @@ not O
 far O
 from O
 the O
-Docks B-ORG
+Docks O
 . O
 |
 
@@ -60490,7 +60490,7 @@ had O
 until O
 now O
 , O
-for- O
+for- B-CARDINAL
 |
 | O
 bidden O
@@ -60566,7 +60566,7 @@ inten- O
 |
 | O
 tion O
-; O
+  O
 and O
 that O
 he O
@@ -60603,7 +60603,7 @@ must O
 know O
 the O
 truth O
-; O
+  O
 so O
 taking O
 |
@@ -60683,9 +60683,9 @@ dear O
 ! O
 sailed O
 in O
-the B-FAC
-John I-FAC
-Cropper I-FAC
+the B-LOC
+John I-LOC
+Cropper I-LOC
 this O
 very O
 |
@@ -60710,7 +60710,7 @@ XXVII O
 |
 | O
 “ O
-Yon O
+Yon B-PERSON
 is O
 your O
 quay O
@@ -60732,11 +60732,11 @@ Bounded B-ORG
 and O
 narrowed O
 by O
-yon B-ORG
-vessel I-ORG
-'s I-ORG
+yon O
+vessel O
+'s O
 load O
-; O
+  O
 |
 | O
 ‘ O
@@ -60750,11 +60750,11 @@ place O
 , O
 |
 | O
-Package B-WORK_OF_ART
+Package O
 and O
 parcel O
 , O
-hogshead O
+hogshead B-GPE
 , O
 cbest O
 , O
@@ -60785,7 +60785,7 @@ the O
 wind O
 . O
 ” O
-Cranne B-PERSON
+Cranne B-PRODUCT
 . O
 |
 | O
@@ -61039,7 +61039,7 @@ out O
 of O
 my O
 senses O
-; O
+  O
 there O
 is O
 so O
@@ -61106,7 +61106,7 @@ not O
 | O
 yet O
 . O
-Nol O
+Nol B-PERSON
 ” O
 ( O
 bracing O
@@ -61124,7 +61124,7 @@ done O
 and O
 |
 | O
-Imust O
+Imust B-ORG
 do O
 it O
 . O
@@ -61137,8 +61137,8 @@ say O
 The B-PERSON
 John I-PERSON
 Cropper I-PERSON
-? O
-Sailed O
+? I-PERSON
+Sailed I-PERSON
 ? O
 ” O
 ’ O
@@ -61160,10 +61160,10 @@ to O
 be O
 ready O
 for O
-the B-TIME
+the O
 |
-| I-TIME
-morning I-TIME
+| O
+morning B-TIME
 ’s O
 tide O
 . O
@@ -61181,7 +61181,7 @@ sail O
 till O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 ” O
 murmured O
@@ -61203,7 +61203,7 @@ once O
 in O
 the O
 case O
-; O
+  O
 “ O
 let O
 's O
@@ -61259,7 +61259,7 @@ say O
 he O
 ’s O
 sailed O
-; O
+  O
 what O
 |
 | O
@@ -61297,7 +61297,7 @@ say O
 he O
 ’d O
 sailed O
-; O
+  O
 mother O
 said O
 that O
@@ -61377,7 +61377,7 @@ at O
 high O
 - O
 water O
-; O
+  O
 especially O
 ships O
 of O
@@ -61387,10 +61387,10 @@ burden O
 like O
 |
 | O
-the B-PERSON
-John I-PERSON
-Cropper I-PERSON
-. I-PERSON
+the B-ORG
+John I-ORG
+Cropper I-ORG
+. O
 Now O
 , O
 she O
@@ -61530,7 +61530,7 @@ relating O
 to O
 the O
 sea O
-; O
+  O
 — O
 you O
 must O
@@ -61575,7 +61575,7 @@ It O
 just O
 a O
 chance O
-; O
+  O
 but O
 she O
 ’s O
@@ -61594,8 +61594,8 @@ favour O
 She O
 ’ll O
 draw O
-many O
-feet O
+many B-QUANTITY
+feet I-QUANTITY
 of O
 water O
 . O
@@ -61625,7 +61625,7 @@ Sir O
 Oracle B-PERSON
 ’s O
 speech O
-; O
+  O
 but O
 try O
 as O
@@ -61749,7 +61749,7 @@ Boat O
 stands O
 ! O
 No O
-; O
+  O
 |
 | O
 go O
@@ -62029,7 +62029,7 @@ back O
 , O
 you O
 know O
-; O
+  O
 |
 | O
 only O
@@ -62077,7 +62077,7 @@ I O
 ’ll O
 be O
 bound O
-; O
+  O
 and O
 if O
 it O
@@ -62169,7 +62169,7 @@ from O
 
 | O
 “ O
-Manchester B-WORK_OF_ART
+Manchester B-ORG
 , O
 ” O
 replied O
@@ -62193,7 +62193,7 @@ things O
 to O
 see O
 . O
-Liverpool B-ORG
+Liverpool B-GPE
 |
 | O
 beats O
@@ -62370,7 +62370,7 @@ comforts O
 or O
 their O
 luxuries O
-; O
+  O
 she O
 saw O
 small O
@@ -62380,7 +62380,7 @@ to O
 |
 | O
 and O
-fro O
+fro B-ORG
 on O
 that O
 glittering O
@@ -62422,7 +62422,7 @@ right O
 | O
 and O
 left O
-; O
+  O
 addressing O
 this O
 old O
@@ -62500,7 +62500,7 @@ listen O
 attentively O
 to O
 Charley B-PERSON
-; O
+  O
 she O
 saw O
 |
@@ -62602,7 +62602,7 @@ affright O
 , O
 clutching O
 at O
-Charley B-ORG
+Charley B-PERSON
 ’s O
 |
 | O
@@ -62700,7 +62700,7 @@ and O
 many O
 a O
 time O
-; O
+  O
 only O
 do O
 n’t O
@@ -62727,7 +62727,7 @@ mind O
 to O
 bea O
 sailor O
-; O
+  O
 only O
 |
 | O
@@ -62789,7 +62789,7 @@ he O
 ’s O
 coming O
 down O
-; O
+  O
 |
 | O
 he’sdown O
@@ -62836,9 +62836,9 @@ yet O
 
 | O
 “ O
-Ay O
-, O
-ay O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
 , O
 ” O
 he O
@@ -62993,19 +62993,19 @@ while O
  
 
 | O
-318 B-CARDINAL
+318 B-QUANTITY
 |
 
-| O
-CHAPTER B-LAW
-XXVIII O
+| I-QUANTITY
+CHAPTER I-QUANTITY
+XXVIII I-QUANTITY
 . O
 |
 
 | O
 “ O
 A O
-wel B-PERSON
+wel B-ORG
 sheet O
 and O
 a O
@@ -63076,14 +63076,14 @@ tnd O
 leaves O
 |
 | O
-Old B-LOC
-England I-LOC
+Old O
+England O
 on O
 the O
 lee O
 . O
 ” O
-ALLAN B-ORG
+ALLAN O
 ConNINGHAM O
 . O
 |
@@ -63104,7 +63104,7 @@ with O
 her O
 . O
 In O
-fact,-she O
+fact,-she B-DATE
 had O
 not O
 thought O
@@ -63218,8 +63218,8 @@ overshadowed O
 |
 | O
 by O
-a O
-third B-ORDINAL
+a B-CARDINAL
+third I-CARDINAL
 , O
 until O
 at O
@@ -63239,7 +63239,7 @@ away O
 from O
 either O
 shore O
-; O
+  O
 the O
 sights O
 , O
@@ -63293,7 +63293,7 @@ little O
 way O
 . O
 Once O
-Mary O
+Mary B-PERSON
 in O
 her O
 im- O
@@ -63341,7 +63341,7 @@ her O
 seat O
 like O
 a O
-chidden O
+chidden B-GPE
 child O
 , O
 |
@@ -63451,7 +63451,7 @@ and O
 object O
 of O
 overtaking O
-Will O
+Will B-PERSON
 . O
 |
 
@@ -63459,7 +63459,7 @@ Will O
 ‘ O
 They O
 answered O
-grufily O
+grufily B-PERSON
 . O
 They O
 saw O
@@ -63551,11 +63551,11 @@ in O
 the O
 keen O
 , O
-gusty O
-east O
+gusty B-LOC
+east I-LOC
 |
-| O
-wind O
+| I-LOC
+wind I-LOC
 which O
 was O
 now O
@@ -63583,7 +63583,7 @@ her O
 |
 | O
 strength O
-; O
+  O
 but O
 she O
 sped O
@@ -63717,7 +63717,7 @@ aboard O
 the O
 larger O
 craft O
-; O
+  O
 but O
 they O
 |
@@ -63760,7 +63760,7 @@ over O
 at O
 every O
 turn O
-; O
+  O
 there O
 |
 | O
@@ -63816,7 +63816,7 @@ like O
 mutton O
 and O
 pork O
-; O
+  O
 |
 | O
 there O
@@ -63868,7 +63868,7 @@ duties O
 on O
 board O
 ship O
-; O
+  O
 while O
 the O
 captain O
@@ -64089,7 +64089,7 @@ with O
 | O
 many O
 comments O
-; O
+  O
 while O
 Mary B-PERSON
 looked O
@@ -64217,7 +64217,7 @@ homeward O
 - O
 bound O
 vessels O
-; O
+  O
 |
 | O
 others O
@@ -64266,9 +64266,9 @@ perhaps O
 the O
 pitot O
 aboard O
-the O
-John B-PERSON
-Cropper I-PERSON
+the B-PRODUCT
+John I-PRODUCT
+Cropper I-PRODUCT
 would O
 not O
 care O
@@ -64307,9 +64307,9 @@ varying O
 from O
 twelve B-TIME
 hours I-TIME
-to O
-two B-DATE
-days I-DATE
+to I-TIME
+two O
+days O
 . O
 Nay O
 , O
@@ -64372,7 +64372,7 @@ disputing O
 and O
 urging O
 reasons O
-; O
+  O
 and O
 Mary B-PERSON
 tried O
@@ -64381,7 +64381,7 @@ tried O
 to O
 understand O
 them O
-; O
+  O
 but O
 independently O
 of O
@@ -64451,7 +64451,7 @@ meant O
 ‘ O
 One B-CARDINAL
 by O
-one B-CARDINAL
+one O
 her O
 hopes O
 had O
@@ -64462,7 +64462,7 @@ and O
 left O
 her O
 desolate O
-; O
+  O
 |
 | O
 and O
@@ -64528,7 +64528,7 @@ waters O
 | O
 below O
 , O
-ofa O
+ofa B-ORG
 still O
 heavier O
 shade O
@@ -64680,7 +64680,7 @@ saying O
 
 | O
 “ O
-T’ve O
+T’ve B-ORG
 a O
 card O
 somewhere O
@@ -64759,9 +64759,9 @@ at O
 | O
 two B-TIME
 o’clock I-TIME
-; O
+  O
 where O
-Job B-LOC
+Job O
 and O
 Mrs. O
 Wilson B-PERSON
@@ -64930,8 +64930,8 @@ help O
 herself O
 , O
 though O
-every O
-minute O
+every B-TIME
+minute I-TIME
 |
 
 | O
@@ -64957,7 +64957,7 @@ but O
 she O
 could O
 not O
-; O
+  O
 name O
 , O
 street O
@@ -64975,7 +64975,7 @@ it O
 did O
 not O
 signify O
-; O
+  O
 better O
 she O
 were O
@@ -65028,7 +65028,7 @@ shadows O
 of O
 her O
 brain O
-; O
+  O
 a O
 |
 | O
@@ -65067,7 +65067,7 @@ for O
 two B-CARDINAL
 consecutive O
 moments O
-; O
+  O
 and O
 she O
 forgot O
@@ -65121,7 +65121,7 @@ subjected O
 |
 | O
 ance O
-; O
+  O
 he O
 was O
 more O
@@ -65132,7 +65132,7 @@ the O
 result O
 of O
 Mr. O
-Bridge- B-PERSON
+Bridge- O
 |
 | O
 north O
@@ -65186,7 +65186,7 @@ impracticable O
 — O
 very O
 . O
-Itoldhim O
+Itoldhim B-GPE
 , O
 of O
 course O
@@ -65243,7 +65243,7 @@ say O
 ? O
 ” O
 asked O
-Job B-PERSON
+Job O
 , O
 breathlessly O
 . O
@@ -65304,7 +65304,7 @@ Sir O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 despondingly O
 . O
@@ -65351,7 +65351,7 @@ mind O
 tis O
 only O
 impression O
-; O
+  O
 I O
 rely O
 upon O
@@ -65384,7 +65384,7 @@ he O
 |
 | O
 gave O
-meis O
+meis B-PERSON
 , O
 that O
 he O
@@ -65403,7 +65403,7 @@ he O
 will O
 not O
 say O
-; O
+  O
 and O
 so O
 , O
@@ -65460,7 +65460,7 @@ hung O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 with O
 vehemence O
@@ -65510,7 +65510,7 @@ con- O
 |
 | O
 tinued O
-Job B-LOC
+Job O
 . O
 |
 
@@ -65602,7 +65602,7 @@ a O
 |
 | O
 little O
-; O
+  O
 but O
 he O
 said O
@@ -65619,7 +65619,7 @@ make O
 . O
 |
 | O
-Jasked B-GPE
+Jasked B-PERSON
 him O
 if O
 he O
@@ -65627,7 +65627,7 @@ was O
 guilty O
 , O
 then O
-; O
+  O
 and O
 by O
 way O
@@ -65676,7 +65676,7 @@ with O
 that O
 handsome O
 young O
-Carsons O
+Carsons B-PERSON
 |
 | O
 ( O
@@ -65698,12 +65698,12 @@ or O
 | O
 another O
 . O
-Ithen O
+Ithen B-PERSON
 went O
 to O
 particulars O
 . O
-Lasked O
+Lasked B-PERSON
 him O
 if O
 the O
@@ -65734,7 +65734,7 @@ And O
 |
 | O
 yet O
-Job B-PERSON
+Job O
 felt O
 now O
 doubly O
@@ -65765,7 +65765,7 @@ to O
 think O
 |
 | O
-Jem B-PERSON
+Jem O
 innocent O
 . O
 Little O
@@ -65934,7 +65934,7 @@ could O
 not O
 keep O
 still O
-; O
+  O
 and O
 he O
 did O
@@ -66021,7 +66021,7 @@ monotonous O
 | O
 grating O
 sound O
-; O
+  O
 so O
 at O
 last O
@@ -66046,7 +66046,7 @@ and O
 gloves O
 , O
 told O
-Job B-PERSON
+Job O
 he O
 must O
 go O
@@ -66060,16 +66060,16 @@ courts O
 
 | O
 “ O
-But B-WORK_OF_ART
-Will I-WORK_OF_ART
-Wilson I-WORK_OF_ART
+But O
+Will B-PERSON
+Wilson I-PERSON
 is O
 not O
 come O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 in O
 dismay O
@@ -66115,7 +66115,7 @@ miss- O
 ing O
 them O
 . O
-1’ll B-CARDINAL
+1’ll O
 be O
 back O
 in O
@@ -66133,7 +66133,7 @@ my O
 good O
 fellow O
 , O
-Ireally O
+Ireally B-ORG
 must O
 go O
 . O
@@ -66185,7 +66185,7 @@ use O
 of O
 my O
 room O
-; O
+  O
 but O
 I O
 ‘ O
@@ -66214,7 +66214,7 @@ lod- O
 |
 | O
 gings O
-; O
+  O
 shall O
 I O
 ? O
@@ -66301,7 +66301,7 @@ The O
 
 | O
 “ O
-Thou B-PERSON
+Thou O
 shalt O
 do O
 no O
@@ -66356,7 +66356,7 @@ favour O
 of O
 the O
 parent O
-; O
+  O
 although O
 he O
 |
@@ -66370,7 +66370,7 @@ of O
 Charley B-PERSON
 's O
 offer O
-; O
+  O
 for O
 |
 | O
@@ -66465,7 +66465,7 @@ They O
 were O
 river O
 boatmen O
-; O
+  O
 — O
 that O
 ’s O
@@ -66500,7 +66500,7 @@ Job O
 
 | O
 “ O
-Tnever O
+Tnever B-GPE
 took O
 no O
 notice O
@@ -66539,7 +66539,7 @@ from O
 ? O
 ” O
 asked O
-Job B-PERSON
+Job O
 , O
 despairingly O
 . O
@@ -66568,7 +66568,7 @@ Pier O
 she O
 started O
 from O
-; O
+  O
 but O
 she O
 ’ll O
@@ -66612,7 +66612,7 @@ craft O
 . O
 It O
 ’s O
-arough O
+arough B-GPE
 |
 | O
 evening B-TIME
@@ -66654,10 +66654,10 @@ lad O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 sorrowfally O
-; O
+  O
 “ O
 but O
 I O
@@ -66679,7 +66679,7 @@ too,—very O
 . O
 She O
 ’s O
-astranger O
+astranger B-PERSON
 |
 | O
 in O
@@ -66690,7 +66690,7 @@ Liverpool B-GPE
 
 | O
 “ O
-Se O
+Se B-PERSON
 she O
 told O
 me O
@@ -66740,7 +66740,7 @@ that O
 , O
 ” O
 replied O
-Job B-PERSON
+Job O
 , O
 “ O
 I O
@@ -66820,7 +66820,7 @@ Liverpool B-GPE
 . O
 |
 | O
-Missus B-PERSON
+Missus O
 , O
 if O
 she O
@@ -66840,7 +66840,7 @@ her O
 to O
 No O
 . O
-8 O
+8 B-CARDINAL
 , O
 Back B-ORG
 Garden I-ORG
@@ -66940,7 +66940,7 @@ right O
 
 | O
 “ O
-Tt B-PRODUCT
+Tt O
 will O
 all O
 end O
@@ -66949,7 +66949,7 @@ right O
 ” O
 echoed O
 she O
-; O
+  O
 “ O
 but O
 not O
@@ -66960,7 +66960,7 @@ tak’st O
 | O
 it O
 . O
-Jem B-PERSON
+Jem O
 will O
 be O
 hung O
@@ -66977,7 +66977,7 @@ little O
 |
 | O
 lads O
-; O
+  O
 where O
 the O
 Lord O
@@ -67018,7 +67018,7 @@ Eh O
 , O
 Job O
 , O
-yon B-ORG
+yon O
 ’s O
 a O
 blessed O
@@ -67066,7 +67066,7 @@ sleep O
 our O
 last O
 sleep O
-; O
+  O
 nota O
 bit O
 would O
@@ -67121,7 +67121,7 @@ did O
 , O
 ” O
 replied O
-Job B-PERSON
+Job O
 . O
 |
 
@@ -67164,7 +67164,7 @@ sittng O
 waiting O
 , O
 and O
-gotup O
+gotup B-PERSON
 , O
 and O
 |
@@ -67228,9 +67228,9 @@ strength O
 for O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
-Jem B-PERSON
+Jem O
 will O
 be O
 sadly O
@@ -67297,15 +67297,15 @@ bed O
 
 | O
 “ O
-Thou O
-’ O
-rt O
+Thou B-WORK_OF_ART
+’ I-WORK_OF_ART
+rt I-WORK_OF_ART
 a O
 kind O
 friend O
 , O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 , O
 and O
 I O
@@ -67363,7 +67363,7 @@ ay O
 ! O
 ” O
 replied O
-Job B-PERSON
+Job O
 , O
 slipping O
 out O
@@ -67390,7 +67390,7 @@ him O
 |
 | O
 that O
-Will B-PERSON
+Will O
 and O
 Mary B-PERSON
 might O
@@ -67424,7 +67424,7 @@ come O
 in O
 , O
 and O
-Job B-NORP
+Job O
 went O
 breathlessly O
 up O
@@ -67448,7 +67448,7 @@ case O
 
 | O
 “ O
-It’s.a O
+It’s.a B-ORG
 bad O
 job O
 , O
@@ -67476,13 +67476,13 @@ me O
 how O
 it O
 was O
-; O
+  O
 the O
 |
 | O
 woman O
 that O
-Wilson B-ORG
+Wilson B-PERSON
 lodged O
 with O
 told O
@@ -67540,7 +67540,7 @@ out O
 into O
 the O
 street O
-; O
+  O
 and O
 there O
 he O
@@ -67587,7 +67587,7 @@ be O
 |
 | O
 done O
-; O
+  O
 but O
 he O
 loitered O
@@ -67803,7 +67803,7 @@ woman O
 |
 | O
 that O
-Job B-LOC
+Job O
 had O
 returned O
 . O
@@ -67811,10 +67811,10 @@ returned O
 
 | O
 “ O
-Job B-WORK_OF_ART
-! I-WORK_OF_ART
-Job I-WORK_OF_ART
-Legh I-WORK_OF_ART
+Job O
+! O
+Job O
+Legh O
 ! O
 ” O
 she O
@@ -67833,7 +67833,7 @@ dear O
 ! O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 to O
 himself O
@@ -67885,10 +67885,10 @@ sleep O
 for O
 many O
 and O
-a O
-many O
-a O
-night O
+a B-TIME
+many I-TIME
+a I-TIME
+night I-TIME
 ( O
 not O
 to O
@@ -67904,7 +67904,7 @@ goes O
 wrong O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
 I O
 'll O
@@ -67970,8 +67970,8 @@ time O
 
 | O
 “ O
-Asleep B-WORK_OF_ART
-! I-WORK_OF_ART
+Asleep O
+! O
 How O
 could O
 I O
@@ -67997,7 +67997,7 @@ it O
 , O
 ” O
 muttered O
-Job B-PERSON
+Job O
 , O
 to O
 himself O
@@ -68024,7 +68024,7 @@ ready O
 for O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
 ” O
 |
@@ -68073,10 +68073,10 @@ all O
 
 | O
 “ O
-In B-WORK_OF_ART
-for I-WORK_OF_ART
-a I-WORK_OF_ART
-penny I-WORK_OF_ART
+In O
+for O
+a B-MONEY
+penny I-MONEY
 , O
 in O
 fora O
@@ -68111,12 +68111,12 @@ on O
  
 
 | O
-336 B-CARDINAL
+336 B-QUANTITY
 |
 
-| O
-CHAPTER O
-XXXI O
+| I-QUANTITY
+CHAPTER I-QUANTITY
+XXXI I-QUANTITY
 . O
 |
 | O
@@ -68130,7 +68130,7 @@ all O
 this O
 long O
 interminable O
-night B-TIME
+night O
 , O
 |
 | O
@@ -68148,7 +68148,7 @@ words O
 |
 | O
 “ O
-Guilty B-PERSON
+Guilty O
 ? O
 — O
 ‘ O
@@ -68171,7 +68171,7 @@ hath O
 flown O
 unheeded O
 by O
-; O
+  O
 |
 | O
 Over O
@@ -68272,7 +68272,7 @@ of O
 anxiety O
 about O
 her O
-; O
+  O
 and O
 many O
 and O
@@ -68291,7 +68291,7 @@ scolded O
 her O
 and O
 himself O
-; O
+  O
 her O
 for O
 her O
@@ -68333,8 +68333,8 @@ She O
 did O
 not O
 pass O
-that O
-night O
+that B-TIME
+night I-TIME
 in O
 bed O
 , O
@@ -68342,7 +68342,7 @@ any O
 more O
 than O
 Job O
-; O
+  O
 but O
 |
 | O
@@ -68525,7 +68525,7 @@ the O
 house O
 - O
 place O
-; O
+  O
 and O
 relieved O
 to O
@@ -68701,7 +68701,7 @@ heisa B-PERSON
 |
 | I-PERSON
 bright I-PERSON
-one I-PERSON
+one O
 , O
 my O
 old O
@@ -68843,10 +68843,10 @@ gaze O
 |
 | O
 “ O
-Nota B-GPE
+Nota O
 bit O
 ! O
-Inever O
+Inever B-PERSON
 was O
 such O
 a O
@@ -68962,7 +68962,7 @@ without O
 deigning O
 another O
 word O
-; O
+  O
 |
 | O
 leaving O
@@ -69078,10 +69078,10 @@ bad O
 |
 | O
 one O
-; O
+  O
 I O
 almost O
-misdoubt O
+misdoubt B-ORG
 thee O
 , O
 thou O
@@ -69111,7 +69111,7 @@ hearts O
 , O
 sure O
 enough O
-; O
+  O
 good O
 folk O
 |
@@ -69133,7 +69133,7 @@ the O
 |
 | O
 Lord O
-; O
+  O
 it O
 ’s O
 the O
@@ -69154,7 +69154,7 @@ hearts O
 , O
 poor O
 souls O
-; O
+  O
 it O
 ’s O
 them O
@@ -69178,9 +69178,9 @@ shanna O
 leave O
 the O
 house O
-to O
-- O
-night O
+to B-TIME
+- I-TIME
+night I-TIME
 , O
 choose O
 |
@@ -69271,8 +69271,8 @@ out O
  
 
 | O
-340 B-CARDINAL
-° O
+340 B-QUANTITY
+° I-QUANTITY
 |
 
  
@@ -69346,7 +69346,7 @@ the O
 trial O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 is O
 there O
@@ -69540,7 +69540,7 @@ son O
 bound O
 for O
 China B-GPE
-; O
+  O
 and O
 a O
 hammock O
@@ -69637,7 +69637,7 @@ back O
 of O
 her O
 hand O
-; O
+  O
 and O
 ina O
 cheerful O
@@ -69717,8 +69717,8 @@ you O
 to O
 bed O
 , O
-andI O
-mun O
+andI B-PERSON
+mun I-PERSON
 . O
 What O
 s O
@@ -69926,7 +69926,7 @@ power O
 of O
 action O
 came O
-; O
+  O
 and O
 he O
 drove O
@@ -69948,7 +69948,7 @@ directions O
 | O
 and O
 inquiries O
-; O
+  O
 and O
 when O
 that O
@@ -70128,11 +70128,11 @@ they O
 took O
 no O
 part O
-; O
+  O
 |
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 , O
 Ben B-PERSON
 Sturgis I-PERSON
@@ -70155,8 +70155,8 @@ Jones I-PERSON
 
 | O
 ‘ O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 had O
 carefully O
 avoided O
@@ -70166,7 +70166,7 @@ from O
 Mrs. O
 |
 | O
-Wilson B-ORG
+Wilson B-PERSON
 that B-TIME
 morning I-TIME
 . O
@@ -70202,7 +70202,7 @@ in- O
 quiry O
 for O
 Mary B-PERSON
-; O
+  O
 and O
 when O
 he O
@@ -70234,7 +70234,7 @@ never O
 came O
 too O
 late O
-; O
+  O
 and O
 if O
 the O
@@ -70393,12 +70393,12 @@ he O
 had O
 read O
 it O
-; O
+  O
 |
 | O
 sighed O
 deeply O
-; O
+  O
 and O
 then O
 wrapping O
@@ -70502,7 +70502,7 @@ have O
 served O
 to O
 strike O
-Job B-PERSON
+Job O
 dumb O
 in O
 sickness O
@@ -70588,9 +70588,9 @@ night I-TIME
 |
 
 | O
-Sorrowfully O
+Sorrowfully B-GPE
 did O
-Job B-PERSON
+Job O
 return O
 into O
 the O
@@ -70598,7 +70598,7 @@ body O
 of O
 the O
 court O
-; O
+  O
 |
 | O
 neither O
@@ -70657,8 +70657,8 @@ for O
 the O
 murder O
 of O
-Henry B-ORG
-Carsons I-ORG
+Henry B-PERSON
+Carsons I-PERSON
 was O
 just O
 commencing O
@@ -70675,8 +70675,8 @@ indictment O
 , O
 and O
 in O
-a B-TIME
-minute I-TIME
+a O
+minute O
 or O
 two B-CARDINAL
 there O
@@ -70698,7 +70698,7 @@ or O
 Not O
 |
 | O
-Guilty B-PERSON
+Guilty O
 ? O
 ” O
 |
@@ -70744,7 +70744,7 @@ part O
 of O
 the O
 proceeding O
-; O
+  O
 while O
 the O
 |
@@ -70783,7 +70783,7 @@ to O
 his O
 mental O
 vision O
-; O
+  O
 a O
 sort O
 of O
@@ -70791,7 +70791,7 @@ rapid O
 recapitu- O
 |
 | O
-Jation O
+Jation B-CARDINAL
 of O
 his O
 life O
@@ -70928,7 +70928,7 @@ her O
 darling O
 ’s O
 heart O
-; O
+  O
 — O
 he O
 started O
@@ -71024,8 +71024,8 @@ name O
 
 | O
 “ O
-The O
-mother,—she O
+The B-WORK_OF_ART
+mother,—she I-WORK_OF_ART
 that O
 is O
 to O
@@ -71048,7 +71048,7 @@ Oh O
 , O
 ay O
 — O
-Iremember O
+Iremember B-PRODUCT
 ! O
 Rather O
 hard O
@@ -71121,8 +71121,8 @@ was O
 so O
 much O
 beyond O
-her B-DATE
-years I-DATE
+her O
+years O
 , O
 which O
 could O
@@ -71132,7 +71132,7 @@ not O
 be O
 many O
 above O
-fifty B-CARDINAL
+fifty O
 . O
 But O
 partly O
@@ -71198,7 +71198,7 @@ seemed O
 more B-CARDINAL
 than I-CARDINAL
 seventy I-CARDINAL
-; O
+  O
 her O
 lines O
 were O
@@ -71472,7 +71472,7 @@ could O
 not O
 well O
 retract O
-; O
+  O
 so O
 without O
 |
@@ -71510,7 +71510,7 @@ made O
 replied O
 his O
 friend O
-; O
+  O
 and O
 they O
 |
@@ -71560,7 +71560,7 @@ oh O
 , O
 |
 | O
-Tcannot B-ORG
+Tcannot O
 . O
 ” O
 ” O
@@ -71669,7 +71669,7 @@ to O
 threaten O
 the O
 deceased O
-; O
+  O
 indeed O
 , O
 that O
@@ -71703,7 +71703,7 @@ only O
 remained O
 to O
 bring O
-for- O
+for- B-CARDINAL
 |
 | O
 ward O
@@ -71743,7 +71743,7 @@ language O
 to O
 Mr. O
 Carsons B-PERSON
-; O
+  O
 and O
 his O
 report O
@@ -71756,7 +71756,7 @@ instance O
 had O
 occasioned O
 the O
-subpana O
+subpana B-PERSON
 to O
 Mary B-PERSON
 . O
@@ -71790,7 +71790,7 @@ as O
 it O
 could O
 hold O
-; O
+  O
 but O
 fresh O
 at- O
@@ -71846,7 +71846,7 @@ of O
 seeing O
 the O
 fatal O
-Helen B-GPE
+Helen B-PERSON
 , O
 the O
 cause O
@@ -71873,7 +71873,7 @@ the O
 |
 | O
 dead O
-; O
+  O
 nay O
 , O
 perhaps O
@@ -71925,7 +71925,7 @@ the O
 curse O
 against O
 him O
-; O
+  O
 and O
 he O
 grew O
@@ -71962,7 +71962,7 @@ over O
 her O
 |
 | O
-Jover B-PERSON
+Jover O
 ’s O
 untimely O
 end O
@@ -72027,7 +72027,7 @@ bread O
 |
 
 | O
-Hitherto B-PERSON
+Hitherto O
 the O
 effect O
 of O
@@ -72090,7 +72090,7 @@ return O
 | O
 if O
 in O
-adream O
+adream B-GPE
 . O
 So O
 she O
@@ -72098,8 +72098,8 @@ went O
 on O
 for O
 two B-CARDINAL
-or I-CARDINAL
-three I-CARDINAL
+or O
+three B-CARDINAL
 more O
 questions O
 , O
@@ -72174,7 +72174,7 @@ being O
 extracted O
 from O
 her O
-; O
+  O
 |
 | O
 that O
@@ -72404,7 +72404,7 @@ hesita- O
 tions O
 , O
 to O
-one O
+one B-CARDINAL
 ear O
 alone O
 ? O
@@ -72460,7 +72460,7 @@ face O
 beyond O
 , O
 behind O
-; O
+  O
 and O
 # B-CARDINAL
 countenance O
@@ -72482,7 +72482,7 @@ dread O
 of O
 her O
 answer O
-; O
+  O
 and O
 |
 | O
@@ -72499,7 +72499,7 @@ every O
 |
 | O
 thing O
-; O
+  O
 the O
 future O
 , O
@@ -72515,7 +72515,7 @@ think O
 |
 | O
 upon O
-; O
+  O
 but O
 now O
 she O
@@ -72662,7 +72662,7 @@ what O
 my O
 feelings O
 are O
-; O
+  O
 but O
 I O
 never O
@@ -72750,7 +72750,7 @@ I O
 try O
 , O
 Sir O
-; O
+  O
 but O
 I O
 ’m O
@@ -72961,10 +72961,10 @@ oath O
 | O
 “ O
 Never O
-; O
+  O
 Sir O
 . O
-Iwas O
+Iwas B-PERSON
 not O
 aware O
 untibI O
@@ -72996,8 +72996,8 @@ the O
 murder O
 . O
 To O
-this O
-day O
+this B-DATE
+day I-DATE
 I O
 ca O
 n’t O
@@ -73006,7 +73006,7 @@ out O
 who O
 |
 | O
-toldJem O
+toldJem B-PERSON
 . O
 Oh O
 , O
@@ -73077,7 +73077,7 @@ to O
 detain O
 her O
 longer O
-; O
+  O
 |
 | O
 she O
@@ -73101,7 +73101,7 @@ against O
 . O
 the O
 prisoner O
-; O
+  O
 but O
 now O
 he O
@@ -73150,8 +73150,8 @@ thought O
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 had O
 all O
 this O
@@ -73169,7 +73169,7 @@ Wilson B-PERSON
 , O
 who O
 would O
-first O
+first B-ORDINAL
 be O
 in O
 the O
@@ -73232,7 +73232,7 @@ witnesses O
 | O
 forward O
 again O
-; O
+  O
 for O
 he O
 had O
@@ -73321,7 +73321,7 @@ seat O
 , O
 occasionally O
 taking O
-# B-CARDINAL
+# O
 pinch O
 of O
 snuff O
@@ -73336,7 +73336,7 @@ tended O
 to O
 be O
 contemptuous O
-; O
+  O
 now O
 and O
 then O
@@ -73354,7 +73354,7 @@ alittle O
 note O
 with O
 Mr. O
-Bridge- B-PERSON
+Bridge- O
 |
 | O
 north O
@@ -73389,9 +73389,9 @@ poor O
 | O
 old O
 friend O
-Job B-PERSON
-Legh I-PERSON
-; O
+Job O
+Legh O
+  O
 who O
 had O
 edged O
@@ -73494,7 +73494,7 @@ time O
 was O
 of O
 value O
-; O
+  O
 |
 | O
 and O
@@ -73519,8 +73519,8 @@ defence O
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 looked O
 about O
 for O
@@ -73577,7 +73577,7 @@ as O
 if O
 eagerly O
 talking O
-; O
+  O
 |
 | O
 her O
@@ -73671,7 +73671,7 @@ mutterings O
 of O
 her O
 voice O
-; O
+  O
 |
 | O
 he O
@@ -73715,7 +73715,7 @@ when O
 they O
 ’re O
 mad O
-; O
+  O
 but O
 I O
 do O
@@ -73729,10 +73729,10 @@ liar O
 . O
 |
 | O
-Iwas O
+Iwas B-PERSON
 , O
 indeed O
-; O
+  O
 butI’m O
 not O
 mad O
@@ -73763,7 +73763,7 @@ become O
 aware O
 how O
 earnestly O
-Job O
+Job B-PERSON
 was O
 |
 
@@ -73816,7 +73816,7 @@ the O
 |
 | O
 facts O
-; O
+  O
 “ O
 a O
 gallant O
@@ -73854,9 +73854,9 @@ evidence O
 & O
 c. O
 , O
-& B-PERSON
-c. I-PERSON
-; O
+& O
+c. O
+  O
 while O
 the O
 counsellor O
@@ -73954,7 +73954,7 @@ but O
 based O
 on O
 truth O
-; O
+  O
 and O
 “ O
 perjury O
@@ -74059,14 +74059,14 @@ by O
 judge O
 and O
 jury O
-; O
+  O
 when O
 once O
 |
 | O
 he O
 saw O
-Jem B-PERSON
+Jem O
 standing O
 safe O
 and O
@@ -74090,7 +74090,7 @@ felon O
 ’s O
 bar O
 ) O
-; O
+  O
 his O
 courage O
 took O
@@ -74166,13 +74166,13 @@ an O
 uncle O
 residing O
 in O
-the O
-Isle O
-of O
+the B-GPE
+Isle I-GPE
+of I-GPE
 |
-| O
-Man O
-; O
+| I-GPE
+Man I-GPE
+  O
 how O
 his O
 money O
@@ -74227,7 +74227,7 @@ as O
 far O
 as O
 Hollins B-PERSON
-Green I-PERSON
+Green O
 by O
 his O
 friend O
@@ -74478,7 +74478,7 @@ de- O
 | O
 fence O
 . O
-O’Brien O
+O’Brien B-ORG
 gave O
 just O
 such O
@@ -74520,7 +74520,7 @@ and O
 | O
 the O
 ship O
-; O
+  O
 he O
 had O
 given O
@@ -74792,9 +74792,9 @@ the O
 over O
 - O
 curious O
-; O
-Job B-PERSON
-Legh I-PERSON
+  O
+Job O
+Legh O
 ceased O
 his O
 eager O
@@ -74804,13 +74804,13 @@ to O
 | O
 Mr. O
 Bridgenorth B-PERSON
-; O
+  O
 Charley B-PERSON
 looked O
 grave O
 and O
 earnest O
-; O
+  O
 for O
 the O
 jury O
@@ -74861,7 +74861,7 @@ them- O
 selves O
 at O
 last O
-; O
+  O
 neither O
 being O
 convinced O
@@ -74994,7 +74994,7 @@ friends O
 closed O
 round O
 him O
-; O
+  O
 |
 | O
 his O
@@ -75012,7 +75012,7 @@ and O
 |
 | O
 Job O
-; O
+  O
 when O
 one O
 was O
@@ -75093,7 +75093,7 @@ felt O
 bewildered O
 and O
 dazzled O
-; O
+  O
 |
 | O
 he O
@@ -75105,7 +75105,7 @@ thing O
 for O
 an B-TIME
 hour I-TIME
-’s I-TIME
+’s O
 uninterrupted O
 |
 | O
@@ -75129,7 +75129,7 @@ up O
 during O
 the B-TIME
 morning I-TIME
-; O
+  O
 aye O
 , O
 even O
@@ -75385,7 +75385,7 @@ But O
 I O
 would O
 come O
-; O
+  O
 I O
 knew O
 I O
@@ -75514,7 +75514,7 @@ she O
 was O
 his O
 own O
-; O
+  O
 now O
 that O
 she O
@@ -75527,7 +75527,7 @@ much O
 to O
 rescue O
 him O
-; O
+  O
 and O
 now O
 that O
@@ -75551,10 +75551,10 @@ words O
 
 | O
 All O
-that O
-night B-TIME
+that B-TIME
+night I-TIME
 long O
-Jem B-PERSON
+Jem O
 wandered O
 up O
 and O
@@ -75602,7 +75602,7 @@ listened O
 to O
 her O
 ravings O
-; O
+  O
 each O
 sentence O
 of O
@@ -75756,7 +75756,7 @@ at O
 the O
 house O
 door O
-; O
+  O
 |
 | O
 it O
@@ -75812,8 +75812,8 @@ hostess O
 . O
 It O
 was O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 who O
 stood O
 there O
@@ -75910,8 +75910,8 @@ n't O
 help O
 it O
 , O
-Job B-PERSON
-; O
+Job O
+  O
 it O
 ’s O
 past O
@@ -75936,7 +75936,7 @@ as O
 she O
 is O
 doing O
-; O
+  O
 even O
 if O
 I O
@@ -75970,10 +75970,10 @@ speak O
 of O
 it O
 , O
-Job B-PERSON
+Job O
 , O
 as O
-aman O
+aman B-PERSON
 should O
 do O
 , O
@@ -75999,7 +75999,7 @@ you O
 ? O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 pushing O
 past O
@@ -76023,7 +76023,7 @@ to O
 admit O
 |
 | O
-Job B-LOC
+Job O
 where O
 he O
 might O
@@ -76051,7 +76051,7 @@ named O
 
 | O
 “ O
-Jd B-PERSON
+Jd O
 more B-CARDINAL
 than I-CARDINAL
 one I-CARDINAL
@@ -76071,19 +76071,19 @@ yon O
 poor O
 wench O
 was O
-; O
+  O
 — O
 that O
 stood O
 first B-ORDINAL
 . O
-Late O
-last O
+Late B-TIME
+last I-TIME
 |
 
  
 
-| O
+| I-TIME
 364 B-CARDINAL
 |
 
@@ -76098,7 +76098,7 @@ either O
 , O
 ” O
 answered O
-Job B-PERSON
+Job O
 . O
 “ O
 Folk O
@@ -76114,7 +76114,7 @@ many O
 a O
 strange O
 thing O
-; O
+  O
 and O
 th O
 ’ O
@@ -76163,7 +76163,7 @@ Mary B-PERSON
 |
 
 | O
-Jem B-PERSON
+Jem O
 felt O
 how O
 right O
@@ -76219,7 +76219,7 @@ ing O
 look O
 at O
 Mary B-PERSON
-; O
+  O
 he O
 saw O
 her O
@@ -76305,7 +76305,7 @@ early O
 |
 | O
 sorrows O
-; O
+  O
 and O
 now O
 , O
@@ -76403,7 +76403,7 @@ as O
 she O
 was O
 now O
-; O
+  O
 and O
 no O
 one O
@@ -76416,11 +76416,11 @@ her O
 
 | O
 “ O
-Jem B-PERSON
+Jem O
 ! O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 partly O
 guessing O
@@ -76435,7 +76435,7 @@ his O
 own O
 . O
 “ O
-Jem B-PERSON
+Jem O
 ! O
 ” O
 repeated O
@@ -76450,7 +76450,7 @@ before O
 he O
 spoke O
 . O
-Jem B-PERSON
+Jem O
 turned O
 round O
 , O
@@ -76471,7 +76471,7 @@ his O
 cheeks O
 . O
 “ O
-Thou B-PERSON
+Thou O
 must O
 trust O
 in O
@@ -76495,7 +76495,7 @@ and O
 |
 | O
 low O
-; O
+  O
 but O
 the O
 words O
@@ -76552,8 +76552,8 @@ resent O
 his O
 having O
 passed O
-the O
-night O
+the B-TIME
+night I-TIME
 in O
 anxious O
 devotion O
@@ -76597,7 +76597,7 @@ they O
 had O
 held O
 only O
-yesterday O
+yesterday B-DATE
 , O
 when O
 she O
@@ -76628,10 +76628,10 @@ the O
 recollection O
 of O
 that O
-yester- O
+yester- B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 , O
 with O
 its O
@@ -76723,11 +76723,11 @@ his O
 darling O
 . O
 For O
-Job B-PERSON
+Job O
 had O
 never O
 written O
-; O
+  O
 indeed O
 , O
 any O
@@ -76755,7 +76755,7 @@ would O
 announce O
 it O
 personally O
-; O
+  O
 if O
 she O
 recovered O
@@ -76785,7 +76785,7 @@ auxiliary O
 to O
 natural O
 history O
-; O
+  O
 a O
 way O
 of O
@@ -76853,7 +76853,7 @@ endure O
 this O
 state O
 long O
-; O
+  O
 but O
 he O
 resolved O
@@ -76893,8 +76893,8 @@ forth O
 
 | O
 On O
-Sunday B-TIME
-afternoon I-TIME
+Sunday B-DATE
+afternoon B-TIME
 , O
 they O
 laid O
@@ -76961,7 +76961,7 @@ waiting O
 | O
 to O
 console O
-; O
+  O
 and O
 soon O
 his O
@@ -77052,7 +77052,7 @@ her O
 return O
 homewards O
 . O
-Jem B-PERSON
+Jem O
 took O
 charge O
 of O
@@ -77078,8 +77078,8 @@ train O
 to- O
 |
 | O
-morrow O
-; O
+morrow B-DATE
+  O
 I O
 must O
 set O
@@ -77107,7 +77107,7 @@ poor O
 |
 | O
 Mary B-PERSON
-; O
+  O
 he O
 loves O
 her O
@@ -77140,7 +77140,7 @@ thought O
 of O
 it O
 before O
-; O
+  O
 I O
 |
 | O
@@ -77217,7 +77217,7 @@ come O
 home O
 to O
 - O
-morrow O
+morrow B-DATE
 night B-TIME
 , O
 |
@@ -77272,7 +77272,7 @@ to O
 night O
 , O
 though O
-; O
+  O
 |
 | O
 and O
@@ -77460,14 +77460,14 @@ subject O
 “ O
 Mother B-WORK_OF_ART
 ! I-WORK_OF_ART
-Iam B-PERSON
+Iam O
 going O
 back O
 to O
 Liverpool B-GPE
 to O
 - O
-morrow O
+morrow B-DATE
 morning B-TIME
 |
 | O
@@ -77570,7 +77570,7 @@ interested O
 by O
 his O
 words O
-; O
+  O
 and O
 |
 | O
@@ -77634,7 +77634,7 @@ of O
 |
 | O
 sympathy O
-; O
+  O
 and O
 turned O
 away O
@@ -77703,10 +77703,10 @@ shaped O
 |
 | O
 “ O
-Thou B-PERSON
-' O
-rt O
-old O
+Thou B-WORK_OF_ART
+' I-WORK_OF_ART
+rt I-WORK_OF_ART
+old I-WORK_OF_ART
 enough O
 to O
 please O
@@ -77745,8 +77745,8 @@ have O
 thought O
 of O
 that O
-last B-DATE
-Taesday I-DATE
+last O
+Taesday B-ORG
 , O
 when O
 |
@@ -77778,7 +77778,7 @@ to O
 | O
 me O
 , O
-atany O
+atany B-PERSON
 rate O
 . O
 ” O
@@ -77796,7 +77796,7 @@ Mother O
 said O
 he O
 , O
-atlast B-NORP
+atlast O
 , O
 stopping O
 short O
@@ -77919,7 +77919,7 @@ got O
 the O
 better O
 of O
-; O
+  O
 and O
 now O
 he O
@@ -78036,7 +78036,7 @@ if O
 ever O
 woman O
 is O
-; O
+  O
 for O
 his O
 sake O
@@ -78104,7 +78104,7 @@ look O
 left O
 her O
 face O
-; O
+  O
 though O
 her O
 eyes O
@@ -78141,7 +78141,7 @@ than O
 because O
 any O
 an O
-; O
+  O
 |
 | O
 feeling O
@@ -78182,7 +78182,7 @@ level O
 of O
 her O
 own O
-; O
+  O
 and O
 then O
 she O
@@ -78322,8 +78322,8 @@ Why O
 it O
 ’s O
 near O
-ten O
-o’clock O
+ten B-TIME
+o’clock I-TIME
 ! O
 |
 | O
@@ -78400,9 +78400,9 @@ told O
 |
 | O
 her O
-this O
-last O
-fortnight O
+this B-DATE
+last I-DATE
+fortnight I-DATE
 , O
 — O
 ever O
@@ -78440,7 +78440,7 @@ a O
 happy O
 little O
 thing O
-; O
+  O
 it O
 was O
 such O
@@ -78453,9 +78453,9 @@ her O
 to O
 think O
 about O
-those B-DATE
-early I-DATE
-days I-DATE
+those O
+early O
+days O
 , O
 when O
 she O
@@ -78476,7 +78476,7 @@ bed O
 
 | O
 “ O
-Tnever O
+Tnever B-GPE
 knew O
 any O
 one O
@@ -78530,15 +78530,15 @@ peaceful O
 happy O
 |
 | O
-hours O
+hours B-TIME
 . O
 |
 
 | O
-Itstruck B-ORG
-eleven I-ORG
+Itstruck O
+eleven O
 . O
-Jem B-PERSON
+Jem O
 started O
 up O
 . O
@@ -78629,7 +78629,7 @@ on O
 that O
 quiet O
 Sabbath B-PERSON
-evening B-TIME
+evening O
 . O
 The O
 stars O
@@ -78706,7 +78706,7 @@ had O
 glided O
 into O
 sight O
-; O
+  O
 awan B-PERSON
 , O
 feeble O
@@ -78760,7 +78760,7 @@ broad O
 , O
 calm O
 light O
-; O
+  O
 |
 | O
 and O
@@ -78884,7 +78884,7 @@ a B-TIME
 minute I-TIME
 or O
 two B-CARDINAL
-Jem B-PERSON
+Jem O
 stood O
 motionless O
 , O
@@ -78956,7 +78956,7 @@ likeness O
 of O
 John B-PERSON
 Barton I-PERSON
-; O
+  O
 himself O
 , O
 yet O
@@ -78968,8 +78968,8 @@ himself O
 |
 
 | O
-CHAPTER B-LAW
-XXXIV I-LAW
+CHAPTER O
+XXXIV O
 . O
 |
 | O
@@ -78990,7 +78990,7 @@ grave O
 | O
 Mary B-PERSON
 . O
-God O
+God B-PERSON
 knows O
 thy O
 heart O
@@ -79020,7 +79020,7 @@ Ob O
 ’ O
 |
 | O
-Mary B-PERSON
+Mary O
 . O
 No O
 common O
@@ -79036,7 +79036,7 @@ father O
 ” O
 |
 | O
-Exuiot B-PERSON
+Exuiot O
 's O
 ‘ O
 Kerwonaw O
@@ -79063,7 +79063,7 @@ house O
 where O
 she O
 lay O
-; O
+  O
 and O
 the O
 doctors O
@@ -79159,7 +79159,7 @@ bed O
 knows O
 full O
 well O
-; O
+  O
 and O
 which O
 is O
@@ -79196,10 +79196,10 @@ change O
 for O
 |
 | O
-long O
-, O
-long O
-hours O
+long B-TIME
+, I-TIME
+long I-TIME
+hours I-TIME
 of O
 sad O
 monotony O
@@ -79258,7 +79258,7 @@ slept O
 a O
 natural O
 sleep O
-; O
+  O
 and O
 they O
 |
@@ -79338,13 +79338,13 @@ colours O
 of O
 the O
 paper O
-; O
+  O
 soothed O
 by O
 the O
 subdued O
 light O
-; O
+  O
 |
 | O
 and O
@@ -79447,7 +79447,7 @@ to O
 be O
 worked O
 out O
-; O
+  O
 plans O
 , O
 which O
@@ -79556,7 +79556,7 @@ work O
 in O
 their O
 foundry O
-; O
+  O
 the O
 recollection O
 |
@@ -79612,7 +79612,7 @@ his O
 downcast O
 conscious O
 look O
-; O
+  O
 hunted O
 out O
 of O
@@ -79681,7 +79681,7 @@ character O
 had O
 been O
 attainted O
-; O
+  O
 and O
 that O
 |
@@ -79744,7 +79744,7 @@ himself O
 for O
 some O
 trials O
-; O
+  O
 and O
 |
 | O
@@ -79787,7 +79787,7 @@ more O
 at O
 the O
 foundry O
-; O
+  O
 and O
 then O
 the O
@@ -79920,7 +79920,7 @@ be O
 |
 | O
 desirable O
-; O
+  O
 but O
 they O
 did O
@@ -80103,7 +80103,7 @@ promise O
 | O
 He O
 promised O
-; O
+  O
 to O
 gratify O
 that O
@@ -80122,7 +80122,7 @@ repented O
 and O
 felt O
 as O
-ifhe B-PERSON
+ifhe O
 had O
 done O
 ill O
@@ -80172,7 +80172,7 @@ mar O
 
 | O
 + O
-One O
+One B-CARDINAL
 thing O
 was O
 certain O
@@ -80192,7 +80192,7 @@ forbidden O
 ground O
 of O
 discourse O
-; O
+  O
 to O
 guess O
 at O
@@ -80508,15 +80508,15 @@ tumbler O
 in O
 the O
 other O
-; O
+  O
 he O
 went O
 to O
 |
 | O
 Mary B-PERSON
-, I-PERSON
-Jem I-PERSON
+, O
+Jem B-PERSON
 , O
 and O
 his O
@@ -80551,12 +80551,12 @@ as O
 each O
 severally O
 refused O
-; O
+  O
 he O
 drank O
 it O
 himself O
-; O
+  O
 and O
 passed O
 on O
@@ -80627,7 +80627,7 @@ violence O
 | O
 of O
 temper O
-; O
+  O
 more O
 than O
 patiently O
@@ -80672,12 +80672,12 @@ should O
 watch O
 over O
 the O
-Guilty B-ORG
-; O
+Guilty B-PERSON
+  O
 awaiting O
-the B-DATE
-gracious I-DATE
-seasons I-DATE
+the O
+gracious O
+seasons O
 , O
 wherein O
 |
@@ -80742,7 +80742,7 @@ longer O
 
 | O
 “ O
-Jem B-PERSON
+Jem O
 ! O
 ” O
 said O
@@ -80762,9 +80762,9 @@ court O
 | O
 close O
 by O
-Job B-PERSON
-Legh I-PERSON
-’s I-PERSON
+Job O
+Legh O
+’s O
 door O
 , O
 “ O
@@ -80775,7 +80775,7 @@ in O
 there O
 and O
 wait O
-half- O
+half- B-CARDINAL
 |
 | O
 an B-TIME
@@ -80834,8 +80834,8 @@ heavily O
 
 | O
 “ O
-Mary B-WORK_OF_ART
-! I-WORK_OF_ART
+Mary O
+! O
 Mary B-PERSON
 ! O
 I O
@@ -80903,7 +80903,7 @@ agitated O
 |
 | O
 tone O
-; O
+  O
 she O
 looked O
 into O
@@ -80944,7 +80944,7 @@ trembling O
 “ O
 Dear B-WORK_OF_ART
 Jem I-WORK_OF_ART
-! O
+! I-WORK_OF_ART
 I O
 often O
 could O
@@ -80996,7 +80996,7 @@ heart O
 would O
 outin O
 words O
-; O
+  O
 but O
 now O
 , O
@@ -81093,9 +81093,9 @@ otherwise O
 have O
 passed O
 over O
-those O
-few O
-yards O
+those B-QUANTITY
+few I-QUANTITY
+yards I-QUANTITY
 of O
 ground O
 , O
@@ -81195,7 +81195,7 @@ now O
 But O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 — O
 would O
@@ -81205,7 +81205,7 @@ come O
 in O
 to O
 - O
-morrow O
+morrow B-DATE
 ? O
 And O
 |
@@ -81256,7 +81256,7 @@ father O
 was O
 too O
 pressing O
-; O
+  O
 but O
 she O
 opened O
@@ -81322,7 +81322,7 @@ love O
 affected O
 Mary B-PERSON
 much O
-; O
+  O
 she O
 could O
 not O
@@ -81350,9 +81350,9 @@ find O
 
 | O
 “ O
-Ay O
-, O
-ay O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
 , O
 Mary B-PERSON
 ! O
@@ -81372,7 +81372,7 @@ saw O
 thee O
 last O
 . O
-Thou B-PERSON
+Thou O
 ’ O
 It O
 give O
@@ -81454,8 +81454,8 @@ face O
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 took O
 the O
 candle O
@@ -81474,9 +81474,9 @@ spection O
 
 | O
 “ O
-Thou B-PERSON
-hast I-PERSON
-gotten I-PERSON
+Thou O
+hast O
+gotten O
 a O
 bit O
 of O
@@ -81488,7 +81488,7 @@ cheeks O
 — O
 not O
 much O
-; O
+  O
 |
 | O
 but O
@@ -81514,7 +81514,7 @@ at O
 th O
 ’ O
 end O
-; O
+  O
 thou O
 ’ O
 rt O
@@ -81561,7 +81561,7 @@ mention O
 of O
 that O
 name O
-; O
+  O
 _ O
 yet O
 she O
@@ -81597,7 +81597,7 @@ he O
 ’s O
 very O
 poorly O
-; O
+  O
 I O
 |
 | O
@@ -81670,15 +81670,15 @@ had O
 thrown O
 out O
 of O
-compauy O
+compauy B-PERSON
 being O
 unacceptable O
-; O
+  O
 for O
-Job B-PERSON
+Job O
 |
-| I-PERSON
-Legh I-PERSON
+| O
+Legh O
 directly O
 put O
 down O
@@ -81734,7 +81734,7 @@ on O
 that O
 first O
 dreary O
-afternoon O
+afternoon B-TIME
 . O
 He O
 ate O
@@ -81746,7 +81746,7 @@ but O
 without O
 that O
 relish O
-; O
+  O
 and O
 food O
 seemed O
@@ -81774,7 +81774,7 @@ fore- O
 | O
 shadowing O
 of O
-Death B-GPE
+Death O
 . O
 |
 
@@ -81849,7 +81849,7 @@ enter O
 the O
 doors O
 of O
-one O
+one B-CARDINAL
 , O
 whose O
 |
@@ -81923,7 +81923,7 @@ Margaret B-PERSON
 |
 | O
 too O
-; O
+  O
 who O
 , O
 in O
@@ -81940,7 +81940,7 @@ ac- O
 |
 | O
 quaintance O
-first O
+first B-ORDINAL
 began O
 , O
 had O
@@ -81979,10 +81979,10 @@ hand O
 every B-TIME
 hour I-TIME
 of O
-the O
+the B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 , O
 to O
 ward O
@@ -82011,7 +82011,7 @@ hovering O
 about O
 the O
 house O
-; O
+  O
 though O
 the O
 |
@@ -82052,7 +82052,7 @@ met O
 him O
 at O
 Job O
-Legh B-PERSON
+Legh O
 ’s O
 . O
 |
@@ -82066,7 +82066,7 @@ every O
 effort O
 of O
 cordiality O
-; O
+  O
 but O
 still O
 |
@@ -82156,9 +82156,9 @@ conversation O
 | O
 He O
 left O
-Job B-PERSON
-Legh I-PERSON
-’s I-PERSON
+Job O
+Legh O
+’s O
 house O
 when O
 she O
@@ -82171,7 +82171,7 @@ on O
 | O
 the O
 step O
-; O
+  O
 he O
 holding O
 her O
@@ -82229,7 +82229,7 @@ see O
 her O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 or O
 when O
@@ -82256,7 +82256,7 @@ yet O
 . O
 Wait O
 awhile O
-; O
+  O
 |
 
  
@@ -82356,7 +82356,7 @@ To O
 tell O
 truth O
 , O
-Inever B-GPE
+Inever O
 thought O
 about O
 it O
@@ -82453,7 +82453,7 @@ turnkey O
 |
 
 | O
-Cast B-PERSON
+Cast O
 down O
 as O
 Mary B-PERSON
@@ -82499,14 +82499,14 @@ murder O
 
 | O
 “ O
-I’dno B-FAC
+I’dno B-ORG
 thought O
 to O
 be O
 looking O
 out O
 for O
-beaux O
+beaux B-GPE
 , O
 I O
 can O
@@ -82556,7 +82556,7 @@ Oh O
 , O
 very O
 well O
-; O
+  O
 and O
 by O
 the O
@@ -82574,7 +82574,7 @@ message O
 for O
 you O
 . O
-Youmay O
+Youmay B-PERSON
 come O
 back O
 to O
@@ -82646,7 +82646,7 @@ Do O
 n't O
 talk O
 so O
-; O
+  O
 I O
 can O
 not O
@@ -82656,7 +82656,7 @@ I O
 can O
 never O
 face O
-Miss O
+Miss B-PERSON
 Sim- O
 |
 | O
@@ -82735,7 +82735,7 @@ from O
 the O
 foundry O
 ? O
-Jem B-PERSON
+Jem O
 ? O
 ” O
 cried O
@@ -82791,7 +82791,7 @@ get O
 up O
 an O
 alii O
-; O
+  O
 not O
 that O
 I O
@@ -82999,7 +82999,7 @@ her O
 Darling O
 , O
 itis O
-; O
+  O
 it O
 ’s O
 no O
@@ -83022,7 +83022,7 @@ to O
 work O
 at O
 Duncombe B-ORG
-’s I-ORG
+’s O
 foundry O
 . O
 It O
@@ -83145,7 +83145,7 @@ work O
 under O
 me O
 again O
-; O
+  O
 there O
 were O
 |
@@ -83172,17 +83172,17 @@ but O
 more O
 were O
 doubtful O
-; O
+  O
 and O
-one B-CARDINAL
+one O
 spoke O
 to O
 young O
 Mr. O
-Dun- O
+Dun- B-PERSON
 |
-| O
-combe O
+| I-PERSON
+combe I-PERSON
 , O
 hinting O
 at O
@@ -83197,7 +83197,7 @@ thought O
 “ O
 Oh O
 , O
-Jem B-PERSON
+Jem O
 ! O
 what O
 a O
@@ -83309,7 +83309,7 @@ time O
 So O
 some O
 do O
-; O
+  O
 the O
 overlooker O
 , O
@@ -83336,7 +83336,7 @@ much O
 to O
 - O
 day O
-; O
+  O
 and O
 he O
 said O
@@ -83364,11 +83364,11 @@ better O
 if O
 I O
 left O
-Manchester B-ORG
+Manchester B-GPE
 for O
 a O
 bit O
-; O
+  O
 they O
 ’d O
 recommend O
@@ -83457,7 +83457,7 @@ those O
 | O
 she O
 loved O
-; O
+  O
 and O
 if O
 they O
@@ -83527,7 +83527,7 @@ however O
 |
 | O
 humble O
-; O
+  O
 and O
 causing O
 s O
@@ -83578,7 +83578,7 @@ disturbance O
 Mrs. O
 Wilson B-PERSON
 had O
-first O
+first B-ORDINAL
 sighed O
 , O
 and O
@@ -83621,7 +83621,7 @@ and O
 he O
 came O
 in O
-; O
+  O
 his O
 face O
 brightening O
@@ -83682,7 +83682,7 @@ happiness O
 Could O
 his O
 mother O
-mar O
+mar B-PERSON
 it O
 ? O
 Could O
@@ -83827,7 +83827,7 @@ to O
 love O
 |
 | O
-one O
+one B-CARDINAL
 another O
 so O
 dearly O
@@ -83867,7 +83867,7 @@ thither O
 they O
 hardly O
 spoke O
-; O
+  O
 though O
 |
 | O
@@ -83901,7 +83901,7 @@ twilight O
 was O
 over O
 all O
-; O
+  O
 and O
 when O
 they O
@@ -84065,7 +84065,7 @@ any O
 hanging O
 , O
 Sir O
-; O
+  O
 ” O
 ” O
 he O
@@ -84091,10 +84091,10 @@ again O
 
 | O
 “ O
-Sin B-ORG
-’ O
-that O
-day O
+Sin B-WORK_OF_ART
+’ I-WORK_OF_ART
+that I-WORK_OF_ART
+day I-WORK_OF_ART
 ( O
 it O
 may O
@@ -84243,9 +84243,9 @@ presence O
 
 | O
 “ O
-Ay O
-, O
-ay O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
 , O
 wench O
 ! O
@@ -84271,7 +84271,7 @@ Wilson I-PERSON
 |
 
 | O
-Jem B-PERSON
+Jem O
 came O
 forward O
 . O
@@ -84295,10 +84295,10 @@ pause O
 
 | O
 “ O
-Lad B-PERSON
+Lad O
 ! O
-thou B-PERSON
-hast I-PERSON
+thou O
+hast O
 borne O
 a O
 deal O
@@ -84323,7 +84323,7 @@ bear O
 the O
 brunt O
 . O
-Thou B-PERSON
+Thou O
 , O
 who O
 |
@@ -84365,7 +84365,7 @@ thee O
 any O
 good O
 . O
-Thou B-PERSON
+Thou O
 lt O
 love O
 Mary B-PERSON
@@ -84467,7 +84467,7 @@ accomplice O
 . O
 To O
 - O
-morrow O
+morrow B-DATE
 morning B-TIME
 your O
 tale O
@@ -84538,7 +84538,7 @@ ing O
 of O
 the O
 heart O
-; O
+  O
 for O
 was O
 not O
@@ -84583,7 +84583,7 @@ no O
 longer O
 the O
 employer O
-; O
+  O
 a O
 |
 | O
@@ -84597,7 +84597,7 @@ placed O
 in O
 antagonistic O
 attitude O
-; O
+  O
 |
 | O
 going O
@@ -84627,8 +84627,8 @@ accidents O
 of O
 |
 | O
-Trade B-ORG
-; O
+Trade O
+  O
 no O
 longer O
 the O
@@ -84789,7 +84789,7 @@ own O
 |
 | O
 action O
-; O
+  O
 for O
 he O
 had O
@@ -84943,7 +84943,7 @@ had O
 viewed O
 his O
 deed O
-; O
+  O
 and O
 even O
 so O
@@ -84960,13 +84960,13 @@ passed O
 away O
 , O
 the O
-Avenger B-PERSON
+Avenger B-PRODUCT
 , O
 |
 | O
 the O
 sure O
-Avenger B-PERSON
+Avenger B-PRODUCT
 , O
 had O
 found O
@@ -84985,7 +84985,7 @@ that O
 he O
 bad O
 killed O
-aman O
+aman B-PERSON
 , O
 and O
 a O
@@ -85059,7 +85059,7 @@ felt O
 execrated O
 by O
 all O
-; O
+  O
 and O
 as O
 if O
@@ -85137,7 +85137,7 @@ turned O
 to O
 go O
 homewards O
-; O
+  O
 not O
 , O
 as O
@@ -85280,7 +85280,7 @@ some O
 children O
 ’s O
 gaicty O
-; O
+  O
 |
 | O
 a O
@@ -85300,11 +85300,11 @@ daintily O
 decked O
 out O
 in O
-soft B-GPE
+soft O
 , O
-snowy B-PERSON
-muslin I-PERSON
-; O
+snowy O
+muslin O
+  O
 and O
 her O
 fairy O
@@ -85360,7 +85360,7 @@ ten I-DATE
 years I-DATE
 of I-DATE
 age I-DATE
-; O
+  O
 a O
 giant O
 he O
@@ -85435,7 +85435,7 @@ arose O
 sobbing O
 with O
 pain O
-; O
+  O
 and O
 not O
 without O
@@ -85577,7 +85577,7 @@ hard O
 , O
 and O
 defying O
-; O
+  O
 but O
 withal O
 terrified O
@@ -85638,12 +85638,12 @@ son O
 murderer O
 was O
 discovered O
-; O
+  O
 had O
 confessed O
 his O
 guilt O
-; O
+  O
 |
 | O
 and O
@@ -85671,7 +85671,7 @@ when O
 he O
 had O
 imagined O
-hima O
+hima B-NORP
 young O
 man O
 , O
@@ -85774,14 +85774,14 @@ been O
 accustomed O
 to O
 poverty O
-; O
+  O
 but O
 it O
 was O
 honest O
 decent O
 poverty O
-; O
+  O
 not O
 the O
 |
@@ -85800,7 +85800,7 @@ John B-PERSON
 |
 | I-PERSON
 Barton I-PERSON
-’s O
+’s I-PERSON
 house O
 , O
 and O
@@ -85867,7 +85867,7 @@ his O
 search O
 — O
 the O
-Gospel B-PERSON
+Gospel O
 , O
 where O
 he O
@@ -85935,7 +85935,7 @@ Years B-DATE
 ago I-DATE
 , O
 the O
-Gospel B-PERSON
+Gospel O
 had O
 been O
 his'task O
@@ -85949,9 +85949,9 @@ to O
 read O
 . O
 So O
-many O
-years O
-ago O
+many B-DATE
+years I-DATE
+ago I-DATE
 , O
 that O
 he O
@@ -86029,7 +86029,7 @@ came O
 to O
 the O
 end O
-; O
+  O
 the O
 awful O
 End O
@@ -86065,13 +86065,13 @@ night O
 long O
 , O
 the O
-Arch O
+Arch B-PERSON
 - O
 angel O
 combated O
 with O
 the O
-Demon B-PERSON
+Demon B-NORP
 . O
 |
 
@@ -86086,7 +86086,7 @@ by O
 the O
 bed O
 of O
-Death B-GPE
+Death O
 . O
 John B-PERSON
 |
@@ -86111,12 +86111,12 @@ of O
 his O
 former O
 energy O
-; O
+  O
 and O
 in O
 the O
 racy O
-Lancashire B-ORG
+Lancashire B-GPE
 |
 | O
 dialect O
@@ -86144,7 +86144,7 @@ after O
 the O
 right O
 way O
-; O
+  O
 |
 
  
@@ -86180,8 +86180,8 @@ prayer O
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 had O
 gone O
 home O
@@ -86209,7 +86209,7 @@ approach O
 | O
 of O
 death O
-; O
+  O
 butas O
 the O
 final O
@@ -86219,11 +86219,11 @@ on O
 , O
 and O
 morning B-TIME
-dawned O
+dawned I-TIME
 , O
 |
 | O
-Jem B-PERSON
+Jem O
 suggested O
 some O
 alleviation O
@@ -86271,7 +86271,7 @@ absence O
 Barton B-PERSON
 grew O
 worse O
-; O
+  O
 he O
 had O
 fallen O
@@ -86287,7 +86287,7 @@ breathing O
 seemed O
 almost O
 stopped O
-; O
+  O
 in O
 vain O
 did O
@@ -86389,7 +86389,7 @@ up O
 the O
 powerless O
 frame O
-; O
+  O
 and O
 the O
 departing O
@@ -86447,14 +86447,14 @@ her O
 knees O
 , O
 and O
-for- O
+for- B-CARDINAL
 |
 | O
 getting O
 in O
-that O
-solemn O
-hour O
+that B-TIME
+solemn I-TIME
+hour I-TIME
 all O
 that O
 had O
@@ -86564,8 +86564,8 @@ knew O
 nothing O
 more O
 for O
-many O
-minutes O
+many B-TIME
+minutes I-TIME
 . O
 When O
 she O
@@ -86620,7 +86620,7 @@ and O
 left O
 the O
 house O
-; O
+  O
 and O
 Job B-PERSON
 said O
@@ -86666,7 +86666,7 @@ the O
 consciousness O
 of O
 the O
-one B-CARDINAL
+one O
 awful O
 vacancy O
 , O
@@ -86689,8 +86689,8 @@ again O
 
 | O
 ‘ O
-The O
-day O
+The B-DATE
+day I-DATE
 brought O
 its O
 burden O
@@ -86873,7 +86873,7 @@ questions O
 “ O
 Well O
 , O
-Jem B-PERSON
+Jem O
 ! O
 he O
 ’s O
@@ -86881,7 +86881,7 @@ gone O
 at O
 last O
 , O
-ishe O
+ishe B-PERSON
 ? O
 ” O
 |
@@ -86953,20 +86953,20 @@ had O
 been O
 made O
 byJohn O
-Barton B-PERSON
+Barton B-ORG
 on O
 his O
 death O
 - O
 bed O
-; O
+  O
 he O
 remembered O
 |
 | O
-Job B-PERSON
-Legh I-PERSON
-’s I-PERSON
+Job O
+Legh O
+’s O
 discretion O
 , O
 and O
@@ -87004,10 +87004,10 @@ the O
 secret O
 would O
 be O
-ob- O
+ob- B-PERSON
 |
-| O
-viated O
+| I-PERSON
+viated I-PERSON
 , O
 if O
 he O
@@ -87122,10 +87122,10 @@ and O
 be- O
 |
 | O
-seech O
+seech B-GPE
 his O
 silence O
-; O
+  O
 he O
 trusted O
 that O
@@ -87181,7 +87181,7 @@ to O
 spare O
 John B-PERSON
 Barton I-PERSON
-'s O
+'s I-PERSON
 |
 | O
 memory O
@@ -87258,7 +87258,7 @@ I O
 stayed O
 in O
 England B-GPE
-; O
+  O
 but O
 then O
 what O
@@ -87278,7 +87278,7 @@ the O
 truth O
 would O
 out O
-; O
+  O
 |
 | O
 and O
@@ -87290,9 +87290,9 @@ show O
 to O
 folk O
 for O
-many O
-a O
-day O
+many B-DATE
+a I-DATE
+day I-DATE
 as O
 John B-PERSON
 Bar- I-PERSON
@@ -87356,7 +87356,7 @@ the O
 imputation O
 of O
 it O
-; O
+  O
 but O
 |
 | O
@@ -87511,10 +87511,10 @@ I O
 | O
 acceptit O
 . O
-Imust O
+Imust B-ORG
 leave O
-Manchester B-ORG
-; O
+Manchester B-GPE
+  O
 and O
 I O
 ’d O
@@ -87544,7 +87544,7 @@ give O
 you O
 your O
 passage O
-; O
+  O
 indeed O
 I O
 be- O
@@ -87563,8 +87563,8 @@ family O
 if O
 you O
 had O
-one O
-; O
+one B-CARDINAL
+  O
 |
 | O
 but O
@@ -87590,7 +87590,7 @@ Sir O
 but O
 — O
 ” O
-Jem B-PERSON
+Jem O
 hung O
 back O
 from O
@@ -87635,7 +87635,7 @@ go O
 , O
 I O
 suppose O
-; O
+  O
 eh O
 , O
 Wilson B-PERSON
@@ -87676,7 +87676,7 @@ can O
 pay O
 her O
 passage O
-; O
+  O
 no O
 need O
 to O
@@ -87744,8 +87744,8 @@ sail O
 [ O
 hope O
 , O
-Wilson B-ORG
-; O
+Wilson B-PERSON
+  O
 though O
 I O
 believe O
@@ -87766,7 +87766,7 @@ my O
 house O
 next O
 time O
-; O
+  O
 you O
 ’ll O
 find O
@@ -87845,7 +87845,7 @@ pre- O
 |
 | O
 sent O
-; O
+  O
 and O
 prepared O
 many O
@@ -87968,10 +87968,10 @@ gone O
 all O
 dead O
 , O
-andI O
+andI B-PERSON
 |
-| O
-am O
+| I-PERSON
+am I-PERSON
 left O
 alone O
 ! O
@@ -88037,7 +88037,7 @@ the O
 orphan O
 ’s O
 friend O
-; O
+  O
 but O
 think O
 on O
@@ -88095,7 +88095,7 @@ ewe O
 - O
 lamb O
 . O
-Jem B-PERSON
+Jem O
 shall O
 not O
 love O
@@ -88112,7 +88112,7 @@ I O
 will O
 in O
 mine O
-; O
+  O
 and O
 thou O
 ‘ O
@@ -88209,7 +88209,7 @@ store O
 for O
 the O
 visit O
-; O
+  O
 |
 | O
 for O
@@ -88256,14 +88256,14 @@ encircling O
 | O
 each O
 other O
-; O
+  O
 they O
 wept O
 for O
 the O
 same O
 dead O
-; O
+  O
 they O
 had O
 the O
@@ -88303,7 +88303,7 @@ confidence O
 of O
 their O
 intercourse O
-; O
+  O
 even O
 by O
 Jem B-PERSON
@@ -88320,7 +88320,7 @@ irritated O
 than O
 by O
 Mary B-PERSON
-; O
+  O
 before O
 the O
 |
@@ -88372,7 +88372,7 @@ his O
 mother O
 ’s O
 lips O
-; O
+  O
 |
 
  
@@ -88391,7 +88391,7 @@ respectful O
 , O
 became O
 reverential O
-; O
+  O
 and O
 it O
 |
@@ -88493,7 +88493,7 @@ eats O
 bis O
 heart O
 away O
-; O
+  O
 |
 | O
 ‘ O
@@ -88521,7 +88521,7 @@ Mr. O
 Carsons B-PERSON
 stood O
 at O
-one O
+one B-CARDINAL
 of O
 the O
 breathing O
@@ -88545,11 +88545,11 @@ and O
 the O
 wishes O
 of O
-his O
-past O
+his B-DATE
+past I-DATE
 |
-| O
-years O
+| I-DATE
+years I-DATE
 , O
 was O
 suddenly O
@@ -88633,7 +88633,7 @@ enlarged O
 , O
 was O
 energetic O
-; O
+  O
 indeed O
 , O
 whose O
@@ -88731,7 +88731,7 @@ that O
 other O
 hidden O
 one O
-; O
+  O
 when O
 so O
 many O
@@ -88794,8 +88794,8 @@ now O
 , O
 Mr. O
 Carsons B-PERSON
-t6ok O
-some B-TIME
+t6ok B-TIME
+some I-TIME
 hours I-TIME
 , O
 |
@@ -88852,7 +88852,7 @@ and O
 action O
 once O
 more O
-; O
+  O
 while O
 he O
 contemplated O
@@ -88891,7 +88891,7 @@ he O
 , O
 at O
 last O
-; O
+  O
 “ O
 as O
 I O
@@ -88947,7 +88947,7 @@ As O
 intimate O
 friends O
 of O
-Barton B-PERSON
+Barton B-ORG
 ’s O
 |
 | O
@@ -89046,8 +89046,8 @@ days I-DATE
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 took O
 the O
 opportunity O
@@ -89098,8 +89098,8 @@ there O
 ’s O
 an O
 end O
-on’t B-GPE
-; O
+on’t O
+  O
 only O
 it O
 ’s O
@@ -89220,7 +89220,7 @@ explain O
 how O
 |
 | O
-Barton B-GPE
+Barton B-PERSON
 came O
 possessed O
 of O
@@ -89249,7 +89249,7 @@ did O
 , O
 Sir O
 ! O
-IfI B-ORG
+IfI B-PERSON
 had O
 said O
 what O
@@ -89264,7 +89264,7 @@ would O
 |
 | O
 criminate O
-Barton B-PERSON
+Barton B-ORG
 , O
 and O
 so O
@@ -89289,7 +89289,7 @@ thing O
 and O
 any O
 thing O
-; O
+  O
 only O
 it O
 is O
@@ -89326,7 +89326,7 @@ shooting O
 at O
 the O
 gallery O
-; O
+  O
 and O
 |
 | O
@@ -89357,7 +89357,7 @@ sure O
 |
 
 | O
-Jem B-PERSON
+Jem O
 saw O
 with O
 self O
@@ -89400,7 +89400,7 @@ him O
 . O
 |
 | O
-Jem B-PERSON
+Jem O
 went O
 on O
 speaking O
@@ -89459,7 +89459,7 @@ to O
 my O
 dinner O
 . O
-Mother O
+Mother B-PERSON
 was O
 |
 
@@ -89487,7 +89487,7 @@ was O
 of O
 my O
 own O
-; O
+  O
 and O
 |
 | O
@@ -89518,7 +89518,7 @@ I O
 never O
 thought O
 of O
-Barton B-GPE
+Barton B-ORG
 . O
 ” O
 |
@@ -89561,9 +89561,9 @@ Ay O
 , O
 and O
 for O
-many O
-a O
-day O
+many B-DATE
+a I-DATE
+day I-DATE
 after O
 , O
 — O
@@ -89617,8 +89617,8 @@ Barton I-PERSON
 had O
 to O
 say O
-yon O
-night O
+yon B-PERSON
+night I-PERSON
 , O
 I O
 could O
@@ -89634,7 +89634,7 @@ had O
 for O
 doing O
 it O
-; O
+  O
 while O
 in O
 the O
@@ -89673,7 +89673,7 @@ Then O
 you O
 believe O
 that O
-Barton B-PERSON
+Barton B-ORG
 had O
 no O
 knowledge O
@@ -89706,7 +89706,7 @@ This O
 young O
 man O
 , O
-Wilson B-ORG
+Wilson B-PERSON
 , O
 has O
 heard O
@@ -89761,7 +89761,7 @@ ever O
 heard O
 of O
 it O
-; O
+  O
 he O
 were O
 n't O
@@ -89790,7 +89790,7 @@ Besides O
 , O
 ” O
 said O
-Job B-PERSON
+Job O
 , O
 “ O
 the O
@@ -89811,7 +89811,7 @@ speak O
 , O
 was O
 enough O
-; O
+  O
 ‘ O
 specially O
 to O
@@ -89841,7 +89841,7 @@ men O
 by O
 the O
 masters O
-; O
+  O
 you O
 think O
 he O
@@ -89881,7 +89881,7 @@ Sir O
 , O
 ” O
 replied O
-Job B-PERSON
+Job O
 , O
 “ O
 it O
@@ -89903,7 +89903,7 @@ take O
 counsel O
 with O
 people O
-; O
+  O
 nor O
 did O
 he O
@@ -90138,7 +90138,7 @@ form O
 of O
 the O
 case O
-; O
+  O
 you O
 've O
 only O
@@ -90191,8 +90191,8 @@ _ O
 |
 
 | O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 pondered O
 a O
 few O
@@ -90240,13 +90240,13 @@ life O
 like O
 a O
 lottery O
-; O
+  O
 and O
 yet O
 I O
 ’ll O
 never O
-misdoubt O
+misdoubt B-ORG
 that O
 power O
 - O
@@ -90272,7 +90272,7 @@ God O
 . O
 |
 | O
-Ihave B-PERSON
+Ihave O
 lived O
 long O
 enough O
@@ -90300,7 +90300,7 @@ out O
 a O
 higher O
 good O
-; O
+  O
 but O
 surely O
 it O
@@ -90415,7 +90415,7 @@ duty O
 to O
 be O
 done O
-; O
+  O
 and O
 the O
 duty O
@@ -90548,11 +90548,11 @@ also O
 made O
 some O
 weak O
-; O
+  O
 not O
 in O
 any O
-one B-CARDINAL
+one O
 way O
 , O
 but O
@@ -90582,7 +90582,7 @@ purpose O
 a O
 fourth B-ORDINAL
 ca O
-n’t B-GPE
+n’t O
 tell O
 right O
 from O
@@ -90591,7 +90591,7 @@ wrong O
 and O
 so O
 on O
-; O
+  O
 or O
 if O
 he O
@@ -90644,12 +90644,12 @@ to O
 the O
 facts O
 ! O
-Iask O
+Iask B-PERSON
 your O
 pardon O
 , O
 Sir O
-; O
+  O
 I O
 ca O
 n't O
@@ -90698,7 +90698,7 @@ are O
 sore O
 for O
 ye O
-; O
+  O
 we O
 ’ve O
 done O
@@ -90909,7 +90909,7 @@ never O
 see O
 you O
 again O
-; O
+  O
 but O
 I O
 'll O
@@ -90950,7 +90950,7 @@ a O
 day O
 to O
 come O
-; O
+  O
 andI’ll O
 ask O
 God O
@@ -90972,7 +90972,7 @@ Farewell O
 |
 
 | O
-Jem B-PERSON
+Jem O
 had O
 maintained O
 a O
@@ -91037,7 +91037,7 @@ forgiven O
 a O
 deep O
 injury O
-; O
+  O
 and O
 who O
 struggled O
@@ -91086,7 +91086,7 @@ them O
 by O
 the O
 hand O
-; O
+  O
 and O
 thus O
 , O
@@ -91141,7 +91141,7 @@ took O
 the O
 form O
 of O
-Prophecy B-GPE
+Prophecy O
 . O
 |
 | O
@@ -91278,7 +91278,7 @@ may O
  
 
 | O
-A418 B-CARDINAL
+A418 O
 |
 
 | O
@@ -91317,30 +91317,30 @@ content O
 , O
 |
 | O
-Lies B-ORG
+Lies O
 in O
 simple O
 things O
-; O
+  O
 |
 | O
-Humble O
+Humble B-WORK_OF_ART
 voyagers O
 are O
 we O
 |
 | O
-Orer O
+Orer B-PERSON
 life O
 's O
 dim O
 unsounded O
 sea O
-; O
+  O
 |
 | O
 Touch O
-us B-GPE
+us O
 gently O
 , O
 gentle O
@@ -91356,13 +91356,13 @@ watt O
 |
 
 | O
-Nor O
-many O
-days O
+Nor B-DATE
+many I-DATE
+days I-DATE
 after O
 John B-PERSON
 Barton I-PERSON
-’s O
+’s I-PERSON
 funeral O
 was O
 over O
@@ -91378,7 +91378,7 @@ Jem B-PERSON
 appointment O
 at O
 Toronto B-GPE
-; O
+  O
 and O
 the O
 |
@@ -91406,7 +91406,7 @@ remained O
 to O
 be O
 done O
-; O
+  O
 many O
 domestic O
 prepa- O
@@ -91416,7 +91416,7 @@ rations O
 were O
 to O
 bemade O
-; O
+  O
 and O
 one B-CARDINAL
 great O
@@ -91508,7 +91508,7 @@ ad- O
 vantage O
 of O
 an O
-evening B-TIME
+evening O
 of O
 unusual O
 placidity O
@@ -91532,7 +91532,7 @@ to O
 broach O
 the O
 subject O
-; O
+  O
 and O
 |
 | O
@@ -91563,7 +91563,7 @@ wife O
 To O
 be O
 sure O
-Merrica B-GPE
+Merrica B-PERSON
 is O
 a O
 long O
@@ -91571,7 +91571,7 @@ way O
 to O
 flit O
 to O
-; O
+  O
 beyond O
 Lon- O
 |
@@ -91582,13 +91582,13 @@ good O
 bit O
 I O
 reckon O
-; O
+  O
 and O
 quite O
 in O
 foreign O
 parts O
-; O
+  O
 but O
 I O
 ’ve O
@@ -91655,7 +91655,7 @@ when O
 they O
 see O
 him O
-; O
+  O
 ne’er O
 speak O
 a O
@@ -91682,7 +91682,7 @@ smooth O
 , O
 and O
 easy O
-; O
+  O
 the O
 present O
 |
@@ -91696,7 +91696,7 @@ the O
 future O
 was O
 hopeful O
-; O
+  O
 they O
 had O
 lei- O
@@ -91716,7 +91716,7 @@ past O
 
 | O
 “ O
-Jem B-PERSON
+Jem O
 ! O
 ” O
 said O
@@ -91752,8 +91752,8 @@ keep O
 Mary B-PERSON
 company O
 through O
-the B-TIME
-night I-TIME
+the O
+night O
 , O
 ‘ O
 Jem O
@@ -91855,7 +91855,7 @@ her O
 yet O
 , O
 — O
-ob O
+ob B-ORG
 , O
 |
 | O
@@ -91893,7 +91893,7 @@ Mary B-PERSON
 's O
 singuine O
 spirit O
-; O
+  O
 “ O
 she O
 |
@@ -91904,7 +91904,7 @@ to O
 America B-GPE
 with O
 us O
-; O
+  O
 and O
 we O
 ‘ O
@@ -91947,7 +91947,7 @@ the O
 police O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
 ‘ O
 Take O
@@ -91984,13 +91984,13 @@ was O
 notto O
 be O
 . O
-Jem B-PERSON
+Jem O
 wandered O
 far O
 and O
 wide O
-that B-TIME
-night I-TIME
+that O
+night O
 , O
 but O
 |
@@ -92007,7 +92007,7 @@ applied O
 to O
 the O
 police O
-; O
+  O
 and O
 |
 | O
@@ -92034,7 +92034,7 @@ name O
 of O
 the O
 “ O
-Butterfly O
+Butterfly B-PERSON
 , O
 ” O
 from O
@@ -92045,11 +92045,11 @@ gaicty O
 of O
 her O
 dress O
-a B-DATE
-year I-DATE
-or I-DATE
-two I-DATE
-ago I-DATE
+a O
+year B-DATE
+or O
+two O
+ago O
 . O
 By O
 their O
@@ -92059,7 +92059,7 @@ traced O
 |
 | O
 out O
-one O
+one B-CARDINAL
 of O
 their O
 haunts O
@@ -92135,7 +92135,7 @@ even- O
 | O
 ing O
 and O
-night O
+night B-TIME
 for O
 their O
 trades O
@@ -92195,7 +92195,7 @@ a O
 place O
 for O
 shelter O
-; O
+  O
 and O
 that O
 if O
@@ -92227,7 +92227,7 @@ like O
 the O
 wild O
 animals O
-; O
+  O
 but O
 here O
 the O
@@ -92267,8 +92267,8 @@ have O
 here O
 , O
 but O
-that O
-night O
+that B-TIME
+night I-TIME
 the O
 room O
 was O
@@ -92414,7 +92414,7 @@ the O
 trembling O
 life O
 away O
-; O
+  O
 but O
 it O
 was O
@@ -92446,8 +92446,8 @@ once O
 familiar O
 room O
 : O
-Job B-PERSON
-Legh I-PERSON
+Job O
+Legh O
 knelt O
 by O
 the O
@@ -92746,8 +92746,8 @@ a O
 | O
 mile O
 around O
-; O
-one O
+  O
+one B-CARDINAL
 alone O
 remains O
 to O
@@ -92843,7 +92843,7 @@ daily B-DATE
 |
 | O
 work O
-; O
+  O
 and O
 while O
 she O
@@ -92853,7 +92853,7 @@ she O
 listens O
 , O
 smiling O
-; O
+  O
 |
 
 | O
@@ -92928,7 +92928,7 @@ her O
 
 | O
 » O
-423 B-CARDINAL
+423 O
 |
 
 | O
@@ -92952,9 +92952,9 @@ late O
 “ O
 Oh O
 , O
-Jem B-PERSON
+Jem O
 , O
-Jem B-PERSON
+Jem O
 ! O
 do O
 n’t O
@@ -93226,12 +93226,12 @@ out O
 here O
 next O
 voyage O
-; O
+  O
 and O
-Job B-PERSON
+Job O
 |
-| I-PERSON
-Legh I-PERSON
+| O
+Legh O
 talks O
 of O
 coming O
@@ -93321,17 +93321,17 @@ seriously O
 
 | O
 THE O
-END B-ORG
+END O
 . O
 |
 
 | O
 PRINTED O
 BY O
-BERNH B-PERSON
+BERNH O
 . O
 TAUCHNITZ B-ORG
-JUN I-ORG
+JUN O
 . O
 |
 
@@ -93353,21 +93353,21 @@ JUN I-ORG
 | O
 STANFORD B-ORG
 UNIVERSITY I-ORG
-LIBRARIES O
+LIBRARIES I-ORG
 |
-| O
-CECIL O
-H. O
-GREEN O
-LIBRARY O
+| I-ORG
+CECIL I-ORG
+H. I-ORG
+GREEN I-ORG
+LIBRARY I-ORG
 |
-| O
-STANFORD B-ORG
+| I-ORG
+STANFORD I-ORG
 , O
 CALIFORNIA B-GPE
-94305 B-DATE
-- I-DATE
-6004 I-DATE
+94305 O
+- O
+6004 O
 |
 | O
 ( O

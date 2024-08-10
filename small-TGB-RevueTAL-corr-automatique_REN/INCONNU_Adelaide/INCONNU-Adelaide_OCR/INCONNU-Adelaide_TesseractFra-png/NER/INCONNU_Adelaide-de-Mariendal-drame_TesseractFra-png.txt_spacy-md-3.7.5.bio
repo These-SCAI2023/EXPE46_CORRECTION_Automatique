@@ -2,14 +2,14 @@
 
 | O
 ral O
-Gallica B-PER
+Gallica O
 |
 
-| I-PER
+| O
 Adélaïde B-PER
 de I-PER
 M I-PER
-ariendal O
+ariendal I-PER
 , O
 |
 | O
@@ -21,23 +21,23 @@ actes O
 |
 
 | O
-Source B-ORG
-gallica.bnf.fr I-ORG
-/ I-ORG
-Bibliothèque I-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Source B-MISC
+gallica.bnf.fr I-MISC
+/ I-MISC
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| O
-11 O
-Gallica B-MISC
+| I-LOC
+11 I-LOC
+Gallica I-LOC
 |
 
  
 
-| O
+| I-LOC
 l. O
 Adélaïde B-PER
 de I-PER
@@ -162,10 +162,10 @@ après O
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 » O
 ou O
 « O
@@ -271,16 +271,16 @@ etc. O
 |
 
 | O
-CLIQUER B-MISC
-ICI I-MISC
+CLIQUER O
+ICI O
 POUR O
-ACCÉDER B-ORG
-AUX O
-TARIFS B-MISC
-ET O
-À B-MISC
-LA I-MISC
-LICENCE I-MISC
+ACCÉDER O
+AUX B-MISC
+TARIFS I-MISC
+ET I-MISC
+À O
+LA O
+LICENCE B-MISC
 |
 
  
@@ -290,7 +290,7 @@ LICENCE I-MISC
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriété O
@@ -445,7 +445,7 @@ réutilisation O
 
 | O
 4/ O
-Gallica B-LOC
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -464,9 +464,9 @@ au O
 sens O
 des O
 articles O
-L341 B-MISC
-- I-MISC
-1 I-MISC
+L341 O
+- O
+1 O
 et O
 |
 | O
@@ -490,7 +490,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 régies O
 par O
@@ -599,7 +599,7 @@ obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 définition O
@@ -616,15 +616,15 @@ bnf.fr O
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| I-ORG
-Qga I-ORG
-LIT I-ORG
+| I-LOC
+Qga O
+LIT O
 |
 | O
 “ O
@@ -637,7 +637,7 @@ Vo O
 “ O
 1 O
 , O
-; O
+  O
 . O
 . O
 |
@@ -647,11 +647,11 @@ Vo O
 .. O
 à O
 Le O
-LT B-ORG
-+ I-ORG
+LT B-MISC
++ I-MISC
 |
-| I-ORG
-ot I-ORG
+| I-MISC
+ot I-MISC
 " O
 : O
 ‘ O
@@ -686,7 +686,7 @@ F. O
 | O
 PE B-ORG
 * O
-S B-LOC
+S O
 4 O
 ° O
 - O
@@ -713,31 +713,31 @@ j O
 
 | O
 DE O
-Vs B-MISC
+Vs O
 |
-| I-MISC
-MARIEND I-MISC
+| O
+MARIEND B-ORG
 RES O
 # O
 |||| O
 |
 | O
 DRAME O
-EN O
-CINQ B-MISC
-ACTES B-MISC
+EN B-MISC
+CINQ I-MISC
+ACTES I-MISC
 . O
 : O
 |
 
 | O
-Genrnqeenr B-LOC
+Genrnqeenr B-PER
 mme O
 |
 | O
-Prix O
-x O
-liv O
+Prix B-MISC
+x I-MISC
+liv I-MISC
 , O
 10 O
 fols O
@@ -745,8 +745,8 @@ fols O
 |
 
 | O
-fs O
-FA O
+fs B-ORG
+FA I-ORG
 a O
 ‘ O
 |
@@ -756,16 +756,16 @@ a O
  
 
 | O
-|||| O
-A O
-PARIS B-LOC
+|||| B-PER
+A I-PER
+PARIS I-PER
 . O
 bre O
 |
 | O
 Chez O
-JEAN-Françors O
-BASTIEN B-MISC
+JEAN-Françors B-MISC
+BASTIEN I-MISC
 , O
 Libraire B-MISC
 , O
@@ -793,10 +793,10 @@ oi O
  
 
 | O
-M B-MISC
-DCC I-MISC
+M O
+DCC O
 . O
-LXXXIII B-MISC
+LXXXIII B-PER
 . O
 |
 
@@ -813,11 +813,11 @@ RU B-LOC
 |
 
 | I-LOC
-Cr O
+Cr I-LOC
 |
 
-| O
-SEEN O
+| I-LOC
+SEEN I-LOC
 " O
 EE O
 |
@@ -840,15 +840,15 @@ MARIENDAL B-ORG
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 ee O
 |
 
 | O
 ‘ O
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 , O
 leur O
 fils O
@@ -856,7 +856,7 @@ fils O
 |
 
 | O
-ADELAIDE B-PER
+ADELAIDE B-ORG
 , O
 leur O
 fille O
@@ -865,7 +865,7 @@ fille O
 
 | O
 . O
-DUMOND B-MISC
+DUMOND O
 . O
 |
 
@@ -880,18 +880,18 @@ a O
 | O
 FRANKNER B-MISC
 , O
-Négociant B-LOC
+Négociant B-ORG
 fous O
 le O
 : O
 nom O
 de O
-|||| O
-CC O
+|||| B-MISC
+CC I-MISC
 |
 
-| O
-DUPUIS B-ORG
+| I-MISC
+DUPUIS I-MISC
 , O
 ami O
 de O
@@ -900,28 +900,28 @@ Frankner B-PER
 fous O
 le O
 nom O
-|||| O
-: O
-|||| O
-|||| O
+|||| B-MISC
+: I-MISC
+|||| I-MISC
+|||| I-MISC
 |
 
-| O
-ANTOINE B-MISC
+| I-MISC
+ANTOINE I-MISC
 . O
 |
 | O
 M. O
-JÉROME B-MISC
+JÉROME B-PER
 , O
-Coniege B-MISC
-ae O
-‘ O
+Coniege B-PER
+ae I-PER
+‘ I-PER
 |
 
-| O
-La B-MISC
-Scene I-MISC
+| I-PER
+La I-PER
+Scene B-MISC
 fe I-MISC
 paffe I-MISC
 en O
@@ -935,7 +935,7 @@ un O
 château O
 appartenant O
 au O
-Baron B-LOC
+Baron B-PER
 , O
 |
 
@@ -948,30 +948,30 @@ AIDE O
 
 | O
 _ O
-DE O
-MAR B-ORG
-TE I-ORG
-N I-ORG
-° I-ORG
-D.4 I-ORG
-Tè I-ORG
+DE B-MISC
+MAR I-MISC
+TE I-MISC
+N I-MISC
+° O
+D.4 O
+Tè O
 |
 
 | O
-AÔTE B-ORG
+AÔTE B-MISC
 : O
 PREMIER B-MISC
 . O
 . O
 |
 | O
-SCENE B-ORG
-PREMIERE O
+SCENE B-MISC
+PREMIERE I-MISC
 . O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 M. O
 JÉROME B-MISC
@@ -985,7 +985,7 @@ Baron O
 |
 
 | O
-ME B-ORG
+ME O
 . O
 Jérôme B-PER
 , O
@@ -1003,7 +1003,7 @@ avez O
 
 | O
 : O
-IMa B-LOC
+IMa B-ORG
 : O
 confiance O
 , O
@@ -1011,9 +1011,9 @@ ceft O
 aujourd'hui O
 que O
 . O
-jai B-PER
-- I-PER
-plus I-PER
+jai O
+- O
+plus O
 _ O
 |
 | O
@@ -1024,7 +1024,7 @@ befoin O
 de.votre O
 zele O
 . O
-Allez O
+Allez B-PER
 prier O
 ma O
 |
@@ -1038,7 +1038,7 @@ de O
 e O
 rendre O
 ici O
-; O
+  O
 delà O
 vous O
 |
@@ -1048,7 +1048,7 @@ vous O
 chercher O
 les O
 deux O
-; O
+  O
 jeunes O
 gens O
 que O
@@ -1072,9 +1072,9 @@ les O
 |
 | O
 ‘ O
-amenerez O
+amenerez B-PER
 , O
-Allez B-LOC
+Allez B-PER
 , O
 ( O
 feul O
@@ -1118,8 +1118,8 @@ facrifice O
 |
 | O
 « O
-I B-LOC
-eft O
+I B-PER
+eft I-PER
 : O
 cruel O
 de-pañler O
@@ -1135,7 +1135,7 @@ des O
 |
 
 | O
-A B-LOC
+A O
 |
 
 | O
@@ -1155,7 +1155,7 @@ obfcurité O
 & O
 la O
 retraite O
-; O
+  O
 . O
 |
 | O
@@ -1178,7 +1178,7 @@ ma O
 | O
 gloire O
 ... O
-Heureux O
+Heureux B-MISC
 encore O
 , O
 fi O
@@ -1207,22 +1207,22 @@ approche O
 | O
 RES O
 RE O
-nee B-MISC
+nee B-ORG
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-c' O
-eft O
-ma O
-familles O
-montrons O
-leur O
-un O
-vifage O
-ferein O
-; O
+| I-MISC
+c' I-MISC
+eft I-MISC
+ma I-MISC
+familles I-MISC
+montrons I-MISC
+leur I-MISC
+un I-MISC
+vifage I-MISC
+ferein I-MISC
+  O
 |
 
 | O
@@ -1258,15 +1258,15 @@ entir O
 |
 
 | O
-QE O
-EE O
-EG B-ORG
+QE B-ORG
+EE I-ORG
+EG O
 |||| O
 4 O
 |
 | O
-SCENE O
-II B-MISC
+SCENE B-MISC
+II I-MISC
 |
 
 | I-MISC
@@ -1274,12 +1274,12 @@ LE O
 BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 , O
 ADÉLAIDE B-MISC
 . O
@@ -1287,7 +1287,7 @@ ADÉLAIDE B-MISC
 
 | O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 
@@ -1323,7 +1323,7 @@ tous O
 
 | O
 la O
-nobleffe O
+nobleffe B-LOC
 de O
 notre O
 origine O
@@ -1343,7 +1343,7 @@ Allemagne B-LOC
 en O
 connoit O
 peu O
-d’ B-MISC
+d’ O
 aufli O
 |
 | O
@@ -1393,8 +1393,8 @@ je O
 vous O
 rends O
 juftice O
-; O
-ainfi O
+  O
+ainfi B-PER
 je O
 ne O
 vous O
@@ -1413,12 +1413,12 @@ fituation O
 mes O
 defleins O
 , O
-|||| O
+|||| B-MISC
 |
-| O
-& O
-les O
-facrifices O
+| I-MISC
+& I-MISC
+les I-MISC
+facrifices I-MISC
 que O
 j' O
 attends O
@@ -1435,9 +1435,9 @@ gous O
 Quand B-MISC
 votre I-MISC
 ayeul I-MISC
-perdit I-MISC
-la I-MISC
-vie I-MISC
+perdit O
+la O
+vie O
 , O
 je O
 me O
@@ -1450,8 +1450,8 @@ me O
  
 
 | O
-DE O
-MARIENDAI B-MISC
+DE B-PER
+MARIENDAI I-PER
 . O
 3 O
 |
@@ -1569,16 +1569,16 @@ alarme O
 , O
 Si B-MISC
 |
-| O
-“ O
-quelqu' O
-un O
-d’ O
-entre O
-eux O
-donnoit O
-le O
-fignal O
+| I-MISC
+“ I-MISC
+quelqu' I-MISC
+un I-MISC
+d’ I-MISC
+entre I-MISC
+eux I-MISC
+donnoit I-MISC
+le I-MISC
+fignal I-MISC
 , O
 tout O
 feroit O
@@ -1594,7 +1594,7 @@ cette O
 cataftrophe O
 . O
 Il O
-n’ B-PER
+n’ O
 étoit O
 |
 | O
@@ -1629,15 +1629,15 @@ ordre O
 à O
 tout O
 , O
-Aïnfi B-MISC
-, I-MISC
-mes I-MISC
-enfans I-MISC
+Aïnfi B-PER
+, O
+mes O
+enfans O
 , O
 ne O
 |
 | O
-foyez O
+foyez B-ORG
 pas O
 furpris O
 de O
@@ -1651,7 +1651,7 @@ cette O
 Joule B-PER
 de O
 gens O
-oififs O
+oififs B-PER
 , O
 de O
 ces O
@@ -1667,7 +1667,7 @@ nos O
 pieds O
 : O
 vous O
-n’ B-PER
+n’ O
 au- O
 |
 | O
@@ -1708,11 +1708,11 @@ faifoient O
 | O
 regner O
 la O
-molleffe O
+molleffe B-ORG
 , O
-l’ B-ORG
-intempérance I-ORG
-& I-ORG
+l’ O
+intempérance O
+& O
 les O
 mauvaifes O
 |
@@ -1747,7 +1747,7 @@ honnêtes O
 pour O
 nous O
 fervir O
-; O
+  O
 en O
 renoriçant O
 au O
@@ -1763,10 +1763,10 @@ néceflaire O
 Nos B-MISC
 befoins I-MISC
 |
-| I-MISC
-font I-MISC
-bien I-MISC
-diminués I-MISC
+| O
+font O
+bien O
+diminués O
 , O
 & O
 ces O
@@ -1777,9 +1777,9 @@ nous O
 | O
 fufiront O
 , O
-Si O
-nous O
-reions O
+Si B-MISC
+nous I-MISC
+reions I-MISC
 à O
 à O
 la O
@@ -1790,8 +1790,8 @@ projet O
 |
 
 | O
-À B-MISC
-ij I-MISC
+À O
+ij B-MISC
 |
 
 | I-MISC
@@ -1817,10 +1817,10 @@ faut O
 
 | O
 . O
-foutenir O
+foutenir B-PER
 . O
-fon O
-rang O
+fon B-PER
+rang I-PER
 , O
 il O
 n' O
@@ -1852,7 +1852,7 @@ campagne O
 | O
 : O
 où O
-l’ B-ORG
+l’ O
 on O
 n' O
 a O
@@ -1865,7 +1865,7 @@ il O
 eft O
 aifé O
 de O
-fe O
+fe B-LOC
 |
 
 | O
@@ -1885,7 +1885,7 @@ fixés O
 à O
 ce O
 château O
-jufqu’ B-LOC
+jufqu’ O
 à O
 ce O
 que O
@@ -1922,13 +1922,13 @@ avons O
 | O
 quitté O
 , O
-Le O
-terme O
-n’ O
-eft O
-pas O
-auñli O
-long O
+Le B-MISC
+terme I-MISC
+n’ I-MISC
+eft I-MISC
+pas I-MISC
+auñli I-MISC
+long I-MISC
 que O
 vous O
 pour- O
@@ -1984,8 +1984,8 @@ lence O
 , O
 |
 | O
-Le B-PER
-Baron I-PER
+Le B-MISC
+Baron I-MISC
 continue O
 . O
 avec O
@@ -1997,20 +1997,20 @@ douceur O
 Eh B-MISC
 bien I-MISC
 , I-MISC
-mes O
-enfans O
-? O
+mes I-MISC
+enfans I-MISC
+? I-MISC
 |
 
-| O
-|||| O
-|||| O
-ADÉLAÏIDE O
+| I-MISC
+|||| I-MISC
+|||| I-MISC
+ADÉLAÏIDE I-MISC
 |
 
-| O
-Mon O
-pere O
+| I-MISC
+Mon I-MISC
+pere I-MISC
 , O
 vous O
 devez O
@@ -2074,7 +2074,7 @@ envifager O
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
 |
 
@@ -2083,7 +2083,7 @@ CHEVALIER B-ORG
 ‘ O
 Non O
 , O
-Mademoifelle B-LOC
+Mademoifelle B-PER
 , O
 les O
 vues O
@@ -2100,7 +2100,7 @@ replique O
 , O
 Il B-MISC
 n’ I-MISC
-eft O
+eft I-MISC
 qu' O
 un O
 moyen O
@@ -2116,8 +2116,8 @@ fortune O
 , O
 Vouloir B-MISC
 oppofer I-MISC
-des I-MISC
-réflexions I-MISC
+des O
+réflexions O
 , O
 |
 
@@ -2125,16 +2125,16 @@ réflexions I-MISC
 _ O
 Æ€ B-PER
 D I-PER
-’ O
-eft O
+’ I-PER
+eft I-PER
 ni O
 le O
 lieu O
 ni O
 l' O
 inftant O
-; O
-ainfi O
+  O
+ainfi B-PER
 , O
 fans O
 vous O
@@ -2163,14 +2163,14 @@ nos O
 TT B-ORG
 EC I-ORG
 PA I-ORG
-AR O
+AR I-ORG
 |
 
-| O
-DE.MARIENDAL O
+| I-ORG
+DE.MARIENDAL I-ORG
 | | O
 $ O
-; O
+  O
 |
 
 | O
@@ -2181,7 +2181,7 @@ obligent O
 fongeons O
 tous O
 à O
-concourit O
+concourit B-PER
 . O
 |
 
@@ -2198,15 +2198,15 @@ maifon O
 . O
 |
 | O
-A O
-DÉELEAÏiD B-LOC
-E. O
+A B-LOC
+DÉELEAÏiD I-LOC
+E. I-LOC
 |
-| O
-Pen{ez O
+| I-LOC
+Pen{ez I-LOC
 -vous O
 , O
-Menfieur B-MISC
+Menfieur B-ORG
 , O
 que O
 cette O
@@ -2228,14 +2228,14 @@ vous O
 4 O
 " O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 | O
 J' O
 en O
 fuis O
-perfuadé O
+perfuadé B-ORG
 , O
 ma O
 fille O
@@ -2250,13 +2250,13 @@ que O
 | O
 ‘ O
 . O
-; O
+  O
 \ O
 |
 | O
 nous O
 verrons O
-; O
+  O
 en O
 attendant O
 je O
@@ -2281,7 +2281,7 @@ Je O
 | O
 vois O
 avec O
-fatisfaction O
+fatisfaction B-PER
 votre O
 fermeté O
 & O
@@ -2292,12 +2292,12 @@ cou O
 | O
 rage O
 , O
-Chevalier B-ORG
+Chevalier B-PER
 , O
 je O
-n’ B-PER
+n’ O
 en O
-attendoïs O
+attendoïs B-LOC
 pas O
 moins O
 . O
@@ -2337,17 +2337,17 @@ levent O
 |
 
 | O
-Voilà O
-ce O
-que O
-j' O
-avois O
-à O
-vous O
-dire O
+Voilà B-MISC
+ce I-MISC
+que I-MISC
+j' I-MISC
+avois I-MISC
+à I-MISC
+vous I-MISC
+dire I-MISC
 . O
-Croyez B-MISC
-quil O
+Croyez B-PER
+quil I-PER
 . O
 |
 
@@ -2413,7 +2413,7 @@ BARONNE B-ORG
 |
 
 | I-ORG
-Vous O
+Vous I-ORG
 n’ O
 en O
 entendrez O
@@ -2426,8 +2426,8 @@ Baron I-PER
 |
 
 | O
-LE O
-Baron O
+LE B-PER
+Baron I-PER
 . O
 |
 | O
@@ -2480,8 +2480,8 @@ bonheur O
 |
 
 | O
-A B-MISC
-ii I-MISC
+A B-PER
+ii I-PER
 |
 
 | O
@@ -2493,12 +2493,12 @@ ii I-MISC
 . O
 |
 | O
-Fa O
+Fa B-MISC
 |
 
-| O
-6 O
-' O
+| I-MISC
+6 I-MISC
+' I-MISC
 ADÉLAIDE B-MISC
 |
 | O
@@ -2508,10 +2508,10 @@ III I-MISC
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -2520,9 +2520,9 @@ BARONNE B-ORG
 Pendant O
 la O
 derniere O
-Scene B-PER
+Scene B-MISC
 la O
-Baronne B-LOC
+Baronne B-MISC
 a O
 témoigné O
 |
@@ -2560,7 +2560,7 @@ Il O
 eft O
 douloureux O
 d’ O
-enfevelir O
+enfevelir B-LOC
 dans O
 une O
 foli- O
@@ -2572,7 +2572,7 @@ famille O
 comme O
 la O
 nôtre O
-; O
+  O
 mais O
 pouvoisje O
 |
@@ -2603,7 +2603,7 @@ de O
 notre O
 |
 | O
-mailon O
+mailon B-PER
 , O
 & O
 cet O
@@ -2648,10 +2648,10 @@ je O
 dois’ O
 être O
 tranquille O
-; O
+  O
 mes O
 créanciers O
-s’ B-LOC
+s’ O
 efti- O
 |
 | O
@@ -2669,13 +2669,13 @@ moyens O
 
 | O
 extrêmes O
-que.j' O
+que.j' B-ORG
 emploie O
 pour O
 me O
 mettre O
 en O
-état B-LOC
+état O
 . O
 |
 
@@ -2704,7 +2704,7 @@ hardi O
 | O
 |||| O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -2721,8 +2721,8 @@ tout O
 , O
 |
 | O
-LE O
-Baron B-PER
+LE B-PER
+Baron I-PER
 . O
 |
 
@@ -2755,11 +2755,11 @@ snrmmnns O
 PORC O
 |
 | O
-FRE O
+FRE B-MISC
 |
 
-| O
-US B-LOC
+| I-MISC
+US I-MISC
 < O
 e O
 |
@@ -2785,19 +2785,19 @@ LL I-MISC
 |
 
 | I-MISC
-He O
+He I-MISC
 |
 
 | O
 , O
 DE O
-MARIENDAL B-MISC
-# I-MISC
-7 I-MISC
+MARIENDAL O
+# O
+7 O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 _ O
 |
@@ -2815,11 +2815,11 @@ doivent O
 |
 | O
 Baron B-PER
-; O
+  O
 & O
 le O
-Chevalier B-PER
-s’ I-PER
+Chevalier B-ORG
+s’ O
 eft O
 -il O
 arrangé O
@@ -2841,9 +2841,9 @@ grace O
 |
 | O
 . O
-_ O
-LE O
-Baron B-PER
+_ B-PER
+LE I-PER
+Baron I-PER
 . O
 |
 
@@ -2866,7 +2866,7 @@ _ O
 | O
 / O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 |
 
@@ -2884,7 +2884,7 @@ des O
 gens O
 à O
 qui O
-l’ B-LOC
+l’ O
 on O
 doit O
 tout O
@@ -2903,7 +2903,7 @@ haut O
 cette O
 fierté O
 extrême O
-n’ B-MISC
+n’ O
 eft O
 point O
 du O
@@ -2928,7 +2928,7 @@ fe O
 connoît O
 , O
 Madame B-PER
-; O
+  O
 plut O
 - O
 àdieu O
@@ -2941,23 +2941,23 @@ de O
 ma O
 famille O
 lui O
-reflemblât O
+reflemblât B-LOC
 , O
 |
 | O
-|||| O
-LA O
-BARONNS B-ORG
+|||| B-LOC
+LA I-LOC
+BARONNS I-LOC
 . O
 |
 
 | O
-Point O
-d' O
-injures O
+Point B-MISC
+d' I-MISC
+injures I-MISC
 , O
 Baron B-PER
-; O
+  O
 le O
 refte O
 de O
@@ -2979,11 +2979,11 @@ BARON O
 . O
 |
 | O
-Plût B-LOC
-au O
-ciel O
+Plût B-MISC
+au I-MISC
+ciel I-MISC
 qu' O
-Adélaïde B-LOC
+Adélaïde B-PER
 ! O
 ... O
 |
@@ -2996,17 +2996,17 @@ BARONNE B-ORG
 Eh O
 bien O
 , O
-Adélaïde B-LOC
+Adélaïde B-PER
 ? O
 |
 | O
-L O
-E O
-BARON O
+L B-MISC
+E I-MISC
+BARON I-MISC
 ... O
 |
 | O
-C’ B-MISC
+C’ O
 eft O
 là O
 fa O
@@ -3058,7 +3058,7 @@ Aïiv O
 
 | O
 £ O
-ADÉLAIDE O
+ADÉLAIDE B-MISC
 |
 
 | O
@@ -3069,7 +3069,7 @@ de O
 toute O
 fa O
 famille O
-; O
+  O
 ah O
 ! O
 qu’ O
@@ -3096,28 +3096,28 @@ audace O
 
 | O
 de O
-perfifter O
+perfifter B-PER
 dans O
-fon O
-amour O
+fon B-MISC
+amour I-MISC
 , O
-L’ B-PER
-honneur I-PER
-de I-PER
-ma I-PER
-mai- O
+L’ B-MISC
+honneur I-MISC
+de I-MISC
+ma I-MISC
+mai- I-MISC
 |
 
-| O
-fon O
+| I-MISC
+fon I-MISC
 feroit O
 taire O
 bientôt O
 la O
-tendrefle O
-& O
-la O
-nature O
+tendrefle B-ORG
+& I-ORG
+la I-ORG
+nature I-ORG
 , O
 |
 
@@ -3137,7 +3137,7 @@ ferois O
 
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 .. O
 |
 
@@ -3158,8 +3158,8 @@ de O
 m' O
 écouter O
 . O
-Notre B-PER
-mailon I-PER
+Notre O
+mailon O
 eft O
 ancienne O
 , O
@@ -3199,8 +3199,8 @@ téignent O
 tous O
 les O
 jours O
-; O
-c’ B-MISC
+  O
+c’ O
 eft O
 - O
 à O
@@ -3246,7 +3246,7 @@ que O
 la O
 nôtre O
 , O
-fe O
+fe B-LOC
 font O
 |
 
@@ -3337,7 +3337,7 @@ heureux O
 . O
 Le O
 fils O
-d’ B-PER
+d’ O
 un O
 des O
 plus O
@@ -3349,7 +3349,7 @@ Négocians B-PER
 de I-PER
 Hollande I-PER
 aime O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
 il O
 . O
@@ -3361,7 +3361,7 @@ faite O
 demander O
 en O
 mariage O
-; O
+  O
 vous O
 la O
 lui O
@@ -3370,9 +3370,9 @@ avez O
 | O
 refufée O
 cruellement O
-; O
+  O
 il O
-s’ B-PER
+s’ O
 eft O
 retiré O
 outré O
@@ -3389,11 +3389,11 @@ n' O
 a O
 pas O
 ceflé O
-d’ B-MISC
+d’ O
 adorer O
 votre O
 fille O
-; O
+  O
 je O
 fais O
 |
@@ -3407,7 +3407,7 @@ fenfible O
 fon O
 outrage O
 , O
-qu’ B-PER
+qu’ O
 elle O
 a O
 |
@@ -3429,7 +3429,7 @@ rien O
 4 O
 |
 | O
-; O
+  O
 |
 
 | O
@@ -3440,10 +3440,10 @@ k O
 + O
 |
 | O
-RÉ B-PER
+RÉ O
 |
-| I-PER
-FRET I-PER
+| O
+FRET B-ORG
 . O
 |
 
@@ -3451,36 +3451,36 @@ FRET I-PER
 
 | O
 vrrés O
-SRI B-ORG
-TIR I-ORG
+SRI B-MISC
+TIR I-MISC
 7 O
 , O
 |
 | O
-52 O
-RÉ B-MISC
+52 B-MISC
+RÉ I-MISC
 TENe I-MISC
-ET O
+ET I-MISC
+|
+
+| I-MISC
+LR B-MISC
+TRS I-MISC
+NET I-MISC
+TT I-MISC
+nd I-MISC
 |
 
 | O
-LR O
-TRS O
-NET O
-TT O
-nd O
-|
-
-| O
-LR O
-ET O
-- O
+LR B-MISC
+ET I-MISC
+- I-MISC
 |
 
-| O
-i O
-DE O
-MARIENDAL B-ORG
+| I-MISC
+i I-MISC
+DE I-MISC
+MARIENDAL I-MISC
 y O
 |
 
@@ -3489,12 +3489,12 @@ elle O
 l' O
 aime O
 , O
-& O
-le O
-bonheur O
-de O
-fa O
-vie O
+& B-MISC
+le I-MISC
+bonheur I-MISC
+de I-MISC
+fa I-MISC
+vie I-MISC
 dépend O
 . O
 de O
@@ -3506,8 +3506,8 @@ confentement O
 |
 
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 | O
@@ -3522,7 +3522,7 @@ jamais O
 | O
 |||| O
 La O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -3566,17 +3566,17 @@ fer O
 le O
 frere O
 , O
-& O
-la O
-fœur O
-époufe O
+& B-MISC
+la I-MISC
+fœur I-MISC
+époufe I-MISC
 votre O
 fils O
 . O
 Vous O
 |
 | O
-n’ B-PER
+n’ O
 avez O
 qu' O
 à O
@@ -3598,7 +3598,7 @@ le I-PER
 Baron I-PER
 , O
 envifagez O
-l’ B-ORG
+l’ O
 état O
 où O
 |
@@ -3609,7 +3609,7 @@ fommes O
 Que O
 fert O
 de O
-gémir B-PER
+gémir O
 . O
 infruétueufe- O
 |
@@ -3643,12 +3643,12 @@ bien O
 plus O
 cuifans O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-Lé B-PER
-Baron I-PER
+| I-MISC
+Lé I-MISC
+Baron I-MISC
 . O
 ” O
 |
@@ -3683,7 +3683,7 @@ non O
 laiffons O
 la O
 naïffance O
-; O
+  O
 la O
 religion O
 n' O
@@ -3705,7 +3705,7 @@ invincible O
 
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 | O
@@ -3733,7 +3733,7 @@ intolérance O
 | O
 |||| O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 | O
@@ -3751,7 +3751,7 @@ point O
 |
 
 | O
-A B-LOC
+A O
 |
 
 | O
@@ -3764,7 +3764,7 @@ ADÉLAIDE B-MISC
 d' O
 avis O
 de O
-facrifier O
+facrifier B-PER
 pour O
 ce O
 mariage O
@@ -3791,10 +3791,10 @@ obtenir O
 |
 
 | O
-L B-PER
-a O
-B B-ORG
-ARONNF I-ORG
+L B-MISC
+a I-MISC
+B I-MISC
+ARONNF I-MISC
 . O
 |
 | O
@@ -3809,8 +3809,8 @@ enfans O
 , O
 |
 | O
-Lr B-PER
-Baron I-PER
+Lr B-ORG
+Baron I-ORG
 . O
 |
 | O
@@ -3825,29 +3825,29 @@ _ O
 La O
 BARONNE B-ORG
 |
-| I-ORG
-La I-ORG
-belle I-ORG
-gloire I-ORG
+| O
+La O
+belle O
+gloire O
 de O
 fouffrir O
 ! O
 |
 
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 | O
-Madame B-PER
-! O
+Madame B-MISC
+! I-MISC
 |
 
-| O
-L B-MISC
-4 I-MISC
-BARONNE I-MISC
+| I-MISC
+L O
+4 O
+BARONNE B-MISC
 . O
 |
 
@@ -3856,7 +3856,7 @@ Ma O
 réfiftance O
 vous O
 étonne O
-; O
+  O
 mais O
 , O
 Monfieur B-PER
@@ -3880,7 +3880,7 @@ tout O
 | O
 le O
 refte O
-; O
+  O
 puis O
 -je O
 vous O
@@ -3906,10 +3906,10 @@ victimes O
 ? O
 Vous O
 craignez O
-d’'allier B-LOC
-vatre O
-nobleffe O
-& O
+d’'allier O
+vatre B-PER
+nobleffe I-PER
+& I-PER
 |
 | O
 ‘ O
@@ -3930,7 +3930,7 @@ honneur O
 parce O
 qu' O
 il O
-n’ B-PER
+n’ O
 eft O
 pas O
 noble O
@@ -3946,14 +3946,14 @@ que O
 vous O
 . O
 La O
-nobleffe O
+nobleffe B-LOC
 peut O
 -elle O
 con- O
 |
 
 | O
-fifter O
+fifter B-PER
 dans O
 des O
 titres O
@@ -3967,7 +3967,7 @@ dans O
 | O
 des O
 pofleffions O
-qu’ B-MISC
+qu’ O
 un O
 jour O
 , O
@@ -3978,7 +3978,7 @@ peuvent O
 | O
 vous O
 enlever O
-; O
+  O
 dans O
 un O
 nom O
@@ -4021,7 +4021,7 @@ travers O
 des O
 vices O
 ? O
-Pouvez B-PER
+Pouvez O
 -vous O
 appeller O
 noblefle O
@@ -4030,7 +4030,7 @@ cet O
 |
 | O
 ‘ O
-état O
+état B-LOC
 douloureux O
 & O
 urgent O
@@ -4046,18 +4046,18 @@ LERERIET B-MISC
 |
 
 | O
-Fe B-ORG
-RUE I-ORG
-Te I-ORG
+Fe B-MISC
+RUE I-MISC
+Te I-MISC
 |
 
-| I-ORG
-Lame O
-enr O
-ES B-ORG
+| I-MISC
+Lame I-MISC
+enr I-MISC
+ES I-MISC
 |
 | O
-FRET B-ORG
+FRET O
 TE O
 |
 
@@ -4065,17 +4065,17 @@ TE O
 + O
 |
 | O
-DER B-ORG
-ET O
-2 O
+DER B-MISC
+ET I-MISC
+2 I-MISC
 |
-| O
-AT B-ORG
+| I-MISC
+AT I-MISC
 |
 
-| I-ORG
-DER I-ORG
-RER I-ORG
+| I-MISC
+DER I-MISC
+RER O
 PT O
 SEE O
 PE O
@@ -4085,7 +4085,7 @@ PE O
 DE O
 MARIENDAL B-ORG
 , O
-TE B-ORG
+TE B-LOC
 |
 
 | O
@@ -4108,7 +4108,7 @@ un O
 tableau O
 f1 B-ORG
 affligeant O
-; O
+  O
 mais O
 fongez O
 |
@@ -4169,10 +4169,10 @@ vigi- O
 |
 
 | O
-Jance B-PER
+Jance B-MISC
 , O
 à O
-fes O
+fes B-LOC
 talens O
 , O
 à O
@@ -4186,17 +4186,17 @@ ce O
 qu’ O
 il O
 poflede O
-; O
-Monfieur B-MISC
-le I-MISC
-Baron I-MISC
-! I-MISC
+  O
+Monfieur B-PER
+le I-PER
+Baron I-PER
+! O
 Monfieur O
 le O
 |
 | O
-Baron B-PER
-! O
+Baron B-MISC
+! I-MISC
 je O
 tremble O
 fur O
@@ -4205,8 +4205,8 @@ fort O
 , O
 |
 | O
-Le B-PER
-Baron I-PER
+Le B-MISC
+Baron I-MISC
 . O
 |
 
@@ -4294,10 +4294,10 @@ IF I-ORG
 
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 JÉROME B-MISC
 , O
@@ -4312,15 +4312,15 @@ DUPUIS B-ORG
 
 | O
 _ O
-LÉ O
+LÉ B-LOC
 BARON O
 à O
-Jérôme B-PER
+Jérôme B-LOC
 , O
 |
 
 | O
-Worra B-PER
+Worra B-LOC
 donc O
 lés O
 deux O
@@ -4332,11 +4332,11 @@ vous O
 
 | O
 avez O
-choifi O
+choifi B-PER
 ? O
 .. O
 , O
-J’ B-MISC
+J’ O
 efpere O
 être O
 content O
@@ -4360,8 +4360,8 @@ fort I-PER
 |
 | O
 ( O
-4 B-ORG
-Dupuis I-ORG
+4 O
+Dupuis O
 . O
 ) O
 Comment O
@@ -4386,8 +4386,8 @@ ADÉLAIDE B-MISC
 = O
 |
 | O
-|||| B-MISC
-Dupurs I-MISC
+|||| B-PER
+Dupurs I-PER
 . O
 ch O
 |
@@ -4398,8 +4398,8 @@ Antoine B-PER
 ' O
 |
 | O
-LE O
-B B-LOC
+LE B-MISC
+B I-MISC
 ARON O
 à O
 Frankner B-LOC
@@ -4416,7 +4416,7 @@ vous O
 FRANKNÉER B-ORG
 |
 | O
-Dumont B-LOC
+Dumont O
 . O
 : O
 |
@@ -4424,7 +4424,7 @@ Dumont B-LOC
 | O
 LE O
 . O
-BARe B-LOC
+BARe B-PER
 . O
 N O
 .. O
@@ -4434,12 +4434,12 @@ N O
 Mes B-MISC
 amis I-MISC
 , O
-foyez B-PER
-dociles I-PER
+foyez B-ORG
+dociles I-ORG
 , O
-prévenans O
-& O
-fideles O
+prévenans B-MISC
+& I-MISC
+fideles I-MISC
 , O
 * O
 |
@@ -4469,15 +4469,15 @@ abandonnez O
 |
 | O
 SCENE O
-F. B-PER
+F. O
 |
 
-| I-PER
-LE I-PER
-BARON I-PER
+| O
+LE O
+BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 LE B-MISC
 CHE- I-MISC
@@ -4490,10 +4490,10 @@ ADÉLAIDE B-MISC
 , O
 FRANKNER B-MISC
 , O
-|||| O
+|||| B-ORG
 |
-| O
-DUPUIS B-ORG
+| I-ORG
+DUPUIS I-ORG
 , O
 JÉROME B-MISC
 ... O
@@ -4501,22 +4501,22 @@ JÉROME B-MISC
 
 | O
 LE O
-Baron O
+Baron B-PER
 a O
-Frankner B-MISC
-& I-MISC
+Frankner B-ORG
+& I-ORG
 à O
 Dupuis B-ORG
 . O
 |
 
 | O
-Vo B-MISC
-1LA I-MISC
+Vo B-LOC
+1LA O
 toute O
 ma O
 famille O
-; O
+  O
 obéiflez O
 - O
 leur O
@@ -4531,8 +4531,8 @@ comme O
 moi O
 - O
 même O
-; O
-c’ B-MISC
+  O
+c’ O
 eft O
 pour O
 le O
@@ -4596,7 +4596,7 @@ MARIENDAL B-ORG
 3 O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 à O
 part O
 , O
@@ -4617,9 +4617,9 @@ kr O
 retourne O
 ) O
 , O
-C' B-MISC
-eft I-MISC
-lu I-MISC
+C' B-PER
+eft I-PER
+lu I-PER
 , O
 |
 | O
@@ -4646,7 +4646,7 @@ Lu O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -4663,7 +4663,7 @@ fille O
 
 | O
 LE O
-BARON B-ORG
+BARON O
 avec O
 hauteur O
 . O
@@ -4682,9 +4682,9 @@ Mademoifelle B-LOC
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 à O
-demivoix O
+demivoix B-LOC
 , O
 |
 
@@ -4707,26 +4707,26 @@ iflue O
 |
 
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 avec O
 douceur O
 . O
 |
 | O
-Mon O
-frere O
-! O
+Mon B-MISC
+frere I-MISC
+! I-MISC
 |
 | O
 - O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 |
-| I-ORG
-Moi I-ORG
-, O
-votre O
-frere O
+| O
+Moi B-MISC
+, I-MISC
+votre I-MISC
+frere I-MISC
 , O
 après O
 . O
@@ -4749,7 +4749,7 @@ nom O
 | O
 |||| O
 LE O
-BARON B-ORG
+BARON O
 avec O
 menace O
 , O
@@ -4757,7 +4757,7 @@ menace O
 
 | O
 : O
-Chevalier B-LOC
+Chevalier B-ORG
 ... O
 ( O
 Avec O
@@ -4771,8 +4771,8 @@ mon I-MISC
 | I-MISC
 fils I-MISC
 . O
-M. O
-Jérôme B-PER
+M. B-PER
+Jérôme I-PER
 , O
 retournez O
 à O
@@ -4782,9 +4782,9 @@ occupations O
 |
 | O
 : O
-Allez B-LOC
+Allez B-PER
 , O
-Cs B-MISC
+Cs B-LOC
 fortent O
 tous O
 les O
@@ -4796,7 +4796,7 @@ trois O
 | O
 _ O
 ADÉL B-ORG
-AÎDE B-ORG
+AÎDE I-ORG
 . O
 |
 | O
@@ -4813,7 +4813,7 @@ trembler O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 | O
@@ -4826,7 +4826,7 @@ j' O
 en O
 fuis O
 sûre O
-; O
+  O
 mais O
 il O
 |
@@ -4891,8 +4891,8 @@ recevez O
 - O
 les O
 avec O
-foumiflion O
-& O
+foumiflion B-ORG
+& I-ORG
 avec O
 |
 | O
@@ -4914,7 +4914,7 @@ d' O
 fon O
 amitié O
 ...... O
-Allez B-LOC
+Allez B-PER
 , O
 |
 | O
@@ -4938,7 +4938,7 @@ fes O
 vues O
 ne O
 tendent O
-qu’ B-LOC
+qu’ O
 à O
 notre O
 |
@@ -4949,7 +4949,7 @@ bonheur O
 |||| O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 , O
 après O
 avoir O
@@ -4963,9 +4963,9 @@ Frankner B-PER
 . O
 |
 | O
-Ma B-MISC
-mere I-MISC
-! I-MISC
+Ma B-PER
+mere I-PER
+! I-PER
 aimez O
 -moi O
 toujours O
@@ -4974,10 +4974,10 @@ toujours O
 
 | O
 SCENE O
-FIL B-ORG
+FIL O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 , O
 DUPUIS B-ORG
 . O
@@ -4999,7 +4999,7 @@ j O
 E B-LOC
 frémis O
 de O
-l’ B-LOC
+l’ O
 impreffion O
 que O
 ma O
@@ -5012,7 +5012,7 @@ fur O
 elle O
 , O
 chere O
-Adélaïde B-LOC
+Adélaïde B-PER
 ! O
 mon O
 cœur O
@@ -5042,7 +5042,7 @@ j' O
 allois O
 mourir O
 à O
-fes O
+fes B-LOC
 pieds O
 ... O
 Elle O
@@ -5054,23 +5054,23 @@ fera O
 jamais O
 digne O
 du O
-fang B-ORG
+fang O
 dont O
 elle O
 eft O
 iffue O
 … O
-Le.bar- O
+Le.bar- B-ORG
 |
-| O
-bare O
-! O
+| I-ORG
+bare I-ORG
+! I-ORG
 parce O
-qu’ B-PER
+qu’ O
 elle O
 m' O
 aime O
-; O
+  O
 mais O
 va O
 , O
@@ -5083,7 +5083,7 @@ bonheur O
 , O
 le O
 tien O
-; O
+  O
 & O
 je O
 forcerai O
@@ -5095,16 +5095,16 @@ incapable O
 | O
 peut-être O
 de O
-tendrefle O
-& O
-de O
-pitié O
+tendrefle B-ORG
+& I-ORG
+de I-ORG
+pitié I-ORG
 , O
 à O
-l’ B-ORG
-eftime I-ORG
-& I-ORG
-c I-ORG
+l’ O
+eftime O
+& O
+c O
 |
 | O
 à O
@@ -5113,7 +5113,7 @@ reconnoiflance O
 , O
 |
 | O
-DupPuIrs B-ORG
+DupPuIrs B-MISC
 . O
 |
 | O
@@ -5127,8 +5127,8 @@ ce O
 qui O
 fe O
 pale O
-; O
-NOUS B-ORG
+  O
+NOUS B-MISC
 , O
 |
 
@@ -5166,7 +5166,7 @@ qui O
 m' O
 inquiete O
 , O
-c’ B-MISC
+c’ O
 eft O
 le O
 fort O
@@ -5175,7 +5175,7 @@ fort O
 | O
 |||| O
 d' O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
 Qu' B-MISC
 elle I-MISC
@@ -5192,7 +5192,7 @@ fuis O
 tranquille O
 , O
 Jérôme B-PER
-eft O
+eft I-PER
 prudent O
 , O
 il O
@@ -5203,9 +5203,9 @@ reffenti O
 
 | O
 . O
-mes B-MISC
-bienfaits I-MISC
-; O
+mes O
+bienfaits O
+  O
 & O
 -l’ O
 efpérance O
@@ -5224,7 +5224,7 @@ aflure O
 de O
 fa O
 difcrétion O
-; O
+  O
 cette O
 efpé- O
 |
@@ -5240,7 +5240,7 @@ t' O
 en O
 réponds O
 : O
-c’ B-MISC
+c’ O
 eft O
 |
 
@@ -5305,7 +5305,7 @@ cruels O
 |||| O
 Dupu O
 : O
-zs B-LOC
+zs B-MISC
 . O
 |
 
@@ -5314,7 +5314,7 @@ Enfin O
 nous O
 y O
 voici O
-; O
+  O
 grace O
 à O
 notre O
@@ -5342,9 +5342,9 @@ enlever O
 |
 
 | O
-F B-PER
-R I-PER
-ANKNER I-PER
+F B-MISC
+R I-MISC
+ANKNER I-MISC
 . O
 _ O
 |
@@ -5369,7 +5369,7 @@ difputeroit O
 un O
 bien O
 qui O
-m’ B-PER
+m’ O
 appartient O
 |
 
@@ -5381,7 +5381,7 @@ loix O
 par O
 l' O
 honneur O
-; O
+  O
 par O
 l' O
 amour O
@@ -5416,7 +5416,7 @@ peut O
 engager O
 |
 | O
-fes O
+fes B-LOC
 parens O
 à O
 le O
@@ -5440,12 +5440,12 @@ mon O
 fecret O
 , O
 Si B-MISC
-tu O
+tu I-MISC
 |
 
-| O
-Jes B-PER
-connoiflois O
+| I-MISC
+Jes I-MISC
+connoiflois I-MISC
 , O
 les O
 barbares O
@@ -5460,18 +5460,18 @@ capables O
 | O
 es O
 eee O
-USE B-MISC
+USE O
 |
 
 | O
 6 O
 . O
-ADELAIDE B-PER
+ADELAIDE B-ORG
 s O
 |
 | O
 de O
-factifier O
+factifier B-PER
 leur O
 fille O
 à O
@@ -5479,20 +5479,20 @@ leur O
 reffentiment O
 , O
 quand O
-is O
+is B-LOC
 |
 | O
 fauront O
 que O
-l’ B-LOC
+l’ O
 hymen O
 l’ O
 unit O
 à O
 moi O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 ce O
 mal- O
 |
@@ -5519,11 +5519,11 @@ crimes O
 |||| O
 |
 | O
-Dururs O
-h O
+Dururs B-MISC
+h I-MISC
 |
-| O
-“ O
+| I-MISC
+“ I-MISC
 Un O
 pere O
 eft O
@@ -5533,14 +5533,14 @@ pere O
 |||| O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 . O
 |
 
 | O
-Mon O
-ami O
-! O
+Mon B-MISC
+ami I-MISC
+! I-MISC
 ce O
 qui O
 devroit O
@@ -5579,16 +5579,16 @@ un O
 
 | O
 fils O
-refpire O
+refpire B-PER
 dans O
-fon O
-fein O
+fon B-PER
+fein I-PER
 . O
 … O
 .. O
 Je O
-n’ B-PER
-ofe I-PER
+n’ O
+ofe O
 me O
 flatter O
 . O
@@ -5602,7 +5602,7 @@ colere O
 , O
 je O
 vois O
-Adélaïde B-LOC
+Adélaïde B-PER
 la O
 victime O
 |
@@ -5628,8 +5628,8 @@ Dururs B-LOC
 
 | O
 = O
-Vous B-MISC
-obtiendrez I-MISC
+Vous O
+obtiendrez O
 leur O
 confentement O
 , O
@@ -5652,9 +5652,9 @@ la O
 raïfon O
 les O
 ramenera O
-; O
+  O
 vous O
-l’ B-LOC
+l’ O
 obtiendrez O
 , O
 : O
@@ -5668,12 +5668,12 @@ FRANKNER B-MISC
 _ O
 Cet O
 efpoir O
-m’ B-PER
+m’ O
 amene O
 ici O
 , O
-& O
-jy O
+& B-PER
+jy I-PER
 perdrai O
 la O
 vie O
@@ -5682,25 +5682,25 @@ vie O
 | O
 ou O
 j' O
-aflurerai O
-Lori B-MISC
-bonheur I-MISC
+aflurerai B-PER
+Lori I-PER
+bonheur O
 . O
 |
 | O
-Durpurs B-PER
+Durpurs B-MISC
 . O
 |
 | O
 ‘ O
-Songez B-PER
-à O
-vous O
-faire O
-violence O
-, O
-un O
-gel O
+Songez B-MISC
+à I-MISC
+vous I-MISC
+faire I-MISC
+violence I-MISC
+, I-MISC
+un I-MISC
+gel I-MISC
 , O
 , O
 un O
@@ -5729,11 +5729,11 @@ fur O
 - O
 tout O
 du O
-Cheva- B-LOC
+Cheva- B-MISC
 |
 
-| I-LOC
-fier I-LOC
+| I-MISC
+fier I-MISC
 , O
 il O
 eft O
@@ -5744,7 +5744,7 @@ c' O
 eft O
 bien O
 le O
-caratere O
+caratere B-LOC
 |
 
 | O
@@ -5753,7 +5753,7 @@ le O
 
 | O
 DE O
-MARIENDAÏ B-LOC
+MARIENDAÏ O
 , O
 # O
 7 O
@@ -5786,7 +5786,7 @@ fon O
 pere O
 . O
 Adélaïde B-PER
-eft O
+eft I-PER
 le O
 |
 | O
@@ -5797,8 +5797,8 @@ fecond O
 hymen O
 , O
 la O
-Baronne B-LOC
-n’ B-PER
+Baronne B-MISC
+n’ O
 eft O
 pas O
 |
@@ -5817,9 +5817,9 @@ premiere O
 du O
 Baron B-PER
 , O
-mere O
-du O
-Chevalier B-ORG
+mere B-PER
+du I-PER
+Chevalier I-PER
 . O
 Dès O
 la O
@@ -5831,8 +5831,8 @@ enfance O
 il O
 a O
 détefté O
-Adélaïde B-LOC
-; O
+Adélaïde B-PER
+  O
 fa O
 vile O
 ambition O
@@ -5870,7 +5870,7 @@ per O
 |
 | O
 dra O
-; O
+  O
 c' O
 eft O
 lui O
@@ -5898,7 +5898,7 @@ m' O
 en O
 prendrois O
 , O
-Qué B-PER
+Qué B-LOC
 |
 | O
 jaurois O
@@ -5908,7 +5908,7 @@ plaifir O
 l' O
 humilier O
 . O
-Tiens B-LOC
+Tiens B-MISC
 , O
 Dupuis B-ORG
 , O
@@ -5927,12 +5927,12 @@ Adélaïde B-PER
 |
 
 | O
-DuPrurzrs B-PER
+DuPrurzrs B-MISC
 , O
 |||| O
 |
 | O
-Ti B-LOC
+Ti O
 eft O
 vrai O
 que O
@@ -5946,16 +5946,16 @@ de O
 | O
 lui O
 , O
-IL B-ORG
+IL B-LOC
 devoit O
 plus O
 d’ O
 égards O
 à O
 votre O
-amOur B-MISC
-; O
-; O
+amOur B-LOC
+  O
+  O
 j@ O
 |
 | O
@@ -5964,7 +5964,7 @@ ai O
 jamais O
 vu O
 tant O
-d’ B-MISC
+d’ O
 orgueil O
 , O
 |
@@ -5972,14 +5972,14 @@ orgueil O
 | O
 FRANKNÉ B-MISC
 R I-MISC
-: O
+: I-MISC
 |
-| O
+| I-MISC
 C' O
 eft O
 bien O
 à O
-luil O
+luil B-LOC
 S' O
 il O
 a O
@@ -5993,13 +5993,13 @@ quel- O
 que O
 chofe B-PER
 , O
-c’ B-MISC
+c’ O
 eft O
 de O
 tehir O
 par O
 les O
-lieñs O
+lieñs B-MISC
 du O
 fang O
 à O
@@ -6025,7 +6025,7 @@ les O
 graces O
 réunies O
 dans O
-Adélaïde B-LOC
+Adélaïde B-PER
 . O
 Oui O
 , O
@@ -6053,7 +6053,7 @@ imputer I-MISC
 une O
 obfcute O
 naïflance O
-; O
+  O
 mes O
 |
 | O
@@ -6062,7 +6062,7 @@ m' O
 élevent O
 aflez O
 . O
-Eft O
+Eft B-PER
 -ce O
 dans O
 fes O
@@ -6093,7 +6093,7 @@ fonger O
 les O
 imiter O
 , O
-asen O
+asen B-LOC
 |
 | O
 rendre O
@@ -6113,16 +6113,16 @@ Mais B-MISC
 B I-MISC
 |
 
-| O
-18 O
-ADÉLAIDE O
+| I-MISC
+18 I-MISC
+ADÉLAIDE I-MISC
 |
 | O
 je O
 vois O
-Adélaïde B-LOC
+Adélaïde B-PER
 . O
-Laïfle B-ORG
+Laïfle B-PER
 moi O
 , O
 & O
@@ -6132,19 +6132,19 @@ reconnoître O
 | O
 notre O
 nouveau O
-féjour O
+féjour B-ORG
 . O
 |
 
 | O
-Ex O
-IQ B-ORG
-ee O
+Ex B-MISC
+IQ I-MISC
+ee I-MISC
 |
 | O
 : O
-SCENE O
-VIL B-ORG
+SCENE B-MISC
+VIL O
 . O
 |
 | O
@@ -6154,7 +6154,7 @@ FRANKNER B-MISC
 . O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 entrant O
 ‘ O
 avec O
@@ -6205,7 +6205,7 @@ braver O
 avec O
 audace O
 ? O
-Fuyez B-LOC
+Fuyez B-MISC
 : O
 l' O
 afpeét O
@@ -6222,11 +6222,11 @@ trembler O
 il O
 vous O
 fera O
-fu- O
+fu- B-ORG
 |
-| O
-nefte O
-; O
+| I-ORG
+nefte I-ORG
+  O
 vous O
 périflez O
 fi O
@@ -6242,12 +6242,12 @@ péris O
 avec O
 vous O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-j O
-FRANKNER B-MISC
+| I-MISC
+j I-MISC
+FRANKNER I-MISC
 . O
 |
 
@@ -6261,12 +6261,12 @@ frémir O
 , O
 ma O
 chere O
-Adé- O
+Adé- B-PER
 |
 | O
 - O
 laïde O
-; O
+  O
 mais O
 ce O
 neft O
@@ -6304,13 +6304,13 @@ tout O
 | O
 poflible O
 . O
-Fuyez B-LOC
+Fuyez O
 un O
 pere O
 , O
 un O
 frere O
-; O
+  O
 que O
 dis O
 -je O
@@ -6326,7 +6326,7 @@ vous O
 de O
 leur O
 bras O
-; O
+  O
 |
 | O
 s' O
@@ -6362,7 +6362,7 @@ ADÉLAÏDE B-LOC
 |
 
 | O
-LL B-ORG
+LL O
 eft O
 vrai O
 je O
@@ -6396,8 +6396,8 @@ s O
 TRI O
 PE O
 RE O
-EE O
-ET O
+EE B-ORG
+ET I-ORG
 |
 | O
 * O
@@ -6407,15 +6407,15 @@ ET O
 - O
 + O
 + O
-EE B-ORG
-CR I-ORG
-TES B-LOC
+EE O
+CR B-MISC
+TES I-MISC
 |
 
-| I-LOC
-ere I-LOC
-+ I-LOC
-manne I-LOC
+| O
+ere O
++ O
+manne O
 ne O
 ee O
 ee O
@@ -6441,8 +6441,8 @@ ne O
 |||| O
 |
 | O
-DÉ B-MISC
-MARIENDAT I-MISC
+DÉ O
+MARIENDAT O
 . O
 « O
 9 O
@@ -6450,7 +6450,7 @@ MARIENDAT I-MISC
 | O
 avez O
 -vous O
-offenfés O
+offenfés B-PER
 ? O
 pourquoi O
 ai O
@@ -6484,9 +6484,9 @@ perdus O
 FRANKNER B-MISC
 |
 | O
-Pourquoi O
-le O
-Ciel B-PER
+Pourquoi B-PER
+le I-PER
+Ciel I-PER
 vous O
 fit O
 -il O
@@ -6517,7 +6517,7 @@ fierté O
 , O
 avec O
 mépris O
-; O
+  O
 je O
 vous O
 |
@@ -6532,17 +6532,17 @@ cher O
 & O
 je O
 vois O
-Pinftant B-LOC
-où O
+Pinftant B-MISC
+où I-MISC
 |
-| O
-|||| O
-je O
-vais O
-vous O
-perdre O
-pour O
-toujours O
+| I-MISC
+|||| I-MISC
+je I-MISC
+vais I-MISC
+vous I-MISC
+perdre I-MISC
+pour I-MISC
+toujours I-MISC
 , O
 On B-MISC
 fe I-MISC
@@ -6563,7 +6563,7 @@ dans O
 | O
 les O
 bras O
-d’ B-LOC
+d’ O
 un O
 autre O
 ... O
@@ -6577,7 +6577,7 @@ il O
 écouter O
 Ja B-MISC
 raifon I-MISC
-? I-MISC
+? O
 Je O
 vous O
 traîne O
@@ -6605,7 +6605,7 @@ fens O
 je O
 reçois O
 vos O
-fermens O
+fermens B-LOC
 , O
 un O
 lien O
@@ -6614,7 +6614,7 @@ folemnel O
 | O
 nous O
 unit O
-; O
+  O
 & O
 lorfque O
 je O
@@ -6650,7 +6650,7 @@ répete O
 | O
 fuyons O
 . O
-Soyez B-ORG
+Soyez O
 moins O
 cruelle O
 que O
@@ -6675,26 +6675,26 @@ ici O
 . O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 , O
 |
 | O
-J' B-LOC
+J' O
 y O
-refterai O
+refterai B-LOC
 . O
 |
 | O
 FRANKNER B-MISC
 |
-| O
+| I-MISC
 Vous O
 périrez O
 . O
 |
 | O
 _ O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 |
 | O
@@ -6711,7 +6711,7 @@ FRANKNER B-MISC
 Vous O
 . O
 verrez B-PER
-defcendre O
+defcendre I-PER
 au O
 tombeau O
 une O
@@ -6726,17 +6726,17 @@ adore O
 |
 
 | O
-B B-LOC
-ij O
+B B-MISC
+ij I-MISC
 |
 
-| O
-20 O
-ADÉLAIDE O
+| I-MISC
+20 I-MISC
+ADÉLAIDE B-MISC
 |
 | O
 _ O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 |
 | O
@@ -6757,12 +6757,12 @@ FRANKNER B-MISC
 |
 
 | O
-Vous B-MISC
-me I-MISC
-réduirez I-MISC
-au I-MISC
-défefpoir I-MISC
-; O
+Vous O
+me O
+réduirez O
+au O
+défefpoir O
+  O
 & O
 favez O
 -vous O
@@ -6795,8 +6795,8 @@ Votre O
 | O
 votre O
 famille O
-entiere O
-féront O
+entiere B-PER
+féront I-PER
 les O
 vitimes O
 de O
@@ -6805,11 +6805,11 @@ votre O
 | O
 fureur O
 , O
-|||| O
-|||| O
+|||| B-MISC
+|||| I-MISC
 |
-| O
-ADÉLAÏDE B-ORG
+| I-MISC
+ADÉLAÏDE I-MISC
 . O
 |
 
@@ -6845,9 +6845,9 @@ FRANKNER B-MISC
 , O
 |
 | O
-Et O
-ces O
-jours O
+Et B-MISC
+ces I-MISC
+jours I-MISC
 ne O
 font O
 -ils O
@@ -6857,7 +6857,7 @@ moi O
 ? O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 L O
 |
@@ -6884,7 +6884,7 @@ odieux O
 |||| O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 . O
 |
 
@@ -6921,11 +6921,11 @@ malheureux O
 
 | O
 |||| O
-ADÉLAÏDE B-MISC
+ADÉLAÏDE B-PER
 |
 
-| I-MISC
-Arrête I-MISC
+| I-PER
+Arrête I-PER
 , O
 garde-toi O
 de O
@@ -6969,28 +6969,28 @@ fafle O
 rien O
 entreprendre O
 , O
-Il O
-fera O
-éternel O
+Il B-MISC
+fera I-MISC
+éternel I-MISC
 |
 
-| O
-PPS O
-PET B-MISC
-; O
+| I-MISC
+PPS I-MISC
+PET I-MISC
+  O
 |
 | O
-TERRE O
-D O
+TERRE B-LOC
+D I-LOC
 eu O
 |
 
 | O
 |||| O
 DE O
-MARIENDAL B-ORG
+MARIENDAL O
 . O
-2É O
+2É B-PER
 |
 | O
 comme O
@@ -7033,7 +7033,7 @@ approche O
 
 | O
 “ O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 froidement O
 , O
 |
@@ -7056,10 +7056,10 @@ FRANKNER B-MISC
 |
 
 | O
-Adélaïde B-LOC
-! O
+Adélaïde B-PER
+! I-PER
 .. O
-ahlne O
+ahlne B-MISC
 me O
 forcez O
 pas O
@@ -7079,7 +7079,7 @@ malheur O
 ? O
 |
 | O
-Voyez B-MISC
+Voyez O
 tous O
 les O
 maux O
@@ -7090,8 +7090,8 @@ préparez O
 , O
 |
 | O
-Yabyme B-LOC
-affreux I-LOC
+Yabyme B-PER
+affreux O
 où O
 votre O
 obftination O
@@ -7113,10 +7113,10 @@ fuyez O
 |
 | O
 entre O
-les.bras.de B-LOC
+les.bras.de B-PER
 votre O
 époux O
-; O
+  O
 fi O
 vous O
 me O
@@ -7140,11 +7140,11 @@ vous O
 ferez O
 fatisfaite O
 , O
-Mais B-MISC
-ïl I-MISC
-en I-MISC
--coûtera I-MISC
-du I-MISC
+Mais O
+ïl O
+en O
+-coûtera O
+du O
 , O
 fang O
 , O
@@ -7152,13 +7152,13 @@ fang O
 
 | O
 _ O
-A B-MISC
-DÉ I-MISC
-LA I-MISC
-1D I-MISC
-EF I-MISC
+A B-LOC
+DÉ I-LOC
+LA O
+1D B-LOC
+EF I-LOC
 |
-| I-MISC
+| O
 Vous O
 oferiez O
 . O
@@ -7170,8 +7170,8 @@ oferiez O
 ‘ O
 FRANKNER B-MISC
 |
-| O
-Oui O
+| I-MISC
+Oui I-MISC
 , O
 & O
 je O
@@ -7202,13 +7202,13 @@ perdu O
 |
 | O
 À O
-DÉLALDE B-ORG
+DÉLALDE O
 . O
 |
 
 | O
-Eh B-MISC
-bienl' I-MISC
+Eh O
+bienl' O
 on O
 va O
 vous O
@@ -7221,7 +7221,7 @@ me O
 | O
 jetter O
 à O
-fes O
+fes B-LOC
 pieds O
 , O
 lui O
@@ -7230,7 +7230,7 @@ ma O
 faute O
 , O
 lui O
-de- O
+de- B-LOC
 |
 | O
 mander O
@@ -7250,7 +7250,7 @@ font O
 vos O
 efpérances O
 , O
-; O
+  O
 vos O
 projets O
 . O
@@ -7269,20 +7269,20 @@ y O
 jetter O
 avec O
 vous O
-; O
+  O
 ce O
 fera O
 moi O
 qui O
 |
 | O
-Bi B-LOC
+Bi B-ORG
 . O
 |
 
 | O
 22 O
-ADÉÉAIDE B-MISC
+ADÉÉAIDE O
 |
 
 | O
@@ -7301,9 +7301,9 @@ inno- O
 | O
 cence O
 , O
-MON O
-amour O
-; O
+MON B-MISC
+amour I-MISC
+  O
 comme O
 vous O
 , O
@@ -7312,10 +7312,10 @@ lui O
 demande- O
 |
 | O
-rai B-ORG
+rai O
 la O
 mort O
-; O
+  O
 il O
 eft O
 aflez O
@@ -7336,13 +7336,13 @@ ADÉLAITDE B-ORG
 Cruel B-MISC
 ! I-MISC
 tu O
-m’ B-PER
+m’ O
 arraches O
 le O
 cœur O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 Frankner B-MISC
 ! I-MISC
 |
@@ -7395,8 +7395,8 @@ vain!. O
 |
 
 | O
-Allez B-LOC
-pe O
+Allez B-PER
+pe I-PER
 . O
 j' O
 en O
@@ -7420,8 +7420,8 @@ entends O
 du O
 bruit O
 ... O
-Dieux B-PER
-! O
+Dieux B-MISC
+! I-MISC
 vous O
 me O
 |
@@ -7456,8 +7456,8 @@ alarmes O
 , O
 |
 | O
-4 O
-T B-MISC
+4 B-MISC
+T I-MISC
 ! I-MISC
 fort O
 . O
@@ -7520,15 +7520,15 @@ _ O
 |
 
 | O
-Ro O
+Ro B-LOC
 |
 
  
 
-| O
-am O
-me O
-eos O
+| I-LOC
+am I-LOC
+me I-LOC
+eos I-LOC
 ne O
 + O
 DER O
@@ -7538,19 +7538,19 @@ DER O
 ae O
 mate O
 men O
-conan B-PER
-eee I-PER
+conan O
+eee O
 |
 
 | O
 DE O
-MARIENDAIL B-MISC
+MARIENDAIL O
 . O
 3 O
 |
 
 | O
-ACTE B-ORG
+ACTE B-MISC
 À O
 |
 | O
@@ -7559,36 +7559,36 @@ PREMIERE O
 , O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 
 | O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 
 | O
-Mon O
-fils O
+Mon B-MISC
+fils I-MISC
 , O
 vos O
 réflexions O
 font O
 juftes O
 , O
-Je B-MISC
-renonce I-MISC
+Je O
+renonce O
 |
-| I-MISC
-à I-MISC
-votre I-MISC
-hymen I-MISC
+| O
+à O
+votre O
+hymen O
 avec O
 la O
 fœur O
@@ -7601,7 +7601,7 @@ je O
 
 | O
 fens O
-coinbien O
+coinbien B-PER
 cette O
 alliance O
 fexoit O
@@ -7609,13 +7609,13 @@ indigne O
 de O
 |
 | O
-noûs B-PER
+noûs O
 . O
-|||| B-MISC
-LL I-MISC
+|||| O
+LL O
 |
-| I-MISC
-L I-MISC
+| O
+L O
 E. O
 Cuevarien O
 |||| O
@@ -7636,8 +7636,8 @@ l O
 \ O
 |
 | O
-Le O
-Baro B-LOC
+Le B-PER
+Baro I-PER
 . O
 |
 
@@ -7649,7 +7649,7 @@ vous O
 en O
 parlerai O
 plus O
-; O
+  O
 & O
 malgré O
 l' O
@@ -7671,10 +7671,10 @@ cette O
 | O
 fortune O
 , O
-Maïs B-PER
+Maïs B-ORG
 parlons O
 d’ O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
 que O
 vat O
@@ -7685,16 +7685,16 @@ de- O
 _ O
 venir O
 ? O
-Ïl O
+Ïl B-PER
 faut O
-qu’ B-PER
+qu’ O
 elle O
 entre O
 dans O
-uün O
-cloître O
+uün B-PER
+cloître I-PER
 , O
-qu’ B-PER
+qu’ O
 elle O
 |
 | O
@@ -7707,7 +7707,7 @@ retraite O
 dès O
 combats O
 éternels O
-; O
+  O
 |
 | O
 ou O
@@ -7763,8 +7763,8 @@ qui O
 l' O
 attend O
 de O
-Ja B-MISC
-tranquillité I-MISC
+Ja B-LOC
+tranquillité O
 , O
 de O
 l' O
@@ -7783,11 +7783,11 @@ iv I-PER
 | O
 » O
 4 O
-ADÉLAIDE O
+ADÉLAIDE B-MISC
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 l' O
 interrompante O
 |
@@ -7801,17 +7801,17 @@ BARON I-PER
 . O
 |
 | O
-Du O
-bonheur O
+Du B-MISC
+bonheur I-MISC
 , O
 |||| O
 |
 | O
-Le O
-CHEVALIER B-ORG
+Le B-MISC
+CHEVALIER I-MISC
 |
-| O
-lArrêtez B-MISC
+| I-MISC
+lArrêtez I-MISC
 , O
 mon O
 pere O
@@ -7836,7 +7836,7 @@ voir O
 . O
 |
 | O
-Adélaïde B-LOC
+Adélaïde B-PER
 expirer O
 âmes O
 yeux O
@@ -7844,8 +7844,8 @@ yeux O
 |
 
 | O
-LE O
-Baron O
+LE B-PER
+Baron I-PER
 . O
 |
 | O
@@ -7859,12 +7859,12 @@ L O
 
 | O
 CLE B-MISC
-CHEVALIER B-ORG
+CHEVALIER I-MISC
 . O
 |
 
 | O
-Oo O
+Oo B-MISC
 jour O
 fatal O
 |||| O
@@ -7882,7 +7882,7 @@ unit O
 à O
 la O
 Baronne B-LOC
-; O
+  O
 avec O
 quelle O
 foibleffe O
@@ -7908,13 +7908,13 @@ eût O
 vécu O
 & O
 quelle O
-m’ B-PER
+m’ O
 eût O
 donné O
 une O
 fœur O
 : O
-; O
+  O
 elle O
 auroit O
 |
@@ -7929,10 +7929,10 @@ auroit O
 formée O
 , O
 Mais O
-Adé= B-LOC
+Adé= B-PER
 |
-| O
-Jaïde! B-LOC
+| I-PER
+Jaïde! I-PER
 ... O
 elle O
 à O
@@ -7954,8 +7954,8 @@ oo O
 |
 | O
 oo O
-Lx B-MISC
-BARON I-MISC
+Lx O
+BARON O
 . O
 |
 | O
@@ -7970,12 +7970,12 @@ fils O
 " O
 |
 | O
-Le O
-CHEVALIER B-ORG
+Le B-MISC
+CHEVALIER I-MISC
 |
-| O
-Mon O
-pere O
+| I-MISC
+Mon I-MISC
+pere I-MISC
 , O
 vous O
 me O
@@ -8002,11 +8002,11 @@ que O
 ne O
 facrifie O
 à O
-l’ B-ORG
-orgueil' I-ORG
-de I-ORG
-ma I-ORG
-naiffance I-ORG
+l’ O
+orgueil' O
+de O
+ma O
+naiffance O
 . O
 Quand O
 |
@@ -8028,10 +8028,10 @@ le O
 | O
 favez O
 , O
-& O
-l' O
-indigne O
-pañion O
+& B-MISC
+l' I-MISC
+indigne I-MISC
+pañion I-MISC
 d' O
 Adélaide B-PER
 ... O
@@ -8049,16 +8049,16 @@ crise O
 PETITE O
 CPAS B-ORG
 |
-| O
-TR B-ORG
+| I-ORG
+TR I-ORG
 6 O
-nas O
-ue B-ORG
+nas B-MISC
+ue I-MISC
 ne O
 |
 | O
-i B-LOC
-L I-LOC
+i O
+L O
 " O
 , O
 |
@@ -8102,7 +8102,7 @@ lent O
 à O
 punir O
 ... O
-j’ B-MISC
+j’ O
 ufurperois O
 votre O
 auto- O
@@ -8114,10 +8114,10 @@ rité O
 mon O
 pere O
 , O
-& O
-ma O
-vengeance O
-! O
+& B-MISC
+ma I-MISC
+vengeance I-MISC
+! I-MISC
 . O
 … O
 . O
@@ -8139,7 +8139,7 @@ Frarkner B-PER
 vos O
 ordonnerez O
 à O
-Adélaïde B-LOC
+Adélaïde B-PER
 d' O
 oublier O
 un O
@@ -8158,13 +8158,13 @@ nom O
 , O
 |
 | O
-LE O
-Barre B-LOC
+LE B-PER
+Barre I-PER
 . O
 |
 | O
-II B-LOC
-fufit O
+II B-PER
+fufit I-PER
 , O
 tu O
 le O
@@ -8174,7 +8174,7 @@ veux O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 . O
 |
 
@@ -8187,7 +8187,7 @@ de O
 notre O
 maifon O
 , O
-c’ B-MISC
+c’ O
 eft O
 jui O
 fut O
@@ -8215,21 +8215,21 @@ perfide O
 .. O
 je O
 vous O
-laiffe O
+laiffe B-ORG
 avec O
 elle O
 ... O
 |
 
 | O
-Songez B-PER
+Songez O
 à O
 votre O
 promefle O
 , O
-& O
-aux O
-devoirs O
+& B-MISC
+aux I-MISC
+devoirs I-MISC
 que O
 vous O
 |
@@ -8243,10 +8243,10 @@ honneur O
 |
 | O
 ( O
-En B-MISC
-Jortant I-MISC
-il I-MISC
-jette I-MISC
+En O
+Jortant B-PER
+il O
+jette O
 un O
 oup O
 - O
@@ -8256,17 +8256,17 @@ menaçant O
 fur O
 |
 | O
-Adélaïde B-LOC
+Adélaïde B-PER
 . O
 ) O
 |
 | O
-U B-ORG
+U B-MISC
 |
 
-| O
-PEN B-ORG
-TT I-ORG
+| I-MISC
+PEN I-MISC
+TT I-MISC
 fe O
 |
 
@@ -8281,8 +8281,8 @@ II I-MISC
 | I-MISC
 LE I-MISC
 . O
-BARON O
-; O
+BARON B-MISC
+  O
 ADÉLAIDE B-MISC
 , O
 |
@@ -8299,7 +8299,7 @@ BARON I-MISC
 |
 
 | O
-INT B-MISC
+INT O
 a O
 fille O
 , O
@@ -8309,7 +8309,7 @@ combien O
 j' O
 ai O
 lieu O
-d’ B-LOC
+d’ O
 être O
 |
 | O
@@ -8353,7 +8353,7 @@ Ne O
 |
 
 | O
-Fo B-LOC
+Fo B-PER
 ri O
 |
 | O
@@ -8373,7 +8373,7 @@ pas O
 une O
 douleur O
 inutile O
-; O
+  O
 fe O
 |
 | O
@@ -8394,27 +8394,27 @@ pend O
 de O
 vous O
 , O
-Ce B-MISC
+Ce O
 |
-| I-MISC
-ADÉLAÏDE I-MISC
+| O
+ADÉLAÏDE O
 à O
 part O
 , O
 |
 | O
-À B-MISC
-quoi I-MISC
-tend I-MISC
-ce I-MISC
-difcours I-MISC
-? I-MISC
+À O
+quoi O
+tend O
+ce O
+difcours O
+? O
 ( O
 Haut B-LOC
 . O
 ) O
 Que O
-delirez O
+delirez B-PER
 |
 | O
 _ O
@@ -8428,8 +8428,8 @@ pere O
 |
 
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -8445,7 +8445,7 @@ renoncer O
 
 | O
 « O
-li O
+li B-LOC
 . O
 |
 
@@ -8453,17 +8453,17 @@ li O
 ADELAÏÎDE B-ORG
 |
 | O
-Que O
-m' O
-allez O
--vous O
-dire O
-? O
+Que B-MISC
+m' I-MISC
+allez I-MISC
+-vous I-MISC
+dire I-MISC
+? I-MISC
 |
 
-| O
-LE B-PER
-Baron I-PER
+| I-MISC
+LE I-MISC
+Baron I-MISC
 . O
 |
 
@@ -8490,25 +8490,25 @@ t O
 .. O
 |
 | O
-CL O
+CL B-MISC
 |
 
-| O
-|||| O
-|||| O
-A O
-DÉLAIDE O
+| I-MISC
+|||| I-MISC
+|||| I-MISC
+A I-MISC
+DÉLAIDE I-MISC
 . O
 |
 | O
 À O
-Frankner B-LOC
+Frankner B-PER
 ? O
-ciell B-PER
+ciell O
 |
-| I-PER
-LE I-PER
-BARON I-PER
+| O
+LE O
+BARON O
 . O
 |
 | O
@@ -8527,7 +8527,7 @@ veux O
 que O
 votre O
 bonheur O
-; O
+  O
 remettez O
 - O
 én O
@@ -8540,7 +8540,7 @@ votre O
 | O
 pere O
 . O
-Montrez B-PER
+Montrez O
 -vous O
 digne O
 dé O
@@ -8558,7 +8558,7 @@ courage O
 |
 
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 |
 
@@ -8593,18 +8593,18 @@ bonheur O
 & O
 vous O
 me O
-l’ B-ORG
-arrachez B-LOC
+l’ O
+arrachez O
 . O
 a O
 |
 
 | O
 LE O
-BARON B-MISC
+BARON O
 |
-| I-MISC
-Infenfée I-MISC
+| O
+Infenfée B-MISC
 ! I-MISC
 pouvez O
 : O
@@ -8636,7 +8636,7 @@ deve= O
 |
 | O
 nir O
-l’ B-ORG
+l’ O
 époufe O
 d’ O
 un O
@@ -8680,9 +8680,9 @@ ADÉLAÏDE B-LOC
 |
 
 | O
-L’ B-PER
-oublier I-PER
-! I-PER
+L’ O
+oublier O
+! O
 |||| O
 |
 
@@ -8694,7 +8694,7 @@ BARON O
 
 | O
 ‘ O
-Adélaïde B-LOC
+Adélaïde B-PER
 ! O
 un O
 pere O
@@ -8791,7 +8791,7 @@ me O
 déplaire O
 ? O
 ... O
-Adélaïde B-LOC
+Adélaïde B-PER
 ! O
 me O
 |
@@ -8800,7 +8800,7 @@ connoiffez O
 -vous O
 ? O
 ... O
-Craignez B-PER
+Craignez O
 vous O
 li O
 peu O
@@ -8808,10 +8808,10 @@ ma O
 co- O
 |
 | O
-lere O
-& O
-mon O
-réffentiment O
+lere B-MISC
+& I-MISC
+mon I-MISC
+réffentiment I-MISC
 ? O
 |
 
@@ -8819,14 +8819,14 @@ réffentiment O
 . O
 _ O
 ADÉÇAÏ B-MISC
-DE O
+DE I-MISC
 . O
 |
 | O
 |||| O
-Mon O
-pere O
-! O
+Mon B-MISC
+pere I-MISC
+! I-MISC
 |
 | O
 a O
@@ -8860,7 +8860,7 @@ que O
 |
 | O
 Pindigne B-LOC
-pañion O
+pañion I-LOC
 qui O
 vous O
 domine O
@@ -8888,7 +8888,7 @@ fille O
 . O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 à O
 part O
 . O
@@ -8901,7 +8901,7 @@ part O
 | O
 _ O
 é O
-; O
+  O
 je O
 parle O
 , O
@@ -8914,12 +8914,12 @@ perdue O
 
 | O
 28 O
-ADÉLAIDE B-MISC
+ADÉLAIDE O
 |
 | O
 |||| O
-Le B-MISC
-Baron I-MISC
+Le O
+Baron O
 . O
 |
 
@@ -8942,7 +8942,7 @@ où O
 | O
 je O
 VOUS B-MISC
-VOIS I-MISC
+VOIS O
 ? O
 « O
 « O
@@ -8957,38 +8957,38 @@ ADÉLAÏDE B-LOC
 
 | O
 " O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 |||| O
 |
 | O
 |||| O
 LE O
-BARON B-ORG
+BARON O
 , O
 .- O
 |
 | O
-Adélaïde B-LOC
+Adélaïde B-PER
 ? O
 |||| O
 |
 | O
 |||| O
 A O
-BÉLAÏD O
-E O
+BÉLAÏD B-MISC
+E I-MISC
 |
-| O
-Mon O
-pere O
+| I-MISC
+Mon B-MISC
+pere I-MISC
 ! O
 |
 
 | O
 LE O
 : O
-BARON B-MISC
+BARON O
 . O
 |
 
@@ -9001,7 +9001,7 @@ je O
 perds O
 patience O
 , O
-Expliquez- B-LOC
+Expliquez- B-MISC
 |
 | O
 vous O
@@ -9009,11 +9009,11 @@ vous O
 |
 
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE O
 héfite O
 un O
 moment O
-; O
+  O
 à O
 à O
 parts O
@@ -9041,15 +9041,15 @@ mourir O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
 par O
-|||| O
+|||| B-MISC
 |
 
-| O
-Contraignons B-LOC
-NOUS O
+| I-MISC
+Contraignons I-MISC
+NOUS I-MISC
 , O
 ( O
 haut O
@@ -9085,7 +9085,7 @@ mais O
 ton O
 cœur O
 à O
-befoin O
+befoin B-LOC
 de O
 s O
 “ O
@@ -9104,9 +9104,9 @@ vais O
 . O
 |
 | O
-tenvoyer O
-ta O
-mere O
+tenvoyer B-PER
+ta I-PER
+mere I-PER
 , O
 tu O
 feras O
@@ -9122,11 +9122,11 @@ elle O
 je O
 defire O
 que O
-fa O
-préfence O
-calme O
-tes O
-inquiétudes O
+fa B-PER
+préfence I-PER
+calme I-PER
+tes I-PER
+inquiétudes I-PER
 . O
 |
 
@@ -9136,8 +9136,8 @@ ma O
 fille O
 , O
 ton O
-pere O
-fe O
+pere B-PER
+fe I-PER
 feroit O
 attendu O
 à O
@@ -9170,8 +9170,8 @@ ADÉLAÏDE O
 oc O
 |
 | O
-Matheureufe B-MISC
-! I-MISC
+Matheureufe B-LOC
+! O
 Que O
 vais O
 -je O
@@ -9185,9 +9185,9 @@ me O
 cacher O
 ? O
 où O
-enfevelir O
+enfevelir B-LOC
 le O
-rémord O
+rémord B-LOC
 qui O
 me O
 prefle O
@@ -9196,17 +9196,17 @@ prefle O
 |
 
 | O
-PRET B-ORG
+PRET O
 un O
 ns O
 pi O
 ces O
-Pace B-LOC
+Pace B-ORG
 . O
 |
 | O
-ere O
-Dore B-PER
+ere B-LOC
+Dore I-LOC
 les O
 ae O
 tel O
@@ -9226,14 +9226,14 @@ k O
 | O
 * O
 DE O
-MARIENDALI B-ORG
+MARIENDALI B-MISC
 , O
 29 O
 |
 | O
 Je O
 vois O
-s’ B-PER
+s’ O
 avancet O
 l' O
 inflant O
@@ -9248,7 +9248,7 @@ plus O
 cacher O
 mon O
 état O
-; O
+  O
 où O
 ma O
 honte O
@@ -9265,7 +9265,7 @@ que O
 j' O
 adore O
 , O
-d’ B-MISC
+d’ O
 un O
 pere O
 que O
@@ -9274,9 +9274,9 @@ je O
 | O
 crains O
 , O
-d’ B-MISC
-un I-MISC
-frere I-MISC
+d’ O
+un O
+frere O
 qui O
 ne O
 m' O
@@ -9284,15 +9284,15 @@ aima O
 jamais O
 ... O
 , O
-Quel B-MISC
+Quel O
 |
-| I-MISC
-peut I-MISC
-être I-MISC
-le I-MISC
-projet I-MISC
+| O
+peut O
+être O
+le O
+projet O
 de O
-Frankner B-PER
+Frankner B-LOC
 ? O
 M’ O
 enlever O
@@ -9306,10 +9306,10 @@ aller O
 . O
 .. O
 , O
-Comment O
-s' O
-échapper O
-? O
+Comment B-MISC
+s' I-MISC
+échapper I-MISC
+? I-MISC
 Ah B-MISC
 ! I-MISC
 je O
@@ -9324,7 +9324,7 @@ ajouter O
 à O
 mes O
 faites O
-; O
+  O
 je O
 fuis O
 affez O
@@ -9350,7 +9350,7 @@ pu O
 le O
 devenir O
 fans O
-l’ B-ORG
+l’ O
 aveu O
 de O
 mon O
@@ -9361,8 +9361,8 @@ pere O
 ( O
 Ici O
 la O
-Baronne B-ORG
-paroît I-ORG
+Baronne B-MISC
+paroît O
 fans O
 étre O
 apperçue O
@@ -9370,24 +9370,24 @@ apperçue O
 ) O
 |
 | O
-Comment O
-découvrir O
-mon O
-fecret O
+Comment B-MISC
+découvrir I-MISC
+mon I-MISC
+fecret I-MISC
 ? O
-Ma O
-mere O
+Ma B-PER
+mere I-PER
 , O
 ma O
 |
 | O
 tendre O
-mere O
+mere B-PER
 , O
 va O
 bientôt O
 me O
-l’ B-LOC
+l’ O
 arracher O
 . O
 Que O
@@ -9402,7 +9402,7 @@ que O
 je O
 crains O
 de O
-l’ B-LOC
+l’ O
 afliger O
 ! O
 .. O
@@ -9411,7 +9411,7 @@ afliger O
 Mais O
 ül O
 le O
-faut; O
+faut  O
 ... O
 je O
 vais O
@@ -9438,7 +9438,7 @@ rendre O
 heureux O
 , O
 toute O
-l’ B-LOC
+l’ O
 amertume O
 de O
 mon O
@@ -9453,27 +9453,27 @@ Je I-MISC
 retournant I-MISC
 elle I-MISC
 apperçoit I-MISC
-la O
-Baronne B-LOC
+la I-MISC
+Baronne I-MISC
 qui O
 |
 | O
-l’ B-LOC
+l’ O
 écoutoit O
 , O
 elle O
-fe O
+fe B-LOC
 précipite O
 dans O
-fes O
-bras O
+fes B-MISC
+bras I-MISC
 . O
 ) O
 |
 | O
-M B-PER
-mere I-PER
-! I-PER
+M O
+mere O
+! O
 ° O
 |
 
@@ -9484,14 +9484,14 @@ IF I-ORG
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 ADÉLAIDE B-MISC
 . O
 |
 | O
 La O
-BARONNE B-ORG
+BARONNE B-MISC
 |
 
 | O
@@ -9509,26 +9509,26 @@ défefpoir O
 ? O
 |
 | O
-Pourquoi B-MISC
-éffrayer I-MISC
-votre I-MISC
+Pourquoi O
+éffrayer B-PER
+votre I-PER
 , O
 mere O
 ? O
-Reme B-PER
-tteZ- I-PER
-VOUS I-PER
-; O
+Reme B-LOC
+tteZ- O
+VOUS B-MISC
+  O
 |
 
 | O
 39 O
 | | O
-YADÉLAIDE B-PER
+YADÉLAIDE O
 |
-| I-PER
-ma I-PER
-fille I-PER
+| O
+ma O
+fille O
 , O
 Re B-MISC
 parlez I-MISC
@@ -9536,7 +9536,7 @@ moi I-MISC
 avec I-MISC
 tranquillité I-MISC
 , O
-Votrs B-LOC
+Votrs B-PER
 |
 | O
 pere O
@@ -9567,8 +9567,8 @@ Je O
 crois O
 que O
 vous O
-m’ B-PER
-aimez I-PER
+m’ O
+aimez O
 aflez O
 pour O
 m' O
@@ -9594,9 +9594,9 @@ m' O
 eft O
 cher O
 par O
-deflus O
+deflus B-PER
 tout O
-; O
+  O
 que O
 |
 | O
@@ -9610,26 +9610,26 @@ la O
 mienne O
 , O
 que O
-Je B-MISC
+Je O
 |
-| I-MISC
-ne I-MISC
-refpire I-MISC
+| O
+ne O
+refpire B-PER
 que O
 pour.ma O
 fille O
 , O
-|||| O
+|||| B-ORG
 |
-| O
-ADÉLAÏÎDE B-ORG
+| I-ORG
+ADÉLAÏÎDE I-ORG
 . O
 |
 | O
-Ah B-PER
+Ah B-MISC
 , O
-Madame B-PER
-! O
+Madame B-MISC
+! I-MISC
 que O
 je O
 fuis O
@@ -9644,17 +9644,17 @@ BARONNE B-ORG
 |
 | I-ORG
 Vous I-ORG
-, I-ORG
-indigne I-ORG
-de I-ORG
-moi I-ORG
-! I-ORG
+, O
+indigne O
+de O
+moi O
+! O
 non O
 , O
 non O
 , O
-Adélaïde B-LOC
-; O
+Adélaïde B-PER
+  O
 |
 | O
 vous O
@@ -9663,7 +9663,7 @@ formée O
 de O
 mon O
 fang O
-; O
+  O
 je O
 vous O
 ai O
@@ -9708,7 +9708,7 @@ ceflé O
 |
 | O
 de O
-m’ B-PER
+m’ O
 aimer O
 . O
 |
@@ -9730,7 +9730,7 @@ jamais O
 |
 | O
 La O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -9769,7 +9769,7 @@ me O
 déplaire O
 , O
 qui O
-ne’ B-LOC
+ne’ B-MISC
 réponde O
 à O
 la O
@@ -9789,7 +9789,7 @@ naif- O
 |
 | O
 fance O
-; O
+  O
 votre O
 douleur O
 vous O
@@ -9812,12 +9812,12 @@ moi O
 ma O
 fille O
 , O
-& B-MISC
-Vous I-MISC
+& O
+Vous O
 |
-| I-MISC
-Je I-MISC
-ferez I-MISC
+| O
+Je O
+ferez O
 toujours O
 |
 
@@ -9826,20 +9826,20 @@ toujours O
 |
 
 | O
-À O
+À B-MISC
 |
 
-| O
-DE O
-MARIENDAI B-MISC
+| I-MISC
+DE I-MISC
+MARIENDAI I-MISC
 . O
 3x O
 |
 | O
 |||| O
 ne O
-ADÉLAIi B-MISC
-PE I-MISC
+ADÉLAIi B-PER
+PE I-PER
 à O
 part O
 |
@@ -9854,7 +9854,7 @@ confondue I-MISC
 
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -9868,27 +9868,27 @@ BARONNE B-ORG
 ‘ O
 |
 | O
-Mais O
-votre O
-pere O
+Mais B-MISC
+votre I-MISC
+pere I-MISC
 veut O
 abfolument O
 être O
 éclairci O
-; O
+  O
 |
 | O
 äl O
-n’ B-PER
+n’ O
 eft O
 plus O
 temps O
 d’ O
-héfiter O
+héfiter B-PER
 , O
 ma O
 fille O
-; O
+  O
 allons O
 , O
 |
@@ -9910,14 +9910,14 @@ ADÉLAIDE O
 
 | O
 \ O
-Ma B-PER
-mere I-PER
+Ma O
+mere O
 . O
 |||| O
 |
 | O
 LE O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -9939,7 +9939,7 @@ DÉLAIDE O
 Ma B-MISC
 mere I-MISC
 ... O
-Frankner B-MISC
+Frankner B-PER
 . O
 … O
 .. O
@@ -9960,22 +9960,22 @@ oublieroit I-ORG
 , O
 .... O
 , O
-Frankner B-LOC
+Frankner B-PER
 feroit O
 |
 | O
-anfidele B-PER
+anfidele O
 ? O
-|||| B-MISC
-V I-MISC
+|||| B-PER
+V I-PER
 |
 
-| I-MISC
-r I-MISC
+| I-PER
+r I-PER
 |
 
-| I-MISC
-_ I-MISC
+| O
+_ O
 ADÉLAÎDE B-ORG
 . O
 |
@@ -9997,7 +9997,7 @@ L O
 
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 | O
@@ -10015,14 +10015,14 @@ ADÉLAIDE B-MISC
 . O
 |
 | O
-Ma B-PER
-mere I-PER
-! I-PER
+Ma B-MISC
+mere I-MISC
+! I-MISC
 ( O
 Elle O
 tombe O
 à O
-fes O
+fes B-LOC
 genoux O
 , O
 ) O
@@ -10036,12 +10036,12 @@ tends O
 votre O
 haine O
 , O
-|||| O
-|||| O
+|||| B-PER
+|||| I-PER
 |
-| O
-La O
-BARONNE O
+| I-PER
+La I-PER
+BARONNE B-MISC
 /a O
 relevant O
 . O
@@ -10071,10 +10071,10 @@ ADÉLAÏIDE O
 |
 | O
 ‘ O
-Ayez B-LOC
-pitié O
-de O
-moi O
+Ayez B-MISC
+pitié I-MISC
+de I-MISC
+moi I-MISC
 , O
 je O
 mérite O
@@ -10085,7 +10085,7 @@ mépris O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 /a O
 repouffants O
 |
@@ -10132,30 +10132,30 @@ ES O
 | O
 os O
 tre O
-A B-MISC
-NV I-MISC
-A I-MISC
-mere I-MISC
-ans I-MISC
+A O
+NV O
+A O
+mere O
+ans O
 |
 
-| I-MISC
+| O
 SCENE O
-F. B-PER
+F. O
 |
-| I-PER
-LE I-PER
-BARON I-PER
+| O
+LE O
+BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 ADÉLAIDE B-MISC
 , O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |||| O
 |
@@ -10172,7 +10172,7 @@ faite O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -10203,7 +10203,7 @@ Ciel O
 | O
 ma O
 fille O
-; O
+  O
 fonnez O
 vite O
 . O
@@ -10249,15 +10249,15 @@ répond O
 à O
 peine O
 . O
-Monfieur O
-le O
-Baron B-MISC
-! I-MISC
+Monfieur B-PER
+le I-PER
+Baron I-PER
+! O
 |
 
 | O
-LE B-PER
-Baron I-PER
+LE O
+Baron B-PER
 . O
 |
 
@@ -10280,11 +10280,11 @@ rien O
 ( O
 On O
 amene O
-Adélaïde.(à O
+Adélaïde.(à B-LOC
 part O
 . O
 ) O
-Suivonsles O
+Suivonsles B-LOC
 , O
 & O
 ne O
@@ -10306,33 +10306,33 @@ foit O
 FRANKNER B-MISC
 |
 
-| O
-DER B-ORG
+| I-MISC
+DER I-MISC
 . O
 |
 
 | O
-ITR B-ORG
-ONE O
-RAP O
-SR O
-PQ O
-EME O
-AR O
+ITR B-MISC
+ONE I-MISC
+RAP I-MISC
+SR I-MISC
+PQ I-MISC
+EME I-MISC
+AR I-MISC
 Re O
-EE B-ORG
-TA I-ORG
-UE I-ORG
+EE O
+TA O
+UE O
 |
 
-| I-ORG
-DE O
-MARIENDAI O
+| O
+DE B-ORG
+MARIENDAI I-ORG
 , O
 + O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 errant O
 précipiramment O
 , O
@@ -10340,24 +10340,24 @@ précipiramment O
 | O
 Monfieur B-PER
 à O
-fonné O
+fonné B-LOC
 . O
 |||| O
 |
 | O
-LE O
-B B-LOC
-4 O
-R O
-© O
+LE B-MISC
+B I-MISC
+4 I-MISC
+R I-MISC
+© I-MISC
 Ne O
 . O
 |
 
 | O
-Ma B-PER
-fille I-PER
-fe I-PER
+Ma O
+fille O
+fe O
 trouvoit O
 mal O
 , O
@@ -10389,7 +10389,7 @@ entrez O
 pas O
 , O
 on O
-n’ B-PER
+n’ O
 a O
 pas O
 befoin O
@@ -10400,7 +10400,7 @@ vous O
 
 | O
 |||| O
-CE O
+CE B-ORG
 fort O
 . O
 ) O
@@ -10412,9 +10412,9 @@ FRANKNER B-MISC
 |
 
 | O
-Matheureufe B-LOC
+Matheureufe B-PER
 . O
-Adélaïde B-LOC
+Adélaïde O
 ! O
 Que O
 tu O
@@ -10432,12 +10432,12 @@ eaufe O
 tes O
 peines O
 , O
-c’ B-MISC
+c’ O
 eft O
 moi O
 { O
 eul O
-; O
+  O
 faffe O
 |
 | O
@@ -10470,7 +10470,7 @@ JÉROME B-MISC
 , O
 |
 | O
-Jérôm B-PER
+Jérôm B-MISC
 : O
 avec O
 emprefiment O
@@ -10482,8 +10482,8 @@ emprefiment O
 Dunonr B-PER
 ? O
 où O
-eft O
-M. B-PER
+eft B-PER
+M. I-PER
 le I-PER
 Baron I-PER
 ? O
@@ -10524,14 +10524,14 @@ nous O
 | O
 entend O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 M. O
 Frankner B-PER
 , O
-voyez B-ORG
-l’ I-ORG
-état B-LOC
+voyez O
+l’ O
+état O
 où O
 va O
 |
@@ -10551,13 +10551,13 @@ elle O
 | O
 peut O
 devenir O
-Ja B-MISC
-vôtre I-MISC
-; I-MISC
+Ja B-PER
+vôtre I-PER
+  O
 püille O
 t O
 -elle O
-l’ B-LOC
+l’ O
 étre O
 bientôt O
 ! O
@@ -10575,7 +10575,7 @@ dans O
 le O
 château O
 la O
-VIQ= O
+VIQ= B-MISC
 |
 | O
 “ O
@@ -10588,14 +10588,14 @@ ES B-MISC
 |
 
 | I-MISC
-GC B-ORG
+GC I-MISC
 |
 
 | O
 54 O
 | | O
 . O
-ADÉLAIDE B-MISC
+ADÉLAIDE O
 |
 | O
 |||| O
@@ -10611,15 +10611,15 @@ font O
 |
 
 | O
-JÉRÔME B-ORG
+JÉRÔME O
 . O
 hr O
 |
 | O
-Je O
-les O
-ai O
-laiffés O
+Je B-MISC
+les I-MISC
+ai I-MISC
+laiffés I-MISC
 dans O
 la O
 cour O
@@ -10636,7 +10636,7 @@ envoie O
 ? O
 |
 | O
-JÉRÔME B-ORG
+JÉRÔME B-MISC
 . O
 |
 | O
@@ -10647,20 +10647,20 @@ Scellier B-LOC
 : O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 , O
 |
 | O
-Combien B-LOC
-lui O
-eftil O
+Combien B-MISC
+lui I-MISC
+eftil I-MISC
 dû O
 ? O
 |
 | O
 |||| O
 |||| O
-JÉRÔME B-ORG
+JÉRÔME O
 . O
 |
 | O
@@ -10701,23 +10701,23 @@ papier O
 . O
 |
 | O
-JÉRÔME B-ORG
-lifant O
+JÉRÔME B-PER
+lifant I-PER
 , O
 |
 | O
-Signé B-ORG
+Signé O
 . O
-Frankner B-ORG
+Frankner B-PER
 . O
 … O
-Diable O
-! O
+Diable B-MISC
+! I-MISC
 |
-| O
-|||| O
-“ O
-FRANKNER B-ORG
+| I-MISC
+|||| I-MISC
+“ I-MISC
+FRANKNER I-MISC
 , O
 |
 | O
@@ -10730,21 +10730,21 @@ titres O
 . O
 |
 | O
-JÉRÔME B-ORG
+JÉRÔME B-MISC
 . O
 |||| O
 |
 | O
 Je O
-n’ B-PER
+n’ O
 y O
 manquerai O
 pas O
 , O
 ( O
-I B-LOC
-! O
-fort O
+I B-MISC
+! I-MISC
+fort I-MISC
 . O
 |
 | O
@@ -10816,25 +10816,25 @@ _ O
 |
 
 | O
-SCENE O
-VII O
+SCENE B-MISC
+VII I-MISC
 . O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 , O
 DUPUIS B-ORG
 . O
 |
 
 | O
-Dururs B-PER
+Dururs B-LOC
 . O
 |
 
 | O
 D O
-UMONT O
+UMONT B-ORG
 ! O
 Dumont B-ORG
 ! I-ORG
@@ -10853,25 +10853,25 @@ vous O
 |
 
 | O
-FRANK B-PER
-N I-PER
-E I-PER
+FRANK B-ORG
+N I-ORG
+E I-ORG
 Re O
 |
 | O
-Donne B-PER
+Donne O
 , O
 Quand B-MISC
 l’ I-MISC
 as I-MISC
-- I-MISC
-tu I-MISC
-reçue I-MISC
+- O
+tu O
+reçue O
 ? O
 |||| O
 |
 | O
-Dupuis B-ORG
+Dupuis O
 . O
 |
 | O
@@ -10883,7 +10883,7 @@ qu' O
 un O
 inftant O
 , O
-l’ B-LOC
+l’ O
 exprès O
 eft O
 encore O
@@ -10901,7 +10901,7 @@ FRANKNER B-MISC
 , O
 |
 | O
-À-t-il O
+À-t-il B-PER
 amené O
 des O
 chevaux O
@@ -10910,7 +10910,7 @@ chevaux O
 
 | O
 |||| O
-Duruis B-PER
+Duruis B-ORG
 . O
 |
 | O
@@ -10924,29 +10924,29 @@ Monfeur B-PER
 FRANKNER B-MISC
 |
 
-| O
+| I-MISC
 C' O
 eft O
 de O
 monfrere O
 , O
 ( O
-Tandis B-MISC
-qu’ I-MISC
+Tandis O
+qu’ O
 il O
 décachete O
-La O
-|||| O
+La B-MISC
+|||| I-MISC
 |
-| O
-‘ O
-Lettre O
+| I-MISC
+‘ I-MISC
+Lettre I-MISC
 , O
 ) O
 Comment O
 fe O
 trouve O
-Adélaïde B-LOC
+Adélaïde B-PER
 ? O
 |||| O
 |
@@ -10958,7 +10958,7 @@ s. O
 |
 
 | O
-Affez B-MISC
+Affez B-PER
 bien O
 , O
 Son O
@@ -10978,8 +10978,8 @@ l' O
 avoit O
 çaufé O
 ? O
-oo O
-CU B-MISC
+oo B-LOC
+CU I-LOC
 à O
 |
 
@@ -10993,8 +10993,8 @@ Ci B-LOC
 ADÉLAIDE O
 |
 | O
-D' B-MISC
-urUuU1s I-MISC
+D' B-PER
+urUuU1s I-PER
 . O
 |
 | O
@@ -11010,11 +11010,11 @@ FRANKNER B-MISC
 |
 
 | O
-A O
-coup O
-für O
-quelque O
-méchanceté O
+A B-MISC
+coup I-MISC
+für I-MISC
+quelque I-MISC
+méchanceté I-MISC
 du O
 Chevalier B-ORG
 |
@@ -11024,13 +11024,13 @@ du O
 Baron B-PER
 , O
 ( O
-I£ B-ORG
+I£ B-PER
 lit O
 . O
 ) O
 « O
 Je O
-t’ B-LOC
+t’ O
 envoie O
 , O
 mon O
@@ -11047,11 +11047,11 @@ nous O
 avons O
 reçu O
 de O
-Ja B-MISC
+Ja B-PER
 |
-| I-MISC
-» I-MISC
-Haye O
+| I-PER
+» I-PER
+Haye I-PER
 depuis O
 ton O
 départ O
@@ -11076,20 +11076,20 @@ demandées O
 |
 | O
 2 O
-Donne B-PER
--nous O
-de O
-tes O
-nouvelles O
+Donne B-MISC
+-nous I-MISC
+de I-MISC
+tes I-MISC
+nouvelles I-MISC
 » O
 , O
-Quelles B-LOC
-nou- O
+Quelles B-MISC
+nou- I-MISC
 |
 
-| O
-elles O
-! O
+| I-MISC
+elles I-MISC
+! I-MISC
 |
 | O
 DuprPurs B-MISC
@@ -11113,12 +11113,12 @@ laifle O
 , O
 |
 | O
-Ex O
+Ex B-MISC
 |
-| O
-_ O
-SCENE O
-VIII B-MISC
+| I-MISC
+_ I-MISC
+SCENE B-MISC
+VIII I-MISC
 . O
 |
 
@@ -11137,12 +11137,12 @@ FRANKNER B-MISC
 FrANKNER B-MISC
 plie O
 Ja B-MISC
-lettre I-MISC
-fans I-MISC
-achever I-MISC
-de I-MISC
-la I-MISC
-lire I-MISC
+lettre O
+fans O
+achever O
+de O
+la O
+lire O
 , O
 |
 | O
@@ -11154,8 +11154,8 @@ au O
 devant O
 d O
 ’ O
-Adélaïde B-LOC
-|||| O
+Adélaïde B-PER
+|||| I-PER
 |
 | O
 qui O
@@ -11186,9 +11186,9 @@ froideur O
 . O
 |
 | O
-Ton B-PER
-fecret O
-eft O
+Ton B-MISC
+fecret I-MISC
+eft I-MISC
 découvert O
 . O
 Te O
@@ -11203,7 +11203,7 @@ de O
 ma O
 famille O
 , O
-Te B-MISC
+Te B-PER
 voilà O
 reconnu O
 pour O
@@ -11223,7 +11223,7 @@ mort O
 
 | O
 DE O
-MARIENDAI B-MISC
+MARIENDAI O
 . O
 # O
 7 O
@@ -11239,11 +11239,11 @@ mort O
 ? O
 ma O
 chere O
-Adélaïde B-LOC
+Adélaïde B-PER
 ! O
 |
 | O
-ADÉLAIÏDE O
+ADÉLAIÏDE B-LOC
 de O
 repouffant O
 , O
@@ -11255,11 +11255,11 @@ Frankner B-PER
 , O
 écoutez O
 , O
-obéiflez O
-& O
-fur O
-- O
-tout O
+obéiflez B-LOC
+& I-LOC
+fur I-LOC
+- I-LOC
+tout I-LOC
 ne O
 |
 | O
@@ -11276,7 +11276,7 @@ de O
 mon O
 |
 | O
-état B-LOC
+état O
 , O
 mon O
 pere O
@@ -11284,11 +11284,11 @@ va O
 bientôt O
 l' O
 être O
-; O
+  O
 je O
-n’ B-PER
-ai I-PER
-qu’ I-PER
+n’ O
+ai O
+qu’ O
 un O
 |
 | O
@@ -11323,8 +11323,8 @@ FRANKNER B-MISC
 
 | O
 _ O
-Cruelle B-LOC
-! I-LOC
+Cruelle B-MISC
+! I-MISC
 ( O
 Avec O
 une O
@@ -11343,7 +11343,7 @@ obéie O
 . O
 Vous O
 voulez O
-m’ B-PER
+m’ O
 éloigner O
 , O
 vous O
@@ -11376,7 +11376,7 @@ flattez O
 pas O
 : O
 je O
-refterai O
+refterai B-LOC
 , O
 j' O
 obferverai O
@@ -11389,7 +11389,7 @@ aétions O
 tous O
 leurs O
 difcours O
-; O
+  O
 rien O
 ne O
 m O
@@ -11428,11 +11428,11 @@ y O
 |||| O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE O
 |||| O
 |
 | O
-Craignez B-LOC
+Craignez O
 , O
 fi O
 vous O
@@ -11518,7 +11518,7 @@ Ci O
 | O
 33 O
 . O
-ADÉLAIDE B-MISC
+ADÉLAIDE O
 |
 | O
 |||| O
@@ -11526,7 +11526,7 @@ ADÉLAÏDE O
 |||| O
 |
 | O
-Cruel B-LOC
+Cruel O
 , O
 en O
 peux O
@@ -11546,7 +11546,7 @@ moins O
 aurois O
 -je O
 tant O
-d’ B-MISC
+d’ O
 alarmes O
 » O
 Chaque O
@@ -11568,17 +11568,17 @@ dangers O
 redouble O
 |
 | O
-op B-PER
+op O
 amouR O
 |||| O
 |||| O
 |||| O
 |
 | O
-Co B-PER
-F I-PER
+Co O
+F O
 RANK O
-NER B-MISC
+NER O
 .. O
 |
 
@@ -11599,9 +11599,9 @@ vous O
 | O
 füie B-MISC
 , O
-& O
-vous O
-dites O
+& B-MISC
+vous I-MISC
+dites I-MISC
 que O
 vous O
 m' O
@@ -11617,21 +11617,21 @@ ingrate O
 
 | O
 © O
-Dieux B-PER
-! O
+Dieux B-MISC
+! I-MISC
 vous O
 lifez O
 dans O
 mon O
 cœur O
 , O
-- B-ORG
-& I-ORG
+- O
+& O
 |
 | O
 vous O
 entendez O
-; O
+  O
 Suis B-MISC
 -je I-MISC
 aflez I-MISC
@@ -11645,8 +11645,8 @@ Ah B-MISC
 F I-MISC
 rankner I-MISC
 , O
-fje O
-véloigne O
+fje B-ORG
+véloigne I-ORG
 , O
 c' O
 eft O
@@ -11654,7 +11654,7 @@ pour O
 te O
 fauver O
 , O
-La B-MISC
+La B-PER
 . O
 |
 | O
@@ -11686,8 +11686,8 @@ mourir O
 feule O
 |
 | O
-H' O
-augimente O
+H' B-MISC
+augimente I-MISC
 pas O
 mon O
 fupplice O
@@ -11698,14 +11698,14 @@ avec O
 | O
 moi O
 . O
-C’ B-MISC
+C’ O
 eft O
 aflez O
 de O
 mes O
 peines O
 . O
-Epargne B-LOC
+Epargne O
 -moi O
 les O
 |
@@ -11716,9 +11716,9 @@ crois O
 -moi O
 , O
 fuis O
-; O
+  O
 je O
-t’ B-LOC
+t’ O
 en O
 conjure O
 par O
@@ -11734,7 +11734,7 @@ avons O
 de O
 plus O
 facré O
-; O
+  O
 + O
 par O
 notre O
@@ -11748,9 +11748,9 @@ Co O
 | O
 FRANKNER B-MISC
 | | I-MISC
-- I-MISC
+- O
 |
-| I-MISC
+| O
 Si O
 cet O
 amour O
@@ -11782,7 +11782,7 @@ m' O
 aimez O
 , O
 ne O
-Prenez B-PER
+Prenez O
 |
 | O
 confeil O
@@ -11791,7 +11791,7 @@ de O
 votre O
 cœur O
 . O
-Si O
+Si B-MISC
 vous O
 maimez O
 , O
@@ -11818,26 +11818,26 @@ foudre O
 qui O
 vous O
 menace O
-; O
+  O
 fi O
 vous O
-M' B-MISC
-aiMeEz I-MISC
+M' B-PER
+aiMeEz I-PER
 . O
 |
 
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 |
 | O
 ‘ O
-Arrête B-ORG
-& I-ORG
-cefle I-ORG
-de O
-m' O
-offenfer O
+Arrête B-MISC
+& I-MISC
+cefle I-MISC
+de I-MISC
+m' I-MISC
+offenfer I-MISC
 , O
 Si B-MISC
 je I-MISC
@@ -11854,11 +11854,11 @@ en O
 Re O
 témoin O
 , O
-EU B-ORG
+EU B-MISC
 |
 
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 + O
 |
@@ -11868,11 +11868,11 @@ ADÉLAÏDE B-ORG
 |
 
 | O
-He B-LOC
+He O
 |
 
-| I-LOC
-TR I-LOC
+| O
+TR O
 RESTE O
 ee O
 . O
@@ -11887,22 +11887,22 @@ MARITENDAL B-MISC
 . O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 . O
-Lo O
+Lo B-PER
 |
-| O
+| I-PER
 Eh O
 bien O
 , O
-rappelletoï O
+rappelletoï B-MISC
 le O
 ferment O
 que O
 tufs O
 e O
 en O
-fe O
+fe B-LOC
 |
 
 | O
@@ -11931,8 +11931,8 @@ amour O
 |
 | O
 |||| O
-ADÉLAÏD O
-A O
+ADÉLAÏD B-ORG
+A I-ORG
 |
 | O
 . O
@@ -11950,13 +11950,13 @@ tout O
 | O
 FRANKN B-MISC
 ER I-MISC
-|||| O
+|||| I-MISC
 |
-| O
-Et O
-tu O
-me O
-refufes O
+| I-MISC
+Et I-MISC
+tu I-MISC
+me I-MISC
+refufes I-MISC
 l' O
 obéiffänce O
 , O
@@ -11966,16 +11966,16 @@ obéiffänce O
 “ O
 A B-MISC
 D I-MISC
-Ë O
+Ë I-MISC
 LA O
-1 B-MISC
-D I-MISC
-EE I-MISC
+1 O
+D O
+EE O
 |
 
-| I-MISC
-Ah I-MISC
-! I-MISC
+| O
+Ah O
+! O
 .Frankner O
 , O
 ah O
@@ -11990,7 +11990,7 @@ déchires O
 | O
 mon O
 cœur O
-; O
+  O
 fi O
 je O
 balance O
@@ -12000,7 +12000,7 @@ eft O
 que O
 je O
 crains O
-d’ B-PER
+d’ O
 a- O
 |
 | O
@@ -12018,11 +12018,11 @@ dangers O
 |
 
 | O
-En O
-refufant O
-de O
-te O
-füivrè O
+En B-MISC
+refufant I-MISC
+de I-MISC
+te I-MISC
+füivrè I-MISC
 , O
 , O
 je O
@@ -12047,14 +12047,14 @@ cher O
 Je O
 renonce O
 au O
-feul O
+feul B-LOC
 |
-| O
-efpoir O
+| I-LOC
+efpoir I-LOC
 qui O
 re O
 refle O
-; O
+  O
 mais O
 ton O
 intérêt O
@@ -12083,7 +12083,7 @@ de O
 échapper O
 : O
 ? O
-Je.te B-LOC
+Je.te B-MISC
 le O
 répete O
 , O
@@ -12091,7 +12091,7 @@ fuis O
 : O
 |
 | O
-Dérobe B-LOC
+Dérobe B-PER
 : O
 toi O
 à O
@@ -12108,7 +12108,7 @@ laifle- O
 | O
 moi O
 feule O
-fubir O
+fubir B-PER
 toute O
 l' O
 horreur O
@@ -12131,7 +12131,7 @@ s O
 Je O
 ne O
 réf O
-Île B-ORG
+Île B-LOC
 point O
 à O
 cet O
@@ -12152,7 +12152,7 @@ je O
 vive O
 fans O
 toi O
-; O
+  O
 c' O
 eft O
 le- O
@@ -12177,7 +12177,7 @@ ton O
 pere O
 . O
 Je O
-fubirai O
+fubirai B-ORG
 mille O
 morts O
 plutôt O
@@ -12191,7 +12191,7 @@ aban- O
 donner O
 . O
 Adélaïde B-PER
-! O
+! I-PER
 qu' O
 ofes O
 - O
@@ -12210,7 +12210,7 @@ droit O
 veux O
 - O
 tu O
-brifer O
+brifer B-PER
 le O
 lien O
 qui O
@@ -12224,9 +12224,9 @@ Civ B-MISC
 
 | I-MISC
 & I-MISC
-: O
-“ O
-ADÉLAIDE B-MISC
+: I-MISC
+“ I-MISC
+ADÉLAIDE I-MISC
 |
 
 | O
@@ -12268,12 +12268,12 @@ veux I-MISC
 que I-MISC
 je I-MISC
 fuie I-MISC
+, I-MISC
+je I-MISC
+fuirai I-MISC
 , O
-je O
-fuirai O
-, O
-JY B-MISC
-con O
+JY B-PER
+con I-PER
 |
 | O
 fens O
@@ -12283,17 +12283,17 @@ tu O
 me O
 fuivras O
 , O
-Rien B-MISC
-ne I-MISC
-pourra I-MISC
-me I-MISC
-fé- I-MISC
+Rien O
+ne O
+pourra O
+me O
+fé- O
 |
 | O
 parer O
 de O
 toi O
-; O
+  O
 ton O
 pere O
 , O
@@ -12306,7 +12306,7 @@ famille O
 tout O
 |
  | O
-Punivers B-ORG
+Punivers B-PER
 déivent O
 -ils O
 me O
@@ -12320,18 +12320,18 @@ cœur O
 Rentre B-MISC
 en I-MISC
 toi I-MISC
-- I-MISC
-même I-MISC
+- O
+même O
 , O
 je O
-nete B-PER
+nete O
 quitté O
 plus O
 que O
 tu O
 |
 | O
-n’ B-PER
+n’ O
 aies O
 confenti O
 à O
@@ -12359,7 +12359,7 @@ tout O
 . O
 |
  | O
-Suis B-LOC
+Suis O
 -moi O
 , O
 fuis O
@@ -12381,7 +12381,7 @@ réponds O
 
 | O
 . O
-ADÉLAÏDE B-LOC
+ADÉLAÏDE O
 après O
 un O
 2 O
@@ -12391,7 +12391,7 @@ leècés O
 |
 
 | O
-C B-MISC
+C B-PER
 en O
 eft O
 fait O
@@ -12401,7 +12401,7 @@ fuis O
 à O
 . O
 toi O
-; O
+  O
 ton O
 époufe O
 te O
@@ -12411,7 +12411,7 @@ fuivra O
 _ O
 fans O
 doute O
-; O
+  O
 qui O
 pourroit O
 m' O
@@ -12433,7 +12433,7 @@ plutôt O
 l' O
 amour O
 . O
-Sois B-LOC
+Sois O
 . O
 |
 | O
@@ -12443,7 +12443,7 @@ va O
 tout O
 difpofer O
 , O
-; O
+  O
 je O
 fuis O
 prête O
@@ -12491,26 +12491,26 @@ que O
 j' O
 aime O
 ie O
-Dour O
+Dour B-LOC
 |
 
 | O
 Fin O
 du O
-fecond O
-A. B-MISC
+fecond B-MISC
+A. I-MISC
 . O
 |
 
 | O
 POTERIE O
 SONT O
-AT B-ORG
-TETE I-ORG
-AT I-ORG
-PR I-ORG
-ETES B-MISC
-ERARTRER B-MISC
+AT O
+TETE O
+AT B-MISC
+PR I-MISC
+ETES O
+ERARTRER O
 ut O
 | | O
 e O
@@ -12521,7 +12521,7 @@ e O
 
 | O
 DE O
-MARIENDAIS B-ORG
+MARIENDAIS O
 gr O
 |
 
@@ -12545,14 +12545,14 @@ D O
 ACTE B-MISC
 AIX I-MISC
 |
-| O
-SCENE B-ORG
+| I-MISC
+SCENE O
 PREMIERE O
 , O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -12562,15 +12562,15 @@ BARON B-ORG
 
 | O
 { O
-La B-MISC
-rauiL I-MISC
+La O
+rauiL O
 fl O
 fert O
 avancée O
 . O
 Le O
-Baron B-MISC
-eff I-MISC
+Baron B-PER
+eff I-PER
 auprès O
 |
 
@@ -12590,7 +12590,7 @@ aby- O
 | O
 : O
 : O
-mé O
+mé B-PER
 dans O
 la O
 douleur O
@@ -12607,8 +12607,8 @@ lence O
 |
 
 | O
-Ÿ. B-PER
-OILA I-PER
+Ÿ. O
+OILA B-ORG
 donc O
 la O
 fille O
@@ -12629,7 +12629,7 @@ amis O
 : O
 la O
 voilà O
-Ï B-LOC
+Ï B-MISC
 ’ O
 opprobre O
 |
@@ -12653,10 +12653,10 @@ confo- O
 Jation B-PER
 , O
 .. O
-O O
-ma O
-fille O
-! O
+O B-MISC
+ma I-MISC
+fille I-MISC
+! I-MISC
 l' O
 aurois O
 -je O
@@ -12681,7 +12681,7 @@ malheurs O
 |
 
 | O
-Songeons B-PER
+Songeons O
 au O
 parti O
 que O
@@ -12706,7 +12706,7 @@ tendrefle O
 que O
 |
 | O
-jai O
+jai B-ORG
 encore O
 pour O
 elle O
@@ -12757,7 +12757,7 @@ fur O
 moi O
 feul O
 .... O
-Voyons B-PER
+Voyons O
 , O
 exa- O
 |
@@ -12844,7 +12844,7 @@ Ah B-MISC
 je O
 pourrois O
 ordonner O
-fe O
+fe B-LOC
 |
 | O
 fupplice O
@@ -12866,10 +12866,10 @@ jamais O
 Mais O
 mon O
 aveu O
-; O
+  O
 m' O
 avilir O
-; O
+  O
 fouiller O
 la O
 |
@@ -12905,12 +12905,12 @@ fils O
 . O
 .. O
 , O
-Sauvons B-MISC
-- I-MISC
+Sauvons B-PER
+- O
 lui O
 plutôt O
 ce O
-chägrin O
+chägrin B-PER
 . O
 |
 | O
@@ -12965,9 +12965,9 @@ Dumont B-PER
 allez O
 dire O
 au O
-Chevalier B-ORG
-de O
-fe O
+Chevalier B-LOC
+de I-LOC
+fe I-LOC
 : O
 |
 | O
@@ -12986,7 +12986,7 @@ Quand O
 | O
 le O
 ciel O
-m’ B-PER
+m’ O
 a O
 donné O
 des O
@@ -13018,10 +13018,10 @@ honte O
 mon O
 fupplice O
 ... O
-Ah B-MISC
-! I-MISC
-Dieux O
+Ah O
 ! O
+Dieux B-MISC
+! I-MISC
 : O
 . O
 … O
@@ -13061,8 +13061,8 @@ IL B-ORG
 LE O
 BARON O
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 
@@ -13096,8 +13096,8 @@ La O
 fab O
 |
 | O
-Mon O
-fils O
+Mon B-MISC
+fils I-MISC
 , O
 armez O
 -vous O
@@ -13125,14 +13125,14 @@ dé O
 ” O
 |
 | O
-shonore B-PER
+shonore B-LOC
 , O
-DRE O
-7 O
+DRE B-LOC
+7 I-LOC
 |
 
-| O
-ET O
+| I-LOC
+ET I-LOC
 Le O
 CHEVALIER B-MISC
 US I-MISC
@@ -13158,18 +13158,18 @@ y O
 
 | O
 AS O
-PATIENTS O
-A O
-NCA O
-A O
-EN O
-RP B-ORG
-POP I-ORG
+PATIENTS B-MISC
+A I-MISC
+NCA I-MISC
+A I-MISC
+EN I-MISC
+RP I-MISC
+POP I-MISC
 ART O
 A O
-CEE B-ORG
-PE O
-PT B-ORG
+CEE O
+PE B-ORG
+PT I-ORG
 |
 | O
 7 O
@@ -13177,9 +13177,9 @@ e O
 MS B-MISC
 7 I-MISC
 7 I-MISC
-Top O
-Tr O
-e O
+Top I-MISC
+Tr I-MISC
+e I-MISC
 bi O
 ï O
 Te O
@@ -13187,21 +13187,21 @@ Te O
 |
 
 | O
-À B-MISC
-ASPIRE I-MISC
-OA O
+À O
+ASPIRE B-ORG
+OA I-ORG
 PT O
-PTT O
-PRE O
+PTT B-ORG
+PRE I-ORG
 PR B-ORG
 QE I-ORG
-LE O
-ICT O
+LE I-ORG
+ICT I-ORG
 |
 
-| O
+| I-ORG
 DE O
-MARIENDAL O
+MARIENDAL B-ORG
 45 O
 |
 
@@ -13210,7 +13210,7 @@ fais O
 ( O
 nf O
 blé O
-; O
+  O
 mais O
 je O
 me O
@@ -13226,9 +13226,9 @@ ce O
 lieu O
 |
 | O
-LE O
-B B-LOC
-; O
+LE B-LOC
+B I-LOC
+  O
 ARO B-MISC
 DOS I-MISC
 |
@@ -13348,7 +13348,7 @@ la O
 fuite O
 la O
 guériroit O
-; O
+  O
 efpoir O
 frivole O
 , O
@@ -13379,7 +13379,7 @@ de O
 avouer O
 ... O
 ( O
-JL O
+JL B-MISC
 regarde O
 de O
 tous O
@@ -13421,12 +13421,12 @@ baffefle O
 de O
 fon O
 penchant O
-; O
+  O
 elle O
 : O
 a O
 ëépoufé O
-Frankner B-PER
+Frankner B-LOC
 , O
 elle O
 a O
@@ -13438,7 +13438,7 @@ le O
 crime O
 , O
 elle O
-efl O
+efl B-ORG
 . O
 prête O
 à O
@@ -13448,34 +13448,34 @@ mére O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
 _ O
-Adélaïde B-LOC
-! O
-| | O
+Adélaïde B-MISC
+! I-MISC
+| | I-MISC
 - O
 . O
 : O
-Mrs B-LOC
+Mrs B-PER
 |
-| O
-L B-MISC
-E I-MISC
-BA I-MISC
-K I-MISC
-0 I-MISC
-> I-MISC
-x I-MISC
+| I-PER
+L I-PER
+E I-PER
+BA O
+K O
+0 O
+> O
+x O
 « O
 |||| O
 |
 | O
 La O
 chofe O
-eft O
-füre O
+eft B-PER
+füre I-PER
 .... O
 C' O
 eft O
@@ -13497,7 +13497,7 @@ faut O
 qu' O
 à O
 l' O
-in£ B-ORG
+in£ O
 |
 | O
 tant O
@@ -13513,7 +13513,7 @@ décidé O
 
 | O
 Le O
-CHEVALIER B-ORG
+CHEVALIER O
 |
 
 | O
@@ -13543,8 +13543,8 @@ meïcéñaire O
 n' O
 a O
 { O
-u. O
-fn O
+u. B-LOC
+fn I-LOC
 |
 
 | O
@@ -13555,19 +13555,19 @@ Cats I-MISC
 mir I-MISC
 |
 
-| O
-4 O
-ADÉLAIDE B-MISC
+| I-MISC
+4 I-MISC
+ADÉLAIDE O
 |
 
 | O
 pecter O
 dans O
-Adélaïde B-LOC
+Adélaïde B-PER
 ni O
 l' O
 amour O
-qu’ B-LOC
+qu’ O
 elle O
 lui O
 2 O
@@ -13581,11 +13581,11 @@ fang O
 qui O
 coule O
 dans O
-fes O
+fes B-LOC
 veines O
 . O
-L’ B-ORG
-in= I-ORG
+L’ O
+in= O
 |
 | O
 grate O
@@ -13619,16 +13619,16 @@ vengeance O
 . O
 Qu O
 ’ O
-Adélaïde B-LOC
+Adélaïde B-PER
 meure O
 . O
 |
 
 | O
 LE O
-BARON B-ORG
+BARON O
 avec O
-tendrefe O
+tendrefe B-MISC
 . O
 |
 | O
@@ -13640,7 +13640,7 @@ Monfils B-MISC
 " O
 7 O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 . O
 |
 
@@ -13661,11 +13661,11 @@ mort I-MISC
 |
 | I-MISC
 fule I-MISC
-peut O
-nous O
-faisfaire O
+peut I-MISC
+nous I-MISC
+faisfaire I-MISC
 . O
-Si O
+Si B-MISC
 elle O
 vivoit O
 , O
@@ -13702,7 +13702,7 @@ tous O
 les O
 inftans O
 . O
-L’ B-PER
+L’ O
 é O
 être O
 malheureux O
@@ -13719,11 +13719,11 @@ notre O
 : O
 fapplice O
 , O
-Non B-MISC
-, I-MISC
+Non O
+, O
 |
-| I-MISC
-non I-MISC
+| O
+non O
 , O
 il O
 faut O
@@ -13741,8 +13741,8 @@ ve O
 |
 
 | O
-LE O
-BARON O
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -13762,8 +13762,8 @@ br O
 oo O
 LE O
 . O
-CuevA B-MISC
-LI I-MISC
+CuevA B-PER
+LI I-PER
 an O
 |
 | O
@@ -13779,9 +13779,9 @@ courir O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 |
-| I-ORG
+| O
 Et O
 Frankner B-PER
 > O
@@ -13793,17 +13793,17 @@ del O
 | O
 re O
 . O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 |
 
-| O
-Je O
-réponds O
-de O
-ui O
+| I-MISC
+Je I-MISC
+réponds I-MISC
+de I-MISC
+ui I-MISC
 , O
-; O
+  O
 il O
 né O
 divilguera O
@@ -13817,9 +13817,9 @@ fecret O
 . O
 |
 | O
-ri B-PER
-LE I-PER
-BARON I-PER
+ri O
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -13829,41 +13829,41 @@ Que O
 veux O
 - O
 tu O
-direr.:5 B-LOC
-Li O
+direr.:5 B-PER
+Li I-PER
 |
 
-| O
-PR O
-Se O
-ET O
+| I-PER
+PR I-PER
+Se I-PER
+ET I-PER
 |
 
 | O
-ERA B-ORG
-TON O
-AE O
-PER B-ORG
-ivre O
+ERA O
+TON B-MISC
+AE I-MISC
+PER I-MISC
+ivre I-MISC
 |
 
-| O
-|||| O
-DE O
-MARIENDAL B-MISC
+| I-MISC
+|||| I-MISC
+DE I-MISC
+MARIENDAL I-MISC
 4 I-MISC
 |
 
-| O
-LE O
-CHEVALIER B-ORG
+| I-MISC
+LE I-MISC
+CHEVALIER I-MISC
 . O
 |||| O
 |
 
 | O
 : O
-Adélaïde B-LOC
+Adélaïde B-PER
 . O
 . O
 elle O
@@ -13871,7 +13871,7 @@ eft O
 couchée O
 , O
 le O
-fommeil O
+fommeil B-LOC
 tient O
 , O
 |
@@ -13879,8 +13879,8 @@ tient O
 | O
 fes O
 fens O
-afloupis O
-; O
+afloupis B-PER
+  O
 je O
 vais O
 pénétrer O
@@ -13890,12 +13890,12 @@ elle O
 & O
 |
 | O
-Res B-MISC
-one I-MISC
+Res O
+one O
 |
-| I-MISC
-LE I-MISC
-Baron I-MISC
+| O
+LE O
+Baron O
 , O
 |
 
@@ -13909,7 +13909,7 @@ frémir O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 . O
 |
 
@@ -13954,10 +13954,10 @@ fans O
 la O
 voix O
 de O
-I. B-MISC
+I. B-PER
 |
-| I-MISC
-religion I-MISC
+| O
+religion O
 , O
 du O
 remords O
@@ -13979,7 +13979,7 @@ cœurs O
 | O
 |||| O
 LE O
-Baron B-PER
+Baron O
 . O
 |
 
@@ -13994,19 +13994,19 @@ Arrête B-PER
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
-n B-LOC
+n O
 |
 
-| I-LOC
-Non I-LOC
+| O
+Non O
 , O
 mon O
 pere O
 . O
 Je O
-l’ B-LOC
+l’ O
 éveille O
 , O
 je O
@@ -14019,7 +14019,7 @@ poifon O
 ou O
 le O
 fer O
-; O
+  O
 je O
 lui O
 laifle O
@@ -14046,7 +14046,7 @@ on O
 la O
 dira O
 morte O
-d’ B-MISC
+d’ O
 un O
 accident O
 , O
@@ -14061,15 +14061,15 @@ les O
 honneurs O
 funebres O
 . O
-Del O
-; O
+Del B-PER
+  O
 je O
 vais O
 |
 | O
 trouver O
 Frankner B-PER
-; O
+  O
 il O
 a O
 du O
@@ -14091,12 +14091,12 @@ piftolet O
 , O
 bouts O
 touchans O
-; O
+  O
 & O
 demain O
 |
 | O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
 fon O
 amant O
@@ -14119,8 +14119,8 @@ oi O
 |
 
 | O
-LE B-PER
-Baron I-PER
+LE O
+Baron O
 . O
 oo O
 |||| O
@@ -14128,11 +14128,11 @@ oo O
 |
 
 | O
-Voilà B-PER
-trop O
-, O
-de O
-dangers O
+Voilà B-MISC
+trop I-MISC
+, I-MISC
+de I-MISC
+dangers I-MISC
 . O
 Le O
 fecond O
@@ -14156,7 +14156,7 @@ ADÉLAIDE B-MISC
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
 |
 
@@ -14164,9 +14164,9 @@ CHEVALIER B-ORG
 © O
 Mon B-MISC
 pere I-MISC
-! I-MISC
+! O
 pour O
-l’ B-LOC
+l’ O
 inftant O
 le O
 plus O
@@ -14180,7 +14180,7 @@ foins O
 eft O
 de O
 fouftraire O
-Adélaïde B-LOC
+Adélaïde B-PER
 à O
 tous O
 les O
@@ -14201,7 +14201,7 @@ lui O
 Ecoutez B-MISC
 , O
 ( O
-I B-LOC
+I O
 |
 
 | O
@@ -14225,30 +14225,30 @@ nos O
 ayeux O
 , O
 vous O
-Les O
+Les B-LOC
 avez O
 ? O
 |
 
 | O
-LE B-MISC
-BARON I-MISC
+LE O
+BARON O
 |
 
-| I-MISC
-Oui I-MISC
+| O
+Oui O
 . O
 : O
 |||| O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 . O
 |
 
 | O
-Perfonne B-PER
+Perfonne B-LOC
 n' O
 oferoit O
 y O
@@ -14261,7 +14261,7 @@ ordre O
 
 | O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 | O
@@ -14274,8 +14274,8 @@ pas O
 |
 | O
 |||| O
-Lre B-PER
-CHEVALIER I-PER
+Lre O
+CHEVALIER O
 , O
 |
 | O
@@ -14299,10 +14299,10 @@ fort O
 , O
 |
 | O
-LE O
-BA B-ORG
-R- O
-© O
+LE B-MISC
+BA I-MISC
+R- I-MISC
+© I-MISC
 Ne O
 |
 | O
@@ -14317,7 +14317,7 @@ religion O
 |
 | O
 LE O
-CBEVALIER B-ORG
+CBEVALIER B-MISC
 , O
 |
 | O
@@ -14337,9 +14337,9 @@ honneur O
 _ O
 LE B-MISC
 BARON I-MISC
-... O
+... I-MISC
 |
-| O
+| I-MISC
 |||| O
 Je O
 frémis O
@@ -14348,10 +14348,10 @@ oo O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 |
 | O
-Frémiflez O
+Frémiflez B-MISC
 de O
 la O
 honte O
@@ -14363,35 +14363,35 @@ menäce O
 | O
 ‘ O
 Le O
-Banmo O
-Ne O
+Banmo B-ORG
+Ne I-ORG
 |
-| O
-Malheureux B-MISC
-enfans I-MISC
-! I-MISC
+| I-ORG
+Malheureux I-ORG
+enfans I-ORG
+! I-ORG
 |||| O
 |
 
  
 
 | O
-Lu B-LOC
+Lu O
 |||| O
 |
 | O
 DE O
-MARIENDAI B-ORG
-47 I-ORG
+MARIENDAI O
+47 O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
 |||| O
 |
 | O
-Voyez B-ORG
+Voyez O
 nos O
 rivaux O
 , O
@@ -14420,7 +14420,7 @@ joie O
 Nous O
 allons O
 devenir O
-l’ B-ORG
+l’ O
 objet O
 de O
 leurs O
@@ -14434,37 +14434,37 @@ railleries O
 , O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 | O
 Que O
 plutôt O
-mille O
-morts! O
-... O
-- O
+mille B-MISC
+morts! I-MISC
+... I-MISC
+- I-MISC
 |
-| O
-LE O
-CHEVALIER B-ORG
+| I-MISC
+LE I-MISC
+CHEVALIER I-MISC
 , O
 |
 | O
 Et O
 vous O
-n’ B-PER
+n’ O
 ofez O
 en O
 réfoudre O
 une O
 |
 | O
-LE O
-B4Akro B-ORG
-x. I-ORG
-X I-ORG
+LE B-LOC
+B4Akro I-LOC
+x. I-LOC
+X I-LOC
 |
 | O
 C' O
@@ -14474,11 +14474,11 @@ de O
 ma O
 fille O
 , O
-|||| O
+|||| B-PER
 |
-| O
-LE O
-CHEVALIER B-ORG
+| I-PER
+LE I-PER
+CHEVALIER I-PER
 . O
 |
 
@@ -14505,7 +14505,7 @@ fureurs O
 | O
 |||| O
 LE O
-Baron B-PER
+Baron O
 . O
 |
 | O
@@ -14516,8 +14516,8 @@ fille O
 . O
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 
@@ -14526,7 +14526,7 @@ Non O
 , O
 ou O
 je O
-cefle O
+cefle B-PER
 d’ O
 être O
 votre O
@@ -14540,17 +14540,17 @@ milieu O
 , O
 mon O
 pere O
-; O
+  O
 il O
 faut O
-choifir O
+choifir B-PER
 entre O
 elle O
 & O
 |
 | O
 moi O
-; O
+  O
 fi O
 elle O
 vit O
@@ -14602,12 +14602,12 @@ fils O
 |||| O
 |
 | O
-Le O
-BARON B-ORG
-aprés O
-un O
-long O
-filence O
+Le B-MISC
+BARON I-MISC
+aprés I-MISC
+un I-MISC
+long I-MISC
+filence I-MISC
 . O
 |
 
@@ -14624,7 +14624,7 @@ pour O
 | O
 4 O
 | | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 . O
 |
 
@@ -14660,9 +14660,9 @@ un O
 projetauffi O
 odieux O
 . O
-Evitez B-PER
-ma I-PER
-pré I-PER
+Evitez O
+ma O
+pré O
 : O
 |
 | O
@@ -14681,19 +14681,19 @@ indignations O
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 . O
 |
 
 | O
-Mon O
-pere O
-! O
+Mon B-MISC
+pere I-MISC
+! I-MISC
 |
 
-| O
-LE O
-BARON B-ORG
+| I-MISC
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -14712,7 +14712,7 @@ Je O
 |
 | O
 vous O
-l’ B-ORG
+l’ O
 ordonne O
 . O
 ( O
@@ -14729,10 +14729,10 @@ malheureux O
 Mes B-MISC
 enfans I-MISC
 m' I-MISC
-affligent I-MISC
-de I-MISC
-tous I-MISC
-côtés I-MISC
+affligent O
+de O
+tous O
+côtés O
 , O
 Jai B-PER
 vu O
@@ -14748,7 +14748,7 @@ feconder O
 la O
 fureur O
 du O
-Cheva- B-LOC
+Cheva- B-MISC
 |
 | O
 . O
@@ -14761,17 +14761,17 @@ vais O
 -je O
 devenir O
 ? O
-Signerai B-MISC
--je I-MISC
+Signerai B-PER
+-je O
 |
-| I-MISC
-ma I-MISC
-honte I-MISC
-& I-MISC
-celle I-MISC
-de I-MISC
-ma I-MISC
-poftérité I-MISC
+| O
+ma O
+honte O
+& O
+celle O
+de O
+ma O
+poftérité O
 ? O
 Non O
 , O
@@ -14813,14 +14813,14 @@ Frankner B-PER
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 rentrant O
 précipitamment O
-|||| O
+|||| B-MISC
 |
 
-| O
-Ah B-MISC
+| I-MISC
+Ah I-MISC
 ! I-MISC
 mon O
 pere O
@@ -14831,14 +14831,14 @@ temps O
 de O
 la O
 cacher O
-; O
+  O
 c' O
 eft O
 |
 | O
-Ja O
-feule O
-reffource O
+Ja B-PER
+feule I-PER
+reffource I-PER
 qui O
 nous O
 refte O
@@ -14849,23 +14849,23 @@ enlever O
 |
 
 | O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
-|||| O
+|||| B-PER
+|
+| I-PER
+LE I-PER
+BAR I-PER
+o I-PER
+N. I-PER
+|
+| I-PER
+Ciel I-PER
+! O
 |
 | O
 LE O
-BAR B-LOC
-o I-LOC
-N. I-LOC
-|
-| I-LOC
-Ciel I-LOC
-! I-LOC
-|
-| O
-LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
 Dès O
@@ -14878,18 +14878,18 @@ murs O
 du O
 |
 | O
-ghâteau O
+ghâteau B-LOC
 , O
 |
 | O
-|||| O
-L B-MISC
-E I-MISC
-B I-MISC
-A I-MISC
-R I-MISC
-O I-MISC
-Ke O
+|||| B-LOC
+L I-LOC
+E I-LOC
+B I-LOC
+A I-LOC
+R I-LOC
+O I-LOC
+Ke I-LOC
 |
 
 | O
@@ -14897,7 +14897,7 @@ Ke O
 Tu O
 les O
 as O
-Vus B-PER
+Vus O
 ? O
 |
 | O
@@ -14906,17 +14906,17 @@ Le O
 
 | O
 DE O
-MARIENDAL O
+MARIENDAL B-ORG
 49 O
 |
 
 | O
 # O
-Lé B-ORG
-CHEVALIER I-ORG
+Lé O
+CHEVALIER O
 |
-| I-ORG
-Is B-LOC
+| O
+Is O
 y O
 font O
 encore O
@@ -14924,8 +14924,8 @@ encore O
 |
 
 | O
-Le B-MISC
-BaROoMm I-MISC
+Le O
+BaROoMm B-MISC
 SL I-MISC
 |
 
@@ -14946,7 +14946,7 @@ infolent O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
 Qui O
@@ -14958,8 +14958,8 @@ Frankner B-PER
 ? O
 |
 | O
-Le O
-B B-MISC
+Le B-MISC
+B I-MISC
 AR I-MISC
 ON I-MISC
 . O
@@ -14974,8 +14974,8 @@ fa O
 complice O
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 | O
@@ -14996,7 +14996,7 @@ BaAroN B-MISC
 
 | O
 ‘ O
--Î B-MISC
+-Î O
 ne O
 jouira O
 pas O
@@ -15020,13 +15020,13 @@ infolence O
 |
 
 | O
-LE O
-CHEVALIER B-ORG
-|||| O
+LE B-MISC
+CHEVALIER I-MISC
+|||| I-MISC
 |
 
-| O
-" O
+| I-MISC
+" I-MISC
 Et O
 comment O
 la O
@@ -15034,16 +15034,16 @@ dérober O
 ? O
 où O
 la O
-cachereë O
+cachereë B-LOC
 -vous O
 # O
 |
 
 | O
-Quel B-MISC
-afyle I-MISC
-fera I-MISC
-impénétrable I-MISC
+Quel O
+afyle B-PER
+fera O
+impénétrable O
 à O
 l' O
 amour O
@@ -15074,7 +15074,7 @@ aux O
 efforts O
 du O
 raviflèur B-LOC
-; O
+  O
 mais O
 vous O
 avez O
@@ -15088,7 +15088,7 @@ avis O
 vous O
 vous O
 êtes O
-offenfé O
+offenfé B-MISC
 de O
 mon O
 |
@@ -15113,7 +15113,7 @@ plus O
 d’ O
 efpoir O
 . O
-Adélaïde B-PER
+Adélaïde O
 nous O
 échappe O
 , O
@@ -15128,7 +15128,7 @@ bras O
 de O
 fon O
 amant O
-; O
+  O
 & O
 fon O
 infamie O
@@ -15143,55 +15143,55 @@ aux O
 yeux O
 de O
 tout O
-l’ B-LOC
+l’ O
 uni- O
 |
 | O
 vers O
 , O
-LL B-PER
+LL B-MISC
 |
 
-| I-PER
-LE I-PER
-Baron I-PER
+| I-MISC
+LE I-MISC
+Baron I-MISC
 |
-| I-PER
-La I-PER
-perfide I-PER
-? O
+| I-MISC
+La I-MISC
+perfide I-MISC
+? I-MISC
 je O
 vais O
 chez O
 elle O
 la O
-furprendre O
+furprendre B-LOC
 a O
 |
 | O
-|||| O
-|||| O
-D O
-|||| O
+|||| B-PER
+|||| I-PER
+D I-PER
+|||| I-PER
 |
 
-| O
-3 O
+| I-PER
+3 I-PER
 _ O
 ADÉLAIDE B-MISC
 |
 
-| O
-fein O
-de O
-fes O
+| I-MISC
+fein I-MISC
+de I-MISC
+fes B-LOC
 projets O
 . O
 criminels O
 , O
-Toi B-PER
-, O
-vas O
+Toi B-MISC
+, I-MISC
+vas I-MISC
 chercher O
 |
 
@@ -15211,11 +15211,11 @@ vaine O
 | O
 que O
 téméraire O
-; O
+  O
 Va B-MISC
 Cours I-MISC
-, I-MISC
-réponds I-MISC
+, O
+réponds O
 - O
 moi O
 de O
@@ -15227,13 +15227,13 @@ je O
 te O
 réponds O
 d' O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
 |
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 /eul O
 , O
 |
@@ -15241,12 +15241,12 @@ CHEVALIER B-ORG
 | O
 Le B-PER
 Baron I-PER
-a O
-chancelé O
+a I-PER
+chancelé I-PER
 , O
-Tout O
-étoit O
-. O
+Tout B-MISC
+étoit I-MISC
+. I-MISC
 perdu O
 , O
 ‘ O
@@ -15259,20 +15259,20 @@ moins O
 intrepide O
 . O
 ( O
-LL O
-Jonne B-PER
+LL B-PER
+Jonne I-PER
 , O
-Frankner B-MISC
+Frankner B-PER
 |
-| I-MISC
-paro I-MISC
-& I-MISC
+| O
+paro O
+& O
 , O
 ) O
 Antoine B-PER
-eft O
--il O
-couché O
+eft I-PER
+-il I-PER
+couché I-PER
 ? O
 . O
 |||| O
@@ -15293,12 +15293,12 @@ Monfieur B-PER
 |
 
 | O
-Fa O
+Fa B-MISC
 |
 
-| O
-LE O
-CHEVALIER B-ORG
+| I-MISC
+LE I-MISC
+CHEVALIER I-MISC
 , O
 |
 
@@ -15312,15 +15312,15 @@ auf O
 allez O
 , O
 ( O
-Frankner B-MISC
-fort I-MISC
+Frankner B-PER
+fort O
 ) O
 |
 | O
 tout O
 paroît O
 tranquille O
-; O
+  O
 cependant O
 pour O
 plus O
@@ -15337,20 +15337,20 @@ dans O
 la O
 maifon O
 . O
-& B-ORG
-re- I-ORG
+& O
+re- O
 |
 | O
 3 O
-Y O
-: O
-2 O
+Y B-MISC
+: I-MISC
+2 I-MISC
 |
-| O
-joignons O
-mon O
-pere O
-fitôt O
+| I-MISC
+joignons I-MISC
+mon I-MISC
+pere I-MISC
+fitôt I-MISC
 que O
 j' O
 aurai O
@@ -15360,8 +15360,8 @@ parcouru O
 |
 
 | O
-SCENE O
-III O
+SCENE B-MISC
+III I-MISC
 |
 | O
 FRANKNER B-MISC
@@ -15376,12 +15376,12 @@ pas O
 UE B-ORG
 trament O
 le O
-Baron B-ORG
-& I-ORG
-le I-ORG
-Chevalier I-ORG
+Baron B-MISC
+& I-MISC
+le I-MISC
+Chevalier I-MISC
 ? O
-Its B-PER
+Its O
 |
 | O
 veulent O
@@ -15393,11 +15393,11 @@ gardons O
 d’ O
 obéir O
 . O
-Chere O
+Chere B-PER
 |
 
-| O
-Adélaïde B-LOC
+| I-PER
+Adélaïde O
 ! O
 fi O
 par O
@@ -15424,7 +15424,7 @@ de O
 | O
 vue O
 , O
-Soyons B-MISC
+Soyons B-LOC
 bien O
 attentifs O
 à O
@@ -15465,19 +15465,19 @@ z O
 je O
 vais O
 dérober O
-Adélaïde B-LOC
+Adélaïde B-PER
 à O
 à O
 leur O
 fureur O
 , O
-Les B-MISC
-che- I-MISC
+Les O
+che- O
 |
-| I-MISC
-vaux I-MISC
-font I-MISC
-prêts I-MISC
+| O
+vaux O
+font O
+prêts O
 , O
 ils O
 nous O
@@ -15491,8 +15491,8 @@ murs O
 du O
 château O
 . O
-O. B-PER
-Dieux I-PER
+O. O
+Dieux O
 ! O
 protégez O
 une O
@@ -15509,7 +15509,7 @@ par O
 Pamour B-PER
 , O
 Que B-MISC
-; I-MISC
+  I-MISC
 je O
 |
 | O
@@ -15540,25 +15540,25 @@ la O
 a O
 barbarie O
 de O
-Les B-LOC
-s O
-perécuteurse O
+Les B-MISC
+s I-MISC
+perécuteurse I-MISC
 |
 
-| O
-S B-MISC
-C I-MISC
-E I-MISC
-N I-MISC
-E I-MISC
-I I-MISC
-2 I-MISC
+| I-MISC
+S B-PER
+C I-PER
+E I-PER
+N I-PER
+E I-PER
+I I-PER
+2 I-PER
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 , O
-FRANKNER B-ORG
+FRANKNER B-MISC
 , O
 |
 
@@ -15570,10 +15570,10 @@ es O
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
-Vo B-LOC
+Vo O
 us O
 voilà O
 encore O
@@ -15602,8 +15602,8 @@ cruel O
 ! O
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 | O
@@ -15612,8 +15612,8 @@ entends O
 venir O
 quelqu' O
 un O
-; O
-c’ B-MISC
+  O
+c’ O
 eft O
 mon O
 pere O
@@ -15621,9 +15621,9 @@ avec O
 |
 
 | O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
-Suivons B-LOC
+Suivons B-PER
 de O
 près O
 Dumont B-PER
@@ -15636,46 +15636,46 @@ nous O
 de O
 lui O
 , O
-|||| O
+|||| B-ORG
 |
 
  
 
-| O
-ne O
-mn O
-me O
-0e O
+| I-ORG
+ne I-ORG
+mn I-ORG
+me I-ORG
+0e I-ORG
 ee O
 te O
 adnne O
 , O
 OIDE B-MISC
-EN O
-RUES B-MISC
+EN I-MISC
+RUES I-MISC
 |
 
-| O
-pe O
-ADÉDAIDE B-ORG
+| I-MISC
+pe I-MISC
+ADÉDAIDE I-MISC
 |
 
  
 
 | O
-SCENE O
-P B-LOC
-|||| O
+SCENE B-ORG
+P I-ORG
+|||| I-ORG
 |
-| O
-LE O
-BARON O
+| I-ORG
+LE I-ORG
+BARON I-ORG
 , O
 ADÉLAIDE B-MISC
 |
 
-| O
-c O
+| I-MISC
+c I-MISC
 Le O
 Baron B-PER
 entre O
@@ -15683,7 +15683,7 @@ comme O
 un O
 . O
 firieus B-PER
-; O
+  O
 entraînant O
 |
 
@@ -15695,11 +15695,11 @@ inondée O
 de O
 pleurs O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-ADÉLAÏIDE B-MISC
+| I-MISC
+ADÉLAÏIDE I-MISC
 . O
 |
 
@@ -15716,15 +15716,15 @@ mon O
 pere O
 , O
 que O
-voulez B-LOC
+voulez O
 -vous O
 de O
 moi O
 ? O
 |
 | O
-LE O
-Baron B-PER
+LE B-PER
+Baron I-PER
 . O
 |
 | O
@@ -15733,20 +15733,20 @@ obéiffance O
 , O
 |
 | O
-A O
-DÉLAÏDE O
+A B-MISC
+DÉLAÏDE I-MISC
 , O
 |
 
 | O
-Me B-MISC
-voyez I-MISC
+Me B-PER
+voyez O
 -vous O
 rebelle O
 à O
 vos O
 ordres O
-; O
+  O
 ne O
 puis O
 -je O
@@ -15799,11 +15799,11 @@ du O
 fein O
 du O
 repos O
-; O
+  O
 hélas O
 ! O
 il O
-n’ B-PER
+n’ O
 eft O
 |
 | O
@@ -15816,8 +15816,8 @@ moi O
 |
 
 | O
-LE O
-Baron B-PER
+LE B-PER
+Baron I-PER
 . O
 |
 | O
@@ -15826,20 +15826,20 @@ n' O
 en O
 jouis O
 plus O
-; O
+  O
 & O
 c' O
 eft O
 toi O
 qui O
 me O
-l’ B-LOC
+l’ O
 ôtes O
 , O
 ! O
 |
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 , O
 |
 
@@ -15862,7 +15862,7 @@ fpoir O
 mes O
 larmes O
 , O
-Avez B-LOC
+Avez O
 -vous O
 réfolu O
 ma O
@@ -15901,22 +15901,22 @@ vie O
 |
 
 | O
-Un B-MISC
+Un O
 |
 
-| I-MISC
-“ I-MISC
-LE I-MISC
-CE I-MISC
-A I-MISC
-RON I-MISC
+| O
+“ O
+LE O
+CE O
+A O
+RON O
 . O
 |
 | O
 … O
 . O
-Ingrate B-ORG
-! O
+Ingrate B-MISC
+! I-MISC
 il O
 n° O
 eft O
@@ -15934,12 +15934,12 @@ to I-MISC
 1 O
 |||| O
 |||| O
-ADÉLAIDE B-MISC
+ADÉLAIDE O
 |||| O
 |
 | O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 . O
 Ne O
@@ -15977,7 +15977,7 @@ Frappez B-PER
 mais O
 pardonnez O
 -moi O
-; O
+  O
 |
 | O
 que O
@@ -15999,11 +15999,11 @@ L I-LOC
 . O
 |
 | O
-Lé B-MISC
-BARON I-MISC
-héfitanrs I-MISC
+Lé O
+BARON O
+héfitanrs O
 |
-| I-MISC
+| O
 Ma B-MISC
 fille I-MISC
 ! I-MISC
@@ -16012,42 +16012,42 @@ CE O
 ie O
 |
 | O
-ADÉLAÏD B-ORG
-E O
+ADÉLAÏD B-MISC
+E I-MISC
 Qui O
 rendant O
-Les O
-mains O
+Les B-MISC
+mains I-MISC
 , O
 - O
 |
 
 | O
-Mon B-MISC
-pere I-MISC
-Î I-MISC
+Mon O
+pere O
+Î O
 |
-| I-MISC
-Le I-MISC
-BARON I-MISC
-fe I-MISC
+| O
+Le O
+BARON O
+fe O
 jetant O
 dans O
 Jes B-MISC
 bras I-MISC
 ! I-MISC
 |
-| O
+| I-MISC
 C' O
 en O
 eft O
 fait O
-; O
-Ja B-MISC
-nature I-MISC
-l’ I-MISC
-e I-MISC
-empôrté I-MISC
+  O
+Ja B-PER
+nature O
+l’ O
+e O
+empôrté O
 , O
 elle O
 vivra O
@@ -16097,25 +16097,25 @@ Chevalier B-ORG
 
 | O
 4 O
-TADÉLAIDE O
+TADÉLAIDE B-MISC
 " O
 |
 | O
-S B-MISC
-c I-MISC
-E I-MISC
-N I-MISC
-E I-MISC
-Fr O
-I. O
+S B-PER
+c I-PER
+E I-PER
+N I-PER
+E I-PER
+Fr I-PER
+I. I-PER
 |
 
-| O
-LE O
-BARON O
+| I-PER
+LE I-PER
+BARON I-PER
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 , O
 |
 
@@ -16126,17 +16126,17 @@ ADÉLAIDE B-MISC
 
 | O
 { O
-Le B-MISC
-Baron I-MISC
+Le B-PER
+Baron I-PER
 , O
-; O
+  O
 aprés O
 . O
 avoir O
 exprimé O
 en O
 f O
-Lñce B-PER
+Lñce B-LOC
 les O
 |
 
@@ -16149,10 +16149,10 @@ paffent O
 en O
 lui O
 , O
-fe O
+fe B-LOC
 jette O
 dans O
-ur O
+ur B-MISC
 |
 
 | O
@@ -16164,20 +16164,20 @@ il O
 derieure O
 abforbé O
 dans O
-fa O
-douleur O
-} O
+fa B-MISC
+douleur I-MISC
+} I-MISC
+|
+| I-MISC
+|||| I-MISC
+LE I-MISC
+CHEVALIER I-MISC
 |
 | O
-|||| O
-LE O
-CHEVALIER B-ORG
-|
-| O
-L B-LOC
-A I-LOC
-perfide I-LOC
-! I-LOC
+L B-MISC
+A I-MISC
+perfide I-MISC
+! I-MISC
 ... O
 Suivez O
 -moi O
@@ -16185,8 +16185,8 @@ Suivez O
 . O
 |
 | O
-A B-ORG
-DBÉLAÏDE I-ORG
+A B-LOC
+DBÉLAÏDE I-LOC
 . O
 |
 | O
@@ -16197,10 +16197,10 @@ me.conduifez O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
-Ceflez B-LOC
+Ceflez B-MISC
 tous O
 vos O
 cris O
@@ -16209,7 +16209,7 @@ cris O
 fongez O
 à O
 me O
-fuivre O
+fuivre B-LOC
 . O
 |
 
@@ -16255,7 +16255,7 @@ main O
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
 |
 
@@ -16287,21 +16287,21 @@ ASÉL B-LOC
 a O
 IDE B-MISC
 . O
-F O
+F B-PER
 |
-| O
-Mon O
-pere O
+| I-PER
+Mon B-MISC
+pere I-MISC
 ! O
 oi O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 |
-| I-ORG
-Suivez I-ORG
--moi I-ORG
+| O
+Suivez O
+-moi O
 , O
 vous O
 dis O
@@ -16314,45 +16314,45 @@ dis O
 |
 
 | O
-RS B-LOC
+RS B-MISC
 |
 
-| O
-_ O
-DE O
+| I-MISC
+_ I-MISC
+DE I-MISC
 MARIENDAL B-ORG
 | | O
 ÿ$ O
 |
 | O
-Lite B-PER
-AUD O
-ER O
-AÎDE O
+Lite B-MISC
+AUD I-MISC
+ER I-MISC
+AÎDE I-MISC
 |||| O
 |
 | O
 = O
-Voyez B-MISC
-més O
-efforts O
+Voyez B-PER
+més I-PER
+efforts I-PER
 , O
 né O
 ’ O
 Häcrablez B-LOC
 pas O
-môh B-MISC
+môh B-ORG
 |
-| I-MISC
-frere I-MISC
+| I-ORG
+frere I-ORG
 , O
 de O
-grace O
-! O
+grace B-PER
+! I-PER
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 ... O
 |
 | O
@@ -16365,13 +16365,13 @@ entraîne O
 . O
 avec O
 . O
-jiolence O
+jiolence B-LOC
 , O
 ) O
 |
 
 | O
-ADÉLAÏDE B-ORG
+ADÉLAÏDE B-LOC
 en O
 fortant O
 a O
@@ -16385,7 +16385,7 @@ CTiS B-LOC
 | O
 Mon O
 pére O
-; O
+  O
 8 O
 mon O
 pere O
@@ -16395,8 +16395,8 @@ pere O
 ! O
 |
 | O
-ED B-MISC
-PS I-MISC
+ED B-ORG
+PS I-ORG
 |
 | O
 |||| O
@@ -16409,9 +16409,9 @@ LE O
 B O
 AR O
 ON O
-feul O
+feul B-LOC
 après O
-ur O
+ur B-MISC
 long O
 filences O
 |
@@ -16424,7 +16424,7 @@ Quel O
 trouble O
 profond O
 a O
-fafpeñdu O
+fafpeñdu B-PER
 |
 | O
 l' O
@@ -16449,7 +16449,7 @@ du I-MISC
 tombeau I-MISC
 ... O
 Je O
-refpire O
+refpire B-PER
 à O
 peines O
 . O
@@ -16465,9 +16465,9 @@ fille O
 ... O
 où O
 eft O
-Adélaïde B-LOC
+Adélaïde B-PER
 ? O
-Ciel O
+Ciel B-PER
 , O
 j' O
 aurois O
@@ -16491,14 +16491,14 @@ enleye O
 | O
 “ O
 ( O
-IL B-MISC
-Je I-MISC
-leve I-MISC
+IL O
+Je O
+leve O
 , O
 ) O
-Barbare B-MISC
-! I-MISC
-Arrête B-PER
+Barbare B-PER
+! O
+Arrête O
 , O
 arrête O
 ... O
@@ -16528,17 +16528,17 @@ me O
 demander O
 compte O
 de O
-fon O
-abfence O
+fon B-PER
+abfence I-PER
 . O
 |
 | O
 ‘ O
-Comment O
-foutiendrai O
--je O
-fes O
-” O
+Comment B-PER
+foutiendrai I-PER
+-je I-PER
+fes I-PER
+” I-PER
 cris O
 , O
 cès O
@@ -16552,9 +16552,9 @@ pleurs O
 ? O
 ..... O
 , O
-Armons B-LOC
-- O
-tious O
+Armons B-MISC
+- I-MISC
+tious I-MISC
 de O
 fermeté O
 , O
@@ -16576,24 +16576,24 @@ une O
 eñtreprifé O
 que O
 l O
-Honiieur B-MISC
-foûis' I-MISC
+Honiieur B-LOC
+foûis' O
 a O
 : O
-diétée O
+diétée B-PER
 .. O
 |
 | O
 L' O
 honneur O
 ka O
-L' B-ORG
-honneur I-ORG
+L' O
+honneur O
 rend O
 - O
 il O
 : O
-bafbare O
+bafbare B-LOC
 ? O
 L' O
 hon- O
@@ -16649,8 +16649,8 @@ lui O
 Dieux B-PER
 ! O
 c' O
-eft O
-Dumont B-PER
+eft B-PER
+Dumont I-PER
 , O
 Que B-MISC
 vient I-MISC
@@ -16662,10 +16662,10 @@ ici I-MISC
 | I-MISC
 cette I-MISC
 heure I-MISC
-? O
+? I-MISC
 |
 
-| O
+| I-MISC
 4 O
 |
 
@@ -16674,26 +16674,26 @@ eme O
 PS B-ORG
 |
 | O
-SCENE B-ORG
-VIIT I-ORG
+SCENE O
+VIIT B-MISC
 |
 
-| O
-LE O
-BARON O
+| I-MISC
+LE I-MISC
+BARON I-MISC
 , O
 FRANKNER B-MISC
 , O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 à O
 part O
 . O
 |
 
 | O
-; O
+  O
 E B-LOC
 ne O
 fais O
@@ -16716,9 +16716,9 @@ elle O
 eft O
 fortie O
 de O
-fon O
-appartement O
-! O
+fon B-ORG
+appartement I-ORG
+! I-ORG
 ( O
 4x O
 |
@@ -16727,7 +16727,7 @@ Baron B-PER
 ) O
 . O
 Ah O
-; O
+  O
 Monfieur B-MISC
 ! I-MISC
 que O
@@ -16754,7 +16754,7 @@ vifage O
 un O
 trouble O
 qui O
-m’ B-PER
+m’ O
 effraie O
 , O
 Je B-MISC
@@ -16786,12 +16786,12 @@ vous O
 fervir O
 peut-être O
 , O
-|||| O
+|||| B-PER
 |
 
-| O
-LE O
-Baron O
+| I-PER
+LE I-PER
+Baron I-PER
 . O
 |
 
@@ -16801,8 +16801,8 @@ ne O
 le O
 peux O
 . O
-Retire B-MISC
-toi I-MISC
+Retire O
+toi O
 , O
 la O
 nuit O
@@ -16830,11 +16830,11 @@ FRANKNER B-MISC
 |
 
 | O
-En O
-ai O
--je O
-plus O
-befoin O
+En B-MISC
+ai I-MISC
+-je I-MISC
+plus I-MISC
+befoin I-MISC
 que O
 vous O
 , O
@@ -16854,14 +16854,14 @@ méme O
 ou O
 _ O
 : O
-LE O
-Baron B-ORG
+LE B-PER
+Baron I-PER
 |
-| I-ORG
-Je O
-vais O
-me O
-coucher O
+| I-PER
+Je I-PER
+vais I-PER
+me I-PER
+coucher I-PER
 toute O
 à O
 l' O
@@ -16871,24 +16871,24 @@ heure O
 | O
 FRANKNER B-MISC
 au O
-Baron B-ORG
-: I-ORG
+Baron B-PER
+: O
 |
- | I-ORG
-Monfieurss I-ORG
+ | O
+Monfieurss B-MISC
 |
 
-| O
-DE O
-MARIENDAIL O
+| I-MISC
+DE I-MISC
+MARIENDAIL I-MISC
 , O
 7 O
 |
 | O
-Un B-PER
-Lez I-PER
+Un B-LOC
+Lez I-LOC
 , O
-BARON B-MISC
+BARON O
 . O
 |
 
@@ -16912,8 +16912,8 @@ x O
 LE O
 BARON O
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 , O
 |
 | O
@@ -16926,7 +16926,7 @@ FRANKNER B-MISC
 
 | O
 Le O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 rentrant O
 avec O
 : O
@@ -16940,25 +16940,25 @@ Frankner B-PER
 |
 
 | O
-Quor B-LOC
+Quor B-PER
 , O
 ceft.luil O
 … O
-Laïfleznous O
+Laïfleznous B-MISC
 , O
 |
 | O
-FrRrANKNER O
+FrRrANKNER B-MISC
 |
 | O
-Permettez B-PER
+Permettez B-MISC
 , O
 Monfieur B-PER
 ... O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
 Je O
@@ -16967,18 +16967,18 @@ veux O
 rien O
 permettre O
 , O
-obéiflex O
+obéiflex B-PER
 . O
 |
 | O
 . O
 FRANKNER B-MISC
 ou O
-Barom B-LOC
+Barom B-MISC
 |
-| O
-‘ O
-Ah B-MISC
+| I-MISC
+‘ I-MISC
+Ah I-MISC
 ! I-MISC
 Monfieur O
 ! O
@@ -16992,13 +16992,13 @@ fentimens O
 _ O
 _ O
 . O
-LE O
-CHEvALtIER O
+LE B-MISC
+CHEvALtIER I-MISC
 , O
-|||| O
+|||| B-PER
 |
-| O
-Obéiflez B-LOC
+| I-PER
+Obéiflez I-PER
 ou O
 redoutez O
 ma O
@@ -17017,22 +17017,22 @@ menacez O
 |
 | O
 ‘ O
-LE O
-CHEVALIER B-ORG
-: O
+LE B-MISC
+CHEVALIER I-MISC
+: I-MISC
 |
-| O
-Je O
-vous O
-l’ B-ORG
-ai O
-dit O
+| I-MISC
+Je I-MISC
+vous I-MISC
+l’ I-MISC
+ai I-MISC
+dit I-MISC
 . O
-Sortez B-PER
+Sortez O
 , O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 à O
 part O
 . O
@@ -17046,8 +17046,8 @@ me I-MISC
 perdrois I-MISC
 , O
 ( O
-I B-LOC
-forr O
+I B-PER
+forr I-PER
 , O
 ) O
 |
@@ -17075,20 +17075,20 @@ X. O
 LE O
 BARON O
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 |
 | O
-Le O
-CHEVALIER B-ORG
+Le B-MISC
+CHEVALIER I-MISC
 troublé O
 , O
 |
 
 | O
-C- B-MISC
-EN O
-ef O
+C- B-PER
+EN I-PER
+ef I-PER
 fait O
 , O
 mon O
@@ -17114,11 +17114,11 @@ fein O
 du O
 tombeau O
 , O
-Son B-MISC
-crime I-MISC
-s' I-MISC
-expie I-MISC
-; O
+Son O
+crime O
+s' O
+expie O
+  O
 oui O
 , O
 élle O
@@ -17135,20 +17135,20 @@ frémit O
 , O
 |
 | O
-LE O
-BARON B-MISC
+LE B-MISC
+BARON I-MISC
 |||| I-MISC
 |
 
 | I-MISC
-Ah B-MISC
+Ah I-MISC
 ! I-MISC
 mon O
 fils O
 , O
 mon O
-fang O
-eft O
+fang B-PER
+eft I-PER
 glacé O
 dans O
 mes O
@@ -17160,8 +17160,8 @@ Tout O
 ce O
 qui O
 frappe O
-nes O
-fens O
+nes B-LOC
+fens I-LOC
 , O
 jette O
 la O
@@ -17175,21 +17175,21 @@ ame O
 Je O
 tremble O
 que O
-fe O
+fe B-PER
 |
-| O
-mere O
+| I-PER
+mere I-PER
 ... O
 Quel O
 trouble O
 ! O
 ... O
-Ciel B-PER
-! O
+Ciel B-MISC
+! I-MISC
 oui O
 , O
-fa O
-mere O
+fa B-PER
+mere I-PER
 va O
 |
 | O
@@ -17203,7 +17203,7 @@ lui O
 dirai O
 -je O
 à O
-Parle B-MISC
+Parle B-PER
 ... O
 |
 | O
@@ -17220,8 +17220,8 @@ elle O
 peut-être O
 |
 | O
-Mon O
-fils O
+Mon B-MISC
+fils I-MISC
 , O
 évitons O
 fa O
@@ -17241,11 +17241,11 @@ fuyons O
 
 | O
 LE O
-CHEVATIER B-ORG
+CHEVATIER B-MISC
 , O
 |
 | O
-Fuyons B-MISC
+Fuyons B-PER
 , O
 mon O
 pere O
@@ -17257,22 +17257,22 @@ fuyons O
 | O
 Fin O
 du O
-troifieme O
+troifieme B-LOC
 , O
-Aëta B-MISC
-_ O
+Aëta B-PER
+_ I-PER
 . O
 |
 
 | O
-nt B-MISC
+nt O
 . O
 + O
 |
 | O
 . O
 . O
-; O
+  O
 mass O
 à O
 vas O
@@ -17290,8 +17290,8 @@ se O
 | O
 ‘ O
 = O
-PE O
-Met B-LOC
+PE B-ORG
+Met I-ORG
 ar O
 en O
 . O
@@ -17301,7 +17301,7 @@ en O
 
 | O
 DE O
-MARIENDAI B-MISC
+MARIENDAI O
 . O
 . O
 $ O
@@ -17314,40 +17314,40 @@ IV I-MISC
 . O
 |
 | O
-SCENE O
-PREMIERE O
+SCENE B-MISC
+PREMIERE I-MISC
 , O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 ezrrant O
 le O
 premier O
 . O
 |
 | O
-LDaNS O
+LDaNS B-MISC
 quel O
 trouble O
 je O
 fuis O
 ! O
 La O
-Baronne B-LOC
+Baronne O
 court O
 |
 | O
 à O
-l’ B-LOC
+l’ O
 appartement O
 de O
 fa O
@@ -17366,12 +17366,12 @@ interroge O
 tout O
 le O
 monde O
-; O
+  O
 tout O
 le O
 monde O
 pleure O
-; O
+  O
 , O
 |
 | O
@@ -17383,11 +17383,11 @@ répond O
 ... O
 Malheureux O
 pere O
-Lu B-MISC
+Lu O
 |
-| I-MISC
-Je B-LOC
-l’ I-LOC
+| O
+Je O
+l’ O
 entends O
 venir O
 , O
@@ -17401,24 +17401,24 @@ pré- O
 
 | O
 fence O
-; O
+  O
 fortons O
 . O
 |
 | O
 La O
-Ban B-MISC
-ONNE I-MISC
+Ban B-LOC
+ONNE I-LOC
 , O
 |
 
 | O
-Vous B-MISC
-me I-MISC
-fuyez I-MISC
+Vous O
+me O
+fuyez O
 . O
 Baron B-PER
-; O
+  O
 arrêtez O
 , O
 où O
@@ -17428,7 +17428,7 @@ mä O
 | O
 fille O
 ? O
-Calmez B-MISC
+Calmez O
 les O
 alarmes O
 que O
@@ -17446,24 +17446,24 @@ Où B-MISC
 eft I-MISC
 ma I-MISC
 fille I-MISC
-? O
+? I-MISC
 |||| O
 |
 
 | O
 LE O
-BARON B-ORG
+BARON O
 |
-| I-ORG
-Je I-ORG
-fais I-ORG
-auffi I-ORG
-inquiet I-ORG
+| O
+Je O
+fais O
+auffi O
+inquiet O
 que O
 vous O
 , O
 Madame B-PER
-; O
+  O
 l' O
 in O
 |
@@ -17474,12 +17474,12 @@ je O
 prévois O
 quel O
 eft O
-Re B-MISC
-{ I-MISC
-oit I-MISC
-& I-MISC
-fon I-MISC
-amant I-MISC
+Re O
+{ O
+oit O
+& O
+fon O
+amant O
 , O
 |
 | O
@@ -17498,8 +17498,8 @@ penfer O
 |
 | O
 |||| O
-Le B-MISC
-BARON I-MISC
+Le O
+BARON O
 . O
 |
 | O
@@ -17535,8 +17535,8 @@ déshonore O
 nous O
 Ex B-MISC
 |
-| I-MISC
-pofe I-MISC
+| O
+pofe O
 au O
 plus O
 fanglant O
@@ -17546,8 +17546,8 @@ affronts O
 |
 
 | O
-La B-MISC
-BARONNES I-MISC
+La O
+BARONNES B-LOC
 . O
 |
 
@@ -17562,15 +17562,15 @@ abandonnée O
 ! O
 ... O
 , O
-Quelle O
-a O
+Quelle B-MISC
+a I-MISC
 |
 
-| O
-” O
-été O
-fon O
-efpoir O
+| I-MISC
+” I-MISC
+été I-MISC
+fon I-MISC
+efpoir I-MISC
 ? O
 Si O
 elle O
@@ -17585,7 +17585,7 @@ ou- O
 |
 
 | O
-blie O
+blie B-LOC
 à O
 jamais O
 . O
@@ -17607,13 +17607,13 @@ cela O
 
 | O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 
 | O
 . O
-Jai O
+Jai B-PER
 plus.que O
 des O
 indices O
@@ -17625,7 +17625,7 @@ plut-à-dieu O
 | O
 que O
 je O
-pufle O
+pufle B-PER
 en O
 douter O
 encore O
@@ -17660,7 +17660,7 @@ a I-MISC
 entendu I-MISC
 |
 | I-MISC
-Adélaïde B-LOC
+Adélaïde B-PER
 fortir O
 de O
 fon O
@@ -17670,11 +17670,11 @@ appartement O
 
 | O
 LA O
-BARONNE B-LOC
+BARONNE B-ORG
 |
 
-| I-LOC
-Qui I-LOC
+| I-ORG
+Qui I-ORG
 a O
 vu O
 ces O
@@ -17711,18 +17711,18 @@ repentir O
 à O
 force O
 de O
-tendrefe O
-; O
+tendrefe B-PER
+  O
 |
 | O
-Ja O
+Ja B-MISC
 ramener O
 à O
 vos O
 pieds O
 , O
-Parlez B-PER
-; O
+Parlez B-MISC
+  O
 Monfieur B-PER
 , O
 parlez O
@@ -17732,7 +17732,7 @@ parlez O
 je O
 ne O
 puis O
-réfifier O
+réfifier B-PER
 à O
 mon O
 impatience O
@@ -17744,7 +17744,7 @@ que O
 | O
 ma O
 fille O
-fe O
+fe B-LOC
 retrouve O
 , O
 ou O
@@ -17766,10 +17766,10 @@ Dupuis B-ORG
 Jérôme B-PER
 entrent- O
 ) O
-Mes B-MISC
+Mes O
 |
-| I-MISC
-enfans I-MISC
+| O
+enfans O
 , O
 qui O
 de O
@@ -17798,7 +17798,7 @@ entendue O
 ? O
 |
 | O
-Parlez B-PER
+Parlez B-MISC
 tous O
 , O
 Jérôme B-PER
@@ -17822,8 +17822,8 @@ Elles O
 ' O
 adre]e O
 à O
-Frankner B-MISC
-er I-MISC
+Frankner B-PER
+er O
 |
 | O
 particulier O
@@ -17835,8 +17835,8 @@ ami I-MISC
 |
 
 | I-MISC
-DE O
-MARIENDAI B-MISC
+DE I-MISC
+MARIENDAI I-MISC
 , O
 : O
 3 O
@@ -17854,8 +17854,8 @@ _ O
 Madame B-PER
 . O
 ( O
-IL B-LOC
-s’ I-LOC
+IL B-ORG
+s’ O
 apperçoit O
 que O
 le O
@@ -17866,9 +17866,9 @@ fixe O
 | O
 attentivement O
 , O
-& O
-il O
-Je B-MISC
+& B-MISC
+il I-MISC
+Je I-MISC
 tai I-MISC
 . O
 ) O
@@ -17876,16 +17876,16 @@ tai I-MISC
 
 | O
 La O
-BARONNE O
+BARONNE B-LOC
 |
 
-| O
-Cruels B-MISC
+| I-LOC
+Cruels I-LOC
 que O
 vous O
 êtes O
 , O
-laiflez O
+laiflez B-LOC
 -moi O
 . O
 … O
@@ -17897,7 +17897,7 @@ fortens I-MISC
 ) O
 |
 | O
-Eb O
+Eb B-MISC
 bien O
 , O
 Monfieur B-PER
@@ -17923,8 +17923,8 @@ entendu O
 |
 
 | O
-L.E B-MISC
-BARON I-MISC
+L.E B-LOC
+BARON O
 . O
 |
 | O
@@ -17976,7 +17976,7 @@ humiliez O
 
 | O
 La O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -18010,7 +18010,7 @@ apprendre I-MISC
 de I-MISC
 plus I-MISC
 affreux I-MISC
-? O
+? I-MISC
 Que O
 dis O
 - O
@@ -18025,7 +18025,7 @@ vous O
 avez O
 tout O
 vu O
-; O
+  O
 qui O
 que O
 ce O
@@ -18052,13 +18052,13 @@ oppoler O
 la O
 paffon O
 de O
-mafille O
+mafille B-LOC
 , O
 aux O
-|||| O
+|||| B-ORG
 |
-| O
-efforts O
+| I-ORG
+efforts I-ORG
 de O
 fes O
 raviflèurs O
@@ -18079,19 +18079,19 @@ plus I-MISC
 de I-MISC
 force I-MISC
 & I-MISC
-de O
-courage O
+de I-MISC
+courage I-MISC
 |
-| O
-que O
-vous O
-, O
-je O
-la O
-leur O
-aurois O
-arrachée O
-; O
+| I-MISC
+que I-MISC
+vous I-MISC
+, I-MISC
+je I-MISC
+la I-MISC
+leur I-MISC
+aurois I-MISC
+arrachée I-MISC
+  O
 ils O
 auroient O
 |
@@ -18105,7 +18105,7 @@ cris O
 , O
 mon O
 défefpoir O
-; O
+  O
 |
 | O
 mais O
@@ -18129,9 +18129,9 @@ n' O
 auroit O
 emporté O
 que O
-la O
-honte O
-& O
+la B-MISC
+honte I-MISC
+& I-MISC
 des O
 |
 | O
@@ -18149,24 +18149,24 @@ J O
 
 | O
 62 O
-ADÉLAIÏDE O
+ADÉLAIÏDE B-LOC
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 
 | O
-Je B-MISC
-n’ I-MISC
-aurois I-MISC
-pas I-MISC
-cru I-MISC
+Je O
+n’ O
+aurois O
+pas O
+cru O
 , O
 Madame B-PER
 , O
-qu’ B-PER
+qu’ O
 une O
 fille O
 qui O
@@ -18187,7 +18187,7 @@ fi O
 | O
 chere O
 . O
-Montrez B-PER
+Montrez O
 -vous O
 moins O
 fenfible O
@@ -18217,11 +18217,11 @@ prévenir O
 
 | O
 LA O
-BARONNE O
+BARONNE B-MISC
 |
 
-| O
-Eh B-MISC
+| I-MISC
+Eh I-MISC
 ! I-MISC
 bien O
 , O
@@ -18269,9 +18269,9 @@ fon O
 |
 | O
 égarement O
-; O
-& O
-f1 B-ORG
+  O
+& B-ORG
+f1 I-ORG
 elle O
 n' O
 eût O
@@ -18293,13 +18293,13 @@ point O
 hazar- O
 |
 | O
-dée O
+dée B-MISC
 , O
 elle O
 n' O
 eût O
 jamais O
-fongé O
+fongé B-PER
 à O
 la O
 fuite O
@@ -18338,7 +18338,7 @@ près O
 de O
 vous O
 . O
-C’ B-MISC
+C’ O
 eft O
 vous O
 feul O
@@ -18350,9 +18350,9 @@ j' O
 accule O
 , O
 Rendez B-PER
--moi I-PER
-ma I-PER
-fille I-PER
+-moi O
+ma O
+fille O
 , O
 rendez O
 - O
@@ -18372,8 +18372,8 @@ défefpoir I-MISC
 , O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 | O
@@ -18394,7 +18394,7 @@ mouvemens O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 | O
@@ -18420,12 +18420,12 @@ tout O
 |
 | O
 LE O
-Ban B-MISC
-O I-MISC
-N. I-MISC
+Ban O
+O O
+N. O
 |
-| I-MISC
-Ceflez I-MISC
+| O
+Ceflez B-MISC
 ces O
 vains O
 éclats O
@@ -18435,35 +18435,35 @@ ne I-MISC
 les I-MISC
 mérite I-MISC
 pas I-MISC
-; O
+  O
 |
 
 | O
 2e O
-SÉPARER B-ORG
-TP O
-NE B-ORG
-OR I-ORG
-RT O
-t O
+SÉPARER O
+TP B-MISC
+NE I-MISC
+OR I-MISC
+RT I-MISC
+t I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 
-| O
-je O
-ny O
-fuis O
-point O
-1 O
-Be B-LOC
+| I-MISC
+je I-MISC
+ny I-MISC
+fuis I-MISC
+point I-MISC
+1 I-MISC
+Be I-MISC
 , O
 & O
 é O
 jei O
 me O
-Rate B-MISC
+Rate B-ORG
 de O
 ne O
 plus O
@@ -18479,16 +18479,16 @@ fort O
 ) O
 |
 | O
-La O
-Bar B-LOC
-ONNE I-LOC
-foule O
+La B-MISC
+Bar I-MISC
+ONNE I-MISC
+foule I-MISC
 . O
 |
 
 | O
 II B-PER
-n’ B-PER
+n’ O
 a O
 pas O
 pitié O
@@ -18503,8 +18503,8 @@ cruel O
 | O
 Ma B-PER
 chere I-PER
-fille O
-tu.as B-PER
+fille I-PER
+tu.as I-PER
 donc O
 rélolu O
 ma O
@@ -18515,19 +18515,19 @@ mort O
  
 
 | O
-CRree— O
-2 O
-GAME B-MISC
-rmmerne O
+CRree— B-MISC
+2 I-MISC
+GAME I-MISC
+rmmerne I-MISC
 2 O
 |
 | O
-SCENE B-ORG
-IL I-ORG
+SCENE O
+IL O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 FRANKNER B-MISC
 . O
@@ -18552,9 +18552,9 @@ PVE O
 owsreur O
 le O
 Baron B-PER
-eft O
--il O
-forti O
+eft I-PER
+-il I-PER
+forti I-PER
 à O
 |
 
@@ -18570,7 +18570,7 @@ Oui O
 rtf O
 |
 | O
-FRANKNEÉR O
+FRANKNEÉR B-MISC
 . O
 |
 
@@ -18582,25 +18582,25 @@ feule O
 |
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 | O
-Eh O
-! O
+Eh B-MISC
+! I-MISC
 bien O
 ? O
-Lot B-LOC
+Lot B-PER
 . O
 |
 | O
 FRANKNER B-MISC
 |
 | O
-J' O
-ai O
-un O
-fecret O
+J' B-MISC
+ai I-MISC
+un I-MISC
+fecret I-MISC
 à O
 vous O
 apprendre O
@@ -18613,11 +18613,11 @@ BARONNE B-ORG
 . O
 |
 | O
-Parlez B-LOC
+Parlez B-MISC
 , O
 . O
-|||| O
-LU B-LOC
+|||| B-ORG
+LU I-ORG
 . O
 |
 | O
@@ -18659,11 +18659,11 @@ rien O
 , O
 |
 | O
-FRANRNER B-ORG
+FRANRNER B-MISC
 |
 | O
 : O
-Votrefille B-LOC
+Votrefille B-PER
 .. O
 … O
 . O
@@ -18675,15 +18675,15 @@ LA O
 BARONNE B-ORG
 |
 | I-ORG
-Ma O
-fille O
-? O
+Ma I-ORG
+fille I-ORG
+? I-ORG
 |||| O
 |
 | O
 FRANKNER B-MISC
 |
-| I-MISC
+| O
 N’ O
 eft O
 point O
@@ -18696,12 +18696,12 @@ BARONNE B-ORG
 . O
 |
 | O
-Ciel B-MISC
-! I-MISC
+Ciel O
+! O
 |||| O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 , O
 . O
 |
@@ -18728,12 +18728,12 @@ perfuader O
 |
 | O
 LA O
-BARONN O
-Ee O
+BARONN B-MISC
+Ee I-MISC
 |
 
-| O
-Je O
+| I-MISC
+Je I-MISC
 ne O
 l' O
 ai O
@@ -18742,24 +18742,24 @@ cru O
 , O
 |
 | O
-FRANKNER B-ORG
+FRANKNER B-MISC
 |
 | O
 Son O
 pere O
 , O
-fon O
-frere O
+fon B-PER
+frere I-PER
 , O
 |
 | O
 La O
-BARONNE B-MISC
+BARONNE B-ORG
 |
-| I-MISC
-Que I-MISC
-m' I-MISC
-apprenez I-MISC
+| I-ORG
+Que I-ORG
+m' I-ORG
+apprenez I-ORG
 -vous O
 ? O
 |
@@ -18768,14 +18768,14 @@ FRANKNER B-MISC
 . O
 |
 | O
-Ïls B-PER
+Ïls B-LOC
 ont O
 difpofé O
 d' O
 elle O
 , O
-Madäme B-PER
-; O
+Madäme B-MISC
+  O
 toit O
 ce O
 qu' O
@@ -18786,7 +18786,7 @@ a O
 fait O
 , O
 ils O
-l’ B-ORG
+l’ O
 y O
 ont O
 forcée O
@@ -18808,16 +18808,16 @@ Ah B-MISC
 ! I-MISC
 Madame B-PER
 , O
-éclairciflez O
+éclairciflez B-PER
 |
 | O
 le O
 fort O
 d’ O
 Adélaïde B-LOC
-; O
-j’ B-PER
-eri I-PER
+  O
+j’ O
+eri O
 frémis O
 pour O
 elle O
@@ -18857,7 +18857,7 @@ parler O
 
 | O
 DE O
-MARIENDAL B-MISC
+MARIENDAL B-ORG
 |
 
 | O
@@ -18869,13 +18869,13 @@ mere O
 , O
 d' O
 époufe O
-; O
+  O
 ne O
 vous O
 en O
 |
 | O
-Jaïffez B-PER
+Jaïffez B-LOC
 pas O
 impofer O
 par O
@@ -18883,9 +18883,9 @@ le O
 ton O
 fier O
 du O
-Baron O
+Baron B-PER
 . O
-Priez- B-LOC
+Priez- B-PER
 |
 | O
 . O
@@ -18894,7 +18894,7 @@ le O
 preflez O
 - O
 le O
-; O
+  O
 ayez O
 autant O
 de O
@@ -18912,8 +18912,8 @@ Interrogez B-PER
 le I-PER
 Chevalier I-PER
 , O
-employez B-PER
-au- I-PER
+employez O
+au- O
 |
 | O
 près O
@@ -18930,11 +18930,11 @@ dou- O
 | O
 ceur O
 , O
-N’ B-PER
+N’ O
 en O
 doutez O
 pas O
-; O
+  O
 Madame B-PER
 , O
 il O
@@ -18945,19 +18945,19 @@ formé O
 
 | O
 çontre O
-Adélaïde B-LOC
+Adélaïde B-PER
 quelque O
 complot O
 finiftre O
 , O
-Son O
+Son B-MISC
 |
 
-| O
-pere O
+| I-MISC
+pere I-MISC
 , O
-fon O
-frere O
+fon B-PER
+frere I-PER
 ont O
 conjuré O
 fa O
@@ -18976,7 +18976,7 @@ avez O
 plus O
 de O
 fille O
-; O
+  O
 éclaireiflez O
 tout O
 |
@@ -18989,10 +18989,10 @@ myftere O
 | O
 ‘ O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 |
 
-| I-ORG
+| O
 Si O
 je O
 l' O
@@ -19034,16 +19034,16 @@ crains O
 dre O
 ici O
 , O
-Je B-MISC
-vous I-MISC
-parle I-MISC
-peut-être I-MISC
-pour I-MISC
-la I-MISC
-detniere I-MISC
+Je O
+vous O
+parle O
+peut-être O
+pour O
+la O
+detniere O
 |
-| I-MISC
-fois I-MISC
+| O
+fois O
 . O
 J' O
 aurai O
@@ -19065,7 +19065,7 @@ vigilance O
 fur O
 fes O
 foins O
-; O
+  O
 de O
 grace O
 ! O
@@ -19076,7 +19076,7 @@ Madame B-PER
 demandez O
 votre O
 fille O
-; O
+  O
 qui O
 fait O
 ce O
@@ -19103,7 +19103,7 @@ le I-ORG
 Baron I-ORG
 font O
 cruels O
-; O
+  O
 . O
 , O
 ’ O
@@ -19117,8 +19117,8 @@ préjugés O
 les O
 infpirent O
 .... O
-Adélaïde B-LOC
-! O
+Adélaïde B-PER
+! I-PER
 , O
 . O
 , O
@@ -19131,10 +19131,10 @@ auront O
 pas O
 entrepris O
 . O
-Ah O
-|||| O
-! O
-Madame B-PER
+Ah B-MISC
+|||| I-MISC
+! I-MISC
+Madame O
 , O
 ils O
 |
@@ -19156,7 +19156,7 @@ Vous I-ORG
 vous I-ORG
 oubliez I-ORG
 Dumont I-ORG
-; O
+  O
 le O
 Baron B-PER
 eft O
@@ -19175,31 +19175,31 @@ eft O
 pérea B-PER
 |
 | O
-|||| O
-E O
+|||| B-MISC
+E I-MISC
 |
 
-| O
-L O
+| I-MISC
+L I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
 
-| O
-À B-MISC
+| I-MISC
+À I-MISC
 0 I-MISC
 A I-MISC
 mm I-MISC
@@ -19209,8 +19209,8 @@ A I-MISC
 MST I-MISC
 |
 
-| O
-roman O
+| I-MISC
+roman I-MISC
 |
 
 | O
@@ -19229,13 +19229,13 @@ il O
 étoit O
 pere O
 , O
-s’ B-PER
+s’ O
 oppoferoit O
 -il O
 au O
 bonheur O
 de O
-fes O
+fes B-LOC
 |
 | O
 enfans O
@@ -19270,13 +19270,13 @@ inébranlable O
 |
 | O
 LA O
-BRONNE B-MISC
+BRONNE B-ORG
 . O
 |
 
 | O
 Vous O
-m’ B-PER
+m’ O
 étonnez O
 , O
 qui O
@@ -19341,18 +19341,18 @@ Frankner B-PER
 . O
 |
 | O
-Fra B-ORG
-N I-ORG
-KNER I-ORG
+Fra B-PER
+N I-PER
+KNER I-PER
 |
 | O
-Pouvez B-PER
--vous O
-me O
-méconnoître O
+Pouvez B-MISC
+-vous I-MISC
+me I-MISC
+méconnoître I-MISC
 aux O
 . O
-tranfports O
+tranfports B-PER
 |
 | O
 que O
@@ -19366,14 +19366,14 @@ l' O
 époux O
 d’ O
 Adélaïde B-PER
-; O
+  O
 je O
 |
 | O
 fuis O
 votre O
 fils O
-; O
+  O
 je O
 meurs O
 à O
@@ -19420,11 +19420,11 @@ fein O
 de O
 la O
 douleur O
-; O
+  O
 de O
 |
 | O
-Ja O
+Ja B-MISC
 mort O
 peut-être O
 , O
@@ -19435,10 +19435,10 @@ Ba I-MISC
 R I-MISC
 ON I-MISC
 N I-MISC
-Es O
+Es I-MISC
 |
-| O
-Frankner B-PER
+| I-MISC
+Frankner I-MISC
 , O
 ne O
 crains O
@@ -19466,13 +19466,13 @@ j' O
 ac- O
 |
 | O
-cepte O
-tes O
-fecours O
-; O
+cepte B-PER
+tes I-PER
+fecours I-PER
+  O
 qu O
 " O
-Adélaïde B-LOC
+Adélaïde B-PER
 vive O
 : O
 quelle O
@@ -19489,34 +19489,34 @@ je O
 fuis O
 heureufe B-LOC
 , O
-OT B-ORG
+OT B-MISC
 |
 
-| I-ORG
-# I-ORG
+| I-MISC
+# I-MISC
 |
 
-| O
-DÉ B-MISC
+| I-MISC
+DÉ I-MISC
 MARIENDAI I-MISC
-63 I-MISC
+63 O
 |
 | O
 oo O
 ue O
-CFRANKNER B-MISC
+CFRANKNER O
 |
 | O
-Vous O
-feconderez O
-mes O
-projets O
-? O
+Vous B-MISC
+feconderez I-MISC
+mes I-MISC
+projets I-MISC
+? I-MISC
 |
-| O
+| I-MISC
 L O
 4 O
-BARONNE O
+BARONNE B-MISC
 . O
 - O
 |
@@ -19541,19 +19541,19 @@ libérateur O
 pour O
 mon O
 fils O
-; O
+  O
 je O
 vais O
 retrouver O
 |
 | O
-Je B-MISC
-Baron I-MISC
+Je O
+Baron B-PER
 , O
 parler O
 au O
 Chevalier B-ORG
-; O
+  O
 ils O
 me O
 rendront O
@@ -19580,8 +19580,8 @@ relpire O
 |
 
 | O
-SCENE B-ORG
-IIL B-LOC
+SCENE O
+IIL B-MISC
 . O
 |
 | O
@@ -19611,7 +19611,7 @@ cache O
 mon O
 amour O
 ? O
-Pere O
+Pere B-PER
 barbare O
 ! O
 Qu’ O
@@ -19651,7 +19651,7 @@ feul O
 inftant O
 . O
 Elle O
-n’ B-MISC
+n’ O
 eft O
 point O
 fortie O
@@ -19662,20 +19662,20 @@ lieux O
 |
 | O
 Adélaïde B-PER
-n’ I-PER
+n’ O
 eft O
 -elle O
 plus O
 ? O
 .... O
-Eft B-LOC
+Eft B-PER
 -elle O
 déja O
 def= O
 |
 | O
 . O
-cendue O
+cendue B-PER
 dans O
 le O
 féjour O
@@ -19684,12 +19684,12 @@ morts O
 ... O
 mais O
 , O
-Dieux B-PER
-! O
+Dieux B-MISC
+! I-MISC
 |
-| O
-Quel O
-foupçon O
+| I-MISC
+Quel I-MISC
+foupçon I-MISC
 s' O
 éleve O
 tout-à-coup O
@@ -19737,14 +19737,14 @@ féroces O
 |
 
 | O
-IL O
+IL B-ORG
 faut O
 que O
 ce O
 doute O
-foit O
-ée O
-aires O
+foit B-PER
+ée I-PER
+aires I-PER
 . O
 ... O
 allons O
@@ -19802,7 +19802,7 @@ IF I-ORG
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
 FRANKNER B-MISC
 , O
@@ -19818,9 +19818,9 @@ part O
 
 | O
 Drrvx B-MISC
-! I-MISC
-L’ B-PER
-effroi I-PER
+! O
+L’ O
+effroi O
 , O
 la O
 terreur O
@@ -19833,8 +19833,8 @@ céfle O
 . O
 Si O
 par O
-hazard B-PER
-Frankner I-PER
+hazard O
+Frankner B-PER
 lui-même O
 , O
 en O
@@ -19844,12 +19844,12 @@ cherchant O
 ma O
 fille O
 , O
-fe O
-laïfloit O
+fe B-PER
+laïfloit I-PER
 voir O
 autour O
 du O
-châ B-LOC
+châ O
 : O
 |
 
@@ -19859,12 +19859,12 @@ teau O
 . O
 … O
 .. O
-fi B-MISC
-Pon I-MISC
+fi O
+Pon O
 découvroit O
 qu' O
 Adélaïde B-PER
-n’ I-PER
+n’ O
 a O
 point O
 |
@@ -19878,13 +19878,13 @@ lui O
 . O
 ( O
 4 O
-Frankner B-MISC
+Frankner B-ORG
 . O
 ) O
 Dumont B-PER
 |
-| I-PER
-Écoute I-PER
+| O
+Écoute O
 ve O
 « O
 Dumont B-PER
@@ -19907,40 +19907,40 @@ FRANKNER B-MISC
 | I-MISC
 Monfieur I-MISC
 ... O
-L B-PER
+L O
 |
-| I-PER
-LE I-PER
+| O
+LE B-PER
 Baron I-PER
 . O
 |
 
 | O
 ‘ O
-Approche B-LOC
+Approche B-PER
 . O
 Si O
 par O
-hazard B-PER
+hazard O
 autour O
 r O
 du O
 château O
-|||| O
+|||| B-LOC
 |
 | O
 _ O
-Siu B-MISC
-un I-MISC
-étranger I-MISC
+Siu B-PER
+un O
+étranger O
 ... O
 |
 
 | O
-FRANK B-ORG
-NER B-MISC
+FRANK O
+NER B-PER
 |
-| O
+| I-PER
 Eh O
 bien O
 Deere B-MISC
@@ -19948,7 +19948,7 @@ Deere B-MISC
 |
 
 | I-MISC
-L' B-MISC
+L' I-MISC
 E I-MISC
 BARON I-MISC
 . O
@@ -19977,14 +19977,14 @@ Monfeur B-PER
 eftil O
 vrai O
 que O
-Fr B-MISC
-ankner I-MISC
-vous I-MISC
-ravit?.i I-MISC
+Fr B-LOC
+ankner O
+vous O
+ravit?.i O
 |
 
-| I-MISC
-LE I-MISC
+| O
+LE B-MISC
 BARON I-MISC
 |
 
@@ -19994,7 +19994,7 @@ parles I-MISC
 - I-MISC
 tu I-MISC
 de O
-Frankner B-LOC
+Frankner B-PER
 ? O
 Gonnois O
 - O
@@ -20039,17 +20039,17 @@ connois O
 oo O
 |
 | O
-Le B-ORG
-Baro I-ORG
-Ne I-ORG
+Le O
+Baro O
+Ne O
 |
-| I-ORG
-Le I-ORG
-traître I-ORG
-L. I-ORG
-Si I-ORG
+| O
+Le O
+traître O
+L. B-PER
+Si I-PER
 par O
-hazard B-PER
+hazard O
 . O
 |
 
@@ -20058,11 +20058,11 @@ j O
 : O
 F.R B-PER
 A I-PER
-N O
-K O
-- O
-N O
-E O
+N I-PER
+K I-PER
+- I-PER
+N I-PER
+E I-PER
 Re O
 . O
 |
@@ -20073,17 +20073,17 @@ bien O
 ? O
 |
 | O
-LE O
-BA B-ORG
+LE B-LOC
+BA I-LOC
 . O
-R O
-o O
+R B-LOC
+o I-LOC
 N O
 |
 
 | O
 Si O
-; O
+  O
 jamais O
 il O
 s' O
@@ -20095,18 +20095,18 @@ vue O
 il O
 faut O
 … O
-Vas B-LOC
+Vas O
 , O
 Dumont B-PER
 , O
 \ O
 |
 | O
-obferve O
+obferve B-PER
 , O
 examine O
 tout O
-; O
+  O
 ‘ O
 & O
 avertis O
@@ -20122,9 +20122,9 @@ dre O
 |
 
 | O
-D B-PER
-ga I-PER
-nn I-PER
+D O
+ga O
+nn O
 |
 | O
 EL B-ORG
@@ -20135,24 +20135,24 @@ FF I-ORG
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 |
 
 | O
 ou O
 : O
-UT B-MISC
-ef O
-calme O
+UT B-ORG
+ef I-ORG
+calme I-ORG
 , O
 tout O
 eft O
@@ -20162,12 +20162,12 @@ tranquille O
 | O
 |||| O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 | O
-Mon O
-fils O
+Mon B-MISC
+fils I-MISC
 , O
 tan O
 cœur O
@@ -20190,15 +20190,15 @@ CuVALIER B-MISC
 | O
 Mon B-MISC
 pere I-MISC
-À I-MISC
-Fo I-MISC
+À O
+Fo B-ORG
 |
-| I-MISC
-|||| O
-|||| O
+| I-ORG
+|||| I-ORG
+|||| I-ORG
 LE O
-Ban B-MISC
-Oo I-MISC
+Ban O
+Oo O
 . O
 N. O
 |
@@ -20223,25 +20223,25 @@ Adélaïde B-LOC
 | O
 h O
 . O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 . O
 a O
 |
 
 | O
-Pouvez B-PER
+Pouvez O
 - O
 vous O
 penfer O
 fans O
 frémir O
-au O
-crime O
-|||| O
+au B-MISC
+crime I-MISC
+|||| I-MISC
 |
 
-| O
+| I-MISC
 qu' O
 elle O
 a O
@@ -20252,11 +20252,11 @@ os O
 |
 
 | O
-Ei B-MISC
+Ei O
 |
 
-| I-MISC
-D I-MISC
+| O
+D O
 en O
 os O
 me O
@@ -20271,13 +20271,13 @@ A I-MISC
 nt I-MISC
 Pi I-MISC
 D I-MISC
-0 I-MISC
-rm I-MISC
+0 O
+rm O
 |
-| I-MISC
-ER B-ORG
-C7 I-ORG
-EP I-ORG
+| O
+ER O
+C7 O
+EP O
 |
 | O
 ' O
@@ -20292,35 +20292,35 @@ ge O
 ADÉLAIDES B-MISC
 |
 
-| I-MISC
-LE I-MISC
-BARON I-MISC
-|||| I-MISC
-LS I-MISC
+| O
+LE O
+BARON O
+|||| O
+LS O
 |
-| I-MISC
-J' I-MISC
-entends I-MISC
-du I-MISC
-bruit I-MISC
+| O
+J' O
+entends O
+du O
+bruit O
 . O
-ei O
-CA B-LOC
+ei B-ORG
+CA I-ORG
 . O
 |
 | O
 Le O
-CHEVALIER B-ORG
+CHEVALIER O
 |
-| I-ORG
-Non I-ORG
+| O
+Non O
 , O
 rien O
 n' O
 approche O
 . O
 Jr O
-rs O
+rs B-MISC
 |
 
 | O
@@ -20333,7 +20333,7 @@ BARON I-MISC
 |
 
 | O
-Chevalier B-LOC
+Chevalier O
 , O
 as O
 - O
@@ -20349,22 +20349,22 @@ dé O
 | O
 château O
 ? O
-N' B-MISC
-as I-MISC
-- I-MISC
-i I-MISC
-tu I-MISC
-rien I-MISC
-vu I-MISC
-? I-MISC
-D B-PER
-|
-| I-PER
-Le O
-Cnevarrer O
+N' O
+as O
+- O
+i O
+tu O
+rien O
+vu O
+? O
+D O
 |
 | O
-‘ O
+Le B-MISC
+Cnevarrer I-MISC
+|
+| I-MISC
+‘ I-MISC
 Non O
 , O
 mon O
@@ -20372,20 +20372,20 @@ pere O
 . O
 |
 | O
-L B-LOC
-E I-LOC
+L B-MISC
+E I-MISC
 . O
-B B-MISC
-A I-MISC
-R O
-0 O
-M O
+B B-LOC
+A I-LOC
+R I-LOC
+0 I-LOC
+M I-LOC
 |||| O
 , O
 |
 
 | O
-Î O
+Î B-PER
 Si O
 Frankner B-PER
 … O
@@ -20394,33 +20394,33 @@ Frankner B-PER
 | O
 . O
 Le O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
-| I-ORG
-Que I-ORG
-ne O
-s O
-» O
-eft O
--il O
+| I-MISC
+Que B-MISC
+ne I-MISC
+s I-MISC
+» I-MISC
+eft I-MISC
+-il I-MISC
 offert O
 à O
 mes O
 yeux O
 ! O
 Si O
-fon O
-deftin O
+fon B-PER
+deftin I-PER
 |
 | O
 le O
 livroit O
 à O
 à O
-ma O
-vengéance O
-|||| O
-! O
+ma B-LOC
+vengéance I-LOC
+|||| I-LOC
+! I-LOC
 [ O
 : O
 |
@@ -20428,11 +20428,11 @@ vengéance O
 | O
 Lx B-MISC
 BARON I-MISC
-: O
+: I-MISC
 |
 
-| O
-Que O
+| I-MISC
+Que I-MISC
 ne O
 puis O
 . O
@@ -20443,7 +20443,7 @@ lui O
 n O
 ma O
 à O
-honteu O
+honteu B-LOC
 , O
 Mes B-MISC
 |
@@ -20457,14 +20457,14 @@ temords I-MISC
 
 | O
 LE O
-Curvarren B-LOC
-|
-| I-LOC
-Tabaron I-LOC
-nie O
-PR B-ORG
+Curvarren B-ORG
 |
 | I-ORG
+Tabaron I-ORG
+nie O
+PR O
+|
+| O
 Si O
 meer O
 { O
@@ -20484,23 +20484,23 @@ a O
 |||| O
 |
 | O
-Que B-MISC
-vas I-MISC
-- I-MISC
-tu I-MISC
+Que O
+vas O
+- O
+tu O
 me O
 parler O
 de O
 la O
-mer O
+mer B-LOC
 |
 
-| O
-ALES B-MISC
+| I-LOC
+ALES I-LOC
 |
 
-| O
-LE O
+| I-LOC
+LE I-LOC
 CRRVARER B-MISC
 |
 | O
@@ -20508,17 +20508,17 @@ CRRVARER B-MISC
 eft O
 vrai O
 , O
-pardonnez B-PER
+pardonnez O
 . O
 |||| O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 |
-| I-ORG
-Mon I-ORG
-fils I-ORG
+| O
+Mon B-MISC
+fils I-MISC
 , O
 laifle O
 -moi O
@@ -20530,14 +20530,14 @@ laifle O
 7 O
 " O
 DE O
-MARIENDAI B-MISC
+MARIENDAI O
 , O
-AE B-ORG
+AE B-MISC
 : O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
 |
 
@@ -20553,17 +20553,17 @@ pere O
 |
 
 | O
-Le O
-Baron B-ORG
-h I-ORG
+Le B-MISC
+Baron I-MISC
+h I-MISC
 |
-| I-ORG
-Que I-ORG
-le I-ORG
-me I-ORG
-raflure I-ORG
-! I-ORG
-! O
+| I-MISC
+Que I-MISC
+le I-MISC
+me I-MISC
+raflure I-MISC
+! I-MISC
+! I-MISC
 Chevalier B-ORG
 , O
 fors O
@@ -20595,7 +20595,7 @@ ne O
 nous O
 furprenne O
 enfemble O
-; O
+  O
 tout O
 redouble O
 |
@@ -20618,25 +20618,25 @@ m' O
 aïfle O
 -moi O
 , O
-|||| O
-it O
-te O
-le O
-répete O
+|||| B-MISC
+it I-MISC
+te I-MISC
+le I-MISC
+répete I-MISC
 , O
-laiffe B-MISC
--moi I-MISC
+laiffe B-PER
+-moi O
 . O
 |
 
 | O
 ( O
-SCENE B-ORG
-PI I-ORG
+SCENE B-MISC
+PI I-MISC
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
 FRANKNER B-MISC
 . O
@@ -20646,17 +20646,17 @@ FRANKNER B-MISC
 
 | O
 LE O
-BARON B-ORG
+BARON O
 à O
 part O
 . O
 |||| O
 |
 | O
-Q B-PER
-UEL I-PER
-facrifice O
-jai O
+Q B-ORG
+UEL I-ORG
+facrifice B-PER
+jai I-PER
 fait O
 à O
 . O
@@ -20664,55 +20664,55 @@ mon O
 honneur O
 ! O
 . O
-ïL B-PER
+ïL O
 e O
 |
 | O
 terrible O
-; O
-; O
+  O
+  O
 était O
 -il O
 nécefläire O
 ? O
 ( O
-A B-MISC
-Frankner I-MISC
+A B-PER
+Frankner I-PER
 : O
 qui O
 |
 | O
-parëte O
+parëte B-MISC
 ) O
 Dumont B-PER
 , O
 quel O
 trouble O
-LL B-ORG
-Quäs I-ORG
-- I-ORG
-tuè I-ORG
+LL B-MISC
+Quäs I-MISC
+- I-MISC
+tuè I-MISC
 |
-| O
-|||| O
-F O
-RANKNERe B-ORG
+| I-MISC
+|||| B-PER
+F I-PER
+RANKNERe I-PER
 |
-| O
-|||| O
+| I-PER
+|||| I-PER
 Vous O
 êtes O
 vengé O
 , O
-|||| O
-m O
+|||| B-PER
+m I-PER
 Hi O
-ue B-ORG
+ue O
 |
 | O
 LE O
-BAR B-LOC
-ON I-LOC
+BAR O
+ON O
 . O
 |
 | O
@@ -20727,7 +20727,7 @@ entends O
 | O
 L O
 : O
-ERANXNER O
+ERANXNER B-MISC
 |
 
 | O
@@ -20746,7 +20746,7 @@ plus O
 | O
 L O
 £ O
-BARON B-MISC
+BARON O
 . O
 |
 | O
@@ -20775,30 +20775,30 @@ _ O
 — O
 |
 | O
-SR B-ORG
+SR B-MISC
 |
 
-| O
-Era B-MISC
+| I-MISC
+Era I-MISC
 tte I-MISC
 |
-| I-MISC
-HAE I-MISC
-Ter O
-enr O
-TE O
+| O
+HAE O
+Ter B-ORG
+enr I-ORG
+TE I-ORG
 |
 
-| O
-A O
-eee O
-cs O
-PQ B-LOC
+| I-ORG
+A I-ORG
+eee I-ORG
+cs I-ORG
+PQ I-ORG
 nue O
 2 O
 us O
 64e O
-Amen B-MISC
+Amen O
 |
 
 | O
@@ -20819,9 +20819,9 @@ ADÉLAIDE B-MISC
 . O
 |
 | O
-FRAN O
-KN B-ORG
-ER I-ORG
+FRAN B-ORG
+KN B-PER
+ER I-PER
 |
 | O
 “ O
@@ -20831,7 +20831,7 @@ en O
 ces O
 lieux O
 même O
-; O
+  O
 d' O
 igiore O
 à O
@@ -20839,9 +20839,9 @@ quéi B-PER
 |
 | O
 “ O
-defein O
-; O
-; O
+defein B-LOC
+  O
+  O
 je O
 l' O
 ai O
@@ -20853,7 +20853,7 @@ quittant O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 |
 | O
 _ O
@@ -20868,13 +20868,13 @@ pu O
 |
 | O
 ‘ O
-FRÂANKNER B-ORG
+FRÂANKNER B-MISC
 . O
 |||| O
 |
 | O
-Perfide B-MISC
-! I-MISC
+Perfide O
+! O
 lui O
 ai O
 -je O
@@ -20890,12 +20890,12 @@ ces O
 | O
 lieux O
 ? O
-Ton B-PER
+Ton O
 audace O
 te O
 fera O
 funefte O
-; O
+  O
 tu O
 vas O
 périr O
@@ -20912,7 +20912,7 @@ immolé O
 à O
 votre O
 honneur O
-; O
+  O
 peut-être O
 - O
 # O
@@ -20930,9 +20930,9 @@ Banom I-MISC
 |
 | I-MISC
 D I-MISC
-mon I-MISC
-ami I-MISC
-! I-MISC
+mon O
+ami O
+! O
 Fo O
 |
 | O
@@ -20948,7 +20948,7 @@ ofé O
 pour O
 vous O
 : O
-c’ B-MISC
+c’ O
 eft O
 à O
 vous O
@@ -20960,8 +20960,8 @@ fur O
 mes O
 jours O
 : O
-Nul B-PER
-n’ I-PER
+Nul O
+n’ O
 a O
 été O
 témoin O
@@ -20986,7 +20986,7 @@ yeux O
 ‘ O
 « O
 + O
-Quels B-PER
+Quels O
 |
 
 | O
@@ -20996,20 +20996,20 @@ d O
 
 | O
 Jieux B-PER
-aflez O
-fecrets O
-? O
+aflez I-PER
+fecrets I-PER
+? I-PER
 .... O
 7 O
 . O
-DRE O
+DRE B-LOC
 |
 | O
 ‘ O
-LE O
-B B-ORG
-ARO I-ORG
-NN O
+LE B-MISC
+B I-MISC
+ARO I-MISC
+NN I-MISC
 : O
 |||| O
 |
@@ -21031,15 +21031,15 @@ vis O
 quand O
 tu O
 viens O
-de”fauvér B-PER
-la I-PER
-mienne I-PER
+de”fauvér B-MISC
+la I-MISC
+mienne I-MISC
 . O
 |
 | O
-FRANKNE B-ORG
-R I-ORG
-+ I-ORG
+FRANKNE B-MISC
+R I-MISC
++ I-MISC
 . O
 |
 | O
@@ -21048,13 +21048,13 @@ fi O
 vous O
 tärdés O
 ün.moment O
-; O
+  O
 je O
 ferai O
 déçots O
 |
 | O
-gett B-PER
+gett O
 peut-être O
 , O
 & O
@@ -21067,45 +21067,45 @@ perdu O
 | O
 LE O
 : O
-B B-ORG
-ARO I-ORG
-N. I-ORG
+B B-PER
+ARO I-PER
+N. I-PER
 |
-| O
-Eh O
-bien O
-, O
-que O
-veux O
-- O
-tu O
+| I-PER
+Eh B-MISC
+bien I-MISC
+, I-MISC
+que I-MISC
+veux I-MISC
+- I-MISC
+tu I-MISC
 que O
 je O
 fafle O
 ? O
 ordonne O
-- O
+- B-PER
 |
 
-| O
-Sade O
+| I-PER
+Sade I-PER
 ep O
 KE O
 |
 
 | O
 DE O
-MARIENDAL B-MISC
-# I-MISC
-4 I-MISC
+MARIENDAL O
+# O
+4 O
 |
 
 | O
-ERA B-ORG
-N I-ORG
-- I-ORG
-KNE I-ORG
-Re I-ORG
+ERA O
+N O
+- O
+KNE O
+Re O
 . O
 . O
 |
@@ -21113,7 +21113,7 @@ Re I-ORG
 | O
 4 O
 .. O
-Does B-PER
+Does O
 |||| O
 ne O
 4 O
@@ -21131,7 +21131,7 @@ pourroit O
 pas O
 ! O
 ' O
-enfevelir O
+enfevelir B-LOC
 fecétement O
 ë O
 . O
@@ -21169,19 +21169,19 @@ m' O
 y O
 voilà O
 déterminé O
-; O
+  O
 que O
 le O
 perfide O
 amant O
 d' O
-A B-LOC
+A B-PER
 : O
 |
 | O
-délaïde O
+délaïde B-PER
 lui O
-foit O
+foit B-PER
 rendu O
 dans O
 la O
@@ -21193,12 +21193,12 @@ Haur.j B-LOC
 
 | O
 : O
-Dumont B-MISC
-! I-MISC
+Dumont B-PER
+! O
 qu' O
 il O
 “ O
-foit O
+foit B-PER
 renfermé O
 ‘ O
 dans O
@@ -21209,12 +21209,12 @@ cercueïl O
 | O
 … O
 Je O
-ten O
+ten B-MISC
 remets O
-Le O
-foin O
+Le B-MISC
+foin I-MISC
 . O
-; O
+  O
 & O
 tandis O
 que O
@@ -21254,19 +21254,19 @@ nos O
 ancêtres O
 . O
 si O
-E B-ORG
-MU I-ORG
-AT I-ORG
-CO I-ORG
-tt I-ORG
+E B-MISC
+MU I-MISC
+AT I-MISC
+CO I-MISC
+tt O
 |
-| I-ORG
-FE B-ORG
-R I-ORG
-A I-ORG
-N I-ORG
-K I-ORG
-_ O
+| O
+FE B-MISC
+R I-MISC
+A I-MISC
+N I-MISC
+K I-MISC
+_ I-MISC
 N B-MISC
 E I-MISC
 Ro O
@@ -21279,23 +21279,23 @@ fentez O
 combien O
 la O
 diligence O
-eft O
-neceff B-PER
+eft B-PER
+neceff I-PER
 |
 
 | O
 fire O
 , O
-Le B-MISC
-Li I-MISC
+Le B-PER
+Li I-PER
 . O
 |
 | O
-L O
+L B-PER
 : O
-E. B-MISC
-B I-MISC
-ARON I-MISC
+E. O
+B O
+ARON O
 . O
 |
 
@@ -21366,7 +21366,7 @@ TÉROME I-ORG
 
 | O
 ee O
-CFRANKNER B-MISC
+CFRANKNER O
 |
 
 | O
@@ -21376,8 +21376,8 @@ CFRANKNER B-MISC
 
 | O
 am O
-TT B-ORG
-1 I-ORG
+TT O
+1 O
 |
 | O
 sm O
@@ -21385,20 +21385,20 @@ tee O
 |
 
 | O
-Lour B-MISC
-UT I-MISC
+Lour B-ORG
+UT I-ORG
 . O
-faccede O
+faccede B-PER
 à O
 âmes O
 vœux O
 , O
-Pourfuivons B-MISC
-juf- I-MISC
+Pourfuivons B-PER
+juf- O
 |
-| I-MISC
-qu’ I-MISC
-aubout I-MISC
+| O
+qu’ O
+aubout O
 .. O
 &qu' O
 aije O
@@ -21414,53 +21414,53 @@ tout O
 
 | O
 tt O
-SEMTEETIT B-ORG
+SEMTEETIT B-PER
 |
 
 | O
 Jérôme B-PER
-! O
+! I-PER
 .. O
 Mon-ftratagéme B-MISC
 a O
 réuffi O
-jufqu’ B-LOC
+jufqu’ O
 à O
 pré- O
 |
 | O
 fent O
-; O
+  O
 ( O
 onge O
 à O
 à O
 me O
 feconder O
-; O
+  O
 & O
 lorfque O
 tout O
 fera O
-ac O
-: O
+ac B-ORG
+: I-ORG
 |
-| O
-compli O
-; O
-vas O
-joïndre O
+| I-ORG
+compli I-ORG
+  O
+vas B-PER
+joïndre I-PER
 tes O
 efforts O
 à-ceux O
 de O
 la O
-Ba- B-LOC
+Ba- B-MISC
 |
 | O
 fonne O
 : O
-c’ B-MISC
+c’ O
 eft O
 tout O
 . O
@@ -21472,10 +21472,10 @@ attends O
 de O
 toi O
 , O
-Dieux B-PER
-! O
+Dieux B-MISC
+! I-MISC
 |
-| O
+| I-MISC
 faites O
 moi O
 trouver O
@@ -21493,7 +21493,7 @@ r O
 |
 
 | O
-em O
+em B-LOC
 ne O
 |
 | O
@@ -21504,8 +21504,8 @@ _ O
 < O
 . O
 . O
-im B-LOC
-Or I-LOC
+im B-MISC
+Or I-MISC
 |
 
 | O
@@ -21519,9 +21519,9 @@ A&es O
 |
 
 | O
-V3 B-PER
-D I-PER
-AN I-PER
+V3 B-MISC
+D I-MISC
+AN O
 mn O
 Em O
 |
@@ -21530,9 +21530,9 @@ Em O
 2e O
 oh O
 dore O
-AREA O
-ET O
-AUS B-MISC
+AREA B-ORG
+ET I-ORG
+AUS I-ORG
 |
 
 | O
@@ -21549,30 +21549,30 @@ l' O
 on O
 m' O
 enleve O
-Adéhïde?: O
+Adéhïde?: B-PER
 .... O
-Jérômel B-LOC
+Jérômel B-PER
 . O
 |
 
 | O
 4 O
-ms O
+ms B-MISC
 |
 
-| O
-DE O
-MARIENDAT B-MISC
+| I-MISC
+DE I-MISC
+MARIENDAT I-MISC
 gs O
 |
 | O
-ACTE B-PER
-V. I-PER
+ACTE B-MISC
+V. I-MISC
 |
-| O
+| I-MISC
 . O
-SCENE B-ORG
-PREMIERE O
+SCENE B-MISC
+PREMIERE I-MISC
 . O
 |
 
@@ -21581,9 +21581,9 @@ PREMIERE O
 |
 
 | O
-Le B-MISC
-Théatre I-MISC
-repréfente O
+Le O
+Théatre B-LOC
+repréfente I-LOC
 à O
 ut O
 caveau O
@@ -21606,8 +21606,8 @@ ayeux O
 | O
 du O
 . O
-Baron B-PER
-; O
+Baron O
+  O
 ornés O
 d' O
 armes O
@@ -21617,11 +21617,11 @@ chiffres O
 à O
 |
 | O
-Le O
-uTle B-ORG
-‘ O
-lampe O
-fépulchrale O
+Le B-MISC
+uTle I-MISC
+‘ I-MISC
+lampe I-MISC
+fépulchrale I-MISC
 Péclaire B-MISC
 . O
 |||| O
@@ -21633,15 +21633,15 @@ Péclaire B-MISC
 5 O
 . O
 ‘ O
-A B-MISC
-D I-MISC
-É I-MISC
-L I-MISC
+A B-PER
+D I-PER
+É I-PER
+L O
 À O
 : O
-ID B-ORG
-E I-ORG
-pâle I-ORG
+ID B-MISC
+E I-MISC
+pâle I-MISC
 , O
 échevelée O
 , O
@@ -21653,7 +21653,7 @@ vis O
 encore O
 & O
 : O
-re B-MISC
+re O
 . O
 voilà O
 defcendue O
@@ -21666,7 +21666,7 @@ a O
 des O
 morts O
 . O
-C7 B-LOC
+C7 O
 en O
 eft O
 fait O
@@ -21692,9 +21692,9 @@ mais O
 | O
 vous O
 : O
-auroisje O
+auroisje B-LOC
 . O
-foupçonné O
+foupçonné B-LOC
 tant O
 de O
 : O
@@ -21703,10 +21703,10 @@ Si O
 |
 | O
 : O
-T' O
-étois O
-coupable O
-3 O
+T' B-MISC
+étois I-MISC
+coupable I-MISC
+3 I-MISC
 . O
 il O
 . O
@@ -21714,16 +21714,16 @@ falloit O
 me O
 punir O
 , O
-& O
-la O
-mort O
+& B-MISC
+la I-MISC
+mort I-MISC
 . O
 |
 | O
 mais O
 , O
 Ja B-MISC
-douleur I-MISC
+douleur O
 , O
 Ja B-MISC
 . O
@@ -21731,12 +21731,12 @@ rage O
 » O
 le O
 . O
-défefpoir O
+défefpoir B-PER
 , O
 toute O
 |
 | O
-Phorreur B-LOC
+Phorreur B-MISC
 qui O
 m O
 environne O
@@ -21773,7 +21773,7 @@ ilsont O
 | O
 |||| O
 méritée O
-; O
+  O
 mais O
 quelques O
 inftans O
@@ -21786,11 +21786,11 @@ en O
 ordonner O
 les O
 appréts O
-; O
+  O
 leurs O
 derniers O
 foupirs O
-s’ B-PER
+s’ O
 échap- O
 |
 | O
@@ -21798,14 +21798,14 @@ cpent O
 ‘ O
 dans O
 le O
-fein O
+fein B-ORG
 d' O
 un O
 confolateur O
 , O
-& O
-leurs O
-Juges B-MISC
+& B-MISC
+leurs I-MISC
+Juges I-MISC
 |
 | O
 ne O
@@ -21836,10 +21836,10 @@ réfte O
 
 | O
 Do O
-one B-MISC
-4 I-MISC
-D I-MISC
-gene I-MISC
+one O
+4 O
+D O
+gene O
 a O
 ee O
 + O
@@ -21849,10 +21849,10 @@ ee O
 » O
 ÿ O
 ADÉLAIDÉ B-MISC
-: O
+: I-MISC
 |
-| O
-Ah B-MISC
+| I-MISC
+Ah I-MISC
 ! I-MISC
 ces O
 objets O
@@ -21866,14 +21866,14 @@ m' O
 | O
 _ O
 vont O
-räffermir O
+räffermir B-PER
 mon O
 courage O
 ... O
-Ma O
-mere O
-‘ O
-ina O
+Ma B-PER
+mere I-PER
+‘ I-PER
+ina I-PER
 |
 | O
 tendre O
@@ -21928,7 +21928,7 @@ douloureux O
 . O
 |
 | O
-Frankner B-LOC
+Frankner B-PER
 tu O
 te O
 joins O
@@ -21936,11 +21936,11 @@ joins O
 elle O
 . O
 .. O
-O O
-mon O
-pere O
-! O
-foyez O
+O B-MISC
+mon I-MISC
+pere I-MISC
+! I-MISC
+foyez B-ORG
 |
 | O
 / O
@@ -21949,8 +21949,8 @@ de O
 ce O
 fpeacle O
 , O
-devenéz O
-fénfible O
+devenéz B-PER
+fénfible I-PER
 une O
 : O
 |
@@ -21964,7 +21964,7 @@ du O
 tombeau O
 , O
 | | O
-Tnfeüfée B-MISC
+Tnfeüfée B-PER
 ! O
 |
 | O
@@ -22001,7 +22001,7 @@ honte O
 , O
 ! O
 “ O
-nEmie B-MISC
+nEmie O
 . O
 … O
 ah O
@@ -22012,8 +22012,8 @@ que O
 |
 | O
 je O
-fouffre O
-eft O
+fouffre B-PER
+eft I-PER
 peut-être O
 moins O
 affreux O
@@ -22047,7 +22047,7 @@ affoibliflent O
 ( O
 Ses O
 | | O
-génoux O
+génoux B-PER
 plient O
 fous O
 elle O
@@ -22094,7 +22094,7 @@ dis O
 l' O
 inftant O
 hèure O
-EUXe B-MISC
+EUXe B-ORG
 |
 | O
 Le O
@@ -22114,7 +22114,7 @@ malheurs O
 O B-MISC
 ciel I-MISC
 ! I-MISC
-hâte O
+hâte I-MISC
 le O
 coup O
 ... O
@@ -22127,7 +22127,7 @@ oin O
 | O
 ‘ O
 peut-être O
-; O
+  O
 la O
 faim O
 , O
@@ -22145,8 +22145,8 @@ fur O
 ma O
 tête O
 ... O
-Quelles B-LOC
-armès O
+Quelles O
+armès B-LOC
 puis O
 -je O
 leur O
@@ -22179,8 +22179,8 @@ pas O
 lents O
 , O
 me O
-frappèr O
-F B-LOC
+frappèr B-LOC
+F I-LOC
 par O
 degrés O
 , O
@@ -22208,21 +22208,21 @@ vois O
 -je O
 ? O
 ( O
-Elle B-MISC
-Je I-MISC
-leve I-MISC
-avec I-MISC
-vivacité I-MISC
+Elle O
+Je O
+leve O
+avec O
+vivacité O
 , O
 6 O
 |
 | O
 « O
-Ya O
-prendre O
-un O
-poignard O
-qu’ B-PER
+Ya B-MISC
+prendre I-MISC
+un I-MISC
+poignard I-MISC
+qu’ O
 elle O
 apperçoit O
 für O
@@ -22236,24 +22236,24 @@ _ O
 ééreeil O
 } O
 , O
-Je B-MISC
-refpire I-MISC
+Je B-PER
+refpire I-PER
 , O
 Get B-MISC
 objet I-MISC
-à I-MISC
-a I-MISC
-‘ I-MISC
-rarimé I-MISC
-toutes I-MISC
-lés I-MISC
+à O
+a O
+‘ O
+rarimé O
+toutes O
+lés O
 |
 
  
 
-| I-MISC
+| O
 DE O
-MARIENDAÏL B-ORG
+MARIENDAÏL B-MISC
 … O
 # O
 7 O
@@ -22285,7 +22285,7 @@ votre O
 | O
 gloire O
 ... O
-I B-LOC
+I O
 ef O
 temps O
 ... O
@@ -22294,7 +22294,7 @@ heure O
 fonne O
 , O
 … O
-Pere O
+Pere B-PER
 |
 | O
 barbare O
@@ -22321,24 +22321,24 @@ quelqu O
 un O
 vient O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-mm O
-CA B-LOC
+| I-MISC
+mm I-MISC
+CA I-MISC
 |
 | O
-SCENE O
-IT B-ORG
+SCENE B-MISC
+IT I-MISC
 |
 
-| I-ORG
-LE I-ORG
-BARON I-ORG
+| I-MISC
+LE I-MISC
+BARON I-MISC
 , O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 , O
 |
 | O
@@ -22347,12 +22347,12 @@ ADÉLAIDE B-MISC
 |
 
 | O
-L O
-Le O
-Chevalier B-ORG
-& I-ORG
-le I-ORG
-Baron I-ORG
+L B-MISC
+Le I-MISC
+Chevalier I-MISC
+& I-MISC
+le I-MISC
+Baron I-MISC
 defcendent O
 eux O
 - O
@@ -22362,7 +22362,7 @@ mêmes O
 un O
 cercueil O
 avec O
-myfiere O
+myfiere B-PER
 , O
 ) O
 ° O
@@ -22370,7 +22370,7 @@ myfiere O
 
 | O
 Le O
-CHÉVALIER O
+CHÉVALIER B-MISC
 |
 
 | O
@@ -22405,37 +22405,37 @@ frere O
 |
 | O
 _ O
-Ai O
+Ai B-PER
 -je O
 encore O
 de O
 nouveaux O
 tourmens O
 à O
-fouffrir O
+fouffrir B-PER
 ? O
 |
 
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 
 | O
 Malheureufe B-PER
-L I-PER
+L O
 |
 
 | O
 L£é O
-CHEVALIER B-ORG
+CHEVALIER B-PER
 |
-| O
-Vois O
+| I-PER
+Vois I-PER
 , O
 regarde O
-; O
+  O
 ton O
 indigne O
 amour O
@@ -22451,8 +22451,8 @@ forfait O
 |
 
 | O
-A B-LOC
-DÉLAÏDE I-LOC
+A B-MISC
+DÉLAÏDE I-MISC
 . O
 |||| O
 |
@@ -22482,9 +22482,9 @@ refpire O
 ... O
 Un O
 nouveau O
-Forfait B-ORG
-! I-ORG
-Bat B-PER
+Forfait B-MISC
+! I-MISC
+Bat O
 } O
 |
 | O
@@ -22505,15 +22505,15 @@ rroublé O
 , O
 |
 | O
-Sortons B-MISC
-, I-MISC
-mon I-MISC
-fils I-MISC
+Sortons B-LOC
+, O
+mon O
+fils O
 . O
 |
 | O
 LE O
-CHEv B-MISC
+CHEv B-ORG
 ALIÉR B-ORG
 troublé O
 , O
@@ -22521,12 +22521,12 @@ troublé O
 |
 | O
 : O
-Sortons O
+Sortons B-PER
 , O
 Où B-MISC
-allez O
--vous O
-? O
+allez I-MISC
+-vous I-MISC
+? I-MISC
 .. O
 Quel O
 trouble O
@@ -22536,12 +22536,12 @@ ns O
 |
 | O
 LE O
-Baro B-MISC
-Ne I-MISC
+Baro O
+Ne O
 |
-| I-MISC
+| O
 Allons O
-; O
+  O
 je O
 te O
 fuis O
@@ -22552,10 +22552,10 @@ fuis O
 DÉLAÏD B-MISC
 E I-MISC
 |
-| O
-Vous O
-me O
-quittez O
+| I-MISC
+Vous I-MISC
+me I-MISC
+quittez I-MISC
 , O
 mon O
 pere O
@@ -22573,9 +22573,9 @@ Mais O
 parlez O
 , O
 quelle O
-eft O
-ja O
-malheureuf O
+eft B-PER
+ja I-PER
+malheureuf I-PER
 & O
 |
 
@@ -22584,32 +22584,32 @@ viétime O
 |
 | O
 " O
-LE O
-B B-MISC
+LE B-MISC
+B I-MISC
 A I-MISC
 R I-MISC
 O I-MISC
-N O
+N I-MISC
 , O
 |
 
 | O
-Vous O
-l' O
-pprendrez O
+Vous B-MISC
+l' I-MISC
+pprendrez I-MISC
 , O
 ma O
 fille O
 , O
 |
 | O
-LE O
-CHEVALIER B-ORG
+LE B-MISC
+CHEVALIER I-MISC
 , O
 |
 | O
-Tu B-MISC
-ladoras I-MISC
+Tu O
+ladoras O
 vivant O
 , O
 tu O
@@ -22625,17 +22625,17 @@ tombe O
 . O
 |
 | O
-ADÉLAIDE B-MISC
-h B-LOC
+ADÉLAIDE O
+h O
 |
 
-| I-LOC
-Ciel B-ORG
-! I-ORG
+| O
+Ciel O
+! O
 ( O
 Elle O
-fe O
-laiffe O
+fe B-PER
+laiffe I-PER
 tomber O
 à O
 ces O
@@ -22654,19 +22654,19 @@ tombeau O
 |
 
 | O
-Le O
-Baron O
+Le B-PER
+Baron I-PER
 . O
 |
 
 | O
-Mon O
-fils O
+Mon B-MISC
+fils I-MISC
 , O
 foutiens O
 . O
 moi O
-; O
+  O
 fortons O
 . O
 |||| O
@@ -22683,11 +22683,11 @@ autre O
 en O
 chancelant O
 . O
-} O
+} B-MISC
 |
 
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 .. O
 : O
 . O
@@ -22702,8 +22702,8 @@ chancelant O
 |
 | O
 * O
-TA B-ORG
-x I-ORG
+TA B-PER
+x I-PER
 . O
 sn O
 |
@@ -22744,32 +22744,32 @@ MARIENDAL B-ORG
 * O
 Fos B-LOC
 5,4 O
-Pr B-MISC
-QE I-MISC
+Pr O
+QE O
 |
 
 | O
 SCENE O
 111 O
-Lo B-LOC
-|||| O
+Lo B-MISC
+|||| I-MISC
 |
-| O
-ADÉLAIDE B-MISC
+| I-MISC
+ADÉLAIDE I-MISC
 , O
-FRANÉNER B-ORG
+FRANÉNER B-MISC
 , O
 |
 | O
 ADÉLaiDe O
-Li B-PER
+Li O
 _ O
 ï O
 |
 
 | O
-Fe B-LOC
-E I-LOC
+Fe O
+E O
 me O
 meurs O
 ’ O
@@ -22794,15 +22794,15 @@ mon O
 ! O
 |
 | O
-F B-PER
-RAN I-PER
-K I-PER
-N I-PER
+F B-LOC
+RAN O
+K O
+N O
 ERS O
 ' O
 élançant O
 du O
-cercueily B-LOC
+cercueily B-MISC
 . O
 , O
 |
@@ -22843,10 +22843,10 @@ La B-MISC
 | I-MISC
 douleur I-MISC
 . O
-la O
-joié O
+la B-PER
+joié I-PER
 … O
-Efkce B-ORG
+Efkce O
 toir O
 ‘ O
 |
@@ -22861,8 +22861,8 @@ FRANKNER B-MISC
 Oui O
 , O
 ceft O
-Frankner B-ORG
-; O
+Frankner B-PER
+  O
 je O
 viens O
 arracher O
@@ -22882,7 +22882,7 @@ toi O
 |
 
 | O
-ÀÂADÉLAÏDE O
+ÀÂADÉLAÏDE B-MISC
 . O
 |
 
@@ -22918,7 +22918,7 @@ fera O
 |
 
 | O
-æendue O
+æendue B-MISC
 … O
 . O
 J' O
@@ -22940,14 +22940,14 @@ jours O
 J' B-MISC
 ai I-MISC
 tout I-MISC
-: I-MISC
-hazardé I-MISC
-pour I-MISC
-m' I-MISC
-en I-MISC
+: O
+hazardé O
+pour O
+m' O
+en O
 |
-| I-MISC
-éclaircir I-MISC
+| O
+éclaircir O
 . O
 Jérôme B-PER
 doit O
@@ -22955,7 +22955,7 @@ feconder O
 . O
 ta O
 : O
-meré B-PER
+meré O
 , O
 que O
 j' O
@@ -22970,9 +22970,9 @@ que O
 j' O
 entreprends O
 : O
-Etlenous O
+Etlenous B-ORG
 aime O
-; O
+  O
 |
 
 | O
@@ -22986,7 +22986,7 @@ aime O
 
 | O
 8 O
-ADÉTAIDE O
+ADÉTAIDE B-ORG
 : O
 , O
 |
@@ -23002,12 +23002,12 @@ qui O
 nous O
 renferme O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-Le B-MISC
-barbate I-MISC
+| I-MISC
+Le O
+barbate O
 qui O
 fut O
 ton O
@@ -23025,7 +23025,7 @@ d' O
 amour O
 , O
 Mais O
-s’ B-PER
+s’ O
 il O
 perhftoit O
 dans O
@@ -23059,7 +23059,7 @@ de O
 tes O
 |
 | O
-ayEUXx O
+ayEUXx B-LOC
 .. O
 Je O
 te O
@@ -23104,10 +23104,10 @@ découvert O
 fans O
 doute O
 , O
-ve O
-Ta B-LOC
-: O
-mere O
+ve B-MISC
+Ta I-MISC
+: I-MISC
+mere I-MISC
 , O
 é O
 |
@@ -23116,15 +23116,15 @@ c' O
 eft O
 elle-même O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-+ O
+| I-MISC
++ I-MISC
 |
 
-| O
-SCENE B-MISC
+| I-MISC
+SCENE I-MISC
 IV I-MISC
 . O
 © O
@@ -23132,14 +23132,14 @@ IV I-MISC
 
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 ADÉLAIDE B-MISC
 , O
 |
 
 | O
-FRANRNER B-ORG
+FRANRNER B-MISC
 . O
 |
 
@@ -23177,14 +23177,14 @@ Tr I-MISC
 % O
 |
 | O
-D O
+D B-PER
 |
 
-| O
-O O
-ma O
-lle O
-! O
+| I-PER
+O I-PER
+ma I-PER
+lle I-PER
+! I-PER
 je O
 te O
 retr O
@@ -23205,9 +23205,9 @@ barbare I-MISC
 ne I-MISC
 me I-MISC
 ravira I-MISC
-plus I-MISC
-mon I-MISC
-Adélaïde B-LOC
+plus O
+mon O
+Adélaïde B-PER
 . O
 |
 
@@ -23226,19 +23226,19 @@ vous O
 dois O
 : O
 de O
-Pas B-LOC
+Pas O
 |
 | O
 « O
 Frankner B-PER
 sosie O
-NON O
-fils O
-! O
+NON B-MISC
+fils I-MISC
+! I-MISC
 L. O
 { O
 au O
-LE O
+LE B-LOC
 2 O
 |
 
@@ -23257,34 +23257,34 @@ ot O
 DE O
 MARIENDAL B-ORG
 , O
-Sr B-MISC
+Sr B-ORG
 |
 
  
 
-| I-MISC
-= I-MISC
-” I-MISC
+| I-ORG
+= I-ORG
+” O
 a O
 " O
 |
 | O
 |||| O
-SCENE O
-PF O
+SCENE B-ORG
+PF I-ORG
 . O
 |
 
 | O
-Finn B-PER
-ed I-PER
+Finn B-MISC
+ed I-MISC
 , O
 |
 
 | O
 no O
-LES O
-MÈMES O
+LES B-MISC
+MÈMES I-MISC
 , O
 LE B-MISC
 BARON I-MISC
@@ -23298,20 +23298,20 @@ Baron O
 |
 
 | O
-Qu O
+Qu B-ORG
 . O
-eft O
-le O
-téméraire O
+eft B-PER
+le I-PER
+téméraire I-PER
 qui O
-ofe B-ORG
+ofe O
 me O
 braver O
 inf O
 ? O
 |
 | O
-FRANENER O
+FRANENER B-MISC
 Je O
 préfentans O
 . O
@@ -23320,18 +23320,18 @@ préfentans O
 Le O
 voilà O
 , O
-|||| O
-|||| O
+|||| B-MISC
+|||| I-MISC
 |
-| O
-_ O
-... O
-LE O
-Baron B-ORG
+| I-MISC
+_ I-MISC
+... I-MISC
+LE B-PER
+Baron I-PER
 |
-| I-ORG
-Vous I-ORG
-! I-ORG
+| I-PER
+Vous I-PER
+! I-PER
 Co O
 |
 | O
@@ -23342,15 +23342,15 @@ FRANKNER B-MISC
 |
 | O
 . O
-Frankner B-ORG
+Frankner B-PER
 . O
 0 O
 |
 | O
 _ O
 . O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -23359,10 +23359,10 @@ BARON B-ORG
 |
 
 | O
-Infolent!. O
+Infolent!. B-PER
 … O
 fortez O
-; O
+  O
 ou O
 la O
 mort O
@@ -23370,23 +23370,23 @@ mort O
 ou O
 |
 | O
-F B-PER
-RANKNER I-PER
+F B-MISC
+RANKNER I-MISC
 |
-| I-PER
+| O
 Je O
 ne O
 fortirai O
 qu O
 avec O
-Adélaïde B-LOC
+Adélaïde B-PER
 . O
 |
 
 | O
-A B-MISC
-D I-MISC
-Ë O
+A B-PER
+D I-PER
+Ë I-PER
 LAÏDE O
 dans O
 les O
@@ -23411,22 +23411,22 @@ moment O
 | O
 l O
 ce O
-LE O
+LE B-LOC
 . O
 BA B-ORG
 R I-ORG
 O.N. I-ORG
 |
-| I-ORG
-PAT I-ORG
-oferiez O
-Pons B-PER
-|||| O
-|||| O
-|||| O
-|
 | O
-CFRANKNER B-MISC
+PAT B-ORG
+oferiez I-ORG
+Pons I-ORG
+|||| I-ORG
+|||| I-ORG
+|||| I-ORG
+|
+| I-ORG
+CFRANKNER I-ORG
 _ O
 . O
 |
@@ -23450,7 +23450,7 @@ cœur O
 eft O
 donc O
 à O
-inca- O
+inca- B-LOC
 |
 
 | O
@@ -23462,8 +23462,8 @@ de O
 remords O
 ! O
 ll O
-afpe B-ORG
-& I-ORG
+afpe O
+& O
 de O
 ce O
 lieu O
@@ -23477,9 +23477,9 @@ l. O
 : O
 - O
 . O
-|||| B-MISC
+|||| O
 . O
-4 B-MISC
+4 O
 FE O
 |
 
@@ -23504,21 +23504,21 @@ ne O
 |
 
 | O
-LS B-ORG
+LS B-MISC
 |
 
-| I-ORG
-& I-ORG
-e I-ORG
+| I-MISC
+& I-MISC
+e I-MISC
 . O
 : O
 . O
 ADÉLAIDE B-MISC
 |
 
-| O
-üne O
-mere O
+| I-MISC
+üne I-MISC
+mere I-MISC
 en O
 pleurs O
 , O
@@ -23532,8 +23532,8 @@ ne O
 | O
 le.touche O
 .. O
-Barbare B-MISC
-! I-MISC
+Barbare B-PER
+! O
 je O
 pourrois O
 implorer O
@@ -23546,7 +23546,7 @@ le O
 glaive O
 des O
 loix O
-; O
+  O
 je O
 vous O
 verrois O
@@ -23555,7 +23555,7 @@ bientôt O
 
 | O
 accablé O
-foùs O
+foùs B-PER
 le O
 poids O
 de O
@@ -23577,7 +23577,7 @@ exemple O
 à O
 l' O
 univers O
-; O
+  O
 |
 
 | O
@@ -23589,7 +23589,7 @@ pere O
 eft O
 celui O
 d' O
-Adélaïde B-LOC
+Adélaïde B-PER
 , O
 & O
 ce O
@@ -23614,13 +23614,13 @@ de I-MISC
 fa I-MISC
 fille I-MISC
 , O
-dé O
-fon O
-époufe O
+dé B-PER
+fon I-PER
+époufe I-PER
 , O
 le O
 fien O
-; O
+  O
 qu' O
 il O
 jette O
@@ -23641,7 +23641,7 @@ vertueux O
 qui O
 tombe O
 à O
-fes O
+fes B-LOC
 genoux O
 , O
 les O
@@ -23656,7 +23656,7 @@ Ah B-MISC
 ! I-MISC
 Monfieur O
 , O
-foyez O
+foyez B-ORG
 touché O
 des O
 malheurs O
@@ -23667,10 +23667,10 @@ de O
 votre O
 famille O
 , O
-J' B-MISC
-adore I-MISC
-votre I-MISC
-fille I-MISC
+J' O
+adore O
+votre O
+fille O
 , O
 je O
 ne O
@@ -23695,39 +23695,39 @@ refpeätueux O
 
 | O
 LÉS B-MISC
-MÊMES B-ORG
+MÊMES O
 , O
 JÉROME B-MISC
 . O
 |
 | O
-JÉRÔME B-ORG
-empreffé O
+JÉRÔME B-PER
+empreffé I-PER
 . O
 |
 
 | O
 An B-MISC
 ! I-MISC
-Monfieur B-PER
+Monfieur O
 .. O
 |
 
 | O
-Lx B-MISC
-B4aRroô I-MISC
-x. I-MISC
+Lx O
+B4aRroô O
+x. O
 |
-| I-MISC
-Que I-MISC
+| O
+Que B-MISC
 voulez I-MISC
 -vous I-MISC
 , O
 Jérôme B-PER
-? O
+? I-PER
 |
-| O
-JÉRÔME B-ORG
+| I-PER
+JÉRÔME I-PER
 , O
 |
 | O
@@ -23739,7 +23739,7 @@ de O
 chevaux O
 & O
 d' O
-Huiffiers B-LOC
+Huiffiers B-MISC
 : O
 |
 | O
@@ -23750,8 +23750,8 @@ par O
 tout O
 , O
 on O
-fifi O
-t O
+fifi B-MISC
+t I-MISC
 tout O
 . O
 Monfieur O
@@ -23764,11 +23764,11 @@ Chevalier O
 à O
 voulu O
 n O
-soppofer O
+soppofer B-PER
 à O
 à-leurs O
 entreprifes O
-; O
+  O
 |
 
 | O
@@ -23777,9 +23777,9 @@ s O
 
 | O
 DE O
-MARIENDAL B-MISC
-# I-MISC
-; O
+MARIENDAL O
+# O
+  O
 |
 | O
 & O
@@ -23794,13 +23794,13 @@ faire O
 |
 | O
 violence O
-; O
+  O
 on O
 le O
 défarme O
 , O
 on O
-l’ B-LOC
+l’ O
 enferme O
 , O
 on O
@@ -23813,7 +23813,7 @@ garde O
 à O
 à O
 vue O
-; O
+  O
 une O
 affreufe O
 prifon O
@@ -23825,7 +23825,7 @@ pare O
 |
 | O
 rage O
-Ah O
+Ah B-MISC
 Monfie O
 jeur O
 ! O
@@ -23844,17 +23844,17 @@ R I-MISC
 o I-MISC
 x. I-MISC
 |
-| I-MISC
-J' I-MISC
+| O
+J' O
 y O
 cours O
 , O
-|||| O
+|||| B-PER
 |
-| O
-JéRrô B-MISC
-‘ O
-M B-PER
+| I-PER
+JéRrô I-PER
+‘ I-PER
+M I-PER
 E. I-PER
 Le O
 retenant O
@@ -23863,8 +23863,8 @@ retenant O
 
 | O
 Gardez B-LOC
-- O
-voüs O
+- I-LOC
+voüs I-LOC
 de O
 . O
 vous O
@@ -23880,7 +23880,7 @@ en O
 * O
 grand O
 nombre O
-; O
+  O
 ils O
 vous O
 cherchent O
@@ -23897,9 +23897,9 @@ même O
 |
 
 | O
-L B-LOC
-E I-LOC
-BaArRO I-LOC
+L B-MISC
+E I-MISC
+BaArRO I-MISC
 Ne O
 _ O
 |
@@ -23909,8 +23909,8 @@ Tont O
 eft O
 perdu O
 . O
-Fo O
-TS B-ORG
+Fo B-ORG
+TS I-ORG
 . O
 * O
 |
@@ -23929,16 +23929,16 @@ Nous O
 allons O
 voir O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
+| I-MISC
 ADÉLAÏDE O
 6 O
 courant O
 à O
-fa O
-mere O
+fa B-PER
+mere I-PER
 . O
 |
 
@@ -23964,11 +23964,11 @@ Demeurez B-PER
 , O
 Madame B-PER
 , O
-jufqu’ B-PER
+jufqu’ O
 à O
 mon O
 retour O
-; O
+  O
 fi O
 |
 | O
@@ -23983,17 +23983,17 @@ fuive O
 , O
 |
 | O
-|||| O
-L B-MISC
-A I-MISC
-Ba O
-RON O
-N O
-EF O
+|||| B-PER
+L I-PER
+A I-PER
+Ba I-PER
+RON I-PER
+N I-PER
+EF I-PER
 |
 | O
 _ O
-Gela B-PER
+Gela B-LOC
 fuffit O
 , O
 ne O
@@ -24002,28 +24002,28 @@ rien O
 , O
 |
 | O
-Fe B-ORG
-ANKN I-ORG
-E I-ORG
-R I-ORG
+Fe B-LOC
+ANKN I-LOC
+E I-LOC
+R I-LOC
 , O
 |
 
 | O
 © O
 Je O
-comipte O
+comipte B-PER
 fur O
 votre O
 . O
 fermeté O
 , O
-& O
-vais O
-mettre O
+& B-MISC
+vais I-MISC
+mettre I-MISC
 |
-| O
-ordre O
+| I-MISC
+ordre I-MISC
 : O
 à O
 tout O
@@ -24038,29 +24038,29 @@ ij I-MISC
 | I-MISC
 DER I-MISC
 ES I-MISC
-EP I-MISC
+EP O
 |
 
 | O
 # O
 |||| O
-ARÉLALPE B-MISC
+ARÉLALPE O
 |||| O
 |
 
 | O
-LS B-ORG
-CE I-ORG
-NE I-ORG
+LS O
+CE O
+NE O
 . O
-VIL B-MISC
+VIL B-LOC
 . O
 |
 
 | O
 ( O
-LE O
-BARON B-ORG
+LE B-LOC
+BARON O
 . O
 LA O
 BÂRONNE B-ORG
@@ -24070,14 +24070,14 @@ ADÉLAIDE B-MISC
 |
 | O
 " O
-JÉRÔME B-ORG
+JÉRÔME B-MISC
 . O
 L O
 |
 
 | O
 LA O
-Baron O
+Baron B-PER
 . O
 |
 
@@ -24092,8 +24092,8 @@ Monfier B-PER
 jeur I-PER
 , O
 voici O
-|||| O
-inflant O
+|||| B-LOC
+inflant I-LOC
 de O
 la O
 deftruc- O
@@ -24117,7 +24117,7 @@ lieu O
 funebre O
 que O
 vous O
-defliniez O
+defliniez B-PER
 à O
 à O
 votre O
@@ -24129,9 +24129,9 @@ fille O
 va O
 peut-être O
 . O
-devénir O
-votre O
-afyle O
+devénir B-PER
+votre I-PER
+afyle I-PER
 , O
 Vous B-MISC
 allez I-MISC
@@ -24181,16 +24181,16 @@ maux O
 |
 
 | O
-Le O
-BARON O
-|||| O
+Le B-MISC
+BARON I-MISC
+|||| I-MISC
 |
 
-| O
-y O
-acobpterois O
-des O
-fecours O
+| I-MISC
+y I-MISC
+acobpterois I-MISC
+des I-MISC
+fecours I-MISC
 d' O
 un O
 homme O
@@ -24227,7 +24227,7 @@ de O
 vos O
 ‘ O
 affires O
-; O
+  O
 songe O
 |
 | O
@@ -24248,7 +24248,7 @@ du O
 crime O
 commis O
 fur O
-Adélaïde B-LOC
+Adélaïde B-PER
 . O
 Vous O
 : O
@@ -24258,9 +24258,9 @@ avez O
 bien O
 accepté O
 des O
-Yécours B-MISC
-de I-MISC
-Jérômé I-MISC
+Yécours B-PER
+de I-PER
+Jérômé I-PER
 , O
 d' O
 un O
@@ -24268,7 +24268,7 @@ un O
  | O
 fimple O
 domeflique O
-; O
+  O
 & O
 vous O
 ne O
@@ -24301,7 +24301,7 @@ Monfieur B-PER
 { O
 ortez O
 d’ O
-erreür B-PER
+erreür B-LOC
 |
 
 | O
@@ -24319,12 +24319,12 @@ _ O
 | O
 |||| O
 Jérôme B-PER
-na O
+na I-PER
 rien O
 fait O
 pour O
 vous O
-; O
+  O
 ceft O
 Franknex B-ORG
 |
@@ -24361,8 +24361,8 @@ fait O
 , O
 a O
 eu O
-l4 B-PER
-délicateñle O
+l4 O
+délicateñle B-PER
 d' O
 emprunter O
 : O
@@ -24373,12 +24373,12 @@ main O
 |||| O
 étrangere O
 , O
-|||| O
+|||| B-PER
 |
-| O
-|||| O
-LE O
-BARON B-ORG
+| I-PER
+|||| I-PER
+LE I-PER
+BARON I-PER
 . O
 |
 
@@ -24396,7 +24396,7 @@ Jérôme B-PER
 
 | O
 LA O
-BAaARONNE O
+BAaARONNE B-PER
 . O
 |
 
@@ -24408,19 +24408,19 @@ eft O
 fait O
 , O
 Voyez B-MISC
-derriere O
-vous O
+derriere I-MISC
+vous I-MISC
 |
-| O
-un O
-précipice O
-horrible O
-; O
+| I-MISC
+un I-MISC
+précipice I-MISC
+horrible I-MISC
+  O
 ne O
 reculez O
 pas O
 : O
-Revenez B-PER
+Revenez O
 |
 | O
 de O
@@ -24436,15 +24436,15 @@ mal- O
 |
 | O
 heur O
-& O
-le O
-nôtre O
+& B-MISC
+le I-MISC
+nôtre I-MISC
 , O
 |
 
 | O
 LE O
-BARON B-ORG
+BARON O
 aprés O
 avoir O
 révé O
@@ -24455,26 +24455,26 @@ inflant O
 
 | O
 © O
-Vous B-MISC
-ferez I-MISC
-fatisfaite I-MISC
+Vous O
+ferez O
+fatisfaite O
 , O
-Envoyez B-PER
-Jérôme I-PER
-favoir O
+Envoyez O
+Jérôme B-PER
+favoir I-PER
 |
 | O
 ce O
 qui O
-fe O
-päfe O
+fe B-PER
+päfe I-PER
 . O
 |
 | O
 LA O
-B B-MISC
-AR I-MISC
-ONNE O
+B O
+AR O
+ONNE B-MISC
 .. O
 |
 | O
@@ -24504,9 +24504,9 @@ fort I-PER
 
 | O
 LE O
-BARON B-ORG
+BARON O
 après O
-ur O
+ur B-MISC
 long O
 fi O
 filence O
@@ -24532,17 +24532,17 @@ moi O
 |||| O
 |
 | O
-L B-LOC
-A I-LOC
-B I-LOC
-À I-LOC
-R I-LOC
+L B-MISC
+A I-MISC
+B I-MISC
+À O
+R B-LOC
 ONNE I-LOC
 |||| O
 |
 | O
 © O
-Devenez B-PER
+Devenez O
 vous O
 - O
 même O
@@ -24569,13 +24569,13 @@ amitié O
 |
 
 | O
-LE O
-BARON O
-|||| O
+LE B-MISC
+BARON I-MISC
+|||| I-MISC
 |
-| O
-Ehl.bien O
-Adélaïde B-PER
+| I-MISC
+Ehl.bien I-MISC
+Adélaïde O
 , O
 embraffez- O
 moi O
@@ -24593,7 +24593,7 @@ ce O
 | O
 |||| O
 |||| O
-F B-LOC
+F O
 ï O
 |||| O
 |
@@ -24607,7 +24607,7 @@ f O
 
 | O
 8 O
-ADÉLAIDE O
+ADÉLAIDE B-MISC
 |
 
 | O
@@ -24616,7 +24616,7 @@ ADÉLAIDE O
 |
 
 | O
-Prenez B-LOC
+Prenez O
 la O
 clef O
 : O
@@ -24626,9 +24626,9 @@ fille O
 ‘ O
 allez O
 ouvrir O
-; O
+  O
 COUIEZ B-MISC
-; O
+  O
 |
 
 | O
@@ -24637,8 +24637,8 @@ ADÉLaive B-MISC
 |
 
 | O
-Mon O
-pere O
+Mon B-MISC
+pere I-MISC
 . O
 Ce O
 oo O
@@ -24649,7 +24649,7 @@ us O
 |||| O
 L O
 à O
-BARONNE O
+BARONNE B-MISC
 |
 | O
 ‘ O
@@ -24672,7 +24672,7 @@ rends O
 toute O
 ma O
 tendrefle O
-; O
+  O
 vous O
 me O
 |
@@ -24691,15 +24691,15 @@ dernier O
 |
 
 | O
-foupir O
-; O
+foupir B-PER
+  O
 mais O
 je O
 vous O
 le O
 répete O
 , O
-montrez B-PER
+montrez O
 -vous O
 |
 | O
@@ -24754,10 +24754,10 @@ ruine O
 eft O
 publique O
 , O
-notre B-LOC
+notre O
 |
 
-| I-LOC
+| O
 - O
 honte O
 eft O
@@ -24777,8 +24777,8 @@ nous O
 vivons O
 ... O
 ( O
-I O
-Jeur O
+I B-MISC
+Jeur I-MISC
 montre O
 un O
 poignard O
@@ -24797,8 +24797,8 @@ h O
 
 | O
 La O
-BARONNE B-ORG
-Co B-LOC
+BARONNE B-LOC
+Co I-LOC
 |
 
 | I-LOC
@@ -24810,8 +24810,8 @@ manquoit O
 votre O
 fureur O
 , O
-Adélaïde B-LOC
-! O
+Adélaïde B-MISC
+! I-MISC
 |
 | O
 embrallez O
@@ -24850,7 +24850,7 @@ e O
 J' O
 entends O
 du O
-bruit,.ciel B-ORG
+bruit,.ciel O
 ! O
 on O
 frappe O
@@ -24867,7 +24867,7 @@ me O
 faifir O
 peut-être O
 , O
-laïffez O
+laïffez B-PER
 un O
 malheu- O
 |
@@ -24876,32 +24876,32 @@ malheu- O
 “ O
 reux O
 , O
-fortez B-ORG
-& I-ORG
-fermez I-ORG
-fur O
-moi O
-les O
-portes O
-du O
+fortez B-MISC
+& I-MISC
+fermez I-MISC
+fur I-MISC
+moi I-MISC
+les I-MISC
+portes I-MISC
+du I-MISC
 |
 
-| O
-iombeau O
+| I-MISC
+iombeau I-MISC
 . O
-DS B-MISC
+DS B-ORG
 |
 | O
 La O
-BARONNE B-LOC
+BARONNE B-ORG
 |
 
-| I-LOC
-mat I-LOC
-D I-LOC
+| I-ORG
+mat I-ORG
+D I-ORG
 |
 
-| O
+| I-ORG
 dr O
 tas O
 |
@@ -24922,12 +24922,12 @@ volez O
 . O
 La O
 Baronne B-LOC
-fe O
-jette O
-Jur B-PER
+fe I-LOC
+jette I-LOC
+Jur O
 le O
 poignard O
-; O
+  O
 & O
 . O
 |
@@ -24939,9 +24939,9 @@ par O
 fes O
 efforts O
 le O
-Baron B-PER
+Baron B-LOC
 à O
-aitenter O
+aitenter B-LOC
 a O
 fes O
 |
@@ -24974,37 +24974,37 @@ laiffezmot O
 
 | O
 es O
-ALP B-ORG
-eme I-ORG
+ALP B-MISC
+eme I-MISC
 |
 | O
-SCENE B-ORG
-VIIL O
+SCENE O
+VIIL B-MISC
 |
 
 | O
 ( O
 LE O
-BARON B-ORG
+BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 |
 | O
 ADÉLAIDE B-MISC
 , O
 JÉROME B-MISC
-co I-MISC
+co O
 |
 
  
 
-| I-MISC
-+ I-MISC
+| O
++ O
 |
 
-| I-MISC
+| O
 J B-MISC
 Ë I-MISC
 R I-MISC
@@ -25015,17 +25015,17 @@ E. I-MISC
 |||| I-MISC
 |
 | I-MISC
-Ar B-LOC
-mon O
-cher O
-maire O
+Ar I-MISC
+mon I-MISC
+cher I-MISC
+maire I-MISC
 , O
 : O
 mon O
 cher O
 maître O
 , O
-ré- O
+ré- B-PER
 |
 | O
 jouiflez O
@@ -25039,17 +25039,17 @@ Ca B-MISC
 A I-MISC
 » I-MISC
 É I-MISC
-L I-MISC
+L O
 a O
 1DE B-MISC
 avec O
 impatience O
 . O
-Ut O
+Ut B-MISC
 |
-| O
+| I-MISC
 |||| O
-Hâtez B-LOC
+Hâtez O
 -vous O
 dé O
 parler O
@@ -25061,18 +25061,18 @@ Frankner B-PER
 . O
 |
 | O
-LÉ B-ORG
-R I-ORG
-Ô I-ORG
+LÉ O
+R O
+Ô O
 ME O
 : O
 |
 
 | O
-Il B-MISC
-R I-MISC
-votre I-MISC
-; I-MISC
+Il O
+R B-LOC
+votre O
+  O
 bienfiteur O
 . O
 Vos O
@@ -25105,8 +25105,8 @@ re O
 |
 
 | O
-Le B-LOC
-Baro I-LOC
+Le O
+Baro O
 . O
 DO O
 |
@@ -25120,13 +25120,13 @@ ne O
 , O
 |
 | O
-|||| O
-ADÉ O
+|||| B-PER
+ADÉ I-PER
 L O
 AÏDE O
-ave O
-e O
-ranpor O
+ave B-ORG
+e I-ORG
+ranpor I-ORG
 , O
 |
 
@@ -25135,29 +25135,29 @@ c. O
 Eh O
 ! O
 bien O
-; O
+  O
 mon O
 a O
 perce O
-BUS B-MISC
+BUS O
 rss O
 |
 
 | O
 88 O
 | | O
-ADÉLAIDE B-MISC
+ADÉLAIDE O
 |||| O
 |
 
 | O
 nr O
 te O
-JÉRÔME B-ORG
+JÉRÔME O
 |||| O
 |
 | O
-H B-PER
+H O
 a O
 brifé O
 les O
@@ -25166,7 +25166,7 @@ de O
 M. B-PER
 le I-PER
 Chevalier I-PER
-; O
+  O
 votre O
 |
 | O
@@ -25183,7 +25183,7 @@ e O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 . O
 | | O
 : O
@@ -25201,11 +25201,11 @@ BARONNE B-ORG
 . O
 |
 | O
-.Moñfieur O
-le O
-Baron O
+.Moñfieur B-PER
+le I-PER
+Baron I-PER
 , O
-vVoudriez B-MISC
+vVoudriez B-PER
 vous O
 encore O
 être O
@@ -25222,7 +25222,7 @@ ie O
 |
 | O
 LE O
-BARON B-ORG
+BARON O
 après O
 avoir O
 témoigné O
@@ -25247,20 +25247,20 @@ Madame B-PER
 |
 
 | O
-SCENE O
+SCENE B-MISC
 1x O
-CE O
-T O
-DERNIERE O
+CE B-MISC
+T I-MISC
+DERNIERE I-MISC
 . O
 |
 
 | O
 LE O
-BARON B-ORG
+BARON O
 , O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 , O
 ADÉLAIDE B-MISC
 , O
@@ -25268,7 +25268,7 @@ ADÉLAIDE B-MISC
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER O
 , O
 FRANKNER B-MISC
 , O
@@ -25280,8 +25280,8 @@ JÉROME B-MISC
 ( O
 Le B-MISC
 Chevalier I-MISC
-entre O
-éomme O
+entre I-MISC
+éomme I-MISC
 in O
 défe O
 fpére O
@@ -25289,8 +25289,8 @@ fpére O
 Fraänkner B-PER
 |
 | O
-Le O
-Jr B-LOC
+Le B-MISC
+Jr I-MISC
 : O
 avec O
 courage O
@@ -25305,13 +25305,13 @@ FRANKNER B-MISC
 
 | I-MISC
 Yo I-MISC
-ous O
+ous I-MISC
 avez O
 beauime O
 fuir O
 , O
 > O
-VOUS B-ORG
+VOUS B-MISC
 n' O
 échapperez O
 |||| O
@@ -25332,7 +25332,7 @@ accabler O
 
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
 Je O
@@ -25341,7 +25341,7 @@ déchiré O
 : O
 fa B-PER
 générofi I-PER
-té O
+té I-PER
 redouble O
 ma O
 |
@@ -25370,8 +25370,8 @@ lui O
  
 
 | O
-DE O
-MARIENDAI B-MISC
+DE B-ORG
+MARIENDAI I-ORG
 . O
 3 O
 % O
@@ -25405,10 +25405,10 @@ fituation O
 |
 | O
 ( O
-À O
-Frankner.j B-LOC
-Cruel I-LOC
-! I-LOC
+À B-MISC
+Frankner.j I-MISC
+Cruel I-MISC
+! I-MISC
 mets O
 le O
 . O
@@ -25448,14 +25448,14 @@ R O
 |
 
 | O
-O O
-Ciel O
-! O
+O B-MISC
+Ciel I-MISC
+! I-MISC
 |||| O
 |
 | O
 La O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -25472,33 +25472,33 @@ BARON O
 |
 
 | O
-Er O
-femble O
+Er B-MISC
+femble I-MISC
 , O
 |
 
 | O
-|||| O
-Chevalier B-ORG
+|||| B-PER
+Chevalier I-PER
 ! O
 |||| O
 |
 | O
 |||| O
 - O
-ADÉLAÏ B-PER
-D I-PER
-E. I-PER
+ADÉLAÏ O
+D O
+E. O
 |
-| I-PER
-Mon O
-frere O
-! O
+| O
+Mon B-MISC
+frere I-MISC
+! I-MISC
 |
 
 | O
 LA O
-BARONNE B-ORG
+BARONNE B-MISC
 . O
 |
 
@@ -25533,8 +25533,8 @@ tournez O
 vos O
 aîmes O
 contre O
-Frankner B-MISC
-! I-MISC
+Frankner B-PER
+! O
 Songez O
 à O
 |
@@ -25546,10 +25546,10 @@ il O
 nous O
 a O
 tirés O
-; O
+  O
 fongez O
 que O
-c’ B-MISC
+c’ O
 eft O
 par O
 lui O
@@ -25577,31 +25577,31 @@ devenir O
 |
 | O
 votre O
-partage O
-& O
+partage B-ORG
+& I-ORG
 . O
 celui O
 de O
 votre O
 pere O
 , O
-fongez O
-... O
+fongez B-MISC
+... I-MISC
 |
 
  
 
-| O
-LE O
-CHEVALIER B-ORG
+| I-MISC
+LE I-MISC
+CHEVALIER I-MISC
 |
 
-| O
-‘ O
-Arrêtez B-LOC
+| I-MISC
+‘ I-MISC
+Arrêtez I-MISC
 , O
 Madame B-PER
-; O
+  O
 c' O
 eft O
 -là O
@@ -25660,17 +25660,17 @@ baigner O
 gs O
 ‘ O
 ADÉLAIDE B-MISC
-|||| O
+|||| I-MISC
 |
-| O
-du O
-Gng B-MISC
-de I-MISC
-’ I-MISC
-notre I-MISC
-bienfaiteur I-MISC
-; O
-; O
+| I-MISC
+du I-MISC
+Gng I-MISC
+de O
+’ O
+notre O
+bienfaiteur O
+  O
+  O
 mais O
 qu O
 “ O
@@ -25681,8 +25681,8 @@ arrache O
 kj O
 jour O
 , O
-& O
-je O
+& B-MISC
+je I-MISC
 . O
 fuis O
 content O
@@ -25712,7 +25712,7 @@ ofe O
 | O
 ma O
 . O
-vie B-MISC
+vie O
 . O
 |||| O
 |
@@ -25729,7 +25729,7 @@ Laiflez O
 |
 | O
 La O
-BasowxE B-ORG
+BasowxE B-MISC
 remettant O
 un O
 papier O
@@ -25738,7 +25738,7 @@ Chevalier B-ORG
 . O
 |
 | O
-Tenez B-LOC
+Tenez B-PER
 , O
 mon O
 fils O
@@ -25748,16 +25748,16 @@ ou O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 aprés O
-J O
-avoir O
-jetté O
-Les B-MISC
+J B-MISC
+avoir I-MISC
+jetté I-MISC
+Les I-MISC
 syEuxe I-MISC
 |
 | I-MISC
-Le I-MISC
+Le B-MISC
 Brevet I-MISC
 d' I-MISC
 un I-MISC
@@ -25768,12 +25768,12 @@ régiment I-MISC
 rs B-LOC
 . O
 LA O
-BARONNÉ B-ORG
+BARONNÉ B-MISC
 |
 | O
 ‘ O
-|||| O
-Ceft O
+|||| B-PER
+Ceft I-PER
 un O
 ptéfent O
 de O
@@ -25783,7 +25783,7 @@ rankner O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 |
 | O
 _ O
@@ -25798,14 +25798,14 @@ confondu O
 | O
 17 O
 . O
-L B-MISC
-E I-MISC
-BA I-MISC
-R I-MISC
-O I-MISC
-Ki I-MISC
+L O
+E B-LOC
+BA I-LOC
+R I-LOC
+O I-LOC
+Ki I-LOC
 |
-| I-MISC
+| O
 Tu O
 viens O
 de O
@@ -25824,8 +25824,8 @@ ADÉLAÏÎDE B-ORG
 - O
 |
 | O
-|||.| O
-Ilsattendrit B-LOC
+|||.| B-MISC
+Ilsattendrit I-MISC
 .... O
 mon O
 frere O
@@ -25835,7 +25835,7 @@ frere O
 _ O
 . O
 La O
-BaARONNE B-MISC
+BaARONNE B-ORG
 |
 
  | O
@@ -25846,12 +25846,12 @@ générofi O
 ité O
 doit O
 . O
-fire O
+fire B-LOC
 oublier O
 f O
 fa O
 naiflance O
-; O
+  O
 elle O
 |
 | O
@@ -25862,13 +25862,13 @@ jufqu' O
 à O
 nous O
 . O
-|||| O
+|||| B-LOC
 |
 
-| O
-LE O
+| I-LOC
+LE I-LOC
 . O
-BARON B-MISC
+BARON O
 . O
 |
 
@@ -25878,12 +25878,12 @@ Nous O
 lui O
 devons O
 tout O
-; O
+  O
 allons O
 mon O
 fs O
 , O
-; O
+  O
 il O
 faut O
 |
@@ -25892,19 +25892,19 @@ _ O
 hous O
 acquitter O
 , O
-UT B-MISC
-ei O
-|||| O
+UT B-ORG
+ei I-ORG
+|||| I-ORG
 |
 
-| O
-# O
+| I-ORG
+# I-ORG
 |
 
  
 
-| O
-PE O
+| I-ORG
+PE I-ORG
 rare O
 am O
 en O
@@ -25912,7 +25912,7 @@ en O
 
 | O
 DE O
-MARIENDAÏ B-LOC
+MARIENDAÏ B-ORG
 . O
 |
 | O
@@ -25921,11 +25921,11 @@ FRANKNER B-MISC
 |
 
 | O
-Si O
-ra O
-vie O
-e O
-eft O
+Si B-MISC
+ra I-MISC
+vie I-MISC
+e I-MISC
+eft I-MISC
 un O
 fardeau O
 : O
@@ -25944,7 +25944,7 @@ l' O
 , O
 je O
 vous O
-l’ B-LOC
+l’ O
 abandontie O
 , O
 Mais O
@@ -25983,8 +25983,8 @@ Monfieur O
 je O
 veux O
 obtenir O
-fa O
-grace O
+fa B-PER
+grace I-PER
 ou O
 mourir O
 à O
@@ -25994,8 +25994,8 @@ genoux O
 |
 
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 
@@ -26022,17 +26022,17 @@ acquitter O
 
 | O
 LE O
-CHsvarien B-MISC
+CHsvarien B-LOC
 |
 | O
 : O
 Monperél B-PER
-|||| O
+|||| I-PER
 |
-| O
-LE O
-B B-MISC
-AR I-MISC
+| I-PER
+LE I-PER
+B I-PER
+AR O
 Ne O
 |
 
@@ -26047,7 +26047,7 @@ veux O
 , O
 je O
 ordonne O
-; O
+  O
 ou O
 plutôt O
 , O
@@ -26075,7 +26075,7 @@ a O
 fait O
 pour O
 nous O
-; O
+  O
 vois O
 ce O
 que O
@@ -26083,7 +26083,7 @@ ta O
 fœur O
 : O
 a O
-fouffert O
+fouffert B-LOC
 en O
 . O
 |
@@ -26109,8 +26109,8 @@ tu O
 leur O
 pardonneras O
 , O
-J' B-MISC
-aurois I-MISC
+J' O
+aurois O
 dû O
 peut-être O
 en O
@@ -26133,7 +26133,7 @@ dons O
 
 | O
 ner O
-; O
+  O
 ‘ O
 8 O
 fi O
@@ -26144,12 +26144,12 @@ aimes O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 , O
 |
 | O
-Mo O
-pere O
+Mo B-MISC
+pere I-MISC
 , O
 vous O
 le O
@@ -26160,28 +26160,28 @@ voulez O
 . O
 La O
 . O
-BARONNE O
+BARONNE B-MISC
 |
 | O
 Et O
 Ja B-MISC
-fœur I-MISC
-de I-MISC
+fœur O
+de O
 Frankner B-PER
 ? O
 |
 | O
 LE O
-CHEVALIER B-ORG
+CHEVALIER B-MISC
 . O
 |||| O
 |
 | O
-Difpolez B-PER
-de I-PER
-‘ I-PER
-ma I-PER
-main I-PER
+Difpolez O
+de O
+‘ O
+ma O
+main O
 , O
 .. O
 , O
@@ -26204,20 +26204,20 @@ tout O
 
 | O
 LE O
-BARON B-ORG
+BARON O
 à O
-Franer B-ORG
+Franer B-LOC
 . O
 ne O
 . O
 |
 | O
 _ O
-Mon O
-ami O
-mon O
-libérateur O
-! O
+Mon B-MISC
+ami I-MISC
+mon I-MISC
+libérateur I-MISC
+! I-MISC
 ct O
 |
 
@@ -26253,7 +26253,7 @@ ee O
 
 | O
 m O
-ADÉLAIDE O
+ADÉLAIDE B-MISC
 |
 
 | O
@@ -26274,12 +26274,12 @@ donner O
 | O
 _ O
 La O
-BARONNE B-ORG
+BARONNE O
 |
 
-| I-ORG
-La I-ORG
-BARONNE I-ORG
+| O
+La O
+BARONNE B-ORG
 |
 | I-ORG
 Fu I-ORG
@@ -26303,7 +26303,7 @@ FRANKNER B-MISC
 
 | O
 Gelui B-LOC
-dé O
+dé I-LOC
 votre O
 fils O
 . O
@@ -26312,7 +26312,7 @@ fils O
 | O
 |||| O
 LE O
-BARON B-ORG
+BARON O
 . O
 |
 | O
@@ -26339,7 +26339,7 @@ main I-MISC
 |
 | I-MISC
 de I-MISC
-Frankner I-MISC
+Frankner B-PER
 , O
 les O
 conduit O
@@ -26370,9 +26370,9 @@ CHEVALIE B-MISC
 Re I-MISC
 |
 | I-MISC
-Eh B-MISC
-bien I-MISC
-! I-MISC
+Eh O
+bien O
+! O
 uniflez O
 - O
 lés O
@@ -26381,23 +26381,23 @@ pere O
 . O
 |
 | O
-LE O
-BARON B-ORG
-: O
-oo O
+LE B-MISC
+BARON I-MISC
+: I-MISC
+oo I-MISC
 |
-| O
-Oui O
+| I-MISC
+Oui I-MISC
 , O
 je O
 les O
 unis O
-; O
+  O
 je O
 fais O
 plus O
 , O
-; O
+  O
 je O
 les O
 aime O
@@ -26408,11 +26408,11 @@ L O
 _ O
 Chevalier B-ORG
 , O
-aiméz O
+aiméz B-MISC
 - O
 les O
 auffi O
-; O
+  O
 que O
 tout O
 foit O
@@ -26422,16 +26422,16 @@ ou O
  | O
 blié O
 , O
-C B-MISC
-Ils I-MISC
+C B-PER
+Ils O
 s' O
 embraffent O
 . O
 ) O
 |
 | O
-LE O
-BARON B-ORG
+LE B-MISC
+BARON I-MISC
 . O
 |
 | O
@@ -26445,8 +26445,8 @@ enfans O
 |||| O
 |
 | O
-F O
-R O
+F B-MISC
+R I-MISC
 ANK O
 N O
 ER O
@@ -26460,7 +26460,7 @@ fes O
 genoux O
 . O
 € O
-Us B-LOC
+Us B-MISC
 $ O
 y O
 jettent O
@@ -26468,17 +26468,17 @@ jettent O
 ) O
 |
 | O
-L B-LOC
-A I-LOC
-BARONNE I-LOC
+L B-MISC
+A I-MISC
+BARONNE I-MISC
 . O
 re O
 |
 
 | O
-Quel B-MISC
-fpedacle I-MISC
-! I-MISC
+Quel O
+fpedacle O
+! O
 |
 | O
 { O
@@ -26488,10 +26488,10 @@ enfans O
 Jont B-MISC
 à O
 BEROUX B-MISC
-; O
+  O
 le O
-Baron B-ORG
-& I-ORG
+Baron B-MISC
+& I-MISC
 la O
 |
 
@@ -26539,8 +26539,8 @@ nelles O
 |
 
 | O
-LE O
-Baron B-PER
+LE B-PER
+Baron I-PER
 . O
 |
 
@@ -26571,7 +26571,7 @@ m' O
 ont O
 fait O
 commettre O
-; O
+  O
 je O
 les O
 veux O
@@ -26605,11 +26605,11 @@ event O
 |
 
 | O
-Sortons B-LOC
+Sortons O
 de O
 ce O
 lieu O
-; O
+  O
 fafle O
 le O
 ciel O
@@ -26619,12 +26619,12 @@ fois O
 le O
 |
 | O
-efçendre O
+efçendre B-MISC
 , O
-& O
-puifiezvous O
-ne O
-my O
+& B-MISC
+puifiezvous I-MISC
+ne I-MISC
+my I-MISC
 , O
 |
 

@@ -4,11 +4,11 @@
 
 | O
 QUATRO O
-NOVELAS B-PER
+NOVELAS B-MISC
 |
 
-| I-PER
-Composto O
+| I-MISC
+Composto I-MISC
 o O
 impresso O
 na O
@@ -19,8 +19,8 @@ Amado I-MISC
 |
 | O
 rua O
-Ferreira B-PER
-Borges I-PER
+Ferreira B-LOC
+Borges I-LOC
 , O
 16 O
 — O
@@ -35,32 +35,32 @@ Coimbra B-LOC
  
 
 | O
-LOS B-MISC
+LOS B-ORG
 |
-| O
-L. O
+| I-ORG
+L. I-ORG
 |
 
 | O
-ANNA O
-DE O
-CASTRO O
-OSORIO O
+ANNA B-PER
+DE I-PER
+CASTRO I-PER
+OSORIO B-PER
 |
 
 | O
 QUATRO O
-NOVELAS O
+NOVELAS B-MISC
 |
 
 | O
 A O
-VINHA O
+VINHA B-ORG
 . O
 |
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 . O
 |
 | O
@@ -83,14 +83,14 @@ E O
 ” O
 |
 | O
-COIMBRA B-LOC
+COIMBRA O
 |
 
 | O
-FRANÇA O
-AMADO B-MISC
+FRANÇA B-MISC
+AMADO I-MISC
 — O
-EDITOR O
+EDITOR B-MISC
 |
 
  
@@ -108,12 +108,12 @@ E O
 
 | O
 A O
-VINHA O
+VINHA B-ORG
 |
 
-| O
-vis O
-sahira O
+| I-ORG
+vis I-ORG
+sahira I-ORG
 para O
 o O
 colegio O
@@ -128,7 +128,7 @@ para O
 as O
 escolas O
 superiores O
-; O
+  O
 |
 | O
 assim O
@@ -230,12 +230,12 @@ todas O
 E O
 — O
 pobre O
-Luiz B-LOC
+Luiz B-PER
 ! O
 — O
 era O
 na O
-verdado O
+verdado B-LOC
 |
 | O
 como O
@@ -283,9 +283,9 @@ de O
 guarda-marinha O
 o O
 o O
-sen O
-bonito O
-bigode O
+sen B-PER
+bonito I-PER
+bigode I-PER
 a O
 |
 | O
@@ -302,11 +302,11 @@ superior O
 
 | O
 5 O
-A B-MISC
-vISTA I-MISC
+A O
+vISTA O
 |
 
-| I-MISC
+| O
 E O
 voltava O
 amesquinhado O
@@ -317,7 +317,7 @@ proprios O
 | O
 olhos O
 , O
-elle B-MISC
+elle O
 que O
 se O
 julgava O
@@ -382,7 +382,7 @@ familia B-LOC
 |
 
 | O
-Compreendia B-LOC
+Compreendia O
 , O
 afinal O
 , O
@@ -405,9 +405,9 @@ de O
 remorso O
 , O
 quanta O
-mentira B-PER
-santa I-PER
-fôra I-PER
+mentira O
+santa O
+fôra O
 preciso O
 |
 | O
@@ -429,7 +429,7 @@ para O
 que O
 |
 | O
-elle B-MISC
+elle O
 aceitasse O
 sem O
 desconfiança O
@@ -456,7 +456,7 @@ tempo O
 |
 
 | O
-Chegara B-LOC
+Chegara O
 por O
 vezes O
 a O
@@ -592,12 +592,12 @@ riso- O
 
 | O
 A O
-VINHA O
-9 O
+VINHA B-ORG
+9 I-ORG
 |
 
-| O
-nha O
+| I-ORG
+nha I-ORG
 de O
 quem O
 o O
@@ -647,7 +647,7 @@ a O
 acnsar O
 os O
 pais O
-; O
+  O
 mas O
 á O
 mais O
@@ -669,7 +669,7 @@ do O
 seu O
 coração O
 , O
-voluvel O
+voluvel B-PER
 e O
 bondoso O
 , O
@@ -773,7 +773,7 @@ do O
 |
 | O
 que O
-Luiz B-LOC
+Luiz B-PER
 , O
 fôra O
 desde O
@@ -881,7 +881,7 @@ a O
 | O
 10 O
 A O
-VINHA O
+VINHA B-LOC
 |
 
 | O
@@ -898,7 +898,7 @@ que O
 
 | O
 na O
-terra B-LOC
+terra O
 aparecera O
 , O
 a O
@@ -955,7 +955,7 @@ pensava O
 noutra O
 coisa O
 senão O
-naquella O
+naquella B-PER
 |
 | O
 sua O
@@ -985,10 +985,10 @@ reluzentes O
 , O
 barretina O
 , O
-da- O
+da- B-LOC
 |
-| O
-goas O
+| I-LOC
+goas I-LOC
 , O
 e O
 duma O
@@ -1002,7 +1002,7 @@ rigida O
 |
 
 | O
-Fazia B-PER
+Fazia O
 projectos O
 , O
 contava O
@@ -1050,9 +1050,9 @@ quebrar O
 | O
 o O
 seu O
-mialheiro O
-de O
-barro O
+mialheiro B-LOC
+de I-LOC
+barro I-LOC
 quando O
 tivesse O
 já O
@@ -1273,8 +1273,8 @@ não O
 tivera O
 lagrimas O
 que O
-corrospondessem O
-áquella O
+corrospondessem B-PER
+áquella I-PER
 |
 | O
 dôr O
@@ -1293,7 +1293,7 @@ desolada O
 |
 
 | O
-Sorria B-LOC
+Sorria B-PER
 até O
 , O
 para O
@@ -1308,7 +1308,7 @@ significativa O
 no O
 labiosito O
 ainda O
-erianeil O
+erianeil B-PER
 , O
 |
 | O
@@ -1505,7 +1505,7 @@ conven- O
 | O
 12 O
 A O
-VINHA O
+VINHA B-ORG
 |
 
 | O
@@ -1531,11 +1531,11 @@ consolo O
 | O
 Se O
 o O
-Luiz B-LOC
+Luiz B-PER
 soubesse O
 o O
 que O
-ella O
+ella B-PER
 sofria O
 , O
 ficando O
@@ -1548,8 +1548,8 @@ partir O
 , O
 debruçado O
 na O
-portinhola O
-da O
+portinhola B-LOC
+da I-LOC
 . O
 |
 | O
@@ -1584,7 +1584,7 @@ como O
 à O
 |
 | O
-Pequena B-MISC
+Pequena B-LOC
 sentia O
 já O
 a O
@@ -1668,8 +1668,8 @@ de O
 paciencia O
 para O
 escrever O
-; O
-ella O
+  O
+ella B-PER
 , O
 narrando O
 |
@@ -1723,7 +1723,7 @@ pergunta- O
 vam O
 sempre O
 por O
-elle B-MISC
+elle O
 , O
 os O
 sens O
@@ -1797,10 +1797,10 @@ festivo O
 de O
 sinos O
 em O
-vespera B-LOC
-de I-LOC
-dia I-LOC
-santo I-LOC
+vespera O
+de O
+dia O
+santo O
 , O
 a O
 |
@@ -1808,9 +1808,9 @@ a O
    
 
 | O
-A O
-MINHA B-MISC
-13 O
+A B-MISC
+MINHA I-MISC
+13 I-MISC
 |
 
 | O
@@ -1852,7 +1852,7 @@ mês O
 de O
 setembro O
 e O
-elle B-MISC
+elle O
 já O
 só O
 esperava O
@@ -1904,7 +1904,7 @@ gerações O
 de O
 rapazes O
 como O
-elle B-MISC
+elle O
 , O
 uma O
 carta O
@@ -1960,7 +1960,7 @@ anos O
 de O
 |
 | O
-celegio O
+celegio B-LOC
 seguiram-se O
 os O
 da O
@@ -1984,8 +1984,8 @@ o O
 preparasse O
 para O
 o O
-martirio O
-incomportavel O
+martirio B-PER
+incomportavel I-PER
 que O
 |
 | O
@@ -2051,18 +2051,18 @@ preocupa- O
 | O
 ções O
 , O
-elle B-MISC
+elle B-PER
 teve O
 quando O
 recebeu O
-aquella O
-carta O
+aquella B-PER
+carta I-PER
 |
 | O
 em O
 que O
 Eduardo B-PER
-lho O
+lho I-PER
 dizia O
 , O
 entre O
@@ -2095,7 +2095,7 @@ para O
 | O
 Lisbôa B-LOC
 . O
-Ficariam B-LOC
+Ficariam O
 assim O
 mais O
 porto O
@@ -2106,7 +2106,7 @@ delle O
  
 
 | O
-Mu B-MISC
+Mu B-LOC
 A O
 VINHA O
 |
@@ -2383,9 +2383,9 @@ resolução O
  
 
 | O
-A B-MISC
-VINHA I-MISC
-15 O
+A O
+VINHA B-ORG
+15 I-ORG
 |
 
 | O
@@ -2470,7 +2470,7 @@ que O
 era O
 a O
 casa O
-paterna B-LOC
+paterna O
 . O
 |
 
@@ -2569,7 +2569,7 @@ da O
 comida O
 não O
 conseguiu O
-eugulir O
+eugulir B-PER
 |
 | O
 com O
@@ -2599,7 +2599,7 @@ para O
 |
 | O
 que O
-es B-PER
+es B-LOC
 conhecesse O
 , O
 — O
@@ -2672,7 +2672,7 @@ MINHA I-MISC
 alma O
 que O
 se O
-escancareva O
+escancareva B-PER
 para O
 lhe O
 mostrar O
@@ -2691,7 +2691,7 @@ antes O
 da O
 tarde O
 já O
-elle B-MISC
+elle O
 se O
 dirigia O
 para O
@@ -2900,10 +2900,10 @@ correta O
 anunciadora O
 , O
 ao O
-pas- O
+pas- B-LOC
 |
-| O
-sar O
+| I-LOC
+sar I-LOC
 nas O
 agulhas O
 ... O
@@ -2950,16 +2950,16 @@ de O
 longe O
 ! O
 E O
-elle B-MISC
+elle O
 , O
 |
 
   
 
 | O
-A B-MISC
-VINHA I-MISC
-1 I-MISC
+A O
+VINHA B-ORG
+1 O
 |
 
 | O
@@ -3016,7 +3016,7 @@ que O
 |
 | O
 deixara O
-; O
+  O
 a O
 mãe O
 , O
@@ -3048,7 +3048,7 @@ Oh O
 , O
 mas O
 a O
-vélinha O
+vélinha B-MISC
 é O
 que O
 o O
@@ -3084,8 +3084,8 @@ retrato O
 |
 
 | O
-Tambem B-PER
-Eduardo I-PER
+Tambem O
+Eduardo B-PER
 o O
 abraçon O
 alegremente O
@@ -3116,7 +3116,7 @@ desenvol O
 . O
 |
 | O
-vera B-LOC
+vera B-PER
 longe O
 da O
 vamoséra O
@@ -3166,10 +3166,10 @@ alguem O
 na O
 familia O
 , O
-una O
+una B-LOC
 |
-| O
-pessõa O
+| I-LOC
+pessõa I-LOC
 que O
 a O
 todos O
@@ -3203,7 +3203,7 @@ afasta- O
 |
 | O
 mento O
-; O
+  O
 encantador O
 de O
 contentamento O
@@ -3237,7 +3237,7 @@ casa O
 muito O
 alegre O
 que O
-elle B-MISC
+elle O
 |
 | O
 escolhera O
@@ -3272,15 +3272,15 @@ nessa O
 
 | O
 18 O
-A B-MISC
-VINHA I-MISC
+A O
+VINHA B-ORG
 |
 
-| O
-noite O
-gloriosa O
-de O
-junho O
+| I-ORG
+noite I-ORG
+gloriosa I-ORG
+de I-ORG
+junho I-ORG
 , O
 a O
 sua O
@@ -3441,7 +3441,7 @@ murão O
 | O
 herança O
 da O
-avósinha O
+avósinha B-PER
 , O
 onde O
 eram O
@@ -3569,7 +3569,7 @@ VINHA O
 |
 
 | O
-Luiz B-LOC
+Luiz B-PER
 não O
 compreendia O
 — O
@@ -3577,7 +3577,7 @@ chorar O
 ! O
 ? O
 ... O
-Entro O
+Entro B-LOC
 |
 | O
 não O
@@ -3591,7 +3591,7 @@ Lisbôa B-LOC
 |
 | O
 com O
-elle B-MISC
+elle O
 ? O
 Não O
 viera O
@@ -3729,7 +3729,7 @@ seus O
 negocios O
 — O
 o O
-Luiz B-LOC
+Luiz B-PER
 devia O
 |
 | O
@@ -3823,7 +3823,7 @@ que O
 | O
 dosafiasse O
 a O
-cubiça O
+cubiça B-ORG
 alheia O
 , O
 lá O
@@ -3837,7 +3837,7 @@ com O
 o O
 quintal O
 . O
-Sim B-LOC
+Sim O
 , O
 esse O
 fôra O
@@ -4022,7 +4022,7 @@ a O
 | O
 mesma O
 que O
-elle B-MISC
+elle O
 deixara O
 rica O
 e O
@@ -4189,14 +4189,14 @@ seu O
 | O
 A B-MISC
 VINHA I-MISC
-E O
+E I-MISC
 |
 
-| O
-coração O
-, O
-humanamente O
-egoista O
+| I-MISC
+coração I-MISC
+, I-MISC
+humanamente I-MISC
+egoista I-MISC
 , O
 sentia O
 uma O
@@ -4213,8 +4213,8 @@ tinham O
 | O
 poupado O
 daquela O
-maneira B-MISC
-... I-MISC
+maneira O
+... O
 Devia-lhos O
 uma O
 |
@@ -4330,7 +4330,7 @@ conta O
 . O
 Depois O
 , O
-elle B-MISC
+elle O
 não O
 estava O
 ali O
@@ -4400,7 +4400,7 @@ lamentava O
 
 | O
 — O
-Sim B-LOC
+Sim O
 , O
 a O
 situação O
@@ -4413,7 +4413,7 @@ de O
 todo O
 desesperada O
 . O
-Dispensariam O
+Dispensariam B-LOC
 apenas O
 o O
 |
@@ -4446,7 +4446,7 @@ parte O
 do O
 seu O
 dote O
-podéra O
+podéra B-PER
 ficar O
 |
 | O
@@ -4456,9 +4456,9 @@ intacto O
 
 | O
 — O
-Oh B-LOC
-, O
-elle B-MISC
+Oh B-MISC
+, I-MISC
+elle I-MISC
 compreendia O
 bem O
 que O
@@ -4486,25 +4486,25 @@ A B-MISC
 VINHA I-MISC
 |
 
-| O
-a O
-recordação O
-dum O
-longo O
-passado O
-de O
-paz O
-o O
-de O
+| I-MISC
+a I-MISC
+recordação I-MISC
+dum I-MISC
+longo I-MISC
+passado I-MISC
+de I-MISC
+paz I-MISC
+o I-MISC
+de I-MISC
 |
-| O
-desanuviadas O
-venturas O
+| I-MISC
+desanuviadas I-MISC
+venturas I-MISC
 que O
 já O
 ia O
 longe O
-; O
+  O
 era O
 à O
 |
@@ -4524,10 +4524,10 @@ energias O
 so O
 concentravam O
 em O
-pa- O
+pa- B-LOC
 |
 
-| O
+| I-LOC
 sentar O
 una O
 soberba O
@@ -4614,7 +4614,7 @@ sua O
 bôa O
 alma O
 de O
-sofrerôra O
+sofrerôra B-PER
 . O
 |
 
@@ -4624,11 +4624,11 @@ esse O
 dia O
 nunca O
 mais O
-Leis B-PER
-perdêra O
+Leis B-MISC
+perdêra I-MISC
 |
-| O
-aquella O
+| I-MISC
+aquella I-MISC
 ideia O
 , O
 que O
@@ -4692,7 +4692,7 @@ de O
 |
 | O
 criancice O
-; O
+  O
 o O
 vão O
 ella O
@@ -4700,10 +4700,10 @@ lhe O
 dizia O
 que O
 o O
-pas- O
+pas- B-LOC
 |
-| O
-lado O
+| I-LOC
+lado I-LOC
 estava O
 morto O
 e O
@@ -4714,7 +4714,7 @@ poderia O
 |
 | O
 resurgir O
-; O
+  O
 que O
 não O
 havia O
@@ -4739,7 +4739,7 @@ vida O
 , O
 que O
 para O
-elles O
+elles B-PER
 se O
 precipitava O
 |
@@ -4754,11 +4754,11 @@ deslisar O
 |
 | O
 num O
-meis O
-bello O
+meis B-MISC
+bello I-MISC
 e O
-sorridente O
-campo O
+sorridente B-PER
+campo I-PER
 . O
 |
 
@@ -4778,7 +4778,7 @@ campo O
 
 | O
 A O
-VINHA O
+VINHA B-ORG
 “ O
 3 O
 |
@@ -4853,7 +4853,7 @@ tencia O
 , O
 desvairava-o O
 . O
-Iria O
+Iria B-PER
 , O
 acontecesse O
 o O
@@ -4874,7 +4874,7 @@ que O
 mal O
 comprconderia O
 quem O
-lho O
+lho B-PER
 |
 | O
 o O
@@ -4916,7 +4916,7 @@ ello O
 ali O
 |
 | O
-revêr O
+revêr B-LOC
 pela O
 ultima O
 vez O
@@ -4987,8 +4987,8 @@ da O
 cora- O
 |
 | O
-jos O
-rapariga O
+jos B-PER
+rapariga I-PER
 que O
 tão O
 alegremente O
@@ -5200,7 +5200,7 @@ teria O
 passado O
 se O
 a O
-elles O
+elles B-PER
 tivesse O
 assistido O
 . O
@@ -5240,7 +5240,7 @@ gritos O
 convulsivos O
 , O
 que O
-Ihe B-PER
+Ihe B-LOC
 desoprimissem O
 o O
 peito O
@@ -5271,7 +5271,7 @@ viajantes O
 , O
 era O
 para O
-elle B-MISC
+elle O
 o O
 martelar O
 desse- O
@@ -5324,8 +5324,8 @@ revia O
 toda O
 branca O
 e O
-taiscante O
-nes O
+taiscante B-PER
+nes I-PER
 dias O
 ensoa- O
 |
@@ -5369,12 +5369,12 @@ cris- O
 talisadas O
 de O
 tenho O
-; O
+  O
 as O
 suas O
 feiras O
 rumorosas O
-; O
+  O
 |
 | O
 as O
@@ -5383,7 +5383,7 @@ atravez O
 dos O
 campos O
 em O
-flôr O
+flôr B-LOC
 , O
 pelo O
 |
@@ -5393,7 +5393,7 @@ despertar O
 das O
 primaveras O
 amorosas O
-; O
+  O
 as O
 rela- O
 |
@@ -5403,9 +5403,9 @@ rela- O
  
 
 | O
-A B-MISC
-VISTA I-MISC
-2 I-MISC
+A O
+VISTA B-ORG
+2 O
 |
 
 | O
@@ -5426,7 +5426,7 @@ Depois O
 , O
 os O
 descantes O
-; O
+  O
 os O
 fatais O
 , O
@@ -5435,7 +5435,7 @@ em O
 |
 | O
 no O
-fôra B-LOC
+fôra O
 , O
 romeiro O
 piedoso O
@@ -5448,7 +5448,7 @@ presente O
 | O
 do O
 menino O
-; O
+  O
 as O
 maneiras O
 , O
@@ -5469,7 +5469,7 @@ agradavam O
 |
 | O
 sempre O
-; O
+  O
 as O
 semanas O
 santas O
@@ -5492,7 +5492,7 @@ que O
 |
 | O
 um O
-Deus B-MISC
+Deus B-PER
 assistia O
 à O
 morte O
@@ -5703,14 +5703,14 @@ se O
 
 | O
 26 O
-A B-MISC
-VINHA I-MISC
+A O
+VINHA B-ORG
 |
 
-| O
-resentirem O
-das O
-intemperies O
+| I-ORG
+resentirem I-ORG
+das I-ORG
+intemperies I-ORG
 , O
 suavemente O
 , O
@@ -5722,7 +5722,7 @@ envelhece O
 sem O
 sobresalto O
 nem O
-Tinta B-LOC
+Tinta B-ORG
 , O
 quando O
 |
@@ -5789,7 +5789,7 @@ banal O
 |
 | O
 o O
-mohiliario O
+mohiliario B-LOC
 que O
 a O
 guarnecia O
@@ -5828,7 +5828,7 @@ educação O
  
 
 | O
-Fechou B-LOC
+Fechou O
 os O
 olhos O
 , O
@@ -5855,7 +5855,7 @@ mas O
 não O
 o O
 conseguiu O
-; O
+  O
 a O
 sua O
 |
@@ -5883,7 +5883,7 @@ desmoronamento O
 Faltava-lho O
 o O
 quintal O
-; O
+  O
 voltando O
 para O
 seguir O
@@ -5940,7 +5940,7 @@ dônos O
 |
 
 | O
-Sim B-LOC
+Sim O
 , O
 no O
 quintal O
@@ -5987,11 +5987,11 @@ rapidamente O
 , O
 olhando O
 o O
-muro O
-de O
+muro B-MISC
+de I-MISC
 |
-| O
-pedra O
+| I-MISC
+pedra I-MISC
 solta O
 o O
 que O
@@ -6043,7 +6043,7 @@ mandara O
 , O
 ao O
 menos O
-; O
+  O
 era O
 o O
 mesmo O
@@ -6083,7 +6083,7 @@ parte O
 do O
 quintal O
 quo O
-men O
+men B-ORG
 |
 | O
 porque O
@@ -6177,8 +6177,8 @@ contente O
 tambem O
 , O
 ao O
-vêr O
-cahir O
+vêr B-LOC
+cahir I-LOC
 uma O
 a O
 |
@@ -6206,7 +6206,7 @@ deliciosa O
 mas O
 que O
 para O
-elles O
+elles B-PER
 nunca O
 deixara O
 de O
@@ -6265,11 +6265,11 @@ bem O
 como O
 Eduardo B-PER
 estava O
-me- O
+me- B-PER
 |
 | O
 melancolia O
-naquella O
+naquella B-PER
 tarde O
 de O
 outôno O
@@ -6331,12 +6331,12 @@ todos O
 os O
 desastres O
 ... O
-Presentimento- B-PER
+Presentimento- B-LOC
 |
-| O
-tos O
-de O
-alma O
+| I-LOC
+tos I-LOC
+de I-LOC
+alma I-LOC
 extremamente O
 vibratil O
 , O
@@ -6386,10 +6386,10 @@ ansiedade O
 da O
 dúvida O
 . O
-Tinham B-MISC
+Tinham O
 |
-| I-MISC
-Plantado I-MISC
+| O
+Plantado B-LOC
 vinha O
 nesse O
 campo O
@@ -6501,7 +6501,7 @@ que O
 se O
 erguia O
 em O
-roca O
+roca B-LOC
 , O
 toda O
 |
@@ -6524,14 +6524,14 @@ as O
 suas O
 peras O
 magnificas O
-; O
+  O
 uma O
 |
 | O
 rua O
 de O
-palmeiras O
-baixas O
+palmeiras B-LOC
+baixas I-LOC
 o O
 lufadas O
 , O
@@ -6544,7 +6544,7 @@ havia O
 mãos O
 cheias O
 as O
-avelis O
+avelis B-LOC
 ainda O
 em O
 |
@@ -6563,7 +6563,7 @@ Depois O
 lembrava-so O
 dumas O
 certas O
-ameixas B-LOC
+ameixas O
 , O
 |
 | O
@@ -6604,7 +6604,7 @@ grande O
 desespero O
 do O
 velho O
-António B-MISC
+António B-PER
 hortelão O
 .. O
 ! O
@@ -6656,7 +6656,7 @@ desenhar O
 | O
 gestos O
 de O
-nojo B-PER
+nojo O
 , O
 o O
 que O
@@ -6705,7 +6705,7 @@ derradeira O
 |
 
 | O
-So O
+So B-MISC
 fosse O
 tempo O
 de O
@@ -6729,7 +6729,7 @@ para O
 | O
 mãe O
 ! O
-Sim B-ORG
+Sim O
 , O
 roubaria O
 , O
@@ -6784,16 +6784,16 @@ nisso O
 |
 
 | O
-Apressou O
+Apressou B-PER
 o O
 passo O
 até O
 avistar O
 a O
-grande O
+grande B-LOC
 |
-| O
-nogueira O
+| I-LOC
+nogueira I-LOC
 , O
 plantada O
 no O
@@ -6820,9 +6820,9 @@ arvore O
 que O
 desafiava O
 a O
-cubiça O
+cubiça B-ORG
 do O
-rapazio O
+rapazio B-MISC
 que O
 |
 | O
@@ -6867,7 +6867,7 @@ na O
 vespera O
 da O
 sua O
-par- O
+par- B-MISC
 |
 | O
 tida O
@@ -6895,7 +6895,7 @@ o O
 quintal O
 , O
 não O
-poude O
+poude B-PER
 reprimir O
 |
 | O
@@ -6936,7 +6936,7 @@ existia O
 mais O
 , O
 para O
-materialisar O
+materialisar B-LOC
 |
 
  
@@ -7068,7 +7068,7 @@ intensis- O
 |
 | O
 simaumente O
-; O
+  O
 era O
 uma O
 dôr O
@@ -7108,10 +7108,10 @@ proprietario O
 , O
 na O
 sua O
-pas- O
+pas- B-LOC
 |
-| O
-sividade O
+| I-LOC
+sividade I-LOC
 de O
 natureza O
 vegetativa O
@@ -7139,7 +7139,7 @@ decorativas O
 inuteis O
 para O
 o O
-cri O
+cri B-ORG
 |
 | O
 torno O
@@ -7231,8 +7231,8 @@ sem O
 dúvida O
 — O
 . O
-ello B-MISC
-ouvia-lhes I-MISC
+ello B-PER
+ouvia-lhes I-PER
 e O
 compreens- O
 |
@@ -7257,8 +7257,8 @@ cemiterio O
 
 | O
 A O
-VINHA O
-3 O
+VINHA B-ORG
+3 I-ORG
 |
 
 | O
@@ -7324,7 +7324,7 @@ agua O
 , O
 sim O
 , O
-elle B-MISC
+elle O
 sabia O
 |
 | O
@@ -7364,7 +7364,7 @@ morrido O
 nada O
 com O
 sêde O
-; O
+  O
 pelo O
 contrario O
 , O
@@ -7392,10 +7392,10 @@ ir- O
 | O
 ramediaveis O
 o O
-sacudia B-LOC
+sacudia O
 e O
 fazia O
-helucinadamento O
+helucinadamento B-PER
 |
 | O
 padecer O
@@ -7420,7 +7420,7 @@ em O
 subtil O
 veneno O
 o O
-dôce B-MISC
+dôce B-LOC
 e O
 |
 | O
@@ -7607,7 +7607,7 @@ das O
 vindimas O
 , O
 quando O
-elles O
+elles B-PER
 iam O
 todos O
 , O
@@ -7656,7 +7656,7 @@ na O
 areia O
 solta O
 das O
-azinhagas O
+azinhagas B-MISC
 orladas O
 de O
 silvas B-LOC
@@ -7666,7 +7666,7 @@ silvas B-LOC
 ora O
 trabalhando O
 pelas O
-Jages B-LOC
+Jages B-PER
 o O
 pedras O
 dos O
@@ -7689,11 +7689,11 @@ suave O
 | O
 perfume O
 a O
-resêéda O
-da O
-vinha O
+resêéda B-LOC
+da I-LOC
+vinha I-LOC
 em O
-flôr O
+flôr B-LOC
 , O
 quando O
 |
@@ -7791,10 +7791,10 @@ sempre O
 |
 
 | O
-Luiz B-LOC
+Luiz B-PER
 abraçou O
 a O
-nogueira O
+nogueira B-LOC
 , O
 numa O
 última O
@@ -7827,7 +7827,7 @@ tivesse O
 
 | O
 A O
-VINHA O
+VINHA B-ORG
 33 O
 |
 
@@ -7848,7 +7848,7 @@ logar O
 que O
 fôra O
 de O
-martirio O
+martirio B-PER
 |
 | O
 para O
@@ -7894,7 +7894,7 @@ movimento O
 , O
 tirou O
 o O
-chapéo O
+chapéo B-ORG
 num O
 |
 | O
@@ -7903,7 +7903,7 @@ adeus O
 á O
 leal O
 amiga O
-oée O
+oée B-PER
 o O
 vira O
 nascer O
@@ -7962,7 +7962,7 @@ muro O
 sorrindo O
 para O
 o O
-pichel B-MISC
+pichel B-LOC
 que O
 |
 | O
@@ -8044,7 +8044,7 @@ que O
 dei- O
 |
 | O
-ava O
+ava B-MISC
 não O
 era O
 aquella O
@@ -8121,7 +8121,7 @@ gente O
 para- O
 |
 | O
-dora O
+dora B-LOC
 e O
 vasia B-LOC
 , O
@@ -8138,7 +8138,7 @@ tamente O
 |
 
 | O
-Quasi O
+Quasi B-PER
 a O
 dormitar O
 seguia O
@@ -8244,8 +8244,8 @@ dantes O
       
 
 | O
-À B-MISC
-Feiticeira I-MISC
+À O
+Feiticeira B-MISC
 |
 
  
@@ -8254,45 +8254,45 @@ Feiticeira I-MISC
 
 | I-MISC
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
-| O
-« O
-La B-ORG
-pour I-ORG
-qui I-ORG
-mo I-ORG
-dans I-ORG
-les I-ORG
-chemins I-ORG
+| I-PER
+« I-PER
+La I-PER
+pour I-PER
+qui I-PER
+mo I-PER
+dans I-PER
+les I-PER
+chemins I-PER
 |
-| I-ORG
-Des B-MISC
+| I-PER
+Des I-PER
 personagens O
 surbumais O
 |
 | O
-La B-ORG
-pour I-ORG
+La B-MISC
+pour O
 num O
 invisíbios O
 |
 | O
-D'une B-MISC
-caricias I-MISC
+D'une B-PER
+caricias O
 ou O
 den O
 linecul O
 |
 | O
-Qui B-MISC
+Qui B-LOC
 |
-| I-MISC
-Et I-MISC
-qui I-MISC
-vous I-MISC
-rend I-MISC
+| I-LOC
+Et I-LOC
+qui O
+vous O
+rend O
 , O
 quando O
 o O
@@ -8301,10 +8301,10 @@ seu O
 , O
 |
 | O
-Ulane B-LOC
-commo O
-n O
-marbre O
+Ulane B-MISC
+commo I-MISC
+n I-MISC
+marbre I-MISC
 , O
 + O
 |
@@ -8314,18 +8314,18 @@ marbre O
 | O
 ui O
 rosto O
-Partir B-MISC
+Partir O
 |
 
  
 
  
 
-| I-MISC
-it I-MISC
-trombler I-MISC
-commo I-MISC
-on I-MISC
+| O
+it O
+trombler O
+commo O
+on O
 ficou O
 |
 
@@ -8422,7 +8422,7 @@ enlonqnecia O
 |
 
 | O
-Acostumado B-LOC
+Acostumado O
 a O
 ajustar O
 a O
@@ -8466,7 +8466,7 @@ rapaz O
 | O
 38 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -8484,17 +8484,17 @@ que O
 pareciam O
 de O
 verniz O
-; O
+  O
 o O
 chapéo B-ORG
 garbosamonte I-ORG
 |
-| O
-descahido O
+| I-ORG
+descahido I-ORG
 sobre O
 a O
 esquerda O
-; O
+  O
 a O
 ponta O
 do O
@@ -8504,7 +8504,7 @@ cigarro O
 atraz O
 da O
 orelha O
-; O
+  O
 e O
 o O
 lenço O
@@ -8540,7 +8540,7 @@ vezes O
 levada O
 ao O
 hombro O
-; O
+  O
 o O
 Manoel B-PER
 era O
@@ -8553,7 +8553,7 @@ nata O
 da O
 rapaziada O
 do O
-logar O
+logar B-MISC
 . O
 |
 
@@ -8741,7 +8741,7 @@ Manoel B-PER
 com O
 um O
 rapido O
-piparoto O
+piparoto B-PER
 |
 | O
 atirava O
@@ -8749,8 +8749,8 @@ para O
 a O
 nuca O
 o O
-chapéo O
-móe O
+chapéo B-ORG
+móe I-ORG
 de O
 largas O
 |
@@ -8759,8 +8759,8 @@ largas O
 
 | O
 A O
-FEITICEIRA B-MISC
-Er I-MISC
+FEITICEIRA B-PER
+Er I-PER
 |
 
 | O
@@ -8776,7 +8776,7 @@ girar O
 o O
 |
 | O
-carapu O
+carapu B-LOC
 em O
 sarilho O
 sobro O
@@ -8900,7 +8900,7 @@ protogonista O
 , O
 e O
 que O
-elle B-MISC
+elle O
 enfiara O
 |
 | O
@@ -8923,8 +8923,8 @@ levava O
 
 | O
 « O
-Ó B-MISC
-Manoel I-MISC
+Ó B-PER
+Manoel I-PER
 , O
 lembras-te O
 ? O
@@ -8941,9 +8941,9 @@ romaria O
 da O
 Senhorã B-LOC
 |
-| O
-dos O
-Verdes O
+| I-LOC
+dos I-LOC
+Verdes I-LOC
 ? O
 ... O
 |
@@ -8993,7 +8993,7 @@ de O
 lonaôres O
 , O
 que O
-elle B-MISC
+elle O
 recebia O
 mal O
 |
@@ -9049,11 +9049,11 @@ pazes O
 | O
 Eu O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
-| I-MISC
-No I-MISC
+| O
+No O
 jogo O
 da O
 bola O
@@ -9124,7 +9124,7 @@ os O
 |
 | O
 amigos O
-; O
+  O
 ninguem O
 emfim O
 mais O
@@ -9191,9 +9191,9 @@ da O
 mãe O
 , O
 a O
-viuva O
-do O
-Trepadeira B-LOC
+viuva B-PER
+do I-PER
+Trepadeira I-PER
 , O
 que O
 ajuntara O
@@ -9201,8 +9201,8 @@ ajuntara O
 |
 | O
 o O
-sen O
-peculiosito O
+sen B-ORG
+peculiosito I-ORG
 na O
 casa O
 dos O
@@ -9219,11 +9219,11 @@ trabalho O
 , O
 a O
 velha O
-Clara B-LOC
-do I-LOC
+Clara B-PER
+do I-PER
 |
-| I-LOC
-Trepadeira I-LOC
+| I-PER
+Trepadeira I-PER
 , O
 que O
 só O
@@ -9306,7 +9306,7 @@ posi- O
 | O
 quando O
 a O
-vianda O
+vianda B-LOC
 para O
 os O
 cevados O
@@ -9373,8 +9373,8 @@ sair O
 
 | O
 A O
-FEITICEIRA B-MISC
-41 O
+FEITICEIRA B-ORG
+41 I-ORG
 |
 
 | O
@@ -9424,13 +9424,13 @@ e O
 homenagens O
 , O
 a O
-vólhote O
+vólhote B-LOC
 apontava O
 |
 | O
 tudo O
 num O
-álice O
+álice B-LOC
 , O
 rindo O
 e O
@@ -9488,7 +9488,7 @@ a O
 mulher O
 estimada O
 do O
-Manoel B-LOC
+Manoel B-PER
 , O
 |
 | O
@@ -9532,7 +9532,7 @@ ferro O
 |
 
 | O
-Elle B-MISC
+Elle B-PER
 ria-se O
 com O
 todas O
@@ -9558,7 +9558,7 @@ lado O
 , O
 sem O
 até O
-ahi O
+ahi B-LOC
 mostrar O
 proforencias O
 com- O
@@ -9588,7 +9588,7 @@ tempos O
 mais O
 preocapavam O
 o O
-Manoel B-LOC
+Manoel B-PER
 , O
 |
 | O
@@ -9598,7 +9598,7 @@ contentamento O
 da O
 mãe O
 que O
-a- B-PER
+a- O
 |
 | O
 soava O
@@ -9674,15 +9674,15 @@ agradavam O
 | O
 42 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
 por O
 igual O
 à O
-velha B-PER
-Clara I-PER
+velha O
+Clara B-PER
 — O
 assim O
 tinha O
@@ -9727,7 +9727,7 @@ caminho O
 era O
 afilhado O
 da O
-Fidalga B-ORG
+Fidalga B-PER
 e O
 lá O
 |
@@ -9774,7 +9774,7 @@ bem O
 | O
 madura O
 quando O
-elle B-MISC
+elle O
 a O
 fitava O
 de O
@@ -9866,7 +9866,7 @@ a O
 unica O
 que O
 na O
-terra B-LOC
+terra O
 sabia O
 lêr O
 , O
@@ -9983,7 +9983,7 @@ ficado O
 
 | O
 4 O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 43 O
 |
 
@@ -10041,11 +10041,11 @@ desgraçados O
 , O
 mal O
 a O
-se- O
+se- B-ORG
 |
-| O
-hora O
-morgada O
+| I-ORG
+hora I-ORG
+morgada I-ORG
 fechara O
 os O
 olhos O
@@ -10163,7 +10163,7 @@ mo- O
 |
 | O
 dera O
-condessinha O
+condessinha B-LOC
 , O
 muito O
 prática O
@@ -10186,7 +10186,7 @@ os O
 salões O
 e O
 os O
-sotãos O
+sotãos B-PER
 , O
 dar O
 volta O
@@ -10219,21 +10219,21 @@ os O
 quadros O
 e O
 os O
-Sévres B-LOC
+Sévres B-MISC
 ricos O
 como O
 |
 | O
 os O
 incontaveis O
-Chinas B-MISC
+Chinas O
 para O
 o O
 sorvedouro O
 de O
 |
 | O
-Lisbôa B-PER
+Lisbôa B-LOC
 . O
 Depois O
 , O
@@ -10264,7 +10264,7 @@ entregues O
 as O
 propriedades O
 ao O
-feitôr O
+feitôr B-MISC
 |
 | O
 trazido O
@@ -10272,10 +10272,10 @@ das O
 alegrias O
 ribatejauas O
 como O
-pessôa O
+pessôa B-PER
 |
-| O
-de O
+| I-PER
+de I-PER
 inteira O
 confiança O
 , O
@@ -10288,7 +10288,7 @@ atemorizados O
 | O
 44 O
 A O
-FEITICEIRA B-ORG
+FEITICEIRA B-PER
 |
 
 | O
@@ -10343,7 +10343,7 @@ Terezinha B-LOC
 quo O
 |
 | O
-lho O
+lho B-PER
 lia O
 os O
 antôres O
@@ -10371,12 +10371,12 @@ jardim O
 |
 
 | O
-Verdade B-LOC
+Verdade O
 seja O
 que O
 a O
-Senhora B-PER
-Condessa I-PER
+Senhora B-LOC
+Condessa I-LOC
 , O
 sa- O
 |
@@ -10503,7 +10503,7 @@ serviu O
 como O
 ella O
 nunca O
-féra O
+féra B-PER
 |
 | O
 servida O
@@ -10542,12 +10542,12 @@ sen O
 corpo- O
 |
 | O
-nho O
+nho B-PER
 debil O
 de O
 criança O
 pobre O
-crescêra O
+crescêra B-PER
 o O
 so O
 |
@@ -10602,7 +10602,7 @@ viver O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 45 O
 |
 
@@ -10612,9 +10612,9 @@ a O
 tia O
 , O
 a O
-Zéfa B-MISC
-do I-MISC
-Padre I-MISC
+Zéfa B-LOC
+do I-LOC
+Padre I-LOC
 , O
 uma O
 quo O
@@ -10660,7 +10660,7 @@ de O
 cuidados O
 a O
 madrinha O
-paralitica O
+paralitica B-PER
 , O
 |
 | O
@@ -10718,7 +10718,7 @@ noite O
 |
 
 | O
-Aquella B-PER
+Aquella O
 vida O
 de O
 reclusão O
@@ -10761,10 +10761,10 @@ Agora O
 dês O
 que O
 o O
-Manel B-LOC
-da I-LOC
-Clara I-LOC
-vein O
+Manel B-PER
+da I-PER
+Clara I-PER
+vein I-PER
 de O
 soldado O
 |
@@ -10773,7 +10773,7 @@ e O
 entrou O
 de O
 atentar O
-nella O
+nella B-LOC
 , O
 é O
 que O
@@ -10796,9 +10796,9 @@ parece O
 a O
 mesma O
 . O
-Louvado B-MISC
-seja I-MISC
-Deus I-MISC
+Louvado O
+seja O
+Deus B-PER
 , O
 que O
 só O
@@ -10820,17 +10820,17 @@ vida O
 |
 
 | O
-Dizia B-LOC
+Dizia B-PER
 isto O
 a O
-Zéfa B-MISC
-do I-MISC
-Padre I-MISC
-á I-MISC
-Gertrudes I-MISC
+Zéfa B-LOC
+do I-LOC
+Padre I-LOC
+á O
+Gertrudes B-PER
 |
-| I-MISC
-Zarôlha I-MISC
+| I-PER
+Zarôlha I-PER
 , O
 velha O
 conhecida O
@@ -10887,8 +10887,8 @@ nada O
 cá O
 á O
 nossa O
-cachopa B-MISC
-? I-MISC
+cachopa O
+? O
 ! O
 ... O
 |
@@ -10907,7 +10907,7 @@ ainda O
 |
 | O
 não O
-lho O
+lho B-PER
 disse O
 fala O
 pó O
@@ -10929,7 +10929,7 @@ mal O
 | O
 46 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -10940,7 +10940,7 @@ desaforado O
 ! O
 O O
 que O
-elle B-MISC
+elle O
 precisava O
 |
 | O
@@ -10953,19 +10953,19 @@ rapariga O
 como O
 a O
 nossa O
-Ter- O
+Ter- B-MISC
 |
 | O
 zinha O
 ! O
 ... O
-Crédo B-LOC
+Crédo O
 , O
 santo O
 nome O
 de O
 Jesus B-PER
-! O
+! I-PER
 Mal O
 |
 | O
@@ -10983,8 +10983,8 @@ veiu O
 mesmo O
 perdido O
 da O
-tropa B-MISC
-! I-MISC
+tropa O
+! O
 ... O
 |
 
@@ -10995,15 +10995,15 @@ Lá O
 isso O
 , O
 ó O
-Gertrudes B-LOC
+Gertrudes B-PER
 , O
-man O
-rapaz O
+man B-PER
+rapaz I-PER
 não O
 |
 | O
 é O
-elle B-MISC
+elle O
 , O
 é O
 com O
@@ -11016,7 +11016,7 @@ bocadinho O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 mas O
 tom O
@@ -11070,11 +11070,11 @@ banhos O
 | O
 — O
 « O
-Ora B-ORG
+Ora O
 , O
 gentilá O
 ! O
-Haveria B-PER
+Haveria O
 de O
 tado O
 . O
@@ -11113,8 +11113,8 @@ que O
 |
 | O
 o O
-men O
-home O
+men B-ORG
+home I-ORG
 assim O
 fez O
 . O
@@ -11122,7 +11122,7 @@ Foi O
 ató O
 numa O
 cava O
-; O
+  O
 da- O
 |
 | O
@@ -11146,7 +11146,7 @@ en O
 que O
 ganhei O
 , O
-elle B-MISC
+elle O
 então O
 de-o O
 um O
@@ -11160,17 +11160,17 @@ disse-me O
 assim O
 : O
 — O
-Ó B-LOC
+Ó B-PER
 |
-| I-LOC
-Gertrudes I-LOC
+| I-PER
+Gertrudes I-PER
 , O
 és O
 uma O
 mulher O
 duma O
 cana O
-; O
+  O
 amanhã O
 |
 | O
@@ -11243,9 +11243,9 @@ então O
 andava O
 rija O
 o O
-éra O
+éra B-PER
 , O
-coitadinha O
+coitadinha B-MISC
 . O
 |
 
@@ -11278,7 +11278,7 @@ estava O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 a O
 |
 
@@ -11302,8 +11302,8 @@ p'rá O
 companhia O
 da O
 . O
-minha B-MISC
-tia I-MISC
+minha O
+tia O
 |
 | O
 até O
@@ -11322,7 +11322,7 @@ a O
 alma O
 a O
 Dons B-MISC
-! O
+! I-MISC
 Ficou-me O
 nos O
 |
@@ -11334,7 +11334,7 @@ braços O
 | O
 - O
 a O
-Coitadinho B-LOC
+Coitadinho B-PER
 ! O
 ' O
 Tão O
@@ -11365,7 +11365,7 @@ vai O
 & O
 psor O
 ! O
-Olho-o O
+Olho-o B-LOC
 para O
 o O
 |
@@ -11418,7 +11418,7 @@ Senhor I-LOC
 | O
 — O
 « O
-Ná B-MISC
+Ná B-PER
 o O
 dizia O
 o O
@@ -11490,7 +11490,7 @@ dizia O
 | O
 bem O
 dizia O
-Bastantes B-PER
+Bastantes O
 desgostos O
 teve O
 nos O
@@ -11542,7 +11542,7 @@ me I-MISC
 perdôe I-MISC
 o I-MISC
 péo I-MISC
-! O
+! I-MISC
 |
 
 | O
@@ -11554,8 +11554,8 @@ que O
 me O
 diz O
 ás O
-amizades B-PER
-mello I-PER
+amizades O
+mello O
 com O
 |
 | O
@@ -11565,7 +11565,7 @@ da O
 fidalga O
 ? O
 ! O
-Ella O
+Ella B-PER
 toda O
 extingue O
 , O
@@ -11577,13 +11577,13 @@ missa O
 logo O
 de O
 madrugada O
-; O
+  O
 as O
 |
 | O
 filhas O
 de O
-gúclas O
+gúclas B-PER
 abertas O
 com O
 as O
@@ -11615,7 +11615,7 @@ p'rá O
 | O
 48 O
 A O
-PRITIGEIRA B-ORG
+PRITIGEIRA B-MISC
 |
 
  
@@ -11659,7 +11659,7 @@ E O
 o O
 marido O
 ? O
-Vocemecê B-MISC
+Vocemecê O
 hade O
 ouvir O
 |
@@ -11684,7 +11684,7 @@ o O
 marido O
 ! O
 ... O
-Tambem O
+Tambem B-MISC
 gosta O
 muito O
 |
@@ -11725,7 +11725,7 @@ vezes O
 — O
 « O
 Bia B-MISC
-! I-MISC
+! O
 — O
 vivem O
 como O
@@ -11736,10 +11736,10 @@ fidalgos O
 | O
 — O
 « O
-Aquelles B-MISC
-grandes I-MISC
-excomungados I-MISC
-! I-MISC
+Aquelles O
+grandes O
+excomungados O
+! O
 No O
 |
 | O
@@ -11749,16 +11749,16 @@ fidalga O
 , O
 graças O
 a O
-Deus B-PER
-ninguem O
+Deus B-MISC
+ninguem I-MISC
 |
-| O
-batia O
-áquella O
-porta O
-com O
-fome O
-que O
+| I-MISC
+batia I-MISC
+áquella I-MISC
+porta I-MISC
+com I-MISC
+fome I-MISC
+que I-MISC
 não O
 trov- O
 |
@@ -11766,7 +11766,7 @@ trov- O
 fosse O
 uma O
 consolaçãcosinha O
-; O
+  O
 agora O
 nem O
 um O
@@ -11838,9 +11838,9 @@ carne O
 | O
 — O
 « O
-Pobre B-LOC
-' I-LOC
-Ferczinha I-LOC
+Pobre B-PER
+' I-PER
+Ferczinha I-PER
 , O
 tão O
 mimosa O
@@ -11867,7 +11867,7 @@ maroto O
 não O
 lhe O
 d O
-; O
+  O
 |
 | O
 é O
@@ -11925,7 +11925,7 @@ mas O
 nada O
 mais O
 ! O
-Ella O
+Ella B-PER
 |
 | O
 então O
@@ -11955,7 +11955,7 @@ nada O
  
 
 | O
-ICEIRA B-MISC
+ICEIRA B-PER
 49 O
 |
 
@@ -11968,7 +11968,7 @@ como O
 um O
 pimentão O
 , O
-põo O
+põo B-PER
 |
 | O
 os O
@@ -11986,7 +11986,7 @@ salva O
 | O
 — O
 a O
-Ora B-ORG
+Ora O
 essa O
 ! O
 Tem O
@@ -12011,7 +12011,7 @@ a O
 |
 | O
 minha O
-Tereza B-MISC
+Tereza B-PER
 — O
 não O
 é O
@@ -12056,11 +12056,11 @@ lá O
 ! O
 |
 | O
-Basta B-LOC
+Basta O
 saber O
 lêr O
 e O
-têr O
+têr B-PER
 a O
 indicação O
 que O
@@ -12073,8 +12073,8 @@ E O
 a O
 flôrainha O
 da O
-nossa O
-vila O
+nossa B-LOC
+vila I-LOC
 . O
 |
 
@@ -12113,7 +12113,7 @@ estou O
 velha O
 o O
 cansada O
-; O
+  O
 queria-a O
 |
 | O
@@ -12130,11 +12130,11 @@ com O
 |
 | O
 o O
-Manél B-LOC
-da I-LOC
-Clara I-LOC
-do I-LOC
-Rezadeira I-LOC
+Manél B-PER
+da I-PER
+Clara I-PER
+do I-PER
+Rezadeira I-PER
 gostava O
 , O
 Já O
@@ -12154,7 +12154,7 @@ tempo O
 o O
 |
 | O
-elle B-MISC
+elle O
 tem O
 alguma O
 coisa O
@@ -12213,13 +12213,13 @@ coisas O
 daquella O
 atrevida O
 da O
-Maria B-MISC
+Maria B-PER
 |
-| I-MISC
-do I-MISC
-Próspero I-MISC
+| I-PER
+do I-PER
+Próspero I-PER
 ! O
-Aquilo B-LOC
+Aquilo O
 sempre O
 fóram O
 do O
@@ -12228,9 +12228,9 @@ má O
 | O
 raça O
 , O
-Atóo B-PER
-p O
-! O
+Atóo B-MISC
+p I-MISC
+! I-MISC
 o O
 ? O
 ! O
@@ -12262,7 +12262,7 @@ o O
 |
 | O
 me O
-pôem O
+pôem B-LOC
 em O
 pé O
 . O
@@ -12287,7 +12287,7 @@ fidalga O
 |
 | O
 quo O
-Dous B-MISC
+Dous B-LOC
 tem O
 , O
 com O
@@ -12317,7 +12317,7 @@ então O
 | O
 - O
 . O
-hade O
+hade B-PER
 sabe O
 |
 
@@ -12330,7 +12330,7 @@ sabe O
 | O
 50 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -12348,14 +12348,14 @@ diacho O
 , O
 |
 | O
-Deus B-MISC
-me I-MISC
-perdôo I-MISC
-! I-MISC
+Deus B-PER
+me O
+perdôo O
+! O
 Então O
 não O
 disse O
-elle B-MISC
+elle O
 que O
 |
 | O
@@ -12375,7 +12375,7 @@ senhora O
 fidalga O
 ! O
 ? O
-Aquella B-PER
+Aquella O
 aventosma O
 ! O
 ... O
@@ -12419,7 +12419,7 @@ amigavel O
 | O
 — O
 « O
-Posso B-LOC
+Posso O
 dizer-lhe O
 de O
 certeza O
@@ -12433,7 +12433,7 @@ Prósopro I-PER
 conversa O
 com O
 e O
-Mania B-LOC
+Mania B-MISC
 e O
 parece O
 que O
@@ -12472,7 +12472,7 @@ antes O
 de O
 |
 | O
-elle B-MISC
+elle O
 ir O
 para O
 a O
@@ -12497,7 +12497,7 @@ Desculpe B-PER
 |
 | O
 senhora O
-Zéfa B-MISC
+Zéfa B-PER
 , O
 aquilo O
 é O
@@ -12514,7 +12514,7 @@ Pois O
 de O
 que O
 eraça B-PER
-ella O
+ella I-PER
 6 O
 ! O
 ... O
@@ -12538,7 +12538,7 @@ levando O
 o O
 seu O
 intento O
-; O
+  O
 tem O
 artes O
 do O
@@ -12550,7 +12550,7 @@ demonio O
 | O
 — O
 « O
-Deixe B-LOC
+Deixe O
 estar O
 , O
 deixo O
@@ -12567,7 +12567,7 @@ que O
 hãde O
 voltar O
 o O
-Manel B-LOC
+Manel B-PER
 , O
 oh O
 |
@@ -12587,7 +12587,7 @@ que O
 lho O
 pertencosse O
 ... O
-Coisa B-PER
+Coisa O
 de O
 vestir O
 era O
@@ -12620,11 +12620,11 @@ certa O
 ' O
 A B-MISC
 Terezinha I-MISC
-tom I-MISC
-nm I-MISC
-lonço I-MISC
+tom O
+nm O
+lonço O
 que O
-elle B-MISC
+elle O
 |
 | O
 lhe O
@@ -12667,8 +12667,8 @@ verdadeiras O
 
 | O
 A O
-FEITICEIRA B-MISC
-5 O
+FEITICEIRA B-ORG
+5 I-ORG
 |
 
 | O
@@ -12689,16 +12689,16 @@ de O
 pé O
 quando O
 a O
-atrevida B-LOC
-da I-LOC
+atrevida O
+da O
 |
-| I-LOC
-Maria I-LOC
+| O
+Maria B-PER
 passar O
 por O
 ella O
 ... O
-Desatou O
+Desatou B-PER
 a O
 rir O
 ! O
@@ -12707,7 +12707,7 @@ rir O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 isso O
 é O
@@ -12727,7 +12727,7 @@ nos O
 quer O
 mal O
 . O
-Sabe B-PER
+Sabe O
 |
 | O
 o O
@@ -12763,10 +12763,10 @@ o O
 funcho O
 , O
 a O
-de- O
+de- B-PER
 |
-| O
-daleira O
+| I-PER
+daleira I-PER
 , O
 o O
 rosmaninho O
@@ -12901,15 +12901,15 @@ soprano O
 numa O
 toada O
 melancolica O
-; O
+  O
 . O
 |
 
 | O
 — O
 « O
-Eu B-MISC
-heide I-MISC
+Eu B-LOC
+heide I-LOC
 amar O
 uma O
 pedra O
@@ -12966,17 +12966,17 @@ de O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
-| O
-lagrimas O
+| I-PER
+lagrimas I-PER
 fitavam O
 a O
 estampa O
 ingenua O
 que O
-elle B-MISC
+elle O
 |
 | O
 lhe O
@@ -13012,9 +13012,9 @@ o O
 | O
 tambem O
 a O
-Maria B-MISC
-do I-MISC
-Próspero I-MISC
+Maria B-PER
+do I-PER
+Próspero I-PER
 , O
 que O
 punha O
@@ -13042,7 +13042,7 @@ as O
 armas O
 perigosas O
 da O
-chalaça O
+chalaça B-PER
 e O
 da O
 . O
@@ -13066,7 +13066,7 @@ Manoel B-PER
 . O
 |
 | O
-Tinham B-PER
+Tinham O
 fama O
 por O
 todas O
@@ -13235,7 +13235,7 @@ si O
 redondas O
 6 O
 fortes O
-; O
+  O
 o O
 |
 | O
@@ -13264,7 +13264,7 @@ negro O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 - O
 53 O
 |
@@ -13317,9 +13317,9 @@ pé O
 nenhuma O
 como O
 a O
-Maria B-MISC
-do I-MISC
-Próspero I-MISC
+Maria B-PER
+do I-PER
+Próspero I-PER
 para O
 arre- O
 |
@@ -13379,7 +13379,7 @@ tri- O
 queirós O
 e O
 musculosos O
-; O
+  O
 ou O
 no O
 gesto O
@@ -13391,7 +13391,7 @@ juntar O
 as O
 paveias O
 e O
-sobraçar O
+sobraçar B-ORG
 os O
 mólhos O
 , O
@@ -13406,7 +13406,7 @@ grave O
 duma O
 |
 | O
-Céres B-MISC
+Céres B-PER
 fecunda O
 . O
 |
@@ -13425,7 +13425,7 @@ ranchos O
 | O
 vermelha O
 do O
-môsto O
+môsto B-MISC
 que O
 corre O
 como O
@@ -13528,13 +13528,13 @@ se O
 podem O
 dobrar O
 , O
-olla O
-mote- O
+olla B-PER
+mote- I-PER
 |
-| O
-java O
-do O
-todos O
+| I-PER
+java I-PER
+do I-PER
+todos I-PER
 , O
 sempre O
 na O
@@ -13557,9 +13557,9 @@ desani- O
  
 
 | O
-Ds B-MISC
-A I-MISC
-FEITICEIRA I-MISC
+Ds B-LOC
+A O
+FEITICEIRA B-PER
 |
 
 | O
@@ -13585,7 +13585,7 @@ o O
 trabalho O
 , O
 a O
-Prós- B-LOC
+Prós- B-PER
 |
 | O
 era O
@@ -13768,7 +13768,7 @@ Alegre B-LOC
 |
 | O
 sim O
-; O
+  O
 rir O
 com O
 todos O
@@ -13824,7 +13824,7 @@ só O
 |
 | O
 com O
-elle B-MISC
+elle B-PER
 tinha O
 as O
 suas O
@@ -13862,14 +13862,14 @@ dia O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 55 O
 |
 
 | O
-A B-MISC
-! I-MISC
-noite I-MISC
+A O
+! O
+noite O
 , O
 nas O
 esfolhadas O
@@ -13925,7 +13925,7 @@ sêo O
 que O
 |
 | O
-entonteco O
+entonteco B-PER
 . O
 |
 
@@ -13976,7 +13976,7 @@ mais O
 força O
 do O
 que O
-elle B-MISC
+elle O
 ! O
 Isso O
 é O
@@ -14037,14 +14037,14 @@ a O
 sobrinha O
 com O
 o O
-Manoel B-LOC
+Manoel B-PER
 . O
 |
 
 | O
 — O
 « O
-Bôn B-PER
+Bôn B-LOC
 rapariga O
 , O
 lá O
@@ -14056,7 +14056,7 @@ havia O
 | O
 duas O
 opiniões O
-; O
+  O
 mas O
 a O
 Maria B-PER
@@ -14086,8 +14086,8 @@ voltar O
 |
 | O
 um O
-campo O
-sósinha O
+campo B-LOC
+sósinha I-LOC
 . O
 |
 
@@ -14212,7 +14212,7 @@ cóo B-MISC
 : O
 — O
 « O
-Ora B-MISC
+Ora O
 , O
 |
 | O
@@ -14221,7 +14221,7 @@ era O
 outra O
 loiça O
 ! O
-Pedia B-LOC
+Pedia B-MISC
 lá O
 comparar-se O
 ! O
@@ -14278,7 +14278,7 @@ outras O
 
 | O
 O O
-Manoel B-LOC
+Manoel B-PER
 , O
 ainda O
 indeciso O
@@ -14391,7 +14391,7 @@ fisico O
 | O
 — O
 « O
-Casar B-PER
+Casar O
 com O
 a O
 Maria B-PER
@@ -14434,8 +14434,8 @@ as O
 cons- O
 |
 | O
-ciencias O
-timoratas O
+ciencias B-LOC
+timoratas I-LOC
 . O
 |
 
@@ -14472,14 +14472,14 @@ tol- O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 57 O
 |
 
 | O
 davam O
 o O
-céo O
+céo B-MISC
 , O
 voltava O
 o O
@@ -14490,7 +14490,7 @@ da O
 |
 | O
 vila O
-proxima O
+proxima B-LOC
 onde O
 assistira O
 & O
@@ -14512,7 +14512,7 @@ abandono O
 pungento O
 da O
 paisagem O
-lugubre O
+lugubre B-LOC
 . O
 |
 | O
@@ -14602,7 +14602,7 @@ ali O
 como O
 o O
 pecado O
-véla O
+véla B-PER
 o O
 |
 | O
@@ -14639,7 +14639,7 @@ taberna O
 |
 | O
 do O
-Geitoso B-LOC
+Geitoso B-ORG
 , O
 vinha O
 assobiando O
@@ -14699,9 +14699,9 @@ corvos O
 |
 
 | O
-Mêdo O
-? O
-... O
+Mêdo B-MISC
+? I-MISC
+... I-MISC
 Elle B-MISC
 não O
 tinha O
@@ -14716,15 +14716,15 @@ acontecera O
 aquella O
 historia O
 da O
-casa O
-dos O
+casa B-LOC
+dos I-LOC
 |
-| O
-Carneiros B-MISC
-... I-MISC
-Crédo O
+| I-LOC
+Carneiros I-LOC
+... O
+Crédo B-LOC
 ! O
-Abrenuncio B-PER
+Abrenuncio B-LOC
 ! O
 |
 
@@ -14739,7 +14739,7 @@ o O
 Manoel B-PER
 , O
 como O
-lho O
+lho B-PER
 |
 | O
 cumpria O
@@ -14777,11 +14777,11 @@ visto O
 | O
 58 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-ORG
 |
 
-| I-MISC
-Agora I-MISC
+| I-ORG
+Agora I-ORG
 , O
 as O
 gargalhadas O
@@ -14811,9 +14811,9 @@ Mas O
 naquelle O
 sitio O
 , O
-ágnella B-MISC
-hora I-MISC
-! I-MISC
+ágnella B-LOC
+hora I-LOC
+! I-LOC
 . O
 |
 | O
@@ -14851,12 +14851,12 @@ arrastar O
 os O
 ferros O
 em O
-braza O
+braza B-LOC
 que O
 vinham O
 |
 | O
-cahir O
+cahir B-PER
 aos O
 pés O
 da O
@@ -14938,12 +14938,12 @@ iguais O
 
 | O
 — O
-Sô B-LOC
+Sô B-PER
 depois O
 que O
 o O
 senhor O
-Vigario B-PER
+Vigario B-LOC
 velho O
 so O
 |
@@ -14955,7 +14955,7 @@ sahir O
 de O
 capa O
 de O
-asperges B-PER
+asperges O
 , O
 para O
 |
@@ -15077,7 +15077,7 @@ O O
 Manoel B-PER
 era O
 destemido O
-; O
+  O
 apesar O
 da O
 má O
@@ -15136,7 +15136,7 @@ Primeiro O
 não O
 viu O
 nada O
-; O
+  O
 depois O
 , O
 vaga O
@@ -15249,7 +15249,7 @@ visto O
 tambem O
 quando O
 em O
-pequenino O
+pequenino B-LOC
 esteve O
 amor- O
 |
@@ -15309,7 +15309,7 @@ horrivel O
 — O
 |
 | O
-Olharapos B-MISC
+Olharapos B-PER
 corriam O
 vertiginosamente O
 , O
@@ -15384,8 +15384,8 @@ qual O
 
 | O
 60 O
-A B-MISC
-FEITICEIRA I-MISC
+A O
+FEITICEIRA B-PER
 |
 
 | O
@@ -15442,7 +15442,7 @@ noite O
 |
 
 | O
-Surrateiramente O
+Surrateiramente B-LOC
 foi-se O
 aproximando O
 da O
@@ -15506,7 +15506,7 @@ de O
 encarnado O
 e O
 de O
-chapéo B-PER
+chapéo O
 guisa- O
 |
 | O
@@ -15561,7 +15561,7 @@ Ah O
 ! O
 mas O
 quando O
-elle B-MISC
+elle B-PER
 viu O
 com O
 os O
@@ -15644,13 +15644,13 @@ trigueiros O
 , O
 abraçá-lo O
 com O
-ardôr B-PER
+ardôr O
 , O
 |
 | O
 não O
-poude O
-retêr O
+poude B-PER
+retêr I-PER
 um O
 surdo O
 grito O
@@ -15660,7 +15660,7 @@ raiva O
 |
 
 | O
-Aquelles B-PER
+Aquelles O
 braços O
 , O
 que O
@@ -15673,9 +15673,9 @@ lhe O
 | O
 fazia O
 febre O
-; O
-aquella B-PER
-mulher I-PER
+  O
+aquella O
+mulher O
 , O
 que O
 o O
@@ -15702,13 +15702,13 @@ honestidade O
 | O
 A O
 FEITICEIRA B-MISC
-81 O
+81 I-MISC
 |
 
    
 
-| O
-alegre O
+| I-MISC
+alegre I-MISC
 e O
 simples O
 conseguira O
@@ -15716,11 +15716,11 @@ o O
 seu O
 respeito O
 o O
-O B-MISC
+O O
 |
-| I-MISC
-seu I-MISC
-amôr I-MISC
+| O
+seu O
+amôr O
 , O
 estava O
 ali O
@@ -15754,9 +15754,9 @@ esse O
 outro O
 era O
 o O
-proprio B-LOC
+proprio O
 |
-| I-LOC
+| O
 Diabo O
 em O
 pessôa O
@@ -15765,7 +15765,7 @@ pessôa O
 
 | O
 ' O
-Premia B-LOC
+Premia B-MISC
 . O
 de O
 desespero O
@@ -15828,15 +15828,15 @@ As O
 luzitas O
 recomeçaram O
 a O
-dante O
+dante B-PER
 , O
 numa O
 |
 | O
-girandola O
+girandola B-LOC
 de*sabia O
 , O
-correndo O
+correndo B-LOC
 é O
 saltando O
 , O
@@ -15873,7 +15873,7 @@ volta O
 delle O
 , O
 que O
-elle B-MISC
+elle O
 mesmo O
 se O
 sentia O
@@ -15887,7 +15887,7 @@ entontecer O
 . O
 Agora O
 o O
-Diabo B-LOC
+Diabo O
 , O
 |
 | O
@@ -16011,7 +16011,7 @@ contempla- O
 | O
 62 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -16022,7 +16022,7 @@ que O
 o O
 atordoava O
 e O
-lho O
+lho B-PER
 tirava O
 |
 | O
@@ -16040,7 +16040,7 @@ foz O
 | O
 mulher O
 , O
-Ficou B-MISC
+Ficou O
 boquiaberto O
 , O
 pois O
@@ -16056,10 +16056,10 @@ menos O
 do O
 que O
 a O
-Gertrudes B-LOC
+Gertrudes B-PER
 |
-| I-LOC
-Zarôlha I-LOC
+| I-PER
+Zarôlha I-PER
 , O
 a O
 velha O
@@ -16067,11 +16067,11 @@ amiga O
 o O
 confidente O
 da O
-Zéfa B-MISC
+Zéfa B-PER
 |
-| I-MISC
-do I-MISC
-Padre I-MISC
+| I-PER
+do I-PER
+Padre I-PER
 . O
 |
 
@@ -16175,7 +16175,7 @@ aza O
 | O
 Logo O
 à O
-Gertrudes B-LOC
+Gertrudes B-PER
 tornou O
 à O
 sua O
@@ -16243,20 +16243,20 @@ de O
 receber O
 anualmente O
 a O
-bôa O
-camisa O
+bôa B-ORG
+camisa I-ORG
 |
-| O
-de O
-pano O
-de O
-linho O
+| I-ORG
+de I-ORG
+pano I-ORG
+de I-ORG
+linho I-ORG
 . O
 |
 
 | O
 A O
-Gertrudes B-LOC
+Gertrudes B-PER
 quedou-se O
 diante O
 do O
@@ -16316,14 +16316,14 @@ desastre O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 os O
 |
 
 | O
 — O
 « O
-Ai B-LOC
+Ai O
 , O
 Manoel B-PER
 , O
@@ -16406,7 +16406,7 @@ vêr O
 | O
 perdido O
 . O
-Olha B-LOC
+Olha O
 , O
 escuta O
 , O
@@ -16419,8 +16419,8 @@ quo O
 to O
 vou O
 dize O
-O B-MISC
-Senhor I-MISC
+O O
+Senhor B-PER
 vai O
 perguntar O
 quam O
@@ -16460,13 +16460,13 @@ pensa- O
 | O
 mento O
 , O
-agarra B-PER
-nella I-PER
+agarra O
+nella O
 . O
 e O
 foge O
 . O
-Corre B-PER
+Corre O
 quanto O
 |
 | O
@@ -16503,7 +16503,7 @@ depois O
 da O
 meia-noite O
 . O
-Corre B-PER
+Corre O
 , O
 corre O
 quanto O
@@ -16542,8 +16542,8 @@ nome O
 , O
 não O
 olhes O
-mem O
-páres O
+mem B-PER
+páres I-PER
 , O
 |
 | O
@@ -16580,11 +16580,11 @@ com O
 as O
 outras O
 na O
-dansa O
-ma- O
+dansa B-ORG
+ma- I-ORG
 |
-| O
-cabra O
+| I-ORG
+cabra I-ORG
 . O
 |
 
@@ -16596,11 +16596,11 @@ ostarrecido O
 , O
 mas O
 o O
-proprio B-LOC
+proprio O
 |
-| I-LOC
-mêdo I-LOC
-lho I-LOC
+| O
+mêdo B-PER
+lho I-PER
 deu O
 energia O
 bastante O
@@ -16625,11 +16625,11 @@ ver- O
 | O
 o O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
-| I-MISC
-velho I-MISC
+| I-PER
+velho I-PER
 fazia O
 em O
 voz O
@@ -16678,8 +16678,8 @@ como O
 lhe O
 ensinara O
 a O
-Gertrudes B-LOC
-Zarôlha I-LOC
+Gertrudes B-PER
+Zarôlha I-PER
 , O
 — O
 |
@@ -16784,7 +16784,7 @@ uma O
 | O
 grita O
 ensurdecedora O
-lho O
+lho B-PER
 chegou O
 aos O
 ouvidos O
@@ -16877,8 +16877,8 @@ tenaz O
 ... O
 Chama- B-MISC
 |
-| O
-vam-no O
+| I-MISC
+vam-no I-MISC
 pelo O
 seu O
 nome O
@@ -16922,8 +16922,8 @@ tentadoras O
 
 | O
 A O
-FEITICEIRA B-MISC
-85 I-MISC
+FEITICEIRA B-PER
+85 O
 |
 
 | O
@@ -16959,18 +16959,18 @@ fresca O
 |
 | O
 da O
-Maria B-MISC
-... I-MISC
+Maria B-PER
+... O
 |
 
-| I-MISC
+| O
 Mas O
 , O
 fio O
 á O
 recomendação O
 da O
-Gertrudes B-LOC
+Gertrudes B-PER
 , O
 |
 | O
@@ -17007,7 +17007,7 @@ agudas O
 : O
 — O
 a O
-Próspera B-LOC
+Próspera B-PER
 abraçando O
 o O
 Senhor B-PER
@@ -17018,7 +17018,7 @@ como O
 lhe O
 chamara O
 a O
-Zarôlha B-LOC
+Zarôlha B-PER
 , O
 e O
 o O
@@ -17184,7 +17184,7 @@ uma O
 badalada O
 |
 | O
-lugubre O
+lugubre B-LOC
 , O
 o O
 galo O
@@ -17223,9 +17223,9 @@ pesadelos O
 | O
 06 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
-| I-MISC
+| I-PER
 Um O
 gargalhar O
 surdo O
@@ -17305,7 +17305,7 @@ da O
 pequena O
 terra O
 triste O
-; O
+  O
 cortada O
 |
 | O
@@ -17349,8 +17349,8 @@ tendo O
 sempre O
 a O
 sua O
-vózinha O
-escarneeedora O
+vózinha B-PER
+escarneeedora I-PER
 e O
 |
 | O
@@ -17366,7 +17366,7 @@ res O
 tisnados O
 que O
 na O
-terra B-LOC
+terra O
 encontram O
 o O
 seu O
@@ -17388,8 +17388,8 @@ cio O
 aspergidas O
 com O
 a O
-agua O
-benta O
+agua B-LOC
+benta I-LOC
 , O
 da O
 |
@@ -17444,10 +17444,10 @@ alegro O
 o O
 florida O
 : O
-— B-LOC
-« I-LOC
-Bôas B-MISC
-festas I-MISC
+— O
+« O
+Bôas B-PER
+festas O
 , O
 |
 | O
@@ -17521,7 +17521,7 @@ des- O
 | O
 4 O
 ICEIRA B-MISC
-67 O
+67 I-MISC
 |
 
 | O
@@ -17718,7 +17718,7 @@ logico O
 . O
 O O
 que O
-elle B-MISC
+elle O
 via O
 , O
 os O
@@ -17793,8 +17793,8 @@ ajudar O
 a O
 |
 | O
-tia B-PER
-Clara I-PER
+tia O
+Clara B-PER
 nos O
 arranjos O
 domesticos O
@@ -17802,7 +17802,7 @@ domesticos O
 |
 
 | O
-Ninguem B-MISC
+Ninguem O
 podia O
 compreender O
 tal O
@@ -17813,7 +17813,7 @@ horror O
 rapariga O
 , O
 nem O
-elle B-MISC
+elle O
 , O
 que O
 o O
@@ -17828,8 +17828,8 @@ chorava O
 
 | O
 os O
-A B-MISC
-vririorimA I-MISC
+A O
+vririorimA O
 . O
 |
 
@@ -17893,8 +17893,8 @@ logo O
 ir O
 procurar O
 a O
-Gertrudes B-LOC
-Zarôlha I-LOC
+Gertrudes B-PER
+Zarôlha I-PER
 , O
 que O
 |
@@ -17992,7 +17992,7 @@ verdade O
 Ao O
 principio O
 a O
-Gertrudes B-LOC
+Gertrudes B-PER
 indignou-se O
 , O
 pôs O
@@ -18033,8 +18033,8 @@ Inferno I-LOC
 
 | O
 — O
-O O
-Manoel B-PER
+O B-MISC
+Manoel I-MISC
 que O
 não O
 sonhasse O
@@ -18055,11 +18055,11 @@ patife O
 do O
 |
 | O
-Próspero B-LOC
+Próspero B-PER
 que O
 levantara O
-aquella B-LOC
-calúnia I-LOC
+aquella O
+calúnia O
 é O
 dizia O
 |
@@ -18098,7 +18098,7 @@ negassso O
 | O
 Senhora B-LOC
 Gertrudes I-LOC
-; O
+  O
 tinha-a O
 elle O
 visto O
@@ -18108,7 +18108,7 @@ ora O
 | O
 essa O
 ! O
-Querer B-PER
+Querer O
 dizer-lhe O
 que O
 não O
@@ -18119,7 +18119,7 @@ verdade O
 uma O
 coisa O
 que O
-elle B-MISC
+elle O
 mesmo O
 vira O
 , O
@@ -18133,7 +18133,7 @@ aquelles O
 
 | O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -18149,7 +18149,7 @@ comer O
 ! O
 |
 | O
-Demais B-LOC
+Demais O
 , O
 não O
 tinha O
@@ -18234,7 +18234,7 @@ a O
 valer O
 ? O
 ! O
-Podia B-LOC
+Podia B-ORG
 têr-so O
 enla- O
 |
@@ -18286,7 +18286,7 @@ perder O
 | O
 uma O
 dôce B-MISC
-ilusão O
+ilusão I-MISC
 . O
 |
 
@@ -18319,7 +18319,7 @@ que O
 a O
 paixão O
 por O
-ella O
+ella B-PER
 chegara O
 |
 | O
@@ -18344,7 +18344,7 @@ daria O
 para O
 que O
 a O
-Gertrudes B-LOC
+Gertrudes B-PER
 lhe O
 désse O
 |
@@ -18361,7 +18361,7 @@ tinham O
 ilus- O
 |
 | O
-dido B-PER
+dido O
 , O
 quanto O
 daria O
@@ -18379,7 +18379,7 @@ confiança O
 que O
 tinha O
 dantes O
-; O
+  O
 podê-la O
 levar O
 |
@@ -18429,7 +18429,7 @@ importava O
 ? O
 |
 | O
-Ella O
+Ella B-PER
 , O
 a O
 Clara B-PER
@@ -18458,9 +18458,9 @@ es- O
  
 
 | O
-TO O
+TO B-LOC
 A O
-PEJTICENA O
+PEJTICENA B-MISC
 |
 
 | O
@@ -18501,8 +18501,8 @@ aumentar O
 
 | O
 Como O
-elle B-PER
-esquecia I-PER
+elle O
+esquecia O
 , O
 evocando O
 a O
@@ -18543,7 +18543,7 @@ tear O
 | O
 Mas O
 a O
-Gertrudes B-LOC
+Gertrudes B-PER
 foi O
 impicdosa O
 . O
@@ -18557,7 +18557,7 @@ começou O
 a O
 dizer O
 tudo O
-; O
+  O
 primeiro O
 timida- O
 |
@@ -18587,7 +18587,7 @@ arrepiavam O
 e O
 indignavam O
 o O
-Manoel B-LOC
+Manoel B-PER
 . O
 |
 
@@ -18628,7 +18628,7 @@ das O
 mais O
 queridas O
 do O
-Senhor B-LOC
+Senhor B-PER
 . O
 |
 
@@ -18660,12 +18660,12 @@ sóa O
 — O
 era O
 o O
-Próspero B-LOC
+Próspero B-PER
 velho O
 . O
 |
 | O
-Andava B-LOC
+Andava O
 com O
 o O
 fado O
@@ -18692,7 +18692,7 @@ lhe O
 contou O
 , O
 o O
-elle B-MISC
+elle O
 vinha O
 |
 | O
@@ -18717,7 +18717,7 @@ feiticeira O
 
 | O
 A O
-Gertrudes B-LOC
+Gertrudes B-PER
 comentava O
 com O
 gestos O
@@ -18773,17 +18773,17 @@ honra O
     
 
 | O
-A B-MISC
-FEITICEIRA I-MISC
-a I-MISC
+A O
+FEITICEIRA B-PER
+a O
 |
 
  
 
-| I-MISC
-' I-MISC
-Finha-lhe I-MISC
-odio I-MISC
+| O
+' O
+Finha-lhe O
+odio O
 , O
 o O
 odio O
@@ -18861,7 +18861,7 @@ da O
 fidalga O
 , O
 a O
-Gertrudes B-LOC
+Gertrudes B-PER
 não O
 a O
 podia O
@@ -18926,8 +18926,8 @@ um O
 | O
 anjo O
 do O
-céo B-ORG
-! I-ORG
+céo B-MISC
+! I-MISC
 |
 
 | O
@@ -18997,7 +18997,7 @@ amarfanhada O
 |
 
 | O
-Pur B-PER
+Pur O
 vezes O
 aá O
 à O
@@ -19055,7 +19055,7 @@ romã O
 quando O
 acertava O
 de O
-lho O
+lho B-PER
 dirigir O
 a O
 palavra O
@@ -19076,7 +19076,7 @@ pelos O
 encantos O
 de O
 Maria B-PER
-; O
+  O
 lembrava-a O
 |
 
@@ -19095,7 +19095,7 @@ lembrava-a O
 Fra B-PER
 ! O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -19132,18 +19132,18 @@ a O
 | O
 importancia O
 de O
-janota B-LOC
-de I-LOC
-aldeia I-LOC
+janota O
+de O
+aldeia O
 . O
 — O
 « O
-Coitada- B-MISC
+Coitada- B-PER
 |
-| I-MISC
-nha I-MISC
-! I-MISC
-Gostava B-LOC
+| I-PER
+nha I-PER
+! I-PER
+Gostava O
 tanto O
 delle O
 ! O
@@ -19154,7 +19154,7 @@ esteve O
 doente O
 , O
 nunca O
-ella O
+ella B-PER
 deixou O
 apagar O
 a O
@@ -19170,7 +19170,7 @@ Castelo I-LOC
 
 | O
 O O
-Manoel B-LOC
+Manoel B-PER
 afastou-se O
 por O
 fim O
@@ -19263,9 +19263,9 @@ coseram-se O
 com O
 sobresalto O
 na O
-Maria B-MISC
-do I-MISC
-Próspero I-MISC
+Maria B-PER
+do I-PER
+Próspero I-PER
 , O
 quo O
 |
@@ -19396,12 +19396,12 @@ se O
 
 | O
 À O
-FEITICEIRA B-MISC
-73 I-MISC
+FEITICEIRA B-PER
+73 O
 |
 
-| I-MISC
-Estremecia O
+| O
+Estremecia B-PER
 de O
 horror O
 como O
@@ -19427,7 +19427,7 @@ uma O
 ideia O
 fixa O
 de O
-monomaniaco O
+monomaniaco B-LOC
 . O
 |
 
@@ -19441,7 +19441,7 @@ rapariga O
 tão O
 |
 | O
-linda O
+linda B-PER
 , O
 tão O
 alegre O
@@ -19481,9 +19481,9 @@ forqnilha O
 e O
 porque O
 à O
-Gertrudes B-LOC
-lho O
-afiançara O
+Gertrudes B-PER
+lho I-PER
+afiançara I-PER
 . O
 |
 | O
@@ -19532,7 +19532,7 @@ com- O
 | O
 passo O
 rítmico O
-; O
+  O
 as O
 gargalhadas O
 que O
@@ -19543,7 +19543,7 @@ como O
 acceitar O
 de O
 corvos O
-; O
+  O
 os O
 olharapos O
 cor- O
@@ -19562,7 +19562,7 @@ a O
 |
 | O
 testa O
-; O
+  O
 os O
 lobos-homens O
 galopando O
@@ -19573,7 +19573,7 @@ seu O
 | O
 fadario O
 tristo O
-; O
+  O
 avejões O
 , O
 direitos O
@@ -19649,7 +19649,7 @@ amor- O
 | O
 dado O
 , O
-J B-LOC
+J B-PER
 a O
 Maria B-PER
 ia O
@@ -19683,8 +19683,8 @@ razão O
 | O
 nenhuma O
 que O
-ella O
-Ide B-PER
+ella B-PER
+Ide I-PER
 desse O
 ! O
 |
@@ -19698,10 +19698,10 @@ desse O
 | O
 74 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
-| I-MISC
+| O
 Se O
 ao O
 menos O
@@ -19725,7 +19725,7 @@ a O
 doença O
 , O
 quando O
-ella O
+ella B-PER
 passava O
 as O
 noites O
@@ -19798,13 +19798,13 @@ do O
 Manoel B-PER
 com O
 a O
-Terezinha B-MISC
-da I-MISC
-Zófa I-MISC
+Terezinha B-LOC
+da I-LOC
+Zófa I-LOC
 |
-| I-MISC
-do I-MISC
-Padre I-MISC
+| O
+do O
+Padre B-PER
 . O
 |
 
@@ -19880,7 +19880,7 @@ trabalho O
 |
 
 | O
-Satisfeito B-MISC
+Satisfeito O
 e O
 feliz O
 , O
@@ -19904,11 +19904,11 @@ pano O
 fino O
 , O
 o O
-sen O
+sen B-LOC
 |
-| O
-chapéo B-PER
-lustroso I-PER
+| I-LOC
+chapéo I-LOC
+lustroso O
 , O
 a O
 sua O
@@ -19935,7 +19935,7 @@ altar O
 , O
 dizia O
 a O
-Gertrudes B-LOC
+Gertrudes B-PER
 benzendo-se O
 . O
 |
@@ -19960,12 +19960,12 @@ Maria B-PER
 do I-PER
 Prós- I-PER
 |
-| O
-pero O
+| I-PER
+pero I-PER
 , O
 que O
-curtia B-PER
-sósinha I-PER
+curtia O
+sósinha B-PER
 , O
 num O
 desespero O
@@ -19989,15 +19989,15 @@ miseravel O
 
 | O
 A O
-FEITICEIRA B-MISC
-% O
+FEITICEIRA B-ORG
+% I-ORG
 |
 
 | O
 Quando O
 a O
-Gertrudes B-LOC
-Zarôlha I-LOC
+Gertrudes B-PER
+Zarôlha I-PER
 começou O
 à O
 |
@@ -20041,7 +20041,7 @@ amigos O
 na O
 taberna O
 do O
-Geitoso B-LOC
+Geitoso B-ORG
 , O
 a O
 Maria B-PER
@@ -20069,12 +20069,12 @@ da O
 sua O
 forte O
 e O
-sadia O
+sadia B-ORG
 |
 | O
 natureza O
 . O
-Quiz B-PER
+Quiz B-MISC
 bater O
 na O
 velha O
@@ -20126,7 +20126,7 @@ consciencia O
 certa O
 de O
 que O
-elle B-MISC
+elle O
 estaria O
 |
 | O
@@ -20163,7 +20163,7 @@ da O
 velha O
 , O
 quando O
-elle B-MISC
+elle O
 lhe O
 |
 | O
@@ -20240,10 +20240,10 @@ e O
 um O
 aperto O
 na O
-gar- O
+gar- B-MISC
 |
-| O
-santa O
+| I-MISC
+santa I-MISC
 que O
 a O
 estrangulava O
@@ -20254,7 +20254,7 @@ estrangulava O
 Fechou-se O
 em O
 casa O
-; O
+  O
 o O
 , O
 sem O
@@ -20294,7 +20294,7 @@ a O
 | O
 76 O
 A O
-FEITICEIRA B-MISC
+FEITICEIRA B-PER
 |
 
 | O
@@ -20421,7 +20421,7 @@ estado O
 a O
 encontrava O
 ! O
-Maloitas B-PER
+Maloitas B-MISC
 ou O
 man O
 |
@@ -20431,7 +20431,7 @@ olhado O
 espirito O
 ruim O
 que O
-Jo B-MISC
+Jo B-PER
 entrara O
 no O
 corpo O
@@ -20512,7 +20512,7 @@ e O
 céo O
 azul O
 em O
-festa O
+festa B-LOC
 , O
 us B-LOC
 |
@@ -20537,11 +20537,11 @@ magica O
 tlin- O
 |
 | O
-ava O
+ava B-MISC
 o O
 seu O
-risito O
-escarninho O
+risito B-ORG
+escarninho I-ORG
 e O
 macabro O
 e O
@@ -20597,10 +20597,10 @@ romarias O
 
 | O
 à O
-FEITICEIRA B-MISC
+FEITICEIRA B-ORG
 |
 
-| I-MISC
+| O
 Nos O
 trabalhos O
 do O
@@ -20668,7 +20668,7 @@ tragico O
 |
 
 | O
-Atormentada B-MISC
+Atormentada O
 de O
 visões O
 , O
@@ -20758,14 +20758,14 @@ humana O
 |
 | O
 e O
-olharapos O
+olharapos B-PER
 , O
 duendes O
 , O
 lémures O
 o O
-trasgos O
-povôam O
+trasgos B-ORG
+povôam I-ORG
 |
 | O
 as O
@@ -20783,14 +20783,14 @@ sabbat O
  
 
 | O
-HU B-MISC
+HU B-LOC
 |
 
  
  
 
-| I-MISC
-Diario B-PER
+| O
+Diario O
 duma O
 criança O
 |
@@ -20798,21 +20798,21 @@ criança O
  
 
 | O
-D B-MISC
+D O
 |
 
    
 
 | O
-DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DIARIO O
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
  
 
 | O
-CREIO O
+CREIO B-LOC
 que O
 não O
 é O
@@ -20836,11 +20836,11 @@ não O
 | O
 verdadeiramente O
 o O
-Diario B-PER
-duma O
-« O
-riuça O
-; O
+Diario B-MISC
+duma I-MISC
+« I-MISC
+riuça I-MISC
+  O
 |
 | O
 vão O
@@ -20885,7 +20885,7 @@ admira O
 |
 
 | O
-Decerto B-LOC
+Decerto B-PER
 não O
 sou O
 muito O
@@ -20908,7 +20908,7 @@ mas O
 assim O
 mesmo O
 , O
-elle B-MISC
+elle O
 acha O
 extraordinario O
 |
@@ -20917,8 +20917,8 @@ como O
 os O
 episodios O
 da O
-minha O
-infancia O
+minha B-MISC
+infancia I-MISC
 |
 | O
 se O
@@ -20970,7 +20970,7 @@ pensei O
 nunca O
 em O
 escrever O
-; O
+  O
 sei O
 , O
 tão O
@@ -21005,12 +21005,12 @@ frouxa O
 | O
 o O
 DIARIO B-MISC
-DUMA O
-CRIANÇA O
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
-Fui B-PER
+Fui O
 sempre O
 pouco O
 estudiosa O
@@ -21078,7 +21078,7 @@ debateu O
 até O
 chegar O
 ú O
-dôce B-MISC
+dôce B-LOC
 paz O
 da O
 nossa O
@@ -21103,7 +21103,7 @@ o O
 cen- O
 |
 | O
-tas O
+tas B-PER
 , O
 fariamos O
 um O
@@ -21146,7 +21146,7 @@ tudo O
 quanto O
 me O
 lembrava O
-têr O
+têr B-PER
 sofrido O
 , O
 parecia- O
@@ -21200,12 +21200,12 @@ quasi O
 imposição O
 , O
 do O
-Chico B-ORG
-! O
-... O
+Chico B-MISC
+! I-MISC
+... I-MISC
 |
 
-| O
+| I-MISC
 As O
 minhas O
 memorias O
@@ -21236,12 +21236,12 @@ caseira O
 |
 
 | O
-Escrever B-MISC
-o I-MISC
-Diario B-PER
-da O
-minha O
-infancia O
+Escrever O
+o O
+Diario B-MISC
+da I-MISC
+minha I-MISC
+infancia I-MISC
 , O
 eu O
 que O
@@ -21263,11 +21263,11 @@ não O
 sêr O
 para O
 o O
-Chico B-LOC
+Chico B-ORG
 |
 
-| I-LOC
-Depois I-LOC
+| I-ORG
+Depois I-ORG
 , O
 sei O
 unicamente O
@@ -21321,7 +21321,7 @@ coisa O
 | O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 83 O
 |
 
@@ -21471,7 +21471,7 @@ as O
 recordações O
 vinham O
 em O
-montão B-LOC
+montão O
 , O
 |
 | O
@@ -21486,8 +21486,8 @@ lufada O
 |
 | O
 de O
-quasi O
-vertigem O
+quasi B-LOC
+vertigem I-LOC
 , O
 sempre O
 imaginei O
@@ -21573,8 +21573,8 @@ febre O
  
 
 | O
-Chamo-mo B-PER
-Raquel I-PER
+Chamo-mo B-LOC
+Raquel I-LOC
 . O
 Creio O
 que O
@@ -21596,8 +21596,8 @@ minha O
 | O
 84 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -21882,12 +21882,12 @@ parque O
 | O
 DIARIO B-MISC
 MESA I-MISC
-CRIANÇA B-MISC
-85 O
+CRIANÇA I-MISC
+85 I-MISC
 |
 
 | O
-Felizes B-ORG
+Felizes O
 tempos O
 ! O
 ... O
@@ -21904,7 +21904,7 @@ ou O
 era O
 uma O
 rapariga O
-; O
+  O
 ás O
 vezes O
 lembrava-me O
@@ -21952,9 +21952,9 @@ queria O
 governar O
 casa O
 , O
-sía O
-« O
-mãe O
+sía B-PER
+« I-PER
+mãe I-PER
 , O
 exercer O
 8 O
@@ -22020,13 +22020,13 @@ pétalas O
 de O
 fôres O
 e O
-hervas O
+hervas B-LOC
 que O
 tinhamos O
 mais O
 à O
 mão O
-; O
+  O
 |
 | O
 indo O
@@ -22043,7 +22043,7 @@ as O
 | O
 nossas O
 Filhas B-LOC
-; O
+  O
 carregando O
 a O
 agua O
@@ -22054,7 +22054,7 @@ canta- O
 | O
 tinha O
 em O
-equilibrio O
+equilibrio B-LOC
 sobre O
 a O
 rodilha O
@@ -22065,7 +22065,7 @@ da O
 |
 | O
 cabeça O
-; O
+  O
 tendo O
 as O
 nossas O
@@ -22086,7 +22086,7 @@ povo O
 . O
 |
 | O
-Ralhavamos O
+Ralhavamos B-MISC
 com O
 os O
 homens O
@@ -22146,7 +22146,7 @@ serviçais O
 |
 
 | O
-Tinhaã B-PER
+Tinhaã O
 os O
 seus O
 modos O
@@ -22177,8 +22177,8 @@ ellas O
  
 
 | O
-DIÁRIO O
-DUMA B-MISC
+DIÁRIO B-MISC
+DUMA I-MISC
 CRIANÇA O
 |
 
@@ -22211,13 +22211,13 @@ da O
 vila O
 |
 | O
-proxima O
+proxima B-LOC
 , O
 onde O
 as O
 havia O
 muito O
-bôas O
+bôas B-LOC
 , O
 era O
 a O
@@ -22317,8 +22317,8 @@ degraus O
 , O
 |
 | O
-com-seu O
-alpendre O
+com-seu B-PER
+alpendre I-PER
 e O
 o O
 ser O
@@ -22460,7 +22460,7 @@ A O
 delicada O
 ternura O
 do O
-Chico B-LOC
+Chico B-PER
 |
 | O
 compensa-me O
@@ -22475,12 +22475,12 @@ passados O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
-sr O
+DUMA I-MISC
+CRIANÇA I-MISC
+sr I-MISC
 |
 
-| O
+| I-MISC
 abre-me O
 um O
 caminho O
@@ -22494,7 +22494,7 @@ toda O
 inundada O
 de O
 sol O
-; O
+  O
 mas O
 , O
 quando O
@@ -22564,7 +22564,7 @@ trata O
 de O
 tudo O
 quanto O
-lho O
+lho B-PER
 rodeou O
 e O
 acariciou O
@@ -22573,7 +22573,7 @@ acariciou O
 os O
 primeiros O
 anos O
-; O
+  O
 emquanto O
 o O
 meu O
@@ -22607,7 +22607,7 @@ vida O
 que O
 dizem O
 superior O
-; O
+  O
 |
 | O
 enquanto O
@@ -22628,7 +22628,7 @@ compli- O
 |
 | O
 cados O
-; O
+  O
 a O
 Rosita B-ORG
 , O
@@ -22637,11 +22637,11 @@ Maricas B-LOC
 , O
 e O
 a O
-Anninhas B-LOC
-da I-LOC
+Anninhas B-MISC
+da I-MISC
 |
-| I-LOC
-méstra I-LOC
+| I-MISC
+méstra I-MISC
 — O
 as O
 queridas O
@@ -22655,7 +22655,7 @@ infancia O
 cresciam O
 e O
 faziam-se O
-bôas O
+bôas B-LOC
 a O
 labo- O
 |
@@ -22771,12 +22771,12 @@ E O
 
 | O
 DIARIO B-MISC
-DUMA O
+DUMA I-MISC
 CRIANÇA O
 |
 
 | O
-Imaginaram O
+Imaginaram B-MISC
 — O
 as O
 pobres O
@@ -22791,14 +22791,14 @@ saudades O
 das O
 amigas O
 de O
-Lisbôa B-PER
+Lisbôa B-LOC
 o O
 as O
 desprez- O
 |
 | O
 ava O
-g'ellas B-LOC
+g'ellas O
 . O
 Oh O
 não O
@@ -22853,7 +22853,7 @@ gosto O
 |
 
 | O
-Chorava B-LOC
+Chorava O
 desesperadamente O
 a O
 minha O
@@ -22867,7 +22867,7 @@ tocada O
 de O
 mal O
 incuravel O
-; O
+  O
 tinha O
 |
 | O
@@ -23026,10 +23026,10 @@ amânho O
 vinte- O
 |
 | O
-rio B-LOC
-da I-LOC
-nossa I-LOC
-casa I-LOC
+rio O
+da O
+nossa O
+casa O
 , O
 não O
 deixando O
@@ -23056,14 +23056,14 @@ recrutas O
 . O
 |
 | O
-Rezava O
+Rezava B-PER
 as O
 orações O
 obrigatorias O
 de O
 cada O
 dia O
-; O
+  O
 |
 
  
@@ -23073,9 +23073,9 @@ dia O
 
 | O
 DIARIO B-MISC
-DA O
-CRIANÇA B-MISC
-89 O
+DA I-MISC
+CRIANÇA I-MISC
+89 I-MISC
 |
 
 | O
@@ -23096,7 +23096,7 @@ candieiro O
 para O
 o O
 serão O
-; O
+  O
 e O
 depois O
 do O
@@ -23327,7 +23327,7 @@ piano O
 | O
 adormecia O
 a O
-lêr O
+lêr B-ORG
 os O
 mais O
 pateticos O
@@ -23381,7 +23381,7 @@ portuguêsa O
 |
 
 | O
-Ralhavam O
+Ralhavam B-MISC
 comigo O
 , O
 mas O
@@ -23412,8 +23412,8 @@ a O
 | O
 90 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
 | O
@@ -23722,9 +23722,9 @@ o O
 
 | O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
-9 O
+DUMA I-MISC
+CRIANÇA I-MISC
+9 I-MISC
 |
 
 | O
@@ -23785,15 +23785,15 @@ limpeza O
 |
 | O
 do O
-rez-do-chão B-LOC
+rez-do-chão O
 . O
-ú O
+ú B-PER
 |
 
-| O
-Acordara B-LOC
+| I-PER
+Acordara I-PER
 cedo O
-; O
+  O
 a O
 chilreada O
 dos O
@@ -23859,8 +23859,8 @@ me O
 fazia O
 cantarolar O
 e O
-rir B-PER
-sósinha I-PER
+rir O
+sósinha O
 , O
 como O
 se O
@@ -23904,7 +23904,7 @@ com O
 as O
 mãos O
 em O
-concha B-PER
+concha O
 , O
 |
 | O
@@ -23980,7 +23980,7 @@ fechada O
 por O
 soltar O
 o O
-Tigre B-ORG
+Tigre B-LOC
 que O
 os O
 criados O
@@ -24029,8 +24029,8 @@ festivo O
 
 | O
 DIARIO B-MISC
-DUMA O
-CRIANÇA O
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -24072,9 +24072,9 @@ caráter O
 ... O
 |
 | O
-Desprender B-MISC
-a I-MISC
-Cacilda I-MISC
+Desprender B-LOC
+a O
+Cacilda B-PER
 e O
 trazô-la O
 para O
@@ -24097,7 +24097,7 @@ couves O
 que O
 o O
 velho O
-hortelão O
+hortelão B-PER
 guardava O
 |
 | O
@@ -24194,15 +24194,15 @@ mata O
 
 | O
 Chamando O
-a O
-Cacilda O
+a B-MISC
+Cacilda I-MISC
 , O
 acariciei-lhe O
 o O
-pos- O
+pos- B-ORG
 |
-| O
-coço O
+| I-ORG
+coço I-ORG
 , O
 dei O
 uma O
@@ -24236,7 +24236,7 @@ pequeno O
 assobio O
 ao O
 ' O
-Peito B-LOC
+Peito O
 preveniu-o O
 |
 | O
@@ -24259,7 +24259,7 @@ felizes O
 , O
 porque O
 o O
-céo O
+céo B-MISC
 estava O
 |
 | O
@@ -24287,7 +24287,7 @@ jovial- O
 idade O
 de O
 primavera O
-proxima O
+proxima B-LOC
 . O
 |
 
@@ -24298,7 +24298,7 @@ da O
 carreira O
 sobreveiu-nos O
 um O
-obs- O
+obs- B-MISC
 |
 | O
 seculo O
@@ -24306,13 +24306,13 @@ inesperado O
 , O
 na O
 vera B-LOC
-pessóa O
-do O
-bom O
+pessóa I-LOC
+do I-LOC
+bom I-LOC
 |
-| O
-padre O
-Zé B-PER
+| I-LOC
+padre I-LOC
+Zé I-LOC
 , O
 que O
 já O
@@ -24329,9 +24329,9 @@ em O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
-93 O
+DUMA I-MISC
+CRIANÇA I-MISC
+93 I-MISC
 |
 
 | O
@@ -24376,7 +24376,7 @@ toda O
 | O
 — O
 « O
-Dar B-PER
+Dar O
 um O
 passeio O
 á O
@@ -24477,7 +24477,7 @@ dando O
 um O
 sinal O
 ú O
-Cacilda B-LOC
+Cacilda B-PER
 , O
 partimos O
 a O
@@ -24487,9 +24487,9 @@ galope O
 , O
 deixando O
 o O
-bom B-LOC
-do I-LOC
-padre I-LOC
+bom O
+do O
+padre O
 no O
 mais O
 |
@@ -24631,8 +24631,8 @@ aos O
 | O
 4 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -24689,7 +24689,7 @@ horta O
 , O
 que O
 a O
-Cacilda B-LOC
+Cacilda B-PER
 encetara O
 com O
 tanto O
@@ -24730,7 +24730,7 @@ chamada O
 ao O
 escritorio O
 , O
-áquelle O
+áquelle B-PER
 eseri- O
 |
 | O
@@ -24830,7 +24830,7 @@ nos O
 aféto O
 , O
 onde O
-elle B-MISC
+elle O
 descansava O
 as O
 suas O
@@ -24939,7 +24939,7 @@ todas O
 |
 
 | O
-DIARIO B-MISC
+DIARIO O
 DUMA O
 CRIANÇA O
 |
@@ -24947,8 +24947,8 @@ CRIANÇA O
  
 
 | O
-A B-MISC
-mamã I-MISC
+A O
+mamã O
 queixava-se O
 da O
 minha O
@@ -25028,7 +25028,7 @@ que O
 não O
 ! O
 — O
-acudia B-LOC
+acudia O
 a O
 |
 | O
@@ -25173,7 +25173,7 @@ E O
 | O
 — O
 « O
-Nada B-MISC
+Nada O
 , O
 um O
 colegio O
@@ -25181,7 +25181,7 @@ colegio O
 ainda O
 o O
 melhor O
-; O
+  O
 |
 | O
 meto-so O
@@ -25228,19 +25228,19 @@ ignorante O
 , O
 como O
 a O
-Zéfinha B-PER
-da O
-horta O
+Zéfinha B-LOC
+da I-LOC
+horta I-LOC
 |
-| O
-ou O
+| I-LOC
+ou I-LOC
 a O
-Teresita B-ORG
+Teresita B-LOC
 do O
 barbeiro O
 , O
 a O
-têr O
+têr B-PER
 que O
 me O
 mandar O
@@ -25257,7 +25257,7 @@ colegio O
 | O
 96 O
 DIARIO B-MISC
-DUMA O
+DUMA I-MISC
 CRIANÇA O
 |
 
@@ -25299,7 +25299,7 @@ e O
 que O
 preferia O
 , O
-ix O
+ix B-PER
 gosando O
 alegremente O
 os O
@@ -25419,7 +25419,7 @@ do O
 seu O
 tio O
 Manoel B-PER
-; O
+  O
 já O
 lhe O
 |
@@ -25438,7 +25438,7 @@ arrebatei-lha O
 das O
 mãos O
 e O
-fui-mo O
+fui-mo B-LOC
 |
 | O
 pela O
@@ -25447,13 +25447,13 @@ fóra O
 a O
 gritar O
 pela O
-mamã B-ORG
+mamã O
 até O
-der B-MISC
+der O
 |
-| I-MISC
-cem I-MISC
-ella I-MISC
+| O
+cem O
+ella O
 no O
 celeiro O
 a O
@@ -25478,11 +25478,11 @@ o O
 caseiro O
 , O
 o O
-a B-ORG
-mamã I-ORG
+a O
+mamã O
 , O
-amnito B-LOC
-serena I-LOC
+amnito B-PER
+serena I-PER
 , O
 ia O
 ada- O
@@ -25581,7 +25581,7 @@ emquanto O
 | O
 DIÁRIO B-MISC
 DUMA I-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 97 O
 |
 
@@ -25629,8 +25629,8 @@ do O
 meu O
 |
 | O
-bibe B-PER
-branco I-PER
+bibe O
+branco O
 , O
 para O
 levar O
@@ -25681,7 +25681,7 @@ suplementar O
 da O
 |
 | O
-Cacilda B-LOC
+Cacilda B-PER
 . O
 |
 
@@ -25734,7 +25734,7 @@ meninos O
 |
 | O
 — O
-podéra O
+podéra B-PER
 não O
 ! O
 — O
@@ -25825,7 +25825,7 @@ ras O
 quando O
 saltamos O
 para O
-fúra O
+fúra B-LOC
 e O
 nos O
 safamos O
@@ -25890,8 +25890,8 @@ arrastada O
 | O
 98 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
 | O
@@ -26154,7 +26154,7 @@ se O
 rico- O
 |
 | O
-Jhiam B-LOC
+Jhiam B-PER
 á O
 pressa O
 , O
@@ -26199,9 +26199,9 @@ o O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
-99 O
+DUMA I-MISC
+CRIANÇA I-MISC
+99 I-MISC
 |
 
 | O
@@ -26222,7 +26222,7 @@ bordados O
 a O
 coberta O
 de O
-damasco B-LOC
+damasco O
 para O
 a O
 cama O
@@ -26241,8 +26241,8 @@ renda O
 |
 | O
 de O
-Peniche B-MISC
-... I-MISC
+Peniche B-LOC
+... O
 Tudo O
 quanto O
 havia O
@@ -26365,12 +26365,12 @@ trabalhos O
 e O
 fadigas O
 , O
-elle B-MISC
-po- O
+elle B-PER
+po- I-PER
 |
 | O
 desse O
-têr O
+têr B-PER
 ainda O
 o O
 rosto O
@@ -26380,7 +26380,7 @@ rosado O
 o O
 |
 | O
-nço O
+nço B-PER
 mal O
 lhe O
 sombreando O
@@ -26414,7 +26414,7 @@ quando O
 assentara O
 praça O
 em O
-cadete B-LOC
+cadete O
 , O
 e O
 que O
@@ -26479,7 +26479,7 @@ minha O
 | O
 mãe O
 sorria O
-benevola O
+benevola B-PER
 e O
 agradecia O
 , O
@@ -26494,7 +26494,7 @@ coisa O
 alguma O
 , O
 porque O
-elle B-MISC
+elle O
 , O
 muito O
 |
@@ -26517,8 +26517,8 @@ um O
 | O
 100 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -26632,9 +26632,9 @@ atrevida O
 | O
 — O
 « O
-Ô B-MISC
-padre I-MISC
-Zé I-MISC
+Ô O
+padre O
+Zé O
 , O
 para O
 que O
@@ -26672,7 +26672,7 @@ muito O
 in- O
 |
 | O
-genio O
+genio B-PER
 — O
 é O
 um O
@@ -26703,7 +26703,7 @@ homem O
 afinal O
 de O
 contas O
-; O
+  O
 um O
 |
 | O
@@ -26754,7 +26754,7 @@ dum O
 sólido O
 camponez O
 . O
-Conseguira B-LOC
+Conseguira O
 |
 | O
 que O
@@ -26770,7 +26770,7 @@ que O
 ainda O
 hôje O
 sei O
-; O
+  O
 conseguiria O
 — O
 era O
@@ -26807,11 +26807,11 @@ paciencia O
 beneditina O
 do O
 bom O
-Pa- O
+Pa- B-LOC
 |
 | O
-dre O
-José B-PER
+dre B-PER
+José I-PER
 ! O
 |
 
@@ -26819,9 +26819,9 @@ José B-PER
 
 | O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
-101 O
+DUMA I-MISC
+CRIANÇA I-MISC
+101 I-MISC
 |
 
 | O
@@ -26838,12 +26838,12 @@ da O
 minha O
 mãe O
 . O
-Sahira O
+Sahira B-LOC
 de O
 casa O
 muito O
 novo O
-; O
+  O
 a O
 |
 | O
@@ -26921,7 +26921,7 @@ not- O
 | O
 cias O
 participando O
-têr O
+têr B-PER
 casado O
 , O
 e O
@@ -26957,7 +26957,7 @@ da O
 sua O
 chegada O
 a O
-Lisbôa B-PER
+Lisbôa B-LOC
 , O
 onde O
 estava O
@@ -27023,7 +27023,7 @@ a O
 casa O
 , O
 viria O
-elle B-MISC
+elle O
 visitá-los O
 e O
 apresentar O
@@ -27107,7 +27107,7 @@ hospedes O
 
 | O
 O O
-Papá B-LOC
+Papá B-PER
 partira O
 cedo O
 para O
@@ -27137,8 +27137,8 @@ nós O
 | O
 102 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA O
+CRIANÇA O
 |
 
 | O
@@ -27161,10 +27161,10 @@ entre O
 as O
 faias O
 da O
-estrada O
+estrada B-LOC
 |
-| O
-Real O
+| I-LOC
+Real I-LOC
 . O
 |
 
@@ -27193,8 +27193,8 @@ qual O
 | O
 como O
 no O
-Barba B-LOC
-Azul I-LOC
+Barba B-PER
+Azul I-PER
 — O
 e O
 , O
@@ -27205,9 +27205,9 @@ ouvimos O
 |
 | O
 o O
-guizalhar O
-da O
-diligencia O
+guizalhar B-PER
+da I-PER
+diligencia I-PER
 que O
 já O
 se O
@@ -27250,7 +27250,7 @@ e O
 o O
 assado O
 de O
-leitão B-PER
+leitão O
 . O
 |
 
@@ -27344,7 +27344,7 @@ e O
 tipos O
 dolorosos O
 de O
-tragedia B-LOC
+tragedia B-ORG
 , O
 |
 | O
@@ -27353,7 +27353,7 @@ em O
 dois O
 traços O
 por O
-Gavarny B-LOC
+Gavarny B-PER
 , O
 risos O
 |
@@ -27384,7 +27384,7 @@ pelo O
 extremo O
 desleixo O
 ... O
-Tenho B-PER
+Tenho O
 |
 | O
 visto O
@@ -27450,9 +27450,9 @@ que O
 |
 
 | O
-DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DIARIO O
+DUMA O
+CRIANÇA O
 |
 
  
@@ -27491,7 +27491,7 @@ tive O
 vontade O
 de O
 rir O
-; O
+  O
 |
 | O
 qualquer O
@@ -27551,7 +27551,7 @@ na O
 terra O
 natal O
 . O
-Abraçava O
+Abraçava B-LOC
 toda O
 a O
 gente O
@@ -27608,7 +27608,7 @@ vélhinhas O
 e O
 queriam O
 que O
-elle B-MISC
+elle B-PER
 estivesse O
 |
 | O
@@ -27651,7 +27651,7 @@ saias O
 curtas O
 quando O
 elle B-PER
-partira I-PER
+partira O
 , O
 |
 | O
@@ -27680,8 +27680,8 @@ mano O
 |
 
 | O
-Atraz B-LOC
-delle O
+Atraz B-PER
+delle I-PER
 , O
 sahiu O
 do O
@@ -27750,7 +27750,7 @@ filhos O
 lhes O
 tinham O
 morrido O
-; O
+  O
 por O
 isso O
 era O
@@ -27780,8 +27780,8 @@ vivo O
 | O
 104 O
 DIARIO B-MISC
-PENA O
-CRIANÇA B-MISC
+PENA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -27953,7 +27953,7 @@ dado O
 |
 
 | O
-Alta B-LOC
+Alta O
 como O
 um O
 carvalho O
@@ -27976,7 +27976,7 @@ exotica O
 | O
 entre O
 gente O
-miuda O
+miuda B-LOC
 como O
 é O
 a O
@@ -28037,7 +28037,7 @@ miu- O
 minha O
 figura O
 de O
-morenita O
+morenita B-PER
 que O
 eu O
 era O
@@ -28078,9 +28078,9 @@ mente O
  
 
 | O
-DIARIO B-MISC
+DIARIO O
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 105 O
 |
 
@@ -28113,7 +28113,7 @@ CRIANÇA B-MISC
   
 
 | O
-Trazia B-LOC
+Trazia B-PER
 o O
 cabelo O
 , O
@@ -28174,7 +28174,7 @@ entendia O
 |
 
 | O
-Mãos B-PER
+Mãos O
 e O
 pés O
 não O
@@ -28191,7 +28191,7 @@ des- O
 embaraço O
 irritava-me O
 pela O
-mania B-LOC
+mania O
 que O
 tinha O
 |
@@ -28231,7 +28231,7 @@ E O
 |
 
 | O
-Meu B-PER
+Meu O
 pobre O
 tio O
 admirava-a O
@@ -28277,7 +28277,7 @@ senhora O
 | O
 da O
 sua O
-pessôa O
+pessôa B-PER
 , O
 dizendo O
 mal O
@@ -28320,8 +28320,8 @@ riquezas O
 como O
 as O
 do O
-Pedro B-LOC
-Cem I-LOC
+Pedro B-MISC
+Cem I-MISC
 — O
 perdiam-se O
 na O
@@ -28340,7 +28340,7 @@ coisas O
 estupendas O
 de O
 seu O
-pap O
+pap B-ORG
 , O
 |
 | O
@@ -28381,13 +28381,13 @@ lady O
 , O
 viuva O
 dum O
-mem- O
+mem- B-MISC
 |
-| O
-ro O
-da O
-aristocracia O
-britanica O
+| I-MISC
+ro I-MISC
+da I-MISC
+aristocracia I-MISC
+britanica I-MISC
 , O
 que O
 não O
@@ -28412,7 +28412,7 @@ azul O
 106 O
 DIARIO B-MISC
 DUMA O
-CRIANÇA B-MISC
+CRIANÇA O
 |
 
 | O
@@ -28453,8 +28453,8 @@ o O
 | O
 luxo O
 da O
-mam O
-déra O
+mam B-LOC
+déra I-LOC
 brado O
 na O
 córte O
@@ -28484,7 +28484,7 @@ metropole O
 |
 
 | O
-Coisas B-MISC
+Coisas O
 que O
 ella O
 dizia O
@@ -28522,7 +28522,7 @@ inteiro O
 |
 
 | O
-Apreendi B-LOC
+Apreendi B-PER
 depois O
 , O
 no O
@@ -28546,9 +28546,9 @@ a O
 outros O
 e O
 por O
-inconfidencias O
-de O
-pessõas O
+inconfidencias B-PER
+de I-PER
+pessõas I-PER
 |
 | O
 das O
@@ -28635,10 +28635,10 @@ britanica O
 , O
 como O
 de O
-têr O
+têr B-PER
 nascido O
 na O
-Ame- B-ORG
+Ame- B-LOC
 |
 | O
 rica O
@@ -28652,11 +28652,11 @@ filha O
 dos O
 |
 | O
-Estados-Unidos B-MISC
-... I-MISC
+Estados-Unidos B-LOC
+... O
 |
 
-| I-MISC
+| O
 Oh O
 , O
 a O
@@ -28701,8 +28701,8 @@ nô-la O
 
 | O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
  
@@ -28726,9 +28726,9 @@ fanatico O
 | O
 — O
 « O
-Oh B-MISC
-! I-MISC
-Amérricana B-LOC
+Oh O
+! O
+Amérricana O
 , O
 grande O
 coisa O
@@ -28736,7 +28736,7 @@ coisa O
 ... O
 |
 | O
-Eurrópa B-PER
+Eurrópa B-MISC
 , O
 muito O
 desmoralisada O
@@ -28758,7 +28758,7 @@ ao O
 seu O
 orgulho O
 de O
-têr O
+têr B-PER
 nascido O
 numa O
 |
@@ -28821,7 +28821,7 @@ nosso O
 | O
 clima O
 tão O
-dôce O
+dôce B-LOC
 no O
 sul O
 e O
@@ -28845,7 +28845,7 @@ grandes O
 |
 
 | O
-Desconhecia B-LOC
+Desconhecia O
 & O
 nossa O
 historia O
@@ -28886,7 +28886,7 @@ olhos O
 , O
 de O
 selvagens O
-; O
+  O
 |
 | O
 as O
@@ -28951,7 +28951,7 @@ dos O
 outros O
 passos O
 ! O
-Nós B-MISC
+Nós O
 , O
 os O
 peque- O
@@ -29007,8 +29007,8 @@ lho O
 | O
 108 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -29034,7 +29034,7 @@ como O
 | O
 unica O
 resposta O
-; O
+  O
 nós O
 desesperavamo-nos O
 por O
@@ -29045,7 +29045,7 @@ nos O
 permitirem O
 contrariar O
 a O
-hóspeda O
+hóspeda B-PER
 . O
 |
 | O
@@ -29112,7 +29112,7 @@ com O
 um O
 português O
 o O
-vein O
+vein B-ORG
 para O
 cá O
 |
@@ -29244,7 +29244,7 @@ viagem O
 , O
 olhou-nos O
 com O
-altivez O
+altivez B-PER
 . O
 |
 | O
@@ -29284,7 +29284,7 @@ fúrma O
 | O
 — O
 « O
-Menina B-LOC
+Menina O
 sabe O
 francês O
 ? O
@@ -29320,7 +29320,7 @@ francês O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
+DUMA I-MISC
 CITAÇA I-MISC
 |
 
@@ -29329,7 +29329,7 @@ CITAÇA I-MISC
 « O
 Oh B-MISC
 ! I-MISC
-... I-MISC
+... O
 vergonha O
 ! O
 |
@@ -29392,10 +29392,10 @@ penso O
 | O
 — O
 « O
-Menina B-LOC
-sabe O
-inglês O
-? O
+Menina B-MISC
+sabe I-MISC
+inglês I-MISC
+? I-MISC
 |
 
 | O
@@ -29408,8 +29408,8 @@ Não O
 | O
 — O
 « O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 sabe O
 desenha O
 ? O
@@ -29430,7 +29430,7 @@ Oh B-MISC
 muito O
 linda O
 ! O
-Aquelas B-PER
+Aquelas O
 sombras O
 ! O
 ... O
@@ -29451,8 +29451,8 @@ desenha O
 — O
 « O
 Sabe B-MISC
-piana O
-? O
+piana I-MISC
+? I-MISC
 |
 
 | O
@@ -29465,8 +29465,8 @@ Não O
 | O
 — O
 « O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 vergonha O
 , O
 vergonha O
@@ -29531,7 +29531,7 @@ do O
 que O
 dizia O
 . O
-Aquilo B-PER
+Aquilo O
 tudo O
 era O
 |
@@ -29626,8 +29626,8 @@ mandar O
 | O
 110 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA O
+CRIANÇA O
 |
 
 | O
@@ -29726,7 +29726,7 @@ iria O
 |
 | O
 com O
-elles O
+elles B-PER
 para O
 Lisbôa B-LOC
 e O
@@ -29767,7 +29767,7 @@ resolvido O
 . O
 Eu O
 desanimei O
-; O
+  O
 os O
 meus O
 irmãositos O
@@ -29855,8 +29855,8 @@ mim O
 nada O
 pedi O
 nem O
-objétei O
-; O
+objétei B-LOC
+  O
 fechei- O
 |
 | O
@@ -29906,7 +29906,7 @@ coração O
 
 | O
 DIARIO B-MISC
-DUMA O
+DUMA I-MISC
 CRIANÇA O
 |
 
@@ -29934,7 +29934,7 @@ mais O
 a O
 |
 | O
-Cacilda B-LOC
+Cacilda B-PER
 , O
 para O
 a O
@@ -29960,7 +29960,7 @@ Os O
 meus O
 amigos O
 do O
-pombal O
+pombal B-PER
 sentiram O
 |
 | O
@@ -30049,8 +30049,8 @@ afastada O
 para O
 sempre O
 do O
-sen O
-con- O
+sen B-PER
+con- I-PER
 |
 | O
 vivo O
@@ -30066,7 +30066,7 @@ humildade O
 Era O
 como O
 aquelas O
-pessõas O
+pessõas B-LOC
 , O
 quasi O
 |
@@ -30085,7 +30085,7 @@ o O
 |
 | O
 que O
-nelle O
+nelle B-LOC
 passa O
 lhes O
 interessa O
@@ -30105,7 +30105,7 @@ morte O
 |
 
 | O
-Decerto B-LOC
+Decerto B-PER
 que O
 muitas O
 vezes O
@@ -30190,7 +30190,7 @@ bre O
 Devaneando O
 , O
 o O
-Miguelsinho B-ORG
+Miguelsinho B-LOC
 o O
 em O
 , O
@@ -30217,7 +30217,7 @@ dizer- O
 n O
 DIARIO B-MISC
 DUMA I-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
  
@@ -30266,7 +30266,7 @@ mundo O
 |
 
 | O
-Sahir B-LOC
+Sahir B-PER
 dali O
 ... O
 ir O
@@ -30291,7 +30291,7 @@ terras O
 |||| O
 desconhecidas O
 » O
-Seria B-LOC
+Seria O
 uma O
 |
 
@@ -30306,7 +30306,7 @@ duma O
 pessõs O
 |
 | O
-I B-MISC
+I O
 que O
 nos O
 era O
@@ -30427,7 +30427,7 @@ de O
 sando O
 e O
 alegria O
-; O
+  O
 |
 | O
 era O
@@ -30458,7 +30458,7 @@ e O
 muito O
 bondosa O
 . O
-Fui B-PER
+Fui O
 |
 | O
 depois O
@@ -30510,7 +30510,7 @@ subterr- O
 |
 
 | O
-TANGO B-MISC
+TANGO O
 . O
 |
 
@@ -30536,14 +30536,14 @@ exotic O
 e. O
 |
 | O
-DIARIO B-MISC
-DUMA O
-CRIANÇA O
-13 O
+DIARIO O
+DUMA B-MISC
+CRIANÇA I-MISC
+13 I-MISC
 |
 
-| O
-Hãde B-LOC
+| I-MISC
+Hãde B-MISC
 dizer O
 que O
 exagero O
@@ -30624,7 +30624,7 @@ fatal O
 |
 
 | O
-Meus B-LOC
+Meus O
 irmãos O
 choraram O
 muito O
@@ -30632,8 +30632,8 @@ quando O
 eu O
 |
 | O
-parti B-MISC
-; O
+parti O
+  O
 a O
 minha O
 mãe O
@@ -30773,15 +30773,15 @@ Toda O
 a O
 gente O
 da O
-aldeia O
-acorrêra O
+aldeia B-LOC
+acorrêra I-LOC
 para O
 me O
 |
 | O
 dizer O
 adeus O
-; O
+  O
 assim O
 eu O
 andava O
@@ -30834,7 +30834,7 @@ vieram O
 ns O
 DIARIO B-MISC
 MESA I-MISC
-CrIANÇA B-MISC
+CrIANÇA I-MISC
 |
 
 | O
@@ -31007,7 +31007,7 @@ sem O
 vontade O
 nem O
 iniciativa O
-; O
+  O
 era O
 mais O
 um O
@@ -31138,8 +31138,8 @@ os O
 | O
 DIARIO B-MISC
 DUMA I-MISC
-CRIANÇA B-MISC
-5 O
+CRIANÇA I-MISC
+5 I-MISC
 |
 
 | O
@@ -31180,7 +31180,7 @@ confrangida O
 Assim O
 cheguei O
 a O
-Lisbôa B-PER
+Lisbôa B-LOC
 por O
 uma O
 madrugada O
@@ -31298,7 +31298,7 @@ industrial O
 |
 
 | O
-Lisbôa B-PER
+Lisbôa B-LOC
 não O
 me O
 deslumbrou O
@@ -31396,7 +31396,7 @@ serranias O
 |
 | O
 violetas O
-; O
+  O
 e O
 o O
 marulhar O
@@ -31417,7 +31417,7 @@ o O
 |
 | O
 rumor O
-; O
+  O
 embalante O
 dos O
 pinheirais O
@@ -31432,7 +31432,7 @@ atraves- O
 116 O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -31510,11 +31510,11 @@ errando O
 pelos O
 campos O
 da O
-minha O
-risonha O
+minha B-MISC
+risonha I-MISC
 |
-| O
-terreola O
+| I-MISC
+terreola I-MISC
 . O
 |
 
@@ -31532,7 +31532,7 @@ dos O
 meus O
 olhos O
 , O
-elles O
+elles B-PER
 se O
 abriram O
 numa O
@@ -31737,8 +31737,8 @@ casas O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 117 O
 |
 
@@ -31757,7 +31757,7 @@ de O
 ar O
 mais O
 puro O
-paraá O
+paraá B-LOC
 os O
 robustos O
 |
@@ -31768,7 +31768,7 @@ pelo O
 ar O
 forte O
 da O
-mon- O
+mon- B-LOC
 |
 | O
 tinha O
@@ -31803,10 +31803,10 @@ os O
 meus O
 doze O
 de O
-rapariga O
+rapariga B-PER
 |
-| O
-nubil O
+| I-PER
+nubil I-PER
 . O
 |
 
@@ -31868,7 +31868,7 @@ mo O
 esperava O
 na O
 mêsa O
-; O
+  O
 tinha O
 que O
 fazer O
@@ -31931,7 +31931,7 @@ mais O
 | O
 arranjos O
 domesticos O
-; O
+  O
 ali O
 , O
 obrigada O
@@ -31940,9 +31940,9 @@ mandada O
 |
 | O
 por O
-aquella B-PER
-monstruosa I-PER
-criatura I-PER
+aquella O
+monstruosa O
+criatura O
 , O
 sentia O
 um O
@@ -32029,7 +32029,7 @@ apressada O
 ou O
 vagarosa O
 , O
-alegre B-LOC
+alegre O
 ou O
 |
 | O
@@ -32115,13 +32115,13 @@ da O
 | O
 côr O
 do O
-céo O
+céo B-MISC
 espreitam O
 entro O
 à O
 verdura O
 da O
-herva B-LOC
+herva B-PER
 |
 | O
 tenra O
@@ -32179,7 +32179,7 @@ amigas O
 as O
 amendoeiras O
 em O
-flôr O
+flôr B-LOC
 , O
 as O
 encostas O
@@ -32245,7 +32245,7 @@ que O
 | O
 não O
 compreendia O
-; O
+  O
 não O
 ! O
 Elle B-MISC
@@ -32262,7 +32262,7 @@ ininterrupta O
 festa O
 da O
 natureza O
-; O
+  O
 ale- O
 |
 | O
@@ -32272,7 +32272,7 @@ os O
 divertimentos O
 do O
 campo O
-; O
+  O
 |
 | O
 procurava O
@@ -32289,7 +32289,7 @@ castanhas O
 assadas O
 na O
 fogueira O
-; O
+  O
 ia O
 aos O
 seres O
@@ -32322,8 +32322,8 @@ candeia O
 
 | O
 DIARIO B-MISC
-DUMA I-MISC
-CRIANÇA O
+DUMA B-MISC
+CRIANÇA I-MISC
 O O
 |
 
@@ -32338,7 +32338,7 @@ pelos O
 |
 | O
 anos O
-; O
+  O
 evocava O
 as O
 ranchadas O
@@ -32367,7 +32367,7 @@ vão O
 para O
 as O
 feiras O
-álacres O
+álacres B-LOC
 , O
 |
 | O
@@ -32576,7 +32576,7 @@ teria O
 | O
 feito O
 alguma O
-Faltava-me B-MISC
+Faltava-me O
 a O
 energia O
 deter- O
@@ -32648,7 +32648,7 @@ CRIANÇA O
   
 
 | O
-Fechada B-MISC
+Fechada O
 no O
 quarto O
 todas O
@@ -32679,7 +32679,7 @@ estreitas O
 |
 | O
 do O
-této O
+této B-LOC
 como O
 se O
 fóssem O
@@ -32694,7 +32694,7 @@ caixão O
 |
 
 | O
-Li O
+Li B-PER
 fóra O
 era O
 a O
@@ -32708,7 +32708,7 @@ atraves- O
 | O
 avam O
 à O
-mia O
+mia B-ORG
 solitaria O
 numa O
 festa O
@@ -32871,8 +32871,8 @@ outros O
 |
 
 | O
-O B-MISC
-inglês I-MISC
+O O
+inglês O
 ensinava-mo O
 ella O
 , O
@@ -32918,7 +32918,7 @@ compreender O
 essa O
 lingua O
 que O
-ella O
+ella B-PER
 tinha O
 |
 | O
@@ -32939,13 +32939,13 @@ sua O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
+DUMA I-MISC
 CRIANÇA I-MISC
-E O
+E I-MISC
 |
 
-| O
-Farta B-LOC
+| I-MISC
+Farta I-MISC
 já O
 de O
 a O
@@ -32979,7 +32979,7 @@ assim O
 
 | O
 Pouco O
-sahi B-PER
+sahi B-LOC
 durante O
 os O
 quatro O
@@ -33055,7 +33055,7 @@ invencivel O
 
 | O
 Sem O
-têr O
+têr B-PER
 nunca O
 apreciado O
 os O
@@ -33092,9 +33092,9 @@ lis- O
 postas O
 , O
 o O
-men O
-espirito O
-cra O
+men B-ORG
+espirito I-ORG
+cra I-ORG
 demasiadamente O
 |
 | O
@@ -33208,9 +33208,9 @@ encantadoras O
   
 
 | O
-DIÁRIO O
-DUMA B-MISC
-CRIANÇA B-MISC
+DIÁRIO B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
  
@@ -33263,8 +33263,8 @@ tedio O
 que O
 pass O
 : O
-naquella O
-casa O
+naquella B-PER
+casa I-PER
 . O
 |
 
@@ -33412,7 +33412,7 @@ era O
 | O
 Outra O
 qualquer O
-pessõa O
+pessõa B-MISC
 , O
 por O
 menos O
@@ -33467,7 +33467,7 @@ manhã O
 à O
 noite O
 lamentava O
-têr O
+têr B-PER
 |
 | O
 vindo O
@@ -33524,8 +33524,8 @@ por O
 
 | O
 VINGAN B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 123 O
 |
 
@@ -33593,7 +33593,7 @@ felicidade O
 |
 | O
 que O
-elle B-MISC
+elle O
 estava O
 longe O
 , O
@@ -33611,7 +33611,7 @@ formular O
 uma O
 opinião O
 sua O
-; O
+  O
 era O
 |
 | O
@@ -33655,7 +33655,7 @@ economia O
 
 | O
 Men B-PER
-pedro O
+pedro I-PER
 tio O
 ! O
 Verdadeiramente O
@@ -33725,11 +33725,11 @@ exaspera-me O
 como O
 violencia O
 contra O
-mim O
-pr- O
+mim B-PER
+pr- I-PER
 |
 | O
-pria O
+pria B-LOC
 exercida O
 . O
 |
@@ -33837,12 +33837,12 @@ espavorida- O
 124 O
 DIARIO B-MISC
 DUMA O
-CRIANÇA B-MISC
+CRIANÇA O
 |
 
 | O
 das O
-; O
+  O
 mas O
 , O
 se O
@@ -33920,7 +33920,7 @@ me- O
 |
 | O
 nica O
-Eulalia B-LOC
+Eulalia B-PER
 , O
 que O
 entrou O
@@ -33935,7 +33935,7 @@ vida O
 |
 
 | O
-Men B-PER
+Men O
 tio O
 é O
 que O
@@ -34021,7 +34021,7 @@ da O
 alma O
 infantil O
 entreluz O
-; O
+  O
 cartas O
 feitas O
 só O
@@ -34066,7 +34066,7 @@ o O
 mêdo O
 ... O
 A O
-Criança B-ORG
+Criança O
 , O
 que O
 |
@@ -34135,9 +34135,9 @@ sente O
  
 
 | O
-DIARIO B-MISC
+DIARIO O
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 125 O
 |
 
@@ -34216,7 +34216,7 @@ a O
 minha O
 alma O
 irritada O
-julgava- B-MISC
+julgava- O
 |
 | O
 se O
@@ -34509,8 +34509,8 @@ negativa O
 |
 
 | O
-So O
-elle B-MISC
+So B-MISC
+elle I-MISC
 se O
 demorasse O
 , O
@@ -34720,8 +34720,8 @@ certa O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 127 O
 |
 
@@ -34813,7 +34813,7 @@ busca O
 das O
 |
 | O
-côres O
+côres B-PER
 , O
 que O
 ousava O
@@ -34832,7 +34832,7 @@ principiante O
 |
 
 | O
-Sentia-me B-ORG
+Sentia-me O
 infeliz O
 , O
 e O
@@ -34854,8 +34854,8 @@ O O
 | O
 que O
 me O
-maguava O
-naquella O
+maguava B-PER
+naquella I-PER
 casa O
 . O
 Talvez O
@@ -34880,7 +34880,7 @@ a O
 sêr O
 um O
 suplício O
-; O
+  O
 acostumado O
 em O
 |
@@ -34906,7 +34906,7 @@ meter O
 |
 | O
 na O
-bêca O
+bêca B-LOC
 um O
 pedaço O
 a O
@@ -34967,9 +34967,9 @@ via O
 recu- O
 |
 | O
-sar O
-0 O
-roast-beef O
+sar B-ORG
+0 I-ORG
+roast-beef I-ORG
 , O
 que O
 se O
@@ -34999,8 +34999,8 @@ de O
 animal- O
 |
 | O
-nho O
-carnivoro O
+nho B-PER
+carnivoro I-PER
 , O
 que O
 não O
@@ -35041,8 +35041,8 @@ sementeiras O
 | O
 128 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -35093,7 +35093,7 @@ geadas O
 |
 
 | O
-Andava B-LOC
+Andava O
 sempre O
 a O
 espreitar O
@@ -35116,7 +35116,7 @@ pobre O
 de O
 adubos O
 vitalisadores O
-; O
+  O
 é O
 |
 | O
@@ -35244,7 +35244,7 @@ atando O
 . O
 |
 | O
-Quantas B-MISC
+Quantas O
 vezes O
 , O
 de O
@@ -35344,7 +35344,7 @@ eu O
 | O
 DIARIO B-MISC
 DUMA I-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 129 O
 |
 
@@ -35441,10 +35441,10 @@ na O
 minha O
 faina O
 do O
-jardim- B-MISC
+jardim- O
 |
-| I-MISC
-negra I-MISC
+| O
+negra O
 . O
 |
 
@@ -35478,7 +35478,7 @@ para O
 encetar O
 conversa O
 . O
-Respondi- O
+Respondi- B-PER
 |
 | O
 lhe O
@@ -35562,7 +35562,7 @@ estranho O
 prazer O
 dessa O
 amizade O
-; O
+  O
 |
 | O
 agarrei-me O
@@ -35608,7 +35608,7 @@ sentimento O
 
 | O
 A O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 era O
 a O
 unica O
@@ -35651,8 +35651,8 @@ palpi- O
 | O
 130 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA O
+CRIANÇA O
 |
 
 | O
@@ -35714,7 +35714,7 @@ caprichos O
 |
 
 | O
-Hôje B-LOC
+Hôje O
 , O
 recordando O
 bem O
@@ -35815,7 +35815,7 @@ encan- O
 |
 | O
 adora O
-sábiasinha O
+sábiasinha B-PER
 , O
 que O
 sorria O
@@ -35854,8 +35854,8 @@ da O
 sua O
 escôlha O
 , O
-ella O
-materialisou O
+ella B-PER
+materialisou I-PER
 no O
 meu O
 espirito O
@@ -35954,9 +35954,9 @@ sua O
    
 
 | O
-DIARIO B-ORG
-MESA I-ORG
-CriANça I-ORG
+DIARIO B-MISC
+MESA I-MISC
+CriANça I-MISC
 à O
 131 O
 |
@@ -36057,7 +36057,7 @@ delicado O
 | O
 das O
 esbeltas O
-Santas B-LOC
+Santas B-PER
 góticas O
 , O
 que O
@@ -36084,7 +36084,7 @@ sorriam O
 |
 
 | O
-Arrancar B-LOC
+Arrancar B-PER
 a O
 uma O
 pobre O
@@ -36096,7 +36096,7 @@ meridional O
 | O
 apaixonada O
 pela O
-côr O
+côr B-ORG
 e O
 pela O
 fórma O
@@ -36154,7 +36154,7 @@ sua- O
 |
 | O
 ves O
-; O
+  O
 tirar-lhe O
 à O
 ilusão O
@@ -36264,15 +36264,15 @@ outros O
 
 | O
 la2 O
-DIARIO B-MISC
-DUMA O
-CRIANÇA O
+DIARIO O
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
 Pois O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 encarnou O
 para O
 a O
@@ -36320,8 +36320,8 @@ populares- O
 | O
 das O
 pela O
-oleografia O
-barata O
+oleografia B-LOC
+barata I-LOC
 , O
 em O
 que O
@@ -36356,7 +36356,7 @@ bem O
 |
 
 | O
-Fôram B-LOC
+Fôram B-PER
 os O
 dias O
 bons O
@@ -36428,7 +36428,7 @@ policroma O
 |
 
 | O
-Lembro-me B-LOC
+Lembro-me O
 agora O
 que O
 a O
@@ -36471,7 +36471,7 @@ e O
 sabia O
 lisongeú-la O
 com O
-Leves B-LOC
+Leves B-PER
 delicadezas O
 , O
 das O
@@ -36495,7 +36495,7 @@ selvagem O
 |
 
 | O
-Hôje B-LOC
+Hôje O
 , O
 era O
 uma O
@@ -36518,7 +36518,7 @@ logar O
 |
 | O
 mêsa O
-; O
+  O
 ámanhã O
 , O
 noticias O
@@ -36539,7 +36539,7 @@ Inglaterra B-LOC
 ou O
 nos O
 Estados-Unidos B-LOC
-; O
+  O
 depois O
 , O
 uma O
@@ -36550,8 +36550,8 @@ corréta O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 133 O
 |
 
@@ -36579,7 +36579,7 @@ tão O
 pouco O
 , O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 vencera O
 a O
 |
@@ -36614,7 +36614,7 @@ o O
 org- O
 |
 | O
-lho O
+lho B-PER
 — O
 que O
 é O
@@ -36668,7 +36668,7 @@ era O
 muito O
 melhor O
 politica O
-; O
+  O
 onde O
 |
 | O
@@ -36771,17 +36771,17 @@ blandicias O
 |
 | O
 de O
-lisboeta O
-amavel O
+lisboeta B-PER
+amavel I-PER
 , O
 que O
 me O
 deixassem O
 ir O
-pas- O
+pas- B-LOC
 |
-| O
-sar O
+| I-LOC
+sar I-LOC
 algumas O
 tardes O
 a O
@@ -36934,7 +36934,7 @@ verdadeira O
 |
 
 | O
-Conversar B-PER
+Conversar O
 com O
 a O
 bonissima O
@@ -36952,7 +36952,7 @@ as O
 palavras O
 |
 | O
-Livremente O
+Livremente B-MISC
 , O
 numa O
 fluencia O
@@ -36971,7 +36971,7 @@ obstaculo- O
 |
 | O
 los O
-; O
+  O
 ouvi-la O
 era O
 escutar O
@@ -37023,7 +37023,7 @@ lhe O
 a O
 minha O
 vida O
-; O
+  O
 e O
 como O
 ao O
@@ -37089,7 +37089,7 @@ mamã O
 O O
 pai O
 da O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 parecia O
 viver O
 só O
@@ -37121,8 +37121,8 @@ do O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 135 O
 |
 
@@ -37192,7 +37192,7 @@ Jarras B-LOC
 Que O
 suave O
 e O
-dulcida O
+dulcida B-LOC
 e O
 : O
 vencia O
@@ -37253,7 +37253,7 @@ autoridade O
 abso- O
 |
 | O
-Cinta B-ORG
+Cinta O
 , O
 o O
 que O
@@ -37286,7 +37286,7 @@ coisas O
 |
 
 | O
-Aquella B-PER
+Aquella O
 atmosfera O
 pacificadora O
 fazia-o O
@@ -37308,7 +37308,7 @@ no O
 odio O
 e O
 na O
-desconfiança B-LOC
+desconfiança O
 . O
 |
 
@@ -37327,7 +37327,7 @@ sin- O
 certamente O
 é O
 amar O
-; O
+  O
 era O
 à O
 que O
@@ -37379,9 +37379,9 @@ vida O
 tornou-se-me O
 menos O
 pesada O
-; O
+  O
 suportava O
-me- O
+me- B-PER
 |
 | O
 lho O
@@ -37427,12 +37427,12 @@ adverso O
 | O
 136 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA I-MISC
+DUMA O
+CRIANÇA O
 |
 
-| I-MISC
-Passado I-MISC
+| O
+Passado O
 o O
 sofrimento O
 que O
@@ -37601,7 +37601,7 @@ os O
 povos O
 nos O
 mostram O
-; O
+  O
 mas O
 , O
 olhando O
@@ -37694,7 +37694,7 @@ que O
 | O
 quasi O
 nos O
-insensibilisa O
+insensibilisa B-PER
 à O
 força O
 de O
@@ -37720,16 +37720,16 @@ que O
 eu O
 fiz O
 ao O
-martirio O
-daquelles O
+martirio B-ORG
+daquelles I-ORG
 |
 
  
 
 | O
-DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DIARIO O
+DUMA B-MISC
+CRIANÇA I-MISC
 13 O
 % O
 |
@@ -37870,7 +37870,7 @@ ocasião O
 passava O
 |
 | O
-elle B-MISC
+elle O
 as O
 férias O
 no O
@@ -37953,9 +37953,9 @@ ansiosa O
 | O
 — O
 « O
-O B-MISC
-! I-MISC
-Mariquinhas B-LOC
+O O
+! O
+Mariquinhas B-PER
 , O
 tu O
 gostas O
@@ -37997,8 +37997,8 @@ mulher O
 | O
 138 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA O
+CRIANÇA O
 |
 
 | O
@@ -38104,7 +38104,7 @@ finos O
 |
 
 | O
-Bastas O
+Bastas B-PER
 vezes O
 me O
 ficava O
@@ -38146,8 +38146,8 @@ abrira O
 uma O
 nesga O
 de O
-céo O
-azul O
+céo B-LOC
+azul I-LOC
 . O
 |
 
@@ -38285,14 +38285,14 @@ feitas O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 139 O
 |
 
 | O
 O O
-Chico B-ORG
+Chico B-PER
 , O
 que O
 já O
@@ -38343,14 +38343,14 @@ lições O
 |
 
 | O
-Saltava B-LOC
+Saltava O
 pelo O
 muro O
 para O
 o O
 quintal O
 da O
-Mari- B-ORG
+Mari- B-LOC
 |
 | O
 quinas O
@@ -38379,8 +38379,8 @@ geira O
 , O
 é O
 vinha O
-tôr O
-comnosco O
+tôr B-PER
+comnosco I-PER
 associando-se O
 a0s O
 |
@@ -38402,7 +38402,7 @@ encantava O
 | O
 Que O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 e O
 o O
 Chico B-PER
@@ -38494,7 +38494,7 @@ nossa O
 casa O
 a O
 menina O
-Eulalia B-LOC
+Eulalia B-PER
 . O
 |
 | O
@@ -38511,7 +38511,7 @@ provincia O
 teria O
 vindo O
 aquelle O
-especimen O
+especimen B-PER
 bem O
 acabado O
 |
@@ -38591,7 +38591,7 @@ pouco O
 140 O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -38747,7 +38747,7 @@ no O
 futuro O
 , O
 a O
-me- O
+me- B-PER
 |
 | O
 lho O
@@ -38821,7 +38821,7 @@ as O
 |
 | O
 nossas O
-Casas B-LOC
+Casas B-ORG
 , O
 as O
 nossas O
@@ -38889,7 +38889,7 @@ vivi O
 |
 
 | O
-Eulalia B-LOC
+Eulalia B-PER
 era O
 baixa O
 o O
@@ -38916,7 +38916,7 @@ frisados O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
+DUMA I-MISC
 CRIANÇA O
 SI O
 |
@@ -38948,7 +38948,7 @@ della O
 intimamente O
 , O
 mas O
-acos- O
+acos- B-LOC
 |
 | O
 tomara-mo O
@@ -38984,7 +38984,7 @@ antipatia O
 No O
 entanto O
 , O
-ella O
+ella B-PER
 compreendeu O
 desde O
 logo O
@@ -39005,7 +39005,7 @@ mim O
 | O
 com O
 a O
-Eóló B-MISC
+Eóló B-LOC
 ( O
 o O
 nome O
@@ -39035,9 +39035,9 @@ aféto O
 pela O
 |
 | O
-suaá B-PER
-rica I-PER
-senhora I-PER
+suaá B-LOC
+rica I-LOC
+senhora I-LOC
 , O
 a O
 quem O
@@ -39100,7 +39100,7 @@ Portanto O
 ia O
 a O
 menina O
-Eulalia B-LOC
+Eulalia B-PER
 sêr O
 a O
 primeira O
@@ -39165,8 +39165,8 @@ exerceria O
 con- O
 |
 | O
-tra O
-mim O
+tra B-PER
+mim I-PER
 . O
 |
 
@@ -39181,7 +39181,7 @@ com O
 a O
 |
 | O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 não O
 afrouxavam O
 , O
@@ -39218,8 +39218,8 @@ meu O
 | O
 12 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
 | O
@@ -39230,10 +39230,10 @@ docil O
 e O
 estudiosa O
 . O
-Á B-MISC
-sim- I-MISC
+Á O
+sim- O
 |
-| I-MISC
+| O
 Eles O
 amença O
 de O
@@ -39294,10 +39294,10 @@ mim O
 , O
 que O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 e O
 o O
-Chico B-LOC
+Chico B-PER
 |
 | O
 tinham-me O
@@ -39326,7 +39326,7 @@ nunca O
 pára O
 e O
 por O
-peor O
+peor B-PER
 que O
 este- O
 |
@@ -39442,7 +39442,7 @@ anos O
 , O
 que O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 entrou O
 a O
 |
@@ -39525,8 +39525,8 @@ inéditas O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 143 O
 |
 
@@ -39733,7 +39733,7 @@ despindo O
 , O
 primeiro O
 das O
-ilóres O
+ilóres B-PER
 , O
 depois O
 das O
@@ -39742,7 +39742,7 @@ das O
 folhas O
 , O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 , O
 quasi O
 deitada O
@@ -39824,7 +39824,7 @@ entretinha-se O
 144 O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -39943,7 +39943,7 @@ enigmatica O
 « O
 Vês B-MISC
 ? I-MISC
-Gosto B-PER
+Gosto O
 mais O
 assim O
 . O
@@ -40035,7 +40035,7 @@ quem O
 deseja O
 |
 | O
-sêér O
+sêér B-PER
 perdoado O
 . O
 |
@@ -40067,7 +40067,7 @@ lindos O
 romances O
 , O
 que O
-elle B-MISC
+elle B-PER
 ia O
 escolher O
 |
@@ -40113,9 +40113,9 @@ romances O
  
 
 | O
-DIÁRIO O
-DUMA B-MISC
-CRIANÇA B-MISC
+DIÁRIO B-MISC
+DUMA I-MISC
+CRIANÇA O
 15 O
 |
 
@@ -40138,10 +40138,10 @@ o O
 meu O
 coração O
 de O
-rapa- O
+rapa- B-PER
 |
-| O
-Tica B-LOC
+| I-PER
+Tica I-PER
 . O
 |
 
@@ -40152,7 +40152,7 @@ nem O
 já O
 mesmo O
 isso O
-; O
+  O
 ás O
 horas O
 a O
@@ -40245,7 +40245,7 @@ alegria O
 |
 
 | O
-Dizia B-LOC
+Dizia B-PER
 adeus O
 às O
 tardes O
@@ -40286,7 +40286,7 @@ o O
 Chico B-PER
 , O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 mandava-me O
 |
 | O
@@ -40339,7 +40339,7 @@ agravos O
 Era O
 então O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 doutro O
 tempo O
 , O
@@ -40359,7 +40359,7 @@ exist- O
 tencia O
 , O
 o O
-dôce B-MISC
+dôce B-LOC
 o O
 querido O
 anjo O
@@ -40375,7 +40375,7 @@ sonhos O
 |
 
 | O
-Una B-LOC
+Una O
 tarde O
 , O
 em O
@@ -40406,7 +40406,7 @@ olhar O
 146 O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -40431,8 +40431,8 @@ descoberta O
 | O
 — O
 « O
-Ó B-MISC
-Raquel I-MISC
+Ó B-PER
+Raquel I-PER
 , O
 tu O
 és O
@@ -40539,7 +40539,7 @@ fatigasse O
 a O
 subir O
 escadas O
-; O
+  O
 enfeitou- O
 |
 | O
@@ -40618,7 +40618,7 @@ cópia O
 dum O
 quadro O
 que O
-obtivera B-LOC
+obtivera O
 . O
 |
 | O
@@ -40628,7 +40628,7 @@ na O
 última O
 exposição O
 do O
-Salon B-ORG
+Salon B-MISC
 . O
 |
 
@@ -40688,20 +40688,20 @@ violencia O
 |
 
 | O
-Sofria B-LOC
+Sofria O
 muito O
 , O
 a O
 pobre O
 alma O
 ! O
-Jú O
+Jú B-PER
 mal O
 podia O
 |
 | O
 andar O
-; O
+  O
 melhor O
 se O
 poderia O
@@ -40715,7 +40715,7 @@ ava O
 , O
 encostada O
 às O
-pessõas O
+pessõas B-LOC
 que O
 a O
 acompanha- O
@@ -40726,7 +40726,7 @@ acompanha- O
 | O
 DIARIO B-MISC
 DUMA I-MISC
-CREANÇA O
+CREANÇA I-MISC
 147 O
 |
 
@@ -40761,12 +40761,12 @@ só O
 do O
 olhar O
 para O
-ella O
+ella B-PER
 . O
 |
 
 | O
-Queria B-LOC
+Queria O
 consolar-me O
 e O
 sorria O
@@ -40830,8 +40830,8 @@ com O
 a O
 doença O
 da O
-Mariquinhas B-LOC
-; O
+Mariquinhas B-PER
+  O
 mas O
 , O
 quando O
@@ -40909,7 +40909,7 @@ espirito O
 « O
 Como O
 a O
-Raquel B-ORG
+Raquel B-PER
 tem O
 sabido O
 ! O
@@ -41032,7 +41032,7 @@ esfacelados O
 48 O
 DIARIO B-MISC
 DUMA O
-CRIANÇA B-MISC
+CRIANÇA O
 |
 
 | O
@@ -41063,10 +41063,10 @@ sêr O
 uniforme O
 sobre O
 O B-MISC
-ver- O
+ver- I-MISC
 |
-| O
-dadeiro O
+| I-MISC
+dadeiro I-MISC
 mal O
 . O
 |
@@ -41122,7 +41122,7 @@ deixei O
 de O
 a O
 vêr O
-; O
+  O
 e O
 , O
 por O
@@ -41275,7 +41275,7 @@ piedosa O
 espionagem O
 , O
 a O
-Eulalia B-LOC
+Eulalia B-PER
 |
 | O
 voltou-se O
@@ -41308,7 +41308,7 @@ arrepiou O
 « O
 A O
 menina O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 — O
 sabe O
 ? O
@@ -41331,9 +41331,9 @@ morrer O
  
 
 | O
-DIARIO B-MISC
+DIARIO O
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 149 O
 |
 
@@ -41401,7 +41401,7 @@ os O
 sentidos O
 . O
 A O
-Eulalia B-LOC
+Eulalia B-ORG
 , O
 que O
 me O
@@ -41467,7 +41467,7 @@ medico O
 em O
 casa O
 da O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 a O
 passar O
 a O
@@ -41579,7 +41579,7 @@ sangue O
 
 | O
 A O
-Eulalia B-LOC
+Eulalia B-PER
 consolava-me O
 , O
 apiedada O
@@ -41649,8 +41649,8 @@ ir O
 | O
 150 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -41672,7 +41672,7 @@ verdade O
 
 | O
 — O
-Pedir B-PER
+Pedir O
 á O
 tia O
 ? O
@@ -41686,7 +41686,7 @@ pedido O
 nada O
 , O
 a O
-Eulalia B-LOC
+Eulalia B-PER
 sabia O
 . O
 Era O
@@ -41696,7 +41696,7 @@ meu O
 org- O
 |
 | O
-lho O
+lho B-PER
 , O
 à O
 unica O
@@ -41794,7 +41794,7 @@ claro O
 . O
 Era O
 a O
-Primeira O
+Primeira B-MISC
 vez O
 que O
 |
@@ -41835,7 +41835,7 @@ o O
 unico O
 julgador O
 que O
-temi O
+temi B-PER
 . O
 |
 
@@ -41937,8 +41937,8 @@ quarto O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 151 O
 |
 
@@ -42008,7 +42008,7 @@ que O
 se O
 abria O
 em O
-flôr O
+flôr B-LOC
 , O
 tornara-se O
 |
@@ -42038,7 +42038,7 @@ arfar O
 o O
 seu O
 corpinho O
-mui- O
+mui- B-PER
 |
 | O
 ficado O
@@ -42151,9 +42151,9 @@ no O
 |
 | O
 futuro O
-luzeiro O
-de O
-esperança O
+luzeiro B-PER
+de I-PER
+esperança I-PER
 . O
 |
 
@@ -42171,7 +42171,7 @@ a O
 | O
 morrer O
 , O
-ella O
+ella B-PER
 tão O
 linda B-PER
 , O
@@ -42179,7 +42179,7 @@ tão O
 gentil O
 , O
 a O
-gárrula O
+gárrula B-ORG
 , O
 |
 | O
@@ -42224,10 +42224,10 @@ a O
 mim O
 e O
 a O
-de- O
+de- B-LOC
 |
-| O
-passo O
+| I-LOC
+passo I-LOC
 a O
 ella O
 , O
@@ -42250,8 +42250,8 @@ ao O
 | O
 152 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
 | O
@@ -42263,7 +42263,7 @@ descera O
 até O
 à O
 minha O
-mi- O
+mi- B-PER
 |
 | O
 seria O
@@ -42304,7 +42304,7 @@ tão O
 | O
 completamente O
 mudado O
-; O
+  O
 a O
 impressão O
 foi O
@@ -42477,7 +42477,7 @@ já O
 postes O
 noutro O
 fito O
-; O
+  O
 levar- O
 |
 | O
@@ -42485,10 +42485,10 @@ ton O
 a O
 mão O
 , O
-j O
-quasi O
+j B-PER
+quasi I-PER
 entorpecida O
-; O
+  O
 é O
 soltou O
 uns O
@@ -42521,7 +42521,7 @@ coisa O
 |
 | O
 — O
-Murmuraram-me B-PER
+Murmuraram-me B-LOC
 ao O
 convido O
 , O
@@ -42538,13 +42538,13 @@ cama O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 153 O
 |
 
 | O
-Fui B-PER
+Fui O
 cair O
 , O
 desorientada O
@@ -42580,25 +42580,25 @@ mais O
 poderei O
 riscar O
 da O
-me- O
+me- B-PER
 |
-| O
-maria B-PER
+| I-PER
+maria O
 o O
 olhar O
-fundissimo O
+fundissimo B-PER
 de O
 amargura O
 , O
-quasi O
+quasi B-LOC
 |
-| O
-odiento O
+| I-LOC
+odiento I-LOC
 , O
 com O
 que O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 me O
 envolveu O
 |
@@ -42612,8 +42612,8 @@ sondando-mo O
 |
 
 | O
-Meu B-MISC
-Deus I-MISC
+Meu O
+Deus B-MISC
 ! I-MISC
 eu O
 não O
@@ -42633,7 +42633,7 @@ alma O
 |
 | O
 ao O
-vêr-me O
+vêr-me B-LOC
 cheia O
 de O
 saúde O
@@ -42777,7 +42777,7 @@ a O
 |
 | O
 minha O
-gratid O
+gratid B-PER
 , O
 o O
 meu O
@@ -42794,7 +42794,7 @@ eu O
 lhe O
 daria O
 de O
-bãa O
+bãa B-PER
 vontade O
 ? O
 ! O
@@ -42847,8 +42847,8 @@ compreendia O
 15 O
 + O
 DIARIO B-MISC
-DUMA O
-CRIANÇA O
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -42872,7 +42872,7 @@ dôr O
 |
 
 | O
-Dahi B-PER
+Dahi O
 para O
 diante O
 não O
@@ -42913,10 +42913,10 @@ apoderou- O
 | O
 se O
 da O
-minha O
-pessõa O
+minha B-MISC
+pessõa I-MISC
 o O
-foi-me B-MISC
+foi-me O
 indicando O
 , O
 com O
@@ -42953,7 +42953,7 @@ amiguinha O
 | O
 — O
 « O
-Ella O
+Ella B-PER
 quer O
 falar O
 , O
@@ -42988,10 +42988,10 @@ a O
 face O
 cadaverica O
 da O
-Mari- B-ORG
+Mari- B-MISC
 |
-| O
-quinas O
+| I-MISC
+quinas I-MISC
 . O
 |
 
@@ -43003,10 +43003,10 @@ olhos O
 ao O
 ritus O
 de O
-quasi O
+quasi B-LOC
 |
-| O
-caveira O
+| I-LOC
+caveira I-LOC
 que O
 tinha O
 nos O
@@ -43027,10 +43027,10 @@ até O
 que O
 a O
 sua O
-ima- O
+ima- B-MISC
 |
-| O
-gem O
+| I-MISC
+gem I-MISC
 me O
 ficou O
 tão O
@@ -43105,10 +43105,10 @@ ter O
 compreendido O
 : O
 — O
-Coitada- O
+Coitada- B-PER
 |
-| O
-nha O
+| I-PER
+nha I-PER
 , O
 faLou O
 no O
@@ -43144,8 +43144,8 @@ vinha O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 155 O
 |
 
@@ -43224,7 +43224,7 @@ segurar-me O
 |
 
 | O
-Ninguem B-MISC
+Ninguem O
 deu O
 pela O
 minha O
@@ -43313,7 +43313,7 @@ aguda O
 , O
 tão O
 sangrenta O
-; O
+  O
 como O
 |
 | O
@@ -43355,8 +43355,8 @@ estremecida O
 Não O
 sei O
 como O
-sahi B-PER
-dali I-PER
+sahi O
+dali O
 e O
 me O
 encontrei O
@@ -43417,7 +43417,7 @@ transida O
 |
 | O
 de O
-pavôr O
+pavôr B-PER
 , O
 esperando O
 o O
@@ -43443,8 +43443,8 @@ me O
 | O
 156 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -43466,7 +43466,7 @@ Com O
 a O
 morte O
 da O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 toda O
 a O
 alegria O
@@ -43503,7 +43503,7 @@ fechadas O
 
 | O
 O O
-Chico B-ORG
+Chico B-PER
 , O
 quando O
 voltou O
@@ -43516,7 +43516,7 @@ triste O
 | O
 só O
 de O
-longe.mo O
+longe.mo B-MISC
 acenava O
 com O
 a O
@@ -43562,7 +43562,7 @@ tolerava O
 as O
 |
 | O
-Repreensões B-LOC
+Repreensões B-ORG
 , O
 conselhos O
 e O
@@ -43580,10 +43580,10 @@ sofrimento O
 vol- O
 |
 | O
-ava-mo O
+ava-mo B-LOC
 a O
 revolta O
-; O
+  O
 e O
 , O
 como O
@@ -43619,7 +43619,7 @@ abandonado O
 |
 
 | O
-Sim B-ORG
+Sim O
 ... O
 eu O
 confesso O
@@ -43644,7 +43644,7 @@ ava-se O
 queria O
 domar O
 a O
-selvagensinha O
+selvagensinha B-MISC
 — O
 como O
 me O
@@ -43725,9 +43725,9 @@ Chico B-PER
  
 
 | O
-DIÁRIO O
-DUMA B-MISC
-CRIANÇA B-MISC
+DIÁRIO B-MISC
+DUMA I-MISC
+CRIANÇA O
 157 O
 |
 
@@ -43810,7 +43810,7 @@ levantei O
 da O
 cama O
 , O
-acendi B-MISC
+acendi O
 |
 | O
 a O
@@ -43870,7 +43870,7 @@ certa O
 ! O
 |
 | O
-Escrevia B-LOC
+Escrevia O
 , O
 pela O
 primeira O
@@ -43974,7 +43974,7 @@ noite O
 de O
 |
 | O
-insônia B-MISC
+insônia O
 ! O
 ... O
 |
@@ -43991,7 +43991,7 @@ Chico I-MISC
 se O
 |
 | O
-elle B-MISC
+elle O
 me O
 faltasse O
 , O
@@ -44031,7 +44031,7 @@ tentei O
 | O
 DIÁRIO B-MISC
 DUMA I-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -44043,7 +44043,7 @@ me O
 sahiu O
 peor O
 . O
-Meti-a O
+Meti-a B-LOC
 |
 | O
 no O
@@ -44080,7 +44080,7 @@ casa O
 
 | O
 A O
-Eulalia B-LOC
+Eulalia B-ORG
 , O
 na O
 cosinha O
@@ -44135,7 +44135,7 @@ entrou O
 ha O
 pouco O
 para O
-Já B-MISC
+Já B-LOC
 . O
 |
 
@@ -44159,7 +44159,7 @@ falsa O
 : O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 sim O
 ? O
@@ -44179,7 +44179,7 @@ carta O
 ... O
 que O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 deixou O
 para O
 ello B-LOC
@@ -44193,13 +44193,13 @@ foz-mo O
 córar O
 , O
 balbuciar O
-; O
+  O
 enver- O
 |
 | O
 gonhei-me O
 de O
-mim O
+mim B-LOC
 mesma O
 . O
 |
@@ -44264,7 +44264,7 @@ veiu O
 a O
 |
 | O
-Eulalia B-LOC
+Eulalia B-PER
 , O
 toda O
 prazenteira O
@@ -44274,7 +44274,7 @@ anunciar-me O
 |
 
 | O
-Recolhi B-LOC
+Recolhi O
 ao O
 meu O
 quarto O
@@ -44344,7 +44344,7 @@ muito O
 sem O
 que O
 a O
-Eulalia B-LOC
+Eulalia B-PER
 viesse O
 , O
 |
@@ -44362,8 +44362,8 @@ cumplicidade O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 159 O
 |
 
@@ -44376,7 +44376,7 @@ trazendo O
 a O
 resposta O
 do O
-Chico B-ORG
+Chico B-PER
 |
 | O
 debaixo O
@@ -44387,7 +44387,7 @@ avental O
 |
 
 | O
-Recebi-a B-PER
+Recebi-a B-MISC
 simulando O
 indiferença O
 , O
@@ -44431,13 +44431,13 @@ alma O
 |
 
 | O
-Desconcertada B-LOC
+Desconcertada B-PER
 pela O
 minha O
 atitude O
 , O
-sahiu O
-; O
+sahiu B-PER
+  O
 |
 | O
 e O
@@ -44505,7 +44505,7 @@ deposita O
 em O
 mim O
 . O
-Escreva B-LOC
+Escreva O
 « O
 os O
 seus O
@@ -44541,7 +44541,7 @@ D. I-PER
 Emilia I-PER
 e O
 e O
-umã O
+umã B-PER
 acres- O
 |
 | O
@@ -44624,7 +44624,7 @@ faltava O
 |
 
 | O
-Sentia-me B-ORG
+Sentia-me O
 protegida O
 o O
 amada O
@@ -44664,8 +44664,8 @@ porta O
 | O
 160 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -44721,7 +44721,7 @@ gente O
 | O
 — O
 « O
-Vai-to B-ORG
+Vai-to B-LOC
 daqui O
 para O
 fóra O
@@ -44738,7 +44738,7 @@ perda O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 estás O
 assim O
@@ -44765,7 +44765,7 @@ estar O
 | O
 — O
 « O
-Importa-me B-MISC
+Importa-me B-LOC
 pouco O
 a O
 tua O
@@ -44842,7 +44842,7 @@ não O
 | O
 estivesse O
 a O
-Bater B-PER
+Bater B-LOC
 com O
 violencia O
 á O
@@ -44856,7 +44856,7 @@ como O
 possessa O
 para O
 que O
-lha O
+lha B-PER
 abrisse O
 . O
 |
@@ -44898,13 +44898,13 @@ desejava O
 | O
 — O
 « O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 Não O
 ter O
 vergonha O
 ! O
-Menina B-PER
+Menina B-LOC
 dizer O
 a O
 |
@@ -44924,12 +44924,12 @@ que O
 mim O
 quer O
 ! O
-Vêr B-MISC
+Vêr B-PER
 esse O
 carta O
 já O
 ! O
-Vergonhas B-LOC
+Vergonhas O
 , O
 |
 | O
@@ -44974,8 +44974,8 @@ estancar O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 161 O
 |
 
@@ -44984,7 +44984,7 @@ No O
 meio O
 daquella O
 gritaria O
-poude O
+poude B-PER
 apenas O
 |
 | O
@@ -45041,7 +45041,7 @@ desvairou O
 | O
 — O
 « O
-Dú-me O
+Dú-me B-ORG
 carta O
 já O
 ! O
@@ -45087,7 +45087,7 @@ sangue O
 que O
 vinha O
 de O
-herois O
+herois B-MISC
 , O
 tudo O
 |
@@ -45108,7 +45108,7 @@ de O
 todos O
 os O
 dias O
-; O
+  O
 assim O
 brutal- O
 |
@@ -45131,7 +45131,7 @@ revolta O
 |
 
 | O
-Ergui-me O
+Ergui-me B-PER
 duma O
 só O
 vez O
@@ -45178,12 +45178,12 @@ Nunca O
 ! O
 |
 | O
-Fique B-LOC
+Fique O
 sabendo O
 , O
 nunca O
 ! O
-Prefiro B-LOC
+Prefiro O
 enguli O
 . O
 |
@@ -45246,7 +45246,7 @@ ignorancia O
 do O
 português O
 , O
-ella O
+ella B-PER
 não O
 sabia O
 . O
@@ -45268,12 +45268,12 @@ u O
 | O
 162 O
 * O
-DIARIO O
-DUMA O
-CRIANÇA O
+DIARIO B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
-| O
+| I-MISC
 Uma O
 onda O
 de O
@@ -45289,7 +45289,7 @@ me O
 turvou O
 os O
 olhos O
-; O
+  O
 toda O
 a O
 candura O
@@ -45321,7 +45321,7 @@ d O
 |
 | O
 vairada O
-; O
+  O
 sim O
 , O
 creio O
@@ -45347,7 +45347,7 @@ a O
 teria O
 estrangulado O
 . O
-Sahi B-PER
+Sahi B-LOC
 do O
 quarto O
 violenta- O
@@ -45357,7 +45357,7 @@ mente O
 , O
 empurrando O
 a O
-Eulalia B-LOC
+Eulalia B-PER
 , O
 que O
 observava O
@@ -45396,7 +45396,7 @@ furôr O
 | O
 — O
 « O
-Vá B-ORG
+Vá B-MISC
 , O
 sua O
 canalha O
@@ -45518,7 +45518,7 @@ uma O
 |
 | O
 bofetada O
-; O
+  O
 e O
 a O
 porta O
@@ -45534,7 +45534,7 @@ pontapé O
 , O
 que O
 fez O
-cahir O
+cahir B-PER
 um O
 vidro O
 que O
@@ -45566,7 +45566,7 @@ jardim O
 |
 
 | O
-Dum B-PER
+Dum O
 pulo O
 saltei O
 a O
@@ -45591,8 +45591,8 @@ da O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 163 O
 |
 
@@ -45645,7 +45645,7 @@ tio O
 veiu O
 buscar-me O
 . O
-Den-me B-MISC
+Den-me O
 |
 | O
 conselhos O
@@ -45675,7 +45675,7 @@ Agarrei-me O
 à O
 mãe O
 da O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 , O
 |
 | O
@@ -45700,7 +45700,7 @@ experimentado O
 |
 | O
 que O
-ella O
+ella B-PER
 pediu O
 a O
 meu O
@@ -45742,9 +45742,9 @@ palavra O
 persuasiva O
 e O
 dôce B-MISC
-da O
-minha O
-protétora O
+da I-MISC
+minha I-MISC
+protétora I-MISC
 , O
 e O
 ao O
@@ -45764,7 +45764,7 @@ maguada O
 : O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 cabecinha O
 , O
@@ -45775,7 +45775,7 @@ tinha O
 louca O
 , O
 que O
-herdaste O
+herdaste B-PER
 , O
 por O
 teu O
@@ -45788,8 +45788,8 @@ o O
 sangue O
 rebelde O
 da O
-nossa B-ORG
-familia I-ORG
+nossa O
+familia O
 ! O
 |
 
@@ -45802,7 +45802,7 @@ no O
 seu O
 intimo O
 , O
-elle B-MISC
+elle O
 |
 | O
 o O
@@ -45858,7 +45858,7 @@ tio O
 ! O
 |
 | O
-Ninguem B-MISC
+Ninguem O
 reconheceria O
 nesse O
 velho O
@@ -45871,7 +45871,7 @@ alquebrado O
 | O
 164 O
 DIARIO B-MISC
-DEXA I-MISC
+DEXA O
 CrIANÇa O
 |
 
@@ -45949,7 +45949,7 @@ admoestava O
 por O
 tanta O
 loucura O
-; O
+  O
 o O
 |
 | O
@@ -45978,7 +45978,7 @@ pequenos O
 , O
 colegiais O
 como O
-elle B-MISC
+elle O
 , O
 e O
 que O
@@ -46071,7 +46071,7 @@ que O
 não O
 soube O
 nem O
-poude O
+poude B-PER
 |
 | O
 fugir O
@@ -46093,8 +46093,8 @@ con- O
 dando-lhe O
 o O
 longo O
-martirio O
-daquelles O
+martirio B-LOC
+daquelles I-LOC
 quatro O
 |
 | O
@@ -46175,7 +46175,7 @@ horas O
 | O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 165 O
 |
 
@@ -46224,10 +46224,10 @@ cumpriram O
 |
 | O
 o O
-ge O
+ge B-ORG
 tinham O
 prometido O
-; O
+  O
 escreveram O
 comigo O
 |
@@ -46290,7 +46290,7 @@ que O
 em O
 |
 | O
-pessôa O
+pessôa B-PER
 me O
 quizeram O
 vir O
@@ -46409,7 +46409,7 @@ dôr O
 | O
 Estava O
 só O
-; O
+  O
 a O
 D. B-PER
 Emilia I-PER
@@ -46469,8 +46469,8 @@ esperança O
 | O
 166 O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -46545,12 +46545,12 @@ aféto O
 |
 | O
 por O
-elle B-MISC
+elle B-PER
 . O
 |
 
 | O
-Sorri B-PER
+Sorri O
 á O
 sua O
 graça O
@@ -46568,7 +46568,7 @@ que O
 o O
 Chico B-PER
 , O
-vibratil O
+vibratil B-LOC
 e O
 bondoso O
 |
@@ -46590,7 +46590,7 @@ E O
 muito O
 carinhoso O
 . O
-quiz O
+quiz B-PER
 saber O
 se O
 estava O
@@ -46697,7 +46697,7 @@ que O
 elle O
 e O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 quasi O
 |
 | O
@@ -46808,7 +46808,7 @@ podesse O
 | O
 DIARIO B-MISC
 DUMA B-MISC
-CRIANÇA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -46874,7 +46874,7 @@ con- O
 tra O
 mim O
 mesma O
-; O
+  O
 queria O
 vencer-me O
 , O
@@ -46888,7 +46888,7 @@ podia O
 
 | O
 O O
-Chico B-ORG
+Chico B-PER
 , O
 muito O
 comovido O
@@ -46897,7 +46897,7 @@ abraçava-me O
 o O
 |
 | O
-beijava-me B-ORG
+beijava-me O
 para O
 me O
 socegar O
@@ -46962,7 +46962,7 @@ conversa O
 — O
 « O
 O O
-Chico B-ORG
+Chico B-PER
 vai-se O
 âmanhã O
 embora O
@@ -46976,7 +46976,7 @@ se O
 lembrará O
 de O
 mim O
-; O
+  O
 eu O
 tambem O
 vou O
@@ -47077,8 +47077,8 @@ chegam O
 | O
 — O
 « O
-Quem B-MISC
-te I-MISC
+Quem O
+te O
 disse O
 tal O
 ? O
@@ -47089,8 +47089,8 @@ tal O
 | O
 168 O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA O
 |
 
 | O
@@ -47130,8 +47130,8 @@ hora O
 | O
 « O
 Tóca B-MISC
-a I-MISC
-cabra I-MISC
+a O
+cabra O
 vão O
 para O
 a O
@@ -47139,7 +47139,7 @@ aula O
 |
 | O
 * O
-Vêm B-PER
+Vêm B-LOC
 as O
 férias O
 vão-se O
@@ -47223,7 +47223,7 @@ Não O
 acredito O
 ! O
 O O
-Chico B-ORG
+Chico B-PER
 vai O
 osgue- O
 |
@@ -47282,9 +47282,9 @@ viver O
 | O
 — O
 « O
-O B-MISC
-! I-MISC
-Raquelsinha B-PER
+O O
+! O
+Raquelsinha B-MISC
 , O
 não O
 diga O
@@ -47320,7 +47320,7 @@ tão O
 pouco O
 esquecerei O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 . O
 |
 
@@ -47384,8 +47384,8 @@ si O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA O
+DUMA I-MISC
+CRIANÇA I-MISC
 o O
 |
 
@@ -47401,7 +47401,7 @@ namorado O
 da O
 |
 | O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 ? O
 ! O
 — O
@@ -47475,10 +47475,10 @@ cadeira O
 | O
 — O
 « O
-Ninguem B-MISC
-me I-MISC
-disso I-MISC
-nada I-MISC
+Ninguem O
+me O
+disso O
+nada O
 . O
 Eu O
 hôje O
@@ -47516,7 +47516,7 @@ ella O
 As O
 vezes O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 |
 | O
 parecia O
@@ -47543,7 +47543,7 @@ lembra-se O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 é O
 verdade O
@@ -47580,8 +47580,8 @@ incomodava O
 |
 
 | O
-Pobre B-LOC
-Mariquinhas I-LOC
+Pobre B-PER
+Mariquinhas I-PER
 ! O
 A O
 sua O
@@ -47590,7 +47590,7 @@ esbelta O
 e O
 |
 | O
-linda O
+linda B-PER
 levantava-se O
 a O
 nosso O
@@ -47659,7 +47659,7 @@ surpreso O
 | O
 — O
 a O
-Mariquinhas B-LOC
+Mariquinhas B-PER
 supunha O
 que O
 nós O
@@ -47722,7 +47722,7 @@ amizade O
 ora O
 diferente O
 ... O
-Mon- O
+Mon- B-LOC
 |
 | O
 tem O
@@ -47812,9 +47812,9 @@ mal O
 |
 
 | O
-Córei O
+Córei B-LOC
 o O
-baixei O
+baixei B-MISC
 os O
 olhos O
 numa O
@@ -47962,7 +47962,7 @@ desejo O
 |
 | O
 de O
-lho O
+lho B-PER
 dizer O
 que O
 sim O
@@ -47976,7 +47976,7 @@ pescoço O
 numa O
 alegria O
 louca O
-; O
+  O
 mas O
 ficava-me O
 calada O
@@ -47987,9 +47987,9 @@ calada O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
-11 O
+DUMA I-MISC
+CRIANÇA I-MISC
+11 I-MISC
 |
 
 | O
@@ -48002,7 +48002,7 @@ distin- O
 |
 | O
 unir O
-ató O
+ató B-ORG
 onde O
 me O
 seria O
@@ -48038,9 +48038,9 @@ temente O
 
 | O
 O O
-Chico B-ORG
+Chico B-PER
 compreendeu O
-; O
+  O
 e O
 , O
 não O
@@ -48262,8 +48262,8 @@ que O
 
 | O
 DIARIO B-MISC
-DUMA O
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 |
 
 | O
@@ -48337,7 +48337,7 @@ cações O
 e O
 desculpas O
 entre O
-elles O
+elles B-PER
 e O
 os O
 tios O
@@ -48501,7 +48501,7 @@ escon- O
 dias O
 folhear O
 o O
-Larousse B-ORG
+Larousse B-MISC
 onde O
 procuravamos O
 |
@@ -48512,8 +48512,8 @@ factos O
 para O
 confundir O
 o O
-santo B-LOC
-velho I-LOC
+santo O
+velho O
 . O
 |
 | O
@@ -48526,26 +48526,26 @@ essa O
 só O
 pedia O
 a O
-Deus B-MISC
+Deus B-PER
 |
-| I-MISC
-que I-MISC
-a I-MISC
-deixasse I-MISC
-viver I-MISC
-até I-MISC
-vêr I-MISC
-na I-MISC
-capela I-MISC
-da I-MISC
+| O
+que O
+a O
+deixasse O
+viver O
+até O
+vêr O
+na O
+capela O
+da O
 |
 
-| I-MISC
+| O
 ] O
 |
 | O
-O B-MISC
-Miguel I-MISC
+O O
+Miguel B-PER
 , O
 que O
 já O
@@ -48570,8 +48570,8 @@ amigo O
 | O
 DIARIO B-MISC
 DUMA I-MISC
-CRIANÇA B-MISC
-3 O
+CRIANÇA I-MISC
+3 I-MISC
 |
 
 | O
@@ -48615,7 +48615,7 @@ nio O
 mesma O
 mêsa O
 duas O
-RA O
+RA B-ORG
 que O
 fica- O
 |
@@ -48734,7 +48734,7 @@ com O
 o O
 véo O
 de O
-tule B-PER
+tule O
 bordado O
 , O
 que O
@@ -48779,7 +48779,7 @@ outros O
 batisados O
 celebres O
 na O
-familia B-LOC
+familia O
 , O
 e O
 o O
@@ -48791,8 +48791,8 @@ igualmente O
 , O
 que O
 , O
-crescidinha O
-j O
+crescidinha B-PER
+j I-PER
 , O
 por O
 doença O
@@ -48807,10 +48807,10 @@ iconoclastamente O
 |
 | O
 com O
-O O
-sal O
-da O
-sapiencia O
+O B-MISC
+sal I-MISC
+da I-MISC
+sapiencia I-MISC
 é O
 arranhei O
 a O
@@ -48836,10 +48836,10 @@ Chico B-PER
 uma O
 vez O
 que O
-elle B-MISC
+elle O
 foi O
 a O
-Lisbôa B-PER
+Lisbôa B-LOC
 , O
 que O
 deixasse O
@@ -48884,27 +48884,27 @@ batisado O
  
 
 | O
-Via B-LOC
+Via O
 |
 
-| I-LOC
-DIARIO I-LOC
-DUMA I-LOC
-CRIANÇA O
+| O
+DIARIO O
+DUMA B-MISC
+CRIANÇA I-MISC
 |
 
 | O
 Isto O
 emquanto O
 a O
-bôa B-ORG
-mamã I-ORG
+bôa O
+mamã O
 dá O
 volta O
 ao O
 |
 | O
-bragal O
+bragal B-PER
 , O
 desmancha O
 lenções O
@@ -48979,7 +48979,7 @@ lar O
 ... O
 já O
 o O
-jurámos O
+jurámos B-ORG
 : O
 só O
 nós O
@@ -49026,7 +49026,7 @@ cabeça O
 |
 
 | O
-Esquecia-me O
+Esquecia-me B-LOC
 dizer O
 que O
 o O
@@ -49057,9 +49057,9 @@ encafuado O
 |
 | O
 num O
-mausoleu O
-de O
-marmore O
+mausoleu B-LOC
+de I-LOC
+marmore I-LOC
 , O
 onde O
 ela O
@@ -49069,7 +49069,7 @@ vêr O
 |
 | O
 a O
-miude O
+miude B-MISC
 , O
 naturalmente O
 para O
@@ -49183,8 +49183,8 @@ pouco O
 
 | O
 DIARIO B-MISC
-DUMA B-MISC
-CRIANÇA B-MISC
+DUMA I-MISC
+CRIANÇA I-MISC
 175 O
 |
 
@@ -49244,9 +49244,9 @@ que O
 nos O
 |
 | O
-cuche O
-de O
-reconhecimento O
+cuche B-LOC
+de I-LOC
+reconhecimento I-LOC
 , O
 e O
 todos O
@@ -49262,7 +49262,7 @@ morta O
 , O
 a O
 linda O
-Mari- B-ORG
+Mari- B-PER
 |
 | O
 quinas O
@@ -49271,7 +49271,7 @@ que O
 tão O
 intimos O
 o O
-indissoluvel O
+indissoluvel B-ORG
 tor- O
 |
 | O
@@ -49287,11 +49287,11 @@ afétos O
  
 
 | O
-IV B-MISC
+IV O
 |
 
-| I-MISC
-Sacrificada I-MISC
+| O
+Sacrificada B-PER
 |
 
  
@@ -49310,7 +49310,7 @@ Sacrificada I-MISC
     
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -49358,11 +49358,11 @@ a O
 a O
 |
 | O
-ID B-LOC
+ID O
 superior O
 , O
-Soror B-PER
-Gertrudes I-PER
+Soror B-LOC
+Gertrudes I-LOC
 , O
 ha O
 muito O
@@ -49375,7 +49375,7 @@ vinda O
 . O
 |
 | O
-Falavam O
+Falavam B-MISC
 a O
 um O
 tempo O
@@ -49386,15 +49386,15 @@ satisfei- O
 | O
 tas O
 com O
-aquella B-PER
+aquella O
 diversão O
 , O
 que O
 mesmo- O
-i O
+i B-PER
 |
-| O
-notonisava O
+| I-PER
+notonisava I-PER
 a O
 vida O
 fastienta O
@@ -49540,7 +49540,7 @@ caviciosa O
 , O
 quo O
 as O
-bôas O
+bôas B-ORG
 freiras O
 a O
 consideraram O
@@ -49558,8 +49558,8 @@ para O
 |
 | O
 as O
-consolar B-LOC
-naquelle I-LOC
+consolar O
+naquelle O
 triste O
 fim O
 da O
@@ -49595,7 +49595,7 @@ picada O
 de O
 papelinhos O
 doirados O
-; O
+  O
 rendas O
 finas O
 , O
@@ -49605,7 +49605,7 @@ outrora O
 feitas O
 na O
 casa O
-; O
+  O
 dôces O
 , O
 especialidade O
@@ -49614,7 +49614,7 @@ especialidade O
 | O
 do O
 convento O
-; O
+  O
 coisas O
 insignificantes O
 , O
@@ -49692,7 +49692,7 @@ cidade O
 | O
 — O
 Não O
-; O
+  O
 se O
 tinha O
 que O
@@ -49776,7 +49776,7 @@ era O
  
 
 | O
-BAORIFICADA B-MISC
+BAORIFICADA B-ORG
 181 O
 |
 
@@ -49805,11 +49805,11 @@ aprovou O
 contente O
 com O
 aquella B-PER
-res- O
+res- I-PER
 |
-| O
-lução O
-; O
+| I-PER
+lução I-PER
+  O
 ansiava O
 por O
 a O
@@ -49890,7 +49890,7 @@ fôr O
 no O
 silencio O
 dos O
-longes B-LOC
+longes O
 corre- O
 |
 | O
@@ -50074,7 +50074,7 @@ roma- O
 
 | O
 152 O
-SACRIFICADA B-PER
+SACRIFICADA B-MISC
 |
 
 | O
@@ -50120,8 +50120,8 @@ O O
 mais O
 velho O
 , O
-bom B-PER
-rapaz I-PER
+bom O
+rapaz O
 , O
 bronco O
 e O
@@ -50169,8 +50169,8 @@ solavancos O
 R B-MISC
 R I-MISC
 |
-| I-MISC
-daqui I-MISC
+| O
+daqui O
 , O
 guitarradas O
 dali O
@@ -50288,10 +50288,10 @@ rapazes O
 da O
 região O
 e O
-se- O
+se- B-LOC
 |
-| O
-giram O
+| I-LOC
+giram I-LOC
 , O
 como O
 era O
@@ -50356,7 +50356,7 @@ férias O
 |
 
 | O
-Fôram B-LOC
+Fôram B-PER
 elles O
 os O
 últimos O
@@ -50407,10 +50407,10 @@ invadia O
 | O
 roubando O
 na O
-cosinha B-LOC
+cosinha O
 , O
 sujando O
-es O
+es B-LOC
 salas O
 e O
 qual- O
@@ -50541,8 +50541,8 @@ trar O
 numa O
 irmã O
 do O
-sen O
-herculeo O
+sen B-PER
+herculeo I-PER
 companheiro O
 |
 | O
@@ -50588,11 +50588,11 @@ da O
 posse O
 e O
 o O
-projéto O
-da O
+projéto B-PER
+da I-PER
 |
-| O
-conquista O
+| I-PER
+conquista I-PER
 . O
 |
 
@@ -50701,11 +50701,11 @@ na O
 sua O
 ignorancia O
 infantil O
-; O
+  O
 |
 | O
 mas O
-elle B-MISC
+elle O
 , O
 conquistador O
 sem O
@@ -50732,7 +50732,7 @@ falam O
 |
 | O
 de O
-amôres O
+amôres B-PER
 infelizes O
 com O
 tremuras O
@@ -50884,13 +50884,13 @@ jura- O
 | O
 das O
 , O
-elle B-MISC
+elle B-PER
 partiu O
 alegre B-LOC
 e O
 triunfante O
 , O
-olla O
+olla B-PER
 ficou O
 |
 | O
@@ -50907,7 +50907,7 @@ A O
 sabendo O
 , O
 fustigando O
-Dbarbaramente B-MISC
+Dbarbaramente B-PER
 a O
 sua O
 |
@@ -50936,8 +50936,8 @@ nos O
 olhos O
 arroxeamentos O
 do O
-incuravel O
-doença O
+incuravel B-MISC
+doença I-MISC
 . O
 |
 
@@ -50966,7 +50966,7 @@ ia-lhe O
  
 
 | O
-SACRIFIGADA O
+SACRIFIGADA B-ORG
 185 O
 |
 
@@ -50980,7 +50980,7 @@ visto O
 |
 | O
 que O
-elle B-MISC
+elle O
 , O
 o O
 ingrato O
@@ -51002,9 +51002,9 @@ esperanças O
 . O
 |
 | O
-Confiando B-LOC
-da I-LOC
-Ama-Rita I-LOC
+Confiando B-MISC
+da I-MISC
+Ama-Rita I-MISC
 o O
 sou O
 segredo O
@@ -51210,7 +51210,7 @@ os O
 | O
 olhos O
 ao O
-céo O
+céo B-MISC
 , O
 tomava-o O
 como O
@@ -51233,8 +51233,8 @@ como O
 se O
 o O
 esperasse O
-vêr O
-cahir O
+vêr B-PER
+cahir I-PER
 sobre O
 a O
 |
@@ -51254,7 +51254,7 @@ pés O
 Mas O
 como O
 do O
-céo O
+céo B-MISC
 não O
 baixou O
 nenhum O
@@ -51266,7 +51266,7 @@ da O
 colera O
 divina O
 , O
-ella O
+ella B-PER
 afastou-se O
 |
 
@@ -51350,7 +51350,7 @@ para O
 |
 | O
 Manoel B-PER
-vêr O
+vêr I-PER
 , O
 deixou-lhe O
 no O
@@ -51359,11 +51359,11 @@ um O
 vis- O
 |
 | O
-Numero B-LOC
+Numero O
 de O
 esperança O
 , O
-naquelle B-LOC
+naquelle O
 desejo O
 que O
 todos O
@@ -51380,8 +51380,8 @@ luzeiro O
 |
 | O
 que O
-prediga O
-felicidade O
+prediga B-LOC
+felicidade I-LOC
 . O
 |
 
@@ -51403,7 +51403,7 @@ aniquilando O
 o O
 namorado O
 de O
-Ma- O
+Ma- B-LOC
 |
 | O
 nela O
@@ -51476,7 +51476,7 @@ no O
 mundo O
 e O
 na O
-familia B-LOC
+familia O
 . O
 |
 
@@ -51512,7 +51512,7 @@ arruinada O
 numa O
 propriedade O
 distante O
-; O
+  O
 e O
 foi O
 ali O
@@ -51524,13 +51524,13 @@ rochedos O
 desolados O
 e O
 na O
-visinhança O
+visinhança B-LOC
 lugubre O
 |
 | O
 dos O
-lobos O
-ne O
+lobos B-ORG
+ne I-ORG
 uivavam O
 a O
 sua O
@@ -51565,7 +51565,7 @@ filha O
  
 
 | O
-AACRIPICADA B-ORG
+AACRIPICADA B-MISC
 187 O
 |
 
@@ -51660,7 +51660,7 @@ um O
 infinito O
 do O
 ternura O
-; O
+  O
 da O
 boquinha O
 , O
@@ -51728,7 +51728,7 @@ possuir O
 
 | O
 A O
-Ama-Rita B-LOC
+Ama-Rita B-MISC
 chorava O
 tambem O
 , O
@@ -51814,8 +51814,8 @@ convento O
 onde O
 |
 | O
-Soror B-PER
-Gertrudes I-PER
+Soror B-LOC
+Gertrudes I-LOC
 já O
 a O
 esperava O
@@ -51836,7 +51836,7 @@ pr- O
 | O
 são O
 para O
-ella O
+ella B-PER
 , O
 que O
 apenas O
@@ -51870,7 +51870,7 @@ Deus B-MISC
 
 | O
 188 O
-BACRIPICADA B-LOC
+BACRIPICADA B-MISC
 |
 | O
 — O
@@ -51963,10 +51963,10 @@ mãe O
 | O
 — O
 « O
-Bem B-MISC
-, I-MISC
-irei I-MISC
-! I-MISC
+Bem O
+, O
+irei O
+! O
 — O
 disso O
 por O
@@ -52064,7 +52064,7 @@ Manoel B-PER
 levantou-se O
 tambem O
 com O
-altivez O
+altivez B-PER
 . O
 |
 
@@ -52144,7 +52144,7 @@ conhecia O
 |
 | O
 mundo O
-; O
+  O
 mas O
 a O
 sua O
@@ -52179,7 +52179,7 @@ preconceito O
    
 
 | O
-NACHIFICADA B-MISC
+NACHIFICADA B-PER
 189 O
 |
 
@@ -52222,7 +52222,7 @@ apresenta O
 |
 
 | O
-Cavalinho B-LOC
+Cavalinho B-PER
 bem O
 — O
 agora O
@@ -52282,7 +52282,7 @@ repulsa O
 um O
 grande O
 desprezo O
-lho O
+lho B-PER
 invadiu O
 o O
 |
@@ -52457,7 +52457,7 @@ delação O
 
 | O
 — O
-Sim B-LOC
+Sim O
 , O
 iria O
 para O
@@ -52476,10 +52476,10 @@ possivel O
 
 | O
 190 O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
-| I-LOC
+| O
 Mas O
 duas O
 condições O
@@ -52491,7 +52491,7 @@ completa O
 | O
 submissão O
 : O
-saberia B-LOC
+saberia O
 onde O
 ficava O
 a O
@@ -52511,7 +52511,7 @@ como O
 |
 | O
 sêr O
-desprezivol O
+desprezivol B-PER
 que O
 não O
 merece O
@@ -52521,7 +52521,7 @@ dum O
 |
 | O
 afago O
-; O
+  O
 e O
 fariam O
 prometer O
@@ -52543,7 +52543,7 @@ quê O
 ! O
 |
 | O
-Matú-lo O
+Matú-lo B-MISC
 era O
 forçarem-na O
 a O
@@ -52574,7 +52574,7 @@ Esquecessem-nos O
 a O
 ambos O
 ... O
-Ella O
+Ella B-PER
 entraria O
 |
 | O
@@ -52704,7 +52704,7 @@ resolução O
 com O
 toda O
 a O
-bôa O
+bôa B-MISC
 vontade O
 . O
 |
@@ -52715,8 +52715,8 @@ vontade O
 BAGRIFICADA B-ORG
 |
 
-| O
-H O
+| I-ORG
+H I-ORG
 |
 
 | O
@@ -52773,7 +52773,7 @@ havia O
 senão O
 ruinas O
 e O
-desmantelos O
+desmantelos B-LOC
 . O
 |
 
@@ -52820,15 +52820,15 @@ aos O
 | O
 cuidados O
 da O
-ama B-ORG
+ama O
 . O
 |
 
 | O
 — O
 « O
-Adeus B-ORG
-Ama-Rita I-ORG
+Adeus B-MISC
+Ama-Rita I-MISC
 , O
 — O
 dizia-lhe O
@@ -52939,8 +52939,8 @@ o O
 horizonte O
 , O
 e O
-naquella O
-ocasião O
+naquella B-PER
+ocasião I-PER
 , O
 em O
 que O
@@ -52964,8 +52964,8 @@ afogava O
 em O
 cambiantes O
 de O
-pellucia O
-cara O
+pellucia B-LOC
+cara I-LOC
 . O
 |
 
@@ -52973,7 +52973,7 @@ cara O
 
 | O
 192 O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -53072,8 +53072,8 @@ conferencia O
 com O
 |
 | O
-Soror B-LOC
-Gertrudes I-LOC
+Soror B-PER
+Gertrudes I-PER
 , O
 tia O
 do O
@@ -53144,23 +53144,23 @@ que O
 a O
 fóssem O
 mortificar O
-on O
-distrahir O
-dos O
+on B-MISC
+distrahir I-MISC
+dos I-MISC
 |
-| O
-seus O
-austeros O
-deveres O
-de O
-bôa O
-católica O
+| I-MISC
+seus I-MISC
+austeros I-MISC
+deveres I-MISC
+de I-MISC
+bôa I-MISC
+católica I-MISC
 . O
 |
 
 | O
 ' O
-Tambem O
+Tambem B-MISC
 a O
 filha O
 as O
@@ -53261,7 +53261,7 @@ estando O
  
 
 | O
-BACRIFICADA B-MISC
+BACRIFICADA B-ORG
 193 O
 |
 
@@ -53282,7 +53282,7 @@ morrera O
 |
 
 | O
-Quasi O
+Quasi B-PER
 o O
 não O
 lembrava O
@@ -53297,7 +53297,7 @@ sua O
 nitidez O
 , O
 tão O
-longinqua B-PER
+longinqua O
 era O
 essa O
 recordação O
@@ -53429,7 +53429,7 @@ que O
 | O
 recebia O
 indiferente O
-; O
+  O
 o O
 tempo O
 ia O
@@ -53474,11 +53474,11 @@ tal O
 ou O
 para O
 a O
-Senhora B-MISC
-de I-MISC
-invoca- I-MISC
+Senhora B-LOC
+de O
+invoca- O
 |
-| I-MISC
+| O
 ção O
 diversa O
 , O
@@ -53504,7 +53504,7 @@ mesmas O
 |
 | O
 e O
-invariavois O
+invariavois B-PER
 horas O
 . O
 |
@@ -53560,7 +53560,7 @@ tudo O
 
 | O
 194 O
-SAGRIFICADA B-ORG
+SAGRIFICADA O
 |
 
 | O
@@ -53650,7 +53650,7 @@ co- O
 um O
 sem O
 que O
-nella O
+nella B-PER
 tomasse O
 verdadeiramente O
 |
@@ -53702,7 +53702,7 @@ vélhe- O
 nha O
 , O
 que O
-lho O
+lho B-PER
 dera O
 um O
 aféto O
@@ -53747,7 +53747,7 @@ palavras O
 de O
 conforto O
 da O
-bôa O
+bôa B-MISC
 |
 
 | O
@@ -53793,8 +53793,8 @@ era O
 tão O
 nova O
 , O
-santo O
-Deus O
+santo B-LOC
+Deus I-LOC
 , O
 como O
 deves- O
@@ -53803,7 +53803,7 @@ deves- O
 parar O
 ? O
 ! O
-Socegasso O
+Socegasso B-LOC
 , O
 estava O
 outro O
@@ -53925,7 +53925,7 @@ convento O
 . O
 |
 | O
-Quebrados O
+Quebrados B-MISC
 todos O
 os O
 laços O
@@ -53968,7 +53968,7 @@ abismo O
 . O
 |
 | O
-Fechando O
+Fechando B-MISC
 os O
 olhos O
 , O
@@ -54008,7 +54008,7 @@ freira O
 , O
 que O
 para O
-ella O
+ella B-PER
 teria O
 |
 | O
@@ -54047,14 +54047,14 @@ sobrinha O
 |
 
 | O
-Sorria B-LOC
+Sorria O
 dolorosamente O
 quando O
 uma O
 picada O
 |
 | O
-mois O
+mois B-PER
 aguda O
 a O
 fazia O
@@ -54075,7 +54075,7 @@ quasi O
 indo- O
 |
 | O
-voluntario O
+voluntario B-LOC
 . O
 |
 
@@ -54174,7 +54174,7 @@ rebentara O
 , O
 vermelho O
 , O
-luzidio B-PER
+luzidio O
 , O
 menor- O
 |
@@ -54217,8 +54217,8 @@ na O
 sua O
 |
 | O
-infermidade O
-horrivel O
+infermidade B-PER
+horrivel I-PER
 . O
 |
 
@@ -54235,7 +54235,7 @@ vez O
 | O
 perdeu O
 a O
-côr O
+côr B-ORG
 , O
 vacilou O
 e O
@@ -54307,7 +54307,7 @@ todas O
 as O
 dôres O
 que O
-ella O
+ella B-PER
 ia O
 sofrendo O
 no O
@@ -54397,7 +54397,7 @@ tra- O
  
 
 | O
-SACRIFICADA B-PER
+SACRIFICADA B-MISC
 197 O
 |
 
@@ -54665,7 +54665,7 @@ passada O
 |
 
 | O
-Quiz B-LOC
+Quiz O
 a O
 sobrinha O
 sempre O
@@ -54682,7 +54682,7 @@ dum O
 futuro O
 melhor O
 . O
-Deixava- B-PER
+Deixava- O
 |
 
  
@@ -54695,10 +54695,10 @@ BACRIFICADA B-ORG
 | O
 lho O
 o O
-Menino B-LOC
-Jesus I-LOC
-do I-LOC
-Milagre I-LOC
+Menino B-PER
+Jesus I-PER
+do I-PER
+Milagre I-PER
 , O
 que O
 fôra O
@@ -54721,13 +54721,13 @@ freira O
 do O
 convento O
 do O
-Paraizo B-MISC
+Paraizo B-LOC
 ali O
 |
 | O
 morrera O
 e O
-lho O
+lho B-PER
 deixara O
 por O
 lembrança O
@@ -54825,7 +54825,7 @@ ella O
 já O
 se O
 sentia O
-cahir O
+cahir B-PER
 |
 | O
 na O
@@ -54926,7 +54926,7 @@ assistentes O
 |
 
 | O
-Fazia B-PER
+Fazia O
 esforços O
 para O
 falar O
@@ -54973,8 +54973,8 @@ terra O
  
 
 | O
-BAÇRIFICADA B-LOC
-199 O
+BAÇRIFICADA B-MISC
+199 I-MISC
 |
 
 | O
@@ -55047,7 +55047,7 @@ cando O
 o O
 gemendo O
 apevorada O
-; O
+  O
 toria O
 fugido O
 |
@@ -55064,7 +55064,7 @@ forças O
 se O
 a O
 moribunda O
-lho O
+lho B-PER
 não O
 tivesse O
 agarrado O
@@ -55126,10 +55126,10 @@ se O
 propôs O
 pôr O
 termo O
-áquelle O
+áquelle B-PER
 |
-| O
-meartirio O
+| I-PER
+meartirio I-PER
 , O
 voltando O
 a O
@@ -55199,7 +55199,7 @@ pela O
 muita O
 bondade O
 da O
-Madre-Superior B-LOC
+Madre-Superior B-MISC
 . O
 |
 
@@ -55213,7 +55213,7 @@ explicação O
 | O
 da O
 rapariga O
-; O
+  O
 não O
 estava O
 o O
@@ -55225,23 +55225,23 @@ fundação I-MISC
 cheio I-MISC
 de I-MISC
 factos I-MISC
-que O
-comprovavam O
-as O
-tentações O
+que I-MISC
+comprovavam I-MISC
+as I-MISC
+tentações I-MISC
 |
-| O
-e O
-malesícios O
-do O
-eterno O
-inimigo O
-das O
-esposas O
-do O
+| I-MISC
+e I-MISC
+malesícios I-MISC
+do I-MISC
+eterno I-MISC
+inimigo I-MISC
+das I-MISC
+esposas I-MISC
+do I-MISC
 |
-| O
-Senhor B-PER
+| I-MISC
+Senhor I-MISC
 , O
 especialmente O
 dirigidos O
@@ -55279,9 +55279,9 @@ indulgencias O
 |
 
 | O
-Aceito B-LOC
+Aceito O
 o O
-alvitre O
+alvitre B-MISC
 , O
 voltaram O
 o O
@@ -55375,7 +55375,7 @@ desfazem O
 |
 | O
 em O
-pó B-LOC
+pó O
 . O
 |
 
@@ -55394,9 +55394,9 @@ TE O
 
 | O
 Manoel B-PER
-sahiu O
-do O
-dormitorio O
+sahiu I-PER
+do I-PER
+dormitorio I-PER
 logo O
 que O
 a O
@@ -55410,7 +55410,7 @@ existir O
 |
 
 | O
-Cambaleando B-LOC
+Cambaleando O
 , O
 os O
 olhos O
@@ -55435,7 +55435,7 @@ a O
 |
 | O
 tivessem O
-magnetisado O
+magnetisado B-LOC
 para O
 a O
 furtarem O
@@ -55574,7 +55574,7 @@ do O
 livraria O
 , O
 deixou-se O
-cahir O
+cahir B-PER
 numa O
 |
 | O
@@ -55723,9 +55723,9 @@ tristeza O
 de O
 viver O
 ao O
-unico O
-sôno O
-consolador O
+unico B-ORG
+sôno I-ORG
+consolador I-ORG
 |
 | O
 dos O
@@ -55755,7 +55755,7 @@ seronada O
 pela O
 morte O
 , O
-reflétia O
+reflétia B-PER
 a O
 |
 | O
@@ -55813,7 +55813,7 @@ todo O
 o O
 goso O
 da O
-bemaventurança O
+bemaventurança B-PER
 . O
 |
 
@@ -55864,7 +55864,7 @@ des- O
 |
 | O
 cahirem O
-; O
+  O
 e O
 , O
 mergulhando O
@@ -55930,7 +55930,7 @@ suspendia O
  
 
 | O
-BACRIFICADA B-MISC
+BACRIFICADA B-ORG
 203 O
 |
 
@@ -55959,8 +55959,8 @@ Foi O
 quando O
 Soror B-PER
 Angelica I-PER
-veiu O
-tôr O
+veiu I-PER
+tôr I-PER
 com O
 |
 | O
@@ -56019,8 +56019,8 @@ chorar O
 |
 | O
 e O
-gemer B-PER
-baixinho I-PER
+gemer O
+baixinho O
 como O
 quem O
 se O
@@ -56134,11 +56134,11 @@ qual O
 a O
 deixara O
 ... O
-Atiraram-lho O
-o O
+Atiraram-lho B-LOC
+o I-LOC
 |
-| O
-véo O
+| I-LOC
+véo I-LOC
 para O
 à O
 cara O
@@ -56323,7 +56323,7 @@ soluços O
 tão O
 amargas O
 e O
-Tantas B-PER
+Tantas O
 |
 | O
 que O
@@ -56356,8 +56356,8 @@ igual- O
 mente O
 com O
 o O
-véo B-ORG
-preto I-ORG
+véo O
+preto O
 , O
 o O
 sorriso O
@@ -56520,7 +56520,7 @@ trabalho O
 
 | O
 BACRIFICADA B-MISC
-205 O
+205 I-MISC
 |
 
 | O
@@ -56610,7 +56610,7 @@ espótres O
 | O
 Lá O
 dentro O
-; O
+  O
 — O
 quem O
 sabe O
@@ -56812,7 +56812,7 @@ das O
  
 
 | O
-Da B-MISC
+Da B-LOC
 |
 
  
@@ -56862,10 +56862,10 @@ na O
 sua O
 concha O
 do O
-mar- O
+mar- B-ORG
 |
-| O
-morte O
+| I-ORG
+morte I-ORG
 . O
 As O
 outras O
@@ -56989,7 +56989,7 @@ o O
 para O
 ellas O
 de O
-mágua O
+mágua B-LOC
 , O
 se O
 presen- O
@@ -57015,9 +57015,9 @@ sob O
 |
 | O
 as O
-lages O
-do O
-claustro O
+lages B-LOC
+do I-LOC
+claustro I-LOC
 . O
 |
 
@@ -57046,7 +57046,7 @@ morte O
 , O
 sentiram O
 a O
-dôco O
+dôco B-ORG
 ilusão O
 |
 | O
@@ -57121,7 +57121,7 @@ a O
  
 
 | O
-HACRIFICADA B-LOC
+HACRIFICADA B-ORG
 207 O
 |
 
@@ -57161,8 +57161,8 @@ loucura O
 histerica O
 fizera O
 uma O
-bôa O
-prôsa O
+bôa B-ORG
+prôsa I-ORG
 . O
 |
 
@@ -57220,7 +57220,7 @@ soluçava O
 agora O
 , O
 vendo O
-cahir O
+cahir B-PER
 a O
 |
 | O
@@ -57399,7 +57399,7 @@ entregara O
 BAPRIFICADA B-MISC
 |
 
-| I-MISC
+| O
 Mas O
 Soror B-PER
 Angelica I-PER
@@ -57471,7 +57471,7 @@ era O
 respeitada O
 por O
 todas O
-; O
+  O
 |
 | O
 a O
@@ -57677,7 +57677,7 @@ pela O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 209 O
 |
 
@@ -57825,12 +57825,12 @@ doentes O
 que O
 dão O
 as O
-Santas B-LOC
+Santas B-PER
 |
-| I-LOC
-Terezas I-LOC
-de I-LOC
-Jesus I-LOC
+| I-PER
+Terezas I-PER
+de I-PER
+Jesus I-PER
 , O
 já O
 por O
@@ -57869,7 +57869,7 @@ desamór O
 |
 
 | O
-Naquelle B-LOC
+Naquelle O
 meio O
 do O
 apertada O
@@ -57909,7 +57909,7 @@ obsessivo O
 como O
 tudo O
 seria O
-naquella O
+naquella B-PER
 alma O
 de O
 |
@@ -57936,7 +57936,7 @@ Andava O
 vagarosamente O
 pelos O
 claustros O
-Ja- O
+Ja- B-ORG
 |
 | O
 geados O
@@ -57974,7 +57974,7 @@ BACRIFICADA B-ORG
 macorados O
 de O
 santas O
-; O
+  O
 tinha O
 sorrisos O
 silenciosos O
@@ -58084,8 +58084,8 @@ Senhor B-MISC
 sen I-MISC
 Esposo I-MISC
 e O
-sen O
-Deus B-MISC
+sen B-PER
+Deus I-PER
 . O
 |
 
@@ -58093,7 +58093,7 @@ Deus B-MISC
 O O
 bruxolenmento O
 da O
-Inf B-ORG
+Inf B-LOC
 sobre O
 as O
 paginas O
@@ -58114,8 +58114,8 @@ dever O
 tinha O
 pare O
 a O
-sus O
-mento O
+sus B-PER
+mento I-PER
 enternecida O
 a O
 signi- O
@@ -58133,7 +58133,7 @@ espi- O
 rando O
 á O
 eterna O
-bemaventurança O
+bemaventurança B-PER
 . O
 5 O
 |
@@ -58263,8 +58263,8 @@ grados O
  
 
 | O
-BACRIFICADA O
-L O
+BACRIFICADA B-MISC
+L I-MISC
 |
 
 | O
@@ -58333,7 +58333,7 @@ luar- O
 | O
 dava O
 , O
-imperturbavel O
+imperturbavel B-PER
 e O
 austera O
 como O
@@ -58403,7 +58403,7 @@ cúpula O
 | O
 alta O
 o O
-sonora B-LOC
+sonora O
 . O
 |
 
@@ -58421,7 +58421,7 @@ a O
 que O
 se O
 chama O
-manoelino O
+manoelino B-MISC
 , O
 conservavam O
 ainda O
@@ -58508,7 +58508,7 @@ côrte O
 |
 | O
 se O
-Lembrara B-PER
+Lembrara B-LOC
 , O
 apaziguando O
 talvez O
@@ -58527,9 +58527,9 @@ culpas O
 , O
 de O
 fundar O
-aquella B-PER
-santa I-PER
-casa I-PER
+aquella B-LOC
+santa I-LOC
+casa I-LOC
 onde O
 , O
 |
@@ -58553,7 +58553,7 @@ ao O
 Senhor B-PER
 |
 
-| I-PER
+| O
 212 O
 BACRIFICADA B-ORG
 |
@@ -58580,8 +58580,8 @@ Para O
 as O
 Espo- B-LOC
 |
-| O
-sas O
+| I-LOC
+sas I-LOC
 , O
 as O
 virgens O
@@ -58599,7 +58599,7 @@ da O
 fundadora O
 , O
 & O
-mil- O
+mil- B-LOC
 |
 | O
 dado O
@@ -58626,7 +58626,7 @@ sentia-se O
 | O
 amar O
 um O
-Deus B-MISC
+Deus B-PER
 imenso O
 e O
 magestoso O
@@ -58657,13 +58657,13 @@ resoantes O
 , O
 cheias O
 de O
-grandozas O
-s O
-mysterio O
+grandozas B-PER
+s I-PER
+mysterio I-PER
 . O
 |
 | O
-Prostrava-so O
+Prostrava-so B-LOC
 ante O
 o O
 seu O
@@ -58683,7 +58683,7 @@ deslumbrante O
 |
 | O
 que O
-lho O
+lho B-PER
 descrevia O
 as O
 almas O
@@ -58699,7 +58699,7 @@ piedosos O
 
 | O
 O O
-Christo B-MISC
+Christo B-PER
 torturado O
 , O
 empalidecido O
@@ -58743,14 +58743,14 @@ mo- O
 desta O
 aldeia O
 . O
-k O
+k B-LOC
 |
 
-| O
-Ah O
+| I-LOC
+Ah I-LOC
 era O
 um O
-Deus B-MISC
+Deus B-PER
 para O
 camponezes O
 e O
@@ -58760,11 +58760,11 @@ para O
 as O
 almas O
 simples O
-; O
+  O
 aqui O
 era O
 um O
-Deus B-MISC
+Deus B-PER
 cristo- O
 |
 | O
@@ -58786,7 +58786,7 @@ poderosos O
 
 | O
 Prêsa B-LOC
-naquelle I-LOC
+naquelle O
 deslumbramento O
 , O
 que O
@@ -58843,7 +58843,7 @@ cumprir O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 213 O
 |
 
@@ -58859,7 +58859,7 @@ a O
 esque- O
 |
 | O
-cêra O
+cêra B-PER
 , O
 escrevia-lho O
 uma O
@@ -58872,8 +58872,8 @@ letra O
 | O
 tortuosa O
 , O
-quasi O
-ininteligivel O
+quasi B-LOC
+ininteligivel I-LOC
 , O
 que O
 ella O
@@ -58888,15 +58888,15 @@ Sô O
 passados O
 sete O
 anos O
-Ilte B-PER
+Ilte B-MISC
 escrevia O
 , O
 |
 | O
 porque O
 a O
-senhora O
-lho O
+senhora B-PER
+lho I-PER
 tinha O
 prohibido O
 e O
@@ -58914,7 +58914,7 @@ ninguem O
 |
 | O
 da O
-terra O
+terra B-LOC
 para O
 fazer O
 uma O
@@ -58932,11 +58932,11 @@ a O
 sobrinha O
 , O
 a O
-Lisa B-MISC
-da O
+Lisa B-PER
+da I-PER
 |
-| O
-Roda O
+| I-PER
+Roda I-PER
 , O
 que O
 o O
@@ -58964,7 +58964,7 @@ bastante O
 em O
 pequeninas O
 ... O
-Viera B-LOC
+Viera O
 de O
 |
 | O
@@ -58988,7 +58988,7 @@ Podiam B-PER
 confiar O
 nella O
 e O
-em- O
+em- B-LOC
 |
 | O
 quanto O
@@ -59023,7 +59023,7 @@ pobre O
 rapariga O
 , O
 talvez O
-tisica O
+tisica B-LOC
 , O
 que O
 |
@@ -59074,7 +59074,7 @@ que O
 |
 | O
 a O
-urze B-ORG
+urze O
 e O
 o O
 rosmaninho O
@@ -59150,7 +59150,7 @@ muito O
 |
 | O
 bem O
-; O
+  O
 a O
 menina O
 era O
@@ -59163,15 +59163,15 @@ linda O
      
 
 | O
-i B-MISC
+i O
 |
 
 | O
 24 O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
-| I-LOC
+| O
 Mais O
 nada O
 ... O
@@ -59255,7 +59255,7 @@ vagas O
 |
 | O
 abstrações O
-; O
+  O
 antes O
 fôra O
 , O
@@ -59374,8 +59374,8 @@ os O
 cuidados O
 da O
 velha O
-Ama-Rita B-LOC
-? O
+Ama-Rita B-MISC
+? I-MISC
 Sentia O
 |
 | O
@@ -59384,7 +59384,7 @@ e O
 agradecia O
 intimamente O
 à O
-bôa O
+bôa B-ORG
 ser- O
 |
 | O
@@ -59479,7 +59479,7 @@ encontrar O
  
 
 | O
-BACRIFICADA B-MISC
+BACRIFICADA B-ORG
 215 O
 |
 
@@ -59518,7 +59518,7 @@ de O
 cenografia O
 |
 | O
-espétaculosa O
+espétaculosa B-PER
 . O
 |
 
@@ -59638,7 +59638,7 @@ y O
 |
 
 | O
-Recordava B-LOC
+Recordava O
 , O
 com O
 tanta O
@@ -59668,7 +59668,7 @@ espirito O
 que O
 já O
 parecia O
-têr O
+têr B-PER
 |
 | O
 pertencido O
@@ -59698,7 +59698,7 @@ romance O
 , O
 como O
 o O
-idealisam O
+idealisam B-ORG
 |
 | O
 sempre O
@@ -59772,17 +59772,17 @@ alvoroço O
 
 | O
 216 O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
-Chamavam-na B-MISC
+Chamavam-na O
 para O
 a O
 vida O
 , O
 e O
-ella O
+ella B-PER
 vinha O
 |
 | O
@@ -59828,7 +59828,7 @@ tornou O
 a O
 sua O
 obsessão O
-; O
+  O
 |
 | O
 sentia-lhe O
@@ -59840,7 +59840,7 @@ chamando-a O
 |
 | O
 mãe O
-; O
+  O
 via-lho O
 o O
 pequenino O
@@ -59866,7 +59866,7 @@ anjos O
 das O
 piuturas O
 rafaeloscas O
-; O
+  O
 tremia O
 |
 | O
@@ -59906,10 +59906,10 @@ dantes O
 , O
 mas O
 ainda O
-pas- O
+pas- B-LOC
 |
-| O
-ava O
+| I-LOC
+ava I-LOC
 no O
 côo O
 as O
@@ -59948,7 +59948,7 @@ cidade O
 |
 
 | O
-Dizia B-LOC
+Dizia O
 a O
 crónica O
 : O
@@ -60054,8 +60054,8 @@ o O
 car- O
 |
 | O
-tas O
-implorativas O
+tas B-PER
+implorativas I-PER
 dirigidas O
 á O
 Virgem B-PER
@@ -60105,8 +60105,8 @@ dôr O
 , O
 fizera O
 da O
-bela O
-Senhora B-PER
+bela B-PER
+Senhora I-PER
 |
 | O
 uma O
@@ -60136,8 +60136,8 @@ ilusão O
 |
 
 | O
-Tambem B-PER
-Manoel I-PER
+Tambem O
+Manoel B-PER
 se O
 afervorava O
 na O
@@ -60147,7 +60147,7 @@ devoção O
 pela O
 milagrosa O
 imagem O
-; O
+  O
 mas O
 o O
 motivo O
@@ -60167,7 +60167,7 @@ agora O
 |
 | O
 em O
-extasis B-LOC
+extasis O
 era O
 mais O
 humano O
@@ -60199,7 +60199,7 @@ toda O
 a O
 |
 | O
-verdado O
+verdado B-LOC
 , O
 sustentando O
 nos O
@@ -60233,7 +60233,7 @@ doçura O
 do O
 seu O
 olhar O
-veludoso O
+veludoso B-PER
 e O
 a O
 caricia O
@@ -60264,8 +60264,8 @@ meuto O
 |
 
 | O
-àssa O
-mulher O
+àssa B-PER
+mulher I-PER
 , O
 mãe O
 da O
@@ -60345,7 +60345,7 @@ da O
 sua O
 boquinha O
 perfumada O
-; O
+  O
 morria O
 de O
 paixão O
@@ -60382,11 +60382,11 @@ amar O
 
 | O
 218 O
-BACRIFICADA B-MISC
+BACRIFICADA B-ORG
 |
 
-| I-MISC
-IA I-MISC
+| O
+IA O
 |
 
 | O
@@ -60492,8 +60492,8 @@ o O
 pavôr O
 da O
 sua O
-almazinha O
-trémula O
+almazinha B-PER
+trémula I-PER
 , O
 |
 | O
@@ -60565,8 +60565,8 @@ que O
 |
 | O
 para O
-ella O
-sonhava O
+ella B-PER
+sonhava I-PER
 . O
 |
 
@@ -60612,7 +60612,7 @@ conservar O
 |
 | O
 em O
-mysterio O
+mysterio B-LOC
 a O
 existencia O
 daquella O
@@ -60632,7 +60632,7 @@ e O
    
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 219 O
 |
 
@@ -60682,7 +60682,7 @@ insistia O
 , O
 pedia O
 ainda O
-; O
+  O
 mas O
 à O
 força O
@@ -60782,18 +60782,18 @@ com O
 a O
 vontade O
 de O
-Deus B-MISC
-... I-MISC
+Deus B-PER
+... O
 |
 
-| I-MISC
-— I-MISC
-« I-MISC
+| O
+— O
+« O
 Depois O
 , O
 — O
 dizia-lho O
-elle B-MISC
+elle O
 , O
 um O
 dia O
@@ -60840,10 +60840,10 @@ cidade O
 — O
 depois O
 , O
-Seror B-LOC
+Seror B-PER
 |
-| I-LOC
-Manoel I-LOC
+| I-PER
+Manoel I-PER
 , O
 de O
 que O
@@ -60907,7 +60907,7 @@ filhos O
 assim O
 o O
 queremos O
-; O
+  O
 mas O
 não O
 sabe O
@@ -60937,7 +60937,7 @@ nossa O
 
 | O
 220 O
-BACRIFICADA B-MISC
+BACRIFICADA B-ORG
 |
 
  
@@ -61024,7 +61024,7 @@ fortuna O
 | O
 — O
 « O
-Revoltar-se B-MISC
+Revoltar-se B-LOC
 , O
 Soror B-PER
 Manoel I-PER
@@ -61056,7 +61056,7 @@ autoridade O
 divina O
 . O
 ' O
-Triste B-LOC
+Triste B-PER
 daquelle O
 que O
 no O
@@ -61090,7 +61090,7 @@ Manoel B-PER
 | O
 limpando O
 as O
-lagrimas B-LOC
+lagrimas O
 . O
 — O
 E O
@@ -61124,7 +61124,7 @@ culpa O
 | O
 nenhuma O
 de O
-têr O
+têr B-PER
 sido O
 chamada O
 à O
@@ -61137,7 +61137,7 @@ vida O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 é O
 uma O
@@ -61187,7 +61187,7 @@ chore O
 ! O
 Tenha O
 resignação O
-; O
+  O
 se O
 soubesse O
 quantas O
@@ -61239,7 +61239,7 @@ um O
 soluço O
 que O
 não O
-poude O
+poude B-PER
 |
 | O
 vencer O
@@ -61255,16 +61255,16 @@ vencer O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 e O
 |
 
 | O
 — O
 « O
-Magro B-ORG
-Angelica I-ORG
-? I-ORG
+Magro B-MISC
+Angelica I-MISC
+? I-MISC
 ! O
 ... O
 — O
@@ -61280,7 +61280,7 @@ recolhida O
 Porque O
 chora O
 ? O
-Tambem B-MISC
+Tambem O
 , O
 |
 | O
@@ -61310,7 +61310,7 @@ coração O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 minha O
 filha O
@@ -61488,7 +61488,7 @@ vou O
 dizer O
 |
 | O
-Julgava-o B-PER
+Julgava-o B-ORG
 para O
 sempre O
 sepultado O
@@ -61533,7 +61533,7 @@ inspirou-me O
 a O
 ideia O
 de O
-lho O
+lho B-PER
 contar O
 para O
 que O
@@ -61566,7 +61566,7 @@ de O
 sua O
 mãe O
 . O
-Soror B-LOC
+Soror O
 |
 
  
@@ -61579,7 +61579,7 @@ SACNIFICADA B-MISC
 |
 
 | O
-Manoel O
+Manoel B-PER
 , O
 houve O
 numa O
@@ -61640,7 +61640,7 @@ nobreza O
 altiva O
 e O
 autoritaria O
-; O
+  O
 |
 | O
 o O
@@ -61732,7 +61732,7 @@ dias O
 . O
 Só O
 uma O
-pessõa O
+pessõa B-MISC
 sabia O
 do O
 sem O
@@ -61741,7 +61741,7 @@ crime O
 |
 | O
 como O
-elle B-MISC
+elle O
 lhe O
 chamava O
 , O
@@ -61775,7 +61775,7 @@ do O
 | O
 pai O
 , O
-oraá O
+oraá B-PER
 e O
 morgada O
 como O
@@ -61808,7 +61808,7 @@ des- O
 | O
 tino O
 parecia O
-impeolir O
+impeolir B-PER
 uma O
 para O
 a O
@@ -61889,7 +61889,7 @@ na O
 |
 
 | O
-BACRIFICADA B-LOC
+BACRIFICADA B-ORG
 223 O
 |
 
@@ -61898,10 +61898,10 @@ bihliotéca O
 do O
 seu O
 quarto O
-; O
+  O
 deixassem O
 que O
-elle B-MISC
+elle O
 |
 | O
 lho O
@@ -61925,7 +61925,7 @@ cori- O
 | O
 horas O
 da O
-vélinha O
+vélinha B-MISC
 , O
 quo O
 lhes O
@@ -62015,7 +62015,7 @@ a O
 ella O
 que O
 do O
-amôr O
+amôr B-LOC
 tivera O
 apenas O
 uma O
@@ -62057,7 +62057,7 @@ madrinha O
 . O
 — O
 Não O
-lho O
+lho B-PER
 disse O
 que O
 o O
@@ -62076,7 +62076,7 @@ apesar O
 dos O
 |
 | O
-sous O
+sous B-PER
 quarenta O
 anos O
 ? O
@@ -62104,7 +62104,7 @@ que O
 ninguem O
 romaria O
 como O
-elle B-MISC
+elle O
 , O
 sô O
 |
@@ -62124,7 +62124,7 @@ sua O
 mão O
 de O
 rédea O
-; O
+  O
 sabia O
 aprumar-se O
 numa O
@@ -62153,7 +62153,7 @@ das O
 |
 | O
 senhoras O
-; O
+  O
 jogava O
 como O
 um O
@@ -62204,7 +62204,7 @@ cristo- O
 
 | O
 eu O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -62343,7 +62343,7 @@ Apaixonou-se O
 tão O
 |
 | O
-Unicamente B-MISC
+Unicamente O
 que O
 desde O
 hora O
@@ -62468,9 +62468,9 @@ o O
 futuro O
 |
 | O
-morgado O
-o O
-senhor O
+morgado B-PER
+o I-PER
+senhor I-PER
 , O
 que O
 mais O
@@ -62503,7 +62503,7 @@ vir O
 |
 | O
 a O
-têr O
+têr B-PER
 . O
 |
 
@@ -62522,7 +62522,7 @@ q O
 |
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -62550,7 +62550,7 @@ consci- O
 lia O
 as O
 coisas O
-; O
+  O
 só O
 não O
 soube O
@@ -62571,11 +62571,11 @@ outros O
 | O
 — O
 « O
-Caso B-MISC
-com I-MISC
-o I-MISC
-filho I-MISC
-? I-MISC
+Caso O
+com O
+o O
+filho O
+? O
 |
 
 | O
@@ -62653,7 +62653,7 @@ lhe O
 pediram O
 , O
 de O
-Joelhos B-MISC
+Joelhos B-PER
 , O
 que O
 os O
@@ -62662,10 +62662,10 @@ deixas O
 |
 | O
 casar O
-; O
+  O
 em O
 vão O
-elle B-MISC
+elle O
 ofereceu O
 a O
 sua O
@@ -62745,9 +62745,9 @@ padre O
 | O
 — O
 « O
-Que O
-desespero O
-! O
+Que B-MISC
+desespero I-MISC
+! I-MISC
 Que O
 mulher O
 tão O
@@ -62758,18 +62758,18 @@ má O
 E O
 depois O
 , O
-Madre B-PER
-Angelica I-PER
-? O
+Madre B-MISC
+Angelica I-MISC
+? I-MISC
 ... O
 |
 
 | O
 — O
 « O
-Depois B-MISC
-... I-MISC
-elle I-MISC
+Depois O
+... O
+elle O
 foi O
 padre O
 ! O
@@ -62790,7 +62790,7 @@ noiva O
 ? O
 |
 | O
-Sim B-ORG
+Sim O
 , O
 a O
 noiva O
@@ -62844,7 +62844,7 @@ a O
   
 
 | O
-I B-MISC
+I O
 |
 
  
@@ -62864,8 +62864,8 @@ SACRIFICADA B-MISC
 — O
 « O
 Freira B-LOC
-? O
-Resignada B-PER
+? I-LOC
+Resignada O
 , O
 resignados O
 am- O
@@ -62949,7 +62949,7 @@ morgado O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 A O
 maior O
@@ -63013,7 +63013,7 @@ odiosa O
 | O
 — O
 « O
-Porque B-MISC
+Porque O
 elle O
 era O
 o O
@@ -63090,10 +63090,10 @@ cheia O
 de O
 pavôr O
 do O
-cas- O
+cas- B-MISC
 |
-| O
-tio O
+| I-MISC
+tio I-MISC
 , O
 consolado O
 e O
@@ -63110,7 +63110,7 @@ orgulho O
 e O
 ambição O
 . O
-Mêos O
+Mêos B-PER
 |
 | O
 depois O
@@ -63182,7 +63182,7 @@ maldita O
  
 
 | O
-SACRIFÇADA B-MISC
+SACRIFÇADA B-PER
 227 O
 |
 
@@ -63279,14 +63279,14 @@ até O
 ao O
 infinito O
 . O
-Elle B-PER
+Elle B-MISC
 morreu O
 |
 | O
 sorrindo O
 e O
 perdoando O
-; O
+  O
 ella O
 ... O
 vive O
@@ -63306,8 +63306,8 @@ graças O
 a O
 |
 | O
-Deus B-MISC
-! I-MISC
+Deus B-PER
+! O
 — O
 tivesse O
 sentido O
@@ -63389,14 +63389,14 @@ não O
 posso O
 seguir O
 o O
-sen O
-conde- O
+sen B-PER
+conde- I-PER
 |
-| O
-lho O
+| I-PER
+lho I-PER
 , O
-Madre B-LOC
-Superior I-LOC
+Madre B-PER
+Superior I-PER
 ! O
 Se O
 os O
@@ -63429,7 +63429,7 @@ terra B-LOC
 | O
 — O
 « O
-Faça B-LOC
+Faça O
 o O
 que O
 entender O
@@ -63466,7 +63466,7 @@ consciencia O
 e O
 a O
 dôce B-MISC
-consolação O
+consolação I-MISC
 da O
 |
 | O
@@ -63509,7 +63509,7 @@ e O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -63528,10 +63528,10 @@ merito O
 |
 | O
 porque O
-elle B-MISC
+elle O
 o O
 só O
-elle B-MISC
+elle O
 foi O
 o O
 inspirador O
@@ -63541,7 +63541,7 @@ nossa O
 | O
 condnta O
 , O
-elle B-MISC
+elle O
 o O
 filho O
 heroico O
@@ -63603,9 +63603,9 @@ corredor O
 | O
 — O
 « O
-Pobre B-LOC
-Soror I-LOC
-Claudoa I-LOC
+Pobre B-PER
+Soror I-PER
+Claudoa I-PER
 ! O
 ... O
 — O
@@ -63613,8 +63613,8 @@ lamentou O
 |
 | O
 Manoel B-PER
-— O
-Anda B-LOC
+— I-PER
+Anda I-PER
 agora O
 tão O
 louquinha O
@@ -63662,7 +63662,7 @@ assim O
 | O
 — O
 « O
-Oh B-MISC
+Oh O
 , O
 não O
 ! O
@@ -63700,7 +63700,7 @@ felicidade O
 ... O
 que O
 nunca O
-poude O
+poude B-PER
 encontrar O
 entro O
 |
@@ -63825,8 +63825,8 @@ irmãs O
 é O
 irmãos O
 de O
-Madre B-LOC
-Clandea I-LOC
+Madre B-PER
+Clandea I-PER
 |
 | O
 espalharam-se O
@@ -63847,7 +63847,7 @@ con- O
 |
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 229 O
 |
 
@@ -63866,7 +63866,7 @@ deitados O
 na O
 religião O
 . O
-Ella O
+Ella B-PER
 é O
 que O
 se O
@@ -63911,7 +63911,7 @@ filho O
 | O
 segundo O
 como O
-ella O
+ella B-PER
 , O
 que O
 o O
@@ -63933,7 +63933,7 @@ pai O
 
 | O
 « O
-Começava B-LOC
+Começava O
 nesse O
 tempo O
 a O
@@ -64103,15 +64103,15 @@ lagrimas O
 , O
 |
 | O
-Madre B-ORG
-Angelica I-ORG
+Madre B-PER
+Angelica I-PER
 ? O
 |
 
 | O
 — O
 « O
-Felizmente B-MISC
+Felizmente O
 não O
 foi O
 no O
@@ -64175,7 +64175,7 @@ E O
 |
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-PER
 |
 
 | O
@@ -64183,8 +64183,8 @@ familia O
 , O
 e O
 o O
-sr. B-LOC
-bispo I-LOC
+sr. O
+bispo O
 é O
 que O
 aprovou O
@@ -64199,7 +64199,7 @@ missão O
 | O
 — O
 « O
-Pobre B-LOC
+Pobre B-PER
 mulher O
 ! O
 ... O
@@ -64270,7 +64270,7 @@ fugiu O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 chegou O
 a O
@@ -64334,7 +64334,7 @@ prêsas O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 já O
 tinha O
@@ -64375,7 +64375,7 @@ para O
 o O
 |
 | O
-sacrilego O
+sacrilego B-PER
 como O
 a O
 familia O
@@ -64393,7 +64393,7 @@ desditosa O
 | O
 — O
 « O
-Infeliz B-LOC
+Infeliz B-MISC
 mulher O
 ! O
 E O
@@ -64427,7 +64427,7 @@ pro- O
 festa O
 da O
 nossa O
-Ordem B-PER
+Ordem B-ORG
 . O
 E O
 ' O
@@ -64449,13 +64449,13 @@ Soror B-PER
 Manoel I-PER
 conhece O
 ... O
-Pobre O
-Madre O
-Lan- O
+Pobre B-PER
+Madre I-PER
+Lan- I-PER
 |
-| O
-den O
-! O
+| I-PER
+den I-PER
+! I-PER
 Não O
 soube O
 conformar-se O
@@ -64484,17 +64484,17 @@ filial O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 231 O
 |
 
 | O
 — O
 « O
-Oh B-LOC
+Oh O
 , O
-Madre B-LOC
-Angelica I-LOC
+Madre B-PER
+Angelica I-PER
 , O
 sempre O
 o O
@@ -64588,7 +64588,7 @@ esperança I-MISC
 , O
 minha O
 filha O
-; O
+  O
 quem O
 |
 | O
@@ -64621,7 +64621,7 @@ felizes O
 |
 
 | O
-SACRIFIGADA O
+SACRIFIGADA B-ORG
 |
 
 | O
@@ -64651,7 +64651,7 @@ realisa- O
 | O
 ção O
 do O
-projéto O
+projéto B-PER
 que O
 acariciava O
 no O
@@ -64717,12 +64717,12 @@ extinguindo O
 num O
 bater O
 de O
-azas O
-lugubres O
+azas B-PER
+lugubres I-PER
 |
 | O
 quo O
-enregelava O
+enregelava B-LOC
 . O
 |
 
@@ -64775,8 +64775,8 @@ modesto O
 | O
 logar O
 no O
-cemiterio O
-público O
+cemiterio B-LOC
+público I-LOC
 . O
 |
 
@@ -65061,7 +65061,7 @@ as O
 devoções O
 obrigatorias O
 do O
-côro O
+côro B-ORG
 . O
 que O
 |
@@ -65100,7 +65100,7 @@ os O
 | O
 pecados O
 do O
-manaio O
+manaio B-PER
 , O
 que O
 queria O
@@ -65142,7 +65142,7 @@ do O
 eôo O
 , O
 e O
-apavo O
+apavo B-MISC
 : O
 criadas O
 narrando-lhes O
@@ -65190,7 +65190,7 @@ em O
 pena O
 o O
 diabo O
-vein O
+vein B-PER
 buscar O
 com O
 medo- O
@@ -65199,7 +65199,7 @@ medo- O
 nho O
 barulho O
 . O
-Ella O
+Ella B-PER
 não O
 se O
 lembrava O
@@ -65212,7 +65212,7 @@ não O
 era O
 desse O
 tempo O
-; O
+  O
 mas O
 ouvira O
 |
@@ -65366,7 +65366,7 @@ padre O
 oficiando O
 no O
 altar O
-; O
+  O
 |
 | O
 E O
@@ -65457,9 +65457,9 @@ mundo O
 | O
 Madre B-PER
 Claudea I-PER
-descrovia O
+descrovia I-PER
 e O
-pormenorisava O
+pormenorisava B-LOC
 , O
 |
 | O
@@ -65521,18 +65521,18 @@ Aberta O
 a O
 sepultura O
 e O
-asperid B-PER
-o I-PER
-cadaver I-PER
+asperid O
+o O
+cadaver O
 , O
 uma O
 nuvem O
 |
 | O
 negra O
-sahiu O
-da O
-cova O
+sahiu B-PER
+da I-PER
+cova I-PER
 espalhando-se O
 pela O
 igreja O
@@ -65544,7 +65544,7 @@ pela O
 porta O
 entre-aberta O
 com O
-fragôr B-PER
+fragôr B-MISC
 . O
 |
 | O
@@ -65664,10 +65664,10 @@ mas O
 o O
 |
 | O
-Livro B-MISC
+Livro O
 da O
 fundação O
-Ná O
+Ná B-PER
 o O
 tinha O
 escrito O
@@ -65694,7 +65694,7 @@ rodeia O
 para O
 |
 | O
-planter O
+planter B-ORG
 na O
 cerca O
 . O
@@ -65743,7 +65743,7 @@ o O
 garoto O
 e O
 despediu-o O
-; O
+  O
 mas O
 como O
 |
@@ -65774,7 +65774,7 @@ experimentar O
 , O
 irmã O
 rodeia O
-; O
+  O
 não O
 faz O
 |
@@ -65788,12 +65788,12 @@ gente O
 se O
 rirá O
 da O
-lem- O
+lem- B-LOC
 |
 | O
-brança O
-do O
-rapazinho O
+brança B-PER
+do I-PER
+rapazinho I-PER
 . O
 |
 
@@ -65804,7 +65804,7 @@ rapazinho O
 | O
 23 O
 % O
-BACRIFICADA B-MISC
+BACRIFICADA B-ORG
 |
 
 | O
@@ -65832,7 +65832,7 @@ outras O
 | O
 noviças O
 em O
-recreio B-LOC
+recreio O
 . O
 |
 
@@ -65964,8 +65964,8 @@ se O
 não O
 fôsse O
 a O
-Madre B-LOC
-Superior I-LOC
+Madre B-PER
+Superior I-PER
 , O
 |
 | O
@@ -65994,7 +65994,7 @@ confessor O
 para O
 pôr O
 termo O
-áquelle O
+áquelle B-PER
 inferno O
 |
 | O
@@ -66036,10 +66036,10 @@ recordar O
 tantas O
 coisas O
 ida O
-Aper- B-PER
+Aper- B-ORG
 |
-| O
-ava O
+| I-ORG
+ava I-ORG
 a O
 cabeça O
 com O
@@ -66112,7 +66112,7 @@ ador- O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 237 O
 |
 
@@ -66140,7 +66140,7 @@ cobertos O
 por O
 uma O
 péle O
-rescendia O
+rescendia B-LOC
 e O
 emperga- O
 |
@@ -66154,7 +66154,7 @@ amargura O
 na O
 |
 | O
-linda O
+linda B-PER
 rapariga O
 que O
 ella O
@@ -66415,7 +66415,7 @@ senhora O
 absoluta O
 da O
 sua O
-pessõa O
+pessõa B-MISC
 . O
 |
 | O
@@ -66540,7 +66540,7 @@ conservado O
 
 | O
 Foi O
-têr O
+têr B-PER
 com O
 Madre B-PER
 Angelica I-PER
@@ -66551,7 +66551,7 @@ ainda O
 |
 | O
 a O
-Superior B-MISC
+Superior B-LOC
 veneranda O
 e O
 querida O
@@ -66571,7 +66571,7 @@ maternal O
 |
 
 | O
-Parecia B-LOC
+Parecia O
 outra O
 , O
 galgando O
@@ -66594,7 +66594,7 @@ até O
 á O
 céla O
 da O
-Superior B-MISC
+Superior B-LOC
 , O
 que O
 já O
@@ -66708,7 +66708,7 @@ seu O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 230 O
 |
 
@@ -66853,7 +66853,7 @@ e O
 que O
 |
 | O
-lho O
+lho B-PER
 venho O
 participar O
 ... O
@@ -66873,7 +66873,7 @@ freira O
 sobresaltada O
 , O
 o O
-projéo O
+projéo B-ORG
 , O
 que O
 tão O
@@ -66914,7 +66914,7 @@ apavorada O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 para O
 aqui O
@@ -66939,7 +66939,7 @@ aqui O
 Oh O
 , O
 meu O
-Dons B-PER
+Dons B-MISC
 , O
 meu O
 Deus B-MISC
@@ -66952,10 +66952,10 @@ estou O
 eu O
 guardada O
 , O
-santo B-LOC
-Deus I-LOC
-? O
-! O
+santo O
+Deus B-MISC
+? I-MISC
+! I-MISC
 — O
 lament- O
 |
@@ -66979,9 +66979,9 @@ espanto O
 , O
 |
 | O
-Adro B-ORG
-Angelica I-ORG
-! I-ORG
+Adro B-LOC
+Angelica I-LOC
+! O
 Então O
 não O
 sabia O
@@ -67001,8 +67001,8 @@ foi O
 |
 | O
 a O
-Madre B-ORG
-Angelica I-ORG
+Madre B-PER
+Angelica I-PER
 que O
 me O
 levou O
@@ -67054,10 +67054,10 @@ escandalo O
 ! O
 ... O
 Meu O
-Deus O
-, O
-meu O
 Deus B-MISC
+, I-MISC
+meu I-MISC
+Deus I-MISC
 ! I-MISC
 |
 | O
@@ -67082,7 +67082,7 @@ culpa O
 ! O
 |
 | O
-Quer B-ORG
+Quer O
 sêr O
 o O
 riso O
@@ -67229,10 +67229,10 @@ nossa O
 roli- O
 |
 | O
-gião O
+gião B-LOC
 , O
-Madre B-LOC
-Superior I-LOC
+Madre B-PER
+Superior I-PER
 . O
 Esconder O
 nm O
@@ -67247,10 +67247,10 @@ prova O
 do O
 orgulho O
 que O
-Deus B-MISC
+Deus B-PER
 |
-| I-MISC
-condena I-MISC
+| O
+condena O
 . O
 |
 
@@ -67291,9 +67291,9 @@ Soror B-PER
 |
 | I-PER
 Angelica I-PER
-? I-PER
-... I-PER
-Dirão B-PER
+? O
+... O
+Dirão O
 que O
 nesta O
 casa O
@@ -67322,17 +67322,17 @@ freiras O
 | O
 — O
 « O
-Dirão B-PER
-uma O
-mentira O
-, O
-que O
-en O
-propria O
-dos- O
+Dirão B-MISC
+uma I-MISC
+mentira I-MISC
+, I-MISC
+que I-MISC
+en I-MISC
+propria I-MISC
+dos- I-MISC
 |
-| O
-farei O
+| I-MISC
+farei I-MISC
 contando O
 a O
 verdade O
@@ -67351,8 +67351,8 @@ Madre B-MISC
 
  
 
-| O
-BACRIFICADA B-ORG
+| I-MISC
+BACRIFICADA I-MISC
 241 O
 |
 
@@ -67574,7 +67574,7 @@ a O
 minha O
 justa O
 vontade O
-; O
+  O
 é-o O
 agora O
 ainda O
@@ -67595,7 +67595,7 @@ Mas O
 agora O
 sou O
 livre O
-; O
+  O
 quero O
 a O
 minha O
@@ -67604,7 +67604,7 @@ filha O
 o O
 |
 | O
-heide O
+heide B-PER
 tê-la O
 ! O
 .. O
@@ -67681,7 +67681,7 @@ quem O
 
 | O
 de O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -67711,16 +67711,16 @@ irmãos O
 o O
 que O
 dirão O
-elles O
-desse O
+elles B-PER
+desse I-PER
 |
-| O
-to O
+| I-PER
+to I-PER
 ? O
 — O
 arriscou O
 a O
-Superior B-MISC
+Superior B-LOC
 tentando O
 dis- O
 |
@@ -67733,7 +67733,7 @@ suadi-la O
 — O
 q O
 Meus B-MISC
-irmãos I-MISC
+irmãos O
 ! O
 ? O
 ... O
@@ -67747,7 +67747,7 @@ eu O
 Madre B-LOC
 Superior I-LOC
 ? O
-Ha O
+Ha B-MISC
 dezoito O
 anos O
 que O
@@ -67797,20 +67797,20 @@ partilhar O
 |
 | O
 com O
-elles O
+elles B-PER
 a O
 herança O
 de O
 nossos O
 pais O
 . O
-Meus B-MISC
+Meus O
 |
 | O
 irmãos O
 ! O
 ? O
-Quasi O
+Quasi B-PER
 os O
 não O
 conheço O
@@ -67908,9 +67908,9 @@ estava O
 cu O
 guardada O
 , O
-Senhor B-PER
-! O
-? O
+Senhor B-MISC
+! I-MISC
+? I-MISC
 — O
 E O
 a O
@@ -67924,7 +67924,7 @@ o O
 os O
 olhos O
 ao O
-céo O
+céo B-MISC
 , O
 num O
 |
@@ -67940,8 +67940,8 @@ Ah O
 se O
 |
 | O
-Madre B-LOC
-Gertrudes I-LOC
+Madre B-PER
+Gertrudes I-PER
 fôsse O
 viva O
 ! O
@@ -67951,7 +67951,7 @@ viva O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 — O
 volveu O
@@ -67979,7 +67979,7 @@ tia O
 fôsse O
 viva O
 , O
-ella O
+ella B-PER
 seria O
 a O
 primeira O
@@ -68012,8 +68012,8 @@ tinhoso O
  
 
 | O
-SACRIFICADA B-LOC
-EN O
+SACRIFICADA B-ORG
+EN I-ORG
 |
 
  
@@ -68046,7 +68046,7 @@ vida O
 sahirei O
 daqui O
 . O
-Irei O
+Irei B-MISC
 viver O
 com O
 minha O
@@ -68073,7 +68073,7 @@ deixar-nos O
 ? O
 |
 | O
-Quer B-MISC
+Quer O
 deixar-nos O
 agora O
 que O
@@ -68082,7 +68082,7 @@ com O
 os O
 |
 | O
-Pés B-MISC
+Pés B-LOC
 para O
 a O
 cova O
@@ -68090,7 +68090,7 @@ cova O
 o O
 é O
 a O
-unica O
+unica B-MISC
 pessõa O
 que O
 aqui O
@@ -68110,10 +68110,10 @@ acabando O
 em O
 paz O
 na O
-nossa O
-santa B-LOC
+nossa B-LOC
+santa I-LOC
 casa I-LOC
-? I-LOC
+? O
 ! O
 ... O
 |
@@ -68136,7 +68136,7 @@ dôr O
 da O
 sua O
 pupila O
-; O
+  O
 tambem O
 dos O
 |
@@ -68227,7 +68227,7 @@ mande O
 vir O
 à O
 menina O
-; O
+  O
 |
 | O
 mas O
@@ -68334,7 +68334,7 @@ afilhado O
 « O
 Afilhado B-MISC
 ? I-MISC
-! O
+! I-MISC
 ... O
 — O
 Manoel B-PER
@@ -68421,7 +68421,7 @@ e O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 245 O
 |
 
@@ -68434,7 +68434,7 @@ Alguns O
 dias O
 depois O
 chegava O
-Christina B-LOC
+Christina B-MISC
 , O
 com- O
 |
@@ -68562,7 +68562,7 @@ a O
 hora O
 da O
 chegada O
-; O
+  O
 abriu-se O
 a O
 |
@@ -68571,8 +68571,8 @@ portaria O
 , O
 e O
 Aquella B-PER
-poude O
-vêr O
+poude I-PER
+vêr I-PER
 pela O
 grade O
 en- O
@@ -68642,7 +68642,7 @@ rem O
 , O
 para O
 entrar O
-naquelle B-LOC
+naquelle O
 como O
 recolhida O
 . O
@@ -68829,7 +68829,7 @@ lhe O
 inspirava O
 , O
 foi O
-sorrisonha O
+sorrisonha B-PER
 e O
 |
 | O
@@ -68866,7 +68866,7 @@ dominadores O
 come O
 eram O
 habitualmente O
-; O
+  O
 a O
 sua O
 bôca O
@@ -68875,10 +68875,10 @@ se O
 |
 | O
 desdobrou O
-álêm O
-do O
-sorriso O
-escarninho O
+álêm B-LOC
+do I-LOC
+sorriso I-LOC
+escarninho I-LOC
 que O
 lhe O
 |
@@ -68984,7 +68984,7 @@ reconhecer O
  
 
 | O
-SACHIFICADA B-LOC
+SACHIFICADA B-MISC
 247 O
 |
 
@@ -69030,7 +69030,7 @@ convento O
 |
 
 | O
-Pagava B-PER
+Pagava O
 com O
 sorrisos O
 contrafeitos O
@@ -69190,7 +69190,7 @@ todas O
 as O
 outras O
 companheiras O
-; O
+  O
 |
 | O
 mas O
@@ -69204,7 +69204,7 @@ re- O
 ceando O
 o O
 seu O
-genio O
+genio B-PER
 , O
 que O
 presentia O
@@ -69221,7 +69221,7 @@ Até O
 que O
 um O
 dia O
-Christina B-LOC
+Christina B-MISC
 , O
 de O
 combinação O
@@ -69238,7 +69238,7 @@ levou O
 rebu- O
 |
 | O
-lião O
+lião B-ORG
 , O
 pôs O
 uma O
@@ -69270,8 +69270,8 @@ E O
 
 | O
 “ O
-us O
-BACRIFICADA O
+us B-ORG
+BACRIFICADA I-ORG
 |
 
 | O
@@ -69338,7 +69338,7 @@ filha O
 | O
 — O
 « O
-Ohristina B-MISC
+Ohristina B-LOC
 — O
 dizia-lho O
 meigamente O
@@ -69381,9 +69381,9 @@ que O
 fiz O
 eu O
 , O
-minha O
-senhora O
-? O
+minha B-MISC
+senhora I-MISC
+? I-MISC
 |
 | O
 Foi O
@@ -69417,9 +69417,9 @@ sensaboria O
 | O
 — O
 « O
-Mas B-MISC
-a I-MISC
-Christina I-MISC
+Mas O
+a O
+Christina B-MISC
 não O
 está O
 bem O
@@ -69460,8 +69460,8 @@ prisão O
 Mas O
 oça O
 : O
-hade O
-sahir O
+hade B-PER
+sahir I-PER
 , O
 tenha O
 paciencia O
@@ -69475,7 +69475,7 @@ não O
 pode O
 durar O
 muito O
-; O
+  O
 são O
 pae- O
 |
@@ -69497,16 +69497,16 @@ morrerem O
 sahiremos O
 ambas O
 . O
-Continuará B-LOC
+Continuará O
 |
 | O
 aqui O
 a O
 sua O
 educação O
-; O
+  O
 a O
-Christina B-LOC
+Christina B-MISC
 sabe O
 tão O
 |
@@ -69540,7 +69540,7 @@ classe O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 sim O
 ! O
@@ -69573,23 +69573,23 @@ mais O
 
 | O
 Di B-LOC
-ço O
+ço I-LOC
 |
 
  
 
  
 
-| O
-SACRIFICADA B-LOC
-240 O
+| I-LOC
+SACRIFICADA I-LOC
+240 I-LOC
 |
 
 | O
 — O
 « O
 Christina B-MISC
-! I-MISC
+! O
 ? O
 |
 
@@ -69599,7 +69599,7 @@ Christina B-MISC
 Minha B-MISC
 senhora I-MISC
 ! I-MISC
-? O
+? I-MISC
 |
 
 | O
@@ -69635,7 +69635,7 @@ maternal O
 : O
 — O
 - O
-Nãe B-PER
+Nãe B-MISC
 diga O
 que O
 não O
@@ -69663,9 +69663,9 @@ E O
 | O
 — O
 « O
-Minha B-MISC
-amiga I-MISC
-? I-MISC
+Minha O
+amiga O
+? O
 ! O
 Se O
 o O
@@ -69707,7 +69707,7 @@ nem O
 |
 
 | O
-Aquella B-PER
+Aquella B-LOC
 interrempon-a O
 com O
 um O
@@ -69722,9 +69722,9 @@ vairado O
 | O
 — O
 « O
-Christina B-LOC
+Christina B-MISC
 , O
-Christina B-LOC
+Christina B-MISC
 , O
 cala-to O
 ! O
@@ -69753,7 +69753,7 @@ vida O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 sim O
 , O
@@ -69788,7 +69788,7 @@ brntalmente O
 | O
 Manoel B-PER
 empalideceu O
-; O
+  O
 aos O
 seus O
 ouvidos O
@@ -69806,7 +69806,7 @@ coração O
 | O
 quasi O
 a O
-sufocon O
+sufocon B-PER
 na O
 onda O
 de O
@@ -69841,7 +69841,7 @@ sequer O
 minha O
 afilhado O
 . O
-Mandei-a B-PER
+Mandei-a O
 criar O
 |
 | O
@@ -69889,20 +69889,20 @@ se O
  
 
 | O
-RR O
+RR B-ORG
 o O
 e O
 |
 
 | O
 250 O
-SACRIPICADA B-LOC
+SACRIPICADA B-PER
 |
 
 | O
 sentia O
 ferida O
-; O
+  O
 tambem O
 ella O
 tinha O
@@ -69948,9 +69948,9 @@ aniquilado O
 | O
 — O
 « O
-Quer B-MISC
-sahir I-MISC
-? I-MISC
+Quer O
+sahir O
+? O
 ! O
 — O
 e O
@@ -70058,7 +70058,7 @@ conciliar O
 | O
 — O
 « O
-Saber B-PER
+Saber O
 , O
 minha O
 senhora O
@@ -70170,7 +70170,7 @@ que O
 a O
 acompanhava O
 , O
-Christina B-LOC
+Christina B-PER
 não O
 resistiu O
 , O
@@ -70283,8 +70283,8 @@ desgosto O
 | O
 — O
 « O
-Diga B-MISC
-— I-MISC
+Diga O
+— O
 disse-lhe O
 quando O
 estava O
@@ -70294,7 +70294,7 @@ quasi O
 ao O
 fundo O
 do O
-dermitorio O
+dermitorio B-PER
 , O
 fazendo-a O
 voltar O
@@ -70324,7 +70324,7 @@ chamou O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 venha O
 cá O
@@ -70334,7 +70334,7 @@ E O
 , O
 sem O
 a O
-Atar B-MISC
+Atar B-ORG
 , O
 num O
 |
@@ -70365,7 +70365,7 @@ ar O
 hipocrita O
 . O
 — O
-Custa-me O
+Custa-me B-PER
 abandoná-la O
 para O
 |
@@ -70377,7 +70377,7 @@ familia O
 nem O
 protéção O
 ... O
-Vou B-LOC
+Vou O
 pedir O
 |
 | O
@@ -70410,11 +70410,11 @@ contente O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 minha O
 senhora O
-; O
+  O
 seria O
 uma O
 religi- O
@@ -70442,7 +70442,7 @@ me O
 deve O
 nada O
 . O
-Vá O
+Vá B-MISC
 & O
 sua O
 |
@@ -70474,7 +70474,7 @@ desculpa O
 — O
 « O
 Não O
-; O
+  O
 não O
 me O
 ofendeu O
@@ -70492,7 +70492,7 @@ se O
 encontrar O
 só O
 . O
-Di O
+Di B-PER
 |
 | O
 bem O
@@ -70503,7 +70503,7 @@ coração O
 não O
 estava O
 ofendido O
-; O
+  O
 |
 | O
 estava O
@@ -70639,7 +70639,7 @@ golpe O
 
 | O
 Soluçava B-PER
-; O
+  O
 já O
 não O
 podia O
@@ -70690,7 +70690,7 @@ seu O
 |
 | O
 aspóto B-PER
-cenografico O
+cenografico I-PER
 , O
 outras O
 banal O
@@ -70799,8 +70799,8 @@ sofrem O
 O O
 futuro O
 ... O
-Santo B-PER
-Deus I-PER
+Santo B-LOC
+Deus I-LOC
 ! O
 o O
 que O
@@ -70830,14 +70830,14 @@ mesma O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 “ O
 53 O
 |
 
 | O
-Madre O
-Angelica O
+Madre B-PER
+Angelica I-PER
 , O
 prevenida O
 pela O
@@ -70852,7 +70852,7 @@ sua O
 menina O
 , O
 vein B-PER
-têr O
+têr I-PER
 com O
 |
 | O
@@ -70911,9 +70911,9 @@ agoniada O
 « O
 Ai B-LOC
 , O
-Madre B-LOC
-Angelica I-LOC
-! I-LOC
+Madre B-PER
+Angelica I-PER
+! O
 ... O
 Estava O
 ahi O
@@ -70935,7 +70935,7 @@ mim O
 neste O
 momento O
 . O
-Julguei-me B-ORG
+Julguei-me O
 toldada O
 de O
 |
@@ -71002,7 +71002,7 @@ os O
 seus O
 filhos O
 . O
-Ello O
+Ello B-PER
 |
 | O
 ama O
@@ -71030,7 +71030,7 @@ gloria O
 | O
 — O
 « O
-Ab B-PER
+Ab B-MISC
 , O
 mas O
 custa O
@@ -71051,12 +71051,12 @@ vida O
 | O
 — O
 « O
-Tenha B-LOC
+Tenha O
 resignação O
 , O
 Soror B-PER
 Magyoela I-PER
-; O
+  O
 |
 | O
 aprenda O
@@ -71111,7 +71111,7 @@ salvar O
 aquelles O
 que O
 o O
-flagelavam O
+flagelavam B-MISC
 . O
 |
 
@@ -71154,7 +71154,7 @@ poude O
 
 | O
 25 O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -71244,7 +71244,7 @@ freira O
 | O
 — O
 « O
-Perdão B-LOC
+Perdão B-PER
 , O
 perdi O
 |
@@ -71324,8 +71324,8 @@ tragico O
 |
 
 | O
-Adro O
-Angelica O
+Adro B-PER
+Angelica I-PER
 apiedou-se O
 , O
 ella O
@@ -71384,7 +71384,7 @@ desgraçada O
 | O
 — O
 « O
-Vamos B-LOC
+Vamos O
 , O
 Soror B-PER
 Manoel I-PER
@@ -71419,12 +71419,12 @@ diminue O
 « O
 Ai B-LOC
 , O
-Madre B-LOC
-Angelica I-LOC
+Madre B-PER
+Angelica I-PER
 , O
-morro O
-de O
-saudades O
+morro B-LOC
+de I-LOC
+saudades I-LOC
 |
 | O
 pela O
@@ -71443,14 +71443,14 @@ Como O
 fui O
 castigada O
 , O
-Santo B-PER
-Deus I-PER
+Santo B-LOC
+Deus I-LOC
 ! O
 |
 
 | O
-Meu B-MISC
-Deus I-MISC
+Meu O
+Deus B-PER
 , O
 se O
 o O
@@ -71468,7 +71468,7 @@ Siva- B-MISC
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 255 O
 |
 
@@ -71530,7 +71530,7 @@ da O
 |
 | O
 velha O
-Madre B-MISC
+Madre B-LOC
 . O
 — O
 Não O
@@ -71560,7 +71560,7 @@ meu O
 corpo O
 como O
 a O
-flôr O
+flôr B-LOC
 sai O
 da O
 |
@@ -71594,7 +71594,7 @@ bem O
 , O
 Madre B-PER
 Angelica I-PER
-; O
+  O
 veja-lho O
 bem O
 |
@@ -71617,7 +71617,7 @@ os O
 do O
 outro O
 ! O
-Veja-lhe O
+Veja-lhe B-LOC
 o O
 riso O
 estar- O
@@ -71635,11 +71635,11 @@ alma O
 ! O
 Então O
 a O
-Christina B-LOC
+Christina B-PER
 |
-| I-LOC
-Será I-LOC
-possivel O
+| I-PER
+Será I-PER
+possivel I-PER
 . O
 |
 
@@ -71673,7 +71673,7 @@ avó O
 ... O
 |
 | O
-Avalic B-LOC
+Avalic B-MISC
 a O
 minha O
 desgraça O
@@ -71684,7 +71684,7 @@ Angelica I-PER
 |
 | O
 ' O
-Tenho B-PER
+Tenho O
 uma O
 filha O
 que O
@@ -71730,7 +71730,7 @@ que O
 |
 | O
 a O
-tomara B-LOC
+tomara O
 . O
 |
 
@@ -71771,7 +71771,7 @@ si O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 tem O
 razão O
@@ -71800,7 +71800,7 @@ habituar-me O
 a O
 esta O
 desolação O
-; O
+  O
 querer O
 amar O
 a O
@@ -71838,7 +71838,7 @@ SACRIFIGADA B-LOC
 |
 
 | I-LOC
-Falou O
+Falou I-LOC
 longo O
 tempo O
 , O
@@ -71932,12 +71932,12 @@ lhe O
 escrev- O
 |
 | O
-vera O
+vera B-PER
 , O
 consentindo O
 em O
 receber O
-Christina B-LOC
+Christina B-PER
 como O
 |
 | O
@@ -71994,7 +71994,7 @@ ceremonia B-LOC
 
 | O
 « O
-Christina B-LOC
+Christina B-MISC
 pode O
 vir O
 — O
@@ -72028,7 +72028,7 @@ filha O
 |
 
 | O
-Sentia-o B-MISC
+Sentia-o B-PER
 só O
 , O
 e O
@@ -72066,7 +72066,7 @@ Manoel B-PER
 que O
 fôsso O
 tambem O
-; O
+  O
 dezenove O
 |
 | O
@@ -72089,7 +72089,7 @@ múcula O
 Esquecia B-PER
 o O
 passado O
-; O
+  O
 talvez O
 um O
 pouco O
@@ -72132,7 +72132,7 @@ a O
 irmã O
 não O
 ia O
-; O
+  O
 agradecia-lho O
 muito O
 , O
@@ -72183,7 +72183,7 @@ sair O
  
 
 | O
-DA O
+DA B-MISC
 |
 
 | O
@@ -72200,7 +72200,7 @@ a O
 |
 | O
 cumprir O
-; O
+  O
 não O
 abandonaria O
 , O
@@ -72222,9 +72222,9 @@ angustia O
 |
 
 | O
-Christina B-LOC
+Christina B-PER
 partiu O
-alegre O
+alegre B-LOC
 , O
 numa O
 ansiedade O
@@ -72269,7 +72269,7 @@ sua O
 razão O
 de O
 viver O
-; O
+  O
 antes O
 |
 | O
@@ -72297,9 +72297,9 @@ amargura O
 | O
 — O
 q O
-Adeus B-LOC
+Adeus B-PER
 , O
-Christina B-PER
+Christina B-MISC
 , O
 — O
 disse-lhe O
@@ -72367,8 +72367,8 @@ rodeiam O
 | O
 — O
 « O
-Deixe-me B-PER
-agradecer-lho O
+Deixe-me B-MISC
+agradecer-lho I-MISC
 , O
 madrinha O
 ... O
@@ -72407,7 +72407,7 @@ sincera O
 | O
 alegria O
 de O
-Christina B-LOC
+Christina B-PER
 . O
 |
 
@@ -72468,7 +72468,7 @@ Partiu O
 , O
 acompanhada O
 de O
-Ama-Rita B-PER
+Ama-Rita B-LOC
 , O
 que O
 ape- O
@@ -72494,7 +72494,7 @@ tio O
   
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 259 O
 |
 
@@ -72564,10 +72564,10 @@ da O
 filha O
 morta O
 á O
-nas- O
+nas- B-PER
 |
-| O
-cença O
+| I-PER
+cença I-PER
 . O
 |
 
@@ -72582,8 +72582,8 @@ tempos O
 |
 | O
 apesar O
-della O
-s O
+della B-PER
+s I-PER
 > O
 não O
 querer O
@@ -72607,8 +72607,8 @@ encontrara O
 , O
 sonão O
 a O
-linda O
-rapariga O
+linda B-PER
+rapariga I-PER
 que O
 vira O
 |
@@ -72693,7 +72693,7 @@ em- O
 branquecia-lho O
 nas O
 fontes O
-; O
+  O
 a O
 péle O
 amarelecida O
@@ -72719,7 +72719,7 @@ que O
 umas O
 olheiras O
 inchadas O
-lho O
+lho B-PER
 davam O
 no O
 rosto O
@@ -72749,7 +72749,7 @@ mento O
 |
 
 | O
-Podia B-LOC
+Podia B-ORG
 dizer-se O
 que O
 ia O
@@ -73033,9 +73033,9 @@ n O
 sineta O
 que O
 no O
-claustro O
-de O
-cima O
+claustro B-LOC
+de I-LOC
+cima I-LOC
 |
 | O
 apenas O
@@ -73104,7 +73104,7 @@ desta O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 201 O
 |
 
@@ -73156,8 +73156,8 @@ aviso O
 Era O
 certo O
 : O
-aquella B-PER
-sineta I-PER
+aquella O
+sineta O
 , O
 que O
 |
@@ -73196,8 +73196,8 @@ fim O
 |
 | O
 da O
-santa B-LOC
-casa I-LOC
+santa O
+casa O
 que O
 fôra O
 abrigo O
@@ -73231,7 +73231,7 @@ não O
 tinham O
 tido O
 na O
-terra B-LOC
+terra O
 a O
 compensação O
 . O
@@ -73304,7 +73304,7 @@ breve O
 . O
 |
 | O
-Sim B-ORG
+Sim O
 , O
 ellas O
 estavam O
@@ -73335,8 +73335,8 @@ não O
 compreendiam O
 |
 | O
-gal O
-... O
+gal B-ORG
+... I-ORG
 p O
 |
 
@@ -73381,10 +73381,10 @@ sob O
 |
 | O
 as O
-lages O
+lages B-LOC
 frias O
 do O
-claustro O
+claustro B-LOC
 . O
 |
 
@@ -73395,7 +73395,7 @@ vozes O
 misteriosas O
 vindas O
 da O
-terra B-LOC
+terra O
 , O
 |
 | O
@@ -73414,7 +73414,7 @@ ospalha- O
 
 | O
 262 O
-SACRIVICADA B-MISC
+SACRIVICADA B-PER
 |
 
 | O
@@ -73445,7 +73445,7 @@ a O
 animarem O
 |
 | O
-es B-LOC
+es O
 pobres O
 irmãs O
 que O
@@ -73470,7 +73470,7 @@ apesar O
 de O
 tudo O
 e O
-sen O
+sen B-PER
 bom-senso O
 , O
 |
@@ -73555,7 +73555,7 @@ tão O
 dolorida O
 lhe O
 féra O
-; O
+  O
 foi O
 ella O
 , O
@@ -73632,8 +73632,8 @@ existencia O
 feminina O
 pouco O
 diferia O
-; O
-peuce O
+  O
+peuce B-PER
 mais O
 |
 | O
@@ -73685,8 +73685,8 @@ inferiores O
 |
 
 | O
-Morta B-PER
-Madre I-PER
+Morta B-LOC
+Madre I-LOC
 , O
 Claudea B-LOC
 , O
@@ -73836,14 +73836,14 @@ os O
 indiferentes O
 , O
 uns O
-sob.a B-MISC
-capa I-MISC
-amavel I-MISC
-da I-MISC
-sim- O
+sob.a O
+capa O
+amavel O
+da O
+sim- B-MISC
 |
-| O
-patria O
+| I-MISC
+patria I-MISC
 e O
 da O
 piedade O
@@ -73875,8 +73875,8 @@ des O
 as O
 infantis O
 preocupações O
-daquelles O
-sôres O
+daquelles B-MISC
+sôres I-MISC
 |
 | O
 inuteis O
@@ -73968,7 +73968,7 @@ as O
 | O
 levaria O
 sabe O
-Deus B-MISC
+Deus B-PER
 a O
 que O
 dôres O
@@ -74007,7 +74007,7 @@ e O
 
 | O
 204 O
-SACKIFICADA B-MISC
+SACKIFICADA B-ORG
 |
 
 | O
@@ -74073,7 +74073,7 @@ de O
 comunidade O
 que O
 sem O
-ella O
+ella B-PER
 |
 | O
 seria O
@@ -74116,7 +74116,7 @@ amargura O
 | O
 os O
 preciosos O
-Grão-Vasco B-LOC
+Grão-Vasco B-PER
 desprendidos O
 das O
 |
@@ -74167,8 +74167,8 @@ para O
 os O
 museus O
 do O
-Lisbôa B-MISC
-... I-MISC
+Lisbôa B-LOC
+... O
 Eram O
 livros O
 velhos O
@@ -74308,7 +74308,7 @@ passado O
 que O
 morria O
 sem O
-têr O
+têr B-PER
 criado O
 |
 | O
@@ -74367,11 +74367,11 @@ verdura O
 tenra O
 e O
 uma O
-dôce O
-paz O
-idalina O
+dôce B-ORG
+paz I-ORG
+idalina I-ORG
 a O
-rodeá-la O
+rodeá-la B-ORG
 . O
 |
 
@@ -74388,7 +74388,7 @@ esforço O
 dei- O
 |
 | O
-ava-so O
+ava-so B-MISC
 morrer O
 , O
 desligada O
@@ -74416,7 +74416,7 @@ simples O
 câmo- O
 |
 | O
-meza O
+meza B-PER
 que O
 a O
 criada O
@@ -74456,7 +74456,7 @@ m. O
 |
 
 | O
-Christina O
+Christina B-PER
 , O
 muito O
 prática O
@@ -74505,13 +74505,13 @@ junta O
 pedia O
 , O
 pró-forma O
-; O
+  O
 o O
 consentimento O
 da O
 |
 | O
-madrinha B-PER
+madrinha O
 . O
 |
 
@@ -74550,7 +74550,7 @@ da O
 casa O
 e O
 da O
-familia B-LOC
+familia O
 . O
 |
 
@@ -74610,11 +74610,11 @@ coisa O
 
 | O
 266 O
-SACRIFICADA B-LOC
+SACRIFICADA B-ORG
 |
 
-| I-LOC
-Christina I-LOC
+| I-ORG
+Christina I-ORG
 , O
 na O
 sua O
@@ -74766,7 +74766,7 @@ merece O
  
 
 | O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 267 O
 |
 
@@ -74924,7 +74924,7 @@ atmosfera O
 | O
 — O
 « O
-Ah B-MISC
+Ah O
 , O
 como O
 era O
@@ -74982,10 +74982,10 @@ consolação O
 que O
 a O
 bôa O
-Ama- O
+Ama- B-LOC
 |
 | O
-Rita B-LOC
+Rita B-PER
 lhe O
 ia O
 dizendo O
@@ -74995,7 +74995,7 @@ dizendo O
 | O
 — O
 « O
-Porque B-LOC
+Porque O
 não O
 iam O
 passar O
@@ -75006,9 +75006,9 @@ a O
 | O
 casa O
 do O
-sr. B-MISC
-Morgado I-MISC
-? I-MISC
+sr. O
+Morgado O
+? O
 ... O
 Havia O
 de O
@@ -75038,7 +75038,7 @@ BACRIFICADA B-ORG
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
 iriam O
 — O
@@ -75101,7 +75101,7 @@ braços O
 a O
 sua O
 menina O
-; O
+  O
 |
 | O
 quantos O
@@ -75138,7 +75138,7 @@ lareira O
 “ O
 Mancela B-LOC
 , O
-sorrisonha O
+sorrisonha B-PER
 ás O
 recordações O
 da O
@@ -75175,7 +75175,7 @@ nascerá O
 | O
 juntava O
 à O
-Ama B-LOC
+Ama B-PER
 . O
 |
 
@@ -75303,7 +75303,7 @@ cemiterio O
 |
 
 | O
-Tornava O
+Tornava B-PER
 a O
 vêr O
 a'casa O
@@ -75342,7 +75342,7 @@ per- O
  
 
 | O
-BACHIFICADA B-ORG
+BACHIFICADA B-PER
 209 O
 |
 
@@ -75386,12 +75386,12 @@ tinha O
 | O
 mudado O
 ! O
-Qnom O
-lho O
+Qnom B-MISC
+lho I-MISC
 diria O
 então O
 que O
-Christina B-LOC
+Christina B-PER
 , O
 |
 | O
@@ -75421,8 +75421,8 @@ volvia- O
 das O
 seria O
 a O
-senhora O
-morgada O
+senhora B-PER
+morgada I-PER
 a O
 quem O
 todos O
@@ -75434,10 +75434,10 @@ desejos O
 o O
 amaciava O
 o O
-cam- O
+cam- B-PER
 |
-| O
-nho O
+| I-PER
+nho I-PER
 para O
 que O
 désse O
@@ -75509,7 +75509,7 @@ passageiro O
 com O
 tanta O
 mais O
-perfidia O
+perfidia B-LOC
 quanto O
 |
 | O
@@ -75595,9 +75595,9 @@ covardia O
 | O
 — O
 « O
-Sim B-ORG
+Sim O
 , O
-Christina O
+Christina B-PER
 , O
 no O
 impulso O
@@ -75629,8 +75629,8 @@ SACRIFICADA B-PER
 
 | O
 « O
-À B-MISC
-transigencia I-MISC
+À O
+transigencia O
 , O
 a O
 covardia O
@@ -75820,7 +75820,7 @@ vencer O
 
 | O
 « O
-Christina B-PER
+Christina B-MISC
 tivera O
 razão O
 : O
@@ -75878,7 +75878,7 @@ Não O
 tinha O
 desculpa O
 . O
-Fôra B-MISC
+Fôra B-PER
 de- O
 |
 | O
@@ -75920,21 +75920,21 @@ ella O
 lhe O
 |
 | O
-negara B-PER
+negara O
 . O
 |
 
  
 
 | O
-BACRIFICADA B-LOC
-el O
+BACRIFICADA B-MISC
+el I-MISC
 |
 
-| O
-« O
-E B-ORG
-valia I-ORG
+| I-MISC
+« I-MISC
+E I-MISC
+valia I-MISC
 muito O
 o O
 amór O
@@ -76113,7 +76113,7 @@ talento O
 |
 
 | O
-Christina B-LOC
+Christina B-PER
 já O
 não O
 precisava O
@@ -76226,7 +76226,7 @@ vida O
 
 | O
 272 O
-SACRIFICADA B-LOC
+SACRIFICADA B-MISC
 |
 
 | O
@@ -76316,17 +76316,17 @@ sacrificada O
  
 
 | O
-4 O
-Vinha B-MISC
+4 B-MISC
+Vinha I-MISC
 |
 
  
 
 | I-MISC
-A B-MISC
-Feitio I-MISC
+A O
+Feitio O
 |
-| I-MISC
+| O
 Diario O
 duma O
 criança O
@@ -76334,38 +76334,38 @@ criança O
 |
 
 | O
-Saorificada B-MISC
+Saorificada O
 |
 
-| I-MISC
-INDICA I-MISC
+| O
+INDICA O
 |
 
  
 
  
 
-| I-MISC
-OBRAS I-MISC
-DA O
-MESMA O
+| O
+OBRAS B-MISC
+DA I-MISC
+MESMA I-MISC
 AUTORA O
 |
 
 | O
 ANcIçÕES O
 ( O
-rOmancE B-LOC
+rOmancE B-ORG
 |
 
-| I-LOC
-Ixreutzss I-LOC
+| O
+Ixreutzss B-PER
 ( O
 historias O
 vividas O
 ) O
 . O
-Esgotado B-LOC
+Esgotado O
 . O
 |
 
@@ -76375,12 +76375,12 @@ um O
 oa O
 Parma B-LOC
 : O
-Biblioteca O
-de O
-propaganda O
-educativos O
+Biblioteca B-LOC
+de I-LOC
+propaganda I-LOC
+educativos I-LOC
 |
-| O
+| I-LOC
 e O
 distribuição O
 gratuita O
@@ -76409,7 +76409,7 @@ manter O
 |
 
 | O
-Bru B-LOC
+Bru O
 eréGa O
 FEL B-MISC
 Intona I-MISC
@@ -76421,8 +76421,8 @@ comedia O
 |
 
 | O
-Tearão B-LOC
-InFANTIL I-LOC
+Tearão B-PER
+InFANTIL I-PER
 : O
 4 O
 comedia O
@@ -76431,18 +76431,18 @@ Lili B-MISC
 ... I-MISC
 |
 
-| O
+| I-MISC
 Um O
 sermão O
 do O
 Snr B-ORG
 . O
-Cura B-MISC
+Cura O
 |
 
-| I-MISC
-A I-MISC
-Grande I-MISC
+| O
+A O
+Grande B-LOC
 . O
 No O
 seu O
@@ -76463,9 +76463,9 @@ Oliveira I-PER
 |
 
 | O
-Garnerr B-MISC
-xo I-MISC
-Aplausos I-MISC
+Garnerr B-PER
+xo I-PER
+Aplausos I-PER
 . O
 — O
 De O
@@ -76476,44 +76476,44 @@ Paulino B-LOC
 | I-LOC
 de I-LOC
 Oliveira I-LOC
-E I-LOC
-Os I-LOC
+E O
+Os O
 0 O
 Do O
 |
 
 | O
 À O
-NOSSA B-ORG
-HOMENAGEM I-ORG
+NOSSA B-PER
+HOMENAGEM I-PER
 A O
 Boca O
 + O
 |
 
 | O
-ÀS B-MISC
-MULHERES I-MISC
-PORTUGUÊSAS I-MISC
+ÀS O
+MULHERES B-MISC
+PORTUGUÊSAS B-MISC
 . O
-— B-MISC
-Livro I-MISC
-tem O
-sta O
-de O
-eri- O
+— O
+Livro B-MISC
+tem I-MISC
+sta I-MISC
+de I-MISC
+eri- I-MISC
 |
-| O
-tica O
+| I-MISC
+tica I-MISC
 é O
 propaganda O
 . O
 |
 
 | O
-A O
-asa B-LOC
-Parte I-LOC
+A B-MISC
+asa I-MISC
+Parte O
 . O
 — O
 Livro O
@@ -76525,7 +76525,7 @@ para O
 premios O
 escolares O
 . O
-Encarnação O
+Encarnação B-LOC
 de O
 luxo O
 , O
@@ -76551,10 +76551,10 @@ ilustrações O
 | O
 Para O
 as O
-CA O
+CA B-ORG
 : O
 : O
-Publ B-PER
+Publ B-MISC
 mensal O
 ilustrada O
 fundado O
@@ -76565,28 +76565,28 @@ em O
 , O
 Publicados B-MISC
 15 I-MISC
-volumes I-MISC
-com I-MISC
-magnificas I-MISC
+volumes O
+com O
+magnificas O
 |
-| I-MISC
-gravuras I-MISC
+| O
+gravuras O
 . O
 |
 
 | O
-Contos B-PER
-tradicionaes O
-portuguêses O
+Contos B-MISC
+tradicionaes I-MISC
+portuguêses I-MISC
 , O
 10 O
 volumes O
 . O
 |
 | O
-Contos B-PER
-de I-PER
-Grima I-PER
+Contos B-MISC
+de I-MISC
+Grima I-MISC
 , O
 traduzidos O
 do O
@@ -76615,7 +76615,7 @@ aderiu O
 o O
 |
 | O
-Historias B-PER
+Historias O
 escolhidas O
 ( O
 tradução O
@@ -76637,12 +76637,12 @@ publicação O
 avulso O
 |
 | O
-Disseração O
+Disseração B-LOC
 x O
 rateação O
 ( O
-Festas B-ORG
-infantis O
+Festas B-MISC
+infantis I-MISC
 . O
 — O
 Eolheto B-LOC
@@ -76660,7 +76660,7 @@ c O
  
 
 | O
-Ultimas B-LOC
+Ultimas O
 publicações O
 da O
 livraria-editora O
@@ -76691,7 +76691,7 @@ Manuel B-PER
 d'Adriana I-PER
 , O
 Harmonias B-PER
-sociaes O
+sociaes I-PER
 , O
 — O
 O O
@@ -76717,28 +76717,28 @@ definitiva O
 ) O
 . O
 — O
-A O
-Paz B-MISC
+A B-MISC
+Paz I-MISC
 dos I-MISC
 |
 | I-MISC
 Povos I-MISC
-. O
+. I-MISC
 Vol O
 . O
 . O
 O O
-VI O
+VI B-PER
 |
 
  
 
-| O
+| I-PER
 José B-PER
 Calêae I-PER
 , O
-Benigua B-PER
-Verbo I-PER
+Benigua B-MISC
+Verbo I-MISC
 . O
 Vivo B-ORG
 . O
@@ -76753,7 +76753,7 @@ homens O
 e O
 factos O
 . O
-Vol B-LOC
+Vol O
 . O
 . O
 .. O
@@ -76761,26 +76761,26 @@ Vol B-LOC
 |
 | O
 — O
-Vida B-PER
-Litteraria I-PER
+Vida B-MISC
+Litteraria I-MISC
 , O
 1 O
 vol O
 . O
 . O
-300 B-MISC
+300 O
 |
-| I-MISC
-Gomes I-MISC
-Leal I-MISC
+| O
+Gomes B-PER
+Leal I-PER
 , O
 À B-MISC
 Mocidade I-MISC
 ( O
 á O
-Academia B-LOC
-do I-LOC
-Coimbra I-LOC
+Academia B-ORG
+do I-ORG
+Coimbra I-ORG
 ) O
 , O
 |
@@ -76800,7 +76800,7 @@ Sagrado B-LOC
 poema O
 ) O
 . O
-Vol B-LOC
+Vol O
 . O
 5 O
 |
@@ -76809,12 +76809,12 @@ Vol B-LOC
 Rei B-PER
 Falar I-PER
 ( O
-tragedia O
+tragedia B-ORG
 ) O
 . O
 Vivo B-ORG
 . O
-.... B-LOC
+.... O
 400 O
 |
 | O
@@ -76827,7 +76827,7 @@ Ceu I-LOC
 poema O
 ) O
 . O
-Vol B-LOC
+Vol O
 . O
 1 O
 . O
@@ -76836,7 +76836,7 @@ Vol B-LOC
 | O
 — O
 . O
-Sorrisos O
+Sorrisos B-MISC
 ( O
 versos O
 ) O
@@ -76844,9 +76844,9 @@ versos O
 2.º O
 edição O
 . O
-I O
-vol O
-... O
+I B-MISC
+vol I-MISC
+... I-MISC
 . O
 400 O
 |
@@ -76859,8 +76859,8 @@ Constança B-PER
 poema O
 ) O
 . O
-I B-MISC
-vol I-MISC
+I O
+vol O
 . O
 . O
 e O
@@ -76876,7 +76876,7 @@ Quadrante I-MISC
 versos O
 ) O
 . O
-Vol B-LOC
+Vol O
 . O
 . O
 400 O
@@ -76884,10 +76884,10 @@ Vol B-LOC
 | O
 — O
 — O
-Q B-MISC
-Annel I-MISC
-de I-MISC
-Polscrates I-MISC
+Q B-LOC
+Annel I-LOC
+de O
+Polscrates B-PER
 ( O
 homem O
 dramatico O
@@ -76898,13 +76898,13 @@ vol O
 600 O
 |
 | O
-E. B-LOC
-Brunswick I-LOC
+E. B-PER
+Brunswick I-PER
 , O
-Historia B-MISC
-da I-MISC
-Peninsula I-MISC
-Iberica I-MISC
+Historia B-LOC
+da I-LOC
+Peninsula I-LOC
+Iberica I-LOC
 . O
 I O
 vol O
@@ -76917,8 +76917,8 @@ vol O
    
 
 | O
-Lima B-PER
-Vida I-PER
+Lima B-LOC
+Vida I-LOC
 , O
 Esplendores B-LOC
 do I-LOC
@@ -76937,13 +76937,13 @@ do I-PER
 Sousa I-PER
 Costa I-PER
 , O
-Excentricos B-ORG
+Excentricos B-MISC
 , O
 contos O
 . O
 |
 | O
-Viol B-PER
+Viol O
 .. O
 500 O
 |
@@ -76959,15 +76959,15 @@ versos O
 + O
 |
 | O
-Vol B-LOC
+Vol O
 . O
 . O
 500 O
 |
 
 | O
-Campos B-LOC
-Lima I-LOC
+Campos B-PER
+Lima I-PER
 , O
 A B-MISC
 Ceia I-MISC
@@ -77000,10 +77000,10 @@ verso O
 200 O
 |
 | O
-Ina B-LOC
-da I-LOC
-Camera I-LOC
-Rego I-LOC
+Ina B-PER
+da O
+Camera B-PER
+Rego I-PER
 , O
 ( O
 Ô B-MISC
@@ -77076,8 +77076,8 @@ Lia B-MISC
 Iactoemverso I-MISC
 |
 | I-MISC
-Alfredo I-MISC
-França I-MISC
+Alfredo O
+França O
 , O
 A B-MISC
 Imagem I-MISC
@@ -77093,23 +77093,23 @@ Lopes I-PER
 Vieira I-PER
 , O
 Para O
-Pê B-LOC
+Pê B-PER
 ( O
 pese O
-Viol B-PER
+Viol B-MISC
 . O
 500 O
 |
 | O
 — O
-Auto B-LOC
-da I-LOC
-« I-LOC
-Sebenta I-LOC
+Auto B-MISC
+da I-MISC
+« I-MISC
+Sebenta I-MISC
 » O
 . O
 1 O
-vol O
+vol B-MISC
 . O
 . O
 200 O
@@ -77122,20 +77122,20 @@ Saudade I-MISC
 . O
 1 O
 vol O
-É B-MISC
+É O
 |
-| I-MISC
-Lino I-MISC
-d I-MISC
-' I-MISC
-Assumpção I-MISC
+| O
+Lino B-PER
+d I-PER
+' I-PER
+Assumpção I-PER
 , O
-As B-MISC
-monjas I-MISC
-de I-MISC
-Sempre I-MISC
+As O
+monjas O
+de O
+Sempre O
 ( O
-Rico B-PER
+Rico B-LOC
 |
 | O
 situação O
@@ -77145,7 +77145,7 @@ mouastico O
 ) O
 . O
 1 O
-vol O
+vol B-MISC
 . O
 . O
 500 O
@@ -77153,9 +77153,9 @@ vol O
 | O
 - O
 — O
-Nortyres B-LOC
+Nortyres B-PER
 ( O
-Paraphraso B-LOC
+Paraphraso B-PER
 duma O
 lenda O
 christã O
@@ -77178,7 +77178,7 @@ poema O
 ) O
 . O
 1 O
-vol O
+vol B-MISC
 . O
 |
 | O

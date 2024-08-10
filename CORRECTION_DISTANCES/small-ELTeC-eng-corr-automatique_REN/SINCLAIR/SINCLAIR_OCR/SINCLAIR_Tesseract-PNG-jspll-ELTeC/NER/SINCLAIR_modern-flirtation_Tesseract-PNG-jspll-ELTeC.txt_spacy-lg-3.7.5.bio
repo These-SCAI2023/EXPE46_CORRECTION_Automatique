@@ -10,10 +10,10 @@ the O
 | O
 LIBRARY O
 Of O
-the B-ORG
+the O
 |
-| I-ORG
-UNIVERSITY I-ORG
+| O
+UNIVERSITY B-ORG
 OF I-ORG
 TORONTO I-ORG
 |
@@ -45,7 +45,7 @@ _ O
 |
 
 | O
-RAS B-ORG
+RAS O
 ah O
 |
 | O
@@ -74,8 +74,8 @@ red O
 | O
 . O
 “ O
-MoDERN O
-FLIRTATION B-PERSON
+MoDERN B-PERSON
+FLIRTATION O
 . O
 |
 
@@ -88,7 +88,7 @@ FLIRTATION B-PERSON
 | O
 MODERN O
 FLIRTATION B-PERSON
-; O
+  O
 |
 
 | O
@@ -101,7 +101,7 @@ HARROWGATE O
 
 | O
 IN O
-THREE B-DATE
+THREE O
 VOLUMES O
 . O
 |
@@ -120,15 +120,15 @@ SINGULAR O
 AUTHOR O
 OF O
 ( O
-MODERN O
+MODERN B-ORG
 ACCOMPLISHMENTS O
 , O
 ” O
-EIGHTH O
+EIGHTH B-LANGUAGE
 THOUSAND O
-; O
+  O
 “ O
-MODERN O
+MODERN B-ORG
 |
 | O
 SOCIETY B-ORG
@@ -136,28 +136,28 @@ SOCIETY B-ORG
 ” O
 SIXTH O
 THOUSAND O
-; O
+  O
 “ O
 HILL B-ORG
 AND O
-VALLEY B-LOC
+VALLEY B-GPE
 , O
 ” O
 THIRD O
 THOUSAND O
-; O
+  O
 |
 | O
 ‘ O
-SCOTLAND B-WORK_OF_ART
+SCOTLAND B-GPE
 AND O
 THE O
-SCOTCH O
+SCOTCH B-GPE
 , O
 ” O
 THIRD O
 THOUSAND O
-; O
+  O
 “ O
 ‘ O
 SHETLAND O
@@ -171,17 +171,17 @@ SHETLANDERS O
 ” O
 SECOND B-ORDINAL
 THOUSAND O
-; O
+  O
 ‘ O
 HOLIDAY O
-HOUSE O
+HOUSE B-ORG
 , O
 ” O
-THIRD B-ORDINAL
+THIRD O
 |
 | O
-THOUSAND B-ORG
-; O
+THOUSAND O
+  O
 ‘ O
 CHARLIE O
 SEYMOUR O
@@ -249,16 +249,16 @@ weather O
 ” O
 |
 | O
-Ritson B-ORG
-’ I-ORG
-Song I-ORG
+Ritson B-PERSON
+’ I-PERSON
+Song I-PERSON
 . O
 |
 
 | O
 VOL O
 . O
-I. B-ORG
+I. O
 |
 
 | O
@@ -268,14 +268,14 @@ THOUSAND O
 |
 
 | O
-EDINBURGH O
+EDINBURGH B-ORG
 : O
 |
 | O
-WILLIAM B-ORG
-WHITE I-ORG
+WILLIAM O
+WHITE O
 AND O
-ToO O
+ToO B-GPE
 , O
 |
 | O
@@ -284,41 +284,41 @@ TO O
 THE O
 QUEEN O
 DANGER O
-; O
+  O
 |
 
 | O
-LONGMAN O
-, O
-BROWN B-ORG
+LONGMAN B-ORG
+, I-ORG
+BROWN I-ORG
 , O
 AND O
-C0 B-PRODUCT
+C0 O
 . O
 } O
 SINKING O
 , O
-MARSHALL O
+MARSHALL B-PERSON
 , O
 AND O
 CO O
 . O
-; O
-MILTON B-GPE
+  O
+MILTON O
 , O
 |
 | O
-ADAMS O
+ADAMS B-ORG
 , O
 AND O
-CO B-ORG
+CO O
 . O
-; O
+  O
 WHITTAKER B-ORG
 AND O
 CO O
 . O
-; O
+  O
 UNCLEAN B-ORG
 AND O
 MALCOLM B-PERSON
@@ -340,10 +340,10 @@ CO O
 DURING O
 ? O
 AND O
-WILLIAM O
+WILLIAM B-PERSON
 CALLING O
 , O
-GLASGOW B-PERSON
+GLASGOW O
 . O
 |
 
@@ -354,15 +354,15 @@ PR O
 A O
 |
 | O
-S O
-® O
-M O
-& O
+S B-ORG
+® I-ORG
+M I-ORG
+& I-ORG
 |
 
-| O
-v. O
-|||| O
+| I-ORG
+v. I-ORG
+|||| I-ORG
 |
 
 | O
@@ -522,7 +522,7 @@ of O
 hazarding O
 too O
 little O
-; O
+  O
 |
 | O
 and O
@@ -565,7 +565,7 @@ trespass O
 
 | O
 iv O
-PREFACE B-ORG
+PREFACE O
 . O
 |
 
@@ -642,7 +642,7 @@ of O
 the O
 public O
 conscience O
-; O
+  O
 ” O
 but O
 no O
@@ -689,7 +689,7 @@ theatrical O
 enter- O
 |
 | O
-tainments O
+tainments B-ORG
 , O
 affording O
 a O
@@ -828,7 +828,7 @@ poet O
 “ O
 If O
 I O
-one O
+one B-CARDINAL
 soul O
 improve O
 , O
@@ -913,7 +913,7 @@ attractive O
 regions O
 of O
 fiction O
-; O
+  O
 there- O
 |
 | O
@@ -948,9 +948,9 @@ enjoyed O
 , O
 to O
 beguile O
-an O
-idle O
-hour O
+an B-TIME
+idle I-TIME
+hour I-TIME
 , O
 or O
 |
@@ -1227,11 +1227,11 @@ Cleopatra I-WORK_OF_ART
 , O
 or O
 the O
-Memoirs B-ORG
+Memoirs B-WORK_OF_ART
 |
 | O
 of O
-Agrippina B-GPE
+Agrippina B-LOC
 can O
 afford O
 scarcely O
@@ -1302,7 +1302,7 @@ to O
 be O
 personally O
 introduced O
-; O
+  O
 and O
 a O
 large O
@@ -1474,7 +1474,7 @@ the O
 
 | O
 viii O
-PREFACE B-ORG
+PREFACE O
 . O
 |
 
@@ -1534,7 +1534,7 @@ the O
 |
 | O
 senses O
-; O
+  O
 and O
 history O
 , O
@@ -1850,7 +1850,7 @@ to O
 any O
 family O
 circle O
-; O
+  O
 |
 | O
 and O
@@ -1942,7 +1942,7 @@ mutual O
 confidence O
 or O
 esteem O
-; O
+  O
 but O
 such O
 |
@@ -1967,7 +1967,7 @@ us- O
 pinions O
 and O
 unwarrantable O
-concealments O
+concealments B-PERSON
 |
 | O
 on O
@@ -1976,7 +1976,7 @@ part O
 of O
 heroes O
 and O
-heroines B-CARDINAL
+heroines O
 , O
 who O
 |
@@ -2105,7 +2105,7 @@ had O
 taken O
 up O
 a O
-porch- O
+porch- B-NORP
 |
 | O
 pine O
@@ -2135,12 +2135,12 @@ yet O
 been O
 drawn O
 from O
-the O
-scab- O
+the B-ORG
+scab- I-ORG
 |
 
-| O
-PREFACE O
+| I-ORG
+PREFACE I-ORG
 . O
 xi O
 |
@@ -2159,7 +2159,7 @@ their O
 |
 | O
 justification O
-; O
+  O
 but O
 the O
 weight O
@@ -2357,8 +2357,8 @@ Christianity B-NORP
 
 | O
 When O
-Dr B-PERSON
-Johnson I-PERSON
+Dr O
+Johnson B-PERSON
 remarked O
 once O
 that O
@@ -2415,7 +2415,7 @@ like O
 | O
 great O
 whales O
-; O
+  O
 ” O
 and O
 on O
@@ -2597,11 +2597,11 @@ journaliz- O
 | O
 PREFACE O
 . O
-xiii O
+xiii B-PERSON
 |
 
-| O
-ing O
+| I-PERSON
+ing I-PERSON
 a O
 history O
 of O
@@ -2914,7 +2914,7 @@ author O
 than O
 the O
 excellent O
-Bunyan B-NORP
+Bunyan B-PERSON
 : O
 |
 
@@ -2941,7 +2941,7 @@ in O
 black O
 and O
 white O
-; O
+  O
 |
 | O
 For O
@@ -2959,7 +2959,7 @@ end O
 Still O
 as O
 I O
-pull’d O
+pull’d B-GPE
 it O
 came O
 , O
@@ -3025,7 +3025,7 @@ he O
 take O
 a O
 wife O
-; O
+  O
 |
 
 | O
@@ -3150,10 +3150,10 @@ I. B-ORG
 A I-ORG
 |
 
-| I-ORG
-2 I-ORG
-MODERN I-ORG
-FLIRTATION I-ORG
+| O
+2 B-CARDINAL
+MODERN O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -3234,7 +3234,7 @@ such O
 as O
 |
 | O
-Titian B-NORP
+Titian B-PERSON
 might O
 have O
 painted O
@@ -3272,12 +3272,12 @@ arm O
 chair O
 at O
 the O
-United B-ORG
+United B-GPE
 Her- O
 |
 | O
 vice O
-Club B-GPE
+Club B-ORG
 in O
 Edinburgh B-GPE
 , O
@@ -3360,7 +3360,7 @@ Sir O
 Arthur B-PERSON
 Dunbar I-PERSON
 , O
-G.C.B. B-GPE
+G.C.B. B-ORG
 , O
 is O
 yet O
@@ -3416,20 +3416,20 @@ Rodney B-PERSON
 ’s O
 engagement O
 during O
-the O
-year O
+the B-DATE
+year I-DATE
 |
 
-| O
-MODERN O
-FLIRTATION B-PERSON
+| I-DATE
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 3 B-CARDINAL
 |
 
 | O
 ° O
-82 B-CARDINAL
+82 O
 , O
 the O
 Amiable B-ORG
@@ -3446,14 +3446,14 @@ cheerfulness O
 invariable O
 , O
 at O
-the B-FAC
-advance- I-FAC
+the O
+advance- O
 |
-| I-FAC
-end I-FAC
-age I-FAC
-of I-FAC
-70 I-FAC
+| O
+end O
+age O
+of O
+70 O
 . O
 ” O
 |
@@ -3525,7 +3525,7 @@ back O
 of O
 his O
 chair O
-; O
+  O
 and O
 then O
 |
@@ -3534,7 +3534,7 @@ crumpling O
 up O
 the O
 offending O
-Country B-ORG
+Country O
 with O
 an O
 |
@@ -3570,7 +3570,7 @@ penny O
 a O
 - O
 line O
-; O
+  O
 but O
 if O
 I O
@@ -3607,7 +3607,7 @@ him O
 off O
 with O
 a O
-shilling,—or B-PERSON
+shilling,—or O
 rather O
 |
 | O
@@ -3767,11 +3767,11 @@ agreeable O
 and O
 . O
 fascinating O
-Corner B-GPE
-De I-GPE
+Corner B-FAC
+De I-FAC
 |
-| I-GPE
-Crespigny I-GPE
+| I-FAC
+Crespigny I-FAC
 , O
 of O
 the O
@@ -3783,9 +3783,9 @@ now O
 in O
 |
 | O
-his B-DATE
-eighteenth I-DATE
-year I-DATE
+his O
+eighteenth O
+year O
 , O
 is O
 still O
@@ -3818,7 +3818,7 @@ you O
 and O
 I O
 , O
-Admire B-PERSON
+Admire O
 ! O
 ” O
 |
@@ -3842,7 +3842,7 @@ breaking O
 into O
 a O
 smile O
-; O
+  O
 “ O
 and O
 perhaps O
@@ -3874,12 +3874,12 @@ me O
 ten B-DATE
 years I-DATE
 |
-| I-DATE
-older I-DATE
+| O
+older O
 than O
 I O
 am O
-; O
+  O
 besides O
 which O
 , O
@@ -3949,7 +3949,7 @@ die O
 for O
 our O
 country O
-; O
+  O
 but O
 now O
 , O
@@ -4006,8 +4006,8 @@ off O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 3 B-CARDINAL
 |
@@ -4356,7 +4356,7 @@ and O
 my O
 nephew O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 who O
 would O
@@ -4405,8 +4405,8 @@ a O
 note O
 yesterday B-DATE
 at O
-Wait B-ORG
-’s I-ORG
+Wait O
+’s O
 |
 | O
 auction O
@@ -4442,11 +4442,11 @@ in O
 his O
 pocket O
 for O
-many O
-a O
+many B-DATE
+a I-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 , O
 and O
 he O
@@ -4553,7 +4553,7 @@ forget O
 ” O
 replied O
 the O
-Amiable B-ORG
+Amiable O
 , O
 |
 | O
@@ -4582,7 +4582,7 @@ mort- O
 MODERN O
 FLIRTATION B-PERSON
 . O
-7 O
+7 B-CARDINAL
 |
 
 | O
@@ -4672,8 +4672,8 @@ no O
 | O
 questions O
 ! O
-Tricks B-PERSON
-Dunbar I-PERSON
+Tricks O
+Dunbar B-PERSON
 has O
 caused O
 me O
@@ -4700,9 +4700,9 @@ that O
 proud O
 snuff O
 - O
-the O
-- O
-moon O
+the B-LOC
+- I-LOC
+moon I-LOC
 look O
 |
 | O
@@ -4768,7 +4768,7 @@ Arthur B-PERSON
 that O
 |
 | O
-Dunbar B-LOC
+Dunbar B-PERSON
 is O
 in O
 immense O
@@ -4802,7 +4802,7 @@ handsomest O
 countenance O
 in O
 Scotland B-GPE
-; O
+  O
 — O
 as O
 my O
@@ -4975,7 +4975,7 @@ sight O
 between O
 this O
 and O
-Whitehall O
+Whitehall B-ORG
 ! O
 ” O
 |
@@ -5019,7 +5019,7 @@ supply O
 |
 | O
 them O
-; O
+  O
 and O
 he O
 might O
@@ -5094,7 +5094,7 @@ high O
 spirited O
 friend O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 , O
 the O
 |
@@ -5150,7 +5150,7 @@ peopled O
 with O
 such O
 men O
-; O
+  O
 but O
 he O
 promises O
@@ -5160,7 +5160,7 @@ him- O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 9 B-CARDINAL
@@ -5210,8 +5210,8 @@ the O
 better O
 ! O
 Let O
-Tricks B-GPE
-Dunbar I-GPE
+Tricks O
+Dunbar B-PERSON
 ex- O
 |
 | O
@@ -5243,8 +5243,8 @@ bargain O
 
 | O
 “ O
-Pardon B-WORK_OF_ART
-me I-WORK_OF_ART
+Pardon O
+me O
 , O
 there O
 , O
@@ -5301,7 +5301,7 @@ seatter O
 - O
 brained O
 youé O
-; O
+  O
 but O
 I O
 must O
@@ -5421,7 +5421,7 @@ me O
 said O
 the O
 young O
-Corner O
+Corner B-GPE
 , O
 turn- O
 |
@@ -5431,7 +5431,7 @@ away O
 with O
 a O
 smile O
-; O
+  O
 but O
 it O
 was O
@@ -5492,13 +5492,13 @@ bad O
 as O
 that O
 . O
-Dunbar O
+Dunbar B-PERSON
 has O
 |
 | O
 his O
 faults O
-; O
+  O
 he O
 wears O
 them O
@@ -5512,7 +5512,7 @@ and O
 attempts O
 no O
 disguise O
-; O
+  O
 but O
 there O
 are O
@@ -5711,7 +5711,7 @@ pebble O
 in O
 the O
 stream O
-; O
+  O
 |
 | O
 but O
@@ -5742,7 +5742,7 @@ girls O
 , O
 my O
 pieces O
-; O
+  O
 and O
 I O
 can O
@@ -5764,7 +5764,7 @@ and O
 MODERN O
 FLIRTATION B-PERSON
 . O
-il O
+il B-PERSON
 |
 
 | O
@@ -5978,7 +5978,7 @@ I O
 shall O
 propose O
 to O
-one B-CARDINAL
+one O
 or O
 both O
 of O
@@ -6034,7 +6034,7 @@ several B-DATE
 years I-DATE
 the O
 eldest O
-; O
+  O
 and O
 I O
 like O
@@ -6047,7 +6047,7 @@ pa- O
 | O
 12 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -6058,7 +6058,7 @@ of O
 marrying O
 by O
 seniority O
-; O
+  O
 be- O
 |
 | O
@@ -6110,7 +6110,7 @@ day I-DATE
 |
 | O
 life O
-; O
+  O
 ‘ O
 but O
 little O
@@ -6142,9 +6142,9 @@ indeed O
 It O
 will O
 be O
-a B-DATE
-dark I-DATE
-day I-DATE
+a O
+dark O
+day O
 for O
 |
 | O
@@ -6162,7 +6162,7 @@ at O
 |
 | O
 all O
-; O
+  O
 and O
 being O
 now O
@@ -6273,7 +6273,7 @@ think O
 replied O
 the O
 young O
-Corner B-PRODUCT
+Corner B-LOC
 , O
 in O
 his O
@@ -6297,7 +6297,7 @@ marry O
 on O
 a O
 competence O
-; O
+  O
 there O
 is O
 a O
@@ -6324,7 +6324,7 @@ in O
 marrying O
 on O
 wealth O
-; O
+  O
 |
 | O
 but O
@@ -6368,9 +6368,9 @@ starvation O
 on O
 a O
 Corner B-ORG
-’s I-ORG
+’s O
 pay O
-; O
+  O
 |
 | O
 and O
@@ -6399,7 +6399,7 @@ into O
 |
 | O
 horses O
-; O
+  O
 but O
 in O
 the O
@@ -6471,8 +6471,8 @@ conquer O
 |
 | O
 added O
-Mr B-PERSON
-De I-PERSON
+Mr O
+De B-PERSON
 Crespigny I-PERSON
 , O
 in O
@@ -6522,7 +6522,7 @@ Is O
 it O
 across O
 the O
-Queensferry B-PERSON
+Queensferry B-ORG
 , O
 or O
 where O
@@ -6555,7 +6555,7 @@ would O
 |
 | O
 appear O
-; O
+  O
 for O
 did O
 I O
@@ -6637,21 +6637,21 @@ footsteps O
 
 | O
 “ O
-Impossible O
+Impossible B-WORK_OF_ART
 ! O
 ! O
 ! O
 ” O
 exclaimed O
 young O
-De O
+De B-ORG
 Cries- O
 |
 
 | O
 14 B-CARDINAL
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 |
 
@@ -6880,7 +6880,7 @@ Sir O
 Arthur B-PERSON
 , O
 jestingly O
-; O
+  O
 “ O
 that O
 |
@@ -6926,13 +6926,13 @@ which O
 nearly O
 covered O
 it O
-; O
+  O
 and O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 15 B-CARDINAL
 |
@@ -7000,7 +7000,7 @@ to O
 the O
 cold O
 air O
-; O
+  O
 enumerated O
 a O
 |
@@ -7012,7 +7012,7 @@ remedies O
 for O
 decayed O
 teeth O
-; O
+  O
 |
 | O
 suggested O
@@ -7055,7 +7055,7 @@ dinner O
 |
 | O
 at O
-Portobello B-WORK_OF_ART
+Portobello B-GPE
 . O
 |
 
@@ -7178,7 +7178,7 @@ dinner O
 | O
 I O
 consider O
-it’an B-LOC
+it’an O
 imposition O
 to O
 ask O
@@ -7209,7 +7209,7 @@ FLIRTATION B-PERSON
 | O
 can O
 furnish O
-; O
+  O
 and O
 you O
 may O
@@ -7234,8 +7234,8 @@ door O
 “ O
 hot O
 joints O
-every B-DATE
-day I-DATE
+every O
+day O
 ! O
 ’ O
 ” O
@@ -7269,7 +7269,7 @@ antici- O
 nations O
 were O
 directed O
-; O
+  O
 and O
 there O
 , O
@@ -7360,7 +7360,7 @@ under O
 such O
 false O
 pretences O
-; O
+  O
 but O
 |
 | O
@@ -7383,7 +7383,7 @@ my O
 cottage O
 can O
 produce O
-; O
+  O
 aged O
 as O
 |
@@ -7460,7 +7460,7 @@ to O
 me O
 to O
 ’ O
-Escurial O
+Escurial B-NORP
 . O
 ’ O
 ” O
@@ -7503,8 +7503,8 @@ receded O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 17 B-CARDINAL
 |
@@ -7575,7 +7575,7 @@ eyes O
 |
 
 | O
-Day B-DATE
+Day O
 after O
 day O
 passed O
@@ -7657,7 +7657,7 @@ Week B-DATE
 |
 | I-DATE
 after I-DATE
-week I-DATE
+week B-DATE
 elapsed O
 , O
 and O
@@ -7699,7 +7699,7 @@ would O
 “ O
 cast O
 up O
-; O
+  O
 ” O
 but O
 |
@@ -7793,7 +7793,7 @@ man O
 ” O
 |
 | O
-Worpswormut B-PERSON
+Worpswormut O
 , O
 |
 
@@ -7823,15 +7823,15 @@ formerly O
 | O
 been O
 Sir O
-Tricks B-PERSON
-Dunbar I-PERSON
+Tricks O
+Dunbar B-PERSON
 and O
 Louis B-PERSON
 de I-PERSON
 Cries- I-PERSON
 |
-| O
-pigny O
+| I-PERSON
+pigny I-PERSON
 , O
 who O
 astonished O
@@ -7938,8 +7938,8 @@ exploit O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 19 B-CARDINAL
 |
@@ -7984,7 +7984,7 @@ the O
 |
 | O
 classes O
-; O
+  O
 but O
 their O
 delight O
@@ -8059,8 +8059,8 @@ the O
 15th B-ORDINAL
 |
 | O
-Light B-FAC
-Huzzars I-FAC
+Light B-PERSON
+Huzzars I-PERSON
 , O
 had O
 shown O
@@ -8247,7 +8247,7 @@ enjoy- O
 |
 | O
 ment O
-; O
+  O
 and O
 , O
 on O
@@ -8291,7 +8291,7 @@ but O
 | O
 cold O
 water O
-; O
+  O
 in O
 which O
 exhibition O
@@ -8354,7 +8354,7 @@ occa- O
 | O
 soon O
 Sir O
-Tricks B-PERSON
+Tricks O
 caused O
 himself O
 to O
@@ -8459,8 +8459,8 @@ enter- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 21 B-CARDINAL
 |
@@ -8470,7 +8470,7 @@ price O
 , O
 at O
 Mr O
-Brownlow O
+Brownlow B-PERSON
 ’s O
 , O
 a O
@@ -8564,7 +8564,7 @@ they O
 were O
 nearly O
 unrivalled O
-; O
+  O
 and O
 occasionally O
 their O
@@ -8796,8 +8796,8 @@ of O
 friends O
 with O
 him O
-one O
-evening O
+one B-TIME
+evening I-TIME
 to O
 the O
 |
@@ -8805,7 +8805,7 @@ the O
 theatre O
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 suddenly O
 discharged O
 from O
@@ -8863,7 +8863,7 @@ laughter O
 throughout O
 the O
 house O
-; O
+  O
 and O
 the O
 |
@@ -8898,7 +8898,7 @@ dresser O
 , O
 and O
 having O
-quite- O
+quite- B-NORP
 |
 | O
 red O
@@ -8977,7 +8977,7 @@ upon O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 23 B-CARDINAL
 |
@@ -9003,7 +9003,7 @@ strong O
 |
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 argued O
 his O
 own O
@@ -9080,7 +9080,7 @@ men- O
 sure O
 or O
 disgrace O
-; O
+  O
 and O
 soon O
 after O
@@ -9100,7 +9100,7 @@ De B-PERSON
 Crespigny I-PERSON
 and O
 Sir O
-Tricks B-PERSON
+Tricks O
 had O
 but O
 one B-CARDINAL
@@ -9228,7 +9228,7 @@ of O
 envy O
 to O
 many O
-; O
+  O
 though O
 |
 | O
@@ -9403,8 +9403,8 @@ exercises O
 suited O
 to O
 his O
-early B-DATE
-years I-DATE
+early O
+years O
 . O
 His O
 countenance O
@@ -9424,8 +9424,8 @@ energy O
 , O
 at O
 times O
-almost B-TIME
-sublime I-TIME
+almost O
+sublime O
 , O
 while O
 |
@@ -9499,7 +9499,7 @@ in O
 his O
 own O
 county O
-; O
+  O
 but O
 he O
 firmly O
@@ -9520,7 +9520,7 @@ on O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 25 B-CARDINAL
 |
@@ -9581,7 +9581,7 @@ jockey O
 ology O
 , O
 young O
-Glanville B-PERSON
+Glanville B-ORG
 said O
 all O
 that O
@@ -9623,7 +9623,7 @@ vain O
 , O
 for O
 Sir O
-Tricks B-PERSON
+Tricks O
 finished O
 the O
 dis- O
@@ -9665,14 +9665,14 @@ me O
 |
 | O
 till O
-thirty B-CARDINAL
+thirty B-DATE
 , O
 ” O
 said O
 the O
 young O
 baronet O
-; O
+  O
 “ O
 and O
 I O
@@ -9732,7 +9732,7 @@ of O
 |
 | O
 young O
-Glanville B-PERSON
+Glanville B-ORG
 in O
 the O
 room O
@@ -9782,7 +9782,7 @@ display O
 , O
 while O
 Sir O
-Tricks B-PERSON
+Tricks O
 and O
 De B-PERSON
 |
@@ -9803,13 +9803,13 @@ too O
 good O
 for O
 them O
-; O
+  O
 ” O
 and O
 avoid- O
 |
 | O
-VoL B-WORK_OF_ART
+VoL O
 , O
 1 B-CARDINAL
 . O
@@ -9875,8 +9875,8 @@ interests O
 of O
 |
 | O
-all O
-three B-CARDINAL
+all B-CARDINAL
+three I-CARDINAL
 were O
 so O
 deeply O
@@ -9891,8 +9891,8 @@ so O
 exceedingly O
 complicated O
 , O
-that B-DATE
-years I-DATE
+that O
+years B-DATE
 |
 | O
 passed O
@@ -9918,7 +9918,7 @@ remained O
 | O
 still O
 undecided O
-; O
+  O
 while O
 the O
 one B-CARDINAL
@@ -9931,7 +9931,7 @@ which O
 was O
 given O
 to O
-Unbar B-GPE
+Unbar B-PERSON
 and O
 De B-PERSON
 Crespigny I-PERSON
@@ -9975,12 +9975,12 @@ enthusiastically O
 desirous O
 to O
 enter O
-the B-ORG
-End- I-ORG
+the O
+End- O
 |
-| I-ORG
-wish I-ORG
-church I-ORG
+| O
+wish O
+church O
 , O
 and O
 devote O
@@ -10021,7 +10021,7 @@ all O
 
 | O
 A O
-Scotch B-GPE
+Scotch B-NORP
 law O
 - O
 suit O
@@ -10077,8 +10077,8 @@ reach O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 27 B-CARDINAL
 |
@@ -10100,7 +10100,7 @@ but O
 no O
 apparent O
 progress O
-; O
+  O
 or O
 |
 | O
@@ -10152,7 +10152,7 @@ than O
 before O
 . O
 The O
-Glanville B-GPE
+Glanville B-ORG
 case O
 had O
 been O
@@ -10173,7 +10173,7 @@ you- O
 | O
 sins O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 and O
 De B-PERSON
 Crespigny I-PERSON
@@ -10297,15 +10297,15 @@ estate O
 of O
 |
 | O
-L.12,000 B-PERSON
+L.12,000 O
 a B-DATE
 - I-DATE
 year I-DATE
 from O
-the B-FAC
-Marquis I-FAC
-of I-FAC
-Donald- I-FAC
+the O
+Marquis B-PERSON
+of O
+Donald- O
 |
 | O
 her O
@@ -10322,7 +10322,7 @@ now O
 heir O
 - O
 presumptive O
-; O
+  O
 but O
 Mr O
 Dunbar B-PERSON
@@ -10404,9 +10404,9 @@ to O
 the O
 late O
 Mr O
-Glanville O
+Glanville B-PERSON
 for O
-L.350,000 O
+L.350,000 B-PRODUCT
 , O
 and O
 |
@@ -10495,10 +10495,10 @@ the O
 estate O
 back O
 to O
-Lord O
+Lord B-ORG
 |
-| O
-Downcast O
+| I-ORG
+Downcast I-ORG
 , O
 or O
 whether O
@@ -10515,7 +10515,7 @@ as O
 to O
 entitled O
 the O
-Glanville B-PERSON
+Glanville B-ORG
 family O
 |
 | O
@@ -10542,10 +10542,10 @@ from O
 the O
 heirs O
 of O
-Mr B-FAC
+Mr O
 |
-| I-FAC
-Dunbar I-FAC
+| O
+Dunbar B-PERSON
 , O
 still O
 continued O
@@ -10589,7 +10589,7 @@ sons O
 , O
 all O
 strict O
-Artists B-LANGUAGE
+Artists O
 , O
 |
 | O
@@ -10615,7 +10615,7 @@ upon- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 29 B-CARDINAL
 ) O
@@ -10633,7 +10633,7 @@ grew O
 , O
 for O
 not O
-one O
+one B-CARDINAL
 |
 
 | O
@@ -10663,7 +10663,7 @@ he O
 | O
 created O
 himself O
-; O
+  O
 and O
 a O
 long O
@@ -10980,7 +10980,7 @@ be O
 “ O
 almost O
 incredible O
-; O
+  O
 ” O
 and O
 it O
@@ -11068,7 +11068,7 @@ possession O
 | O
 There O
 was O
-one B-CARDINAL
+one O
 singular O
 peculiarity O
 in O
@@ -11078,7 +11078,7 @@ the O
 settlements O
 of O
 Lord O
-Downcast O
+Downcast B-PERSON
 ’s O
 family O
 , O
@@ -11106,7 +11106,7 @@ one I-CARDINAL
 declared O
 himself O
 a O
-Protestant O
+Protestant B-NORP
 , O
 he O
 |
@@ -11132,7 +11132,7 @@ a- O
 |
 | O
 price O
-; O
+  O
 and O
 the O
 ancestor O
@@ -11156,7 +11156,7 @@ intention O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 31 B-CARDINAL
 |
@@ -11186,7 +11186,7 @@ Pro- O
 | O
 instant O
 her O
-; O
+  O
 but O
 the O
 present O
@@ -11228,13 +11228,13 @@ sisters O
 Lady B-PERSON
 Charlotte I-PERSON
 |
-| O
-De B-PERSON
+| I-PERSON
+De I-PERSON
 Crespigny I-PERSON
 , O
 and O
-Lady B-PERSON
-Caroline I-PERSON
+Lady O
+Caroline B-PERSON
 Smytheson I-PERSON
 , O
 |
@@ -11266,7 +11266,7 @@ every O
 acre O
 into O
 gold O
-; O
+  O
 yet O
 no O
 one O
@@ -11634,7 +11634,7 @@ in O
 law O
 of O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 having O
 pur- O
@@ -11644,8 +11644,8 @@ chased O
 most O
 of O
 the O
-De O
-Crespigny O
+De B-PERSON
+Crespigny I-PERSON
 estates O
 , O
 as O
@@ -11686,7 +11686,7 @@ an O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 33 B-CARDINAL
 |
@@ -11869,8 +11869,8 @@ The O
 private O
 vices O
 of O
-Lord B-ORG
-Downcast I-ORG
+Lord O
+Downcast B-PERSON
 had O
 |
 | O
@@ -11891,7 +11891,7 @@ little O
 could O
 be O
 known O
-; O
+  O
 yet O
 , O
 while O
@@ -11931,7 +11931,7 @@ more O
 |
 | O
 being O
-one O
+one B-CARDINAL
 of O
 those O
 personages O
@@ -11988,7 +11988,7 @@ royal O
 | O
 liberality O
 . O
-Wearied O
+Wearied B-PERSON
 of O
 the O
 world O
@@ -12124,7 +12124,7 @@ of O
 his O
 superfluous O
 fortune O
-; O
+  O
 but O
 he O
 set- O
@@ -12174,10 +12174,10 @@ all O
 parsimonious O
 men O
 , O
-Lord O
+Lord B-PERSON
 |
-| O
-Downcast O
+| I-PERSON
+Downcast I-PERSON
 could O
 not O
 endure O
@@ -12240,17 +12240,17 @@ audibly O
 giving O
 out O
 Lord O
-Towercliffe B-ORG
+Towercliffe B-PERSON
 ’s O
 fortune O
 |
 | O
 to O
 be O
-A.15,000 B-CARDINAL
-a O
-- O
-year O
+A.15,000 B-GPE
+a B-DATE
+- I-DATE
+year I-DATE
 , O
 and O
 estimating O
@@ -12259,8 +12259,8 @@ friend O
 |
 | O
 Sir O
-Tricks B-PERSON
-Dunbar I-PERSON
+Tricks O
+Dunbar B-PERSON
 ’s O
 rent O
 - O
@@ -12272,7 +12272,7 @@ sum O
 |
 | O
 of O
-L.20,000 B-LANGUAGE
+L.20,000 B-GPE
 per O
 anne O
 , O
@@ -12296,7 +12296,7 @@ heard O
 | O
 for O
 the O
-fortieth O
+fortieth B-ORDINAL
 time O
 , O
 an O
@@ -12347,7 +12347,7 @@ time O
 resolved O
 , O
 Lord O
-Downcast O
+Downcast B-PERSON
 delighted O
 to O
 read O
@@ -12395,13 +12395,13 @@ his O
 | O
 moors O
 in O
-Argyleshire B-GPE
+Argyleshire B-FAC
 , O
 Mid O
 - O
 Nothing O
 , O
-Yorkshire B-PERSON
+Yorkshire B-GPE
 , O
 |
 | O
@@ -12466,7 +12466,7 @@ Don- O
 
 | O
 386 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -12553,7 +12553,7 @@ cheats O
 or O
 is O
 cheated O
-; O
+  O
 |
 | O
 but O
@@ -12566,7 +12566,7 @@ one B-CARDINAL
 only O
 , O
 his O
-Lordship B-ORG
+Lordship O
 |
 | O
 had O
@@ -12654,8 +12654,8 @@ Howard B-PERSON
 was O
 |
 | O
-Mrs B-PERSON
-Anstruther I-PERSON
+Mrs O
+Anstruther B-PERSON
 , O
 a O
 distant O
@@ -12731,7 +12731,7 @@ an O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 37 B-CARDINAL
 |
@@ -12741,13 +12741,13 @@ almost O
 menial O
 capacity O
 at O
-Beanjolie B-PERSON
-Castle I-PERSON
+Beanjolie B-FAC
+Castle I-FAC
 , O
 in O
 |
 | O
-Yorkshire B-PERSON
+Yorkshire B-GPE
 , O
 where O
 , O
@@ -12787,7 +12787,7 @@ whipping O
 boys O
 ” O
 in O
-Charles B-GPE
+Charles O
 the O
 First B-ORDINAL
 ’s O
@@ -12807,10 +12807,10 @@ and O
 niece O
 during O
 their O
-hold- B-DATE
+hold- O
 |
-| I-DATE
-day I-DATE
+| O
+day O
 visits O
 to O
 his O
@@ -12925,10 +12925,10 @@ early I-DATE
 age I-DATE
 , O
 he O
-destroy- O
+destroy- B-ORG
 |
 | O
-fed B-ORG
+fed O
 their O
 self O
 - O
@@ -12970,7 +12970,7 @@ in O
 his O
 |
 | O
-Lordship B-ORG
+Lordship O
 ’s O
 indictment O
 , O
@@ -13001,7 +13001,7 @@ FLIRTATION B-PERSON
 | O
 unhappy O
 dependent O
-; O
+  O
 and O
 many O
 a O
@@ -13073,7 +13073,7 @@ pa- O
 | O
 bronze O
 the O
-Anstruthers B-PRODUCT
+Anstruthers B-ORG
 , O
 and O
 threatened O
@@ -13096,7 +13096,7 @@ Louis B-PERSON
 | I-PERSON
 De I-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 conduct O
 did O
 not O
@@ -13235,7 +13235,7 @@ the O
 sunshine O
 of O
 Lord O
-Downcast O
+Downcast B-PERSON
 ’s O
 |
 | O
@@ -13247,15 +13247,15 @@ young O
 relative O
 or O
 not O
-; O
+  O
 |
 
 | O
-\ B-PRODUCT
+\ O
 |
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 39 B-CARDINAL
 |
@@ -13354,7 +13354,7 @@ consult O
 the O
 two B-CARDINAL
 young O
-Anstruthers B-PRODUCT
+Anstruthers B-ORG
 , O
 like O
 weeds O
@@ -13372,7 +13372,7 @@ upon O
 | O
 grew O
 up O
-Vigorous B-DATE
+Vigorous O
 in O
 body O
 , O
@@ -13410,7 +13410,7 @@ long O
 the O
 only O
 redeeming O
-qua- O
+qua- B-CARDINAL
 |
 | O
 pity O
@@ -13581,7 +13581,7 @@ bread O
 | O
 before O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 he O
 would O
@@ -13760,7 +13760,7 @@ mice O
 |
 
 | O
-Bold B-PERSON
+Bold O
 , O
 fearless O
 , O
@@ -13985,8 +13985,8 @@ dependent O
 , O
 ” O
 would O
-one B-CARDINAL
-day O
+one B-DATE
+day I-DATE
 become O
 his O
 own O
@@ -14040,7 +14040,7 @@ day O
 - O
 dreams O
 of O
-Earnest B-LOC
+Earnest B-PERSON
 , O
 which O
 |
@@ -14077,7 +14077,7 @@ carefully O
 collected O
 in O
 the O
-Peerage O
+Peerage B-ORG
 all O
 the O
 |
@@ -14113,7 +14113,7 @@ twenty O
 intermediate O
 |
 | O
-heirs,—he B-PERSON
+heirs,—he O
 remembered O
 that O
 neither O
@@ -14121,7 +14121,7 @@ Louis B-PERSON
 nor O
 |
 | O
-Caroline B-GPE
+Caroline B-PERSON
 had O
 yet O
 endured O
@@ -14144,8 +14144,8 @@ in O
 short O
 , O
 if O
-their B-DATE
-days I-DATE
+their O
+days O
 had O
 been O
 measured O
@@ -14362,7 +14362,7 @@ two B-CARDINAL
 |
 | O
 young O
-Anstruthers B-PRODUCT
+Anstruthers B-ORG
 , O
 and O
 perfected O
@@ -14380,7 +14380,7 @@ when O
 after O
 |
 | O
-Earnest B-PERSON
+Earnest O
 had O
 attained O
 the B-DATE
@@ -14408,15 +14408,15 @@ adoption O
 , O
 caused O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 |
 | O
 or O
 rather O
-the B-PRODUCT
-Ebbé I-PRODUCT
-Mordaunt I-PRODUCT
+the O
+Ebbé B-PERSON
+Mordaunt I-PERSON
 , O
 unexpectedly O
 |
@@ -14464,7 +14464,7 @@ hovered O
 for O
 certain O
 . O
-Earnest O
+Earnest B-PERSON
 was O
 reported O
 to O
@@ -14493,16 +14493,16 @@ relation O
 , O
 that O
 Lord O
-Downcast O
+Downcast B-PERSON
 intended O
 to O
 |
 | O
 marry O
-the B-PRODUCT
-Ebbé I-PRODUCT
-Mordaunt I-PRODUCT
-’s I-PRODUCT
+the O
+Ebbé B-PERSON
+Mordaunt I-PERSON
+’s O
 beautiful O
 niece O
 , O
@@ -14522,15 +14522,15 @@ near O
 Edinburgh B-GPE
 . O
 The O
-Ebbé B-ORG
+Ebbé B-PRODUCT
 was O
 said O
 to O
 have O
-miss- B-PERSON
+miss- O
 |
-| I-PERSON
-de I-PERSON
+| O
+de O
 some O
 valuable O
 jewels O
@@ -14546,7 +14546,7 @@ who O
 accused O
 both O
 the O
-Anstruthers O
+Anstruthers B-ORG
 of O
 |
 | O
@@ -14555,7 +14555,7 @@ been O
 seen O
 in O
 her O
-room,—a B-NORP
+room,—a B-GPE
 large O
 sum O
 of O
@@ -14638,7 +14638,7 @@ that O
 Louis B-PERSON
 De I-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 assiduities O
 |
 | O
@@ -14663,7 +14663,7 @@ against O
 | O
 her O
 character O
-; O
+  O
 but O
 whatever O
 might O
@@ -14679,10 +14679,10 @@ both O
 hastily O
 transferred O
 on O
-a B-TIME
+a O
 |
-| I-TIME
-few I-TIME
+| O
+few B-TIME
 hours I-TIME
 ’ O
 notice O
@@ -14690,11 +14690,11 @@ from O
 the O
 splendours O
 of O
-Oil- O
+Oil- B-CARDINAL
 |
 | O
 marnock O
-Abbey B-PERSON
+Abbey O
 , O
 to O
 a O
@@ -14704,7 +14704,7 @@ lodging O
 at O
 |
 | O
-Portobello B-WORK_OF_ART
+Portobello O
 . O
 As O
 Earnest B-PERSON
@@ -14753,10 +14753,10 @@ faces O
 , O
 when O
 the O
-Ebbé O
+Ebbé B-PERSON
 |
 | O
-Mordaunt O
+Mordaunt B-PERSON
 advancing O
 silently O
 , O
@@ -14818,7 +14818,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 45 B-CARDINAL
 |
@@ -14931,7 +14931,7 @@ lips O
 | O
 of O
 Lord O
-Downcast O
+Downcast B-PERSON
 or O
 the O
 Ebbé B-PRODUCT
@@ -14978,7 +14978,7 @@ than O
 |
 | O
 ever O
-; O
+  O
 but O
 though O
 many O
@@ -15019,10 +15019,10 @@ returned O
 no O
 more O
 to O
-Kilmarnock B-ORG
+Kilmarnock B-GPE
 |
-| I-ORG
-Abbey I-ORG
+| O
+Abbey O
 , O
 and O
 that O
@@ -15052,8 +15052,8 @@ Downcast O
 About O
 this O
 time O
-Mrs B-PERSON
-Bridget I-PERSON
+Mrs O
+Bridget B-PERSON
 Smytheson I-PERSON
 |
 | O
@@ -15113,7 +15113,7 @@ disliked O
 , O
 that O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 piqued O
 and O
@@ -15130,8 +15130,8 @@ his O
 sister O
 |
 | O
-Lady B-PERSON
-Caroline I-PERSON
+Lady O
+Caroline B-PERSON
 ’s O
 dying O
 inundation O
@@ -15192,11 +15192,11 @@ engaged O
 |
 | O
 “ O
-Certainly B-WORK_OF_ART
-, I-WORK_OF_ART
-Lord I-WORK_OF_ART
-Downcast I-WORK_OF_ART
-; O
+Certainly O
+, O
+Lord O
+Downcast B-PERSON
+  O
 and O
 I O
 shall O
@@ -15231,7 +15231,7 @@ tone O
 of O
 fantastic O
 affectation O
-; O
+  O
 “ O
 but O
 these O
@@ -15267,7 +15267,7 @@ begin O
 their O
 married O
 lives O
-; O
+  O
 and O
 |
 | O
@@ -15317,7 +15317,7 @@ romance O
 in O
 my O
 composition O
-; O
+  O
 and O
 when O
 they O
@@ -15366,7 +15366,7 @@ girl O
 ” O
 thought O
 Lord O
-Monastery O
+Monastery B-PERSON
 , O
 as O
 he O
@@ -15411,7 +15411,7 @@ insane O
 out O
 of O
 bedlam O
-; O
+  O
 and O
 that O
 mad O
@@ -15470,8 +15470,8 @@ FLIRTATION B-PERSON
 |
 
 | O
-CHAPTER O
-III O
+CHAPTER B-LAW
+III I-LAW
 . O
 |
 
@@ -15551,10 +15551,10 @@ enjoyed O
 At O
 |
 | O
-a B-DATE
-very I-DATE
-early I-DATE
-age I-DATE
+a O
+very O
+early O
+age O
 , O
 he O
 was O
@@ -15569,7 +15569,7 @@ world O
 and O
 its O
 ways O
-; O
+  O
 for O
 he O
 stood O
@@ -15645,7 +15645,7 @@ entered O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 49 B-CARDINAL
 |
@@ -15786,8 +15786,8 @@ off O
 the O
 hopes O
 of O
-his B-CARDINAL
-hundred I-CARDINAL
+his O
+hundred B-CARDINAL
 and I-CARDINAL
 one I-CARDINAL
 |
@@ -15799,7 +15799,7 @@ who O
 lived O
 , O
 like O
-Earnest B-PERSON
+Earnest O
 An- O
 |
 | O
@@ -15818,7 +15818,7 @@ were O
 | O
 broken O
 at O
-Melton B-ORG
+Melton B-PERSON
 , O
 his O
 succession O
@@ -15833,7 +15833,7 @@ up O
 ” O
 amongst O
 them O
-; O
+  O
 and O
 to O
 the O
@@ -15874,7 +15874,7 @@ well O
 
 | O
 Lord O
-Downcast O
+Downcast B-PERSON
 was O
 not O
 even O
@@ -15889,7 +15889,7 @@ means O
 so O
 great O
 a O
-Methusalemite B-LANGUAGE
+Methusalemite O
 in O
 age O
 , O
@@ -15917,7 +15917,7 @@ a O
 | O
 50 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -15938,7 +15938,7 @@ intimate O
 acquaintance O
 to O
 represent O
-; O
+  O
 |
 | O
 and O
@@ -15997,7 +15997,7 @@ after O
 , O
 that O
 his O
-Lordship B-ORG
+Lordship O
 might O
 possibly O
 have O
@@ -16024,10 +16024,10 @@ crossed O
 | O
 his O
 threshold O
-; O
+  O
 but O
-Mrs B-PERSON
-Friend I-PERSON
+Mrs O
+Friend B-PERSON
 ’s O
 very O
 ma- O
@@ -16055,7 +16055,7 @@ that O
 |
 | O
 point O
-; O
+  O
 and O
 even O
 her O
@@ -16114,7 +16114,7 @@ to O
 his O
 |
 | O
-Lordship B-ORG
+Lordship O
 ’s O
 numerous O
 whims O
@@ -16151,12 +16151,12 @@ he O
 ’s O
 |
 | O
-petiklar O
+petiklar B-ORG
 ! O
 he O
 ’s O
 very O
-petiklar O
+petiklar B-ORG
 ! O
 It O
 would O
@@ -16225,11 +16225,11 @@ in O
 the O
 estimation O
 of O
-Lord O
+Lord B-ORG
 |
-| O
-Downcast O
-; O
+| I-ORG
+Downcast I-ORG
+  O
 and O
 the O
 respect O
@@ -16252,25 +16252,25 @@ im- O
 immeasurable O
 degree O
 on O
-the B-PRODUCT
-Ebbé I-PRODUCT
-Mordaunt I-PRODUCT
+the O
+Ebbé B-PERSON
+Mordaunt I-PERSON
 , O
 |
 | O
 who O
 was O
-the B-ORG
-Cardinal I-ORG
-Whole I-ORG
-of I-ORG
-Kilmarnock I-ORG
+the O
+Cardinal O
+Whole O
+of O
+Kilmarnock B-GPE
 |
-| I-ORG
-Abbey I-ORG
+| O
+Abbey O
 and O
-Beaujolic B-FAC
-Castle I-FAC
+Beaujolic B-ORG
+Castle I-ORG
 . O
 Proud O
 , O
@@ -16357,7 +16357,7 @@ has O
 begun O
 to O
 cool O
-; O
+  O
 but O
 in O
 every O
@@ -16419,10 +16419,10 @@ adapted O
 his O
 looks O
 and O
-corners- O
+corners- B-ORG
 |
-| O
-lion O
+| I-ORG
+lion I-ORG
 to O
 the O
 taste O
@@ -16485,10 +16485,10 @@ manner O
 |
 
 | O
-Educated B-WORK_OF_ART
-at I-WORK_OF_ART
-St I-WORK_OF_ART
-Omers I-WORK_OF_ART
+Educated O
+at O
+St O
+Omers O
 , O
 in O
 all O
@@ -16574,7 +16574,7 @@ in O
 the O
 public O
 eye O
-; O
+  O
 and O
 far O
 from O
@@ -16632,7 +16632,7 @@ irre- O
 |
 | O
 possible O
-; O
+  O
 and O
 to O
 all O
@@ -16681,7 +16681,7 @@ fashion- O
 lion O
 . O
 The O
-Ebbé B-ORG
+Ebbé B-PERSON
 was O
 never O
 known O
@@ -16702,7 +16702,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 53 B-CARDINAL
 |
@@ -16735,7 +16735,7 @@ to O
 fail O
 of O
 success O
-; O
+  O
 for O
 , O
 like O
@@ -16950,8 +16950,8 @@ had O
 presided O
 much O
 at O
-Kilmarnock B-FAC
-Abbey I-FAC
+Kilmarnock B-ORG
+Abbey I-ORG
 |
 | O
 with O
@@ -16966,7 +16966,7 @@ warmly O
 |
 
 | O
-BA B-NORP
+BA O
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -16995,8 +16995,8 @@ partiality O
 and O
 admiration O
 of O
-Lord B-ORG
-Downcast I-ORG
+Lord O
+Downcast O
 |
 | O
 might O
@@ -17016,7 +17016,7 @@ the O
 influence O
 of O
 the O
-Ebbé B-FAC
+Ebbé B-PRODUCT
 . O
 |
 | O
@@ -17082,8 +17082,8 @@ to O
 encourage O
 , O
 yet O
-Miss B-PERSON
-Mordaunt I-PERSON
+Miss O
+Mordaunt B-PERSON
 still O
 |
 | O
@@ -17091,8 +17091,8 @@ remained O
 a O
 guest O
 at O
-Kilmarnock B-FAC
-Abbey I-FAC
+Kilmarnock B-ORG
+Abbey I-ORG
 , O
 till O
 the O
@@ -17187,7 +17187,7 @@ her O
 to O
 do O
 so O
-; O
+  O
 but O
 |
 | O
@@ -17226,7 +17226,7 @@ knew O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 55 B-CARDINAL
 |
@@ -17265,7 +17265,7 @@ intended O
 | O
 That O
 Lord O
-Downcast O
+Downcast B-PERSON
 had O
 cruelly O
 disappointed O
@@ -17297,7 +17297,7 @@ good O
 reason O
 to O
 believe O
-; O
+  O
 and O
 though O
 unable O
@@ -17388,7 +17388,7 @@ con- O
 |
 | O
 sensation O
-; O
+  O
 while O
 it O
 seemed O
@@ -17501,7 +17501,7 @@ very O
 |
 
 | O
-56 B-CARDINAL
+56 O
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -17553,7 +17553,7 @@ family O
 | O
 One B-CARDINAL
 Lord O
-Downcast O
+Downcast B-PERSON
 had O
 died O
 of O
@@ -17568,7 +17568,7 @@ at O
 thirty B-CARDINAL
 - I-CARDINAL
 five I-CARDINAL
-; O
+  O
 another O
 had O
 been O
@@ -17582,7 +17582,7 @@ at O
 forty B-CARDINAL
 - I-CARDINAL
 two I-CARDINAL
-; O
+  O
 and O
 not O
 one B-CARDINAL
@@ -17616,8 +17616,8 @@ Louis B-PERSON
 de I-PERSON
 Cries- I-PERSON
 |
-| O
-pigny O
+| I-PERSON
+pigny I-PERSON
 at O
 last O
 gaining O
@@ -17664,14 +17664,14 @@ strawberry O
 leaves O
 of O
 Lord O
-Downcast O
+Downcast B-PERSON
 under O
 animated O
 dis- O
 |
 | O
 cushion O
-; O
+  O
 and O
 any O
 visitor O
@@ -17680,7 +17680,7 @@ accidentally O
 |
 | O
 took O
-Burke B-ORG
+Burke B-PERSON
 or O
 Dearest O
 in O
@@ -17717,11 +17717,11 @@ notice O
 
 | O
 “ O
-Downcast B-WORK_OF_ART
-, I-WORK_OF_ART
-Marquis I-WORK_OF_ART
-of I-WORK_OF_ART
-. I-WORK_OF_ART
+Downcast O
+, O
+Marquis B-PERSON
+of O
+. O
 Heir O
 presumptive O
 , O
@@ -17759,7 +17759,7 @@ set O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 57 B-CARDINAL
 |
@@ -17780,9 +17780,9 @@ ment O
 and O
 admiration O
 of O
-Queen B-PERSON
-Charlotte I-PERSON
-'s I-PERSON
+Queen O
+Charlotte B-PERSON
+'s O
 |
 | O
 drawing O
@@ -17804,7 +17804,7 @@ Downcast I-PERSON
 in O
 the O
 family O
-; O
+  O
 and O
 many O
 a O
@@ -18001,7 +18001,7 @@ means O
 , O
 that O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 who O
 had O
@@ -18026,7 +18026,7 @@ FLIRTATION B-PERSON
 |
 
 | O
-hours B-TIME
+hours O
 , O
 now O
 devoted O
@@ -18098,7 +18098,7 @@ of O
 | O
 certain O
 death O
-; O
+  O
 but O
 after O
 a O
@@ -18178,10 +18178,10 @@ his O
 expectations O
 , O
 while O
-Agnes B-LOC
+Agnes B-PERSON
 |
-| I-LOC
-Dunbar O
+| I-PERSON
+Dunbar I-PERSON
 impatiently O
 remarked O
 , O
@@ -18257,7 +18257,7 @@ pronounced O
 to O
 be O
 very O
-plethoric,—he B-GPE
+plethoric,—he B-ORG
 ate O
 no O
 luncheon O
@@ -18322,7 +18322,7 @@ must O
 be O
 fatal O
 at O
-last;—every O
+last —every O
 newspaper O
 |
 | O
@@ -18339,8 +18339,8 @@ sup- O
 |
 | O
 per O
-the O
-night O
+the B-TIME
+night I-TIME
 before O
 , O
 people O
@@ -18356,7 +18356,7 @@ beds O
 the B-TIME
 next I-TIME
 morning I-TIME
-; O
+  O
 — O
 |
 | O
@@ -18390,7 +18390,7 @@ his O
 |
 | O
 death,—some O
-day O
+day B-DATE
 must O
 do O
 so O
@@ -18419,7 +18419,7 @@ might O
 the O
 superannuated O
 peer O
-; O
+  O
 |
 | O
 yet O
@@ -18540,7 +18540,7 @@ it O
 | O
 Still O
 Lord O
-Downcast B-ORG
+Downcast B-PERSON
 obstinately O
 persevered O
 |
@@ -18596,7 +18596,7 @@ they O
 could O
 spare O
 his O
-Lordship B-NORP
+Lordship O
 better O
 |
 | O
@@ -18614,7 +18614,7 @@ selves O
 , O
 and O
 were O
-first O
+first B-ORDINAL
 consigned O
 to O
 the O
@@ -18705,7 +18705,7 @@ grave O
 while O
 still O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 in O
 |
@@ -18820,8 +18820,8 @@ re- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 61 B-CARDINAL
 |
@@ -19082,9 +19082,9 @@ a O
 |
 
 | O
-62 O
+62 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -19139,7 +19139,7 @@ old O
 quit O
 , O
 Lord O
-Downcast O
+Downcast B-PERSON
 , O
 ” O
 impeded O
@@ -19152,7 +19152,7 @@ to O
 settle O
 for O
 life O
-; O
+  O
 while O
 in O
 the O
@@ -19271,7 +19271,7 @@ any O
 |
 | O
 affection O
-; O
+  O
 but O
 whatever O
 might O
@@ -19354,14 +19354,14 @@ dressed O
 their O
 very O
 best O
-; O
+  O
 and O
 the O
 |
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 63 B-CARDINAL
 |
@@ -19388,12 +19388,12 @@ of O
 Mr O
 De B-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 attention O
 to O
 the O
 daughters O
-; O
+  O
 |
 | O
 but O
@@ -19429,7 +19429,7 @@ him- O
 |
 | O
 self O
-; O
+  O
 though O
 , O
 as O
@@ -19470,8 +19470,8 @@ marriage O
 | O
 Though O
 Mr O
-De O
-Crespigny O
+De B-PERSON
+Crespigny I-PERSON
 seemed O
 , O
 at O
@@ -19498,7 +19498,7 @@ earth O
 , O
 but O
 the O
-one B-CARDINAL
+one O
 fascinating O
 |
 | O
@@ -19538,7 +19538,7 @@ for- O
 |
 | O
 lowing O
-week O
+week B-DATE
 , O
 to O
 observe O
@@ -19593,8 +19593,8 @@ reflecting O
 |
 | O
 that O
-Mr B-PERSON
-De I-PERSON
+Mr O
+De B-PERSON
 Crespigny I-PERSON
 was O
 in O
@@ -19689,7 +19689,7 @@ of O
 ridiculous O
 marriages O
 himself O
-; O
+  O
 and O
 |
 | O
@@ -19739,7 +19739,7 @@ powers- O
 |
 | O
 soon O
-; O
+  O
 but O
 for O
 my O
@@ -19754,9 +19754,9 @@ these O
 | O
 concerns O
 to O
-the B-PRODUCT
-Ebbé I-PRODUCT
-Mordaunt I-PRODUCT
+the O
+Ebbé B-PERSON
+Mordaunt I-PERSON
 , O
 who O
 , O
@@ -19837,7 +19837,7 @@ a- O
 |
 | O
 preached O
-; O
+  O
 and O
 certainly O
 no O
@@ -19894,7 +19894,7 @@ al- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 65 B-CARDINAL
 |
@@ -19932,7 +19932,7 @@ ma- O
 local O
 name O
 of O
-Louis B-GPE
+Louis B-PERSON
 conspicuously O
 introduced O
 , O
@@ -20006,7 +20006,7 @@ former O
 happy O
 |
 | O
-hours O
+hours B-TIME
 , O
 which O
 had O
@@ -20098,7 +20098,7 @@ life O
 Mr O
 De B-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 engagement O
 book O
 was O
@@ -20225,7 +20225,7 @@ entitled O
 to O
 two B-CARDINAL
 dances O
-; O
+  O
 and O
 when O
 |
@@ -20238,7 +20238,7 @@ greater O
 part O
 of O
 a O
-summer B-DATE
+summer O
 in O
 |
 | O
@@ -20302,7 +20302,7 @@ in O
 Captain O
 De B-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 ar- O
 |
 | O
@@ -20352,7 +20352,7 @@ of O
 |
 | O
 men O
-; O
+  O
 but O
 even O
 in O
@@ -20441,8 +20441,8 @@ roll O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 67 B-CARDINAL
 |
@@ -20455,11 +20455,11 @@ singular O
 evidence O
 of O
 young O
-De O
+De B-ORG
 Cries- O
 |
 | O
-pigny O
+pigny B-ORG
 ’s O
 discretion O
 and O
@@ -20712,7 +20712,7 @@ of O
 |
 | O
 society O
-; O
+  O
 but O
 he O
 laughed O
@@ -20738,7 +20738,7 @@ him O
 in O
 a O
 joke O
-; O
+  O
 and O
 his O
 associates O
@@ -20752,7 +20752,7 @@ in O
 competition O
 with O
 any O
-one B-CARDINAL
+one O
 of O
 them O
 , O
@@ -20824,9 +20824,9 @@ he O
 possessed O
 only B-CARDINAL
 1.300 I-CARDINAL
-a B-DATE
-- I-DATE
-year I-DATE
+a O
+- O
+year O
 , O
 |
 | O
@@ -20867,7 +20867,7 @@ the O
 |
 | O
 young O
-Corner O
+Corner B-LOC
 ever O
 to O
 think O
@@ -20892,7 +20892,7 @@ houses O
 of O
 three B-CARDINAL
 or I-CARDINAL
-four I-CARDINAL
+four B-CARDINAL
 friends O
 in O
 a B-DATE
@@ -20944,7 +20944,7 @@ steam O
 boat O
 , O
 from O
-one O
+one B-CARDINAL
 hospitable O
 country- O
 |
@@ -20975,8 +20975,8 @@ expected O
 |
 
 | O
-MODERN O
-IRRITATION O
+MODERN B-GPE
+IRRITATION B-GPE
 . O
 69 B-CARDINAL
 |
@@ -21003,7 +21003,7 @@ on O
 the O
 pier O
 . O
-Ho O
+Ho B-PERSON
 got O
 “ O
 a O
@@ -21035,7 +21035,7 @@ in O
 a O
 |
 | O
-britschska O
+britschska B-ORG
 from O
 a O
 third B-ORDINAL
@@ -21056,8 +21056,8 @@ occupiers O
 |
 | O
 “ O
-De O
-Crespigny O
+De B-PERSON
+Crespigny I-PERSON
 has O
 nothing O
 on O
@@ -21081,7 +21081,7 @@ hand- O
 some O
 friend O
 Sir O
-Tricks B-PERSON
+Tricks O
 one B-DATE
 day I-DATE
 to O
@@ -21091,7 +21091,7 @@ Ar- O
 | O
 thus O
 Dunbar B-PERSON
-; O
+  O
 “ O
 yet O
 how O
@@ -21165,7 +21165,7 @@ increasing O
 income O
 , O
 took O
-De O
+De B-ORG
 Cries- O
 |
 | O
@@ -21185,7 +21185,7 @@ reason O
 of O
 his O
 in O
-Argyloshire B-GPE
+Argyloshire B-PERSON
 , O
 where O
 he O
@@ -21212,7 +21212,7 @@ became O
 rather O
 |
 | O
-eld O
+eld B-PERSON
 in O
 September B-DATE
 , O
@@ -21228,7 +21228,7 @@ cast O
 in O
 Lady B-PERSON
 Winandermere I-PERSON
-’s I-PERSON
+’s O
 carriage O
 to O
 that O
@@ -21240,11 +21240,11 @@ pieces O
 and O
 daughters O
 at O
-Castle B-FAC
-High- I-FAC
+Castle B-ORG
+High- O
 |
 
-| I-FAC
+| O
 70 B-CARDINAL
 MODERN O
 FLIRTATION B-PERSON
@@ -21285,7 +21285,7 @@ Miss O
 Vava- O
 |
 | O
-hours O
+hours B-TIME
 bid O
 still O
 higher O
@@ -21301,7 +21301,7 @@ him O
 a O
 mount O
 at O
-Knees B-ORG
+Knees O
 , O
 and O
 mention- O
@@ -21361,7 +21361,7 @@ in O
 the B-ORG
 English I-ORG
 Church I-ORG
-; O
+  O
 |
 | O
 and O
@@ -21412,7 +21412,7 @@ snare O
 | O
 the O
 bird O
-; O
+  O
 and O
 I O
 wonder O
@@ -21482,7 +21482,7 @@ like O
 a O
 marrying O
 man O
-; O
+  O
 but O
 pray O
 point O
@@ -21526,10 +21526,10 @@ Crespigny I-PERSON
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
-7 O
+7 B-CARDINAL
 |
 
 | O
@@ -21544,7 +21544,7 @@ like O
 |
 | O
 swindling O
-; O
+  O
 and O
 he O
 is O
@@ -21635,7 +21635,7 @@ world O
 
 | O
 The O
-Amiable B-ORG
+Amiable O
 ’s O
 honest O
 indignation O
@@ -21678,7 +21678,7 @@ and O
 action O
 of O
 Mr O
-De O
+De B-PERSON
 Cries- O
 |
 | O
@@ -21725,7 +21725,7 @@ wounded O
 feelings O
 of O
 others O
-; O
+  O
 for O
 it O
 mattered O
@@ -21793,8 +21793,8 @@ doors O
 | O
 72 B-CARDINAL
 # O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 |
 
@@ -21852,7 +21852,7 @@ fatal O
 to O
 the O
 peace O
-of'many B-GPE
+of'many O
 , O
 who O
 would O
@@ -21992,7 +21992,7 @@ than O
 nothing O
 to O
 him O
-; O
+  O
 yet O
 the O
 deception O
@@ -22014,7 +22014,7 @@ of O
 | O
 cowardly O
 impunity O
-; O
+  O
 for O
 no O
 young O
@@ -22061,7 +22061,7 @@ truth O
 should O
 be O
 known O
-; O
+  O
 |
 
 | O
@@ -22091,7 +22091,7 @@ evidence O
 can O
 be O
 brought O
-; O
+  O
 for O
 who O
 could O
@@ -22179,7 +22179,7 @@ Crespigny I-PERSON
 nothing O
 was O
 unutterable O
-; O
+  O
 |
 | O
 for O
@@ -22309,15 +22309,15 @@ D I-ORG
 |
 
 | I-ORG
-74 B-CARDINAL
+74 I-ORG
 MODERN O
 FLIRTATION B-PERSON
 . O
 |
 
 | O
-CHAPTER O
-IV O
+CHAPTER B-LAW
+IV I-LAW
 . O
 |
 
@@ -22486,8 +22486,8 @@ re- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 75 B-CARDINAL
 |
@@ -22501,7 +22501,7 @@ surplus O
 , O
 after O
 his O
-yearly O
+yearly B-DATE
 a- O
 |
 | O
@@ -22686,7 +22686,7 @@ early O
 life O
 had O
 been O
-one O
+one B-CARDINAL
 full O
 of O
 |
@@ -22725,11 +22725,11 @@ own O
 |
 | O
 interests O
-; O
+  O
 but O
 in O
-advanced O
-years B-DATE
+advanced B-DATE
+years I-DATE
 , O
 when O
 no O
@@ -23006,7 +23006,7 @@ hay- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 77 B-CARDINAL
 |
@@ -23031,7 +23031,7 @@ which O
 
 | O
 « O
-Turn’d B-WORK_OF_ART
+Turn’d O
 at O
 the B-DATE
 touch I-DATE
@@ -23161,7 +23161,7 @@ hoping O
 that O
 the O
 gay O
-Corner O
+Corner B-ORG
 would O
 never O
 |
@@ -23192,7 +23192,7 @@ days O
 following O
 , O
 the O
-Amiable B-ORG
+Amiable O
 had O
 |
 | O
@@ -23241,11 +23241,11 @@ calling O
 | O
 the B-TIME
 hour I-TIME
-of I-TIME
-“ I-TIME
-Past I-TIME
-four I-TIME
-o'clock I-TIME
+of O
+“ O
+Past O
+four O
+o'clock O
 , O
 ” O
 by O
@@ -23338,7 +23338,7 @@ rapidity O
 of O
 a O
 practised O
-sea- O
+sea- B-NORP
 |
 | O
 man O
@@ -23535,8 +23535,8 @@ act- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 79 B-CARDINAL
 |
@@ -23544,8 +23544,8 @@ FLIRTATION B-PERSON
 | O
 pity O
 beyond O
-his B-DATE
-years I-DATE
+his O
+years O
 , O
 three B-CARDINAL
 steps O
@@ -23617,7 +23617,7 @@ lodging O
 , O
 and O
 the O
-Amiable B-ORG
+Amiable O
 |
 | O
 was O
@@ -23662,8 +23662,8 @@ gaze O
 |
 | O
 while O
-several O
-moments O
+several B-TIME
+moments I-TIME
 elapsed O
 before O
 he O
@@ -23806,7 +23806,7 @@ she O
 |
 
 | O
-80 B-CARDINAL
+80 O
 . O
 MODERN O
 FLIRTATION B-PERSON
@@ -24076,7 +24076,7 @@ like O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 81 B-CARDINAL
 |
@@ -24448,8 +24448,8 @@ any O
 ra O
 |
 | O
-donald O
-assistance O
+donald B-PERSON
+assistance I-PERSON
 . O
 |
 
@@ -24478,17 +24478,17 @@ tone O
 of O
 |
 | O
-one O
+one B-CARDINAL
 accustomed O
 in O
 great O
 emergencies O
 , O
 to O
-come- B-PERSON
+come- O
 |
-| I-PERSON
-and I-PERSON
+| O
+and O
 , O
 ‘ O
 “ O
@@ -24559,7 +24559,7 @@ lady O
 was O
 not O
 married O
-; O
+  O
 but O
 perhaps O
 , O
@@ -24614,12 +24614,12 @@ Sir O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 . O
 % O
-83 O
+83 B-CARDINAL
 |
 
 | O
@@ -25006,7 +25006,7 @@ forcing O
 his O
 way O
 out O
-; O
+  O
 but O
 no O
 other O
@@ -25037,7 +25037,7 @@ found O
 in O
 the O
 drawers O
-; O
+  O
 not O
 a O
 book O
@@ -25046,7 +25046,7 @@ a O
 |
 | O
 paper O
-; O
+  O
 and O
 the O
 search O
@@ -25114,8 +25114,8 @@ hoped O
 |
 | O
 that O
-some B-CARDINAL
-one I-CARDINAL
+some O
+one O
 more O
 accustomed O
 to O
@@ -25143,12 +25143,12 @@ room O
 which O
 Sir O
 Arthur B-PERSON
-attempt- O
+attempt- I-PERSON
 |
 
-| O
+| I-PERSON
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 85 B-CARDINAL
 |
@@ -25163,7 +25163,7 @@ door O
 double O
 - O
 locked O
-; O
+  O
 and O
 |
 | O
@@ -25243,7 +25243,7 @@ mystery O
 to O
 take O
 place O
-; O
+  O
 but O
 some O
 of O
@@ -25298,7 +25298,7 @@ This O
 is O
 Sarah B-PERSON
 Davenport I-PERSON
-’s I-PERSON
+’s O
 room O
 ! O
 the O
@@ -25447,7 +25447,7 @@ and O
 hollow O
 with O
 agitation O
-; O
+  O
 |
 | O
 but O
@@ -25574,8 +25574,8 @@ which O
 seemed O
 almost O
 beyond O
-his B-DATE
-years I-DATE
+his O
+years O
 . O
 The O
 |
@@ -25621,7 +25621,7 @@ over O
 her O
 flashing O
 eyes O
-; O
+  O
 but O
 making O
 an O
@@ -25675,7 +25675,7 @@ the O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 87 B-CARDINAL
 |
@@ -25789,7 +25789,7 @@ a O
 | O
 ghastly O
 smile O
-; O
+  O
 but O
 the O
 boy O
@@ -25874,7 +25874,7 @@ young O
 woman O
 ’s O
 countenance O
-; O
+  O
 the O
 drag- O
 |
@@ -25940,7 +25940,7 @@ FLIRTATION B-PERSON
 |
 
 | O
-one B-CARDINAL
+one O
 shall O
 hurt O
 you O
@@ -26089,10 +26089,10 @@ of O
 penetrating O
 scrutiny O
 on O
-Sarah B-ORG
+Sarah B-PERSON
 |
-| I-ORG
-Davenport I-ORG
+| I-PERSON
+Davenport I-PERSON
 , O
 “ O
 how O
@@ -26193,8 +26193,8 @@ altered O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 89 B-CARDINAL
 |
@@ -26277,7 +26277,7 @@ that O
 start O
 very O
 well O
-; O
+  O
 but O
 I O
 know O
@@ -26462,7 +26462,7 @@ corn- O
 |
 
 | O
-90 B-CARDINAL
+90 O
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -26729,7 +26729,7 @@ judge- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 91 B-CARDINAL
 |
@@ -27062,8 +27062,8 @@ indifference O
 “ O
 It O
 was O
-only B-DATE
-yesterday I-DATE
+only O
+yesterday B-DATE
 that O
 she O
 wished O
@@ -27127,7 +27127,7 @@ she O
 with O
 rising O
 agitation O
-; O
+  O
 and O
 then O
 suddenly O
@@ -27209,7 +27209,7 @@ I O
 saved O
 the O
 child O
-; O
+  O
 but O
 it O
 was O
@@ -27302,7 +27302,7 @@ suggested O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 93 B-CARDINAL
 |
@@ -27315,7 +27315,7 @@ be O
 carried O
 to O
 bed O
-; O
+  O
 but O
 before O
 |
@@ -27481,9 +27481,9 @@ room O
 a O
 |
 | O
-few O
-hours O
-ago O
+few B-TIME
+hours I-TIME
+ago I-TIME
 ! O
 Those O
 very O
@@ -27792,7 +27792,7 @@ torn O
 |
 | O
 up O
-; O
+  O
 but O
 not O
 a O
@@ -27816,7 +27816,7 @@ of O
 this O
 disastrous O
 event O
-; O
+  O
 and O
 equally O
 remark- O
@@ -27847,8 +27847,8 @@ been O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 95 B-CARDINAL
 |
 
@@ -27964,7 +27964,7 @@ identify O
 | O
 the O
 writer O
-; O
+  O
 and O
 several O
 sketches O
@@ -28375,8 +28375,8 @@ where O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 97 B-CARDINAL
 |
@@ -28386,7 +28386,7 @@ figures O
 and O
 lights O
 appear O
-; O
+  O
 and O
 vanish O
 again O
@@ -28555,7 +28555,7 @@ became O
 |
 | O
 intense O
-; O
+  O
 but O
 not O
 a O
@@ -28615,7 +28615,7 @@ new- O
 | O
 ther O
 the O
-Amiable B-NORP
+Amiable O
 nor O
 any O
 other O
@@ -28709,7 +28709,7 @@ tiny O
 of O
 their O
 countenances O
-; O
+  O
 but O
 they O
 seemed O
@@ -28721,7 +28721,7 @@ on O
 leaving O
 the O
 room O
-; O
+  O
 and O
 as O
 |
@@ -28880,7 +28880,7 @@ to O
 forgot O
 all O
 his O
-years B-DATE
+years O
 and O
 infirm- O
 |
@@ -29040,7 +29040,7 @@ boy O
 |
 | O
 His O
-days B-DATE
+days O
 are O
 dark O
 , O
@@ -29096,7 +29096,7 @@ trusting O
 that O
 a O
 wise O
-Providence B-WORK_OF_ART
+Providence B-GPE
 , O
 who O
 |
@@ -29124,8 +29124,8 @@ welfare O
 
 | O
 On O
-the O
-night O
+the B-TIME
+night I-TIME
 previous O
 to O
 that O
@@ -29269,7 +29269,7 @@ cruelly O
 |
 | O
 driven O
-; O
+  O
 and O
 he O
 could O
@@ -29427,7 +29427,7 @@ see- O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 101 B-CARDINAL
@@ -29561,7 +29561,7 @@ were O
 to O
 be O
 asked O
-; O
+  O
 |
 | O
 and O
@@ -29603,7 +29603,7 @@ know O
 nothing O
 of O
 him O
-; O
+  O
 but O
 he O
 desired O
@@ -29694,7 +29694,7 @@ scrutinized O
 He O
 was O
 astonished O
-; O
+  O
 and O
 solemn O
 as O
@@ -29740,7 +29740,7 @@ at O
 the O
 |
 | O
-Club B-ORG
+Club O
 , O
 and O
 that O
@@ -29786,7 +29786,7 @@ Sir O
 Arthur B-PERSON
 Dunbar I-PERSON
 , O
-Portobello B-WORK_OF_ART
+Portobello B-ORG
 . O
 ” O
 The O
@@ -29804,7 +29804,7 @@ on O
 | O
 black O
 wax O
-; O
+  O
 the O
 paper O
 bore O
@@ -29814,7 +29814,7 @@ black O
 |
 | O
 border O
-; O
+  O
 and O
 there O
 was O
@@ -29845,7 +29845,7 @@ is O
 the O
 sum O
 of O
-L.200 B-ORG
+L.200 B-NORP
 , O
 for O
 the O
@@ -29863,7 +29863,7 @@ ward O
 |
 | O
 Henry’De O
-Lancey B-PRODUCT
+Lancey B-ORG
 . O
 The O
 same O
@@ -29890,7 +29890,7 @@ from O
 whence O
 it O
 originates O
-; O
+  O
 |
 | O
 and O
@@ -29930,8 +29930,8 @@ de- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 103 B-CARDINAL
 |
@@ -29995,7 +29995,7 @@ aban- O
 done O
 his O
 house O
-; O
+  O
 nevertheless O
 her O
 child O
@@ -30009,7 +30009,7 @@ perhaps O
 , O
 be O
 acknowledged O
-; O
+  O
 and O
 the O
 |
@@ -30100,7 +30100,7 @@ so O
 arduous O
 a O
 charge O
-; O
+  O
 but O
 still O
 it O
@@ -30116,7 +30116,7 @@ most O
 satisfactory O
 , O
 the O
-Amiable B-ORG
+Amiable O
 |
 | O
 being O
@@ -30220,7 +30220,7 @@ man O
 forward O
 in O
 life O
-; O
+  O
 but O
 both O
 |
@@ -30263,15 +30263,15 @@ harbour O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 105 B-CARDINAL
 |
 
 | O
-CHAPTER B-LAW
-V. I-LAW
+CHAPTER O
+V. O
 |
 
  
@@ -30320,8 +30320,8 @@ Corner O
 |
 
 | O
-The O
-day O
+The B-DATE
+day I-DATE
 of O
 trial O
 at O
@@ -30441,7 +30441,7 @@ bruis- O
 |
 
 | O
-106 B-CARDINAL
+106 O
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -30468,7 +30468,7 @@ been O
 violently O
 torn O
 off O
-; O
+  O
 |
 | O
 and O
@@ -30541,7 +30541,7 @@ been O
 , O
 with O
 obvious O
-difficult- O
+difficult- B-GPE
 |
 | O
 to O
@@ -30702,7 +30702,7 @@ laboured O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 107 B-CARDINAL
 |
@@ -30720,7 +30720,7 @@ excite- O
 |
 | O
 ment O
-; O
+  O
 yet O
 , O
 with O
@@ -30832,7 +30832,7 @@ horror O
 on O
 every O
 side O
-; O
+  O
 |
 | O
 but O
@@ -30972,7 +30972,7 @@ pre- O
 
 | O
 108 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -31029,7 +31029,7 @@ in- O
 june B-DATE
 the O
 boy O
-; O
+  O
 and O
 when O
 a O
@@ -31153,7 +31153,7 @@ lost O
 and O
 desolate O
 being O
-; O
+  O
 but O
 |
 | O
@@ -31163,7 +31163,7 @@ not O
 forget O
 in O
 after O
-years B-DATE
+years O
 , O
 that O
 I O
@@ -31233,7 +31233,7 @@ into O
 |
 | O
 court O
-; O
+  O
 and O
 it O
 seemed O
@@ -31258,7 +31258,7 @@ an- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 109 B-CARDINAL
 |
@@ -31377,7 +31377,7 @@ and O
 |
 | O
 horror O
-; O
+  O
 but O
 his O
 faculties O
@@ -31399,7 +31399,7 @@ im- O
 | O
 passion O
 remained O
-; O
+  O
 and O
 to O
 his O
@@ -31513,7 +31513,7 @@ spoken O
 angrily O
 to O
 her O
-; O
+  O
 while O
 , O
 |
@@ -31584,7 +31584,7 @@ only O
 retain O
 her O
 child O
-; O
+  O
 |
 | O
 how O
@@ -31617,7 +31617,7 @@ he O
 left O
 the O
 room O
-; O
+  O
 |
 | O
 and O
@@ -31783,7 +31783,7 @@ all O
 
 | O
 noise O
-; O
+  O
 and O
 he O
 still O
@@ -31853,7 +31853,7 @@ visited O
 at O
 the O
 house O
-; O
+  O
 but O
 she O
 |
@@ -32215,7 +32215,7 @@ abandon- O
 |
 | O
 bed O
-; O
+  O
 but O
 the O
 interest O
@@ -32293,7 +32293,7 @@ think- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 113 B-CARDINAL
 |
@@ -32315,10 +32315,10 @@ concerns O
 
 | O
 Every O
-one O
+one B-CARDINAL
 of O
 the O
-Mistral B-ORG
+Mistral O
 ’s O
 friends O
 hinted O
@@ -32340,7 +32340,7 @@ better O
 than O
 Sir O
 Arthur B-PERSON
-; O
+  O
 all O
 blame- O
 |
@@ -32359,9 +32359,9 @@ him O
 for O
 very O
 few O
-; O
+  O
 the O
-Amiable B-ORG
+Amiable O
 was O
 wondered O
 . O
@@ -32395,8 +32395,8 @@ been O
 for O
 many B-DATE
 years I-DATE
-before O
-; O
+before I-DATE
+  O
 and O
 the O
 givers O
@@ -32458,7 +32458,7 @@ the O
 lapis O
 in O
 society O
-; O
+  O
 those O
 who O
 liked O
@@ -32467,8 +32467,8 @@ in O
 |
 | O
 the O
-Jack O
-Shepherd O
+Jack B-PERSON
+Shepherd I-PERSON
 style O
 were O
 satiated O
@@ -32479,7 +32479,7 @@ studies O
 from O
 the O
 life O
-; O
+  O
 the B-WORK_OF_ART
 Morning I-WORK_OF_ART
 Post I-WORK_OF_ART
@@ -32490,7 +32490,7 @@ sumed O
 a O
 terrifying O
 interest O
-; O
+  O
 and O
 the O
 lady O
@@ -32547,7 +32547,7 @@ that O
 |
 
 | O
-L14 B-PRODUCT
+L14 O
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -32564,8 +32564,8 @@ speculate O
 an- O
 |
 | O
-other O
-hour O
+other B-TIME
+hour I-TIME
 upon O
 a O
 murder O
@@ -32582,7 +32582,7 @@ short O
 , O
 “ O
 the O
-Portobello B-ORG
+Portobello O
 story O
 ” O
 ceased O
@@ -32595,7 +32595,7 @@ or O
 listened O
 to O
 . O
-Henry B-ORG
+Henry B-PERSON
 had O
 had O
 his O
@@ -32615,7 +32615,7 @@ nine B-DATE
 |
 | I-DATE
 days I-DATE
-’ O
+’ I-DATE
 wonder O
 , O
 because O
@@ -32649,7 +32649,7 @@ be O
 | O
 talked O
 of O
-; O
+  O
 and O
 now O
 it O
@@ -32669,7 +32669,7 @@ con- O
 |
 | O
 sensation O
-; O
+  O
 for O
 , O
 as O
@@ -32720,7 +32720,7 @@ really O
 | O
 startling O
 affair O
-; O
+  O
 but O
 all O
 stories O
@@ -32834,7 +32834,7 @@ joy- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 115 B-CARDINAL
 |
@@ -32889,14 +32889,14 @@ his O
 niece O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 when O
 she O
 escaped O
-a O
-single O
-day O
+a B-DATE
+single I-DATE
+day I-DATE
 from O
 |
 | O
@@ -32946,11 +32946,11 @@ occasions O
 the O
 sensibility O
 of O
-Henry B-FAC
+Henry B-PERSON
 |
-| I-FAC
-De I-FAC
-Lancey I-FAC
+| I-PERSON
+De I-PERSON
+Lancey I-PERSON
 seemed O
 already O
 to O
@@ -33073,8 +33073,8 @@ cha- O
 |
 
 | O
-116 B-CARDINAL
-MODERN O
+116 O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -33124,7 +33124,7 @@ the O
 | O
 shore O
 at O
-Portobello B-ORG
+Portobello B-GPE
 , O
 building O
 houses O
@@ -33327,9 +33327,9 @@ the O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
-7 O
+7 B-CARDINAL
 |
 
 | O
@@ -33344,7 +33344,7 @@ to O
 | O
 his O
 heart O
-; O
+  O
 but O
 a O
 circumstance O
@@ -33434,8 +33434,8 @@ seek O
 , O
 one B-DATE
 day I-DATE
-in O
-the B-DATE
+in I-DATE
+the I-DATE
 month I-DATE
 of I-DATE
 |
@@ -33530,8 +33530,8 @@ had O
 |
 | O
 not O
-another B-DATE
-day I-DATE
+another O
+day O
 to O
 exist O
 — O
@@ -33591,8 +33591,8 @@ FLIRTATION B-PERSON
 
 | O
 words O
-every B-DATE
-day I-DATE
+every O
+day O
 during O
 fifty B-DATE
 years I-DATE
@@ -33604,7 +33604,7 @@ under O
 twenty B-CARDINAL
 varied O
 administrations O
-; O
+  O
 yet O
 still O
 the O
@@ -33617,7 +33617,7 @@ how O
 a O
 constitution O
 so O
-miss- O
+miss- B-ORG
 |
 | O
 aged O
@@ -33677,7 +33677,7 @@ little O
 girls O
 , O
 that O
-Henry B-GPE
+Henry B-PERSON
 had O
 hid O
 himself O
@@ -33692,7 +33692,7 @@ not O
 possibly O
 find O
 him O
-; O
+  O
 but O
 he O
 was O
@@ -33715,7 +33715,7 @@ attention O
 till O
 at O
 length O
-Martin B-PERSON
+Martin B-ORG
 an- O
 |
 | O
@@ -33758,8 +33758,8 @@ him O
 at B-CARDINAL
 least I-CARDINAL
 half I-CARDINAL
-an O
-hour O
+an I-CARDINAL
+hour I-CARDINAL
 . O
 |
 
@@ -33848,8 +33848,8 @@ concealed O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 119 B-CARDINAL
 |
@@ -33884,7 +33884,7 @@ name O
 of O
 |
 | O
-Henry B-PERSON
+Henry O
 at O
 the O
 full O
@@ -33898,7 +33898,7 @@ in O
 |
 | O
 vain O
-; O
+  O
 not O
 a O
 sound O
@@ -33930,7 +33930,7 @@ lurking O
 
 | O
 The O
-Amiable B-ORG
+Amiable O
 now O
 became O
 seriously O
@@ -34045,7 +34045,7 @@ more O
 probable O
 , O
 that O
-Henry B-GPE
+Henry B-PERSON
 |
 | O
 must O
@@ -34282,7 +34282,7 @@ in O
 | O
 every O
 limb O
-; O
+  O
 but O
 the O
 man O
@@ -34354,7 +34354,7 @@ inter- O
 |
 | O
 were O
-; O
+  O
 but O
 he O
 thought O
@@ -34367,7 +34367,7 @@ the O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 121 B-CARDINAL
 |
@@ -34428,7 +34428,7 @@ hurried O
 | O
 forward O
 to O
-Leith B-GPE
+Leith B-PERSON
 , O
 where O
 , O
@@ -34600,9 +34600,9 @@ drawn O
 , O
 when O
 . O
-Martin B-ORG
+Martin B-PERSON
 approached O
-; O
+  O
 and O
 while O
 |
@@ -34638,13 +34638,13 @@ hasten O
 ‘ O
 VOL O
 . O
-I. B-ORG
-UP I-ORG
+I. O
+UP O
 |
 
 | O
 122 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRT'TIONS O
 . O
 |
@@ -34715,7 +34715,7 @@ arms O
 of O
 a O
 female O
-; O
+  O
 and O
 in O
 an O
@@ -34755,7 +34755,7 @@ and O
 |
 | O
 clasped O
-Martin B-PERSON
+Martin B-ORG
 round O
 the O
 knees O
@@ -34873,7 +34873,7 @@ would O
 |
 | O
 break O
-; O
+  O
 “ O
 I O
 thought O
@@ -34905,7 +34905,7 @@ take O
 mé O
 home O
 , O
-Martin B-PERSON
+Martin B-ORG
 ! O
 |
 | O
@@ -34929,8 +34929,8 @@ again O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 123 B-CARDINAL
 |
@@ -34973,12 +34973,12 @@ with O
 a O
 |
 | O
-thousand O
+thousand B-CARDINAL
 expressions O
 of O
 joyful O
 surprise O
-; O
+  O
 but O
 , O
 |
@@ -35010,7 +35010,7 @@ culprits O
 who O
 had O
 decoyed O
-Henry B-GPE
+Henry B-PERSON
 away O
 , O
 and O
@@ -35049,7 +35049,7 @@ immediate O
 |
 | O
 apprehension O
-; O
+  O
 but O
 the O
 steam O
@@ -35061,7 +35061,7 @@ sailed O
 |
 | O
 off O
-; O
+  O
 and O
 all.the O
 gesticulations O
@@ -35091,7 +35091,7 @@ thinking O
 that O
 |
 | O
-Martin B-ORG
+Martin B-PERSON
 had O
 merely O
 missed O
@@ -35128,7 +35128,7 @@ Portobello B-ORG
 meantime O
 , O
 Sir O
-; O
+  O
 Arthur B-PERSON
 had O
 |
@@ -35164,7 +35164,7 @@ of O
 his O
 young O
 protégé O
-; O
+  O
 and O
 with O
 |
@@ -35204,7 +35204,7 @@ had- O
 
 | O
 124 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -35280,7 +35280,7 @@ corn- O
 | O
 tendance O
 of O
-Henry B-GPE
+Henry B-PERSON
 , O
 whom O
 he O
@@ -35409,7 +35409,7 @@ again O
 | O
 Nothing O
 in O
-Henry B-GPE
+Henry B-PERSON
 ’s O
 narrative O
 threw O
@@ -35424,10 +35424,10 @@ on O
 the O
 plans O
 or O
-intent- O
+intent- B-QUANTITY
 |
-| O
-tons O
+| I-QUANTITY
+tons I-QUANTITY
 of O
 the O
 strange O
@@ -35440,7 +35440,7 @@ which O
 | O
 seemed O
 destined O
-to'remain O
+to'remain B-PERSON
 buried O
 in O
 simple- O
@@ -35461,13 +35461,13 @@ decoying O
 him O
 from O
 home O
-; O
+  O
 and O
 |
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 125 B-CARDINAL
 |
@@ -35602,12 +35602,12 @@ premises O
 late B-TIME
 at I-TIME
 night I-TIME
-; O
+  O
 and O
 one B-CARDINAL
 |
 | O
-evening O
+evening B-TIME
 a O
 shot O
 was O
@@ -35642,7 +35642,7 @@ actually O
 |
 | O
 disturbed O
-; O
+  O
 but O
 though O
 an O
@@ -35685,7 +35685,7 @@ and O
 the O
 mind O
 of O
-Henry B-GPE
+Henry B-PERSON
 |
 | O
 rapidly O
@@ -35711,8 +35711,8 @@ melancholy O
 events O
 of O
 his O
-early B-DATE
-years I-DATE
+early O
+years O
 faded O
 |
 | O
@@ -35728,7 +35728,7 @@ made O
 
 | O
 126 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -35852,7 +35852,7 @@ honour O
 and O
 good O
 feeling O
-; O
+  O
 and O
 from O
 |
@@ -35901,7 +35901,7 @@ blank O
 during O
 |
 | O
-Henry B-ORG
+Henry B-PERSON
 ’s O
 absence O
 at O
@@ -35925,7 +35925,7 @@ at O
 length O
 nearly O
 extinct O
-; O
+  O
 and O
 he O
 had O
@@ -35980,7 +35980,7 @@ the O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 127 B-CARDINAL
 |
@@ -36005,7 +36005,7 @@ from O
 : O
 the O
 . O
-bless- B-PERSON
+bless- O
 |
 | O
 wings O
@@ -36058,7 +36058,7 @@ occupy- O
 |
 | O
 lion O
-; O
+  O
 and O
 he O
 began O
@@ -36211,7 +36211,7 @@ ordinary O
 business O
 of O
 life O
-; O
+  O
 but O
 now O
 I O
@@ -36325,7 +36325,7 @@ own O
 heart O
 and O
 character O
-; O
+  O
 |
 | O
 and O
@@ -36459,14 +36459,14 @@ wisely O
 such O
 a O
 situation O
-; O
+  O
 and O
 it O
 made O
 Sir O
 |
 | O
-Arthur B-PERSON
+Arthur O
 almost O
 melancholy O
 in O
@@ -36484,7 +36484,7 @@ procured O
 |
 | O
 any O
-one B-CARDINAL
+one O
 of O
 them O
 a O
@@ -36516,7 +36516,7 @@ themselves O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 129 B-CARDINAL
 |
@@ -36531,7 +36531,7 @@ and O
 a O
 pittance O
 of O
-L.50 O
+L.50 B-NORP
 per O
 |
 | O
@@ -36565,7 +36565,7 @@ some O
 protégé O
 exactly O
 suited O
-; O
+  O
 and O
 no O
 |
@@ -36687,7 +36687,7 @@ recom- O
 |
 | O
 mended O
-; O
+  O
 but O
 having O
 accidentally O
@@ -36819,7 +36819,7 @@ youthful O
 was O
 tall O
 , O
-gaunt B-PERSON
+gaunt O
 , O
 and O
 meagre O
@@ -36905,7 +36905,7 @@ almost O
 indicated O
 of O
 ferocity O
-; O
+  O
 |
 | O
 and O
@@ -36927,7 +36927,7 @@ looking O
 |
 | O
 any O
-one B-CARDINAL
+one O
 steadily O
 in O
 the O
@@ -36948,7 +36948,7 @@ disadvantage O
 | O
 Sir O
 Arthur B-PERSON
-; O
+  O
 friendless O
 , O
 homeless O
@@ -36989,7 +36989,7 @@ generous O
 heart O
 of O
 the O
-Amiable B-ORG
+Amiable O
 , O
 |
 | O
@@ -37027,7 +37027,7 @@ brush- O
 | O
 ing O
 sorrows O
-; O
+  O
 but O
 only O
 give O
@@ -37038,7 +37038,7 @@ employment O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 131 B-CARDINAL
 |
@@ -37050,7 +37050,7 @@ would O
 not O
 thank O
 the O
-Queen B-PERSON
+Queen O
 to O
 be O
 my O
@@ -37091,7 +37091,7 @@ be O
 deceived O
 by O
 them O
-; O
+  O
 and O
 |
 | O
@@ -37284,12 +37284,12 @@ let O
 himself O
 |
 | O
-Imow B-NORP
+Imow B-ORG
 what O
 he O
 was O
 saying O
-; O
+  O
 yet O
 sometimes O
 his O
@@ -37307,7 +37307,7 @@ impetuosity O
 
 | O
 132 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -37350,7 +37350,7 @@ means O
 |
 | O
 prepossessing O
-; O
+  O
 and O
 there O
 was O
@@ -37453,7 +37453,7 @@ of O
 | O
 inexpressible O
 fury O
-; O
+  O
 yet O
 in O
 moment O
@@ -37537,7 +37537,7 @@ manner O
 continually O
 annoyed O
 him O
-; O
+  O
 but O
 his O
 be- O
@@ -37563,7 +37563,7 @@ want O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 133 B-CARDINAL
 |
@@ -37618,8 +37618,8 @@ accustomed O
 to O
 hear O
 “ O
-The B-WORK_OF_ART
-Times I-WORK_OF_ART
+The O
+Times B-ORG
 , O
 ” O
 |
@@ -37739,7 +37739,7 @@ with O
 |
 | O
 attentions O
-; O
+  O
 yet O
 , O
 though O
@@ -37822,7 +37822,7 @@ the O
 
 | O
 134 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -37880,7 +37880,7 @@ one B-DATE
 day I-DATE
 , O
 when O
-Henry B-GPE
+Henry B-PERSON
 re- O
 |
 | O
@@ -38075,7 +38075,7 @@ yet O
 so O
 perfectly O
 unconquerable O
-; O
+  O
 but O
 at O
 length O
@@ -38095,8 +38095,8 @@ restraint O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 135 B-CARDINAL
 |
@@ -38128,7 +38128,7 @@ to O
 |
 | O
 the O
-Amiable B-ORG
+Amiable O
 , O
 after O
 witnessing O
@@ -38166,13 +38166,13 @@ Sir O
 Arthur B-PERSON
 , O
 of O
-Inward B-ORG
-’s I-ORG
-Old I-ORG
-Man I-ORG
-of I-ORG
-the I-ORG
-Sea I-ORG
+Inward O
+’s O
+Old O
+Man O
+of O
+the O
+Sea B-LOC
 . O
 It O
 |
@@ -38213,7 +38213,7 @@ not O
 ” O
 replied O
 the O
-Amiable B-ORG
+Amiable O
 , O
 with O
 |
@@ -38309,7 +38309,7 @@ is O
 |
 | O
 unhappy O
-; O
+  O
 but O
 I O
 have O
@@ -38317,7 +38317,7 @@ often O
 : O
 observed O
 , O
-Henry B-GPE
+Henry B-PERSON
 , O
 |
 | O
@@ -38368,7 +38368,7 @@ my O
 | O
 136 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -38564,7 +38564,7 @@ myself O
 , O
 ” O
 added O
-Henry B-ORG
+Henry B-PERSON
 rapidly O
 , O
 but O
@@ -38645,7 +38645,7 @@ feel O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 137 B-CARDINAL
 |
@@ -38748,7 +38748,7 @@ Henry B-PERSON
 ” O
 asked O
 the O
-Amiable B-ORG
+Amiable O
 , O
 rising O
 with O
@@ -38812,7 +38812,7 @@ spoken O
 as O
 I O
 have O
-done,—it B-PERSON
+done,—it O
 was O
 wrong O
 |
@@ -38825,7 +38825,7 @@ shall O
 try O
 to O
 conquer O
-this,—to B-PRODUCT
+this,—to O
 |
 
  
@@ -38860,11 +38860,11 @@ Howard B-PERSON
 better O
 than O
 any O
-one O
+one B-CARDINAL
 |
 | O
 living O
-; O
+  O
 but O
 , O
 in O
@@ -38961,7 +38961,7 @@ hand O
 |
 | O
 tone O
-; O
+  O
 but O
 when O
 he O
@@ -39045,7 +39045,7 @@ maniacal O
 |
 | O
 fury O
-; O
+  O
 but O
 the O
 same O
@@ -39082,7 +39082,7 @@ steady O
 penetrating O
 gaze O
 of O
-Henry B-GPE
+Henry B-PERSON
 to O
 Sir O
 Ar- O
@@ -39200,8 +39200,8 @@ may O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 139 B-CARDINAL
 |
@@ -39473,7 +39473,7 @@ of O
 
 | O
 140 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -39531,7 +39531,7 @@ fiery O
 and O
 vivid O
 as O
-summer B-DATE
+summer O
 light- O
 |
 | O
@@ -39575,7 +39575,7 @@ seemed O
 ready O
 to O
 spring O
-; O
+  O
 he O
 gnawed O
 his O
@@ -39613,7 +39613,7 @@ malevolence O
 at O
 |
 | O
-Henry B-GPE
+Henry O
 , O
 and O
 a O
@@ -39734,7 +39734,7 @@ trust O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 141 B-CARDINAL
 |
@@ -39789,7 +39789,7 @@ other O
 situation O
 for O
 him O
-; O
+  O
 |
 | O
 but O
@@ -39967,7 +39967,7 @@ Arthur B-PERSON
 | O
 with O
 perplexity O
-; O
+  O
 “ O
 but O
 Mr O
@@ -40006,14 +40006,14 @@ comprehend O
 
 | O
 142 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
 
 | O
-CHAPTER B-LAW
-VI I-LAW
+CHAPTER O
+VI O
 . O
 |
 
@@ -40053,7 +40053,7 @@ a O
 moment O
 ’s O
 ornament O
-; O
+  O
 |
 
 | O
@@ -40090,8 +40090,8 @@ drawn O
 | O
 From O
 May B-DATE
-- O
-time O
+- I-DATE
+time I-DATE
 , O
 and O
 the O
@@ -40131,8 +40131,8 @@ popular O
 girl O
 at O
 . O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 ’s O
 “ O
 Se- O
@@ -40164,7 +40164,7 @@ companions O
 to O
 be O
 envied O
-; O
+  O
 admired O
 by O
 all O
@@ -40205,7 +40205,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 143 B-CARDINAL
 |
@@ -40252,7 +40252,7 @@ friends O
 |
 
 | O
-Cast B-PERSON
+Cast O
 in O
 the O
 finest O
@@ -40382,7 +40382,7 @@ sence O
 of O
 glee O
 and O
-joyousness,—a B-GPE
+joyousness,—a B-PERSON
 most O
 en- O
 |
@@ -40447,7 +40447,7 @@ eyes O
 of O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 shaded O
 by O
@@ -40493,7 +40493,7 @@ her O
 smile O
 , O
 without O
-one O
+one B-CARDINAL
 shade O
 of O
 affectation O
@@ -40563,7 +40563,7 @@ and O
 a O
 |
 | O
-thousand B-CARDINAL
+thousand O
 laughing O
 dimples O
 quivered O
@@ -40635,7 +40635,7 @@ take O
 a O
 cast O
 of O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 head O
 , O
@@ -40716,7 +40716,7 @@ the O
 mystery O
 of O
 beauty O
-; O
+  O
 and O
 the O
 charm O
@@ -40724,14 +40724,14 @@ charm O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 145 B-CARDINAL
 |
 
 | O
 of O
-Marion B-ORG
+Marion B-GPE
 , O
 in O
 the O
@@ -40804,7 +40804,7 @@ a O
 character O
 “ O
 without O
-one B-CARDINAL
+one O
 jarring O
 atom O
 form’d O
@@ -40988,14 +40988,14 @@ de- O
 |
 | O
 VoL. O
-I. B-ORG
+I. O
 « O
 |
 
 | O
 146 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-GPE
+FLIRTATION B-PERSON
 . O
 |
 
@@ -41025,10 +41025,10 @@ Arthur B-PERSON
 , O
 his O
 “ O
-little B-WORK_OF_ART
+little O
 |
-| I-WORK_OF_ART
-Marion I-WORK_OF_ART
+| O
+Marion O
 ” O
 never O
 became O
@@ -41123,7 +41123,7 @@ so- O
 | O
 awful O
 world O
-; O
+  O
 but O
 there O
 was O
@@ -41212,7 +41212,7 @@ totally O
 |
 | O
 unprepared O
-; O
+  O
 for O
 her O
 mind O
@@ -41244,7 +41244,7 @@ without O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 147 B-CARDINAL
 |
@@ -41304,8 +41304,8 @@ of O
 spirit O
 peculiar O
 to O
-Marion B-ORG
-; O
+Marion B-PERSON
+  O
 thither O
 stream O
 of O
@@ -41324,9 +41324,9 @@ while O
 |
 | O
 during O
-her B-DATE
-early I-DATE
-years I-DATE
+her O
+early O
+years O
 sorrow O
 flitted O
 through O
@@ -41443,7 +41443,7 @@ be O
 more O
 pleasing O
 and O
-char- B-CARDINAL
+char- O
 |
 | O
 acteristic O
@@ -41461,9 +41461,9 @@ with O
 which O
 , O
 from O
-the O
-earliest O
-age O
+the B-DATE
+earliest I-DATE
+age I-DATE
 , O
 |
 | O
@@ -41499,7 +41499,7 @@ Trinkets O
 
 | O
 148 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -41574,7 +41574,7 @@ which O
 seemed O
 least O
 expensive O
-; O
+  O
 and O
 her O
 |
@@ -41672,7 +41672,7 @@ mamma O
 ornaments O
 , O
 and O
-Pricked B-ORG
+Pricked B-PERSON
 says O
 you O
 |
@@ -41712,11 +41712,11 @@ yourself O
 ” O
 |
 | O
-The B-WORK_OF_ART
-merry I-WORK_OF_ART
-- I-WORK_OF_ART
-eyed I-WORK_OF_ART
-Marion I-WORK_OF_ART
+The O
+merry O
+- O
+eyed O
+Marion O
 seemed O
 to O
 “ O
@@ -41768,7 +41768,7 @@ genius- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 149 B-CARDINAL
 |
@@ -41887,7 +41887,7 @@ all O
 
 | O
 If O
-one O
+one B-CARDINAL
 of O
 her O
 young O
@@ -41905,7 +41905,7 @@ success O
 , O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 features O
 seemed O
@@ -42014,7 +42014,7 @@ assiduity O
 | O
 and O
 more O
-; O
+  O
 |
 
  
@@ -42023,8 +42023,8 @@ more O
 
 | O
 150 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -42153,7 +42153,7 @@ scarcely O
 noticed O
 . O
 With O
-Marion B-ORG
+Marion B-PERSON
 , O
 |
 | O
@@ -42181,9 +42181,9 @@ instead- O
 able O
 from O
 her O
-daily O
+daily B-DATE
 existence O
-; O
+  O
 her O
 ideas O
 |
@@ -42206,7 +42206,7 @@ thoroughly O
 femi- O
 |
 | O
-nine O
+nine B-CARDINAL
 , O
 at O
 the O
@@ -42275,7 +42275,7 @@ secretly O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 151 B-CARDINAL
 |
@@ -42466,9 +42466,9 @@ affections O
 |
 | O
 at O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 first B-ORDINAL
 - O
 rate O
@@ -42510,9 +42510,9 @@ one B-CARDINAL
 |
 | O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 favourite O
 axioms O
 , O
@@ -42523,7 +42523,7 @@ nature O
 is O
 always O
 vulgar O
-; O
+  O
 but O
 in O
 her O
@@ -42535,7 +42535,7 @@ ho- O
 
 | O
 152 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 , O
 |
@@ -42554,9 +42554,9 @@ to O
 make O
 every O
 pupil O
-an O
-Admirable O
-Crichton O
+an B-PERSON
+Admirable I-PERSON
+Crichton I-PERSON
 , O
 |
 | O
@@ -42617,7 +42617,7 @@ the O
 frivolities O
 of O
 existence O
-; O
+  O
 and O
 to O
 this O
@@ -42729,7 +42729,7 @@ the O
 most O
 fashionable O
 teachers O
-; O
+  O
 and O
 , O
 as O
@@ -42746,9 +42746,9 @@ brother O
 , O
 |
 | O
-“ B-WORK_OF_ART
-Tittle I-WORK_OF_ART
-Marion I-WORK_OF_ART
+“ O
+Tittle O
+Marion O
 was O
 surrounded O
 by O
@@ -42759,7 +42759,7 @@ of O
 every O
 thing O
 on O
-earth,—by B-DATE
+earth,—by O
 professors O
 of O
 |
@@ -42786,8 +42786,8 @@ sense O
 
 | O
 With O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 each O
 pupil O
 was O
@@ -42853,7 +42853,7 @@ du- O
 |
 | O
 action O
-; O
+  O
 and O
 it O
 seemed O
@@ -42892,10 +42892,10 @@ of O
 reproach O
 , O
 “ O
-Marion B-WORK_OF_ART
+Marion B-PERSON
 |
-| I-WORK_OF_ART
-Dunbar I-WORK_OF_ART
+| I-PERSON
+Dunbar I-PERSON
 is O
 all O
 heart O
@@ -42916,7 +42916,7 @@ does O
 less O
 than O
 nothing O
-; O
+  O
 |
 | O
 and O
@@ -43017,7 +43017,7 @@ sensible- O
 |
 | O
 pity O
-; O
+  O
 and O
 while O
 , O
@@ -43082,7 +43082,7 @@ A O
 
 | O
 154 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -43110,8 +43110,8 @@ oblige O
 |
 | O
 Even O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 was O
 disarmed O
 of O
@@ -43174,7 +43174,7 @@ tempt- O
 | O
 vary O
 disgrace O
-; O
+  O
 and O
 the O
 stern O
@@ -43214,7 +43214,7 @@ with O
 |
 | O
 which O
-Marion B-ORG
+Marion B-PERSON
 listened O
 to O
 the O
@@ -43224,7 +43224,7 @@ her O
 |
 | O
 small O
-indiseretions O
+indiseretions B-ORG
 , O
 and O
 the O
@@ -43278,7 +43278,7 @@ imaginary O
 scraps O
 into O
 which O
-Marion B-ORG
+Marion B-PERSON
 was O
 |
 | O
@@ -43295,8 +43295,8 @@ her O
 | O
 express O
 to O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 for O
 a O
 reprimand O
@@ -43337,7 +43337,7 @@ counter- O
 MODERN O
 FLIRTATION B-PERSON
 . O
-1355 B-DATE
+1355 B-CARDINAL
 |
 
 | O
@@ -43362,7 +43362,7 @@ Thus O
 the O
 foundation O
 of O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 mind O
 was O
@@ -43380,12 +43380,12 @@ that O
 |
 | O
 ruffled O
-the’smooth O
+the’smooth B-ORG
 current O
 of O
 her O
 life O
-; O
+  O
 but O
 en- O
 |
@@ -43457,9 +43457,9 @@ the O
 dreary O
 thraldom O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 |
 | O
 manufactory O
@@ -43587,7 +43587,7 @@ in O
 
 | O
 156 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -43607,7 +43607,7 @@ their O
 nature O
 and O
 properties O
-; O
+  O
 while O
 , O
 as O
@@ -43650,9 +43650,9 @@ without O
 paying O
 £ O
 100 B-MONEY
-a O
-- O
-year O
+a B-DATE
+- I-DATE
+year I-DATE
 for O
 it O
 . O
@@ -43662,7 +43662,7 @@ it O
 | O
 In O
 music O
-Marion B-ORG
+Marion B-PERSON
 displayed O
 great O
 taste O
@@ -43721,7 +43721,7 @@ auditors O
 . O
 |
 | O
-Expression B-FAC
+Expression O
 in O
 music O
 is O
@@ -43754,7 +43754,7 @@ lion O
 , O
 and O
 with O
-Marion B-ORG
+Marion B-PERSON
 music O
 was O
 almost O
@@ -43825,9 +43825,9 @@ young O
 | O
 ladies O
 at O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 “ O
 College O
 of O
@@ -43861,7 +43861,7 @@ FLIRTATION B-PERSON
 | O
 sieurs O
 and O
-Mesdames B-GPE
+Mesdames B-PERSON
 , O
 who O
 taught O
@@ -43976,11 +43976,11 @@ conducted O
 like O
 those O
 of O
-Frederick B-FAC
+Frederick B-PERSON
 |
-| I-FAC
-the I-FAC
-Great O
+| O
+the O
+Great B-GPE
 ’s O
 soldiers O
 , O
@@ -44022,7 +44022,7 @@ number O
 of O
 |
 | O
-minutes O
+minutes B-TIME
 , O
 while O
 they O
@@ -44033,8 +44033,8 @@ over O
 |
 | O
 by O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 herself O
 , O
 with O
@@ -44050,10 +44050,10 @@ solemnity O
 or O
 interest O
 . O
-Sun- O
+Sun- B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 had O
 long O
 been O
@@ -44065,9 +44065,9 @@ the O
 | O
 pupils O
 at O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 as O
 a O
 privileged O
@@ -44107,7 +44107,7 @@ man- O
 
 | O
 158 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -44176,9 +44176,9 @@ inculeated O
 at O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 , O
 was O
 like O
@@ -44333,7 +44333,7 @@ sight O
 . O
 |
 | O
-Summer O
+Summer B-DATE
 - O
 flowers O
 alone O
@@ -44421,7 +44421,7 @@ death O
 
 | O
 Before O
-Marion B-ORG
+Marion B-PERSON
 had O
 been O
 ‘ O
@@ -44460,9 +44460,9 @@ feelings O
 . O
 Clark B-PERSON
 |
-| O
-Granvilleyseveral B-DATE
-years I-DATE
+| I-PERSON
+Granvilleyseveral I-PERSON
+years O
 older O
 than O
 herself O
@@ -44588,7 +44588,7 @@ affect- O
 | O
 tin O
 for O
-Marion B-ORG
+Marion B-PERSON
 , O
 who O
 spent O
@@ -44608,7 +44608,7 @@ were O
 | O
 search O
 at O
-MrsPenfold’s,—in O
+MrsPenfold’s,—in B-CARDINAL
 the O
 most O
 assiduous O
@@ -44770,7 +44770,7 @@ of O
 life O
 , O
 though O
-Marion B-ORG
+Marion B-PERSON
 was O
 apt O
 to O
@@ -44835,7 +44835,7 @@ dreams O
 |
 
 | O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 health O
 and O
@@ -44867,9 +44867,9 @@ eager O
 young O
 auditors O
 , O
-Henry B-GPE
+Henry B-PERSON
 and O
-Marion O
+Marion B-PERSON
 , O
 by O
 each- O
@@ -44889,7 +44889,7 @@ their O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 161 B-CARDINAL
 |
@@ -44959,19 +44959,19 @@ natural O
 enjoyment O
 . O
 The O
-Amiable B-ORG
+Amiable O
 was O
 |
 | O
 thought O
 , O
 by O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 a O
 sad O
-marplot O
+marplot B-GPE
 , O
 hay- O
 |
@@ -45088,7 +45088,7 @@ were O
 vain O
 . O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 being O
 the O
@@ -45156,8 +45156,8 @@ win O
 the O
 |
 | O
-St B-PERSON
-Leger I-PERSON
+St B-GPE
+Leger I-GPE
 , O
 confidently O
 anticipating O
@@ -45167,7 +45167,7 @@ short O
 
 | O
 162 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -45219,11 +45219,11 @@ Smythe I-PERSON
 , O
 |
 | O
-many O
-years O
+many B-DATE
+years I-DATE
 older O
 than O
-Marion O
+Marion B-PERSON
 , O
 and O
 the O
@@ -45422,7 +45422,7 @@ though O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 163 B-CARDINAL
 |
@@ -45444,8 +45444,8 @@ her O
 accomplished O
 , O
 yet O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 |
 | O
 evidently O
@@ -45457,7 +45457,7 @@ con- O
 |
 | O
 moderation O
-; O
+  O
 and O
 almost O
 with O
@@ -45502,12 +45502,12 @@ which O
 were O
 voted O
 by O
-the B-ORG
-june- I-ORG
+the O
+june- O
 |
-| I-ORG
-nile I-ORG
-community I-ORG
+| O
+nile O
+community O
 to O
 be O
 so O
@@ -45672,8 +45672,8 @@ per- O
 
 | O
 164 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -45688,7 +45688,7 @@ Sir O
 Arthur B-PERSON
 |
 | I-PERSON
-Dunbar O
+Dunbar I-PERSON
 ’s O
 , O
 but O
@@ -45741,8 +45741,8 @@ little O
 gossiping O
 community O
 of O
-Dartmore B-ORG
-House I-ORG
+Dartmore B-PERSON
+House I-PERSON
 , O
 |
 | O
@@ -45757,12 +45757,12 @@ than O
 |
 | O
 that O
-Caroline B-GPE
+Caroline B-PERSON
 ’s O
 aunt O
 , O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 was O
 a O
@@ -45914,7 +45914,7 @@ companions O
 , O
 Clark B-PERSON
 and O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 |
 | O
@@ -45931,7 +45931,7 @@ affect- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 165 B-CARDINAL
 |
@@ -45940,8 +45940,8 @@ FLIRTATION B-PERSON
 lion O
 also O
 to O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 but O
 her O
@@ -46087,7 +46087,7 @@ and O
 imagination O
 peculiar O
 to O
-Marion B-ORG
+Marion B-PERSON
 , O
 and O
 it O
@@ -46183,7 +46183,7 @@ last O
 
 | O
 166 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -46243,8 +46243,8 @@ not O
 think O
 |
 | O
-Monsieur B-FAC
-D’Ambereau I-FAC
+Monsieur O
+D’Ambereau B-DATE
 , O
 the O
 Italian B-NORP
@@ -46296,12 +46296,12 @@ young O
 |
 | O
 ladies O
-; O
+  O
 and O
 a B-CARDINAL
 third I-CARDINAL
 of O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 young O
 friends O
@@ -46345,8 +46345,8 @@ unwonted O
 solicitude O
 , O
 when O
-Monsieur B-PERSON
-Forecast I-PERSON
+Monsieur O
+Forecast O
 , O
 |
 | O
@@ -46413,7 +46413,7 @@ intended O
 . O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 had O
 a O
 sufficient O
@@ -46449,7 +46449,7 @@ associated O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 167 B-CARDINAL
 |
@@ -46478,7 +46478,7 @@ attachment O
 of O
 her O
 companions O
-; O
+  O
 but O
 many O
 of O
@@ -46621,7 +46621,7 @@ road O
 , O
 within O
 sight O
-; O
+  O
 an O
 |
 | O
@@ -46675,9 +46675,9 @@ who O
 , O
 prescribed O
 for O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 pupils O
 , O
 be- O
@@ -46717,7 +46717,7 @@ by O
 
 | O
 168 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -46912,7 +46912,7 @@ with O
 plumage O
 unsoiled O
 , O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 mind O
 in O
@@ -46976,8 +46976,8 @@ mind O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 169 B-CARDINAL
 |
@@ -46999,7 +46999,7 @@ of O
 individual O
 anxiety O
 to O
-Marion B-ORG
+Marion B-PERSON
 , O
 known O
 only O
@@ -47008,8 +47008,8 @@ only O
 to O
 herself O
 and O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 but O
 it O
@@ -47020,8 +47020,8 @@ in O
 weight O
 and O
 urgency O
-every O
-year O
+every B-DATE
+year I-DATE
 , O
 throwing O
 |
@@ -47052,7 +47052,7 @@ though O
 with O
 true O
 philosophy O
-Marion B-ORG
+Marion B-PERSON
 |
 | O
 tried O
@@ -47073,9 +47073,9 @@ to O
 remedy O
 . O
 Once O
-a O
-- O
-quarter O
+a B-DATE
+- I-DATE
+quarter I-DATE
 , O
 |
 | O
@@ -47086,7 +47086,7 @@ during O
 every O
 successive O
 “ O
-half B-CARDINAL
+half O
 , O
 ” O
 |
@@ -47173,10 +47173,10 @@ never O
 seemed O
 any O
 nearer O
-; O
+  O
 and O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 |
 | O
 often O
@@ -47242,7 +47242,7 @@ FLIRTATION B-PERSON
 | O
 mind O
 of O
-Marion B-ORG
+Marion B-PERSON
 , O
 but O
 she O
@@ -47381,7 +47381,7 @@ admit- O
 |
 | O
 vale O
-; O
+  O
 but O
 his O
 purse O
@@ -47399,8 +47399,8 @@ such O
 a O
 draft O
 as O
-Sit B-PERSON
-Trick I-PERSON
+Sit B-ORG
+Trick I-ORG
 |
 | O
 would O
@@ -47429,7 +47429,7 @@ be O
 induced O
 to O
 take O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 |
 | O
@@ -47455,8 +47455,8 @@ in O
 that O
 of O
 Sir O
-Tricks B-PERSON
-Dunbar I-PERSON
+Tricks O
+Dunbar B-PERSON
 , O
 how O
 precisely O
@@ -47664,7 +47664,7 @@ prudence O
 , O
 the O
 young O
-Baronet B-ORG
+Baronet O
 |
 | O
 obtained O
@@ -47731,7 +47731,7 @@ of O
 |
 | O
 water O
-; O
+  O
 he O
 paid O
 the O
@@ -47745,7 +47745,7 @@ always O
 
 | O
 172 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -47753,7 +47753,7 @@ FLIRTATION B-PERSON
 | O
 when O
 travelling O
-; O
+  O
 he O
 gave O
 ten B-QUANTITY
@@ -47782,12 +47782,12 @@ the O
 next O
 moment O
 to O
-Clare B-ORG
+Clare B-PERSON
 Gran- O
 |
 | O
 vile O
-; O
+  O
 and O
 he O
 sent O
@@ -47869,11 +47869,11 @@ estimate O
 his O
 income O
 at O
-L.20,000 B-LANGUAGE
-a- O
+L.20,000 B-ORG
+a- I-ORG
 |
-| O
-year O
+| I-ORG
+year I-ORG
 , O
 and O
 his O
@@ -47893,7 +47893,7 @@ united O
 , O
 who O
 paid O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -47907,11 +47907,11 @@ children O
 |
 | O
 understandings O
-; O
+  O
 but O
 while O
 Sir O
-Tricks B-PERSON
+Tricks O
 made O
 |
 | O
@@ -47926,7 +47926,7 @@ to O
 train O
 |
 | O
-Marion B-PERSON
+Marion O
 with O
 skill O
 and O
@@ -47995,10 +47995,10 @@ and O
 raced O
 himself O
 into O
-difficult- O
+difficult- B-GPE
 |
-| O
-ties O
+| I-GPE
+ties I-GPE
 , O
 entering O
 horses O
@@ -48022,7 +48022,7 @@ re- O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 _ O
@@ -48032,7 +48032,7 @@ _ O
 | O
 solved O
 that O
-Marion B-ORG
+Marion B-PERSON
 and O
 her O
 embarrassments O
@@ -48056,9 +48056,9 @@ mind O
 |
 
 | O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 grave O
 and O
 dry O
@@ -48085,7 +48085,7 @@ increasing O
 | O
 amount O
 of O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 bill O
 , O
@@ -48143,7 +48143,7 @@ expenditure O
 , O
 however O
 , O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -48201,9 +48201,9 @@ was O
 | O
 ready O
 money O
-; O
+  O
 and O
-Marion B-ORG
+Marion B-PERSON
 soon O
 discovered O
 |
@@ -48267,8 +48267,8 @@ first B-ORDINAL
 
 | O
 174 B-CARDINAL
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-GPE
+FLIRTATION B-DATE
 . O
 |
 
@@ -48294,7 +48294,7 @@ accidentally O
 | O
 heard O
 Sir O
-Tricks B-PERSON
+Tricks O
 laughingly O
 complain O
 du- O
@@ -48303,7 +48303,7 @@ du- O
 ring O
 her O
 , O
-midsummer O
+midsummer B-DATE
 holidays O
 at O
 home O
@@ -48391,7 +48391,7 @@ and O
 a- O
 |
 | O
-tually O
+tually B-PERSON
 put O
 to O
 some O
@@ -48420,7 +48420,7 @@ wealth O
 , O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 soon O
 after O
 stole O
@@ -48438,7 +48438,7 @@ displayed O
 her O
 glittering O
 treasure O
-; O
+  O
 |
 | O
 but O
@@ -48525,7 +48525,7 @@ a O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 175 B-CARDINAL
 |
@@ -48549,12 +48549,12 @@ club O
 |
 
 | O
-Day B-DATE
+Day O
 after O
 day O
 elapsed O
 , O
-week B-DATE
+week O
 after O
 week B-DATE
 , O
@@ -48564,7 +48564,7 @@ and O
 every O
 time O
 Sir O
-Tricks B-PERSON
+Tricks O
 entered O
 the O
 room O
@@ -48590,7 +48590,7 @@ eve O
 of O
 being O
 paid O
-; O
+  O
 |
 | O
 but O
@@ -48802,7 +48802,7 @@ time O
 
 | O
 176 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -48821,7 +48821,7 @@ however O
 |
 | O
 and O
-Marion B-ORG
+Marion B-PERSON
 returned O
 penniless O
 to O
@@ -48843,8 +48843,8 @@ done O
 before O
 , O
 in O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 ’s O
 lamentations O
 respect- O
@@ -48920,10 +48920,10 @@ anxiety O
 that O
 on O
 attaining O
-the O
-age O
-of O
-sixteen B-DATE
+the B-DATE
+age I-DATE
+of I-DATE
+sixteen I-DATE
 , O
 |
 | O
@@ -49028,7 +49028,7 @@ letter O
 , O
 which O
 cost O
-Marion B-ORG
+Marion B-PERSON
 agonies O
 of O
 |
@@ -49047,7 +49047,7 @@ no O
 | O
 answer O
 whatever O
-; O
+  O
 and O
 with O
 a O
@@ -49057,8 +49057,8 @@ newson- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 177 B-CARDINAL
 |
@@ -49140,9 +49140,9 @@ emotion O
 by O
 each O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 pupils O
 at O
 the O
@@ -49179,8 +49179,8 @@ the O
 finishing O
 hand O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 were O
 |
@@ -49212,7 +49212,7 @@ by O
 their O
 brilliant O
 acquirements O
-; O
+  O
 respect- O
 |
 | O
@@ -49303,13 +49303,13 @@ employment O
 
 | O
 178 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
 
 | O
-Marion B-ORG
+Marion B-PERSON
 had O
 strolled O
 one B-TIME
@@ -49323,7 +49323,7 @@ line O
 farther O
 than O
 Miss O
-Smythe O
+Smythe B-PERSON
 had O
 ever O
 been O
@@ -49333,7 +49333,7 @@ known O
 to O
 venture O
 before O
-; O
+  O
 and O
 the O
 two- O
@@ -49396,7 +49396,7 @@ the O
 western O
 horizon O
 . O
-Time O
+Time B-ORG
 flew O
 on O
 , O
@@ -49429,13 +49429,13 @@ petty O
 annoyance O
 of O
 their O
-daily O
+daily B-DATE
 life O
 , O
 and O
-come- B-PERSON
+come- O
 |
-| I-PERSON
+| O
 parted O
 the O
 little O
@@ -49470,7 +49470,7 @@ exhilarating O
 key O
 in O
 which O
-Caroline B-GPE
+Caroline B-PERSON
 spoke O
 , O
 and O
@@ -49504,7 +49504,7 @@ they O
 | O
 had O
 withdrawn O
-; O
+  O
 but O
 ashamed O
 of O
@@ -49552,7 +49552,7 @@ treated O
 her O
 with O
 familiarity O
-; O
+  O
 though O
 |
 
@@ -49596,10 +49596,10 @@ in O
 the O
 confidence O
 of O
-Miss B-PERSON
+Miss O
 |
-| I-PERSON
-Smythe I-PERSON
+| O
+Smythe O
 , O
 who O
 , O
@@ -49681,10 +49681,10 @@ with O
 whom O
 they O
 converse O
-; O
+  O
 and O
 this O
-Caroline B-GPE
+Caroline B-PERSON
 |
 | O
 did O
@@ -49692,7 +49692,7 @@ to O
 excess O
 , O
 asking O
-Marion B-ORG
+Marion B-PERSON
 , O
 with O
 every O
@@ -49841,7 +49841,7 @@ to O
 share O
 with O
 them O
-; O
+  O
 and O
 especially O
 if O
@@ -49993,7 +49993,7 @@ Caroline B-PERSON
 |
 | O
 grasping O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 hand O
 with O
@@ -50066,7 +50066,7 @@ out O
 Who O
 ? O
 asked O
-Marion B-ORG
+Marion B-PERSON
 , O
 bewildered O
 and O
@@ -50085,7 +50085,7 @@ frantic O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 181 B-CARDINAL
 |
@@ -50111,8 +50111,8 @@ unaccountable O
 |
 | O
 “ O
-Dear B-WORK_OF_ART
-Caroline I-WORK_OF_ART
+Dear O
+Caroline B-PERSON
 ! O
 whom O
 do O
@@ -50129,8 +50129,8 @@ madman O
 ! O
 ” O
 replied O
-Miss O
-Smythe O
+Miss B-PERSON
+Smythe I-PERSON
 , O
 in O
 |
@@ -50163,7 +50163,7 @@ or O
 to O
 marry O
 me O
-; O
+  O
 and O
 you O
 |
@@ -50192,7 +50192,7 @@ hear O
 , O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 that O
 he O
@@ -50251,8 +50251,8 @@ at O
 my O
 windows O
 in O
-the O
-night O
+the B-TIME
+night I-TIME
 , O
 and O
 frightens O
@@ -50350,7 +50350,7 @@ in O
 the O
 rapid O
 and O
-sun- O
+sun- B-CARDINAL
 |
 | O
 died O
@@ -50366,7 +50366,7 @@ re- O
 
 | O
 182 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -50441,7 +50441,7 @@ shall O
 engage O
 his O
 attention O
-; O
+  O
 but O
 |
 | O
@@ -50558,7 +50558,7 @@ sound O
 , O
 and O
 grasped O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 |
 | O
@@ -50576,7 +50576,7 @@ her O
 being O
 perfectly O
 immoveable O
-; O
+  O
 at O
 length O
 , O
@@ -50671,7 +50671,7 @@ Stop O
 ! O
 ” O
 whispered O
-Marion B-ORG
+Marion B-PERSON
 in O
 an O
 under O
@@ -50708,7 +50708,7 @@ approaches O
 Fly O
 then O
 , O
-Marion B-ORG
+Marion B-PERSON
 ! O
 all O
 is O
@@ -50886,7 +50886,7 @@ appeared O
 to O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 as O
 if O
 she O
@@ -50909,7 +50909,7 @@ him O
 
 | O
 184 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -50980,7 +50980,7 @@ dictated O
 | O
 by O
 others O
-; O
+  O
 but O
 Caroline B-PERSON
 , O
@@ -51090,7 +51090,7 @@ farthest O
 corner O
 of O
 the O
-earth,—in B-ORG
+earth,—in O
 the O
 deepest O
 dungeon O
@@ -51164,7 +51164,7 @@ me O
 ! O
 — O
 now,—this O
-moment.—If B-ORG
+moment.—If B-PRODUCT
 not O
 , O
 |
@@ -51196,7 +51196,7 @@ stern O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 185 B-CARDINAL
 |
@@ -51317,7 +51317,7 @@ some O
 steps O
 in O
 pursuit O
-; O
+  O
 but O
 |
 | O
@@ -51377,7 +51377,7 @@ struck O
 | O
 astonishment O
 at O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 pale O
 and O
@@ -51403,8 +51403,8 @@ place- O
 nation O
 , O
 for O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 seemed O
 at O
 once O
@@ -51433,10 +51433,10 @@ was O
 men- O
 |
 | O
-tioned O
-; O
+tioned B-DATE
+  O
 therefore O
-Marion B-ORG
+Marion B-PERSON
 had O
 but O
 to O
@@ -51457,15 +51457,15 @@ found O
 
 | O
 186 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
 
 | O
 when O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 hastened O
 forward O
 , O
@@ -51484,7 +51484,7 @@ servants O
 
 | O
 When O
-Marion B-ORG
+Marion B-PERSON
 had O
 rapidly O
 executed O
@@ -51549,7 +51549,7 @@ much O
 trampled O
 and O
 disfigured O
-; O
+  O
 but O
 all O
 was O
@@ -51571,16 +51571,16 @@ alarm O
 and O
 perplexity O
 , O
-Marion B-ORG
+Marion B-PERSON
 hastened O
 for- O
 |
 | O
 ward O
 to O
-the B-FAC
-garden I-FAC
-gate I-FAC
+the O
+garden O
+gate O
 , O
 which O
 she O
@@ -51609,8 +51609,8 @@ there O
 found O
 |
 | O
-Mrs B-PERSON
-Tenfold I-PERSON
+Mrs O
+Tenfold B-PERSON
 and O
 her O
 servants O
@@ -51666,7 +51666,7 @@ off O
 to O
 be O
 distinguished O
-; O
+  O
 and O
 Marion B-PERSON
 perceived O
@@ -51686,7 +51686,7 @@ hedge O
 close O
 beside O
 her O
-; O
+  O
 but O
 when O
 she O
@@ -51722,7 +51722,7 @@ between O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 187 B-CARDINAL
 |
@@ -51747,7 +51747,7 @@ madman O
 | O
 Scarcely O
 had O
-Marion O
+Marion B-PERSON
 time O
 to O
 utter O
@@ -51804,9 +51804,9 @@ sight O
 |
 
 | O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 chief O
 care O
 , O
@@ -51857,7 +51857,7 @@ wit- O
 | O
 nessed O
 them O
-; O
+  O
 a O
 story O
 so O
@@ -51889,10 +51889,10 @@ among O
 the O
 younger O
 pupils O
-; O
+  O
 but O
 had O
-Marion B-ORG
+Marion B-PERSON
 |
 | O
 even O
@@ -51939,7 +51939,7 @@ agitated O
 | O
 manner O
 of O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 whose O
 frolicsome O
@@ -51969,7 +51969,7 @@ of O
 
 | O
 188 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -51980,7 +51980,7 @@ fever O
 . O
 If O
 any O
-one B-CARDINAL
+one O
 appeared O
 suddenly O
 |
@@ -52000,7 +52000,7 @@ start O
 it O
 occasioned O
 her O
-; O
+  O
 she O
 could O
 not O
@@ -52068,7 +52068,7 @@ take O
 a O
 stroll O
 with O
-Marion B-ORG
+Marion B-PERSON
 in O
 some O
 of O
@@ -52232,17 +52232,17 @@ that O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 189 B-CARDINAL
 |
 
 | O
-Caroline B-GPE
+Caroline B-PERSON
 trod O
 more O
 cautiously O
-; O
+  O
 and O
 though O
 |
@@ -52354,7 +52354,7 @@ and O
 |
 | O
 before O
-Marion B-ORG
+Marion B-PERSON
 had O
 time O
 to O
@@ -52374,7 +52374,7 @@ feet O
 of O
 |
 | O
-Caroline B-GPE
+Caroline B-PERSON
 . O
 |
 
@@ -52396,7 +52396,7 @@ girl O
 fled O
 , O
 while O
-Marion B-ORG
+Marion B-PERSON
 , O
 scarcely O
 less O
@@ -52436,7 +52436,7 @@ which O
 ended O
 in O
 a O
-Laugh B-GPE
+Laugh B-WORK_OF_ART
 so O
 wild O
 , O
@@ -52476,8 +52476,8 @@ alarm O
 
 | O
 When O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 tore O
 open O
 an O
@@ -52504,7 +52504,7 @@ FLIRTATION B-PERSON
 packet O
 addressed O
 to O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 she O
 discovered O
@@ -52593,7 +52593,7 @@ assurance O
 to O
 |
 | O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 whose O
 words O
@@ -52654,7 +52654,7 @@ and O
 which O
 seemed O
 to O
-Marion B-ORG
+Marion B-PERSON
 like O
 features O
 she O
@@ -52707,7 +52707,7 @@ before O
 |
 
 | O
-Time O
+Time B-ORG
 wore O
 on O
 , O
@@ -52730,9 +52730,9 @@ the O
 comparative O
 quietness O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 , O
 |
 
@@ -52861,8 +52861,8 @@ school O
 when O
 |
 | O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 was O
 expected O
 to O
@@ -52872,8 +52872,8 @@ her O
 | O
 home O
 , O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 was O
 bestowing O
 on O
@@ -52947,9 +52947,9 @@ in- O
 | O
 telligenco O
 that O
-Mrs B-PERSON
-Smythe I-PERSON
-’s I-PERSON
+Mrs O
+Smythe B-PERSON
+’s O
 carriage O
 had O
 |
@@ -52995,8 +52995,8 @@ sensible O
 at O
 a O
 village O
-some B-QUANTITY
-miles I-QUANTITY
+some O
+miles O
 off O
 , O
 where O
@@ -53004,7 +53004,7 @@ where O
 
 | O
 192 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -53043,7 +53043,7 @@ want O
 to O
 convey O
 Miss O
-Smythe O
+Smythe B-PERSON
 to O
 the O
 spot O
@@ -53096,7 +53096,7 @@ life O
 |
 
 | O
-Struck B-PERSON
+Struck O
 with O
 grief O
 and O
@@ -53113,7 +53113,7 @@ intelligence O
 , O
 |
 | O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 though O
 she O
@@ -53179,7 +53179,7 @@ arms O
 of O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 and O
 burst O
@@ -53210,7 +53210,7 @@ sum- O
 money O
 to O
 escort O
-Caroline B-GPE
+Caroline B-PERSON
 in O
 the O
 carriage O
@@ -53260,7 +53260,7 @@ wonder O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 193 B-CARDINAL
 |
@@ -53323,7 +53323,7 @@ they O
 have O
 the O
 opportunity O
-; O
+  O
 and O
 without O
 a O
@@ -53331,7 +53331,7 @@ thought O
 |
 | O
 of O
-Caroline B-GPE
+Caroline B-PERSON
 ’s O
 impatience O
 , O
@@ -53395,8 +53395,8 @@ leaving O
 the O
 boundaries O
 of O
-Dartmore B-ORG
-House I-ORG
+Dartmore B-PERSON
+House I-PERSON
 . O
 |
 
@@ -53525,7 +53525,7 @@ You O
 
 | O
 194 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -53559,8 +53559,8 @@ Scarcely O
 however O
 , O
 had O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 |
 | O
 placed O
@@ -53589,7 +53589,7 @@ her O
 in O
 , O
 before O
-Marion B-PERSON
+Marion B-GPE
 sun- O
 |
 | O
@@ -53607,7 +53607,7 @@ terror O
 seized O
 hold O
 of O
-Caroline B-GPE
+Caroline B-PERSON
 ’s O
 dress O
 , O
@@ -53715,7 +53715,7 @@ he O
 
 | O
 Before O
-Marion B-ORG
+Marion B-PERSON
 could O
 finish O
 her O
@@ -53731,8 +53731,8 @@ violently O
 seized O
 |
 | O
-Miss B-WORK_OF_ART
-Smythe I-WORK_OF_ART
+Miss O
+Smythe B-PERSON
 by O
 the O
 arms O
@@ -53757,7 +53757,7 @@ the O
 loud O
 cries O
 of O
-Marion B-ORG
+Marion B-PERSON
 brought O
 as- O
 |
@@ -53780,14 +53780,14 @@ post O
 - O
 chaise O
 secured O
-; O
+  O
 but O
 not O
 |
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 195 B-CARDINAL
 |
@@ -53807,7 +53807,7 @@ who O
 | O
 instantly O
 vanished O
-; O
+  O
 and O
 the O
 post O
@@ -53844,7 +53844,7 @@ urgent O
 haste O
 , O
 that O
-evening B-TIME
+evening O
 , O
 with O
 a O
@@ -53943,7 +53943,7 @@ their O
 | O
 utmost O
 search O
-; O
+  O
 and O
 as O
 Caroline B-PERSON
@@ -53985,7 +53985,7 @@ in O
 oblivion O
 , O
 and O
-Marion B-ORG
+Marion B-PERSON
 herself O
 |
 | O
@@ -54018,7 +54018,7 @@ herself O
 
 | O
 196 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -54041,13 +54041,13 @@ laugh O
 ! O
 |
 | O
-Parviamentary O
-Departs O
+Parviamentary B-ORG
+Departs I-ORG
 . O
 |
 
 | O
-Manon B-GPE
+Manon B-PERSON
 ’s O
 sister O
 , O
@@ -54083,9 +54083,9 @@ best O
 everything O
 , O
 at O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 , O
 had O
 left O
@@ -54158,15 +54158,15 @@ end O
 the O
 part O
 of O
-the O
-Fairy O
-Beautiful O
+the B-WORK_OF_ART
+Fairy I-WORK_OF_ART
+Beautiful I-WORK_OF_ART
 in O
 form- O
 |
 | O
 ing O
-Agnes B-LOC
+Agnes O
 , O
 while O
 nature O
@@ -54178,19 +54178,19 @@ her O
 choicest O
 gifts O
 on O
-Marion B-ORG
+Marion B-GPE
 . O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 197 B-CARDINAL
 |
 
 | O
-Agnes B-LOC
+Agnes O
 was O
 brilliant O
 without O
@@ -54290,7 +54290,7 @@ appear- O
 ance O
 as O
 a O
-Duchess O
+Duchess B-ORG
 at O
 the O
 next O
@@ -54303,7 +54303,7 @@ carnation O
 Admiration O
 seemed O
 to O
-Agnes B-LOC
+Agnes O
 the O
 only O
 plea- O
@@ -54318,7 +54318,7 @@ amusement O
 its O
 only O
 business O
-; O
+  O
 |
 | O
 while O
@@ -54346,7 +54346,7 @@ fictitious O
 sorrows O
 of O
 the O
-Adelines B-NORP
+Adelines B-WORK_OF_ART
 and O
 Julias B-PERSON
 in O
@@ -54367,7 +54367,7 @@ from O
 a O
 circulating O
 library O
-; O
+  O
 though O
 in O
 |
@@ -54376,7 +54376,7 @@ all O
 -other O
 respects O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 wasted O
 her O
 time O
@@ -54428,7 +54428,7 @@ certainly O
 , O
 could O
 feel O
-Agnes B-LOC
+Agnes O
 in O
 |
 | O
@@ -54445,7 +54445,7 @@ faults O
 
 | O
 198 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -54453,7 +54453,7 @@ FLIRTATION B-PERSON
 | O
 of O
 others O
-; O
+  O
 but O
 those O
 who O
@@ -54477,7 +54477,7 @@ good O
 in O
 themselves O
 . O
-Marion O
+Marion B-PERSON
 found O
 it O
 |
@@ -54555,7 +54555,7 @@ to O
 those O
 she O
 loved O
-; O
+  O
 |
 | O
 but O
@@ -54599,7 +54599,7 @@ distinct- O
 |
 | O
 estedness O
-; O
+  O
 her O
 own O
 sole O
@@ -54638,7 +54638,7 @@ ruling O
 passion O
 of O
 Agnes B-LOC
-; O
+  O
 |
 | O
 love O
@@ -54654,7 +54654,7 @@ or O
 rather O
 impulse O
 with O
-Marion B-ORG
+Marion B-PERSON
 , O
 who O
 would O
@@ -54671,9 +54671,9 @@ strangers O
 | O
 to O
 enjoy O
-; O
+  O
 but O
-Agnes B-LOC
+Agnes B-PERSON
 would O
 have O
 plucked O
@@ -54704,14 +54704,14 @@ use O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 199 B-CARDINAL
 |
 
 | O
-Agnes B-LOC
+Agnes O
 , O
 cold O
 , O
@@ -54777,7 +54777,7 @@ crew- O
 lion O
 . O
 But O
-Marion B-ORG
+Marion B-PERSON
 , O
 on O
 the O
@@ -54900,8 +54900,8 @@ of O
 |
 | O
 that O
-Divine B-PERSON
-Being I-PERSON
+Divine O
+Being O
 who O
 left O
 us O
@@ -54919,7 +54919,7 @@ steps O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 had O
 now O
 been O
@@ -54977,13 +54977,13 @@ into- O
 | O
 200 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
 | O
 duced O
-; O
+  O
 but O
 though O
 the O
@@ -55009,7 +55009,7 @@ a O
 second B-ORDINAL
 campaign O
 , O
-Agnes B-LOC
+Agnes B-ORG
 had O
 |
 | O
@@ -55064,8 +55064,8 @@ own O
 supreme O
 loveliness O
 . O
-Three B-CARDINAL
-seasons O
+Three B-DATE
+seasons I-DATE
 of O
 tumult- O
 |
@@ -55088,7 +55088,7 @@ other O
 , O
 during O
 which O
-Agnes B-LOC
+Agnes B-NORP
 |
 | O
 was O
@@ -55123,7 +55123,7 @@ array O
 of O
 her O
 charms O
-; O
+  O
 |
 | O
 and O
@@ -55151,7 +55151,7 @@ i- O
 |
 | O
 paired O
-; O
+  O
 nor O
 were O
 any O
@@ -55174,8 +55174,8 @@ see O
 to O
 admire O
 in O
-Agnes B-GPE
-Dunbar I-GPE
+Agnes B-PERSON
+Dunbar I-PERSON
 , O
 as O
 not O
@@ -55202,7 +55202,7 @@ subject O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 began O
 life O
 with O
@@ -55227,14 +55227,14 @@ felt O
 by O
 young O
 ladies O
-under B-DATE
-twenty I-DATE
+under O
+twenty O
 , O
 |
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 201 B-CARDINAL
 |
@@ -55254,8 +55254,8 @@ it O
 , O
 and O
 with O
-a O
-thousand B-CARDINAL
+a B-CARDINAL
+thousand I-CARDINAL
 schemes O
 and O
 projects O
@@ -55379,7 +55379,7 @@ as O
 a O
 lover O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 wasted O
 her O
 |
@@ -55476,13 +55476,13 @@ know O
 |
 | O
 what O
-Agnes B-LOC
+Agnes O
 thought O
 of O
 their O
 brother O
 officers O
-; O
+  O
 |
 
 | O
@@ -55511,7 +55511,7 @@ or O
 the O
 next O
 concert O
-; O
+  O
 how O
 |
 | O
@@ -55520,19 +55520,19 @@ liked O
 their O
 military O
 band O
-; O
+  O
 if O
 she O
 proposed O
 |
 | O
 patronising O
-their O
-night O
+their B-TIME
+night I-TIME
 at O
 the O
 theatre O
-; O
+  O
 the- O
 |
 | O
@@ -55544,7 +55544,7 @@ galope O
 fast O
 or O
 slow O
-; O
+  O
 how O
 |
 | O
@@ -55559,7 +55559,7 @@ on O
 |
 | O
 horseback O
-; O
+  O
 whether O
 she O
 did O
@@ -55587,7 +55587,7 @@ their O
 all O
 wearing O
 uniforms O
-; O
+  O
 how O
 |
 | O
@@ -55597,7 +55597,7 @@ the O
 new O
 regulation O
 jacket O
-; O
+  O
 and O
 |
 | O
@@ -55639,7 +55639,7 @@ of O
 similar O
 import O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 lent O
 her O
 very O
@@ -55734,25 +55734,25 @@ found O
 at O
 |
 | O
-Piershill B-FAC
-Barracks I-FAC
+Piershill B-ORG
+Barracks I-ORG
 . O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 208 B-CARDINAL
 |
 
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 laughingly O
 alleged O
 that O
-Agnes B-LOC
+Agnes B-NORP
 |
 | O
 had O
@@ -55768,7 +55768,7 @@ suited O
 to O
 every O
 different O
-occasion,—a O
+occasion,—a B-NORP
 musical O
 |
 | O
@@ -55782,7 +55782,7 @@ crouches O
 |
 | O
 and O
-quavers,—a B-NORP
+quavers,—a B-GPE
 hunting O
 conversation O
 about O
@@ -55978,13 +55978,13 @@ their O
 names O
 to O
 pass O
-; O
+  O
 |
 
 | O
 204 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -56051,13 +56051,13 @@ drunk O
 Sir O
 |
 | O
-Patriot B-ORG
+Patriot B-PERSON
 ’s O
 claret O
 month B-DATE
-after O
-month B-DATE
-; O
+after I-DATE
+month I-DATE
+  O
 but O
 no O
 |
@@ -56072,7 +56072,7 @@ During O
 , O
 |
 | O
-Leeds B-PERSON
+Leeds B-GPE
 , O
 or O
 Canada B-GPE
@@ -56159,7 +56159,7 @@ is O
 , O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 in O
 a O
@@ -56256,7 +56256,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 205 B-CARDINAL
 |
@@ -56302,7 +56302,7 @@ Smythe B-PERSON
 ? O
 Is O
 Miss O
-Smythe O
+Smythe B-PERSON
 to O
 show O
 her- O
@@ -56310,9 +56310,9 @@ her- O
 | O
 self O
 at O
-Lady B-ORG
-Towercliffe I-ORG
-’s I-ORG
+Lady B-PERSON
+Towercliffe I-PERSON
+’s I-PERSON
 party O
 ? O
 and O
@@ -56323,7 +56323,7 @@ then O
 like O
 you O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 to O
 have O
@@ -56367,7 +56367,7 @@ said O
 Clark B-PERSON
 , O
 earnestly O
-; O
+  O
 “ O
 ‘ O
 even O
@@ -56490,9 +56490,9 @@ days O
 | O
 would O
 occur O
-seldomer O
+seldomer B-PERSON
 and O
-seldomer O
+seldomer B-PERSON
 , O
 while O
 , O
@@ -56530,8 +56530,8 @@ in- O
 
 | O
 206 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 |
 
@@ -56605,10 +56605,10 @@ comfort O
 ! O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 |
-| O
-indignantly O
+| I-PERSON
+indignantly I-PERSON
 , O
 “ O
 a O
@@ -56743,7 +56743,7 @@ Clark B-PERSON
 , O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 impa- O
 |
@@ -56820,16 +56820,16 @@ Caroline B-PERSON
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 207 B-CARDINAL
 |
 
 | O
 “ O
-Lady B-WORK_OF_ART
-Towercliffe I-WORK_OF_ART
+Lady B-PERSON
+Towercliffe I-PERSON
 says O
 , O
 that O
@@ -56896,7 +56896,7 @@ Cares O
 ! O
 ” O
 exclaimed O
-Agnes B-LOC
+Agnes O
 , O
 with O
 a O
@@ -57010,7 +57010,7 @@ mere O
 choice O
 of O
 a O
-ribbon,—I B-PRODUCT
+ribbon,—I O
 am O
 fastidious O
 , O
@@ -57105,7 +57105,7 @@ em- O
 |
 | O
 play O
-Buckmaster O
+Buckmaster B-PERSON
 the O
 tailor O
 , O
@@ -57144,7 +57144,7 @@ of O
 “ O
 My O
 dear O
-Agnes B-LOC
+Agnes O
 ! O
 this O
 should O
@@ -57182,7 +57182,7 @@ extra- O
 |
 | O
 vacantly O
-; O
+  O
 and O
 , O
 besides O
@@ -57237,7 +57237,7 @@ the O
 reason O
 of O
 that O
-; O
+  O
 but O
 |
 | O
@@ -57353,7 +57353,7 @@ handsome O
 | O
 as O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 as O
 agreeable O
@@ -57374,7 +57374,7 @@ as O
 Mr O
 |
 | O
-Glanville B-GPE
+Glanville B-ORG
 , O
 as O
 merry O
@@ -57387,7 +57387,7 @@ Lancey I-PERSON
  
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 209 B-CARDINAL
@@ -57406,9 +57406,9 @@ Downcast O
 inter- O
 |
 | O
-rupert O
-Agnes B-LOC
-. O
+rupert B-PERSON
+Agnes I-PERSON
+. I-PERSON
 |
 | O
 “ O
@@ -57512,7 +57512,7 @@ money O
 , O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 |
 | O
@@ -57534,8 +57534,8 @@ even O
 if O
 you O
 have O
-eight B-CARDINAL
-or O
+eight B-DATE
+or I-DATE
 ten B-QUANTITY
 thousand I-QUANTITY
 |
@@ -57604,13 +57604,13 @@ necessity O
 for O
 his O
 sacrificing O
-one B-CARDINAL
+one O
 of O
 |
 | O
 his O
 usual O
-comforts;—if O
+comforts —if O
 it O
 obliged O
 him O
@@ -57625,10 +57625,10 @@ sherry O
 instead O
 of O
 claret O
-every O
+every B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 , O
 I O
 am O
@@ -57663,8 +57663,8 @@ man O
 |
 
 | O
-210 B-PRODUCT
-MODERN I-PRODUCT
+210 B-CARDINAL
+MODERN O
 FLIRTATION B-PERSON
 , O
 |
@@ -57722,7 +57722,7 @@ Who O
 and O
 what O
 are O
-Mrs B-PERSON
+Mrs O
 and O
 Miss O
 |
@@ -57735,7 +57735,7 @@ a O
 frequent O
 question O
 of O
-Agnes B-LOC
+Agnes B-NORP
 |
 | O
 to O
@@ -57753,7 +57753,7 @@ factory O
 answer O
 . O
 On O
-Caroline B-GPE
+Caroline B-PERSON
 leaving O
 school O
 , O
@@ -57766,7 +57766,7 @@ taken O
 a O
 villa O
 at O
-Portobello B-ORG
+Portobello B-GPE
 , O
 |
 | O
@@ -57811,8 +57811,8 @@ manner O
 |
 | O
 though O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 was O
 certainly O
 of O
@@ -57878,7 +57878,7 @@ she O
 most O
 liberally O
 displayed O
-; O
+  O
 while O
 her O
 manner O
@@ -57891,7 +57891,7 @@ tone O
 of O
 coquetry O
 most O
-insult- O
+insult- B-ORG
 |
 | O
 able O
@@ -57913,7 +57913,7 @@ quakers O
 like O
 simplicity O
 of O
-A- B-ORG
+A- O
 |
 | O
 prince O
@@ -57923,8 +57923,8 @@ dress O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 211 B-CARDINAL
 |
@@ -57944,8 +57944,8 @@ of O
 costume O
 affected O
 by O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 , O
 |
 | O
@@ -58063,7 +58063,7 @@ her O
 mind O
 sometimes O
 led O
-Caroline B-GPE
+Caroline B-PERSON
 to O
 |
 | O
@@ -58089,7 +58089,7 @@ instantane- O
 | O
 out O
 impulse O
-; O
+  O
 yet O
 there O
 was O
@@ -58127,7 +58127,7 @@ which O
 gave O
 it O
 interest O
-; O
+  O
 for O
 , O
 without O
@@ -58184,7 +58184,7 @@ an O
 |
 
 | O
-212 O
+212 B-CARDINAL
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -58296,19 +58296,19 @@ mouth O
 |
 | O
 When O
-Mrs B-PERSON
-Smythe I-PERSON
-first O
+Mrs O
+Smythe B-PERSON
+first B-ORDINAL
 settled O
 at O
-Port- B-ORG
+Port- O
 |
-| I-ORG
-bell I-ORG
+| O
+bell O
 , O
 scarcely O
-a B-DATE
-week I-DATE
+a O
+week O
 of O
 gossiping O
 , O
@@ -58366,7 +58366,7 @@ as O
 the O
 |
 | O
-Amiable B-ORG
+Amiable O
 remained O
 silent O
 and O
@@ -58378,7 +58378,7 @@ in O
 the O
 whole O
 subsequent O
-evening B-TIME
+evening O
 , O
 while O
 he O
@@ -58398,7 +58398,7 @@ room O
 “ O
 pacing O
 the O
-quarter O
+quarter B-CARDINAL
 - O
 deck O
 , O
@@ -58415,7 +58415,7 @@ a O
 length O
 of O
 time O
-; O
+  O
 and O
 , O
 after O
@@ -58425,14 +58425,14 @@ being O
 closed O
 some B-TIME
 hours I-TIME
-the O
-following O
-day O
+the B-DATE
+following I-DATE
+day I-DATE
 with O
 |
 | O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 and O
 his O
 confidential O
@@ -58443,7 +58443,7 @@ they O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 213 B-CARDINAL
 |
@@ -58592,7 +58592,7 @@ us O
 like O
 the O
 wind O
-; O
+  O
 ” O
 and O
 |
@@ -58714,12 +58714,12 @@ FLIRTATION B-PERSON
 | O
 thought O
 the O
-Amiable B-ORG
+Amiable O
 , O
 when O
 viewing O
 the O
-char- B-CARDINAL
+char- O
 |
 | O
 after O
@@ -58958,7 +58958,7 @@ and O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 215 B-CARDINAL
 |
@@ -59021,7 +59021,7 @@ variety O
 of O
 animated O
 attitudes O
-; O
+  O
 or O
 , O
 |
@@ -59064,7 +59064,7 @@ was O
 , O
 however O
 , O
-Henry B-ORG
+Henry B-PERSON
 ’s O
 spirit O
 |
@@ -59148,7 +59148,7 @@ bewildered- O
 ing O
 power O
 in O
-Caroline B-GPE
+Caroline B-PERSON
 ’s O
 society O
 , O
@@ -59258,7 +59258,7 @@ and O
 her O
 delicious O
 laugh O
-; O
+  O
 though O
 the O
 mirth O
@@ -59423,7 +59423,7 @@ were O
 dear O
 to O
 him O
-; O
+  O
 |
 | O
 and O
@@ -59444,7 +59444,7 @@ reveries O
 respecting O
 |
 | O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 he O
 became O
@@ -59499,7 +59499,7 @@ young O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 217 B-CARDINAL
 |
@@ -59649,7 +59649,7 @@ one O
 nor O
 the O
 other O
-; O
+  O
 |
 | O
 but O
@@ -59723,9 +59723,9 @@ me O
 , O
 but O
 amidst O
-a O
-thousand B-CARDINAL
-buffetings O
+a B-QUANTITY
+thousand I-QUANTITY
+buffetings I-QUANTITY
 |
 | O
 and O
@@ -59777,7 +59777,7 @@ K I-ORG
 
 | I-ORG
 218 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -59822,7 +59822,7 @@ all O
 but O
 |
 | O
-Henry B-GPE
+Henry B-PERSON
 , O
 in O
 general O
@@ -59845,8 +59845,8 @@ manner O
 of O
 |
 | O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 whenever O
 she O
@@ -59913,7 +59913,7 @@ colour O
 of O
 |
 | O
-Caroline B-GPE
+Caroline B-PERSON
 in O
 vivid O
 flashes O
@@ -60019,7 +60019,7 @@ encouraged O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 219 B-CARDINAL
 |
@@ -60049,7 +60049,7 @@ means O
 of O
 single O
 ladies O
-; O
+  O
 yet O
 all O
 was O
@@ -60125,7 +60125,7 @@ though O
 it O
 appeared O
 to O
-Henry B-GPE
+Henry B-PERSON
 , O
 that O
 , O
@@ -60135,8 +60135,8 @@ in O
 the O
 case O
 of O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 herself O
 , O
 whose O
@@ -60168,7 +60168,7 @@ giving O
 , O
 than O
 in O
-Caroline B-GPE
+Caroline B-PERSON
 who O
 seemed O
 |
@@ -60202,13 +60202,13 @@ which O
 surprised O
 |
 | O
-Henry B-GPE
+Henry B-PERSON
 in O
-Mrs B-GPE
+Mrs O
 - O
 and O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 , O
 nothing O
 had O
@@ -60276,7 +60276,7 @@ par- O
 |
 
 | O
-220 B-CARDINAL
+220 O
 MODERN O
 FLIRTATION B-PERSON
 , O
@@ -60299,8 +60299,8 @@ him O
 by O
 sight O
 . O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 |
 | O
 mentioned O
@@ -60329,7 +60329,7 @@ boy O
 while O
 , O
 to O
-Henry B-ORG
+Henry B-PERSON
 ’s O
 increasing O
 |
@@ -60407,10 +60407,10 @@ the O
 | O
 minds O
 of O
-Mrs B-PERSON
+Mrs O
 and O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 , O
 exploded O
 one B-DATE
@@ -60448,7 +60448,7 @@ dinner O
 | O
 Marion B-PERSON
 and O
-Henry B-GPE
+Henry B-PERSON
 were O
 amused O
 at O
@@ -60560,9 +60560,9 @@ but O
 her O
 furlough O
 from O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 |
 | O
 had O
@@ -60629,7 +60629,7 @@ Piershill B-ORG
 
 | O
 The O
-Amiable B-ORG
+Amiable O
 ’s O
 party O
 was O
@@ -60697,7 +60697,7 @@ had O
 taken O
 place O
 . O
-; O
+  O
 |
 
 | O
@@ -60858,7 +60858,7 @@ averted O
 looks O
 with O
 which O
-Caroline B-ORG
+Caroline B-PERSON
 listened O
 to O
 all O
@@ -61041,8 +61041,8 @@ obliged O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 223 B-CARDINAL
 |
@@ -61200,8 +61200,8 @@ She O
 seemed O
 to O
 have O
-a O
-dozen O
+a B-CARDINAL
+dozen I-CARDINAL
 differ- O
 |
 | O
@@ -61361,7 +61361,7 @@ known O
 singer O
 at O
 Vauxhall B-ORG
-; O
+  O
 at O
 another O
 he O
@@ -61373,9 +61373,9 @@ she O
 was O
 taking O
 off O
-Clark B-ORG
-Novel I-ORG
-; O
+Clark B-PERSON
+Novel I-PERSON
+  O
 |
 | O
 occasionally O
@@ -61438,7 +61438,7 @@ and O
 attitude O
 of O
 a O
-Catalani O
+Catalani B-PERSON
 , O
 and O
 concluded O
@@ -61559,7 +61559,7 @@ manner O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 225 B-CARDINAL
 |
@@ -61586,7 +61586,7 @@ a O
 ge- O
 |
 | O
-nius O
+nius B-ORG
 for O
 satire O
 and O
@@ -61622,7 +61622,7 @@ her O
 and O
 supported O
 by O
-Henry B-GPE
+Henry B-PERSON
 with O
 astonished- O
 |
@@ -61647,10 +61647,10 @@ being O
 able O
 , O
 after O
-an B-TIME
+an O
 |
-| I-TIME
-hour I-TIME
+| O
+hour O
 ’s O
 intercourse O
 with O
@@ -61785,13 +61785,13 @@ gone O
 | O
 ancestors O
 , O
-Caroline B-GPE
+Caroline B-PERSON
 , O
-Henry B-GPE
+Henry B-PERSON
 , O
 and O
-Captain B-PERSON
-De I-PERSON
+Captain O
+De B-PERSON
 |
 | I-PERSON
 Crespigny I-PERSON
@@ -61844,10 +61844,10 @@ Shakespeare B-PERSON
 two B-CARDINAL
 Promise O
 in O
-the B-ORG
-Comedy I-ORG
-of I-ORG
-Errors I-ORG
+the B-WORK_OF_ART
+Comedy I-WORK_OF_ART
+of I-WORK_OF_ART
+Errors I-WORK_OF_ART
 , O
 when O
 |
@@ -61942,8 +61942,8 @@ your O
 profile O
 more O
 towards O
-Mrs B-PERSON
-Scythe I-PERSON
+Mrs O
+Scythe O
 , O
 that O
 she O
@@ -61959,7 +61959,7 @@ mean O
 |
 
 | O
-Henry B-PERSON
+Henry O
 laughingly O
 received O
 these O
@@ -61997,7 +61997,7 @@ De B-PERSON
 |
 | I-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 colour O
 rushed O
 to O
@@ -62074,8 +62074,8 @@ ensued O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 227 B-CARDINAL
 |
@@ -62158,12 +62158,12 @@ the O
 | O
 world O
 than O
-Henry B-GPE
+Henry B-PERSON
 ! O
 ” O
 added O
 the O
-Amiable B-ORG
+Amiable O
 , O
 |
 | O
@@ -62251,7 +62251,7 @@ Caroline B-PERSON
 |
 | O
 laughing O
-; O
+  O
 “ O
 and O
 I O
@@ -62284,7 +62284,7 @@ senses O
 |
 
 | O
-Henry B-ORG
+Henry O
 meantime O
 had O
 observed O
@@ -62308,7 +62308,7 @@ the O
 excitement O
 , O
 so O
-disproportioned O
+disproportioned B-ORG
 |
 | O
 to O
@@ -62319,7 +62319,7 @@ into O
 which O
 Captain O
 De B-PERSON
-Cries- I-PERSON
+Cries- O
 |
 | O
 pigny O
@@ -62336,8 +62336,8 @@ re- O
 
 | O
 228 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 |
 
@@ -62389,7 +62389,7 @@ personal O
 Captain O
 De B-PERSON
 Crespigny I-PERSON
-; O
+  O
 but O
 |
 | O
@@ -62519,8 +62519,8 @@ again O
 “ O
 Well O
 ! O
-some B-DATE
-day I-DATE
+some O
+day O
 perhaps O
 , O
 as O
@@ -62616,7 +62616,7 @@ any O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 229 B-CARDINAL
 |
@@ -62641,7 +62641,7 @@ success O
 
 | O
 “ O
-T'can O
+T'can B-LANGUAGE
 only O
 say O
 , O
@@ -62752,7 +62752,7 @@ Crespigny I-PERSON
 at O
 these O
 words O
-; O
+  O
 but O
 assuming O
 a O
@@ -62767,7 +62767,7 @@ vivacity O
 , O
 he O
 summoned O
-Henry B-ORG
+Henry B-PERSON
 |
 | O
 to O
@@ -62809,7 +62809,7 @@ the O
 design O
 . O
 Miss O
-Smythe O
+Smythe B-PERSON
 , O
 |
 | O
@@ -62882,7 +62882,7 @@ and O
 
 | O
 230 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -62902,7 +62902,7 @@ peasant O
 girl O
 , O
 when O
-Henry B-GPE
+Henry B-PERSON
 , O
 disguised O
 in O
@@ -63014,7 +63014,7 @@ mere O
 love O
 - O
 match O
-; O
+  O
 and O
 Sir O
 Arthur B-PERSON
@@ -63031,7 +63031,7 @@ would O
 attend O
 to O
 the O
-warning,—that O
+warning,—that B-ORG
 |
 | O
 all O
@@ -63054,7 +63054,7 @@ trusted O
 |
 | O
 every O
-one B-CARDINAL
+one O
 present O
 intended O
 to O
@@ -63110,8 +63110,8 @@ Cap- O
 my O
 cousin O
 , O
-Miss B-PERSON
-Toward I-PERSON
+Miss O
+Toward O
 the O
 desires O
 , O
@@ -63300,8 +63300,8 @@ par- O
 ticular O
 leave O
 of O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 , O
 having O
 called O
@@ -63422,7 +63422,7 @@ laughing O
 
 | O
 232 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -63535,7 +63535,7 @@ instantly O
 away O
 and O
 disappeared O
-; O
+  O
 |
 | O
 but O
@@ -63562,7 +63562,7 @@ from O
 the O
 lips O
 of O
-Caroline B-GPE
+Caroline B-PERSON
 , O
 who O
 rushed O
@@ -63682,7 +63682,7 @@ to O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 233 B-CARDINAL
 |
@@ -63824,8 +63824,8 @@ everywhere O
 , O
 ” O
 said O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 in O
 a- O
@@ -63927,14 +63927,14 @@ secret- O
 | O
 by O
 near O
-us B-GPE
+us O
 , O
 or O
 terrifying O
 Caroline B-PERSON
 by O
 his O
-sun- O
+sun- B-CARDINAL
 |
 | O
 den O
@@ -64001,7 +64001,7 @@ win- O
 |
 | O
 down O
-; O
+  O
 often O
 at O
 midnight B-TIME
@@ -64026,7 +64026,7 @@ pistol O
 in O
 the O
 air O
-; O
+  O
 but O
 I O
 did O
@@ -64122,7 +64122,7 @@ a O
 host O
 in O
 himself O
-; O
+  O
 but O
 he O
 is O
@@ -64181,8 +64181,8 @@ the O
 gravel O
 , O
 when O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 |
 | O
 alighted O
@@ -64217,7 +64217,7 @@ out O
 lights O
 , O
 when O
-one O
+one B-CARDINAL
 of O
 the O
 candles O
@@ -64476,7 +64476,7 @@ her O
 mind O
 to O
 retire O
-; O
+  O
 but O
 a- O
 |
@@ -64560,8 +64560,8 @@ her O
 to O
 faint O
 . O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 could O
 |
 | O
@@ -64635,8 +64635,8 @@ sorrows O
 of O
 |
 | O
-some O
-midnight O
+some B-TIME
+midnight I-TIME
 bird O
 . O
 ” O
@@ -64662,7 +64662,7 @@ when O
 Miss O
 |
 | O
-Smythe O
+Smythe B-PERSON
 arose O
 from O
 her O
@@ -64759,14 +64759,14 @@ cheer O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 237 B-CARDINAL
 |
 
 | O
-Nature B-WORK_OF_ART
+Nature O
 was O
 hush’d O
 , O
@@ -65048,7 +65048,7 @@ all O
 was O
 |
 | O
-quiet,—she B-ORG
+quiet,—she O
 listened O
 and O
 all O
@@ -65260,8 +65260,8 @@ en- O
 trance O
 , O
 when O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 , O
 with O
 the O
@@ -65271,7 +65271,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 239 B-CARDINAL
 |
@@ -65353,8 +65353,8 @@ into O
 the O
 arms O
 of O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 with O
 |
@@ -65386,7 +65386,7 @@ the O
 leigh- O
 |
 | O
-burwood,—a B-ORG
+burwood,—a O
 diligent O
 search O
 was O
@@ -65495,7 +65495,7 @@ some O
 distance O
 in O
 the O
-far- O
+far- B-CARDINAL
 |
 | O
 den O
@@ -65511,7 +65511,7 @@ perfectly O
 
 | O
 240 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -65560,8 +65560,8 @@ obtained O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 241 B-CARDINAL
 |
@@ -65614,7 +65614,7 @@ soul O
 to O
 dare O
 , O
-Scorn B-GPE
+Scorn O
 . O
 |
 
@@ -65652,10 +65652,10 @@ the O
 | O
 safety O
 of O
-Mrs B-PERSON
+Mrs O
 and O
-Miss B-PERSON
-Smythe I-PERSON
+Miss O
+Smythe B-PERSON
 , O
 till O
 the O
@@ -65682,8 +65682,8 @@ occa- O
 |
 | O
 signs O
-Captain B-PERSON
-De I-PERSON
+Captain O
+De B-PERSON
 Crespigny.attended O
 , O
 as O
@@ -65705,8 +65705,8 @@ story O
 filled O
 up O
 his O
-vacant B-TIME
-hours I-TIME
+vacant O
+hours B-TIME
 , O
 |
 | O
@@ -65734,7 +65734,7 @@ Miss O
 | O
 VOL O
 . O
-I. B-ORG
+I. O
 . O
 L O
 |
@@ -65747,7 +65747,7 @@ FLIRTATION B-PERSON
 |
 
 | O
-Smythe O
+Smythe B-PERSON
 , O
 he O
 felt O
@@ -65993,7 +65993,7 @@ admit- O
 | O
 red,—and O
 Miss O
-Smythe O
+Smythe B-PERSON
 having O
 made O
 a O
@@ -66012,8 +66012,8 @@ to O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 243 B-CARDINAL
 |
@@ -66027,7 +66027,7 @@ in O
 the O
 character O
 of O
-Romeo B-ORG
+Romeo B-PERSON
 , O
 |
 | O
@@ -66104,7 +66104,7 @@ call O
 on O
 “ O
 the O
-Smythes O
+Smythes B-ORG
 , O
 ” O
 |
@@ -66129,16 +66129,16 @@ had O
 | O
 Punctual O
 to O
-the O
-appointed O
-hour O
+the B-TIME
+appointed I-TIME
+hour I-TIME
 , O
 Captain O
 |
 | O
 De B-PERSON
 Crospigny I-PERSON
-’s I-PERSON
+’s O
 groom O
 rung O
 a O
@@ -66153,10 +66153,10 @@ at O
 the O
 gate O
 of O
-Rosemount O
+Rosemount B-ORG
 |
 | O
-Villa O
+Villa B-ORG
 , O
 such O
 as O
@@ -66186,11 +66186,11 @@ was O
 opened O
 by O
 a O
-shabby B-PERSON
-ask- I-PERSON
+shabby O
+ask- O
 |
-| I-PERSON
-ward I-PERSON
+| O
+ward O
 - O
 looking O
 Irish B-NORP
@@ -66279,7 +66279,7 @@ making O
 | O
 244 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -66290,9 +66290,9 @@ welcome O
 Captain O
 De B-PERSON
 Crespigny I-PERSON
-ad- I-PERSON
+ad- O
 |
-| I-PERSON
+| O
 danced O
 , O
 and O
@@ -66408,7 +66408,7 @@ happy O
 mixture O
 of O
 the O
-ruffian B-NORP
+ruffian O
 and O
 the O
 gentleman O
@@ -66552,8 +66552,8 @@ familiarity O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 254 B-CARDINAL
 |
@@ -66667,7 +66667,7 @@ reserve O
 and O
 with O
 the O
-\very B-ORG
+\very O
 slightest O
 |
 | O
@@ -66739,7 +66739,7 @@ with O
 astonishing O
 agility O
 , O
-\and O
+\and B-ORG
 closing O
 |
 | O
@@ -66814,8 +66814,8 @@ me O
 to O
 pass O
 ! O
-Good O
-morning B-TIME
+Good B-TIME
+morning I-TIME
 ! O
 ” O
 |
@@ -66836,7 +66836,7 @@ all O
 | O
 246 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -66862,8 +66862,8 @@ humour O
 My O
 aunt O
 , O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 |
 | O
@@ -66979,8 +66979,8 @@ in- O
 |
 | O
 interrupted O
-Certain B-PERSON
-De I-PERSON
+Certain O
+De B-PERSON
 Crespigny I-PERSON
 , O
 in O
@@ -66991,7 +66991,7 @@ of O
 | O
 angry O
 perplexity O
-; O
+  O
 “ O
 I O
 have O
@@ -67071,10 +67071,10 @@ of O
 cur O
 courtships O
 in O
-Public B-GPE
+Public O
 sure O
 enough O
-; O
+  O
 |
 | O
 but O
@@ -67107,8 +67107,8 @@ left O
 but O
 to O
 fix O
-the O
-day O
+the B-DATE
+day I-DATE
 , O
 I O
 |
@@ -67136,8 +67136,8 @@ sticks O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 247 B-CARDINAL
 |
@@ -67179,7 +67179,7 @@ Detain O
 | O
 me O
 here O
-one B-CARDINAL
+one O
 moment O
 longer O
 , O
@@ -67228,7 +67228,7 @@ been O
 dipped O
 in O
 the O
-Cannon B-GPE
+Cannon O
 for O
 no- O
 |
@@ -67378,7 +67378,7 @@ bitter O
 |
 | O
 contempt O
-; O
+  O
 “ O
 but O
 what O
@@ -67441,8 +67441,8 @@ cousin O
 like O
 |
 | O
-Paddy B-WORK_OF_ART
-Smythe I-WORK_OF_ART
+Paddy B-PERSON
+Smythe I-PERSON
 to O
 take O
 up O
@@ -67667,7 +67667,7 @@ perhaps O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 249 B-CARDINAL
 |
@@ -67700,13 +67700,13 @@ in O
 our O
 neighbourhood O
 at O
-Lime- B-ORG
+Lime- O
 |
 | O
-rick B-PERSON
+rick O
 , O
 and O
-Caroline B-GPE
+Caroline B-PERSON
 is O
 the O
 last O
@@ -67747,7 +67747,7 @@ bottom O
 Lieutenant O
 |
 | O
-Murray O
+Murray B-PERSON
 gave O
 his O
 arm O
@@ -67768,8 +67768,8 @@ Mrs O
 Fitz- O
 |
 | O
-Patriot B-LAW
-’s I-LAW
+Patriot B-ORG
+’s O
 , O
 and O
 offered O
@@ -67901,7 +67901,7 @@ be O
 exercised O
 beside O
 the O
-Cannon B-PERSON
+Cannon B-FAC
 , O
 though O
 most O
@@ -67922,7 +67922,7 @@ the O
 
 | O
 250 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -67988,7 +67988,7 @@ call O
 out O
 this O
 insolent O
-ruffian B-NORP
+ruffian O
 be- O
 |
 | O
@@ -68086,7 +68086,7 @@ peculiar O
 |
 | O
 to O
-Englishmen B-PRODUCT
+Englishmen B-LANGUAGE
 , O
 calmly O
 and O
@@ -68143,8 +68143,8 @@ nonchalance O
 , O
 he O
 returned O
-Captain B-PERSON
-De I-PERSON
+Captain O
+De B-PERSON
 |
 | I-PERSON
 Crespigny I-PERSON
@@ -68179,7 +68179,7 @@ to O
 | O
 - O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION O
 . O
 251 B-CARDINAL
 |
@@ -68378,7 +68378,7 @@ Limerick B-GPE
 |
 | O
 Scarcely O
-one O
+one B-CARDINAL
 of O
 my O
 cousins O
@@ -68404,8 +68404,8 @@ a O
 verdict O
 to O
 - O
-morrow O
-; O
+morrow B-DATE
+  O
 but O
 the O
 short- O
@@ -68520,8 +68520,8 @@ thousand B-CARDINAL
 times O
 , O
 to O
-a O
-thousand B-CARDINAL
+a B-CARDINAL
+thousand I-CARDINAL
 different O
 young O
 |
@@ -68634,8 +68634,8 @@ emphasis O
 
 | O
 “ O
-Erin O
-, O
+Erin B-WORK_OF_ART
+, I-WORK_OF_ART
 oh O
 |||| O
 Erin B-PERSON
@@ -68775,7 +68775,7 @@ and O
 before O
 to O
 - O
-morrow O
+morrow B-DATE
 I O
 shall O
 find O
@@ -68814,10 +68814,10 @@ done O
 , O
 ” O
 replied O
-Mr B-PRODUCT
+Mr O
 |
-| I-PRODUCT
-Smythe I-PRODUCT
+| O
+Smythe B-PERSON
 , O
 “ O
 if O
@@ -68845,7 +68845,7 @@ re O
 echoed O
 Captain O
 De B-PERSON
-Cries- I-PERSON
+Cries- O
 |
 | O
 pigny O
@@ -68943,13 +68943,13 @@ lady O
 
 | O
 cousin O
-Aa O
+Aa B-PERSON
 |
 
  
 
-| O
-“ O
+| I-PERSON
+“ I-PERSON
 It O
 is O
 no O
@@ -68988,7 +68988,7 @@ had O
 a O
 relation O
 on O
-earth B-LOC
+earth O
 . O
 ” O
 |
@@ -69189,8 +69189,8 @@ ensign O
 |
 | O
 in O
-the B-DATE
-42d I-DATE
+the O
+42d B-CARDINAL
 , O
 with O
 very O
@@ -69226,7 +69226,7 @@ the O
 |
 | O
 match O
-; O
+  O
 and O
 if O
 you O
@@ -69278,8 +69278,8 @@ man O
 who O
 has O
 fought O
-a O
-dozen B-CARDINAL
+a B-CARDINAL
+dozen I-CARDINAL
 times O
 like O
 me O
@@ -69287,8 +69287,8 @@ me O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 255 B-CARDINAL
 |
@@ -69300,7 +69300,7 @@ out O
 once O
 too O
 often O
-; O
+  O
 and O
 my O
 pistols O
@@ -69352,7 +69352,7 @@ with O
 such O
 a O
 man O
-; O
+  O
 and O
 to O
 |
@@ -69370,7 +69370,7 @@ almost O
 | O
 a O
 degradation O
-; O
+  O
 but O
 . O
 then O
@@ -69478,7 +69478,7 @@ all O
 to O
 be O
 dreaded O
-; O
+  O
 and O
 |
 | O
@@ -69673,7 +69673,7 @@ voices O
 in O
 the O
 number O
-; O
+  O
 but O
 a- O
 |
@@ -69766,8 +69766,8 @@ drawing O
 - O
 room O
 of O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 |
 | O
@@ -69799,7 +69799,7 @@ his O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 257 B-CARDINAL
 |
@@ -69813,10 +69813,10 @@ and O
 mustachios O
 , O
 while O
-Mrs B-PERSON
+Mrs O
 |
-| I-PERSON
-Smythe I-PERSON
+| O
+Smythe B-PERSON
 exclaimed O
 , O
 in O
@@ -69863,7 +69863,7 @@ Louis B-PERSON
 de I-PERSON
 ’ I-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 |
 | O
 exploits O
@@ -70019,8 +70019,8 @@ De B-PERSON
 Crespigny I-PERSON
 , O
 that O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 started O
 , O
 and O
@@ -70030,7 +70030,7 @@ looked O
 round O
 with O
 alarm O
-; O
+  O
 while O
 Caroline B-PERSON
 , O
@@ -70058,8 +70058,8 @@ con- O
 
 | O
 258 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -70176,15 +70176,15 @@ a O
 hurried O
 leave O
 of O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 , O
 |
 | O
 and O
 turning O
 to O
-Caroline B-GPE
+Caroline B-PERSON
 with O
 a O
 quivering O
@@ -70257,7 +70257,7 @@ go O
 | O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 and O
 we O
@@ -70300,7 +70300,7 @@ respectful O
 and O
 devoted O
 affections O
-; O
+  O
 and O
 death O
 |
@@ -70433,7 +70433,7 @@ head O
 of O
 Sir O
 Arthur B-PERSON
-; O
+  O
 and O
 on O
 the O
@@ -70473,7 +70473,7 @@ thought O
 | O
 exceedingly O
 flattered O
-; O
+  O
 but O
 still O
 it O
@@ -70483,7 +70483,7 @@ no O
 |
 | O
 other O
-; O
+  O
 and O
 the O
 picture O
@@ -70518,7 +70518,7 @@ turning O
 the O
 leaves O
 over O
-; O
+  O
 and O
 amidst O
 a O
@@ -70592,9 +70592,9 @@ wishes O
 the O
 name O
 of O
-Caroline B-ORG
-Smythe I-ORG
-; O
+Caroline B-PERSON
+Smythe I-PERSON
+  O
 and O
 |
 | O
@@ -70611,7 +70611,7 @@ contemplate- O
 
 | O
 260 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -70662,7 +70662,7 @@ that O
 the O
 secret O
 of O
-Caroline B-GPE
+Caroline B-PERSON
 ’s O
 heart O
 was O
@@ -70699,7 +70699,7 @@ of O
 Mrs O
 |
 | O
-Smythe O
+Smythe B-PERSON
 became O
 unavoidably O
 audible O
@@ -70758,14 +70758,14 @@ betray O
 it O
 to O
 any O
-one B-CARDINAL
+one O
 less O
 interested O
 than O
 |
 | O
 myself O
-; O
+  O
 but O
 he O
 has O
@@ -70846,7 +70846,7 @@ hope O
 you O
 are O
 mistaken O
-; O
+  O
 but O
 |
 | O
@@ -70870,7 +70870,7 @@ man O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 261 B-CARDINAL
@@ -70898,7 +70898,7 @@ of O
 fortune O
 , O
 like O
-Midas B-PERSON
+Midas B-ORG
 , O
 turns O
 |
@@ -70910,7 +70910,7 @@ on O
 her O
 to O
 gold O
-; O
+  O
 and O
 Am O
 not O
@@ -70960,8 +70960,8 @@ unless O
 young O
 |
 | O
-De B-ORG
-Lancey I-ORG
+De B-PERSON
+Lancey I-PERSON
 prove O
 constant O
 . O
@@ -71021,7 +71021,7 @@ love O
 or O
 marry O
 any O
-one B-CARDINAL
+one O
 of O
 them O
 ! O
@@ -71114,7 +71114,7 @@ next O
 visited O
 |
 | O
-Portobello B-WORK_OF_ART
+Portobello B-ORG
 , O
 during O
 a O
@@ -71148,7 +71148,7 @@ a O
 
 | O
 262 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -71178,10 +71178,10 @@ or O
 |
 | O
 unfurnished O
-; O
+  O
 entrance O
 immediately O
-; O
+  O
 rent O
 to- O
 |
@@ -71214,7 +71214,7 @@ the O
 whole O
 family O
 of O
-Smythes O
+Smythes B-ORG
 from O
 his O
 |
@@ -71225,7 +71225,7 @@ ever O
 , O
 while O
 humming O
-one O
+one B-CARDINAL
 of O
 his O
 |
@@ -71256,7 +71256,7 @@ be O
 honest O
 and O
 true O
-; O
+  O
 |
 | O
 It O
@@ -71284,7 +71284,7 @@ new O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 263 B-CARDINAL
@@ -71299,9 +71299,9 @@ IX O
 | O
 Has O
 sorrow O
-thy B-DATE
-young I-DATE
-days I-DATE
+thy O
+young O
+days O
 shaded O
 , O
 |
@@ -71313,7 +71313,7 @@ o’er O
 the O
 morning O
 fleet O
-¢ B-PERSON
+¢ O
 |
 | O
 ‘ O
@@ -71322,7 +71322,7 @@ fast O
 have O
 those O
 young O
-days B-DATE
+days O
 faded O
 , O
 |
@@ -71345,10 +71345,10 @@ companions O
 of O
 Agnes B-LOC
 and O
-Marion B-ORG
+Marion B-PERSON
 |
-| I-ORG
-Dunbar I-ORG
+| I-PERSON
+Dunbar I-PERSON
 , O
 none O
 was O
@@ -71448,7 +71448,7 @@ to O
 
 | O
 264 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -71554,7 +71554,7 @@ fore O
 stepped O
 upon O
 the O
-earth B-LOC
+earth O
 . O
 Her O
 pale O
@@ -71656,7 +71656,7 @@ refulgence O
 None O
 looked O
 at O
-Clark B-GPE
+Clark B-PERSON
 |
 | O
 without O
@@ -71756,7 +71756,7 @@ out O
 | O
 the O
 scabbard O
-; O
+  O
 yet O
 Later O
 enjoyed O
@@ -71779,7 +71779,7 @@ zest O
 which O
 caused O
 Sir O
-Tricks B-PERSON
+Tricks O
 often O
 to O
 say O
@@ -71863,7 +71863,7 @@ felt O
 on O
 |
 | O
-one O
+one B-CARDINAL
 side O
 , O
 as O
@@ -71905,7 +71905,7 @@ in O
 |
 | O
 which O
-Agnes B-LOC
+Agnes B-PRODUCT
 took O
 it O
 always O
@@ -71969,11 +71969,11 @@ arise O
 ‘ O
 VOL O
 . O
-I. B-ORG
-M I-ORG
+I. O
+M O
 |
 
-| I-ORG
+| O
 266 B-CARDINAL
 MODERN O
 FLIRTATION B-PERSON
@@ -71996,7 +71996,7 @@ people O
 wilfully O
 giving O
 it O
-; O
+  O
 and O
 there O
 is O
@@ -72039,8 +72039,8 @@ pur- O
 |
 | O
 surely O
-misconstrued B-ORG
-; O
+misconstrued O
+  O
 but O
 she O
 very O
@@ -72149,7 +72149,7 @@ with O
 |
 | O
 which O
-Agnes B-LOC
+Agnes O
 “ O
 spoke O
 at O
@@ -72233,7 +72233,7 @@ in O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 267 B-CARDINAL
 |
@@ -72302,8 +72302,8 @@ About O
 the O
 time O
 when O
-Mrs B-PERSON
-Smythe I-PERSON
+Mrs O
+Smythe B-PERSON
 left O
 For- O
 |
@@ -72311,7 +72311,7 @@ For- O
 tobello O
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 returned O
 from O
 spending O
@@ -72320,9 +72320,9 @@ a B-DATE
 | I-DATE
 month I-DATE
 at O
-Lady B-ORG
-Towercliffe I-ORG
-’s I-ORG
+Lady O
+Towercliffe B-PERSON
+’s O
 in O
 Fife O
 , O
@@ -72341,7 +72341,7 @@ very O
 unusual O
 with O
 him O
-; O
+  O
 and O
 when O
 Agnes B-LOC
@@ -72434,7 +72434,7 @@ a O
 volume O
 of O
 Pinnock B-ORG
-’s I-ORG
+’s O
 Case- O
 |
 | O
@@ -72456,8 +72456,8 @@ station O
 one B-DATE
 day I-DATE
 , O
-Agnes B-LOC
-inquired O
+Agnes B-ORG
+inquired I-ORG
 for O
 the O
 then- O
@@ -72476,7 +72476,7 @@ been O
 
 | O
 268 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -72486,7 +72486,7 @@ agreeable O
 , O
 when O
 Sir O
-Tricks B-PERSON
+Tricks O
 shortly O
 and O
 drily O
@@ -72581,7 +72581,7 @@ toss O
 of O
 her O
 head O
-; O
+  O
 “ O
 but O
 I O
@@ -72634,7 +72634,7 @@ visit O
 , O
 ” O
 replied O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 angrily O
 affecting O
@@ -72725,7 +72725,7 @@ The O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 269 B-CARDINAL
 |
@@ -72752,7 +72752,7 @@ give O
 a O
 name O
 to O
-; O
+  O
 and O
 |
 | O
@@ -72830,7 +72830,7 @@ she O
 | O
 looks O
 at O
-one B-CARDINAL
+one O
 ! O
 She O
 would O
@@ -72871,7 +72871,7 @@ done O
 ” O
 asked O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 in O
 a O
@@ -72917,10 +72917,10 @@ little O
 I O
 think O
 of O
-Clark B-GPE
+Clark B-ORG
 |
-| O
-Glanville B-GPE
+| I-ORG
+Glanville I-ORG
 ! O
 ” O
 said O
@@ -73039,12 +73039,12 @@ frontis- O
 | O
 piece O
 to O
-Finden B-GPE
+Finden B-ORG
 ’s O
 next O
-Book O
-of O
-Beauty O
+Book B-WORK_OF_ART
+of I-WORK_OF_ART
+Beauty I-WORK_OF_ART
 ! O
 She O
 |
@@ -73215,7 +73215,7 @@ and O
 rapture O
 in O
 every O
-one O
+one B-CARDINAL
 |
 | O
 of O
@@ -73224,7 +73224,7 @@ voice O
 ! O
 At O
 Lady O
-Towereliffe O
+Towereliffe B-PERSON
 ’s O
 no O
 one O
@@ -73285,7 +73285,7 @@ her O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 271 B-CARDINAL
@@ -73403,7 +73403,7 @@ be O
 | O
 your O
 humour O
-; O
+  O
 but O
 I O
 would O
@@ -73469,7 +73469,7 @@ think O
 of O
 me O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 ? O
 ” O
 ask- O
@@ -73477,7 +73477,7 @@ ask- O
 | O
 bed O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 walking O
 straight O
@@ -73582,19 +73582,19 @@ jest O
 You O
 know O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 I O
 have O
 been O
-a O
-month O
+a B-DATE
+month I-DATE
 |
 
-| O
+| I-DATE
 272 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-GPE
+FLIRTATION B-PERSON
 . O
 |
 
@@ -73625,7 +73625,7 @@ no O
 means O
 like O
 jest O
-; O
+  O
 “ O
 and O
 that B-DATE
@@ -73682,7 +73682,7 @@ from O
 the B-TIME
 hour I-TIME
 I O
-first B-ORDINAL
+first O
 knew O
 her O
 . O
@@ -73755,7 +73755,7 @@ and O
 vulgar O
 in O
 comparison O
-; O
+  O
 and O
 |
 | O
@@ -73780,7 +73780,7 @@ of O
 abuse O
 against O
 Clark B-PERSON
-; O
+  O
 |
 | O
 but O
@@ -73804,7 +73804,7 @@ tone O
 of O
 deep O
 dejection O
-; O
+  O
 “ O
 perhaps O
 |
@@ -73842,7 +73842,7 @@ all O
 observed O
 |
 | O
-Agnes B-LOC
+Agnes O
 , O
 drily O
 . O
@@ -73865,7 +73865,7 @@ non- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 278 B-CARDINAL
 |
@@ -73879,7 +73879,7 @@ fall O
 in O
 love O
 , O
-gratis O
+gratis B-NORP
 , O
 with O
 any O
@@ -73921,7 +73921,7 @@ scarcely O
 | O
 choose O
 any O
-one B-CARDINAL
+one O
 more O
 unsuitable O
 ! O
@@ -73956,7 +73956,7 @@ ought O
 ” O
 replied O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 glance- O
 |
@@ -73970,7 +73970,7 @@ head O
 in O
 a O
 mirror O
-; O
+  O
 |
 | O
 “ O
@@ -74032,9 +74032,9 @@ were O
 to O
 fall O
 in O
-Clark B-PERSON
-Glanville I-PERSON
-’s I-PERSON
+Clark B-ORG
+Glanville I-ORG
+’s I-ORG
 way O
 , O
 I O
@@ -74078,7 +74078,7 @@ astonished- O
 | O
 ment O
 , O
-Agnes B-LOC
+Agnes O
 ! O
 She O
 has O
@@ -74140,7 +74140,7 @@ shoot O
 myself O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 if O
 I O
@@ -74148,7 +74148,7 @@ I O
 
 | O
 274 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -74168,12 +74168,12 @@ exelaim- O
 | O
 bed O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 vehemently O
 , O
 while O
-Agnes B-LOC
+Agnes O
 be- O
 |
 | O
@@ -74232,7 +74232,7 @@ much O
 to O
 live O
 for O
-; O
+  O
 but O
 she O
 after- O
@@ -74282,7 +74282,7 @@ reply- O
 |
 | O
 end O
-Agnes B-LOC
+Agnes O
 , O
 who O
 would O
@@ -74398,7 +74398,7 @@ once O
 | O
 every O
 Sunday B-DATE
-; O
+  O
 to O
 refrain O
 from O
@@ -74406,7 +74406,7 @@ Sunday B-DATE
 din- O
 |
 | O
-ners O
+ners B-ORG
 , O
 and O
 Sunday B-DATE
@@ -74419,7 +74419,7 @@ to O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 275 B-CARDINAL
 |
@@ -74429,9 +74429,9 @@ ride O
 out O
 on O
 horseback O
-that B-DATE
-day I-DATE
-; O
+that O
+day O
+  O
 and O
 , O
 in O
@@ -74452,7 +74452,7 @@ bill O
 in O
 my O
 house O
-; O
+  O
 but O
 it O
 did O
@@ -74548,7 +74548,7 @@ handsome O
 ! O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 |
 | O
@@ -74640,7 +74640,7 @@ in O
 all O
 I O
 do O
-; O
+  O
 but O
 it O
 must O
@@ -74667,10 +74667,10 @@ stars O
 , O
 than O
 without O
-Clark B-PERSON
+Clark B-ORG
 |
-| O
-Glanville B-GPE
+| I-ORG
+Glanville I-ORG
 ! O
 The O
 very O
@@ -74684,7 +74684,7 @@ is O
 a O
 pleasure O
 ! O
-Agnes B-LOC
+Agnes O
 , O
 what O
 can O
@@ -74767,7 +74767,7 @@ would O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 could O
 not O
 , O
@@ -74829,8 +74829,8 @@ air O
 of O
 |
 | O
-supreme B-ORG
-contempt I-ORG
+supreme O
+contempt O
 , O
 “ O
 You O
@@ -74840,8 +74840,8 @@ Pat B-PERSON
 ! O
 Clark B-PERSON
 |
-| O
-Glanville B-GPE
+| I-PERSON
+Glanville I-PERSON
 has O
 not O
 a O
@@ -74879,20 +74879,20 @@ manufacto- O
 
 | O
 cries O
-; O
+  O
 cotton O
 stockings O
 , O
 pink O
-gingham B-PERSON
-frocks I-PERSON
+gingham O
+frocks O
 , O
 |
 | O
 and O
 horrid O
-grey B-PERSON
-beaver I-PERSON
+grey B-ORG
+beaver I-ORG
 gloves O
 ! O
 She O
@@ -74945,7 +74945,7 @@ a O
 | O
 poor O
 man O
-; O
+  O
 and O
 poor O
 enough O
@@ -74978,12 +74978,12 @@ in O
 time O
 , O
 Agnes B-LOC
-; O
+  O
 |
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 277 B-CARDINAL
 |
@@ -75153,7 +75153,7 @@ also O
 ! O
 ” O
 replied O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 arranging O
 |
@@ -75176,7 +75176,7 @@ uncle O
 is O
 very O
 arbitrary O
-; O
+  O
 |
 | O
 and O
@@ -75209,7 +75209,7 @@ himself O
 if O
 Captain O
 De B-PERSON
-Cries- I-PERSON
+Cries- O
 |
 | O
 pigny O
@@ -75249,7 +75249,7 @@ self O
 as O
 a O
 refusal O
-; O
+  O
 and O
 certainly O
 , O
@@ -75323,7 +75323,7 @@ me O
 that O
 is O
 certain O
-; O
+  O
 but O
 if O
 she O
@@ -75411,7 +75411,7 @@ grave O
 
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 did O
 not O
 by O
@@ -75458,7 +75458,7 @@ occasions O
 like O
 a O
 whirlwind O
-; O
+  O
 and O
 his O
 |
@@ -75516,7 +75516,7 @@ adopted O
 |
 | O
 invisibility O
-; O
+  O
 and O
 evening B-TIME
 after O
@@ -75568,7 +75568,7 @@ her O
 to O
 the O
 house O
-; O
+  O
 but O
 the O
 polite O
@@ -75596,11 +75596,11 @@ ne- O
 |
 | O
 clearly O
-; O
+  O
 yet O
 still O
 Sir O
-Tricks B-PERSON
+Tricks O
 persevered O
 and O
 |
@@ -75657,9 +75657,9 @@ happiness O
 |
 | O
 exclaimed O
-Agnes B-LOC
+Agnes B-NORP
 peevishly O
-; O
+  O
 twisting O
 Clark B-PERSON
 ’s O
@@ -75668,8 +75668,8 @@ Clark B-PERSON
 last O
 reply O
 into O
-a O
-thousand O
+a B-CARDINAL
+thousand I-CARDINAL
 shapes O
 and O
 tossing O
@@ -75695,7 +75695,7 @@ Pat B-PERSON
 You O
 invent O
 a O
-thousand B-CARDINAL
+thousand O
 reasons O
 for O
 |
@@ -75722,7 +75722,7 @@ If O
 Clark B-PERSON
 |
 | O
-Glanville B-GPE
+Glanville B-ORG
 consented O
 , O
 you O
@@ -75801,7 +75801,7 @@ old I-DATE
 
 | O
 280 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -75857,7 +75857,7 @@ should O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 had O
 now O
 got O
@@ -75924,15 +75924,15 @@ her O
 in O
 possession O
 of O
-the B-ORG
+the O
 |
-| I-ORG
-house I-ORG
+| O
+house O
 , O
 ” O
 as O
 Sir O
-Tricks B-PERSON
+Tricks O
 made O
 a O
 rapid O
@@ -75994,8 +75994,8 @@ question O
 | O
 Though O
 Sir O
-Tricks B-PERSON
-Dunbar I-PERSON
+Tricks O
+Dunbar B-PERSON
 had O
 long O
 been O
@@ -76041,7 +76041,7 @@ the O
 good O
 - O
 natured O
-half B-CARDINAL
+half O
 of O
 the O
 world O
@@ -76060,7 +76060,7 @@ very O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 281 B-CARDINAL
 |
@@ -76132,7 +76132,7 @@ day O
 after O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
 In O
 respect O
@@ -76187,7 +76187,7 @@ say O
 , O
 |
 | O
-Clouds B-ORG
+Clouds O
 lightly O
 passing O
 as O
@@ -76243,7 +76243,7 @@ handsome O
 and O
 fascinating O
 Sir O
-Tricks B-PERSON
+Tricks O
 had O
 naturally O
 a O
@@ -76292,8 +76292,8 @@ the O
 momentary O
 impulse O
 of O
-an O
-hour O
+an B-TIME
+hour I-TIME
 . O
 |
 | O
@@ -76311,8 +76311,8 @@ ex- O
 
 | O
 282 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -76409,8 +76409,8 @@ individual O
 | O
 Though O
 Sir O
-Tricks B-PERSON
-Dunbar I-PERSON
+Tricks O
+Dunbar B-PERSON
 was O
 eager O
 and O
@@ -76518,7 +76518,7 @@ had O
 been O
 once O
 engaged O
-; O
+  O
 while O
 , O
 at O
@@ -76580,7 +76580,7 @@ talking O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 283 B-CARDINAL
 |
@@ -76623,7 +76623,7 @@ attachment O
 
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 had O
 indeed O
 been O
@@ -76642,7 +76642,7 @@ caught O
 ” O
 by O
 Clark B-PERSON
-; O
+  O
 |
 | O
 and O
@@ -76747,7 +76747,7 @@ and O
 gentle O
 as O
 a O
-summer O
+summer B-DATE
 |
 | O
 breeze O
@@ -76799,17 +76799,17 @@ finally O
 a B-DATE
 few I-DATE
 days I-DATE
-before I-DATE
+before O
 Sir O
-Tricks B-PERSON
+Tricks O
 met O
 her O
 at O
 |
 | O
-Lady O
-Towercliffe O
-’s O
+Lady B-PERSON
+Towercliffe I-PERSON
+’s I-PERSON
 , O
 and O
 her O
@@ -76838,8 +76838,8 @@ ad- O
 
 | O
 284 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -76870,10 +76870,10 @@ conversation O
 
 | O
 To O
-Clare B-PRODUCT
+Clare B-PERSON
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 had O
 only O
 hitherto O
@@ -77090,8 +77090,8 @@ dangerous O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 285 B-CARDINAL
 |
@@ -77100,7 +77100,7 @@ FLIRTATION B-PERSON
 Captain O
 De B-PERSON
 Crespigny I-PERSON
-’s I-PERSON
+’s O
 jilting O
 propensities O
 |
@@ -77143,7 +77143,7 @@ be O
 exposed O
 to O
 censure O
-; O
+  O
 but O
 |
 | O
@@ -77299,7 +77299,7 @@ disapprove O
 , O
 because O
 Sir O
-Tricks B-PERSON
+Tricks O
 |
 | O
 most O
@@ -77461,10 +77461,10 @@ attended O
 church O
 regularly O
 on O
-Sun- O
+Sun- B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 at O
 the O
 village O
@@ -77486,7 +77486,7 @@ devo- O
 |
 | O
 lion O
-; O
+  O
 yet O
 knowing O
 his O
@@ -77517,7 +77517,7 @@ or- O
 |
 | O
 dinances O
-; O
+  O
 while O
 Lady B-PERSON
 Towercliffe I-PERSON
@@ -77552,7 +77552,7 @@ house O
 and O
 praised O
 Sir O
-Tricks B-PERSON
+Tricks O
 as O
 the O
 most O
@@ -77572,7 +77572,7 @@ Clark B-PERSON
 intimacy O
 with O
 Sir O
-Tricks B-PERSON
+Tricks O
 had O
 been O
 |
@@ -77632,7 +77632,7 @@ of O
 her O
 own O
 heart O
-; O
+  O
 but O
 , O
 upon O
@@ -77729,7 +77729,7 @@ the O
 gloomy O
 recesses O
 of O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -77761,7 +77761,7 @@ en- O
 | O
 bowed O
 Sir O
-Tricks B-PERSON
+Tricks O
 with O
 all O
 those O
@@ -77811,7 +77811,7 @@ her O
 |
 | O
 attachment O
-; O
+  O
 while O
 her O
 sole O
@@ -77867,9 +77867,9 @@ so O
 |
 
 | O
-288 B-PRODUCT
-MODERN I-PRODUCT
-FLIRTATION I-PRODUCT
+288 B-CARDINAL
+MODERN O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -77939,7 +77939,7 @@ occasions O
 she O
 implicitly O
 relied O
-; O
+  O
 and O
 it O
 was O
@@ -78099,7 +78099,7 @@ hopes O
 . O
 “ O
 Sir O
-Tricks B-PERSON
+Tricks O
 makes O
 |
 | O
@@ -78114,7 +78114,7 @@ continued O
 Mr O
 |
 | O
-Glanville B-GPE
+Glanville B-ORG
 , O
 “ O
 showing O
@@ -78527,7 +78527,7 @@ principles O
 — O
 like O
 Sir O
-Tricks B-PERSON
+Tricks O
 . O
 ” O
 |
@@ -78667,7 +78667,7 @@ faint O
 and O
 she O
 did O
-not,—but B-PERSON
+not,—but O
 in O
 the O
 |
@@ -78835,7 +78835,7 @@ usually O
 found O
 a O
 home O
-; O
+  O
 and O
 before O
 |
@@ -78848,7 +78848,7 @@ only O
 wrote O
 to O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 |
 | O
@@ -78879,7 +78879,7 @@ her O
 engagement O
 to O
 him O
-; O
+  O
 but O
 . O
 she O
@@ -78933,7 +78933,7 @@ union O
 
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 became O
 nearly O
 frantic O
@@ -78954,7 +78954,7 @@ the O
 
 | O
 292 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -79218,7 +79218,7 @@ in- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 293 B-CARDINAL
 |
@@ -79242,7 +79242,7 @@ all O
 but O
 my O
 attachment O
-; O
+  O
 I O
 have O
 staked O
@@ -79314,7 +79314,7 @@ more O
 shall O
 I O
 have O
-one B-CARDINAL
+one O
 unless O
 you O
 share O
@@ -79399,7 +79399,7 @@ both O
 
 | O
 “ O
-Happiness B-ORG
+Happiness O
 ! O
 speak O
 not O
@@ -79500,7 +79500,7 @@ gaiety O
 , O
 and O
 dissipation O
-; O
+  O
 |
 | O
 but O
@@ -79515,7 +79515,7 @@ of O
 
 | O
 294 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -79558,11 +79558,11 @@ could O
 snatch O
 me O
 from O
-evil,—from O
-my- O
+evil,—from B-PERSON
+my- I-PERSON
 |
-| O
-self,—from O
+| I-PERSON
+self,—from I-PERSON
 all O
 on O
 which O
@@ -79691,7 +79691,7 @@ doubt O
 of O
 your O
 sincerity O
-; O
+  O
 |
 | O
 but O
@@ -79793,7 +79793,7 @@ a O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 295 B-CARDINAL
 |
@@ -79830,7 +79830,7 @@ do O
 | O
 exclaimed O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 reproachfully O
 . O
@@ -79851,7 +79851,7 @@ I O
 |
 | O
 feel O
-; O
+  O
 but O
 you O
 do O
@@ -79896,8 +79896,8 @@ me O
 “ O
 Perhaps O
 in O
-future O
-years O
+future B-DATE
+years I-DATE
 — O
 ” O
 stammered O
@@ -79910,7 +79910,7 @@ We O
 are O
 both O
 young O
-; O
+  O
 and O
 if O
 , O
@@ -80075,8 +80075,8 @@ a- O
 
 | O
 296 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -80095,8 +80095,8 @@ should O
 |
 | O
 have O
-a O
-thousand B-CARDINAL
+a B-CARDINAL
+thousand I-CARDINAL
 anxieties O
 , O
 regrets O
@@ -80165,7 +80165,7 @@ you O
 ” O
 exclaimed O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 with O
 age- O
@@ -80229,7 +80229,7 @@ reputation O
 I O
 might O
 endure O
-; O
+  O
 but O
 your O
 |
@@ -80325,7 +80325,7 @@ more O
 | O
 than O
 grateful O
-; O
+  O
 but O
 marriage O
 is O
@@ -80462,14 +80462,14 @@ happiness O
 | O
 on O
 that O
-one O
+one B-CARDINAL
 stake O
 , O
 and O
 have O
 lost O
 it O
-; O
+  O
 but O
 there O
 |
@@ -80504,7 +80504,7 @@ consequence O
 
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 clenched O
 his O
 hands O
@@ -80587,7 +80587,7 @@ my O
 doom O
 , O
 Clark B-PERSON
-; O
+  O
 |
 | O
 and O
@@ -80637,13 +80637,13 @@ hurried O
 towards O
 the O
 door O
-; O
+  O
 |
 
 | O
 298 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -80660,7 +80660,7 @@ open O
 it O
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 again O
 seized O
 her O
@@ -80676,7 +80676,7 @@ are O
 mine O
 , O
 Clark B-PERSON
-; O
+  O
 you O
 are O
 bound O
@@ -80729,7 +80729,7 @@ May O
 you O
 yet O
 find O
-one O
+one B-CARDINAL
 |
 | O
 who O
@@ -80893,7 +80893,7 @@ cherish- O
 | O
 end O
 hopes O
-; O
+  O
 and O
 amidst O
 the O
@@ -80925,7 +80925,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 299 B-CARDINAL
 |
@@ -80937,7 +80937,7 @@ supported O
 and O
 adorned O
 it O
-; O
+  O
 yet O
 |
 | O
@@ -81045,13 +81045,13 @@ FLIRTATION B-PERSON
 |
 
 | O
-CHAPTER B-LAW
-X. I-LAW
+CHAPTER O
+X. O
 |
 
-| I-LAW
-‘ I-LAW
-Thus I-LAW
+| O
+‘ O
+Thus O
 always O
 teasing O
 others O
@@ -81074,11 +81074,11 @@ displeased O
 |
 | O
 Cowren B-PERSON
-. O
+. I-PERSON
 |
 
-| O
-Years B-DATE
+| I-PERSON
+Years I-PERSON
 having O
 thus O
 rolled O
@@ -81139,9 +81139,9 @@ whirlpool O
 of O
 education O
 at O
-Mrs B-FAC
-Penfold I-FAC
-’s I-FAC
+Mrs O
+Penfold B-PERSON
+’s O
 , O
 |
 | O
@@ -81183,7 +81183,7 @@ message O
 |
 | O
 reached O
-Marion B-ORG
+Marion B-GPE
 , O
 desiring O
 that O
@@ -81195,16 +81195,16 @@ in- O
 scanty O
 hasten O
 to O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 private O
 sit- O
 |
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 301 B-CARDINAL
 |
@@ -81248,7 +81248,7 @@ omi- O
 nous O
 import O
 . O
-Marion O
+Marion B-PERSON
 , O
 however O
 , O
@@ -81393,8 +81393,8 @@ slily O
 , O
 when O
 she O
-one O
-day O
+one B-DATE
+day I-DATE
 entered O
 his O
 drawing- O
@@ -81443,7 +81443,7 @@ of O
 |
 | O
 the O
-Bath B-PERSON
+Bath B-ORG
 , O
 to O
 prove O
@@ -81473,7 +81473,7 @@ lady O
 
 | O
 302 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -81496,7 +81496,7 @@ and O
 radiant O
 smile O
 , O
-Marion B-ORG
+Marion B-PERSON
 hasten- O
 |
 | O
@@ -81505,9 +81505,9 @@ to O
 the O
 door O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 apartment O
 , O
 |
@@ -81566,8 +81566,8 @@ exacted O
 |
 | O
 by O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 such O
 as O
@@ -81639,16 +81639,16 @@ summons O
 
 | O
 To O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 astonishment O
 and O
 dismay O
 , O
-Mrs B-PERSON
+Mrs O
 |
-| I-PERSON
-Penfold I-PERSON
+| O
+Penfold O
 was O
 pacing O
 about O
@@ -81736,9 +81736,9 @@ silently O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
-308 O
+308 B-CARDINAL
 |
 
 | O
@@ -81781,7 +81781,7 @@ prompted O
 
 | O
 Had O
-Marion O
+Marion B-PERSON
 herself O
 been O
 a O
@@ -81806,7 +81806,7 @@ and O
 ashamed O
 than O
 now O
-; O
+  O
 but O
 if- O
 |
@@ -81824,8 +81824,8 @@ observed O
 , O
 and O
 perceiving O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 un- O
 |
 | O
@@ -81849,7 +81849,7 @@ within O
 decent O
 bounds O
 , O
-Marion B-ORG
+Marion B-GPE
 , O
 |
 | O
@@ -81944,8 +81944,8 @@ be O
 thundered O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 in O
 a O
@@ -81956,7 +81956,7 @@ the O
 gentle O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 absolutely O
 cower O
 before O
@@ -81994,7 +81994,7 @@ Marion B-GPE
 
 | O
 304 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -82024,8 +82024,8 @@ that O
 ? O
 Four B-CARDINAL
 |
-| O
-hundred B-CARDINAL
+| I-CARDINAL
+hundred I-CARDINAL
 guineas O
 absolutely O
 lost O
@@ -82064,7 +82064,7 @@ to O
 her O
 memory O
 , O
-Marion B-ORG
+Marion B-PERSON
 fixed O
 her O
 eyes O
@@ -82126,18 +82126,18 @@ during O
 which O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 seemed O
 resolute O
 not O
 to O
 speak O
-; O
+  O
 |
 | O
 therefore O
-Marion B-ORG
+Marion B-PERSON
 , O
 with O
 a O
@@ -82178,8 +82178,8 @@ eyes O
 
 | O
 “ O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 ” O
 replied O
@@ -82240,9 +82240,9 @@ quite O
 forgotten O
 by O
 both O
-Tricks B-NORP
+Tricks O
 and O
-Agnes B-LOC
+Agnes O
 ! O
 ” O
 |
@@ -82261,7 +82261,7 @@ to O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 305 B-CARDINAL
 |
@@ -82285,8 +82285,8 @@ firmer O
 tone O
 , O
 while O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 |
 | O
 listened O
@@ -82407,7 +82407,7 @@ bear O
 | O
 “ O
 Miss O
-Dunbar O
+Dunbar B-PERSON
 ! O
 you O
 have O
@@ -82445,8 +82445,8 @@ sooner O
 ! O
 ” O
 replied O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 angrily O
 found- O
@@ -82469,7 +82469,7 @@ so O
 as O
 to O
 look O
-Marion B-ORG
+Marion B-PERSON
 full O
 in O
 the O
@@ -82538,7 +82538,7 @@ girl O
 
 | O
 306 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -82601,7 +82601,7 @@ raised O
 them O
 gratefully O
 to O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -82673,8 +82673,8 @@ day O
 |
 | O
 resumed O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 her O
 voice O
@@ -82698,7 +82698,7 @@ father O
 death O
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 twice O
 , O
 in O
@@ -82732,7 +82732,7 @@ mosses O
 now O
 at O
 the O
-Downcast B-LOC
+Downcast B-ORG
 races O
 , O
 |
@@ -82751,14 +82751,14 @@ ho- O
 
 | O
 « O
-hour B-TIME
+hour O
 to O
 a O
 ruinous O
 amount O
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 has O
 |
 | O
@@ -82768,10 +82768,10 @@ to O
 the O
 sanctuary O
 at O
-Holyrood B-ORG
+Holyrood B-GPE
 |
-| I-ORG
-House I-ORG
+| O
+House O
 for O
 refuge O
 , O
@@ -82807,7 +82807,7 @@ no O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 307 B-CARDINAL
 |
@@ -82827,8 +82827,8 @@ spoons O
 |
 
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 angrily O
 changed O
 her O
@@ -82842,7 +82842,7 @@ another O
 indignant O
 glance O
 at O
-Marion B-ORG
+Marion B-GPE
 , O
 |
 | O
@@ -82950,7 +82950,7 @@ thus O
 bemoaning O
 herself O
 , O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -83041,8 +83041,8 @@ circumstances O
 | O
 Long O
 after O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 had O
 ceased O
 to O
@@ -83063,7 +83063,7 @@ expect- O
 
 | O
 308 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -83142,7 +83142,7 @@ string O
 at O
 |
 | O
-Constantinople O
+Constantinople B-GPE
 — O
 things O
 dreadful O
@@ -83230,8 +83230,8 @@ awaken,—the O
 | O
 voice O
 of O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 rang O
 painfully O
 on O
@@ -83295,11 +83295,11 @@ Dunbar B-PERSON
 , O
 ” O
 continued O
-Mrs B-PERSON
+Mrs O
 |
 
-| I-PERSON
-Penfold I-PERSON
+| O
+Penfold O
 , O
 in O
 a O
@@ -83311,7 +83311,7 @@ voice O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 309 B-CARDINAL
 |
@@ -83374,13 +83374,13 @@ known O
 | O
 by O
 the O
-nick O
+nick B-GPE
 - O
 name O
 of O
 ‘ O
-Sixpenny O
-Dunbar O
+Sixpenny B-PERSON
+Dunbar I-PERSON
 ! O
 ” O
 |
@@ -83410,7 +83410,7 @@ beyond O
 the O
 bounds O
 of O
-Holyrood B-ORG
+Holyrood B-GPE
 now O
 , O
 and O
@@ -83428,7 +83428,7 @@ such O
 ma- O
 |
 | O
-noeuvres O
+noeuvres B-PERSON
 again O
 . O
 We O
@@ -83454,13 +83454,13 @@ My O
 poor O
 uncle O
 and O
-Agnes B-LOC
+Agnes B-PERSON
 ! O
 ” O
 exclaimed O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 in O
 a O
@@ -83580,8 +83580,8 @@ hope O
 , O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 you O
 will O
@@ -83595,7 +83595,7 @@ be O
 
 | O
 310 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -83633,8 +83633,8 @@ home O
 |
 
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 most O
 heartily O
 confided O
@@ -83657,7 +83657,7 @@ sea- O
 viest O
 pangs O
 which O
-Marion B-ORG
+Marion B-PERSON
 had O
 to O
 endure O
@@ -83728,8 +83728,8 @@ leave O
 |
 | O
 on O
-an O
-hour B-TIME
+an B-TIME
+hour I-TIME
 's O
 notice O
 . O
@@ -83760,7 +83760,7 @@ excited O
 |
 | O
 but O
-Marion B-ORG
+Marion B-PERSON
 shrank O
 from O
 the O
@@ -83853,9 +83853,9 @@ bear O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
-3ll B-ORDINAL
+3ll B-DATE
 |
 
 | O
@@ -83920,9 +83920,9 @@ gladness O
 she O
 flew O
 to O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 pre- O
 |
 | O
@@ -84036,8 +84036,8 @@ after O
 dinner O
 , O
 when O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 allowed O
 her O
 |
@@ -84140,8 +84140,8 @@ inter- O
 | O
 view O
 with O
-Mrs B-PERSON
-Tenfold I-PERSON
+Mrs O
+Tenfold B-PERSON
 , O
 and O
 tried O
@@ -84299,8 +84299,8 @@ tears O
 |
 | O
 “ O
-Miss B-PERSON
-Dunbar I-PERSON
+Miss O
+Dunbar B-PERSON
 , O
 my O
 dear O
@@ -84318,8 +84318,8 @@ better O
 ! O
 ” O
 said O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 |
 | O
@@ -84346,7 +84346,7 @@ to O
 | O
 leave O
 us O
-; O
+  O
 but O
 what O
 ca O
@@ -84391,7 +84391,7 @@ my O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 313 B-CARDINAL
 |
@@ -84458,11 +84458,11 @@ can O
 | O
 “ O
 Mrs O
-Penfold O
+Penfold B-PERSON
 ! O
 ” O
 faltered O
-Marion B-ORG
+Marion B-PERSON
 , O
 while O
 |
@@ -84478,7 +84478,7 @@ her O
 |
 | O
 eyes O
-; O
+  O
 “ O
 allow O
 me O
@@ -84510,7 +84510,7 @@ dear O
 I O
 hate O
 scenes O
-; O
+  O
 |
 | O
 therefore O
@@ -84529,8 +84529,8 @@ well O
 ! O
 ” O
 added O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 in O
 a O
@@ -84580,7 +84580,7 @@ whisper- O
 |
 | O
 end O
-Marion B-PERSON
+Marion B-GPE
 , O
 colouring O
 the O
@@ -84601,8 +84601,8 @@ room O
 while O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 followed O
 , O
 with O
@@ -84630,7 +84630,7 @@ remark O
 not O
 my O
 own O
-; O
+  O
 but O
 for O
 my O
@@ -84638,8 +84638,8 @@ sake O
 , O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 spare O
 my O
@@ -84681,7 +84681,7 @@ oF O
 
 | O
 314 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -84689,7 +84689,7 @@ FLIRTATION B-PERSON
 | O
 count O
 myself O
-; O
+  O
 and O
 I O
 would O
@@ -84720,10 +84720,10 @@ divided O
 between O
 |
 | O
-Agnes B-LOC
+Agnes O
 and O
 me O
-; O
+  O
 besides O
 which O
 my O
@@ -84771,7 +84771,7 @@ dear O
 ! O
 ” O
 interrupted O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -84803,7 +84803,7 @@ my O
 care O
 in O
 vain O
-; O
+  O
 and O
 |
 | O
@@ -84864,8 +84864,8 @@ pledge O
 with O
 you O
 , O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 , O
 as O
 an.assure- O
@@ -84950,8 +84950,8 @@ years I-DATE
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 315 B-CARDINAL
 |
@@ -84961,7 +84961,7 @@ The O
 bright O
 eyes O
 of O
-Marion B-ORG
+Marion B-PERSON
 were O
 dimmed O
 |
@@ -84978,18 +84978,18 @@ she O
 |
 | O
 concluded O
-; O
+  O
 and O
 , O
 placing O
 the O
 casket O
 in O
-Mrs B-FAC
+Mrs O
 |
-| I-FAC
-Penfold I-FAC
-’s I-FAC
+| O
+Penfold B-PERSON
+’s O
 astonished O
 hands O
 , O
@@ -85024,7 +85024,7 @@ a- O
 customer O
 , O
 and O
-feeling;that O
+feeling that O
 even O
 to O
 these O
@@ -85123,8 +85123,8 @@ hitherto O
 been O
 . O
 lavished O
-; O
-; O
+  O
+  O
 and O
 . O
 thus O
@@ -85173,7 +85173,7 @@ finished O
 
 | O
 316 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -85315,15 +85315,15 @@ the O
 | O
 sanctuary O
 where O
-S B-GPE
-Tricks I-GPE
+S B-ORG
+Tricks I-ORG
 had O
 taken O
 re- O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 317 B-CARDINAL
@@ -85354,7 +85354,7 @@ eve O
 | O
 of O
 imprisonment O
-; O
+  O
 but O
 she O
 in O
@@ -85443,7 +85443,7 @@ not O
 be O
 so O
 humbled O
-; O
+  O
 and O
 |
 | O
@@ -85487,7 +85487,7 @@ was O
 unchangeably O
 the O
 same O
-; O
+  O
 while O
 her O
 young O
@@ -85539,7 +85539,7 @@ mind O
 |
 | O
 of O
-Marion B-ORG
+Marion B-GPE
 , O
 who O
 could O
@@ -85584,8 +85584,8 @@ prim- O
 
 | O
 318 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -85621,7 +85621,7 @@ In O
 the O
 mind O
 of O
-Marion B-ORG
+Marion B-PERSON
 , O
 immediate O
 starve- O
@@ -85657,7 +85657,7 @@ being O
 |
 | O
 ruined O
-; O
+  O
 for O
 her O
 conception O
@@ -85698,7 +85698,7 @@ by O
 selling O
 their O
 drawings O
-; O
+  O
 but O
 Marion B-PERSON
 did O
@@ -85748,7 +85748,7 @@ re- O
 | O
 source O
 . O
-Marion O
+Marion B-PERSON
 thought O
 of O
 arrest O
@@ -85788,8 +85788,8 @@ had O
 grown O
 old O
 in O
-a O
-day O
+a B-DATE
+day I-DATE
 ! O
 |
 | O
@@ -85822,7 +85822,7 @@ ruined O
 man O
 in O
 earnest O
-; O
+  O
 obliged O
 act- O
 |
@@ -85839,7 +85839,7 @@ dismiss O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 319 B-CARDINAL
 |
@@ -85902,7 +85902,7 @@ exist O
 ” O
 as O
 Sir O
-Tricks B-PERSON
+Tricks O
 one B-CARDINAL
 contempt- O
 |
@@ -85957,9 +85957,9 @@ rest- O
 | O
 dance O
 , O
-St B-PERSON
-John I-PERSON
-’s I-PERSON
+St B-GPE
+John I-GPE
+’s I-GPE
 Lodge O
 , O
 a O
@@ -85969,8 +85969,8 @@ antique O
 | O
 villa O
 near O
-Holyrood B-ORG
-House I-ORG
+Holyrood B-FAC
+House I-FAC
 , O
 : O
 with O
@@ -86019,7 +86019,7 @@ fifty B-CARDINAL
 unimaginable O
 shapes O
 . O
-Marion O
+Marion B-PERSON
 was O
 |
 | O
@@ -86112,7 +86112,7 @@ being O
 retained O
 for O
 nothing O
-; O
+  O
 “ O
 amidst O
 all O
@@ -86147,7 +86147,7 @@ tumult O
 of O
 emotion O
 , O
-Marion B-ORG
+Marion B-PERSON
 , O
 throwing O
 |
@@ -86261,7 +86261,7 @@ hurried O
 and O
 tremulous O
 step O
-; O
+  O
 |
 | O
 but O
@@ -86314,7 +86314,7 @@ a O
 sudden O
 blow O
 . O
-Marion O
+Marion B-PERSON
 gazed O
 without O
 |
@@ -86381,8 +86381,8 @@ brilliant- O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 321 B-CARDINAL
 |
@@ -86406,7 +86406,7 @@ her O
 vision O
 was O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 |
 | O
@@ -86500,8 +86500,8 @@ and O
 |
 | O
 with O
-claret B-PERSON
-circulating I-PERSON
+claret B-ORG
+circulating I-ORG
 at O
 full O
 speed O
@@ -86649,7 +86649,7 @@ the O
 
 | O
 322 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -86735,7 +86735,7 @@ rick B-PERSON
 
 | O
 “ O
-Marion O
+Marion B-PERSON
 ! O
 ” O
 cried O
@@ -86761,7 +86761,7 @@ own O
 while O
 the O
 flowing O
-rupert O
+rupert B-PERSON
 which O
 had O
 been O
@@ -86800,7 +86800,7 @@ imperative O
 remonstrance O
 . O
 “ O
-Marion O
+Marion B-PERSON
 ! O
 what O
 brought O
@@ -86842,7 +86842,7 @@ public O
 explanation O
 , O
 Sir O
-Tricks B-PERSON
+Tricks O
 added O
 , O
 in O
@@ -86857,7 +86857,7 @@ good O
 humour O
 , O
 “ O
-Agnes B-LOC
+Agnes O
 |
 | O
 is O
@@ -86896,7 +86896,7 @@ one B-CARDINAL
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 323 B-CARDINAL
@@ -86935,7 +86935,7 @@ thought O
 | O
 the O
 delighted O
-Marion B-ORG
+Marion B-PERSON
 , O
 vanishing O
 in O
@@ -86955,7 +86955,7 @@ jovial O
 compa- O
 |
 | O
-nions O
+nions B-ORG
 became O
 vehemently O
 energetic O
@@ -86982,8 +86982,8 @@ Can O
 that O
 be'the O
 darling O
-cherub O
-Marion B-ORG
+cherub B-PERSON
+Marion I-PERSON
 , O
 |
 | O
@@ -87111,8 +87111,8 @@ T O
 saw O
 her O
 but O
-2 B-QUANTITY
-moment I-QUANTITY
+2 B-TIME
+moment I-TIME
 , O
 |
 | O
@@ -87151,16 +87151,16 @@ jet O
 That O
 must O
 mean O
-Agnes B-LOC
+Agnes O
 , O
 for O
-Marion B-ORG
+Marion B-GPE
 ’s O
 |
 
 | O
 824 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -87173,7 +87173,7 @@ brown O
 ” O
 interrupted O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 in O
 a O
@@ -87234,7 +87234,7 @@ then O
 |
 | O
 think O
-Agnes B-LOC
+Agnes B-PERSON
 has O
 achieved O
 a O
@@ -87254,7 +87254,7 @@ do O
 me O
 injustice O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 ! O
 I O
 must O
@@ -87380,7 +87380,7 @@ dozen I-CARDINAL
 
 | O
 “ O
-Tant B-PRODUCT
+Tant O
 mieux O
 et O
 tant O
@@ -87409,7 +87409,7 @@ I O
 am O
 in O
 love O
-; O
+  O
 ’ O
 how O
 concealment O
@@ -87439,8 +87439,8 @@ enduring O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 325 B-CARDINAL
 |
@@ -87461,12 +87461,12 @@ my O
 | O
 idol O
 for O
-an B-DATE
-eternity I-DATE
-of I-DATE
-three I-DATE
+an O
+eternity O
+of O
+three B-DATE
 months I-DATE
-’ O
+’ I-DATE
 duration O
 . O
 |
@@ -87493,8 +87493,8 @@ appeared O
 | O
 before O
 me O
-one O
-day O
+one B-DATE
+day I-DATE
 in O
 an O
 unbecoming O
@@ -87663,7 +87663,7 @@ hastily O
 tossing O
 off O
 a O
-summer B-DATE
+summer O
 to O
 conceal O
 his O
@@ -87716,7 +87716,7 @@ cousin O
 
 | O
 326 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -87746,7 +87746,7 @@ Tell O
 | O
 me O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 ! O
 when O
 does O
@@ -87792,8 +87792,8 @@ be O
 |
 | O
 paid O
-seven B-CARDINAL
-shillings O
+seven B-MONEY
+shillings I-MONEY
 for O
 bringing O
 Miss O
@@ -87824,7 +87824,7 @@ re- O
 | O
 plied O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 angrily O
 frowning O
@@ -87864,7 +87864,7 @@ to- O
 | O
 morrow,—and O
 next O
-day,—and B-GPE
+day,—and O
 the O
 next,—to O
 |
@@ -87924,7 +87924,7 @@ would O
 be O
 equal O
 to O
-L.7 O
+L.7 B-ORG
 ! O
 " O
 said O
@@ -88161,7 +88161,7 @@ and O
 drive O
 |
 | O
-one O
+one B-CARDINAL
 myself O
 if O
 it O
@@ -88237,7 +88237,7 @@ replied O
 |
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 -forming O
 a O
@@ -88310,8 +88310,8 @@ pay O
 
 | O
 328 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -88418,8 +88418,8 @@ pocket O
 . O
 |
 | O
-1 B-TIME
-am I-TIME
+1 B-CARDINAL
+am I-CARDINAL
 . O
 hastening O
 as O
@@ -88510,7 +88510,7 @@ here O
 ” O
 said O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 |
 | O
@@ -88573,8 +88573,8 @@ Wig- O
 ‘ O
 ton O
 for O
-an B-TIME
-hour I-TIME
+an O
+hour O
 at O
 the O
 window O
@@ -88596,7 +88596,7 @@ and O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 329 B-CARDINAL
 |
@@ -88633,7 +88633,7 @@ me O
 for O
 |
 | O
-A.200 B-PRODUCT
+A.200 O
 , O
 but O
 happening O
@@ -88687,7 +88687,7 @@ Crespigny I-PERSON
 |
 | O
 laughing O
-; O
+  O
 “ O
 not O
 so O
@@ -88720,7 +88720,7 @@ in O
 the O
 house O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 ! O
 |
 | O
@@ -88769,7 +88769,7 @@ opinions O
 ” O
 observed O
 Sir O
-Tricks B-PERSON
+Tricks O
 conceitedly O
 , O
 |
@@ -88843,7 +88843,7 @@ replied O
 |
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 carelessly O
 plunging O
@@ -89004,7 +89004,7 @@ satisfaction O
 to O
 be O
 got O
-; O
+  O
 but O
 if O
 the O
@@ -89094,7 +89094,7 @@ occasions O
 said O
 Captain O
 De B-PERSON
-Cries- I-PERSON
+Cries- O
 |
 | O
 pigny O
@@ -89143,7 +89143,7 @@ me O
 , O
 |
 | O
-Dunbar B-LOC
+Dunbar B-PERSON
 , O
 who O
 can O
@@ -89158,7 +89158,7 @@ of O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 331 B-CARDINAL
 |
@@ -89180,10 +89180,10 @@ to O
 avoid O
 poverty O
 , O
-coute B-PERSON
-qui I-PERSON
 coute O
-; O
+qui O
+coute O
+  O
 but O
 - O
 as O
@@ -89192,7 +89192,7 @@ as O
 for O
 you O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 , O
 prudence O
 and O
@@ -89212,7 +89212,7 @@ the O
 cat- O
 |
 | O
-logue O
+logue B-ORG
 of O
 your O
 many O
@@ -89229,7 +89229,7 @@ is O
 Patient O
 , O
 if O
-L.1000 B-ORG
+L.1000 B-PRODUCT
 dropped O
 into O
 your O
@@ -89277,7 +89277,7 @@ Crespigny I-PERSON
 | O
 replied O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 ringing O
 to O
@@ -89364,7 +89364,7 @@ both O
 merry O
 and O
 wise O
-; O
+  O
 therefore O
 give O
 me O
@@ -89375,7 +89375,7 @@ any O
 | O
 price O
 . O
-Happiness B-ORG
+Happiness O
 is O
 to O
 be O
@@ -89444,14 +89444,14 @@ life O
 Perfectly O
 unanswerable O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 ! O
 Money O
 |
 
 | O
 332 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -89513,7 +89513,7 @@ see O
 them O
 ourselves O
 . O
-Misers O
+Misers B-ORG
 |
 | O
 make O
@@ -89535,7 +89535,7 @@ means O
 of O
 enjoying O
 existence O
-; O
+  O
 a O
 sure O
 |
@@ -89602,7 +89602,7 @@ other O
 deranged O
 about O
 money O
-; O
+  O
 |
 | O
 — O
@@ -89728,8 +89728,8 @@ misers O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 333 B-CARDINAL
 |
@@ -89737,7 +89737,7 @@ FLIRTATION B-PERSON
 | O
 during O
 life O
-; O
+  O
 but O
 for O
 my O
@@ -89788,7 +89788,7 @@ in- O
 | O
 creasing O
 years B-DATE
-; O
+  O
 but O
 it O
 is O
@@ -89819,7 +89819,7 @@ I O
 am O
 determined O
 on O
-; O
+  O
 and O
 if O
 |
@@ -89847,7 +89847,7 @@ by O
 endowing O
 a O
 ‘ O
-Dunbar O
+Dunbar B-PERSON
 Dis- O
 |
 | O
@@ -89968,7 +89968,7 @@ Through O
 many O
 changing O
 years O
-; O
+  O
 |
 | O
 We O
@@ -90014,7 +90014,7 @@ to O
 you O
 to O
 - O
-morrow O
+morrow B-DATE
 ! O
 Do O
 youremem- O
@@ -90022,25 +90022,25 @@ youremem- O
 
 | O
 334 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-GPE
+FLIRTATION B-PERSON
 . O
 |
 
 | O
 her O
-the O
-memorable O
-hour O
+the B-TIME
+memorable I-TIME
+hour I-TIME
 at O
 old O
-Brownlow B-PRODUCT
+Brownlow B-PERSON
 ’s O
 , O
 |
 | O
-long O
-ago O
+long B-DATE
+ago I-DATE
 , O
 when O
 my O
@@ -90084,7 +90084,7 @@ never O
 forgot O
 his O
 oration O
-; O
+  O
 |
 | O
 that O
@@ -90106,7 +90106,7 @@ the O
 intervening O
 ten B-DATE
 years I-DATE
-; O
+  O
 |
 | O
 but O
@@ -90166,7 +90166,7 @@ spirit O
 of O
 a O
 gentleman O
-; O
+  O
 and O
 ever O
 since O
@@ -90210,13 +90210,13 @@ Capital O
 claret O
 this O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 ! O
 My O
 uncle O
 |
 | O
-Downcast B-ORG
+Downcast O
 would O
 not O
 have O
@@ -90310,7 +90310,7 @@ my O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 335 B-CARDINAL
 |
@@ -90318,7 +90318,7 @@ FLIRTATION B-PERSON
 | O
 credit O
 in O
-Merton B-GPE
+Merton B-ORG
 ’s O
 books O
 . O
@@ -90377,8 +90377,8 @@ keen O
 eyes O
 on O
 Sir O
-Tricks B-PERSON
-; O
+Tricks O
+  O
 “ O
 but O
 you O
@@ -90400,7 +90400,7 @@ people O
 “ O
 Very O
 true O
-; O
+  O
 and O
 I O
 owe O
@@ -90430,14 +90430,14 @@ to O
 larger O
 estate O
 ! O
-L.50,000 B-PRODUCT
+L.50,000 B-ORG
 |
 | O
 a B-DATE
 - I-DATE
 year I-DATE
 would O
-; O
+  O
 have O
 . O
 suited O
@@ -90494,7 +90494,7 @@ long O
 for O
 payment O
 ! O
-It.is O
+It.is B-ORG
 : O
 a O
 man O
@@ -90600,7 +90600,7 @@ once O
 
 | O
 336 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -90651,9 +90651,9 @@ worth O
 “ O
 Three B-CARDINAL
 farthings O
-a B-DATE
-- I-DATE
-year I-DATE
+a O
+- O
+year O
 , O
 paid O
 at O
@@ -90672,7 +90672,7 @@ discourage O
 |
 | O
 suns O
-; O
+  O
 but O
 they O
 do O
@@ -90719,9 +90719,9 @@ as O
 George B-PERSON
 the I-PERSON
 Fourth I-PERSON
-’s I-PERSON
+’s O
 statue O
-; O
+  O
 but O
 fortune O
 |
@@ -90735,10 +90735,10 @@ humour O
 with O
 us O
 again O
-some O
+some B-DATE
 |
-| O
-day O
+| I-DATE
+day I-DATE
 , O
 and O
 take O
@@ -90808,7 +90808,7 @@ Prick B-PERSON
 the O
 |
 | O
-Great B-WORK_OF_ART
+Great O
 ” O
 |
 
@@ -90830,7 +90830,7 @@ ment O
 ” O
 said O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 in O
 his O
@@ -90842,7 +90842,7 @@ a- O
 
 | O
 cents O
-; O
+  O
 “ O
 besides O
 which O
@@ -90857,7 +90857,7 @@ to O
 mine O
 , O
 Within O
-; O
+  O
 and O
 I O
 intended O
@@ -90908,7 +90908,7 @@ a O
 |
 | O
 flounder O
-; O
+  O
 and O
 you O
 may O
@@ -90949,7 +90949,7 @@ accord- O
 | O
 ingly O
 , O
-Dunbar B-ORG
+Dunbar B-PERSON
 , O
 ” O
 said O
@@ -91026,7 +91026,7 @@ existence O
 
 | O
 “ O
-Dunbar B-GPE
+Dunbar B-PERSON
 has O
 talked O
 himself O
@@ -91041,8 +91041,8 @@ parsimony O
 , O
 ” O
 said O
-Lord O
-Within O
+Lord B-PERSON
+Within I-PERSON
 , O
 laughing O
 , O
@@ -91062,13 +91062,13 @@ words O
 
 | O
 “ O
-« B-WORK_OF_ART
-Implored I-WORK_OF_ART
+« O
+Implored O
 ! O
 ” O
 replied O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 gaily O
 |
@@ -91149,7 +91149,7 @@ one B-DATE
 | I-DATE
 month I-DATE
 at O
-Melton B-ORG
+Melton B-PERSON
 — O
 to O
 feed O
@@ -91159,13 +91159,13 @@ sunshine O
 to O
 |
 | O
-VOL B-ORG
+VOL O
 . O
-I. B-ORG
-P I-ORG
+I. O
+P O
 |
 
-| I-ORG
+| O
 338 B-CARDINAL
 MODERN O
 FLIRTATION B-PERSON
@@ -91200,7 +91200,7 @@ style O
 | O
 of O
 life O
-; O
+  O
 and O
 if O
 all O
@@ -91224,7 +91224,7 @@ turn O
 patriot O
 , O
 and O
-sun- O
+sun- B-CARDINAL
 |
 | O
 sit O
@@ -91249,8 +91249,8 @@ proper O
 , O
 |
 | O
-Dunbar B-LOC
-; O
+Dunbar B-PERSON
+  O
 but O
 all O
 I O
@@ -91291,10 +91291,10 @@ have O
 ! O
 ” O
 replied O
-Captain O
+Captain B-PERSON
 |
-| O
-De B-PERSON
+| I-PERSON
+De I-PERSON
 Crespigny I-PERSON
 . O
 “ O
@@ -91321,10 +91321,10 @@ relation O
 , O
 that O
 scattering O
-L.20,000 B-CARDINAL
-a O
-- O
-year O
+L.20,000 O
+a B-DATE
+- I-DATE
+year I-DATE
 on O
 |
 | O
@@ -91373,7 +91373,7 @@ in O
 Australia B-GPE
 , O
 and O
-one O
+one B-CARDINAL
 in O
 the O
 |
@@ -91392,7 +91392,7 @@ except O
 the O
 brave O
 old O
-Admire B-PRODUCT
+Admire O
 , O
 |
 | O
@@ -91407,7 +91407,7 @@ myself O
 in O
 the O
 world O
-; O
+  O
 but O
 as O
 long O
@@ -91505,7 +91505,7 @@ replied O
 |
 | O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 assuming O
 a O
@@ -91635,24 +91635,24 @@ long O
 . O
 My O
 uncle O
-Downcast B-PERSON
+Downcast O
 |
 | O
 took O
-a O
-twenty B-DATE
+a B-DATE
+twenty I-DATE
 years I-DATE
-’ O
+’ I-DATE
 lease O
 of O
 his O
 house O
 in O
-Bed- O
+Bed- B-DATE
 |
 | O
 grave O
-Square O
+Square B-FAC
 lately O
 , O
 and O
@@ -91739,7 +91739,7 @@ world O
 
 | O
 340 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -91754,7 +91754,7 @@ would O
 only O
 think O
 so O
-; O
+  O
 |
 | O
 but O
@@ -91825,7 +91825,7 @@ are O
 turned O
 upside O
 down O
-; O
+  O
 so O
 there O
 |
@@ -91971,7 +91971,7 @@ the O
 stream O
 of O
 events O
-; O
+  O
 therefore O
 I O
 am O
@@ -92017,7 +92017,7 @@ FLIRTATION B-PERSON
 “ O
 Quite O
 right O
-; O
+  O
 and O
 take O
 my O
@@ -92155,7 +92155,7 @@ a- O
 |
 | O
 jump O
-; O
+  O
 so O
 I O
 mean O
@@ -92167,12 +92167,12 @@ in O
 |
 | O
 practice O
-; O
+  O
 but O
 after O
 all O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 , O
 money O
 has O
@@ -92220,13 +92220,13 @@ you O
 not O
 propose O
 to O
-Miss O
+Miss B-PERSON
 |
-| O
-Crawford B-PERSON
+| I-PERSON
+Crawford I-PERSON
 and O
 her O
-L.60,000 O
+L.60,000 B-GPE
 ? O
 ” O
 |
@@ -92249,7 +92249,7 @@ My O
 dear O
 fellow O
 ! O
-L.60,000 B-GPE
+L.60,000 B-PERSON
 would O
 not O
 be O
@@ -92306,7 +92306,7 @@ always O
 
 | O
 342 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -92349,7 +92349,7 @@ would O
 
 | O
 not O
-sell.is O
+sell.is B-PERSON
 myself O
 ! O
 ” O
@@ -92378,10 +92378,10 @@ still O
 insufferably O
 bored O
 at O
-Beanjolie B-FAC
+Beanjolie B-GPE
 |
-| I-FAC
-Castle I-FAC
+| O
+Castle O
 to O
 marry O
 that O
@@ -92540,7 +92540,7 @@ as O
 they O
 are O
 ! O
-Love B-WORK_OF_ART
+Love O
 among O
 the O
 roses O
@@ -92573,8 +92573,8 @@ then O
 les O
 |
 | O
-beaux O
-yeux B-PERSON
+beaux B-PERSON
+yeux I-PERSON
 de I-PERSON
 sa I-PERSON
 settled O
@@ -92599,8 +92599,8 @@ despair O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 343 B-CARDINAL
 |
@@ -92638,7 +92638,7 @@ self O
 
 | O
 “ O
-Splendidly B-PRODUCT
+Splendidly B-WORK_OF_ART
 said O
 ! O
 you O
@@ -92649,7 +92649,7 @@ magna- O
 | O
 nimous O
 , O
-Dunbar B-GPE
+Dunbar B-PERSON
 . O
 What O
 has O
@@ -92678,14 +92678,14 @@ true O
 - O
 love O
 lately O
-; O
+  O
 connected O
 with O
 |
 | O
 yourself O
 and O
-Glanville B-PERSON
+Glanville B-ORG
 ’s O
 pretty O
 sister O
@@ -92717,8 +92717,8 @@ affair O
 as O
 |
 | O
-Lady O
-Towercliffe B-PERSON
+Lady B-PERSON
+Towercliffe I-PERSON
 ’s O
 entire O
 story O
@@ -92737,7 +92737,7 @@ but O
 Captain O
 De B-PERSON
 Crespigny I-PERSON
-’ O
+’ I-PERSON
 paused O
 suddenly O
 , O
@@ -92748,7 +92748,7 @@ filled O
 his O
 glass,—averted O
 his O
-eye,—and B-GPE
+eye,—and O
 ‘ O
 pushed O
 |
@@ -92848,13 +92848,13 @@ dispersed O
 | O
 344 B-CARDINAL
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 |
 
 | O
-CHAPTER B-LAW
-XII I-LAW
+CHAPTER O
+XII O
 . O
 |
 
@@ -92948,7 +92948,7 @@ worst O
 fears O
 respecting O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 |
 | O
@@ -92964,9 +92964,9 @@ une- O
 pected O
 glimpse O
 of O
-the B-ORG
-jovial I-ORG
-party I-ORG
+the O
+jovial O
+party O
 in O
 the O
 |
@@ -93007,7 +93007,7 @@ scene O
 of O
 |
 | O
-Agnes B-LOC
+Agnes O
 ’ O
 toilette O
 , O
@@ -93019,8 +93019,8 @@ last O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 345 B-CARDINAL
 |
@@ -93040,10 +93040,10 @@ at O
 , O
 |
 | O
-Lady B-PERSON
-Towercliffe I-PERSON
-’ I-PERSON
-'s I-PERSON
+Lady O
+Towercliffe O
+’ O
+'s O
 in O
 the O
 palace O
@@ -93077,14 +93077,14 @@ slumbers O
 , O
 and O
 the O
-three- O
+three- B-CARDINAL
 |
 | O
 lion O
-Agnes B-LOC
+Agnes O
 bestowed O
 on O
-Marion B-ORG
+Marion B-PERSON
 partook O
 more O
 |
@@ -93143,8 +93143,8 @@ most O
 unbounded O
 censure O
 of- O
-Mrs B-PERSON
-Penfold I-PERSON
+Mrs O
+Penfold B-PERSON
 for O
 her O
 |
@@ -93198,7 +93198,7 @@ of O
 her O
 attention O
 to O
-Marion B-ORG
+Marion B-PERSON
 , O
 whose O
 |
@@ -93263,9 +93263,9 @@ had O
 |
 | O
 at O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 ! O
 tiresome O
 old O
@@ -93277,7 +93277,7 @@ am O
 
 | O
 346 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -93298,7 +93298,7 @@ wreath O
 more O
 to O
 the O
-right;—not O
+right —not O
 quite O
 so O
 far O
@@ -93315,7 +93315,7 @@ perfect O
 ! O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 gazing O
 with O
@@ -93343,7 +93343,7 @@ you O
 , O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 ! O
 It O
 would O
@@ -93516,13 +93516,13 @@ you O
 |
 | O
 whispered O
-Marion B-ORG
+Marion B-PERSON
 , O
 as O
 soon O
 as O
 the O
-abigail O
+abigail B-PERSON
 ’s O
 |
 | O
@@ -93563,8 +93563,8 @@ eyes O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 347 B-CARDINAL
 |
@@ -93603,7 +93603,7 @@ Yes O
 ! O
 ” O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 laughing O
 , O
@@ -93618,7 +93618,7 @@ look O
 through O
 me O
 . O
-tillel O
+tillel B-PERSON
 feel O
 myself O
 |
@@ -93664,7 +93664,7 @@ hour I-TIME
 , O
 ” O
 continued O
-Marion B-ORG
+Marion B-PERSON
 . O
 |
 | O
@@ -93763,7 +93763,7 @@ now O
 after O
 two B-DATE
 years I-DATE
-’ O
+’ I-DATE
 practice O
 , O
 |
@@ -93807,7 +93807,7 @@ a O
 word O
 of O
 it O
-; O
+  O
 but O
 too O
 her O
@@ -94076,7 +94076,7 @@ perfection O
 even O
 by O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 though O
 it O
@@ -94116,9 +94116,9 @@ exclaim- O
 |
 | O
 end O
-Agnes B-LOC
+Agnes O
 peevishly O
-; O
+  O
 “ O
 as O
 for O
@@ -94130,7 +94130,7 @@ he O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 349 B-CARDINAL
 |
@@ -94277,7 +94277,7 @@ within O
 reach O
 except O
 the O
-Tower- O
+Tower- B-ORG
 |
 | O
 cliffs O
@@ -94285,7 +94285,7 @@ cliffs O
 and O
 those O
 odious O
-Glanville B-GPE
+Glanville B-ORG
 ! O
 ” O
 |
@@ -94293,11 +94293,11 @@ Glanville B-GPE
 | O
 “ O
 The O
-Glanville B-FAC
+Glanville B-ORG
 ! O
 ” O
 exclaimed O
-Marion B-ORG
+Marion B-PERSON
 , O
 in O
 a O
@@ -94308,7 +94308,7 @@ of O
 joy O
 and O
 astonishment O
-; O
+  O
 “ O
 dear O
 Clark B-PERSON
@@ -94325,7 +94325,7 @@ here O
 | O
 “ O
 Yes O
-; O
+  O
 but O
 she O
 cuts O
@@ -94365,10 +94365,10 @@ boarding O
 school O
 friendships O
 in O
-that O
+that B-DATE
 |
-| O
-quarter O
+| I-DATE
+quarter I-DATE
 . O
 I O
 can O
@@ -94449,7 +94449,7 @@ withered O
 disappointment O
 . O
 “ O
-Agnes B-LOC
+Agnes O
 , O
 I O
 can O
@@ -94458,8 +94458,8 @@ not O
 | O
 give O
 up O
-Clark B-PERSON
-Glanville I-PERSON
+Clark B-ORG
+Glanville I-ORG
 ! O
 ” O
 |
@@ -94517,21 +94517,21 @@ quarrel O
 ] O
 between O
 Mr O
-Glanville B-GPE
+Glanville B-PERSON
 , O
 Pat B-PERSON
 , O
 |
 | O
 and O
-Mr B-PERSON
-De I-PERSON
+Mr O
+De B-PERSON
 Crespigny I-PERSON
 . O
 It O
 is O
 merely O
-one B-CARDINAL
+one O
 of O
 |
 | O
@@ -94556,7 +94556,7 @@ of O
 |
 | O
 three B-CARDINAL
-Yorkshire B-PERSON
+Yorkshire B-GPE
 baronets O
 , O
 who O
@@ -94597,10 +94597,10 @@ others O
 | O
 “ O
 Yes O
-; O
+  O
 and O
 not O
-one B-CARDINAL
+one O
 of O
 them O
 ever O
@@ -94624,8 +94624,8 @@ sacrifice O
 “ O
 Well O
 ! O
-some B-DATE
-years I-DATE
+some O
+years O
 afterwards O
 , O
 the O
@@ -94678,7 +94678,7 @@ like O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 351 B-CARDINAL
 |
@@ -94721,7 +94721,7 @@ which O
 |
 | O
 they O
-signed’and B-NORP
+signed’and B-ORG
 sealed O
 , O
 making O
@@ -94833,7 +94833,7 @@ to O
 this O
 affair O
 , O
-Agnes B-LOC
+Agnes O
 ? O
 I O
 can O
@@ -94862,7 +94862,7 @@ at O
 Mr O
 |
 | O
-Glanville B-GPE
+Glanville B-ORG
 lately O
 about O
 ’ O
@@ -94871,7 +94871,7 @@ unexplainable O
 |
 | O
 front O
-; O
+  O
 so O
 , O
 having O
@@ -94881,7 +94881,7 @@ the O
 old O
 |
 | O
-Harrowgate B-FAC
+Harrowgate B-ORG
 document O
 , O
 and O
@@ -94893,7 +94893,7 @@ hard O
 up O
 for O
 money O
-; O
+  O
 he O
 and O
 Captain O
@@ -94921,7 +94921,7 @@ them O
 and O
 poor O
 Mr O
-Glanville B-GPE
+Glanville B-PERSON
 |
 | O
 is O
@@ -94947,7 +94947,7 @@ to- O
 |
 
 | O
-A52 B-PRODUCT
+A52 B-ORG
 MODERN O
 FLIRTATION B-PERSON
 . O
@@ -95035,7 +95035,7 @@ affair O
 exclaimed O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 colouring O
 with O
@@ -95052,7 +95052,7 @@ uncle O
 Arthur B-PERSON
 says O
 , O
-Trick B-ORG
+Trick B-PERSON
 would O
 |
 | O
@@ -95099,9 +95099,9 @@ now O
 |
 | O
 replied O
-Agnes B-LOC
+Agnes B-NORP
 impatiently O
-; O
+  O
 “ O
 we O
 need O
@@ -95133,8 +95133,8 @@ of O
 what O
 |
 | O
-Mrs B-PERSON
-Hannah I-PERSON
+Mrs O
+Hannah B-PERSON
 More O
 would O
 speak O
@@ -95147,7 +95147,7 @@ a O
 sister O
 or O
 daughter O
-; O
+  O
 but O
 with O
 all O
@@ -95209,8 +95209,8 @@ young O
 | O
 ladies O
 . O
-Mrs B-PERSON
-Lewis I-PERSON
+Mrs O
+Lewis B-PERSON
 writes O
 to O
 the B-ORG
@@ -95221,7 +95221,7 @@ of I-ORG
 
 | I-ORG
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 353 B-CARDINAL
 |
@@ -95277,7 +95277,7 @@ now O
 |
 | O
 continued O
-Marion B-ORG
+Marion B-GPE
 , O
 dejectedly O
 . O
@@ -95286,7 +95286,7 @@ I O
 suppose O
 |
 | O
-Tricks B-ORG
+Tricks O
 will O
 be O
 cut O
@@ -95509,9 +95509,9 @@ him O
 |
 
 | O
-B54 B-PRODUCT
-MODERN I-PRODUCT
-FLIRTATION I-PRODUCT
+B54 O
+MODERN O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -95523,16 +95523,16 @@ takes O
 any O
 notice O
 of O
-Pat- B-PERSON
+Pat- O
 |
-| I-PERSON
-rick I-PERSON
-’s I-PERSON
+| O
+rick B-PERSON
+’s O
 affairs O
 ? O
 ” O
 asked O
-Marion B-ORG
+Marion B-PERSON
 doubtfully O
 . O
 |
@@ -95540,7 +95540,7 @@ doubtfully O
 | O
 “ O
 No O
-; O
+  O
 except O
 uncle O
 Arthur B-PERSON
@@ -95554,19 +95554,19 @@ quite O
 absurd O
 about O
 them O
-; O
+  O
 refuses O
 to O
 |
 | O
 dine O
 here O
-; O
+  O
 turns O
 his O
 back O
 on O
-Pricked B-GPE
+Pricked B-PERSON
 at O
 the O
 |
@@ -95582,7 +95582,7 @@ uncle O
 - O
 like O
 manner O
-; O
+  O
 and O
 per- O
 |
@@ -95599,7 +95599,7 @@ annoy- O
 |
 | O
 ance O
-; O
+  O
 but O
 we O
 are O
@@ -95673,7 +95673,7 @@ ca O
 n’t O
 help O
 what O
-Tricks B-PERSON
+Tricks O
 does O
 , O
 and O
@@ -95703,10 +95703,10 @@ hope O
 never O
 ! O
 but O
-Pat- B-PERSON
+Pat- O
 |
-| I-PERSON
-rick I-PERSON
+| O
+rick B-PERSON
 can O
 not O
 surely O
@@ -95719,7 +95719,7 @@ earnest O
 | O
 against O
 the O
-Glanville B-FAC
+Glanville B-ORG
 . O
 He O
 will O
@@ -95870,7 +95870,7 @@ short O
 the O
 |
 | O
-Glanville B-GPE
+Glanville B-ORG
 are O
 : O
 good O
@@ -95913,7 +95913,7 @@ to O
 be O
 severe O
 , O
-Agnes B-LOC
+Agnes B-PERSON
 ? O
 I O
 |
@@ -95925,7 +95925,7 @@ mistaken O
 ! O
 ” O
 replied O
-Marion B-ORG
+Marion B-PERSON
 , O
 |
 | O
@@ -95995,7 +95995,7 @@ word O
 for O
 it O
 , O
-Marion B-ORG
+Marion B-PERSON
 , O
 these O
 nor- O
@@ -96039,7 +96039,7 @@ distance O
 is O
 the O
 better O
-; O
+  O
 and O
 pray O
 never O
@@ -96086,7 +96086,7 @@ parties O
 | O
 some O
 horrid O
-Glanville B-GPE
+Glanville B-ORG
 - O
 is O
 affair O
@@ -96100,7 +96100,7 @@ no O
 | O
 356 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -96123,8 +96123,8 @@ go O
 Fancy O
 me O
 , O
-Agnes B-GPE
-Dunbar I-GPE
+Agnes B-PERSON
+Dunbar I-PERSON
 , O
 at O
 a O
@@ -96157,7 +96157,7 @@ Agnes B-LOC
 ! O
 ” O
 replied O
-Marion B-ORG
+Marion B-PERSON
 , O
 with O
 |
@@ -96221,7 +96221,7 @@ sense O
 , O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 ! O
 Captain O
 De B-PERSON
@@ -96285,8 +96285,8 @@ favourite O
 | O
 flowers O
 at O
-Kilmarnock B-FAC
-Abbey I-FAC
+Kilmarnock B-ORG
+Abbey I-ORG
 , O
 and O
 often O
@@ -96318,9 +96318,9 @@ name O
 grouped O
 together O
 , O
-Anemone B-GPE
+Anemone B-ORG
 , O
-Geranium B-GPE
+Geranium B-ORG
 , O
 Nor- O
 |
@@ -96344,7 +96344,7 @@ ingenious O
 , O
 ” O
 observed O
-Marion B-ORG
+Marion B-PERSON
 , O
 smile- O
 |
@@ -96355,8 +96355,8 @@ ing O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 357 B-CARDINAL
 |
@@ -96374,7 +96374,7 @@ device O
 | O
 it O
 was O
-; O
+  O
 therefore O
 , O
 Marion B-PERSON
@@ -96396,7 +96396,7 @@ if O
 any O
 |
 | O
-one O
+one B-CARDINAL
 guesses O
 where O
 I O
@@ -96460,7 +96460,7 @@ Marion B-PERSON
 accidentally O
 looked O
 at O
-Dixon B-ORG
+Dixon B-PERSON
 , O
 |
 | O
@@ -96542,7 +96542,7 @@ of O
 the O
 room O
 at O
-Beaujolie B-PERSON
+Beaujolie B-GPE
 castle O
 , O
 |
@@ -96628,7 +96628,7 @@ year I-DATE
 
 | O
 358 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -96640,8 +96640,8 @@ this B-TIME
 morning I-TIME
 , O
 when O
-Tricks B-PERSON
-come- I-PERSON
+Tricks O
+come- O
 |
 | O
 pained O
@@ -96682,7 +96682,7 @@ in O
 his O
 |
 | O
-Highland B-GPE
+Highland B-FAC
 bonnet O
 ! O
 Yesterday B-DATE
@@ -96867,7 +96867,7 @@ of O
 the O
 |
 | O
-Mistral B-ORG
+Mistral O
 , O
 too O
 , O
@@ -96911,7 +96911,7 @@ I O
 |
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 359 B-CARDINAL
 |
@@ -96957,7 +96957,7 @@ confident O
 , O
 ” O
 replied O
-Marion B-ORG
+Marion B-PERSON
 , O
 laugh- O
 |
@@ -96975,8 +96975,8 @@ three B-CARDINAL
 | O
 lessons O
 , O
-Agnes B-LOC
-; O
+Agnes B-PERSON
+  O
 he O
 has O
 no O
@@ -97030,7 +97030,7 @@ as O
 you O
 think O
 , O
-Marion B-ORG
+Marion B-PERSON
 ! O
 The O
 race O
@@ -97064,7 +97064,7 @@ Captain O
 De B-PERSON
 Crespigny,.who I-PERSON
 |
-| I-PERSON
+| O
 has O
 been O
 setting O
@@ -97113,9 +97113,9 @@ nous O
 | O
 woman O
 . O
-changeé O
-tout O
-cela O
+changeé B-PERSON
+tout I-PERSON
+cela I-PERSON
 ” O
 |
 
@@ -97223,7 +97223,7 @@ Serene I-WORK_OF_ART
 , O
 ’ O
 said O
-Agnes B-LOC
+Agnes B-PERSON
 , O
 warbling O
 the O
@@ -97254,7 +97254,7 @@ be O
 
 | O
 While O
-Agnes B-LOC
+Agnes B-PRODUCT
 continued O
 singing O
 sotto O
@@ -97290,7 +97290,7 @@ accidentally O
 | O
 wandered O
 towards O
-Dixon B-PRODUCT
+Dixon B-PERSON
 , O
 and O
 she O
@@ -97371,7 +97371,7 @@ in O
 her O
 eyes O
 . O
-Marion O
+Marion B-PERSON
 with O
 |
 | O
@@ -97423,8 +97423,8 @@ could O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 361 B-CARDINAL
 |
@@ -97576,8 +97576,8 @@ horrenee O
 ! O
 I O
 remember O
-ages O
-ago O
+ages B-DATE
+ago I-DATE
 , O
 his O
 making O
@@ -97601,10 +97601,10 @@ attachment O
 he O
 had O
 in O
-York- O
+York- B-GPE
 |
-| O
-shire O
+| I-GPE
+shire I-GPE
 ! O
 Such O
 a O
@@ -97634,8 +97634,8 @@ a O
 fair O
 damsel O
 in O
-prunella O
-shoes O
+prunella B-GPE
+shoes I-GPE
 , O
 |
 | O
@@ -97660,7 +97660,7 @@ the O
 Irish B-NORP
 |
 | O
-Melodies O
+Melodies B-ORG
 , O
 and O
 passed O
@@ -97687,7 +97687,7 @@ de- O
 luded O
 girl O
 at O
-Last,—probably O
+Last,—probably B-ORG
 married O
 before O
 |
@@ -97703,7 +97703,7 @@ a O
 
 | O
 362 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -97776,8 +97776,8 @@ moment O
 |
 | O
 interrupted O
-Agnes B-LOC
-’ O
+Agnes B-PERSON
+’ I-PERSON
 delightful O
 reminiscences O
 . O
@@ -97883,7 +97883,7 @@ hot O
 house O
 plants O
 , O
-Agnes B-LOC
+Agnes B-NORP
 |
 | O
 had O
@@ -97925,7 +97925,7 @@ an O
 expense O
 that O
 Sir O
-Tricks B-PERSON
+Tricks O
 often O
 re- O
 |
@@ -97938,7 +97938,7 @@ a O
 wing O
 of O
 the O
-bazaar O
+bazaar B-ORG
 |
 | O
 and O
@@ -97966,7 +97966,7 @@ floor O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 363 B-CARDINAL
@@ -97974,7 +97974,7 @@ FLIRTATION B-PERSON
 
 | O
 while O
-Agnes B-LOC
+Agnes B-PRODUCT
 delivered O
 herself O
 up O
@@ -98042,7 +98042,7 @@ The O
 “ O
 fall O
 of O
-china B-GPE
+china O
 ” O
 is O
 a O
@@ -98092,11 +98092,11 @@ lavished O
 on O
 the O
 offending O
-abigail O
+abigail B-PERSON
 . O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 appeared O
 exclusively O
 occupied O
@@ -98170,7 +98170,7 @@ of O
 malignant O
 satisfaction O
 . O
-Marion O
+Marion B-PERSON
 felt O
 |
 | O
@@ -98224,7 +98224,7 @@ caught O
 the O
 eye O
 of O
-Marion B-ORG
+Marion B-PERSON
 earnestly O
 fixed O
 upon O
@@ -98275,7 +98275,7 @@ catastrophe O
 |
 | O
 exclaimed O
-Agnes B-LOC
+Agnes B-PRODUCT
 , O
 disconsolately O
 , O
@@ -98318,7 +98318,7 @@ strange O
 , O
 ” O
 observed O
-Marion B-ORG
+Marion B-PERSON
 , O
 going O
 close O
@@ -98427,7 +98427,7 @@ Dixon B-PERSON
 whom O
 she O
 advised O
-Agnes B-LOC
+Agnes B-NORP
 to O
 |
 | O
@@ -98484,7 +98484,7 @@ all O
 the O
 |
 | O
-china B-GPE
+china O
 , O
 but O
 it O
@@ -98500,8 +98500,8 @@ severe O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 365 O
 |
@@ -98576,17 +98576,17 @@ for O
 breaking O
 a O
 few O
-china O
+china B-EVENT
 |
-| O
-gewgaws O
+| I-EVENT
+gewgaws I-EVENT
 ! O
 ” O
 |
 
 | O
 “ O
-Marion O
+Marion B-PERSON
 ! O
 speak O
 respectfully O
@@ -98757,7 +98757,7 @@ go O
 ” O
 said O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 who O
 |
@@ -98772,8 +98772,8 @@ unobserved O
 |
 | O
 “ O
-Lady B-WORK_OF_ART
-Towercliffe I-WORK_OF_ART
+Lady B-PERSON
+Towercliffe I-PERSON
 may O
 perhaps O
 receive O
@@ -98797,7 +98797,7 @@ o'clock I-TIME
 breakfast O
 to O
 - O
-morrow O
+morrow B-DATE
 |
 | O
 morning O
@@ -98827,8 +98827,8 @@ of O
 the O
 question O
 . O
-Past B-TIME
-twelve I-TIME
+Past O
+twelve B-TIME
 o'clock I-TIME
 , O
 and O
@@ -98910,7 +98910,7 @@ on O
 the O
 description O
 of O
-Mrs B-PERSON
+Mrs O
 Pen- O
 |
 | O
@@ -98920,7 +98920,7 @@ wrath O
 , O
 laughed O
 at O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 evident O
 and- O
@@ -98969,7 +98969,7 @@ life O
 a O
 holiday O
 now O
-; O
+  O
 |
 | O
 “ O
@@ -98999,16 +98999,16 @@ grievances O
 at O
 |
 | O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
+Mrs O
+Penfold B-PERSON
+’s O
 , O
 or O
 rather O
 , O
-Mrs B-PERSON
-Tenfold I-PERSON
-’s I-PERSON
+Mrs O
+Tenfold B-PERSON
+’s O
 , O
 as O
 |
@@ -99049,8 +99049,8 @@ FLIRTATION B-PERSON
 |
 
 | O
-CHAPTER B-ORG
-XIII I-ORG
+CHAPTER O
+XIII O
 . O
 |
 
@@ -99196,7 +99196,7 @@ were O
 
 | O
 368 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -99285,7 +99285,7 @@ talents O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 ’ O
 whole O
 mind O
@@ -99359,14 +99359,14 @@ the O
 | O
 heart O
 of O
-Marion B-ORG
+Marion B-PERSON
 was O
 laid O
 open O
 to O
 her O
 . O
-Agnes B-LOC
+Agnes O
 , O
 |
 | O
@@ -99394,7 +99394,7 @@ her- O
 | O
 self O
 that O
-Marion B-ORG
+Marion B-PERSON
 also O
 , O
 had O
@@ -99449,7 +99449,7 @@ A- O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 369 B-CARDINAL
 |
@@ -99463,7 +99463,7 @@ were O
 in O
 reality O
 artificial O
-; O
+  O
 and O
 |
 | O
@@ -99507,13 +99507,13 @@ invariable O
 affection O
 , O
 still O
-Agnes B-LOC
+Agnes B-NORP
 |
 | O
 convinced O
 herself O
 that O
-Marion B-ORG
+Marion B-PERSON
 lived O
 “ O
 for O
@@ -99643,7 +99643,7 @@ she O
 |
 | O
 loved O
-; O
+  O
 and O
 if O
 ever O
@@ -99710,7 +99710,7 @@ Sir O
 
 | O
 370 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -99781,10 +99781,10 @@ disappointments O
 . O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 had O
 the O
-art,—or B-PERSON
+art,—or O
 rather O
 the O
 instinct O
@@ -99805,7 +99805,7 @@ in O
 perfection O
 . O
 If O
-Agnes B-LOC
+Agnes B-PRODUCT
 received O
 a O
 dress O
@@ -99846,7 +99846,7 @@ enliven O
 , O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 became O
 of O
 immediate O
@@ -99893,7 +99893,7 @@ been O
 nothing O
 to O
 it O
-; O
+  O
 but O
 Marion B-PERSON
 could O
@@ -99942,7 +99942,7 @@ others O
 | O
 Nothing O
 melted O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 heart O
 so O
@@ -99963,7 +99963,7 @@ as O
 |
 
 | O
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 371 B-CARDINAL
@@ -100005,10 +100005,10 @@ on O
 the O
 |
 | O
-evening O
+evening B-TIME
 of O
-Lady O
-Towereliffe O
+Lady B-PERSON
+Towereliffe I-PERSON
 ’s O
 all O
 , O
@@ -100104,8 +100104,8 @@ which O
 and O
 |
 | O
-a O
-thousand B-CARDINAL
+a B-CARDINAL
+thousand I-CARDINAL
 conjectures O
 respecting O
 its O
@@ -100234,7 +100234,7 @@ as O
 
 | O
 372 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -100265,19 +100265,19 @@ wishes O
 |
 
 | O
-The B-TIME
-morning I-TIME
+The O
+morning O
 after O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 arrival O
 at O
-St B-FAC
+St B-GPE
 |
-| I-FAC
-John I-FAC
-’s I-FAC
-Lodge I-FAC
+| I-GPE
+John I-GPE
+’s I-GPE
+Lodge I-GPE
 , O
 she O
 arose O
@@ -100389,7 +100389,7 @@ clouds O
 skimming O
 along O
 like O
-swans O
+swans B-NORP
 on O
 |
 | O
@@ -100562,7 +100562,7 @@ Thee O
 present O
 , O
 where O
-Thy B-PERSON
+Thy O
 smiles O
 around O
 ? O
@@ -100586,7 +100586,7 @@ the O
 light O
 - O
 footed O
-Marion B-ORG
+Marion B-PERSON
 , O
 with O
 a O
@@ -100606,7 +100606,7 @@ her O
 solitary O
 walk O
 towards O
-Portobello B-WORK_OF_ART
+Portobello B-GPE
 , O
 joyous O
 as O
@@ -100646,7 +100646,7 @@ saw O
 . O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 delighted O
 in O
 a O
@@ -100667,14 +100667,14 @@ her O
 long O
 |
 | O
-years B-DATE
+years O
 of O
 endurance O
 at O
-Mrs B-PERSON
-Penfold I-PERSON
-’s I-PERSON
-; O
+Mrs O
+Penfold B-PERSON
+’s O
+  O
 and O
 |
 | O
@@ -100689,7 +100689,7 @@ gingham O
 | O
 dress O
 as O
-Agnes B-LOC
+Agnes B-PRODUCT
 had O
 censured O
 on O
@@ -100767,7 +100767,7 @@ his O
 
 | O
 374 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -100891,8 +100891,8 @@ asto- O
 punishment O
 , O
 “ O
-Lady O
-Towereliffe O
+Lady B-PERSON
+Towereliffe I-PERSON
 ’s O
 ball O
 is O
@@ -100977,7 +100977,7 @@ and O
 turn O
 round O
 . O
-Marion O
+Marion B-PERSON
 now O
 |
 | O
@@ -100990,9 +100990,9 @@ window O
 |
 | O
 of O
-Lady B-ORG
-Towercliffe I-ORG
-’s I-ORG
+Lady B-PERSON
+Towercliffe I-PERSON
+’s O
 apartments O
 had O
 been O
@@ -101003,7 +101003,7 @@ opened O
 , O
 and O
 Sir O
-Tricks B-PERSON
+Tricks O
 stood O
 on O
 the O
@@ -101018,7 +101018,7 @@ impetuously O
 
 | O
 MODERN O
-FLIRTATION B-PERSON
+FLIRTATION B-DATE
 . O
 375 B-CARDINAL
 |
@@ -101055,7 +101055,7 @@ hat O
 
 | O
 “ O
-Marion O
+Marion B-PERSON
 ! O
 you O
 lucky O
@@ -101102,7 +101102,7 @@ quadrille O
 so O
 come O
 along O
-; O
+  O
 you O
 are O
 my O
@@ -101147,7 +101147,7 @@ mad O
 said O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 , O
 unable O
 to O
@@ -101252,8 +101252,8 @@ like O
 the O
 man O
 in O
-the B-LOC
-moon I-LOC
+the O
+moon O
 . O
 No O
 , O
@@ -101285,8 +101285,8 @@ to O
 die O
 for O
 me O
-any B-DATE
-day I-DATE
+any O
+day O
 , O
 but O
 that O
@@ -101295,7 +101295,7 @@ is O
 
 | O
 376 B-CARDINAL
-MODERN O
+MODERN B-GPE
 FLIRTATION B-PERSON
 . O
 |
@@ -101521,8 +101521,8 @@ were O
 “ O
 trop O
 prés O
-de B-PERSON
-la I-PERSON
+de O
+la O
 reine O
 |
 | O
@@ -101566,8 +101566,8 @@ by O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 377 B-CARDINAL
 |
@@ -101739,7 +101739,7 @@ fascinating O
 
 | O
 To O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 unaccustomed O
 eye O
@@ -101808,7 +101808,7 @@ a O
 plight O
 . O
 Even O
-Agnes B-LOC
+Agnes O
 , O
 her O
 own O
@@ -101837,7 +101837,7 @@ might O
 
 | O
 378 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -101865,7 +101865,7 @@ but O
 in O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 very O
 private O
@@ -101919,7 +101919,7 @@ expression O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 had O
 a O
 great O
@@ -101960,7 +101960,7 @@ dialogue O
 with O
 Captain O
 De B-PERSON
-Cries- I-PERSON
+Cries- O
 |
 | O
 pigny O
@@ -102278,7 +102278,7 @@ curiosity O
 
 | O
 “ O
-Marion O
+Marion B-PERSON
 , O
 what O
 mad O
@@ -102303,7 +102303,7 @@ angry O
 |
 | O
 surprise O
-; O
+  O
 “ O
 Tricks O
 , O
@@ -102345,7 +102345,7 @@ re- O
 | O
 plied O
 Sir O
-Tricks B-PERSON
+Tricks O
 , O
 with O
 a O
@@ -102369,7 +102369,7 @@ the O
 brow O
 of O
 Agnes B-LOC
-; O
+  O
 “ O
 I O
 had O
@@ -102387,8 +102387,8 @@ at O
 |
 
 | O
-380 O
-MODERN O
+380 B-CARDINAL
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -102446,7 +102446,7 @@ admit- O
 ing O
 glance O
 at O
-Marion B-ORG
+Marion B-PERSON
 , O
 who O
 stood O
@@ -102499,7 +102499,7 @@ trouble O
 of O
 dancing O
 with O
-Marion B-ORG
+Marion B-PERSON
 . O
 ” O
 |
@@ -102548,7 +102548,7 @@ heart O
 
 | O
 “ O
-Marion O
+Marion B-PERSON
 , O
 your O
 old O
@@ -102594,7 +102594,7 @@ I O
 am O
 like O
 the O
-Sky B-ORG
+Sky B-PRODUCT
 terriers O
 , O
 admired O
@@ -102626,7 +102626,7 @@ the O
 blush O
 with O
 which O
-Marion B-ORG
+Marion B-PERSON
 listen- O
 |
 | O
@@ -102637,7 +102637,7 @@ You O
 think O
 me O
 plain O
-; O
+  O
 but O
 I O
 wish O
@@ -102817,7 +102817,7 @@ next O
 quadrille O
 with O
 you O
-; O
+  O
 and O
 if O
 |
@@ -102870,7 +102870,7 @@ enemy O
 |
 
 | O
-Marion O
+Marion B-PERSON
 stole O
 a O
 frightened O
@@ -102892,7 +102892,7 @@ of O
 Captain O
 De B-PERSON
 Crespigny I-PERSON
-; O
+  O
 but O
 her O
 sister O
@@ -102947,7 +102947,7 @@ who O
 | O
 382 B-CARDINAL
 MODERN O
-FLIRTATION O
+FLIRTATION B-PERSON
 . O
 |
 
@@ -102981,7 +102981,7 @@ partners O
 |
 
 | O
-Agnes B-LOC
+Agnes O
 felt O
 invariably O
 more O
@@ -103054,7 +103054,7 @@ by O
 | O
 keeping O
 aloof O
-; O
+  O
 and O
 it O
 was O
@@ -103091,7 +103091,7 @@ the O
 school O
 - O
 boy O
-Peer B-ORG
+Peer O
 as O
 a O
 partner O
@@ -103175,9 +103175,9 @@ latest O
 of O
 any O
 during O
-the B-DATE
-season I-DATE
-; O
+the O
+season O
+  O
 |
 | O
 and O
@@ -103198,8 +103198,8 @@ pillows O
 |
 
 | O
-MODERN O
-FLIRTATION B-PERSON
+MODERN B-ORG
+FLIRTATION B-DATE
 . O
 383 B-CARDINAL
 |
@@ -103394,7 +103394,7 @@ only O
 girl O
 Captain O
 De B-PERSON
-Cries- I-PERSON
+Cries- O
 |
 | O
 pigny O
@@ -103413,7 +103413,7 @@ wish O
 to O
 trifle O
 with O
-; O
+  O
 for O
 during O
 the B-TIME
@@ -103451,7 +103451,7 @@ matured O
 reflection O
 , O
 of O
-naiveté B-ORG
+naiveté O
 , O
 he- O
 |
@@ -103470,8 +103470,8 @@ bright- O
 
 | O
 384 B-CARDINAL
-MODERN O
-FLIRTATION O
+MODERN B-ORG
+FLIRTATION B-PERSON
 . O
 |
 
@@ -103524,7 +103524,7 @@ a O
 suction O
 of O
 affectation O
-; O
+  O
 and O
 to O
 this O
@@ -103580,7 +103580,7 @@ carelessness O
 , O
 with O
 which O
-Marion B-ORG
+Marion B-PERSON
 heard O
 , O
 as O
@@ -103675,7 +103675,7 @@ before O
 the O
 eyes O
 of O
-Marion B-ORG
+Marion B-PERSON
 , O
 who O
 no O
@@ -103716,8 +103716,8 @@ his O
 | O
 part O
 for O
-the B-TIME
-evening I-TIME
+the O
+evening O
 to O
 scatter O
 civilities O
@@ -103752,14 +103752,14 @@ consecrated O
 to O
 |
 | O
-one O
+one B-CARDINAL
 , O
 and O
 to O
 one B-CARDINAL
 only O
 . O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 own O
 heart O
@@ -103784,7 +103784,7 @@ being O
 her O
 affianced O
 brother O
-; O
+  O
 |
 | O
 and O
@@ -103792,7 +103792,7 @@ therefore O
 she O
 received O
 his O
-adieux O
+adieux B-ORG
 with O
 a O
 |
@@ -103850,7 +103850,7 @@ Crespigny I-PERSON
 observed O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 ’s O
 good O
 - O
@@ -103885,7 +103885,7 @@ to O
 | O
 his O
 attentions O
-; O
+  O
 but O
 he O
 rather O
@@ -103931,10 +103931,10 @@ he O
 | O
 saw O
 that O
-Marion B-ORG
+Marion B-PERSON
 must O
 be O
-; O
+  O
 for O
 a B-CARDINAL
 hundred I-CARDINAL
@@ -103998,7 +103998,7 @@ those O
 who O
 knew O
 her O
-; O
+  O
 for O
 she O
 seemed O
@@ -104014,7 +104014,7 @@ R O
 
 | O
 386 B-CARDINAL
-MODERN O
+MODERN B-ORG
 FLIRTATION B-PERSON
 . O
 |
@@ -104032,8 +104032,8 @@ praised O
 in O
 |
 | O
-a O
-thousand B-CARDINAL
+a B-CARDINAL
+thousand I-CARDINAL
 others O
 before O
 , O
@@ -104077,7 +104077,7 @@ more O
 than O
 he O
 felt O
-; O
+  O
 but O
 now O
 , O
@@ -104105,7 +104105,7 @@ extent O
 of O
 his O
 feelings O
-; O
+  O
 for O
 it O
 |
@@ -104121,7 +104121,7 @@ had O
 rendered O
 |
 | O
-Marion B-ORG
+Marion B-PERSON
 perfectly O
 known O
 , O
@@ -104230,7 +104230,7 @@ mile I-QUANTITY
 END O
 OF O
 VOLUME O
-FIRST B-ORDINAL
+FIRST O
 , O
 |
 
@@ -104244,18 +104244,18 @@ FIRST B-ORDINAL
     
 
 | O
-PR B-ORG
-Singular I-ORG
+PR O
+Singular O
 , O
 Catherine B-PERSON
 |
-| I-PERSON
+| O
 5452 B-CARDINAL
 Modern O
 flirtation O
 |
 | O
-S5M6 O
+S5M6 B-PRODUCT
 i O
 |
 
@@ -104279,10 +104279,10 @@ POCKET O
 |
 
 | O
-UNIVERSITY O
-OF O
-TORONTO O
-LIBRARY O
+UNIVERSITY B-ORG
+OF I-ORG
+TORONTO I-ORG
+LIBRARY B-GPE
 |
 
  

@@ -2,13 +2,13 @@
 
 | O
 1e O
-Gallica B-PER
+Gallica B-MISC
 |
 
-| O
-La O
-petite O
-Jeanne B-PER
+| I-MISC
+La I-MISC
+petite I-MISC
+Jeanne I-MISC
 ou O
 Le B-MISC
 devoir I-MISC
@@ -34,7 +34,7 @@ filles O
 
 | O
 ( O
-Nouv B-PER
+Nouv B-ORG
 . O
 [ O
 ... O
@@ -42,24 +42,24 @@ Nouv B-PER
 |
 
 | O
-Source B-ORG
-gallica.bnf.fr I-ORG
-/ I-ORG
-Bibliothèque I-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Source B-MISC
+gallica.bnf.fr I-MISC
+/ I-MISC
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| O
-11 O
-Gallica O
+| I-LOC
+11 I-LOC
+Gallica I-LOC
 |
 
  
 
-| O
-Carraud B-PER
+| I-LOC
+Carraud I-LOC
 , O
 Zulma B-PER
 . O
@@ -90,7 +90,7 @@ primaires O
 de O
 filles O
 ( O
-Nouv B-LOC
+Nouv B-ORG
 . O
 éd O
 . O
@@ -100,9 +100,9 @@ par O
 Mme B-PER
 Z. I-PER
 [ O
-Zulma B-PER
+Zulma O
 ] O
-Carraud B-PER
+Carraud B-ORG
 . O
 |
 | O
@@ -220,10 +220,10 @@ après O
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 » O
 ou O
 « O
@@ -329,16 +329,16 @@ etc. O
 |
 
 | O
-CLIQUER B-MISC
-ICI I-MISC
+CLIQUER O
+ICI O
 POUR O
-ACCÉDER B-ORG
-AUX O
-TARIFS B-MISC
-ET O
-À B-MISC
-LA I-MISC
-LICENCE I-MISC
+ACCÉDER O
+AUX B-MISC
+TARIFS I-MISC
+ET I-MISC
+À O
+LA O
+LICENCE B-MISC
 |
 
 | I-MISC
@@ -346,7 +346,7 @@ LICENCE I-MISC
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriété O
@@ -501,7 +501,7 @@ réutilisation O
 
 | O
 4/ O
-Gallica B-LOC
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -520,9 +520,9 @@ au O
 sens O
 des O
 articles O
-L341 B-MISC
-- I-MISC
-1 I-MISC
+L341 O
+- O
+1 O
 et O
 |
 | O
@@ -546,7 +546,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 régies O
 par O
@@ -654,7 +654,7 @@ obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 définition O
@@ -672,8 +672,8 @@ LA O
 |
 
 | O
-PETITE B-MISC
-JEANNE I-MISC
+PETITE O
+JEANNE B-MISC
 |
 
 | I-MISC
@@ -688,20 +688,20 @@ mnt O
 nante O
 questre O
 cr O
-CARTES B-MISC
-VE I-MISC
-NE I-MISC
+CARTES O
+VE O
+NE O
 |
 
 | O
-PREMIÈRE B-ORG
+PREMIÈRE O
 PARTIE O
 . O
 |
 | O
-ENFANCE O
-DE O
-JEANNE B-MISC
+ENFANCE B-PER
+DE I-PER
+JEANNE I-PER
 . O
 |
 
@@ -799,12 +799,12 @@ porte O
 . O
 |
 | O
-Quand O
-les O
-fleurs O
-de O
-cet O
-arbre O
+Quand B-MISC
+les I-MISC
+fleurs I-MISC
+de I-MISC
+cet I-MISC
+arbre I-MISC
 ne O
 gelaïient O
 pas O
@@ -823,7 +823,7 @@ la O
 mère O
 |
 | O
-Annette B-PER
+Annette B-MISC
 pour O
 qu' O
 elle O
@@ -832,7 +832,7 @@ sa O
 provision O
 d' O
 huile O
-l’ B-ORG
+l’ O
 an- O
 |
 | O
@@ -947,7 +947,7 @@ Elle O
 récoltait O
 assez O
 de O
-lé O
+lé B-MISC
 pour O
 se O
 nourrir O
@@ -1005,7 +1005,7 @@ servait O
 com- O
 |
 | O
-pléter O
+pléter B-LOC
 sa O
 provision O
 de O
@@ -1284,21 +1284,21 @@ Eau O
 passée O
 sur O
 la O
-râe O
+râe B-MISC
 ou O
 le O
-march B-LOC
-de I-LOC
-la I-LOC
-vendange I-LOC
+march O
+de O
+la O
+vendange O
 . O
 . O
 |
 
 | O
-ENFANCE B-ORG
+ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 4 O
 |
@@ -1409,7 +1409,7 @@ pour O
 la O
 Toussaint B-MISC
 et O
-l’ B-ORG
+l’ O
 autre O
 moitié O
 à O
@@ -1516,12 +1516,12 @@ Jeanne B-PER
 |
 
 | O
-Un O
-matin O
-, O
-la O
-mère O
-Annette B-PER
+Un B-MISC
+matin I-MISC
+, I-MISC
+la I-MISC
+mère I-MISC
+Annette I-MISC
 , O
 tricotant O
 devant O
@@ -1685,7 +1685,7 @@ femme O
 « O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 il O
 faut O
 qu' O
@@ -1804,9 +1804,9 @@ et O
 |
 
 | O
-ENFANCE B-ORG
+ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 5 O
 |
@@ -1893,7 +1893,7 @@ ne O
 | O
 6 O
 PREMIÈRE O
-PARTIR B-ORG
+PARTIR B-MISC
 , O
 |
 
@@ -1930,12 +1930,12 @@ la O
 mère O
 Annette B-PER
 . O
-Con- B-ORG
+Con- O
 |
-| I-ORG
-tez I-ORG
--moi I-ORG
-ça I-ORG
+| O
+tez O
+-moi O
+ça O
 . O
 » O
 |
@@ -2049,7 +2049,7 @@ il O
 a O
 bien O
 fallu O
-s’ B-PER
+s’ O
 endetter O
 . O
 |
@@ -2194,8 +2194,8 @@ de O
 sortir O
 pendant O
 tout O
-l’ B-ORG
-hiver I-ORG
+l’ O
+hiver O
 ? O
 » O
 |
@@ -2282,9 +2282,9 @@ action O
 |
 
 | O
-ENFANCE B-ORG
+ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 7 O
 |
@@ -2296,7 +2296,7 @@ Annette B-PER
 donne O
 asile O
 à O
-Catherine B-PER
+Catherine B-LOC
 . O
 |
 
@@ -2311,9 +2311,9 @@ donc O
 demanda O
 |
 | O
-In B-PER
-mère I-PER
-Annette I-PER
+In O
+mère O
+Annette B-PER
 . O
 |
 
@@ -2397,8 +2397,8 @@ quatre O
 | O
 que O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 m' O
 a O
 retirés O
@@ -2417,9 +2417,9 @@ monde O
 
 | O
 — O
-Grand O
-merci O
-! O
+Grand B-MISC
+merci I-MISC
+! I-MISC
 ma O
 brave O
 femme O
@@ -2619,15 +2619,15 @@ lui O
 | O
 saut O
 au O
-Cou B-LOC
+Cou B-MISC
 . O
 |||| O
 |
 
 | O
 « O
-Maman B-PER
-! O
+Maman B-MISC
+! I-MISC
 il O
 ne O
 faut O
@@ -2649,9 +2649,9 @@ PARTIE O
 |
 
 | O
-Puis O
-, O
-so O
+Puis B-MISC
+, I-MISC
+so I-MISC
 tournant O
 du O
 côté O
@@ -2694,7 +2694,7 @@ ses O
 genoux O
 et O
 l' O
-et- O
+et- B-LOC
 |
 | O
 brassa O
@@ -2707,7 +2707,7 @@ cœur O
 | O
 Catherine B-PER
 ot I-PER
-Johnny O
+Johnny I-PER
 trouvent O
 un O
 bracelet O
@@ -2788,7 +2788,7 @@ tissu O
 |
 | O
 de O
-Jeunno B-PER
+Jeunno B-MISC
 , O
 pour O
 qu' O
@@ -2860,7 +2860,7 @@ mère O
 
 | O
 « O
-Voyez B-MISC
+Voyez O
 donc O
 , O
 maman O
@@ -2887,8 +2887,8 @@ cou O
 
 | O
 — O
-Ma B-MISC
-fille I-MISC
+Ma O
+fille O
 , O
 ceci O
 est O
@@ -2931,13 +2931,13 @@ garder O
 | O
 — O
 Pourquoi O
-done O
+done B-PER
 , O
 maman O
 ? O
 Puisque O
 je O
-Lai B-MISC
+Lai B-PER
 |
 | O
 trouvé O
@@ -2994,16 +2994,16 @@ maman O
 si O
 personne O
 ne O
-l’ B-ORG
+l’ O
 a O
 perdu O
 ? O
 |
 
 | O
-ENFANCE B-ORG
+ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 g O
 |
@@ -3037,7 +3037,7 @@ champs O
 
 | O
 — O
-Ft O
+Ft B-LOC
 si O
 personne O
 ne O
@@ -3182,7 +3182,7 @@ utile O
 pour O
 |
 | O
-mottro O
+mottro B-ORG
 le O
 pain O
 qu' O
@@ -3325,7 +3325,7 @@ beaux O
 | O
 arbres O
 que O
-l’ B-LOC
+l’ O
 on O
 voit O
 d' O
@@ -3440,11 +3440,11 @@ journée O
 , O
 pour O
 avoir O
-La O
-force O
-d' O
-aller O
-samedi O
+La B-MISC
+force I-MISC
+d' I-MISC
+aller I-MISC
+samedi I-MISC
 dans O
 |
 | O
@@ -3472,8 +3472,8 @@ et O
 sa O
 fille O
 reportent O
-lo O
-bracelet O
+lo B-PER
+bracelet I-PER
 . O
 |
 
@@ -3618,9 +3618,9 @@ sous O
 
 | O
 « O
-Merci B-MISC
-, I-MISC
-mademoiselle I-MISC
+Merci O
+, O
+mademoiselle O
 , O
 dit O
 Catherine B-PER
@@ -3639,7 +3639,7 @@ dame O
 
 | O
 — O
-Ma B-PER
+Ma O
 pauvre O
 femme O
 , O
@@ -3700,7 +3700,7 @@ montra O
 le O
 bijou O
 , O
-qu’ B-PER
+qu’ O
 elle O
 avait O
 enveloppé O
@@ -3719,7 +3719,7 @@ blanc O
 « O
 Justement O
 ! O
-c’ B-MISC
+c’ O
 est O
 le O
 bracelet O
@@ -3755,7 +3755,7 @@ nous O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 en O
 |
@@ -3858,7 +3858,7 @@ main O
 et O
 la O
 fit O
-en- O
+en- B-LOC
 |
 | O
 trer O
@@ -3943,7 +3943,7 @@ demoiselle O
 qui O
 était O
 de O
-l’ B-LOC
+l’ O
 âge O
 de O
 Jeanne B-PER
@@ -4108,7 +4108,7 @@ donc O
 | O
 18 O
 PREMIÈRE B-MISC
-PARTIR O
+PARTIR I-MISC
 . O
 |
 
@@ -4173,7 +4173,7 @@ levé O
 les O
 cheveux O
 d' O
-Isaure B-LOC
+Isaure B-MISC
 . O
 |
 
@@ -4218,7 +4218,7 @@ l' O
 on O
 peut O
 Ôtre B-MISC
-houroux I-MISC
+houroux O
 ce O
 jour O
 -là O
@@ -4276,7 +4276,7 @@ alors O
 , O
 suivie O
 d' O
-Isaure B-LOC
+Isaure B-PER
 et O
 |
 | O
@@ -4342,7 +4342,7 @@ bracelet O
 — O
 Madame B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 Jeanne B-PER
 , O
@@ -4410,7 +4410,7 @@ Oh B-MISC
 ! I-MISC
 merci O
 , O
-madame O
+madame B-PER
 : O
 je O
 n' O
@@ -4480,7 +4480,7 @@ argent O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 13 O
 |
@@ -4489,10 +4489,10 @@ JEANNE B-MISC
 — O
 Que B-MISC
 Dieu I-MISC
-vous I-MISC
-bénisse I-MISC
+vous O
+bénisse O
 , O
-madame O
+madame B-PER
 , O
 pour O
 le O
@@ -4515,7 +4515,7 @@ dites O
 : O
 il O
 me O
-somblo O
+somblo B-PER
 que O
 je O
 ne O
@@ -4555,7 +4555,7 @@ C' O
 est O
 que O
 , O
-madame O
+madame B-PER
 , O
 j' O
 y O
@@ -4623,11 +4623,11 @@ centimes O
 — O
 Que B-MISC
 Dieu I-MISC
-vous I-MISC
-récompense I-MISC
+vous O
+récompense O
 , O
-madame B-PER
-! O
+madame B-MISC
+! I-MISC
 » O
 |
 
@@ -4680,9 +4680,9 @@ données O
 
 | O
 « O
-Prenez B-LOC
-- I-LOC
-les I-LOC
+Prenez O
+- O
+les O
 , O
 mère O
 Annette B-PER
@@ -4864,7 +4864,7 @@ l' O
 ha- O
 |
 | O
-hilla O
+hilla B-PER
 et O
 lui O
 lava O
@@ -5053,8 +5053,8 @@ rester O
 ; O
 Cathe- B-PER
 |
-| O
-rine O
+| I-PER
+rine I-PER
 partit O
 , O
 et O
@@ -5221,7 +5221,7 @@ manger O
 dehors O
 , O
 parce O
-qu’ B-PER
+qu’ O
 elles O
 |
 | O
@@ -5253,7 +5253,7 @@ bon O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 15 O
 |
@@ -5295,11 +5295,11 @@ rapporter O
 la O
 maison O
 , O
-La B-MISC
+La O
 |
-| I-MISC
-mère I-MISC
-Annette I-MISC
+| O
+mère O
+Annette B-PER
 lui O
 donna O
 des O
@@ -5451,7 +5451,7 @@ Le O
 lendemain O
 , O
 en O
-s’ B-LOC
+s’ O
 éveillant O
 , O
 la O
@@ -5480,8 +5480,8 @@ elle O
 se O
 leva O
 , O
-s’ B-PER
-habilla I-PER
+s’ O
+habilla O
 et O
 pris O
 la O
@@ -5534,7 +5534,7 @@ la O
 mère O
 |
 | O
-Annette B-PER
+Annette B-MISC
 . O
 |
 
@@ -5544,10 +5544,10 @@ Je O
 sais O
 Notre B-MISC
 Père I-MISC
-et O
-Je B-MISC
-vous I-MISC
-salue I-MISC
+et I-MISC
+Je I-MISC
+vous O
+salue O
 , O
 Marie B-PER
 . O
@@ -5555,12 +5555,12 @@ Marie B-PER
 
 | O
 — O
-Dis B-LOC
-- I-LOC
-les I-LOC
-donn I-LOC
-tout O
-haut O
+Dis B-MISC
+- I-MISC
+les I-MISC
+donn I-MISC
+tout I-MISC
+haut I-MISC
 . O
 » O
 |
@@ -5592,7 +5592,7 @@ encore O
 genoux O
 , O
 la.mère O
-Annette B-PER
+Annette B-MISC
 lui O
 demanda O
 : O
@@ -5600,10 +5600,10 @@ demanda O
 
 | O
 « O
-Que O
-dis O
-- O
-tu O
+Que B-MISC
+dis I-MISC
+- I-MISC
+tu I-MISC
 donc O
 encore O
 ? O
@@ -5614,8 +5614,8 @@ encore O
 Je O
 demande O
 au O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 d' O
 avoir O
 pitié O
@@ -5658,7 +5658,7 @@ Du- I-PER
 mont O
 après O
 . O
-Maman B-PER
+Maman O
 me O
 l' O
 a O
@@ -5724,7 +5724,7 @@ pour O
 l' O
 église O
 , O
-et- O
+et- B-LOC
 |
 | O
 portant O
@@ -5858,9 +5858,9 @@ dit O
 -il O
 ; O
 la O
-parole B-MISC
-de I-MISC
-Dieu I-MISC
+parole O
+de O
+Dieu B-MISC
 n' O
 est O
 pas O
@@ -5874,9 +5874,9 @@ vous O
 |
 
 | O
-Retour B-MISC
-de I-MISC
-Catherine I-MISC
+Retour B-PER
+de I-PER
+Catherine I-PER
 . O
 |
 
@@ -5960,15 +5960,15 @@ prit O
 | O
 par O
 le O
-lincou O
+lincou B-LOC
 pour O
-l’ B-LOC
+l’ O
 attacher O
 dans O
-l’ B-LOC
+l’ O
 étable O
 à O
-eôté O
+eôté B-PER
 de O
 |
 | O
@@ -5998,9 +5998,9 @@ et O
 |
 
 | O
-ENFANCE B-ORG
+ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 , O
 17 O
 |
@@ -6017,11 +6017,11 @@ avait O
 des O
 rideaux O
 de O
-tou O
+tou B-ORG
 |
-| O
-|||| O
-rayée O
+| I-ORG
+|||| I-ORG
+rayée I-ORG
 et O
 une O
 paillasse O
@@ -6048,7 +6048,7 @@ amitié O
      
 
 | O
-To B-PER
+To O
 se O
 |
 | O
@@ -6066,7 +6066,7 @@ en O
 | O
 it O
 " O
-ER B-LOC
+ER B-ORG
 , O
 |
 | O
@@ -6074,39 +6074,39 @@ SAME B-LOC
 “ O
 + O
 ce O
-ER B-LOC
+ER B-ORG
 , O
 |
 | O
-D O
-NE B-ORG
-ES I-ORG
+D B-MISC
+NE I-MISC
+ES I-MISC
 il O
-EX O
+EX B-MISC
 |
 | O
 de O
-RE B-ORG
-AT I-ORG
-ES I-ORG
-- O
+RE B-MISC
+AT I-MISC
+ES I-MISC
+- I-MISC
 |
-| O
+| I-MISC
 ni O
 Tu B-PER
 ÈS I-PER
 |
 | O
-ÈS O
+ÈS B-ORG
 |
 
    
 
-| O
-EEE B-ORG
+| I-ORG
+EEE I-ORG
 SRE O
-EEE B-ORG
-POUCES I-ORG
+EEE O
+POUCES O
 |
 | O
 a O
@@ -6222,7 +6222,7 @@ la O
 mère O
 |
 | O
-Annette B-PER
+Annette B-MISC
 . O
 J' O
 ai O
@@ -6252,7 +6252,7 @@ frais O
 j' O
 ai O
 aussi O
-cueilli B-PER
+cueilli O
 une O
 salade O
 dans O
@@ -6263,7 +6263,7 @@ jardin O
 , O
 et O
 nous O
-l’ B-LOC
+l’ O
 assoisonnerons O
 avec O
 l' O
@@ -6344,7 +6344,7 @@ broc O
 
 | O
 « O
-Voyez B-MISC
+Voyez O
 -vous O
 , O
 maître O
@@ -6474,7 +6474,7 @@ moi O
 je O
 |
 | O
-n’ B-PER
+n’ O
 en O
 bois O
 guère O
@@ -6515,8 +6515,8 @@ qui O
 étaient O
 excellentes O
 . O
-Maître O
-Guillaume B-PER
+Maître B-PER
+Guillaume I-PER
 , O
 |
 | O
@@ -6528,7 +6528,7 @@ aux O
 bords O
 , O
 se O
-Jova B-PER
+Jova B-LOC
 , O
 |
 | O
@@ -6567,7 +6567,7 @@ monde O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 19 O
 |
@@ -6756,7 +6756,7 @@ pas O
 | O
 mendier O
 . O
-Prenez B-PER
+Prenez O
 garde O
 ! O
 vous O
@@ -6773,8 +6773,8 @@ néante O
 | O
 — O
 Monsieur B-PER
-le O
-caré O
+le I-PER
+caré I-PER
 , O
 il O
 y O
@@ -6920,7 +6920,7 @@ de O
 faim O
 ! O
 Mais O
-soyez B-MISC
+soyez O
 tran- O
 |
 | O
@@ -6951,7 +6951,7 @@ le O
 | O
 80 O
 PREMIÈRE B-MISC
-PARTIR B-ORG
+PARTIR I-MISC
 . O
 |
 
@@ -7000,9 +7000,9 @@ dans O
 quelque O
 temps O
 et O
-qu’ B-MISC
-on I-MISC
-pourra I-MISC
+qu’ O
+on O
+pourra O
 faire O
 |
 | O
@@ -7129,7 +7129,7 @@ champs O
 La O
 petite O
 Jeanne B-PER
-aila O
+aila I-PER
 toute O
 seule O
 aux O
@@ -7254,7 +7254,7 @@ En O
 passant O
 auprès O
 de O
-l’ B-LOC
+l’ O
 abreuvoir O
 , O
 elle O
@@ -7313,7 +7313,7 @@ bien O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 ai O
 |
@@ -7342,7 +7342,7 @@ hardie O
 
 | O
 « O
-Allons B-LOC
+Allons B-MISC
 , O
 lui O
 dit O
@@ -7546,11 +7546,11 @@ maman O
 — O
 Ma B-MISC
 fille I-MISC
-, O
-tu O
-iras O
-toute O
-seule O
+, I-MISC
+tu I-MISC
+iras I-MISC
+toute I-MISC
+seule I-MISC
 , O
 car O
 il O
@@ -7602,21 +7602,21 @@ nue O
 
 | O
 — O
-Maman B-PER
-, O
-jamais O
-je O
-n' O
-oserai O
-entrer O
-toute O
-seule O
+Maman B-MISC
+, I-MISC
+jamais I-MISC
+je I-MISC
+n' I-MISC
+oserai I-MISC
+entrer I-MISC
+toute I-MISC
+seule I-MISC
 |
-| O
-dans O
-cette O
-belle O
-maison O
+| I-MISC
+dans I-MISC
+cette I-MISC
+belle I-MISC
+maison I-MISC
 . O
 |
 
@@ -7643,8 +7643,8 @@ dois O
 pas O
 craindre O
 de O
-Lui B-MISC
-parler I-MISC
+Lui O
+parler O
 . O
 |
 | O
@@ -7663,9 +7663,9 @@ pour- O
 | O
 rai B-ORG
 . O
-Trouveras B-PER
-- I-PER
-tu I-PER
+Trouveras O
+- O
+tu O
 bien O
 la O
 maison O
@@ -7729,13 +7729,13 @@ rencontrer O
 Eller- B-ORG
 |
 
-| I-ORG
-riva I-ORG
+| O
+riva O
 devant O
 la O
-gri' B-ORG
-and I-ORG
-jardin I-ORG
+gri' O
+and O
+jardin O
 , O
 et O
 vit O
@@ -7746,9 +7746,9 @@ berceau O
 | O
 de O
 chèvrefeuille O
-M.'et B-MISC
-Mme I-MISC
-Dumont I-MISC
+M.'et B-PER
+Mme I-PER
+Dumont I-PER
 qui O
 détenaient O
 |
@@ -7759,7 +7759,7 @@ enfants O
 . O
 Ce O
 fut O
-Isaure B-LOC
+Isaure B-MISC
 , O
 la O
 petite O
@@ -7772,7 +7772,7 @@ blonds O
 , O
 qui O
 vit O
-Jennno B-LOC
+Jennno B-PER
 la O
 première O
 : O
@@ -7780,7 +7780,7 @@ première O
 
 | O
 « O
-Maman B-PER
+Maman B-MISC
 , O
 voici O
 la O
@@ -7852,7 +7852,7 @@ centimes O
 |
 | O
 dit O
-Isaure B-LOC
+Isaure B-PER
 , O
 qui O
 n' O
@@ -7928,7 +7928,7 @@ tarte O
 , O
 mais O
 elle O
-n’ B-PER
+n’ O
 y O
 toucha O
 pas O
@@ -7937,8 +7937,8 @@ pas O
 
 | O
 « O
-Tu B-PER
-n’ I-PER
+Tu O
+n’ O
 a O
 donc O
 pas O
@@ -7962,11 +7962,11 @@ dé O
 . O
 |
 | O
-jeuné B-PER
+jeuné O
 |
 
-| I-PER
-— I-PER
+| O
+— O
 Tu O
 n' O
 aimes O
@@ -8077,7 +8077,7 @@ tête O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 , O
 . O
 83 O
@@ -8098,9 +8098,9 @@ le O
 goû- O
 |
 | O
-ter O
-de O
-maman O
+ter B-LOC
+de I-LOC
+maman I-LOC
 et O
 de O
 la O
@@ -8111,8 +8111,8 @@ Annette B-PER
 
 | O
 — O
-Mon O
-enfant O
+Mon B-MISC
+enfant I-MISC
 , O
 il O
 n‘y O
@@ -8134,7 +8134,7 @@ bien O
 de O
 partager O
 ce O
-quetu O
+quetu B-PER
 as O
 de O
 |
@@ -8246,7 +8246,7 @@ au- O
 | O
 près O
 du O
-mülin B-LOC
+mülin O
 , O
 elle O
 vit O
@@ -8355,7 +8355,7 @@ la O
 |
 | O
 pauvre O
-bôte O
+bôte B-PER
 , O
 et O
 on O
@@ -8410,7 +8410,7 @@ sant O
 
 | O
 « O
-Tiens B-LOC
+Tiens B-MISC
 , O
 ma O
 petite O
@@ -8466,8 +8466,8 @@ ta- O
 
 | O
 la O
-PREMIÈRE B-ORG
-PARTIE O
+PREMIÈRE B-MISC
+PARTIE I-MISC
 , O
 |
 
@@ -8579,7 +8579,7 @@ avait O
 en- O
 |
 | O
-veloppé O
+veloppé B-PER
 dans O
 une O
 fouille O
@@ -8635,14 +8635,14 @@ Catherine B-PER
 
 | O
 — O
-Pos O
+Pos B-PER
 encore O
 , O
 répondit O
 la O
 mère O
 de O
-Nanette O
+Nanette B-PER
 ; O
 |
 | O
@@ -8727,7 +8727,7 @@ quand O
 vous O
 |
 | O
-travaillez B-LOC
+travaillez O
 pour O
 moi O
 , O
@@ -8747,7 +8747,7 @@ votre O
 loyer O
 . O
 Je O
-n’ B-PER
+n’ O
 entends O
 |
 
@@ -8772,14 +8772,14 @@ Quelques O
 jours O
 après O
 , O
-Isaure B-LOC
+Isaure B-MISC
 dit O
 : O
 |
 | O
 --— O
 « O
-Maman B-PER
+Maman O
 , O
 si O
 nous O
@@ -8815,7 +8815,7 @@ Dumont I-PER
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 95 O
 |
@@ -8895,7 +8895,7 @@ malade O
 ? O
 dit O
 vivement O
-Isaure B-LOC
+Isaure B-PER
 |
 | O
 en O
@@ -8972,12 +8972,12 @@ qu' O
 ils O
 sèchent O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-— O
-Où B-MISC
+| I-MISC
+— I-MISC
+Où O
 est O
 donc O
 la O
@@ -9090,7 +9090,7 @@ crainte O
 |
 
 | O
-Isaure B-LOC
+Isaure B-PER
 cause O
 avec O
 la O
@@ -9106,7 +9106,7 @@ sa O
 rère O
 parlait O
 , O
-Isaure B-LOC
+Isaure B-PER
 était O
 mon- O
 |
@@ -9190,7 +9190,7 @@ il O
 faut O
 bien O
 que O
-maman B-PER
+maman O
 nettoie O
 mes O
 habits O
@@ -9247,7 +9247,7 @@ pain O
 — O
 Oh B-MISC
 ! I-MISC
-non I-MISC
+non O
 , O
 mademoiselle O
 : O
@@ -9290,7 +9290,7 @@ portes O
 
 | O
 — O
-Te O
+Te B-PER
 donne O
 -t O
 -on O
@@ -9304,7 +9304,7 @@ demandes O
 
 | O
 — O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 , O
 je O
 ne O
@@ -9442,11 +9442,11 @@ prête O
 
 | O
 — O
-Vas B-PER
-- I-PER
-tu I-PER
-t' O
-amuser O
+Vas B-MISC
+- I-MISC
+tu I-MISC
+t' I-MISC
+amuser I-MISC
 quelquefois O
 sur O
 la O
@@ -9483,8 +9483,8 @@ moi O
 
 | O
 — O
-Tiens B-LOC
-! O
+Tiens B-MISC
+! I-MISC
 pourquoi O
 ? O
 |
@@ -9504,8 +9504,8 @@ vie O
 | O
 — O
 Sais B-LOC
-- I-LOC
-tu I-LOC
+- O
+tu O
 que O
 c' O
 est O
@@ -9549,12 +9549,12 @@ enfant O
 | O
 ENFANCE O
 DE O
-JEANNE B-LOC
-7 I-LOC
+JEANNE O
+7 O
 |
 
-| I-LOC
-Isauro I-LOC
+| O
+Isauro O
 vent O
 donner O
 une O
@@ -9578,7 +9578,7 @@ Dieu I-MISC
 maman O
 , O
 dit O
-Isaure B-LOC
+Isaure B-PER
 en O
 retournant O
 |
@@ -9696,7 +9696,7 @@ quand O
 elle O
 voudrait O
 les O
-défrotter O
+défrotter B-LOC
 . O
 |
 
@@ -9741,10 +9741,10 @@ enfant O
 
 | O
 — O
-Oh B-PER
-sil O
-oh O
-sil O
+Oh B-MISC
+sil I-MISC
+oh I-MISC
+sil I-MISC
 dit O
 vivement O
 la O
@@ -9800,7 +9800,7 @@ doublée O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 dit O
 Sophie B-PER
@@ -9808,7 +9808,7 @@ Sophie B-PER
 la O
 sœur O
 d’ O
-Isaure B-LOC
+Isaure B-PER
 , O
 qui O
 avait O
@@ -9857,14 +9857,14 @@ Auguste B-PER
 
 | O
 — O
-Mon O
-frère O
-, O
-tu O
-as O
-une O
-cravate O
-noire O
+Mon B-MISC
+frère I-MISC
+, I-MISC
+tu I-MISC
+as I-MISC
+une I-MISC
+cravate I-MISC
+noire I-MISC
 qui O
 est O
 |
@@ -9953,7 +9953,7 @@ furent O
 arrivés O
 à O
 la O
-maïson O
+maïson B-LOC
 , O
 les O
 en- O
@@ -9986,8 +9986,8 @@ très O
 bien O
 , O
 dit O
-M. O
-Dumont B-PER
+M. B-PER
+Dumont I-PER
 ; O
 mais O
 |
@@ -10059,14 +10059,14 @@ manque O
 |
 
 | O
-On B-MISC
-s’ I-MISC
-occupa I-MISC
-le I-MISC
-jour I-MISC
-même I-MISC
-d' I-MISC
-acheter I-MISC
+On O
+s’ O
+occupa O
+le O
+jour O
+même O
+d' O
+acheter O
 et O
 de O
 cou- O
@@ -10111,11 +10111,11 @@ per- O
 |
 | O
 ‘ O
-dre O
+dre B-ORG
 de O
 temps O
 . O
-Isaure B-LOC
+Isaure B-PER
 fit O
 les O
 ourlets O
@@ -10156,7 +10156,7 @@ _ O
 Mesdemoiselles B-LOC
 , O
 vous O
-croyez B-ORG
+croyez O
 avoir O
 pensé O
 à O
@@ -10224,7 +10224,7 @@ miens O
 |
 
 | O
-Isaure B-LOC
+Isaure B-PER
 habille O
 la O
 petite O
@@ -10236,7 +10236,7 @@ Jeanne B-PER
 Le O
 vendredi O
 , O
-Isaure B-LOC
+Isaure B-MISC
 s' O
 éveilla O
 plus O
@@ -10287,9 +10287,9 @@ grille O
 |
 
 | O
-ENFANCE B-ORG
+ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 29 O
 |
@@ -10342,11 +10342,11 @@ devant O
 d' O
 elle O
 et O
-La O
-prit O
-par O
-la O
-main O
+La B-MISC
+prit I-MISC
+par I-MISC
+la I-MISC
+main I-MISC
 ; O
 |
 | O
@@ -10379,16 +10379,16 @@ y O
 furent O
 entrées O
 , O
-Sophie B-PER
-et O
-la O
-bonne O
-désha- O
+Sophie B-MISC
+et I-MISC
+la I-MISC
+bonne I-MISC
+désha- I-MISC
 |
-| O
-billèrent O
-l' O
-enfant O
+| I-MISC
+billèrent I-MISC
+l' I-MISC
+enfant I-MISC
 et O
 lui O
 mirent O
@@ -10494,7 +10494,7 @@ que O
 la O
 pauvre O
 petite O
-n’ B-PER
+n’ O
 en O
 porte O
 pas O
@@ -10509,7 +10509,7 @@ Oui B-MISC
 oui O
 ! O
 dit O
-Isaure B-LOC
+Isaure B-MISC
 , O
 je O
 vais O
@@ -10558,7 +10558,7 @@ chambre O
 
 | O
 — O
-Certainement B-PER
+Certainement O
 , O
 mon O
 enfant O
@@ -10599,7 +10599,7 @@ tout O
 son O
 cœur O
 . O
-Isaure B-LOC
+Isaure B-MISC
 la O
 ramena O
 sous O
@@ -10711,14 +10711,14 @@ travaillaient O
 la O
 |
 | O
-rue O
-de O
-la O
-maison O
+rue B-LOC
+de I-LOC
+la I-LOC
+maison I-LOC
 |
 
-| O
-« O
+| I-LOC
+« I-LOC
 Regardez B-LOC
 donc O
 , O
@@ -10852,10 +10852,10 @@ cria O
 
 | O
 « O
-Maman B-PER
-! O
+Maman B-MISC
+! I-MISC
 mère O
-Annette B-PER
+Annette B-MISC
 ! O
 |
 
@@ -10863,12 +10863,12 @@ Annette B-PER
 — O
 Oh B-MISC
 ! I-MISC
-mon I-MISC
-Dieu I-MISC
-! I-MISC
-ma I-MISC
-fille I-MISC
-! I-MISC
+mon O
+Dieu B-MISC
+! O
+ma O
+fille O
+! O
 où O
 as O
 - O
@@ -11039,7 +11039,7 @@ bien O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 31 O
 |
@@ -11331,13 +11331,13 @@ marchandise O
 
 | O
 « O
-Payez-les-moi O
+Payez-les-moi B-LOC
 ce O
 que O
 vous O
 voudrez O
 ; O
-c’ B-MISC
+c’ O
 est O
 pour O
 |
@@ -11399,8 +11399,8 @@ rap- O
 
 | O
 82 O
-PREMIÈRE O
-PARTIE B-ORG
+PREMIÈRE B-MISC
+PARTIE I-MISC
 . O
 |
 
@@ -11529,7 +11529,7 @@ aussi O
 avancée O
 , O
 dit O
-Isaure B-LOC
+Isaure B-PER
 ; O
 |
 | O
@@ -11573,9 +11573,9 @@ elle O
 
 | O
 — O
-Que B-MISC
-je I-MISC
-voudrais I-MISC
+Que O
+je O
+voudrais O
 donc O
 bien O
 en O
@@ -11591,7 +11591,7 @@ Jeanne B-PER
 
 | O
 — O
-Veux O
+Veux B-LOC
 - O
 tu O
 que O
@@ -11649,7 +11649,7 @@ heures O
 — O
 Oui O
 , O
-madame O
+madame B-PER
 : O
 ces O
 jours O
@@ -11738,8 +11738,8 @@ soupe O
 
 | O
 — O
-La B-PER
-mère I-PER
+La O
+mère O
 Annette B-PER
 nous O
 laisse O
@@ -11761,7 +11761,7 @@ bonne O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 , O
 35 O
 |
@@ -11780,7 +11780,7 @@ apprendre O
 tricoter O
 , O
 et O
-Isaure B-LOC
+Isaure B-PER
 lui O
 commença O
 une O
@@ -11827,7 +11827,7 @@ tabou- O
 | O
 ret O
 ; O
-Isaure B-LOC
+Isaure B-MISC
 , O
 à O
 genoux O
@@ -11919,9 +11919,9 @@ Dumont I-PER
 | O
 ‘ O
 — O
-Oui B-PER
+Oui O
 , O
-madame O
+madame B-PER
 , O
 je O
 me O
@@ -11946,7 +11946,7 @@ pour O
 ses O
 poisons O
 . O
-Maman B-PER
+Maman O
 se O
 sert O
 d' O
@@ -11982,9 +11982,9 @@ maman O
 
 | O
 — O
-Oui B-PER
+Oui O
 , O
-madame O
+madame B-PER
 ; O
 tous O
 les O
@@ -11996,8 +11996,8 @@ peigne O
 ses O
 cheveux O
 dans O
-l’ B-MISC
-étable I-MISC
+l’ O
+étable O
 , O
 et O
 les O
@@ -12038,12 +12038,12 @@ pieds O
 
 | O
 — O
-Fais B-LOC
-- I-LOC
-tu I-LOC
-habituellement I-LOC
-la I-LOC
-prière I-LOC
+Fais O
+- O
+tu O
+habituellement O
+la O
+prière O
 , O
 petite O
 |
@@ -12056,7 +12056,7 @@ Jeanne B-PER
 — O
 Oui O
 , O
-madame O
+madame B-PER
 , O
 je O
 la O
@@ -12174,8 +12174,8 @@ rien O
 
 | O
 — O
-Tu B-PER
-seras I-PER
+Tu O
+seras O
 donc O
 bien O
 contente O
@@ -12193,7 +12193,7 @@ Oh B-MISC
 ! I-MISC
 oui O
 , O
-madame O
+madame B-PER
 , O
 je O
 vous O
@@ -12206,9 +12206,9 @@ assure O
 — O
 Et O
 que O
-feras B-LOC
-- I-LOC
-tu I-LOC
+feras O
+- O
+tu O
 de O
 l' O
 argent O
@@ -12276,7 +12276,7 @@ la O
 mère O
 |
 | O
-Annette B-PER
+Annette B-MISC
 . O
 |
 
@@ -12285,7 +12285,7 @@ Annette B-PER
 Madame B-PER
 , O
 elle O
-n’ B-PER
+n’ O
 est O
 pas O
 riche O
@@ -12471,7 +12471,7 @@ Jeanne B-PER
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 36 O
 |
@@ -12480,7 +12480,7 @@ JEANNE B-MISC
 Catherine B-PER
 garde O
 le O
-Hit B-LOC
+Hit B-ORG
 . O
 |
 
@@ -12587,12 +12587,12 @@ jours O
 
 | O
 — O
-Maman B-PER
-, O
-allons O
-la O
-voir O
-! O
+Maman B-MISC
+, I-MISC
+allons I-MISC
+la I-MISC
+voir I-MISC
+! I-MISC
 J' O
 aime O
 beaucoup O
@@ -12639,7 +12639,7 @@ Et O
 en O
 disant O
 cela O
-Isaure B-LOC
+Isaure B-PER
 courut O
 appeler O
 sa O
@@ -12680,7 +12680,7 @@ de O
 la O
 maison O
 . O
-Isaure B-LOC
+Isaure B-PER
 courut O
 à O
 elle O
@@ -12713,12 +12713,12 @@ chagrin O
 
 | O
 — O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 , O
 c' O
 est O
 que O
-maman B-PER
+maman O
 est O
 bien O
 |
@@ -12805,35 +12805,35 @@ nous O
 avertir O
 . O
 . O
-- B-ORG
-. I-ORG
+- O
+. O
 . O
 |
 
  
 
 | O
-a6 B-MISC
-PREMIÈRE I-MISC
+a6 O
+PREMIÈRE O
 PARTIE O
 , O
 |
 
 | O
 — O
-Merci B-PER
-, O
-ma O
-chère O
-dame O
+Merci B-MISC
+, I-MISC
+ma I-MISC
+chère I-MISC
+dame I-MISC
 ; O
 mais O
 vous O
 Ôtes B-MISC
-si I-MISC
+si O
 |
-| I-MISC
-généreuse I-MISC
+| O
+généreuse O
 pour O
 elle O
 , O
@@ -12941,7 +12941,7 @@ monde O
 
 | O
 — O
-Line B-PER
+Line B-LOC
 faut O
 pas O
 perdre O
@@ -12974,9 +12974,9 @@ ressource O
 
 | O
 — O
-Non B-PER
+Non O
 , O
-madame O
+madame B-PER
 , O
 il O
 n' O
@@ -13007,12 +13007,12 @@ longtemps O
 
 | O
 — O
-Avez B-LOC
+Avez O
 -vous O
 vu O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 ? O
 |
 
@@ -13020,7 +13020,7 @@ curé O
 — O
 Oui O
 , O
-madame O
+madame B-PER
 , O
 il O
 vient O
@@ -13202,15 +13202,15 @@ manquer O
 de O
 rien O
 . O
-ee O
+ee B-PER
 |
 
  
 
-| O
-ENFANCE B-ORG
-DE O
-JEANNE B-MISC
+| I-PER
+ENFANCE I-PER
+DE I-PER
+JEANNE I-PER
 . O
 a O
 |
@@ -13344,8 +13344,8 @@ est O
 | O
 allée O
 au O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 ; O
 elle O
 est O
@@ -13404,14 +13404,14 @@ enfant O
 
 | O
 — O
-Je B-MISC
-vais I-MISC
-la I-MISC
-garder I-MISC
+Je O
+vais O
+la O
+garder O
 avec O
 moi O
 , O
-madame O
+madame B-PER
 ; O
 comme O
 |
@@ -13480,7 +13480,7 @@ Oh B-MISC
 ! I-MISC
 non O
 , O
-madame O
+madame B-PER
 . O
 Je O
 ne O
@@ -13568,7 +13568,7 @@ me O
 | O
 8 O
 PREMIÈRE O
-PARTIE B-ORG
+PARTIE O
 . O
 |
 
@@ -13870,7 +13870,7 @@ et O
 si O
 travailleuse O
 , O
-s’ B-PER
+s’ O
 attachèrent O
 à O
 elle O
@@ -13943,7 +13943,7 @@ D O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 , O
 a9 O
 |
@@ -14144,9 +14144,9 @@ caté- O
 chisme O
 ; O
 et O
-M. B-MISC
-le I-MISC
-suré I-MISC
+M. B-PER
+le I-PER
+suré I-PER
 les O
 citait O
 toutes O
@@ -14220,9 +14220,9 @@ en O
 
 | O
 Quand O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 admit O
 les O
 enfants O
@@ -14236,9 +14236,9 @@ communion O
 , O
 il O
 mit O
-Jeanne B-LOC
+Jeanne B-PER
 et O
-Isaure B-LOC
+Isaure B-PER
 à O
 la O
 |
@@ -14264,7 +14264,7 @@ plus O
 sages O
 : O
 elles O
-n’ B-PER
+n’ O
 en O
 furent O
 |
@@ -14310,8 +14310,8 @@ même O
 
 | O
 40 O
-PREMIÈRE O
-PARTIE O
+PREMIÈRE B-MISC
+PARTIE I-MISC
 , O
 |
 
@@ -14338,7 +14338,7 @@ bourg O
 Le O
 matin O
 , O
-So- B-LOC
+So- B-ORG
 |
 | O
 chie O
@@ -14413,7 +14413,7 @@ longue O
 | O
 Jeanne B-PER
 et O
-Isaure B-LOC
+Isaure B-PER
 montrèrent O
 tant O
 de O
@@ -14497,7 +14497,7 @@ dans O
 un O
 coin O
 de O
-l’ B-LOC
+l’ O
 église O
 , O
 |
@@ -14584,7 +14584,7 @@ elle O
 savait O
 . O
 Si O
-l’ B-LOC
+l’ O
 on O
 faisait O
 la O
@@ -14827,9 +14827,9 @@ souvent O
 chez O
 |
 | O
-M. B-PER
-le I-PER
-curé I-PER
+M. O
+le O
+curé O
 , O
 qui O
 lui O
@@ -14934,7 +14934,7 @@ que O
 Mme B-PER
 Du- I-PER
 |
-| I-PER
+| O
 mont O
 lui O
 disait O
@@ -15097,7 +15097,7 @@ ha- O
 | O
 bits O
 , O
-madame O
+madame B-PER
 , O
 puisque O
 c' O
@@ -15234,9 +15234,9 @@ argent O
 
 | O
 « O
-Ma B-MISC
-chère I-MISC
-mère I-MISC
+Ma O
+chère O
+mère O
 , O
 disait O
 -elle O
@@ -15380,9 +15380,9 @@ disait O
 
 | O
 « O
-Ma B-MISC
-fille I-MISC
-si I-MISC
+Ma O
+fille O
+si O
 tu O
 es O
 jamais O
@@ -15445,9 +15445,9 @@ désagrément O
  
 
 | O
-ENFANCE O
-DE O
-JEANNE B-MISC
+ENFANCE B-PER
+DE I-PER
+JEANNE I-PER
 . O
 43 O
 |
@@ -15500,7 +15500,7 @@ fiance O
 | O
 « O
 La O
-croyez B-MISC
+croyez O
 -vous O
 en O
 danger O
@@ -15668,9 +15668,9 @@ Oh B-MISC
 ! I-MISC
 oui O
 , O
-monsieur O
-le O
-caré O
+monsieur B-PER
+le I-PER
+caré I-PER
 , O
 il O
 faut O
@@ -15788,7 +15788,7 @@ malade O
 de O
 peur O
 de O
-l’ B-LOC
+l’ O
 effrayer O
 ; O
 mais O
@@ -15861,13 +15861,13 @@ pas O
 , O
 lui O
 disait O
-Isaure B-LOC
+Isaure B-PER
 . O
 |
 
 | O
 — O
-Sele B-MISC
+Sele B-PER
 sais O
 bien O
 , O
@@ -16219,9 +16219,9 @@ dépenses O
  
 
 | O
-ENFANCE B-MISC
-DE O
-JEANNE B-MISC
+ENFANCE B-PER
+DE I-PER
+JEANNE I-PER
 . O
 4 O
 |
@@ -16247,7 +16247,7 @@ ble O
 
 | O
 — O
-Hé B-PER
+Hé O
 bien O
 donc O
 , O
@@ -16323,10 +16323,10 @@ que O
 je O
 laisserai O
 , O
-entends B-PER
-- I-PER
-tu I-PER
-! I-PER
+entends O
+- O
+tu O
+! O
 |
 
 | O
@@ -16389,7 +16389,7 @@ que O
 vous O
 |
 | O
-engraissiez O
+engraissiez B-PER
 un O
 peu O
 pour O
@@ -16409,11 +16409,11 @@ voisines O
 
 | O
 — O
-Eh B-MISC
-bien I-MISC
-, I-MISC
-ma I-MISC
-fille I-MISC
+Eh O
+bien O
+, O
+ma O
+fille O
 , O
 j' O
 entends O
@@ -16439,7 +16439,7 @@ fais O
 
 | O
 — O
-Merci B-PER
+Merci B-MISC
 , O
 mère O
 Annette B-PER
@@ -16470,9 +16470,9 @@ moi O
 |
 
 | O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 vient O
 voir O
 tous O
@@ -16503,7 +16503,7 @@ mère O
 Annette B-PER
 ; O
 comme O
-c’ B-MISC
+c’ O
 était O
 une O
 |
@@ -16589,7 +16589,7 @@ pour O
 | O
 46 O
 PREMIERE O
-PARTie B-MISC
+PARTie B-ORG
 , O
 . O
 |
@@ -16667,7 +16667,7 @@ air O
 à O
 |
 | O
-l’ B-LOC
+l’ O
 autre O
 , O
 qu' O
@@ -16773,8 +16773,8 @@ mois O
 de O
 décembre O
 , O
-le B-LOC
-soleil I-LOC
+le O
+soleil O
 ayant O
 . O
 |
@@ -16826,7 +16826,7 @@ contentes O
 de O
 se O
 trouver O
-de- O
+de- B-LOC
 |
 | O
 hors O
@@ -16877,7 +16877,7 @@ elle O
 trouva O
 endormie O
 et O
-en- O
+en- B-LOC
 |
 | O
 core O
@@ -16889,10 +16889,10 @@ coutume O
 . O
 Elle O
 ralluma O
-Île B-ORG
+Île B-LOC
 |
-| O
-feu O
+| I-LOC
+feu I-LOC
 tout O
 doucement O
 pour O
@@ -16970,7 +16970,7 @@ que O
 | O
 ENFANCE O
 DE O
-JEANNE B-MISC
+JEANNE O
 . O
 47 O
 |
@@ -17211,10 +17211,10 @@ rais O
 été O
 bien O
 fâchéet O
-Si' B-MISC
-la I-MISC
-pauvre I-MISC
-femme I-MISC
+Si' B-PER
+la O
+pauvre O
+femme O
 s' O
 était O
 |
@@ -17236,7 +17236,7 @@ plus O
 tôt O
 . O
 Elle O
-n’ B-PER
+n’ O
 a O
 pas O
 eu O
@@ -17307,8 +17307,8 @@ tir O
 
 | O
 — O
-Je B-MISC
-vais I-MISC
+Je O
+vais O
 lui O
 envoyer O
 un O
@@ -17418,18 +17418,18 @@ prières O
 en O
 pleurant O
 , O
-Elle O
-fit O
-la O
-veillée O
-du O
-Corps B-ORG
+Elle B-MISC
+fit I-MISC
+la I-MISC
+veillée I-MISC
+du I-MISC
+Corps B-MISC
 |
 
-| I-ORG
-ENFANCE I-ORG
-DE I-ORG
-JEANNE I-ORG
+| I-MISC
+ENFANCE I-MISC
+DE I-MISC
+JEANNE I-MISC
 . O
 49 O
 |
@@ -17527,7 +17527,7 @@ toujours O
 elle O
 présentait O
 le O
-buis B-LOC
+buis O
 à O
 tous O
 ceux O
@@ -17669,7 +17669,7 @@ l' O
 on O
 partit O
 pour O
-l’ B-LOC
+l’ O
 église O
 . O
 La O
@@ -17682,7 +17682,7 @@ aurait O
 pas O
 pu O
 suivre O
-l’ B-LOC
+l’ O
 enterrement O
 en O
 les O
@@ -17690,7 +17690,7 @@ voisines O
 |
 | O
 ne O
-l’ B-LOC
+l’ O
 eussent O
 soutenue O
 . O
@@ -17716,7 +17716,7 @@ où O
 le O
 maire O
 et O
-Gerbaud B-LOC
+Gerbaud B-PER
 étaient O
 déjà O
 rendus O
@@ -17738,8 +17738,8 @@ rejoindre O
 
 | O
 « O
-Maître O
-Gerbaud B-PER
+Maître B-PER
+Gerbaud I-PER
 , O
 dit O
 -il O
@@ -17783,7 +17783,7 @@ draps O
 tout O
 neufs O
 dans O
-l’ B-LOC
+l’ O
 ar- O
 |
 
@@ -17823,8 +17823,8 @@ nom O
 
 | O
 — O
-La B-PER
-mère I-PER
+La O
+mère O
 Annette B-PER
 avait O
 l' O
@@ -17861,7 +17861,7 @@ comme O
 |
 | O
 elle O
-n’ B-PER
+n’ O
 a O
 pas O
 laissé O
@@ -18008,8 +18008,8 @@ compte O
 bien O
 sûrement O
 . O
-Maître O
-Gerbaud B-PER
+Maître B-PER
+Gerbaud I-PER
 , O
 vous O
 |
@@ -18098,7 +18098,7 @@ certaine- O
 | O
 ment O
 pas O
-qu’ B-PER
+qu’ O
 elle O
 aût O
 dupe O
@@ -18180,9 +18180,9 @@ se O
  
 
 | O
-ENFANCE O
-DE O
-JEANNE B-MISC
+ENFANCE B-PER
+DE I-PER
+JEANNE I-PER
 . O
 ‘ O
 $ O
@@ -18288,7 +18288,7 @@ la O
 mère O
 |
 | O
-Annette B-PER
+Annette B-MISC
 . O
 |
 
@@ -18400,8 +18400,8 @@ pu O
 gagner O
 une O
 si O
-grosse O
-somme O
+grosse B-LOC
+somme I-LOC
 . O
 |
 
@@ -18425,7 +18425,7 @@ argent O
 , O
 et O
 je O
-n’ B-PER
+n’ O
 ai O
 qu' O
 une O
@@ -18703,7 +18703,7 @@ bien O
 
 | O
 « O
-Écoute B-PER
+Écoute O
 , O
 Jeanne B-PER
 , O
@@ -18820,7 +18820,7 @@ vache O
 |
 | O
 à O
-l’ B-LOC
+l’ O
 étable O
 . O
 Tout O
@@ -18853,24 +18853,24 @@ Jeanne B-PER
 |
 
 | O
-M. O
-lo O
+M. B-PER
+lo I-PER
 curé O
 trouve O
 une O
 place O
 à O
-Joanne B-LOC
+Joanne B-PER
 . O
 |
 
 | O
 a O
-Qu' O
-allez O
--vous O
-faire O
-maintenant O
+Qu' B-MISC
+allez I-MISC
+-vous I-MISC
+faire I-MISC
+maintenant I-MISC
 , O
 Jeanne B-PER
 ? O
@@ -18924,8 +18924,8 @@ malade O
 
 | O
 ENFANCE O
-DK B-ORG
-JEANNE I-ORG
+DK O
+JEANNE O
 , O
 58 O
 |
@@ -18961,7 +18961,7 @@ veillera O
 sur O
 vous O
 . O
-Dieu O
+Dieu B-MISC
 ne O
 veut O
 pas O
@@ -19086,7 +19086,7 @@ semaines O
 : O
 si O
 elle O
-n’ B-PER
+n’ O
 a O
 personne O
 |
@@ -19328,7 +19328,7 @@ Jeanne B-PER
 au O
 |
 | O
-Grand-Bail B-PER
+Grand-Bail B-LOC
 , O
 comme O
 il O
@@ -19365,8 +19365,8 @@ jusqu' O
 la O
 Saint- B-LOC
 |
-| O
-Jean B-PER
+| I-LOC
+Jean I-LOC
 . O
 |
 
@@ -19414,7 +19414,7 @@ contredirai O
 pas O
 , O
 monsieur O
-Île O
+Île B-PER
 curé O
 , O
 |
@@ -19425,9 +19425,9 @@ douze O
 écus O
 . O
 Quand O
-viendra B-LOC
-- I-LOC
-tu I-LOC
+viendra O
+- O
+tu O
 , O
 petite O
 |
@@ -19655,9 +19655,9 @@ le O
  
 
 | O
-ENFANCE B-ORG
-DE O
-JEANNE B-MISC
+ENFANCE B-MISC
+DE I-MISC
+JEANNE I-MISC
 . O
 55 O
 |
@@ -19751,7 +19751,7 @@ la O
 mère O
 |
 | O
-Annette B-PER
+Annette B-MISC
 . O
 Elle O
 aperçut O
@@ -19840,7 +19840,7 @@ remerciés O
 ; O
 embrassa O
 aussi O
-sés B-MISC
+sés O
 voisines O
 , O
 qui O
@@ -19908,7 +19908,7 @@ fort O
 
 | O
 « O
-Est O
+Est B-LOC
 -ce O
 que O
 tu O
@@ -19933,10 +19933,10 @@ charretier O
 — O
 Mon B-MISC
 Dieu I-MISC
-non O
-! O
+non I-MISC
+! I-MISC
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 là O
@@ -19961,15 +19961,15 @@ Annette B-PER
 |
 | O
 qui O
-m'’aimait B-LOC
+m'’aimait B-MISC
 tant O
 . O
 |
 
 | O
 — O
-Apaisetoi B-LOC
-done O
+Apaisetoi B-MISC
+done I-MISC
 , O
 va O
 ! O
@@ -19982,7 +19982,7 @@ une O
 bonne O
 femme O
 qui O
-t’ B-LOC
+t’ O
 aimera O
 bien O
 aussi O
@@ -19991,9 +19991,9 @@ aussi O
 |
 
 | O
-Quand O
-la O
-charrette O
+Quand B-MISC
+la I-MISC
+charrette I-MISC
 arriva O
 au O
 Grand-Bail B-LOC
@@ -20022,7 +20022,7 @@ charretier O
 , O
 |
 | O
-qu’ B-PER
+qu’ O
 on O
 appelait O
 grand O
@@ -20049,7 +20049,7 @@ monter O
 | O
 56 O
 PREMIERE O
-PARTIE B-LOC
+PARTIE O
 . O
 — O
 ENFANCE B-PER
@@ -20107,30 +20107,30 @@ femme O
 |
 
 | O
-ee O
-mes O
-ee O
+ee B-ORG
+mes I-ORG
+ee I-ORG
 annees O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 57 O
 |
 
 | O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 , O
 |
 
 | O
 JEANNE B-MISC
-EN O
-SERVICE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 |
 
@@ -20157,7 +20157,7 @@ Jeanne B-PER
 en O
 entrant O
 , O
-j’ B-LOC
+j’ O
 ai O
 deux O
 |
@@ -20235,8 +20235,8 @@ sur O
 la O
 table O
 . O
-Maître O
-Tixier O
+Maître B-PER
+Tixier I-PER
 le O
 vide O
 et O
@@ -20280,7 +20280,7 @@ fille O
 mais O
 |
 | O
-d’ B-LOC
+d’ O
 où O
 te O
 vient O
@@ -20358,7 +20358,7 @@ m O
 |
 | O
 trouvé O
-queïenfouis O
+queïenfouis B-LOC
 en O
 faire O
 avec O
@@ -20507,10 +20507,10 @@ faire O
 l' O
 ouvrage O
 des O
-au- O
+au- B-MISC
 |
-| O
-tres O
+| I-MISC
+tres I-MISC
 . O
 Est O
 -ce O
@@ -20590,7 +20590,7 @@ filles O
 , O
 et O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 |
@@ -20602,7 +20602,7 @@ ai O
 mis O
 avec O
 toi O
-Solange B-PER
+Solange B-MISC
 , O
 parce O
 que O
@@ -20646,13 +20646,13 @@ colère O
 |
 
 | O
-Grand B-PER
-Louis I-PER
-1e O
-laboureur O
+Grand O
+Louis B-PER
+1e I-PER
+laboureur I-PER
 , O
 qui O
-n’ B-PER
+n’ O
 était O
 pas O
 au- O
@@ -20728,7 +20728,7 @@ lui O
 rendaient O
 bien O
 . O
-IL O
+IL B-LOC
 risquait O
 ‘ O
 aussi O
@@ -20748,13 +20748,13 @@ jamais O
 |
 | O
 © O
-Un B-MISC
-jour I-MISC
-qu' I-MISC
-il I-MISC
-faisait I-MISC
-beau I-MISC
-soleil I-MISC
+Un O
+jour O
+qu' O
+il O
+faisait O
+beau O
+soleil O
 , O
 grand O
 Louis B-PER
@@ -20762,8 +20762,8 @@ Louis B-PER
 
 | I-PER
 JEANNE I-PER
-EN O
-SERVICE B-MISC
+EN I-PER
+SERVICE I-PER
 . O
 59 O
 |
@@ -20779,9 +20779,9 @@ l' O
 assemblée O
 ‘ O
 de O
-Meuret B-PER
-- I-PER
-sur- I-PER
+Meuret B-LOC
+- I-LOC
+sur- I-LOC
 |
 | O
 |||| O
@@ -20927,7 +20927,7 @@ colère O
 , O
 qu' O
 on O
-l’ B-LOC
+l’ O
 entendait O
 jurer O
 |
@@ -20976,7 +20976,7 @@ pour O
 lui O
 , O
 dit O
-Solange B-PER
+Solange B-MISC
 ; O
 il O
 est O
@@ -21007,9 +21007,9 @@ chose O
 | O
 ] O
 — O
-Sais B-LOC
-- I-LOC
-tu I-LOC
+Sais B-MISC
+- I-MISC
+tu I-MISC
 que O
 c' O
 est O
@@ -21023,7 +21023,7 @@ là O
 , O
 |
 | O
-Solange B-PER
+Solange B-MISC
 ! O
 dit O
 Jeanne B-PER
@@ -21071,7 +21071,7 @@ est O
 malheureux O
 pour O
 lui O
-s’ B-PER
+s’ O
 il O
 ne O
 peut O
@@ -21151,8 +21151,8 @@ de O
 J B-LOC
 loin O
 . O
-En B-LOC
-Bretagne I-LOC
+En O
+Bretagne B-LOC
 , O
 cette O
 fête O
@@ -21193,12 +21193,12 @@ que O
 saint B-PER
 Loup I-PER
 . O
-ee O
-: O
+ee B-MISC
+: I-MISC
 |
 
-| O
-TE O
+| I-MISC
+TE I-MISC
 — O
 — O
 |
@@ -21206,7 +21206,7 @@ TE O
 | O
 60 O
 SECONDE B-MISC
-PARTIE O
+PARTIE I-MISC
 . O
 |
 
@@ -21248,7 +21248,7 @@ tous O
 
 | O
 « O
-Allons B-LOC
+Allons B-MISC
 , O
 allons O
 , O
@@ -21467,10 +21467,10 @@ autres O
 
 | O
 — O
-Que O
-voulez O
--vous O
-done O
+Que B-MISC
+voulez I-MISC
+-vous I-MISC
+done I-MISC
 , O
 maîtresse O
 ! O
@@ -21522,13 +21522,13 @@ les O
 bat O
 jamais O
 ! O
-Y O
-t O
--il O
-des O
-bêtes O
-plus O
-belles O
+Y B-PER
+t I-PER
+-il I-PER
+des I-PER
+bêtes I-PER
+plus I-PER
+belles I-PER
 et O
 mieux O
 |
@@ -21563,8 +21563,8 @@ vaut O
 , O
 |
 | O
-Lui O
-! O
+Lui B-MISC
+! I-MISC
 aussi O
 il O
 ne O
@@ -21630,9 +21630,9 @@ _ O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 61 O
 |
@@ -21713,7 +21713,7 @@ mettre O
 le O
 couvert O
 ; O
-de- O
+de- B-LOC
 |
 | O
 mandel O
@@ -21731,7 +21731,7 @@ matin O
 |
 
 | O
-Solange B-PER
+Solange B-MISC
 murmure O
 , O
 mais O
@@ -21784,7 +21784,7 @@ changera O
 donc O
 pas O
 ! O
-Regarde B-PER
+Regarde O
 un O
 peu O
 : O
@@ -21907,9 +21907,9 @@ Jeanne B-PER
 | O
 L' B-MISC
 as I-MISC
-- I-MISC
-tu I-MISC
-vue I-MISC
+- O
+tu O
+vue O
 quelquefois O
 perdre O
 son O
@@ -21954,7 +21954,7 @@ va O
 bien O
 . O
 11 O
-n’ B-PER
+n’ O
 y O
 a O
 que O
@@ -22000,7 +22000,7 @@ autre O
 | O
 jour O
 , O
-hein B-MISC
+hein B-PER
 ? O
 ce O
 n' O
@@ -22029,7 +22029,7 @@ table O
 
 | O
 62 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -22101,8 +22101,8 @@ vigne O
 |
 
 | O
-Un O
-dimanche O
+Un B-MISC
+dimanche I-MISC
 que O
 Jeanne B-PER
 servait O
@@ -22131,7 +22131,7 @@ et O
 petits O
 , O
 mangeaient O
-en- O
+en- B-LOC
 |
 | O
 serbie B-LOC
@@ -22144,8 +22144,8 @@ dit O
 
 | O
 « O
-Petite B-LOC
-Jeanne I-LOC
+Petite B-PER
+Jeanne I-PER
 ; O
 l' O
 argent O
@@ -22157,8 +22157,8 @@ garder O
 . O
 |
 | O
-Voilà O
-Gerbaud B-PER
+Voilà B-PER
+Gerbaud I-PER
 qui O
 vend O
 le O
@@ -22231,7 +22231,7 @@ pleurait O
 toutes O
 les O
 fois O
-qu’ B-PER
+qu’ O
 elle O
 enten- O
 |
@@ -22322,7 +22322,7 @@ fumier O
 ma O
 vigne O
 on O
-n’ B-PER
+n’ O
 en O
 pourra O
 pas O
@@ -22330,7 +22330,7 @@ pas O
 | O
 laisser O
 ün O
-brin B-PER
+brin O
 devant O
 la O
 tienne O
@@ -22372,7 +22372,7 @@ vigne O
 tout O
 et O
 : O
-ça O
+ça B-MISC
 ne O
 fait O
 pas O
@@ -22380,9 +22380,9 @@ de O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 , O
 63 O
 |
@@ -22413,8 +22413,8 @@ soleil O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 vous O
 êtes O
@@ -22453,7 +22453,7 @@ jamais O
 
 | O
 — O
-Te O
+Te B-LOC
 renvoyer O
 , O
 ma O
@@ -22501,7 +22501,7 @@ mourir O
 Eh O
 bien O
 , O
-c’ B-MISC
+c’ O
 est O
 entendu O
 , O
@@ -22637,17 +22637,17 @@ contrat O
 à O
 lamin O
 .. O
-Es B-MISC
-- I-MISC
-tu I-MISC
-contente I-MISC
+Es O
+- O
+tu O
+contente O
 ? O
 |
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 ce O
 que O
@@ -22669,15 +22669,15 @@ Jeanne B-PER
 Jeanne B-PER
 reproche O
 à O
-Solange B-PER
+Solange B-MISC
 sa O
 négligence O
 . O
 |
 
 | O
-Un O
-matin O
+Un B-MISC
+matin I-MISC
 , O
 en O
 se O
@@ -22686,7 +22686,7 @@ levant O
 Jeanne B-PER
 dit O
 à O
-Solange B-PER
+Solange B-MISC
 , O
 |
 | O
@@ -23237,9 +23237,9 @@ de O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-ORG
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 65 O
 |
@@ -23278,7 +23278,7 @@ conseils O
 |
 
 | O
-Solange B-PER
+Solange B-MISC
 devint O
 plus O
 endurant O
@@ -23332,7 +23332,7 @@ aperçoit O
 du O
 changement O
 de O
-Solange B-PER
+Solange B-MISC
 . O
 |
 
@@ -23385,7 +23385,7 @@ il O
 faut O
 dire O
 à O
-So- B-LOC
+So- B-ORG
 |
 | O
 lange O
@@ -23418,11 +23418,11 @@ aider O
 
 | O
 — O
-Ah B-PER
-bien O
-oui O
-! O
-Solange B-PER
+Ah B-MISC
+bien I-MISC
+oui I-MISC
+! I-MISC
+Solange B-MISC
 va O
 grogne O
 comme O
@@ -23488,7 +23488,7 @@ la O
 | O
 lessive O
 . O
-Solange B-PER
+Solange B-MISC
 fit O
 sans O
 répliquer O
@@ -23519,7 +23519,7 @@ ainsi O
 le O
 caractère O
 de O
-Solange B-PER
+Solange B-MISC
 ? O
 elle O
 est O
@@ -23540,8 +23540,8 @@ bénédiction O
 du O
 |
 | O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 est O
 entrée O
 chez O
@@ -23583,7 +23583,7 @@ mouton O
 
 | O
 66 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -23597,12 +23597,12 @@ avait O
 la O
 lessive O
 , O
-Solange B-PER
+Solange B-MISC
 et O
-José- O
+José- B-ORG
 |
-| O
-phine O
+| I-ORG
+phine I-ORG
 , O
 les O
 deux O
@@ -23640,11 +23640,11 @@ que O
 |
 | O
 le O
-col O
-des O
-chemises O
-d' O
-homme O
+col B-ORG
+des I-ORG
+chemises I-ORG
+d' I-ORG
+homme I-ORG
 ; O
 puis O
 elle O
@@ -23756,12 +23756,12 @@ linge O
 
 | O
 — O
-Tu B-PER
-crois I-PER
+Tu O
+crois O
 donc O
 qu' O
 elle O
-n’ B-PER
+n’ O
 a O
 rien O
 fait O
@@ -23792,7 +23792,7 @@ seul O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 continua O
 Marguerite B-PER
@@ -23861,7 +23861,7 @@ bien O
 |
 | O
 il O
-s’ B-PER
+s’ O
 en O
 va O
 vite O
@@ -23904,7 +23904,7 @@ bien O
 vrai O
 , O
 dit O
-Solange B-PER
+Solange B-MISC
 , O
 tu O
 es O
@@ -23936,7 +23936,7 @@ Jeanne B-PER
 qui O
 |
 | O
-n’ B-PER
+n’ O
 achète O
 jamais O
 rien O
@@ -23951,7 +23951,7 @@ ajustée O
 | O
 On O
 dirait O
-qu’ B-LOC
+qu’ O
 elle O
 a O
 toujours O
@@ -23990,9 +23990,9 @@ moi O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-ORG
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 67 O
 |
@@ -24226,7 +24226,7 @@ sèche O
 Jeanne B-PER
 apprit O
 à O
-So- B-LOC
+So- B-ORG
 |
 | O
 lange O
@@ -24308,9 +24308,9 @@ fatigue O
 ran- O
 |
 | O
-ger B-PER
-le I-PER
-linge I-PER
+ger O
+le O
+linge O
 ; O
 elle O
 veilla O
@@ -24392,8 +24392,8 @@ mauvais O
 
 | O
 « O
-Voyez B-MISC
-doné O
+Voyez O
+doné B-PER
 , O
 maîtresse O
 , O
@@ -24411,7 +24411,7 @@ déchirées O
 Si O
 vous O
 le O
-vouliez B-ORG
+vouliez O
 , O
 |
 | O
@@ -24438,7 +24438,7 @@ pièces O
 
 | O
 — O
-Fais B-LOC
+Fais O
 , O
 petite O
 Jeanne B-PER
@@ -24515,8 +24515,8 @@ linge O
 |
 
 | O
-Grand B-PER
-Louis I-PER
+Grand O
+Louis B-PER
 veut O
 payer O
 Jeanne B-PER
@@ -24558,7 +24558,7 @@ pour O
 les O
 porter O
 sur O
-s0n B-MISC
+s0n B-ORG
 |
 | O
 lit O
@@ -24579,7 +24579,7 @@ dou- O
 tant O
 bien O
 que O
-e’ B-LOC
+e’ O
 était O
 Jeanne B-PER
 qui O
@@ -24622,7 +24622,7 @@ ligne O
 et O
 , O
 pendant O
-qu’ B-PER
+qu’ O
 elle O
 le O
 posait O
@@ -24647,7 +24647,7 @@ elle O
 « O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 que O
 vous O
 m' O
@@ -24733,9 +24733,9 @@ rien O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-ORG
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 69 O
 |
@@ -24767,7 +24767,7 @@ chemises O
 
 | O
 — O
-Te O
+Te B-LOC
 l' O
 a O
 -t O
@@ -24809,9 +24809,9 @@ fait O
 
 | O
 — O
-Et B-PER
-ma I-PER
-blouse I-PER
+Et O
+ma O
+blouse O
 , O
 et O
 mon O
@@ -25036,7 +25036,7 @@ retira O
 sa O
 main O
 et O
-s’ B-PER
+s’ O
 en O
 retourna O
 à O
@@ -25050,8 +25050,8 @@ son O
 |
 
 | O
-Grand B-PER
-Louis I-PER
+Grand O
+Louis B-PER
 travaille O
 à O
 la O
@@ -25080,8 +25080,8 @@ soir O
 
 | O
 « O
-Mes B-MISC
-enfants I-MISC
+Mes O
+enfants O
 , O
 il O
 faut O
@@ -25103,7 +25103,7 @@ les O
 pio- O
 |
 | O
-cher B-LOC
+cher O
 . O
 » O
 , O
@@ -25118,12 +25118,12 @@ ils O
 furent O
 dans O
 les O
-Hautes- B-ORG
+Hautes- B-LOC
 |
 
 | O
 70 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -25160,7 +25160,7 @@ maître O
 , O
 et O
 il O
-n’ B-PER
+n’ O
 y O
 épargna O
 pas O
@@ -25203,11 +25203,11 @@ Louis B-PER
 
 | O
 « O
-Ho B-MISC
-! I-MISC
+Ho B-LOC
+! I-LOC
 ho O
 ! O
-commet B-PER
+commet O
 y O
 vas O
 ! O
@@ -25250,7 +25250,7 @@ pas O
 peur O
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 un O
@@ -25274,9 +25274,9 @@ bien O
 
 | O
 Jeanne B-PER
-remercia I-PER
-grand I-PER
-Louis I-PER
+remercia O
+grand O
+Louis B-PER
 par O
 un O
 regard O
@@ -25307,8 +25307,8 @@ Grand-Bail B-LOC
 |
 
 | O
-Un O
-dimanche O
+Un B-MISC
+dimanche I-MISC
 , O
 pendant O
 les O
@@ -25357,9 +25357,9 @@ livres O
 
 | O
 « O
-Achetez B-LOC
--moi O
-done O
+Achetez B-MISC
+-moi I-MISC
+done I-MISC
 quelque O
 chose O
 , O
@@ -25389,9 +25389,9 @@ voyons O
 , O
 ma O
 jolie O
-brune B-PER
+brune O
 , O
-voulez B-LOC
+voulez O
 -vous O
 des O
 |
@@ -25441,8 +25441,8 @@ lire O
 |
 
 | O
-Le B-MISC
-marchand I-MISC
+Le O
+marchand O
 en O
 présente O
 un O
@@ -25457,7 +25457,7 @@ convint O
 , O
 et O
 elle O
-l’ B-LOC
+l’ O
 acheta O
 . O
 Pendant O
@@ -25507,7 +25507,7 @@ revenir O
 | O
 JEANNE O
 EN O
-SERVICE B-LOC
+SERVICE O
 . O
 71 O
 |
@@ -25591,7 +25591,7 @@ chose O
 |
 
 | O
-I1 B-MISC
+I1 B-PER
 ne O
 l' O
 entendit O
@@ -25606,7 +25606,7 @@ maïs O
 il O
 |
 | O
-s’ B-PER
+s’ O
 embarrasse O
 le O
 pied O
@@ -25659,7 +25659,7 @@ dangereux- O
 |
 | O
 sement O
-qu’ B-LOC
+qu’ O
 on O
 le O
 crut O
@@ -25723,8 +25723,8 @@ Jeanne B-PER
 envoie O
 chercher O
 M. B-PER
-le O
-curé O
+le I-PER
+curé I-PER
 : O
 |
 
@@ -25736,10 +25736,10 @@ Louis B-PER
 dit O
 Jeanne B-PER
 , O
-eourez O
+eourez B-PER
 vite O
 chez O
-M. B-PER
+M. O
 le O
 |
 | O
@@ -25830,17 +25830,17 @@ panser O
 . O
 |
 | O
-Tenez B-LOC
+Tenez B-PER
 , O
 voilà O
 qu' O
 il O
-n’ B-PER
+n’ O
 est O
 déjà O
 plus O
 si O
-lâle B-LOC
+lâle O
 ; O
 il O
 faut O
@@ -25887,7 +25887,7 @@ demandait O
 
 | O
 72 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -25905,7 +25905,7 @@ petit O
 mar- O
 |
 | O
-chand B-LOC
+chand O
 ouvrait O
 les O
 yeux O
@@ -26020,9 +26020,9 @@ Maître B-PER
 Tixier I-PER
 , O
 dit O
-M. O
-le O
-caré O
+M. B-PER
+le I-PER
+caré I-PER
 , O
 il O
 faut O
@@ -26132,15 +26132,15 @@ suis O
 de O
 Paris B-LOC
 , O
-monsieur O
+monsieur B-PER
 . O
 |
 
 | O
 — O
-Dites O
--moi O
-done O
+Dites B-LOC
+-moi I-LOC
+done I-LOC
 comment O
 vous O
 avez O
@@ -26152,7 +26152,7 @@ tomber O
 ; O
 car O
 rien O
-n’ B-PER
+n’ O
 embarrassait O
 la O
 porte O
@@ -26276,13 +26276,13 @@ sujet O
 | O
 JEANNE O
 EN O
-SERVICE B-MISC
+SERVICE O
 . O
 73 O
 |
 
 | O
-Lo B-LOC
+Lo B-PER
 colporteur O
 ne O
 sait O
@@ -26476,19 +26476,19 @@ cela O
 
 | O
 — O
-Mon O
-petit O
-ami O
-, O
-je O
-vais O
-prier O
-tout O
-haut O
-pour O
+Mon B-MISC
+petit I-MISC
+ami I-MISC
+, I-MISC
+je I-MISC
+vais I-MISC
+prier I-MISC
+tout I-MISC
+haut I-MISC
+pour I-MISC
 |
-| O
-vous O
+| I-MISC
+vous I-MISC
 . O
 » O
 |
@@ -26518,7 +26518,7 @@ malade O
 en O
 fut O
 tout O
-de- O
+de- B-LOC
 |
 | O
 mé O
@@ -26529,9 +26529,9 @@ prière O
 fut O
 finie O
 , O
-M. B-MISC
-le I-MISC
-suré I-MISC
+M. B-PER
+le I-PER
+suré I-PER
 lui O
 dit O
 : O
@@ -26560,7 +26560,7 @@ livres O
 — O
 Oui O
 , O
-monsieur O
+monsieur B-PER
 , O
 j O
 ’ O
@@ -26640,7 +26640,7 @@ achèterai O
 
 | O
 7ù O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 , O
 |
@@ -26674,7 +26674,7 @@ t O
 -il O
 , O
 ne O
-l’ B-LOC
+l’ O
 ouvrez O
 |
 | O
@@ -26690,7 +26690,7 @@ prie O
 | O
 — O
 Pourquoi O
-done O
+done B-PER
 , O
 mon O
 garçon O
@@ -26723,7 +26723,7 @@ davantage O
 
 | O
 « O
-Allons B-LOC
+Allons B-MISC
 , O
 donnez O
 -moi O
@@ -26734,7 +26734,7 @@ clef O
 |
 
 | O
-Bt B-LOC
+Bt B-ORG
 . O
 lo O
 curé O
@@ -26757,14 +26757,14 @@ colporteur O
 | O
 Le O
 colporteur O
-n’ B-MISC
+n’ O
 osa O
 pas O
 refuser O
 sa O
 clef O
 à O
-M B-PER
+M B-LOC
 , O
 le O
 |
@@ -26864,7 +26864,7 @@ mauvais O
 , O
 et O
 que O
-l’ B-LOC
+l’ O
 on O
 met O
 en O
@@ -26900,9 +26900,9 @@ est O
 fait O
 revenir O
 , O
-M. B-MISC
-le I-MISC
-suré I-MISC
+M. B-PER
+le I-PER
+suré I-PER
 lui O
 dit O
 : O
@@ -26944,7 +26944,7 @@ on O
 m' O
 avait O
 dit O
-qu’ B-PER
+qu’ O
 on O
 y O
 gagnait O
@@ -26993,11 +26993,11 @@ a O
 -on O
 dit O
 la O
-vé O
+vé B-ORG
 : O
 ité O
 ? O
-Avez B-LOC
+Avez O
 -vous O
 |
 | O
@@ -27016,7 +27016,7 @@ livres O
 | O
 JEANNE O
 EN O
-SERVICE B-MISC
+SERVICE O
 . O
 2 O
 |
@@ -27061,12 +27061,12 @@ rien O
 |
 
 | O
-Te O
+Te B-MISC
 |
 
-| O
-‘ O
-is O
+| I-MISC
+‘ I-MISC
+is I-MISC
 |
 
    
@@ -27081,8 +27081,8 @@ is O
  
  
 
-| O
-NP O
+| I-MISC
+NP I-MISC
 = O
 |
 
@@ -27102,7 +27102,7 @@ il O
  
 
 | O
-CUTTER B-ORG
+CUTTER O
 |
 
  
@@ -27157,7 +27157,7 @@ vêpres O
 
 | O
 76 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -27185,7 +27185,7 @@ eux O
 
 | O
 — O
-Voyez B-MISC
+Voyez O
 un O
 peu O
 ! O
@@ -27344,7 +27344,7 @@ car O
 , O
 si O
 maître O
-Tixier B-LOC
+Tixier B-PER
 trai- O
 |
 | O
@@ -27425,7 +27425,7 @@ ne O
 dormait O
 jamais O
 que O
-d’ B-PER
+d’ O
 un O
 œil O
 , O
@@ -27435,7 +27435,7 @@ tant O
 il O
 craignait O
 que O
-l’ B-LOC
+l’ O
 on O
 ne O
 devinât O
@@ -27509,7 +27509,7 @@ demanda O
 |
 | O
 — O
-Non B-PER
+Non O
 , O
 monsieur O
 ; O
@@ -27539,10 +27539,10 @@ braves O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
-77 O
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
+77 I-MISC
 |
 
 | O
@@ -27557,7 +27557,7 @@ plus O
 de O
 honte O
 du O
-mé- B-PER
+mé- O
 |
 | O
 tier O
@@ -27817,7 +27817,7 @@ on O
 n' O
 y O
 est O
-en- O
+en- B-LOC
 |
 | O
 tré O
@@ -27834,7 +27834,7 @@ terrible O
 |
 
 | O
-M. B-PER
+M. O
 le O
 curé O
 brüle O
@@ -27849,9 +27849,9 @@ colporteur O
 L' O
 après-midi O
 , O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 tira O
 tous O
 les O
@@ -27931,9 +27931,9 @@ brûler O
 ses O
 livres O
 ; O
-M. B-MISC
-le I-MISC
-suré I-MISC
+M. B-PER
+le I-PER
+suré I-PER
 lui O
 dit O
 : O
@@ -27941,7 +27941,7 @@ dit O
 
 | O
 78 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -28026,11 +28026,11 @@ curé O
 
 | O
 — O
-Soyez B-LOC
-tranquille O
-, O
-mon O
-enfant O
+Soyez B-MISC
+tranquille I-MISC
+, I-MISC
+mon I-MISC
+enfant I-MISC
 ; O
 si O
 je O
@@ -28055,8 +28055,8 @@ d' O
 argent O
 pour O
 compléter O
-la O
-somme O
+la B-LOC
+somme I-LOC
 . O
 » O
 |
@@ -28106,12 +28106,12 @@ monde O
 
 | O
 « O
-Que B-MISC
-le I-MISC
-bon I-MISC
-Dieu I-MISC
-vous I-MISC
-bénisse I-MISC
+Que O
+le O
+bon O
+Dieu O
+vous O
+bénisse O
 , O
 dit O
 -il O
@@ -28159,9 +28159,9 @@ feu O
 de O
 joie O
 , O
-M. O
-le O
-suré O
+M. B-PER
+le I-PER
+suré I-PER
 leur O
 dit O
 : O
@@ -28169,7 +28169,7 @@ dit O
 
 | O
 « O
-Voyez B-MISC
+Voyez O
 -vous O
 , O
 mes O
@@ -28218,7 +28218,7 @@ pareilles O
 ; O
 et O
 pourtant O
-c’ B-MISC
+c’ O
 est O
 là O
 |
@@ -28231,9 +28231,9 @@ avoir O
 |
 
 | O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 va O
 quêter O
 avec O
@@ -28311,9 +28311,9 @@ la O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 79 O
 |
@@ -28332,7 +28332,7 @@ et O
 |
 | O
 midi O
-M. B-PER
+M. O
 le O
 euré O
 vint O
@@ -28398,7 +28398,7 @@ argent O
 
 | O
 — O
-Apprends B-LOC
+Apprends B-PER
 , O
 jeune O
 homme O
@@ -28455,7 +28455,7 @@ Les O
 trois O
 filles O
 de O
-Tixier B-LOC
+Tixier B-PER
 donnèrent O
 chacune O
 une O
@@ -28487,7 +28487,7 @@ franc O
 « O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 que O
 vous O
 êtes O
@@ -28577,7 +28577,7 @@ donner O
 que O
 dix O
 . O
-Aidez B-MISC
+Aidez B-LOC
 -moi O
 , O
 mes O
@@ -28719,7 +28719,7 @@ vin O
 
 | O
 80 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -28778,10 +28778,10 @@ retour O
 au O
 Grand-Bail B-LOC
 , O
-M. O
-le O
-curé O
-vida O
+M. B-PER
+le I-PER
+curé I-PER
+vida I-PER
 la O
 |
 | O
@@ -29004,7 +29004,7 @@ désintéressement O
 ; O
 mais O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 moi O
@@ -29012,7 +29012,7 @@ qui O
 don- O
 |
 | O
-nerai O
+nerai B-ORG
 cette O
 petite O
 somme O
@@ -29056,7 +29056,7 @@ son O
 pain O
 ; O
 cela O
-l’ B-LOC
+l’ O
 aidera O
 à O
 payer O
@@ -29067,8 +29067,8 @@ loyer O
 | O
 _ O
 — O
-Ma B-MISC
-foi I-MISC
+Ma O
+foi O
 , O
 monsieur O
 le O
@@ -29082,9 +29082,9 @@ Tixier B-PER
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 8 O
 t O
@@ -29302,7 +29302,7 @@ assister O
 
 | O
 — O
-Pas B-LOC
+Pas O
 encore O
 , O
 monsieur O
@@ -29322,7 +29322,7 @@ cette O
 resse- O
 |
 | O
-RÀ O
+RÀ B-LOC
 . O
 On O
 est O
@@ -29357,8 +29357,8 @@ cela O
 
 | O
 — O
-Mon O
-ami O
+Mon B-MISC
+ami I-MISC
 , O
 dit O
 M. B-PER
@@ -29387,7 +29387,7 @@ cette O
 bonne O
 résolution O
 . O
-Venez B-LOC
+Venez O
 passer O
 le O
 reste O
@@ -29463,14 +29463,14 @@ bien O
 
 | O
 82 O
-SÉCONDE B-ORG
-PARTIE O
+SÉCONDE B-MISC
+PARTIE I-MISC
 , O
 |
 
 | O
 — O
-Reste B-PER
+Reste O
 donc O
 ici O
 , O
@@ -29497,7 +29497,7 @@ gens O
 , O
 |
 | O
-c’ B-MISC
+c’ O
 est O
 la O
 bénédiction O
@@ -29510,9 +29510,9 @@ maison O
 | O
 — O
 Puisque O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 veut O
 bien O
 me O
@@ -29539,7 +29539,7 @@ tractions O
 . O
 Ca B-LOC
 ne O
-m’ B-PER
+m’ O
 empêche O
 pas O
 , O
@@ -29577,7 +29577,7 @@ communis O
 | O
 à O
 la O
-grand’messe B-PER
+grand’messe O
 , O
 ainsi O
 que O
@@ -29592,7 +29592,7 @@ entre O
 autres O
 Jeanne B-PER
 et O
-Solange B-PER
+Solange B-MISC
 . O
 Le O
 jeune O
@@ -29657,10 +29657,10 @@ il O
 . O
 passa O
 au O
-Grand- B-LOC
+Grand- B-MISC
 |
-| I-LOC
-Bail I-LOC
+| O
+Bail B-MISC
 pour O
 y O
 faire O
@@ -29769,7 +29769,7 @@ crois O
 -moi O
 , O
 on O
-n’ B-PER
+n’ O
 est O
 heureux O
 |
@@ -29786,7 +29786,7 @@ dit O
 maître O
 |
 | O
-Tixier B-LOC
+Tixier B-PER
 . O
 . O
 |
@@ -29794,9 +29794,9 @@ Tixier B-LOC
  
 
 | O
-JEANNE B-ORG
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 83 O
 |
@@ -29835,8 +29835,8 @@ domestiques O
 
 | O
 « O
-Ah B-MISC
-çà I-MISC
+Ah O
+çà O
 , O
 vous O
 autres O
@@ -29902,8 +29902,8 @@ tu O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 si O
 vous O
@@ -29933,15 +29933,15 @@ vous O
 |
 | O
 me O
-gardez B-PER
+gardez O
 . O
 |
 
 | O
 — O
-Te O
-garder O
-! O
+Te B-MISC
+garder I-MISC
+! I-MISC
 je O
 crois O
 bien O
@@ -29991,8 +29991,8 @@ Claude B-PER
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 si O
 vous O
@@ -30126,8 +30126,8 @@ autres O
 
 | O
 . O
-— B-LOC
-Tu I-LOC
+— O
+Tu O
 ne O
 te O
 trouves O
@@ -30136,7 +30136,7 @@ pas O
 bien O
 ici O
 , O
-Margue- B-PER
+Margue- B-LOC
 |
 | O
 rite O
@@ -30149,7 +30149,7 @@ maîtresse O
 
 | O
 84 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -30221,8 +30221,8 @@ Marguerite B-PER
 
 | O
 — O
-Dame O
-! O
+Dame B-MISC
+! I-MISC
 c' O
 est O
 Marie B-PER
@@ -30231,10 +30231,10 @@ de O
 la O
 ferme O
 du O
-Chétif- O
+Chétif- B-PER
 |
-| O
-Bail B-LOC
+| I-PER
+Bail I-PER
 , O
 qui O
 me O
@@ -30378,13 +30378,13 @@ rien O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 notre O
 maître O
 ! O
 que O
-voulez B-LOC
+voulez O
 -vous O
 que O
 je O
@@ -30406,9 +30406,9 @@ maison O
 |
 | O
 que O
-La O
-vôtre O
-? O
+La B-MISC
+vôtre I-MISC
+? I-MISC
 Je O
 n' O
 en O
@@ -30468,14 +30468,14 @@ plus O
 
 | O
 — O
-Si B-MISC
-c' I-MISC
-est I-MISC
-comme I-MISC
-ça I-MISC
-, I-MISC
-ma I-MISC
-fille I-MISC
+Si O
+c' O
+est O
+comme O
+ça O
+, O
+ma O
+fille O
 , O
 nous O
 ne O
@@ -30522,8 +30522,8 @@ prochain O
 
 | O
 — O
-Notre B-LOC
-maître I-LOC
+Notre O
+maître O
 , O
 vous O
 êtes O
@@ -30534,7 +30534,7 @@ raison- O
 
 | O
 . O
-mable O
+mable B-PER
 ; O
 je O
 prendrai O
@@ -30588,7 +30588,7 @@ assemblée O
 | O
 JEANNE O
 EN O
-SERVICE B-ORG
+SERVICE O
 . O
 85 O
 |
@@ -30704,7 +30704,7 @@ pareille O
 
 | O
 — O
-Merci B-PER
+Merci B-MISC
 , O
 notre O
 maître O
@@ -30832,7 +30832,7 @@ crois O
 - O
 tu O
 que O
-c’ B-MISC
+c’ O
 est O
 toi O
 qui O
@@ -30842,11 +30842,11 @@ ga- O
 | O
 gneras O
 ? O
-Es B-MISC
-- I-MISC
-tu I-MISC
-assez I-MISC
-habile I-MISC
+Es O
+- O
+tu O
+assez O
+habile O
 pour O
 soigner O
 les O
@@ -30906,7 +30906,7 @@ fille O
 
 | O
 — O
-Écoute B-PER
+Écoute O
 done O
 , O
 Marguerite B-PER
@@ -31063,8 +31063,8 @@ fait O
 ? O
 |
 | O
-Eh B-MISC
-bien I-MISC
+Eh O
+bien O
 , O
 c' O
 est O
@@ -31109,9 +31109,9 @@ moi O
 
 | O
 — O
-Et B-PER
-tu I-PER
-n’ I-PER
+Et O
+tu O
+n’ O
 en O
 fait O
 pas O
@@ -31130,8 +31130,8 @@ gaspiller O
 - O
 tu O
 avec O
-ta B-PER
-chienne I-PER
+ta O
+chienne O
 dettes O
 moutons O
 ! O
@@ -31251,7 +31251,7 @@ les O
 fièvres O
 , O
 et O
-l’ B-ORG
+l’ O
 on O
 t' O
 enverra O
@@ -31272,7 +31272,7 @@ tu O
 as O
 de O
 l' O
-ar- B-ORG
+ar- O
 |
 | O
 gent O
@@ -31282,9 +31282,9 @@ non O
 Et O
 puis O
 , O
-vois B-LOC
-- I-LOC
-tu I-LOC
+vois O
+- O
+tu O
 , O
 ma O
 pauvre O
@@ -31294,7 +31294,7 @@ Margue- B-PER
 rite O
 , O
 on O
-n’ B-PER
+n’ O
 amasse O
 jamais O
 rien O
@@ -31396,17 +31396,17 @@ armoire O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 , O
 87 O
 |
 
 | O
-Remontrances B-LOC
-de I-LOC
-Jeanne I-LOC
+Remontrances B-MISC
+de I-MISC
+Jeanne I-MISC
 à O
 Marguerite B-PER
 . O
@@ -31455,9 +31455,9 @@ changer O
 
 | O
 — O
-Veux B-PER
-- I-PER
-tu I-PER
+Veux B-MISC
+- I-MISC
+tu I-MISC
 que O
 je O
 te O
@@ -31489,9 +31489,9 @@ done O
 Marguerite B-PER
 , O
 les O
-aimais B-LOC
-- I-LOC
-tu I-LOC
+aimais O
+- O
+tu O
 , O
 |
 | O
@@ -31509,7 +31509,7 @@ le O
 bon O
 |
 | O
-Dieu B-MISC
+Dieu O
 ! O
 Est O
 -ce O
@@ -31575,7 +31575,7 @@ M. B-PER
 le I-PER
 curé I-PER
 , O
-ettu O
+ettu B-LOC
 ne O
 vas O
 jamais O
@@ -31585,8 +31585,8 @@ confesse O
 |
 | O
 Sais B-LOC
-- I-LOC
-tu I-LOC
+- O
+tu O
 que O
 c' O
 est O
@@ -31650,16 +31650,16 @@ que O
 |
 | O
 l' O
-église B-LOC
-n’ I-LOC
+église O
+n’ O
 est O
 pas O
 la O
-maison O
-du O
-bon B-MISC
+maison B-MISC
+du I-MISC
+bon I-MISC
 Dieu I-MISC
-? O
+? I-MISC
 Prends- O
 |
 | O
@@ -31725,8 +31725,8 @@ Est O
 -ce O
 que O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 qui O
 est O
 au O
@@ -31791,8 +31791,8 @@ pas O
 
 | O
 8è O
-SECONDE B-MISC
-PARTIE I-MISC
+SECONDE O
+PARTIE O
 . O
 |
 
@@ -31846,15 +31846,15 @@ heureuse O
 D' O
 ailleurs O
 , O
-e"est O
+e"est B-PER
 la O
 vo- O
 |
 | O
 lonté O
 du O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 que O
 l' O
 on O
@@ -31951,9 +31951,9 @@ aimer O
 . O
 |
 | O
-Crois B-LOC
--moi O
-done O
+Crois B-MISC
+-moi I-MISC
+done I-MISC
 , O
 Marguerite B-PER
 , O
@@ -32098,7 +32098,7 @@ pas O
 pour O
 rester O
 au O
-tect O
+tect B-LOC
 toute O
 la O
 journée O
@@ -32107,7 +32107,7 @@ journée O
 
 | O
 — O
-Allons B-LOC
+Allons B-MISC
 , O
 porcher O
 , O
@@ -32127,7 +32127,7 @@ Jeanne B-PER
 le O
 veut O
 . O
-Tiens B-LOC
+Tiens B-MISC
 , O
 voilà O
 cin- O
@@ -32185,8 +32185,8 @@ bêtes O
 
 | O
 JEANNE B-MISC
-EN O
-SERVICE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 89 O
 |
@@ -32215,14 +32215,14 @@ de O
 la O
 maison O
 , O
-Il B-MISC
-n' I-MISC
-y I-MISC
-avait I-MISC
+Il O
+n' O
+y O
+avait O
 |
-| I-MISC
-pas I-MISC
-longtemps I-MISC
+| O
+pas O
+longtemps O
 qu' O
 elle O
 était O
@@ -32334,8 +32334,8 @@ se O
 trouvait O
 là O
 en O
-co O
-mo O
+co B-PER
+mo I-PER
 ... O
 et O
 avec O
@@ -32423,10 +32423,10 @@ autres O
 
 | O
 — O
-Mon O
-petit O
-père O
-Colis B-PER
+Mon B-MISC
+petit I-MISC
+père I-MISC
+Colis I-MISC
 , O
 dit O
 Jeanne B-PER
@@ -32609,8 +32609,8 @@ ses O
 
 | O
 60 O
-SECONDE B-MISC
-PARTIR O
+SECONDE O
+PARTIR B-MISC
 , O
 |
 
@@ -32661,7 +32661,7 @@ Louis B-PER
 « O
 Mon B-MISC
 Dieu I-MISC
-! O
+! I-MISC
 que O
 j' O
 ai O
@@ -32685,9 +32685,9 @@ seule O
  
 
 | O
-JEANNE B-ORG
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 bi O
 |
@@ -32708,7 +32708,7 @@ ami O
 | O
 du O
 père O
-Colis B-PER
+Colis B-MISC
 , O
 et O
 elle O
@@ -32732,7 +32732,7 @@ bêtes O
 et O
 dit O
 à O
-In B-LOC
+In O
 mat- O
 |
 | O
@@ -32811,7 +32811,7 @@ lune B-LOC
 
 | O
 — O
-Va B-PER
+Va O
 , O
 ma O
 Jeanne B-PER
@@ -32822,9 +32822,9 @@ amuse O
 toi O
 bien O
 . O
-No O
-t' O
-in- O
+No B-MISC
+t' I-MISC
+in- I-MISC
 |
 | O
 quiète O
@@ -32838,10 +32838,10 @@ ferai O
 faire O
 par O
 la O
-mère O
+mère B-PER
 |
-| O
-Fouille O
+| I-PER
+Fouille I-PER
 ; O
 d' O
 ailleurs O
@@ -32919,7 +32919,7 @@ le O
 tira O
 par O
 sa O
-manche B-LOC
+manche O
 . O
 |
 | O
@@ -32981,10 +32981,10 @@ sur O
 le O
 |
 | O
-banc O
-là O
-- O
-bas O
+banc B-MISC
+là I-MISC
+- I-MISC
+bas I-MISC
 ; O
 j' O
 ai O
@@ -33088,7 +33088,7 @@ avec O
 | O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 , O
 et O
 comment O
@@ -33180,7 +33180,7 @@ ami O
 avec O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 , O
 il O
 faut O
@@ -33302,11 +33302,11 @@ que O
 je O
 veux O
 . O
-Tiens B-LOC
+Tiens O
 , O
 |
 | O
-Solange B-LOC
+Solange B-MISC
 est O
 là O
 - O
@@ -33316,7 +33316,7 @@ Joséphine B-PER
 ; O
 a O
 - O
-t’ B-LOC
+t’ O
 on O
 auprès O
 |
@@ -33347,8 +33347,8 @@ pour O
 retour- O
 |
 | O
-ner O
-ensemble O
+ner B-ORG
+ensemble I-ORG
 à O
 là O
 maison O
@@ -33374,7 +33374,7 @@ eut O
 bien O
 vite O
 rejoint O
-Solange B-PER
+Solange B-MISC
 et O
 sa O
 sœur O
@@ -33388,7 +33388,7 @@ promenant O
 elles O
 trouvèrent O
 maître O
-Tixier B-LOC
+Tixier B-PER
 , O
 |
 | O
@@ -33441,12 +33441,12 @@ Jeanne B-PER
 
 | O
 « O
-Sois B-LOC
-tranquille O
+Sois B-MISC
+tranquille I-MISC
 , O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 ne O
 fera O
 pas O
@@ -33479,7 +33479,7 @@ avoine O
 
 | O
 — O
-Merci B-PER
+Merci B-MISC
 , O
 grand O
 Louis B-PER
@@ -33500,9 +33500,9 @@ peine O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 93 O
 |
@@ -33765,7 +33765,7 @@ porte O
 
 | O
 Les O
-foins B-LOC
+foins O
 et O
 la O
 moisson O
@@ -33856,7 +33856,7 @@ Si O
 
 | O
 08 O
-SECONDE B-MISC
+SECONDE O
 PARTIR O
 . O
 |
@@ -33887,8 +33887,8 @@ dit O
 
 | O
 « O
-Petite B-LOC
-Jeanne I-LOC
+Petite B-PER
+Jeanne I-PER
 , O
 ça O
 m' O
@@ -34117,7 +34117,7 @@ dit O
 maître O
 |
 | O
-Tixier B-LOC
+Tixier B-PER
 en O
 coupant O
 ; O
@@ -34141,7 +34141,7 @@ ai O
 jamais O
 pensé O
 . O
-Com- B-MISC
+Com- B-ORG
 |
 | O
 ment O
@@ -34158,15 +34158,15 @@ venue O
 | O
 — O
 Ce O
-n’ B-PER
+n’ O
 est O
 pas O
-mon O
-idees O
+mon B-MISC
+idees I-MISC
 à O
 moi O
 , O
-c’ B-MISC
+c’ O
 est O
 celle O
 de O
@@ -34212,21 +34212,21 @@ propre O
 
 | O
 — O
-Mon O
-garçon O
-, O
-tu O
-as O
-bien O
-raison O
-de O
-faire O
-ce O
+Mon B-MISC
+garçon I-MISC
+, I-MISC
+tu I-MISC
+as I-MISC
+bien I-MISC
+raison I-MISC
+de I-MISC
+faire I-MISC
+ce I-MISC
 |
-| O
-que O
-la O
-petite O
+| I-MISC
+que I-MISC
+la I-MISC
+petite I-MISC
 Jeanne B-PER
 te O
 commande O
@@ -34235,8 +34235,8 @@ commande O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 dit O
 Jeanne B-PER
@@ -34253,7 +34253,7 @@ rien O
 commandé O
 ; O
 il O
-l’ B-ORG
+l’ O
 a O
 fait O
 de O
@@ -34277,9 +34277,9 @@ fille O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 , O
 95 O
 |
@@ -34300,8 +34300,8 @@ Colin B-PER
 
 | O
 « O
-Mes B-MISC
-amis I-MISC
+Mes O
+amis O
 , O
 dit O
 maître O
@@ -34317,7 +34317,7 @@ et O
 que O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 vient O
 de O
 me O
@@ -34515,12 +34515,12 @@ tu O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 si O
 vous O
-croyez B-ORG
+croyez O
 que O
 c' O
 est O
@@ -34549,7 +34549,7 @@ vous O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 dit O
 grand O
@@ -34585,7 +34585,7 @@ seigle O
 
 | O
 — O
-Va B-PER
+Va O
 donc O
 le O
 trouver O
@@ -34655,12 +34655,12 @@ actes O
 
 | O
 96 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 |
 
 | O
-Marguerite B-PER
+Marguerite O
 vout O
 montrer O
 au O
@@ -34737,8 +34737,8 @@ reconnaître O
 
 | O
 « O
-Tiens B-LOC
-! O
+Tiens B-MISC
+! I-MISC
 te O
 voilà O
 ici O
@@ -34834,7 +34834,7 @@ la O
 mère O
 |
 | O
-Feuillet O
+Feuillet B-PER
 ; O
 la O
 pauvre O
@@ -34908,7 +34908,7 @@ pain O
 Eh O
 bien O
 ! O
-Marguerite B-PER
+Marguerite O
 , O
 je O
 te O
@@ -34987,8 +34987,8 @@ Marguerite B-PER
 | O
 « O
 Que O
-viens B-PER
-- I-PER
+viens O
+- O
 tu O
 faire O
 ici O
@@ -35053,20 +35053,20 @@ parole O
 
 | O
 1RANNE O
-EN O
-SERVICE B-MISC
+EN B-ORG
+SERVICE I-ORG
 . O
 g7 O
 |
 
 | O
-M. B-PER
+M. O
 le O
 our O
 engage O
 la O
 mère O
-Tixior B-MISC
+Tixior B-PER
 à O
 reprendre O
 Marguerite B-PER
@@ -35084,7 +35084,7 @@ s' O
 asseoir O
 comme O
 d' O
-ordi B-PER
+ordi B-MISC
 . O
 |
 | O
@@ -35094,7 +35094,7 @@ chevet O
 de O
 la O
 mère O
-Tixior B-MISC
+Tixior B-PER
 . O
 |
 
@@ -35269,13 +35269,13 @@ maîtresse O
 
 | O
 — O
-Votre B-MISC
-bergère I-MISC
+Votre O
+bergère O
 se O
 marie O
 pour O
 la O
-Toussaint B-MISC
+Toussaint B-PER
 : O
 |
 | O
@@ -35352,7 +35352,7 @@ bien O
 
 | O
 — O
-Tiens B-LOC
+Tiens B-MISC
 , O
 le O
 voilà O
@@ -35373,8 +35373,8 @@ même O
 
 | O
 — O
-Je B-MISC
-n’ I-MISC
+Je O
+n’ O
 oserai O
 jamais O
 ; O
@@ -35434,13 +35434,13 @@ disait O
 + O
 |
 | O
-EN O
+EN B-ORG
 _ O
 |
 
 | O
 98 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 . O
 |
@@ -35479,7 +35479,7 @@ rentrerapas O
 | O
 — O
 Voyez B-MISC
-done O
+done I-MISC
 comme O
 elle O
 est O
@@ -35516,7 +35516,7 @@ embarras O
 
 | O
 — O
-Allons B-LOC
+Allons B-MISC
 , O
 ne O
 vous O
@@ -35533,8 +35533,8 @@ dit O
 sa O
 femme O
 ; O
-votre O
-hergère O
+votre B-PER
+hergère I-PER
 doit O
 se O
 marier O
@@ -35542,7 +35542,7 @@ marier O
 |
 | O
 la O
-Toussaint B-MISC
+Toussaint B-PER
 , O
 et O
 Marguerite B-PER
@@ -35699,7 +35699,7 @@ sans O
 man- O
 |
 | O
-ger B-LOC
+ger O
 , O
 quand O
 . O
@@ -35729,7 +35729,7 @@ le O
 curé O
 veut O
 que O
-l’ B-LOC
+l’ O
 on O
 pardonne O
 toujours O
@@ -35742,9 +35742,9 @@ Maître B-PER
 Tixier I-PER
 , O
 dit O
-M. O
-le O
-caré O
+M. B-PER
+le I-PER
+caré I-PER
 , O
 il O
 ne O
@@ -35818,7 +35818,7 @@ fille O
 | O
 JEANNE O
 EN O
-REVIGOR B-LOC
+REVIGOR O
 ga O
 |
 
@@ -35873,7 +35873,7 @@ différent O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 je O
 n' O
@@ -35932,7 +35932,7 @@ toujours O
 pardonner O
 . O
 Si O
-Dieu O
+Dieu B-MISC
 nous O
 retirait O
 son O
@@ -36013,7 +36013,7 @@ cela O
 maître O
 Tixier B-PER
 . O
-Per- O
+Per- B-ORG
 |
 | O
 sonne O
@@ -36088,13 +36088,13 @@ faute O
 
 | O
 — O
-Qu' B-MISC
-elle I-MISC
-vienne I-MISC
+Qu' O
+elle O
+vienne O
 donc O
 à O
 la O
-Toussaint B-MISC
+Toussaint B-PER
 , O
 monsieur O
 |
@@ -36105,7 +36105,7 @@ curé O
 puisque O
 vous O
 le O
-voulez B-LOC
+voulez O
 . O
 |
 
@@ -36121,7 +36121,7 @@ voulez O
 -vous O
 qu' O
 elle O
-de- O
+de- B-LOC
 |
 | O
 vienne B-LOC
@@ -36180,7 +36180,7 @@ soleil O
 car O
 la O
 bergère O
-n’ B-PER
+n’ O
 est O
 plus O
 bonne O
@@ -36225,7 +36225,7 @@ chercher O
 les O
 effets O
 , O
-Mar- B-ORG
+Mar- B-PER
 |
 
 | O
@@ -36335,14 +36335,14 @@ ai O
 | O
 dit O
 , O
-st B-MISC
-demande I-MISC
--moi I-MISC
-tout I-MISC
-ce I-MISC
-que I-MISC
-tu I-MISC
-voudras I-MISC
+st B-PER
+demande O
+-moi O
+tout O
+ce O
+que O
+tu O
+voudras O
 , O
 je O
 le O
@@ -36430,7 +36430,7 @@ il O
 faudra O
 que O
 tu O
-vienne B-LOC
+vienne O
 avec O
 moi O
 |
@@ -36592,9 +36592,9 @@ lui O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-LOC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 101 O
 |
@@ -36701,7 +36701,7 @@ tremper O
 ou O
 bien O
 , O
-s’ B-PER
+s’ O
 il O
 y O
 avait O
@@ -36945,7 +36945,7 @@ on O
 dit O
 battue O
 ; O
-c’ B-MISC
+c’ O
 est O
 ce O
 qui O
@@ -37016,16 +37016,16 @@ Quelquefois O
 , O
 dans O
 la O
-se- B-LOC
+se- O
 |
-| I-LOC
-maine I-LOC
+| O
+maine O
 , O
 les O
 filles O
 de O
-laîtra O
-Tixier B-LOC
+laîtra B-PER
+Tixier I-PER
 voulaient O
 la O
 forcer O
@@ -37110,7 +37110,7 @@ Jeanne B-PER
 
 | O
 « O
-Lis B-PER
+Lis O
 donc O
 , O
 les O
@@ -37170,7 +37170,7 @@ Jeanne B-PER
 comme O
 |
 | O
-s’ B-LOC
+s’ O
 il O
 voulait O
 la O
@@ -37258,8 +37258,8 @@ mains O
 |
 
 | O
-Grand B-PER
-Louis I-PER
+Grand O
+Louis B-PER
 demande O
 Jeanne B-PER
 en O
@@ -37304,7 +37304,7 @@ pain O
 
 | O
 « O
-Écoute B-PER
+Écoute O
 , O
 petite O
 Jeanne B-PER
@@ -37347,9 +37347,9 @@ triste I-MISC
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 , O
 103 O
 |
@@ -37378,8 +37378,8 @@ tu O
 . O
 ma O
 femme O
-Ÿ O
-Tu O
+Ÿ B-MISC
+Tu I-MISC
 me O
 connais O
 , O
@@ -37439,7 +37439,7 @@ pas O
 de O
 travailler O
 . O
-Hein B-MISC
+Hein B-PER
 ! O
 qu' O
 en O
@@ -37451,7 +37451,7 @@ tu O
 
 | O
 — O
-Merci B-PER
+Merci B-MISC
 , O
 grand O
 Louis B-PER
@@ -37577,7 +37577,7 @@ espoir O
 de O
 guérir O
 ; O
-Solange B-PER
+Solange B-MISC
 ne O
 tardera O
 pas O
@@ -37597,7 +37597,7 @@ maison O
 |
 | O
 Joséphine B-PER
-n’ I-PER
+n’ O
 a O
 que O
 dix-sept O
@@ -37751,7 +37751,7 @@ ses O
 proches O
 parents O
 ; O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -37773,11 +37773,11 @@ prou- O
 SECONDE B-MISC
 PARLE I-MISC
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-ver O
+| I-MISC
+ver I-MISC
 que O
 je O
 fais O
@@ -37930,7 +37930,7 @@ fait O
 
 | O
 — O
-Notre B-LOC
+Notre O
 mître O
 , O
 il O
@@ -38150,9 +38150,9 @@ grand O
  
 
 | O
-JEANNE B-ORG
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 105 O
 |
@@ -38186,19 +38186,19 @@ juments O
 Maître B-PER
 Jussorand I-PER
 , O
-don O
-Ormoaux B-LOC
+don B-PER
+Ormoaux I-PER
 , O
 vont O
 demander O
 |
 | O
-Solange B-PER
+Solange B-MISC
 . O
 |
 
 | O
-Solange B-PER
+Solange B-MISC
 était O
 devenue O
 une O
@@ -38280,7 +38280,7 @@ de O
 tout O
 ce O
 que O
-Journe B-PER
+Journe B-MISC
 lui O
 |
 | O
@@ -38328,7 +38328,7 @@ l' O
 ; O
 mais O
 il O
-n’ B-PER
+n’ O
 avait O
 pas O
 encore O
@@ -38420,7 +38420,7 @@ mère O
 , O
 pour O
 demander O
-Solange B-PER
+Solange B-MISC
 en O
 mariage O
 . O
@@ -38496,7 +38496,7 @@ vieux O
 Je O
 vais O
 appeler O
-Solange B-ORG
+Solange B-MISC
 pour O
 savoir O
 ce O
@@ -38543,7 +38543,7 @@ la O
 bou- O
 |
 | O
-lingerie B-LOC
+lingerie O
 , O
 où O
 elle O
@@ -38599,7 +38599,7 @@ banc O
 
 | O
 a O
-Sais O
+Sais B-LOC
 - O
 tu O
 bien O
@@ -38661,11 +38661,11 @@ dis O
 - O
 tu O
 ? O
-veux B-PER
-- I-PER
-tu I-PER
-te I-PER
-marier I-PER
+veux O
+- O
+tu O
+te O
+marier O
 ? O
 |
 
@@ -38682,14 +38682,14 @@ père O
 
 | O
 — O
-À B-MISC
-ma I-MISC
-volonté I-MISC
-, O
-à O
+À O
 ma O
 volonté O
-! O
+, O
+à O
+ma B-MISC
+volonté I-MISC
+! I-MISC
 mais O
 je O
 ne O
@@ -38906,9 +38906,9 @@ elle O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 , O
 .. O
 107 O
@@ -38987,7 +38987,7 @@ une O
 belle O
 noce O
 à O
-Solange B-PER
+Solange B-MISC
 . O
 |
 
@@ -38999,8 +38999,8 @@ noce O
 au O
 Grand-Bail B-LOC
 ; O
-muître O
-Tixier B-PER
+muître B-PER
+Tixier I-PER
 , O
 |
 | O
@@ -39040,14 +39040,14 @@ une O
 petite O
 affaire O
 , O
-On B-MISC
+On O
 |
-| I-MISC
-prit I-MISC
-des I-MISC
-femmes I-MISC
-de I-MISC
-journée I-MISC
+| O
+prit O
+des O
+femmes O
+de O
+journée O
 que O
 là O
 maîtresse O
@@ -39092,7 +39092,7 @@ pâtisserie O
 ; O
 |
 | O
-Solange B-PER
+Solange B-MISC
 veillait O
 à O
 requ' O
@@ -39126,7 +39126,7 @@ la O
 coutume O
 ; O
 les O
-Jusserand B-PER
+Jusserand B-LOC
 avaient O
 |
 | O
@@ -39211,9 +39211,9 @@ la O
 belle O
 chambre O
 pour O
-M. B-MISC
-le I-MISC
-suré I-MISC
+M. B-PER
+le I-PER
+suré I-PER
 , O
 la O
 famille O
@@ -39235,8 +39235,8 @@ parrains O
 et O
 marraines O
 . O
-Maître O
-Tixier O
+Maître B-PER
+Tixier I-PER
 la O
 gouvernait O
 , O
@@ -39296,8 +39296,8 @@ tables O
 108 O
 81 O
 : O
-ONDE B-MISC
-PARTIE I-MISC
+ONDE O
+PARTIE B-MISC
 . O
 |
 
@@ -39314,8 +39314,8 @@ la O
 mère O
 Juste- B-PER
 |
-| I-PER
-rand I-PER
+| O
+rand O
 , O
 on O
 dirait O
@@ -39367,7 +39367,7 @@ mais O
 tu O
 vas O
 emmener O
-Solange B-PER
+Solange B-MISC
 et O
 j' O
 en O
@@ -39382,9 +39382,9 @@ chagrin O
 
 | O
 — O
-Laisse B-PER
-done O
-! O
+Laisse B-MISC
+done I-MISC
+! I-MISC
 elle O
 ne O
 sera O
@@ -39477,8 +39477,8 @@ vi- O
 | O
 sago O
 ! O
-Tiens O
-! O
+Tiens B-MISC
+! I-MISC
 voilà O
 nos O
 maîtres O
@@ -39526,7 +39526,7 @@ de O
 laine O
 blanche O
 à O
-Solange B-LOC
+Solange B-MISC
 et O
 un O
 gobelet O
@@ -39654,7 +39654,7 @@ cun O
 . O
 Les O
 uns O
-s’ B-LOC
+s’ O
 asseyaient O
 sur O
 le O
@@ -39664,15 +39664,15 @@ man- O
 |
 
 | O
-JEANNE O
-EN O
-SERVICE B-MISC
+JEANNE B-MISC
+EN I-MISC
+SERVICE I-MISC
 . O
 109 O
 |
 
 | O
-ger B-LOC
+ger O
 leur O
 part O
 , O
@@ -39746,17 +39746,17 @@ elle O
 songe O
 à O
 tout O
-Je B-MISC
+Je O
 |
-| I-MISC
-ne I-MISC
-m' I-MISC
-inquiète I-MISC
-pas I-MISC
-plus I-MISC
-de I-MISC
-la I-MISC
-note I-MISC
+| O
+ne O
+m' O
+inquiète O
+pas O
+plus O
+de O
+la O
+note O
 que O
 si O
 ce O
@@ -39769,7 +39769,7 @@ chez O
 nous O
 qu' O
 elle O
-s6 B-LOC
+s6 B-ORG
 fit O
 . O
 Je O
@@ -39799,7 +39799,7 @@ autres O
 |
 
 | O
-Avais B-LOC
+Avais O
 la O
 face O
 , O
@@ -39942,7 +39942,7 @@ boulangerie O
 la O
 place O
 de O
-Solange B-PER
+Solange B-MISC
 . O
 Tout O
 allait O
@@ -39969,8 +39969,8 @@ lit O
 |
 
 | O
-Grand B-LOC
-Louis I-LOC
+Grand O
+Louis B-PER
 déclare O
 à O
 son O
@@ -39991,7 +39991,7 @@ déjà O
 deux O
 ans O
 que O
-Solange B-PER
+Solange B-MISC
 était O
 ma- O
 |
@@ -40044,7 +40044,7 @@ présent O
 
 | O
 110 O
-SECONDE B-MISC
+SECONDE O
 PARTIE O
 , O
 |
@@ -40072,8 +40072,8 @@ marier O
 
 | O
 — O
-Grand B-LOC
-Louis I-LOC
+Grand O
+Louis B-PER
 , O
 si O
 vous O
@@ -40214,9 +40214,9 @@ Louis B-PER
 ? O
 |
 | O
-Vous O
-marier O
-! O
+Vous B-MISC
+marier I-MISC
+! I-MISC
 me O
 quitter O
 ! O
@@ -40234,9 +40234,9 @@ veux O
 - O
 tu O
 que O
-devienne B-PER
-ma I-PER
-maison I-PER
+devienne O
+ma O
+maison O
 , O
 |
 | O
@@ -40264,10 +40264,10 @@ plus O
 du O
 lit O
 ? O
-José- O
+José- B-PER
 |
-| O
-phine O
+| I-PER
+phine I-PER
 est O
 encore O
 trop O
@@ -40293,7 +40293,7 @@ conscription O
 , O
 |
 | O
-n’ B-PER
+n’ O
 est O
 pas O
 capable O
@@ -40366,8 +40366,8 @@ peine O
 
 | O
 -— O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 il O
 ne O
@@ -40457,8 +40457,8 @@ José- B-PER
 
 | I-PER
 JEANNE I-PER
-EN O
-SERVICE B-MISC
+EN I-PER
+SERVICE I-PER
 , O
 ni O
 |
@@ -40496,8 +40496,8 @@ passe O
 voyez O
 -vous O
 , O
-notre B-LOC
-maîtrop I-LOC
+notre O
+maîtrop O
 » O
 |
 
@@ -40552,7 +40552,7 @@ entendu O
 
 | O
 — O
-Ma B-PER
+Ma O
 chère O
 maîtresse O
 , O
@@ -40840,8 +40840,8 @@ eux O
 
 | O
 ua O
-SECONDE B-MISC
-PARTIE I-MISC
+SECONDE O
+PARTIE O
 . O
 |
 
@@ -40892,20 +40892,20 @@ Un B-MISC
 |
 | I-MISC
 mois I-MISC
-après I-MISC
-ils I-MISC
-se I-MISC
-marièsentants I-MISC
-noce I-MISC
+après O
+ils O
+se O
+marièsentants O
+noce O
 et O
 ans O
 bruit O
 , O
 |
 | O
-M. B-PER
-le I-PER
-curé I-PER
+M. O
+le O
+curé O
 , O
 qui O
 aimait O
@@ -40950,7 +40950,7 @@ Le B-MISC
 soir I-MISC
 , O
 au O
-Grand-Bull B-LOC
+Grand-Bull B-MISC
 , O
 on O
 donna O
@@ -40976,25 +40976,25 @@ mariés O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 443 O
 |
 
 | O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE B-ORG
 . O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 |
 
@@ -41048,7 +41048,7 @@ mai- O
 
 | O
 tre O
-Tixier B-LOC
+Tixier B-PER
 rentra O
 en O
 traînant O
@@ -41144,9 +41144,9 @@ aller O
 chez O
 |
 | O
-M. B-PER
-le I-PER
-curé I-PER
+M. O
+le O
+curé O
 , O
 qui O
 a O
@@ -41173,9 +41173,9 @@ guérir O
 
 | O
 — O
-Laisse B-LOC
-donc O
-! O
+Laisse B-MISC
+donc I-MISC
+! I-MISC
 ça O
 n' O
 en O
@@ -41225,7 +41225,7 @@ n' O
 rien O
 , O
 mais O
-qu’ B-PER
+qu’ O
 un O
 mal O
 né- O
@@ -41262,8 +41262,8 @@ e- O
 
 | O
 414 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE O
 . O
 |
 
@@ -41310,7 +41310,7 @@ mai- O
 |
 | O
 tre O
-Tixier B-LOC
+Tixier B-PER
 monta O
 au O
 grenier O
@@ -41478,8 +41478,8 @@ curé I-PER
 
 | O
 « O
-Dis B-LOC
-- I-LOC
+Dis O
+- O
 lui O
 que O
 son O
@@ -41627,9 +41627,9 @@ est O
 bien O
 difficile O
 , O
-monsieur O
-le O
-caré O
+monsieur B-PER
+le I-PER
+caré I-PER
 ; O
 il O
 y O
@@ -41670,10 +41670,10 @@ ne O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 115 O
 |
@@ -41757,7 +41757,7 @@ que O
 vous O
 commander O
 ? O
-Soyez B-ORG
+Soyez O
 tranquille O
 , O
 |
@@ -41798,13 +41798,13 @@ juments O
 | O
 de O
 maitre O
-Tixior B-LOC
+Tixior B-PER
 . O
 |
 
 | O
-Un O
-matin O
+Un B-MISC
+matin I-MISC
 , O
 maître O
 Tixier B-PER
@@ -41854,8 +41854,8 @@ logis O
 
 | O
 « O
-Tiens B-LOC
-! O
+Tiens B-MISC
+! I-MISC
 s' O
 érie O
 -t O
@@ -41876,7 +41876,7 @@ Durand I-PER
 , O
 de O
 la O
-Tréchaufferie B-PER
+Tréchaufferie B-LOC
 ! O
 |
 | O
@@ -41973,7 +41973,7 @@ coup O
 
 | O
 — O
-Merci B-PER
+Merci B-MISC
 , O
 mon O
 brave O
@@ -41987,7 +41987,7 @@ pressé O
 . O
 |
 | O
-Faites B-ORG
+Faites B-LOC
 donc O
 sortir O
 vos O
@@ -42028,17 +42028,17 @@ porte O
 
 | O
 116 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE O
 . O
 |
 
 | O
 « O
-Voilà O
-de O
-belles O
-bêtes O
+Voilà B-MISC
+de I-MISC
+belles I-MISC
+bêtes I-MISC
 , O
 dit O
 le O
@@ -42091,7 +42091,7 @@ maî- O
 |
 | O
 tre O
-Tixier B-LOC
+Tixier B-PER
 et O
 lui O
 demanda O
@@ -42287,7 +42287,7 @@ vous O
 le O
 |
 | O
-voulez B-LOC
+voulez O
 . O
 |
 
@@ -42412,10 +42412,10 @@ main O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 117 O
 |
@@ -42442,7 +42442,7 @@ est O
 
 | O
 — O
-Pas B-LOC
+Pas O
 pour O
 aujourd'hui O
 , O
@@ -42527,7 +42527,7 @@ sance O
 
 | O
 — O
-Merci B-PER
+Merci O
 , O
 père O
 Tixier B-PER
@@ -42535,8 +42535,8 @@ Tixier B-PER
 je O
 viendrai O
 , O
-soyez B-ORG
--en I-ORG
+soyez O
+-en O
 |
 | O
 sûr O
@@ -42570,7 +42570,7 @@ officier O
 
 | O
 « O
-Allons B-LOC
+Allons O
 , O
 Jeanne B-PER
 , O
@@ -42638,8 +42638,8 @@ dîner O
 était O
 prêt O
 . O
-Maître O
-Tixier B-PER
+Maître B-PER
+Tixier I-PER
 , O
 assis O
 |
@@ -42697,7 +42697,7 @@ Eh O
 bien O
 ? O
 maître O
-Tixier B-LOC
+Tixier B-PER
 , O
 avez O
 -vous O
@@ -42779,8 +42779,8 @@ bonne O
 
 | O
 118 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE B-ORG
 , O
 |
 
@@ -42829,7 +42829,7 @@ le O
 capi- O
 |
 | O
-taine B-PER
+taine O
 en O
 mangeant O
 la O
@@ -43091,7 +43091,7 @@ se- O
 | O
 alables O
 . O
-Savez B-PER
+Savez O
 -vous O
 qu' O
 on O
@@ -43147,10 +43147,10 @@ cuisinière O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 119 O
 |
@@ -43177,8 +43177,8 @@ s' O
 
 | O
 a O
-Comment O
-! O
+Comment B-MISC
+! I-MISC
 ce O
 n' O
 est O
@@ -43232,12 +43232,12 @@ vraiment O
 beaucoup O
 trop O
 ! O
-Que B-MISC
-faites- I-MISC
+Que O
+faites- O
 |
-| I-MISC
-vous I-MISC
-done I-MISC
+| O
+vous O
+done O
 , O
 maître O
 Tixier B-PER
@@ -43520,7 +43520,7 @@ y O
 trouve O
 place O
 . O
-Voyons O
+Voyons B-PER
 , O
 Joséphine B-PER
 , O
@@ -43547,8 +43547,8 @@ tête O
 
 | O
 190 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE O
 . O
 |
 
@@ -43662,8 +43662,8 @@ sort O
 
 | O
 — O
-Ma B-MISC
-foi I-MISC
+Ma O
+foi O
 , O
 monsieur O
 l' O
@@ -43730,9 +43730,9 @@ maladies O
 
 | O
 — O
-Que O
-voulez O
--vous O
+Que B-MISC
+voulez I-MISC
+-vous I-MISC
 , O
 mon O
 : O
@@ -43919,10 +43919,10 @@ douleur O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSER I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSER B-MISC
+ET I-MISC
+MÈRE I-MISC
 , O
 191 O
 |
@@ -43931,7 +43931,7 @@ MÈRE B-ORG
 ne O
 nous O
 avertissait O
-ps O
+ps B-ORG
 du O
 danger O
 , O
@@ -43951,12 +43951,12 @@ douter O
 
 | O
 — O
-Savez B-PER
+Savez O
 -vous O
 bien O
 , O
-maîtro O
-Tixier B-LOC
+maîtro B-PER
+Tixier I-PER
 , O
 que O
 vous O
@@ -44060,7 +44060,7 @@ monde O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 je O
 ne O
@@ -44174,7 +44174,7 @@ en O
 repos O
 , O
 répondit O
-Tixier B-LOC
+Tixier B-PER
 , O
 les O
 comptez O
@@ -44185,7 +44185,7 @@ pour O
 | O
 rien O
 ! O
-Tenez B-LOC
+Tenez B-PER
 , O
 ‘ O
 il O
@@ -44214,8 +44214,8 @@ mieux O
 de O
 remercier O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 qui O
 les O
 a O
@@ -44269,7 +44269,7 @@ partagé O
 qu' O
 eux O
 . O
-Voyons O
+Voyons B-PER
 , O
 mon O
 |
@@ -44308,7 +44308,7 @@ et O
 la O
 mettre O
 à O
-l’ B-LOC
+l’ O
 abri O
 pour O
 l' O
@@ -44320,7 +44320,7 @@ Ont O
 -ils O
 jamais O
 eu O
-l’ B-LOC
+l’ O
 idée O
 d' O
 atteler O
@@ -44332,7 +44332,7 @@ hommes O
 | O
 199 O
 TROISIÈME B-MISC
-PARTIR O
+PARTIR I-MISC
 , O
 |
 
@@ -44417,9 +44417,9 @@ année O
 
 | O
 — O
-Écoutez B-PER
-done O
-! O
+Écoutez B-MISC
+done I-MISC
+! I-MISC
 c' O
 est O
 trop O
@@ -44435,7 +44435,7 @@ Jour B-MISC
 liberté I-MISC
 à I-MISC
 mon I-MISC
-profit O
+profit I-MISC
 ; O
 il O
 faut O
@@ -44477,7 +44477,7 @@ plus O
 ils O
 travaillent O
 : O
-c’ B-MISC
+c’ O
 est O
 donc O
 dans O
@@ -44529,7 +44529,7 @@ plumes O
 ni O
 toison O
 , O
-s’ B-PER
+s’ O
 il O
 a O
 l' O
@@ -44554,7 +44554,7 @@ sans O
 | O
 armes O
 , O
-s’ B-PER
+s’ O
 il O
 sait O
 s' O
@@ -44563,7 +44563,7 @@ faire O
 avec O
 tout O
 ? O
-Tenez B-LOC
+Tenez O
 , O
 mon- O
 |
@@ -44708,10 +44708,10 @@ tête O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 198 O
 |
@@ -44810,7 +44810,7 @@ y O
 a O
 rien O
 à O
-de- O
+de- B-LOC
 |
 | O
 dire O
@@ -44822,7 +44822,7 @@ Le O
 soleil O
 réchauffe O
 les O
-mé- B-PER
+mé- O
 |
 | O
 chants O
@@ -44998,7 +44998,7 @@ là O
 - O
 dessus O
 ? O
-Laissons B-LOC
+Laissons B-PER
 faire O
 à O
 la O
@@ -45040,13 +45040,13 @@ en O
 échange O
 de O
 la O
-vôtre O
+vôtre B-LOC
 . O
 |
 | O
 Si O
 vous O
-l’ B-LOC
+l’ O
 acceptez O
 , O
 je O
@@ -45061,8 +45061,8 @@ honoré O
 | O
 _ O
 — O
-Mon B-MISC
-capitaine I-MISC
+Mon O
+capitaine O
 , O
 tout O
 l' O
@@ -45087,7 +45087,7 @@ Syl- O
 |
 | O
 vain O
-Tixier B-LOC
+Tixier B-PER
 , O
 venez O
 le O
@@ -45129,8 +45129,8 @@ mari O
 
 | O
 18û O
-TROISIÈME B-MISC
-PARTIR O
+TROISIÈME O
+PARTIR B-MISC
 , O
 |
 
@@ -45145,15 +45145,15 @@ juments O
 
 | O
 « O
-Voyons B-LOC
+Voyons B-PER
 , O
 grand O
 Louis B-PER
 , O
-mets O
-- O
-toi O
-D O
+mets B-MISC
+- I-MISC
+toi I-MISC
+D I-MISC
 ; O
 tu O
 vas O
@@ -45204,8 +45204,8 @@ vendre O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 à O
 votre O
@@ -45246,7 +45246,7 @@ passer O
 l' O
 une O
 de O
-l’ B-LOC
+l’ O
 autre O
 ; O
 quand O
@@ -45351,10 +45351,10 @@ pr- O
 | O
 nait O
 la O
-Crise B-LOC
-et O
-la O
-Blanche B-LOC
+Crise B-MISC
+et I-MISC
+la I-MISC
+Blanche I-MISC
 , O
 sauf O
 meilleur O
@@ -45368,7 +45368,7 @@ Vous O
 avez O
 raison O
 , O
-Durand B-LOC
+Durand B-PER
 ; O
 voyons O
 , O
@@ -45457,7 +45457,7 @@ peu O
 cher O
 , O
 maître O
-Tixier B-LOC
+Tixier B-PER
 . O
 |
 
@@ -45508,8 +45508,8 @@ toi O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 répondit O
 grand O
@@ -45520,10 +45520,10 @@ dis O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 , O
 195 O
 |
@@ -45571,7 +45571,7 @@ quittées O
 
 | O
 — O
-Allons B-LOC
+Allons B-MISC
 , O
 puisqu' O
 il O
@@ -45600,8 +45600,8 @@ Vous O
 mon O
 garçon O
 , O
-soyez B-MISC
-tranquille O
+soyez B-PER
+tranquille I-PER
 ; O
 je O
 vous O
@@ -45711,7 +45711,7 @@ maî- O
 |
 | O
 tre O
-Tixier O
+Tixier B-PER
 ; O
 merci O
 de O
@@ -45847,15 +45847,15 @@ ans O
 
 | O
 — O
-Moi B-MISC
-je I-MISC
-ne I-MISC
-me I-MISC
-repens I-MISC
-pas I-MISC
-de I-MISC
-mon I-MISC
-marché I-MISC
+Moi O
+je O
+ne O
+me O
+repens O
+pas O
+de O
+mon O
+marché O
 . O
 |
 | O
@@ -46007,7 +46007,7 @@ occupa O
 moins O
 que O
 de O
-Jo- O
+Jo- B-LOC
 |
 | O
 séphine O
@@ -46121,7 +46121,7 @@ eutem- O
 brassé O
 la O
 petite O
-Annette B-PER
+Annette B-MISC
 ( O
 car O
 Jeanne B-PER
@@ -46189,7 +46189,7 @@ beau-frère O
 | O
 La O
 petite O
-Annette B-PER
+Annette B-MISC
 était O
 si O
 douce O
@@ -46202,7 +46202,7 @@ tranquille O
 qu' O
 on O
 ne O
-l’ B-LOC
+l’ O
 entendait O
 jamais O
 crier O
@@ -46240,7 +46240,7 @@ et O
 on O
 ne O
 la O
-tenaitjamais O
+tenaitjamais B-LOC
 |
 | O
 sur O
@@ -46253,9 +46253,9 @@ bras O
 - O
 “ O
 æ O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 disait O
 maître O
 Tixier B-PER
@@ -46294,10 +46294,10 @@ vu- O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 197 O
 |
@@ -46330,7 +46330,7 @@ vous O
 |
 | O
 en O
-occupez B-LOC
+occupez O
 seulement O
 pas O
 . O
@@ -46395,8 +46395,8 @@ promener O
 
 | O
 — O
-Notre B-LOC
-maître I-LOC
+Notre O
+maître O
 , O
 elle O
 en O
@@ -46484,7 +46484,7 @@ notre O
 maître O
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 la O
@@ -46611,10 +46611,10 @@ quart O
 de O
 lieue O
 du O
-Grand- B-ORG
+Grand- B-LOC
 |
-| I-ORG
-Bail I-ORG
+| O
+Bail B-MISC
 . O
 |
 
@@ -46703,7 +46703,7 @@ Quel O
 profit O
 trouvez O
 -vous O
-done O
+done B-MISC
 , O
 mon O
 père O
@@ -46883,7 +46883,7 @@ tiers O
 de O
 moins O
 , O
-elleés O
+elleés B-PER
 seraient O
 |
 | O
@@ -46895,7 +46895,7 @@ vous O
 coùteraient O
 moins O
 de O
-fa- O
+fa- B-LOC
 |
 | O
 çon O
@@ -46914,7 +46914,7 @@ pourtant O
 vrai O
 , O
 ce O
-quetu O
+quetu B-PER
 dis O
 -là O
 , O
@@ -46933,7 +46933,7 @@ soient O
 oc- O
 |
 | O
-cupées O
+cupées B-LOC
 . O
 |
 
@@ -46953,7 +46953,7 @@ de O
 trè- O
 |
 | O
-fle O
+fle B-ORG
 et O
 de O
 sainfoin O
@@ -47048,7 +47048,7 @@ semaine O
 au O
 moins O
 . O
-Coupez B-LOC
+Coupez O
 votre O
 foin O
 alors O
@@ -47060,7 +47060,7 @@ en O
 aurez O
 davantage O
 , O
-laura O
+laura B-LOC
 plus O
 de O
 goût O
@@ -47069,10 +47069,10 @@ et O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 199 O
 |
@@ -47116,7 +47116,7 @@ si O
 | O
 souvent O
 . O
-Voulez B-LOC
+Voulez O
 -vous O
 me O
 laisser O
@@ -47179,7 +47179,7 @@ et O
 dont O
 la O
 bergerie O
-n’ B-MISC
+n’ O
 est O
 |
 | O
@@ -47190,7 +47190,7 @@ fois O
 par O
 an O
 ; O
-croyez B-MISC
+croyez B-LOC
 -vous O
 y O
 trou- O
@@ -47201,7 +47201,7 @@ du O
 profit O
 ? O
 Mettez B-PER
-done O
+done I-PER
 souvent O
 de O
 la O
@@ -47285,7 +47285,7 @@ bien O
 |
 
 | O
-Siraon B-LOC
+Siraon B-PER
 tire O
 au O
 sort O
@@ -47370,10 +47370,10 @@ refaire O
 |
 | O
 ni O
-l’ B-LOC
+l’ O
 un O
 ni O
-l’ B-LOC
+l’ O
 autre O
 . O
 Si O
@@ -47518,7 +47518,7 @@ coûté O
 . O
 |
 | O
-Éest B-LOC
+Éest B-MISC
 -ce O
 que O
 tu O
@@ -47655,11 +47655,11 @@ mari O
 
 | O
 « O
-Grand B-LOC
-Louis I-LOC
+Grand O
+Louis B-PER
 , O
-Josépineuses B-ORG
-mariée I-ORG
+Josépineuses B-PER
+mariée O
 , O
 nous O
 avons O
@@ -47745,7 +47745,7 @@ avec O
 un O
 jardin O
 par O
-de- O
+de- B-LOC
 |
 | O
 vant O
@@ -47796,7 +47796,7 @@ figure O
 
 | O
 — O
-Tiens B-LOC
+Tiens B-MISC
 , O
 grand O
 Louis B-PER
@@ -47818,7 +47818,7 @@ ai O
 achetée O
 du O
 père O
-Colis B-PER
+Colis O
 ; O
 e' O
 est O
@@ -47843,17 +47843,17 @@ faudra O
 pas O
 longtemps O
 pour O
-qu’ B-PER
+qu’ O
 elle O
 fasse O
 un O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 181 O
 |
@@ -47878,7 +47878,7 @@ maître O
 |
 
 | O
-Tixier B-LOC
+Tixier B-PER
 dit O
 qu' O
 ils O
@@ -48027,7 +48027,7 @@ dessin O
 
 | O
 « O
-Allons B-LOC
+Allons O
 - O
 y O
 tous O
@@ -48042,7 +48042,7 @@ le O
 père O
 |
 | O
-Tixier B-LOC
+Tixier B-PER
 . O
 D O
 ee O
@@ -48080,7 +48080,7 @@ qui O
 avait O
 un O
 petit O
-perrin O
+perrin B-PER
 de O
 dix O
 |
@@ -48249,7 +48249,7 @@ francs O
 pour O
 |
 | O
-Vâtir B-LOC
+Vâtir B-MISC
 cette O
 maison O
 , O
@@ -48269,7 +48269,7 @@ sa O
 bourse O
 . O
 Maître O
-Tixier O
+Tixier B-PER
 |
 | O
 lui O
@@ -48279,7 +48279,7 @@ dit O
 
 | O
 à O
-Ne B-LOC
+Ne O
 t' O
 en O
 inquiète O
@@ -48327,7 +48327,7 @@ façon O
 , O
 tu O
 pourras O
-cor3Fver B-ORG
+cor3Fver O
 |
 | O
 un O
@@ -48450,7 +48450,7 @@ Grand O
 Louis B-PER
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 encore O
@@ -48481,25 +48481,25 @@ pour O
 se O
 procurer O
 des O
-mätériaux O
+mätériaux B-ORG
 . O
 : O
 |
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 je O
 vais O
 prendre O
 le O
 père O
-Par- O
+Par- B-PER
 |
 | O
-naud B-PER
+naud O
 , O
 qui O
 a O
@@ -48600,10 +48600,10 @@ qui O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 193 O
 |
@@ -48611,9 +48611,9 @@ MÈRE B-ORG
 | O
 dans O
 le O
-champ B-LOC
-de I-LOC
-Jeanne I-LOC
+champ O
+de O
+Jeanne B-PER
 , O
 et O
 l' O
@@ -48651,7 +48651,7 @@ elle O
 promenait O
 la O
 petite O
-Annette B-PER
+Annette B-MISC
 jusque O
 là O
 ; O
@@ -48733,9 +48733,9 @@ dit O
 qu' O
 il O
 fallait O
-bècher O
-le O
-jardin O
+bècher B-PER
+le I-PER
+jardin I-PER
 , O
 afin O
 de O
@@ -48809,9 +48809,9 @@ pêcheurs O
 le O
 long O
 du O
-mur B-MISC
-au I-MISC
-midi I-MISC
+mur O
+au O
+midi O
 , O
 et O
 des O
@@ -48820,7 +48820,7 @@ teil- O
 | O
 les O
 qui O
-garniront O
+garniront B-LOC
 notre O
 galerie O
 . O
@@ -48874,10 +48874,10 @@ maître O
 
 | O
 — O
-Un B-MISC
-jour I-MISC
-ils I-MISC
-rapporteront I-MISC
+Un O
+jour O
+ils O
+rapporteront O
 , O
 notre O
 maitre O
@@ -48890,7 +48890,7 @@ sera O
 le O
 profit O
 de O
-Annette B-PER
+Annette B-MISC
 , O
 qui O
 vendra O
@@ -48945,7 +48945,7 @@ Mais O
 la O
 porte O
 de O
-l’ B-LOC
+l’ O
 étable O
 donne O
 sur O
@@ -48969,7 +48969,7 @@ au- O
 
 | O
 138 O
-TROISIÈME B-MISC
+TROISIÈME O
 PARTIE O
 , O
 |
@@ -49033,10 +49033,10 @@ ma O
 maison O
 , O
 Est B-MISC
--ce O
-que O
-vous O
-croyez B-MISC
+-ce I-MISC
+que I-MISC
+vous I-MISC
+croyez I-MISC
 , O
 |
 | O
@@ -49075,12 +49075,12 @@ on O
 fait O
 dans O
 cette O
-Nor- B-MISC
+Nor- O
 |
 | O
 monde O
 où O
-Durand B-LOC
+Durand B-PER
 est O
 resté O
 si O
@@ -49133,7 +49133,7 @@ donne O
 comment O
 pourraient O
 -ils O
-s’ B-PER
+s’ O
 accoutumer O
 à O
 la O
@@ -49173,8 +49173,8 @@ plantations O
 et O
 |
 | O
-M. O
-Dumont B-PER
+M. B-PER
+Dumont I-PER
 dit O
 que O
 les O
@@ -49252,8 +49252,8 @@ peindre O
 tous O
 Îles B-LOC
 |
-| I-LOC
-bois I-LOC
+| O
+bois O
 qui O
 sont O
 exposés O
@@ -49353,7 +49353,7 @@ Oui O
 monsieur O
 ; O
 il O
-n’ B-PER
+n’ O
 est O
 pas O
 maladroit O
@@ -49372,16 +49372,16 @@ bout O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 188 O
 |
 
 | O
-Jonpne B-MISC
+Jonpne B-PER
 admir O
 sa O
 maison O
@@ -49434,16 +49434,16 @@ lâtre O
 l' O
 intérieur O
 , O
-Elle B-MISC
-avait I-MISC
-eu I-MISC
+Elle O
+avait O
+eu O
 |
-| I-MISC
-pendant I-MISC
-l' I-MISC
-hiver I-MISC
-un I-MISC
-garçon I-MISC
+| O
+pendant O
+l' O
+hiver O
+un O
+garçon O
 à O
 qui O
 son O
@@ -49460,7 +49460,7 @@ donné O
 le O
 nom O
 de O
-Sylvan B-LOC
+Sylvan B-PER
 , O
 et O
 elle O
@@ -49540,7 +49540,7 @@ disait O
 
 | O
 « O
-Hein B-MISC
+Hein B-PER
 ! O
 comme O
 tu O
@@ -49659,8 +49659,8 @@ des O
 meubles O
 , O
 petite O
-Jeanne B-MISC
-! I-MISC
+Jeanne B-PER
+! O
 sais O
 - O
 tu O
@@ -49733,8 +49733,8 @@ avoir O
 un O
 |
 | O
-joli B-PER
-mobilier I-PER
+joli O
+mobilier O
 ; O
 il O
 a O
@@ -49759,8 +49759,8 @@ raisonnable O
 
 | O
 136 O
-TROISIENE B-ORG
-PARTIR I-ORG
+TROISIENE B-MISC
+PARTIR I-MISC
 , O
 |
 
@@ -49802,7 +49802,7 @@ lit O
 
 | O
 — O
-Kh B-LOC
+Kh O
 bien O
 ! O
 moi O
@@ -50022,7 +50022,7 @@ pain O
 - O
 Et O
 où O
-done O
+done B-MISC
 veux O
 - O
 tu O
@@ -50048,7 +50048,7 @@ l' O
 aura O
 passé O
 par O
-l’ B-ORG
+l’ O
 eau O
 ? O
 Il O
@@ -50097,7 +50097,7 @@ crois O
 - O
 tu O
 que O
-cé O
+cé B-PER
 serait O
 bier O
 . O
@@ -50126,7 +50126,7 @@ père O
 
 | O
 = O
-Allons B-LOC
+Allons B-MISC
 , O
 dit O
 maître O
@@ -50156,10 +50156,10 @@ le O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSER I-PER
-ET O
-MERE B-ORG
+JEANNE O
+ÉPOUSER B-MISC
+ET I-MISC
+MERE I-MISC
 . O
 187 O
 |
@@ -50184,7 +50184,7 @@ main O
 , O
 que O
 je O
-n’ B-PER
+n’ O
 en O
 voudrais O
 pas O
@@ -50216,7 +50216,7 @@ La B-MISC
 prendre I-MISC
 tout I-MISC
 simplement I-MISC
-? O
+? I-MISC
 D' O
 ailleurs O
 , O
@@ -50319,7 +50319,7 @@ ennuie O
 Ah B-MISC
 ! I-MISC
 écoute O
-done O
+done B-MISC
 ce O
 que O
 je O
@@ -50349,9 +50349,9 @@ lui O
 disais O
 : O
 « O
-Fauch B-LOC
-tes O
-prés O
+Fauch B-MISC
+tes I-MISC
+prés I-MISC
 , O
 tu O
 laisses O
@@ -50418,9 +50418,9 @@ pluie O
 | O
 « O
 comment O
-ferais B-LOC
-- I-LOC
-tu I-LOC
+ferais O
+- O
+tu O
 ? O
 — O
 Bah B-MISC
@@ -50552,10 +50552,10 @@ est O
 venu O
 demander O
 à O
-Étienne B-MISC
-la O
-grande O
-voiture O
+Étienne B-PER
+la I-PER
+grande I-PER
+voiture I-PER
 à O
 |
 | O
@@ -50594,8 +50594,8 @@ boive O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 dit O
 grand O
@@ -50607,8 +50607,8 @@ Prévôt B-PER
 
 | O
 1la8 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE B-ORG
 . O
 |
 
@@ -50791,7 +50791,7 @@ et O
 la O
 voiture O
 à O
-ri- O
+ri- B-LOC
 |
 | O
 delles O
@@ -50882,7 +50882,7 @@ elle O
 Et O
 la O
 petite O
-Annette B-LOC
+Annette B-MISC
 ? O
 |
 
@@ -50903,8 +50903,8 @@ emmènerie O
 | O
 comme O
 Jeanne B-PER
-emmène I-PER
-Sylvain I-PER
+emmène O
+Sylvain B-MISC
 . O
 » O
 |
@@ -50978,9 +50978,9 @@ Jeanne B-PER
 
 | I-PER
 JEANNE I-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 139 O
 |
@@ -51216,7 +51216,7 @@ Jeanne B-PER
 à O
 Louise B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 plus O
 cossu O
@@ -51309,12 +51309,12 @@ ménage O
 
 | O
 « O
-Vois B-LOC
-done O
+Vois B-PER
+done I-PER
 , O
 ma O
-Louise B-MISC
-! I-MISC
+Louise B-PER
+! O
 j' O
 avais O
 apporté O
@@ -51352,10 +51352,10 @@ ménage O
 
 | O
 — O
-Que B-LOC
-veux I-LOC
-- I-LOC
-tu I-LOC
+Que B-MISC
+veux I-MISC
+- I-MISC
+tu I-MISC
 , O
 ma O
 pauvre O
@@ -51363,7 +51363,7 @@ Jeanne B-PER
 ? O
 on O
 ne O
-s’ B-LOC
+s’ O
 y O
 |
 
@@ -51430,7 +51430,7 @@ son O
 lit O
 , O
 et O
-de- O
+de- B-LOC
 |
 | O
 manda O
@@ -51560,7 +51560,7 @@ Jeanne B-PER
 déménage O
 peu O
 à O
-dôu O
+dôu B-LOC
 . O
 |
 
@@ -51655,7 +51655,7 @@ de O
 toi O
 |
 | O
-jusqu’ B-PER
+jusqu’ O
 après O
 les O
 vendanges O
@@ -51689,8 +51689,8 @@ ici O
 
 | O
 — O
-Petite B-LOC
-Jeanne I-LOC
+Petite B-PER
+Jeanne I-PER
 , O
 je O
 te O
@@ -51745,12 +51745,12 @@ peu O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
-lai O
+lai B-MISC
 |
 
 | O
@@ -51943,9 +51943,9 @@ s' O
 
 | O
 « O
-Tiens B-LOC
-! O
-c’ B-MISC
+Tiens B-MISC
+! I-MISC
+c’ O
 est O
 le O
 colporteur O
@@ -51972,7 +51972,7 @@ qui O
 lui O
 traversait O
 le O
-fran O
+fran B-LOC
 . O
 |
 
@@ -52129,8 +52129,8 @@ aura- O
 | O
 149 O
 : O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE B-ORG
 . O
 |
 
@@ -52162,7 +52162,7 @@ animaux O
 |
 | O
 qui O
-neùs O
+neùs B-PER
 rendent O
 service O
 ; O
@@ -52262,8 +52262,8 @@ Claude B-PER
 
 | O
 — O
-Ma B-PER
-Solange I-PER
+Ma B-MISC
+Solange I-MISC
 est O
 mariée O
 et O
@@ -52284,8 +52284,8 @@ aussi O
 à O
 |
 | O
-M. O
-Dumont B-PER
+M. B-PER
+Dumont I-PER
 ; O
 Claude B-PER
 a O
@@ -52484,7 +52484,7 @@ très O
 déau O
 |
 | O
-foulard B-PER
+foulard O
 . O
 Il O
 offrit O
@@ -52498,7 +52498,7 @@ filles O
 | O
 mariées O
 , O
-l’ B-LOC
+l’ O
 autre O
 à O
 Jeanne B-PER
@@ -52536,8 +52536,8 @@ maître O
 
 | O
 « O
-Mon O
-garçon O
+Mon B-MISC
+garçon I-MISC
 , O
 dit O
 celui O
@@ -52554,10 +52554,10 @@ que O
  
 
 | O
-JEANNE B-ORG
-ÉPOUSE I-ORG
-ET O
-MERE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MERE I-MISC
 , O
 143 O
 |
@@ -52581,7 +52581,7 @@ chose O
 , O
 mais O
 je O
-n’ B-PER
+n’ O
 accepterai O
 rien O
 , O
@@ -52784,8 +52784,8 @@ le O
 pays O
 . O
 Chacun O
-s’ B-PER
-approcha I-PER
+s’ O
+approcha O
 et O
 acheta O
 |
@@ -52887,7 +52887,7 @@ mai- O
 son O
 et O
 ensuite O
-l’ B-LOC
+l’ O
 on O
 se O
 mit O
@@ -52914,8 +52914,8 @@ qui O
 
 | O
 laû O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE B-ORG
 . O
 |
 
@@ -52925,7 +52925,7 @@ se O
 levait O
 plus O
 . O
-Solange B-PER
+Solange B-MISC
 était O
 venue O
 aussi O
@@ -52939,7 +52939,7 @@ mari O
 
 | O
 « O
-Te O
+Te B-LOC
 voilà O
 donc O
 dans O
@@ -53071,8 +53071,8 @@ sa O
 petite O
 |
 | O
-Annette B-PER
-! I-PER
+Annette B-MISC
+! I-MISC
 y O
 t O
 -il O
@@ -53084,8 +53084,8 @@ sens O
 
 | O
 — O
-Notre B-MISC
-maître I-MISC
+Notre O
+maître O
 , O
 est O
 -ce O
@@ -53147,12 +53147,12 @@ travailler O
 
 | O
 — O
-Soyez B-LOC
-tranquille O
-, O
-notre O
-maître O
-! O
+Soyez B-MISC
+tranquille I-MISC
+, I-MISC
+notre I-MISC
+maître I-MISC
+! I-MISC
 ce O
 -qui O
 entre O
@@ -53302,10 +53302,10 @@ faciles O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 5 O
 |
@@ -53360,7 +53360,7 @@ proprement O
 
 | O
 — O
-Voyez B-MISC
+Voyez O
 donc O
 grand O
 Louis B-PER
@@ -53447,8 +53447,8 @@ les O
 d- O
 |
 | O
-mes O
-Dumont B-PER
+mes B-PER
+Dumont I-PER
 ne O
 lui O
 avaient O
@@ -53494,8 +53494,8 @@ Aussi O
 , O
 après O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 qui O
 m' O
 a O
@@ -53635,7 +53635,7 @@ jeune O
 marchand O
 qui O
 vous O
-l’ B-LOC
+l’ O
 a O
 |
 | O
@@ -53669,7 +53669,7 @@ un O
 brave O
 cœur O
 qui O
-n’ B-PER
+n’ O
 a O
 ou- O
 |
@@ -53687,9 +53687,9 @@ obligé O
 
 | O
 — O
-Tu O
-as O
-done O
+Tu B-MISC
+as I-MISC
+done I-MISC
 fait O
 de O
 bonnes O
@@ -53713,7 +53713,7 @@ PARTIE I-MISC
 
 | O
 maître O
-Tixier B-LOC
+Tixier B-PER
 en O
 s' O
 adressant O
@@ -54042,7 +54042,7 @@ depuis O
 huit O
 ans O
 . O
-Jugez B-MISC
+Jugez O
 si O
 j' O
 ai O
@@ -54082,20 +54082,20 @@ son O
 J' B-MISC
 ai I-MISC
 pu I-MISC
-lui I-MISC
-acheter I-MISC
-le I-MISC
-fonds I-MISC
-d' I-MISC
-un I-MISC
-de I-MISC
+lui O
+acheter O
+le O
+fonds O
+d' O
+un O
+de O
 |
-| I-MISC
-ces I-MISC
-petits I-MISC
-commerces I-MISC
-des I-MISC
-rues I-MISC
+| O
+ces O
+petits O
+commerces O
+des O
+rues O
 , O
 qui O
 , O
@@ -54106,10 +54106,10 @@ suf- O
 |
 
 | O
-JEANNE B-ORG
-EPOUSE I-ORG
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+EPOUSE I-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 147 O
 |
@@ -54487,7 +54487,7 @@ sauve- O
 
 | O
 148 O
-TROISIÈME B-MISC
+TROISIÈME O
 PARTIE O
 , O
 |
@@ -54582,7 +54582,7 @@ donner O
 de O
 La B-MISC
 peine I-MISC
-: I-MISC
+: O
 pourquoi O
 ne O
 voudriez- O
@@ -54630,7 +54630,7 @@ curé O
 Eh B-MISC
 bien I-MISC
 ! I-MISC
-merci O
+merci I-MISC
 de O
 votre O
 générosité O
@@ -54653,7 +54653,7 @@ ne O
 se- O
 |
 | O
-rai B-ORG
+rai O
 pas O
 fâchée O
 d' O
@@ -54679,8 +54679,8 @@ ren- O
 | O
 traient O
 au O
-Grand B-LOC
-Bail I-LOC
+Grand B-MISC
+Bail I-MISC
 : O
 |
 
@@ -54798,10 +54798,10 @@ ensemble O
 — O
 hui O
 en O
-as B-LOC
-- I-LOC
-tu I-LOC
-parlé I-LOC
+as O
+- O
+tu O
+parlé O
 ? O
 |
 
@@ -54856,7 +54856,7 @@ chez O
 maître O
 |
 | O
-Tixier B-LOC
+Tixier B-PER
 , O
 et O
 , O
@@ -54872,10 +54872,10 @@ faits O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 , O
 149 O
 |
@@ -54886,7 +54886,7 @@ famille O
 Dumont B-PER
 vont O
 voir O
-Jeanno B-PER
+Jeanno B-LOC
 . O
 |
 
@@ -54918,7 +54918,7 @@ emménagée O
 |
 | O
 « O
-Sais O
+Sais B-LOC
 - O
 tu O
 que O
@@ -55122,7 +55122,7 @@ suite O
 après O
 avoir O
 sevré O
-Sylvain B-MISC
+Sylvain B-PER
 . O
 Quand O
 vous O
@@ -55135,11 +55135,11 @@ quelqu' O
 un O
 , O
 ne O
-m’ B-PER
+m’ O
 oubliez O
 pas O
 , O
-s’ B-PER
+s’ O
 il O
 vous O
 |
@@ -55156,7 +55156,7 @@ plaît O
 Et O
 la O
 petite O
-Annette B-LOC
+Annette B-MISC
 , O
 qu' O
 en O
@@ -55180,7 +55180,7 @@ mènera O
 au O
 Grand-Bail B-LOC
 , O
-amsi O
+amsi B-LOC
 que O
 son O
 |
@@ -55195,7 +55195,7 @@ de O
 la O
 maison O
 : O
-Nan- O
+Nan- B-LOC
 |
 | O
 nette O
@@ -55230,8 +55230,8 @@ frais O
 , O
 ton O
 , O
-Sylvain B-MISC
-! I-MISC
+Sylvain B-PER
+! O
 Jeanne B-PER
 ; O
 si O
@@ -55250,22 +55250,22 @@ nourriras O
 , O
 dit O
 Mme B-PER
-faure O
+faure I-PER
 . O
 |
 
 | O
 150 O
 TROISIÈME B-MISC
-PARTIR O
+PARTIR I-MISC
 . O
 |
 
 | O
 — O
 Aves B-PER
-grand I-PER
-plaisir I-PER
+grand O
+plaisir O
 , O
 du O
 chère O
@@ -55624,10 +55624,10 @@ pour O
  
 
 | O
-JEANNE B-PER
-ÉPOUSER I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSER I-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 151 O
 |
@@ -55660,14 +55660,14 @@ l' O
 |
 
 | O
-sn B-MISC
+sn O
 |
 
   
  
 
-| I-MISC
-EM B-ORG
+| O
+EM O
 |
 
 | O
@@ -55692,8 +55692,8 @@ y O
 
 | O
 CAN B-MISC
-LE O
-2 O
+LE I-MISC
+2 I-MISC
 : O
 |
 | O
@@ -55745,15 +55745,15 @@ champs O
 | O
 { O
 62 O
-TROISIÈME O
-PARTIE O
+TROISIÈME B-MISC
+PARTIE I-MISC
 . O
 |
 
 | O
 — O
-Vous B-PER
-croyez I-PER
+Vous O
+croyez O
 donc O
 que O
 cette O
@@ -55818,7 +55818,7 @@ toi O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 je O
 mets O
@@ -55948,11 +55948,11 @@ maître O
 | O
 Tixier B-PER
 du I-PER
-Grond B-ORG
-- I-ORG
-Bail I-ORG
+Grond I-PER
+- I-PER
+Bail I-PER
 . O
-UT O
+UT B-ORG
 |
 
 | O
@@ -55970,7 +55970,7 @@ celui O
 -là O
 ? O
 7 O
-O O
+O B-LOC
 |
 
 | O
@@ -55991,7 +55991,7 @@ mieux O
 , O
 et O
 il O
-s’ B-PER
+s’ O
 y O
 entend O
 bien O
@@ -56002,7 +56002,7 @@ dit O
 |
 | O
 que O
-c’ B-MISC
+c’ O
 est O
 un O
 excellent O
@@ -56016,7 +56016,7 @@ cultivateur O
 | O
 |||| O
 + O
-Jeñne B-PER
+Jeñne O
 a O
 grande O
 envie O
@@ -56072,7 +56072,7 @@ trois O
 si O
 Mme B-PER
 Isaure I-PER
-t' O
+t' I-PER
 en O
 donne O
 un O
@@ -56115,10 +56115,10 @@ mère O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 , O
 158 O
 |
@@ -56189,9 +56189,9 @@ soir O
 . O
 Car O
 , O
-vois B-LOC
-- I-LOC
-tu I-LOC
+vois O
+- O
+tu O
 , O
 je O
 veux O
@@ -56220,8 +56220,8 @@ fait O
 au O
 |
 | O
-Grand O
-Bail B-LOC
+Grand B-MISC
+Bail I-MISC
 ; O
 j' O
 ai O
@@ -56282,11 +56282,11 @@ tues O
 l' O
 ouvrage O
 , O
-je O
+je B-MISC
 |
-| O
-Ven O
-avertis O
+| I-MISC
+Ven I-MISC
+avertis I-MISC
 . O
 L' O
 autre O
@@ -56357,14 +56357,14 @@ de O
 rester O
 sans O
 le O
-sou B-LOC
+sou O
 . O
 » O
 |
 
 | O
-Grand B-PER
-Louis I-PER
+Grand O
+Louis B-PER
 alla O
 voir O
 le O
@@ -56476,7 +56476,7 @@ la O
 grange O
 , O
 du O
-Grand-Bal B-LOC
+Grand-Bal B-ORG
 ; O
 il O
 fit O
@@ -56529,7 +56529,7 @@ bonne O
 
 | O
 156 O
-TROISIEME B-MISC
+TROISIEME O
 PARTIE O
 , O
 |
@@ -56542,7 +56542,7 @@ rente O
 viagère O
 du O
 père O
-Colis B-PER
+Colis B-MISC
 . O
 Jeanne B-PER
 |
@@ -56570,8 +56570,8 @@ fatigue O
 |
 
 | O
-Mmo B-LOC
-Isaure I-LOC
+Mmo B-PER
+Isaure I-PER
 donne O
 un O
 enfant O
@@ -56664,7 +56664,7 @@ serais O
 bientôt O
 épuisée O
 ; O
-situ B-PER
+situ O
 veux O
 |
 | O
@@ -56683,9 +56683,9 @@ mois O
 
 | O
 — O
-Merci B-PER
+Merci B-MISC
 , O
-madame O
+madame B-PER
 , O
 je O
 le O
@@ -56899,9 +56899,9 @@ mois O
 
 | O
 — O
-De B-MISC
-mes I-MISC
-mois I-MISC
+De O
+mes O
+mois O
 , O
 ma O
 chère O
@@ -56913,10 +56913,10 @@ que O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 155 O
 |
@@ -56980,7 +56980,7 @@ enfant O
 Ma O
 récompense O
 , O
-madame O
+madame B-PER
 , O
 ce O
 sera O
@@ -57089,7 +57089,7 @@ pleurant O
 
 | O
 — O
-Ne B-LOC
+Ne O
 se O
 désole O
 pas O
@@ -57265,8 +57265,8 @@ disaient O
 
 | O
 156 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE B-ORG
 . O
 |
 
@@ -57320,7 +57320,7 @@ ils O
 soient O
 sales O
 ? O
-Voyez B-MISC
+Voyez O
 s' O
 ils O
 ont O
@@ -57452,7 +57452,7 @@ lit O
 je O
 |
 | O
-les- O
+les- B-LOC
 mets O
 en O
 presse O
@@ -57503,8 +57503,8 @@ tits O
 
 | O
 — O
-Dame O
-! O
+Dame B-MISC
+! I-MISC
 j' O
 y O
 fais O
@@ -57584,7 +57584,7 @@ argent O
 
 | O
 Mme B-PER
-laure O
+laure I-PER
 venait O
 voir O
 tous O
@@ -57603,7 +57603,7 @@ vue O
 d' O
 œil O
 , O
-et- O
+et- B-LOC
 elle O
 remerciait O
 |
@@ -57618,7 +57618,7 @@ soins O
 
 | O
 “ O
-M2 B-MISC
+M2 O
 chère O
 dame O
 , O
@@ -57659,10 +57659,10 @@ Je O
  
 
 | O
-JEANNE B-ORG
-ÉPOUSE I-ORG
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 1957 O
 |
@@ -57833,11 +57833,11 @@ le O
 monde O
 partit O
 . O
-|||| O
+|||| B-PER
 |
 
-| O
-Jeanne B-PER
+| I-PER
+Jeanne I-PER
 , O
 qui O
 était O
@@ -57849,7 +57849,7 @@ de O
 son O
 |
 | O
-nourrisson B-PER
+nourrisson O
 , O
 descendit O
 pour O
@@ -57979,7 +57979,7 @@ te O
 « O
 Est O
 -ce O
-quetu O
+quetu B-MISC
 deviens O
 folle O
 , O
@@ -58034,8 +58034,8 @@ Jeanne B-PER
 
 | O
 158 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE O
 . O
 |
 
@@ -58198,7 +58198,7 @@ si O
 |
 | O
 nous O
-n’ B-PER
+n’ O
 en O
 trouvions O
 pas O
@@ -58228,7 +58228,7 @@ cun O
 |
 
 | O
-Annette B-PER
+Annette B-MISC
 a O
 mal O
 aux O
@@ -58411,10 +58411,10 @@ remèdes O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 159 O
 |
@@ -58525,7 +58525,7 @@ encore O
 si O
 le O
 mal O
-n’ B-PER
+n’ O
 est O
 pas O
 devenu O
@@ -58699,7 +58699,7 @@ par O
 - O
 dessus O
 tout O
-qu’ B-LOC
+qu’ O
 elle O
 ne O
 vit O
@@ -58720,7 +58720,7 @@ caractère O
 
 | O
 Annette B-PER
-s’ I-PER
+s’ O
 ennuyait O
 un O
 peu O
@@ -58783,7 +58783,7 @@ sa O
 | O
 160 O
 TROISIÈME B-MISC
-PARTIE O
+PARTIE I-MISC
 . O
 |
 
@@ -59111,8 +59111,8 @@ entant O
 |
 
 | O
-JEANNE B-ORG
-ÊPOUSE I-ORG
+JEANNE B-PER
+ÊPOUSE I-PER
 Et O
 MÂRE B-ORG
 161 O
@@ -59120,8 +59120,8 @@ MÂRE B-ORG
 
 | O
 La O
-petite B-LOC
-Annette I-LOC
+petite O
+Annette B-MISC
 comprend O
 le O
 chagrin O
@@ -59321,7 +59321,7 @@ Oui O
 ma O
 mère O
 , O
-soyez B-MISC
+soyez O
 tranquille O
 ; O
 d' O
@@ -59332,7 +59332,7 @@ ailleurs O
 puisque O
 Dieu B-MISC
 nous O
-l’ B-LOC
+l’ O
 a O
 donné O
 comme O
@@ -59340,7 +59340,7 @@ comme O
 , O
 il O
 faut O
-l’ B-LOC
+l’ O
 ai- O
 |
 | O
@@ -59455,7 +59455,7 @@ bien O
 ailleurs O
 . O
 Il O
-s’ B-LOC
+s’ O
 atta- O
 |
 | O
@@ -59490,13 +59490,13 @@ que O
 tout O
 |
 | O
-M B-PER
+M B-LOC
 |
 
 | O
 162 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE O
 . O
 |
 
@@ -59544,8 +59544,8 @@ mé- O
 decin O
 et O
 M. B-PER
-le I-PER
-euré I-PER
+le O
+euré O
 , O
 qui O
 venait O
@@ -59661,7 +59661,7 @@ pasé O
 sa O
 plume O
 . O
-Annette B-PER
+Annette B-MISC
 allait O
 avoir O
 douze O
@@ -59676,7 +59676,7 @@ sa O
 première O
 communion O
 . O
-Sylvain B-MISC
+Sylvain B-PER
 était O
 |
 | O
@@ -59798,7 +59798,7 @@ générale O
 Maître O
 |
 | O
-Tixier O
+Tixier B-PER
 éprouva O
 de O
 grandes O
@@ -59816,7 +59816,7 @@ partout O
 . O
 Mais O
 chez O
-lé O
+lé B-ORG
 pauvre O
 |
 | O
@@ -59868,10 +59868,10 @@ auparavant O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE O
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 163 O
 |
@@ -60020,9 +60020,9 @@ la O
 pension O
 du O
 père O
-Colis B-PER
+Colis B-MISC
 . O
-Cum- O
+Cum- B-MISC
 |
 | O
 ment O
@@ -60038,9 +60038,9 @@ tout O
 
 | O
 — O
-Console B-LOC
-- I-LOC
-toi I-LOC
+Console B-MISC
+- I-MISC
+toi I-MISC
 , O
 grand O
 Louis B-PER
@@ -60087,9 +60087,9 @@ le O
 mari O
 de O
 Louise B-PER
-de I-PER
-la I-PER
-prendra I-PER
+de O
+la O
+prendra O
 et O
 |
 | O
@@ -60123,10 +60123,10 @@ vendue O
 
 | O
 — O
-Combien B-LOC
-comptes I-LOC
-- I-LOC
-tu I-LOC
+Combien O
+comptes O
+- O
+tu O
 en O
 retirer O
 ? O
@@ -60180,7 +60180,7 @@ au O
 père O
 |
 | O
-Colis B-PER
+Colis B-MISC
 , O
 et O
 , O
@@ -60193,8 +60193,8 @@ journées O
 maître O
 Tixier B-PER
 |
-| I-PER
-jusqu’ I-PER
+| O
+jusqu’ O
 à O
 ce O
 qu’ O
@@ -60244,7 +60244,7 @@ aller O
 trouver O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 , O
 et O
 lui O
@@ -60353,7 +60353,7 @@ tu O
 | O
 Le O
 père O
-Colis B-PER
+Colis O
 fait O
 faire O
 un O
@@ -60425,16 +60425,16 @@ entrèrent O
 chez O
 le O
 père O
-Colis B-PER
+Colis O
 . O
 |
 
 | O
 « O
-Mon O
-petit O
-père O
-Colis B-PER
+Mon B-MISC
+petit I-MISC
+père I-MISC
+Colis I-MISC
 , O
 dit O
 Jeanne B-PER
@@ -60500,7 +60500,7 @@ année O
 , O
 son O
 père O
-Colis B-PER
+Colis B-MISC
 . O
 |
 
@@ -60579,9 +60579,9 @@ argent O
 
 | O
 — O
-Tu B-MISC
-as I-MISC
-tort I-MISC
+Tu O
+as O
+tort O
 de O
 t' O
 en O
@@ -60606,7 +60606,7 @@ contraire O
 et O
 j' O
 ai O
-grand”- B-LOC
+grand”- O
 |
 
 | O
@@ -60618,10 +60618,10 @@ vivre O
 
 | O
 — O
-Mon O
-petit O
-père O
-Colis B-PER
+Mon B-MISC
+petit I-MISC
+père I-MISC
+Colis I-MISC
 , O
 dit O
 Jeanne B-PER
@@ -60645,10 +60645,10 @@ avons O
 |
 
 | O
-JEANNE B-PER
-EPOUSE I-PER
-ET O
-MERE B-ORG
+JEANNE B-MISC
+EPOUSE I-MISC
+ET I-MISC
+MERE I-MISC
 . O
 165 O
 |
@@ -60658,7 +60658,7 @@ MERE B-ORG
 Si O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 ne O
 veut O
 pas O
@@ -60699,7 +60699,7 @@ village O
 
 | O
 — O
-Allons B-LOC
+Allons B-MISC
 , O
 grand O
 Louis B-PER
@@ -60751,13 +60751,13 @@ dit O
 
 | O
 — O
-Je B-MISC
-serais I-MISC
-aussi I-MISC
-embarrassé I-MISC
-de I-MISC
-vous I-MISC
-payer I-MISC
+Je O
+serais O
+aussi O
+embarrassé O
+de O
+vous O
+payer O
 |
 | O
 alors O
@@ -60778,7 +60778,7 @@ longtemps O
 à O
 me O
 remettre O
-d’ B-PER
+d’ O
 un O
 coup O
 pareil O
@@ -60853,7 +60853,7 @@ ailleurs O
 
 | O
 — O
-Attends B-LOC
+Attends O
 donc O
 un O
 instant O
@@ -60904,7 +60904,7 @@ les O
 bien O
 étonnée O
 qu' O
-ine O
+ine B-ORG
 fût O
 pas O
 |
@@ -61013,7 +61013,7 @@ Ils O
 remercièrent O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 de O
 sa O
 complai- O
@@ -61036,7 +61036,7 @@ sortir O
 quand O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 dit O
 : O
 |
@@ -61058,7 +61058,7 @@ vous O
 
 | O
 166 O
-TROISIÈME B-MISC
+TROISIÈME O
 PARTIE O
 . O
 |
@@ -61093,7 +61093,7 @@ avance O
 |
 | O
 .— O
-Combien B-LOC
+Combien O
 faut O
 -il O
 donc O
@@ -61102,7 +61102,7 @@ donc O
 
 | O
 — O
-Cinquante B-LOC
+Cinquante O
 francs O
 , O
 mes O
@@ -61112,9 +61112,9 @@ enfants O
 
 | O
 — O
-Cinquante B-LOC
-francs O
-! O
+Cinquante B-MISC
+francs I-MISC
+! I-MISC
 dit O
 grand O
 Louis B-PER
@@ -61158,7 +61158,7 @@ laisser O
 | O
 : O
 — O
-Parler B-PER
+Parler O
 , O
 je O
 trouverai O
@@ -61176,8 +61176,8 @@ ailleurs O
 
 | O
 — O
-Père B-PER
-Colis I-PER
+Père B-MISC
+Colis I-MISC
 , O
 dit O
 Jeanne B-PER
@@ -61222,7 +61222,7 @@ donc O
 , O
 Jeanne B-PER
 ; O
-tn O
+tn B-PER
 fais O
 de O
 moi O
@@ -61271,7 +61271,7 @@ la O
 rente O
 de O
 père O
-Colis B-PER
+Colis B-MISC
 . O
 |
 
@@ -61315,7 +61315,7 @@ le O
 père O
 |
 | O
-Colis B-PER
+Colis B-MISC
 ne O
 dira O
 pas O
@@ -61379,7 +61379,7 @@ pas O
 que O
 le O
 père O
-Colis B-PER
+Colis B-MISC
 est O
 un O
 |
@@ -61422,7 +61422,7 @@ es- O
 | O
 time O
 que O
-çe O
+çe B-ORG
 qu' O
 il O
 vaut O
@@ -61443,10 +61443,10 @@ décrier O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 167 O
 |
@@ -61459,17 +61459,17 @@ trente O
 francs O
 au O
 père O
-Colis B-PER
+Colis B-MISC
 ; O
 |
 | O
 mais O
-Le B-MISC
-lendemain I-MISC
-il I-MISC
-vint I-MISC
-tout I-MISC
-tremblant I-MISC
+Le O
+lendemain O
+il O
+vint O
+tout O
+tremblant O
 lui O
 en O
 |
@@ -61521,7 +61521,7 @@ au O
 père O
 |
 | O
-Tixier B-LOC
+Tixier B-PER
 . O
 |
 
@@ -61724,8 +61724,8 @@ complaisance O
 
 | O
 — O
-Grand B-LOC
-Louis I-LOC
+Grand O
+Louis B-PER
 , O
 prends O
 garde O
@@ -61736,7 +61736,7 @@ me O
 trop- O
 |
 | O
-pes O
+pes B-MISC
 , O
 je O
 ne O
@@ -61783,7 +61783,7 @@ sier O
 ; O
 souvent O
 elle O
-n’ B-PER
+n’ O
 acheta O
 que O
 de O
@@ -61810,7 +61810,7 @@ comptait O
 | O
 168 O
 TROISIÈME B-MISC
-PARTIE I-MISC
+PARTIE O
 . O
 |
 
@@ -61849,7 +61849,7 @@ même O
 pas O
 fait O
 de O
-vendange B-PER
+vendange O
 ; O
 enfin O
 , O
@@ -61923,7 +61923,7 @@ lui O
 . O
 |
 | O
-Sylvain B-MISC
+Sylvain B-PER
 mangeait O
 chez O
 le O
@@ -61932,7 +61932,7 @@ euré O
 qui O
 avait O
 bien O
-de- O
+de- B-LOC
 |
 | O
 viné O
@@ -62084,21 +62084,21 @@ enfants O
 
 | O
 . O
-Maître O
-Tixier O
+Maître B-PER
+Tixier I-PER
 découvre O
 la O
-gène B-LOC
-de I-LOC
-Jeanne I-LOC
+gène O
+de O
+Jeanne B-PER
 . O
 |
 
 | O
-Un O
-jour O
-du O
-printemps O
+Un B-MISC
+jour I-MISC
+du I-MISC
+printemps I-MISC
 , O
 maître O
 Tixier B-PER
@@ -62170,18 +62170,18 @@ comme O
 que O
 grand O
 Louis B-PER
-ma I-PER
+ma O
 |
-| I-PER
-trompé I-PER
+| O
+trompé O
 ! O
-Monsieur B-PER
+Monsieur O
 le O
 curé O
 , O
-jugez B-PER
--en I-PER
-! I-PER
+jugez O
+-en O
+! O
 J' O
 ai O
 voulu O
@@ -62190,9 +62190,9 @@ lui O
 
 | O
 .JEANNE O
-ÉPOUSE B-ORG
-ET O
-MÈRE B-ORG
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 169 O
 |
@@ -62302,10 +62302,10 @@ aussi O
 
 | O
 — O
-Tu B-MISC
-as I-MISC
-beau I-MISC
-dire I-MISC
+Tu O
+as O
+beau O
+dire O
 , O
 Jeanne B-PER
 , O
@@ -62390,7 +62390,7 @@ porcs O
 
 | O
 — O
-Voyez B-MISC
+Voyez O
 -vous O
 , O
 monsieur O
@@ -62403,7 +62403,7 @@ dis O
 |
 | O
 que O
-c’ B-MISC
+c’ O
 est O
 de O
 l' O
@@ -62431,7 +62431,7 @@ m' O
 étonne O
 que O
 vous O
-n’ B-PER
+n’ O
 avez O
 pas O
 voulu O
@@ -62587,8 +62587,8 @@ suffire O
 à O
 présent O
 . O
-L’ B-PER
-herbe I-PER
+L’ O
+herbe O
 pousse O
 . O
 et O
@@ -62602,7 +62602,7 @@ ne O
 | O
 170 O
 TROISIÈME B-MISC
-PARTIE O
+PARTIE I-MISC
 . O
 |
 
@@ -62716,8 +62716,8 @@ rendre O
 | O
 compte O
 aux O
-dames O
-Dumont B-PER
+dames B-PER
+Dumont I-PER
 . O
 » O
 |
@@ -62797,7 +62797,7 @@ qui O
 ne O
 faisait O
 mall O
-Toi B-MISC
+Toi B-PER
 , O
 mon O
 |
@@ -62830,7 +62830,7 @@ su O
 
 | O
 — O
-Ma B-PER
+Ma O
 chère O
 dame O
 , O
@@ -62935,7 +62935,7 @@ donner O
 l' O
 habitude O
 de O
-de- O
+de- B-LOC
 |
 | O
 manger O
@@ -62973,7 +62973,7 @@ l' O
 assure O
 ; O
 ils O
-n’ B-PER
+n’ O
 ont O
 pas O
 trop O
@@ -62995,10 +62995,10 @@ maigres O
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 171 O
 |
@@ -63220,8 +63220,8 @@ compter O
 |
 
 | O
-Grand B-PER
-Louis I-PER
+Grand O
+Louis B-PER
 fait O
 une O
 terrible O
@@ -63251,7 +63251,7 @@ des O
 mains O
 du O
 père O
-Colis B-PER
+Colis B-MISC
 , O
 |
 | O
@@ -63288,7 +63288,7 @@ faire O
 des O
 économies O
 , O
-Annette B-PER
+Annette B-MISC
 avait O
 quatorze O
 |
@@ -63331,7 +63331,7 @@ les O
 | O
 jours O
 . O
-Sylvain B-MISC
+Sylvain B-PER
 ne O
 quittait O
 plus O
@@ -63372,7 +63372,7 @@ mais O
 son O
 caractère O
 ne O
-s’ B-PER
+s’ O
 améliorait O
 |
 | O
@@ -63443,7 +63443,7 @@ doutant O
 |
 | O
 bien O
-qu’ B-LOC
+qu’ O
 il O
 était O
 arrivé O
@@ -63510,7 +63510,7 @@ un O
 grand O
 er O
 : O
-c’ B-MISC
+c’ O
 est O
 qu' O
 elle O
@@ -63618,7 +63618,7 @@ restait O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 ancien O
 fourrage O
 et O
@@ -63761,10 +63761,10 @@ pleurant O
  
 
 | O
-JEANNE B-ORG
-ÉPOUSE I-ORG
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 173 O
 |
@@ -63812,8 +63812,8 @@ ton O
 malheur O
 , O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 a O
 eu O
 |
@@ -63865,8 +63865,8 @@ gêne I-MISC
 
 | O
 Jeanne B-PER
-‘ I-PER
-' I-PER
+‘ O
+' O
 embrassa O
 sans O
 pouvoir O
@@ -63992,7 +63992,7 @@ toujours O
 as- O
 |
 | O
-soupi O
+soupi B-PER
 . O
 M. O
 le O
@@ -64009,7 +64009,7 @@ agonisants O
 , O
 et O
 Jeanne B-PER
-alluma I-PER
+alluma O
 un O
 cierge O
 à O
@@ -64042,7 +64042,7 @@ femme O
 
 | O
 « O
-Amène B-PER
+Amène O
 -moi O
 les O
 enfants O
@@ -64143,8 +64143,8 @@ son- O
 
 | O
 474 O
-TROISIÈME B-MISC
-PARTIE I-MISC
+TROISIÈME O
+PARTIE O
 . O
 |
 
@@ -64158,7 +64158,7 @@ soutenez O
 - O
 la O
 , O
-jé O
+jé B-MISC
 vous O
 en O
 prie O
@@ -64175,16 +64175,16 @@ Dieu B-MISC
 
 | O
 — O
-Soyez B-LOC
-tranquille O
-, O
-mon O
-ami O
+Soyez B-MISC
+tranquille I-MISC
+, I-MISC
+mon I-MISC
+ami I-MISC
 , O
 Je B-MISC
 suis I-MISC
 fort I-MISC
-atta- O
+atta- I-MISC
 |
 | O
 ché O
@@ -64220,8 +64220,8 @@ soutenir O
 |
 
 | O
-Grand B-PER
-Louis I-PER
+Grand O
+Louis B-PER
 voulut O
 répondre O
 , O
@@ -64288,7 +64288,7 @@ elle O
 |
 | O
 le O
-suré O
+suré B-LOC
 lui O
 dit O
 : O
@@ -64406,7 +64406,7 @@ que O
 vous O
 ne O
 le O
-croyez B-MISC
+croyez B-ORG
 . O
 Votre O
 mari O
@@ -64466,7 +64466,7 @@ cha- O
 | O
 grin O
 . O
-Dieu O
+Dieu B-MISC
 ne O
 veut O
 pas O
@@ -64507,19 +64507,19 @@ Dieu B-MISC
 |
 
 | O
-JEANNE B-PER
-ÉPOUSE I-PER
-ET O
-MÈRE B-ORG
+JEANNE B-MISC
+ÉPOUSE B-MISC
+ET I-MISC
+MÈRE I-MISC
 . O
 1475 O
 |
 
 | O
-On B-MISC
-enterre I-MISC
-grand I-MISC
-Louis I-MISC
+On O
+enterre O
+grand O
+Louis B-PER
 . O
 |
 
@@ -64600,7 +64600,7 @@ pieuse O
 , O
 et O
 il O
-s’ B-PER
+s’ O
 en O
 alla O
 au O
@@ -64611,9 +64611,9 @@ jour O
 En O
 passant O
 devant O
-lé O
-Grand- B-ORG
-Bail I-ORG
+lé B-PER
+Grand- I-PER
+Bail I-PER
 , O
 il O
 annonça O
@@ -64818,12 +64818,12 @@ tranquille O
 
 | O
 — O
-Je B-MISC
-sais I-MISC
-bien I-MISC
-que I-MISC
-vous I-MISC
-serez I-MISC
+Je O
+sais O
+bien O
+que O
+vous O
+serez O
 toujours O
 bon O
 , O
@@ -64882,15 +64882,15 @@ nage O
 
 | O
 176 O
-TROISIEME B-MISC
-PARTIE O
+TROISIEME O
+PARTIE B-MISC
 , O
 |
 
 | O
 — O
-Ma B-MISC
-fille I-MISC
+Ma O
+fille O
 , O
 comme O
 c' O
@@ -65083,8 +65083,8 @@ pays O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE B-ORG
 , O
 177 O
 |
@@ -65098,14 +65098,14 @@ OR O
 |
 
 | O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
 | O
-JEANNE B-MISC
-VEUVE I-MISC
+JEANNE B-PER
+VEUVE I-PER
 . O
 |
 
@@ -65232,12 +65232,12 @@ fâcheux O
 
 | O
 — O
-Voyez B-MISC
+Voyez O
 donc O
 , O
 père O
-Tixier B-MISC
-! I-MISC
+Tixier B-PER
+! O
 si O
 nous O
 ne O
@@ -65275,7 +65275,7 @@ tu O
 donc O
 que O
 je O
-t’ B-LOC
+t’ O
 aurais O
 tourmentée O
 ? O
@@ -65357,8 +65357,8 @@ dit O
 un O
 jour O
 M. B-PER
-le O
-curé O
+le I-PER
+curé I-PER
 , O
 je O
 vous O
@@ -65377,7 +65377,7 @@ malade O
 
 | O
 — O
-Pas B-LOC
+Pas O
 précisément O
 , O
 monsieur O
@@ -65459,7 +65459,7 @@ retenir O
 | O
 — O
 Ce O
-n’ B-PER
+n’ O
 est O
 pas O
 votre O
@@ -65700,8 +65700,8 @@ marines O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE O
 . O
 179 O
 |
@@ -65750,7 +65750,7 @@ de O
 le O
 dessus O
 . O
-Priez B-PER
+Priez O
 , O
 soit O
 chez O
@@ -65920,10 +65920,10 @@ travailler O
 
 | O
 — O
-N' B-LOC
-as I-LOC
-- I-LOC
-tu I-LOC
+N' B-MISC
+as I-MISC
+- I-MISC
+tu I-MISC
 donc O
 pas O
 assez O
@@ -66061,13 +66061,13 @@ tyrannie- O
 sait O
 ceux O
 qui O
-l’ B-ORG
+l’ O
 aimaient O
 le O
 plus O
 . O
 Quelquefois O
-Nan- O
+Nan- B-LOC
 |
 | O
 nette O
@@ -66083,7 +66083,7 @@ disait O
 
 | O
 180 O
-QUATRIÈME B-MISC
+QUATRIÈME O
 PARTIE O
 . O
 |
@@ -66131,14 +66131,14 @@ dans O
 bon O
 chemin O
 , O
-IL B-ORG
+IL B-LOC
 est O
 honnête O
 garçon O
 , O
 Dieu B-MISC
-merci O
-! O
+merci I-MISC
+! I-MISC
 |
 | O
 il O
@@ -66325,7 +66325,7 @@ bientôt O
 en O
 langueur O
 , O
-Margue- B-PER
+Margue- B-LOC
 |
 | O
 rite O
@@ -66377,10 +66377,10 @@ remis O
 
 | O
 — O
-Maman B-PER
-, O
-dit O
-Annette B-PER
+Maman B-MISC
+, I-MISC
+dit I-MISC
+Annette I-MISC
 , O
 les O
 évangiles O
@@ -66412,7 +66412,7 @@ que O
 | O
 notre O
 curé O
-n’ B-PER
+n’ O
 a O
 pas O
 son O
@@ -66425,9 +66425,9 @@ terre O
 
 | O
 — O
-Entends B-LOC
-- I-LOC
-tu I-LOC
+Entends B-MISC
+- I-MISC
+tu I-MISC
 ce O
 qu’ O
 elle O
@@ -66471,8 +66471,8 @@ est O
 -ce O
 que O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 ne O
 les O
 entend O
@@ -66484,13 +66484,13 @@ bien O
 ici O
 qu' O
 à O
-Solange B-PER
+Solange B-MISC
 ? O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE B-ORG
 , O
 181 O
 |
@@ -66544,7 +66544,7 @@ quand O
 vous O
 êtes O
 allés O
-Rà B-PER
+Rà B-LOC
 |
 | O
 avec O
@@ -66564,8 +66564,8 @@ il O
 faut O
 que O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 les O
 guérisse O
 tout O
@@ -66581,7 +66581,7 @@ commode O
 . O
 Pourtant O
 , O
-s’ B-PER
+s’ O
 il O
 nous O
 a O
@@ -66617,7 +66617,7 @@ de O
 le O
 faire O
 . O
-Tiens B-LOC
+Tiens B-MISC
 , O
 voilà O
 monsieur O
@@ -66806,7 +66806,7 @@ que O
 |
 | O
 Dieu B-MISC
-n’ B-PER
+n’ O
 est O
 pas O
 partout O
@@ -66880,8 +66880,8 @@ la O
 
 | O
 182 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
@@ -66963,7 +66963,7 @@ rosée O
 . O
 |
 | O
-Écoutez B-PER
+Écoutez O
 , O
 Marguerite B-PER
 , O
@@ -67122,9 +67122,9 @@ trop O
 |
 | O
 lesquels O
-choisirais B-LOC
-- I-LOC
-tu I-LOC
+choisirais O
+- O
+tu O
 ? O
 |
 
@@ -67157,9 +67157,9 @@ souvent O
 |
 
 | O
-M. O
-le O
-curè O
+M. B-PER
+le I-PER
+curè I-PER
 reproche O
 à O
 Marguerite B-PER
@@ -67196,14 +67196,14 @@ tombeau O
 |
 | O
 de O
-sainte-Solange B-MISC
+sainte-Solange B-LOC
 . O
 |
 
 | O
 — O
-Dame O
-! O
+Dame B-MISC
+! I-MISC
 petite O
 Jeanne B-PER
 , O
@@ -67262,7 +67262,7 @@ autres O
 
 | O
 JEANNE B-MISC
-VEUVE I-MISC
+VEUVE B-ORG
 . O
 188 O
 |
@@ -67353,7 +67353,7 @@ voyons O
 
 | O
 — O
-Écoutez B-PER
+Écoutez O
 bien O
 ce O
 que O
@@ -67450,7 +67450,7 @@ et O
 vous O
 |
 | O
-n’ B-PER
+n’ O
 auriez O
 pas O
 la O
@@ -67484,7 +67484,7 @@ pour O
 travailler O
 , O
 et O
-c’ B-MISC
+c’ O
 est O
 une O
 bonne O
@@ -67529,8 +67529,8 @@ moi O
 
 | O
 — O
-Vois B-PER
-done O
+Vois B-MISC
+done I-MISC
 , O
 Marguerite B-PER
 , O
@@ -67681,7 +67681,7 @@ tu O
 
 | O
 184 O
-QUATRIÈME B-MISC
+QUATRIÈME O
 PARTIE O
 . O
 |
@@ -67880,8 +67880,8 @@ ne O
 peut O
 quitter O
 sa O
-maison O
-ni O
+maison B-MISC
+ni I-MISC
 s0n O
 |
 | O
@@ -67933,7 +67933,7 @@ cré O
 dit O
 Jeanne B-PER
 , O
-vuusferez O
+vuusferez B-PER
 là O
 une O
 |
@@ -67977,12 +67977,12 @@ malheur O
 |
 
 | O
-M. O
-lo O
-curé O
+M. B-PER
+lo I-PER
+curé I-PER
 veut O
 placer O
-Sylvain B-MISC
+Sylvain B-LOC
 en O
 ville O
 . O
@@ -68007,7 +68007,7 @@ Vous O
 avez O
 pour O
 mon O
-Sylvain B-MISC
+Sylvain B-PER
 detrop O
 grandes O
 |
@@ -68028,7 +68028,7 @@ bien O
 temps O
 qu' O
 il O
-s’ B-PER
+s’ O
 occupât O
 de O
 cultiver O
@@ -68079,15 +68079,15 @@ même O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE B-MISC
+VEUVE B-MISC
 . O
 i85 O
 |
 | O
 temps O
 si O
-délibert O
+délibert B-PER
 , O
 que O
 je O
@@ -68103,8 +68103,8 @@ sur O
 qu' O
 il O
 passera O
-sn O
-vié O
+sn B-ORG
+vié I-ORG
 à O
 clocher O
 la O
@@ -68126,10 +68126,10 @@ gagner O
 son O
 pain O
 ? O
-Ilest B-LOC
+Ilest B-ORG
 |
-| O
-trés O
+| I-ORG
+trés I-ORG
 - O
 intelligent O
 et O
@@ -68190,7 +68190,7 @@ parlé O
 
 | O
 — O
-Croyez B-MISC
+Croyez B-LOC
 -vous O
 , O
 monsieur O
@@ -68368,8 +68368,8 @@ s O
 , O
 et O
 M. B-PER
-le O
-curé O
+le I-PER
+curé I-PER
 le O
 mena O
 chez O
@@ -68454,13 +68454,13 @@ singe- O
 
 | O
 448 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
 | O
-liers B-LOC
+liers O
 . O
 11 O
 courait O
@@ -68480,16 +68480,16 @@ Il B-MISC
 s' I-MISC
 était I-MISC
 brûlé I-MISC
-plus I-MISC
-d' I-MISC
-une I-MISC
-fois I-MISC
-à I-MISC
-la I-MISC
-chan- I-MISC
+plus O
+d' O
+une O
+fois O
+à O
+la O
+chan- O
 |
-| I-MISC
-delle I-MISC
+| O
+delle O
 , O
 et O
 plus O
@@ -68680,8 +68680,8 @@ vie O
 l' O
 enfant O
 du O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu O
 ; O
 |
 | O
@@ -68698,7 +68698,7 @@ instant O
 
 | O
 — O
-Mo B-PER
+Mo O
 pauvre O
 Jeanne B-PER
 , O
@@ -68773,9 +68773,9 @@ innocent O
 
 | O
 — O
-Eh O
-bien O
-! O
+Eh B-MISC
+bien I-MISC
+! I-MISC
 Jeanne B-PER
 , O
 si O
@@ -68794,7 +68794,7 @@ Louis B-PER
 , O
 donne O
 -moi O
-Annette B-PER
+Annette B-MISC
 , O
 j' O
 en O
@@ -68841,11 +68841,11 @@ moi O
 
 | O
 — O
-Merci B-PER
-, O
-ma O
-chère O
-dame O
+Merci B-MISC
+, I-MISC
+ma I-MISC
+chère I-MISC
+dame I-MISC
 ; O
 j' O
 aurai O
@@ -68882,8 +68882,8 @@ de O
  
 
 | O
-JEANNE B-MISC
-VEUVE I-MISC
+JEANNE B-PER
+VEUVE I-PER
 , O
 167 O
 |
@@ -68913,7 +68913,7 @@ vous O
 |
 
 | O
-Nannotto B-PER
+Nannotto B-MISC
 a O
 un O
 grand O
@@ -68935,7 +68935,7 @@ fut O
 partie O
 , O
 que O
-Nan- O
+Nan- B-LOC
 |
 | O
 nette O
@@ -68965,9 +68965,9 @@ mit O
 
 | O
 « O
-Ma B-MISC
-chère I-MISC
-mère I-MISC
+Ma O
+chère O
+mère O
 , O
 il O
 faut O
@@ -68994,7 +68994,7 @@ sûr O
 
 | O
 — O
-Ma B-PER
+Ma O
 pauvre O
 fille O
 , O
@@ -69098,7 +69098,7 @@ meilleure O
 des O
 conditions O
 . O
-C’ B-MISC
+C’ O
 est O
 le O
 malheur O
@@ -69112,7 +69112,7 @@ nous O
 quitter O
 , O
 ma O
-Annette B-PER
+Annette B-MISC
 ; O
 mais O
 ce O
@@ -69274,8 +69274,8 @@ même O
 
 | O
 188 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
@@ -69332,9 +69332,9 @@ enfant O
 , O
 va O
 voir O
-M. B-MISC
-le I-MISC
-euré I-MISC
+M. B-PER
+le O
+euré O
 ; O
 ila O
 de O
@@ -69385,7 +69385,7 @@ mère O
 
 | O
 « O
-N' B-LOC
+N' O
 est O
 -elle O
 pas O
@@ -69453,7 +69453,7 @@ fable O
 
 | O
 — O
-Annette B-PER
+Annette B-MISC
 , O
 nous O
 irons O
@@ -69527,7 +69527,7 @@ peu O
 
 | O
 Mme B-PER
-faure O
+faure I-PER
 caresse O
 l' O
 enfant O
@@ -69548,8 +69548,8 @@ Jeanne B-PER
 et O
 Annette B-PER
 |
-| I-PER
-s’ I-PER
+| O
+s’ O
 habillèrent O
 , O
 ainsi O
@@ -69611,9 +69611,9 @@ bruyante O
 
 | O
 « O
-Excusez O
-- O
-le O
+Excusez B-MISC
+- I-MISC
+le I-MISC
 , O
 ma O
 chère O
@@ -69644,7 +69644,7 @@ VEUVE I-PER
 
 | O
 — O
-Pauvre B-PER
+Pauvre O
 petit O
 , O
 dit O
@@ -69703,7 +69703,7 @@ manger O
 
 | O
 a O
-Al B-PER
+Al B-LOC
 et O
 d' O
 un O
@@ -69713,7 +69713,7 @@ cœur O
 madame B-PER
 , O
 dit O
-Nan- O
+Nan- B-LOC
 |
 | O
 nette O
@@ -69741,8 +69741,8 @@ goûte O
 |
 
 | O
-Mine B-PER
-Isaure I-PER
+Mine O
+Isaure O
 le O
 mena O
 dans O
@@ -69812,7 +69812,7 @@ dormir O
 
 | O
 a O
-Veux O
+Veux B-LOC
 - O
 tu O
 venir O
@@ -69820,7 +69820,7 @@ demeurer O
 avec O
 moi O
 , O
-Annette B-PER
+Annette B-MISC
 ? O
 |
 
@@ -69828,7 +69828,7 @@ Annette B-PER
 — O
 Oui O
 , O
-madame O
+madame B-PER
 , O
 j' O
 en O
@@ -69963,7 +69963,7 @@ cela O
 t' O
 arrangera O
 , O
-jeanne O
+jeanne B-PER
 , O
 : O
 |
@@ -69972,7 +69972,7 @@ jeanne O
 — O
 Alors O
 , O
-madame O
+madame B-PER
 , O
 si O
 vous O
@@ -70033,8 +70033,8 @@ au- O
 
 | O
 490 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 ‘ O
 |
@@ -70131,8 +70131,8 @@ maison O
 
 | O
 — O
-No O
-t' O
+No B-MISC
+t' I-MISC
 en O
 inquiète O
 pas O
@@ -70145,7 +70145,7 @@ vu O
 | O
 coucher O
 avec O
-Nanette B-LOC
+Nanette B-PER
 ; O
 ot O
 toi O
@@ -70232,7 +70232,7 @@ travail- O
 |
 | O
 ler O
-Annette B-PER
+Annette B-MISC
 avec O
 elle O
 , O
@@ -70314,9 +70314,9 @@ sous O
 quelque O
 meuble O
 . O
-Annette B-PER
-s’ I-PER
-habitu I-PER
+Annette B-MISC
+s’ O
+habitu O
 |
 | O
 ainsi O
@@ -70357,14 +70357,14 @@ ma O
 chère O
 |
 | O
-maman B-PER
+maman O
 . O
 |
 
 | O
 — O
-Ma B-MISC
-fille I-MISC
+Ma O
+fille O
 , O
 les O
 maîtres O
@@ -70403,7 +70403,7 @@ elle O
 
 | O
 JEANNE B-MISC
-VEUVE I-MISC
+VEUVE B-ORG
 . O
 191 O
 |
@@ -70486,8 +70486,8 @@ des O
 anges O
 et O
 du O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 , O
 et O
 il O
@@ -70910,7 +70910,7 @@ mère O
 |
 
 | O
-Sylvain B-MISC
+Sylvain B-PER
 eut O
 un O
 congé O
@@ -71055,8 +71055,8 @@ vous O
 
 | O
 — O
-Mon B-PER
-Sylvain I-PER
+Mon B-MISC
+Sylvain I-MISC
 , O
 je O
 vais O
@@ -71120,7 +71120,7 @@ semble O
 | O
 Paul B-PER
 , O
-qu’ B-LOC
+qu’ O
 il O
 est O
 temps O
@@ -71145,7 +71145,7 @@ maintenant O
 
 | O
 — O
-Moi B-PER
+Moi O
 , O
 je O
 ne O
@@ -71169,8 +71169,8 @@ qui O
 me O
 eonvienne O
 , O
-& B-MISC
-t I-MISC
+& B-ORG
+t I-ORG
 , O
 si O
 On B-MISC
@@ -71201,8 +71201,8 @@ quelquefois O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE B-MISC
+VEUVE B-ORG
 , O
 193 O
 |
@@ -71333,9 +71333,9 @@ faire O
 mon O
 |
 | O
-tour O
-de O
-France O
+tour B-MISC
+de I-MISC
+France I-MISC
 Je O
 saurai O
 bien O
@@ -71348,8 +71348,8 @@ argent O
 | O
 . O
 soyez B-MISC
-tranquille O
-! O
+tranquille I-MISC
+! I-MISC
 je O
 ne O
 vous O
@@ -71370,8 +71370,8 @@ le O
 laisser O
 faire O
 . O
-Mon B-PER
-Sylvain I-PER
+Mon O
+Sylvain B-MISC
 , O
 veux O
 - O
@@ -71390,7 +71390,7 @@ Maurice B-PER
 |
 
 | O
-Sylvain B-MISC
+Sylvain B-PER
 fit O
 ce O
 que O
@@ -71535,7 +71535,7 @@ dit O
 — O
 Je O
 cherche O
-Pierre O
+Pierre B-MISC
 , O
 le O
 frère O
@@ -71563,7 +71563,7 @@ attention O
 à O
 ce O
 que O
-Par- O
+Par- B-LOC
 |
 
 | O
@@ -71572,8 +71572,8 @@ Par- O
 
 | O
 19h O
-QUATRIÈME B-ORG
-PARTIR I-ORG
+QUATRIÈME O
+PARTIR O
 . O
 |
 
@@ -71601,9 +71601,9 @@ Deux O
 jours O
 après O
 , O
-Marguerite B-PER
-vin O
-! O
+Marguerite B-MISC
+vin I-MISC
+! I-MISC
 lui O
 dire O
 d' O
@@ -71650,8 +71650,8 @@ mort O
 — O
 Où O
 l' O
-aton O
-done O
+aton B-PER
+done I-PER
 trouvé O
 ? O
 |
@@ -71985,7 +71985,7 @@ aux O
 | O
 " O
 JEANNE B-MISC
-VEUVE I-MISC
+VEUVE B-ORG
 . O
 196 O
 |
@@ -72074,7 +72074,7 @@ un O
 peu O
 avant O
 la O
-Saint-Jean B-LOC
+Saint-Jean B-MISC
 , O
 en O
 |
@@ -72105,7 +72105,7 @@ un O
 grand O
 trou O
 ; O
-de- O
+de- B-LOC
 |
 | O
 puis O
@@ -72128,7 +72128,7 @@ Mais O
 on O
 ne O
 le O
-voyäit O
+voyäit B-LOC
 jamais O
 . O
 |
@@ -72190,7 +72190,7 @@ pas O
 
 | O
 — O
-Êtes B-LOC
+Êtes O
 -vous O
 simple O
 aussi O
@@ -72279,7 +72279,7 @@ faim O
 
 | O
 — O
-Savez B-PER
+Savez O
 -vous O
 , O
 Claude B-PER
@@ -72310,7 +72310,7 @@ tué O
 Sans O
 compter O
 que O
-c’ B-MISC
+c’ O
 est O
 un O
 grand O
@@ -72319,7 +72319,7 @@ péché O
 | O
 que O
 de O
-s6 B-LOC
+s6 B-ORG
 donner O
 la O
 mort O
@@ -72330,15 +72330,15 @@ mort O
 
 | O
 196 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 , O
 |
 
 | O
-Pierre B-PER
-prie I-PER
-Jeanne I-PER
+Pierre B-MISC
+prie O
+Jeanne B-PER
 de O
 le O
 guérir O
@@ -72347,8 +72347,8 @@ guérir O
 
 | O
 « O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 Jeanne B-PER
 , O
 vous O
@@ -72374,7 +72374,7 @@ voulez O
 |
 | O
 demanda O
-Pierre B-PER
+Pierre B-MISC
 . O
 |
 
@@ -72402,7 +72402,7 @@ done O
 petit O
 ? O
 repartit O
-Pierre B-PER
+Pierre B-MISC
 . O
 |
 
@@ -72415,8 +72415,8 @@ n' O
 aimes O
 pas O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 . O
 |
 
@@ -72452,8 +72452,8 @@ souffrir O
 , O
 et O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 ne O
 t' O
 aime O
@@ -72463,9 +72463,9 @@ plus O
 
 | O
 — O
-Entends O
-- O
-tu O
+Entends B-MISC
+- I-MISC
+tu I-MISC
 , O
 Pierre B-MISC
 ? O
@@ -72503,9 +72503,9 @@ an O
 lait O
 , O
 et O
-Pierre B-MISC
-la O
-mangea B-LOC
+Pierre B-PER
+la I-PER
+mangea I-PER
 . O
 |
 
@@ -72552,7 +72552,7 @@ secourable O
 
 | O
 — O
-Jamais B-PER
+Jamais O
 je O
 n' O
 aurais O
@@ -72618,9 +72618,9 @@ seulement O
 quand O
 |
 | O
-M. B-PER
-le I-PER
-curé I-PER
+M. O
+le O
+curé O
 aura O
 vu O
 votre O
@@ -72697,8 +72697,8 @@ jamais O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE B-ORG
 , O
 197 O
 |
@@ -72801,8 +72801,8 @@ emportée O
 étendus O
 sur O
 de O
-La O
-charpie O
+La B-MISC
+charpie I-MISC
 , O
 et O
 |
@@ -72859,7 +72859,7 @@ serez O
 levé O
 , O
 vous O
-tiendriez O
+tiendriez B-PER
 vo- O
 |
 | O
@@ -72902,7 +72902,7 @@ Jeune B-PER
 et O
 |
 | O
-M. B-PER
+M. O
 le O
 curé O
 sortirent O
@@ -72954,8 +72954,8 @@ tout O
 
 | O
 — O
-Mon O
-enfant O
+Mon B-MISC
+enfant I-MISC
 , O
 lui O
 dit O
@@ -73041,7 +73041,7 @@ la O
 porte B-LOC
 de I-LOC
 la I-LOC
-eure I-LOC
+eure O
 , O
 et O
 ils O
@@ -73053,9 +73053,9 @@ tous O
 les O
 trois O
 ; O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 prit O
 le O
 pauvre O
@@ -73080,8 +73080,8 @@ petit O
 Louis B-PER
 , O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 ne O
 se O
 voit O
@@ -73113,14 +73113,14 @@ des O
 heures O
 entières O
 à O
-re- B-PER
+re- O
 |
 
 | O
 158 O
-QUATRIÈME B-ORG
-& I-ORG
-PARTIE I-ORG
+QUATRIÈME B-MISC
+& I-MISC
+PARTIE I-MISC
 . O
 |
 
@@ -73261,7 +73261,7 @@ malheureux O
 que O
 vous O
 le O
-croyez B-MISC
+croyez B-ORG
 ; O
 il O
 com- O
@@ -73275,8 +73275,8 @@ Dieu B-MISC
 
 | O
 Jeanne B-PER
-gronde O
-Marguerite B-PER
+gronde I-PER
+Marguerite I-PER
 . O
 |
 
@@ -73309,7 +73309,7 @@ porte O
 | O
 P B-LOC
 « O
-Marguerite B-PER
+Marguerite O
 , O
 lui O
 dit O
@@ -73324,9 +73324,9 @@ guère O
 | O
 naturel O
 que O
-Pierre B-MISC
-ait O
-voulu:.se B-PER
+Pierre B-PER
+ait I-PER
+voulu:.se I-PER
 détruire O
 à O
 trois O
@@ -73383,18 +73383,18 @@ ou O
 — O
 Oh B-MISC
 ! I-MISC
-mon B-MISC
-Dieu I-MISC
+mon O
+Dieu B-MISC
 , O
 pas O
 grand'chose O
 , O
 va O
 , O
-Jeanne B-MISC
-! I-MISC
+Jeanne B-PER
+! O
 |
-| I-MISC
+| O
 Je O
 lui O
 disais O
@@ -73415,7 +73415,7 @@ que O
 , O
 quand O
 il O
-n’ B-PER
+n’ O
 en O
 aurait O
 plus O
@@ -73485,7 +73485,7 @@ il O
 
 | O
 JEANNE B-MISC
-VEUVE I-MISC
+VEUVE B-ORG
 . O
 199 O
 |
@@ -73517,7 +73517,7 @@ frère O
 
 | O
 — O
-Ettu O
+Ettu B-LOC
 as O
 eu O
 le O
@@ -73544,7 +73544,7 @@ homme O
 
 | O
 — O
-Tiens B-LOC
+Tiens B-MISC
 , O
 voilà O
 -t O
@@ -73669,7 +73669,7 @@ j' O
 la O
 place O
 . O
-Si B-MISC
+Si O
 Pierre B-MISC
 |
 | O
@@ -73729,9 +73729,9 @@ c' O
 est O
 dire O
 que O
-si.lu B-PER
-J' I-PER
-étais I-PER
+si.lu O
+J' O
+étais O
 , O
 parce O
 que O
@@ -73761,8 +73761,8 @@ fais O
 . O
 |
 | O
-Pierre B-PER
-guérit I-PER
+Pierre B-MISC
+guérit O
 , O
 puis O
 retombe O
@@ -73787,9 +73787,9 @@ plaie O
 fut O
 fermée O
 , O
-M. O
-le O
-ré O
+M. B-PER
+le I-PER
+ré I-PER
 lui O
 dit O
 : O
@@ -73825,11 +73825,11 @@ gagner O
 votreé O
 vie O
 . O
-ee B-LOC
-- I-LOC
+ee O
+- O
 |
 
-| I-LOC
+| O
 — O
 Que O
 voulez O
@@ -73854,7 +73854,7 @@ ee O
 
 | O
 — O
-Apprenez B-LOC
+Apprenez O
 un O
 état O
 qui O
@@ -73871,8 +73871,8 @@ jambes O
 
 | O
 800 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
@@ -74008,10 +74008,10 @@ quoi- O
 | O
 que O
 vous O
-soyez B-ORG
-guéri I-ORG
+soyez O
+guéri O
 , O
-rappelez B-PER
+rappelez O
 -vous O
 que O
 vous O
@@ -74044,9 +74044,9 @@ malades O
 
 | O
 Quand O
-M. O
-le O
-curé O
+M. B-PER
+le I-PER
+curé I-PER
 fut O
 sorti O
 , O
@@ -74061,8 +74061,8 @@ Pierre B-MISC
 
 | O
 « O
-Bah B-LOC
-! O
+Bah B-MISC
+! I-MISC
 M. O
 le O
 cré O
@@ -74199,8 +74199,8 @@ pas O
 
 | O
 -- O
-Pourquoi O
-done O
+Pourquoi B-PER
+done I-PER
 ? O
 est O
 -ce O
@@ -74211,7 +74211,7 @@ encore O
 ma- O
 |
 | O
-lade B-LOC
+lade O
 ? O
 |
 
@@ -74227,8 +74227,8 @@ jamais O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE O
 . O
 go O
 ! O
@@ -74238,7 +74238,7 @@ go O
 Jeanne B-PER
 alla O
 chercher O
-M. B-PER
+M. O
 le O
 euré O
 , O
@@ -74258,9 +74258,9 @@ Pierre B-MISC
 
 | O
 « O
-Malheureux B-PER
-garçon O
-! O
+Malheureux B-MISC
+garçon I-MISC
+! I-MISC
 vous O
 n' O
 avez O
@@ -74282,8 +74282,8 @@ dit O
 
 | O
 — O
-Dame O
-! O
+Dame B-MISC
+! I-MISC
 quand O
 j' O
 ai O
@@ -74338,7 +74338,7 @@ tête O
 
 | O
 « O
-Pierre O
+Pierre B-MISC
 , O
 je O
 vous O
@@ -74380,7 +74380,7 @@ ai O
 sot- O
 |
 | O
-gné O
+gné B-ORG
 si O
 longtemps O
 ; O
@@ -74430,17 +74430,17 @@ entrer O
 |
 | O
 l' O
-hôpital B-LOC
-de I-LOC
-Bourges I-LOC
+hôpital O
+de O
+Bourges O
 . O
 |
 
 | O
 — O
-À B-MISC
-l' I-MISC
-hôpital I-MISC
+À O
+l' O
+hôpital O
 , O
 monsieur O
 ! O
@@ -74580,9 +74580,9 @@ maladroit O
 |
 
 | O
-208 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+208 B-MISC
+QUATRIÈME I-MISC
+PARTIE I-MISC
 , O
 |
 
@@ -74606,8 +74606,8 @@ un O
 jour O
 que O
 M. B-PER
-le O
-curé O
+le I-PER
+curé I-PER
 était O
 |
 | O
@@ -74660,7 +74660,7 @@ taons O
 avaient O
 mise O
 en O
-du- O
+du- B-LOC
 |
 | O
 rio O
@@ -74752,7 +74752,7 @@ le O
 vi- O
 |
 | O
-tueur B-LOC
+tueur O
 .. O
 : O
 . O
@@ -74802,8 +74802,8 @@ vache O
 pendant O
 que O
 M. B-PER
-le O
-curé O
+le I-PER
+curé I-PER
 liait O
 l' O
 autre O
@@ -74839,8 +74839,8 @@ tremblante O
 | O
 -et O
 en O
-l’ B-LOC
-embrassäet B-PER
+l’ O
+embrassäet O
 , O
 tu O
 te O
@@ -74854,7 +74854,7 @@ tuer O
 _ O
 _ O
 — O
-Ne B-PER
+Ne O
 faudrait O
 -il O
 pas O
@@ -74866,8 +74866,8 @@ auprès O
 |
 | O
 du O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 que O
 de O
 vous O
@@ -74964,8 +74964,8 @@ toi O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE O
 . O
 203 O
 |
@@ -75053,8 +75053,8 @@ des O
 |
 
 | O
-Jeune B-PER
-méno I-PER
+Jeune O
+méno O
 Louis B-PER
 chez O
 sa O
@@ -75135,9 +75135,9 @@ pla- O
 | O
 cer O
 aux O
-Incurables B-LOC
-d' I-LOC
-Issoudun I-LOC
+Incurables O
+d' O
+Issoudun O
 , O
 et O
 il O
@@ -75276,7 +75276,7 @@ pain O
 quand O
 est::touché O
 comme O
-s’ B-PER
+s’ O
 il O
 |
 | O
@@ -75288,8 +75288,8 @@ entends O
 souvent O
 dire O
 que O
-Dieu B-MISC
-mé O
+Dieu B-PER
+mé I-PER
 fe- O
 |
 | O
@@ -75465,9 +75465,9 @@ père O
 Qu' B-MISC
 en I-MISC
 comptes I-MISC
-- I-MISC
-tu I-MISC
-donc I-MISC
+- O
+tu O
+donc O
 faire O
 alors O
 ? O
@@ -75692,7 +75692,7 @@ Oh B-MISC
 ! I-MISC
 beaucoup O
 , O
-madame O
+madame B-PER
 ; O
 du O
 plus O
@@ -75764,7 +75764,7 @@ des O
 
 | O
 JEANNE B-MISC
-VEUVE I-MISC
+VEUVE B-ORG
 . O
 805 O
 |
@@ -75898,7 +75898,7 @@ pareil O
 |
 
 | O
-Solange B-PER
+Solange B-MISC
 demande O
 Annette B-PER
 pour O
@@ -75931,7 +75931,7 @@ dit O
 
 | O
 « O
-Veux O
+Veux B-LOC
 - O
 tu O
 donner O
@@ -75992,8 +75992,8 @@ pas O
 
 | O
 — O
-Ma B-PER
-Solange I-PER
+Ma B-MISC
+Solange I-MISC
 , O
 il O
 faut O
@@ -76006,7 +76006,7 @@ en O
 |
 | O
 dira O
-Annette B-PER
+Annette B-MISC
 . O
 |
 
@@ -76048,11 +76048,11 @@ Tu O
 te O
 trompes O
 , O
-Solange B-PER
+Solange B-MISC
 ; O
 je O
 sais O
-qu’ B-PER
+qu’ O
 elle O
 ne O
 |
@@ -76203,7 +76203,7 @@ argent O
 , O
 et O
 , O
-avecû O
+avecû B-LOC
 les O
 champs O
 |
@@ -76232,9 +76232,9 @@ _ O
 — O
 Mais O
 , O
-Solange B-PER
+Solange B-MISC
 , O
-Annette B-PER
+Annette B-MISC
 ne O
 voudra O
 qu' O
@@ -76258,9 +76258,9 @@ terres O
 
 | O
 _ O
-— B-LOC
-- I-LOC
-Justement I-LOC
+— O
+- O
+Justement O
 , O
 c' O
 est O
@@ -76334,7 +76334,7 @@ as O
 gouverné O
 ton O
 bien O
-de- O
+de- B-LOC
 |
 | O
 puis O
@@ -76384,7 +76384,7 @@ pas O
 tout O
 encore O
 , O
-Solange B-PER
+Solange B-MISC
 : O
 j' O
 ai O
@@ -76403,7 +76403,7 @@ garçon O
 . O
 |
 | O
-Annette B-PER
+Annette B-MISC
 l' O
 aime O
 comme O
@@ -76488,8 +76488,8 @@ sont O
 plus O
 près O
 du O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 que O
 les O
 autres O
@@ -76573,8 +76573,8 @@ Dumont I-PER
  
 
 | O
-JEANNE B-MISC
-VEUVE I-MISC
+JEANNE B-PER
+VEUVE I-PER
 . O
 207 O
 |
@@ -76582,7 +76582,7 @@ VEUVE I-MISC
 | O
 dire O
 à O
-Annette B-LOC
+Annette B-MISC
 que O
 j' O
 ai O
@@ -76631,7 +76631,7 @@ maîtresse O
 Jusserand B-PER
 vient O
 te O
-de- O
+de- B-LOC
 |
 | O
 mander O
@@ -76647,17 +76647,17 @@ Oui O
 , O
 ma O
 petite O
-Annette B-PER
+Annette B-MISC
 , O
 dit O
-Solange B-PER
+Solange B-MISC
 , O
 vou- O
 |
 | O
-dras B-LOC
-- I-LOC
-tu I-LOC
+dras O
+- O
+tu O
 bien O
 prendre O
 un O
@@ -76677,8 +76677,8 @@ demoiselle O
 
 | O
 — O
-Ma B-PER
-mère I-PER
+Ma O
+mère O
 , O
 je O
 ne O
@@ -76686,19 +76686,19 @@ me O
 marierai O
 que O
 pour O
-de- O
+de- B-LOC
 |
 | O
 mesurer O
-AVEC B-MISC
-Vous I-MISC
+AVEC B-ORG
+Vous I-ORG
 . O
 |
 
 | O
 — O
-Ma B-MISC
-fille I-MISC
+Ma O
+fille O
 , O
 Jean B-PER
 Jusserand I-PER
@@ -76739,7 +76739,7 @@ je O
 veux O
 que O
 tu O
-.me B-MISC
+.me O
 dises O
 , O
 comme O
@@ -76832,14 +76832,14 @@ reconduire O
 
 | O
 — O
-Embrasse B-LOC
--moi O
-, O
-ma O
-Annette B-PER
+Embrasse B-MISC
+-moi I-MISC
+, I-MISC
+ma I-MISC
+Annette I-MISC
 , O
 dit O
-Solange B-PER
+Solange B-MISC
 ; O
 . O
 |
@@ -76892,8 +76892,8 @@ Isaure I-PER
 
 | O
 Jeanne B-PER
-s’ I-PER
-habilla I-PER
+s’ O
+habilla O
 et O
 donna O
 aussi O
@@ -76920,7 +76920,7 @@ content O
 Mon O
 enfant O
 , O
-c’ B-MISC
+c’ O
 est O
 pour O
 aller O
@@ -76948,8 +76948,8 @@ se O
 
 | O
 808 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME B-MISC
+PARTIE I-MISC
 . O
 |
 
@@ -77008,11 +77008,11 @@ dormait O
 
 | O
 « O
-Excusez O
-- O
-le O
+Excusez B-MISC
+- I-MISC
+le I-MISC
 , O
-madame O
+madame B-PER
 : O
 le O
 pauvre O
@@ -77046,10 +77046,10 @@ mai O
 
 | O
 — O
-Laisse O
-- O
-le O
-done O
+Laisse B-MISC
+- I-MISC
+le I-MISC
+done I-MISC
 faire O
 , O
 Jeanne B-PER
@@ -77120,7 +77120,7 @@ un O
 bon O
 parti O
 pour O
-Annette B-PER
+Annette B-MISC
 , O
 qui O
 est O
@@ -77245,7 +77245,7 @@ il O
 a O
 tout O
 pour O
-juil O
+juil B-PER
 puis O
 , O
 |
@@ -77458,7 +77458,7 @@ madame B-PER
 dit O
 Jeanne B-PER
 , O
-croyez B-MISC
+croyez O
 bien O
 |
 | O
@@ -77518,9 +77518,9 @@ jamais O
 
 | O
 — O
-Allons B-LOC
+Allons B-MISC
 , O
-Annette B-LOC
+Annette B-MISC
 , O
 marie-toi O
 done O
@@ -77649,9 +77649,9 @@ idiot O
 
 | O
 — O
-Non B-PER
+Non O
 , O
-madame O
+madame B-PER
 ; O
 quand O
 on O
@@ -77731,9 +77731,9 @@ l' O
  
 
 | O
-g10 O
-QUATRIÈME B-ORG
-PARTIR I-ORG
+g10 B-MISC
+QUATRIÈME I-MISC
+PARTIR I-MISC
 , O
 |
 
@@ -77762,7 +77762,7 @@ en O
 sais O
 rien O
 , O
-madame O
+madame B-PER
 : O
 c' O
 est O
@@ -77826,7 +77826,7 @@ parle O
 . O
 |
 | O
-IL B-ORG
+IL B-LOC
 est O
 comme O
 les O
@@ -78047,9 +78047,9 @@ anges O
 |
 
 | O
-Mariage B-PER
-de I-PER
-Nanette I-PER
+Mariage O
+de O
+Nanette O
 |
 
 | O
@@ -78084,7 +78084,7 @@ de O
 leur O
 sœur O
 . O
-Sylvain B-MISC
+Sylvain B-PER
 réon- O
 |
 | O
@@ -78125,8 +78125,8 @@ Juste- I-PER
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE B-ORG
 . O
 ait O
 |
@@ -78432,7 +78432,7 @@ prendre O
 Le O
 mariage O
 de O
-Nanette B-LOC
+Nanette B-PER
 se O
 fit O
 en O
@@ -78441,7 +78441,7 @@ temps O
 . O
 |
 | O
-Sylvain B-MISC
+Sylvain B-PER
 vint O
 aux O
 noces O
@@ -78520,8 +78520,8 @@ enfance O
 
 | O
 gate O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
@@ -78560,9 +78560,9 @@ cultivateur O
 
 | O
 « O
-Es B-LOC
-- I-LOC
-tu I-LOC
+Es O
+- O
+tu O
 réellement O
 heureux O
 à O
@@ -78746,9 +78746,9 @@ milieu O
 de O
 |
 | O
-Tous O
-vos O
-enfants O
+Tous B-MISC
+vos I-MISC
+enfants I-MISC
 . O
 » O
 |
@@ -78773,8 +78773,8 @@ Paul B-PER
 |
 
 | O
-|||| O
-Jeanne B-PER
+|||| B-PER
+Jeanne I-PER
 veut O
 céder O
 son O
@@ -78787,8 +78787,8 @@ enfants O
 
 | O
 « O
-Mes B-MISC
-enfants I-MISC
+Mes O
+enfants O
 , O
 dit O
 Jeanne B-PER
@@ -78829,17 +78829,17 @@ vivre O
 ; O
 ainsi O
 , O
-Ce B-MISC
-ne I-MISC
-sera I-MISC
-pas I-MISC
-une I-MISC
-grande I-MISC
-charge I-MISC
+Ce O
+ne O
+sera O
+pas O
+une O
+grande O
+charge O
 |
-| I-MISC
-pour I-MISC
-vous I-MISC
+| O
+pour O
+vous O
 . O
 |
 
@@ -78860,7 +78860,7 @@ mère O
 , O
 dit O
 ‘ O
-Sylvain B-MISC
+Sylvain B-PER
 ; O
 je O
 ne O
@@ -78897,8 +78897,8 @@ ne O
 |
 
 | O
-JEANNE B-MISC
-VEUVE I-MISC
+JEANNE O
+VEUVE B-ORG
 . O
 a18 B-LOC
 |
@@ -79033,11 +79033,11 @@ ensuite O
 
 | O
 — O
-Vous B-MISC
-êtes I-MISC
-de I-MISC
-braves I-MISC
-enfants I-MISC
+Vous O
+êtes O
+de O
+braves O
+enfants O
 , O
 dit O
 Jeanne B-PER
@@ -79314,7 +79314,7 @@ mort O
 de O
 Louis B-PER
 , O
-e’ B-LOC
+e’ O
 est O
 justice O
 . O
@@ -79324,8 +79324,8 @@ Quand O
 | O
 saû O
 : O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 
@@ -79377,7 +79377,7 @@ après O
 le O
 mariage O
 de O
-Nanette B-LOC
+Nanette B-PER
 , O
 dans O
 |
@@ -79437,7 +79437,7 @@ Paul B-PER
 , O
 dont O
 elle O
-n’ B-PER
+n’ O
 avait O
 pas O
 eu O
@@ -79649,10 +79649,10 @@ mère O
 le O
 regarda O
 avec O
-or- B-MISC
+or- O
 |
-| I-MISC
-cueil I-MISC
+| O
+cueil O
 , O
 tant O
 il O
@@ -79679,7 +79679,7 @@ embrassant O
 | O
 encore O
 , O
-.me B-MISC
+.me O
 laisser O
 des O
 années O
@@ -79699,10 +79699,10 @@ morte O
 |
 
 | O
-JEANNE B-PER
-VEUVE I-PER
+JEANNE O
+VEUVE B-ORG
 . O
-ä15 O
+ä15 B-ORG
 |
 
 | O
@@ -79843,7 +79843,7 @@ ressemblait O
 sa O
 mère O
 . O
-Annette B-PER
+Annette B-MISC
 prépar O
 un O
 repas O
@@ -79881,11 +79881,11 @@ a O
 centriste O
 noce O
 que O
-la O
-nôtre O
+la B-PER
+nôtre I-PER
 , O
 dit O
-Nan- O
+Nan- B-LOC
 |
 | O
 nette O
@@ -79979,7 +79979,7 @@ fait O
 en O
 partant O
 d' O
-Issoudun B-MISC
+Issoudun B-LOC
 . O
 |
 
@@ -79991,7 +79991,7 @@ m' O
 querellé O
 , O
 à O
-Issoudun B-MISC
+Issoudun B-LOC
 , O
 avec O
 le O
@@ -80084,8 +80084,8 @@ le O
 
 | O
 216 O
-QUATRIÈME B-ORG
-PARTIR I-ORG
+QUATRIÈME O
+PARTIR B-MISC
 , O
 |
 
@@ -80094,18 +80094,18 @@ venais O
 de O
 faire O
 , O
-Je B-MISC
-commençais I-MISC
-à I-MISC
-comprendre I-MISC
-que I-MISC
+Je O
+commençais O
+à O
+comprendre O
+que O
 |
-| I-MISC
-j' I-MISC
-avais I-MISC
-mille I-MISC
-fois I-MISC
-abusé I-MISC
+| O
+j' O
+avais O
+mille O
+fois O
+abusé O
 de O
 votre O
 infatigable O
@@ -80180,8 +80180,8 @@ inconsidérée O
 et O
 , O
 quand O
-j' B-PER
-eus I-PER
+j' O
+eus O
 mangé O
 les O
 |
@@ -80198,7 +80198,7 @@ me O
 trou- O
 |
 | O
-vai O
+vai B-MISC
 dans O
 une O
 si O
@@ -80267,10 +80267,10 @@ ailleurs O
 
 | O
 — O
-Mon O
-pauvre O
-garçon O
-! O
+Mon B-MISC
+pauvre I-MISC
+garçon I-MISC
+! I-MISC
 dit O
 Jeanne B-PER
 , O
@@ -80350,7 +80350,7 @@ dur O
 qu' O
 eux O
 , O
-s’ B-PER
+s’ O
 est O
 amolli O
 par O
@@ -80403,9 +80403,9 @@ qu' O
 on O
 travaillait O
 au O
-canal B-LOC
-de I-LOC
-Berry I-LOC
+canal O
+de O
+Berry B-LOC
 , O
 |
 | O
@@ -80415,7 +80415,7 @@ me O
 dirigeai O
 de O
 ce O
-eôté O
+eôté B-PER
 . O
 Je O
 passai O
@@ -80448,7 +80448,7 @@ semi- O
 |
 | O
 nes O
-d’ B-LOC
+d’ O
 un O
 travail O
 assidu O
@@ -80488,8 +80488,8 @@ campagne O
 
 | O
 JEANNE B-MISC
-VEUVE I-MISC
-217 I-MISC
+VEUVE O
+217 O
 |
 
 | O
@@ -80747,7 +80747,7 @@ ville O
 | O
 où O
 demeure O
-Sylvain B-MISC
+Sylvain B-PER
 , O
 et O
 je O
@@ -80771,11 +80771,11 @@ quelques O
 
 | O
 — O
-Comment B-MISC
-as I-MISC
-- I-MISC
-tu I-MISC
-fait I-MISC
+Comment O
+as O
+- O
+tu O
+fait O
 , O
 Paul B-PER
 , O
@@ -80814,7 +80814,7 @@ d' O
 ailleurs O
 l' O
 on O
-n’ B-PER
+n’ O
 a O
 pas O
 toujours O
@@ -80826,7 +80826,7 @@ ouvrage O
 
 | O
 — O
-Jean B-PER
+Jean B-MISC
 , O
 depuis O
 qu' O
@@ -80946,7 +80946,7 @@ quelquefois O
 mais O
 , O
 avec O
-uné O
+uné B-ORG
 |
 | O
 bonne O
@@ -81014,8 +81014,8 @@ dit O
 « O
 Mère B-PER
 , O
-bénisse B-PER
-Paül I-PER
+bénisse O
+Paül B-PER
 . O
 » O
 |
@@ -81023,8 +81023,8 @@ Paül I-PER
 | O
 à O
 . O
-JEANNE B-MISC
-VEUVE I-MISC
+JEANNE B-PER
+VEUVE I-PER
 . O
 219 O
 |
@@ -81035,7 +81035,7 @@ retrouve O
 un O
 peu O
 de O
-bouhour O
+bouhour B-PER
 . O
 |
 
@@ -81067,7 +81067,7 @@ lui O
 |
 | O
 demanda O
-s’ B-PER
+s’ O
 il O
 avait O
 toujours O
@@ -81105,7 +81105,7 @@ Il O
 | O
 sur-le-champ O
 à O
-Sylvain B-MISC
+Sylvain B-LOC
 , O
 qui O
 arriva O
@@ -81135,8 +81135,8 @@ dont O
 leur O
 mère O
 aurait O
-l’ B-PER
-us- I-PER
+l’ O
+us- O
 |
 | O
 fruit O
@@ -81150,8 +81150,8 @@ elle O
 
 | O
 « O
-Mes B-PER
-frères I-PER
+Mes O
+frères O
 , O
 dit O
 celui-ci O
@@ -81193,7 +81193,7 @@ le O
 pauvre O
 simple O
 comme O
-s’ B-PER
+s’ O
 il O
 était O
 son O
@@ -81247,9 +81247,9 @@ cœur O
 Louis B-PER
 , O
 dit O
-Sylvain B-MISC
+Sylvain B-PER
 , O
-Jean B-MISC
+Jean B-PER
 peut O
 mourir O
 avant O
@@ -81343,7 +81343,7 @@ la O
 | O
 moitié O
 de O
-l’ B-LOC
+l’ O
 année O
 chez O
 Mme B-PER
@@ -81405,8 +81405,8 @@ pauvre O
 
 | O
 920 O
-QUATRIÈME B-ORG
-PARTIE I-ORG
+QUATRIÈME O
+PARTIE O
 . O
 |
 | O
@@ -81460,9 +81460,9 @@ voir I-MISC
 sa I-MISC
 marraine I-MISC
 |
-| O
-tout O
-seul O
+| I-MISC
+tout I-MISC
+seul I-MISC
 , O
 le O
 matin O
@@ -81510,7 +81510,7 @@ mettait O
 ses O
 genoux O
 ; O
-@t O
+@t B-PER
 , O
 quoique O
 la O
@@ -81665,8 +81665,8 @@ bien O
 | O
 _ O
 — O
-Ma B-PER
-mère I-PER
+Ma O
+mère O
 , O
 répondait O
 Paul B-PER
@@ -81714,7 +81714,7 @@ jamais O
 ru- O
 |
 | O
-doyer O
+doyer B-PER
 mes O
 éenfants O
 ; O
@@ -81725,7 +81725,7 @@ les O
 cor- O
 |
 | O
-rige O
+rige B-LOC
 pas O
 , O
 mais O
@@ -81764,7 +81764,7 @@ mourut O
 dans O
 un O
 âge O
-fortrané O
+fortrané B-PER
 , O
 régreatée O
 ” O
@@ -81792,14 +81792,14 @@ l' O
 oublièrent O
 jamais O
 . O
-U B-ORG
-NE I-ORG
+U B-MISC
+NE I-MISC
 |
 
-| O
-|||| O
-N O
-\ O
+| I-MISC
+|||| I-MISC
+N I-MISC
+\ I-MISC
 # O
 |
 

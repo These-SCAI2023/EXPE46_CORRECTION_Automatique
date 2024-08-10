@@ -2,9 +2,9 @@ Lille B-LOC
 , O
 Imp B-LOC
 . O
-Six B-LOC
-- I-LOC
-Horemans I-LOC
+Six O
+- O
+Horemans O
 . O
 73 O
 - O
@@ -14,18 +14,18 @@ Horemans I-LOC
 | O
 Chant B-MISC
 patriotique I-MISC
-en O
-Patois B-LOC
-de I-LOC
-Lille I-LOC
+en I-MISC
+Patois I-MISC
+de I-MISC
+Lille I-MISC
+|
+| I-MISC
+PAR I-MISC
+LOUIS I-MISC
+LONGRET O
 |
 | O
-PAR O
-LOUIS B-PER
-LONGRET I-PER
-|
-| I-PER
-Air I-PER
+Air B-ORG
   O
 : O
 le O
@@ -41,8 +41,8 @@ V O
 ' O
   O
 » O
-e' O
-Couplet B-LOC
+e' B-PER
+Couplet I-PER
 . O
 |
 | O
@@ -78,8 +78,8 @@ cha I-MISC
 dot I-MISC
 faire I-MISC
 de I-MISC
-l’ B-LOC
-peine O
+l’ I-MISC
+peine I-MISC
 , O
 |
 | O
@@ -87,8 +87,8 @@ Quoi O
 qu’ O
 on O
 dit O
-qu’ B-PER
-chet I-PER
+qu’ O
+chet B-PER
 eun O
 ’ O
 destinée O
@@ -98,11 +98,11 @@ destinée O
 On O
 a O
 vu O
-dins O
-cheull O
-’ O
-maudi B-MISC
-guerre I-MISC
+dins B-PER
+cheull I-PER
+’ I-PER
+maudi I-PER
+guerre O
 , O
 |
 | O
@@ -116,16 +116,16 @@ bourriaux O
 , O
 |
 | O
-Réduire B-PER
-eun O
-’ O
-puissance O
+Réduire B-MISC
+eun I-MISC
+’ I-MISC
+puissance I-MISC
 tout O
 intière O
 , O
 |
 | O
-In O
+In B-LOC
 ruine O
 , O
 à O
@@ -138,7 +138,7 @@ tombeau O
 . O
 |
 | O
-Refrain B-PER
+Refrain O
 . O
 |
 | O
@@ -161,7 +161,7 @@ ans O
 |
 | O
 28 O
-Couplet B-LOC
+Couplet B-PER
 . O
 |
 | O
@@ -172,16 +172,16 @@ quand O
 on O
 fait O
 la O
-guerre B-MISC
+guerre O
 |
-| I-MISC
+| O
 Que O
 ch' O
 n’ O
 est O
 point O
 pou O
-s’ B-PER
+s’ O
 donner O
 la O
 main O
@@ -192,20 +192,20 @@ Mais O
 chés O
 penouilles O
 rimplis O
-d’ B-PER
+d’ O
 misère O
 , O
 |
 | O
-N O
-’ O
+N B-PER
+’ I-PER
 s’ O
 af' O
 tent O
-point O
-ch' O
+point B-LOC
+ch' I-LOC
 que O
-ché O
+ché B-MISC
 d’ O
 être O
 humain O
@@ -222,7 +222,7 @@ l’ O
 corage O
 |
 | O
-D’ B-PER
+D’ O
 faire O
 la O
 guerre O
@@ -231,26 +231,26 @@ loyauté O
 , O
 |
 | O
-Si O
-on O
-r'tourne O
-dins O
-ch O
-' O
+Si B-MISC
+on I-MISC
+r'tourne I-MISC
+dins I-MISC
+ch I-MISC
+' I-MISC
 pays O
 d O
 ’ O
 sauvaches O
 |
 | O
-Nous B-MISC
-leu I-MISC
-rindrons I-MISC
-du I-MISC
-bure I-MISC
-poud’ I-MISC
-z' I-MISC
-ués I-MISC
+Nous O
+leu O
+rindrons O
+du O
+bure O
+poud’ O
+z' O
+ués O
 . O
 |
 | O
@@ -260,7 +260,7 @@ Couplet B-PER
 |
 | O
 Dites O
-m’ B-PER
+m’ O
 in O
 peu O
 si O
@@ -272,11 +272,11 @@ point O
 cruel O
 |
 | O
-D O
-’ O
-vir O
-nos O
-frères O
+D B-PER
+’ I-PER
+vir I-PER
+nos I-PER
+frères I-PER
 et O
 sœur3 B-MISC
 Alsaciens I-MISC
@@ -292,33 +292,33 @@ fidèles O
 |
 | O
 Et O
-s’ B-PER
+s’ O
 vir O
 au O
 pouvoir O
 des O
-Prussiens B-MISC
+Prussiens B-LOC
 . O
 |
 | O
-Chés O
+Chés B-LOC
 bonnes O
 gins O
 dotent O
 leu O
 faire O
 de O
-l’ B-LOC
+l’ O
 bile O
 |
 | O
 De O
-s’ B-LOC
+s’ O
 vir O
 égorger O
 pa O
-d’ B-PER
-s’ I-PER
+d’ O
+s’ O
 idiots O
 , O
 |
@@ -333,10 +333,10 @@ villes O
 , O
 |
 | O
-D’ B-PER
+D’ O
 quoi O
 à O
-n’ B-PER
+n’ O
 in O
 r'tirer O
 qu O
@@ -347,14 +347,14 @@ lambeaux O
 |
 | O
 4e O
-Couplet B-LOC
+Couplet B-PER
 . O
 |
 | O
 Tout O
 comme O
 chés O
-pauv' B-ORG
+pauv' O
 s O
 diabl’ O
 s O
@@ -366,8 +366,8 @@ Lorraine B-LOC
 On O
 l O
 ’ O
-s’ B-MISC
-intind I-MISC
+s’ O
+intind O
 crier O
 tour O
 à O
@@ -375,28 +375,28 @@ tour O
 : O
 |
 | O
-Biell B-PER
-’ I-PER
-France I-PER
+Biell B-ORG
+’ I-ORG
+France I-ORG
 , O
 viens O
 nous O
 r'tirer O
 de O
-J’ B-MISC
+J’ O
 peine O
 , O
 |
 | O
 Nos B-MISC
 cœurs I-MISC
-s O
-’ O
-décharnent O
-d’ B-PER
-jour O
-in O
-jour O
+s I-MISC
+’ I-MISC
+décharnent I-MISC
+d’ I-MISC
+jour I-MISC
+in I-MISC
+jour I-MISC
 . O
 |
 | O
@@ -417,20 +417,20 @@ s O
 soumett O
 ’ O
 à O
-leu O
+leu B-PER
 loi O
 dictée O
 . O
 |
 | O
-Vivre B-LOC
-comme O
-cha O
+Vivre B-MISC
+comme I-MISC
+cha I-MISC
 , O
 non O
   O
 ! O
-chet O
+chet B-PER
 impossible O
 , O
 |
@@ -456,7 +456,7 @@ vérité O
 , O
 ch O
 ' O
-n’ B-MISC
+n’ O
 est O
 point O
 croyable O
@@ -472,7 +472,7 @@ fait O
 , O
 |
 | O
-Faut B-LOC
+Faut O
 qui O
 euch' O
 tent O
@@ -482,7 +482,7 @@ cœur O
 pu O
 dur O
 que O
-l’ B-LOC
+l’ O
 diable O
 . O
 |
@@ -491,7 +491,7 @@ On O
 f O
 rot O
 bien O
-d’ B-PER
+d’ O
 les O
 civiliser O
 . O
@@ -500,13 +500,13 @@ civiliser O
 On O
 a O
 vu O
-dins O
-d’ B-PER
-eertains O
-villaches O
+dins B-ORG
+d’ I-ORG
+eertains I-ORG
+villaches I-ORG
 |
 | O
-LV B-ORG
+LV B-LOC
 habitants O
 définte O
 leu O
@@ -517,11 +517,11 @@ pays O
 Pour O
 punition O
 chétot O
-l’ B-ORG
-pillache O
+l’ O
+pillache B-MISC
 |
-| O
-Exécuté B-LOC
+| I-MISC
+Exécuté I-MISC
 par O
 chés O
 bandits O
@@ -529,30 +529,30 @@ bandits O
 |
 | O
 6e O
-Couplet B-LOC
+Couplet B-PER
 . O
 |
 | O
 On O
 sait O
-qu’ B-MISC
-in I-MISC
-Lorraine I-MISC
+qu’ O
+in O
+Lorraine B-LOC
 , O
 in O
 Alsace B-LOC
 , O
 |
 | O
-Pu B-MISC
-d’ I-MISC
+Pu O
+d’ O
 un O
 cœ O
 : O
-Jr B-PER
-bat O
-in O
-soupirant O
+Jr B-MISC
+bat I-MISC
+in I-MISC
+soupirant I-MISC
 , O
 |
 | O
@@ -568,7 +568,7 @@ mIl O
 giàce O
 |
 | O
-PJnr B-MISC
+PJnr O
 été O
 délivré O
 d’ O
@@ -580,25 +580,25 @@ puants O
 | O
 Quand O
 viendra O
-l’ B-LOC
+l’ O
 jour O
 de O
-l’ B-LOC
+l’ O
 délivrance O
 , O
 |
 | O
-Tons B-LOC
-chés O
-infants O
-tindront O
-leus O
+Tons B-MISC
+chés I-MISC
+infants I-MISC
+tindront I-MISC
+leus I-MISC
 bras O
 , O
 |
 | O
-In O
-criant O
+In B-MISC
+criant I-MISC
 : O
 merci O
 , O
@@ -607,11 +607,11 @@ France B-LOC
 , O
 |
 | O
-Hélas B-MISC
-  I-MISC
-! I-MISC
+Hélas O
+  O
+! O
 pu O
-d’ B-LOC
+d’ O
 un O
 cœur O
 répètera O
@@ -619,11 +619,11 @@ répètera O
 : O
 |
 | O
-Refrain B-PER
+Refrain O
 . O
 |
 | O
-Pa O
+Pa B-MISC
 d’ O
 désespoir O
 , O
@@ -632,10 +632,10 @@ nos O
 infants O
 |
 | O
-Critent B-ORG
-victoire I-ORG
-in I-ORG
-combattant I-ORG
+Critent B-MISC
+victoire I-MISC
+in I-MISC
+combattant I-MISC
 . O
 |
 | O

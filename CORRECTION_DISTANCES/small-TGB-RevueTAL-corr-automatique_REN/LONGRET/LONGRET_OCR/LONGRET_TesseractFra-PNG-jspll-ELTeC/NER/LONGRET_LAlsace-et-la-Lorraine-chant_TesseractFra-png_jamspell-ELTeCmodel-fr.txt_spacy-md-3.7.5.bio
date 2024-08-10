@@ -3,7 +3,7 @@
 |
 
 | O
-ER B-LOC
+ER B-ORG
 . O
 |||| O
 je O
@@ -24,9 +24,9 @@ Le O
 |
 
 | O
-NT B-ORG
-fr I-ORG
-Couplet I-ORG
+NT B-MISC
+fr I-MISC
+Couplet I-MISC
 . O
 |
 | O
@@ -44,7 +44,7 @@ on O
 pinse O
 à O
 ls’ B-MISC
-atrocités O
+atrocités I-MISC
 , O
 |
 
@@ -55,8 +55,8 @@ cha I-MISC
 dot I-MISC
 faire I-MISC
 de I-MISC
-l’ B-LOC
-peine O
+l’ I-MISC
+peine I-MISC
 , O
 |
 | O
@@ -64,8 +64,8 @@ Quoi O
 qu' O
 on O
 dit O
-qu’ B-PER
-chet I-PER
+qu’ O
+chet O
 eun O
 ? O
 destinée O
@@ -77,24 +77,24 @@ a O
 vu O
 dins O
 cheull O
-maudi B-MISC
-guerre I-MISC
+maudi O
+guerre O
 , O
 |
 | O
-Par O
-des O
-barbares O
+Par B-MISC
+des I-MISC
+barbares I-MISC
 , O
 même O
 des O
-bourriaux O
+bourriaux B-MISC
 , O
 |
 
 | O
 : O
-Réduire B-PER
+Réduire O
 eun O
 ’ O
 puissance O
@@ -123,16 +123,16 @@ Germain B-PER
 |
 
 | O
-Point O
-d' O
-désespoir O
+Point B-MISC
+d' I-MISC
+désespoir I-MISC
 , O
 car O
 nos O
 infants O
 |
 | O
-Crieront B-LOC
+Crieront B-PER
 victoire O
 avant O
 dij O
@@ -154,16 +154,16 @@ quand O
 on O
 fait O
 la O
-guerre B-MISC
+guerre O
 |
 
-| I-MISC
-Que I-MISC
+| O
+Que B-MISC
 c' I-MISC
 n’ I-MISC
-est O
-point O
-pou O
+est I-MISC
+point I-MISC
+pou I-MISC
 s' O
 donner O
 la O
@@ -173,20 +173,20 @@ main O
 | O
 Mais O
 chés O
-penoailles O
-rimplis O
+penoailles B-PER
+rimplis I-PER
 d’ O
 misère O
 , O
 |
 
 | O
-N O
+N B-PER
 ' O
 s' O
 aPtent B-MISC
-point O
-ch' O
+point I-MISC
+ch' I-MISC
 que O
 ché O
 d' O
@@ -223,26 +223,26 @@ dins O
 ch O
 ’ O
 pas O
-D B-MISC
-’ I-MISC
-sauvaches I-MISC
+D B-PER
+’ I-PER
+sauvaches I-PER
 |
 | O
-Nous B-MISC
-leu I-MISC
-rindrons I-MISC
-du I-MISC
-bure I-MISC
+Nous O
+leu O
+rindrons O
+du O
+bure O
 pou O
 d’ O
-z’ B-MISC
+z’ O
 uns O
 . O
 |
 
 | O
 3e O
-Couplet B-PER
+Couplet B-LOC
 . O
 |
 
@@ -279,17 +279,17 @@ fidèles O
 
 | O
 Et O
-s’ B-LOC
+s’ O
 vir O
 au O
 pouvoir O
 des O
-Prussiens B-MISC
+Prussiens B-LOC
 . O
 . O
 |
 | O
-Chés O
+Chés B-LOC
 bonnes O
 gins O
 dotent O
@@ -304,15 +304,15 @@ dE O
 s' O
 vir O
 égorger O
-pa O
-d’ B-PER
+pa B-PER
+d’ O
 s' O
 idiots O
 , O
 |
 
 | O
-Fille B-MISC
+Fille B-PER
 , O
 léger O
 , O
@@ -329,10 +329,10 @@ quoi O
 n' O
 in O
 r'être O
-Qu B-MISC
-’ I-MISC
-des I-MISC
-lambeaux I-MISC
+Qu O
+’ O
+des O
+lambeaux O
 . O
 |
 
@@ -350,8 +350,8 @@ LOUIS B-PER
 LONGRET I-PER
 |
 
-| I-PER
-Air I-PER
+| O
+Air B-ORG
 : O
 le O
 Jour B-MISC
@@ -361,13 +361,13 @@ Bonheur I-MISC
 |
 
 | O
-Fille B-LOC
+Fille B-PER
 , O
-Oui B-MISC
-. I-MISC
+Oui B-PER
+. O
 Six O
-- O
-Hortense O
+- B-LOC
+Hortense I-LOC
 . O
 73 O
 - O
@@ -376,13 +376,13 @@ Hortense O
 |
 
 | O
-DODOPDOOOC O
-DOoCGCOC O
+DODOPDOOOC B-ORG
+DOoCGCOC B-LOC
 |
 
-| O
-4e O
-Couplet O
+| I-LOC
+4e I-LOC
+Couplet I-LOC
 , O
 |
 
@@ -403,8 +403,8 @@ Lorraine I-MISC
 On O
 l O
 ’ O
-s’ B-MISC
-intind I-MISC
+s’ O
+intind O
 crier O
 tour O
 à O
@@ -413,25 +413,25 @@ tour O
 |
 
 | O
-Elle B-LOC
-’ I-LOC
-France I-LOC
+Elle O
+’ O
+France B-LOC
 , O
 viens O
 nous O
 r’tirer O
 de O
-J B-MISC
-’ I-MISC
-peine I-MISC
+J B-PER
+’ O
+peine O
 , O
 |
 | O
 Nos B-MISC
 cœurs I-MISC
-s O
-’ O
-décharnent O
+s I-MISC
+’ I-MISC
+décharnent I-MISC
 d' O
 jour O
 in O
@@ -455,24 +455,24 @@ pénible O
 dE O
 s O
 ’ O
-soumett O
+soumett B-PER
 ’ O
 à O
 Jeu B-MISC
 loi I-MISC
-dictée I-MISC
+dictée O
 . O
 |
 
 | O
-Vivre B-LOC
+Vivre O
 comme O
 cha O
 , O
 non O
 ! O
-chet O
-impossible O
+chet B-PER
+impossible I-PER
 , O
 |
 | O
@@ -489,7 +489,7 @@ délivrer O
 | O
 5 O
 " O
-Couplet B-PER
+Couplet B-LOC
 . O
 |
 | O
@@ -504,37 +504,37 @@ point O
 croyable O
 |
 | O
-Vous O
-|||| O
-’ O
-s’ O
-atrocités O
+Vous B-MISC
+|||| I-MISC
+’ I-MISC
+s’ I-MISC
+atrocités I-MISC
 qui O
 ont O
 fait O
 , O
 |
 | O
-Faut B-LOC
-qui O
-euch O
-' O
+Faut B-MISC
+qui I-MISC
+euch I-MISC
+' I-MISC
 et O
 L B-MISC
 ' I-MISC
 cœur I-MISC
-pu O
-dur O
-que O
-l’ B-LOC
-diable O
+pu I-MISC
+dur I-MISC
+que I-MISC
+l’ I-MISC
+diable I-MISC
 . O
 |
 | O
 On O
 frot O
 bien O
-d’ B-MISC
+d’ O
 les O
 civiliser O
 . O
@@ -548,8 +548,8 @@ certains O
 villaches O
 |
 | O
-L’ B-PER
-s’ I-PER
+L’ O
+s’ O
 habitants O
 définte O
 leu O
@@ -564,7 +564,7 @@ l' O
 pillache O
 |
 | O
-Exécuté B-LOC
+Exécuté O
 par O
 chés O
 bandits O
@@ -574,7 +574,7 @@ bandits O
 | O
 6 O
 ° O
-Couplet B-PER
+Couplet B-LOC
 . O
 |
 | O
@@ -599,11 +599,11 @@ soupirant O
 , O
 |
 | O
-Pritent O
-l O
-’ O
-boN O
-dieU B-MISC
+Pritent B-MISC
+l I-MISC
+’ I-MISC
+boN I-MISC
+dieU O
 ' O
 invoie O
 cheull O
@@ -611,35 +611,35 @@ cheull O
 grâce O
 |
 | O
-Pour O
-ête O
-délivré O
-d' O
-chés O
-puants O
+Pour B-MISC
+ête I-MISC
+délivré I-MISC
+d' I-MISC
+chés I-MISC
+puants I-MISC
 . O
 |
 | O
 Quand O
 viendra O
-l’ B-LOC
+l’ O
 jour O
 de O
-l’ B-LOC
+l’ O
 délivrance O
 , O
 |
 | O
-Tous O
-chés O
-infants O
-tindront O
-leus O
-bras O
+Tous B-MISC
+chés I-MISC
+infants I-MISC
+tindront I-MISC
+leus I-MISC
+bras I-MISC
 , O
 |
  | O
-cRiant B-MISC
+cRiant B-PER
 : O
 merci O
 , O
@@ -666,17 +666,17 @@ Germain B-PER
 | O
 A B-MISC
 D’ I-MISC
-désespoir O
+désespoir I-MISC
 , O
 car O
 nos O
 infants O
 |
 | O
-Critent B-ORG
-victoire I-ORG
-in I-ORG
-combattant I-ORG
+Critent B-MISC
+victoire I-MISC
+in I-MISC
+combattant I-MISC
 . O
 |
 
@@ -684,17 +684,17 @@ combattant I-ORG
 0 O
 |
 | O
-C0 B-LOC
+C0 B-MISC
 |
  
 
-| O
-S O
-» O
-H B-PER
-f I-PER
-D I-PER
-ve I-PER
+| I-MISC
+S I-MISC
+» I-MISC
+H I-MISC
+f I-MISC
+D I-MISC
+ve I-MISC
 |
 | O
 11 O
@@ -708,29 +708,29 @@ Le O
 707 O
 |
 | O
-Source O
-gallica.bnf.or O
-/ O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Source B-MISC
+gallica.bnf.or I-MISC
+/ I-MISC
+Bibliothèque I-MISC
+nationale I-MISC
+de I-MISC
+France I-MISC
 |
 
-| I-ORG
-Jolquos I-ORG
+| I-MISC
+Jolquos I-MISC
 |
 
-| O
-gidweort O
-th O
+| I-MISC
+gidweort I-MISC
+th I-MISC
 |
-| O
-Haut B-LOC
+| I-MISC
+Haut I-MISC
 |
 
-| I-LOC
-Latin I-LOC
+| I-MISC
+Latin I-MISC
 ub-04 O
 1097 O
 |
@@ -762,8 +762,8 @@ art O
 |
 
 | O
-iso B-MISC
-91 I-MISC
+iso O
+91 O
 |
 
 | O
@@ -784,42 +784,42 @@ nel O
 " O
 |||| O
 il O
-N200 B-LOC
+N200 O
 je O
 t O
 |
 | O
-Hedeios B-PER
+Hedeios O
 dt O
 artotoir O
 ff O
-Î B-MISC
-2ühodi I-MISC
-E I-MISC
-’ I-MISC
-É I-MISC
-L I-MISC
+Î O
+2ühodi O
+E O
+’ O
+É O
+L O
 se O
 15888 O
 ouI O
 |
 | O
 { O
-uhodiunt O
-296 O
+uhodiunt B-ORG
+296 I-ORG
 ‘ O
-np O
+np B-LOC
 tonit O
 x B-ORG
 din I-ORG
 ÉICED I-ORG
 |
 
- | O
-pErdu O
+ | I-ORG
+pErdu I-ORG
 |
-| O
-es O
+| I-ORG
+es I-ORG
 : O
 à O
 . O

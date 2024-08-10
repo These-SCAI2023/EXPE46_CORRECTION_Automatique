@@ -1,7 +1,7 @@
-ILEleae O
+ILEleae B-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 . O
 de O
 Espinasse B-LOC
@@ -10,9 +10,9 @@ ean- O
 |
 | O
 Pierre-M B-LOC
-arie B-LOC
-- I-LOC
-Henri I-LOC
+arie B-PER
+- I-PER
+Henri I-PER
 ) O
 , O
 colonel O
@@ -35,8 +35,8 @@ Baric B-PER
 ) O
 |
 | O
-I B-LOC
-I B-LOC
+I O
+I O
 e O
 |
 | O
@@ -74,17 +74,17 @@ de O
 |
 | O
 ] O
-L' B-MISC
-Espinasse I-MISC
+L' B-PER
+Espinasse I-PER
 ( O
 ean B-LOC
 - I-LOC
 Pierre I-LOC
 - I-LOC
 M I-LOC
-arie O
-- O
-Henri O
+arie I-LOC
+- I-LOC
+Henri I-LOC
 ) O
 , O
 colonel O
@@ -140,11 +140,11 @@ des O
 collections O
 de O
 la O
-BnF. B-MISC
-Leur I-MISC
+BnF. B-LOC
+Leur I-LOC
 |
-| I-MISC
-reutilisation I-MISC
+| I-LOC
+reutilisation I-LOC
 sinscrit O
 dans O
 le O
@@ -220,16 +220,16 @@ ci O
 - O
 apres O
 : O
-s O
-Source O
-gallica.bnf.fr O
-/ O
-Bibliotheque B-ORG
-nationale I-ORG
+s B-MISC
+Source I-MISC
+gallica.bnf.fr I-MISC
+/ I-MISC
+Bibliotheque I-MISC
+nationale I-MISC
 |
-| I-ORG
-de I-ORG
-France I-ORG
+| I-MISC
+de I-MISC
+France I-MISC
 | | O
 ou O
 | | O
@@ -337,32 +337,32 @@ etc. O
 CLI0QUERIC B-MISC
 POURACCEDER O
 AUXTARFS B-MISC
-ET O
-A O
-LA O
-LUICENCE O
+ET I-MISC
+A I-MISC
+LA I-MISC
+LUICENCE I-MISC
 |
 | O
 2/ O
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriete O
 de O
 la O
-BnF O
+BnF B-ORG
 au O
 sens O
 de O
 |
 | O
 larticle O
-L.2112 O
-- O
-1 O
+L.2112 B-ORG
+- I-ORG
+1 I-ORG
 du O
 code O
 general O
@@ -472,20 +472,20 @@ la O
 mention O
 Source B-ORG
 gallica.BnF.fr I-ORG
-/ O
-Bibliotheque B-LOC
+/ I-ORG
+Bibliotheque I-ORG
 |
-| O
-municipale O
-de O
-... O
+| I-ORG
+municipale I-ORG
+de I-ORG
+... I-ORG
 ( O
 ou O
 autre O
 partenaire O
 ) O
 . O
-Lutilisateur B-LOC
+Lutilisateur B-MISC
 est O
 invite O
 a O
@@ -507,7 +507,7 @@ reutilisation O
 |
 | O
 4l/ O
-Gallica B-PER
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -528,9 +528,9 @@ au O
 sens O
 des O
 articles O
-L341 B-MISC
-- I-MISC
-1 I-MISC
+L341 O
+- O
+1 O
 et O
 suivants O
 du O
@@ -553,7 +553,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 |
 | O
 sont O
@@ -598,7 +598,7 @@ pays O
 |
 | O
 6/ O
-Lutilisateur B-LOC
+Lutilisateur B-MISC
 s' O
 engage O
 a O
@@ -663,7 +663,7 @@ obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 definition O
@@ -680,23 +680,23 @@ utilisation.commercialegbnffr O
 -II O
 |
 | O
-II B-MISC
+II O
 |
-| I-MISC
-II I-MISC
+| O
+II O
 |
-| I-MISC
-tT I-MISC
+| O
+tT O
 |
-| I-MISC
-IIi I-MISC
+| O
+IIi B-PER
 |
-| I-MISC
-II I-MISC
+| I-PER
+II I-PER
 |
  
-| I-MISC
-I I-MISC
+| I-PER
+I I-PER
 |
 | O
 EIII O
@@ -715,40 +715,40 @@ II O
 | O
 . O
 -I- O
-III B-MISC
-|
-| I-MISC
-II I-MISC
-|
-| I-MISC
-I I-MISC
-I I-MISC
-|
-| I-MISC
-tILeIDeI I-MISC
-|
-| O
-I. B-PER
+III B-PER
 |
 | I-PER
-IRIMA1RR I-PER
+II I-PER
+|
+| I-PER
+I I-PER
+I I-PER
 |
 | O
-T B-MISC
-2I I-MISC
+tILeIDeI O
 |
-| I-MISC
-DE I-MISC
-L' I-MISC
-LSPINASSD I-MISC
+| O
+I. B-ORG
+|
+| I-ORG
+IRIMA1RR I-ORG
+|
+| O
+T O
+2I O
+|
+| O
+DE O
+L' O
+LSPINASSD O
 |
 | O
 ( O
-JIII B-PER
-- I-PER
-PIIII I-PER
-- I-PER
-IIIIIIIII I-PER
+JIII B-ORG
+- I-ORG
+PIIII I-ORG
+- I-ORG
+IIIIIIIII I-ORG
 ) O
 , O
 |
@@ -758,15 +758,15 @@ IIIIIIIII I-PER
 | O
 oioi O
 , O
-yn O
+yn B-LOC
 , O
 sr O
-nsenismNr B-MISC
-| | I-MISC
-LA I-MISC
-A I-MISC
-- I-MISC
-oAnoNE I-MISC
+nsenismNr B-ORG
+| | O
+LA B-LOC
+A I-LOC
+- I-LOC
+oAnoNE I-LOC
 , O
 |
  
@@ -802,19 +802,19 @@ E B-LOC
 y1.S. O
 |
 | O
------------=e B-LOC
-- I-LOC
-rTi I-LOC
+-----------=e O
+- O
+rTi O
 |
 | O
 77 O
 |
 | O
-L O
+L B-LOC
 : O
 |
 | O
-s;i O
+s i B-LOC
 , O
 . O
 |
@@ -827,9 +827,9 @@ La O
 famille O
 de O
 M. B-PER
-de O
-' O
-Espinasse B-LOC
+de I-PER
+' I-PER
+Espinasse I-PER
 est O
 originaire O
 de O
@@ -851,7 +851,7 @@ chateau O
 de O
 |
 | O
-Saint-Paul B-PER
+Saint-Paul B-LOC
 , O
 dans O
 la O
@@ -891,8 +891,8 @@ tous O
 eu O
 |
 | O
-L O
-/2L B-LOC
+L B-PER
+/2L O
 |
 | O
 ---.--s O
@@ -902,8 +902,8 @@ A B-MISC
 O I-MISC
 I I-MISC
 |
-| I-MISC
-1O I-MISC
+| O
+1O O
 | | O
 l O
 |
@@ -953,7 +953,7 @@ La O
 maison O
 de O
 l' O
-Espinasse B-LOC
+Espinasse O
 etablie O
 en O
 Rouergue B-LOC
@@ -981,9 +981,9 @@ Jean B-PER
 de O
 1'Espinasse O
 , O
-sire B-LOC
-de I-LOC
-Combroude I-LOC
+sire O
+de O
+Combroude O
 , O
 qui O
 s' O
@@ -998,10 +998,10 @@ Dauphine I-PER
 , O
 dame O
 de O
-Saint-Ilpise B-LOC
+Saint-Ilpise B-PER
 et O
 de O
-Com- B-LOC
+Com- B-ORG
 |
 | O
 broude O
@@ -1038,10 +1038,10 @@ Espinasse B-LOC
 , O
 sire O
 de O
-Com- B-LOC
+Com- B-ORG
 |
 | O
-broude B-LOC
+broude O
 , O
 quitta O
 l' O
@@ -1073,7 +1073,7 @@ ar- O
 |
 | O
 ehers O
-; O
+  O
 apres O
 maintes O
 campagnes O
@@ -1098,7 +1098,7 @@ demoi- O
 | O
 selle O
 de O
-Saint-Hilaire B-LOC
+Saint-Hilaire B-PER
 , O
 fille O
 unique O
@@ -1155,7 +1155,7 @@ roi O
 Charles B-PER
 V I-PER
 , O
-envoye6 O
+envoye6 B-ORG
 |
 | O
 Bruges B-LOC
@@ -1179,8 +1179,8 @@ tard O
 le O
 sire O
 de O
-La B-LOC
-Tremouille I-LOC
+La O
+Tremouille B-LOC
 dans O
 une O
 |
@@ -1210,8 +1210,8 @@ VII O
 , O
 au O
 mot O
-Dauphin B-LOC
-Bernard B-MISC
+Dauphin B-MISC
+Bernard I-MISC
 , O
 |
 | O
@@ -1223,7 +1223,7 @@ ottrage O
 au O
 mot O
 ' O
-Espinasse B-LOC
+Espinasse B-PER
 . O
 |
 | O
@@ -1265,7 +1265,7 @@ de O
 Tou- B-ORG
 |
 | O
-louse B-LOC
+louse O
 , O
 et O
 les O
@@ -1277,8 +1277,8 @@ lepoque O
 memorable O
 |
 | O
-o B-PER
-Napoleon I-PER
+o O
+Napoleon B-PER
 donna O
 son O
 Code B-MISC
@@ -1297,18 +1297,18 @@ epouse O
 en O
 1783 O
 , O
-Marie-Antoinette-Therese-Doro- B-MISC
+Marie-Antoinette-Therese-Doro- B-ORG
 |
-| I-MISC
-thee I-MISC
-- I-MISC
-Louise I-MISC
-- I-MISC
-Sophie I-MISC
-- I-MISC
-Josephine I-MISC
-de I-MISC
-Fraysse I-MISC
+| O
+thee O
+- O
+Louise O
+- O
+Sophie O
+- O
+Josephine O
+de O
+Fraysse O
 , O
 arriere O
 - O
@@ -1328,7 +1328,7 @@ vice-roi O
 du O
 |
 | O
-P6rou O
+P6rou B-LOC
 . O
 Morte O
 en O
@@ -1358,11 +1358,11 @@ vie O
 |
 | O
 et O
-mademoiselle O
-Marie-Antoinette-Therese O
+mademoiselle B-PER
+Marie-Antoinette-Therese I-PER
 de O
 l' O
-Espinasse B-LOC
+Espinasse O
 , O
 |
 | O
@@ -1377,7 +1377,7 @@ qualites O
 . O
 |
 | O
-A O
+A B-LOC
 cet O
 ge O
 de O
@@ -1399,7 +1399,7 @@ pour O
 devenir O
 une O
 inspiration O
-obeie O
+obeie B-PER
 , O
 M. O
 de O
@@ -1475,7 +1475,7 @@ une O
 existence O
 plus O
 facile O
-; O
+  O
 car O
 , O
 les O
@@ -1536,8 +1536,8 @@ etait O
 fait O
 inscrire O
 comme O
-enr0le B-MISC
-volon- I-MISC
+enr0le B-ORG
+volon- O
 |
 | O
 , O
@@ -1582,8 +1582,8 @@ armee O
 en O
 Alle- B-LOC
 |
-| O
-magne B-LOC
+| I-LOC
+magne I-LOC
 . O
 |
 | O
@@ -1595,9 +1595,9 @@ recut O
 le O
 bapteme O
 du O
-feu B-MISC
-| | I-MISC
-Ulm I-MISC
+feu B-LOC
+| | I-LOC
+Ulm I-LOC
 , O
 et O
 ses O
@@ -1606,7 +1606,7 @@ ses O
 premiers O
 galons O
 | | O
-Austerlitz B-LOC
+Austerlitz B-MISC
 , O
 | | O
 cette O
@@ -1623,19 +1623,19 @@ proclamation O
 : O
 |
  | O
-Soldats O
+Soldats B-PER
 , O
 je O
 suis O
 content O
 de O
-vousl O
+vousl B-PER
 .. O
 |
 | O
 . O
 . O
-I1 B-MISC
+I1 B-PER
 vous O
 |
 | O
@@ -1661,7 +1661,7 @@ on O
 vous O
 reponde O
 : O
-Voila B-MISC
+Voila B-PER
 un O
 bravel O
 |
@@ -1671,9 +1671,9 @@ En O
 , O
 1807 O
 , O
-M. B-PER
-de I-PER
-lEspinasse I-PER
+M. O
+de O
+lEspinasse B-MISC
 fit O
 les O
 campagnes O
@@ -1688,13 +1688,13 @@ Pologne B-LOC
 Il O
 etait O
 | | O
-Iena B-PER
+Iena O
 , O
 o O
 les O
 succes O
 de O
-Na- O
+Na- B-LOC
 |
 | O
 poleon O
@@ -1710,9 +1710,9 @@ Auer- I-PER
 |
 | I-PER
 staed I-PER
-; O
+  O
 | | O
-Eylau B-MISC
+Eylau B-PER
 , O
 o O
 les O
@@ -1735,18 +1735,18 @@ vainqueur O
 |
 | O
 a O
-Un O
-jour O
-viendra O
-, O
-avait O
--il O
-dit O
-, O
-o O
-la B-LOC
-France I-LOC
-epuisee O
+Un B-MISC
+jour I-MISC
+viendra I-MISC
+, I-MISC
+avait I-MISC
+-il I-MISC
+dit I-MISC
+, I-MISC
+o I-MISC
+la I-MISC
+France I-MISC
+epuisee B-PER
 vous O
 |
 | O
@@ -1754,11 +1754,11 @@ refusera O
 meme O
 des O
 veux O
-; O
+  O
 | | O
 - O
 | | O
-Friedland B-LOC
+Friedland O
 , O
 o O
 les O
@@ -1794,9 +1794,9 @@ marechal O
 des- O
 |
 | O
-logis B-PER
-d' I-PER
-Austerlitz I-PER
+logis O
+d' O
+Austerlitz O
 regut O
 un O
 second O
@@ -1819,7 +1819,7 @@ Le O
 general O
 de O
 division O
-Grouchy B-MISC
+Grouchy O
 l' O
 avait O
 choisi O
@@ -1852,7 +1852,7 @@ separe O
 de O
 |
 | O
-larmee O
+larmee B-LOC
 , O
 qui O
 avait O
@@ -1867,7 +1867,7 @@ en O
 |
 | O
 marche O
-; O
+  O
 il O
 fallait O
 le O
@@ -1914,7 +1914,7 @@ cet O
 ordre O
 de O
 retraite O
-; O
+  O
 il O
 brave O
 l' O
@@ -1943,7 +1943,7 @@ premieres O
 maisons O
 de O
 Passenheim B-LOC
-; O
+  O
 l O
 , O
 malgre O
@@ -1973,7 +1973,7 @@ qui O
 l' O
 a O
 devance O
-; O
+  O
 il O
 subit O
 son O
@@ -2008,7 +2008,7 @@ parvient O
 | | O
 s' O
 echapper O
-; O
+  O
 il O
 connatt O
 les O
@@ -2038,7 +2038,7 @@ jusqu O
 ' O
 la O
 ville O
-; O
+  O
 il O
 les O
 suit O
@@ -2069,9 +2069,9 @@ par- O
 | O
 vient O
 ainsi O
-sain O
+sain B-PER
 et O
-saf B-MISC
+saf B-PER
 jusqu O
 au O
 commandant O
@@ -2103,7 +2103,7 @@ ordres O
 qui O
 viennent O
 de O
-luietre O
+luietre B-LOC
 remis O
 , O
 se O
@@ -2121,11 +2121,11 @@ s' O
 en O
 est O
 rapproehe O
-; O
+  O
 le O
 |
 | O
-depart O
+depart B-MISC
 est O
 aussi O
 dangereux O
@@ -2155,7 +2155,7 @@ la O
 | O
 colonne O
 francaise O
-; O
+  O
 il O
 est O
 agree O
@@ -2284,10 +2284,10 @@ de O
 la O
 |
 | O
-Legion B-MISC
-- I-MISC
-d' I-MISC
-Honneur I-MISC
+Legion B-ORG
+- I-ORG
+d' I-ORG
+Honneur I-ORG
 , O
 dut O
 lui O
@@ -2335,10 +2335,10 @@ distinctions O
 En O
 1808 O
 , O
-M. B-MISC
-de I-MISC
-l' I-MISC
-Espinasse I-MISC
+M. B-PER
+de I-PER
+l' I-PER
+Espinasse I-PER
 passa O
 en O
 Espagne B-LOC
@@ -2368,7 +2368,7 @@ plus O
 y O
 avoir O
 de O
-Pyrenees B-MISC
+Pyrenees B-LOC
 . O
 | | O
 Mais O
@@ -2404,10 +2404,10 @@ de O
 la O
 liberte O
 , O
-Na- O
+Na- B-ORG
 |
-| O
-poleon O
+| I-ORG
+poleon I-ORG
 apprit O
 , O
 par O
@@ -2448,7 +2448,7 @@ ans O
 | O
 en O
 Espagne B-LOC
-; O
+  O
 il O
 y O
 gagna O
@@ -2474,13 +2474,13 @@ Portugal B-LOC
 ou O
 |
 | O
-Massena B-PER
+Massena B-LOC
 eut O
 surtout O
 pour O
 adversaire O
 ses O
-Anglais B-LOC
+Anglais B-MISC
 , O
 commandes O
 |
@@ -2537,7 +2537,7 @@ alors O
 capi- O
 |
 | O
-taine B-PER
+taine O
 adjudant O
 - O
 major O
@@ -2551,8 +2551,8 @@ En O
 , O
 epoque O
 de O
-eruels O
-souvenirs O
+eruels B-PER
+souvenirs I-PER
 , O
 il O
 regut O
@@ -2594,9 +2594,9 @@ L' O
 armee O
 de O
 la O
-Loire B-LOC
+Loire O
 fut O
-licenciee O
+licenciee B-PER
 , O
 et O
 M. B-PER
@@ -2646,7 +2646,7 @@ il O
 entra O
 dans O
 les O
-gardes-du-corps B-LOC
+gardes-du-corps O
 , O
 |
 | O
@@ -2671,7 +2671,7 @@ au O
 grade O
 de O
 colonel O
-; O
+  O
 et O
 enfin O
 , O
@@ -2685,9 +2685,9 @@ la O
 | O
 decoration O
 de O
-chevalier B-PER
-de I-PER
-Saint-Louis I-PER
+chevalier O
+de O
+Saint-Louis B-LOC
 : O
 ce O
 fut O
@@ -2704,7 +2704,7 @@ X. I-PER
 Ce O
 roi O
 avait O
-echoisi O
+echoisi B-LOC
 le O
 jour O
 le O
@@ -2784,10 +2784,10 @@ pays O
 |
 | O
 La O
-revolution O
-de O
-Juillet B-MISC
-1830 I-MISC
+revolution B-MISC
+de I-MISC
+Juillet I-MISC
+1830 O
 brisa O
 une O
 seconde O
@@ -2809,7 +2809,7 @@ portee O
 licencie O
 |
 | O
-aveec B-PER
+aveec O
 toute O
 lagarde O
 royale O
@@ -2841,7 +2841,7 @@ il O
 
 
 | O
-2EL B-MISC
+2EL O
 |
 | O
 " O
@@ -2859,7 +2859,7 @@ nous O
 le O
 retrouvons O
 en O
-Bel- O
+Bel- B-MISC
 |
 | O
 giue O
@@ -2879,11 +2879,11 @@ comman- O
 dant O
 le O
 quartier O
-general O
+general B-LOC
 . O
 |
 | O
-Trente O
+Trente B-MISC
 annees O
 de O
 service O
@@ -2905,7 +2905,7 @@ determinerent O
 le O
 colonel O
 a O
-de- O
+de- B-LOC
 |
 | O
 mander O
@@ -2985,7 +2985,7 @@ colonel O
 d' O
 hesitation O
 possible O
-; O
+  O
 il O
 rentra O
 |
@@ -3027,7 +3027,7 @@ s' O
 etablit O
 | | O
 Paris B-LOC
-; O
+  O
 mais O
 les O
 sympathies O
@@ -3155,7 +3155,7 @@ dangers O
 . O
 |
 | O
-Depute B-LOC
+Depute B-MISC
 de O
 la O
 Haute-Garonne B-LOC
@@ -3163,10 +3163,10 @@ Haute-Garonne B-LOC
 le O
 colonel O
 de O
-lEspinasse B-MISC
+lEspinasse B-PER
 |
-| O
-debuta O
+| I-PER
+debuta I-PER
 par O
 un O
 appel O
@@ -3216,10 +3216,10 @@ de O
 la O
 |
 | O
-Legion B-MISC
-- I-MISC
-d' I-MISC
-Honneur I-MISC
+Legion B-ORG
+- I-ORG
+d' I-ORG
+Honneur I-ORG
 , O
 et O
 en O
@@ -3256,7 +3256,7 @@ colonel O
 re- O
 |
 | O
-olama B-PER
+olama O
 le O
 remboursement O
 de O
@@ -3485,7 +3485,7 @@ grands O
 |
 | O
 dangers O
-; O
+  O
 il O
 etait O
 parti O
@@ -3493,7 +3493,7 @@ pour O
 les O
 secourir O
 du O
-Port-au-Prince O
+Port-au-Prince B-LOC
 , O
 o O
 |
@@ -3528,8 +3528,8 @@ Anglais B-LOC
 et O
 |
 | O
-M. B-PER
-Crevel I-PER
+M. O
+Crevel B-PER
 , O
 riche O
 de O
@@ -3644,9 +3644,9 @@ a O
 la O
 lesinerie O
 , O
-M. B-PER
-de I-PER
-lEspi- I-PER
+M. O
+de O
+lEspi- O
 |
 | O
 nasse O
@@ -3693,7 +3693,7 @@ aussi O
 mis O
 en O
 question O
-; O
+  O
 il O
 le O
 fit O
@@ -3710,7 +3710,7 @@ est O
 presentee O
 | | O
 l' O
-Assemblee B-LOC
+Assemblee B-ORG
 dans O
 le O
 |
@@ -3779,7 +3779,7 @@ des O
 interets O
 de O
 clocher O
-; O
+  O
 cependant O
 il O
 |
@@ -3795,7 +3795,7 @@ il O
 etait O
 plus O
 particulierement O
-sppele O
+sppele B-LOC
 |
 | O
 a O
@@ -3813,8 +3813,8 @@ demander O
 | O
 en O
 ( O
-837 O
-T O
+837 B-LOC
+T I-LOC
 , O
 une O
 augmentation O
@@ -3829,8 +3829,8 @@ pre- O
 miere O
 instance O
 de O
-Toulouse B-LOC
-; O
+Toulouse O
+  O
 combattre O
 , O
 en O
@@ -4004,7 +4004,7 @@ constam- O
 |
 | O
 ment O
-reclam6 O
+reclam6 B-PER
 lallegement O
 des O
 charges O
@@ -4069,7 +4069,7 @@ conserve O
 comme O
 |
 | O
-M. B-PER
+M. O
 de O
 l' O
 Espinasse B-LOC
@@ -4115,7 +4115,7 @@ importun O
 en O
 protecteur O
 banal O
-; O
+  O
 mais O
 apres O
 avoir O
@@ -4173,7 +4173,7 @@ sage O
 con- O
 |
 | O
-seiller O
+seiller B-PER
 qui O
 preserve O
 de O
@@ -4195,10 +4195,10 @@ inspirations O
 . O
 |
 | O
-La O
-vie O
-des O
-camps O
+La B-MISC
+vie I-MISC
+des I-MISC
+camps I-MISC
 n' O
 a O
 fait O
@@ -4246,7 +4246,7 @@ en O
 lui O
 disant O
 la O
-verite O
+verite B-PER
 . O
 |
 | O
@@ -4300,7 +4300,7 @@ discours O
 |
 | O
 la O
-nettete B-MISC
+nettete O
 , O
 la O
 moderation O
@@ -4340,9 +4340,9 @@ la O
 Chambre B-LOC
 avee I-LOC
 |
-| O
-la O
-deference O
+| I-LOC
+la I-LOC
+deference I-LOC
 generalement O
 accordee O
 aux O
@@ -4395,9 +4395,9 @@ de O
 1'Espinasse O
 fait O
 la O
-guerre O
-aux O
-idees O
+guerre B-MISC
+aux I-MISC
+idees I-MISC
 , O
 il O
 se O
@@ -4495,7 +4495,7 @@ Son O
 attitude O
 sage O
 et O
-moderee O
+moderee B-PER
 , O
 vis O
 -- O
@@ -4527,7 +4527,7 @@ lattirer O
 sous O
 leur O
 drapeau O
-; O
+  O
 mais O
 lorsque O
 , O
@@ -4626,14 +4626,14 @@ proteges O
 garantis O
 contre O
 la O
-mobilit6 B-LOC
-de I-LOC
-lesprit I-LOC
+mobilit6 B-MISC
+de I-MISC
+lesprit I-MISC
 |
-| O
-de O
-ses O
-habitants O
+| I-MISC
+de I-MISC
+ses I-MISC
+habitants I-MISC
 , O
 et O
 , O
@@ -4740,9 +4740,9 @@ h O
 1'Assemblee O
 Constituante B-MISC
 par O
-I5,I79 B-MISC
-suffrages I-MISC
-; O
+I5,I79 B-ORG
+suffrages O
+  O
 et O
 , O
 une O
@@ -4815,30 +4815,30 @@ majorite O
 de O
 |
 | O
-BARIC B-MISC
+BARIC B-ORG
 . O
 |
 | O
 6iNIAI06IL O
-IIAIIRYIILIl B-LOC
+IIAIIRYIILIl B-ORG
 |
-| O
-fe O
+| I-ORG
+fe I-ORG
 |
-| O
-E O
-I. O
-1E O
-0L0ElL O
-DE O
-L' O
-ESPII1sSE O
+| I-ORG
+E I-ORG
+I. I-ORG
+1E I-ORG
+0L0ElL I-ORG
+DE I-ORG
+L' I-ORG
+ESPII1sSE I-ORG
 , O
 |
 | O
 1e O
 e O
-E B-LOC
+E O
 |
 | O
 r O
@@ -4856,7 +4856,7 @@ t O
 |
 | O
 DEPUT B-MISC
-DE O
+DE I-MISC
 LA O
 IAUTE B-ORG
 - I-ORG
@@ -4869,7 +4869,7 @@ SAMIEDI0 I-PER
 , O
 marquis O
 nr O
-VIILLAL0B0S B-MISC
+VIILLAL0B0S B-PER
 , O
 vice-roi O
 du O
@@ -4884,17 +4884,17 @@ enfants O
 |
 | O
 Dom B-PER
-SAnIEDIo O
-DE O
-YILLA- O
+SAnIEDIo I-PER
+DE I-PER
+YILLA- I-PER
 ] O
 DoOn1 B-LOC
-SAMEDIO B-ORG
-DnE O
-VILLA- O
+SAMEDIO O
+DnE B-MISC
+VILLA- I-MISC
 ] O
-DOa B-MISC
-MlAnIANA I-MISC
+DOa O
+MlAnIANA O
 SAMIEDIO O
 |
 | O
@@ -4909,10 +4909,10 @@ LoBos B-MISC
 , O
 jesuite O
 en O
-Es- O
+Es- B-LOC
 ] O
 ns O
-VrLLALoBOs O
+VrLLALoBOs B-LOC
 , O
 son O
 |
@@ -4928,7 +4928,7 @@ sans O
 posterite O
 en O
 ] O
-pgne O
+pgne B-LOC
 , O
 mort O
 sans O
@@ -4957,11 +4957,11 @@ issus O
 | O
 se O
 au O
-Perou B-PER
+Perou B-LOC
 le O
-baron O
+baron B-PER
 |
-| O
+| I-PER
 Jean B-PER
 de I-PER
 Fraysse I-PER
@@ -4970,17 +4970,17 @@ lieu- O
 |
 | O
 tenant O
-devaisseau O
+devaisseau B-PER
 dans O
 |
 | O
 la O
-marine O
-royale O
-de O
+marine B-ORG
+royale I-ORG
+de I-ORG
 |
-| O
-France O
+| I-ORG
+France I-ORG
 , O
 seigneur O
 de O
@@ -5005,22 +5005,22 @@ en O
 |
 | O
 1e O
-Noble O
-Bernard- O
-Dominique O
-] O
-2P B-PER
-Noble I-PER
-Therese O
-ps O
-Fnss O
+Noble B-MISC
+Bernard- I-MISC
+Dominique I-MISC
+] I-MISC
+2P B-LOC
+Noble I-LOC
+Therese I-LOC
+ps I-LOC
+Fnss I-LOC
 , O
 supe- O
 |
 | O
 FnAYssE B-LOC
 , O
-marie O
+marie B-PER
 a O
 demoiselle O
 Marie B-PER
@@ -5035,14 +5035,14 @@ Benedictines B-LOC
 a O
 |
 | O
-Gilede B-PER
+Gilede B-MISC
 , O
 fille O
 de O
 noble O
-baron O
-de O
-Pressac B-LOC
+baron B-PER
+de I-PER
+Pressac I-PER
 , O
 ] O
 Toulouse B-LOC
@@ -5094,9 +5094,9 @@ lieux O
 Du O
 mariage O
 de O
-Bernard B-MISC
-nE O
-FRAYSsE B-LOC
+Bernard B-PER
+nE I-PER
+FRAYSsE I-PER
 et O
 demoiselle O
 ns O
@@ -5110,13 +5110,13 @@ issus O
 L O
 |
 | O
-1P B-ORG
-Noble I-ORG
-Antoine I-ORG
-- I-ORG
-Marie I-ORG
-- I-ORG
-Anne I-ORG
+1P O
+Noble O
+Antoine O
+- O
+Marie O
+- O
+Anne O
 , O
 baron O
 ] O
@@ -5129,7 +5129,7 @@ Doro- I-PER
 |
 | I-PER
 b I-PER
-FRAssB I-PER
+FRAssB O
 , O
 mort O
 sans O
@@ -5138,9 +5138,9 @@ posterite O
 au O
 ] O
 thee- O
-Louise O
-- O
-Sophie O
+Louise B-PER
+- I-PER
+Sophie I-PER
 - O
 Josephine O
 s O
@@ -5177,7 +5177,7 @@ de O
 , O
 membre O
 du O
-parlemenlt O
+parlemenlt B-MISC
 |
 | O
 Par O
@@ -5190,10 +5190,10 @@ ne- O
 ] O
 de O
 Toulouse B-LOC
-; O
+  O
 |
 | O
-veu O
+veu B-MISC
 , O
 le O
 colonel O
@@ -5205,7 +5205,7 @@ lEspinasse B-MISC
 Morte B-LOC
 en O
 1786 O
-; O
+  O
 |
 | O
 son O
@@ -5224,18 +5224,18 @@ issus O
 
 | O
 1 O
-Jean O
-- O
-Pierre O
-- O
-Marie- O
-Henry B-PER
+Jean B-PER
+- I-PER
+Pierre I-PER
+- I-PER
+Marie- I-PER
+Henry I-PER
 p]2P I-PER
 Mlarie O
 - O
 Antoinette- O
 Therese O
-ps O
+ps B-ORG
 |
 | O
 ' O
@@ -5245,10 +5245,10 @@ colonel O
 de O
 cavalerie O
 , O
-de- O
+de- B-LOC
 ] O
 ' O
-EsNAssE B-ORG
+EsNAssE B-MISC
 , O
 ui O
 ne O
@@ -5266,9 +5266,9 @@ Haute-Garonne B-LOC
 . O
 |
 | O
-Imprime B-LOC
+Imprime B-ORG
 par O
-Ilsnn B-ORG
+Ilsnn B-MISC
 etCAnLss O
 NOILET B-MISC
 , O
@@ -5362,17 +5362,17 @@ ei O
 k. O
 |
 | O
-L.A B-LOC
+L.A B-MISC
 |
 | O
 . O
-P B-LOC
+P B-PER
 |
 
 
 
-| O
-H O
+| I-PER
+H I-PER
 |
 | O
 1 O
@@ -5385,15 +5385,15 @@ R I-MISC
 |
 | I-MISC
 i I-MISC
-: I-MISC
+: O
 . O
 |
 
 | O
-gaa B-PER
+gaa B-LOC
 |
 
-| I-PER
+| O
 . O
 |
 
@@ -5407,26 +5407,26 @@ gaa B-PER
 
 
 | O
-.v O
+.v B-LOC
 |
 | O
 ' O
 |
 
 | O
-Ie B-MISC
-' I-MISC
+Ie B-PER
+' O
 |
-| I-MISC
-1 I-MISC
+| O
+1 O
 |
-| I-MISC
-v I-MISC
-' I-MISC
+| O
+v O
+' O
 |
-| I-MISC
+| O
 . O
-.r O
+.r B-ORG
 . O
 |
 | O
@@ -5440,7 +5440,7 @@ is O
 E B-LOC
 |
 | O
-.-3 O
+.-3 B-ORG
 |
  | O
 : O
@@ -5466,7 +5466,7 @@ g O
 |
 | O
 : O
-; O
+  O
 : O
 . O
 |
@@ -5531,17 +5531,17 @@ ti O
 |
 | O
 ' O
-L B-MISC
+L B-LOC
 |
-| I-MISC
-i I-MISC
-La I-MISC
+| O
+i O
+La O
 |
 
 
-| I-MISC
-s. I-MISC
-: I-MISC
+| O
+s. O
+: O
 . O
 |
 
@@ -5616,7 +5616,7 @@ s O
 
 
 | O
-2;:- O
+2 :- O
 , O
 |
 
@@ -5647,10 +5647,10 @@ n O
 -L O
 |
 | O
-A O
+A B-PER
 |
-| O
-L O
+| I-PER
+L I-PER
 |
 | O
 3 O
@@ -5666,10 +5666,10 @@ h O
 | O
 , O
 , O
-P B-LOC
+P B-PER
 |
-| I-LOC
-1L I-LOC
+| I-PER
+1L I-PER
 |
 
 | O
@@ -5714,14 +5714,14 @@ t O
 
 
 | O
-.'s B-LOC
+.'s O
 |
 
-| I-LOC
-i',L I-LOC
+| O
+i',L O
 |
 
-| I-LOC
+| O
 . O
 |
 
@@ -5744,10 +5744,10 @@ n O
 : O
 |
 | O
-s/ O
+s/ B-LOC
 |
 | O
-r1 B-ORG
+r1 O
 |
 | O
 - O
@@ -5761,7 +5761,7 @@ r1 B-ORG
 : O
 |
 | O
-L O
+L B-LOC
 |
 | O
 . O
@@ -5773,17 +5773,17 @@ L O
 ' O
 |
  | O
-Ai B-MISC
+Ai O
 |
-| I-MISC
-- I-MISC
+| O
+- O
 |
-| I-MISC
+| O
 . O
 .A O
 |
 | O
-nt O
+nt B-ORG
 |
 
 | O
@@ -5840,8 +5840,8 @@ t- O
 ' O
 |
 | O
-w' O
-L. B-PER
+w' B-PER
+L. I-PER
 |
 
 | O
@@ -5918,7 +5918,7 @@ ri O
 . O
 |
 | O
-sII1I B-MISC
+sII1I O
 |
 | O
 ti O
@@ -5991,9 +5991,9 @@ i O
 g O
 |
 | O
-; O
+  O
 , O
-; O
+  O
 : O
 : O
 : O

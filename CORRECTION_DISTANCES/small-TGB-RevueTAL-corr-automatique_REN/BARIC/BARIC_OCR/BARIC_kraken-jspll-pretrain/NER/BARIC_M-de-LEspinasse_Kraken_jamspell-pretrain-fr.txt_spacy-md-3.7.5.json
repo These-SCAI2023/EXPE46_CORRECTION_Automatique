@@ -1,6 +1,6 @@
 {
   "entite_0": {
-    "label": "ORG",
+    "label": "LOC",
     "text": "VILlage",
     "jalons": [
       0,
@@ -9,13 +9,29 @@
   },
   "entite_1": {
     "label": "LOC",
+    "text": "M",
+    "jalons": [
+      8,
+      9
+    ]
+  },
+  "entite_2": {
+    "label": "LOC",
     "text": "Espinasse",
     "jalons": [
       15,
       24
     ]
   },
-  "entite_2": {
+  "entite_3": {
+    "label": "LOC",
+    "text": "en-",
+    "jalons": [
+      26,
+      29
+    ]
+  },
+  "entite_4": {
     "label": "LOC",
     "text": "Pierre-M",
     "jalons": [
@@ -23,15 +39,15 @@
       38
     ]
   },
-  "entite_3": {
-    "label": "LOC",
+  "entite_5": {
+    "label": "PER",
     "text": "arie-Henri",
     "jalons": [
       39,
       49
     ]
   },
-  "entite_4": {
+  "entite_6": {
     "label": "LOC",
     "text": "Haute-Garonne",
     "jalons": [
@@ -39,7 +55,7 @@
       103
     ]
   },
-  "entite_5": {
+  "entite_7": {
     "label": "PER",
     "text": "Baric",
     "jalons": [
@@ -47,31 +63,7 @@
       115
     ]
   },
-  "entite_6": {
-    "label": "LOC",
-    "text": "I",
-    "jalons": [
-      118,
-      119
-    ]
-  },
-  "entite_7": {
-    "label": "LOC",
-    "text": "I",
-    "jalons": [
-      120,
-      121
-    ]
-  },
   "entite_8": {
-    "label": "ORG",
-    "text": "MOd11lLd",
-    "jalons": [
-      141,
-      149
-    ]
-  },
-  "entite_9": {
     "label": "PER",
     "text": "Baric",
     "jalons": [
@@ -79,7 +71,7 @@
       157
     ]
   },
-  "entite_10": {
+  "entite_9": {
     "label": "PER",
     "text": "Dominique Louis",
     "jalons": [
@@ -87,23 +79,15 @@
       174
     ]
   },
-  "entite_11": {
-    "label": "MISC",
+  "entite_10": {
+    "label": "PER",
     "text": "L'Espinasse",
     "jalons": [
       212,
       223
     ]
   },
-  "entite_12": {
-    "label": "LOC",
-    "text": "Pierre-M",
-    "jalons": [
-      228,
-      236
-    ]
-  },
-  "entite_13": {
+  "entite_11": {
     "label": "LOC",
     "text": "Haute-Garonne",
     "jalons": [
@@ -111,7 +95,7 @@
       303
     ]
   },
-  "entite_14": {
+  "entite_12": {
     "label": "PER",
     "text": "Baric",
     "jalons": [
@@ -119,12 +103,28 @@
       317
     ]
   },
-  "entite_15": {
+  "entite_13": {
     "label": "MISC",
     "text": "Gallica",
     "jalons": [
       367,
       374
+    ]
+  },
+  "entite_14": {
+    "label": "MISC",
+    "text": "BnF. Leur\nutilisation sinscrit",
+    "jalons": [
+      497,
+      527
+    ]
+  },
+  "entite_15": {
+    "label": "MISC",
+    "text": "s Source gallica.bnf.fr /",
+    "jalons": [
+      850,
+      875
     ]
   },
   "entite_16": {
@@ -136,7 +136,7 @@
     ]
   },
   "entite_17": {
-    "label": "PER",
+    "label": "MISC",
     "text": "Source gallica.offre/ BnF",
     "jalons": [
       913,
@@ -144,23 +144,23 @@
     ]
   },
   "entite_18": {
-    "label": "ORG",
-    "text": "CLI0QUERIC POURACCEDER",
+    "label": "MISC",
+    "text": "CLI0QUERIC",
     "jalons": [
       1425,
-      1447
+      1435
     ]
   },
   "entite_19": {
     "label": "MISC",
-    "text": "AUTOCARS",
+    "text": "ET A LA LICENCE",
     "jalons": [
-      1448,
-      1456
+      1457,
+      1472
     ]
   },
   "entite_20": {
-    "label": "LOC",
+    "label": "MISC",
     "text": "Gallica",
     "jalons": [
       1492,
@@ -168,6 +168,22 @@
     ]
   },
   "entite_21": {
+    "label": "ORG",
+    "text": "BnF",
+    "jalons": [
+      1524,
+      1527
+    ]
+  },
+  "entite_22": {
+    "label": "ORG",
+    "text": "L.2112-1",
+    "jalons": [
+      1548,
+      1556
+    ]
+  },
+  "entite_23": {
     "label": "MISC",
     "text": "QUelques",
     "jalons": [
@@ -175,39 +191,31 @@
       1625
     ]
   },
-  "entite_22": {
+  "entite_24": {
     "label": "ORG",
-    "text": "Source gallica.BnF.fr",
+    "text": "Source gallica.BnF.fr / Bibliotheque\nmunicipale de ...",
     "jalons": [
       2058,
-      2079
+      2112
     ]
   },
-  "entite_23": {
-    "label": "LOC",
-    "text": "Bibliotheque",
-    "jalons": [
-      2082,
-      2094
-    ]
-  },
-  "entite_24": {
-    "label": "LOC",
+  "entite_25": {
+    "label": "MISC",
     "text": "Lutilisateur",
     "jalons": [
       2136,
       2148
     ]
   },
-  "entite_25": {
-    "label": "PER",
+  "entite_26": {
+    "label": "MISC",
     "text": "Gallica",
     "jalons": [
       2240,
       2247
     ]
   },
-  "entite_26": {
+  "entite_27": {
     "label": "ORG",
     "text": "BnF",
     "jalons": [
@@ -215,16 +223,8 @@
       2290
     ]
   },
-  "entite_27": {
-    "label": "MISC",
-    "text": "L341-1",
-    "jalons": [
-      2340,
-      2346
-    ]
-  },
   "entite_28": {
-    "label": "LOC",
+    "label": "MISC",
     "text": "Gallica",
     "jalons": [
       2457,
@@ -232,7 +232,7 @@
     ]
   },
   "entite_29": {
-    "label": "LOC",
+    "label": "MISC",
     "text": "Lutilisateur",
     "jalons": [
       2651,
@@ -240,7 +240,7 @@
     ]
   },
   "entite_30": {
-    "label": "LOC",
+    "label": "MISC",
     "text": "Gallica",
     "jalons": [
       2962,
@@ -248,46 +248,30 @@
     ]
   },
   "entite_31": {
-    "label": "MISC",
-    "text": "II\nII",
+    "label": "ORG",
+    "text": "IIi\nII\n \nI\nIII",
     "jalons": [
-      3036,
-      3041
+      3045,
+      3059
     ]
   },
   "entite_32": {
-    "label": "MISC",
-    "text": "IIi\nII\n \nI\nIII II\n",
+    "label": "PER",
+    "text": "III\nII\nI I",
     "jalons": [
-      3045,
-      3063
+      3079,
+      3089
     ]
   },
   "entite_33": {
-    "label": "MISC",
-    "text": "III\nII\nI I\ntUIlERiE\nI.\nPRIMA1R\n",
-    "jalons": [
-      3079,
-      3110
-    ]
-  },
-  "entite_34": {
     "label": "ORG",
-    "text": "T 2S",
+    "text": "T 2S\nDE L'LSPINASSD",
     "jalons": [
       3110,
-      3114
-    ]
-  },
-  "entite_35": {
-    "label": "ORG",
-    "text": "LSPINASSD",
-    "jalons": [
-      3120,
       3129
     ]
   },
-  "entite_36": {
+  "entite_34": {
     "label": "MISC",
     "text": "III-PIIII-IIIIIIIII",
     "jalons": [
@@ -295,15 +279,23 @@
       3150
     ]
   },
-  "entite_37": {
-    "label": "MISC",
-    "text": "nsenismNr  LA A-dAnoNE",
+  "entite_35": {
+    "label": "ORG",
+    "text": "nsenismNr",
     "jalons": [
       3168,
+      3177
+    ]
+  },
+  "entite_36": {
+    "label": "LOC",
+    "text": "LA A-dAnoNE",
+    "jalons": [
+      3179,
       3190
     ]
   },
-  "entite_38": {
+  "entite_37": {
     "label": "LOC",
     "text": "toulouse",
     "jalons": [
@@ -311,7 +303,7 @@
       3216
     ]
   },
-  "entite_39": {
+  "entite_38": {
     "label": "LOC",
     "text": "E",
     "jalons": [
@@ -319,31 +311,31 @@
       3243
     ]
   },
+  "entite_39": {
+    "label": "LOC",
+    "text": "L",
+    "jalons": [
+      3272,
+      3273
+    ]
+  },
   "entite_40": {
     "label": "LOC",
-    "text": "-----------=e-rTi",
+    "text": "s;i",
     "jalons": [
-      3250,
-      3267
+      3275,
+      3278
     ]
   },
   "entite_41": {
     "label": "PER",
-    "text": "M.",
+    "text": "M. de 'Espinasse",
     "jalons": [
       3299,
-      3301
-    ]
-  },
-  "entite_42": {
-    "label": "LOC",
-    "text": "Espinasse",
-    "jalons": [
-      3306,
       3315
     ]
   },
-  "entite_43": {
+  "entite_42": {
     "label": "LOC",
     "text": "Rouergue",
     "jalons": [
@@ -351,7 +343,7 @@
       3359
     ]
   },
-  "entite_44": {
+  "entite_43": {
     "label": "LOC",
     "text": "t00",
     "jalons": [
@@ -359,15 +351,15 @@
       3384
     ]
   },
-  "entite_45": {
-    "label": "PER",
+  "entite_44": {
+    "label": "LOC",
     "text": "Saint-Paul",
     "jalons": [
       3399,
       3409
     ]
   },
-  "entite_46": {
+  "entite_45": {
     "label": "LOC",
     "text": "Salles-la-Source",
     "jalons": [
@@ -375,7 +367,7 @@
       3444
     ]
   },
-  "entite_47": {
+  "entite_46": {
     "label": "LOC",
     "text": "Aveyron",
     "jalons": [
@@ -383,23 +375,23 @@
       3470
     ]
   },
-  "entite_48": {
+  "entite_47": {
     "label": "PER",
-    "text": "L /2L",
+    "text": "L",
     "jalons": [
       3573,
-      3578
+      3574
+    ]
+  },
+  "entite_48": {
+    "label": "MISC",
+    "text": "A O I",
+    "jalons": [
+      3587,
+      3592
     ]
   },
   "entite_49": {
-    "label": "MISC",
-    "text": "A O I\n1O",
-    "jalons": [
-      3587,
-      3595
-    ]
-  },
-  "entite_50": {
     "label": "LOC",
     "text": "la France",
     "jalons": [
@@ -407,15 +399,7 @@
       3689
     ]
   },
-  "entite_51": {
-    "label": "LOC",
-    "text": "Espinasse",
-    "jalons": [
-      3773,
-      3782
-    ]
-  },
-  "entite_52": {
+  "entite_50": {
     "label": "LOC",
     "text": "Rouergue",
     "jalons": [
@@ -423,7 +407,7 @@
       3802
     ]
   },
-  "entite_53": {
+  "entite_51": {
     "label": "PER",
     "text": "Jean",
     "jalons": [
@@ -431,15 +415,7 @@
       3877
     ]
   },
-  "entite_54": {
-    "label": "LOC",
-    "text": "sire de Combroude",
-    "jalons": [
-      3894,
-      3911
-    ]
-  },
-  "entite_55": {
+  "entite_52": {
     "label": "PER",
     "text": "Blanche Dauphine",
     "jalons": [
@@ -447,23 +423,23 @@
       3957
     ]
   },
-  "entite_56": {
-    "label": "PER",
+  "entite_53": {
+    "label": "LOC",
     "text": "Saint-Glise",
     "jalons": [
       3967,
       3978
     ]
   },
-  "entite_57": {
-    "label": "LOC",
+  "entite_54": {
+    "label": "ORG",
     "text": "Com-",
     "jalons": [
       3985,
       3989
     ]
   },
-  "entite_58": {
+  "entite_55": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -471,15 +447,15 @@
       4118
     ]
   },
-  "entite_59": {
-    "label": "LOC",
+  "entite_56": {
+    "label": "ORG",
     "text": "Com-",
     "jalons": [
       4128,
       4132
     ]
   },
-  "entite_60": {
+  "entite_57": {
     "label": "LOC",
     "text": "Auvergne",
     "jalons": [
@@ -487,7 +463,7 @@
       4157
     ]
   },
-  "entite_61": {
+  "entite_58": {
     "label": "LOC",
     "text": "Guienne",
     "jalons": [
@@ -495,7 +471,7 @@
       4211
     ]
   },
-  "entite_62": {
+  "entite_59": {
     "label": "PER",
     "text": "comte de Foix",
     "jalons": [
@@ -503,7 +479,7 @@
       4234
     ]
   },
-  "entite_63": {
+  "entite_60": {
     "label": "LOC",
     "text": "Rouergue",
     "jalons": [
@@ -511,15 +487,15 @@
       4314
     ]
   },
-  "entite_64": {
-    "label": "LOC",
+  "entite_61": {
+    "label": "PER",
     "text": "Saint-Hilaire",
     "jalons": [
       4384,
       4397
     ]
   },
-  "entite_65": {
+  "entite_62": {
     "label": "PER",
     "text": "Saint-paul",
     "jalons": [
@@ -527,7 +503,7 @@
       4452
     ]
   },
-  "entite_66": {
+  "entite_63": {
     "label": "LOC",
     "text": "Bourg-Saint-Paul",
     "jalons": [
@@ -535,7 +511,7 @@
       4472
     ]
   },
-  "entite_67": {
+  "entite_64": {
     "label": "LOC",
     "text": "Rodez",
     "jalons": [
@@ -543,7 +519,7 @@
       4492
     ]
   },
-  "entite_68": {
+  "entite_65": {
     "label": "LOC",
     "text": "Espinasse de Combroude",
     "jalons": [
@@ -551,7 +527,7 @@
       4522
     ]
   },
-  "entite_69": {
+  "entite_66": {
     "label": "LOC",
     "text": "Rouergue",
     "jalons": [
@@ -559,7 +535,7 @@
       4565
     ]
   },
-  "entite_70": {
+  "entite_67": {
     "label": "PER",
     "text": "Philibert de lEspinasse",
     "jalons": [
@@ -567,7 +543,7 @@
       4606
     ]
   },
-  "entite_71": {
+  "entite_68": {
     "label": "PER",
     "text": "Charles V",
     "jalons": [
@@ -575,7 +551,15 @@
       4653
     ]
   },
-  "entite_72": {
+  "entite_69": {
+    "label": "ORG",
+    "text": "envoye6",
+    "jalons": [
+      4655,
+      4662
+    ]
+  },
+  "entite_70": {
     "label": "LOC",
     "text": "Bruges",
     "jalons": [
@@ -583,7 +567,7 @@
       4670
     ]
   },
-  "entite_73": {
+  "entite_71": {
     "label": "LOC",
     "text": "Angleterre",
     "jalons": [
@@ -591,15 +575,15 @@
       4719
     ]
   },
-  "entite_74": {
+  "entite_72": {
     "label": "LOC",
-    "text": "La Tremouille",
+    "text": "Tremouille",
     "jalons": [
-      4760,
+      4763,
       4773
     ]
   },
-  "entite_75": {
+  "entite_73": {
     "label": "LOC",
     "text": "Anglais",
     "jalons": [
@@ -607,7 +591,7 @@
       4820
     ]
   },
-  "entite_76": {
+  "entite_74": {
     "label": "MISC",
     "text": "Dictionnaire Historique",
     "jalons": [
@@ -615,31 +599,23 @@
       4860
     ]
   },
-  "entite_77": {
-    "label": "LOC",
-    "text": "Dauphin",
+  "entite_75": {
+    "label": "MISC",
+    "text": "Dauphin Bernard",
     "jalons": [
       4879,
-      4886
-    ]
-  },
-  "entite_78": {
-    "label": "MISC",
-    "text": "Bernard",
-    "jalons": [
-      4887,
       4894
     ]
   },
-  "entite_79": {
-    "label": "LOC",
+  "entite_76": {
+    "label": "PER",
     "text": "Espinasse",
     "jalons": [
       4924,
       4933
     ]
   },
-  "entite_80": {
+  "entite_77": {
     "label": "PER",
     "text": "Saint-Paul",
     "jalons": [
@@ -647,7 +623,7 @@
       5035
     ]
   },
-  "entite_81": {
+  "entite_78": {
     "label": "ORG",
     "text": "Tou-",
     "jalons": [
@@ -655,15 +631,7 @@
       5100
     ]
   },
-  "entite_82": {
-    "label": "LOC",
-    "text": "louse",
-    "jalons": [
-      5101,
-      5106
-    ]
-  },
-  "entite_83": {
+  "entite_79": {
     "label": "PER",
     "text": "Napoleon",
     "jalons": [
@@ -671,7 +639,7 @@
       5168
     ]
   },
-  "entite_84": {
+  "entite_80": {
     "label": "MISC",
     "text": "Code civil  la France",
     "jalons": [
@@ -679,15 +647,15 @@
       5200
     ]
   },
-  "entite_85": {
-    "label": "MISC",
-    "text": "Marie-Antoinette-Therese-Doro-\nthee-Louise-Sophie-Josephine de Fraysse",
+  "entite_81": {
+    "label": "ORG",
+    "text": "Marie-Antoinette-Therese-Doro-",
     "jalons": [
       5229,
-      5299
+      5259
     ]
   },
-  "entite_86": {
+  "entite_82": {
     "label": "PER",
     "text": "Dom Samedi",
     "jalons": [
@@ -695,15 +663,23 @@
       5335
     ]
   },
-  "entite_87": {
-    "label": "PER",
-    "text": "marquis de Villalobos",
+  "entite_83": {
+    "label": "LOC",
+    "text": "Villalobos",
     "jalons": [
-      5337,
+      5348,
       5358
     ]
   },
-  "entite_88": {
+  "entite_84": {
+    "label": "LOC",
+    "text": "P6rou",
+    "jalons": [
+      5372,
+      5377
+    ]
+  },
+  "entite_85": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -711,15 +687,31 @@
       5446
     ]
   },
-  "entite_89": {
-    "label": "LOC",
-    "text": "Espinasse",
+  "entite_86": {
+    "label": "PER",
+    "text": "mademoiselle Marie-Antoinette-Therese",
     "jalons": [
-      5538,
-      5547
+      5495,
+      5532
     ]
   },
-  "entite_90": {
+  "entite_87": {
+    "label": "LOC",
+    "text": "A",
+    "jalons": [
+      5599,
+      5600
+    ]
+  },
+  "entite_88": {
+    "label": "PER",
+    "text": "obeie",
+    "jalons": [
+      5695,
+      5700
+    ]
+  },
+  "entite_89": {
     "label": "ORG",
     "text": "Es-",
     "jalons": [
@@ -727,7 +719,7 @@
       5713
     ]
   },
-  "entite_91": {
+  "entite_90": {
     "label": "LOC",
     "text": "Boulogne",
     "jalons": [
@@ -735,7 +727,7 @@
       6182
     ]
   },
-  "entite_92": {
+  "entite_91": {
     "label": "MISC",
     "text": "lEmpereur",
     "jalons": [
@@ -743,7 +735,7 @@
       6325
     ]
   },
-  "entite_93": {
+  "entite_92": {
     "label": "LOC",
     "text": "Angleterre",
     "jalons": [
@@ -751,7 +743,7 @@
       6372
     ]
   },
-  "entite_94": {
+  "entite_93": {
     "label": "PER",
     "text": "Napoleon",
     "jalons": [
@@ -759,23 +751,15 @@
       6425
     ]
   },
-  "entite_95": {
+  "entite_94": {
     "label": "LOC",
-    "text": "Alle-",
+    "text": "Alle-\nmagne",
     "jalons": [
       6449,
-      6454
-    ]
-  },
-  "entite_96": {
-    "label": "LOC",
-    "text": "magne",
-    "jalons": [
-      6455,
       6460
     ]
   },
-  "entite_97": {
+  "entite_95": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -783,31 +767,39 @@
       6479
     ]
   },
-  "entite_98": {
-    "label": "MISC",
+  "entite_96": {
+    "label": "LOC",
     "text": "feu  Ulm",
     "jalons": [
       6500,
       6508
     ]
   },
-  "entite_99": {
-    "label": "LOC",
+  "entite_97": {
+    "label": "MISC",
     "text": "Austerlitz",
     "jalons": [
       6534,
       6544
     ]
   },
-  "entite_100": {
-    "label": "MISC",
+  "entite_98": {
+    "label": "PER",
+    "text": "Soldats",
+    "jalons": [
+      6609,
+      6616
+    ]
+  },
+  "entite_99": {
+    "label": "PER",
     "text": "I1",
     "jalons": [
       6648,
       6650
     ]
   },
-  "entite_101": {
+  "entite_100": {
     "label": "MISC",
     "text": "bataille d' Austerlitz",
     "jalons": [
@@ -815,23 +807,23 @@
       6710
     ]
   },
-  "entite_102": {
-    "label": "MISC",
+  "entite_101": {
+    "label": "PER",
     "text": "Voila",
     "jalons": [
       6738,
       6743
     ]
   },
-  "entite_103": {
-    "label": "PER",
-    "text": "M. de lEspinasse",
+  "entite_102": {
+    "label": "MISC",
+    "text": "lEspinasse",
     "jalons": [
-      6769,
+      6775,
       6785
     ]
   },
-  "entite_104": {
+  "entite_103": {
     "label": "LOC",
     "text": "Prusse",
     "jalons": [
@@ -839,7 +831,7 @@
       6813
     ]
   },
-  "entite_105": {
+  "entite_104": {
     "label": "LOC",
     "text": "Pologne",
     "jalons": [
@@ -847,20 +839,28 @@
       6827
     ]
   },
-  "entite_106": {
-    "label": "LOC",
+  "entite_105": {
+    "label": "PER",
     "text": "Mena",
     "jalons": [
       6839,
       6843
     ]
   },
+  "entite_106": {
+    "label": "LOC",
+    "text": "Na-",
+    "jalons": [
+      6861,
+      6864
+    ]
+  },
   "entite_107": {
     "label": "PER",
-    "text": "Daoust  Auer-\nstade;  ",
+    "text": "Daoust  Auer-",
     "jalons": [
       6908,
-      6930
+      6921
     ]
   },
   "entite_108": {
@@ -880,22 +880,14 @@
     ]
   },
   "entite_110": {
-    "label": "LOC",
-    "text": "la France",
+    "label": "MISC",
+    "text": "Un jour viendra, avait-il dit, o la France",
     "jalons": [
-      7071,
+      7038,
       7080
     ]
   },
   "entite_111": {
-    "label": "LOC",
-    "text": "Friedland",
-    "jalons": [
-      7121,
-      7130
-    ]
-  },
-  "entite_112": {
     "label": "LOC",
     "text": "Russes",
     "jalons": [
@@ -903,23 +895,7 @@
       7144
     ]
   },
-  "entite_113": {
-    "label": "PER",
-    "text": "logis d'Austerlitz",
-    "jalons": [
-      7281,
-      7299
-    ]
-  },
-  "entite_114": {
-    "label": "MISC",
-    "text": "Grouchy",
-    "jalons": [
-      7396,
-      7403
-    ]
-  },
-  "entite_115": {
+  "entite_112": {
     "label": "LOC",
     "text": "Passenheim",
     "jalons": [
@@ -927,7 +903,7 @@
       7513
     ]
   },
-  "entite_116": {
+  "entite_113": {
     "label": "LOC",
     "text": "el",
     "jalons": [
@@ -935,7 +911,7 @@
       7517
     ]
   },
-  "entite_117": {
+  "entite_114": {
     "label": "MISC",
     "text": "Cosaques",
     "jalons": [
@@ -943,7 +919,7 @@
       7698
     ]
   },
-  "entite_118": {
+  "entite_115": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -951,7 +927,7 @@
       7769
     ]
   },
-  "entite_119": {
+  "entite_116": {
     "label": "LOC",
     "text": "Fessenheim",
     "jalons": [
@@ -959,7 +935,7 @@
       7954
     ]
   },
-  "entite_120": {
+  "entite_117": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -967,7 +943,7 @@
       8173
     ]
   },
-  "entite_121": {
+  "entite_118": {
     "label": "ORG",
     "text": "tant0",
     "jalons": [
@@ -975,7 +951,7 @@
       8329
     ]
   },
-  "entite_122": {
+  "entite_119": {
     "label": "MISC",
     "text": "tant6",
     "jalons": [
@@ -983,15 +959,23 @@
       8348
     ]
   },
-  "entite_123": {
-    "label": "MISC",
+  "entite_120": {
+    "label": "LOC",
+    "text": "sain",
+    "jalons": [
+      8424,
+      8428
+    ]
+  },
+  "entite_121": {
+    "label": "PER",
     "text": "saf",
     "jalons": [
       8432,
       8435
     ]
   },
-  "entite_124": {
+  "entite_122": {
     "label": "LOC",
     "text": "Passenheim",
     "jalons": [
@@ -999,7 +983,15 @@
       8616
     ]
   },
-  "entite_125": {
+  "entite_123": {
+    "label": "MISC",
+    "text": "depart",
+    "jalons": [
+      8655,
+      8661
+    ]
+  },
+  "entite_124": {
     "label": "LOC",
     "text": "Francais",
     "jalons": [
@@ -1007,23 +999,23 @@
       9110
     ]
   },
-  "entite_126": {
-    "label": "MISC",
+  "entite_125": {
+    "label": "ORG",
     "text": "Legion-d'Honneur",
     "jalons": [
       9317,
       9333
     ]
   },
-  "entite_127": {
-    "label": "MISC",
+  "entite_126": {
+    "label": "PER",
     "text": "M. de l'Espinasse",
     "jalons": [
       9533,
       9550
     ]
   },
-  "entite_128": {
+  "entite_127": {
     "label": "LOC",
     "text": "Espagne",
     "jalons": [
@@ -1031,7 +1023,7 @@
       9567
     ]
   },
-  "entite_129": {
+  "entite_128": {
     "label": "PER",
     "text": "Louis XIV",
     "jalons": [
@@ -1039,12 +1031,20 @@
       9598
     ]
   },
-  "entite_130": {
-    "label": "MISC",
+  "entite_129": {
+    "label": "LOC",
     "text": "Pyrenees",
     "jalons": [
       9668,
       9676
+    ]
+  },
+  "entite_130": {
+    "label": "ORG",
+    "text": "Na-\npoleon",
+    "jalons": [
+      9807,
+      9817
     ]
   },
   "entite_131": {
@@ -1072,7 +1072,7 @@
     ]
   },
   "entite_134": {
-    "label": "PER",
+    "label": "LOC",
     "text": "Massena",
     "jalons": [
       10103,
@@ -1080,7 +1080,7 @@
     ]
   },
   "entite_135": {
-    "label": "LOC",
+    "label": "MISC",
     "text": "Anglais",
     "jalons": [
       10143,
@@ -1128,14 +1128,6 @@
     ]
   },
   "entite_141": {
-    "label": "PER",
-    "text": "taine",
-    "jalons": [
-      10340,
-      10345
-    ]
-  },
-  "entite_142": {
     "label": "LOC",
     "text": "Troyes",
     "jalons": [
@@ -1143,7 +1135,7 @@
       10433
     ]
   },
-  "entite_143": {
+  "entite_142": {
     "label": "LOC",
     "text": "Paris",
     "jalons": [
@@ -1151,15 +1143,15 @@
       10490
     ]
   },
-  "entite_144": {
+  "entite_143": {
     "label": "LOC",
-    "text": "Loire",
+    "text": "la Loire",
     "jalons": [
-      10547,
+      10544,
       10552
     ]
   },
-  "entite_145": {
+  "entite_144": {
     "label": "PER",
     "text": "M.",
     "jalons": [
@@ -1167,23 +1159,15 @@
       10573
     ]
   },
-  "entite_146": {
+  "entite_145": {
     "label": "LOC",
-    "text": "gardes-du-corps",
+    "text": "Saint-Louis",
     "jalons": [
-      10749,
-      10764
-    ]
-  },
-  "entite_147": {
-    "label": "PER",
-    "text": "chevalier de Saint-Louis",
-    "jalons": [
-      10896,
+      10909,
       10920
     ]
   },
-  "entite_148": {
+  "entite_146": {
     "label": "PER",
     "text": "Charles X.",
     "jalons": [
@@ -1191,7 +1175,7 @@
       10964
     ]
   },
-  "entite_149": {
+  "entite_147": {
     "label": "LOC",
     "text": "la France",
     "jalons": [
@@ -1199,7 +1183,7 @@
       11155
     ]
   },
-  "entite_150": {
+  "entite_148": {
     "label": "ORG",
     "text": "Es-",
     "jalons": [
@@ -1207,15 +1191,15 @@
       11245
     ]
   },
-  "entite_151": {
+  "entite_149": {
     "label": "MISC",
-    "text": "Juillet 1830",
+    "text": "revolution de Juillet",
     "jalons": [
-      11323,
-      11335
+      11309,
+      11330
     ]
   },
-  "entite_152": {
+  "entite_150": {
     "label": "MISC",
     "text": "Bient0",
     "jalons": [
@@ -1223,7 +1207,7 @@
       11545
     ]
   },
-  "entite_153": {
+  "entite_151": {
     "label": "ORG",
     "text": "2L",
     "jalons": [
@@ -1231,7 +1215,39 @@
       11555
     ]
   },
+  "entite_152": {
+    "label": "PER",
+    "text": "Bel-",
+    "jalons": [
+      11616,
+      11620
+    ]
+  },
+  "entite_153": {
+    "label": "LOC",
+    "text": "general",
+    "jalons": [
+      11689,
+      11696
+    ]
+  },
   "entite_154": {
+    "label": "MISC",
+    "text": "Trente",
+    "jalons": [
+      11698,
+      11704
+    ]
+  },
+  "entite_155": {
+    "label": "LOC",
+    "text": "de-",
+    "jalons": [
+      11809,
+      11812
+    ]
+  },
+  "entite_156": {
     "label": "LOC",
     "text": "Rhin",
     "jalons": [
@@ -1239,7 +1255,15 @@
       11965
     ]
   },
-  "entite_155": {
+  "entite_157": {
+    "label": "LOC",
+    "text": "perlis",
+    "jalons": [
+      12228,
+      12234
+    ]
+  },
+  "entite_158": {
     "label": "LOC",
     "text": "Paris",
     "jalons": [
@@ -1247,15 +1271,15 @@
       12309
     ]
   },
-  "entite_156": {
-    "label": "LOC",
+  "entite_159": {
+    "label": "MISC",
     "text": "Depute",
     "jalons": [
       12848,
       12854
     ]
   },
-  "entite_157": {
+  "entite_160": {
     "label": "LOC",
     "text": "Haute-Garonne",
     "jalons": [
@@ -1263,7 +1287,7 @@
       12874
     ]
   },
-  "entite_158": {
+  "entite_161": {
     "label": "MISC",
     "text": "lEspinasse",
     "jalons": [
@@ -1271,7 +1295,7 @@
       12900
     ]
   },
-  "entite_159": {
+  "entite_162": {
     "label": "LOC",
     "text": "L'Empire",
     "jalons": [
@@ -1279,15 +1303,15 @@
       13067
     ]
   },
-  "entite_160": {
-    "label": "MISC",
+  "entite_163": {
+    "label": "ORG",
     "text": "Legion-d'Honneur",
     "jalons": [
       13116,
       13132
     ]
   },
-  "entite_161": {
+  "entite_164": {
     "label": "LOC",
     "text": "la France",
     "jalons": [
@@ -1295,7 +1319,7 @@
       13169
     ]
   },
-  "entite_162": {
+  "entite_165": {
     "label": "PER",
     "text": "obama",
     "jalons": [
@@ -1303,7 +1327,7 @@
       13292
     ]
   },
-  "entite_163": {
+  "entite_166": {
     "label": "MISC",
     "text": "Legion-d'Honneur",
     "jalons": [
@@ -1311,7 +1335,15 @@
       13451
     ]
   },
-  "entite_164": {
+  "entite_167": {
+    "label": "LOC",
+    "text": "et-",
+    "jalons": [
+      13516,
+      13519
+    ]
+  },
+  "entite_168": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -1319,7 +1351,7 @@
       13762
     ]
   },
-  "entite_165": {
+  "entite_169": {
     "label": "LOC",
     "text": "la France",
     "jalons": [
@@ -1327,7 +1359,7 @@
       14031
     ]
   },
-  "entite_166": {
+  "entite_170": {
     "label": "PER",
     "text": "M. Crevel",
     "jalons": [
@@ -1335,7 +1367,7 @@
       14088
     ]
   },
-  "entite_167": {
+  "entite_171": {
     "label": "ORG",
     "text": "Trois-Amis",
     "jalons": [
@@ -1343,7 +1375,7 @@
       14143
     ]
   },
-  "entite_168": {
+  "entite_172": {
     "label": "LOC",
     "text": "Saint-Domingue",
     "jalons": [
@@ -1351,7 +1383,15 @@
       14191
     ]
   },
-  "entite_169": {
+  "entite_173": {
+    "label": "LOC",
+    "text": "Port-au-Prince",
+    "jalons": [
+      14265,
+      14279
+    ]
+  },
+  "entite_174": {
     "label": "LOC",
     "text": "Anglais",
     "jalons": [
@@ -1359,15 +1399,15 @@
       14403
     ]
   },
-  "entite_170": {
+  "entite_175": {
     "label": "PER",
-    "text": "M. Crevel",
+    "text": "Crevel",
     "jalons": [
-      14408,
+      14411,
       14417
     ]
   },
-  "entite_171": {
+  "entite_176": {
     "label": "LOC",
     "text": "la France",
     "jalons": [
@@ -1375,15 +1415,15 @@
       14586
     ]
   },
-  "entite_172": {
+  "entite_177": {
     "label": "LOC",
-    "text": "Espinasse",
+    "text": "Espinasse l.",
     "jalons": [
       14680,
-      14689
+      14692
     ]
   },
-  "entite_173": {
+  "entite_178": {
     "label": "PER",
     "text": "M.",
     "jalons": [
@@ -1391,7 +1431,7 @@
       14926
     ]
   },
-  "entite_174": {
+  "entite_179": {
     "label": "LOC",
     "text": "Paris",
     "jalons": [
@@ -1399,23 +1439,39 @@
       15116
     ]
   },
-  "entite_175": {
-    "label": "PER",
+  "entite_180": {
+    "label": "ORG",
     "text": "Assemble",
     "jalons": [
       15208,
       15216
     ]
   },
-  "entite_176": {
-    "label": "PER",
-    "text": "pretentions legitimus",
+  "entite_181": {
+    "label": "MISC",
+    "text": "sele",
     "jalons": [
-      15404,
-      15425
+      15365,
+      15369
     ]
   },
-  "entite_177": {
+  "entite_182": {
+    "label": "LOC",
+    "text": "sppele",
+    "jalons": [
+      15588,
+      15594
+    ]
+  },
+  "entite_183": {
+    "label": "LOC",
+    "text": "837T",
+    "jalons": [
+      15657,
+      15661
+    ]
+  },
+  "entite_184": {
     "label": "LOC",
     "text": "Toulouse",
     "jalons": [
@@ -1423,7 +1479,7 @@
       15738
     ]
   },
-  "entite_178": {
+  "entite_185": {
     "label": "LOC",
     "text": "Garonne",
     "jalons": [
@@ -1431,7 +1487,7 @@
       15809
     ]
   },
-  "entite_179": {
+  "entite_186": {
     "label": "LOC",
     "text": "canal des Pyrenees",
     "jalons": [
@@ -1439,7 +1495,7 @@
       15992
     ]
   },
-  "entite_180": {
+  "entite_187": {
     "label": "LOC",
     "text": "Toulouse",
     "jalons": [
@@ -1447,15 +1503,15 @@
       16075
     ]
   },
-  "entite_181": {
+  "entite_188": {
     "label": "PER",
-    "text": "M.",
+    "text": "reclam6",
     "jalons": [
-      16743,
-      16745
+      16434,
+      16441
     ]
   },
-  "entite_182": {
+  "entite_189": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -1463,7 +1519,23 @@
       16760
     ]
   },
-  "entite_183": {
+  "entite_190": {
+    "label": "MISC",
+    "text": "La vie des camps",
+    "jalons": [
+      17333,
+      17349
+    ]
+  },
+  "entite_191": {
+    "label": "PER",
+    "text": "verite",
+    "jalons": [
+      17549,
+      17555
+    ]
+  },
+  "entite_192": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -1471,7 +1543,7 @@
       17574
     ]
   },
-  "entite_184": {
+  "entite_193": {
     "label": "ORG",
     "text": "Chambre",
     "jalons": [
@@ -1479,7 +1551,7 @@
       17927
     ]
   },
-  "entite_185": {
+  "entite_194": {
     "label": "PER",
     "text": "Rollet",
     "jalons": [
@@ -1487,7 +1559,15 @@
       18147
     ]
   },
-  "entite_186": {
+  "entite_195": {
+    "label": "MISC",
+    "text": "guerre aux idees",
+    "jalons": [
+      18185,
+      18201
+    ]
+  },
+  "entite_196": {
     "label": "MISC",
     "text": "lEspinasse",
     "jalons": [
@@ -1495,7 +1575,7 @@
       18928
     ]
   },
-  "entite_187": {
+  "entite_197": {
     "label": "LOC",
     "text": "la France",
     "jalons": [
@@ -1503,15 +1583,15 @@
       19136
     ]
   },
-  "entite_188": {
-    "label": "LOC",
-    "text": "mobilit6 de lesprit",
+  "entite_198": {
+    "label": "MISC",
+    "text": "mobilit6 de lesprit\nde ses habitants",
     "jalons": [
       19179,
-      19198
+      19215
     ]
   },
-  "entite_189": {
+  "entite_199": {
     "label": "LOC",
     "text": "Espinasse",
     "jalons": [
@@ -1519,7 +1599,7 @@
       19444
     ]
   },
-  "entite_190": {
+  "entite_200": {
     "label": "LOC",
     "text": "Languedoc",
     "jalons": [
@@ -1527,7 +1607,7 @@
       19624
     ]
   },
-  "entite_191": {
+  "entite_201": {
     "label": "MISC",
     "text": "Constituante",
     "jalons": [
@@ -1535,15 +1615,15 @@
       19666
     ]
   },
-  "entite_192": {
-    "label": "MISC",
-    "text": "I5,I79 suffrages",
+  "entite_202": {
+    "label": "ORG",
+    "text": "I5,I79",
     "jalons": [
       19671,
-      19687
+      19677
     ]
   },
-  "entite_193": {
+  "entite_203": {
     "label": "MISC",
     "text": "lAssehleegislative",
     "jalons": [
@@ -1551,7 +1631,7 @@
       19851
     ]
   },
-  "entite_194": {
+  "entite_204": {
     "label": "MISC",
     "text": "J E",
     "jalons": [
@@ -1559,7 +1639,7 @@
       19877
     ]
   },
-  "entite_195": {
+  "entite_205": {
     "label": "LOC",
     "text": "E",
     "jalons": [
@@ -1567,7 +1647,15 @@
       19886
     ]
   },
-  "entite_196": {
+  "entite_206": {
+    "label": "ORG",
+    "text": "BARIC",
+    "jalons": [
+      19902,
+      19907
+    ]
+  },
+  "entite_207": {
     "label": "MISC",
     "text": "IIAIIRYIILIl",
     "jalons": [
@@ -1575,15 +1663,7 @@
       19932
     ]
   },
-  "entite_197": {
-    "label": "LOC",
-    "text": "E",
-    "jalons": [
-      19973,
-      19974
-    ]
-  },
-  "entite_198": {
+  "entite_208": {
     "label": "LOC",
     "text": "E",
     "jalons": [
@@ -1591,23 +1671,15 @@
       19987
     ]
   },
-  "entite_199": {
+  "entite_209": {
     "label": "MISC",
-    "text": "DEPUT",
+    "text": "DEPUT DE LA HAUTE-GARONNE",
     "jalons": [
       19992,
-      19997
-    ]
-  },
-  "entite_200": {
-    "label": "MISC",
-    "text": "HAUTE-GARONNE",
-    "jalons": [
-      20004,
       20017
     ]
   },
-  "entite_201": {
+  "entite_210": {
     "label": "PER",
     "text": "Dom SAMEDI0",
     "jalons": [
@@ -1615,7 +1687,7 @@
       20030
     ]
   },
-  "entite_202": {
+  "entite_211": {
     "label": "MISC",
     "text": "VILLAGE0B0S",
     "jalons": [
@@ -1623,7 +1695,7 @@
       20054
     ]
   },
-  "entite_203": {
+  "entite_212": {
     "label": "MISC",
     "text": "Perdu",
     "jalons": [
@@ -1631,47 +1703,31 @@
       20073
     ]
   },
-  "entite_204": {
+  "entite_213": {
     "label": "PER",
-    "text": "Dom",
+    "text": "Dom SAnIEDIo DE VILLA-",
     "jalons": [
       20094,
-      20097
+      20116
     ]
   },
-  "entite_205": {
+  "entite_214": {
     "label": "MISC",
-    "text": "DoNn1 SAMEDI",
+    "text": "DoNn1",
     "jalons": [
       20119,
-      20131
+      20124
     ]
   },
-  "entite_206": {
-    "label": "ORG",
-    "text": "DA",
+  "entite_215": {
+    "label": "MISC",
+    "text": "DA MaNdANDA SAMEDI",
     "jalons": [
       20144,
-      20146
-    ]
-  },
-  "entite_207": {
-    "label": "ORG",
-    "text": "SAMEDI",
-    "jalons": [
-      20156,
       20162
     ]
   },
-  "entite_208": {
-    "label": "LOC",
-    "text": "oBs",
-    "jalons": [
-      20163,
-      20166
-    ]
-  },
-  "entite_209": {
+  "entite_216": {
     "label": "MISC",
     "text": "LoBos",
     "jalons": [
@@ -1679,7 +1735,23 @@
       20189
     ]
   },
-  "entite_210": {
+  "entite_217": {
+    "label": "LOC",
+    "text": "Es-",
+    "jalons": [
+      20202,
+      20205
+    ]
+  },
+  "entite_218": {
+    "label": "LOC",
+    "text": "VrLLALoBOs",
+    "jalons": [
+      20210,
+      20220
+    ]
+  },
+  "entite_219": {
     "label": "LOC",
     "text": "lerie",
     "jalons": [
@@ -1687,7 +1759,7 @@
       20297
     ]
   },
-  "entite_211": {
+  "entite_220": {
     "label": "MISC",
     "text": "mAriage",
     "jalons": [
@@ -1695,23 +1767,23 @@
       20327
     ]
   },
-  "entite_212": {
-    "label": "LOC",
-    "text": "Perdu",
+  "entite_221": {
+    "label": "MISC",
+    "text": "Perdu le baron\nJean de Fraysse",
     "jalons": [
       20346,
-      20351
-    ]
-  },
-  "entite_213": {
-    "label": "PER",
-    "text": "Jean de Fraysse",
-    "jalons": [
-      20361,
       20376
     ]
   },
-  "entite_214": {
+  "entite_222": {
+    "label": "ORG",
+    "text": "marine royale de\nFrance",
+    "jalons": [
+      20408,
+      20431
+    ]
+  },
+  "entite_223": {
     "label": "LOC",
     "text": "Lauzerte-Lios",
     "jalons": [
@@ -1719,15 +1791,31 @@
       20459
     ]
   },
-  "entite_215": {
-    "label": "PER",
+  "entite_224": {
+    "label": "MISC",
+    "text": "au-\ntres lieux",
+    "jalons": [
+      20463,
+      20477
+    ]
+  },
+  "entite_225": {
+    "label": "MISC",
+    "text": "Noble Bernard- Dominique ]",
+    "jalons": [
+      20497,
+      20523
+    ]
+  },
+  "entite_226": {
+    "label": "LOC",
     "text": "2P Noble Therese ps Foss",
     "jalons": [
       20524,
       20548
     ]
   },
-  "entite_216": {
+  "entite_227": {
     "label": "LOC",
     "text": "FnAYssE",
     "jalons": [
@@ -1735,7 +1823,15 @@
       20562
     ]
   },
-  "entite_217": {
+  "entite_228": {
+    "label": "PER",
+    "text": "marie",
+    "jalons": [
+      20564,
+      20569
+    ]
+  },
+  "entite_229": {
     "label": "PER",
     "text": "Marie",
     "jalons": [
@@ -1743,7 +1839,7 @@
       20588
     ]
   },
-  "entite_218": {
+  "entite_230": {
     "label": "LOC",
     "text": "Benedictines",
     "jalons": [
@@ -1751,23 +1847,23 @@
       20628
     ]
   },
-  "entite_219": {
-    "label": "PER",
+  "entite_231": {
+    "label": "LOC",
     "text": "Guide",
     "jalons": [
       20632,
       20637
     ]
   },
-  "entite_220": {
-    "label": "LOC",
-    "text": "Pressac",
+  "entite_232": {
+    "label": "PER",
+    "text": "baron de Pressac",
     "jalons": [
-      20663,
+      20654,
       20670
     ]
   },
-  "entite_221": {
+  "entite_233": {
     "label": "LOC",
     "text": "Toulouse",
     "jalons": [
@@ -1775,7 +1871,7 @@
       20682
     ]
   },
-  "entite_222": {
+  "entite_234": {
     "label": "LOC",
     "text": "Toulouse",
     "jalons": [
@@ -1783,7 +1879,7 @@
       20747
     ]
   },
-  "entite_223": {
+  "entite_235": {
     "label": "PER",
     "text": "Dona Maria de Villalobos",
     "jalons": [
@@ -1791,7 +1887,7 @@
       20788
     ]
   },
-  "entite_224": {
+  "entite_236": {
     "label": "LOC",
     "text": "Pressac",
     "jalons": [
@@ -1799,7 +1895,7 @@
       20809
     ]
   },
-  "entite_225": {
+  "entite_237": {
     "label": "LOC",
     "text": "Aigues-Vives",
     "jalons": [
@@ -1807,23 +1903,15 @@
       20823
     ]
   },
-  "entite_226": {
-    "label": "MISC",
-    "text": "Bernard",
+  "entite_238": {
+    "label": "PER",
+    "text": "Bernard nE FRAYSsE",
     "jalons": [
       20873,
-      20880
-    ]
-  },
-  "entite_227": {
-    "label": "LOC",
-    "text": "FRAYSsE",
-    "jalons": [
-      20884,
       20891
     ]
   },
-  "entite_228": {
+  "entite_239": {
     "label": "LOC",
     "text": "GUIdE",
     "jalons": [
@@ -1831,23 +1919,31 @@
       20914
     ]
   },
-  "entite_229": {
-    "label": "ORG",
-    "text": "1P Noble Antoine-Marie-Anne",
-    "jalons": [
-      20930,
-      20957
-    ]
-  },
-  "entite_230": {
+  "entite_240": {
     "label": "PER",
-    "text": "Marie-Antoinette- Therese-Doro-\nb FRAssB",
+    "text": "Marie-Antoinette- Therese-Doro-\nb",
     "jalons": [
       20970,
-      21010
+      21003
     ]
   },
-  "entite_231": {
+  "entite_241": {
+    "label": "PER",
+    "text": "Louise - Sophie",
+    "jalons": [
+      21042,
+      21057
+    ]
+  },
+  "entite_242": {
+    "label": "LOC",
+    "text": "Cap francais",
+    "jalons": [
+      21072,
+      21084
+    ]
+  },
+  "entite_243": {
     "label": "LOC",
     "text": "ile Saint-Domingue",
     "jalons": [
@@ -1855,7 +1951,7 @@
       21104
     ]
   },
-  "entite_232": {
+  "entite_244": {
     "label": "MISC",
     "text": "Fausses",
     "jalons": [
@@ -1863,7 +1959,15 @@
       21117
     ]
   },
-  "entite_233": {
+  "entite_245": {
+    "label": "LOC",
+    "text": "t783",
+    "jalons": [
+      21128,
+      21132
+    ]
+  },
+  "entite_246": {
     "label": "PER",
     "text": "Mathieu",
     "jalons": [
@@ -1871,7 +1975,7 @@
       21141
     ]
   },
-  "entite_234": {
+  "entite_247": {
     "label": "LOC",
     "text": "Toulouse",
     "jalons": [
@@ -1879,7 +1983,15 @@
       21269
     ]
   },
-  "entite_235": {
+  "entite_248": {
+    "label": "MISC",
+    "text": "veu",
+    "jalons": [
+      21271,
+      21274
+    ]
+  },
+  "entite_249": {
     "label": "MISC",
     "text": "lEspinasse",
     "jalons": [
@@ -1887,7 +1999,7 @@
       21307
     ]
   },
-  "entite_236": {
+  "entite_250": {
     "label": "LOC",
     "text": "Morte",
     "jalons": [
@@ -1895,31 +2007,47 @@
       21315
     ]
   },
-  "entite_237": {
+  "entite_251": {
     "label": "PER",
-    "text": "Henry p]2P",
+    "text": "Jean - Pierre - Marie- Henry p]2P",
     "jalons": [
-      21400,
+      21377,
       21410
     ]
   },
-  "entite_238": {
-    "label": "MISC",
+  "entite_252": {
+    "label": "ORG",
+    "text": "ps",
+    "jalons": [
+      21439,
+      21441
+    ]
+  },
+  "entite_253": {
+    "label": "LOC",
     "text": "EmbrAss",
     "jalons": [
       21443,
       21450
     ]
   },
-  "entite_239": {
-    "label": "MISC",
+  "entite_254": {
+    "label": "LOC",
+    "text": "de-",
+    "jalons": [
+      21474,
+      21477
+    ]
+  },
+  "entite_255": {
+    "label": "LOC",
     "text": "SaGEssE",
     "jalons": [
       21480,
       21487
     ]
   },
-  "entite_240": {
+  "entite_256": {
     "label": "LOC",
     "text": "Haute-Garonne",
     "jalons": [
@@ -1927,15 +2055,15 @@
       21537
     ]
   },
-  "entite_241": {
-    "label": "LOC",
+  "entite_257": {
+    "label": "ORG",
     "text": "Imprime",
     "jalons": [
       21539,
       21546
     ]
   },
-  "entite_242": {
+  "entite_258": {
     "label": "MISC",
     "text": "NOILET",
     "jalons": [
@@ -1943,7 +2071,7 @@
       21570
     ]
   },
-  "entite_243": {
+  "entite_259": {
     "label": "LOC",
     "text": "rue Sint-Dominique",
     "jalons": [
@@ -1951,7 +2079,7 @@
       21590
     ]
   },
-  "entite_244": {
+  "entite_260": {
     "label": "LOC",
     "text": "I",
     "jalons": [
@@ -1959,47 +2087,55 @@
       21620
     ]
   },
-  "entite_245": {
-    "label": "LOC",
+  "entite_261": {
+    "label": "MISC",
     "text": "L.A",
     "jalons": [
       21666,
       21669
     ]
   },
-  "entite_246": {
-    "label": "MISC",
+  "entite_262": {
+    "label": "PER",
     "text": "P\n\n\n\nT",
     "jalons": [
       21672,
       21678
     ]
   },
-  "entite_247": {
+  "entite_263": {
     "label": "MISC",
-    "text": "L\nR\ni:",
+    "text": "L\nR\ni",
     "jalons": [
       21681,
-      21687
+      21686
     ]
   },
-  "entite_248": {
-    "label": "PER",
-    "text": "gaa\n\n",
+  "entite_264": {
+    "label": "LOC",
+    "text": "gaa",
     "jalons": [
       21690,
-      21695
+      21693
     ]
   },
-  "entite_249": {
-    "label": "MISC",
-    "text": "Le'\n1\nv'\n",
+  "entite_265": {
+    "label": "LOC",
+    "text": ".v",
     "jalons": [
-      21711,
-      21720
+      21705,
+      21707
     ]
   },
-  "entite_250": {
+  "entite_266": {
+    "label": "ORG",
+    "text": ".r",
+    "jalons": [
+      21722,
+      21724
+    ]
+  },
+  "entite_267": {
     "label": "LOC",
     "text": "E",
     "jalons": [
@@ -2007,15 +2143,23 @@
       21733
     ]
   },
-  "entite_251": {
-    "label": "MISC",
-    "text": "L\ns La\n\n\ns. :",
+  "entite_268": {
+    "label": "ORG",
+    "text": ".-3",
     "jalons": [
-      21816,
-      21829
+      21734,
+      21737
     ]
   },
-  "entite_252": {
+  "entite_269": {
+    "label": "LOC",
+    "text": "L",
+    "jalons": [
+      21816,
+      21817
+    ]
+  },
+  "entite_270": {
     "label": "LOC",
     "text": "Is",
     "jalons": [
@@ -2023,60 +2167,52 @@
       21852
     ]
   },
-  "entite_253": {
-    "label": "LOC",
+  "entite_271": {
+    "label": "PER",
+    "text": "A\nL",
+    "jalons": [
+      21923,
+      21926
+    ]
+  },
+  "entite_272": {
+    "label": "PER",
     "text": "P\n1L",
     "jalons": [
       21938,
       21942
     ]
   },
-  "entite_254": {
+  "entite_273": {
     "label": "LOC",
-    "text": "d',L",
+    "text": "s/",
     "jalons": [
-      21987,
-      21991
+      22010,
+      22012
     ]
   },
-  "entite_255": {
-    "label": "ORG",
-    "text": "r1",
+  "entite_274": {
+    "label": "LOC",
+    "text": "L",
     "jalons": [
-      22013,
-      22015
+      22024,
+      22025
     ]
   },
-  "entite_256": {
-    "label": "MISC",
-    "text": "Ai\n-\n",
-    "jalons": [
-      22034,
-      22039
-    ]
-  },
-  "entite_257": {
+  "entite_275": {
     "label": "PER",
-    "text": "L.",
+    "text": "w'L.",
     "jalons": [
-      22095,
+      22093,
       22097
     ]
   },
-  "entite_258": {
+  "entite_276": {
     "label": "ORG",
     "text": "ii",
     "jalons": [
       22149,
       22151
-    ]
-  },
-  "entite_259": {
-    "label": "MISC",
-    "text": "sII1I",
-    "jalons": [
-      22167,
-      22172
     ]
   }
 }

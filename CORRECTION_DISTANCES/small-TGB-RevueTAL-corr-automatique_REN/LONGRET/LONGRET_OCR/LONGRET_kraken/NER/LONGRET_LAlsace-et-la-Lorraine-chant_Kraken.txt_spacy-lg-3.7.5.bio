@@ -1,4 +1,4 @@
-ILEleae O
+ILEleae B-MISC
 |
 | O
 LAlsace B-MISC
@@ -19,12 +19,12 @@ Lille I-LOC
 | O
 par O
 Louis B-PER
-longret O
+longret I-PER
 |
 | O
-I B-MISC
-I I-MISC
-e I-MISC
+I B-PER
+I I-PER
+e I-PER
 |
 | O
 r2Il O
@@ -43,7 +43,7 @@ WOd11lLd O
 | O
 lzc O
 : O
-t:- B-LOC
+t:- O
 |
 | O
 1l O
@@ -141,19 +141,19 @@ des O
 contenus O
 telle O
 que O
-precisee B-LOC
-ci O
-- O
-apres O
+precisee B-PER
+ci I-PER
+- I-PER
+apres I-PER
 : O
 | | O
 Source B-MISC
 gallica.bnf.fr I-MISC
 / I-MISC
-Bibliotheque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliotheque I-MISC
+nationale I-MISC
+de I-MISC
+France I-MISC
 | | O
 ou O
 a O
@@ -254,9 +254,9 @@ promotionnelle O
 etc. O
 |
 | O
-CL0QUERIC O
+CL0QUERIC B-LOC
 POURACCEDER O
-AUXTARFS O
+AUXTARFS B-LOC
 ET O
 A O
 LA O
@@ -267,13 +267,13 @@ LUICENCE O
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriete O
 de O
 la O
-BnF O
+BnF B-ORG
 au O
 sens O
 de O
@@ -381,20 +381,20 @@ signales O
 par O
 la O
 mention O
-Source B-ORG
-gallica.BnF.fr I-ORG
-/ O
-Bibliotheque B-LOC
-municipale O
-de O
-... O
+Source B-MISC
+gallica.BnF.fr I-MISC
+/ I-MISC
+Bibliotheque I-MISC
+municipale I-MISC
+de I-MISC
+... I-MISC
 ( O
 ou O
 autre O
 partenaire O
 ) O
 . O
-Lutilisateur B-LOC
+Lutilisateur B-MISC
 est O
 |
 | O
@@ -415,7 +415,7 @@ reutilisation O
 |
 | O
 4/ O
-Gallica B-PER
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -449,8 +449,8 @@ propriete O
 intellectuelle O
 |
 | O
-5l O
-lLes B-MISC
+5l B-PER
+lLes I-PER
 presentes O
 conditions O
 d' O
@@ -458,7 +458,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 regies O
 par O
@@ -501,7 +501,7 @@ pays O
 |
 | O
 6/ O
-Lutilisateur B-LOC
+Lutilisateur B-MISC
 sengage O
 a O
 respecter O
@@ -521,7 +521,7 @@ vigueur O
 | O
 notamment O
 en O
-matiere O
+matiere B-PER
 de O
 propriete O
 intellectuelle O
@@ -555,13 +555,13 @@ juillet O
 . O
 |
 | O
-7l O
+7l B-MISC
 Pour O
 obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 definition O
@@ -578,14 +578,14 @@ utilisation.commercialegbnf.fr O
 | O
 , O
 , O
-r O
+r B-PER
 , O
-rc O
-- O
-r O
+rc B-LOC
+- I-LOC
+r I-LOC
 , O
 , O
-rr,,,,,--,--,- O
+rr,,,,,--,--,- B-PER
 , O
 , O
 |
@@ -609,13 +609,13 @@ y O
 1 O
 |
 | O
-W B-ORG
+W B-PER
 |
-| I-ORG
-W I-ORG
+| I-PER
+W I-PER
 |
-| I-ORG
-; I-ORG
+| O
+  O
 E1 B-MISC
 A I-MISC
 I0P I-MISC
@@ -635,23 +635,23 @@ T O
 AG B-ORG
 |
 | O
-1LN O
+1LN B-ORG
 |
-| O
-e O
+| I-ORG
+e I-ORG
 |
-| O
-I B-LOC
+| I-ORG
+I B-MISC
 |
 
-| O
-Y O
+| I-MISC
+Y I-MISC
 |
-| O
-ile B-LOC
+| I-MISC
+ile I-MISC
 |
- | I-LOC
-M I-LOC
+ | I-MISC
+M I-MISC
 |
 | O
 M- B-PER
@@ -660,38 +660,38 @@ M- B-PER
 i5c O
 |
 | O
-ae B-ORG
+ae O
 . O
 |
 | O
 5 O
 |
 | O
-sg O
+sg B-MISC
 |
-| O
-Chant B-MISC
+| I-MISC
+Chant I-MISC
 patriotique I-MISC
-en O
-Patois B-LOC
-de I-LOC
-Lille I-LOC
+en I-MISC
+Patois I-MISC
+de I-MISC
+Lille I-MISC
 |
 | O
 PAR O
-LOUIS B-PER
-LONGRET I-PER
+LOUIS O
+LONGRET O
 |
 | O
 , O
 ( O
 e O
-Couplet O
+Couplet B-PER
 . O
 |
 | O
 f O
-Nousasrois O
+Nousasrois B-PER
 weunous O
 | | O
 ceur O
@@ -711,10 +711,10 @@ atrocites O
 |
 | O
 0 O
-yseg O
+yseg B-PER
 |
-| O
-i O
+| I-PER
+i I-PER
 : O
 : O
 : O
@@ -727,16 +727,16 @@ i O
 : O
 |
  | O
-Pr O
-esnbares O
+Pr B-PER
+esnbares I-PER
 , O
-memne O
-es O
-pourriaxz O
+memne B-PER
+es I-PER
+pourriaxz I-PER
 . O
 |
  | O
-Reduire B-LOC
+Reduire O
 eun O
 ' O
 puissane O
@@ -754,11 +754,11 @@ l O
 misere O
 , O
 au O
-tomnbeu O
+tomnbeu B-MISC
 . O
 |
 | O
-Refrain B-PER
+Refrain O
 . O
 |
  | O
@@ -771,8 +771,8 @@ nos O
 intants O
 |
  | O
-Crieront B-LOC
-ictoire O
+Crieront B-PER
+ictoire I-PER
 avant O
 dii O
 ' O
@@ -781,7 +781,7 @@ ans O
 |
 | O
 2e O
-Couplet B-LOC
+Couplet B-PER
 . O
 |
 | O
@@ -795,32 +795,32 @@ Bonheur I-ORG
 |
 | O
 ] O
-0n O
+0n B-PER
 sait O
 bien O
 quand O
 on O
 fait O
 la O
-guerre O
+guerre B-MISC
 |
-| O
-W B-PER
-iGe I-PER
+| I-MISC
+W I-MISC
+iGe I-MISC
 . O
 |
  | O
 ais O
 ches O
 penouilles O
-rimplis O
-d' O
-misere O
+rimplis B-LOC
+d' I-LOC
+misere I-LOC
 , O
 |
  | O
-N B-ORG
-saf' I-ORG
+N O
+saf' O
 ent O
 point O
 ch' O
@@ -835,13 +835,13 @@ gg O
 , O
 |
 | O
-D O
-' O
-fire O
-la O
-guerre O
+D B-MISC
+' I-MISC
+fire I-MISC
+la I-MISC
+guerre I-MISC
 avec O
-loyaute O
+loyaute B-PER
 , O
 |
 | O
@@ -850,7 +850,7 @@ V B-PER
 | I-PER
 f I-PER
 ssie I-PER
-rnrons O
+rnrons I-PER
 du O
 bure O
 pou O
@@ -860,7 +860,7 @@ ues B-ORG
 |
 | O
 3e O
-Conplet B-LOC
+Conplet B-PER
 . O
 |
 | O
@@ -878,25 +878,25 @@ point O
 cruel O
 |
 | O
-W O
+W B-PER
 iiiiniiee O
 |
  | O
 Pour O
-len O
+len B-PER
 psys O
-ete O
+ete B-ORG
 si O
-nideles O
+nideles B-PER
 |
-  | O
-sir O
-su O
-pouoir O
+  | I-PER
+sir I-PER
+su I-PER
+pouoir I-PER
 des O
-Prussie- B-LOC
+Prussie- B-PER
 |
- | O
+ | I-PER
 gje O
 : O
 eeete O
@@ -929,22 +929,22 @@ aasumtess O
 . O
 |
 | O
-A. O
+A. B-PER
 |
 
-| O
-I B-LOC
+| I-PER
+I I-PER
 |
 
-| O
-l.3 O
-g O
+| I-PER
+l.3 I-PER
+g I-PER
 |
 | O
 Er B-LOC
 |
-| O
-Yt O
+| I-LOC
+Yt I-LOC
 |
 | O
 4 O
@@ -954,20 +954,20 @@ Yt O
 0 O
 |
 | O
-vY B-PER
+vY O
 |
 | O
-W B-ORG
+W B-PER
 |
-| I-ORG
-l I-ORG
-Couplet I-ORG
+| O
+l O
+Couplet B-PER
 . O
 |
 | O
 out O
-eone B-PER
-els I-PER
+eone O
+els O
 puvs O
 diabls O
 in O
@@ -991,11 +991,11 @@ tour O
 : O
 : O
 : O
-V B-PER
+V B-ORG
 |
-| I-PER
-Nos I-PER
-ceurs O
+| I-ORG
+Nos I-ORG
+ceurs I-ORG
 s O
 ' O
 dcharnent O
@@ -1010,8 +1010,8 @@ A O
 ches O
 barbares O
 , O
-chel B-PER
-- I-PER
+chel O
+- O
 y O
 penible O
 , O
@@ -1029,13 +1029,13 @@ dictie O
 . O
 |
 | O
-Vivre B-LOC
-comme O
-cha O
+Vivre B-MISC
+comme I-MISC
+cha I-MISC
 , O
-nonl B-MISC
-chet I-MISC
-impossible I-MISC
+nonl B-PER
+chet I-PER
+impossible O
 , O
 |
 | O
@@ -1055,22 +1055,22 @@ Couplet B-PER
 |
 | O
 ln O
-verite O
+verite B-PER
 , O
 cl O
 ' O
 n' O
-cst O
+cst B-MISC
 point O
 croyable O
 |
 
 | O
-Tous B-MISC
-I I-MISC
-' I-MISC
-s' I-MISC
-atrocites I-MISC
+Tous O
+I O
+' O
+s' O
+atrocites O
 qui O
 ont O
 fait O
@@ -1080,9 +1080,9 @@ fait O
 rt O
 | | O
 euenenir O
-crpu O
-anr O
-ueile O
+crpu B-PER
+anr I-PER
+ueile I-PER
 . O
 |
 | O
@@ -1098,10 +1098,10 @@ civiliser O
 On O
 a O
 vu O
-dins O
-d' O
-certains O
-villaches O
+dins B-LOC
+d' I-LOC
+certains I-LOC
+villaches I-LOC
 |
 | O
 L' O
@@ -1118,15 +1118,15 @@ chetot O
 lpillache O
 |
 | O
-Execute B-LOC
-par O
-ches O
-bandits O
+Execute B-MISC
+par I-MISC
+ches I-MISC
+bandits I-MISC
 , O
 |
 | O
 6e O
-Couplet B-LOC
+Couplet B-PER
 . O
 |
 | O
@@ -1151,15 +1151,15 @@ soupirant O
 , O
 |
 | O
-Pritent B-MISC
-l' I-MISC
-bon I-MISC
-Dieu I-MISC
+Pritent B-PER
+l' I-PER
+bon I-PER
+Dieu I-PER
 qu' O
 iuvoie O
 chull O
 ' O
-gace O
+gace B-PER
 |
 | O
 ur O
@@ -1190,8 +1190,8 @@ bras O
 , O
 |
 | O
-In O
-criant O
+In B-MISC
+criant I-MISC
 : O
 merci O
 , O
@@ -1200,7 +1200,7 @@ France B-LOC
 , O
 |
 | O
-Helasl B-PER
+Helasl B-ORG
 pu O
 d' O
 un O
@@ -1209,37 +1209,37 @@ repetera O
 : O
 |
 | O
-Refrain B-PER
+Refrain O
 . O
 |
 | O
 P B-LOC
 d' O
-dese O
-spoir O
+dese B-PER
+spoir I-PER
 , O
 car O
 nos O
 infants O
 |
 | O
-Critent B-ORG
-victoire I-ORG
-in I-ORG
-ceombatltant I-ORG
+Critent B-MISC
+victoire I-MISC
+in I-MISC
+ceombatltant I-MISC
 . O
 |
 | O
-W O
+W B-PER
 |
 | O
-LIIle O
+LIIle B-LOC
 , O
 imp O
 , O
-SI B-MISC
-- I-MISC
-Horemns I-MISC
+SI B-LOC
+- I-LOC
+Horemns I-LOC
 . O
 731 O
 ft O
@@ -1262,13 +1262,13 @@ ssa O
 ---------a------A O
 |
 | O
-Source B-ORG
-gallica.bnf.fr I-ORG
-/ I-ORG
-Bibliotheque I-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Source B-MISC
+gallica.bnf.fr I-MISC
+/ I-MISC
+Bibliotheque I-MISC
+nationale I-MISC
+de I-MISC
+France I-MISC
 |
 | O
 .. O
@@ -1288,10 +1288,10 @@ France I-ORG
 : O
 |
 | O
-I.1 B-MISC
+I.1 B-PER
 |
-| O
-E B-LOC
+| I-PER
+E I-PER
 |
 | O
 12- O
@@ -1301,10 +1301,10 @@ E B-LOC
 .. O
 |
 | O
-I:31 B-MISC
+I:31 B-PER
 |
-| I-MISC
-II I-MISC
+| I-PER
+II I-PER
 |
 | O
 : O
@@ -1340,10 +1340,10 @@ L- B-LOC
 : O
 |
 | O
-K B-PER
+K B-MISC
 |
-| I-PER
-I:1 I-PER
+| I-MISC
+I:1 I-MISC
 : O
 |
 | O
@@ -1359,14 +1359,14 @@ I. O
 : O
 . O
 , O
-aT B-PER
-|
-| I-PER
-I1 I-PER
-' I-PER
+aT O
 |
 | O
-I.H B-LOC
+I1 B-MISC
+' O
+|
+| O
+I.H B-MISC
 |
 | O
 : O
@@ -1376,7 +1376,7 @@ I B-LOC
 -:I O
 |
 | O
-IIkw O
+IIkw B-LOC
 , O
 |
 | O
@@ -1387,22 +1387,22 @@ I B-LOC
 1 O
 |
 | O
-I1 B-ORG
+I1 B-MISC
 |
 | O
 1:.1 O
 |
 | O
-I5.I B-PER
+I5.I B-ORG
 |
 | O
 I.1 B-MISC
 |
 | O
-.I O
+.I B-MISC
 |
 | O
-Me B-MISC
+Me B-PER
 . O
 I. O
 |
@@ -1413,7 +1413,7 @@ I. O
 3r1 O
 |
 | O
-t:1 O
+t:1 B-LOC
 , O
 |
 | O
@@ -1478,11 +1478,11 @@ T O
 . O
 |
 | O
-I1 B-ORG
+I1 B-MISC
 . O
 |
 | O
-.I O
+.I B-MISC
 , O
 Z B-MISC
 : O
@@ -1494,10 +1494,10 @@ Z B-MISC
 |
 
 | O
-E1 B-LOC
+E1 O
 |
 | O
-IRt B-LOC
+IRt B-MISC
 : O
 . O
 |
@@ -1509,7 +1509,7 @@ IRt B-LOC
 5.I O
 |
  | O
-Az3 O
+Az3 B-LOC
 |
 | O
 . O
@@ -1521,7 +1521,7 @@ Az3 O
 . O
 |
 | O
-tI B-LOC
+tI B-PER
 |
 | O
 1I:1 O
@@ -1535,17 +1535,17 @@ Ii B-PER
 . O
 |
 | O
-I. B-PER
+I. O
 |
 
- | I-PER
+ | O
 . O
 % O
 - O
 |
 | O
 ' O
--+ B-MISC
+-+ O
 . O
 |
 | O
@@ -1562,9 +1562,9 @@ I. B-PER
 ar O
 |
 | O
-w O
-T O
-f O
+w B-MISC
+T I-MISC
+f I-MISC
 , O
 |
 | O
@@ -1601,11 +1601,11 @@ I3C. B-MISC
 . O
 |
 | O
-.3 B-MISC
+.3 O
 |
 | O
 : O
-; O
+  O
 |
 | O
 1-:E O
@@ -1629,19 +1629,19 @@ c O
 rA O
 |
 | O
-N O
+N B-LOC
 |
 | O
 .. O
 |
 | O
-HMSI B-ORG
+HMSI B-MISC
 |
 | O
 . O
 |
 | O
-; O
+  O
 |
 | O
 2Gc1 O
@@ -1661,7 +1661,7 @@ L O
 : O
 |
 | O
-.3 B-MISC
+.3 O
 . O
 |
 | O
@@ -1678,7 +1678,7 @@ L O
 s O
 |
 | O
-H B-PER
+H B-LOC
 |
 | O
 , O
@@ -1699,7 +1699,7 @@ e O
 . O
 |
 | O
-GCU.-G. B-LOC
+GCU.-G. B-ORG
 |
 | O
 ft O
@@ -1707,12 +1707,12 @@ ft O
 
 | O
 , O
-wAqio B-PER
+wAqio B-MISC
 ) O
 et O
 |
 | O
--e:-C B-LOC
+-e:-C O
 |
 | O
 g O
@@ -1725,9 +1725,9 @@ rs B-LOC
 |
 | O
 uaoe O
-al O
-ol O
-Sl B-LOC
+al B-PER
+ol I-PER
+Sl O
 : O
 la O
 |
@@ -1754,7 +1754,7 @@ au O
 |
 | O
 , O
-slulh O
+slulh B-LOC
 -1 O
 , O
 -del O
@@ -1765,7 +1765,7 @@ eta O
  | O
 ---.- O
 . O
-giiitElA:;. O
+giiitElA: . B-PER
 |
 | O
 : O
@@ -1777,13 +1777,13 @@ giiitElA:;. O
 | O
 ... O
 Igo B-PER
-o O
+o I-PER
 , O
 . O
 |
 | O
-i O
-tn O
+i B-PER
+tn I-PER
 ip O
 oea' O
 l O
@@ -1795,14 +1795,14 @@ ae O
 wsliio B-PER
 al' I-PER
 b I-PER
-nit O
-t O
-1a0 O
-' O
+nit I-PER
+t I-PER
+1a0 I-PER
+' I-PER
 |
-| O
-aotoglliv O
-ahitzo' O
+| I-PER
+aotoglliv I-PER
+ahitzo' I-PER
 anib O
 u O
 e O
@@ -1813,7 +1813,7 @@ a O
 rg B-PER
 el I-PER
 otulh O
-talim''3 B-MISC
+talim''3 O
 |
 | O
 aallkl O
@@ -1837,7 +1837,7 @@ us O
 |
 | O
 Anaihl B-PER
-al O
+al I-PER
 | | O
 nu O
 u O
@@ -1845,15 +1845,15 @@ u O
 | O
 . O
 Au O
-Iu B-MISC
-i I-MISC
-st I-MISC
-antiuoil I-MISC
+Iu B-LOC
+i I-LOC
+st I-LOC
+antiuoil I-LOC
 |
-| I-MISC
-Ptnc I-MISC
-atb O
-vilt O
+| I-LOC
+Ptnc I-LOC
+atb I-LOC
+vilt I-LOC
 a O
 in O
 |
@@ -1867,18 +1867,18 @@ hsn O
 |
 | O
 , O
-sd O
-aul B-PER
+sd B-PER
+aul I-PER
 thsi I-PER
-alli I-PER
-aiufs I-PER
+alli O
+aiufs B-PER
 anof I-PER
 |
 | O
 , O
 usl B-MISC
 aIdo I-MISC
-eear O
+eear I-MISC
 : O
 tasie O
 l. O
@@ -1906,10 +1906,10 @@ e O
 1 O
 |
 | O
-Ii B-MISC
+Ii B-PER
 |
-| I-MISC
-1 I-MISC
+| O
+1 O
 |
 | O
 11- O
@@ -1921,9 +1921,9 @@ Ii B-MISC
 :1 O
 |
 | O
-LeN B-LOC
-- I-LOC
-eLeP- I-LOC
+LeN O
+- O
+eLeP- O
 |
 | O
 i O
@@ -1952,7 +1952,7 @@ ieis O
 . O
 : O
 : O
-; O
+  O
 : O
 . O
 |
@@ -2041,17 +2041,17 @@ soi O
 
 | O
 ies O
-Ws B-PER
-I I-PER
+Ws B-MISC
+I I-MISC
 a O
 sa O
 |
 | O
 . O
-W O
+W B-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
 | O
 . O
@@ -2060,14 +2060,14 @@ A O
 1 O
 |
 | O
-I1 B-ORG
+I1 B-MISC
 |
 | O
 . O
 1 O
 |
 | O
-eiens'1 B-LOC
+eiens'1 O
 e O
 ei O
 se O
@@ -2077,8 +2077,8 @@ s. O
 . O
 |
 | O
-syie O
-iseeteieee O
+syie B-PER
+iseeteieee I-PER
 , O
 : O
 y O
@@ -2086,11 +2086,11 @@ y O
 |
 | O
 a O
-srtsv O
-iten O
-` O
-llusanit O
-i O
+srtsv B-PER
+iten I-PER
+` I-PER
+llusanit I-PER
+i I-PER
 s O
 a0 O
 | | O
@@ -2104,7 +2104,7 @@ tie O
 | | O
 ee O
 seee O
-; O
+  O
 t O
 ] O
 |
@@ -2114,8 +2114,8 @@ s O
 vl O
 ' O
 l O
-iai O
-i O
+iai B-PER
+i I-PER
 : O
 |
 | O
@@ -2123,7 +2123,7 @@ i O
 2 O
 |
 | O
-nirl O
+nirl B-PER
 |
 | O
 . O
@@ -2161,12 +2161,12 @@ I B-LOC
 | O
 svg B-MISC
 . O
-sl O
-Ihl B-PER
+sl B-PER
+Ihl I-PER
 me O
 htrsip O
-nsid B-PER
-fls I-PER
+nsid O
+fls B-ORG
 . O
 ] O
 |
@@ -2184,11 +2184,11 @@ isll O
 |
 | O
 .lsntd O
-sntb O
-to O
-spdo O
-saio O
-tns O
+sntb B-PER
+to I-PER
+spdo I-PER
+saio I-PER
+tns I-PER
 ' O
 ' O
 t- O
@@ -2207,20 +2207,20 @@ A O
 ittoi O
 asvrs O
 snv O
-sf B-LOC
-ai I-LOC
-' I-LOC
-C I-LOC
+sf O
+ai O
+' O
+C B-MISC
 ( O
 |
 | O
 . O
-Biowura O
+Biowura B-LOC
 ' O
 h O
-avsi O
-d O
-nlh B-PER
+avsi B-PER
+d I-PER
+nlh I-PER
 aot I-PER
 ' I-PER
 io I-PER
@@ -2239,17 +2239,17 @@ esad O
 ] O
 |
 | O
-I B-LOC
+I B-PER
 |
-| I-LOC
-Igsa I-LOC
+| I-PER
+Igsa I-PER
 ) O
 ee O
 |
 | O
 Isino B-PER
 nio I-PER
-ts' I-PER
+ts' O
 n O
 lo O
 is O
@@ -2268,7 +2268,7 @@ Y O
 as4l O
 ia O
 . O
-ts O
+ts B-LOC
 ny O
 al.sw O
 ' O
@@ -2280,18 +2280,18 @@ aoh I-PER
 nioraq I-PER
 as I-PER
 iin I-PER
-- O
+- I-PER
 |
-| O
-eIid' O
-t O
-eb O
-sit O
-aslt O
-toof O
-enig O
+| I-PER
+eIid' I-PER
+t I-PER
+eb I-PER
+sit I-PER
+aslt I-PER
+toof I-PER
+enig I-PER
 ssaod O
-Md B-PER
+Md B-LOC
 . O
 |
  | O
@@ -2308,26 +2308,26 @@ yilli B-PER
 |
 
 | O
-GL B-ORG
+GL O
 .. O
 |
 | O
 . O
 : O
 . O
-L4r O
+L4r B-PER
 : O
-Szxiaa B-MISC
+Szxiaa B-PER
 |
-| O
-A B-LOC
+| I-PER
+A I-PER
 |
 | O
 . O
-uesedmasl B-LOC
-a0 I-LOC
+uesedmasl B-ORG
+a0 I-ORG
 up O
-seiir B-ORG
+seiir O
 n O
 i O
 tosyd O
@@ -2343,7 +2343,7 @@ tosyd O
 |
 | O
 , O
-aoitiay O
+aoitiay B-PER
 s O
 o O
 ias O
@@ -2355,24 +2355,24 @@ A. O
 t. O
 |
 | O
-Occoceceoocso B-PER
+Occoceceoocso B-LOC
 |
-| I-PER
-ma I-PER
+| O
+ma O
 |
 
 
 | O
 ue B-ORG
 s O
-ip O
-tii O
-ao O
-io B-LOC
+ip B-LOC
+tii I-LOC
+ao I-LOC
+io I-LOC
 |
 | O
 ' O
-ttf B-PER
+ttf B-MISC
 , O
 as O
 si O
@@ -2380,18 +2380,18 @@ si O
 e O
 .t O
 , O
-allI B-PER
+allI O
 |
 | O
-g-- B-PER
-Y I-PER
+g-- O
+Y O
 ri O
 e O
 ' O
 |
 
 | O
-P B-LOC
+P O
 |
 | O
 ... O
@@ -2404,10 +2404,10 @@ eleygg O
 |
 | O
 [ O
-I B-LOC
+I B-PER
 |
-| O
-I O
+| I-PER
+I I-PER
 |
 | O
 : O
@@ -2425,7 +2425,7 @@ iu O
 |
 | O
 : O
-W O
+W B-PER
 |
 | O
 toirtar O
@@ -2437,16 +2437,16 @@ C O
 | O
 fTII O
 : O
-Sr B-MISC
-elIO I-MISC
-IA I-MISC
+Sr B-PER
+elIO I-PER
+IA I-PER
 |
 | O
 : O
-aual B-MISC
-i I-MISC
-asl I-MISC
-A I-MISC
+aual B-PER
+i I-PER
+asl I-PER
+A I-PER
 , O
 w O
 li' O
@@ -2471,17 +2471,17 @@ g O
 , O
 |
 | O
-l==.i B-LOC
+l==.i O
 |
 | O
-r O
-r O
+r B-PER
+r I-PER
 |
-| O
-t O
+| I-PER
+t I-PER
 |
-| O
-e O
+| I-PER
+e I-PER
 , O
 a O
 |
@@ -2490,7 +2490,7 @@ ye% O
 . O
 |
 | O
-Z2 B-PER
+Z2 B-MISC
 . O
 |
  | O
@@ -2508,7 +2508,7 @@ y- O
 . O
 |
 | O
-.i O
+.i B-MISC
 , O
 .e O
 - O
@@ -2523,14 +2523,14 @@ thio O
 tea O
 ls O
 , O
-iiAy O
+iiAy B-MISC
 nl O
 |
 | O
 . O
 |
 | O
-1A B-ORG
+1A B-LOC
 s O
 |
 | O
@@ -2545,24 +2545,24 @@ siaial O
 | | O
 llsii O
 ' O
-iuc B-MISC
-| | I-MISC
-uo I-MISC
-' I-MISC
+iuc B-LOC
+| | O
+uo B-LOC
+' O
 |
 
 
-| I-MISC
+| O
 , O
 oIIiI O
 o O
-si' O
-I B-LOC
-| | O
-tpilorrta O
-taoi O
+si' B-MISC
+I I-MISC
+| | I-MISC
+tpilorrta I-MISC
+taoi I-MISC
 , O
-; O
+  O
 |
 | O
 .. O
@@ -2575,13 +2575,13 @@ taoi O
 ci O
 |
 | O
-1O B-MISC
-4 I-MISC
+1O B-LOC
+4 O
 i O
 il O
 |
 | O
-N- B-MISC
+N- B-LOC
 |
 
 | O
@@ -2595,7 +2595,7 @@ cc:::ecc O
 | O
 3 O
 , O
-T:.- O
+T:.- B-MISC
 . O
 |
 | O
@@ -2613,13 +2613,13 @@ res O
 . O
 --- O
 , O
---- B-MISC
+--- O
 . O
 | | O
 -,r.:i- O
 |
  | O
-H1 B-MISC
+H1 B-LOC
 |
 | O
 3- O
@@ -2631,14 +2631,14 @@ H1 B-MISC
 
 
 | O
-fAM B-MISC
+fAM O
 |
 | O
 : O
 a.- O
 |
 | O
-tN B-LOC
+tN B-MISC
 |
 | O
 . O
@@ -2647,10 +2647,10 @@ tN B-LOC
 .stiit O
 sup O
 | | O
-u O
-| | O
-tee B-MISC
-ii I-MISC
+u B-PER
+| | I-PER
+tee I-PER
+ii I-PER
 . O
 |
 | O
@@ -2706,11 +2706,11 @@ e O
 --- O
 |
 | O
-1S O
+1S B-LOC
 |
 
-| O
-F9- O
+| I-LOC
+F9- I-LOC
 . O
 |
 | O
@@ -2737,15 +2737,15 @@ i O
 | O
 : O
 : O
-sn B-MISC
-- I-MISC
-i I-MISC
-|
-| I-MISC
-e::.5 I-MISC
+sn O
+- O
+i O
 |
 | O
-.ii B-MISC
+e::.5 O
+|
+| O
+.ii O
 |
 | O
 y O

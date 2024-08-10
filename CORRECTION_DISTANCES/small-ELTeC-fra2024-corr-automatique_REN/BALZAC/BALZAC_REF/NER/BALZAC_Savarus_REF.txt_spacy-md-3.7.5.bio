@@ -25,9 +25,9 @@ celui O
 de O
 madame B-PER
 la O
-baronne O
-de O
-Watteville B-LOC
+baronne B-PER
+de I-PER
+Watteville I-PER
 . O
 Un O
 mot O
@@ -48,13 +48,13 @@ Besançon I-LOC
 |
 | O
 Monsieur B-PER
-de O
-Watteville B-PER
+de I-PER
+Watteville I-PER
 , O
 petit-neveu O
 du O
 fameux O
-Watteville B-MISC
+Watteville B-LOC
 , O
 le O
 plus O
@@ -139,9 +139,9 @@ biens O
 - O
 fonds O
 du O
-baron O
-de O
-Watteville B-LOC
+baron B-PER
+de I-PER
+Watteville I-PER
 . O
 L' O
 écusson O
@@ -220,7 +220,7 @@ maison O
 de O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 pour O
 s' O
 établir O
@@ -432,7 +432,7 @@ contre O
 cette O
 roche O
 . O
-Rupt O
+Rupt B-LOC
 vient O
 évidemment O
 de O
@@ -468,8 +468,8 @@ Rupt B-LOC
 |
 | O
 Monsieur B-PER
-de O
-Watteville B-PER
+de I-PER
+Watteville I-PER
 passait O
 sa O
 vie O
@@ -532,9 +532,9 @@ petites O
 choses O
 . O
 Le O
-baron O
-de O
-Watteville B-PER
+baron B-PER
+de I-PER
+Watteville I-PER
 amassait O
 les O
 coquillages O
@@ -561,7 +561,7 @@ disaient O
 de O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 : O
 — O
 Il O
@@ -609,9 +609,9 @@ chère O
 |
 | O
 L' O
-hôtel B-LOC
-de I-LOC
-Rupt I-LOC
+hôtel O
+de O
+Rupt B-LOC
 ne O
 manquait O
 pas O
@@ -669,7 +669,7 @@ les O
 lampasses O
 , O
 les O
-damas B-LOC
+damas O
 , O
 les O
 tapis O
@@ -709,8 +709,8 @@ glace O
 orné O
 de O
 porcelaines O
-de B-LOC
-Saxe I-LOC
+de O
+Saxe B-LOC
 , O
 la O
 chère O
@@ -724,7 +724,7 @@ choisis O
 par O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 , O
 qui O
 , O
@@ -773,9 +773,9 @@ qui O
 consistait O
 dans O
 la O
-terre O
-des O
-Rouxey O
+terre B-LOC
+des I-LOC
+Rouxey I-LOC
 valant O
 environ O
 dix O
@@ -899,8 +899,8 @@ annonça O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 le O
@@ -926,7 +926,7 @@ L' O
 arrêt O
 de O
 la O
-Cour B-ORG
+Cour B-LOC
 , O
 de O
 laquelle O
@@ -1069,9 +1069,9 @@ Besançon B-LOC
 , O
 répondit O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
 |
 | O
@@ -1080,7 +1080,7 @@ Ah B-MISC
 ! I-MISC
 oui O
 , O
-Savaron B-MISC
+Savaron B-PER
 , O
 dit O
 un O
@@ -1095,7 +1095,7 @@ baronne O
 et O
 nommé O
 de O
-Soulas B-PER
+Soulas B-LOC
 . O
 |
 | O
@@ -1133,7 +1133,7 @@ moi O
 reprit O
 monsieur O
 de O
-Grancey B-PER
+Grancey B-LOC
 qui O
 reparaissait O
 à O
@@ -1152,7 +1152,7 @@ jours O
 Enfin O
 , O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 vient O
 de O
 battre O
@@ -1179,7 +1179,7 @@ merveilleux O
 au O
 dire O
 des O
-Conseillers B-LOC
+Conseillers B-MISC
 . O
 Ainsi O
 , O
@@ -1194,11 +1194,11 @@ il O
 a O
 vaincu O
 en O
-Droit B-LOC
+Droit B-MISC
 , O
 puis O
 en O
-Politique B-LOC
+Politique B-MISC
 il O
 a O
 vaincu O
@@ -1268,15 +1268,15 @@ ancien O
 couvent O
 reste O
 au O
-Chapitre B-LOC
-de O
-la O
-cathédrale B-LOC
-de I-LOC
-Besançon I-LOC
+Chapitre B-MISC
+de I-MISC
+la I-MISC
+cathédrale I-MISC
+de I-MISC
+Besançon I-MISC
 . O
-Monsieur B-MISC
-Savaron I-MISC
+Monsieur O
+Savaron B-PER
 a O
 d' O
 ailleurs O
@@ -1362,8 +1362,8 @@ vicaire O
 - O
 général O
 . O
-Monsieur B-MISC
-Savaron I-MISC
+Monsieur O
+Savaron B-PER
 demeure O
 rue B-LOC
 du I-LOC
@@ -1379,7 +1379,7 @@ mur O
 mitoyen O
 avec O
 le O
-vôtre O
+vôtre B-LOC
 . O
 |
 | O
@@ -1395,7 +1395,7 @@ Comté B-LOC
 dit O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 . O
 |
 | O
@@ -1421,7 +1421,7 @@ est O
 dit O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 . O
 |
 | O
@@ -1442,7 +1442,7 @@ bras O
 de O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 pour O
 se O
 rendre O
@@ -1681,20 +1681,20 @@ les O
 tailles O
 longues O
 des O
-Anglaises B-MISC
+Anglaises B-LOC
 , O
 tout O
 Paris B-LOC
 alla O
 voir O
-Pothier B-LOC
+Pothier B-PER
 et O
-Brunet B-LOC
+Brunet B-PER
 dans O
 les O
-Anglaises B-ORG
-pour I-ORG
-rire I-ORG
+Anglaises B-LOC
+pour O
+rire O
 ; O
 mais O
 , O
@@ -1796,7 +1796,7 @@ Alfred B-PER
 de I-PER
 Musset I-PER
 : O
-Avez B-LOC
+Avez O
 -vous O
 vu O
 dans O
@@ -1957,7 +1957,7 @@ de I-PER
 Soulas I-PER
 , O
 écrit O
-Souleyaz B-PER
+Souleyaz B-MISC
 au O
 temps O
 de O
@@ -2006,7 +2006,7 @@ d' O
 Espagnols B-LOC
 . O
 Les O
-Soulas B-MISC
+Soulas B-LOC
 y O
 restèrent O
 à O
@@ -2023,7 +2023,7 @@ Le O
 jeune O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 parlait O
 toujours O
 de O
@@ -2144,7 +2144,7 @@ ans O
 trapu O
 , O
 nommé O
-Babylas B-PER
+Babylas B-MISC
 . O
 Le O
 lion O
@@ -2177,8 +2177,8 @@ de O
 panne O
 gros-bleu O
 , O
-gilet B-PER
-rouge I-PER
+gilet O
+rouge O
 , O
 bottes O
 vernies O
@@ -2189,8 +2189,8 @@ revers O
 chapeau O
 rond O
 à O
-bourdaloue O
-noir O
+bourdaloue B-PER
+noir I-PER
 , O
 des O
 boutons O
@@ -2265,7 +2265,7 @@ dans O
 un O
 pourboire O
 quand O
-Soulas B-PER
+Soulas B-MISC
 troquait O
 l' O
 un O
@@ -2315,9 +2315,9 @@ cravates O
 , O
 bijouterie O
 , O
-pots B-PER
-de I-PER
-vernis I-PER
+pots O
+de O
+vernis O
 , O
 habits O
 , O
@@ -2455,7 +2455,7 @@ Le O
 jeune O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 passait O
 pour O
 un O
@@ -2612,7 +2612,7 @@ se O
 procurer O
 pour O
 quinze O
-louis B-PER
+louis O
 , O
 y O
 compris O
@@ -2719,8 +2719,8 @@ avait O
 côtoyé O
 les O
 lacs O
-d' B-LOC
-Italie I-LOC
+d' O
+Italie B-LOC
 . O
 Il O
 lisait O
@@ -2738,8 +2738,8 @@ ses O
 gants O
 , O
 le O
-tigre B-PER
-Babylas I-PER
+tigre O
+Babylas B-MISC
 répondait O
 aux O
 visiteurs O
@@ -2753,7 +2753,7 @@ avait O
 -on O
 essayé O
 de O
-démonétiser O
+démonétiser B-PER
 le O
 jeune O
 monsieur O
@@ -2829,8 +2829,8 @@ les O
 pensées O
 contrôlées O
 par O
-la O
-Presse B-MISC
+la B-ORG
+Presse I-ORG
 . O
 |
 | O
@@ -2850,7 +2850,7 @@ de O
 taille O
 moyenne O
 , O
-brun B-PER
+brun O
 , O
 le O
 thorax O
@@ -3038,8 +3038,8 @@ importance O
 qu' O
 y O
 mit O
-lord O
-Byron B-PER
+lord B-PER
+Byron I-PER
 dans O
 ses O
 derniers O
@@ -3107,7 +3107,7 @@ bisontine O
 à O
 jouer O
 au O
-whist B-ORG
+whist O
 , O
 et O
 revenait O
@@ -3178,7 +3178,7 @@ sourde O
 et O
 muette O
 au O
-Progrès B-LOC
+Progrès O
 . O
 A O
 Besançon B-LOC
@@ -3221,7 +3221,7 @@ la O
 colonie O
 . O
 La O
-Colonie B-LOC
+Colonie O
 est O
 le O
 terrain O
@@ -3316,11 +3316,11 @@ Saint I-LOC
 Jean I-LOC
 , O
 des O
-Beauffremont B-ORG
-, O
-des O
-de O
-Scey B-ORG
+Beauffremont B-MISC
+, I-MISC
+des I-MISC
+de I-MISC
+Scey I-MISC
 , O
 des O
 Gramont B-LOC
@@ -3413,7 +3413,7 @@ Victor B-PER
 Hugo I-PER
 , O
 de O
-Nodier B-LOC
+Nodier B-PER
 , O
 de O
 Fourier B-PER
@@ -3602,11 +3602,11 @@ défendre O
 contre O
 la O
 petite O
-Gazette B-LOC
+Gazette B-ORG
 que O
 la O
 grande O
-Gazette B-LOC
+Gazette B-ORG
 avait O
 pondue O
 à O
@@ -3639,8 +3639,8 @@ débuta O
 par O
 un O
 premier O
-- B-LOC
-Besançon I-LOC
+- O
+Besançon O
 de O
 l' O
 école O
@@ -3671,7 +3671,7 @@ lui O
 dit O
 : O
 — O
-Apprenez B-PER
+Apprenez O
 , O
 monsieur O
 , O
@@ -3703,7 +3703,7 @@ d' O
 avoir O
 ri O
 . O
-Soyez B-ORG
+Soyez O
 aussi O
 dur O
 à O
@@ -3715,10 +3715,10 @@ plus O
 amplifications O
 de O
 la O
-Revue B-MISC
-des I-MISC
-deux I-MISC
-Mondes I-MISC
+Revue B-ORG
+des I-ORG
+deux I-ORG
+Mondes I-ORG
 , O
 et O
 vous O
@@ -3853,7 +3853,7 @@ pas O
 du O
 pays O
 . O
-Amédée B-LOC
+Amédée B-PER
 voulait O
 arriver O
 à O
@@ -3965,7 +3965,7 @@ les O
 singularités O
 qui O
 recommandaient O
-Amédée B-LOC
+Amédée B-PER
 à O
 l' O
 attention O
@@ -4183,7 +4183,7 @@ en O
 estimait O
 fort O
 . O
-Soulas B-PER
+Soulas B-LOC
 s' O
 était O
 mis O
@@ -4265,7 +4265,7 @@ s' O
 y O
 prendre O
 . O
-Comprenez B-PER
+Comprenez O
 -vous O
 pourquoi O
 ce O
@@ -4515,7 +4515,7 @@ entre O
 la O
 baronne O
 et O
-Amédée B-LOC
+Amédée B-PER
 , O
 auxquelles O
 la O
@@ -4642,7 +4642,7 @@ un O
 vieux O
 jésuite O
 ? O
-Dessin O
+Dessin B-PER
 , O
 musique O
 et O
@@ -4776,9 +4776,9 @@ vendredis O
 , O
 elle O
 accompagnait O
-madame O
-de O
-Watteville B-PER
+madame B-PER
+de I-PER
+Watteville I-PER
 dans O
 les O
 soirées O
@@ -5058,7 +5058,7 @@ peau O
 Les O
 jours O
 de O
-gala B-MISC
+gala O
 , O
 elle O
 était O
@@ -5209,7 +5209,7 @@ romanesque O
 audace O
 du O
 fameux O
-Watteville B-MISC
+Watteville B-LOC
 étaient O
 revenus O
 dans O
@@ -5298,7 +5298,7 @@ si O
 sévère O
 pour O
 sa O
-Philomène B-PER
+Philomène B-MISC
 , O
 qu' O
 elle O
@@ -5334,7 +5334,7 @@ a O
 plus O
 d' O
 un O
-Belzébuth B-LOC
+Belzébuth B-PER
 dans O
 sa O
 peau O
@@ -5525,7 +5525,7 @@ le O
 jeune O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 , O
 elle O
 se O
@@ -5648,9 +5648,9 @@ général O
 , O
 ce O
 cher O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 l' O
 ami O
@@ -5999,7 +5999,7 @@ le O
 jeune O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 , O
 que O
 toute O
@@ -6085,9 +6085,9 @@ le O
 digne O
 et O
 noble O
-abbé O
-de O
-Grancey B-LOC
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
 Philomène B-PER
 ne O
@@ -6163,10 +6163,10 @@ a O
 jeté O
 dans O
 l' O
-Hôtel B-ORG
-National I-ORG
-un O
-Parisien B-LOC
+Hôtel B-LOC
+National I-LOC
+un I-LOC
+Parisien I-LOC
 qui O
 , O
 après O
@@ -6252,11 +6252,11 @@ officiers O
 ministériels O
 , O
 chez O
-les O
-Conseillers B-LOC
-de I-LOC
-la I-LOC
-cour I-LOC
+les B-MISC
+Conseillers I-MISC
+de I-MISC
+la I-MISC
+cour I-MISC
 et O
 chez O
 tous O
@@ -6272,7 +6272,7 @@ se O
 lisait O
 : O
 ALBERT O
-SAVARON O
+SAVARON B-MISC
 . O
 |
 | O
@@ -6280,7 +6280,7 @@ SAVARON O
 Le O
 nom O
 de O
-Savaron B-LOC
+Savaron B-PER
 est O
 célèbre O
 , O
@@ -6298,9 +6298,9 @@ science O
 héraldique O
 . O
 Les O
-Savaron B-LOC
-de I-LOC
-Savarus I-LOC
+Savaron B-PER
+de I-PER
+Savarus I-PER
 sont O
 une O
 des O
@@ -6339,9 +6339,9 @@ prendre O
 les O
 armes O
 des O
-Savaron B-MISC
-de I-MISC
-Savarus I-MISC
+Savaron B-PER
+de I-PER
+Savarus I-PER
 , O
 il O
 y O
@@ -6394,7 +6394,7 @@ Philomène B-PER
 |
 | O
 – O
-Assez O
+Assez B-PER
 , O
 Philomène B-MISC
 ! I-MISC
@@ -6417,7 +6417,7 @@ blason O
 fit O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 , O
 elle O
 le O
@@ -6427,9 +6427,9 @@ bien O
 |
 | O
 – O
-Continuez B-LOC
+Continuez B-PER
 , O
-Amédée B-LOC
+Amédée B-PER
 . O
 |
 | O
@@ -6531,7 +6531,7 @@ après O
 , O
 plus O
 de O
-Savaron B-LOC
+Savaron B-PER
 . O
 Il O
 a O
@@ -6590,7 +6590,7 @@ messe O
 dit O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 . O
 |
 | O
@@ -6692,7 +6692,7 @@ Chavoncourt I-PER
 à O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 . O
 |
 | O
@@ -6700,12 +6700,12 @@ Soulas B-PER
 D' O
 abord O
 , O
-madame O
+madame B-PER
 , O
 je O
 demeure O
-rue O
-Neuve B-PER
+rue B-LOC
+Neuve I-LOC
 au O
 coin O
 de O
@@ -6746,7 +6746,7 @@ Vous O
 causez O
 donc O
 avec O
-Babylas B-PER
+Babylas B-MISC
 ? O
 |
 | O
@@ -6764,9 +6764,9 @@ promenades O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
-bien I-MISC
+Eh O
+! O
+bien O
 , O
 comment O
 avez O
@@ -6823,8 +6823,8 @@ accusé O
 de O
 faux O
 . O
-Monsieur B-MISC
-Savaron I-MISC
+Monsieur O
+Savaron B-PER
 a O
 fait O
 acquitter O
@@ -6875,7 +6875,7 @@ plaidoiries O
 ont O
 frappé O
 la O
-Cour B-ORG
+Cour B-LOC
 et O
 les O
 jurés O
@@ -6923,7 +6923,7 @@ Besançon B-LOC
 , O
 monsieur O
 de O
-Garceneault B-PER
+Garceneault B-LOC
 nous O
 a O
 donné O
@@ -6971,8 +6971,8 @@ tort O
 . O
 |
 | O
-– B-LOC
-A I-LOC
+– O
+A O
 -t O
 -il O
 donc O
@@ -6984,7 +6984,7 @@ extraordinaire O
 demanda O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 . O
 |
 | O
@@ -7000,8 +7000,8 @@ général O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 expliquez O
 -nous O
@@ -7025,9 +7025,9 @@ vis O
 , O
 dit O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 il O
 me O
@@ -7163,7 +7163,7 @@ figure O
 , O
 car O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 est O
 venu O
 en O
@@ -7434,7 +7434,7 @@ devenant O
 alors O
 incisive O
 . O
-Monsieur B-PER
+Monsieur O
 Albert B-PER
 Savaron I-PER
 est O
@@ -7455,8 +7455,8 @@ mains O
 de O
 prélat O
 . O
-La O
-seconde O
+La B-MISC
+seconde I-MISC
 fois O
 que O
 je O
@@ -7539,8 +7539,8 @@ frapper O
 la O
 porte O
 . O
-Monsieur B-MISC
-Savaron I-MISC
+Monsieur O
+Savaron B-PER
 a O
 fermé O
 lui-même O
@@ -7762,9 +7762,9 @@ en O
 dit O
 la O
 belle O
-madame B-PER
-de I-PER
-Chavoncourt I-PER
+madame O
+de O
+Chavoncourt B-LOC
 . O
 |
 | O
@@ -7779,9 +7779,9 @@ tête O
 , O
 reprit O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 qui O
 regarda O
 finement O
@@ -7920,7 +7920,7 @@ d' O
 un O
 roman O
 pour O
-Philomène B-PER
+Philomène B-MISC
 qu' O
 il O
 s' O
@@ -7974,7 +7974,7 @@ Quel O
 idéal O
 que O
 cet O
-Albert B-PER
+Albert B-MISC
 , O
 sombre O
 , O
@@ -7986,9 +7986,9 @@ travailleur O
 , O
 comparé O
 par O
-mademoiselle O
-de O
-Watteville B-LOC
+mademoiselle B-PER
+de I-PER
+Watteville I-PER
 à O
 ce O
 gros O
@@ -8101,9 +8101,9 @@ phrases O
 dites O
 par O
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 car O
 tous O
@@ -8149,16 +8149,16 @@ Celui O
 de O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 est O
 trop O
 bombé O
 , O
 celui O
 de O
-monsieur O
-de O
-Grancey B-PER
+monsieur B-PER
+de I-PER
+Grancey I-PER
 est O
 beau O
 , O
@@ -8319,8 +8319,8 @@ verrai O
 | O
 – O
 Monsieur B-PER
-de O
-Grancey B-PER
+de I-PER
+Grancey I-PER
 , O
 tout O
 est O
@@ -8469,9 +8469,9 @@ fit O
 rire O
 . O
 Mais O
-monsieur O
-de O
-Grancey B-PER
+monsieur B-PER
+de I-PER
+Grancey I-PER
 s' O
 en O
 occupait O
@@ -8642,7 +8642,7 @@ semble O
 , O
 elle O
 vit O
-Albert B-MISC
+Albert B-PER
 écrivant O
 , O
 elle O
@@ -8835,9 +8835,9 @@ crise O
 fatale O
 amenée O
 chez O
-mademoiselle O
-de O
-Watteville B-LOC
+mademoiselle B-PER
+de I-PER
+Watteville I-PER
 par O
 l' O
 imprudente O
@@ -8893,9 +8893,9 @@ Rupt B-LOC
 |
 | O
 – O
-Que O
-serais O
--je O
+Que B-MISC
+serais I-MISC
+-je I-MISC
 devenue O
 , O
 pensa O
@@ -8950,8 +8950,8 @@ aperçues O
 jusqu' O
 alors O
 , O
-Philomène B-MISC
-sauta I-MISC
+Philomène B-PER
+sauta O
 rapidement O
 à O
 l' O
@@ -9234,7 +9234,7 @@ temple O
 en O
 façon O
 de O
-belvéder O
+belvéder B-PER
 , O
 où O
 ses O
@@ -9297,13 +9297,13 @@ gronderait O
 |
 | O
 – O
-Sois B-LOC
-tranquille O
+Sois B-MISC
+tranquille I-MISC
 , O
 répondit O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 qui O
 gémissait O
 tout O
@@ -9420,8 +9420,8 @@ de O
 madame B-PER
 et O
 de O
-mademoiselle O
-de O
+mademoiselle B-PER
+de I-PER
 Watteville B-LOC
 . O
 |
@@ -9436,8 +9436,8 @@ je O
 vois O
 mademoiselle O
 si O
-vétilleuse O
-! O
+vétilleuse B-PER
+! I-PER
 dit O
 Mariette B-PER
 . O
@@ -9668,7 +9668,7 @@ de O
 manière O
 à O
 regarder O
-Albert B-PER
+Albert B-MISC
 au O
 moment O
 où O
@@ -9720,7 +9720,7 @@ plus O
 d' O
 impression O
 sur O
-Philomène B-PER
+Philomène B-MISC
 que O
 sa O
 manière O
@@ -9766,7 +9766,7 @@ sombre O
 , O
 parut O
 à O
-Philomène B-PER
+Philomène B-MISC
 comme O
 éclairée O
 . O
@@ -9936,14 +9936,14 @@ Mariette B-PER
 dit O
 : O
 — O
-Voilà B-MISC
-monsieur I-MISC
-Giroud I-MISC
+Voilà O
+monsieur O
+Giroud B-PER
 , O
 il O
 parut O
 à O
-Philomène B-PER
+Philomène B-MISC
 que O
 ce O
 temps O
@@ -9976,10 +9976,10 @@ cathédrale O
 |
 | O
 -- O
-Le B-MISC
-vicaire I-MISC
-- I-MISC
-général I-MISC
+Le O
+vicaire O
+- O
+général O
 a O
 raison O
 , O
@@ -10042,7 +10042,7 @@ admirable O
 exactitude O
 , O
 et O
-voila O
+voila B-PER
 ses O
 méditations O
 sous O
@@ -10056,9 +10056,9 @@ la O
 niaiserie O
 à O
 tromper O
-madame O
-de O
-Watteville B-PER
+madame B-PER
+de I-PER
+Watteville I-PER
 . O
 Depuis O
 le O
@@ -10100,7 +10100,7 @@ chaudement O
 l' O
 affaire O
 du O
-belvéder O
+belvéder B-PER
 . O
 |
 | O
@@ -10166,7 +10166,7 @@ approuvez O
 -vous O
 cela O
 ? O
-Moi B-PER
+Moi O
 , O
 il O
 me O
@@ -10253,7 +10253,7 @@ Soulas B-PER
 et O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 nous O
 y O
 verra O
@@ -10271,10 +10271,10 @@ parlerait O
 |
 | O
 – O
-Avez B-LOC
+Avez O
 -vous O
 , O
-Philomène B-PER
+Philomène B-MISC
 , O
 la O
 prétention O
@@ -10365,9 +10365,9 @@ approbation O
 au O
 projet O
 du O
-baron O
-de O
-Watteville B-LOC
+baron B-PER
+de I-PER
+Watteville I-PER
 en O
 indiquant O
 pour O
@@ -10393,7 +10393,7 @@ de O
 chez O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 , O
 mais O
 d' O
@@ -10449,7 +10449,7 @@ des O
 viornes O
 , O
 des O
-lierres B-LOC
+lierres O
 , O
 des O
 chèvrefeuilles O
@@ -10501,7 +10501,7 @@ de O
 bois O
 grume O
 . O
-Monsieur B-PER
+Monsieur O
 de O
 Soulas B-PER
 proposa O
@@ -10565,14 +10565,14 @@ fantaisie O
 |
 | O
 – O
-Mille B-LOC
-écus O
-? O
+Mille B-MISC
+écus I-MISC
+? I-MISC
 ... O
 dit O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 . O
 |
 | O
@@ -10608,9 +10608,9 @@ sera O
 bien O
 joli O
 . O
-Monsieur B-PER
+Monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 fait O
 lui-même O
 le O
@@ -10650,7 +10650,7 @@ le O
 jeune O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 , O
 il O
 fonde O
@@ -10690,7 +10690,7 @@ dit O
 aigrement O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 en O
 regardant O
 une O
@@ -10802,7 +10802,7 @@ fidèle O
 sa O
 retraite O
 , O
-Savaron B-LOC
+Savaron B-PER
 ne O
 se O
 montra O
@@ -10855,7 +10855,7 @@ durent O
 aller O
 à O
 la O
-Cour B-ORG
+Cour B-LOC
 . O
 Il O
 eut O
@@ -10900,8 +10900,8 @@ Le O
 jour O
 où O
 la O
-maison O
-Watteville B-PER
+maison B-LOC
+Watteville I-LOC
 inaugura O
 son O
 belvéder O
@@ -10912,7 +10912,7 @@ aussi O
 son O
 monument O
 . O
-Grâces B-PER
+Grâces O
 aux O
 relations O
 sourdes O
@@ -10934,14 +10934,14 @@ fondait O
 une O
 revue O
 de O
-quinzaine B-MISC
+quinzaine O
 , O
 appelée O
 la O
-Revue B-MISC
-de I-MISC
-l' I-MISC
-Est I-MISC
+Revue B-ORG
+de I-ORG
+l' I-ORG
+Est I-ORG
 , O
 au O
 moyen O
@@ -11033,12 +11033,12 @@ Revue B-MISC
 les I-MISC
 hautes I-MISC
 questions I-MISC
-relatives O
-aux O
-intérêts O
-de O
-l' B-LOC
-Est I-LOC
+relatives I-MISC
+aux I-MISC
+intérêts I-MISC
+de I-MISC
+l' I-MISC
+Est I-MISC
 . O
 Quelle O
 gloire O
@@ -11055,11 +11055,11 @@ littéraire O
 , O
 d' O
 éclairer O
-l' B-LOC
-Est I-LOC
-de O
-la O
-France O
+l' O
+Est B-LOC
+de I-LOC
+la I-LOC
+France I-LOC
 , O
 et O
 de O
@@ -11200,7 +11200,7 @@ de O
 la O
 Comté B-LOC
 . O
-Grâces B-PER
+Grâces O
 aux O
 relations O
 de O
@@ -11222,7 +11222,7 @@ bon O
 marché O
 : O
 la O
-Revue B-MISC
+Revue B-ORG
 coûtait O
 huit O
 francs O
@@ -11326,7 +11326,7 @@ roi O
 du O
 barreau O
 . O
-Alfred B-MISC
+Alfred B-PER
 venait O
 conférer O
 le O
@@ -11357,13 +11357,13 @@ contint O
 une O
 Méditation B-MISC
 d' O
-Alfred B-PER
+Alfred O
 qui O
 eut O
 l' O
 approbation O
 de O
-Savaron B-LOC
+Savaron B-PER
 . O
 Dans O
 sa O
@@ -11386,7 +11386,7 @@ dont O
 profitait O
 le O
 jeune O
-Boucher B-PER
+Boucher B-LOC
 . O
 Aussi O
 le O
@@ -11421,7 +11421,7 @@ du O
 succès O
 de O
 la O
-Revue B-MISC
+Revue B-ORG
 , O
 n' O
 eurent O
@@ -11440,7 +11440,7 @@ cents O
 abonnements O
 , O
 la O
-Revue B-MISC
+Revue B-ORG
 allait O
 donner O
 cinq O
@@ -11471,7 +11471,7 @@ troisième O
 numéro O
 , O
 la O
-Revue B-MISC
+Revue B-ORG
 avait O
 obtenu O
 l' O
@@ -11520,10 +11520,10 @@ Besançon I-LOC
 accordait O
 à O
 cette O
-Revue B-MISC
-accusée I-MISC
-de I-MISC
-libéralisme I-MISC
+Revue B-ORG
+accusée O
+de O
+libéralisme O
 , O
 il O
 fut O
@@ -11551,8 +11551,8 @@ Comté B-LOC
 |
 | O
 – O
-Mon O
-père O
+Mon B-MISC
+père I-MISC
 , O
 dit O
 Philomène B-PER
@@ -11562,8 +11562,8 @@ se O
 fait O
 une O
 Revue B-MISC
-à O
-Besançon B-LOC
+à I-MISC
+Besançon I-MISC
 , O
 tu O
 devrais O
@@ -11594,7 +11594,7 @@ prêteras O
 . O
 |
 | O
-Empressé B-LOC
+Empressé B-MISC
 d' O
 obéir O
 à O
@@ -11615,7 +11615,7 @@ tendresse O
 , O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 alla O
 prendre O
 lui-même O
@@ -11626,10 +11626,10 @@ un O
 an O
 à O
 la O
-Revue B-MISC
-de I-MISC
-l' I-MISC
-Est I-MISC
+Revue B-ORG
+de I-ORG
+l' I-ORG
+Est I-ORG
 , O
 et O
 prêta O
@@ -11644,7 +11644,7 @@ fille O
 Pendant O
 la O
 nuit O
-Philomène B-PER
+Philomène B-MISC
 put O
 dévorer O
 cette O
@@ -11886,8 +11886,8 @@ existence O
 | O
 L' O
 AMBITIEUX B-MISC
-PAR O
-AMOUR B-ORG
+PAR I-MISC
+AMOUR I-MISC
 |
 | O
 En O
@@ -11932,7 +11932,7 @@ rameurs O
 et O
 allaient O
 à O
-Fluelen B-LOC
+Fluelen B-PER
 en O
 se O
 promettant O
@@ -12157,8 +12157,8 @@ inconnue O
 | O
 – O
 Arrêtons B-MISC
--nous O
-ici O
+-nous I-MISC
+ici I-MISC
 , O
 dit O
 -il O
@@ -12218,7 +12218,7 @@ voyage O
 est O
 fini O
 . O
-Mariniers B-PER
+Mariniers O
 , O
 virez O
 de O
@@ -12271,8 +12271,8 @@ retour O
 . O
 |
 | O
-– B-LOC
-Ici I-LOC
+– O
+Ici O
 ou O
 à O
 Lucerne B-LOC
@@ -12363,10 +12363,10 @@ déjà O
 promis O
 à O
 l' O
-Étude B-LOC
-d' O
-un O
-notaire O
+Étude B-MISC
+d' I-MISC
+un I-MISC
+notaire I-MISC
 à O
 Paris B-LOC
 . O
@@ -12413,8 +12413,8 @@ qui O
 traversent O
 une O
 plaine O
-de O
-France O
+de B-LOC
+France I-LOC
 , O
 il O
 l' O
@@ -12723,8 +12723,8 @@ chose O
 Chez O
 lui O
 , O
-le B-ORG
-Désir I-ORG
+le O
+Désir B-ORG
 devint O
 une O
 force O
@@ -13069,9 +13069,9 @@ préparait O
 déjeuner O
 à O
 l' O
-auberge O
-du O
-Cygne O
+auberge B-LOC
+du I-LOC
+Cygne I-LOC
 , O
 les O
 deux O
@@ -13346,8 +13346,8 @@ apercevoir O
 l' O
 inconnue O
 . O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 il O
 rentra O
 sans O
@@ -13503,8 +13503,8 @@ très O
 - O
 attachée O
 à O
-miss O
-Fanny B-PER
+miss B-PER
+Fanny I-PER
 , O
 une O
 petite O
@@ -13535,11 +13535,11 @@ jardiniers O
 en O
 chef O
 de O
-Son B-PER
-Excellence I-PER
+Son B-MISC
+Excellence I-MISC
 le O
-comte B-PER
-Borroméo I-PER
+comte O
+Borroméo O
 à O
 l O
 ' O
@@ -13590,8 +13590,8 @@ trois O
 ans O
 . O
 Le O
-vieux B-LOC
-Lovelace I-LOC
+vieux O
+Lovelace B-PER
 , O
 vieillard O
 nonagénaire O
@@ -13671,9 +13671,9 @@ d' O
 autant O
 plus O
 la O
-compassion B-MISC
-des I-MISC
-Suisses I-MISC
+compassion O
+des O
+Suisses B-LOC
 , O
 qu' O
 ils O
@@ -13692,7 +13692,7 @@ maison O
 nourrissait O
 ces O
 trois O
-Anglais B-MISC
+Anglais B-LOC
 à O
 raison O
 de O
@@ -13708,7 +13708,7 @@ on O
 croyait O
 dans O
 tout O
-Gersau B-PER
+Gersau B-LOC
 que O
 les O
 anciens O
@@ -13785,8 +13785,8 @@ donnait O
 dix-neuf O
 ans O
 à O
-miss O
-Fanny B-PER
+miss B-PER
+Fanny I-PER
 qui O
 , O
 le O
@@ -13937,7 +13937,7 @@ montrer O
 leur O
 établissement O
 . O
-Rodolphe O
+Rodolphe B-PER
 n' O
 alla O
 pas O
@@ -14037,7 +14037,7 @@ par O
 la O
 petite O
 Anglaise B-MISC
-muette I-MISC
+muette O
 en O
 qui O
 sa O
@@ -14136,8 +14136,8 @@ mouvements O
 . O
 |
 | O
-– B-LOC
-A I-LOC
+– O
+A O
 qui O
 cette O
 petite O
@@ -14187,8 +14187,8 @@ des O
 Indes B-LOC
 , O
 répondit O
-madame B-PER
-Bergmann I-PER
+madame O
+Bergmann B-PER
 . O
 |
 | O
@@ -14200,8 +14200,8 @@ dit O
 que O
 la O
 jeune O
-miss O
-Lovelace B-PER
+miss B-PER
+Lovelace I-PER
 aimait O
 la O
 musique O
@@ -14676,8 +14676,8 @@ parlait O
 en O
 italien O
 avec O
-miss O
-Lovelace B-ORG
+miss B-PER
+Lovelace I-PER
 . O
 Il O
 était O
@@ -14713,7 +14713,7 @@ sûreté O
 : O
 dans O
 tout O
-Gersau B-PER
+Gersau B-LOC
 il O
 n' O
 y O
@@ -14726,7 +14726,7 @@ pussent O
 être O
 ouverts O
 . O
-Rodolphe O
+Rodolphe B-PER
 pensa O
 que O
 le O
@@ -14970,7 +14970,7 @@ regards O
 a O
 cloué O
 à O
-Gersau B-PER
+Gersau B-LOC
 . O
 |
 | O
@@ -15001,7 +15001,7 @@ terrassé O
 Nel B-PER
 lago I-PER
 con I-PER
-pietra O
+pietra I-PER
 , O
 dit O
 la O
@@ -15124,8 +15124,8 @@ la O
 maison O
 Stopfer B-PER
 . O
-Soyez B-ORG
-tranquilles I-ORG
+Soyez O
+tranquilles O
 , O
 je O
 ne O
@@ -15189,7 +15189,7 @@ ouvrit O
 la O
 chemise O
 et O
-suça B-ORG
+suça O
 fortement O
 la O
 plaie O
@@ -15301,10 +15301,10 @@ impatience O
 . O
 |
 | O
-– B-MISC
-Laissez I-MISC
--moi I-MISC
-vous I-MISC
+– O
+Laissez O
+-moi O
+vous O
 voir O
 , O
 répondit O
@@ -15636,8 +15636,8 @@ dans O
 son O
 lit O
 . O
-Nel O
-lago O
+Nel B-PER
+lago I-PER
 ! O
 Gina B-PER
 m' O
@@ -15809,7 +15809,7 @@ d' O
 une O
 procuration O
 . O
-Rodolphe O
+Rodolphe B-PER
 put O
 ainsi O
 rester O
@@ -15832,7 +15832,7 @@ La O
 situation O
 du O
 jeune O
-Français B-LOC
+Français B-MISC
 , O
 son O
 désespoir O
@@ -15866,7 +15866,7 @@ l' O
 intérêt O
 de O
 tout O
-Gersau B-PER
+Gersau B-LOC
 . O
 Chaque O
 matin O
@@ -15900,8 +15900,8 @@ chez O
 les O
 Bergmann B-PER
 remercier O
-miss O
-Fanny B-PER
+miss B-PER
+Fanny I-PER
 Lovelace I-PER
 et O
 son O
@@ -16209,7 +16209,7 @@ sont O
 | O
 -- O
 Zitto B-PER
-! O
+! I-PER
 fit O
 Francesca B-PER
 en O
@@ -16248,13 +16248,13 @@ ans O
 ... O
 |
 | O
-Un O
-profond O
-silence O
-régna O
-pendant O
-quelques O
-instants O
+Un B-MISC
+profond I-MISC
+silence I-MISC
+régna I-MISC
+pendant I-MISC
+quelques I-MISC
+instants I-MISC
 entre O
 eux O
 . O
@@ -16285,8 +16285,8 @@ fait O
 |
 | O
 -- O
-Povero B-MISC
-! I-MISC
+Povero B-PER
+! O
 se O
 dit O
 -elle O
@@ -16538,7 +16538,7 @@ recevoir O
 des O
 mains O
 du O
-Temps B-PER
+Temps B-MISC
 ? O
 reprit O
 -il O
@@ -16852,7 +16852,7 @@ délicatesse O
 |
 | O
 – O
-Laissons B-LOC
+Laissons B-PER
 ce O
 sujet O
 de O
@@ -16904,7 +16904,7 @@ franchir O
 un O
 abîme O
 . O
-Soyez B-ORG
+Soyez O
 ambitieux O
 , O
 il O
@@ -16978,7 +16978,7 @@ la O
 triple O
 révolution O
 de O
-Naples B-LOC
+Naples O
 , O
 du O
 Piémont B-LOC
@@ -17074,14 +17074,14 @@ prenant O
 la O
 pièce O
 , O
-monsieur B-PER
+monsieur O
 est O
 le O
 fameux O
 libraire O
-Lamporani B-PER
-de I-PER
-Milan I-PER
+Lamporani B-MISC
+de O
+Milan B-LOC
 , O
 l' O
 un O
@@ -17152,10 +17152,10 @@ reine O
 . O
 |
 | O
-– B-MISC
-Toutes I-MISC
-les I-MISC
-Italiennes I-MISC
+– O
+Toutes O
+les O
+Italiennes B-LOC
 sont O
 ainsi O
 , O
@@ -17242,8 +17242,8 @@ Les O
 moindres O
 actions O
 de O
-Francesca O
-Colonna O
+Francesca B-PER
+Colonna I-PER
 trahissaient O
 une O
 éducation O
@@ -17313,7 +17313,7 @@ elle O
 eût O
 joui O
 au O
-Moyen-Âge B-LOC
+Moyen-Âge B-MISC
 . O
 Elle O
 semblait O
@@ -17462,12 +17462,12 @@ Gina B-PER
 | O
 -- O
 Où B-MISC
-voulez O
--vous O
-aller O
+voulez I-MISC
+-vous I-MISC
+aller I-MISC
 ? O
 signora O
-Lamporani B-PER
+Lamporani B-MISC
 , O
 dit O
 -il O
@@ -17518,8 +17518,8 @@ la O
 rusée O
 ! O
 — O
-Qu' B-MISC
-avez I-MISC
+Qu' O
+avez O
 -vous O
 contre O
 moi O
@@ -17995,8 +17995,8 @@ souriant O
 . O
 |
 | O
-– B-LOC
-Est I-LOC
+– O
+Est O
 -ce O
 , O
 répliqua O
@@ -18017,7 +18017,7 @@ de O
 ma O
 naissance O
 ? O
-Faut B-LOC
+Faut O
 -il O
 un O
 blason O
@@ -18035,9 +18035,9 @@ noms O
 : O
 Sforza B-PER
 , O
-Canova B-LOC
+Canova B-PER
 , O
-Visconti B-LOC
+Visconti B-PER
 , O
 Trivulzio B-LOC
 , O
@@ -18056,14 +18056,14 @@ Archinto B-LOC
 apothicaires O
 ; O
 mais O
-croyez B-MISC
+croyez O
 que O
 , O
 malgré O
 ma O
 condition O
 de O
-boutiquière O
+boutiquière B-PER
 , O
 j' O
 ai O
@@ -18081,7 +18081,7 @@ reproche O
 ? O
 non O
 , O
-madame O
+madame B-PER
 , O
 j' O
 ai O
@@ -18165,8 +18165,8 @@ traité O
 ? O
 |
 | O
-– B-MISC
-Oui I-MISC
+– O
+Oui O
 , O
 dit O
 -il O
@@ -18204,8 +18204,8 @@ vouliez O
 la O
 restreindre O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 Francesca B-PER
 , O
 une O
@@ -18309,10 +18309,10 @@ revêtir O
 la O
 chaîne O
 du O
-Pilate B-LOC
+Pilate B-MISC
 , O
 le O
-Rhigi B-PER
+Rhigi B-ORG
 , O
 et O
 ce O
@@ -18335,7 +18335,7 @@ dit O
 – O
 Hé B-MISC
 ! I-MISC
-bien I-MISC
+bien O
 , O
 cette O
 heure O
@@ -18391,10 +18391,10 @@ aimé O
 |
 | O
 – O
-Jamais B-MISC
-! I-MISC
+Jamais O
+! O
 |
-| I-MISC
+| O
 – O
 Et O
 vous O
@@ -18514,8 +18514,8 @@ attendrie O
 C' O
 est O
 , O
-croyez B-MISC
--moi I-MISC
+croyez B-LOC
+-moi O
 , O
 reprit O
 -elle O
@@ -18842,9 +18842,9 @@ qui O
 distingue O
 l' O
 Italienne B-LOC
-de O
-la O
-Française B-LOC
+de I-LOC
+la I-LOC
+Française I-LOC
 . O
 Les O
 eaux O
@@ -19151,7 +19151,7 @@ paquet O
 de O
 lettres O
 à O
-Francesca B-LOC
+Francesca B-PER
 qui O
 se O
 mit O
@@ -19188,7 +19188,7 @@ laisser O
 languir O
 mon O
 pauvre O
-Emilio B-MISC
+Emilio B-PER
 dix O
 minutes O
 de O
@@ -19218,9 +19218,9 @@ lettre O
 |
 | O
 -- O
-La B-MISC
-liberta I-MISC
-! I-MISC
+La O
+liberta O
+! O
 fit O
 -elle O
 avec O
@@ -19233,8 +19233,8 @@ artiste O
 | O
 -- O
 E B-PER
-denaro I-PER
-! I-PER
+denaro O
+! O
 répondit O
 comme O
 un O
@@ -19247,8 +19247,8 @@ parler O
 . O
 |
 | O
-– B-MISC
-Oui I-MISC
+– O
+Oui O
 , O
 reprit O
 Francesca B-PER
@@ -19339,7 +19339,7 @@ Mont-Cenis B-LOC
 ni O
 par O
 le O
-Simplon B-LOC
+Simplon B-PER
 : O
 il O
 est O
@@ -19447,8 +19447,8 @@ multiplier O
 vos O
 souvenirs O
 , O
-povero O
-mio O
+povero B-PER
+mio I-PER
 , O
 dit O
 -elle O
@@ -19465,8 +19465,8 @@ plus O
 en O
 danger O
 . O
-Ma B-PER
-mère I-PER
+Ma O
+mère O
 me O
 dit O
 que O
@@ -19483,8 +19483,8 @@ amnistiés O
 Oh B-MISC
 ! I-MISC
 la O
-cara B-MISC
-patria I-MISC
+cara O
+patria O
 ... O
 |
 | O
@@ -19509,8 +19509,8 @@ ici O
 ! O
 |
 | O
-– B-MISC
-Pauvre I-MISC
+– O
+Pauvre O
 petite O
 chèvre O
 de O
@@ -19557,7 +19557,7 @@ barque O
 abordait O
 , O
 Rodolphe B-PER
-sauta I-PER
+sauta O
 sur O
 le O
 sable O
@@ -19774,9 +19774,9 @@ Bourrienne B-PER
 madame B-PER
 Murat I-PER
 , O
-madame O
-d' O
-Abrantès B-PER
+madame B-PER
+d' I-PER
+Abrantès I-PER
 , O
 e O
 tutti O
@@ -19833,9 +19833,9 @@ ici O
 devenir O
 bûcheron O
 . O
-Povera B-PER
-Francesca I-PER
-! O
+Povera B-ORG
+Francesca I-ORG
+! I-ORG
 qui O
 m' O
 eût O
@@ -20103,7 +20103,7 @@ Le O
 frère O
 cadet O
 d' O
-Emilio B-LOC
+Emilio B-PER
 fut O
 trahi O
 par O
@@ -20514,7 +20514,7 @@ le O
 désir O
 de O
 quitter O
-Gersau B-ORG
+Gersau B-LOC
 où O
 beaucoup O
 de O
@@ -20525,8 +20525,8 @@ manquaient O
 |
 | O
 – O
-Moi B-MISC
-! I-MISC
+Moi O
+! O
 dit O
 -elle O
 , O
@@ -20630,7 +20630,7 @@ et O
 son O
 mari O
 . O
-Mes B-PER
+Mes O
 pieds O
 , O
 dit O
@@ -20649,8 +20649,8 @@ pour O
 la O
 fatigue O
 ? O
-Mes B-MISC
-mains I-MISC
+Mes O
+mains O
 ... O
 Elle O
 tendit O
@@ -20684,8 +20684,8 @@ parler O
 . O
 |
 | O
-Le O
-vieillard O
+Le B-MISC
+vieillard I-MISC
 rentra O
 dans O
 le O
@@ -20705,7 +20705,7 @@ femme O
 |
 | O
 -- O
-Je B-PER
+Je O
 ne O
 veux O
 pas O
@@ -20727,7 +20727,7 @@ est O
 une O
 ville O
 à O
-caquetages O
+caquetages B-LOC
 . O
 Quoique O
 je O
@@ -20901,7 +20901,7 @@ partis O
 L' O
 habitation O
 de O
-Gersau B-PER
+Gersau B-LOC
 lui O
 parut O
 dès O
@@ -20972,9 +20972,9 @@ une O
 maison O
 située O
 aux O
-Eaux B-LOC
-- I-LOC
-Vives I-LOC
+Eaux O
+- O
+Vives O
 en O
 dehors O
 des O
@@ -21020,7 +21020,7 @@ Genève B-LOC
 |
 | O
 -- O
-Non B-PER
+Non O
 , O
 que O
 je O
@@ -21048,7 +21048,7 @@ la O
 campagne O
 de O
 monsieur O
-Jeanrenaud B-PER
+Jeanrenaud O
 , O
 une O
 des O
@@ -21075,9 +21075,9 @@ qu' O
 a O
 louée O
 la O
-vicomtesse O
-de O
-Beauséant B-PER
+vicomtesse B-PER
+de I-PER
+Beauséant I-PER
 . O
 Le O
 prince B-PER
@@ -21104,7 +21104,7 @@ si O
 vous O
 voulez O
 , O
-Sicilien B-ORG
+Sicilien B-MISC
 , O
 ancien O
 partisan O
@@ -21160,9 +21160,9 @@ puissances O
 étrangères O
 et O
 du O
-roi O
-de O
-Naples O
+roi B-LOC
+de I-LOC
+Naples I-LOC
 , O
 la O
 permission O
@@ -21185,8 +21185,8 @@ faire O
 qui O
 déplaise O
 à O
-la B-LOC
-Sainte-Alliance I-LOC
+la O
+Sainte-Alliance B-ORG
 , O
 à O
 qui O
@@ -21203,8 +21203,8 @@ pas O
 de O
 fronder O
 les O
-Cours B-MISC
-étrangères I-MISC
+Cours O
+étrangères O
 . O
 Il O
 y O
@@ -21268,7 +21268,7 @@ monde O
 va O
 voir O
 comme O
-Coppet B-ORG
+Coppet B-LOC
 , O
 comme O
 Ferney B-LOC
@@ -21378,9 +21378,9 @@ Le O
 chemin O
 qui O
 des O
-Eaux B-LOC
-- I-LOC
-Vives I-LOC
+Eaux O
+- O
+Vives O
 côtoie O
 le O
 lac B-LOC
@@ -21431,8 +21431,8 @@ quelques O
 pas O
 de O
 la O
-maison B-PER
-Jeanrenaud I-PER
+maison B-LOC
+Jeanrenaud I-LOC
 , O
 près O
 de O
@@ -21517,7 +21517,7 @@ une O
 vieille O
 dame O
 , O
-raide O
+raide B-PER
 comme O
 un O
 camée O
@@ -21612,8 +21612,8 @@ Gandolphini B-PER
 . O
 |
 | O
-– B-LOC
-N' I-LOC
+– O
+N' O
 est O
 -ce O
 pas O
@@ -21652,7 +21652,7 @@ passé O
 |
 | O
 – O
-Pourvu B-LOC
+Pourvu B-PER
 , O
 se O
 dit O
@@ -21729,7 +21729,7 @@ plus O
 illustres O
 familles O
 du O
-Moyen-Âge B-LOC
+Moyen-Âge O
 , O
 pour O
 la O
@@ -21776,7 +21776,7 @@ reçu O
 par O
 le O
 faux O
-Lamporani B-PER
+Lamporani B-MISC
 qui O
 vint O
 au O
@@ -21932,9 +21932,9 @@ il O
 retourna O
 lentement O
 aux O
-Eaux B-LOC
-- I-LOC
-Vives I-LOC
+Eaux B-ORG
+- I-ORG
+Vives I-ORG
 préoccupé O
 de O
 la O
@@ -22108,8 +22108,8 @@ comprendre O
 — O
 A O
 la O
-maison B-PER
-Jeanrenaud I-PER
+maison B-LOC
+Jeanrenaud I-LOC
 , O
 chez O
 le O
@@ -22269,11 +22269,11 @@ il O
 y O
 eût O
 des O
-Anglaises B-MISC
+Anglaises B-LOC
 et O
 des O
-Russes B-ORG
-charmantes I-ORG
+Russes B-LOC
+charmantes O
 , O
 les O
 plus O
@@ -22298,14 +22298,14 @@ et O
 la O
 fameuse O
 cantatrice O
-Tinti B-LOC
+Tinti B-PER
 qui O
 chantait O
 en O
 ce O
 moment O
 . O
-Rodolphe O
+Rodolphe B-PER
 appuyé O
 contre O
 le O
@@ -22478,8 +22478,8 @@ monde O
 dans O
 la O
 belle O
-maison B-PER
-Jeanrenaud I-PER
+maison O
+Jeanrenaud B-PER
 , O
 la O
 parole O
@@ -22612,9 +22612,9 @@ fameux O
 quatuor O
 de O
 Mi B-MISC
-manca O
-la O
-voce O
+manca I-MISC
+la I-MISC
+voce I-MISC
 qui O
 fut O
 exécuté O
@@ -22623,7 +22623,7 @@ elle O
 , O
 par O
 la O
-Tinti B-LOC
+Tinti B-MISC
 , O
 par O
 Génovèse B-PER
@@ -22666,7 +22666,7 @@ art O
 |
 | O
 -- O
-Asseyez B-ORG
+Asseyez B-PER
 -vous O
 là O
 , O
@@ -22734,7 +22734,7 @@ les O
 jours O
 heureux O
 de O
-Gersau B-PER
+Gersau B-LOC
 . O
 Rodolphe B-PER
 éprouva O
@@ -22791,9 +22791,9 @@ moment O
 c' O
 est O
 Mi B-MISC
-manca O
-la O
-voce O
+manca I-MISC
+la I-MISC
+voce I-MISC
 qui O
 se O
 chante O
@@ -23137,7 +23137,7 @@ pâlir O
 de O
 jalousie O
 la O
-Tinti B-LOC
+Tinti B-MISC
 , O
 tant O
 elles O
@@ -23165,7 +23165,7 @@ jeta O
 sur O
 la O
 belle O
-Romaine B-PER
+Romaine B-MISC
 qui O
 devint O
 inaltérablement O
@@ -23376,7 +23376,7 @@ sa O
 vie O
 comme O
 la O
-Tinti B-LOC
+Tinti B-MISC
 , O
 et O
 qui O
@@ -23396,7 +23396,7 @@ ne O
 deviendrait O
 alors O
 un O
-Amadis B-LOC
+Amadis B-PER
 ? O
 Ceci O
 n' O
@@ -23676,8 +23676,8 @@ ailleurs O
 étendue O
 au-delà O
 de O
-l' B-LOC
-Italie I-LOC
+l' O
+Italie B-LOC
 . O
 Elle O
 cache O
@@ -23800,10 +23800,10 @@ de O
 famille O
 . O
 Les O
-Colonna B-LOC
+Colonna B-PER
 et O
 les O
-Gandolphini B-LOC
+Gandolphini B-PER
 s' O
 étaient O
 toujours O
@@ -23883,7 +23883,7 @@ dans O
 la O
 révolution O
 . O
-Rodolphe O
+Rodolphe B-PER
 ignorait O
 encore O
 que O
@@ -24087,7 +24087,7 @@ fébrile O
 Je O
 suis O
 Romaine B-MISC
-! I-MISC
+! O
 lui O
 répondit O
 gravement O
@@ -24238,7 +24238,7 @@ flammes O
 sa O
 tente O
 à O
-baldaquin B-PER
+baldaquin O
 cramoisi O
 sous O
 lequel O
@@ -24315,8 +24315,8 @@ pu O
 rivaliser O
 la O
 maison O
-de O
-France O
+de B-LOC
+France I-LOC
 ... O
 |
 | O
@@ -24356,8 +24356,8 @@ pas O
 |
 | O
 – O
-Hésité B-ORG
-! I-ORG
+Hésité B-MISC
+! I-MISC
 ... O
 n' O
 est O
@@ -24540,8 +24540,8 @@ yeux O
 . O
 |
 | O
-– B-LOC
-Pardon I-LOC
+– O
+Pardon B-PER
 , O
 reprit O
 -il O
@@ -24580,7 +24580,7 @@ elle O
 violemment O
 émue O
 . O
-Rodolphe O
+Rodolphe B-PER
 , O
 croyant O
 à O
@@ -24635,7 +24635,7 @@ avec O
 résolution O
 : O
 — O
-Partez B-PER
+Partez B-LOC
 ce O
 soir O
 , O
@@ -24935,11 +24935,11 @@ voulut O
 demander O
 à O
 la O
-Politique B-LOC
+Politique B-ORG
 ce O
 que O
-l' B-LOC
-Industrie I-LOC
+l' O
+Industrie B-LOC
 lui O
 avait O
 refusé O
@@ -25016,7 +25016,7 @@ mois O
 à O
 la O
 villa O
-Gandolphini B-LOC
+Gandolphini B-PER
 , O
 bercé O
 d' O
@@ -25126,8 +25126,8 @@ dieu O
 des O
 sots O
 , O
-le O
-Bonheur B-MISC
+le B-MISC
+Bonheur I-MISC
 ! I-MISC
 Et O
 cet O
@@ -25156,8 +25156,8 @@ un O
 cœur O
 fidèle O
 ! O
-Amoureux B-ORG
-! I-ORG
+Amoureux B-MISC
+! I-MISC
 priez O
 pour O
 lui O
@@ -25620,9 +25620,9 @@ l' O
 impossible O
 à O
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 lui-même O
 , O
 fut O
@@ -25648,9 +25648,9 @@ des O
 contestations O
 à O
 sa O
-terre O
-des O
-Rouxey B-MISC
+terre B-LOC
+des I-LOC
+Rouxey I-LOC
 , O
 j' O
 irai O
@@ -25783,14 +25783,14 @@ Jérôme B-PER
 le O
 domestique O
 d' O
-Albert B-LOC
+Albert O
 , O
 à O
 franchir O
-la B-MISC
-crête I-MISC
-du I-MISC
-mur I-MISC
+la O
+crête O
+du O
+mur O
 et O
 à O
 entrer O
@@ -25916,7 +25916,7 @@ raison O
 d' O
 environ O
 dix O
-louis B-PER
+louis O
 par O
 année O
 , O
@@ -26027,7 +26027,7 @@ la O
 dévote O
 femme-de-chambre O
 aussi O
-raide B-PER
+raide O
 , O
 aussi O
 prude O
@@ -26044,7 +26044,7 @@ toutes O
 les O
 vieilles O
 filles O
-laides O
+laides B-PER
 , O
 se O
 montrait O
@@ -26183,7 +26183,7 @@ le O
 bras O
 de O
 sa O
-femme-de-chambre O
+femme-de-chambre B-LOC
 , O
 ce O
 qui O
@@ -26380,7 +26380,7 @@ répondre O
 |
 | O
 – O
-Écoutez B-PER
+Écoutez O
 , O
 Mariette B-PER
 , O
@@ -26434,7 +26434,7 @@ monde O
 |
 | O
 – O
-Certainement B-PER
+Certainement O
 , O
 mademoiselle O
 , O
@@ -26521,7 +26521,7 @@ les O
 lettres O
 que O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 fera O
 mettre O
 à O
@@ -26603,7 +26603,7 @@ lieu O
 de O
 lire O
 l' O
-Ordinaire B-LOC
+Ordinaire B-MISC
 de O
 la O
 messe O
@@ -26649,8 +26649,8 @@ par O
 la O
 lecture O
 de O
-la B-LOC
-Nouvelle I-LOC
+la O
+Nouvelle B-LOC
 , O
 y O
 vit O
@@ -26725,8 +26725,8 @@ dans O
 la O
 prière O
 , O
-oh O
-! O
+oh B-PER
+! I-PER
 comment O
 amener O
 mon O
@@ -26743,7 +26743,7 @@ l' O
 on O
 envoie O
 cette O
-Revue B-MISC
+Revue B-ORG
 ? O
 |
 | O
@@ -26785,7 +26785,7 @@ père O
 , O
 que O
 notre O
-Revue B-PER
+Revue B-ORG
 aille O
 à O
 l' O
@@ -26803,8 +26803,8 @@ commencer O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 je O
@@ -26848,7 +26848,7 @@ après O
 , O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 dit O
 à O
 sa O
@@ -26928,9 +26928,9 @@ Philomène B-PER
 | O
 – O
 La O
-duchesse O
-d' O
-Argaiolo B-LOC
+duchesse B-PER
+d' I-PER
+Argaiolo I-PER
 . O
 |
 | O
@@ -27017,17 +27017,17 @@ Philomène B-PER
 . O
 |
 | O
-ALBERT B-MISC
-SAVARON I-MISC
-A O
-LEOPOLD O
-HANNEQUIN O
+ALBERT O
+SAVARON B-MISC
+A I-MISC
+LEOPOLD I-MISC
+HANNEQUIN I-MISC
 . O
 |
 | O
 « O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 oui O
@@ -27482,8 +27482,8 @@ eux O
 sans O
 eux O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 pourquoi O
 n' O
 avais O
@@ -27776,9 +27776,9 @@ pris O
 | O
 -- O
 » O
-Voudra B-PER
-- I-PER
-t- I-PER
+Voudra O
+- O
+t- O
 elle O
 pour O
 mari O
@@ -27855,7 +27855,7 @@ sur O
 le O
 quai O
 des O
-Tuileries B-LOC
+Tuileries O
 , O
 au O
 10 O
@@ -27891,8 +27891,8 @@ lieux O
 en O
 vendémiaire O
 ! O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 ma O
@@ -27910,7 +27910,7 @@ sur O
 quatre O
 ans O
 . O
-Combien B-LOC
+Combien O
 de O
 discours O
 à O
@@ -28029,7 +28029,7 @@ est O
 quand O
 je O
 les O
-voyais B-LOC
+voyais O
 faisant O
 ces O
 efforts O
@@ -28377,15 +28377,15 @@ le O
 plus O
 fort O
 avocat O
-de B-LOC
-Besançon I-LOC
+de O
+Besançon B-LOC
 . O
 Plus O
 tard O
 , O
 j' O
 y O
-fonderai O
+fonderai B-LOC
 une O
 Revue B-MISC
 où O
@@ -28685,7 +28685,7 @@ défendre O
 un O
 malheureux O
 aux O
-Assises B-MISC
+Assises B-ORG
 , O
 sans O
 doute O
@@ -28759,7 +28759,7 @@ témoins O
 Enfin O
 , O
 la O
-Cour B-ORG
+Cour B-LOC
 a O
 partagé O
 l' O
@@ -28816,9 +28816,9 @@ Chapitre B-MISC
 de I-MISC
 la I-MISC
 cathédrale I-MISC
-m' I-MISC
-a I-MISC
-choisi I-MISC
+m' O
+a O
+choisi O
 pour O
 avocat O
 dans O
@@ -28951,8 +28951,8 @@ de O
 reconnaissance O
 . O
 — O
-« B-PER
-Monsieur I-PER
+« O
+Monsieur B-PER
 , O
 lui O
 ai O
@@ -28996,8 +28996,8 @@ comme O
 l' O
 adversaire O
 de O
-la O
-Ville B-LOC
+la B-LOC
+Ville I-LOC
 , O
 je O
 suis O
@@ -29673,7 +29673,7 @@ idole O
 |
 | O
 » O
-Atteindre O
+Atteindre B-LOC
 au O
 but O
 en O
@@ -29696,8 +29696,8 @@ le O
 seuil O
 de O
 sa O
-porte O
-! O
+porte B-LOC
+! I-LOC
 obtenir O
 celle O
 qu' O
@@ -29729,8 +29729,8 @@ vivre O
 heureux O
 ! O
 ... O
-Oh O
-! O
+Oh B-MISC
+! I-MISC
 de O
 combien O
 d' O
@@ -30005,8 +30005,8 @@ femme O
 |
 | O
 » O
-Votre B-MISC
-ALBERT I-MISC
+Votre O
+ALBERT B-MISC
 . O
 » O
 |
@@ -30060,12 +30060,12 @@ rapprochant O
 cette O
 confidence O
 de O
-la B-LOC
-Nouvelle I-LOC
+la O
+Nouvelle B-LOC
 publiée O
 dans O
 la O
-Revue B-MISC
+Revue B-ORG
 , O
 elle O
 comprit O
@@ -30128,7 +30128,7 @@ de O
 son O
 caractère O
 . O
-Aimer B-PER
+Aimer B-ORG
 est O
 déjà O
 chez O
@@ -30269,7 +30269,7 @@ commerce O
 , O
 à O
 la O
-Revue B-MISC
+Revue B-ORG
 , O
 et O
 restait O
@@ -30340,14 +30340,14 @@ soin O
 ? O
 |
 | O
-Un O
-soir O
-Mariette B-PER
+Un B-MISC
+soir I-MISC
+Mariette I-MISC
 , O
 en O
 venant O
 habiller O
-Philomène B-PER
+Philomène B-MISC
 pour O
 une O
 soirée O
@@ -30381,12 +30381,12 @@ Watteville B-LOC
 . O
 |
 | O
-A O
-MADAME B-MISC
-LA O
-DUCHESSE O
+A B-MISC
+MADAME I-MISC
+LA I-MISC
+DUCHESSE I-MISC
 D' O
-ARGAIOLO O
+ARGAIOLO B-MISC
 |
 | O
 ( O
@@ -30405,11 +30405,11 @@ BELGIRATE I-ORG
 Lac B-LOC
 Majeur I-LOC
 . O
-ITALIE B-ORG
+ITALIE B-LOC
 . O
 |
 | O
-A O
+A B-LOC
 ses O
 yeux O
 , O
@@ -30419,11 +30419,11 @@ brilla O
 comme O
 dut O
 briller O
-Mané B-MISC
+Mané B-PER
 , O
-Thecel B-LOC
+Thecel B-MISC
 , O
-Pharès B-LOC
+Pharès B-PER
 aux O
 yeux O
 de O
@@ -30582,7 +30582,7 @@ dangereuse O
 |
 | O
 – O
-Lirai B-LOC
+Lirai B-PER
 -je O
 ? O
 ne O
@@ -30845,7 +30845,7 @@ me O
 disant O
 : O
 — O
-Voulez B-LOC
+Voulez O
 -vous O
 aller O
 à O
@@ -30897,8 +30897,8 @@ suis O
 apprécié O
 . O
 — O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 nous O
@@ -31057,9 +31057,9 @@ Soderini B-PER
 la O
 veuve O
 du O
-duc O
-d' O
-Argaiolo B-LOC
+duc B-PER
+d' I-PER
+Argaiolo I-PER
 ! O
 Le O
 triomphe O
@@ -31072,10 +31072,10 @@ d' O
 incessantes O
 luttes O
 . O
-O O
-ma O
-vie O
-! O
+O B-MISC
+ma I-MISC
+vie I-MISC
+! I-MISC
 avec O
 quelle O
 joie O
@@ -31269,7 +31269,7 @@ d' O
 une O
 espérance O
 . O
-Tristesse B-PER
+Tristesse O
 ou O
 gaieté O
 , O
@@ -31317,7 +31317,7 @@ la O
 lumière O
 ! O
 Qual B-PER
-pianto O
+pianto I-PER
 que O
 ces O
 onze O
@@ -31467,7 +31467,7 @@ regrettes O
 |
 | O
 » O
-Ta B-MISC
+Ta O
 statue O
 ne O
 se O
@@ -31503,8 +31503,8 @@ attends O
 toujours O
 la O
 Vue B-LOC
-de O
-Belgirate B-LOC
+de I-LOC
+Belgirate I-LOC
 au O
 midi O
 et O
@@ -31586,11 +31586,11 @@ reçois O
 ton O
 journal O
 ! O
-Merci B-MISC
-de I-MISC
-ton I-MISC
-exactitude I-MISC
-! I-MISC
+Merci O
+de O
+ton O
+exactitude O
+! O
 tu O
 as O
 donc O
@@ -31610,8 +31610,8 @@ ainsi O
 traduits O
 ? O
 ... O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 tout O
 en O
 les O
@@ -31629,7 +31629,7 @@ n' O
 avions O
 point O
 de O
-Nouvelles B-LOC
+Nouvelles B-MISC
 , O
 et O
 une O
@@ -31722,9 +31722,9 @@ La O
 transformation O
 du O
 farouche O
-Sormano B-PER
-en O
-Gina B-PER
+Sormano B-MISC
+en I-MISC
+Gina I-MISC
 ne O
 t' O
 a O
@@ -31940,7 +31940,7 @@ comme O
 ton O
 âme O
 ! O
-O O
+O B-MISC
 fleur O
 céleste O
 et O
@@ -32048,8 +32048,8 @@ je O
 deviens O
 fou O
 ! O
-Cara B-MISC
-diva O
+Cara B-PER
+diva I-PER
 , O
 cultive O
 toujours O
@@ -32186,8 +32186,8 @@ je O
 t' O
 aime O
 . O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 j' O
 ai O
 mis O
@@ -32333,8 +32333,8 @@ Voilà O
 la O
 vie O
 . O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 quelle O
 niaiserie O
 que O
@@ -32450,7 +32450,7 @@ du O
 flambeau O
 de O
 l' O
-Espérance B-LOC
+Espérance O
 , O
 qui O
 jusqu' O
@@ -32570,7 +32570,7 @@ coupable O
 |
 | O
 – O
-Mademoiselle B-PER
+Mademoiselle B-MISC
 a O
 pleuré O
 , O
@@ -32621,7 +32621,7 @@ de O
 sa O
 conscience O
 . O
-Touchée B-PER
+Touchée O
 par O
 cette O
 admirable O
@@ -32738,8 +32738,8 @@ aimer O
 pensait O
 -elle O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 si O
 c' O
 était O
@@ -32774,7 +32774,7 @@ Ce O
 petit O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 n' O
 aime O
 que O
@@ -32933,7 +32933,7 @@ malheureusement O
 beaucoup O
 trop O
 de O
-Philomènes B-LOC
+Philomènes B-PER
 , O
 et O
 cette O
@@ -33180,17 +33180,17 @@ que O
 l' O
 eau O
 d' O
-Arcier B-PER
+Arcier B-LOC
 . O
 Des O
 articles O
 parurent O
 dans O
 la O
-Revue B-MISC
-de I-MISC
-l' I-MISC
-Est I-MISC
+Revue B-ORG
+de I-ORG
+l' I-ORG
+Est I-ORG
 qui O
 ne O
 furent O
@@ -33204,21 +33204,21 @@ commerce O
 bisontin O
 . O
 Les O
-Nobles B-MISC
+Nobles O
 comme O
 les O
 Bourgeois B-LOC
 , O
 le O
-Juste B-PER
-- I-PER
-milieu I-PER
+Juste B-LOC
+- I-LOC
+milieu I-LOC
 comme O
 les O
-Légitimistes B-LOC
+Légitimistes B-ORG
 , O
 le O
-Gouvernement B-LOC
+Gouvernement B-ORG
 comme O
 l' O
 opposition O
@@ -33250,7 +33250,7 @@ question O
 des O
 eaux O
 d' O
-Arcier B-PER
+Arcier B-LOC
 fut O
 à O
 l' O
@@ -33271,7 +33271,7 @@ chemins O
 de O
 fer O
 de O
-Versailles B-LOC
+Versailles O
 , O
 comme O
 pour O
@@ -33584,9 +33584,9 @@ dit O
 à O
 Savarus B-LOC
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 qui O
 naturellement O
@@ -33659,7 +33659,7 @@ d' O
 amener O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 dans O
 le O
 salon O
@@ -33758,7 +33758,7 @@ revenu O
 , O
 laissait O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 sous O
 le O
 gouvernement O
@@ -33774,8 +33774,8 @@ vieux O
 domestique O
 de O
 la O
-maison O
-Watteville O
+maison B-LOC
+Watteville I-LOC
 , O
 appelé O
 Modinier B-LOC
@@ -33800,7 +33800,7 @@ campagne O
 ils O
 allaient O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 dont O
 la O
@@ -33825,7 +33825,7 @@ créé O
 par O
 le O
 fameux O
-Watteville B-MISC
+Watteville B-LOC
 , O
 dont O
 la O
@@ -33862,7 +33862,7 @@ grand O
 et O
 le O
 petit O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 au O
 milieu O
@@ -33891,8 +33891,8 @@ joindre O
 aux O
 délicieuses O
 sources O
-du O
-Doubs B-LOC
+du B-LOC
+Doubs I-LOC
 , O
 Watteville B-LOC
 imagina O
@@ -33950,7 +33950,7 @@ jadis O
 le O
 torrent O
 des O
-Rouxey B-MISC
+Rouxey B-LOC
 . O
 Ce O
 lac O
@@ -34030,7 +34030,7 @@ il O
 propriétaire O
 des O
 deux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 mais O
 non O
@@ -34105,9 +34105,9 @@ le O
 revers O
 de O
 la O
-Dent O
-de O
-Vilard B-PER
+Dent B-PER
+de I-PER
+Vilard I-PER
 . O
 Quand O
 le O
@@ -34118,10 +34118,10 @@ il O
 avait O
 réuni O
 les O
-pentes O
-des O
-deux O
-Rouxey B-MISC
+pentes B-LOC
+des I-LOC
+deux I-LOC
+Rouxey I-LOC
 au O
 pied O
 de O
@@ -34146,9 +34146,9 @@ qui O
 débouchaient O
 dans O
 la O
-gorge O
-des O
-Rouxey B-MISC
+gorge B-LOC
+des I-LOC
+Rouxey I-LOC
 à O
 droite O
 et O
@@ -34165,9 +34165,9 @@ ayant O
 conquis O
 ainsi O
 la O
-Dent B-PER
-de I-PER
-Vilard I-PER
+Dent B-LOC
+de I-LOC
+Vilard I-LOC
 . O
 Ses O
 héritiers O
@@ -34195,8 +34195,8 @@ renégat O
 , O
 le O
 vieil O
-abbé O
-Watteville B-PER
+abbé B-PER
+Watteville I-PER
 avait O
 fini O
 sa O
@@ -34220,7 +34220,7 @@ d' O
 un O
 des O
 deux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 et O
 qui O
@@ -34286,7 +34286,7 @@ vous O
 figurer O
 maintenant O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 . O
 |
 | O
@@ -34361,7 +34361,7 @@ avec O
 son O
 père O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 . O
 |
 | O
@@ -34383,7 +34383,7 @@ de O
 son O
 arrivée O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 Philomène B-PER
 aperçut O
@@ -34459,7 +34459,7 @@ sur O
 un O
 lac O
 ! O
-Décidément B-LOC
+Décidément O
 un O
 lac O
 est O
@@ -34498,7 +34498,7 @@ serré O
 comme O
 celui O
 des O
-Rouxey B-MISC
+Rouxey B-LOC
 entre O
 deux O
 blocs O
@@ -34649,9 +34649,9 @@ de I-PER
 Vilard I-PER
 , O
 la O
-Jung B-LOC
-- I-LOC
-Frau I-LOC
+Jung B-MISC
+- I-MISC
+Frau I-MISC
 de O
 cette O
 petite O
@@ -34669,7 +34669,7 @@ le O
 baron O
 , O
 dit O
-Modinier B-PER
+Modinier B-LOC
 en O
 faisant O
 signe O
@@ -34833,7 +34833,7 @@ fit O
 |
 | O
 – O
-Mademoiselle B-LOC
+Mademoiselle B-PER
 , O
 les O
 gens O
@@ -34859,9 +34859,9 @@ leur O
 côté O
 de O
 la O
-Dent B-PER
-de I-PER
-Vilard I-PER
+Dent B-LOC
+de I-LOC
+Vilard I-LOC
 . O
 Or O
 , O
@@ -34875,8 +34875,8 @@ depuis O
 , O
 prétend O
 que O
-la B-MISC
-Dent I-MISC
+la O
+Dent B-LOC
 tout O
 entière O
 appartient O
@@ -34946,7 +34946,7 @@ est O
 la O
 mort O
 des O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 quoi O
 ! O
@@ -34968,7 +34968,7 @@ dit O
 naïvement O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 . O
 Cette O
 terre O
@@ -35079,7 +35079,7 @@ ce O
 côté O
 de O
 la O
-Dent O
+Dent B-LOC
 ou O
 de O
 l' O
@@ -35125,7 +35125,7 @@ des O
 Riceys B-LOC
 et O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 qui O
 ne O
@@ -35282,7 +35282,7 @@ auriez O
 -vous O
 peur O
 ? O
-Prenez B-PER
+Prenez O
 pour O
 avocat O
 le O
@@ -35313,10 +35313,10 @@ gagné O
 la O
 cause O
 du O
-Chapitre B-LOC
-contre O
-la O
-Ville O
+Chapitre B-MISC
+contre I-MISC
+la I-MISC
+Ville I-MISC
 , O
 gagnera O
 bien O
@@ -35334,7 +35334,7 @@ dit O
 -elle O
 , O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 seront O
 un O
 jour O
@@ -35393,7 +35393,7 @@ les O
 bases O
 des O
 deux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 je O
 découperai O
@@ -35408,7 +35408,7 @@ jardins O
 anglais O
 ravissants O
 ... O
-Allons B-LOC
+Allons O
 à O
 Besançon B-LOC
 , O
@@ -35419,12 +35419,12 @@ ici O
 qu' O
 avec O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 et O
 ma O
 mère O
@@ -35456,7 +35456,7 @@ pris O
 Vous O
 vous O
 nommez O
-Watteville B-PER
+Watteville B-LOC
 , O
 et O
 vous O
@@ -35565,9 +35565,9 @@ avons O
 pas O
 vu O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 pendant O
 plus O
 de O
@@ -35596,7 +35596,7 @@ Chapitre B-PER
 dit O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 . O
 Puis O
 , O
@@ -35623,7 +35623,7 @@ y O
 engagé O
 ! O
 Ce O
-Savaron B-MISC
+Savaron B-PER
 ne O
 sait O
 pas O
@@ -35644,7 +35644,7 @@ sauvé O
 |
 | O
 – O
-Écoutez B-LOC
+Écoutez O
 -moi O
 , O
 lui O
@@ -35658,7 +35658,7 @@ si O
 vous O
 avez O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 pour O
 vous O
 , O
@@ -35687,20 +35687,20 @@ ne O
 pouvez O
 avoir O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 pour O
 vous O
 que O
 par O
 monsieur O
 de O
-Grancey B-PER
+Grancey B-LOC
 . O
 Si O
 vous O
 m' O
 en O
-croyez B-MISC
+croyez B-LOC
 , O
 parlons O
 ensemble O
@@ -35753,9 +35753,9 @@ mère O
 | O
 – O
 L' O
-abbé B-LOC
-de I-LOC
-Grancey I-LOC
+abbé B-PER
+de I-PER
+Grancey I-PER
 s' O
 en O
 chargera O
@@ -35772,7 +35772,7 @@ voix O
 à O
 l' O
 avocat O
-Savaron B-LOC
+Savaron B-PER
 aux O
 prochaines O
 élections O
@@ -35784,25 +35784,25 @@ verrez O
 |
 | O
 – O
-Aller B-PER
-aux O
-élections O
-! O
+Aller B-MISC
+aux I-MISC
+élections I-MISC
+! I-MISC
 prêter O
 serment O
 ! O
 s' O
 écria O
 le O
-baron O
-de O
-Watteville B-LOC
+baron B-PER
+de I-PER
+Watteville I-PER
 . O
 |
 | O
-– B-LOC
-Bah I-LOC
-! I-LOC
+– O
+Bah B-MISC
+! I-MISC
 dit O
 -elle O
 . O
@@ -35888,8 +35888,8 @@ grand O
 avocat O
 à O
 la O
-maison O
-Watteville B-PER
+maison B-LOC
+Watteville I-LOC
 , O
 démarche O
 qui O
@@ -35921,7 +35921,7 @@ vicaire O
 général O
 ? O
 dit O
-Savarus B-PER
+Savarus B-LOC
 . O
 |
 | O
@@ -35964,8 +35964,8 @@ des O
 intérêts O
 de O
 la O
-maison O
-Watteville B-PER
+maison B-LOC
+Watteville I-LOC
 , O
 et O
 vous O
@@ -36039,13 +36039,13 @@ homme O
 de O
 votre O
 faubourg O
-Saint-Germain B-LOC
+Saint-Germain B-ORG
 . O
 |
 | O
 – O
-Eh B-ORG
-! I-ORG
+Eh O
+! O
 croyez O
 -vous O
 , O
@@ -36109,7 +36109,7 @@ des O
 élections O
 , O
 dit O
-Savarus B-PER
+Savarus B-LOC
 , O
 je O
 serai O
@@ -36136,7 +36136,7 @@ préparatoires O
 Si O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 et O
 son O
 parti O
@@ -36168,14 +36168,14 @@ la O
 division O
 entre O
 les O
-Intérêts B-PER
+Intérêts B-LOC
 , O
 on O
 ne O
 sépare O
 point O
-les O
-Convictions B-MISC
+les B-MISC
+Convictions I-MISC
 . O
 |
 | O
@@ -36185,7 +36185,7 @@ Eh B-MISC
 diable O
 , O
 reprit O
-Savarus B-PER
+Savarus B-LOC
 , O
 je O
 vous O
@@ -36221,7 +36221,7 @@ procès O
 de O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 , O
 on O
 peut O
@@ -36256,8 +36256,8 @@ mon O
 . O
 |
 | O
-– B-ORG
-Faites I-ORG
+– O
+Faites O
 une O
 chose O
 , O
@@ -36327,15 +36327,15 @@ Philomène B-PER
 , O
 reprit O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
 Vous O
 êtes O
 ambitieux O
 . O
-Si O
+Si B-MISC
 vous O
 lui O
 plaisiez O
@@ -36416,9 +36416,9 @@ marié O
 ? O
 fit O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
 |
 | O
@@ -36510,10 +36510,10 @@ route O
 |
 | O
 – O
-Laissons O
-mademoiselle O
-de O
-Watteville B-LOC
+Laissons B-PER
+mademoiselle I-PER
+de I-PER
+Watteville I-PER
 , O
 dit O
 gravement O
@@ -36537,7 +36537,7 @@ et O
 respecte O
 , O
 je O
-plaiderai O
+plaiderai B-PER
 , O
 mais O
 après O
@@ -36547,7 +36547,7 @@ les O
 pour O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 . O
 Jusque O
 -là O
@@ -36606,7 +36606,7 @@ Girardet B-PER
 ira O
 , O
 répondit O
-Savarus B-PER
+Savarus B-LOC
 . O
 Je O
 ne O
@@ -36644,9 +36644,9 @@ mon O
 |
 | O
 L' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 quitta O
 Savarus B-LOC
 en O
@@ -36702,9 +36702,9 @@ ici O
 ! O
 se O
 disait O
-Philomène B-PER
-du O
-haut O
+Philomène B-MISC
+du I-MISC
+haut I-MISC
 du O
 kiosque O
 en O
@@ -36724,9 +36724,9 @@ entre O
 Albert B-PER
 et O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 dont O
 le O
@@ -36755,8 +36755,8 @@ le O
 salon O
 de O
 l' O
-hôtel B-LOC
-de I-LOC
+hôtel O
+de O
 Rupt B-LOC
 , O
 et O
@@ -36810,7 +36810,7 @@ entendre O
 , O
 aller O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 avec O
 toi O
 pour O
@@ -36962,9 +36962,9 @@ de O
 sa O
 fille O
 . O
-Monsieur B-PER
+Monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 est O
 au O
 salon O
@@ -36996,8 +36996,8 @@ votre O
 | O
 – O
 Monsieur B-PER
-de O
-Soulas B-PER
+de I-PER
+Soulas I-PER
 est O
 ennemi O
 de O
@@ -37031,8 +37031,8 @@ maman O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 non O
@@ -37063,7 +37063,7 @@ et O
 que O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 moins O
 qu' O
 un O
@@ -37074,8 +37074,8 @@ remarquer O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 pourquoi O
 ? O
 dit O
@@ -37112,13 +37112,13 @@ pas O
 malheureuse O
 d' O
 être O
-comtesse O
-de O
-Soulas B-PER
+comtesse B-PER
+de I-PER
+Soulas I-PER
 . O
 |
 | O
-Pâle B-LOC
+Pâle B-MISC
 comme O
 un O
 lis O
@@ -37207,7 +37207,7 @@ homme O
 | O
 – O
 Monsieur O
-Amédée O
+Amédée B-PER
 , O
 lui O
 dit O
@@ -37250,7 +37250,7 @@ légitimiste O
 |
 | O
 – O
-Légitimiste B-LOC
+Légitimiste B-ORG
 ? O
 |
 | O
@@ -37309,9 +37309,9 @@ mieux O
 d' O
 aller O
 aux O
-Élections B-MISC
-cette I-MISC
-année I-MISC
+Élections O
+cette O
+année O
 , O
 de O
 le O
@@ -37342,12 +37342,12 @@ prenez O
 donc O
 à O
 ce O
-Savaron B-MISC
+Savaron B-PER
 ? O
 |
 | O
 – O
-Monsieur B-PER
+Monsieur O
 Albert B-PER
 de I-PER
 Savarus I-PER
@@ -37381,13 +37381,13 @@ sera O
 notre O
 avocat O
 dans O
-l' B-MISC
-affaire I-MISC
-des I-MISC
-Rouxey I-MISC
+l' O
+affaire O
+des O
+Rouxey O
 . O
 Les O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 m' O
 a O
@@ -37418,18 +37418,18 @@ cette O
 magnifique O
 création O
 du O
-grand O
-Watteville B-PER
+grand B-MISC
+Watteville I-MISC
 détruite O
 ... O
 |
 | O
 – O
-Diantre B-ORG
-! I-ORG
+Diantre B-MISC
+! I-MISC
 se O
 dit O
-Amédée B-LOC
+Amédée B-PER
 en O
 sortant O
 de O
@@ -37457,15 +37457,15 @@ qui O
 appartient O
 aux O
 fameux O
-Deux B-MISC
-- I-MISC
-Cent I-MISC
-- I-MISC
-Vingt I-MISC
-- I-MISC
-et I-MISC
-- I-MISC
-Un I-MISC
+Deux O
+- O
+Cent O
+- O
+Vingt O
+- O
+et O
+- O
+Un O
 . O
 Aussi O
 , O
@@ -37496,8 +37496,8 @@ lutte O
 avec O
 l' O
 Ordre B-ORG
-de O
-choses O
+de I-ORG
+choses I-ORG
 à O
 l' O
 instar O
@@ -37517,7 +37517,7 @@ pas O
 accueillie O
 par O
 les O
-Légitimistes B-LOC
+Légitimistes B-ORG
 qui O
 , O
 dans O
@@ -37563,9 +37563,9 @@ parut O
 aux O
 gens O
 du O
-Juste B-MISC
-- I-MISC
-Milieu I-MISC
+Juste B-LOC
+- I-LOC
+Milieu I-LOC
 le O
 plus O
 excellent O
@@ -37597,7 +37597,7 @@ et O
 des O
 patriotes O
 . O
-Monsieur B-PER
+Monsieur O
 de O
 Chavoncourt B-LOC
 , O
@@ -37712,7 +37712,7 @@ peu O
 . O
 Madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 , O
 alors O
 âgée O
@@ -37802,13 +37802,13 @@ gentilhomme O
 nommé O
 monsieur O
 de O
-Vauchelles B-LOC
+Vauchelles B-PER
 , O
 pas O
 plus O
 riche O
 qu' O
-Amédée B-LOC
+Amédée B-PER
 , O
 et O
 de O
@@ -37886,7 +37886,7 @@ que O
 si O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 commettait O
 une O
 indiscrétion O
@@ -37903,7 +37903,7 @@ Or O
 , O
 monsieur O
 de O
-Vauchelles B-LOC
+Vauchelles B-PER
 avait O
 son O
 plan O
@@ -37969,7 +37969,7 @@ le O
 jeune O
 Chavoncourt B-LOC
 et O
-Vauchelles B-LOC
+Vauchelles B-PER
 avertiraient O
 monsieur O
 de O
@@ -38042,7 +38042,7 @@ orateur O
 royaliste O
 prêterait O
 à O
-Berryer B-MISC
+Berryer B-PER
 , O
 et O
 lui O
@@ -38180,7 +38180,7 @@ lutte O
 . O
 Ainsi O
 les O
-Élections B-MISC
+Élections O
 ne O
 devaient O
 avoir O
@@ -38358,9 +38358,9 @@ charmante O
 , O
 disait O
 la O
-baronne O
-de O
-Watteville B-LOC
+baronne B-PER
+de I-PER
+Watteville I-PER
 . O
 |
 | O
@@ -38375,8 +38375,8 @@ réunion O
 eut O
 lieu O
 chez O
-monsieur O
-Boucher B-PER
+monsieur B-PER
+Boucher I-PER
 le O
 père O
 , O
@@ -38400,19 +38400,19 @@ Arcier B-LOC
 du O
 beau-père O
 de O
-monsieur O
-Boucher O
+monsieur B-PER
+Boucher I-PER
 , O
 de O
 monsieur O
-Granet B-LOC
+Granet B-PER
 , O
 cet O
 homme O
 influent O
 à O
 qui O
-Savarus B-PER
+Savarus B-LOC
 avait O
 rendu O
 service O
@@ -38518,9 +38518,9 @@ une O
 faveur O
 du O
 Ministère B-ORG
-pour O
-les O
-siens O
+pour I-ORG
+les I-ORG
+siens I-ORG
 ou O
 pour O
 lui-même O
@@ -38567,9 +38567,9 @@ Albert B-PER
 causait O
 avec O
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 qui O
 s' O
 intéressait O
@@ -38616,7 +38616,7 @@ lutte O
 suprême O
 . O
 Le O
-Chapitre B-LOC
+Chapitre O
 n' O
 aimait O
 pas O
@@ -38648,9 +38648,9 @@ instance O
 |
 | O
 – O
-Vous B-MISC
-êtes I-MISC
-trahi I-MISC
+Vous O
+êtes O
+trahi O
 , O
 mon O
 cher O
@@ -38679,7 +38679,7 @@ prêtres O
 |
 | O
 – O
-Trahi B-LOC
+Trahi B-PER
 ! O
 ... O
 s' O
@@ -38707,8 +38707,8 @@ répliqua O
 le O
 prêtre O
 . O
-La B-LOC
-Préfecture I-LOC
+La O
+Préfecture B-LOC
 est O
 au O
 fait O
@@ -38791,7 +38791,7 @@ suis O
 attendu O
 , O
 dit O
-Savarus B-MISC
+Savarus B-LOC
 d' O
 une O
 voix O
@@ -38855,7 +38855,7 @@ pour O
 aller O
 aux O
 Élections B-MISC
-... O
+... I-MISC
 Enfin O
 , O
 plus O
@@ -38971,7 +38971,7 @@ prit O
 le O
 bras O
 d' O
-Alfred B-PER
+Alfred B-MISC
 , O
 après O
 avoir O
@@ -38980,9 +38980,9 @@ significativement O
 la O
 main O
 de O
-monsieur O
-de O
-Grancey B-PER
+monsieur B-PER
+de I-PER
+Grancey I-PER
 . O
 Le O
 prêtre O
@@ -39069,7 +39069,7 @@ est O
 rarement O
 dans O
 la O
-Chaire B-MISC
+Chaire B-PER
 aujourd'hui O
 ; O
 mais O
@@ -39528,8 +39528,8 @@ de I-MISC
 Juillet I-MISC
 ! I-MISC
 |
-| I-MISC
-Soumis I-MISC
+| O
+Soumis B-ORG
 à O
 la O
 pression O
@@ -39557,7 +39557,7 @@ représentant O
 Ils O
 virent O
 tous O
-Savarus B-MISC
+Savarus B-LOC
 le O
 ministre O
 dans O
@@ -39627,7 +39627,7 @@ homme O
 capable O
 de O
 juger O
-Savarus B-PER
+Savarus B-LOC
 et O
 qui O
 depuis O
@@ -39677,7 +39677,7 @@ triomphe O
 Mais O
 malheureusement O
 la O
-Parole B-ORG
+Parole B-MISC
 , O
 espèce O
 d' O
@@ -39693,14 +39693,14 @@ un O
 effet O
 immédiat O
 . O
-La O
-Réflexion B-ORG
-tue I-ORG
-la I-ORG
-Parole I-ORG
+La B-MISC
+Réflexion I-MISC
+tue I-MISC
+la I-MISC
+Parole I-MISC
 quand O
 la O
-Parole O
+Parole B-MISC
 n' O
 a O
 pas O
@@ -39861,9 +39861,9 @@ comment O
 les O
 voix O
 du O
-Comité B-ORG
-- I-ORG
-Boucher I-ORG
+Comité B-LOC
+- I-LOC
+Boucher I-LOC
 diminuèrent O
 . O
 Un O
@@ -39996,7 +39996,7 @@ ceux O
 des O
 eaux O
 d' O
-Arcier B-PER
+Arcier B-LOC
 ne O
 résistèrent O
 pas O
@@ -40148,7 +40148,7 @@ est O
 une O
 scène O
 de O
-hustings O
+hustings B-MISC
 honnête O
 , O
 sans O
@@ -40205,7 +40205,7 @@ une O
 bataille O
 , O
 les O
-Français B-MISC
+Français B-LOC
 jouent O
 leur O
 sort O
@@ -40256,16 +40256,16 @@ radicaux O
 et O
 par O
 le O
-Comité B-MISC
-- I-MISC
-Chavoncourt I-MISC
+Comité B-LOC
+- I-LOC
+Chavoncourt I-LOC
 d' O
 être O
 un O
 homme O
 de O
-la B-ORG
-Droite I-ORG
+la O
+Droite B-ORG
 sans O
 transaction O
 , O
@@ -40330,7 +40330,7 @@ soixante-sept O
 Mais O
 la O
 perfide O
-Préfecture B-PER
+Préfecture B-LOC
 avait O
 fait O
 voter O
@@ -40380,8 +40380,8 @@ détacher O
 quelques O
 voix O
 du O
-parti O
-radical O
+parti B-ORG
+radical I-ORG
 . O
 Cent O
 soixante O
@@ -40391,9 +40391,9 @@ manquaient O
 les O
 voix O
 de O
-monsieur O
-de O
-Grancey B-PER
+monsieur B-PER
+de I-PER
+Grancey I-PER
 , O
 et O
 les O
@@ -40411,9 +40411,9 @@ qu' O
 est O
 au O
 Théâtre B-LOC
-une I-LOC
-répétition I-LOC
-générale I-LOC
+une O
+répétition O
+générale O
 , O
 ce O
 qu' O
@@ -40426,8 +40426,8 @@ trompeur O
 au O
 monde O
 . O
-Albert B-PER
-Savarus I-PER
+Albert B-MISC
+Savarus I-MISC
 revint O
 chez O
 lui O
@@ -40479,7 +40479,7 @@ l' O
 envoya O
 monsieur O
 de O
-Grancey B-PER
+Grancey B-LOC
 . O
 Ces O
 deux O
@@ -40496,7 +40496,7 @@ plus O
 ardents O
 ennemis O
 de O
-Savarus B-PER
+Savarus B-LOC
 dans O
 les O
 camps O
@@ -40597,7 +40597,7 @@ minuit O
 . O
 |
 | O
-A O
+A B-LOC
 une O
 heure O
 du O
@@ -40649,7 +40649,7 @@ abandon O
 digne O
 de O
 la O
-Magdeleine B-LOC
+Magdeleine B-MISC
 . O
 Des O
 larmes O
@@ -40823,8 +40823,8 @@ discrets O
 retentirent O
 à O
 la O
-porte B-LOC
-d' I-LOC
+porte O
+d' O
 Albert B-PER
 , O
 il O
@@ -40857,9 +40857,9 @@ triomphe O
 Il O
 saisit O
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 sans O
 lui O
@@ -40943,8 +40943,8 @@ sublime O
 . O
 |
 | O
-– B-LOC
-Pardon I-LOC
+– O
+Pardon B-PER
 , O
 cher O
 abbé O
@@ -40967,7 +40967,7 @@ disparaît O
 car O
 ne O
 me O
-croyez B-MISC
+croyez O
 pas O
 un O
 ambitieux O
@@ -40991,9 +40991,9 @@ avez O
 écrit O
 l' O
 AMBITIEUX B-MISC
-PAR O
-AMOUR B-ORG
-! I-ORG
+PAR I-MISC
+AMOUR I-MISC
+! I-MISC
 Hé B-MISC
 ! I-MISC
 mon O
@@ -41045,13 +41045,13 @@ Besançon B-LOC
 |
 | O
 -- O
-Venez B-LOC
+Venez B-PER
 la O
 voir O
 ? O
 s' O
 écria O
-Savarus O
+Savarus B-LOC
 en O
 prenant O
 la O
@@ -41071,9 +41071,9 @@ le O
 portrait O
 de O
 la O
-duchesse O
-d' O
-Argaiolo B-LOC
+duchesse B-PER
+d' I-PER
+Argaiolo I-PER
 qu' O
 il O
 éclaira O
@@ -41137,7 +41137,7 @@ C' O
 est O
 un O
 archange O
-Michel B-MISC
+Michel B-PER
 , O
 l' O
 ange O
@@ -41186,7 +41186,7 @@ devinée O
 , O
 s' O
 écria O
-Savarus B-PER
+Savarus B-LOC
 . O
 Mais O
 , O
@@ -41305,9 +41305,9 @@ le O
 soir O
 . O
 La O
-terre O
-des O
-Rouxey O
+terre B-LOC
+des I-LOC
+Rouxey I-LOC
 est O
 menacée O
 , O
@@ -41319,7 +41319,7 @@ deux O
 jours O
 ... O
 L' O
-Élection B-MISC
+Élection B-ORG
 ne O
 se O
 fera O
@@ -41369,9 +41369,9 @@ comment O
 En O
 gagnant O
 le O
-procès O
-des O
-Rouxey B-MISC
+procès B-MISC
+des I-MISC
+Rouxey I-MISC
 , O
 vous O
 aurez O
@@ -41404,9 +41404,9 @@ en O
 restera O
 vingt O
 du O
-Comité B-ORG
-- I-ORG
-Boucher I-ORG
+Comité B-LOC
+- I-LOC
+Boucher I-LOC
 , O
 vous O
 en O
@@ -41534,24 +41534,24 @@ Albert B-PER
 Vous O
 épousez O
 mademoiselle O
-Sidonie B-LOC
-de I-LOC
-Chavoncourt I-LOC
+Sidonie B-PER
+de I-PER
+Chavoncourt I-PER
 . O
 |
 | O
 – O
-Jamais B-MISC
-! I-MISC
+Jamais O
+! O
 |
 | O
 – O
 Vous O
 épousez O
 mademoiselle O
-Sidonie B-LOC
-de I-LOC
-Chavoncourt I-LOC
+Sidonie B-PER
+de I-PER
+Chavoncourt I-PER
 , O
 répéta O
 froidement O
@@ -41562,7 +41562,7 @@ prêtre O
 | O
 – O
 Mais O
-voyez B-MISC
+voyez O
 ? O
 elle O
 est O
@@ -41579,8 +41579,8 @@ Francesca B-PER
 – O
 Vous O
 épousez O
-mademoiselle O
-Chavoncourt B-LOC
+mademoiselle B-PER
+Chavoncourt I-PER
 , O
 répéta O
 froidement O
@@ -41643,9 +41643,9 @@ l' O
 hôtel O
 de O
 Rupt B-LOC
-madame O
-de O
-Chavoncourt O
+madame B-PER
+de I-PER
+Chavoncourt B-LOC
 et O
 sa O
 seconde O
@@ -41786,7 +41786,7 @@ Amédée B-PER
 de I-PER
 Soulas I-PER
 et O
-Vauchelles B-LOC
+Vauchelles B-PER
 , O
 qui O
 voteront O
@@ -41822,12 +41822,12 @@ Qui O
 donc O
 a O
 tourné O
-madame O
-de O
+madame B-PER
+de I-PER
 Chavoncourt B-LOC
 ? O
 demanda O
-Savarus B-PER
+Savarus B-LOC
 . O
 |
 | O
@@ -41841,7 +41841,7 @@ répondit O
 l' O
 abbé O
 . O
-Monsieur B-PER
+Monsieur O
 de O
 Chavoncourt B-LOC
 , O
@@ -41860,7 +41860,7 @@ sa O
 fortune O
 . O
 Si O
-Vauchelles B-LOC
+Vauchelles B-PER
 épouse O
 la O
 première O
@@ -41884,7 +41884,7 @@ des O
 deux O
 autres O
 ? O
-Sidonie B-LOC
+Sidonie B-PER
 a O
 seize O
 ans O
@@ -41929,14 +41929,14 @@ Ce O
 quelqu' O
 un O
 mène O
-madame O
-de O
+madame B-PER
+de I-PER
 Chavoncourt B-LOC
 , O
 et O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 mène O
 son O
 mari O
@@ -41944,7 +41944,7 @@ mari O
 |
 | O
 – O
-Assez B-LOC
+Assez B-PER
 , O
 cher O
 abbé O
@@ -41956,16 +41956,16 @@ Une B-MISC
 fois I-MISC
 nommé I-MISC
 député I-MISC
-, O
-j' O
-ai O
-la O
-fortune O
-de O
-quelqu' O
-un O
-à O
-faire O
+, I-MISC
+j' I-MISC
+ai I-MISC
+la I-MISC
+fortune I-MISC
+de I-MISC
+quelqu' I-MISC
+un I-MISC
+à I-MISC
+faire I-MISC
 , O
 et O
 en O
@@ -42016,7 +42016,7 @@ avez O
 fait O
 triompher O
 le O
-Chapitre B-LOC
+Chapitre B-PER
 , O
 dit O
 en O
@@ -42080,7 +42080,7 @@ nôtres O
 . O
 Madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 ne O
 se O
 doute O
@@ -42172,10 +42172,10 @@ les O
 salons O
 de O
 madame B-PER
-la O
-baronne O
-de O
-Watteville B-LOC
+la I-PER
+baronne I-PER
+de I-PER
+Watteville I-PER
 étaient O
 remplis O
 par O
@@ -42233,14 +42233,14 @@ introduit O
 . O
 Madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 était O
 venue O
 avec O
 sa O
 seconde O
 fille O
-Sidonie B-LOC
+Sidonie B-PER
 , O
 mise O
 divinement O
@@ -42274,9 +42274,9 @@ en O
 province O
 . O
 L' O
-abbé B-LOC
-de I-LOC
-Grancey I-LOC
+abbé B-PER
+de I-PER
+Grancey I-PER
 montrait O
 sa O
 belle O
@@ -42389,7 +42389,7 @@ gagner O
 à O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 son O
 procès O
 ! O
@@ -42400,7 +42400,7 @@ votez O
 pour O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 , O
 les O
 républicains O
@@ -42417,15 +42417,15 @@ juste O
 - O
 milieu O
 ! O
-Etc B-LOC
+Etc O
 . O
 , O
 etc. O
 |
 | O
-A O
-neuf O
-heures O
+A B-MISC
+neuf I-MISC
+heures I-MISC
 , O
 Albert B-PER
 n' O
@@ -42483,15 +42483,15 @@ retiennent O
 peut-être O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 . O
 |
 | O
 Philomène B-PER
 regarda O
-madame O
-de O
-Chavoncourt O
+madame B-PER
+de I-PER
+Chavoncourt I-PER
 de O
 travers O
 . O
@@ -42505,7 +42505,7 @@ bonne O
 pour O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 , O
 dit O
 Philomène B-PER
@@ -42533,11 +42533,11 @@ d' O
 un O
 mariage O
 entre O
-Sidonie B-LOC
+Sidonie B-PER
 et O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 . O
 |
 | O
@@ -42558,7 +42558,7 @@ dix O
 heures O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 n' O
 avait O
 pas O
@@ -42584,9 +42584,9 @@ chose O
 intolérable O
 . O
 L' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 qui O
 ne O
@@ -42599,7 +42599,7 @@ vers O
 la O
 fenêtre O
 où O
-Philomène B-PER
+Philomène B-MISC
 s' O
 était O
 cachée O
@@ -42629,9 +42629,9 @@ le O
 jardin O
 suivi O
 de O
-monsieur O
-de O
-Watteville B-PER
+monsieur B-PER
+de I-PER
+Watteville B-LOC
 , O
 de O
 Philomène B-PER
@@ -42661,7 +42661,7 @@ apercevait O
 | O
 – O
 Jérôme B-PER
-! O
+! I-PER
 cria O
 Philomène B-PER
 en O
@@ -42673,9 +42673,9 @@ la O
 cour O
 . O
 L' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 regarda O
 Philomène B-PER
 . O
@@ -42716,19 +42716,19 @@ perdu O
 s' O
 écria O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 ou O
 heureux O
 ! O
 |
 | O
-La O
-joie O
-du O
-triomphe O
+La B-MISC
+joie I-MISC
+du I-MISC
+triomphe I-MISC
 ne O
 fut O
 pas O
@@ -42791,7 +42791,7 @@ salons O
 où O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 annonça O
 l' O
 étrange O
@@ -42874,12 +42874,12 @@ Chavoncourt B-LOC
 et O
 monsieur O
 de O
-Vauchelles B-LOC
+Vauchelles B-PER
 , O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 , O
 Philomène B-PER
 , O
@@ -42911,13 +42911,13 @@ beaucoup O
 l' O
 élection O
 d' O
-Albert B-PER
-Savarus I-PER
+Albert B-MISC
+Savarus I-MISC
 . O
 L' O
-abbé B-LOC
-de I-LOC
-Grancey I-LOC
+abbé B-PER
+de I-PER
+Grancey I-PER
 se O
 mit O
 à O
@@ -42929,7 +42929,7 @@ de O
 manière O
 à O
 regarder O
-Philomène B-PER
+Philomène B-MISC
 dont O
 la O
 figure O
@@ -42954,12 +42954,12 @@ arrivé O
 à O
 monsieur O
 de O
-Savarus B-PER
+Savarus B-LOC
 ? O
 dit O
 madame B-PER
 de I-PER
-Chavoncourt I-PER
+Chavoncourt B-LOC
 . O
 |
 | O
@@ -42980,9 +42980,9 @@ une O
 lettre O
 à O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
 |
 | O
@@ -43120,8 +43120,8 @@ dit O
 : O
 — O
 Monsieur B-PER
-de O
-Grancey B-PER
+de I-PER
+Grancey I-PER
 , O
 c' O
 est O
@@ -43257,15 +43257,15 @@ plus O
 de O
 mariage O
 avec O
-Sidonie B-LOC
-! O
+Sidonie B-PER
+! I-PER
 |
 | O
 Le O
 lendemain O
 matin O
 , O
-Philomène B-PER
+Philomène B-MISC
 , O
 en O
 allant O
@@ -43298,7 +43298,7 @@ vie O
 |
 | O
 – O
-Mademoiselle B-LOC
+Mademoiselle B-MISC
 , O
 il O
 est O
@@ -43310,8 +43310,8 @@ la O
 matinée O
 à O
 l' O
-Hôtel B-ORG
-National I-ORG
+Hôtel B-LOC
+National I-LOC
 un O
 vieux O
 monsieur O
@@ -43400,7 +43400,7 @@ est O
 venu O
 chez O
 monsieur O
-Savarus O
+Savarus B-LOC
 en O
 lui O
 faisant O
@@ -43606,7 +43606,7 @@ de O
 trois O
 heures O
 . O
-Monsieur B-PER
+Monsieur O
 est O
 allé O
 droit O
@@ -43619,7 +43619,7 @@ de O
 là O
 chez O
 monsieur O
-Gentillet B-PER
+Gentillet B-LOC
 qui O
 lui O
 a O
@@ -43632,7 +43632,7 @@ voyage O
 de O
 feu O
 madame O
-Saint-Vier B-LOC
+Saint-Vier B-PER
 , O
 puis O
 il O
@@ -43694,10 +43694,10 @@ porté O
 un O
 mot O
 chez O
-monsieur O
-Boucher B-PER
+monsieur B-PER
+Boucher I-PER
 où O
-monsieur O
+monsieur B-PER
 était O
 attendu O
 à O
@@ -43776,7 +43776,7 @@ demie O
 . O
 Quand O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 est O
 remonté O
 dans O
@@ -43824,8 +43824,8 @@ l' O
 étranger O
 à O
 l' O
-Hôtel B-ORG
-National I-ORG
+Hôtel B-LOC
+National I-LOC
 ? O
 |
 | O
@@ -43876,9 +43876,9 @@ reçue O
 si O
 tard O
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 ? O
 dit O
 Philomène B-PER
@@ -44174,9 +44174,9 @@ de O
 la O
 mort O
 du O
-duc O
-d' O
-Argaiolo B-LOC
+duc B-PER
+d' I-PER
+Argaiolo I-PER
 . O
 |
 | O
@@ -44253,7 +44253,7 @@ baronne O
 à O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 , O
 elle O
 a O
@@ -44335,7 +44335,7 @@ je O
 lui O
 donne O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 maintenant O
 que O
@@ -44549,18 +44549,18 @@ baron O
 – O
 Nous O
 marierons O
-Philomène B-PER
+Philomène O
 à O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 ; O
 si O
 vous O
 lui O
 donnez O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 réservez O
 -vous O
@@ -44603,7 +44603,7 @@ je O
 leur O
 donne O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 tout O
 à O
 fait O
@@ -44611,7 +44611,7 @@ fait O
 Philomène B-PER
 aime O
 les O
-Rouxey O
+Rouxey B-MISC
 . O
 |
 | O
@@ -44634,7 +44634,7 @@ si O
 j' O
 aime O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 ? O
 |
 | O
@@ -44715,9 +44715,9 @@ aimez O
 pas O
 monsieur O
 le O
-comte O
-de O
-Soulas B-PER
+comte B-PER
+de I-PER
+Soulas I-PER
 , O
 voilà O
 tout O
@@ -44803,8 +44803,8 @@ consentement O
 – O
 Oh B-MISC
 ! I-MISC
-ma I-MISC
-foi I-MISC
+ma O
+foi O
 , O
 non O
 , O
@@ -44822,8 +44822,8 @@ tendresse O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 répliqua O
@@ -44850,7 +44850,7 @@ chargez O
 , O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 , O
 d' O
 établir O
@@ -44860,10 +44860,10 @@ même O
 votre O
 fille O
 ! O
-Songez B-MISC
-- I-MISC
-y I-MISC
-bien I-MISC
+Songez O
+- O
+y O
+bien O
 , O
 Philomène B-PER
 : O
@@ -44921,7 +44921,7 @@ la O
 belle O
 saison O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 ; O
 l' O
 habitation O
@@ -44949,9 +44949,9 @@ positivement O
 refusé O
 monsieur O
 le O
-comte O
-de O
-Soulas B-PER
+comte B-PER
+de I-PER
+Soulas I-PER
 . O
 Après O
 leur O
@@ -44963,7 +44963,7 @@ Mariette B-PER
 étaient O
 venus O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 pour O
 succéder O
 un O
@@ -45059,7 +45059,7 @@ de O
 faire O
 valoir O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 s' O
 était O
@@ -45119,7 +45119,7 @@ général O
 vint O
 alors O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 sans O
 doute O
@@ -45149,7 +45149,7 @@ fille O
 – O
 Cette O
 petite O
-Philomène B-PER
+Philomène B-MISC
 a O
 de O
 la O
@@ -45172,7 +45172,7 @@ mille O
 francs O
 dépensés O
 aux O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 la O
 baronne O
@@ -45288,9 +45288,9 @@ Cette O
 bizarre O
 fille O
 saisit O
-monsieur O
-de O
-Grancey B-PER
+monsieur B-PER
+de I-PER
+Grancey I-PER
 par O
 le O
 bras O
@@ -45317,9 +45317,9 @@ lac O
 |
 | O
 – O
-Écoutez B-PER
-, O
-cher O
+Écoutez B-MISC
+, I-MISC
+cher I-MISC
 abbé O
 , O
 vous O
@@ -45365,7 +45365,7 @@ doit O
 mon O
 mari O
 ... O
-Tenez B-LOC
+Tenez B-MISC
 , O
 lisez O
 ? O
@@ -45410,11 +45410,11 @@ mai O
 Le O
 mariage O
 de O
-monsieur O
+monsieur B-PER
 le O
-duc B-PER
-de I-PER
-Rhétoré I-PER
+duc O
+de O
+Rhétoré B-PER
 , O
 fils O
 aîné O
@@ -45474,8 +45474,8 @@ de O
 madame B-PER
 la I-PER
 duchesse I-PER
-d' O
-Argaiolo B-LOC
+d' I-PER
+Argaiolo I-PER
 est O
 une O
 des O
@@ -45568,8 +45568,8 @@ criant O
 — O
 Oh B-MISC
 ! I-MISC
-mon I-MISC
-père I-MISC
+mon O
+père O
 ... O
 Elle O
 ne O
@@ -45608,7 +45608,7 @@ géologie O
 , O
 monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 s' O
 était O
 avancé O
@@ -45686,9 +45686,9 @@ en O
 se O
 débattant O
 . O
-Monsieur B-PER
+Monsieur O
 de O
-Watteville B-PER
+Watteville B-LOC
 avait O
 beaucoup O
 dîné O
@@ -45901,10 +45901,10 @@ celui O
 dit O
 d' O
 Héloïse B-PER
-au O
-Père B-LOC
-- I-LOC
-Lachaise I-LOC
+au I-PER
+Père I-PER
+- I-PER
+Lachaise I-PER
 . O
 |
 | O
@@ -45984,9 +45984,9 @@ Girardet B-PER
 , O
 ni O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 n' O
 obtenaient O
 de O
@@ -45995,7 +45995,7 @@ sur O
 le O
 sort O
 d' O
-Albert B-PER
+Albert B-MISC
 . O
 Ce O
 silence O
@@ -46121,9 +46121,9 @@ apprenait O
 le O
 danger O
 du O
-duc O
-d' O
-Argaiolo B-LOC
+duc B-PER
+d' I-PER
+Argaiolo I-PER
 , O
 celle O
 où O
@@ -46198,7 +46198,7 @@ toute O
 sa O
 perfection O
 . O
-Philomène B-PER
+Philomène B-MISC
 , O
 tenant O
 la O
@@ -46227,9 +46227,9 @@ de O
 la O
 mort O
 du O
-duc O
-d' O
-Argaiolo B-LOC
+duc B-PER
+d' I-PER
+Argaiolo I-PER
 par O
 la O
 nouvelle O
@@ -46342,11 +46342,11 @@ odieux O
 dit O
 sévèrement O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
-Dieu O
+Dieu B-MISC
 les O
 punit O
 souvent O
@@ -46430,7 +46430,7 @@ ineffaçable O
 sa O
 probité O
 . O
-Sentez B-LOC
+Sentez O
 -vous O
 tout O
 ce O
@@ -46496,7 +46496,7 @@ disons O
 -nous O
 ! O
 ... O
-Savez B-PER
+Savez O
 -vous O
 en O
 quoi O
@@ -46514,8 +46514,8 @@ puissante O
 que O
 celle O
 de O
-l' O
-Enfance B-LOC
+l' B-LOC
+Enfance I-LOC
 innocente O
 . O
 Je O
@@ -46613,7 +46613,7 @@ madame B-PER
 la I-PER
 duchesse I-PER
 d' I-PER
-Argaiolo B-LOC
+Argaiolo I-PER
 , O
 est O
 venu O
@@ -46683,8 +46683,8 @@ heureux O
 |
 | O
 – O
-Heureux B-LOC
-? O
+Heureux B-MISC
+? I-MISC
 ... O
 il O
 ne O
@@ -46706,8 +46706,8 @@ fortune O
 lui O
 apporter O
 . O
-Votre B-PER
-mère I-PER
+Votre O
+mère O
 a O
 la O
 plus O
@@ -46818,8 +46818,8 @@ Philomène B-PER
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 je O
@@ -46829,17 +46829,17 @@ connais O
 reprit O
 monsieur O
 de O
-Grancey B-PER
+Grancey B-LOC
 , O
 dans O
 quelques O
 mois O
 elle O
 sera O
-comtesse O
-de O
-Soulas B-MISC
-! I-MISC
+comtesse B-PER
+de I-PER
+Soulas O
+! O
 Elle O
 aura O
 , O
@@ -46858,7 +46858,7 @@ rentes O
 à O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 ; O
 en O
 outre O
@@ -46905,9 +46905,9 @@ pour O
 tout O
 bien O
 la O
-terre O
-des O
-Rouxey O
+terre B-LOC
+des I-LOC
+Rouxey I-LOC
 et O
 le O
 peu O
@@ -46938,7 +46938,7 @@ ses O
 droits O
 sur O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 ! O
 Sous O
 le O
@@ -46988,8 +46988,8 @@ tête O
 . O
 |
 | O
-– B-LOC
-A I-LOC
+– O
+A O
 votre O
 mère O
 , O
@@ -47002,7 +47002,7 @@ général O
 et O
 à O
 la O
-Religion B-ORG
+Religion B-MISC
 qui O
 vous O
 auraient O
@@ -47044,7 +47044,7 @@ paroles O
 si O
 sages O
 épouvantèrent O
-Philomène B-ORG
+Philomène B-PER
 . O
 |
 | O
@@ -47083,8 +47083,8 @@ abbé O
 |
 | O
 – O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 je O
@@ -47138,7 +47138,7 @@ vicaire O
 - O
 général O
 . O
-Confiez B-PER
+Confiez O
 -moi O
 les O
 véritables O
@@ -47225,9 +47225,9 @@ Philomène B-PER
 promit O
 à O
 l' O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 de O
 lui O
 obéir O
@@ -47292,7 +47292,7 @@ maison O
 appartenant O
 à O
 monsieur O
-Savaron B-MISC
+Savaron B-PER
 . O
 L' O
 avoué O
@@ -47424,11 +47424,11 @@ notaire O
 | O
 « O
 A O
-MONSIEUR B-ORG
+MONSIEUR O
 L' O
-ABBÉ O
-DE O
-GRANCEY B-LOC
+ABBÉ B-LOC
+DE I-LOC
+GRANCEY I-LOC
 , O
 |
 | O
@@ -47447,8 +47447,8 @@ Paris B-LOC
 |
 | O
 » O
-Hélas B-MISC
-! I-MISC
+Hélas O
+! O
 monsieur O
 , O
 il O
@@ -47552,9 +47552,9 @@ consommé O
 . O
 Madame B-PER
 la O
-duchesse O
-d' O
-Argaiolo B-LOC
+duchesse B-PER
+d' I-PER
+Argaiolo I-PER
 , O
 maintenant O
 duchesse O
@@ -47619,17 +47619,17 @@ s' O
 engageait O
 avec O
 le O
-duc B-PER
-de I-PER
-Rhétoré I-PER
+duc O
+de O
+Rhétoré O
 . O
 Quand O
 Albert B-PER
 put O
 rencontrer O
-madame O
-d' O
-Argaiolo B-PER
+madame B-PER
+d' I-PER
+Argaiolo I-PER
 , O
 ce O
 fut O
@@ -47848,7 +47848,7 @@ l' O
 avez O
 connu O
 , O
-monsieur B-PER
+monsieur O
 , O
 vous O
 devez O
@@ -47861,7 +47861,7 @@ aussi O
 ses O
 amis O
 ! O
-Agréez B-PER
+Agréez B-MISC
 , O
 etc. O
 » O
@@ -47890,20 +47890,20 @@ fut O
 la O
 réponse O
 d' O
-Albert B-PER
-Savarus I-PER
+Albert B-MISC
+Savarus I-MISC
 . O
 |
 | O
 LE O
-FRÈRE B-ORG
-ALBERT O
-A O
-MONSIEUR O
+FRÈRE O
+ALBERT B-MISC
+A I-MISC
+MONSIEUR I-MISC
 L' O
-ABBÉ O
-DE O
-GRANCEY B-LOC
+ABBÉ B-LOC
+DE I-LOC
+GRANCEY I-LOC
 , O
 |
 | O
@@ -47917,9 +47917,9 @@ Besançon I-LOC
 . O
 |
 | O
-De O
-la O
-Grande-Chartreuse B-LOC
+De B-LOC
+la I-LOC
+Grande-Chartreuse I-LOC
 . O
 |
 | O
@@ -47952,9 +47952,9 @@ de O
 me O
 communiquer O
 le O
-Révérend B-MISC
-Père I-MISC
-Général I-MISC
+Révérend B-PER
+Père I-PER
+Général I-PER
 de O
 notre O
 ordre O
@@ -48043,7 +48043,7 @@ silence O
 cet O
 égard O
 . O
-Si B-MISC
+Si O
 j' O
 avais O
 cédé O
@@ -48063,7 +48063,7 @@ religieux O
 rejeté O
 de O
 ce O
-Monastère B-ORG
+Monastère B-LOC
 . O
 La O
 Grâce O
@@ -48158,19 +48158,19 @@ heureuse O
 à O
 madame B-PER
 de I-PER
-Rhétoré I-PER
+Rhétoré B-PER
 . O
 Eh O
 ! O
 que O
 ce O
 soit O
-la B-MISC
-Mort I-MISC
+la O
+Mort B-MISC
 ou I-MISC
 la I-MISC
 main I-MISC
-opiniâtre O
+opiniâtre I-MISC
 d' O
 une O
 jeune O
@@ -48250,8 +48250,8 @@ les O
 rangs O
 de O
 l' O
-Église B-MISC
-militante O
+Église B-ORG
+militante I-ORG
 , O
 je O
 me O
@@ -48329,13 +48329,13 @@ de O
 |
 | O
 » O
-Frère O
-ALBERT B-MISC
+Frère B-PER
+ALBERT I-PER
 . O
 » O
 |
 | O
-Novembre B-LOC
+Novembre O
 1836 O
 . O
 |
@@ -48354,9 +48354,9 @@ mieux O
 se O
 dit O
 l' O
-abbé O
-de O
-Grancey O
+abbé B-PER
+de I-PER
+Grancey I-PER
 . O
 |
 | O
@@ -48387,8 +48387,8 @@ lui O
 dit O
 : O
 — O
-Eh B-MISC
-! I-MISC
+Eh O
+! O
 bien O
 , O
 maintenant O
@@ -48411,9 +48411,9 @@ mère O
 en O
 épousant O
 le O
-comte O
-de O
-Soulas B-PER
+comte B-PER
+de I-PER
+Soulas I-PER
 ? O
 |
 | O
@@ -48546,9 +48546,9 @@ hiver O
 , O
 l' O
 excellent O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 mourut O
 . O
 Il O
@@ -48598,7 +48598,7 @@ Watteville I-PER
 épousa O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 à O
 Paris B-LOC
 , O
@@ -48623,9 +48623,9 @@ mère O
 . O
 Du O
 moins O
-madame O
-de O
-Watteville B-PER
+madame B-PER
+de I-PER
+Watteville I-PER
 crut O
 à O
 l' O
@@ -48657,7 +48657,7 @@ pensait O
 qu' O
 à O
 venger O
-Savarus B-PER
+Savarus B-LOC
 en O
 martyrisant O
 sa O
@@ -48701,7 +48701,7 @@ ses O
 droits O
 sur O
 les O
-Rouxey B-MISC
+Rouxey B-LOC
 , O
 et O
 la O
@@ -48718,9 +48718,9 @@ de O
 la O
 succession O
 du O
-baron O
-de O
-Watteville B-PER
+baron B-PER
+de I-PER
+Watteville I-PER
 . O
 Philomène B-PER
 avait O
@@ -48730,9 +48730,9 @@ mère O
 à O
 épouser O
 le O
-comte O
-de O
-Soulas B-PER
+comte B-PER
+de I-PER
+Soulas I-PER
 et O
 à O
 l' O
@@ -48791,11 +48791,11 @@ de O
 conscience O
 . O
 Comme O
-madame O
-la O
-comtesse O
-de O
-Soulas B-PER
+madame B-PER
+la I-PER
+comtesse I-PER
+de I-PER
+Soulas I-PER
 avait O
 quarante O
 - O
@@ -48839,7 +48839,7 @@ mille O
 francs O
 : O
 les O
-Rouxey O
+Rouxey B-LOC
 pouvaient O
 produire O
 , O
@@ -48918,9 +48918,9 @@ servirent O
 beaucoup O
 plus O
 la O
-comtesse O
-de O
-Soulas B-PER
+comtesse B-PER
+de I-PER
+Soulas I-PER
 que O
 ses O
 prétentions O
@@ -48982,7 +48982,7 @@ rencontrer O
 la O
 duchesse O
 de O
-Rhétoré B-LOC
+Rhétoré B-PER
 , O
 voir O
 cette O
@@ -49037,17 +49037,17 @@ pensionnaires O
 de O
 l' O
 ancienne O
-Liste B-LOC
-civile I-LOC
+Liste O
+civile O
 , O
 depuis O
 1830 O
 . O
 |
 | O
-Un O
-jeune O
-homme O
+Un B-MISC
+jeune I-MISC
+homme I-MISC
 , O
 poussé O
 par O
@@ -49191,7 +49191,7 @@ la O
 belle O
 duchesse O
 de O
-Rhétoré B-LOC
+Rhétoré B-PER
 . O
 |
 | O
@@ -49283,7 +49283,7 @@ aveux O
 à O
 monsieur O
 de O
-Grancey B-PER
+Grancey B-LOC
 . O
 |
 | O
@@ -49364,9 +49364,9 @@ vécut O
 seule O
 dans O
 sa O
-terre O
-des O
-Rouxey B-MISC
+terre B-LOC
+des I-LOC
+Rouxey I-LOC
 , O
 montant O
 à O
@@ -49413,8 +49413,8 @@ une O
 des O
 célébrités O
 de O
-l' O
-Est O
+l' B-LOC
+Est I-LOC
 . O
 |
 | O
@@ -49440,7 +49440,7 @@ le O
 jeune O
 monsieur O
 de O
-Soulas B-PER
+Soulas B-LOC
 a O
 considérablement O
 vieilli O
@@ -49529,7 +49529,7 @@ son O
 mari O
 , O
 comme O
-Watteville B-PER
+Watteville B-LOC
 franchit O
 les O
 murs O
@@ -49599,9 +49599,9 @@ hasards O
 auxquels O
 le O
 vieil O
-abbé O
-de O
-Grancey B-PER
+abbé B-PER
+de I-PER
+Grancey I-PER
 avait O
 fait O
 allusion O
@@ -49678,9 +49678,9 @@ plus O
 aujourd'hui O
 de O
 la O
-Chartreuse B-ORG
-des I-ORG
-Rouxey I-ORG
+Chartreuse B-LOC
+des I-LOC
+Rouxey I-LOC
 où O
 elle O
 mène O

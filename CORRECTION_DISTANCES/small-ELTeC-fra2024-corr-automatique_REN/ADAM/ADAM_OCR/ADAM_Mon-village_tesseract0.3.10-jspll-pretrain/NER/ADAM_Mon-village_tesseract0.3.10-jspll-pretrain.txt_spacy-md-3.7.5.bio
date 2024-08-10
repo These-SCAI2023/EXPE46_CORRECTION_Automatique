@@ -2,13 +2,13 @@
 
 | O
 1e O
-Gallica B-PER
+Gallica B-MISC
 |
 
-| I-PER
-M I-PER
-on O
-village O
+| I-MISC
+M I-MISC
+on I-MISC
+village I-MISC
 / O
 par O
 Juliette B-PER
@@ -18,24 +18,24 @@ Lambert I-PER
 |
 
 | I-PER
-Source I-PER
+Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| O
-11 O
-Gallica O
+| I-LOC
+11 I-LOC
+Gallica I-LOC
 |
 
  
 
-| O
-Adam B-PER
+| I-LOC
+Adam I-LOC
 , O
 Juliette B-PER
 ( O
@@ -171,10 +171,10 @@ après O
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 » O
 ou O
 « O
@@ -280,16 +280,16 @@ etc. O
 |
 
 | O
-CLIQUER B-MISC
-ICI I-MISC
+CLIQUER O
+ICI O
 POUR O
-ACCÉDER B-ORG
-AUX O
-TARIFS B-MISC
-ET O
-À B-MISC
-LA I-MISC
-LICENCE I-MISC
+ACCÉDER O
+AUX B-MISC
+TARIFS I-MISC
+ET I-MISC
+À O
+LA O
+LICENCE B-MISC
 |
 
 | I-MISC
@@ -297,7 +297,7 @@ LICENCE I-MISC
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriété O
@@ -452,7 +452,7 @@ réutilisation O
 
 | O
 4/ O
-Gallica B-LOC
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -471,9 +471,9 @@ au O
 sens O
 des O
 articles O
-L341 B-MISC
-- I-MISC
-1 I-MISC
+L341 O
+- O
+1 O
 et O
 |
 | O
@@ -497,7 +497,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 régies O
 par O
@@ -605,7 +605,7 @@ obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 définition O
@@ -661,14 +661,14 @@ _ O
 | O
 PP B-ORG
 |
-| I-ORG
-+ I-ORG
+| O
++ O
 |
 
-| I-ORG
-- I-ORG
+| O
+- O
 |
-| I-ORG
+| O
 Loi B-MISC
 |
 
@@ -678,7 +678,7 @@ Hé I-MISC
 ! I-MISC
 ne O
 : O
-eriat O
+eriat B-LOC
 -elle O
 , O
 décisifé O
@@ -697,10 +697,10 @@ vite O
 que O
 ça O
 ! O
-Sur- B-LOC
+Sur- O
 |
 
-| I-LOC
+| O
 Re O
 . O
 tout O
@@ -715,13 +715,13 @@ femme O
 de O
 Jean- B-PER
 |
-| O
-|||| O
+| I-PER
+|||| I-PER
 là O
 _ O
 .. O
 une O
-CROIS B-MISC
+CROIS O
 ce O
 matin O
 . O
@@ -744,21 +744,21 @@ Toi O
 Source B-ORG
 gallica.bnf.fr I-ORG
 / I-ORG
-Bibliothèque I-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| O
-CRC O
-CT O
-MP O
-REP O
-Serves O
-NES O
-° O
-C B-MISC
+| I-LOC
+CRC I-LOC
+CT I-LOC
+MP I-LOC
+REP I-LOC
+Serves I-LOC
+NES I-LOC
+° I-LOC
+C I-LOC
 . O
 |
 | O
@@ -777,27 +777,27 @@ De B-MISC
 E I-MISC
 à O
 en O
-gr B-LOC
-me I-LOC
+gr O
+me O
 . O
 |
 | O
-OU O
-S B-MISC
-CU I-MISC
-VS I-MISC
-PU I-MISC
-Pt I-MISC
-ve I-MISC
-dll I-MISC
-A I-MISC
+OU B-ORG
+S I-ORG
+CU O
+VS O
+PU O
+Pt O
+ve O
+dll O
+A O
 de O
 S O
 |
 
 | O
 y O
-RÉ B-LOC
+RÉ O
 ET O
 |
 
@@ -836,11 +836,11 @@ bile O
 , O
 habile O
 . O
-Désirée B-MISC
-! I-MISC
-Monte O
+Désirée O
+! O
+Monte B-PER
 sur O
-l’ B-LOC
+l’ O
 escabeau O
 |
 | O
@@ -874,13 +874,13 @@ d’ O
 une O
 citrouille O
 . O
-Frotte O
+Frotte B-LOC
 , O
 frotte O
 : O
 |
 | O
-REF O
+REF B-ORG
 sites O
 excuse O
 , O
@@ -897,10 +897,10 @@ fillettes O
 , O
 ça O
 ne O
-s’ B-MISC
-avise I-MISC
-de I-MISC
-rien I-MISC
+s’ O
+avise O
+de O
+rien O
 , O
 il O
 faut O
@@ -917,7 +917,7 @@ Quand O
 on O
 doit O
 parler O
-d’ B-MISC
+d’ O
 une O
 ménagère O
 , O
@@ -1030,9 +1030,9 @@ réserve O
 Se O
 dit O
 pour O
-dépêche B-MISC
-- I-MISC
-toi I-MISC
+dépêche O
+- O
+toi O
 . O
 |
 
@@ -1046,14 +1046,14 @@ n O
 ” O
 |
 | O
-Fat B-ORG
+Fat O
 ef O
 |
 
 | O
-SENTE O
-R O
-Me O
+SENTE B-MISC
+R I-MISC
+Me I-MISC
 . O
 3 O
 MERE O
@@ -1067,24 +1067,24 @@ PRET B-MISC
 | I-MISC
 d' I-MISC
 NONCENT I-MISC
-OPEN I-MISC
+OPEN O
 |
 | O
-De O
-2 O
-ñ O
+De B-MISC
+2 I-MISC
+ñ I-MISC
 |
 
  
 
-| O
-Se O
+| I-MISC
+Se I-MISC
 |
 
-| O
-de O
-la O
-Rose B-MISC
+| I-MISC
+de I-MISC
+la I-MISC
+Rose I-MISC
 , O
 qui O
 me O
@@ -1105,9 +1105,9 @@ les O
 pe- O
 |
 | O
-tistes O
-de O
-Nordine B-PER
+tistes B-LOC
+de I-LOC
+Nordine I-LOC
 sont O
 capables O
 sur O
@@ -1159,7 +1159,7 @@ lants O
 
 | O
 Si O
-moche O
+moche B-PER
 qu' O
 elle O
 ait O
@@ -1186,7 +1186,7 @@ oncle O
 Jean-Claude B-PER
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 la O
@@ -1209,13 +1209,13 @@ fins O
 , O
 la O
 maison O
-s’ B-PER
+s’ O
 emplit O
 ; O
 les O
 |
 | O
-couseuses O
+couseuses B-LOC
 se O
 placent O
 le O
@@ -1232,14 +1232,14 @@ les O
 fileuses O
 derrière O
 les O
-couseuses B-LOC
+couseuses O
 , O
 |
 | O
 et O
 les O
 tricoteuses O
-n’ B-PER
+n’ O
 importe O
 où O
 . O
@@ -1275,8 +1275,8 @@ maison O
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 1 O
 |
@@ -1287,7 +1287,7 @@ lise O
 |
 
 | O
-Lot B-PER
+Lot O
 2e O
 gta O
 el O
@@ -1308,7 +1308,7 @@ Pme O
 à O
 |
 | O
-CE O
+CE B-ORG
 de O
 à O
 m O
@@ -1320,25 +1320,25 @@ en O
 , O
 que O
 a O
-D B-PER
-die I-PER
-étre O
-h O
+D B-MISC
+die I-MISC
+étre I-MISC
+h I-MISC
 te O
 a O
 TAT B-MISC
-ET O
-SUITE B-MISC
 ET I-MISC
-TE B-ORG
-ES I-ORG
-SE I-ORG
-” O
+SUITE I-MISC
+ET I-MISC
+TE I-MISC
+ES I-MISC
+SE I-MISC
+” I-MISC
 |
 
-| O
-4 O
-SG B-LOC
+| I-MISC
+4 I-MISC
+SG I-MISC
 — O
 _ O
 x O
@@ -1347,27 +1347,27 @@ x O
 | O
 OP B-ORG
 EE I-ORG
-EE I-ORG
+EE O
 " O
 TE O
 re O
 . O
-T B-MISC
-RE I-MISC
+T B-LOC
+RE I-LOC
 |
-| O
-L B-MISC
-< I-MISC
-vr I-MISC
-TON I-MISC
+| I-LOC
+L I-LOC
+< I-LOC
+vr I-LOC
+TON I-LOC
 Re O
-TS B-ORG
+TS O
 \ O
 |
 | O
 » O
 + O
-MS O
+MS B-MISC
 , O
 |
 | O
@@ -1406,7 +1406,7 @@ e O
 |
 
 | O
-LE O
+LE B-LOC
 et O
 en O
 eme O
@@ -1416,29 +1416,29 @@ eme O
 
 | O
 12 O
-MON B-MISC
+MON O
 VILLAGE O
 , O
 |
 
 | O
-2 O
-PR O
-TRE B-MISC
+2 B-MISC
+PR I-MISC
+TRE I-MISC
 R I-MISC
 PEU O
 TEE O
 RL O
-PRE B-MISC
+PRE O
 En O
 NES B-MISC
 Le O
 de O
 |
 | O
-CE O
-OURS O
-2 O
+CE B-MISC
+OURS I-MISC
+2 I-MISC
 s- O
 " O
 Re O
@@ -1522,7 +1522,7 @@ pe- O
 | O
 tiote O
 à O
-Perpétue B-PER
+Perpétue B-LOC
 , O
 vous O
 ne O
@@ -1532,8 +1532,8 @@ offenser O
 le O
 |
 | O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 . O
 |
 
@@ -1559,13 +1559,13 @@ mes O
 ? O
 Garde-les B-LOC
 pour O
-monsieur O
-lé O
-‘ O
-curé O
+monsieur B-PER
+lé I-PER
+‘ I-PER
+curé I-PER
 . O
-Tiens B-LOC
-! O
+Tiens B-MISC
+! I-MISC
 |
 | O
 voilà O
@@ -1579,7 +1579,7 @@ Jean-Claude B-PER
 
 | O
 — O
-Bonsoir B-PER
+Bonsoir B-MISC
 , O
 mon O
 frère O
@@ -1591,7 +1591,7 @@ Norine B-LOC
 
 | O
 — O
-Bonsoir B-PER
+Bonsoir B-LOC
 , O
 la O
 compagnie O
@@ -1601,7 +1601,7 @@ Jean-Claude B-PER
 . O
 |
 | O
-Devinez B-LOC
+Devinez O
 par O
 qui O
 je O
@@ -1638,7 +1638,7 @@ ESP O
 R O
 gerengege O
 or O
-TORRENT B-ORG
+TORRENT O
 |
 | O
 . O
@@ -1649,8 +1649,8 @@ TORRENT B-ORG
 |
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 13 O
 |
@@ -1672,13 +1672,13 @@ FM O
 |
 
 | O
-Basset B-LOC
+Basset B-PER
 et O
 sa O
 femme O
 , O
 qui O
-s’ B-PER
+s’ O
 embrassent O
 à O
 la O
@@ -1697,7 +1697,7 @@ blanc O
 
 | O
 — O
-Voilà B-PER
+Voilà O
 une O
 preuve O
 qu' O
@@ -1727,22 +1727,22 @@ Roux B-PER
 berger O
 , O
 à O
-l’ B-LOC
+l’ O
 oreille O
 dela O
-Rose B-MISC
+Rose B-LOC
 . O
-M’ B-PER
+M’ B-LOC
 est O
 |
 
 | O
-RARE B-ORG
-RS O
-AO B-ORG
-SN I-ORG
-AE I-ORG
-RTC O
+RARE O
+RS B-MISC
+AO I-MISC
+SN I-MISC
+AE I-MISC
+RTC I-MISC
 |
 
 | O
@@ -1778,7 +1778,7 @@ mis O
 charron O
 ; O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 comme O
@@ -1815,12 +1815,12 @@ fillette O
 | O
 à O
 ‘ O
-bras-le-corps B-LOC
+bras-le-corps O
 . O
 |
 
 | O
-Assuré B-PER
+Assuré O
 que O
 le O
 moment O
@@ -1831,9 +1831,9 @@ mal O
 | O
 choisi O
 . O
-La O
-Rose B-MISC
-n’ I-MISC
+La B-MISC
+Rose I-MISC
+n’ O
 a O
 jamais O
 passé O
@@ -1874,9 +1874,9 @@ feuilles O
 
 | O
 — O
-Combien B-LOC
-de O
-chandelles O
+Combien B-MISC
+de I-MISC
+chandelles I-MISC
 ? O
 dit O
 la O
@@ -1892,19 +1892,19 @@ dents O
 |
 
 | O
-S O
-RE O
-Le O
+S B-PER
+RE I-PER
+Le I-PER
 lin O
 t O
 le O
 à O
-st O
+st B-LOC
 . O
 Grau O
 du O
-Gt O
-sun O
+Gt B-MISC
+sun I-MISC
 |
 
 | O
@@ -1914,11 +1914,11 @@ sun O
 | O
 : O
 en O
-L B-LOC
-A I-LOC
-DE I-LOC
-gr I-LOC
-gr I-LOC
+L B-MISC
+A I-MISC
+DE I-MISC
+gr I-MISC
+gr I-MISC
 ; O
 |
 
@@ -1938,8 +1938,8 @@ VILLAGE O
 
 | O
 — O
-Trente-six B-MISC
-! I-MISC
+Trente-six O
+! O
 dit O
 Gaspard B-PER
 sans O
@@ -1947,9 +1947,9 @@ broncher O
 . O
 |
 | O
-Tant O
-de O
-chandelles O
+Tant B-MISC
+de I-MISC
+chandelles I-MISC
 , O
 tant O
 de O
@@ -1968,7 +1968,7 @@ doit O
 |
 
 | O
-Ün O
+Ün B-MISC
 chacun O
 se O
 leva O
@@ -1983,7 +1983,7 @@ celui O
 des O
 deux O
 qui O
-l’ B-LOC
+l’ O
 emporterait O
 , O
 |
@@ -1992,9 +1992,9 @@ emporterait O
 dr O
 . O
 — O
-Défends B-LOC
-- I-LOC
-toi I-LOC
+Défends B-MISC
+- I-MISC
+toi I-MISC
 , O
 la O
 Rose B-MISC
@@ -2102,7 +2102,7 @@ grande O
 Jacqueline B-PER
 , O
 parce O
-qu’ B-PER
+qu’ O
 elle O
 se O
 sent O
@@ -2132,16 +2132,16 @@ Gaspard B-PER
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 15 O
 |
 
 | O
 Le O
-gars B-LOC
-Denis I-LOC
+gars O
+Denis O
 , O
 tout O
 en O
@@ -2157,9 +2157,9 @@ une O
 des O
 filles O
 à O
-Nomine B-MISC
+Nomine B-LOC
 , O
-Désirée B-LOC
+Désirée B-PER
 , O
 sa O
 promise O
@@ -2230,7 +2230,7 @@ non O
 dit O
 bien O
 vite O
-Désirée B-PER
+Désirée B-MISC
 , O
 en O
 cou- O
@@ -2269,7 +2269,7 @@ pas O
 au O
 sort O
 à O
-l’ B-LOC
+l’ O
 année O
 ? O
 |
@@ -2313,16 +2313,16 @@ motif O
 ke O
 Fo B-MISC
 Vous I-MISC
-avez I-MISC
-raison I-MISC
+avez O
+raison O
 , O
 dit O
 la O
 grande O
-Jacque- B-MISC
+Jacque- B-PER
 |
-| I-MISC
-line I-MISC
+| O
+line O
 , O
 en O
 fixant O
@@ -2360,8 +2360,8 @@ Rose B-MISC
 
 | I-MISC
 16 I-MISC
-MON B-MISC
-VILLAGE O
+MON I-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -2386,7 +2386,7 @@ Pierre B-MISC
 le O
 dragon O
 , O
-n’ B-PER
+n’ O
 entrerait O
 pas O
 . O
@@ -2410,7 +2410,7 @@ actifé O
 et O
 revenu O
 de O
-l’ B-LOC
+l’ O
 armée O
 de O
 la O
@@ -2428,9 +2428,9 @@ permission O
 
 | O
 — O
-Chante B-LOC
-, O
-toi O
+Chante B-MISC
+, I-MISC
+toi I-MISC
 , O
 la O
 Rose B-MISC
@@ -2458,7 +2458,7 @@ veux O
 au O
 contraire O
 , O
-l’ B-LOC
+l’ O
 attendre O
 pour O
 |
@@ -2467,8 +2467,8 @@ chanter O
 , O
 dit O
 la O
-Rose B-MISC
-d’ I-MISC
+Rose B-PER
+d’ O
 un O
 ton O
 piqué O
@@ -2560,7 +2560,7 @@ onints O
 |
 | O
 et O
-LE O
+LE B-LOC
 < O
 : O
 . O
@@ -2584,19 +2584,19 @@ um O
 RER O
 ro O
 au O
-er B-LOC
-F I-LOC
+er O
+F B-LOC
 . O
 ' O
 au O
 |
 | O
-RS B-LOC
+RS B-ORG
 . O
 |
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 17 O
 |
@@ -2618,13 +2618,13 @@ petite O
 |
 | O
 à O
-Perpétue B-PER
+Perpétue B-LOC
 . O
 à O
 |
 | O
 — O
-Non B-PER
+Non O
 , O
 dit O
 le O
@@ -2640,7 +2640,7 @@ promis O
 |
 | O
 si O
-c’ B-MISC
+c’ O
 est O
 trop O
 fort O
@@ -2673,40 +2673,40 @@ Claude I-PER
 , O
 tu O
 en O
-F0 B-MISC
+F0 B-ORG
 |
 | O
 |||| O
 écoutes O
 bien O
-d’ B-MISC
-autres I-MISC
-en I-MISC
-latin I-MISC
+d’ O
+autres O
+en O
+latin O
 . O
 |||| O
 $ O
 |
 | O
-Voilà B-PER
-donc O
+Voilà B-MISC
+donc I-MISC
 , O
-s’ B-PER
+s’ O
 il O
 vous O
 plaît O
 de O
-l’ B-LOC
+l’ O
 apprendre O
 , O
-D. B-MISC
+D. B-PER
 |
-| I-MISC
-la I-MISC
-chanson I-MISC
-du I-MISC
-vieux I-MISC
-berger I-MISC
+| O
+la O
+chanson O
+du O
+vieux O
+berger O
 : O
 “ O
 3 O
@@ -2724,7 +2724,7 @@ s O
 |
 | O
 Et O
-s’ B-PER
+s’ O
 en O
 va O
 couper O
@@ -2743,12 +2743,12 @@ sa O
 botte O
 fut O
 faite O
-ca B-LOC
+ca B-MISC
 |
 | O
-ue O
+ue B-ORG
 Elle O
-s’ B-LOC
+s’ O
 endormit O
 tout O
 du O
@@ -2758,12 +2758,12 @@ long O
 < O
 |
 | O
-ES O
-À O
-Las B-LOC
-! I-LOC
+ES B-MISC
+À I-MISC
+Las I-MISC
+! I-MISC
 pourquoi O
-s’ B-PER
+s’ O
 endormit O
 -elle O
 , O
@@ -2784,7 +2784,7 @@ Ds B-MISC
 Las I-MISC
 ! I-MISC
 pourquoi O
-s’ B-PER
+s’ O
 endormit O
 -elle O
 , O
@@ -2822,21 +2822,21 @@ long O
 | O
 à O
 ps B-ORG
-1 I-ORG
-+ I-ORG
-+ I-ORG
+1 O
++ O
++ O
 . O
 |
 | O
-mé O
-Ni B-MISC
-bi I-MISC
-: I-MISC
+mé B-PER
+Ni I-PER
+bi I-PER
+: O
 LCR B-ORG
 |
 | O
-Æ O
-RE O
+Æ B-LOC
+RE I-LOC
 = O
 |
 
@@ -2858,8 +2858,8 @@ VILLAGE O
 |
 
 | O
-Voilà B-PER
-qu’ I-PER
+Voilà O
+qu’ O
 il O
 passe O
 près O
@@ -2867,19 +2867,19 @@ d' O
 elle O
 |
 | O
-Trois O
-cavaliers O
-de O
-renom O
+Trois B-MISC
+cavaliers I-MISC
+de I-MISC
+renom I-MISC
 . O
 . O
 |
 
 | O
-Las B-MISC
-! I-MISC
+Las B-LOC
+! O
 pourquoi O
-s’ B-PER
+s’ O
 endormit O
 -elle O
 , O
@@ -2896,7 +2896,7 @@ x O
 |
 
 | O
-Voilà B-PER
+Voilà O
 qu’ O
 il O
 passe O
@@ -2905,10 +2905,10 @@ d’ O
 elle O
 |
 | O
-Trois O
-cavaliers O
-de O
-renom O
+Trois B-MISC
+cavaliers I-MISC
+de I-MISC
+renom I-MISC
 . O
 |
 | O
@@ -2929,10 +2929,10 @@ migron O
 |
 
 | O
-Las B-MISC
-! I-MISC
+Las B-LOC
+! O
 pourquoi O
-s’ B-PER
+s’ O
 endormit O
 -elle O
 , O
@@ -2969,8 +2969,8 @@ timide O
 , O
 |
 | O
-Il B-LOC
-l’ I-LOC
+Il O
+l’ O
 embrassa O
 sous O
 le O
@@ -2979,10 +2979,10 @@ menton O
 |
 
 | O
-Las B-MISC
-! I-MISC
+Las B-LOC
+! O
 pourquoi O
-s’ B-PER
+s’ O
 endormit O
 -elle O
 , O
@@ -3036,7 +3036,7 @@ chanson O
 Las B-MISC
 ! I-MISC
 pourquoi O
-s’ B-PER
+s’ O
 endormit O
 -elle O
 , O
@@ -3074,14 +3074,14 @@ LA O
 |
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 19 O
 |
 | O
 |||| O
-Retiens B-LOC
+Retiens O
 celle O
 - O
 l O
@@ -3089,7 +3089,7 @@ l O
 hé O
 ! O
 petite O
-Perpétue B-PER
+Perpétue B-MISC
 , O
 |
 | O
@@ -3114,7 +3114,7 @@ Marie B-PER
 
 | O
 — O
-Avez B-LOC
+Avez O
 -vous O
 bientôt O
 fini O
@@ -3122,7 +3122,7 @@ fini O
 dit O
 la O
 mère O
-Rem- B-PER
+Rem- O
 |
 
 | O
@@ -3165,7 +3165,7 @@ vieux O
 ber- O
 |
 | O
-ger B-LOC
+ger O
 , O
 on O
 est O
@@ -3173,7 +3173,7 @@ encore O
 plus O
 renie O
 - O
-Dieu O
+Dieu B-MISC
 que O
 par O
 |
@@ -3213,9 +3213,9 @@ fran- O
 |
 | O
 7 O
-R B-PER
-Y I-PER
-P I-PER
+R O
+Y O
+P O
 |
 | O
 « O
@@ -3247,15 +3247,15 @@ de O
 si O
 loin O
 : O
-Ver- O
+Ver- B-ORG
 |
 
 | O
 . O
-mand B-LOC
+mand O
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 jamais O
 qu' O
@@ -3278,18 +3278,18 @@ Je O
 soutiens O
 que O
 Vermand B-PER
-c’ I-PER
+c’ O
 est O
 hors O
 de O
 |
 
 | O
-Re B-LOC
+Re O
 … O
 France B-LOC
 ! O
-Tiens B-LOC
+Tiens B-MISC
 , O
 puisqu' O
 on O
@@ -3320,7 +3320,7 @@ Roux B-PER
 |
 
 | O
-NOTE B-MISC
+NOTE O
 |
 
  
@@ -3330,8 +3330,8 @@ de O
 — O
 — O
 — O
-— B-LOC
-— I-LOC
+— O
+— O
 - O
 re O
 r O
@@ -3339,21 +3339,21 @@ r O
 
 | O
 20 O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
 | O
 — O
-Chantez B-LOC
+Chantez B-PER
 , O
 chantons O
 , O
-qu’ B-MISC
-on I-MISC
-chante I-MISC
-! I-MISC
+qu’ O
+on O
+chante O
+! O
 dit O
 le O
 |
@@ -3375,7 +3375,7 @@ chacun O
 
 | O
 — O
-Bonsoir B-PER
+Bonsoir B-MISC
 , O
 Pierre B-MISC
 , O
@@ -3414,21 +3414,21 @@ refrain O
 ; O
 comprenez O
 si O
-VOUS O
+VOUS B-MISC
 pouvez O
 : O
 |
 
 | O
 Ch B-MISC
-’ I-MISC
-solé I-MISC
+’ O
+solé B-LOC
 y O
 r'luit O
 , O
 ch O
 ’ O
-moinet B-PER
+moinet B-ORG
 y O
 sainte O
 , O
@@ -3442,23 +3442,23 @@ fleurit I-MISC
 , O
 ch O
 ’ O
-lépène O
-s’ B-PER
+lépène B-PER
+s’ O
 épanouit O
 ; O
 |
 | O
-V' O
-nez O
+V' B-MISC
+nez I-MISC
 , O
 m' O
 liote O
 caille O
 , O
-v’ B-MISC
-nez O
+v’ B-PER
+nez I-PER
 , O
-n’ B-PER
+n’ O
 eussiez O
 pas O
 de O
@@ -3466,8 +3466,8 @@ crainte O
 , O
 |
 | O
-V' O
-nez O
+V' B-ORG
+nez I-ORG
 dans O
 nos O
 bous O
@@ -3479,31 +3479,31 @@ sourit O
 |
 
 | O
-V' O
-nez O
+V' B-MISC
+nez I-MISC
 dans O
 nos O
 bous O
 sous O
 les O
-n’ B-MISC
+n’ O
 branche O
 , O
 |
 | O
-V' O
-nez O
+V' B-ORG
+nez I-ORG
 donc O
-bachelet O
+bachelet B-PER
 , O
-v' O
-nez O
+v' B-MISC
+nez I-MISC
 aveu O
 nous O
 ; O
 |
 | O
-Eussiez B-LOC
+Eussiez B-MISC
 une O
 tiole O
 miette O
@@ -3514,14 +3514,14 @@ courage O
 
 | O
 @Y O
-foët O
+foët B-MISC
 rud’ O
 ment O
 tous O
 dans O
-ché O
-bous O
-? O
+ché B-MISC
+bous I-MISC
+? I-MISC
 . O
 |
 
@@ -3549,8 +3549,8 @@ Le O
 muguet O
 fleurit O
 , O
-l’'épine B-PER
-s’ I-PER
+l’'épine O
+s’ O
 épanouit O
 ; O
 |
@@ -3567,7 +3567,7 @@ crainte O
 , O
 |
 | O
-Venez B-LOC
+Venez B-ORG
 dans O
 nos O
 bois O
@@ -3578,7 +3578,7 @@ sourit O
 , O
 |
 | O
-Venez B-LOC
+Venez B-MISC
 dans O
 nos O
 bois O
@@ -3589,9 +3589,9 @@ ombrage O
 , O
 |
 | O
-Venez B-LOC
+Venez B-MISC
 donc O
-bachelet O
+bachelet B-PER
 , O
 venez O
 avec O
@@ -3599,12 +3599,12 @@ nous O
 ; O
 |
 | O
-Ayez B-LOC
-un O
-petit O
-peu O
-de O
-courage O
+Ayez B-MISC
+un I-MISC
+petit I-MISC
+peu I-MISC
+de I-MISC
+courage I-MISC
 , O
 |
 | O
@@ -3626,7 +3626,7 @@ bois O
 # O
 |
 | O
-Ÿ O
+Ÿ B-LOC
 |
 | O
 ; O
@@ -3635,14 +3635,14 @@ bois O
  
 
 | O
-PEUT B-MISC
-CORRIERE I-MISC
+PEUT O
+CORRIERE O
 MERS O
 ner O
 eue O
 EN O
-EEE B-PER
-F I-PER
+EEE O
+F O
 r O
 me O
 — O
@@ -3652,8 +3652,8 @@ me O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 21 O
 |
@@ -3719,9 +3719,9 @@ pain O
 . O
 |
 | O
-Filles B-PER
-et O
-garçons O
+Filles B-MISC
+et I-MISC
+garçons I-MISC
 , O
 à O
 qui O
@@ -3742,11 +3742,11 @@ mâchoires O
 | O
 Le O
 père O
-Nom-de-Nom B-LOC
+Nom-de-Nom B-PER
 , O
-l’ B-MISC
-ancien I-MISC
-braconnier I-MISC
+l’ O
+ancien O
+braconnier O
 , O
 |
 | O
@@ -3772,7 +3772,7 @@ moment O
 
 | O
 — O
-Bonsoir B-PER
+Bonsoir B-LOC
 , O
 les O
 autres O
@@ -3784,7 +3784,7 @@ dit O
 
 | O
 — O
-Faut B-LOC
+Faut O
 lui O
 faire O
 raconter O
@@ -3800,9 +3800,9 @@ le O
 père O
 Roux B-PER
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 , O
-ca B-LOC
+ca O
 |
 | O
 nous O
@@ -3828,7 +3828,7 @@ chose O
 
 | O
 — O
-Allez B-LOC
+Allez B-PER
 , O
 des O
 histoires O
@@ -3836,12 +3836,12 @@ de O
 guerre O
 , O
 dit O
-Jean- B-MISC
+Jean- B-PER
 |
 
-| I-MISC
-DE O
-RES B-MISC
+| I-PER
+DE I-PER
+RES I-PER
 |||| O
 PPS O
 AR O
@@ -3851,10 +3851,10 @@ ns O
 | O
 ! O
 " O
-SR B-ORG
+SR B-MISC
 . O
 PET B-MISC
-SET O
+SET I-MISC
 |
 
 | O
@@ -3866,8 +3866,8 @@ nf O
 
 | O
 22 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 |
 
@@ -3892,9 +3892,9 @@ monde O
 
 | O
 — O
-Fût B-LOC
--ce I-LOC
-! I-LOC
+Fût B-MISC
+-ce I-MISC
+! I-MISC
 dit O
 le O
 vieux O
@@ -3910,7 +3910,7 @@ crit O
 Hé B-MISC
 ! I-MISC
 pèle O
-Nom-de-Nom B-LOC
+Nom-de-Nom B-MISC
 , O
 avance O
 ici O
@@ -3948,7 +3948,7 @@ du O
 diable O
 , O
 père O
-Caus- O
+Caus- B-PER
 |
 | O
 son O
@@ -3976,10 +3976,10 @@ société O
 |
 
 | O
-M' O
+M' B-LOC
 est O
 avis O
-qu’ B-LOC
+qu’ O
 il O
 serait O
 bon O
@@ -4000,10 +4000,10 @@ se O
 risquait O
 , O
 de O
-Sylvain B-MISC
+Sylvain B-PER
 qu' O
 il O
-s’ B-PER
+s’ O
 appr- O
 |
 | O
@@ -4014,7 +4014,7 @@ le O
 surnommer O
 le O
 père O
-Nom-de-Nom B-LOC
+Nom-de-Nom B-PER
 , O
 |
 
@@ -4088,8 +4088,8 @@ entendue O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 23 O
 |
@@ -4131,7 +4131,7 @@ et O
 on O
 aimait O
 à O
-l’ B-LOC
+l’ O
 oui O
 de O
 renouveau O
@@ -4210,7 +4210,7 @@ de O
 |
 | O
 la O
-Rose B-LOC
+Rose B-MISC
 . O
 |
 
@@ -4255,18 +4255,18 @@ je O
 pense O
 , O
 faut O
-s’ B-PER
-hiverner I-PER
+s’ O
+hiverner O
 , O
 nom O
 de O
 nom O
 ! O
-Je B-MISC
+Je O
 |
-| I-MISC
-siffle I-MISC
-Médor I-MISC
+| O
+siffle O
+Médor B-PER
 , O
 je O
 prends O
@@ -4293,7 +4293,7 @@ culottée O
 |
 | O
 il O
-n’ B-PER
+n’ O
 y O
 à O
 pas O
@@ -4306,11 +4306,11 @@ pipe O
 je O
 me O
 la O
-r- O
+r- B-ORG
 |
 | O
 senterait O
-jusqu’ B-PER
+jusqu’ O
 à O
 la O
 fin O
@@ -4319,7 +4319,7 @@ ses O
 jours O
 ) O
 . O
-Me O
+Me B-PER
 |
 | O
 voilà O
@@ -4338,9 +4338,9 @@ arrivé O
 | O
 à O
 la O
-Carrière B-LOC
-- I-LOC
-Fondue I-LOC
+Carrière B-MISC
+- I-MISC
+Fondue I-MISC
 , O
 je O
 me O
@@ -4365,8 +4365,8 @@ SR O
 ET O
 RE O
 PINS O
-rip B-MISC
-# I-MISC
+rip O
+# O
 0 O
 |
 
@@ -4465,8 +4465,8 @@ la O
 | O
 rebourrer O
 . O
-Chut B-MISC
-! I-MISC
+Chut O
+! O
 voilà O
 un O
 renard O
@@ -4483,7 +4483,7 @@ le O
 briquet O
 , O
 je O
-m’ B-PER
+m’ O
 arrête O
 . O
 Mon O
@@ -4541,7 +4541,7 @@ main O
 mon O
 fusil O
 de O
-l’ B-LOC
+l’ O
 autre O
 . O
 Je O
@@ -4594,7 +4594,7 @@ les O
 mort O
 ? O
 ne O
-l’ B-LOC
+l’ O
 était O
 -il O
 pas O
@@ -4605,11 +4605,11 @@ re- O
 | O
 nards O
 , O
-c’ B-MISC
+c’ O
 est O
 malin O
 , O
-Ca B-LOC
+Ca B-MISC
 contrefait O
 le O
 mort O
@@ -4647,7 +4647,7 @@ ma O
 casquette O
 , O
 je O
-m’ B-PER
+m’ O
 approche. O
 … O
 . O
@@ -4662,9 +4662,9 @@ approche. O
  
 
 | O
-Re B-MISC
-2 I-MISC
-PRES I-MISC
+Re O
+2 O
+PRES O
 - O
 ” O
 - O
@@ -4673,8 +4673,8 @@ PRES I-MISC
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 25 O
 |
@@ -4714,15 +4714,15 @@ main O
 |
 | O
 — O
-Et B-MISC
-ton I-MISC
-amadou I-MISC
+Et O
+ton O
+amadou O
 ? O
 |
 | O
 — O
-De B-LOC
-l’ I-LOC
+De O
+l’ O
 autre O
 . O
 |
@@ -4733,8 +4733,8 @@ Mais O
 ton O
 fusil O
 , O
-ta B-PER
-blague I-PER
+ta O
+blague O
 et O
 son O
 débour- O
@@ -4780,9 +4780,9 @@ sorcier O
 
 | O
 — O
-Füt O
--ce O
-! O
+Füt B-MISC
+-ce I-MISC
+! I-MISC
 dit O
 le O
 garde O
@@ -4853,18 +4853,18 @@ _ O
 
 | O
 n O
-Ve B-MISC
-st I-MISC
-@t I-MISC
-F I-MISC
-t I-MISC
+Ve O
+st O
+@t O
+F O
+t O
 ; O
-PR B-MISC
-P I-MISC
-” I-MISC
-es I-MISC
-D I-MISC
-4 I-MISC
+PR B-ORG
+P I-ORG
+” I-ORG
+es I-ORG
+D I-ORG
+4 I-ORG
 : O
 , O
 m O
@@ -4872,7 +4872,7 @@ Me B-MISC
 à I-MISC
 # I-MISC
 . O
-ES B-ORG
+ES O
 . O
 A O
 " O
@@ -4882,8 +4882,8 @@ TA O
 RSR B-MISC
 RE I-MISC
 AR I-MISC
-RAR O
-AL O
+RAR I-MISC
+AL I-MISC
 RE O
 OS O
 mt O
@@ -4907,8 +4907,8 @@ ee O
 on O
 Sen B-PER
 . O
-ST B-LOC
-Es I-LOC
+ST B-MISC
+Es I-MISC
 |
 
  
@@ -4927,7 +4927,7 @@ VILLAGE O
 mort O
 ? O
 ne O
-l’ B-LOC
+l’ O
 était O
 -il O
 pas O
@@ -4993,15 +4993,15 @@ bien O
 dit O
 le O
 père O
-Nom- O
+Nom- B-PER
 |
 | O
 de-Nom B-LOC
 ; O
-écoutez O
-- O
-donc O
-! O
+écoutez B-LOC
+- I-LOC
+donc I-LOC
+! I-LOC
 Celle O
 de O
 mes O
@@ -5224,15 +5224,15 @@ renard O
 ? O
 dit O
 le O
-dragon B-LOC
+dragon O
 . O
 |
 
 | O
 — O
-Fût O
--ce O
-! O
+Fût B-MISC
+-ce I-MISC
+! I-MISC
 dit O
 le O
 garde O
@@ -5302,11 +5302,11 @@ nom O
 
 | O
 — O
-Je B-MISC
-parie I-MISC
-qu’ I-MISC
-on I-MISC
-n’ I-MISC
+Je O
+parie O
+qu’ O
+on O
+n’ O
 a O
 jamais O
 oui O
@@ -5326,7 +5326,7 @@ riant O
 | O
 tant O
 que O
-c’ B-MISC
+c’ O
 est O
 assez O
 , O
@@ -5338,8 +5338,8 @@ chacun O
 
 | O
 — O
-Fichtre B-MISC
-! I-MISC
+Fichtre O
+! O
 dit O
 le O
 dragon O
@@ -5349,7 +5349,7 @@ goguenardant O
 |
 | O
 ce O
-n’ B-PER
+n’ O
 estiment O
 moi O
 qui O
@@ -5388,17 +5388,17 @@ Suffit B-MISC
 
  
 
-| O
-S' O
-SÉCLIENTS B-MISC
+| I-MISC
+S' I-MISC
+SÉCLIENTS I-MISC
 |
 
-| O
-as O
+| I-MISC
+as I-MISC
 |
 
-| O
-mure O
+| I-MISC
+mure I-MISC
 |
 | O
 0 O
@@ -5407,11 +5407,11 @@ mure O
 |
 
 | O
-LED B-ORG
-LAVER I-ORG
-ICS I-ORG
-MEN I-ORG
-Ge O
+LED O
+LAVER B-MISC
+ICS I-MISC
+MEN I-MISC
+Ge I-MISC
 te O
 |
 
@@ -5432,8 +5432,8 @@ dre O
 . O
 en O
 ep O
-are O
-re O
+are B-MISC
+re I-MISC
 , O
 |
 
@@ -5441,17 +5441,17 @@ re O
 ' O
 EFBS B-ORG
 L' O
-att O
-oE B-MISC
-Faut I-MISC
+att B-ORG
+oE I-ORG
+Faut I-ORG
 |
 
   
 
 | O
 28 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -5465,9 +5465,9 @@ dit O
 la O
 Rose B-MISC
 d’ I-MISC
-un O
-air O
-aimable O
+un I-MISC
+air I-MISC
+aimable I-MISC
 ; O
 |
 
@@ -5492,9 +5492,9 @@ Roux B-PER
 |
 
 | O
-Allons B-LOC
-, O
-allons O
+Allons B-MISC
+, I-MISC
+allons I-MISC
 , O
 Pierre B-MISC
 , O
@@ -5506,7 +5506,7 @@ route O
 | O
 — O
 Si O
-c’ B-MISC
+c’ O
 est O
 des O
 histoires O
@@ -5543,11 +5543,11 @@ tué O
 . O
 |
 | O
-Un O
-si O
-bon O
-ouvrier O
-! O
+Un B-MISC
+si I-MISC
+bon I-MISC
+ouvrier I-MISC
+! I-MISC
 Ton O
 promis O
 , O
@@ -5556,7 +5556,7 @@ Armandine B-PER
 |
 | O
 ne O
-l’ B-LOC
+l’ O
 oublie O
 pas O
 ... O
@@ -5583,7 +5583,7 @@ mortel O
 Et O
 le O
 père O
-Nom-de-Nom B-LOC
+Nom-de-Nom B-PER
 pleurait O
 disant O
 |
@@ -5597,8 +5597,8 @@ parole O
 
 | O
 — O
-Soyez B-LOC
-tranquille O
+Soyez B-MISC
+tranquille I-MISC
 , O
 dit O
 Armandine B-PER
@@ -5615,7 +5615,7 @@ est O
 des O
 choses O
 qui O
-n’ B-PER
+n’ O
 ont O
 |
 | O
@@ -5708,8 +5708,8 @@ surtout O
 
 | O
 — O
-Ilest B-LOC
-temps O
+Ilest B-MISC
+temps I-MISC
 que O
 je O
 m' O
@@ -5742,7 +5742,7 @@ homme O
 
 | O
 — O
-Va B-PER
+Va O
 , O
 va O
 , O
@@ -5788,14 +5788,14 @@ lirai O
 
 | O
 — O
-Prenez B-PER
+Prenez O
 garde O
 , O
 cousin O
 , O
 dit O
-la B-LOC
-Remy I-LOC
+la O
+Remy O
 , O
 faut O
 |
@@ -5822,8 +5822,8 @@ et O
 
 | O
 — O
-Bah B-LOC
-! O
+Bah B-MISC
+! I-MISC
 la O
 Remy O
 , O
@@ -5835,7 +5835,7 @@ Roux B-PER
 ce O
 |
 | O
-n’ B-PER
+n’ O
 est O
 jamais O
 le O
@@ -5891,20 +5891,20 @@ re O
 
 | O
 en O
-7 O
-Ge B-MISC
+7 B-LOC
+Ge I-LOC
 |
-| I-MISC
-' I-MISC
-s I-MISC
+| O
+' O
+s O
 |
 
  
 
 | O
 30 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -5917,8 +5917,8 @@ appris O
 |
 | O
 — O
-Malicieuse B-LOC
-! O
+Malicieuse B-MISC
+! I-MISC
 |
 
 | O
@@ -5983,9 +5983,9 @@ chacun O
 
 | O
 — O
-Le B-PER
-père I-PER
-Roux I-PER
+Le O
+père O
+Roux B-PER
 , O
 berger O
 , O
@@ -6072,7 +6072,7 @@ aux O
 dévotes O
 . O
 . O
-HR B-LOC
+HR B-ORG
 |
 
  
@@ -6081,25 +6081,25 @@ HR B-LOC
 
 | O
 . O
-+28 O
-|||| O
++28 B-MISC
+|||| I-MISC
 |
 
  
 
-| O
-CE B-LOC
+| I-MISC
+CE I-MISC
 |
 
-| I-LOC
-D I-LOC
-DE O
-PR B-MISC
+| I-MISC
+D I-MISC
+DE I-MISC
+PR I-MISC
 RÉ I-MISC
 DE I-MISC
 HART I-MISC
-Res O
-mn O
+Res I-MISC
+mn I-MISC
 à O
 QT B-LOC
 |
@@ -6107,7 +6107,7 @@ QT B-LOC
    
 
 | I-LOC
-Wu O
+Wu B-MISC
 +8 O
 te O
 |
@@ -6135,7 +6135,7 @@ LA O
 |||| O
 |
 | O
-F B-LOC
+F O
 Te O
 |
 | O
@@ -6157,8 +6157,8 @@ occasion O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 31 O
 |
@@ -6215,9 +6215,9 @@ les O
 | O
 curés O
 dans O
-d’ B-MISC
-autres I-MISC
-temps I-MISC
+d’ O
+autres O
+temps O
 , O
 nous O
 apprenait O
@@ -6225,14 +6225,14 @@ apprenait O
 |
 
 | O
-L B-MISC
+L O
 |
 
-| I-MISC
-— I-MISC
-Bonsoir I-MISC
-la I-MISC
-compagnie I-MISC
+| O
+— O
+Bonsoir B-LOC
+la O
+compagnie O
 , O
 dit O
 la O
@@ -6240,7 +6240,7 @@ petite O
 à O
 |
 | O
-Perpétue B-PER
+Perpétue B-LOC
 ; O
 nous O
 nous O
@@ -6251,9 +6251,9 @@ demain O
 
 | O
 — O
-Voilà B-PER
+Voilà O
 donc O
-l’ B-LOC
+l’ O
 histoire O
 que O
 je O
@@ -6275,7 +6275,7 @@ le O
 plus O
 |
 | O
-gaillard B-PER
+gaillard O
 était O
 , O
 sans O
@@ -6327,9 +6327,9 @@ au O
 confessionnal O
 . O
 « O
-Le B-MISC
-bon I-MISC
-Dieu I-MISC
+Le O
+bon O
+Dieu B-MISC
 |
 
 | O
@@ -6358,9 +6358,9 @@ que O
 , O
 plutôt O
 dehors O
-qu’ B-LOC
+qu’ O
 à O
-l’ B-LOC
+l’ O
 é- O
 |
 | O
@@ -6393,25 +6393,25 @@ so- O
  
 
 | O
-PUNTO B-ORG
-AO I-ORG
-DENT I-ORG
-DE I-ORG
-Re I-ORG
-PRE O
-PU O
-ED O
-EE O
+PUNTO B-MISC
+AO I-MISC
+DENT I-MISC
+DE I-MISC
+Re I-MISC
+PRE I-MISC
+PU I-MISC
+ED I-MISC
+EE I-MISC
 À O
 no O
 GES O
 RE O
 |
 | O
-V O
-VAR O
-PV O
-CS O
+V B-MISC
+VAR I-MISC
+PV I-MISC
+CS I-MISC
 “ O
 web O
 pv O
@@ -6420,20 +6420,20 @@ de O
 ns O
 40 O
 mix O
-AP B-LOC
+AP O
 |
 
 | O
-ER B-ORG
+ER O
 |
-| I-ORG
+| O
 - O
 + O
 |
 
 | O
-Te B-ORG
-+ I-ORG
+Te B-MISC
++ I-MISC
 et O
 en O
 GE B-ORG
@@ -6447,8 +6447,8 @@ e. O
 
 | O
 32 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -6472,7 +6472,7 @@ ventre O
 |
 
 | O
-Faut B-LOC
+Faut O
 convenir O
 que O
 si O
@@ -6512,10 +6512,10 @@ leurs O
 femmes O
 de O
 la O
-sainte O
+sainte B-PER
 |
-| O
-Vierge B-PER
+| I-PER
+Vierge I-PER
 Marie I-PER
 . O
 Il O
@@ -6560,7 +6560,7 @@ tout O
 le O
 curé O
 de O
-Moulin- B-LOC
+Moulin- B-MISC
 |
 | O
 court O
@@ -6596,10 +6596,10 @@ heur O
 Donc O
 , O
 quand O
-M B-MISC
-' I-MISC
-* I-MISC
-Léonie I-MISC
+M O
+' O
+* O
+Léonie B-MISC
 , O
 sa O
 cousine O
@@ -6610,7 +6610,7 @@ sa O
 servante O
 , O
 se O
-Coiffait O
+Coiffait B-MISC
 de O
 son O
 tour O
@@ -6624,7 +6624,7 @@ manches O
 quoiqu' O
 elle O
 eût O
-l’ B-LOC
+l’ O
 âge O
 requis O
 pour O
@@ -6658,7 +6658,7 @@ a O
 des O
 gens O
 qui O
-n’ B-PER
+n’ O
 ont O
 pas O
 de O
@@ -6675,8 +6675,8 @@ voilà O
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 33 O
 |
@@ -6716,7 +6716,7 @@ presbytère O
 Vous O
 jugez O
 de O
-l’ B-LOC
+l’ O
 aria O
 . O
 On O
@@ -6727,7 +6727,7 @@ si- O
 |
 | O
 gneur O
-l’ B-LOC
+l’ O
 évêque O
 se O
 mit O
@@ -6761,7 +6761,7 @@ vous O
 , O
 curé O
 ! O
-c’ B-MISC
+c’ O
 est O
 impardonnable O
 . O
@@ -6805,10 +6805,10 @@ pas O
 ; O
 peut-être O
 bien O
-qu’ B-PER
+qu’ O
 au O
 lieu O
-d’ B-LOC
+d’ O
 un O
 au- O
 |
@@ -6830,7 +6830,7 @@ mari O
 Des O
 histoires O
 de O
-caré O
+caré B-PER
 , O
 il O
 en O
@@ -6901,18 +6901,18 @@ rer O
 — O
 |
 | O
-Co B-MISC
-eee I-MISC
+Co B-ORG
+eee I-ORG
 |
 
  
 
-| I-MISC
-RE I-MISC
+| I-ORG
+RE I-ORG
 |
-| O
-PNR B-MISC
-UT I-MISC
+| I-ORG
+PNR I-ORG
+UT I-ORG
 Ted B-PER
 ee I-PER
 0e I-PER
@@ -6923,20 +6923,20 @@ reset O
 |
 
 | O
-ue B-ORG
+ue O
 0e O
 20 O
 de O
 m O
 me O
 et O
-mr O
-eo O
-mn O
+mr B-PER
+eo I-PER
+mn I-PER
 . O
 |
 | O
-E- O
+E- B-LOC
 mois O
 bite O
 " O
@@ -6946,26 +6946,26 @@ or O
 |
 
 | O
-Et O
-A B-LOC
+Et B-MISC
+A I-MISC
 |
 
-| I-LOC
-L' I-LOC
-ensE I-LOC
+| I-MISC
+L' I-MISC
+ensE I-MISC
 |
 
-| I-LOC
-ms I-LOC
-ce I-LOC
-eye I-LOC
-‘ I-LOC
-re I-LOC
-de I-LOC
+| I-MISC
+ms I-MISC
+ce O
+eye O
+‘ O
+re O
+de O
 |
-| I-LOC
-# I-LOC
-1 I-LOC
+| O
+# O
+1 O
 |
 
 | O
@@ -6976,15 +6976,15 @@ EU I-MISC
 |
 
 | O
-Fr B-ORG
+Fr B-LOC
 LE O
 |
 
 | O
 3 O
 % O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 |
 
@@ -7015,7 +7015,7 @@ son O
 village O
 . O
 Il O
-n’ B-PER
+n’ O
 y O
 avait O
 guère O
@@ -7247,11 +7247,11 @@ mot O
 de O
 Jean- B-PER
 |
-| O
-e O
-porte O
-malheur O
-! O
+| I-PER
+e I-PER
+porte I-PER
+malheur I-PER
+! I-PER
 ” O
 |
 
@@ -7265,17 +7265,17 @@ malheur O
 .. O
 |
 | O
-|||| O
+|||| B-PER
 |
-| O
-I B-LOC
+| I-PER
+I I-PER
 |
 | O
 _ O
 Ç O
 |
 | O
-Loft B-LOC
+Loft B-ORG
 n O
 |
 | O
@@ -7311,8 +7311,8 @@ E B-LOC
 f O
 |
 | O
-L B-MISC
-UT I-MISC
+L O
+UT B-ORG
 . O
 |
 | O
@@ -7323,7 +7323,7 @@ nr O
 c O
 |
 | O
-Ve O
+Ve B-MISC
 de O
 « O
 LA O
@@ -7338,7 +7338,7 @@ r O
 dé O
 |
 | O
-TRE B-MISC
+TRE O
 : O
 & O
 “ O
@@ -7349,7 +7349,7 @@ d O
 |
 | O
 à O
-LE O
+LE B-LOC
 ' O
 |
 | O
@@ -7436,12 +7436,12 @@ et O
 | O
 en O
 Me B-MISC
-de I-MISC
-m I-MISC
-me I-MISC
-de I-MISC
-t I-MISC
-Le I-MISC
+de O
+m O
+me O
+de O
+t O
+Le O
 . O
 : O
 |
@@ -7454,12 +7454,12 @@ lé O
 il O
 ne O
 le O
-Shi B-LOC
-oo O
+Shi B-MISC
+oo I-MISC
 variait O
 dé O
 re O
-tarn B-LOC
+tarn O
 lmeen O
 bit O
 d O
@@ -7483,15 +7483,15 @@ ES B-ORG
 de O
 n O
 à O
-men O
-mt O
+men B-ORG
+mt I-ORG
 dote O
-has O
-rot B-PER
-ohmmétin I-PER
-ent O
+has B-MISC
+rot I-MISC
+ohmmétin I-MISC
+ent I-MISC
 . O
-mamie O
+mamie B-PER
 . O
 » O
 me O
@@ -7511,46 +7511,46 @@ me O
 Eu B-MISC
 H I-MISC
 PLUS I-MISC
-Par O
-OR O
+Par I-MISC
+OR I-MISC
 |
 | O
-Er B-ORG
-SOU I-ORG
-RO I-ORG
+Er B-LOC
+SOU I-LOC
+RO I-LOC
 a O
-nil O
+nil B-LOC
 , O
 À O
 MAC B-MISC
 NTI I-MISC
 Ne I-MISC
 |
-| O
-S B-MISC
-» I-MISC
+| I-MISC
+S B-LOC
+» O
 2 O
-Fr B-MISC
-L I-MISC
-: I-MISC
+Fr O
+L O
+: O
 Re O
 L O
 |||| O
 |
 | O
 + O
-NA O
-6 O
-' O
-AL B-ORG
-t I-ORG
-L I-ORG
-d I-ORG
+NA B-MISC
+6 I-MISC
+' I-MISC
+AL B-MISC
+t I-MISC
+L I-MISC
+d I-MISC
 |
-| I-ORG
-Un I-ORG
-OU I-ORG
-L I-ORG
+| I-MISC
+Un B-MISC
+OU I-MISC
+L I-MISC
 € O
 |
 | O
@@ -7561,7 +7561,7 @@ vr O
 |
 | O
 2 O
-Lan B-PER
+Lan O
 |
 | O
 ? O
@@ -7618,12 +7618,12 @@ ag O
 t O
 + O
 . O
-0 O
+0 B-LOC
 |
-| O
-F B-LOC
+| I-LOC
+F I-LOC
 De O
-F B-LOC
+F O
 bn O
 |
 | O
@@ -7662,18 +7662,18 @@ Tr B-LOC
 \ O
 re O
 [ O
-D B-MISC
-« I-MISC
-J I-MISC
-d I-MISC
+D O
+« O
+J O
+d O
 , O
 < O
 , O
 |
 | O
 x O
-Ft B-MISC
-} I-MISC
+Ft O
+} O
 À O
 . O
 , O
@@ -7689,22 +7689,22 @@ en O
 | O
 de O
 d O
-S O
+S B-MISC
 |
 
-| O
-RS B-LOC
+| I-MISC
+RS I-MISC
 . O
 |
 
 | O
 LA O
-ROSE B-MISC
+ROSE B-ORG
 . O
 |
 
 | O
-A B-LOC
+A O
 a O
 |
 
@@ -7719,13 +7719,13 @@ a O
   
 
 | O
-ÈS O
+ÈS B-PER
 |
 | O
 . O
-PA O
-ES O
-ET O
+PA B-ORG
+ES I-ORG
+ET I-ORG
 |
 
 | O
@@ -7763,20 +7763,20 @@ ee O
 |
 
 | O
-ES B-LOC
+ES O
 et O
 |
 | O
-EX O
+EX B-MISC
 |
 
-| O
-br O
-+ O
-Fes B-ORG
+| I-MISC
+br I-MISC
++ I-MISC
+Fes I-MISC
 |
-| O
-ue B-ORG
+| I-MISC
+ue O
 Nu O
 |
 
@@ -7795,14 +7795,14 @@ z O
 " O
 |
 | O
-none B-ORG
-fière I-ORG
+none O
+fière O
 comme O
 | | O
-Artaban B-LOC
+Artaban B-PER
 , O
 elle O
-s’ B-LOC
+s’ O
 il- O
 |
 | O
@@ -7821,13 +7821,13 @@ serai O
 |
 
 | O
-PE B-PER
-|
-| I-PER
-Eos I-PER
+PE B-ORG
 |
 | O
-DS B-MISC
+Eos B-ORG
+|
+| O
+DS B-ORG
 2 O
 % O
 |
@@ -7835,7 +7835,7 @@ DS B-MISC
 | O
 : O
 . O
-wi B-PER
+wi O
 je O
 ours O
 | | O
@@ -7847,14 +7847,14 @@ les O
 gar- O
 |
 | O
-PA B-ORG
+PA O
 ) O
 |
 
 | O
-|||| O
-ss O
-s O
+|||| B-ORG
+ss I-ORG
+s I-ORG
 , O
 s O
 , O
@@ -7883,22 +7883,22 @@ mariage O
 avis O
 que O
 ce O
-n’ B-PER
+n’ O
 était O
 pas O
 un O
 manque O
 de O
-|||| O
+|||| B-PER
 |
 
-| O
-er O
+| I-PER
+er I-PER
 |
 
-| O
-Et O
-Île O
+| I-PER
+Et I-PER
+Île I-PER
 flexion O
 qui O
 faisait O
@@ -8020,14 +8020,14 @@ L O
 de O
 somme O
 , O
-c’ B-MISC
+c’ O
 est O
 approchant O
 la O
 même O
 chose O
 . O
-NN B-LOC
+NN B-ORG
 : O
 |
 
@@ -8068,7 +8068,7 @@ six O
 mioches O
 , O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 jamais O
@@ -8098,11 +8098,11 @@ avait O
 rejetés O
 : O
 « O
-As- O
+As- B-LOC
 |
 
-| O
-suré O
+| I-LOC
+suré I-LOC
 qu' O
 il O
 nous O
@@ -8122,7 +8122,7 @@ Depuis O
 quelques O
 semaines O
 , O
-d’ B-MISC
+d’ O
 après O
 la O
 con- O
@@ -8143,7 +8143,7 @@ d’ O
 être O
 de O
 la O
-Rose B-MISC
+Rose B-LOC
 , O
 on O
 ne O
@@ -8155,7 +8155,7 @@ pas O
 faute O
 de O
 remarquer O
-qu’ B-MISC
+qu’ O
 elle O
 aimait O
 moins O
@@ -8179,7 +8179,7 @@ d' O
 autrefois O
 , O
 elle O
-s’ B-LOC
+s’ O
 en O
 allait O
 haguenau- O
@@ -8202,14 +8202,14 @@ Or O
 , O
 ce O
 monsieur O
-Plaisant B-PER
-là O
-n' O
-était O
-autre O
+Plaisant B-MISC
+là I-MISC
+n' I-MISC
+était I-MISC
+autre I-MISC
 |
-| O
-que O
+| I-MISC
+que I-MISC
 Pierre B-PER
 le I-PER
 dragon I-PER
@@ -8238,8 +8238,8 @@ vi B-MISC
 |
 
 | O
-EE B-ORG
-PTT I-ORG
+EE O
+PTT O
 |
 
 | O
@@ -8270,7 +8270,7 @@ comme O
 ça O
 , O
 tout O
-d’ B-MISC
+d’ O
 un O
 coup O
 . O
@@ -8298,7 +8298,7 @@ rapport O
 son O
 costume O
 . O
-Faut B-LOC
+Faut O
 |
 | O
 convenir O
@@ -8323,13 +8323,13 @@ ter- O
 | O
 luit O
 . O
-Expliquez B-PER
-ca I-PER
+Expliquez O
+ca B-MISC
 . O
 |
 
 | O
-Notre B-LOC
+Notre O
 maître O
 d' O
 école O
@@ -8346,10 +8346,10 @@ l' O
 amitié O
 de O
 Pierre B-MISC
-et O
-de O
-la O
-Rose B-MISC
+et I-MISC
+de I-MISC
+la I-MISC
+Rose I-MISC
 qui O
 , O
 |
@@ -8469,7 +8469,7 @@ la O
 | O
 Rose B-PER
 ne O
-s’ B-PER
+s’ O
 est O
 jamais O
 dérangée O
@@ -8539,10 +8539,10 @@ prit O
 + O
 she O
 rot O
-D- B-MISC
-DS I-MISC
-mms I-MISC
-LD I-MISC
+D- O
+DS O
+mms O
+LD O
 Se O
 © O
 |
@@ -8576,7 +8576,7 @@ traversa O
 le O
 village O
 , O
-sauta B-LOC
+sauta O
 une O
 haie O
 , O
@@ -8594,7 +8594,7 @@ ne O
 fit O
 mine O
 de O
-s’ B-PER
+s’ O
 arrêter O
 que O
 , O
@@ -8607,7 +8607,7 @@ dans O
 le O
 courtil O
 de O
-Nordine B-PER
+Nordine B-LOC
 . O
 De O
 même O
@@ -8630,7 +8630,7 @@ et O
 |
 
 | O
-d’ B-PER
+d’ O
 accepté O
 , O
 un O
@@ -8639,19 +8639,19 @@ rendez-vous O
 |
 
 | O
-TS B-ORG
+TS O
 de O
-VE B-LOC
+VE B-ORG
 ol O
 ce O
 0 O
 et O
-R B-MISC
+R B-LOC
 |
 
-| I-MISC
-Le O
-dragon O
+| I-LOC
+Le I-LOC
+dragon I-LOC
 se O
 mit O
 à O
@@ -8716,10 +8716,10 @@ Si O
 vous O
 avez O
 jamais O
-âattendu O
+âattendu B-PER
 |
-| O
-|||| O
+| I-PER
+|||| I-PER
 _ O
 pour O
 le O
@@ -8727,16 +8727,16 @@ même O
 motif O
 , O
 vous O
-n’ B-PER
+n’ O
 serez O
 le O
-blämer O
+blämer B-PER
 . O
 |
 
 | O
 se O
-Doucettement O
+Doucettement B-LOC
 , O
 à O
 la O
@@ -8746,10 +8746,10 @@ fins O
 , O
 la O
 Rose B-MISC
-ou- O
+ou- I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 vrit O
 la O
 porte O
@@ -8777,10 +8777,10 @@ la O
 |
 
 | O
-PO B-ORG
-REP I-ORG
-RIRE I-ORG
-IT I-ORG
+PO O
+REP O
+RIRE O
+IT O
 s O
 y O
 |
@@ -8800,13 +8800,13 @@ Er B-LOC
 
 | O
 PSM O
-AR B-LOC
+AR O
 |
 | O
 : O
 4 O
 ! O
-F O
+F B-LOC
 |
 
  
@@ -8817,16 +8817,16 @@ ss O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 43 O
 |
 | O
 nuit O
 était O
-noïre O
-noire O
+noïre B-PER
+noire I-PER
 . O
 Donc O
 , O
@@ -8845,7 +8845,7 @@ Le O
 dra- O
 |
 | O
-gon B-PER
+gon O
 , O
 dans O
 la O
@@ -8895,7 +8895,7 @@ jeunesse O
 , O
 je O
 vous O
-l’ B-ORG
+l’ O
 assure O
 , O
 ne O
@@ -8929,7 +8929,7 @@ peur O
 |
 | O
 que O
-Pierre B-PER
+Pierre B-MISC
 ne O
 les O
 compte O
@@ -9012,7 +9012,7 @@ si O
 bien O
 que O
 la O
-Rose B-MISC
+Rose B-PER
 |
 | O
 se O
@@ -9052,56 +9052,56 @@ sa O
 |
 
 | O
-FA B-ORG
+FA O
 |
 
 | O
-PERRIN B-ORG
+PERRIN O
 PAR O
-L O
-Le O
-de O
-SMS B-MISC
+L B-MISC
+Le I-MISC
+de I-MISC
+SMS I-MISC
 |
 
 | O
 " O
 + O
 DE O
-TER B-ORG
-EN O
-LISE B-MISC
-PRIE I-MISC
+TER B-MISC
+EN I-MISC
+LISE I-MISC
+PRIE O
 |
 | O
 ÉLIRE O
-ENTER O
-TR B-ORG
+ENTER B-ORG
+TR I-ORG
 N I-ORG
 IT I-ORG
 De O
 PP B-ORG
-RIE I-ORG
-TETE I-ORG
+RIE O
+TETE O
 ETES O
 MERE O
-OP B-ORG
+OP O
 " O
-SP B-MISC
-ALES I-MISC
+SP O
+ALES O
 CES O
-EDEN B-ORG
-NE B-ORG
-PR I-ORG
+EDEN O
+NE O
+PR O
 PAR O
 |
 
 | O
-TRS O
-DM O
-TE O
+TRS B-MISC
+DM I-MISC
+TE I-MISC
 ARTS O
-YES B-ORG
+YES O
 |
 
 | O
@@ -9113,8 +9113,8 @@ k O
 | O
 4 O
 % O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -9163,15 +9163,15 @@ paraît O
 -que O
 les O
 choses O
-s’ B-MISC
-em- I-MISC
+s’ O
+em- O
 . O
 |
 
 | O
 brouillent O
 . O
-D’ B-PER
+D’ O
 aucuns O
 prétendent O
 qu’ O
@@ -9196,7 +9196,7 @@ ne O
 nous O
 donne O
 pas O
-d’ B-MISC
+d’ O
 ex- O
 |
 | O
@@ -9223,7 +9223,7 @@ bras O
 voilà O
 ce O
 que O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -9344,7 +9344,7 @@ payée O
 
 | O
 pour O
-ça O
+ça B-MISC
 . O
 |
 
@@ -9371,12 +9371,12 @@ laisse O
 mon O
 courage O
 . O
-Tiens B-LOC
+Tiens O
 , O
 |
 | O
 ma O
-Rose B-PER
+Rose B-MISC
 , O
 je O
 te O
@@ -9413,9 +9413,9 @@ jamais O
 . O
 |
 | O
-M’'aimeras B-LOC
-- I-LOC
-tu I-LOC
+M’'aimeras B-PER
+- I-PER
+tu I-PER
 encore O
 quand O
 je O
@@ -9428,8 +9428,8 @@ dis O
 dis O
 , O
 ma O
-Rose B-PER
-? O
+Rose B-MISC
+? I-MISC
 |||| O
 |
 
@@ -9476,7 +9476,7 @@ lots O
 Je O
 ne O
 pourrais O
-t’ B-LOC
+t’ O
 oublier O
 , O
 quand O
@@ -9569,7 +9569,7 @@ ou O
 | O
 du O
 né O
-Vos B-PER
+Vos O
 le O
 né O
 et O
@@ -9578,10 +9578,10 @@ chattes O
 mms O
 me O
 Mb B-MISC
-6 I-MISC
-ble I-MISC
+6 O
+ble B-MISC
 2 I-MISC
-és O
+és I-MISC
 de O
 maman B-PER
 hit I-PER
@@ -9607,14 +9607,14 @@ courtiers O
 + O
 |
 | O
-Ë O
+Ë B-MISC
 peut-être O
 d’ O
 autres O
 jeunesses O
 ... O
-Oh B-MISC
-! I-MISC
+Oh O
+! O
 cette O
 idée- O
 |
@@ -9633,8 +9633,8 @@ ne O
 veux O
 |
 | O
-ME B-ORG
-pas I-ORG
+ME O
+pas O
 , O
 moi O
 , O
@@ -9674,21 +9674,21 @@ je O
 te O
 garderai O
 . O
-Jure O
+Jure B-PER
 -moi O
 , O
-|||| O
+|||| B-PER
 |
-| O
-Me B-MISC
+| I-PER
+Me I-PER
 . O
 d. O
 |
 | O
-À B-MISC
+À O
 |
-| I-MISC
-5 I-MISC
+| O
+5 O
 |
 | O
 F B-LOC
@@ -9712,14 +9712,14 @@ treize O
 | O
 46 O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 |
 
   
 
 | O
-Pierre O
+Pierre B-MISC
 , O
 sur O
 ce O
@@ -9770,7 +9770,7 @@ jure O
 , O
 dit O
 le O
-dragon B-LOC
+dragon O
 . O
 . O
 |
@@ -9813,7 +9813,7 @@ tu O
 ne O
 dois O
 penser O
-qu’ B-PER
+qu’ O
 à O
 moi O
 ; O
@@ -9852,16 +9852,16 @@ vous O
 autres O
 militaires O
 . O
-Jure O
+Jure B-PER
 , O
 Pierre B-MISC
 , O
 |
 | O
 et O
-dépêche B-MISC
-- I-MISC
-toi I-MISC
+dépêche O
+- O
+toi O
 . O
 |||| O
 |
@@ -9912,7 +9912,7 @@ ailleurs O
 un O
 homme O
 , O
-c’ B-MISC
+c’ O
 est O
 pas O
 la O
@@ -9958,8 +9958,8 @@ es O
 ép O
 vs O
 tek O
-ï B-MISC
-RE I-MISC
+ï O
+RE O
 u O
 |
 
@@ -9995,12 +9995,12 @@ k O
 L O
 |
 | O
-ERA B-ORG
+ERA O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 41 O
 |
@@ -10045,7 +10045,7 @@ Rose B-PER
 dit O
 |
 | O
-Pierre B-PER
+Pierre B-MISC
 ; O
 je O
 vas O
@@ -10077,7 +10077,7 @@ tellement O
 que O
 si O
 on O
-n’ B-PER
+n’ O
 avait O
 pas O
 üun O
@@ -10274,8 +10274,8 @@ si O
 
 | O
 LE O
-R B-ORG
-el I-ORG
+R O
+el O
 l O
 as O
 |
@@ -10298,8 +10298,8 @@ at O
 
 | O
 48 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -10331,9 +10331,9 @@ Eté B-PER
 . O
 mise O
 ... O
-NN B-PER
+NN B-ORG
 |
-| I-PER
+| O
 La B-MISC
 Rose I-MISC
 sentit O
@@ -10374,9 +10374,9 @@ deux O
 | O
 aussi O
 ? O
-Crois B-LOC
-- I-LOC
-tu I-LOC
+Crois O
+- O
+tu O
 que O
 lorsqu' O
 un O
@@ -10453,8 +10453,8 @@ rap- O
 | O
 port O
 à O
-Ma B-MISC
-figure I-MISC
+Ma B-LOC
+figure O
 , O
 à O
 ma O
@@ -10471,7 +10471,7 @@ je O
 les O
 écouterai O
 . O
-M’ B-PER
+M’ B-LOC
 est O
 avis O
 aussi O
@@ -10501,18 +10501,18 @@ gardera O
 |
 
 | O
-LR O
-PRES O
-DSL B-ORG
-PRENDRE I-ORG
+LR B-ORG
+PRES B-MISC
+DSL I-MISC
+PRENDRE I-MISC
 |
 
-| O
-L' O
-amour O
+| I-MISC
+L' I-MISC
+amour I-MISC
 , O
 comme O
-d’ B-MISC
+d’ O
 aucuns O
 le O
 prétendent O
@@ -10530,11 +10530,11 @@ Am B-MISC
 TT I-MISC
 |
 
-| O
-# O
-5 O
-at O
-Le O
+| I-MISC
+# I-MISC
+5 I-MISC
+at I-MISC
+Le I-MISC
 |
 | O
 Ti B-MISC
@@ -10578,32 +10578,32 @@ devant O
 ‘ O
 |
 | O
-Y O
-: O
+Y B-ORG
+: I-ORG
 |
-| O
-“ O
+| I-ORG
+“ I-ORG
 |
 
-| O
-La O
+| I-ORG
+La I-ORG
 |
 
    
 
-| O
-RATS O
+| I-ORG
+RATS I-ORG
 |
 
   
 
-| O
-pr O
+| I-ORG
+pr I-ORG
 |
 
-| O
-S B-MISC
-PAR I-MISC
+| I-ORG
+S I-ORG
+PAR I-ORG
 En O
 |
 
@@ -10625,8 +10625,8 @@ n O
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 . O
 49 O
@@ -10637,7 +10637,7 @@ Ayant O
 répondu O
 , O
 la O
-Rose B-LOC
+Rose B-PER
 se O
 mit O
 à O
@@ -10697,7 +10697,7 @@ de O
 peur O
 |
 | O
-d’ B-PER
+d’ O
 éveiller O
 les O
 voisins O
@@ -10729,7 +10729,7 @@ ne O
 veux O
 pas O
 que O
-J' B-LOC
+J' O
 exige O
 de O
 |
@@ -10740,7 +10740,7 @@ toi O
 
 | O
 — O
-Parce B-LOC
+Parce O
 qu’ O
 une O
 femme O
@@ -10757,7 +10757,7 @@ voix O
 de O
 commandement O
 , O
-ca B-LOC
+ca B-MISC
 doit O
 donner O
 tout O
@@ -10779,8 +10779,8 @@ foi O
 dit O
 la O
 Rose B-MISC
-en O
-goguenardant O
+en I-MISC
+goguenardant I-MISC
 , O
 |
 | O
@@ -10791,9 +10791,9 @@ on O
 irait O
 loin O
 . O
-Bah B-MISC
-! I-MISC
-bah B-LOC
+Bah O
+! O
+bah O
 ! O
 plus O
 on O
@@ -10846,20 +10846,20 @@ train O
 de O
 causer O
 , O
-ve- O
+ve- B-PER
 |
 
 | O
 de O
-R B-PER
-PR I-PER
-ET O
+R B-LOC
+PR I-LOC
+ET I-LOC
 |
 | O
 . O
 r O
 ; O
-fi B-MISC
+fi O
 . O
 |
 
@@ -10869,35 +10869,35 @@ dios O
 dus O
 I B-MISC
 GORE I-MISC
-ur O
-A O
-D O
-a O
-2 O
-D O
-2 O
-0 O
+ur I-MISC
+A I-MISC
+D I-MISC
+a I-MISC
+2 I-MISC
+D I-MISC
+2 I-MISC
+0 I-MISC
 m O
 mnt O
 0 O
 — O
-RSC B-LOC
-- I-LOC
+RSC O
+- O
 |
 
-| I-LOC
-+ I-LOC
+| O
++ O
 , O
 : O
 à O
 4 O
 |
 | O
-Laine B-PER
-int O
+Laine B-MISC
+int I-MISC
 mis O
 5 O
-Ps B-MISC
+Ps B-ORG
 ri O
 . O
 she O
@@ -10905,10 +10905,10 @@ she O
 |
 
 | O
-M B-PER
-A I-PER
-halte I-PER
-SM I-PER
+M O
+A O
+halte O
+SM O
 ri O
 |
 
@@ -10925,13 +10925,13 @@ mbtagelhé O
 50 O
 |||| O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 |
 
 | O
-EST O
-EN O
+EST B-LOC
+EN I-LOC
 77 O
 |
 
@@ -10952,7 +10952,7 @@ pas O
 chaud O
 dehors O
 . O
-Me O
+Me B-MISC
 voyant O
 au O
 doigt O
@@ -10969,9 +10969,9 @@ Der O
 , O
 |
 | O
-ET O
-IL B-MISC
-SE I-MISC
+ET B-ORG
+IL I-ORG
+SE I-ORG
 |
 
 | O
@@ -10995,21 +10995,21 @@ se O
 formaliserait O
 point O
 de O
-La B-MISC
+La B-ORG
 |
-| I-MISC
-liberté I-MISC
-que I-MISC
-je I-MISC
-te I-MISC
-laisse I-MISC
+| I-ORG
+liberté I-ORG
+que O
+je O
+te O
+laisse O
 prendre O
 . O
 |
 
 | O
 _ O
-Etils O
+Etils B-LOC
 entrèrent O
 ; O
 mais O
@@ -11022,12 +11022,12 @@ chan- O
 delle O
 , O
 la O
-Rose B-MISC
+Rose B-LOC
 et O
 crainte O
 de O
 déranger O
-Norne B-LOC
+Norne B-PER
 |
 | O
 en O
@@ -11098,8 +11098,8 @@ gascon O
 |
 
 | O
-Le O
-|||| O
+Le B-ORG
+|||| I-ORG
 ne O
 pouvait O
 se O
@@ -11140,9 +11140,9 @@ petite O
 |
 
 | O
-ES O
-- O
-armoire O
+ES B-MISC
+- I-MISC
+armoire I-MISC
 , O
 une O
 chaise O
@@ -11203,11 +11203,11 @@ il O
 | O
 & O
 , O
-s’ B-PER
+s’ O
 assit O
 , O
 tout O
-émotioné O
+émotioné B-PER
 , O
 sur O
 la O
@@ -11219,20 +11219,20 @@ tandis O
    
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
-d1 O
+d1 B-MISC
 |
 
   
 
-| O
+| I-MISC
 |||| O
 _ O
 que O
 la O
-Rose B-MISC
+Rose B-PER
 se O
 posait O
 au O
@@ -11317,7 +11317,7 @@ que O
 sans O
 Ça B-MISC
 il O
-n’ B-PER
+n’ O
 y O
 aurait O
 guère O
@@ -11352,7 +11352,7 @@ trompent O
 soient O
 |
 | O
-Ë O
+Ë B-MISC
 toujours O
 trompés O
 . O
@@ -11399,7 +11399,7 @@ que O
 le O
 garçon O
 qui O
-l’ B-ORG
+l’ O
 a O
 mise O
 à O
@@ -11410,14 +11410,14 @@ mal O
 | O
 _ O
 — O
-Moi B-MISC
-je I-MISC
-lâme I-MISC
+Moi O
+je O
+lâme O
 plutôt O
 le O
 gascon O
 dans O
-l’ B-MISC
+l’ O
 a- O
 ” O
 +4 O
@@ -11429,9 +11429,9 @@ faire O
 , O
 dit O
 la O
-Rose B-MISC
+Rose B-LOC
 . O
-M’ B-PER
+M’ B-LOC
 est O
 avis O
 que O
@@ -11455,7 +11455,7 @@ trop O
 |
 | O
 se O
-d’ B-PER
+d’ O
 aucuns O
 parmi O
 vous O
@@ -11488,18 +11488,18 @@ endom- O
 | O
 r O
 , O
-ddr O
-ms O
-- O
-. O
+ddr B-MISC
+ms I-MISC
+- I-MISC
+. I-MISC
 - O
 ... O
 |
 | O
 nn O
 . O
-imnmmtn— B-MISC
-# I-MISC
+imnmmtn— O
+# O
 nul O
 ns O
 + O
@@ -11513,13 +11513,13 @@ le O
 th O
 me O
 en O
-PR B-MISC
-TE I-MISC
-E I-MISC
+PR B-LOC
+TE I-LOC
+E I-LOC
 |
 | O
 _ O
-ER B-LOC
+ER B-ORG
 ee O
 — O
 " O
@@ -11532,7 +11532,7 @@ t O
 te O
 de O
 + O
-M B-PER
+M O
 me O
 |
 
@@ -11549,14 +11549,14 @@ la O
 02 O
 |||| O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 |
 
 | O
 triser O
 Îles B-LOC
-filles I-LOC
+filles O
 , O
 au O
 lieu O
@@ -11574,7 +11574,7 @@ deux O
 bras O
 , O
 on O
-n’ B-PER
+n’ O
 entendait O
 pas O
 , O
@@ -11630,8 +11630,8 @@ coquette O
 
 | O
 — O
-Type B-PER
-! O
+Type B-MISC
+! I-MISC
 dit O
 le O
 dragon O
@@ -11644,7 +11644,7 @@ avec O
 les O
 femmes O
 on O
-n’ B-PER
+n’ O
 a O
 jamais O
 le O
@@ -11676,7 +11676,7 @@ peut O
 | O
 hardiment O
 soutenir O
-qu’ B-LOC
+qu’ O
 elles O
 sont O
 plus O
@@ -11700,9 +11700,9 @@ son O
 ma O
 fine O
 Rose B-MISC
-, I-MISC
-les I-MISC
-hommes I-MISC
+, O
+les O
+hommes O
 , O
 de O
 même O
@@ -11732,10 +11732,10 @@ de O
 sa O
 chaise O
 , O
-Pierre B-PER
+Pierre B-MISC
 |
-| I-PER
-s’ I-PER
+| O
+s’ O
 en O
 vint O
 embrasser O
@@ -11776,7 +11776,7 @@ cœurs O
 bien O
 sûr O
 ... O
-c’ B-MISC
+c’ O
 est O
 juré O
 , O
@@ -11810,17 +11810,17 @@ CR B-ORG
 |
 | O
 GMT O
-He O
-+ O
-Fe O
-Fi O
+He B-PER
++ I-PER
+Fe I-PER
+Fi I-PER
 |
 | O
 200 O
 : O
 7 O
-MON B-MISC
-VILLAGE B-ORG
+MON O
+VILLAGE O
 . O
 |||| O
 53 O
@@ -11877,23 +11877,23 @@ donc O
 |
 | O
 — O
-Rose B-PER
+Rose B-MISC
 , O
 m' O
 aimes O
 - O
-Uu B-LOC
+Uu O
 ? O
 5 O
 |
 | O
 |||—| O
-Pierre O
+Pierre B-MISC
 , O
 ait O
 la O
 Rose B-MISC
-d’ I-MISC
+d’ O
 une O
 voix O
 sûre O
@@ -11960,23 +11960,23 @@ moment O
 |
 
 | O
-Ve B-PER
+Ve B-MISC
 |
 
  
 
   
 
-| O
-DE O
+| I-MISC
+DE I-MISC
 |
 
-| O
-A O
+| I-MISC
+A I-MISC
 |
 
-| O
-ape O
+| I-MISC
+ape I-MISC
 : O
 |
 
@@ -11988,23 +11988,23 @@ ape O
 a O
 |
 | O
-En O
+En B-MISC
 |
-| O
-© O
+| I-MISC
+© I-MISC
 |
 
-| O
-S B-LOC
+| I-MISC
+S I-MISC
 |
 
  
 
  
 
-| O
-È O
-4 O
+| I-MISC
+È I-MISC
+4 I-MISC
 « O
 + O
 + O
@@ -12012,11 +12012,11 @@ et O
 " O
 |
 | O
-FR B-LOC
+FR B-MISC
 + O
 4 O
 . O
-LE O
+LE B-LOC
 p O
 : O
 + O
@@ -12029,12 +12029,12 @@ T. O
 | O
 “ O
 + O
-Ex O
-ve O
-Ant B-LOC
-2 O
-“ O
-pre O
+Ex B-MISC
+ve I-MISC
+Ant I-MISC
+2 I-MISC
+“ I-MISC
+pre I-MISC
 ; O
 |
 | O
@@ -12052,16 +12052,16 @@ nié O
 |
 | O
 E B-LOC
-- I-LOC
+- O
 |
-| I-LOC
-RE I-LOC
+| O
+RE O
 |
 | O
 42 O
 |
 | O
-AL O
+AL B-ORG
 * O
 |
 | O
@@ -12073,26 +12073,26 @@ AL O
 |
 | O
 : O
-IT B-MISC
+IT O
 |
 | O
 . O
 , O
 |
 | O
-Lui O
-En B-MISC
+Lui B-MISC
+En I-MISC
 ET I-MISC
 Re I-MISC
-|||| O
+|||| I-MISC
 ; O
 : O
 |
 | O
 D. O
-LES O
-PARIGOTS B-MISC
-! O
+LES B-MISC
+PARIGOTS I-MISC
+! I-MISC
 |
 | O
 s O
@@ -12109,15 +12109,15 @@ ce O
 Le O
 parigot O
 de O
-Thérèse B-PER
+Thérèse O
 , O
 la O
 femme O
 à O
 Jean- B-PER
 |
-| O
-À O
+| I-PER
+À I-PER
 _ O
 Claude B-PER
 , O
@@ -12133,10 +12133,10 @@ qui O
 | O
 5 O
 l O
-om O
-niet O
-pas O
-naturelle O
+om B-ORG
+niet I-ORG
+pas I-ORG
+naturelle I-ORG
 . O
 |
 
@@ -12176,7 +12176,7 @@ li O
 cria O
 Toinon B-LOC
 , O
-l’ B-LOC
+l’ O
 épicière O
 , O
 |
@@ -12186,7 +12186,7 @@ en O
 voyant O
 passer O
 . O
-Tournez B-LOC
+Tournez B-MISC
 -vous O
 d' O
 ici O
@@ -12194,7 +12194,7 @@ ici O
 |
 | O
 … O
-Morlincourt O
+Morlincourt B-LOC
 ? O
 Vous O
 marchez O
@@ -12234,21 +12234,21 @@ bre O
 
 | O
 : O
-R O
+R B-MISC
 |
 
-| O
-T2 O
+| I-MISC
+T2 I-MISC
 |
 
-| O
-+ O
+| I-MISC
++ I-MISC
 |
 
-| O
-7 O
+| I-MISC
+7 I-MISC
 |
-| O
+| I-MISC
 - O
 |
 
@@ -12257,43 +12257,43 @@ T2 O
 |
 
 | O
-La O
+La B-LOC
 |
 
-| O
-PR B-ORG
+| I-LOC
+PR I-LOC
 |
 
-| O
-DE O
+| I-LOC
+DE I-LOC
 |
 
-| O
-D. B-MISC
-4 I-MISC
-0ORANGE I-MISC
-RE I-MISC
-Dane I-MISC
-SR I-MISC
-ee O
+| I-LOC
+D. I-LOC
+4 I-LOC
+0ORANGE I-LOC
+RE I-LOC
+Dane I-LOC
+SR I-LOC
+ee I-LOC
 à O
 RER B-LOC
 DE I-LOC
-de I-LOC
-3 I-LOC
-2 I-LOC
-08 I-LOC
-De I-LOC
+de O
+3 O
+2 O
+08 O
+De O
 |
 
-| I-LOC
-- I-LOC
+| O
+- O
 |
 
-| I-LOC
-D8 I-LOC
-MON I-LOC
-VILLAGE I-LOC
+| O
+D8 B-MISC
+MON I-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -12352,11 +12352,11 @@ amis O
 
 | O
 — O
-Je B-MISC
-m' I-MISC
-en I-MISC
-vas I-MISC
-vite I-MISC
+Je O
+m' O
+en O
+vas O
+vite O
 et O
 vite O
 à O
@@ -12422,10 +12422,10 @@ nouveau O
 dit O
 -elle O
 , O
-Oui B-LOC
-- I-LOC
-da I-LOC
-! I-LOC
+Oui B-PER
+- I-PER
+da I-PER
+! I-PER
 |
 | O
 Claude B-PER
@@ -12480,10 +12480,10 @@ lier O
 |
 
 | O
-M' O
+M' B-LOC
 est O
 avis O
-qu’ B-LOC
+qu’ O
 il O
 serait O
 bon O
@@ -12500,12 +12500,12 @@ de O
 Toinon B-LOC
 en O
 voyant O
-Jean- O
+Jean- B-PER
 |
 
-| O
-MON O
-VILLAGE O
+| I-PER
+MON I-PER
+VILLAGE I-PER
 . O
 59 O
 |
@@ -12525,7 +12525,7 @@ pari- O
  
 
 | O
-L O
+L B-LOC
 : O
 got O
 . O
@@ -12582,7 +12582,7 @@ et O
 de O
 morceaux O
 ; O
-d’ B-PER
+d’ O
 aucuns O
 vivotent O
 , O
@@ -12615,15 +12615,15 @@ mauvais O
 lait O
 , O
 des O
-|||| O
+|||| B-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 < O
 maladies O
 , O
 il O
-n’ B-PER
+n’ O
 est O
 besoin O
 d’ O
@@ -12656,16 +12656,16 @@ le O
 fossoyeur O
 passe O
 avec O
-|||| O
+|||| B-MISC
 |
-| O
-1 O
-une O
-petite O
-boîte O
-sous O
-le O
-bras O
+| I-MISC
+1 I-MISC
+une I-MISC
+petite I-MISC
+boîte I-MISC
+sous I-MISC
+le I-MISC
+bras I-MISC
 , O
 il O
 répond O
@@ -12674,7 +12674,7 @@ un O
 1 O
 |
 | O
-brin B-PER
+brin O
 trop O
 souvent O
 , O
@@ -12694,13 +12694,13 @@ de O
 gauche O
 : O
 « O
-C’ B-MISC
+C’ O
 est O
 rien O
 , O
 |
 | O
-c’ B-MISC
+c’ O
 est O
 un O
 parigot O
@@ -12710,7 +12710,7 @@ parigot O
 
 | O
 Jean-Claude B-PER
-coupa I-PER
+coupa O
 dans O
 les O
 terres O
@@ -12780,18 +12780,18 @@ L I-LOC
 » O
 en O
 2 O
-Lû O
+Lû B-MISC
 née O
 |
 | O
-CRT B-MISC
-TS I-MISC
-Se O
-tn O
-DRE O
-tn O
-to O
-Cu B-LOC
+CRT O
+TS B-ORG
+Se I-ORG
+tn I-ORG
+DRE I-ORG
+tn I-ORG
+to I-ORG
+Cu I-ORG
 |
 | O
 + O
@@ -12804,54 +12804,54 @@ T B-LOC
 - O
 D O
 Paie O
-27 O
-LYS O
+27 B-LOC
+LYS I-LOC
 |
 | O
 fs O
 £ O
 it O
 ) O
-PONS B-MISC
-PR I-MISC
+PONS B-ORG
+PR I-ORG
 s O
 |
 
 | O
 D B-PER
 D I-PER
-ARR B-ORG
-uns O
-+ O
+ARR I-PER
+uns I-PER
++ I-PER
 |
 
-| O
+| I-PER
 L B-MISC
 |
 | I-MISC
-Re O
-Re O
+Re B-MISC
+Re I-MISC
 |
 
   
 
-| O
-D O
+| I-MISC
+D I-MISC
 |
-| O
-« O
+| I-MISC
+« I-MISC
 |
 
-| O
-“ O
+| I-MISC
+“ I-MISC
 |
-| O
-1 O
+| I-MISC
+1 I-MISC
 |
-| O
-: O
+| I-MISC
+: I-MISC
 |
-| O
+| I-MISC
 U B-ORG
 |
 | O
@@ -12877,7 +12877,7 @@ mn O
  
 
 | O
-RO B-ORG
+RO O
 |
 | O
 5 O
@@ -12896,8 +12896,8 @@ de O
 
 | O
 60 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -12990,8 +12990,8 @@ inquiétudes O
 
 | O
 — O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 tomba O
 de O
 son O
@@ -13059,7 +13059,7 @@ Croirait O
 tu O
 que O
 je O
-n’ B-PER
+n’ O
 ai O
 ja- O
 |
@@ -13109,7 +13109,7 @@ Le O
 fait O
 est O
 que O
-d’ B-MISC
+d’ O
 aucuns O
 pourraient O
 être O
@@ -13125,8 +13125,8 @@ pitié O
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 61 O
 |
@@ -13139,7 +13139,7 @@ Oui O
 va O
 , O
 on O
-s’ B-PER
+s’ O
 émeut O
 au O
 récit O
@@ -13158,7 +13158,7 @@ de O
 gens O
 inconnus O
 , O
-d’ B-PER
+d’ O
 es- O
 |
 
@@ -13195,7 +13195,7 @@ convenu O
 ; O
 et O
 , O
-s’ B-PER
+s’ O
 il O
 s' O
 agissait O
@@ -13295,7 +13295,7 @@ sans O
 cesse O
 , O
 je O
-n’ B-PER
+n’ O
 ai O
 pu O
 m' O
@@ -13333,7 +13333,7 @@ de O
 campagne O
 . O
 Si O
-l’ B-LOC
+l’ O
 on O
 sa- O
 |
@@ -13341,8 +13341,8 @@ sa- O
  | O
 CARRI B-ORG
 |
-| I-ORG
-Pat I-ORG
+| O
+Pat O
 r O
 |
 
@@ -13354,7 +13354,7 @@ haines O
 qui O
 germent O
 en O
-l’ B-LOC
+l’ O
 âme O
 |
 | O
@@ -13439,7 +13439,7 @@ de O
 se O
 laisser O
 voir O
-j. O
+j. B-PER
 |
 | O
 qu' O
@@ -13468,10 +13468,10 @@ OU O
 " O
 pod O
 à O
-Fa B-ORG
-+ I-ORG
+Fa B-MISC
++ I-MISC
 ; O
-SEL B-MISC
+SEL B-ORG
 L O
 " O
 1 O
@@ -13482,19 +13482,19 @@ D B-PER
 DE I-PER
 D I-PER
 ET I-PER
-D O
-NE O
-ET O
+D I-PER
+NE I-PER
+ET I-PER
 moderne O
 . O
 qu O
 au O
 Ph B-LOC
-n I-LOC
+n O
 - O
 mg O
 en O
-pee B-ORG
+pee B-MISC
 ) O
 ane O
 us O
@@ -13657,7 +13657,7 @@ pauvres O
 pe- O
 |
 | O
-tiots O
+tiots B-LOC
 , O
 sur O
 des O
@@ -13711,8 +13711,8 @@ reculons O
 de O
 peur O
 . O
-Notre B-PER
-mère I-PER
+Notre O
+mère O
 , O
 pour O
 lors O
@@ -13729,31 +13729,31 @@ dit O
 |
 
 | O
-D B-LOC
+D B-PER
 . O
 |
 
  
 
 | O
-RS B-ORG
-RE I-ORG
-- I-ORG
+RS B-MISC
+RE I-MISC
+- I-MISC
 |
 
  
 
-| O
-MON O
-VILLAGE O
+| I-MISC
+MON I-MISC
+VILLAGE I-MISC
 . O
 63 O
 |
 
 | O
 — O
-Mes B-MISC
-petits I-MISC
+Mes O
+petits O
 , O
 ne O
 vous O
@@ -13767,8 +13767,8 @@ est O
 des O
 créatures O
 du O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 , O
 pareilles O
 à O
@@ -13789,10 +13789,10 @@ fait O
 , O
 dit O
 M. B-PER
-Cé- B-PER
+Cé- I-PER
 |
-| O
-ran O
+| I-PER
+ran I-PER
 , O
 comme O
 pensant O
@@ -13869,7 +13869,7 @@ demandai O
 ? O
 — O
 « O
-C’ B-MISC
+C’ O
 est O
 rien O
 , O
@@ -13882,7 +13882,7 @@ f O
 | | O
 bergère O
 ; O
-c’ B-MISC
+c’ O
 est O
 un O
 parigot O
@@ -13913,17 +13913,17 @@ voit O
 plus O
 tant O
 de O
-mi-/ B-MISC
+mi-/ B-ORG
 |
 
-| O
-nn O
+| I-ORG
+nn I-ORG
 ... O
 |
 | O
-M O
-Er O
-File O
+M B-MISC
+Er I-MISC
+File I-MISC
 à O
 |
 
@@ -13947,9 +13947,9 @@ sères O
 
 | O
 — O
-Allons B-LOC
-donc O
-! O
+Allons B-MISC
+donc I-MISC
+! I-MISC
 elle O
 n' O
 arrive O
@@ -13980,7 +13980,7 @@ passé O
 , O
 |
 | O
-n’ B-PER
+n’ O
 a O
 -t O
 -elle O
@@ -14021,20 +14021,20 @@ fallu O
 
 | O
 era O
-DR B-ORG
+DR O
 ANT O
 piment O
 e O
 3 O
-Cu O
-As O
-SE O
-AU O
-OO B-ORG
-AT I-ORG
-ARE I-ORG
+Cu B-MISC
+As I-MISC
+SE I-MISC
+AU I-MISC
+OO I-MISC
+AT I-MISC
+ARE I-MISC
 : O
-TRE B-MISC
+TRE B-ORG
 |
 
 | O
@@ -14049,7 +14049,7 @@ Een B-MISC
 
 | I-MISC
 CT I-MISC
-2 I-MISC
+2 O
 |
 
   
@@ -14057,8 +14057,8 @@ CT I-MISC
 | O
 04 O
 % O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -14068,7 +14068,7 @@ le O
 parigot O
 . O
 La O
-Jacquet B-LOC
+Jacquet B-MISC
 , O
 une O
 dévote O
@@ -14079,15 +14079,15 @@ a O
 fait O
 intervenir O
 M. B-PER
-le O
-curé O
+le I-PER
+curé I-PER
 et O
 menacé O
 le O
 maire O
 |
 | O
-d’ B-LOC
+d’ O
 une O
 plainte O
 aux O
@@ -14109,26 +14109,26 @@ toujours O
 
 | O
 — O
-Je B-LOC
-l’ I-LOC
-abomine O
+Je B-MISC
+l’ I-MISC
+abomine I-MISC
 , O
 moi O
 , O
 cette O
-Jacquet B-PER
+Jacquet B-MISC
 , O
 dit O
 |
 | O
 Jean-Claude B-PER
 , O
-c’ B-MISC
+c’ O
 est O
 une O
 paresseuse O
 , O
-Hier B-PER
+Hier B-MISC
 , O
 en O
 |
@@ -14156,7 +14156,7 @@ toi- O
 | O
 lette O
 ! O
-Figurez B-LOC
+Figurez O
 -vous O
 que O
 le O
@@ -14182,7 +14182,7 @@ nappes O
 et O
 qu' O
 elle O
-s’ B-PER
+s’ O
 en O
 allait O
 montrant O
@@ -14222,15 +14222,15 @@ Afin O
 de O
 reparler O
 de O
-madame O
-la O
-mai— O
+madame B-PER
+la I-PER
+mai— I-PER
 |
-| O
-resse O
+| I-PER
+resse I-PER
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 point O
 de O
@@ -14238,7 +14238,7 @@ sa O
 faute O
 si O
 elle O
-n’ B-MISC
+n’ O
 a- O
 |
 
@@ -14277,7 +14277,7 @@ userait O
 |
 
 | O
-Ten B-LOC
+Ten B-PER
 |
 
 | O
@@ -14293,7 +14293,7 @@ Paris B-LOC
 et O
 les O
 y O
-remène O
+remène B-LOC
 . O
 |
 
@@ -14356,7 +14356,7 @@ voix O
 | O
 émotionée O
 , O
-c’ B-MISC
+c’ O
 est O
 un O
 de O
@@ -14382,7 +14382,7 @@ vous O
 ne O
 connaissez O
 pas O
-l’ B-LOC
+l’ O
 histoire O
 |
 | O
@@ -14397,9 +14397,9 @@ Jean-Claude B-PER
 et O
 |
 | O
-|||| O
-M. O
-Céran B-PER
+|||| B-PER
+M. I-PER
+Céran I-PER
 devisent O
 , O
 faut O
@@ -14411,12 +14411,12 @@ raconte O
 ; O
 |
 | O
-|||| O
+|||| B-MISC
 |
 
-| O
-|||| O
-|||| O
+| I-MISC
+|||| I-MISC
+|||| I-MISC
 La O
 parigote O
 , O
@@ -14428,8 +14428,8 @@ la O
 sor- O
 |
 | O
-|||| O
-cière O
+|||| B-PER
+cière I-PER
 , O
 s' O
 était O
@@ -14457,7 +14457,7 @@ de O
 nourrice O
 . O
 Maria B-PER
-l’ I-PER
+l’ O
 avait O
 gardée O
 |
@@ -14466,7 +14466,7 @@ tout O
 de O
 même O
 , O
-l’ B-LOC
+l’ O
 utilisant O
 le O
 mieux O
@@ -14478,7 +14478,7 @@ ses O
 sorcellerie O
 , O
 et O
-l’ B-ORG
+l’ O
 envoyant O
 mendier O
 |
@@ -14498,7 +14498,7 @@ les O
 grandes O
 routes O
 . O
-Brülée B-PER
+Brülée O
 de O
 |
 | O
@@ -14531,8 +14531,8 @@ la O
 
 | O
 NP B-ORG
-PE B-LOC
-RES I-LOC
+PE I-ORG
+RES I-ORG
 |
 
 | O
@@ -14559,13 +14559,13 @@ cm O
 |
 
 | O
-L B-MISC
+L O
 |
 
  
 
 | O
-FAR B-ORG
+FAR B-LOC
 . O
 Fer O
 à O
@@ -14578,11 +14578,11 @@ et O
 |
 
 | O
-A O
-RE O
-CURE O
-RE O
-UE B-ORG
+A B-MISC
+RE I-MISC
+CURE I-MISC
+RE I-MISC
+UE I-MISC
 |
 
 | O
@@ -14590,17 +14590,17 @@ UE B-ORG
 . O
 |
 | O
-mr O
+mr B-ORG
 s O
 « O
 . O
 |
 | O
-Ÿ O
-hsiticatlh O
+Ÿ B-PER
+hsiticatlh I-PER
 |
-| O
-wi B-MISC
+| I-PER
+wi I-PER
 me O
 ti O
 attente O
@@ -14618,7 +14618,7 @@ RS O
 66 O
 . O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
@@ -14687,7 +14687,7 @@ la O
 soutenait O
 hardiment O
 , O
-l’ B-LOC
+l’ O
 appelait O
 dans O
 sa O
@@ -14814,8 +14814,8 @@ de O
  
 
 | O
-vhs O
-eh O
+vhs B-MISC
+eh I-MISC
 . O
 6 O
 |
@@ -14830,9 +14830,9 @@ Dante B-PER
 |
 
 | O
-ES B-LOC
-ET O
-TU O
+ES B-MISC
+ET I-MISC
+TU I-MISC
 |
 
 | O
@@ -14840,8 +14840,8 @@ PRES O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 67 O
 |
@@ -14857,14 +14857,14 @@ le O
 second O
 jour O
 , O
-planta B-ORG
+planta O
 |
 | O
 là O
 le O
 cordier O
 et O
-s’ B-PER
+s’ O
 en O
 retourna O
 vagabonder O
@@ -14882,7 +14882,7 @@ Madame B-PER
 la O
 mairesse O
 ne O
-s’ B-PER
+s’ O
 avoua O
 point O
 bat- O
@@ -14903,11 +14903,11 @@ la O
 fuyarde O
 . O
 Ce O
-qu’ B-LOC
+qu’ O
 elle O
 mit O
 dans O
-l’ B-LOC
+l’ O
 esprit O
 de O
 la O
@@ -14940,7 +14940,7 @@ le O
 courage O
 |
 | O
-d’ B-MISC
+d’ O
 embrasser O
 une O
 pareille O
@@ -14982,7 +14982,7 @@ merveilles O
 . O
 Au O
 jour O
-d’ B-MISC
+d’ O
 autour- O
 |
 | O
@@ -15014,7 +15014,7 @@ en O
 |
 | O
 catimini O
-s’ B-PER
+s’ O
 il O
 était O
 juste O
@@ -15049,12 +15049,12 @@ petit O
 |
 
 | O
-Savoyard B-PER
+Savoyard B-LOC
 . O
 |
 
 | O
-M' O
+M' B-LOC
 est O
 avis O
 qu' O
@@ -15068,11 +15068,11 @@ apprenez O
 
 | O
 aussi O
-l’ B-ORG
+l’ O
 histoire O
 de O
 ce O
-Savoyard B-PER
+Savoyard B-LOC
 -là O
 : O
 |
@@ -15230,7 +15230,7 @@ je O
 vous O
 parle O
 , O
-c’ B-MISC
+c’ O
 est O
 encore O
 notre O
@@ -15238,7 +15238,7 @@ notre O
 | O
 mairesse O
 qui O
-l’ B-LOC
+l’ O
 a O
 réchappé O
 . O
@@ -15290,7 +15290,7 @@ francs O
 ; O
 puis O
 elle O
-l’ B-LOC
+l’ O
 a O
 soi- O
 |
@@ -15300,7 +15300,7 @@ ené O
 guéri O
 . O
 Le O
-gascon B-MISC
+gascon O
 a O
 bon O
 cœur O
@@ -15336,7 +15336,7 @@ et O
 |
 | O
 le O
-Savoyard B-PER
+Savoyard B-LOC
 seraient O
 bien O
 unis O
@@ -15357,25 +15357,25 @@ et O
  
 
 | O
-Br B-MISC
-nr I-MISC
-|
-
-| I-MISC
-APE I-MISC
-RENTRER I-MISC
-RER I-MISC
-|
-
-| I-MISC
-11 I-MISC
-See O
-PATES O
+Br B-LOC
+nr O
 |
 
 | O
-PE B-ORG
-+ O
+APE O
+RENTRER B-ORG
+RER B-LOC
+|
+
+| O
+11 O
+See B-MISC
+PATES I-MISC
+|
+
+| I-MISC
+PE I-MISC
++ I-MISC
 |
 
  
@@ -15383,11 +15383,11 @@ PE B-ORG
    
   
 
-| O
-Re O
-GUN B-ORG
-ua O
-nee B-ORG
+| I-MISC
+Re B-MISC
+GUN I-MISC
+ua I-MISC
+nee O
 |
 | O
 , O
@@ -15402,8 +15402,8 @@ r O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 69 O
 |
@@ -15413,14 +15413,14 @@ Pour O
 en O
 revenir O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 et O
 à O
 M. B-PER
-Cé- B-PER
+Cé- I-PER
 |
-| O
-ran O
+| I-PER
+ran I-PER
 , O
 ils O
 devisaient O
@@ -15439,16 +15439,16 @@ côte O
 | O
 _ O
 — O
-Allez B-LOC
+Allez B-PER
 , O
 monsieur O
 Céran B-PER
 , O
 disait O
-Jean- O
+Jean- B-PER
 |
-| O
-Claude B-PER
+| I-PER
+Claude I-PER
 , O
 vaudrait O
 mieux O
@@ -15590,7 +15590,7 @@ avisé O
 . O
 |
 | O
-A O
+A B-LOC
 ce O
 propos O
 - O
@@ -15639,50 +15639,50 @@ TE B-MISC
 | | I-MISC
 # I-MISC
 |
-| O
-ne O
-+ O
+| I-MISC
+ne I-MISC
++ I-MISC
 R B-MISC
 DER I-MISC
-A I-MISC
-ET I-MISC
-Se I-MISC
-5 I-MISC
-R I-MISC
+A O
+ET O
+Se O
+5 O
+R O
 |
 
-| I-MISC
-Le B-LOC
+| O
+Le O
 |
 
-| I-LOC
-sTS I-LOC
-gone I-LOC
-mr I-LOC
-ce I-LOC
+| O
+sTS O
+gone O
+mr O
+ce O
 . O
 |
 
 | O
 me O
-rs B-LOC
-fe I-LOC
+rs B-PER
+fe I-PER
 |
-| I-LOC
-‘ I-LOC
+| O
+‘ O
 |
 
-| I-LOC
-CT O
-ÉST O
-ONT O
+| O
+CT B-MISC
+ÉST I-MISC
+ONT I-MISC
 RES O
 © O
 de O
-Pr B-MISC
-gr I-MISC
-| | I-MISC
-S O
+Pr B-PER
+gr I-PER
+| | I-PER
+S I-PER
 |
 
 | O
@@ -15693,7 +15693,7 @@ VILLAGE O
 |
 
 | O
-l’ B-LOC
+l’ O
 année O
 passée O
 , O
@@ -15720,7 +15720,7 @@ N’ O
 eurent O
 -ils O
 pas O
-l’ B-LOC
+l’ O
 idée O
 , O
 il O
@@ -15775,7 +15775,7 @@ observez O
 |
 | O
 que O
-l’ B-LOC
+l’ O
 eau O
 de O
 Saint-Brunelle B-LOC
@@ -15787,7 +15787,7 @@ Tout O
 | O
 ça O
 , O
-c’ B-MISC
+c’ O
 est O
 la O
 faute O
@@ -15817,7 +15817,7 @@ amuse O
 | O
 prétendre O
 que O
-l’ B-ORG
+l’ O
 eau O
 de O
 nos O
@@ -15827,7 +15827,7 @@ préférable O
 |
 | O
 à O
-l’ B-LOC
+l’ O
 eau O
 de O
 notre O
@@ -15892,8 +15892,8 @@ leu O
 - O
 leu O
 . O
-Ah B-MISC
-! I-MISC
+Ah O
+! O
 |
 | O
 nous O
@@ -15947,27 +15947,27 @@ arrivés O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 71 O
 |
 
 | O
 Comme O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 sortait O
 de O
 chez O
-Jean- B-ORG
+Jean- B-PER
 |
 | O
 11 O
 Claude B-PER
 , O
 on O
-s’ B-PER
+s’ O
 en O
 venait O
 le O
@@ -15982,10 +15982,10 @@ par O
 la O
 maison O
 de O
-Nordine B-PER
+Nordine O
 . O
-La O
-Rose B-MISC
+La B-MISC
+Rose I-MISC
 était O
 , O
 à O
@@ -16021,7 +16021,7 @@ sur O
 M. B-PER
 Céran I-PER
 . O
-M’ B-PER
+M’ B-LOC
 est O
 avis O
 que O
@@ -16089,8 +16089,8 @@ et O
 |
 
 | O
-|||| B-PER
-n’ I-PER
+|||| O
+n’ O
 est O
 pas O
 toujours O
@@ -16108,10 +16108,10 @@ fût O
 -ce O
 ! O
 le O
-cher B-ORG
-brave I-ORG
-homme I-ORG
-! I-ORG
+cher O
+brave O
+homme O
+! O
 |
 | O
 si O
@@ -16130,7 +16130,7 @@ de O
 lui O
 , O
 je O
-n’ B-PER
+n’ O
 en O
 finirais O
 point O
@@ -16153,20 +16153,20 @@ des O
 |
 
 | O
-À B-MISC
+À O
 |
-| I-MISC
-our I-MISC
-“ I-MISC
-Sie I-MISC
-ë I-MISC
+| O
+our B-ORG
+“ I-ORG
+Sie I-ORG
+ë I-ORG
 |
 
  
 
-| O
-|||| O
-hommes O
+| I-ORG
+|||| I-ORG
+hommes I-ORG
 . O
 Comme O
 il O
@@ -16180,7 +16180,7 @@ monde O
 | O
 |||| O
 : O
-Allez B-LOC
+Allez B-ORG
 , O
 allez O
 ! O
@@ -16194,10 +16194,10 @@ drogues O
 , O
 |
 | O
-|||| O
-prenez O
-- O
-le O
+|||| B-PER
+prenez I-PER
+- I-PER
+le I-PER
 ; O
 ses O
 écritures O
@@ -16213,7 +16213,7 @@ le O
 boucher O
 que O
 chez O
-l’ B-ORG
+l’ O
 apothicaire O
 ; O
 on O
@@ -16221,21 +16221,21 @@ on O
 |
 | O
 ne O
-s’ B-PER
+s’ O
 en O
 plaint O
 jamais O
 , O
 car O
 souvent O
-c’ B-MISC
+c’ O
 est O
 par O
 fai- O
 |
 | O
 blesse O
-qu’ B-LOC
+qu’ O
 un O
 chacun O
 tombe O
@@ -16253,7 +16253,7 @@ _ O
 d O
 nu O
 + O
-hp O
+hp B-ORG
 , O
 … O
 mn O
@@ -16289,28 +16289,28 @@ ie O
 uns O
 purcrenenne O
 ce O
-Peer O
-Te O
-PEER O
+Peer B-MISC
+Te I-MISC
+PEER I-MISC
 ne O
 1 O
 x O
-VEDETTE B-MISC
-ERA I-MISC
-e O
-TEE O
-TOR O
-SEPT O
-QUE O
+VEDETTE B-ORG
+ERA I-ORG
+e I-ORG
+TEE I-ORG
+TOR I-ORG
+SEPT I-ORG
+QUE I-ORG
 |
 
-| O
-e O
+| I-ORG
+e I-ORG
 |
 
-| O
-MON O
-VILLAGE B-ORG
+| I-ORG
+MON I-ORG
+VILLAGE I-ORG
 . O
 |
 
@@ -16347,7 +16347,7 @@ elle O
 | O
 ce O
 qui O
-n’ B-PER
+n’ O
 est O
 pas O
 peu O
@@ -16375,7 +16375,7 @@ vous O
 le O
 trouver O
 , O
-soyez B-MISC
+soyez O
 tran- O
 |
 | O
@@ -16383,8 +16383,8 @@ quilles O
 . O
 Ce O
 pauvre O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 , O
 on O
 l' O
@@ -16409,7 +16409,7 @@ sons O
 |
 
 | O
-C’ B-MISC
+C’ O
 est O
 un O
 homme O
@@ -16417,13 +16417,13 @@ capable O
 , O
 je O
 vous O
-l’ B-ORG
+l’ O
 assure O
 , O
 |
 | O
 quoi O
-qu’ B-LOC
+qu’ O
 il O
 dise O
 . O
@@ -16432,7 +16432,7 @@ l' O
 entendre O
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 guère O
 de O
@@ -16471,8 +16471,8 @@ mot O
 | O
 de O
 madame B-PER
-la I-PER
-mairesse I-PER
+la O
+mairesse O
 signifie O
 qu' O
 il O
@@ -16507,8 +16507,8 @@ Céran I-PER
 IV B-MISC
 |
 
-| O
-MONSIEUR O
+| I-MISC
+MONSIEUR I-MISC
 LE O
 CURÉ B-ORG
 . O
@@ -16517,8 +16517,8 @@ CURÉ B-ORG
 
 | O
 . O
-La O
-Rose B-MISC
+La B-MISC
+Rose I-MISC
 a O
 été O
 bien O
@@ -16531,7 +16531,7 @@ chacun O
 _ O
 dit O
 que O
-c’ B-MISC
+c’ O
 est O
 le O
 départ O
@@ -16566,18 +16566,18 @@ des O
 mon- O
 |
 | O
-Etre B-PER
+Etre O
 . O
 raconte O
 à O
 ceux O
 qui O
 veulent O
-l’ B-ORG
+l’ O
 entendre O
 |
 | O
-PR B-ORG
+PR B-LOC
 s O
 à O
 dans O
@@ -16639,8 +16639,8 @@ catimini O
 |
 | O
 F B-LOC
-n. I-LOC
-Sur I-LOC
+n. O
+Sur O
 le O
 compte O
 de O
@@ -16670,7 +16670,7 @@ ri O
 - O
 |
 | O
-tm O
+tm B-MISC
 mon O
 si O
 |
@@ -16682,14 +16682,14 @@ oo O
 | O
 mer B-LOC
 D I-LOC
-o O
-ro O
-w O
-TETE B-LOC
+o I-LOC
+ro I-LOC
+w I-LOC
+TETE I-LOC
 |
 
-| O
-A O
+| I-LOC
+A I-LOC
 — O
 — O
 — O
@@ -16699,7 +16699,7 @@ A O
 . O
 L O
 k O
-PEN O
+PEN B-PER
 |
 | O
 < O
@@ -16709,7 +16709,7 @@ _ I-MISC
 |
 | I-MISC
 ge I-MISC
-- O
+- I-MISC
 . O
 « O
 2 O
@@ -16726,21 +16726,21 @@ VILLAGE O
 | O
 ar O
 , O
-AVE B-MISC
-LD I-MISC
+AVE O
+LD O
 PEL O
 |
 | O
-SITE O
-TEA B-MISC
+SITE B-MISC
+TEA I-MISC
 |
 
-| O
+| I-MISC
 |||| O
 Si O
 la O
-Rose B-MISC
-n’ I-MISC
+Rose O
+n’ O
 a O
 plus O
 le O
@@ -16773,7 +16773,7 @@ petite O
 
 | O
 elle O
-n’ B-PER
+n’ O
 est O
 pas O
 au O
@@ -16823,7 +16823,7 @@ contre O
 | O
 bi O
 la O
-calomnie B-LOC
+calomnie O
 , O
 comme O
 il O
@@ -16873,9 +16873,9 @@ dit O
 |
 
 | O
-Notre B-LOC
-église I-LOC
-n’ I-LOC
+Notre O
+église O
+n’ O
 est O
 pas O
 ce O
@@ -16906,7 +16906,7 @@ guère O
 , O
 moi O
 qui O
-n’ B-PER
+n’ O
 y O
 mets O
 les O
@@ -16933,8 +16933,8 @@ semaine O
 à O
 Saint- B-LOC
 |
-| O
-Brunelle B-LOC
+| I-LOC
+Brunelle I-LOC
 , O
 je O
 vous O
@@ -17057,7 +17057,7 @@ adressant O
 la O
 parole O
 à O
-l’ B-LOC
+l’ O
 ami O
 de O
 notre O
@@ -17118,7 +17118,7 @@ embarras O
 | O
 _ O
 — O
-Venez B-LOC
+Venez O
 -vous O
 pour O
 prier O
@@ -17150,7 +17150,7 @@ Monsieur B-PER
 , O
 dit O
 franchement O
-l’ B-ORG
+l’ O
 ami O
 |
 
@@ -17158,26 +17158,26 @@ ami O
 
 | O
 la O
-db O
-pen O
-er O
-NE O
-LE O
+db B-PER
+pen I-PER
+er I-PER
+NE I-PER
+LE I-PER
 = O
 ù O
 |
 | O
 ® O
 7 O
-ER B-ORG
-TE I-ORG
+ER O
+TE O
 |
-| I-ORG
-S I-ORG
-pr I-ORG
-— I-ORG
+| O
+S O
+pr O
+— O
 |
-| I-ORG
+| O
 - O
 - O
 s O
@@ -17192,7 +17192,7 @@ Et O
 | O
 178 O
 MON B-MISC
-VILLAGE O
+VILLAGE I-MISC
 . O
 |
 
@@ -17205,7 +17205,7 @@ je O
 venais O
 pour O
 voir O
-l’ B-LOC
+l’ O
 é- O
 |
 
@@ -17246,14 +17246,14 @@ une O
 maison O
 publique O
 . O
-Allez O
+Allez B-LOC
 -vous O
 -en O
 ! O
 |
 
 | O
-C’ B-MISC
+C’ O
 est O
 aujourd’hui O
 Pâques B-MISC
@@ -17279,7 +17279,7 @@ les O
 mains O
 pleines O
 de O
-buis B-LOC
+buis O
 . O
 |
 
@@ -17327,7 +17327,7 @@ dans O
 notre O
 église O
 . O
-Cra- O
+Cra- B-ORG
 |
 | O
 chez O
@@ -17336,7 +17336,7 @@ chez O
 touchez O
 -vous O
 , O
-éternuez B-PER
+éternuez O
 -vous O
 |
 | O
@@ -17354,7 +17354,7 @@ faire O
 | O
 silence O
 . O
-Écoutez B-PER
+Écoutez O
 , O
 voilà O
 ce O
@@ -17389,8 +17389,8 @@ opprobrium O
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 19 O
 |
@@ -17415,7 +17415,7 @@ cimetière O
 
 | O
 « O
-Mes B-PER
+Mes O
 chers O
 frères O
 ! O
@@ -17434,7 +17434,7 @@ enfer O
 oui O
 , O
 de O
-l’ B-LOC
+l’ O
 en- O
 |
 | O
@@ -17453,9 +17453,9 @@ la O
 
 | O
 = O
-Vierge B-LOC
-! O
-Entendez B-LOC
+Vierge B-PER
+! I-PER
+Entendez B-PER
 -vous O
 , O
 bavardes O
@@ -17489,8 +17489,8 @@ enfer O
 dis O
 -je O
 , O
-l’ B-MISC
-enfer I-MISC
+l’ O
+enfer O
 est O
 un O
 lieu O
@@ -17521,8 +17521,8 @@ par O
 trop O
 offensé O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 . O
 L' O
 enfer O
@@ -17537,8 +17537,8 @@ non O
 le O
 feu O
 de O
-l’ B-MISC
-enfer I-MISC
+l’ O
+enfer O
 est O
 un O
 feu O
@@ -17573,7 +17573,7 @@ le O
 plus O
 péché O
 . O
-Avez B-PER
+Avez O
 -vous O
 offensé O
 Dieu B-MISC
@@ -17611,7 +17611,7 @@ vue O
 per O
 visum O
 ! O
-Avez B-LOC
+Avez O
 -vous O
 été O
 |
@@ -17653,8 +17653,8 @@ ss O
 |
 | O
 + O
-RS B-ORG
-EE I-ORG
+RS B-MISC
+EE I-MISC
 |
 
 | O
@@ -17663,13 +17663,13 @@ EE I-ORG
 
 | O
 ce O
-RESTE O
+RESTE B-MISC
 |
 
 | O
 80 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -17689,7 +17689,7 @@ nié O
 vos O
 frères O
 ? O
-c’ B-MISC
+c’ O
 est O
 alors O
 et O
@@ -17713,29 +17713,29 @@ et O
 les O
 lèvres O
 , O
-per B-LOC
-lamia I-LOC
+per O
+lamia O
 , O
-linguam B-MISC
+linguam O
 , O
 per B-LOC
 museum I-LOC
-! O
+! I-LOC
 |
 | O
-Auriez B-LOC
+Auriez B-PER
 -vous O
 aussi O
 prêté O
 complaisamment O
-l’ B-ORG
+l’ O
 o- O
 |
 | O
 reille O
 à O
 la O
-calomnie B-LOC
+calomnie O
 , O
 aux O
 discours O
@@ -17749,7 +17749,7 @@ vous O
 serez O
 punis O
 par O
-l’ B-ORG
+l’ O
 ouïe O
 , O
 per O
@@ -17758,7 +17758,7 @@ adh- O
 | O
 tum O
 ! O
-Vos B-PER
+Vos O
 mains O
 ont O
 - O
@@ -17837,9 +17837,9 @@ serez O
 |
 | O
 dans O
-l’ B-ORG
-autre I-ORG
-vie I-ORG
+l’ O
+autre O
+vie O
 ? O
 feu O
 dans O
@@ -17926,10 +17926,10 @@ D I-ORG
 |
 
 | I-ORG
-: O
+: I-ORG
 |||| O
 En O
-TRE B-MISC
+TRE B-ORG
 |
 
 | O
@@ -17942,19 +17942,19 @@ TRE B-MISC
 
 | O
 due O
-DE O
-PR B-MISC
-S I-MISC
+DE B-LOC
+PR I-LOC
+S I-LOC
 |
 
-| I-MISC
+| I-LOC
 Le O
 , O
 l O
 |
 | O
-A O
-Agen B-LOC
+A B-LOC
+Agen I-LOC
 + O
 |
 
@@ -17975,11 +17975,11 @@ se O
 | O
 le O
 B B-LOC
-RAT B-MISC
-AD I-MISC
-2 I-MISC
+RAT O
+AD O
+2 O
 LA O
-QU B-ORG
+QU O
 : O
 re O
 |
@@ -17995,31 +17995,31 @@ Le O
 |
 | O
 h O
-R B-PER
-F I-PER
+R O
+F O
 s O
 " O
 |
 
 | O
-D B-LOC
+D B-PER
 |
 
  
 
  
 
-| O
-Mes B-MISC
-DE I-MISC
-+ I-MISC
+| I-PER
+Mes I-PER
+DE I-PER
++ I-PER
 |
 
   
 
-| I-MISC
-MON O
-VILLAGE O
+| I-PER
+MON I-PER
+VILLAGE I-PER
 , O
 8l O
 |
@@ -18031,11 +18031,11 @@ Ah B-MISC
 vous O
 riez O
 ... O
-Savez B-PER
+Savez O
 -vous O
 ce O
 que O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -18050,7 +18050,7 @@ enfer O
 
 | O
 « O
-Supposons O
+Supposons B-MISC
 que O
 tous O
 , O
@@ -18116,7 +18116,7 @@ tas O
 d’ O
 étoupes O
 . O
-Bjitt O
+Bjitt B-MISC
 ! O
 bjitt O
 ! O
@@ -18150,7 +18150,7 @@ six O
 mille O
 ans O
 ! O
-Riez B-PER
+Riez B-LOC
 donc O
 à O
 |
@@ -18163,10 +18163,10 @@ malins O
 ! O
 huguenots O
 de O
-Saint- B-LOC
+Saint- B-PER
 |
-| O
-Brunelle B-LOC
+| I-PER
+Brunelle I-PER
 ! O
 » O
 |
@@ -18176,9 +18176,9 @@ Aux O
 bjitt O
 ! O
 de O
-monsieur O
-le O
-suré O
+monsieur B-PER
+le I-PER
+suré I-PER
 , O
 tous O
 les O
@@ -18197,8 +18197,8 @@ le O
 | O
 feu O
 de O
-l’ B-MISC
-enfer I-MISC
+l’ O
+enfer O
 , O
 sans O
 doute O
@@ -18223,9 +18223,9 @@ science O
 , O
 surtout O
 le O
-péché B-LOC
-de I-LOC
-calomnie I-LOC
+péché O
+de O
+calomnie O
 , O
 se O
 sont O
@@ -18252,8 +18252,8 @@ et O
 réserve B-LOC
 de I-LOC
 monsieur I-LOC
-le I-LOC
-curé I-LOC
+le O
+curé O
 , O
 |
 | O
@@ -18263,9 +18263,9 @@ d' O
 église O
 et O
 de O
-Jacquet B-MISC
-le I-MISC
-menteur I-MISC
+Jacquet B-PER
+le I-PER
+menteur I-PER
 , O
 |
 
@@ -18284,7 +18284,7 @@ menteur I-MISC
 ï O
 82 O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 |
 
@@ -18316,7 +18316,7 @@ mo O
 se O
 sauva O
 de O
-l’ B-LOC
+l’ O
 église O
 . O
 |
@@ -18388,7 +18388,7 @@ des O
 grands O
 bras O
 ; O
-c’ B-MISC
+c’ O
 est O
 un O
 fort O
@@ -18404,7 +18404,7 @@ qui O
 tait O
 , O
 à O
-l’ B-LOC
+l’ O
 occasion O
 , O
 nous O
@@ -18458,8 +18458,8 @@ ma- O
 : O
 lice O
 , O
-ilest O
-aguerri O
+ilest B-PER
+aguerri I-PER
 au O
 feu O
 . O
@@ -18503,27 +18503,27 @@ religion O
 au O
 village O
 , O
-c’ B-MISC
+c’ O
 est O
 plutôt O
 par O
 rapport O
 à O
-|||| O
+|||| B-PER
 |
 
-| O
-monsieur O
+| I-PER
+monsieur I-PER
 le O
 curé O
-qu’ B-PER
+qu’ O
 au O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 , O
 je O
 vous O
-l’ B-ORG
+l’ O
 as- O
 |
 
@@ -18547,8 +18547,8 @@ un O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 83 O
 |
@@ -18561,7 +18561,7 @@ on O
 le O
 connaît O
 ; O
-s’ B-PER
+s’ O
 il O
 est O
 mauvais O
@@ -18575,9 +18575,9 @@ là O
 . O
 Mais O
 le O
-bon B-MISC
-Dieu I-MISC
-qu’ I-MISC
+bon O
+Dieu B-MISC
+qu’ O
 on O
 prêche O
 , O
@@ -18639,7 +18639,7 @@ pas O
 que O
 Jean- B-PER
 |
-| O
+| I-PER
 Claude B-PER
 ne O
 croit O
@@ -18673,7 +18673,7 @@ commune O
 on O
 a O
 plus O
-de- O
+de- B-LOC
 |
 | O
 _ O
@@ -18794,13 +18794,13 @@ messe O
  
 
 | O
-REP B-PER
+REP B-MISC
 een O
 |
 | O
-RTE B-ORG
-ee I-ORG
-ROME I-ORG
+RTE O
+ee O
+ROME O
 PRE O
 |
 
@@ -18808,10 +18808,10 @@ PRE O
 4 O
 |
 | O
-LL B-ORG
-RP I-ORG
-See I-ORG
-ie I-ORG
+LL B-MISC
+RP I-MISC
+See I-MISC
+ie O
 ee O
 |
 
@@ -18823,8 +18823,8 @@ lens O
 |
 
 | O
-PCT O
-EE O
+PCT B-MISC
+EE I-MISC
 |
 
 | O
@@ -18833,13 +18833,13 @@ di O
 sd O
 |
 | O
-ESS B-MISC
+ESS O
 |
 
 | O
 SUCER O
 , O
-REX B-ORG
+REX O
 = O
 |
 
@@ -18882,7 +18882,7 @@ Pour O
 en O
 revenir O
 à O
-monsieur O
+monsieur B-PER
 le O
 curé O
 , O
@@ -18924,9 +18924,9 @@ ne O
 riez O
 pas O
 , O
-c’ B-MISC
-estun I-MISC
-brave I-MISC
+c’ O
+estun O
+brave O
 |
 | O
 homme O
@@ -18934,9 +18934,9 @@ homme O
 |
 
 | O
-Ne B-MISC
-riez I-MISC
-pas I-MISC
+Ne O
+riez O
+pas O
 , O
 quand O
 bien O
@@ -18944,7 +18944,7 @@ même O
 M B-MISC
 ! I-MISC
 " O
-Doro- O
+Doro- B-MISC
 |
 | O
 hée O
@@ -18976,11 +18976,11 @@ ee O
 mme O
 me O
 a O
-LE O
+LE B-LOC
 |
 | O
 : O
-FER O
+FER B-MISC
 |
 
 | O
@@ -19006,37 +19006,37 @@ le O
 cé O
 |
 | O
-Ji B-MISC
+Ji B-PER
 |
-| I-MISC
-G I-MISC
+| I-PER
+G I-PER
 |
-| I-MISC
-tx I-MISC
+| I-PER
+tx I-PER
 |
-| I-MISC
-ha I-MISC
-0 I-MISC
+| I-PER
+ha I-PER
+0 I-PER
 |
-| I-MISC
-# I-MISC
+| I-PER
+# I-PER
 |
-| O
-' O
-E B-MISC
+| I-PER
+' I-PER
+E I-PER
 |
 
-| I-MISC
-RE I-MISC
+| I-PER
+RE I-PER
 |
 
  
 
 | O
-RSR B-MISC
-CCE I-MISC
-A I-MISC
-PEER I-MISC
+RSR O
+CCE O
+A O
+PEER O
 |
 | O
 « O
@@ -19064,10 +19064,10 @@ N O
  
 
 | O
-L' B-MISC
-AVOCAT I-MISC
-DE O
-PIGNON B-ORG
+L' O
+AVOCAT B-MISC
+DE I-MISC
+PIGNON I-MISC
 . O
 |
 
@@ -19083,7 +19083,7 @@ Jean-Claude B-PER
 en O
 |
 | O
-L O
+L B-LOC
 on O
 long O
 tout O
@@ -19154,17 +19154,17 @@ chez O
 , O
 PRE B-MISC
 SE I-MISC
-ALT O
+ALT I-MISC
 — O
 |
 
 | O
 æ O
-RE O
-l O
-|||| O
+RE B-MISC
+l I-MISC
+|||| I-MISC
 |
-| O
+| I-MISC
 Re O
 un O
 grand O
@@ -19208,7 +19208,7 @@ imposition O
 | O
 e O
 de O
-SON O
+SON B-LOC
 |
 
    
@@ -19229,7 +19229,7 @@ mauvaises O
 û O
 |
 | O
-EST O
+EST B-LOC
 ] O
 |
 
@@ -19252,9 +19252,9 @@ L O
 NES B-MISC
 Lu I-MISC
 |
-| O
-FR B-ORG
-TRE I-ORG
+| I-MISC
+FR I-MISC
+TRE O
 ve O
 DE O
 Le O
@@ -19271,29 +19271,29 @@ e O
 _ O
 |
 | O
-Co B-PER
-RS I-PER
-Tapas I-PER
-ET O
-tft O
+Co B-ORG
+RS I-ORG
+Tapas I-ORG
+ET I-ORG
+tft I-ORG
 |
 
-| O
-RMS B-PER
+| I-ORG
+RMS I-ORG
 |
 
-| O
-ee O
-ge O
-© O
-|||| O
+| I-ORG
+ee I-ORG
+ge I-ORG
+© I-ORG
+|||| I-ORG
 |
 
  
 
-| O
-D O
-ARCS B-ORG
+| I-ORG
+D I-ORG
+ARCS O
 |
 
   
@@ -19331,7 +19331,7 @@ moins O
 | O
 Le O
 gain O
-n’ B-PER
+n’ O
 est O
 pas O
 gros O
@@ -19340,7 +19340,7 @@ la O
 terre O
 , O
 et O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -19416,7 +19416,7 @@ bah O
 ! O
 faut O
 espérer O
-qu’ B-LOC
+qu’ O
 un O
 |
 
@@ -19550,17 +19550,17 @@ A O
 
 | O
 mi O
-À B-MISC
+À O
 |
-| I-MISC
-_ I-MISC
-_ I-MISC
-.—— I-MISC
+| O
+_ O
+_ O
+.—— B-MISC
 |
 
 | I-MISC
-MON O
-VILLAGE B-ORG
+MON I-MISC
+VILLAGE I-MISC
 . O
 89 O
 |
@@ -19619,7 +19619,7 @@ mieux O
 en O
 mieux O
 ; O
-d’ B-MISC
+d’ O
 a- O
 |||| O
 |
@@ -19766,14 +19766,14 @@ municipal O
 , O
 et O
 puis O
-Jean- B-MISC
+Jean- B-PER
 |
 
-| I-MISC
-SE I-MISC
+| I-PER
+SE I-PER
 |
-| I-MISC
-De I-MISC
+| O
+De B-MISC
 PAPA I-MISC
 |
 | I-MISC
@@ -19781,7 +19781,7 @@ PAPA I-MISC
 |
 
 | I-MISC
-Claude B-PER
+Claude I-MISC
 lui O
 a O
 dit O
@@ -19803,14 +19803,14 @@ bonnets O
 | O
 blancs O
 , O
-c’ B-MISC
+c’ O
 est O
 votre O
 affaire O
 ; O
 mais O
 tant O
-qu’ B-PER
+qu’ O
 à O
 |
 | O
@@ -19834,32 +19834,32 @@ le O
 » O
 |
 | O
-|||| O
-F B-LOC
+|||| B-PER
+F I-PER
 |
-| I-LOC
-Hi O
-g O
+| I-PER
+Hi I-PER
+g I-PER
+|
+| I-PER
+re I-PER
+|
+| I-PER
+Le O
 |
 | O
-re O
+4 O
+p O
+” O
 |
 | O
-Le B-MISC
-|
-| I-MISC
-4 I-MISC
-p I-MISC
-” I-MISC
-|
-| I-MISC
-L I-MISC
+L B-LOC
 . O
 |
 | O
-L O
-F1 B-ORG
-Pt O
+L B-MISC
+F1 I-MISC
+Pt I-MISC
 , O
 |
 | O
@@ -19876,7 +19876,7 @@ dl O
 ! O
 |
 | O
-al B-LOC
+al O
 » O
 a O
 |
@@ -19884,12 +19884,12 @@ a O
  
 
 | O
-De B-LOC
-de I-LOC
+De B-PER
+de I-PER
 - O
 CE O
 n O
-E B-LOC
+E O
 1e O
 |
 | O
@@ -19900,14 +19900,14 @@ E B-LOC
 ner O
 I B-LOC
 y O
-PIE B-ORG
+PIE O
 |
 
 | O
 = O
 ennes O
 NET B-MISC
-TPE B-MISC
+TPE O
 |
 | O
 : O
@@ -19919,8 +19919,8 @@ TPE B-MISC
 
 | O
 90 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -20007,7 +20007,7 @@ comme O
 , O
 en O
 ayant O
-l’ B-LOC
+l’ O
 air O
 de O
 se O
@@ -20023,7 +20023,7 @@ nous O
 | O
 « O
 Si O
-c’ B-MISC
+c’ O
 est O
 par O
 amour O
@@ -20064,12 +20064,12 @@ même O
 , O
 si O
 vous O
-l’ B-LOC
+l’ O
 exigez O
 , O
 boire O
 , O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -20082,7 +20082,7 @@ prier O
 Et O
 puis O
 il O
-n’ B-PER
+n’ O
 en O
 a O
 plus O
@@ -20112,7 +20112,7 @@ la O
 messe O
 , O
 an O
-n’ B-PER
+n’ O
 est O
 |
 | O
@@ -20131,7 +20131,7 @@ vrai O
 il O
 |
 | O
-n’ B-PER
+n’ O
 a O
 à O
 jamais O
@@ -20161,7 +20161,7 @@ en O
 
 | O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 M O
 |
@@ -20169,9 +20169,9 @@ M O
 tout O
 , O
 que O
-monsieur O
-le O
-suré O
+monsieur B-PER
+le I-PER
+suré I-PER
 , O
 sa O
 sœur O
@@ -20241,8 +20241,8 @@ en O
 avait O
 été O
 un O
-brin B-PER
-jaloux I-PER
+brin O
+jaloux O
 . O
 |
 
@@ -20255,8 +20255,8 @@ cabaretère O
 de O
 Saint- B-LOC
 |
-| O
-Brunelle B-LOC
+| I-LOC
+Brunelle I-LOC
 , O
 est O
 une O
@@ -20358,9 +20358,9 @@ Pour O
 lors O
 , O
 le O
-dimanche O
-de O
-Pâques B-MISC
+dimanche B-MISC
+de I-MISC
+Pâques I-MISC
 fleuries O
 , O
 |
@@ -20378,7 +20378,7 @@ me O
 | O
 crit O
 de O
-l’ B-LOC
+l’ O
 autre O
 bout O
 de O
@@ -20388,37 +20388,37 @@ salle O
 |
 
 | O
-m2 B-PER
-D I-PER
-E I-PER
+m2 O
+D B-MISC
+E I-MISC
 |
 
  
 
  
 
-| O
-“ O
-+ O
+| I-MISC
+“ I-MISC
++ I-MISC
 |
 
-| O
-a O
-— O
-RE O
-SE O
-RE O
-LE O
+| I-MISC
+a I-MISC
+— I-MISC
+RE I-MISC
+SE I-MISC
+RE I-MISC
+LE I-MISC
 à O
-AO B-ORG
-See I-ORG
+AO B-MISC
+See I-MISC
 |
 
 | O
 : O
 |
 | O
-VU B-LOC
+VU B-ORG
 . O
 mi O
 |
@@ -20430,11 +20430,11 @@ es O
 | O
 un O
 m O
-En B-MISC
-= I-MISC
-p I-MISC
-= I-MISC
-Re I-MISC
+En O
+= O
+p O
+= O
+Re O
 à O
 J B-LOC
 F I-LOC
@@ -20452,16 +20452,16 @@ JF I-LOC
 
 | O
 92 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
 | O
 — O
-Hé B-PER
-! I-PER
-lurot B-PER
+Hé B-MISC
+! I-MISC
+lurot I-MISC
 , O
 arrive O
 donc O
@@ -20473,7 +20473,7 @@ donc O
 | O
 — O
 Comment O
-ça O
+ça B-MISC
 , O
 lurot B-PER
 ? O
@@ -20508,7 +20508,7 @@ aide O
 , O
 et O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 |
@@ -20538,7 +20538,7 @@ Roux B-PER
 | O
 berger O
 ; O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 , O
 notre O
 avocat O
@@ -20548,7 +20548,7 @@ pignon O
 |
 
 | O
-t’ B-LOC
+t’ O
 attendait O
 pour O
 expliquer O
@@ -20559,7 +20559,7 @@ feuille O
 
 | O
 — O
-Donc B-PER
+Donc O
 , O
 dit O
 Jean-Claude B-PER
@@ -20572,7 +20572,7 @@ se O
 brouillent O
 ; O
 ça O
-m’ B-PER
+m’ O
 a O
 quasiment O
 l' O
@@ -20611,12 +20611,12 @@ non O
 dit O
 Manot B-LOC
 , O
-l’ B-MISC
-homme I-MISC
+l’ O
+homme O
 |
 | O
 de O
-Clarisse B-LOC
+Clarisse B-PER
 , O
 qui O
 se O
@@ -20640,7 +20640,7 @@ disaient O
 encore O
 les O
 gendarmes O
-l’ B-ORG
+l’ O
 autre O
 jour O
 , O
@@ -20650,7 +20650,7 @@ jour O
 notre O
 roi O
 , O
-c’ B-MISC
+c’ O
 est O
 un O
 malin O
@@ -20663,24 +20663,24 @@ Ris B-MISC
 ni O
 a O
 déménts O
-Ds.5 O
-nn O
+Ds.5 B-PER
+nn I-PER
 . O
-CO B-LOC
-Gt O
-mm O
+CO B-MISC
+Gt I-MISC
+mm I-MISC
 ti O
-RS O
+RS B-LOC
 |
 
  
 
-| O
-Fe B-LOC
+| I-LOC
+Fe I-LOC
 à O
 7 O
-PCA B-ORG
-7 I-ORG
+PCA B-MISC
+7 I-MISC
 NE O
 ur O
 3 O
@@ -20700,14 +20700,14 @@ VILLAGE I-MISC
 |
 | O
 — O
-Qu' O
-est O
--ce O
-qui O
-se O
-dit O
-le O
-contraire O
+Qu' B-MISC
+est I-MISC
+-ce I-MISC
+qui I-MISC
+se I-MISC
+dit I-MISC
+le I-MISC
+contraire I-MISC
 , O
 imbé- O
 |
@@ -20718,7 +20718,7 @@ reprit O
 Jean-Claude B-PER
 ; O
 on O
-n’ B-PER
+n’ O
 en O
 est O
 pas O
@@ -20740,7 +20740,7 @@ pour O
 malin O
 , O
 il O
-l’ B-LOC
+l’ O
 est O
 , O
 assurément O
@@ -20753,7 +20753,7 @@ et O
 |
 
 | O
-DU O
+DU B-MISC
 , O
 e O
 L' O
@@ -20763,17 +20763,17 @@ dE" O
 Der B-MISC
 LA I-MISC
 |
-| I-MISC
+| O
 , O
 CS B-MISC
-x O
+x I-MISC
 |
 | O
 ’ O
 , O
 " O
-Fr B-MISC
-F4 I-MISC
+Fr B-LOC
+F4 I-LOC
 |
 
 | O
@@ -20783,7 +20783,7 @@ que O
 m' O
 est O
 avis O
-qu’ B-LOC
+qu’ O
 il O
 s' O
 amuse O
@@ -20839,7 +20839,7 @@ tais O
 toi O
 , O
 dit O
-Clarisse B-LOC
+Clarisse B-PER
 qui O
 me O
 servait O
@@ -20863,7 +20863,7 @@ soutient O
 | O
 que O
 tu O
-n’ B-PER
+n’ O
 y O
 vois O
 goutte O
@@ -20892,19 +20892,19 @@ crois O
 que O
 le O
 roi O
-d’ B-PER
+d’ O
 au O
 jour O
 |
 | O
 d' O
 aujourd'hui O
-c’ B-MISC
+c’ O
 est O
 toujours O
 le O
 même O
-d’ B-MISC
+d’ O
 avant O
 |
 | O
@@ -20916,16 +20916,16 @@ de O
 |
 
 | O
-D B-LOC
+D O
 |
 
-| I-LOC
-Fr B-LOC
-— I-LOC
-Tiens I-LOC
+| O
+Fr O
+— O
+Tiens O
 , O
 dit O
-Manot B-PER
+Manot B-LOC
 , O
 comme O
 si O
@@ -20949,7 +20949,7 @@ même O
 | O
 chose O
 , O
-d’ B-MISC
+d’ O
 un O
 sens O
 . O
@@ -20966,14 +20966,14 @@ sens O
 9 O
 |
 | O
-Ke B-MISC
-À I-MISC
+Ke O
+À O
 |
-| I-MISC
-” I-MISC
+| O
+” O
 |
-| I-MISC
-|||| I-MISC
+| O
+|||| O
 |
 | O
 ü O
@@ -20982,7 +20982,7 @@ Ke B-MISC
 ! O
 |
 | O
-Ÿ O
+Ÿ B-LOC
 |
 | O
 * O
@@ -20991,14 +20991,14 @@ Ke B-MISC
 | O
 RE O
 étre O
-Le B-MISC
+Le O
 |
 
-| I-MISC
-l. I-MISC
+| O
+l. O
 |
-| I-MISC
-ne I-MISC
+| O
+ne O
 . O
 0 O
 td O
@@ -21019,7 +21019,7 @@ Tu B-MISC
 as I-MISC
 raisén I-MISC
 , O
-Manot B-PER
+Manot B-LOC
 , O
 sans O
 le O
@@ -21045,11 +21045,11 @@ même O
 | O
 chose O
 , O
-d’ B-MISC
+d’ O
 un O
 sens O
 ; O
-c’ B-MISC
+c’ O
 est O
 comme O
 un O
@@ -21093,7 +21093,7 @@ comme O
 tisserand O
 de O
 mon O
-état B-LOC
+état O
 . O
 |||| O
 |
@@ -21106,7 +21106,7 @@ comparaison O
 dit O
 Jean-Claude B-PER
 , O
-d’ B-LOC
+d’ O
 un O
 |
 | O
@@ -21116,7 +21116,7 @@ un O
 roi O
 , O
 parce O
-qu’ B-PER
+qu’ O
 un O
 tisserand O
 ça O
@@ -21191,10 +21191,10 @@ de O
 FR B-LOC
 |
 
-| I-LOC
-— I-LOC
-Bah I-LOC
-! I-LOC
+| O
+— O
+Bah B-MISC
+! I-MISC
 que O
 je O
 dis O
@@ -21239,8 +21239,8 @@ perdre O
 ? O
 et O
 même O
-J' B-MISC
-opine I-MISC
+J' O
+opine O
 que O
 nous O
 y O
@@ -21278,7 +21278,7 @@ n O
 
 | O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 V O
 |
@@ -21304,7 +21304,7 @@ Oui O
 mais O
 , O
 dit O
-Clarisse B-LOC
+Clarisse B-PER
 , O
 qui O
 pouvait O
@@ -21342,9 +21342,9 @@ gouverne- O
 | O
 ment O
 , O
-s’ B-PER
+s’ O
 il O
-n’ B-PER
+n’ O
 y O
 avait O
 plus O
@@ -21373,7 +21373,7 @@ rentiers O
 d' O
 État B-LOC
 . O
-Allez O
+Allez B-ORG
 , O
 allez O
 , O
@@ -21385,7 +21385,7 @@ un O
 gouvernement O
 , O
 quand O
-ca B-LOC
+ca B-MISC
 ne O
 serait O
 que O
@@ -21403,17 +21403,17 @@ notre O
 po O
 |
 | O
-saint B-PER
+saint O
 . O
 |
 
 | O
 — O
-Charité B-LOC
+Charité O
 bien O
 ordonnée O
 , O
-c’ B-MISC
+c’ O
 est O
 de O
 com- O
@@ -21425,10 +21425,10 @@ soi O
 - O
 même O
 , O
-Clarisse B-LOC
-, O
-qué O
-je O
+Clarisse B-MISC
+, I-MISC
+qué I-MISC
+je I-MISC
 lui O
 |
 | O
@@ -21438,7 +21438,7 @@ lui O
 
 | O
 — O
-Hé B-PER
+Hé O
 bien O
 , O
 révolutionner O
@@ -21456,7 +21456,7 @@ en O
 fouillant O
 ; O
 ce O
-n’ B-PER
+n’ O
 est O
 ni O
 votre O
@@ -21489,7 +21489,7 @@ a O
 | O
 = O
 DESERT O
-SURVENUE B-LOC
+SURVENUE B-MISC
 |
 | O
 " O
@@ -21499,7 +21499,7 @@ SURVENUE B-LOC
 | O
 96 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
@@ -21524,7 +21524,7 @@ tournée O
 comme O
 toi O
 , O
-Clarisse B-MISC
+Clarisse B-PER
 , O
 |
 | O
@@ -21535,7 +21535,7 @@ en O
 la O
 prenant O
 à O
-bras-le-corps B-LOC
+bras-le-corps O
 , O
 je O
 |
@@ -21602,10 +21602,10 @@ clair O
 dans O
 |
 | O
-À B-MISC
-des I-MISC
-comédies I-MISC
-pareilles I-MISC
+À O
+des O
+comédies O
+pareilles O
 ; O
 moi O
 , O
@@ -21635,20 +21635,20 @@ NE B-LOC
 251 O
 |
 | O
-LEE B-MISC
-nt I-MISC
-À I-MISC
-tp I-MISC
+LEE B-PER
+nt I-PER
+À O
+tp O
 |
 
-| I-MISC
-PES B-MISC
+| O
+PES B-ORG
 or O
 à O
 . O
 " O
 5 O
-Pan B-PER
+Pan O
 de O
 |
 
@@ -21662,7 +21662,7 @@ d’ O
 | O
 PRÉ O
 AMEL B-MISC
-TETE O
+TETE I-MISC
 RE O
 |
 
@@ -21693,7 +21693,7 @@ faiblesse O
 |
 | O
 à O
-l’ B-LOC
+l’ O
 endroit O
 des O
 armées O
@@ -21718,9 +21718,9 @@ soldats O
 |
 
 | O
-PRE B-ORG
-SRE B-LOC
-72 I-LOC
+PRE O
+SRE O
+72 O
 |
 | O
 + O
@@ -21760,9 +21760,9 @@ h O
 } O
 quoi O
 , O
-füt O
--ce O
-! O
+füt B-MISC
+-ce I-MISC
+! I-MISC
 d’ O
 une O
 jolie O
@@ -21797,19 +21797,19 @@ Pa I-LOC
 | I-LOC
 PA I-LOC
 PRO I-LOC
-À I-LOC
+À O
 |
 
-| I-LOC
-LR I-LOC
+| O
+LR B-ORG
 ) O
-TT B-ORG
-A I-ORG
+TT O
+A O
 |
 
-| I-ORG
-er I-ORG
-Pen I-ORG
+| O
+er O
+Pen O
 |
 
 | O
@@ -21824,15 +21824,15 @@ ESS O
 |
 
 | O
-DAME O
-CN B-LOC
+DAME B-LOC
+CN I-LOC
 |
 
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 97 O
 |
@@ -21841,8 +21841,8 @@ VILLAGE O
 — O
 Bah B-MISC
 ! I-MISC
-bah B-ORG
-! I-ORG
+bah O
+! O
 dit O
 le O
 garde O
@@ -21851,7 +21851,7 @@ champêtre O
 ce O
 |
 | O
-n’ B-PER
+n’ O
 est O
 point O
 déjà O
@@ -21924,14 +21924,14 @@ guerre O
 -là O
 dans O
 l' O
-AI- O
+AI- B-MISC
 |
-| O
-ger O
+| I-MISC
+ger I-MISC
 , O
 foi O
 de O
-Sylvain B-MISC
+Sylvain B-PER
 , O
 nom O
 de O
@@ -21955,7 +21955,7 @@ eu O
 raison O
 , O
 pèle O
-Nom-de-Nom B-LOC
+Nom-de-Nom B-MISC
 , O
 |
 | O
@@ -21993,10 +21993,10 @@ rois O
 
 | O
 — O
-Vive B-MISC
-le I-MISC
-roi I-MISC
-! I-MISC
+Vive B-PER
+le I-PER
+roi I-PER
+! I-PER
 dit O
 Jacquet B-PER
 , O
@@ -22016,22 +22016,22 @@ Amen B-MISC
 
 | O
 — O
-Vive B-MISC
-le I-MISC
-roi I-MISC
-! I-MISC
+Vive B-PER
+le I-PER
+roi I-PER
+! I-PER
 dit O
-Manot B-PER
+Manot B-LOC
 , O
 voulant O
-s’ B-PER
+s’ O
 attirer O
 |
 | O
 la O
 pratique O
 de O
-Jacquet B-PER
+Jacquet B-MISC
 . O
 |
 
@@ -22044,7 +22044,7 @@ fr O
 |
 
 | O
-RES B-PER
+RES B-ORG
 |
 | O
 LE O
@@ -22052,18 +22052,18 @@ LE O
 |
 
 | O
-L B-MISC
+L O
 |
 
-| I-MISC
-Le B-MISC
+| O
+Le O
 |
 
-| I-MISC
-L I-MISC
+| O
+L O
 |
-| I-MISC
-ue I-MISC
+| O
+ue B-ORG
 . O
 sur O
 Hi B-MISC
@@ -22079,10 +22079,10 @@ DR O
 |
 
 | O
-RTE O
-REC B-MISC
-PIS I-MISC
-ET O
+RTE B-ORG
+REC O
+PIS B-MISC
+ET I-MISC
 |
 
 | O
@@ -22096,9 +22096,9 @@ rt O
 Pau B-LOC
 |
 
-| O
-ET O
-M O
+| I-LOC
+ET I-LOC
+M I-LOC
 0 O
 es O
 ne O
@@ -22109,18 +22109,18 @@ r O
 |
 
 | O
-S B-PER
-MON I-PER
-VILLAGE I-PER
+S B-MISC
+MON I-MISC
+VILLAGE I-MISC
 . O
 |
 | O
 — O
-Tais B-LOC
-- I-LOC
-toi I-LOC
+Tais O
+- O
+toi O
 , O
-Mañet B-LOC
+Mañet B-PER
 , O
 où O
 bien O
@@ -22140,7 +22140,7 @@ auberge O
 
 | O
 — O
-Clarisseé B-LOC
+Clarisseé B-PER
 , O
 la O
 fine O
@@ -22159,10 +22159,10 @@ cinq O
 feuilles O
 , O
 et O
-Manot B-MISC
+Manot B-LOC
 |
 | O
-s’ B-LOC
+s’ O
 en O
 alla O
 en O
@@ -22184,19 +22184,19 @@ y O
  
 
 | O
-Fans B-LOC
-ji50 I-LOC
-Sym O
+Fans B-MISC
+ji50 I-MISC
+Sym I-MISC
 = O
 |
 | O
-TRE O
+TRE B-ORG
 de O
 tout O
-À B-MISC
+À B-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 . O
 e O
 + O
@@ -22204,23 +22204,23 @@ e O
 |
 
 | O
-SERRE B-ORG
-NME O
-ET O
-PRES O
-TE B-ORG
-VE I-ORG
+SERRE O
+NME B-MISC
+ET I-MISC
+PRES I-MISC
+TE I-MISC
+VE O
 LE O
-Pan B-ORG
+Pan O
 |
-| I-ORG
-t I-ORG
-éco I-ORG
-i I-ORG
-3 I-ORG
-— I-ORG
+| O
+t O
+éco O
+i O
+3 O
+— O
 |
-| I-ORG
+| O
 . O
 — O
 |
@@ -22237,8 +22237,8 @@ SEA O
 |
 
 | O
-AY B-LOC
-E I-LOC
+AY B-MISC
+E I-MISC
 |
 
  
@@ -22251,9 +22251,9 @@ le O
 
 | O
 nc O
-Ps B-MISC
-Las I-MISC
-ANT I-MISC
+Ps B-LOC
+Las I-LOC
+ANT O
 |
 
  
@@ -22272,21 +22272,21 @@ ANT I-MISC
 
 | O
 ARE B-MISC
-ie O
+ie I-MISC
 2 O
-Lo B-LOC
+Lo O
 rh O
 ancre O
 romenchrlaeee O
-EL B-MISC
-NCA I-MISC
+EL O
+NCA O
 RÉ O
 PSS O
 ES O
 on O
 dans O
-PS B-MISC
-ES I-MISC
+PS B-ORG
+ES O
 she O
 |
 
@@ -22296,7 +22296,7 @@ dot O
 
 | O
 re O
-VI B-MISC
+VI O
 |
 
 | O
@@ -22345,7 +22345,7 @@ le O
 dire O
 : O
 la O
-Rose B-MISC
+Rose B-LOC
 est O
 enceinte O
 ! O
@@ -22418,17 +22418,17 @@ promise O
 
 | O
 v O
-S O
-re O
+S B-LOC
+re I-LOC
 |
 
-| O
-Allez B-LOC
+| I-LOC
+Allez O
 ! O
 allez O
 ! O
 disait O
-l’ B-ORG
+l’ O
 autre O
 jour O
 le O
@@ -22465,7 +22465,7 @@ TP O
 er O
 |
 | O
-TRE B-MISC
+TRE B-ORG
 |
 
 | O
@@ -22474,14 +22474,14 @@ _ O
 | O
 Pr B-PER
 POS I-PER
-SRE O
-DE O
+SRE B-MISC
+DE I-MISC
 |
 
-| O
-102 O
-MON O
-VILLAGE B-LOC
+| I-MISC
+102 I-MISC
+MON I-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -22494,7 +22494,7 @@ champêtre O
 , O
 le O
 gouvernement O
-n’ B-PER
+n’ O
 a O
 guère O
 pitié O
@@ -22524,7 +22524,7 @@ leur O
 cœur O
 , O
 afin O
-d’ B-MISC
+d’ O
 en O
 |
 | O
@@ -22553,12 +22553,12 @@ sait O
 |
 
 | O
-CA B-LOC
+CA B-ORG
 . O
 |
 
 | O
-Devise B-LOC
+Devise B-PER
 -t O
 -on O
 dans O
@@ -22571,14 +22571,14 @@ fille O
 |
 
 | O
-Norine B-MISC
-! I-MISC
+Norine B-LOC
+! O
 |
 
 | O
-Pauvre O
-jeunesse O
-! O
+Pauvre B-MISC
+jeunesse I-MISC
+! I-MISC
 elle O
 n' O
 avait O
@@ -22641,7 +22641,7 @@ qui O
 |
 
 | O
-s’ B-PER
+s’ O
 oublie O
 ! O
 On O
@@ -22679,7 +22679,7 @@ habilement O
 , O
 fillettes O
 de O
-Saint- B-ORG
+Saint- B-PER
 |
 
    
@@ -22695,37 +22695,37 @@ IEEE B-ORG
 = O
 |
 | O
-PA O
-BEA B-MISC
+PA B-ORG
+BEA I-ORG
 |
 
 | O
-den O
-DS B-MISC
-Se O
+den B-ORG
+DS I-ORG
+Se I-ORG
 |
 
  
 
-| O
-C B-MISC
-T I-MISC
-a O
-ét O
+| I-ORG
+C I-ORG
+T I-ORG
+a I-ORG
+ét I-ORG
 à O
 ET O
 les O
-L B-LOC
-E I-LOC
+L B-MISC
+E I-MISC
 |
 
-| O
-s O
+| I-MISC
+s I-MISC
 |
 
-| O
-Me B-MISC
-es I-MISC
+| I-MISC
+Me I-MISC
+es O
 . O
 Vos O
 |
@@ -22761,16 +22761,16 @@ me O
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 103 O
 |
 
 | O
-Brunelle B-LOC
+Brunelle B-PER
 , O
-s’ B-LOC
+s’ O
 il O
 vous O
 plaît O
@@ -22801,7 +22801,7 @@ habilement O
 |
 
 | O
-Allez B-LOC
+Allez B-PER
 sans O
 bruit O
 , O
@@ -22856,7 +22856,7 @@ bien O
 , O
 quand O
 pareil O
-fléau B-PER
+fléau O
 vous O
 frappe O
 , O
@@ -22868,7 +22868,7 @@ prenez O
 garde O
 qu' O
 on O
-s’ B-PER
+s’ O
 en O
 aperçoive O
 ; O
@@ -22936,7 +22936,7 @@ enfant O
 |
 
 | O
-Cachez B-LOC
+Cachez B-PER
 -vous O
 habilement O
 , O
@@ -22995,7 +22995,7 @@ ES B-MISC
 
 | I-MISC
 Dane I-MISC
-ET O
+ET I-MISC
 |
 | O
 vers O
@@ -23003,8 +23003,8 @@ vers O
 
 | O
 104 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -23052,7 +23052,7 @@ reniant O
 et O
 usant O
 , O
-s’ B-PER
+s’ O
 innocenter O
 de O
 |
@@ -23072,14 +23072,14 @@ acc- O
 à O
 seront O
 , O
-soyez B-LOC
--en I-LOC
-sûres I-LOC
+soyez O
+-en O
+sûres O
 . O
 |
 
 | O
-Cachez B-LOC
+Cachez B-PER
 -vous O
 habilement O
 , O
@@ -23111,7 +23111,7 @@ che- O
 |
 
 | O
-Mteatatr B-PER
+Mteatatr B-LOC
 à O
 agite O
 |
@@ -23157,7 +23157,7 @@ toujours O
 
 | O
 à O
-Fillettes B-LOC
+Fillettes B-MISC
 , O
 cachez O
 -vous O
@@ -23168,8 +23168,8 @@ habilement O
    
 
 | O
-Re B-MISC
-D I-MISC
+Re O
+D O
 a O
 ne O
 |
@@ -23239,11 +23239,11 @@ qui O
 parler O
 |
 | O
-M B-MISC
-25 I-MISC
-de I-MISC
-ses I-MISC
-humiliations I-MISC
+M O
+25 O
+de O
+ses O
+humiliations O
 , O
 et O
 , O
@@ -23282,9 +23282,9 @@ PAPER I-MISC
 |
 
 | I-MISC
-RP B-ORG
-RRE I-ORG
-ME I-ORG
+RP O
+RRE O
+ME B-ORG
 S I-ORG
 S I-ORG
 RETS I-ORG
@@ -23296,7 +23296,7 @@ Es I-ORG
 |
 
 | I-ORG
-ES B-ORG
+ES B-MISC
 |
 
 | O
@@ -23309,9 +23309,9 @@ redé O
 |
 
 | O
-RES B-MISC
+RES B-ORG
 : O
-Sr O
+Sr B-PER
 |
 | O
 ‘ O
@@ -23324,35 +23324,35 @@ _ O
  
 
 | O
-CPR B-MISC
+CPR B-ORG
 |
-| I-MISC
-Fr I-MISC
-» I-MISC
-|
-
-| I-MISC
-D I-MISC
+| I-ORG
+Fr O
+» O
 |
 
-| I-MISC
-La I-MISC
+| O
+D O
 |
 
-| I-MISC
-RS I-MISC
-ter I-MISC
-AC I-MISC
-ES I-MISC
+| O
+La O
 |
 
-| I-MISC
-DE I-MISC
+| O
+RS O
+ter O
+AC O
+ES O
 |
-| I-MISC
-pi I-MISC
-- I-MISC
-2 I-MISC
+
+| O
+DE O
+|
+| O
+pi O
+- O
+2 O
 |
 | O
 Fr O
@@ -23361,19 +23361,19 @@ Fr O
 
 | O
 à O
-ut O
-ACCES B-MISC
+ut B-MISC
+ACCES I-MISC
 : O
 |
 | O
-PU O
-DE O
-LUE B-ORG
-! O
-LUS B-ORG
-PM I-ORG
-UE I-ORG
-SN I-ORG
+PU B-MISC
+DE I-MISC
+LUE I-MISC
+! I-MISC
+LUS O
+PM O
+UE B-ORG
+SN O
 See O
 Leurs O
 |
@@ -23387,22 +23387,22 @@ RENE O
 |
 
 | O
-D B-LOC
+D O
 be O
 once O
 vit O
 A B-LOC
 |
 
-| I-LOC
-MON I-LOC
-VILLAGE I-LOC
+| O
+MON O
+VILLAGE O
 . O
 105 O
 |
 | O
 sure O
-qu’ B-PER
+qu’ O
 elle O
 serait O
 arrivée O
@@ -23428,7 +23428,7 @@ rien O
 |
 
 | O
-Désirée B-LOC
+Désirée B-PER
 et O
 Amandine B-PER
 , O
@@ -23468,7 +23468,7 @@ pauvre O
 petite O
 , O
 au O
-de- O
+de- B-LOC
 |
 
 | O
@@ -23481,9 +23481,9 @@ dehors O
 |
 
 | O
-Un O
-beau O
-matin O
+Un B-MISC
+beau I-MISC
+matin I-MISC
 , O
 Jean-Claude B-PER
 , O
@@ -23540,11 +23540,11 @@ village O
 et O
 , O
 pour O
-de- O
+de- B-LOC
 |
 
-| O
-nière O
+| I-LOC
+nière I-LOC
 preuve O
 , O
 que O
@@ -23601,7 +23601,7 @@ le O
 moral O
 de O
 la O
-Rose B-MISC
+Rose B-LOC
 et O
 faire O
 taire O
@@ -23610,7 +23610,7 @@ mauvaises O
 |
 
 | O
-L B-PER
+L O
 |
 
   
@@ -23626,20 +23626,20 @@ gg O
 he O
 te O
 . O
-tre B-MISC
-ml I-MISC
+tre O
+ml O
 |
 
-| I-MISC
-DROIT I-MISC
-EEE O
-re O
-Eee O
+| O
+DROIT B-ORG
+EEE I-ORG
+re I-ORG
+Eee I-ORG
 ) O
 |
 
 | O
-CPR B-MISC
+CPR O
 TOUR O
 . O
 a O
@@ -23648,34 +23648,34 @@ l O
 | O
 op O
 er O
-LOST B-MISC
+LOST O
 rare O
 u O
 et O
-D B-MISC
+D O
 |
 
-| I-MISC
-EL B-MISC
-RS I-MISC
+| O
+EL O
+RS O
 |
 
-| I-MISC
-de I-MISC
+| O
+de O
 |
-| I-MISC
-ER I-MISC
+| O
+ER B-MISC
 PRISE I-MISC
-IS I-MISC
-RE I-MISC
+IS O
+RE O
 TS O
 RSA O
 je O
 2 O
 ee O
-Bee B-PER
+Bee O
 , O
-PEU O
+PEU B-MISC
 |
 | O
 : O
@@ -23689,14 +23689,14 @@ DE I-MISC
 + I-MISC
 S I-MISC
 + I-MISC
-Se I-MISC
+Se O
 |
 
-| I-MISC
-= I-MISC
+| O
+= O
 |
-| I-MISC
-tre I-MISC
+| O
+tre B-LOC
 . O
 |
 
@@ -23711,10 +23711,10 @@ eme O
 m O
 |
 | O
-RE O
-A O
-DE O
-TS B-ORG
+RE B-PER
+A I-PER
+DE I-PER
+TS I-PER
 |
 | O
 — O
@@ -23737,7 +23737,7 @@ TS B-ORG
 - I-PER
 Et I-PER
 s O
-Lo B-LOC
+Lo B-PER
 à O
 |
 | O
@@ -23761,13 +23761,13 @@ de O
 = O
 |
 | O
-” O
-# O
+” B-MISC
+# I-MISC
 |
-| O
-S B-ORG
-En O
-Los B-LOC
+| I-MISC
+S I-MISC
+En I-MISC
+Los I-MISC
 la O
 |
 
@@ -23799,8 +23799,8 @@ vs I-MISC
 
 | O
 106 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -23881,8 +23881,8 @@ désire O
 
 | O
 — O
-Ma B-PER
-Rose I-PER
+Ma B-MISC
+Rose I-MISC
 est O
 sauvée O
 ! O
@@ -23920,14 +23920,14 @@ village O
 , O
 put O
 voir O
-madame O
-Îa B-PER
+madame B-PER
+Îa I-PER
 |
 | O
 mairesse O
 entrer O
 chez O
-Norine B-ORG
+Norine B-LOC
 . O
 |||| O
 |
@@ -23939,13 +23939,13 @@ l' O
 percut O
 , O
 la O
-Rose B-MISC
+Rose B-LOC
 , O
 se O
 figurant O
 |
 | O
-qu’ B-PER
+qu’ O
 elle O
 allait O
 lui O
@@ -24024,7 +24024,7 @@ DSL O
 
 | O
 Lo B-MISC
-HAE O
+HAE I-MISC
 |
 | O
 our O
@@ -24048,8 +24048,8 @@ r O
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 107 O
 |
@@ -24058,7 +24058,7 @@ tér O
 les O
 gens O
 , O
-l’ B-ORG
+l’ O
 eut O
 bientôt O
 aidée O
@@ -24094,15 +24094,15 @@ Désirée B-PER
 |
 | O
 et O
-d’ B-PER
-Armandine I-PER
+d’ O
+Armandine B-PER
 : O
 |
 
 | O
 _ O
 — O
-Rassurez B-PER
+Rassurez O
 -vous O
 , O
 Rose B-MISC
@@ -24199,7 +24199,7 @@ jour O
 d' O
 aujourd'hui O
 , O
-c’ B-MISC
+c’ O
 est O
 une O
 fille O
@@ -24220,8 +24220,8 @@ perdue O
 dit O
 la O
 Rose B-MISC
-en O
-pleurant O
+en I-MISC
+pleurant I-MISC
 , O
 |
 
@@ -24238,10 +24238,10 @@ toujours O
 | O
 _ O
 — O
-Vous B-MISC
-exagérez I-MISC
-la I-MISC
-faute I-MISC
+Vous O
+exagérez O
+la O
+faute O
 , O
 fnoh B-PER
 éfant I-PER
@@ -24250,18 +24250,18 @@ dit O
 |
 
 | O
-F O
-Ja O
+F B-LOC
+Ja I-LOC
 mairesse O
 ; O
 elle O
-n’ B-PER
+n’ O
 est O
 pas O
 si O
 grave O
 . O
-Me O
+Me B-PER
 voilà O
 |
 
@@ -24270,15 +24270,15 @@ RE O
 7 O
 TESTER O
 SRE O
-LR O
-Rs O
+LR B-MISC
+Rs I-MISC
 : O
 |
 
 | O
 108 O
 MON O
-VILLAGE B-MISC
+VILLAGE O
 . O
 |
 
@@ -24323,7 +24323,7 @@ Madame B-PER
 madame B-PER
 , O
 dit O
-Norine B-PER
+Norine B-LOC
 , O
 rendez- O
 |
@@ -24338,7 +24338,7 @@ courage O
 rendez O
 - O
 lui O
-les- O
+les- B-LOC
 |
 | O
 time O
@@ -24357,7 +24357,7 @@ Et O
 la O
 pauvre O
 vieille O
-Norine B-ORG
+Norine B-LOC
 se O
 jeta O
 aux O
@@ -24387,10 +24387,10 @@ sanglots O
 
 | O
 — O
-Sauvez B-LOC
--nous O
-l' O
-honneur O
+Sauvez B-MISC
+-nous I-MISC
+l' I-MISC
+honneur I-MISC
 , O
 prenez O
 pitié O
@@ -24405,7 +24405,7 @@ nous O
 
 | O
 — O
-Relever B-PER
+Relever O
 -vous O
 , O
 dit O
@@ -24456,7 +24456,7 @@ confiance O
 et O
 , O
 puisque O
-l’ B-LOC
+l’ O
 approbation O
 et O
 l' O
@@ -24478,14 +24478,14 @@ nécessaires O
 
 | O
 AU O
-AT B-ORG
+AT O
 ; O
 |
 | O
 br O
-SON O
-ri B-PER
-Frans I-PER
+SON B-LOC
+ri O
+Frans O
 et O
 cs O
 |
@@ -24497,14 +24497,14 @@ CE B-PER
 NE I-PER
 |
 
-| I-PER
-T B-MISC
-AS I-MISC
-MORE O
+| O
+T B-ORG
+AS I-ORG
+MORE I-ORG
 |
 
-| O
-RIE B-ORG
+| I-ORG
+RIE I-ORG
 |
 
 | O
@@ -24538,25 +24538,25 @@ D O
 s O
 |
 | O
-Li B-PER
+Li B-ORG
 |
 
  
 
-| I-PER
-OX I-PER
-ROMEO I-PER
-ET O
-A B-MISC
-rE I-MISC
+| I-ORG
+OX I-ORG
+ROMEO I-ORG
+ET I-ORG
+A I-ORG
+rE O
 à O
 |
 
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 109 O
 |
@@ -24574,9 +24574,9 @@ cette O
 | O
 approbation O
 , O
-croyez B-LOC
--en I-LOC
-moi I-LOC
+croyez B-MISC
+-en I-MISC
+moi I-MISC
 . O
 |
 
@@ -24625,9 +24625,9 @@ leurs O
 | O
 fuseaux O
 , O
-madame O
-la O
-mairesse O
+madame B-PER
+la I-PER
+mairesse I-PER
 apprend O
 la O
 |
@@ -24672,8 +24672,8 @@ Assuré O
 que O
 si O
 la O
-Rose B-MISC
-de- I-MISC
+Rose B-ORG
+de- I-ORG
 |
 | O
 venait O
@@ -24721,13 +24721,13 @@ le I-PER
 dragon I-PER
 . O
 On O
-s’ B-LOC
+s’ O
 est O
 dit O
 comme O
-ça B-MISC
+ça O
 , O
-voyez B-MISC
+voyez O
 -vous O
 , O
 |
@@ -24744,7 +24744,7 @@ un O
 quelqu' O
 un O
 qui O
-n’ B-PER
+n’ O
 en O
 vaudrait O
 pas O
@@ -24768,7 +24768,7 @@ DE O
 | O
 110 O
 MON B-MISC
-VILLAGE O
+VILLAGE I-MISC
 . O
 |
 
@@ -24786,7 +24786,7 @@ ne O
 
 | O
 trouveraient O
-n1 B-MISC
+n1 B-PER
 peu O
 ni O
 beaucoup O
@@ -24904,7 +24904,7 @@ manière O
 et O
 du O
 bien O
-c’ B-MISC
+c’ O
 est O
 pas O
 du O
@@ -24916,8 +24916,8 @@ donc O
 , O
 que O
 le O
-bon B-MISC
-Dieu I-MISC
+bon O
+Dieu B-MISC
 demande O
 plutôt O
 |
@@ -24954,7 +24954,7 @@ mouche O
 char- O
 |
 | O
-bonnière O
+bonnière B-PER
 , O
 notre O
 mairesse O
@@ -24962,10 +24962,10 @@ a O
 établi O
 dans O
 la O
-|||| O
+|||| B-ORG
 |
-| O
-mairie O
+| I-ORG
+mairie I-ORG
 une O
 espèce O
 de O
@@ -24987,8 +24987,8 @@ sont O
   
 
 | O
-À B-MISC
-Ë I-MISC
+À O
+Ë B-MISC
 |
 
 | I-MISC
@@ -24996,33 +24996,33 @@ j I-MISC
 + I-MISC
 |||| I-MISC
 |
-| O
-ï O
+| I-MISC
+ï I-MISC
 |
-| O
-DE O
+| I-MISC
+DE I-MISC
 |
-| O
-7 O
-|
-
-| O
-è O
+| I-MISC
+7 I-MISC
 |
 
-| O
-l O
-|
-| O
-: O
+| I-MISC
+è I-MISC
 |
 
-| O
-a O
+| I-MISC
+l I-MISC
+|
+| I-MISC
+: I-MISC
 |
 
-| O
-F B-LOC
+| I-MISC
+a I-MISC
+|
+
+| I-MISC
+F I-MISC
 |
 
 | O
@@ -25030,16 +25030,16 @@ CRE B-ORG
 |
 | O
 ; O
-ABrE B-PER
-S I-PER
+ABrE B-MISC
+S I-MISC
 |
 
-| I-PER
-RE I-PER
+| I-MISC
+RE I-MISC
 |
-| O
-cal O
-us O
+| I-MISC
+cal I-MISC
+us I-MISC
 . O
 at O
 |
@@ -25060,7 +25060,7 @@ REP B-PER
 |
 
 | I-PER
-Ee O
+Ee I-PER
 |
 | O
 oi O
@@ -25098,8 +25098,8 @@ las O
 7 O
 per O
 ui O
-Z B-PER
-D I-PER
+Z B-MISC
+D I-MISC
 ed O
 Re O
 ie O
@@ -25148,7 +25148,7 @@ prend O
 ses O
 drogues O
 chez O
-l’ B-ORG
+l’ O
 apothicaire O
 de O
 Martincourt B-LOC
@@ -25362,7 +25362,7 @@ es O
 D O
 |
 | O
-Er O
+Er B-LOC
 — O
 — O
 — O
@@ -25373,14 +25373,14 @@ nent O
 
 | O
 112 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
 | O
-Notre B-LOC
-maire I-LOC
+Notre O
+maire O
 , O
 qui O
 ne O
@@ -25389,7 +25389,7 @@ occupe O
 de O
 rien O
 , O
-n’ B-PER
+n’ O
 y O
 |
 | O
@@ -25485,7 +25485,7 @@ mairesse O
 lé- O
 |
 | O
-gitimement O
+gitimement B-LOC
 à O
 la O
 place O
@@ -25521,7 +25521,7 @@ ou- O
 | O
 jours O
 que O
-c’ B-MISC
+c’ O
 est O
 les O
 bonnets O
@@ -25560,7 +25560,7 @@ mairesse O
 : O
 une O
 fois O
-n’ B-PER
+n’ O
 est O
 pas O
 |
@@ -25587,13 +25587,13 @@ M O
 |
 
 | O
-É O
+É B-LOC
 |
 
 | O
 PRE O
 RAR O
-Peer O
+Peer B-MISC
 |
 | O
 mr O
@@ -25611,35 +25611,35 @@ PAR O
 |
 
 | O
-PRET B-MISC
+PRET B-ORG
 |
 
   
 
-| I-MISC
-pt I-MISC
-+ I-MISC
+| I-ORG
+pt I-ORG
++ I-ORG
 |
 
-| O
+| I-ORG
 F B-LOC
 ; O
 io B-LOC
 |
 
 | O
-RER B-LOC
-NE O
-TR O
-Le B-MISC
-Ne I-MISC
+RER O
+NE B-ORG
+TR I-ORG
+Le O
+Ne O
 |
 
-| I-MISC
-to I-MISC
-” I-MISC
-S I-MISC
-Le I-MISC
+| O
+to O
+” O
+S O
+Le O
 . O
 |
 | O
@@ -25649,8 +25649,8 @@ Le O
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 113 O
 |
@@ -25701,15 +25701,15 @@ et O
 |
 | O
 LE O
-È B-MISC
-4 I-MISC
+È B-LOC
+4 I-LOC
 |
-| I-MISC
-R I-MISC
-+ I-MISC
-f I-MISC
+| I-LOC
+R I-LOC
++ I-LOC
+f I-LOC
 |
-| I-MISC
+| I-LOC
 - O
 t O
 ; O
@@ -25721,7 +25721,7 @@ s O
 - O
 |
 | O
-N- O
+N- B-LOC
 |
 | O
 * O
@@ -25751,7 +25751,7 @@ t O
 a O
 À O
 LA B-LOC
-ï O
+ï I-LOC
 |
 | O
 n O
@@ -25776,19 +25776,19 @@ qui O
 re O
 |
 | O
-RES O
-ESS O
-HE O
-L O
-LE O
-pins O
+RES B-ORG
+ESS I-ORG
+HE I-ORG
+L I-ORG
+LE I-ORG
+pins I-ORG
 de O
-SN B-ORG
+SN O
 22 O
 , O
-5 O
-Fat B-MISC
-she O
+5 B-MISC
+Fat I-MISC
+she I-MISC
 |
 
 | O
@@ -25804,17 +25804,17 @@ a I-MISC
 dogs I-MISC
 |
 
-| I-MISC
-— I-MISC
+| O
+— O
 |
 
  
 
-| I-MISC
-L I-MISC
+| O
+L O
 |
-| I-MISC
-4 I-MISC
+| O
+4 O
 |
 | O
 , O
@@ -25825,16 +25825,16 @@ L I-MISC
 
 | O
 ne O
-mnt O
-ntm B-LOC
-D I-LOC
-© O
+mnt B-PER
+ntm I-PER
+D I-PER
+© I-PER
 - O
 — O
 |
 
 | O
-Share B-LOC
+Share O
 |
 | O
 2 O
@@ -25852,7 +25852,7 @@ Share B-LOC
 en O
 |
 | O
-L O
+L B-LOC
 : O
 |
 | O
@@ -25862,7 +25862,7 @@ L O
 k O
 |
 | O
-Jr O
+Jr B-PER
 |
 
 | O
@@ -25874,46 +25874,46 @@ Jr O
 |
 
 | O
-Fr B-MISC
+Fr B-LOC
 |
-| I-MISC
-' I-MISC
+| O
+' O
 |
-| I-MISC
-} I-MISC
+| O
+} O
 |
 
  
 
-| I-MISC
+| O
 SLI B-MISC
 T I-MISC
-TRS O
-Mer O
-de O
-ms O
-“ O
+TRS I-MISC
+Mer I-MISC
+de I-MISC
+ms I-MISC
+“ I-MISC
 Less O
 et O
-Le-2a0 B-MISC
-4 I-MISC
-res I-MISC
-ral O
+Le-2a0 B-ORG
+4 I-ORG
+res I-ORG
+ral I-ORG
 le O
-Loue B-MISC
-ten I-MISC
+Loue B-LOC
+ten O
 Vs O
 rte O
 er O
 ré O
 ge O
-tte-00 B-MISC
-PT I-MISC
-RSS I-MISC
-te I-MISC
-A I-MISC
-LA O
-4 O
+tte-00 B-PER
+PT I-PER
+RSS I-PER
+te I-PER
+A I-PER
+LA I-PER
+4 I-PER
 CRE B-MISC
 EE I-MISC
 |
@@ -25922,8 +25922,8 @@ EE I-MISC
 . O
 |
 | O
-Sets B-LOC
-cr O
+Sets B-MISC
+cr I-MISC
 un O
 . O
 |
@@ -25959,7 +25959,7 @@ VII O
 
 | O
 LA O
-CONSCRIPTION B-ORG
+CONSCRIPTION O
 |
 
 | O
@@ -25973,7 +25973,7 @@ d’ O
 une O
 chose O
 qui O
-n’ B-PER
+n’ O
 est O
 |
 | O
@@ -25982,9 +25982,9 @@ fort O
 gaie O
 , O
 mais O
-füt O
--ce O
-! O
+füt B-MISC
+-ce I-MISC
+! I-MISC
 puisque O
 je O
 vous O
@@ -26044,7 +26044,7 @@ quitte O
 le O
 pays O
 , O
-l’ B-LOC
+l’ O
 ou- O
 |
 | O
@@ -26100,20 +26100,20 @@ plus O
 | O
 118 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
 | O
-D’ B-PER
+D’ O
 aucuns O
 pères O
 et O
-d’ B-ORG
-aucunes I-ORG
-mères I-ORG
+d’ O
+aucunes O
+mères O
 , O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -26133,9 +26133,9 @@ finis- O
 sent O
 quelquefois O
 , O
-sou B-LOC
+sou B-PER
 sur O
-sou B-LOC
+sou B-PER
 , O
 sueur O
 sur O
@@ -26225,7 +26225,7 @@ numéro O
 cet O
 acte O
 -là O
-n’ B-PER
+n’ O
 est O
 pas O
 |
@@ -26327,8 +26327,8 @@ a- O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 119 O
 |
@@ -26376,7 +26376,7 @@ indiffé- O
 | O
 rence O
 ? O
-Pourront B-LOC
+Pourront O
 -ils O
 quitter O
 sans O
@@ -26389,8 +26389,8 @@ choses O
 attachantes O
 , O
 tant O
-d’ B-PER
-habitudes I-PER
+d’ O
+habitudes O
 , O
 tant O
 |
@@ -26454,10 +26454,10 @@ Céran I-PER
 , O
 revenant O
 de O
-Mor- O
+Mor- B-MISC
 |
-| O
-linval O
+| I-MISC
+linval I-MISC
 , O
 ramassa O
 quelque O
@@ -26490,15 +26490,15 @@ coupé O
 , O
 |
 | O
-d’ B-PER
+d’ O
 après O
 son O
 dire O
 , O
 accidentellement O
 . O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 |
 | O
 sort O
@@ -26528,15 +26528,15 @@ ques- O
 | O
 tion O
 , O
-|||| O
+|||| B-MISC
 |
 
-| O
-# O
+| I-MISC
+# I-MISC
 |
 
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
 | O
 . O
@@ -26554,13 +26554,13 @@ dm O
 | O
 né O
 d O
-M O
+M B-PER
 oral O
 mt O
 cs O
 Thomas B-PER
 DES I-PER
-ET O
+ET I-PER
 |
 | O
 … O
@@ -26571,22 +26571,22 @@ Me B-MISC
 r I-MISC
 it I-MISC
 Su I-MISC
-— I-MISC
-— I-MISC
-= I-MISC
+— O
+— O
+= O
 |
 
-| I-MISC
-120 I-MISC
-MON O
-VILLAGE B-ORG
+| O
+120 O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
   
 
 | O
-Fallut O
+Fallut B-MISC
 recommencer O
 . O
 l’ O
@@ -26675,7 +26675,7 @@ rocher O
 niche O
 |
 | O
-Maria B-LOC
+Maria B-PER
 , O
 la O
 sorcière O
@@ -26704,7 +26704,7 @@ ou O
 cinq O
 parigots O
 , O
-c’ B-MISC
+c’ O
 est O
 tout O
 ce O
@@ -26751,7 +26751,7 @@ de O
 toutes O
 formes O
 : O
-c’ B-MISC
+c’ O
 est O
 dans O
 leur O
@@ -26770,7 +26770,7 @@ bêtes O
 moi O
 , O
 je O
-n’ B-PER
+n’ O
 y O
 ai O
 |
@@ -26795,7 +26795,7 @@ consulter O
 
 | O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 | | O
 , O
@@ -26882,7 +26882,7 @@ il O
 pos- O
 |
 | O
-sède O
+sède B-LOC
 le O
 moyen O
 de O
@@ -26933,7 +26933,7 @@ cire O
 en O
 vous O
 forçant O
-d’ B-MISC
+d’ O
 a- O
 |
 | O
@@ -26962,7 +26962,7 @@ un O
 | O
 temps O
 , O
-jusqu’ B-PER
+jusqu’ O
 après O
 la O
 révision O
@@ -27024,7 +27024,7 @@ Sur O
 les O
 cinq O
 il O
-n’ B-PER
+n’ O
 y O
 en O
 a O
@@ -27041,15 +27041,15 @@ eu O
 
 | I-MISC
 LOS I-MISC
-stagne I-MISC
+stagne O
 , O
 |
 
 | O
 € O
 qe O
-her O
-TRS B-MISC
+her B-LOC
+TRS I-LOC
 . O
 D. O
 |
@@ -27058,8 +27058,8 @@ D. O
 
 | O
 122 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -27080,7 +27080,7 @@ contre- O
 |
 | O
 fait O
-l’ B-LOC
+l’ O
 idiot O
 , O
 le O
@@ -27088,9 +27088,9 @@ simple O
 d' O
 esprit O
 , O
-qu’ B-MISC
-ils I-MISC
-n’ B-PER
+qu’ O
+ils O
+n’ O
 en O
 ont O
 |
@@ -27103,12 +27103,12 @@ majors O
 ! O
 Au O
 jour O
-d’ B-MISC
+d’ O
 autour- O
 |
 | O
-d’ B-PER
-hui I-PER
+d’ O
+hui O
 , O
 nous O
 n' O
@@ -27150,9 +27150,9 @@ abord O
 , O
 Nomine B-MISC
 , O
-Désirée B-LOC
+Désirée B-PER
 , O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 , O
 |
 | O
@@ -27296,7 +27296,7 @@ rouges O
 et O
 bleus O
 . O
-Faut B-LOC
+Faut O
 se O
 mettre O
 en O
@@ -27305,8 +27305,8 @@ en O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 123 O
 |
@@ -27333,13 +27333,13 @@ tête O
 en O
 criant O
 : O
-Vive B-MISC
-la I-MISC
+Vive O
+la O
 |
-| I-MISC
-France I-MISC
-! I-MISC
-M’ B-PER
+| O
+France O
+! O
+M’ O
 est O
 avis O
 que O
@@ -27365,7 +27365,7 @@ Tout O
 | O
 le O
 monde O
-n’ B-PER
+n’ O
 est O
 pas O
 grave O
@@ -27410,7 +27410,7 @@ chaque O
 jour O
 , O
 ce O
-n’ B-PER
+n’ O
 est O
 pas O
 |
@@ -27498,7 +27498,7 @@ mettre O
 ses O
 souliers O
 , O
-qu’ B-PER
+qu’ O
 on O
 repartirait O
 |
@@ -27566,7 +27566,7 @@ _ O
 < O
 " O
 # O
-CRE B-MISC
+CRE O
 x O
 |
 
@@ -27587,15 +27587,15 @@ lat O
 
 | O
 ts O
-Mami B-LOC
-ct O
-de O
-me O
-" O
+Mami B-MISC
+ct I-MISC
+de I-MISC
+me I-MISC
+" I-MISC
 |
 
-| O
-F B-LOC
+| I-MISC
+F I-MISC
 |
 
  
@@ -27603,7 +27603,7 @@ F B-LOC
 | O
 124 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
@@ -27710,7 +27710,7 @@ et O
 d’ O
 apprendreé O
 tout O
-d’ B-MISC
+d’ O
 un O
 coup O
 |
@@ -27733,7 +27733,7 @@ Ceux O
 qui O
 ont O
 de O
-l’ B-LOC
+l’ O
 argent O
 ne O
 |
@@ -27807,7 +27807,7 @@ un O
 saut O
 |
 | O
-jusqu’ B-LOC
+jusqu’ O
 à O
 sa O
 promise O
@@ -27859,13 +27859,13 @@ autres O
 
 | O
 |||| O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 125 O
 |
 | O
-Pas B-LOC
+Pas O
 moins O
 , O
 voilà O
@@ -27919,7 +27919,7 @@ Il O
 ne O
 faut O
 penser O
-qu’ B-LOC
+qu’ O
 à O
 soi O
 , O
@@ -27936,7 +27936,7 @@ côté O
 de O
 nous O
 ; O
-c’ B-MISC
+c’ O
 est O
 notre O
 |
@@ -27948,7 +27948,7 @@ rire O
 nous O
 avons O
 pleuré O
-l’ B-ORG
+l’ O
 an O
 passé O
 . O
@@ -27959,15 +27959,15 @@ Que O
 promis O
 et O
 promises O
-s’ B-PER
+s’ O
 embrassent O
 . O
 |
 | O
-Allons B-LOC
-, O
-allons O
-! O
+Allons B-MISC
+, I-MISC
+allons I-MISC
+! I-MISC
 un O
 chacun O
 en O
@@ -27998,7 +27998,7 @@ les O
 trois O
 ensemble O
 ? O
-C’ B-MISC
+C’ O
 est O
 vrai O
 , O
@@ -28027,7 +28027,7 @@ pas- O
 | O
 sée O
 ! O
-Comprenez B-PER
+Comprenez B-ORG
 : O
 un O
 assäut O
@@ -28048,7 +28048,7 @@ calamité O
 |
 
 | O
-UN O
+UN B-MISC
 REVENANT B-ORG
 |
 
@@ -28063,13 +28063,13 @@ t O
 + O
 |
 | O
-Te O
+Te B-MISC
 |
-| O
-on O
+| I-MISC
+on I-MISC
 |
-| O
-Re O
+| I-MISC
+Re I-MISC
 , O
 |
 | O
@@ -28091,13 +28091,13 @@ VIII B-MISC
 
 | O
 UN O
-REVENANT B-ORG
+REVENANT O
 . O
 |
 
 | O
 Il O
-s’ B-LOC
+s’ O
 agit O
 bien O
 des O
@@ -28129,8 +28129,8 @@ cas O
 vous O
 conter O
 comment O
-ca B-ORG
-s’ I-ORG
+ca O
+s’ O
 est O
 |
 | O
@@ -28139,7 +28139,7 @@ passé O
 |
 
 | O
-Avez B-LOC
+Avez O
 -vous O
 entendu O
 parler O
@@ -28179,7 +28179,7 @@ donner O
 une O
 idée O
 de O
-l’ B-LOC
+l’ O
 endroit O
 |
 | O
@@ -28187,8 +28187,8 @@ où O
 se O
 trouve O
 le O
-pré O
-Brugnon B-PER
+pré B-LOC
+Brugnon I-LOC
 , O
 il O
 est O
@@ -28214,16 +28214,16 @@ lage O
 |
 
 | O
-neue B-LOC
+neue O
 . O
 din O
-hé B-MISC
-2 I-MISC
+hé O
+2 O
 |
 
-| I-MISC
-RE I-MISC
-RE I-MISC
+| O
+RE O
+RE O
 , O
 Dons B-MISC
 BA I-MISC
@@ -28260,16 +28260,16 @@ se O
 7 O
 : O
 D O
-AIT B-MISC
+AIT O
 |
 | O
-PPT O
-SP O
+PPT B-MISC
+SP I-MISC
 . O
-EE B-ORG
+EE B-MISC
 . O
-v B-PER
-Fret I-PER
+v O
+Fret O
 |
 
 | O
@@ -28288,7 +28288,7 @@ Le O
 | O
 er O
 , O
-ph B-LOC
+ph O
 |
 
 | O
@@ -28306,7 +28306,7 @@ r O
 sur O
 le O
 , O
-fc O
+fc B-ORG
 rps O
 |
 | O
@@ -28323,8 +28323,8 @@ et O
 
 | O
 130 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -28337,13 +28337,13 @@ Saint-Brunelle B-LOC
 se O
 présente O
 à O
-|||| O
+|||| B-MISC
 |
 
-| O
-mitan B-LOC
-- I-LOC
-côte I-LOC
+| I-MISC
+mitan I-MISC
+- I-MISC
+côte I-MISC
 ; O
 les O
 maisons O
@@ -28410,8 +28410,8 @@ château O
 |
 
 | O
-Notre B-LOC
-église I-LOC
+Notre O
+église O
 , O
 notre O
 cimetière O
@@ -28423,8 +28423,8 @@ ainsi O
 
 | O
 le O
-pré O
-Brugnon B-PER
+pré B-LOC
+Brugnon I-LOC
 , O
 se O
 trouvent O
@@ -28462,7 +28462,7 @@ tout O
 droit O
 sur O
 la O
-grand’place B-LOC
+grand’place B-ORG
 . O
 |
 | O
@@ -28498,7 +28498,7 @@ faut O
 forcément O
 passer O
 entre O
-l’ B-ORG
+l’ O
 église O
 |
 | O
@@ -28508,8 +28508,8 @@ cimetière O
 , O
 dans O
 le O
-pré O
-Brugnon B-PER
+pré B-LOC
+Brugnon I-LOC
 . O
 |||| O
 |
@@ -28547,7 +28547,7 @@ s O
 Ê O
 |
 | O
-DURS O
+DURS B-ORG
 me O
 |
 | O
@@ -28558,15 +28558,15 @@ se O
 | O
 ‘ O
 d O
-Pr B-MISC
+Pr B-PER
 |
 
-| I-MISC
-Fa I-MISC
-2 I-MISC
-AMP I-MISC
-AIR O
-CO O
+| I-PER
+Fa I-PER
+2 O
+AMP O
+AIR B-MISC
+CO I-MISC
 C2 O
 TE O
 ET O
@@ -28600,8 +28600,8 @@ mm O
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 131 O
 |
@@ -28629,7 +28629,7 @@ des O
 |
 | O
 pierres O
-qu’ B-PER
+qu’ O
 on O
 recevait O
 quand O
@@ -28685,7 +28685,7 @@ hatchic O
 ! O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 croyait O
 entendre O
@@ -28706,7 +28706,7 @@ souhait O
 |
 
 | O
-Or O
+Or B-LOC
 , O
 à O
 partir O
@@ -28734,15 +28734,15 @@ nuit O
 | O
 dans O
 le O
-pré O
-Brugnon B-PER
+pré B-LOC
+Brugnon I-LOC
 , O
 un O
 grandissime O
 reve- O
 |
 | O
-nant O
+nant B-LOC
 . O
 |
 
@@ -28788,7 +28788,7 @@ bâton O
 
 | O
 Chacun O
-s’ B-PER
+s’ O
 exécutait O
 donc O
 par O
@@ -28811,10 +28811,10 @@ diable O
 
 | O
 SUITE O
-TR B-ORG
+TR O
 add O
 EE O
-GANT B-ORG
+GANT O
 AU O
 ET O
 et O
@@ -28831,10 +28831,10 @@ as O
 |
 
 | O
-RPC B-LOC
-TRS O
-5 O
-D O
+RPC B-MISC
+TRS I-MISC
+5 I-MISC
+D I-MISC
 = O
 |
 
@@ -28861,7 +28861,7 @@ t O
 |
 
 | O
-Le O
+Le B-LOC
 . O
 " O
 pe O
@@ -28886,33 +28886,33 @@ mamie O
 , O
 |
 | O
-Prey B-PER
-éditions O
+Prey B-MISC
+éditions I-MISC
 |
 
    
 
-| O
+| I-MISC
 de O
 |
 
 | O
 132 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 |
 
 | O
 Dizy B-LOC
 l’ I-LOC
-avare O
+avare I-LOC
 calculait O
 qu' O
 au O
 bout O
 de O
-l’ B-LOC
+l’ O
 année O
 |
 | O
@@ -28985,7 +28985,7 @@ Jean-Claude B-PER
 | O
 — O
 Il O
-n’ B-PER
+n’ O
 y O
 a O
 pas O
@@ -29021,7 +29021,7 @@ de O
 l' O
 enfer O
 , O
-ré= B-ORG
+ré= O
 |
 
 | O
@@ -29058,24 +29058,24 @@ un O
 | O
 esprit O
 . O
-|||| B-MISC
-# I-MISC
-52 I-MISC
+|||| O
+# O
+52 O
 |
 
-| I-MISC
-Toinon B-LOC
+| O
+Toinon O
 , O
 la O
 femme O
-Lambin B-LOC
+Lambin B-PER
 et O
 la O
 petite O
 à O
 |
 | O
-Perpétue B-PER
+Perpétue B-LOC
 ajoutaient O
 qu' O
 une O
@@ -29120,15 +29120,15 @@ sur O
  
 
 | O
-sd O
+sd B-MISC
 . O
 |
 
   
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 133 O
 |
@@ -29169,7 +29169,7 @@ trois O
 — O
 Bah B-MISC
 ! I-MISC
-bah B-LOC
+bah O
 ! O
 les O
 esprits O
@@ -29285,7 +29285,7 @@ huguenots O
 L' O
 un O
 et O
-l’ B-LOC
+l’ O
 autre O
 cachèrent O
 leur O
@@ -29356,25 +29356,25 @@ ET O
 
 | O
 En O
-om O
-mt O
-mesure O
-nt O
-- O
+om B-ORG
+mt I-ORG
+mesure I-ORG
+nt I-ORG
+- I-ORG
 |
 
  
 
  
 
-| O
-ù O
+| I-ORG
+ù I-ORG
 |
-| O
-ft O
+| I-ORG
+ft I-ORG
 |
-| O
-hi O
+| I-ORG
+hi I-ORG
 . O
 |
 | O
@@ -29387,7 +29387,7 @@ j O
 ” O
 |
 | O
-D B-LOC
+D O
 : O
 |
 
@@ -29395,16 +29395,16 @@ D B-LOC
 . O
 |
 | O
-PE B-LOC
-D I-LOC
+PE B-MISC
+D I-MISC
 |
 
-| I-LOC
-oo O
-PERF B-ORG
+| I-MISC
+oo I-MISC
+PERF I-MISC
 * O
 7 O
-rs B-LOC
+rs O
 |
 
    
@@ -29420,7 +29420,7 @@ rs B-LOC
 | O
 134 O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 |
 | O
@@ -29428,7 +29428,7 @@ neuf O
 heures O
 sonnaient O
 à O
-l’ B-LOC
+l’ O
 horloge O
 de O
 notre O
@@ -29439,8 +29439,8 @@ notre O
 Jean-Claude B-PER
 et O
 le O
-père O
-Roux B-PER
+père B-PER
+Roux I-PER
 , O
 berger O
 , O
@@ -29473,7 +29473,7 @@ même O
 que O
 si O
 rien O
-n’ B-PER
+n’ O
 était O
 , O
 se O
@@ -29492,7 +29492,7 @@ jouer O
 du O
 |
 | O
-gourdin B-PER
+gourdin O
 à O
 qui O
 mieux O
@@ -29542,11 +29542,11 @@ et O
 derrière O
 , O
 il O
-s’ B-MISC
-a- I-MISC
+s’ O
+a- O
 |
-| I-MISC
-vança I-MISC
+| O
+vança O
 pour O
 se O
 placer O
@@ -29559,7 +29559,7 @@ ordinaire O
 
 | O
 — O
-Arrive B-PER
+Arrive O
 donc O
 vitement O
 chercher O
@@ -29587,7 +29587,7 @@ bas O
 que O
 l' O
 esprit O
-n’ B-PER
+n’ O
 aurait O
 su O
 l' O
@@ -29626,7 +29626,7 @@ se O
 | O
 passe O
 dans O
-l’ B-LOC
+l’ O
 armée O
 de O
 la O
@@ -29655,7 +29655,7 @@ r—— O
  
 
 | O
-MON_VILLAGE O
+MON_VILLAGE B-LOC
 . O
 135 O
 |
@@ -29691,7 +29691,7 @@ deux O
 huguenots O
 ne O
 firent O
-qu’ B-LOC
+qu’ O
 un O
 saut O
 |
@@ -29723,8 +29723,8 @@ chemin O
 
 | O
 Le O
-père B-PER
-Roux I-PER
+père O
+Roux O
 allongea O
 un O
 coup O
@@ -29743,8 +29743,8 @@ esprit O
 |
 
 | O
-Jugez B-LOC
-! O
+Jugez B-MISC
+! I-MISC
 ça O
 se O
 mit O
@@ -29787,7 +29787,7 @@ il O
 | O
 tapant O
 de O
-l’ B-LOC
+l’ O
 autre O
 . O
 |
@@ -29804,9 +29804,9 @@ hurler O
 
 | O
 — O
-Tais B-LOC
-- I-LOC
-toi I-LOC
+Tais O
+- O
+toi O
 , O
 àme O
 de O
@@ -29827,8 +29827,8 @@ toi O
 , O
 ou O
 je O
-t’ B-LOC
-as- I-LOC
+t’ O
+as- O
 |
 | O
 somme O
@@ -29842,7 +29842,7 @@ somme O
 | O
 136 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
@@ -29856,8 +29856,8 @@ VILLAGE B-ORG
 
 | O
 — O
-Parle O
-! O
+Parle B-MISC
+! I-MISC
 reprit O
 Jean-Claude B-PER
 , O
@@ -29897,9 +29897,9 @@ tu O
 
 | O
 Ah B-MISC
-bien O
-oui O
-! O
+bien I-MISC
+oui I-MISC
+! I-MISC
 le O
 revenant O
 courait O
@@ -29952,8 +29952,8 @@ mains O
 
 | O
 — O
-Attrape B-PER
-! O
+Attrape B-MISC
+! I-MISC
 dit O
 Jean-Claude B-PER
 en O
@@ -29983,7 +29983,7 @@ après O
 dit O
 le O
 père O
-A O
+A B-PER
 en O
 |
 | O
@@ -30032,23 +30032,23 @@ crier O
 |
 
 | O
-È B-MISC
-PE I-MISC
+È B-ORG
+PE I-ORG
 |
 | O
-MSN O
-LE O
-Lillois O
-ee O
+MSN B-MISC
+LE I-MISC
+Lillois I-MISC
+ee I-MISC
 . O
 rt O
 |
 
 | O
 — O
-Tiens B-LOC
+Tiens B-MISC
 , O
-c’ B-MISC
+c’ O
 est O
 un O
 bonnet O
@@ -30067,7 +30067,7 @@ mme I-MISC
 |
 | I-MISC
 + I-MISC
-À I-MISC
+À O
 . O
 |
 
@@ -30082,8 +30082,8 @@ de O
 “ O
 |
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 137 O
 |
@@ -30104,7 +30104,7 @@ guère O
 |
 | O
 on O
-l’ B-LOC
+l’ O
 a O
 bien O
 s O
@@ -30115,9 +30115,9 @@ lendemain O
 
 | O
 — O
-Assez B-PER
-causé O
-! O
+Assez B-MISC
+causé I-MISC
+! I-MISC
 dit O
 Jean-Claude B-PER
 ; O
@@ -30175,7 +30175,7 @@ un O
 | O
 moment O
 ou O
-l’ B-ORG
+l’ O
 autre O
 . O
 |
@@ -30188,7 +30188,7 @@ un O
 beau O
 clair O
 de O
-lune B-LOC
+lune O
 , O
 et O
 quoi- O
@@ -30216,7 +30216,7 @@ cimetière O
 
 | O
 — O
-Voilà B-PER
+Voilà O
 de O
 quoi O
 faire O
@@ -30309,10 +30309,10 @@ tous O
 les O
 revenants O
 de O
-Saint- B-LOC
+Saint- B-PER
 |
-| O
-Brunelle B-LOC
+| I-PER
+Brunelle I-PER
 . O
 |
 
@@ -30324,8 +30324,8 @@ convenu O
 ! O
 dit O
 le O
-père O
-Roux B-PER
+père B-PER
+Roux I-PER
 ; O
 ça O
 |
@@ -30367,7 +30367,7 @@ puisque O
 ce O
 revenant O
 -là O
-n’ B-PER
+n’ O
 en O
 |
 | O
@@ -30381,7 +30381,7 @@ pourquoi O
 donc O
 qu' O
 il O
-n’ B-PER
+n’ O
 en O
 |
 | O
@@ -30395,7 +30395,7 @@ autres O
 |
 
 | O
-Fallait B-PER
+Fallait O
 voir O
 les O
 remerciements O
@@ -30406,12 +30406,12 @@ don- O
 | O
 nait O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 , O
 surtout O
 Dizy B-PER
 l’ I-PER
-avare O
+avare I-PER
 , O
 un O
 |
@@ -30451,7 +30451,7 @@ les O
 | O
 les O
 de O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 : O
 0 O
 |
@@ -30463,7 +30463,7 @@ cher O
 ami O
 , O
 tu O
-m’ B-PER
+m’ O
 épargnes O
 deux O
 sous O
@@ -30472,17 +30472,17 @@ sous O
 chaque O
 jour O
 ; O
-c’ B-MISC
+c’ O
 est O
 d’ O
 un O
 brave O
 homme O
 , O
-Jean- O
+Jean- B-PER
 |
-| O
-Claude B-PER
+| I-PER
+Claude I-PER
 ; O
 je O
 te O
@@ -30500,8 +30500,8 @@ gg O
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 139 O
 |
@@ -30533,15 +30533,15 @@ trouvait O
 | O
 là O
 : O
+Dizy B-LOC
+l’ O
+usurier O
+! O
 Dizy B-MISC
 l’ I-MISC
-usurier I-MISC
-! O
-Dizy B-LOC
-l’ I-LOC
-avare O
-! O
-Dizy B-PER
+avare I-MISC
+! I-MISC
+Dizy O
 le O
 sans O
 |
@@ -30712,7 +30712,7 @@ tra O
 140 O
 |||| O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 |
 
@@ -30799,7 +30799,7 @@ fossés O
 Poulains B-LOC
 ; O
 et O
-qu’ B-LOC
+qu’ O
 à O
 réserve O
 des O
@@ -30890,13 +30890,13 @@ LE O
  
 
 | O
-IX B-PER
+IX O
 : O
 |
 
 | O
-LES O
-NOCES B-MISC
+LES B-MISC
+NOCES I-MISC
 . O
 |
 
@@ -30904,7 +30904,7 @@ NOCES B-MISC
 
 | O
 Chez O
-Norine B-PER
+Norine B-LOC
 , O
 chez O
 la O
@@ -30921,7 +30921,7 @@ tout O
 traduit O
 du O
 haut O
-jusqu’ B-ORG
+jusqu’ O
 en O
 |
 | O
@@ -30942,7 +30942,7 @@ sont O
 | O
 partagé O
 la O
-besogne B-LOC
+besogne O
 sous O
 les O
 ordres O
@@ -31024,10 +31024,10 @@ indications O
  
 
 | O
-AR B-MISC
-mme I-MISC
-mes I-MISC
-+ I-MISC
+AR B-ORG
+mme O
+mes O
++ O
 en O
 de O
 D B-LOC
@@ -31054,8 +31054,8 @@ de O
 | O
 14 O
 % O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -31073,9 +31073,9 @@ en- O
 | O
 fourné O
 et O
-dépourñé O
-les O
-gâteaux O
+dépourñé B-MISC
+les I-MISC
+gâteaux I-MISC
 et O
 les O
 flans O
@@ -31187,7 +31187,7 @@ Roux B-PER
 , O
 berger O
 , O
-s’ B-LOC
+s’ O
 est O
 |
 | O
@@ -31224,7 +31224,7 @@ en O
 cama- O
 |
 | O
-rades B-LOC
+rades O
 . O
 s O
 |
@@ -31256,8 +31256,8 @@ des O
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 145 O
 |
@@ -31301,7 +31301,7 @@ et O
 la O
 cotte O
 retroussée O
-jusqu’ B-PER
+jusqu’ O
 à O
 la O
 |
@@ -31333,7 +31333,7 @@ alerte O
 ! O
 Ce O
 que O
-c’ B-MISC
+c’ O
 est O
 pourtant O
 que O
@@ -31383,7 +31383,7 @@ gilet O
 en O
 chemin O
 . O
-Garnissons O
+Garnissons B-LOC
 nos O
 poches O
 . O
@@ -31397,14 +31397,14 @@ rends O
 la O
 noce O
 de O
-Désirée B-LOC
+Désirée B-PER
 et O
 du O
 pe- O
 |
 | O
 tiot O
-Denis B-PER
+Denis B-MISC
 . O
 Quoique O
 étant O
@@ -31418,7 +31418,7 @@ ai O
 préféré O
 aller O
 chez O
-Norine B-ORG
+Norine B-LOC
 . O
 |
 
@@ -31444,9 +31444,9 @@ extraordinaire O
 
 | O
 — O
-Ton B-PER
-ami O
-! O
+Ton B-MISC
+ami I-MISC
+! I-MISC
 Jean-Claude B-PER
 , O
 que O
@@ -31483,7 +31483,7 @@ nm O
 » O
 in O
 . O
-PE O
+PE B-ORG
 |
 
 | O
@@ -31493,17 +31493,17 @@ _ O
 > O
 tn B-PER
 mnt I-PER
-mmtttoet O
-at O
+mmtttoet I-PER
+at I-PER
 |
 
-| O
-oh O
-ue B-ORG
-te O
-oh O
-le O
-me O
+| I-PER
+oh I-PER
+ue I-PER
+te I-PER
+oh I-PER
+le I-PER
+me I-PER
 et O
 — O
 _ O
@@ -31525,12 +31525,12 @@ Sa O
 — O
 = O
 = O
-e-—— B-LOC
+e-—— O
 |
 
-| I-LOC
-PO I-LOC
-+ I-LOC
+| O
+PO O
++ O
 Le O
 F B-LOC
 , O
@@ -31544,7 +31544,7 @@ $ O
 
 | O
 146 O
-MOX B-MISC
+MOX O
 VILLAGE O
 . O
 |
@@ -31552,7 +31552,7 @@ VILLAGE O
  
 
 | O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 se O
 place O
 en O
@@ -31574,14 +31574,14 @@ voix O
 
 | O
 — O
-Faut B-LOC
+Faut O
 que O
 tu O
 m' O
 accordes O
 qu' O
 on O
-n’ B-PER
+n’ O
 a O
 a- O
 |
@@ -31619,8 +31619,8 @@ qui O
 |
 | O
 — O
-Sardine B-LOC
-! O
+Sardine B-MISC
+! I-MISC
 que O
 notre O
 mairesse O
@@ -31633,7 +31633,7 @@ donc O
 Pour O
 la O
 , O
-c’ B-MISC
+c’ O
 est O
 vrai O
 , O
@@ -31644,7 +31644,7 @@ camarade O
 
 | O
 — O
-Tiens B-LOC
+Tiens B-MISC
 , O
 dit O
 Jean-Claude B-PER
@@ -31690,11 +31690,11 @@ d' O
 école O
 , O
 la O
-Rose B-MISC
+Rose B-LOC
 |
-| I-MISC
-et I-MISC
-Norine I-MISC
+| O
+et O
+Norine B-LOC
 ; O
 ce O
 qu' O
@@ -31704,7 +31704,7 @@ fait O
 , O
 on O
 ne O
-RE B-MISC
+RE O
 : O
 |
 | O
@@ -31758,9 +31758,9 @@ de I-LOC
 
  
 
-| O
-MON O
-VILLAGE O
+| I-LOC
+MON I-LOC
+VILLAGE I-LOC
 . O
 147 O
 |
@@ -31775,13 +31775,13 @@ au O
 grand O
 jamais O
 , O
-Cel- O
+Cel- B-LOC
 |
 | O
 lier O
 , O
 on O
-n’ B-PER
+n’ O
 a O
 pu O
 voir O
@@ -31811,7 +31811,7 @@ lait O
 , O
 tout O
 en O
-l’ B-LOC
+l’ O
 écoutant O
 j' O
 entendais O
@@ -31863,7 +31863,7 @@ suivie O
 de O
 la O
 vieille O
-Norne B-LOC
+Norne B-PER
 en O
 pleurs O
 et O
@@ -31871,13 +31871,13 @@ et O
 | O
 de O
 la O
-Rose B-LOC
-au O
-bras O
-du O
-maitre O
-d' O
-école O
+Rose B-MISC
+au I-MISC
+bras I-MISC
+du I-MISC
+maitre I-MISC
+d' I-MISC
+école I-MISC
 , O
 je O
 ne O
@@ -31909,10 +31909,10 @@ crier O
 
 | O
 — O
-Vive B-PER
-notre O
-mairesse O
-! O
+Vive B-MISC
+notre I-MISC
+mairesse I-MISC
+! I-MISC
 - O
 |
 
@@ -31937,13 +31937,13 @@ répétant O
 
 | O
 — O
-Vive B-PER
-notre O
-mairesse O
-! O
+Vive B-MISC
+notre I-MISC
+mairesse I-MISC
+! I-MISC
 |
 
-| O
+| I-MISC
 - O
 Et O
 mettant O
@@ -31970,8 +31970,8 @@ me O
 
 | O
 148 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 |
 
@@ -31981,8 +31981,8 @@ T' B-MISC
 as I-MISC
 un I-MISC
 brave I-MISC
-cœur O
-! O
+cœur I-MISC
+! I-MISC
 |
 
 | O
@@ -32051,14 +32051,14 @@ peu O
 . O
 |
 | O
-La O
-mariée O
+La B-MISC
+mariée I-MISC
 étant O
 prête O
 et O
-l’ B-MISC
-heure I-MISC
-venue I-MISC
+l’ O
+heure O
+venue O
 , O
 cha- O
 |
@@ -32106,14 +32106,14 @@ du O
 cortége O
 ; O
 mais O
-c’ B-MISC
+c’ O
 est O
 au O
 sortir O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 église O
 que O
 je O
@@ -32169,14 +32169,14 @@ Allez O
  
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 149 O
 |
 
 | O
-c’ B-MISC
+c’ O
 est O
 un O
 homme O
@@ -32242,7 +32242,7 @@ mairie O
 on O
 entre O
 à O
-l’ B-LOC
+l’ O
 église O
 . O
 |
@@ -32267,7 +32267,7 @@ que O
 monsieur O
 le O
 curé O
-s’ B-PER
+s’ O
 est O
 |
 | O
@@ -32282,7 +32282,7 @@ on O
 ne O
 |
 | O
-s’ B-PER
+s’ O
 y O
 reconnaît O
 plus O
@@ -32320,13 +32320,13 @@ de O
 la O
 noce O
 , O
-s’ B-PER
+s’ O
 appr- O
 |
 | O
 chait O
 de O
-l’ B-LOC
+l’ O
 épourée O
 , O
 et O
@@ -32394,7 +32394,7 @@ de O
 | O
 130 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 | O
@@ -32451,9 +32451,9 @@ qu' O
 la O
 noce O
 de O
-Désirée B-MISC
-on I-MISC
-n’ I-MISC
+Désirée B-PER
+on O
+n’ O
 osera O
 la O
 faire O
@@ -32475,7 +32475,7 @@ mairesse I-PER
 
 | O
 Il O
-n’ B-PER
+n’ O
 est O
 pas O
 dans O
@@ -32499,7 +32499,7 @@ si O
 |
 | O
 bien O
-qu’ B-LOC
+qu’ O
 au O
 bout O
 d’ O
@@ -32520,15 +32520,15 @@ se O
 dirigea O
 vers O
 la O
-sa- O
+sa- B-ORG
 |
-| O
-christie O
+| I-ORG
+christie I-ORG
 . O
 |
 
 | O
-Faut B-LOC
+Faut O
 que O
 je O
 vous O
@@ -32538,8 +32538,8 @@ tour O
 que O
 Jean- B-PER
 |
-| O
-Claude B-PER
+| I-PER
+Claude I-PER
 y O
 a O
 joué O
@@ -32592,7 +32592,7 @@ t O
 
 | O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 si O
 |
@@ -32649,7 +32649,7 @@ me O
 |
 | O
 1 O
-M B-PER
+M O
 fit O
 signe O
 . O
@@ -32661,10 +32661,10 @@ nc O
 |
 | O
 — O
-Je B-MISC
-tiens I-MISC
-le I-MISC
-pari I-MISC
+Je O
+tiens O
+le O
+pari O
 , O
 cria O
 Dizy B-PER
@@ -32703,7 +32703,7 @@ sous O
 . O
 mn O
 Et O
-Dizy B-LOC
+Dizy B-MISC
 sortit O
 de O
 sa O
@@ -32726,7 +32726,7 @@ récurée O
 |
 | O
 _ O
-Profit B-MISC
+Profit O
 cette O
 pièce O
 entre O
@@ -32744,7 +32744,7 @@ sa O
 main O
 , O
 puis O
-l’ B-LOC
+l’ O
 essayant O
 au-dessus O
 |
@@ -32775,9 +32775,9 @@ gagné O
 
  | O
 — O
-Cest B-LOC
-vrai O
-! O
+Cest B-MISC
+vrai I-MISC
+! I-MISC
 dit O
 Jean-Claude B-PER
 en O
@@ -32795,15 +32795,15 @@ coude O
 
 | O
 s O
-CUITE O
+CUITE B-ORG
 TR O
 LE O
 |
 | O
-SORT B-ORG
+SORT B-MISC
 en O
-SE O
-CRUE B-ORG
+SE B-MISC
+CRUE I-MISC
 |
 | O
 rl O
@@ -32812,11 +32812,11 @@ ane O
 |
 
 | O
-AREA O
+AREA B-PER
 |
 
-| O
-A O
+| I-PER
+A I-PER
 " O
 |
 
@@ -32825,7 +32825,7 @@ A O
 | O
 152 O
 MON B-MISC
-VILLAGE O
+VILLAGE I-MISC
 . O
 |
 
@@ -32848,7 +32848,7 @@ ravoir O
 |
 
 | O
-Dizy B-PER
+Dizy B-LOC
 bâallait O
 pour O
 voir O
@@ -32872,7 +32872,7 @@ dans O
 la O
 main O
 de O
-l’ B-LOC
+l’ O
 avare O
 , O
 en O
@@ -32908,7 +32908,7 @@ raison O
 Jean-Claude B-PER
 et O
 gouailla O
-Dizy B-PER
+Dizy O
 . O
 |
 
@@ -32921,7 +32921,7 @@ moins O
 nous O
 sortons O
 de O
-l’ B-LOC
+l’ O
 église O
 et O
 , O
@@ -32971,7 +32971,7 @@ que O
 les O
 dames O
 de O
-l’ B-LOC
+l’ O
 an- O
 |
 | O
@@ -32989,7 +32989,7 @@ notre O
 pays O
 prétendent O
 que O
-c’ B-MISC
+c’ O
 est O
 une O
 honte O
@@ -33026,30 +33026,30 @@ autrefois O
 |
 
 | O
-L B-LOC
-L I-LOC
+L O
+L O
 et O
 animé O
 lé O
 téminin O
 |
 | O
-CRAN O
+CRAN B-ORG
 il O
 7 O
-A B-MISC
-pet I-MISC
-2 I-MISC
+A O
+pet O
+2 O
 ht O
 mn O
 : O
 cm O
 mme O
 ent O
-han B-MISC
-— I-MISC
-nm I-MISC
-men I-MISC
+han O
+— O
+nm O
+men O
 au O
 Éd B-MISC
 |
@@ -33066,12 +33066,12 @@ VILLAGE I-MISC
   
 
 | O
-Toujours O
-les O
-vieilles O
-gens O
-s’ B-PER
-imaginent O
+Toujours B-MISC
+les I-MISC
+vieilles I-MISC
+gens I-MISC
+s’ I-MISC
+imaginent I-MISC
 que O
 |
 
@@ -33110,7 +33110,7 @@ de O
 même O
 . O
 ‘ O
-Tàchons B-MISC
+Tàchons B-LOC
 , O
 plutôt O
 |
@@ -33120,14 +33120,14 @@ plutôt O
 4 O
 que O
 de O
-blämer O
+blämer B-PER
 , O
 d' O
 expliquer O
 les O
 choses O
 . O
-M’ B-PER
+M’ B-LOC
 est O
 |
 | O
@@ -33208,7 +33208,7 @@ danse O
 |
 
 | O
-Me B-MISC
+Me B-PER
 voilà O
 encore O
 obligé O
@@ -33249,8 +33249,8 @@ maison O
 où O
 se O
 fait O
-La O
-noce O
+La B-MISC
+noce I-MISC
 , O
 le O
 |
@@ -33263,7 +33263,7 @@ côté O
 la O
 mariée O
 de O
-l’ B-LOC
+l’ O
 autre O
 , O
 se O
@@ -33284,7 +33284,7 @@ porte O
 | O
 k O
 Il O
-s’ B-LOC
+s’ O
 agit O
 pour O
 eux O
@@ -33302,8 +33302,8 @@ reconnais- O
    
 
 | O
-SU O
-ND O
+SU B-ORG
+ND I-ORG
 RC O
 CRE O
 Te O
@@ -33314,29 +33314,29 @@ Te O
 = O
 Sri B-LOC
 |
-| I-LOC
-Cesser I-LOC
-sat O
+| O
+Cesser O
+sat B-ORG
 ) O
 |
 
 | O
-FILE B-ORG
-DE O
+FILE B-MISC
+DE I-MISC
 |
 
 | O
-ms B-MISC
-Eee I-MISC
+ms O
+Eee O
 |
-| I-MISC
+| O
 Er O
 am O
 2 O
 |
 
 | O
-S B-LOC
+S O
 ON O
 |
 
@@ -33349,8 +33349,8 @@ D B-LOC
 
 | O
 154 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -33427,7 +33427,7 @@ oubliais O
 de O
 vous O
 prévenir O
-qu’ B-PER
+qu’ O
 au O
 moment O
 |
@@ -33475,7 +33475,7 @@ son O
 écot O
 . O
 De O
-vaï O
+vaï B-ORG
 , O
 chez O
 nous O
@@ -33564,10 +33564,10 @@ vers O
 la O
 salle O
 de O
-J B-MISC
+J B-LOC
 |
-| I-MISC
-danse I-MISC
+| O
+danse O
 , O
 qui O
 se O
@@ -33576,11 +33576,11 @@ trouve O
 l' O
 auberge O
 de O
-Clarisse B-PER
+Clarisse B-LOC
 |
 
-| I-PER
-Manot I-PER
+| I-LOC
+Manot I-LOC
 . O
 |
 
@@ -33590,19 +33590,19 @@ Manot I-PER
 | O
 RE O
 en O
-Or O
-DE O
+Or B-MISC
+DE I-MISC
 a O
 0 O
 à O
 nm O
-Pme B-MISC
-hum I-MISC
-méme O
-aies O
-HN B-PER
-di O
-cn O
+Pme B-ORG
+hum O
+méme B-LOC
+aies I-LOC
+HN I-LOC
+di I-LOC
+cn I-LOC
 |
 
  
@@ -33611,8 +33611,8 @@ cn O
 
  
 
-| O
-MON B-ORG
+| I-LOC
+MON O
 VILLAGE- O
 15 O
 |
@@ -33643,14 +33643,14 @@ a O
 du O
 goût O
 ; O
-c’ B-MISC
+c’ O
 est O
 vraiment O
 dommage O
 |
 | O
 que O
-Manot B-PER
+Manot B-LOC
 reste O
 si O
 bête O
@@ -33675,7 +33675,7 @@ un O
 brin O
 avisée O
 , O
-c’ B-MISC
+c’ O
 est O
 tout O
 ce O
@@ -33691,7 +33691,7 @@ monde O
 |
 
 | O
-Me B-MISC
+Me B-PER
 voilà O
 maintenant O
 trop O
@@ -33708,7 +33708,7 @@ donc O
 je O
 dis O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 : O
 |
 
@@ -33812,7 +33812,7 @@ la O
 | O
 156 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
@@ -33840,29 +33840,29 @@ définir O
 je O
 dis O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 : O
 |
 
 | O
 — O
-Sens B-LOC
-- I-LOC
-tu I-LOC
-comme O
-moi O
-? O
+Sens B-MISC
+- I-MISC
+tu I-MISC
+comme I-MISC
+moi I-MISC
+? I-MISC
 |
 
-| O
-— O
+| I-MISC
+— I-MISC
 Oui O
 , O
 dit O
 Jean-Claude B-PER
 , O
 il O
-n’ B-PER
+n’ O
 est O
 point O
 per- O
@@ -33910,7 +33910,7 @@ puis O
 de O
 Nordine B-PER
 , O
-s’ B-PER
+s’ O
 approcha O
 de O
 notre O
@@ -33982,7 +33982,7 @@ jours O
 
 | O
 — O
-M' O
+M' B-LOC
 est O
 avis O
 , O
@@ -34010,7 +34010,7 @@ sœur O
 , O
 une O
 supposition O
-qu’ B-PER
+qu’ O
 elle O
 couche O
 |
@@ -34021,13 +34021,13 @@ toi O
 |
 
 | O
-Te B-ORG
-US I-ORG
-CR I-ORG
+Te B-MISC
+US I-MISC
+CR O
 EN O
 ST O
 ES O
-PS B-ORG
+PS O
 et O
 a O
 |
@@ -34043,8 +34043,8 @@ a O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 157 O
 |
@@ -34110,10 +34110,10 @@ voir O
 l' O
 expérience O
 ? O
-É B-LOC
+É O
 |
 
-| I-LOC
+| O
 On O
 apporta O
 une O
@@ -34131,7 +34131,7 @@ bénite O
 Les O
 trois O
 mariées O
-Ôôtèrent O
+Ôôtèrent B-LOC
 leur O
 anneau O
 |
@@ -34156,10 +34156,10 @@ derrière O
 les O
 filles O
 et O
-de- O
+de- B-LOC
 |
 | O
-rère O
+rère B-LOC
 les O
 lieux O
 . O
@@ -34174,7 +34174,7 @@ uns O
 et O
 les O
 autres O
-s’ B-MISC
+s’ O
 arr- O
 |
 | O
@@ -34228,12 +34228,12 @@ années O
 |
 
 | I-MISC
-et I-MISC
-le I-MISC
-de I-MISC
+et O
+le O
+de O
 Eee B-ORG
 PORRÉECR I-ORG
-L I-ORG
+L O
 = O
 |
 
@@ -34258,14 +34258,14 @@ $ O
 
 | O
 je O
-LP B-MISC
-/ I-MISC
-aus I-MISC
-PT O
-LR O
-LE O
-LE O
-ET O
+LP B-ORG
+/ I-ORG
+aus I-ORG
+PT I-ORG
+LR I-ORG
+LE I-ORG
+LE I-ORG
+ET I-ORG
 a O
 s O
 De O
@@ -34280,8 +34280,8 @@ NET I-MISC
 RE I-MISC
 T I-MISC
 ES I-MISC
-DE O
-RENE B-ORG
+DE I-MISC
+RENE I-MISC
 g O
 En O
 |
@@ -34624,17 +34624,17 @@ couchant O
 ils O
 récitent O
 cinq O
-Pater B-MISC
+Pater B-PER
 |
 | O
 et O
 cinq O
-Avec B-MISC
+Avec O
 , O
 une O
 oraison O
 à O
-sainte O
+sainte B-PER
 je O
 ne O
 sais O
@@ -34664,15 +34664,15 @@ vois O
 |
 
 | O
-Let B-LOC
+Let B-MISC
 |
 
-| O
-|||| O
-séparèrent O
+| I-MISC
+|||| I-MISC
+séparèrent I-MISC
 , O
 se O
-Dia B-PER
+Dia B-LOC
 de O
 relancer O
 le O
@@ -34686,7 +34686,7 @@ Norine B-LOC
 , O
 on O
 trouva O
-madame O
+madame B-PER
 la O
 mairesse O
 . O
@@ -34738,8 +34738,8 @@ orioles O
 rapport O
 à O
 madame B-PER
-la I-PER
-mairesse I-PER
+la O
+mairesse O
 , O
 quoi- O
 |
@@ -34762,25 +34762,25 @@ soit O
 et O
 le O
 S B-LOC
-de O
+de I-LOC
 et O
-c O
-LÉ O
-ét O
-hé O
-og O
-4 O
-gi O
-on O
-D O
+c B-MISC
+LÉ I-MISC
+ét I-MISC
+hé I-MISC
+og I-MISC
+4 I-MISC
+gi I-MISC
+on I-MISC
+D I-MISC
 |
 
-| O
-S B-LOC
+| I-MISC
+S I-MISC
 |
 
-| O
-Ce O
+| I-MISC
+Ce I-MISC
 ne O
 mise O
 s O
@@ -34792,12 +34792,12 @@ dE O
 , O
 |
 | O
-AR B-MISC
-OR I-MISC
-RESte O
-srl O
+AR B-ORG
+OR I-ORG
+RESte I-ORG
+srl I-ORG
 au O
-DÉC B-MISC
+DÉC O
 En O
 de O
 br O
@@ -34807,22 +34807,22 @@ De I-MISC
 |
 
 | I-MISC
-— I-MISC
-— I-MISC
-— I-MISC
+— O
+— O
+— O
 |
-| I-MISC
-me I-MISC
-|
-
-| I-MISC
-DE I-MISC
+| O
+me O
 |
 
-| I-MISC
-160 I-MISC
-MON I-MISC
-VILLAGE B-ORG
+| O
+DE O
+|
+
+| O
+160 O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -34852,7 +34852,7 @@ voyant O
 atten- O
 |
 | O
-tonnée O
+tonnée B-LOC
 pour O
 un O
 chacun O
@@ -34882,8 +34882,8 @@ du O
 dessert O
 , O
 madame B-PER
-la I-PER
-mairesse I-PER
+la O
+mairesse O
 , O
 croyant O
 nous O
@@ -34935,10 +34935,10 @@ pro- O
 tection O
 ; O
 qui O
-l’ B-LOC
+l’ O
 attaquera O
 , O
-m’ B-PER
+m’ O
 attaquera O
 . O
 Son O
@@ -34978,14 +34978,14 @@ de O
 sa O
 femme O
 . O
-La O
-Rose B-MISC
+La B-MISC
+Rose I-MISC
 |
-| O
-est O
-devenue O
-bonne O
-couturière O
+| I-MISC
+est I-MISC
+devenue I-MISC
+bonne I-MISC
+couturière I-MISC
 ; O
 après O
 les O
@@ -35008,8 +35008,8 @@ fourniront O
 de O
 l' O
 ouvrage O
-m' O
-obligeront O
+m' B-MISC
+obligeront I-MISC
 . O
 |
 
@@ -35036,7 +35036,7 @@ une O
 fameuse O
 , O
 je O
-n’ B-PER
+n’ O
 ai O
 pas O
 de O
@@ -35052,10 +35052,10 @@ blanc O
 — O
 Bien O
 , O
-Cellier B-LOC
+Cellier B-PER
 , O
 dit O
-madame O
+madame B-PER
 la O
 m.presse O
 |
@@ -35067,8 +35067,8 @@ m.presse O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 161 O
 |
@@ -35152,16 +35152,16 @@ Cette O
 mère O
 , O
 je O
-l’ B-LOC
+l’ O
 ai O
 trouvée O
 : O
-c’ B-MISC
+c’ O
 est O
 la O
 |
 | O
-Rose B-PER
+Rose B-MISC
 . O
 Pendant O
 que O
@@ -35176,7 +35176,7 @@ d' O
 elle O
 , O
 la O
-Rose B-MISC
+Rose B-LOC
 travaillera O
 à O
 sa O
@@ -35205,7 +35205,7 @@ nourrissons O
 . O
 |
 | O
-Voyons B-LOC
+Voyons B-PER
 , O
 mes O
 bons O
@@ -35270,9 +35270,9 @@ vous O
 | O
 rendre O
 ? O
-Pardonnez B-MISC
-- I-MISC
-lui I-MISC
+Pardonnez O
+- O
+lui O
 . O
 |
 
@@ -35322,24 +35322,24 @@ leurs O
 |
 
 | O
-Re B-MISC
-— I-MISC
-— I-MISC
+Re O
+— O
+— O
 |
 
  
 
-| I-MISC
-ge I-MISC
+| O
+ge O
 — O
 - O
 |
 
 | O
-Ronan B-ORG
+Ronan O
 |
 
-| I-ORG
+| O
 FABLE O
 ER O
 GT O
@@ -35348,17 +35348,17 @@ GT O
 | O
 SRE O
 . O
-CE O
-FANS O
-DE O
+CE B-MISC
+FANS I-MISC
+DE I-MISC
 |
 
-| O
-= O
+| I-MISC
+= I-MISC
 mate O
 |
 | O
-sie O
+sie B-LOC
 de O
 m O
 |
@@ -35372,7 +35372,7 @@ ES B-LOC
 | O
 162 O
 MON B-MISC
-VILLAGE O
+VILLAGE I-MISC
 . O
 |
 
@@ -35405,28 +35405,28 @@ d' O
 école O
 embrassa O
 la O
-Rose B-MISC
+Rose B-LOC
 , O
 le O
 gars O
-|||| O
+|||| B-PER
 |
-| O
-Denis B-PER
+| I-PER
+Denis I-PER
 sa O
 nouvelle O
 femme O
 , O
 la O
-mère B-PER
-Denis I-PER
+mère O
+Denis B-PER
 , O
 |
 
 | O
 Norine B-LOC
 , O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 , O
 moi O
 , O
@@ -35440,7 +35440,7 @@ se O
 mit O
 aussi O
 à O
-s’ B-LOC
+s’ O
 embrasser O
 . O
 On O
@@ -35482,7 +35482,7 @@ soi O
 | O
 on O
 chercha O
-madame O
+madame B-PER
 la O
 mairesse O
 : O
@@ -35502,7 +35502,7 @@ croire O
 que O
 , O
 parce O
-qu’ B-PER
+qu’ O
 elle O
 a O
 sauvé O
@@ -35510,11 +35510,11 @@ sauvé O
 |
 | O
 la O
-Rose B-MISC
-du I-MISC
-déshonneur I-MISC
+Rose O
+du O
+déshonneur O
 , O
-madame O
+madame B-PER
 la O
 mairesse O
 |
@@ -35562,7 +35562,7 @@ pour O
 se O
 marier O
 , O
-madame O
+madame B-PER
 la O
 |
 | O
@@ -35589,7 +35589,7 @@ en O
 sera O
 , O
 dit O
-Jean- O
+Jean- B-PER
 |
 
 | O
@@ -35600,7 +35600,7 @@ sur O
 une O
 chaise O
 , O
-l’ B-LOC
+l’ O
 année O
 |
 
@@ -35609,10 +35609,10 @@ année O
 | O
 ET O
 EST O
-PER B-ORG
+PER O
 EE O
-PES B-ORG
-Pre I-ORG
+PES B-MISC
+Pre I-MISC
 — O
 — O
 — O
@@ -35620,27 +35620,27 @@ Pre I-ORG
 |
 | O
 NET B-MISC
-DE O
-UNE B-MISC
+DE I-MISC
+UNE I-MISC
 Pet I-MISC
 VC I-MISC
-7e O
+7e I-MISC
 a O
 |
 
 | O
 " O
 te O
-Et O
-L B-MISC
+Et B-MISC
+L I-MISC
 PTT I-MISC
-Es O
-PUR O
-eV O
-RD O
-7e O
-De O
-L O
+Es I-MISC
+PUR I-MISC
+eV I-MISC
+RD I-MISC
+7e I-MISC
+De I-MISC
+L I-MISC
 > O
 |
 
@@ -35658,8 +35658,8 @@ d O
     
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 163 O
 |
@@ -35671,7 +35671,7 @@ commune O
 |
 
 | O
-DS B-MISC
+DS B-ORG
 — O
 C' O
 est O
@@ -35768,30 +35768,30 @@ in O
 ho B-PER
 |
 
-| I-PER
-— I-PER
-- I-PER
-|
-
-| I-PER
-hi I-PER
-” I-PER
+| O
+— O
+- O
 |
 
 | O
-Salons B-ORG
-de I-ORG
-+ I-ORG
+hi O
+” O
+|
+
+| O
+Salons B-MISC
+de I-MISC
++ I-MISC
 |
 
-| O
-« O
-. O
-! B-MISC
+| I-MISC
+« I-MISC
+. I-MISC
+! O
 |
 
-| I-MISC
-SR I-MISC
+| O
+SR B-MISC
 et O
 d O
 un O
@@ -35848,25 +35848,25 @@ do O
 ei O
 |
 | O
-ES B-LOC
+ES B-ORG
 |
 
  
 
  
 
-| O
-|||| O
+| I-ORG
+|||| I-ORG
 |
-| O
-A O
+| I-ORG
+A I-ORG
 |
-| O
-CE O
+| I-ORG
+CE I-ORG
 QU' O
-IL O
-VOUS O
-PLAIRA B-ORG
+IL B-ORG
+VOUS I-ORG
+PLAIRA I-ORG
 . O
 |
 
@@ -35880,23 +35880,23 @@ passé O
 | O
 _ O
 _ O
-D' O
-autres O
-et O
-moi O
-nous O
-avons O
-fait O
-de O
-la O
-toile O
+D' B-MISC
+autres I-MISC
+et I-MISC
+moi I-MISC
+nous I-MISC
+avons I-MISC
+fait I-MISC
+de I-MISC
+la I-MISC
+toile I-MISC
 |
-| O
-dan O
-nos O
-caves O
+| I-MISC
+dan I-MISC
+nos I-MISC
+caves I-MISC
 ; O
-d’ B-PER
+d’ O
 aucuns O
 ont O
 battu O
@@ -35924,7 +35924,7 @@ Tout O
 de O
 même O
 , O
-c’ B-MISC
+c’ O
 est O
 merveille O
 de O
@@ -35944,7 +35944,7 @@ lever O
 les O
 |
 | O
-Présentement B-PER
+Présentement O
 , O
 nous O
 coupons O
@@ -35974,7 +35974,7 @@ au O
 soleil O
 . O
 Ce O
-n’ B-PER
+n’ O
 est O
 pas O
 un O
@@ -35988,14 +35988,14 @@ travail O
  
 
 | O
-ET O
-SE B-LOC
+ET B-ORG
+SE I-ORG
 |
 
  
 
-| I-LOC
-Es I-LOC
+| I-ORG
+Es I-ORG
 |
 | O
 : O
@@ -36013,31 +36013,31 @@ IRIS I-MISC
 = O
 |
 | O
-SORERIE B-ORG
+SORERIE B-PER
 |
 
 | O
 . O
-zut B-ORG
+zut O
 |
 | O
 vs O
 24 O
 |
 | O
-ENT B-ORG
-AR I-ORG
+ENT O
+AR B-ORG
 + O
 |
 
 | O
-st O
+st B-MISC
 |
 
-| O
-RSR O
-De O
-ET O
+| I-MISC
+RSR I-MISC
+De I-MISC
+ET I-MISC
 je O
 n O
 si O
@@ -36051,18 +36051,18 @@ Et O
 De O
 SE B-LOC
 RER I-LOC
-DE O
-LA B-LOC
+DE I-LOC
+LA I-LOC
 E I-LOC
-ET O
+ET I-LOC
 |
 
-| O
-pis O
+| I-LOC
+pis I-LOC
 |
 
-| O
-= O
+| I-LOC
+= I-LOC
 ira O
 24 O
 % O
@@ -36073,10 +36073,10 @@ ira O
 F B-LOC
 |
 
-| I-LOC
-RE I-LOC
-D I-LOC
-Per I-LOC
+| O
+RE O
+D O
+Per O
 |
 
 | O
@@ -36085,24 +36085,24 @@ file O
 à O
 |
 | O
-FL B-MISC
-Forte I-MISC
-163 I-MISC
+FL B-LOC
+Forte I-LOC
+163 I-LOC
 |
 
   
 
-| O
-168 O
-MON B-MISC
-VILLAGE I-MISC
+| I-LOC
+168 I-LOC
+MON I-LOC
+VILLAGE I-LOC
 , O
 |
 
 | O
 fatigant O
 ; O
-l’ B-LOC
+l’ O
 année O
 est O
 sèche O
@@ -36163,8 +36163,8 @@ bataille O
 . O
 |
 | O
-La O
-Rose O
+La B-MISC
+Rose I-MISC
 est O
 accouchée O
 d’ O
@@ -36217,7 +36217,7 @@ petite O
 | O
 Ce O
 que O
-c’ B-MISC
+c’ O
 est O
 que O
 d’ O
@@ -36259,7 +36259,7 @@ lui O
 manquera O
 pas O
 . O
-Madame B-PER
+Madame O
 |
 | O
 la O
@@ -36301,8 +36301,8 @@ montrer O
 |
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 169 O
 |
@@ -36349,9 +36349,9 @@ tombant O
 de O
 |
 | O
-À O
-leurs O
-berceaux O
+À B-MISC
+leurs I-MISC
+berceaux I-MISC
 . O
 Elles O
 pauvres O
@@ -36360,7 +36360,7 @@ auront O
 |
 | O
 comme O
-ca B-LOC
+ca B-MISC
 , O
 chaque O
 jour O
@@ -36373,8 +36373,8 @@ de O
 son O
 temps O
 . O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 semble O
 vraiment O
 réjoui O
@@ -36401,14 +36401,14 @@ mouche O
 char- O
 |
 | O
-|||| O
-bonnière O
+|||| B-PER
+bonnière I-PER
 ; O
 dans O
 la O
 pharmacie O
 de O
-madame O
+madame B-PER
 la O
 |
 | O
@@ -36420,13 +36420,13 @@ dit O
 notre O
 médecin O
 , O
-l’ B-LOC
+l’ O
 oncle O
 |
 | O
 de O
 la O
-Rose B-MISC
+Rose O
 aurait O
 aisément O
 passé O
@@ -36467,7 +36467,7 @@ enjoint O
 |
 | O
 à O
-l’ B-LOC
+l’ O
 écorcheur O
 du O
 village O
@@ -36484,7 +36484,7 @@ il O
 ne O
 faisait O
 guère O
-jusqu’ B-PER
+jusqu’ O
 à O
 présent O
 . O
@@ -36507,8 +36507,8 @@ ce O
 qu' O
 a O
 prétendu O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 , O
 les O
 |
@@ -36530,28 +36530,28 @@ charbon O
  
 
 | O
-ER B-MISC
-ARE I-MISC
-TRS O
+ER O
+ARE B-MISC
+TRS I-MISC
 DOTE O
-MERS B-MISC
-O2 I-MISC
+MERS O
+O2 B-MISC
 |
 
-| O
-S O
+| I-MISC
+S I-MISC
 |
-| O
-es O
-|
-
-| O
-’ O
+| I-MISC
+es I-MISC
 |
 
-| O
-PAT B-LOC
-Ga O
+| I-MISC
+’ I-MISC
+|
+
+| I-MISC
+PAT I-MISC
+Ga B-PER
 tie O
 |
 | O
@@ -36561,8 +36561,8 @@ ee O
 |
 
 | O
-FAR B-ORG
-ENT I-ORG
+FAR B-LOC
+ENT O
 |
 
 | O
@@ -36588,9 +36588,9 @@ et O
 |
 
 | O
-FR O
-Res O
-DE O
+FR B-MISC
+Res I-MISC
+DE I-MISC
 |
 
 | O
@@ -36615,26 +36615,26 @@ RE I-MISC
 | I-MISC
 S I-MISC
 ES I-MISC
-5 I-MISC
+5 O
 did O
 |
 | O
-Sat B-MISC
+Sat B-ORG
+|
+| O
+Le B-MISC
+? I-MISC
+|
+
+| I-MISC
+. I-MISC
 |
 | I-MISC
-Le O
-? O
+pie I-MISC
 |
 
-| O
-. O
-|
-| O
-pie O
-|
-
-| O
-a70 B-MISC
+| I-MISC
+a70 I-MISC
 MON I-MISC
 VILLAGE I-MISC
 . O
@@ -36727,7 +36727,7 @@ logement O
 ils O
 |
 | O
-l’ B-LOC
+l’ O
 ont O
 trouvé O
 chez O
@@ -36739,7 +36739,7 @@ cousins O
 |
 
 | O
-Sitôt B-LOC
+Sitôt O
 qu’ O
 on O
 a O
@@ -36747,8 +36747,8 @@ appris O
 le O
 retour O
 du O
-père O
-Roux B-PER
+père B-PER
+Roux I-PER
 ; O
 |
 | O
@@ -36782,7 +36782,7 @@ questions O
 . O
 Mais O
 on O
-n’ B-PER
+n’ O
 a O
 jamais O
 pu O
@@ -36818,8 +36818,8 @@ prochaines O
 et O
 le O
 père O
-Roux B-MISC
-4 I-MISC
+Roux B-PER
+4 O
 |
 
 | O
@@ -36849,8 +36849,8 @@ Clarisse B-PER
 Manot I-PER
 , O
 le O
-père O
-Roux B-PER
+père B-PER
+Roux I-PER
 a O
 commencé O
 |
@@ -36858,17 +36858,17 @@ commencé O
 par O
 dire O
 : O
-|||| O
+|||| B-MISC
 |
 
-| O
-RS B-LOC
-» O
-ee O
+| I-MISC
+RS I-MISC
+» I-MISC
+ee I-MISC
 |
 
-| O
-… O
+| I-MISC
+… I-MISC
 |
 
    
@@ -36885,16 +36885,16 @@ ee O
  
    
 
-| O
-LL O
+| I-MISC
+LL I-MISC
 |
 
-| O
-ëi O
+| I-MISC
+ëi I-MISC
 |
 
-| O
-L B-MISC
+| I-MISC
+L I-MISC
 |
 
   
@@ -36902,7 +36902,7 @@ L B-MISC
 | I-MISC
 ï I-MISC
 |
-| I-MISC
+| O
 il O
 |
 
@@ -36978,7 +36978,7 @@ les O
 plus O
 belles O
 illuminations O
-n’ B-PER
+n’ O
 ont O
 , O
 malgré O
@@ -37039,10 +37039,10 @@ rare O
 |
 
 | O
-ST B-PER
-Satané I-PER
-imbécile O
-! O
+ST B-MISC
+Satané I-MISC
+imbécile I-MISC
+! I-MISC
 dit O
 le O
 vieux O
@@ -37058,7 +37058,7 @@ un O
 fin O
 matin O
 , O
-c’ B-MISC
+c’ O
 est O
 ce O
 qu’ O
@@ -37075,7 +37075,7 @@ rare O
 
 | O
 — O
-Bah O
+Bah B-PER
 que O
 je O
 reprends O
@@ -37128,7 +37128,7 @@ dans O
 des O
 fureurs O
 à O
-n’ B-PER
+n’ O
 en O
 |
 
@@ -37136,19 +37136,19 @@ en O
 
 | O
 = O
-LE O
+LE B-LOC
 |
 
-| O
-P O
-RE O
-DE O
-TERRES O
-ol O
-LE O
-SP B-MISC
-EE I-MISC
-RL I-MISC
+| I-LOC
+P I-LOC
+RE I-LOC
+DE I-LOC
+TERRES I-LOC
+ol I-LOC
+LE I-LOC
+SP I-LOC
+EE I-LOC
+RL O
 Es O
 SECRET O
 2 O
@@ -37172,8 +37172,8 @@ au- O
 
 | O
 172 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -37221,7 +37221,7 @@ soleil O
 une O
 preuve O
 , O
-c’ B-MISC
+c’ O
 est O
 qu' O
 ils O
@@ -37233,7 +37233,7 @@ vent O
 l' O
 heure O
 rien O
-qu’ B-PER
+qu’ O
 à O
 les O
 regarder O
@@ -37242,9 +37242,9 @@ regarder O
 
 | O
 — O
-As B-LOC
-- I-LOC
-tu I-LOC
+As O
+- O
+tu O
 vu O
 la O
 colonne B-LOC
@@ -37276,8 +37276,8 @@ cimetière O
 à O
 dit O
 le O
-père O
-Roux B-PER
+père B-PER
+Roux I-PER
 ; O
 peut-être O
 |
@@ -37298,7 +37298,7 @@ que O
 ça O
 serait O
 parce O
-qu’ B-PER
+qu’ O
 elle O
 aurait O
 poussé O
@@ -37315,11 +37315,11 @@ morts O
 
 | O
 — O
-Eta O
-cathédrale O
-des O
-gens O
-de O
+Eta B-MISC
+cathédrale I-MISC
+des I-MISC
+gens I-MISC
+de I-MISC
 Paris B-LOC
 est- O
 3 O
@@ -37339,14 +37339,14 @@ notre O
 |
 | O
 demanda O
-Clarisse B-LOC
+Clarisse B-PER
 ; O
 je O
 me O
 suis O
 laissé O
 dire O
-qu’ B-MISC
+qu’ O
 on O
 |
 | O
@@ -37361,9 +37361,9 @@ travers O
 
 | O
 — O
-Je B-MISC
-m' I-MISC
-attends I-MISC
+Je O
+m' O
+attends O
 , O
 répondit O
 encore O
@@ -37375,7 +37375,7 @@ Roux B-PER
 , O
 que O
 ce O
-n’ B-PER
+n’ O
 est O
 point O
 les O
@@ -37397,8 +37397,8 @@ um O
 |
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 173 O
 |
@@ -37410,7 +37410,7 @@ une O
 pareille O
 idée O
 ; O
-j’ B-MISC
+j’ O
 opine O
 que O
 |
@@ -37423,7 +37423,7 @@ auprès O
 des O
 nôtres O
 , O
-c’ B-MISC
+c’ O
 est O
 une O
 |
@@ -37437,7 +37437,7 @@ Pour O
 décorée O
 , O
 elle O
-l’ B-LOC
+l’ O
 est O
 , O
 |
@@ -37473,7 +37473,7 @@ Jean-Claude B-PER
 Les O
 boulevards O
 , O
-c’ B-MISC
+c’ O
 est O
 un O
 endroit O
@@ -37572,22 +37572,22 @@ brillantes O
 que O
 celles O
 de O
-Moulin- B-LOC
+Moulin- B-MISC
 |
 | O
 court O
 . O
-M’ B-PER
+M’ B-LOC
 est O
 avis O
-qu’ B-LOC
+qu’ O
 il O
 ne O
-s’ B-PER
+s’ O
 agit O
 pas O
 , O
-d’ B-PER
+d’ O
 ail- O
 |
 | O
@@ -37619,7 +37619,7 @@ interloqué O
 |
 | O
 je O
-n’ B-PER
+n’ O
 ai O
 jamais O
 pu O
@@ -37645,15 +37645,15 @@ retournait O
 
 | O
 174 O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
 | O
 — O
-Quoi B-MISC
-! I-MISC
+Quoi O
+! O
 un O
 malin O
 comme O
@@ -37668,9 +37668,9 @@ Claude I-PER
 tu O
 as O
 déshonoré O
-Saint-Brunelle B-LOC
+Saint-Brunelle B-PER
 ? O
-Fal- B-ORG
+Fal- B-PER
 |
 | O
 lait O
@@ -37693,7 +37693,7 @@ berger O
 parce O
 |
 | O
-qu’ B-LOC
+qu’ O
 en O
 vérité O
 , O
@@ -37712,7 +37712,7 @@ boutique O
 je O
 commençais O
 à O
-m'’aurait B-LOC
+m'’aurait B-ORG
 . O
 |
 | O
@@ -37737,14 +37737,14 @@ et O
 puis O
 du O
 papier O
-d’ B-PER
+d’ O
 ar- O
 |
 | O
 gent O
 . O
 Il O
-n’ B-PER
+n’ O
 y O
 avait O
 qu' O
@@ -37828,7 +37828,7 @@ porte O
 
 | O
 — O
-Excusez B-MISC
+Excusez B-PER
 , O
 Monsieur B-PER
 , O
@@ -37851,7 +37851,7 @@ comme O
 |
 
 | O
-ca B-LOC
+ca B-MISC
 simplement O
 ce O
 que O
@@ -37869,7 +37869,7 @@ Re O
 |
 | O
 ; O
-nee B-LOC
+nee O
 |
 
 | O
@@ -37877,8 +37877,8 @@ nee B-LOC
 |
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 175 O
 |
@@ -37891,8 +37891,8 @@ Je O
 vends O
 des O
 têtes O
-d’ B-MISC
-ânes I-MISC
+d’ O
+ânes O
 , O
 mon O
 brave O
@@ -37900,7 +37900,7 @@ brave O
 | O
 homme O
 , O
-qu’ B-PER
+qu’ O
 il O
 me O
 répond O
@@ -37908,7 +37908,7 @@ d’ O
 un O
 ton O
 de O
-malhonn- O
+malhonn- B-PER
 |
 | O
 nêeté O
@@ -37972,7 +37972,7 @@ car O
 |
 | O
 je O
-n’ B-PER
+n’ O
 en O
 vois O
 plus O
@@ -37986,8 +37986,8 @@ boutique O
 
 | O
 — O
-Bien O
-! O
+Bien B-MISC
+! I-MISC
 cria O
 Jean-Claude B-PER
 , O
@@ -38006,7 +38006,7 @@ qu’ O
 on O
 |
 | O
-n’ B-PER
+n’ O
 est O
 pas O
 si O
@@ -38034,18 +38034,18 @@ camarade O
 |
 
 | O
-L B-MISC
+L O
 |
 
  
 
  
 
-| I-MISC
-on I-MISC
+| O
+on O
 |
 
-| I-MISC
+| O
 Se O
 |
 
@@ -38067,7 +38067,7 @@ x O
 
 | O
 rdc O
-Dama O
+Dama B-PER
 ai O
 |
 
@@ -38083,7 +38083,7 @@ rh O
 |
 | O
 |||| O
-Mr B-LOC
+Mr O
 x O
 |
 
@@ -38095,9 +38095,9 @@ x O
  
 
 | O
-REA B-MISC
-Re B-MISC
-Dur I-MISC
+REA O
+Re O
+Dur O
 . O
 |
 
@@ -38114,25 +38114,25 @@ Dur I-MISC
 |
 
 | O
-En B-MISC
+En O
 |
-| I-MISC
-© I-MISC
+| O
+© O
 |
-| I-MISC
-= I-MISC
+| O
+= O
 |
-| I-MISC
-un I-MISC
+| O
+un O
 |
-| I-MISC
-un I-MISC
+| O
+un O
 |
-| I-MISC
-© I-MISC
+| O
+© O
 |
-| I-MISC
-2 I-MISC
+| O
+2 O
 |
 
  
@@ -38143,8 +38143,8 @@ un I-MISC
 
  
 
-| I-MISC
-XI I-MISC
+| O
+XI O
 |
 
 | O
@@ -38154,14 +38154,14 @@ MOISSON B-MISC
 
   
 
-| I-MISC
+| O
 … O
 Les O
 blés O
 sont O
 mûs O
 , O
-l’ B-ORG
+l’ O
 épi O
 , O
 dit O
@@ -38178,7 +38178,7 @@ bien O
 _ O
 _ O
 - O
-Sortez B-LOC
+Sortez O
 des O
 maisons O
 , O
@@ -38214,13 +38214,13 @@ jh O
   
 
 | O
-M B-PER
+M O
 " O
 us O
 |
 
 | O
-DR B-ORG
+DR O
 . O
 |
 | O
@@ -38244,11 +38244,11 @@ ere O
 |
 
 | O
-Alerte B-PER
+Alerte O
 , O
 faucheurs O
 ! O
-Bonnets O
+Bonnets B-LOC
 blancs O
 , O
 alerte O
@@ -38258,7 +38258,7 @@ alerte O
    
 
 | O
-D B-LOC
+D O
 " O
 . O
 |
@@ -38271,8 +38271,8 @@ vos O
 tous O
 les O
 liens O
-d’ B-MISC
-or I-MISC
+d’ O
+or O
 . O
 |
 | O
@@ -38299,20 +38299,20 @@ planeurs O
  
 
 | O
-PR B-MISC
-RE I-MISC
-CE I-MISC
+PR B-ORG
+RE I-ORG
+CE I-ORG
 |
-| O
-|||| O
+| I-ORG
+|||| I-ORG
 |
 
-| O
-ES B-MISC
+| I-ORG
+ES I-ORG
 |
-| I-MISC
-# I-MISC
-7 I-MISC
+| O
+# O
+7 O
 - O
 hr O
 enr O
@@ -38320,8 +38320,8 @@ enr O
 
 | O
 180 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 , O
 |
 
@@ -38407,7 +38407,7 @@ rendez-vous O
 |
 
 | O
-Assis B-PER
+Assis O
 sur O
 les O
 gerbes O
@@ -38513,8 +38513,8 @@ me O
    
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 181 O
 |
@@ -38543,7 +38543,7 @@ champs O
 Les O
 blés O
 sont O
-mürs O
+mürs B-PER
 . O
 |
 
@@ -38634,9 +38634,9 @@ Je O
 serai O
 payé O
 en O
-lé O
+lé B-MISC
 : O
-c’ B-MISC
+c’ O
 est O
 convenu O
 ; O
@@ -38756,8 +38756,8 @@ mm O
 
 | O
 182 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -38824,8 +38824,8 @@ un O
 pain O
 noir O
 sous O
-lé O
-bräs O
+lé B-PER
+bräs I-PER
 et O
 |
 | O
@@ -39001,12 +39001,12 @@ VILLAGE O
 |
 | O
 - O
-Jean-Claude O
+Jean-Claude B-PER
 raconte O
 qu' O
 avant O
 là O
-Révolu- O
+Révolu- B-MISC
 |
 | O
 tion O
@@ -39054,8 +39054,8 @@ durs O
 . O
 |
 | O
-C’ B-MISC
-éest I-MISC
+C’ O
+éest O
 si O
 bon O
 de O
@@ -39067,9 +39067,9 @@ de O
 semer O
 |
 | O
-daïis O
-Son O
-chämp O
+daïis B-PER
+Son I-PER
+chämp I-PER
 . O
 Devait O
 -on O
@@ -39085,7 +39085,7 @@ chers O
 |
 
 | O
-D’ B-PER
+D’ O
 après O
 les O
 récits O
@@ -39103,12 +39103,12 @@ nous O
 , O
 ét O
 il O
-n’ B-PER
+n’ O
 est O
 guère O
 urgent O
 de O
-s’ B-PER
+s’ O
 é- O
 |
 | O
@@ -39142,7 +39142,7 @@ seul O
 tous O
 poussé O
 aux O
-missouri B-MISC
+missouri B-LOC
 |
 | O
 dé O
@@ -39175,7 +39175,7 @@ peut O
 se O
 |
 | O
-Vendre B-LOC
+Vendre B-PER
 ; O
 bien O
 vous O
@@ -39209,7 +39209,7 @@ jaune O
 écu O
 |
  | O
-Comptant B-LOC
+Comptant O
 et O
 sonnant O
 . O
@@ -39224,7 +39224,7 @@ sonne- O
 | O
 184 O
 MON B-MISC
-VILLAGE B-ORG
+VILLAGE I-MISC
 . O
 |
 
@@ -39243,7 +39243,7 @@ blé O
 , O
 l' O
 argent O
-s’ B-LOC
+s’ O
 é- O
 |
 | O
@@ -39391,7 +39391,7 @@ La O
 bande O
 ne O
 saurait O
-s’ B-PER
+s’ O
 arrêter O
 , O
 le O
@@ -39459,7 +39459,7 @@ arrive O
 
 | O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 185 O
 |
@@ -39468,7 +39468,7 @@ VILLAGE B-ORG
 t O
 -on O
 ? O
-Füût O
+Füût B-PER
 -ce O
 ! O
 on O
@@ -39527,8 +39527,8 @@ pays O
 , O
 |
 | O
-d’ B-PER
-habitudes I-PER
+d’ O
+habitudes O
 , O
 de O
 soupe O
@@ -39542,7 +39542,7 @@ mange O
 de O
 boisson O
 , O
-n’ B-PER
+n’ O
 y O
 a O
 -t O
@@ -39571,7 +39571,7 @@ courant O
 , O
 et O
 on O
-s’ B-PER
+s’ O
 en O
 retourne O
 à O
@@ -39580,9 +39580,9 @@ moitié O
 | O
 mort O
 ... O
-Argent B-PER
-! I-PER
-maudit O
+Argent B-MISC
+! I-MISC
+maudit I-MISC
 argent O
 ! O
 |
@@ -39604,7 +39604,7 @@ harassés O
 Nous O
 avons O
 moissonné O
-d’ B-MISC
+d’ O
 arrache- O
 |
 | O
@@ -39637,7 +39637,7 @@ trouvés O
 là O
 , O
 on O
-n’ B-PER
+n’ O
 aurait O
 eu O
 que O
@@ -39653,7 +39653,7 @@ sont O
 la B-LOC
 France I-LOC
 . O
-Reviendront B-LOC
+Reviendront O
 -ils O
 |
 | O
@@ -39664,7 +39664,7 @@ dans O
 quel O
 état O
 ? O
-Pourvu B-LOC
+Pourvu O
 qu' O
 ils O
 ne O
@@ -39678,7 +39678,7 @@ ne O
 |
 
 | O
-RES O
+RES B-ORG
 |
 
 | O
@@ -39689,8 +39689,8 @@ ET O
 
 | O
 186 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 | O
@@ -39703,9 +39703,9 @@ quelque O
 ! O
 |
 | O
-Fut O
--ce O
-! O
+Fut B-MISC
+-ce I-MISC
+! I-MISC
 M. O
 Céran B-PER
 nous O
@@ -39715,20 +39715,20 @@ guérira O
 
 | O
 Le O
-père B-PER
-Roux I-PER
+père O
+Roux B-PER
 , O
 berger O
 , O
 soutient O
 que O
 la O
-Fr B-MISC
+Fr B-ORG
 |
-| I-MISC
-a I-MISC
-un I-MISC
-grain I-MISC
+| O
+a O
+un O
+grain O
 ou O
 deux O
 , O
@@ -39748,17 +39748,17 @@ champs O
 deux O
 pièces O
 de O
-lé O
+lé B-MISC
 encore O
 |
 | O
 debout O
 : O
-l’ B-LOC
+l’ O
 une O
 est O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 et O
 l' O
 autre O
@@ -39808,7 +39808,7 @@ financiers O
 ? O
 , O
 et O
-c’ B-MISC
+c’ O
 est O
 presque O
 toujours O
@@ -39827,9 +39827,9 @@ S O
 |
 
 | O
-Les O
-voilà O
-! O
+Les B-MISC
+voilà I-MISC
+! I-MISC
 les O
 voilà O
 ! O
@@ -39858,7 +39858,7 @@ place O
 — O
 |
 | O
-Coupons B-PER
+Coupons B-ORG
 les O
 embrasser O
 ! O
@@ -39930,7 +39930,7 @@ ni O
 “ O
 |
 | O
-M B-PER
+M O
 « O
 |
 | O
@@ -39972,10 +39972,10 @@ embrasser O
 
 | O
 — O
-Nom O
-de O
-nom O
-! O
+Nom B-MISC
+de I-MISC
+nom I-MISC
+! I-MISC
 quelle O
 mine O
 ! O
@@ -39994,9 +39994,9 @@ sont O
 
 | O
 — O
-N' B-PER
-approchez I-PER
-pas I-PER
+N' O
+approchez O
+pas O
 , O
 dit O
 Jean-Claude B-PER
@@ -40046,23 +40046,23 @@ Le B-MISC
 | I-MISC
 est I-MISC
 à I-MISC
-Saint-Brunelle B-LOC
-* O
+Saint-Brunelle I-MISC
+* I-MISC
 |
 
-| O
-— O
-Qu' O
-une O
-bonne O
-âme O
-aille O
-chercher O
-le O
-mé- O
+| I-MISC
+— I-MISC
+Qu' B-MISC
+une I-MISC
+bonne I-MISC
+âme I-MISC
+aille I-MISC
+chercher I-MISC
+le I-MISC
+mé- I-MISC
 |
-| O
-decin O
+| I-MISC
+decin I-MISC
 , O
 redit O
 Jean-Claude B-PER
@@ -40128,42 +40128,42 @@ ei O
 |
 | O
 its O
-À B-MISC
-Se I-MISC
-que I-MISC
-LE I-MISC
-x I-MISC
-Lure I-MISC
-À I-MISC
+À O
+Se O
+que O
+LE B-LOC
+x I-LOC
+Lure I-LOC
+À O
 |
-| I-MISC
-1 I-MISC
-é I-MISC
-la I-MISC
-Ÿ I-MISC
+| O
+1 O
+é O
+la O
+Ÿ B-MISC
 Vie I-MISC
-) I-MISC
+) O
 Son O
 , O
 ut O
 1 O
 pe O
 A O
-GENE B-MISC
+GENE O
 à O
 4 O
 ‘ O
 |
 | O
 \ O
-LR O
-PEDÉ B-MISC
-TE I-MISC
-SE I-MISC
-r I-MISC
-RES I-MISC
-À I-MISC
-La I-MISC
+LR B-ORG
+PEDÉ O
+TE O
+SE O
+r O
+RES O
+À O
+La B-MISC
 R I-MISC
 ÿ I-MISC
 ) O
@@ -40175,15 +40175,15 @@ US I-ORG
 EEE I-ORG
 PARC O
 PRINT O
-ETC B-MISC
-M I-MISC
+ETC O
+M O
 eds O
 ET O
-A B-MISC
-ET I-MISC
+A O
+ET O
 |
-| I-MISC
-F I-MISC
+| O
+F B-MISC
 R I-MISC
 E I-MISC
 7 I-MISC
@@ -40192,10 +40192,10 @@ E I-MISC
 en O
 d O
 UN B-MISC
-PAS O
-TRE B-MISC
+PAS I-MISC
+TRE I-MISC
 D I-MISC
-TE I-MISC
+TE O
 |
 
  
@@ -40224,25 +40224,25 @@ s O
 |
 | O
 est O
-L. B-MISC
+L. B-PER
 |
-| I-MISC
-h I-MISC
+| I-PER
+h I-PER
 |
-| I-MISC
-È I-MISC
+| I-PER
+È I-PER
 |
-| I-MISC
-b I-MISC
+| O
+b O
 |
-| I-MISC
-: I-MISC
+| O
+: O
 |
-| I-MISC
-; I-MISC
+| O
+; O
 |
-| I-MISC
-+ I-MISC
+| O
++ O
 |
 | O
 ] O
@@ -40252,7 +40252,7 @@ b I-MISC
 . O
 |
 | O
-A O
+A B-LOC
 |
 | O
 “ O
@@ -40276,11 +40276,11 @@ ee O
 |
 | O
 à O
-Fe B-ORG
-DE I-ORG
-MR I-ORG
-De I-ORG
-ET I-ORG
+Fe B-MISC
+DE I-MISC
+MR I-MISC
+De O
+ET O
 . O
 7e O
 na O
@@ -40292,14 +40292,14 @@ Ex O
 + O
 ; O
 + O
-È B-LOC
-Pr I-LOC
-a. I-LOC
+È B-MISC
+Pr I-MISC
+a. I-MISC
 |
-| I-LOC
-14 I-LOC
-DC I-LOC
-20 I-LOC
+| O
+14 O
+DC B-ORG
+20 I-ORG
 eut O
 de O
 le O
@@ -40308,7 +40308,7 @@ ET O
 1 O
 a O
 % O
-Vu B-LOC
+Vu O
 |
 | O
 . O
@@ -40324,7 +40324,7 @@ x O
 . O
 |
 | O
-gx O
+gx B-MISC
 , O
 ? O
 |
@@ -40377,17 +40377,17 @@ t O
 : O
 - O
 ” O
-F B-LOC
+F O
 : O
-T O
-L B-MISC
-# I-MISC
+T B-LOC
+L I-LOC
+# I-LOC
 |
-| O
-L B-MISC
-* I-MISC
-» I-MISC
-1 I-MISC
+| I-LOC
+L O
+* O
+» O
+1 O
 * O
 . O
 |
@@ -40440,12 +40440,12 @@ e O
 | O
 L O
 £ O
-L O
-: O
-4 O
-|||| O
+L B-MISC
+: I-MISC
+4 I-MISC
+|||| I-MISC
 |
-| O
+| I-MISC
 : O
 ; O
 È B-MISC
@@ -40472,7 +40472,7 @@ t O
 = O
 r O
 ET O
-U B-LOC
+U O
 |
 | O
 . O
@@ -40484,7 +40484,7 @@ L O
 4 O
 * O
 + O
-Fr O
+Fr B-LOC
 " O
 |
 | O
@@ -40498,11 +40498,11 @@ de O
 4 O
 f O
 ads O
-AS O
-RC O
-“ O
-psp O
-? O
+AS B-ORG
+RC I-ORG
+“ I-ORG
+psp I-ORG
+? I-ORG
 PR B-MISC
 4 I-MISC
 CH I-MISC
@@ -40510,9 +40510,9 @@ im I-MISC
 . O
 |
 | O
-Zu B-ORG
-+ I-ORG
-? O
+Zu B-MISC
++ I-MISC
+? I-MISC
 . O
 ? O
 ; O
@@ -40537,7 +40537,7 @@ n O
 è O
 |
 | O
-J B-LOC
+J O
 : O
 |
 | O
@@ -40565,22 +40565,22 @@ st O
 |
 | O
 , O
-# O
-4 O
-At O
-M O
+# B-MISC
+4 I-MISC
+At I-MISC
+M I-MISC
 |
-| O
-? O
+| I-MISC
+? I-MISC
 ) O
-S B-MISC
-L I-MISC
-A I-MISC
-Î I-MISC
-é O
+S B-PER
+L I-PER
+A I-PER
+Î I-PER
+é I-PER
 |
-| O
-! O
+| I-PER
+! I-PER
 2 O
 { O
 |
@@ -40598,15 +40598,15 @@ p O
 » O
 |
 | O
-|||| O
-té O
+|||| B-PER
+té I-PER
 : O
 1 O
 a O
-PAS O
-Lite B-LOC
-- I-LOC
-wi I-LOC
+PAS B-LOC
+Lite I-LOC
+- O
+wi O
 y O
 |
 | O
@@ -40631,18 +40631,18 @@ as O
 d O
 rh O
 . O
-PL B-ORG
+PL B-MISC
 |
 | O
 , O
 + O
 ! O
 à O
-LS B-ORG
+LS B-MISC
 ; O
-RC O
-ET O
-LA O
+RC B-MISC
+ET I-MISC
+LA I-MISC
 à O
 |
 | O
@@ -40682,8 +40682,8 @@ par O
 
 | O
 « O
-D B-PER
-Je I-PER
+D O
+Je O
 euh O
 |
 
@@ -40701,29 +40701,29 @@ x O
 |
 | O
 da O
-Te O
+Te B-MISC
 |
-| O
-RE O
+| I-MISC
+RE I-MISC
 |
-| O
-|||| O
+| I-MISC
+|||| I-MISC
 |
-| O
-D B-PER
+| I-MISC
+D I-MISC
 |
-| I-PER
-e I-PER
+| I-MISC
+e I-MISC
 |
-| I-PER
-Dir I-PER
+| I-MISC
+Dir I-MISC
 |
-| I-PER
-= I-PER
-+ I-PER
+| I-MISC
+= I-MISC
++ I-MISC
 |
-| O
-k O
+| I-MISC
+k I-MISC
 ; O
 |
 
@@ -40747,20 +40747,20 @@ l O
 |
 | O
 [ O
-RE B-MISC
+RE O
 : O
 |
 | O
-Le O
-* O
+Le B-MISC
+* I-MISC
 |
 
-| O
-DE O
-LA O
+| I-MISC
+DE I-MISC
+LA I-MISC
 |
-| O
-T B-MISC
+| I-MISC
+T I-MISC
 TES I-MISC
 |
 
@@ -40778,7 +40778,7 @@ PERCER B-ORG
 |
 
 | O
-POIVRE B-ORG
+POIVRE O
 : O
 |
 
@@ -40787,17 +40787,17 @@ en O
 |
 
 | O
-È B-MISC
+È B-ORG
 |
 
  
 
-| I-MISC
-Fr I-MISC
+| I-ORG
+Fr O
 |
 
-| I-MISC
-+ I-MISC
+| O
++ O
 |
 
  
@@ -40805,7 +40805,7 @@ Fr I-MISC
  
 
 | O
-RES O
+RES B-ORG
 |
 
 | O
@@ -40824,7 +40824,7 @@ bonne O
 sera O
 moi O
 , O
-Cel- O
+Cel- B-LOC
 |
 
 | O
@@ -40835,7 +40835,7 @@ que O
 je O
 réponds O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 . O
 |
 
@@ -40850,8 +40850,8 @@ porte O
 de O
 |
 | O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 , O
 je O
 m'’arrête B-MISC
@@ -40880,8 +40880,8 @@ commission O
 |
 
 | O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 va O
 encore O
 se O
@@ -40929,15 +40929,15 @@ décider O
 
 | O
 192 O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
 | O
-M" B-PER
-° I-PER
-Céran B-PER
+M" O
+° O
+Céran O
 est O
 là O
 , O
@@ -40978,7 +40978,7 @@ leurs O
 affaires O
 , O
 pendant O
-qu’ B-LOC
+qu’ O
 ils O
 attendent O
 son O
@@ -40990,8 +40990,8 @@ homme O
 
 | O
 — O
-Monsieur O
-Céran B-PER
+Monsieur B-PER
+Céran I-PER
 , O
 que O
 je O
@@ -41040,10 +41040,10 @@ n' O
 osais O
 pas O
 dire O
-l’ B-LOC
+l’ O
 épidémie O
 . O
-IL O
+IL B-LOC
 s’ O
 agit O
 d’ O
@@ -41065,26 +41065,26 @@ a O
 beau O
 |
 | O
-s’ B-PER
+s’ O
 esquivent O
 à O
 répéter O
 : O
-Monsieur B-MISC
-Céran I-MISC
+Monsieur B-PER
+Céran I-PER
 , O
 calme- O
 |
 | O
 toi O
 ; O
-Monsieur B-MISC
-Céran I-MISC
+Monsieur B-PER
+Céran I-PER
 , O
 à O
 quoi O
 a O
-t’ B-LOC
+t’ O
 avance O
 -t O
 -il O
@@ -41097,8 +41097,8 @@ dans O
 cet O
 état O
 ? O
-Ah B-MISC
-bien I-MISC
+Ah O
+bien O
 , O
 oui O
 ! O
@@ -41133,7 +41133,7 @@ avec O
 leur O
 argent O
 ... O
-Tenez B-LOC
+Tenez B-MISC
 , O
 pour O
 deux O
@@ -41146,7 +41146,7 @@ ferait O
 ... O
 ( O
 je O
-n’ B-PER
+n’ O
 ose O
 pas O
 répéter O
@@ -41165,8 +41165,8 @@ paysan O
  
 
 | O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 193 O
 |
@@ -41192,7 +41192,7 @@ but O
 de O
 ne O
 pas O
-l’ B-LOC
+l’ O
 offusquer O
 . O
 |
@@ -41200,7 +41200,7 @@ offusquer O
 | O
 — O
 Si O
-c’ B-MISC
+c’ O
 est O
 vrai O
 ! O
@@ -41214,7 +41214,7 @@ crois O
 | O
 bien O
 que O
-c’ B-MISC
+c’ O
 est O
 vrai O
 ! O
@@ -41228,16 +41228,16 @@ pré- O
 | O
 parer O
 . O
-Courez B-LOC
+Courez O
 chez O
-l’ B-ORG
-apothicaire I-ORG
+l’ O
+apothicaire O
 , O
 demandez O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 eau O
 de O
 seltz O
@@ -41255,7 +41255,7 @@ sant O
 
 | O
 Comme O
-l’ B-LOC
+l’ O
 apothicaire O
 finissait O
 d’ O
@@ -41276,7 +41276,7 @@ je O
 me O
 |
 | O
-M B-PER
+M O
 | | O
 dépéchai O
 de O
@@ -41318,7 +41318,7 @@ grand O
 | O
 trop O
 . O
-Parlez B-PER
+Parlez O
 -moi O
 de O
 cette O
@@ -41364,7 +41364,7 @@ mairesse O
 , O
 puis O
 la O
-Rose B-MISC
+Rose B-LOC
 y O
 sont O
 déjà O
@@ -41385,8 +41385,8 @@ le O
 
 | O
 194 O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -41419,8 +41419,8 @@ l' O
 Vous O
 avez O
 vu O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 fort O
 en O
 colère O
@@ -41452,13 +41452,13 @@ tr O
 rèse O
 , O
 à O
-madame B-PER
-la I-PER
-mairesse I-PER
+madame B-LOC
+la O
+mairesse O
 , O
 à O
 la O
-Rose B-MISC
+Rose B-LOC
 , O
 à O
 moi- O
@@ -41471,7 +41471,7 @@ homme O
 il O
 parle O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 , O
 à O
 Thé- B-LOC
@@ -41497,7 +41497,7 @@ tranquillement O
 ce O
 qu' O
 il O
-s’ B-PER
+s’ O
 agit O
 de O
 |
@@ -41538,20 +41538,20 @@ attendre O
 
 | O
 — O
-Reste B-LOC
+Reste O
 auprès O
 de O
 son O
 oncle O
 , O
 la O
-Rose B-MISC
+Rose B-PER
 , O
 .dit O
 |
 | O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 ; O
 tu O
 as O
@@ -41577,7 +41577,7 @@ tu O
 | O
 enverras O
 chercher O
-madame O
+madame B-PER
 la O
 mairesse O
 ; O
@@ -41591,8 +41591,8 @@ demain O
 |
 | O
 Et O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 sort O
 avec O
 notre O
@@ -41622,11 +41622,11 @@ mit O
   
 
 | O
-IS O
+IS B-ORG
 |
 
 | O
-Lee B-PER
+Lee O
 |
 
  
@@ -41692,12 +41692,12 @@ médecin O
 
 | O
 — O
-Mon O
-bon O
-ami O
+Mon B-MISC
+bon I-MISC
+ami I-MISC
 , O
 dit O
-madame O
+madame B-PER
 la O
 mairesse O
 , O
@@ -41726,7 +41726,7 @@ guérisse O
 
 | O
 Ce O
-n’ B-PER
+n’ O
 est O
 plus O
 là O
@@ -41752,7 +41752,7 @@ l' O
 envers O
 ; O
 on O
-n’ B-PER
+n’ O
 a O
 de O
 goût O
@@ -41786,7 +41786,7 @@ on O
 se O
 rencontre O
 , O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -41819,7 +41819,7 @@ la O
 mairesse O
 et O
 la O
-Rose B-MISC
+Rose B-LOC
 ont O
 servi O
 |
@@ -41831,7 +41831,7 @@ gardes-malades O
 un O
 chacun O
 . O
-Allez O
+Allez B-ORG
 , O
 allez O
 ! O
@@ -41840,8 +41840,8 @@ allez O
  
 
 | O
-em B-MISC
-RE I-MISC
+em B-LOC
+RE I-LOC
 , O
 |
 
@@ -41851,8 +41851,8 @@ s O
 
 | O
 ne O
-D B-MISC
-VD I-MISC
+D B-PER
+VD I-PER
 . O
 mur O
 |
@@ -41863,12 +41863,12 @@ me O
 
 | O
 de O
-fr O
+fr B-LOC
 |
 
 | O
 1 O
-FC B-ORG
+FC O
 |
 
    
@@ -41884,8 +41884,8 @@ FC B-ORG
 
 | O
 196 O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 | O
@@ -41901,7 +41901,7 @@ permettrait O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 attaquer O
 aujourd’hui O
 , O
@@ -41910,8 +41910,8 @@ nièce O
 de O
 Jean- B-PER
 |
-| O
-Claude B-PER
+| I-PER
+Claude I-PER
 . O
 |||| O
 |
@@ -41958,11 +41958,11 @@ che O
 en O
 proche O
 . O
-M. O
-Céran B-PER
+M. B-PER
+Céran I-PER
 , O
 qui O
-n’ B-PER
+n’ O
 a O
 point O
 dans O
@@ -41999,7 +41999,7 @@ malades O
 |
 
 | O
-Autrefois B-LOC
+Autrefois O
 , O
 même O
 dans O
@@ -42048,13 +42048,13 @@ chiens O
 ; O
 mais O
 depuis O
-qu’ B-LOC
+qu’ O
 on O
 a O
 vu O
 |
 | O
-madame O
+madame B-PER
 la O
 mairesse O
 les O
@@ -42073,7 +42073,7 @@ prendre O
 garde O
 , O
 on O
-n’ B-PER
+n’ O
 a O
 plus O
 osé O
@@ -42088,20 +42088,20 @@ a O
 
 | O
 MON O
-VILLAGE B-ORG
+VILLAGE O
 . O
 197 O
 |
 
 | O
 trement O
-qu’ B-LOC
+qu’ O
 elle O
 , O
 et O
 personne O
 ne O
-s’ B-PER
+s’ O
 en O
 est O
 trouvé O
@@ -42119,7 +42119,7 @@ mieux O
 assuré O
 que O
 maintenant O
-l’ B-ORG
+l’ O
 épi- O
 |
 | O
@@ -42178,8 +42178,8 @@ remet O
 sur O
 pied O
 . O
-Las B-MISC
-! I-MISC
+Las B-LOC
+! O
 pour O
 les O
 financiers O
@@ -42213,7 +42213,7 @@ le O
 bou- O
 |
 | O
-cher B-LOC
+cher O
 et O
 le O
 médecin O
@@ -42232,7 +42232,7 @@ Fûüt O
 -ce O
 ! O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 pas O
@@ -42250,11 +42250,11 @@ malades O
 |
 | O
 il O
-n’ B-PER
+n’ O
 est O
 mort O
 à O
-Saint-Brunelle B-LOC
+Saint-Brunelle B-PER
 que O
 le O
 père O
@@ -42313,7 +42313,7 @@ mourrai O
 |
 | O
 il O
-n’ B-PER
+n’ O
 est O
 besoin O
 de O
@@ -42326,7 +42326,7 @@ enterrement O
  
 
 | O
-EN O
+EN B-ORG
 ne O
 |
 | O
@@ -42341,12 +42341,12 @@ re O
 | O
 et O
 le O
-RE O
-DE O
+RE B-MISC
+DE I-MISC
 . O
 ES O
 de O
-SC B-LOC
+SC B-MISC
 rame O
 . O
 |
@@ -42356,13 +42356,13 @@ rame O
 | O
 198 O
 |||| O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 | O
-soyez B-ORG
-tranquilles I-ORG
+soyez O
+tranquilles O
 , O
 je O
 ne O
@@ -42472,7 +42472,7 @@ chevet O
 |
 | O
 elle O
-l’ B-LOC
+l’ O
 a O
 dorloté O
 comme O
@@ -42481,21 +42481,21 @@ père O
 . O
 Au O
 jour O
-d’ B-MISC
+d’ O
 au- O
 |
 | O
-jourd’ B-PER
-hui I-PER
+jourd’ O
+hui O
 , O
-c’ B-MISC
+c’ O
 est O
 du O
 fond O
 de O
 son O
 cœur O
-qu’ B-PER
+qu’ O
 il O
 |
 
@@ -42514,14 +42514,14 @@ fille O
 Tout O
 ce O
 , O
-n’ B-PER
+n’ O
 est O
 -ce O
 pas O
 l' O
 ouvrage O
 de O
-madame O
+madame B-PER
 |
 | O
 la O
@@ -42539,9 +42539,9 @@ fait O
 quelque O
 malheur O
 , O
-soyez B-ORG
--en I-ORG
-sûrs I-ORG
+soyez O
+-en O
+sûrs O
 . O
 |
 
@@ -42569,9 +42569,9 @@ entier O
 |
 
 | O
-Nous B-MISC
-avons I-MISC
-eu I-MISC
+Nous O
+avons O
+eu O
 pour O
 l' O
 année O
@@ -42641,7 +42641,7 @@ frayer O
 ensemble O
 . O
 Expliquez B-MISC
-ça O
+ça I-MISC
 . O
 |
 
@@ -42706,7 +42706,7 @@ aux O
 
 | O
 PVC O
-I O
+I B-LOC
 ‘ O
 est O
 : O
@@ -42775,7 +42775,7 @@ on O
 entreprend O
 celle O
 des O
-mäles1 B-ORG
+mäles1 B-LOC
 . O
 |
 
@@ -42845,8 +42845,8 @@ mâle O
 
 | O
 200 O
-MON O
-VILLAGE B-LOC
+MON B-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -42903,7 +42903,7 @@ de O
 l' O
 hiver O
 ; O
-c’ B-MISC
+c’ O
 est O
 un O
 rude O
@@ -42914,8 +42914,8 @@ vous O
 |
 
 | O
-ï B-LOC
-l’ I-LOC
+ï O
+l’ O
 assure O
 . O
 |||| O
@@ -42939,8 +42939,8 @@ le O
 mâchons O
 ! O
 ; O
-plustard B-PER
-|||| I-PER
+plustard O
+|||| O
 |
 | O
 ; O
@@ -42950,7 +42950,7 @@ blancs O
 le O
 filent O
 . O
-C’ B-MISC
+C’ O
 est O
 avec O
 ce O
@@ -42984,7 +42984,7 @@ L O
 | O
 1 O
 . O
-Action B-ORG
+Action O
 de O
 séparer O
 les O
@@ -43001,7 +43001,7 @@ l' O
 he O
 |
 | O
-È B-LOC
+È O
 |
 
 | O
@@ -43012,8 +43012,8 @@ he O
 |
 
 | O
-A B-ORG
-FR I-ORG
+A B-MISC
+FR I-MISC
 pr O
 « O
 > O
@@ -43047,10 +43047,10 @@ _ O
 — O
 DO B-ORG
 LS I-ORG
-+ O
++ I-ORG
 mme O
 ce O
-M B-PER
+M O
 me O
 en O
 m O
@@ -43102,7 +43102,7 @@ N B-ORG
 |
 | I-ORG
 mn I-ORG
-. I-ORG
+. O
 |
 | O
 i O
@@ -43120,16 +43120,16 @@ a O
 d O
 |
 | O
-EL B-ORG
-= I-ORG
+EL O
+= O
 |
-| I-ORG
+| O
 us B-LOC
 |
 | O
-dom B-MISC
+dom O
 tt O
-ttc B-ORG
+ttc O
 eh O
 |
 
@@ -43140,7 +43140,7 @@ eh O
  
 
 | O
-Anton B-PER
+Anton O
 oise O
 |
 
@@ -43256,7 +43256,7 @@ la O
 Rose B-MISC
 entra O
 tout O
-d’ B-MISC
+d’ O
 un O
 coup O
 tenant O
@@ -43274,7 +43274,7 @@ main O
 | O
 _ O
 — O
-Bonsoir B-PER
+Bonsoir B-LOC
 à O
 un O
 chacun O
@@ -43291,35 +43291,35 @@ la O
 part O
 de O
 madame B-PER
-la I-PER
-mairesse I-PER
+la O
+mairesse O
 . O
 |
 
 | O
 - O
 — O
-Sois O
-la O
-bienvenue O
+Sois B-MISC
+la I-MISC
+bienvenue I-MISC
 , O
 dit O
 Jean-Claude B-PER
 . O
 |
 | O
-Qu' O
-est O
--ce O
-qu’ O
-il O
-y O
-a O
-pour O
-son O
-service O
-? O
-Parle B-MISC
+Qu' B-MISC
+est I-MISC
+-ce I-MISC
+qu’ I-MISC
+il I-MISC
+y I-MISC
+a I-MISC
+pour I-MISC
+son I-MISC
+service I-MISC
+? I-MISC
+Parle O
 . O
 |
 
@@ -43342,7 +43342,7 @@ VILLAGE O
 vite O
 ; O
 quoi O
-qu’ B-PER
+qu’ O
 elle O
 nous O
 demande O
@@ -43398,7 +43398,7 @@ son O
 | O
 papier O
 à O
-Jean-Claude B-LOC
+Jean-Claude B-PER
 . O
 |||| O
 |
@@ -43412,7 +43412,7 @@ pétition O
 disait O
 ; O
 je O
-l’ B-LOC
+l’ O
 ai O
 ré- O
 |
@@ -43516,8 +43516,8 @@ intellectuel O
  
 
 | O
-MON O
-VILLAGE B-ORG
+MON B-MISC
+VILLAGE I-MISC
 . O
 205 O
 |
@@ -43550,7 +43550,7 @@ ciser O
 | O
 « O
 À O
-l’ B-LOC
+l’ O
 époque O
 de O
 La B-MISC
@@ -43561,8 +43561,8 @@ faucheurs O
 |
 | O
 « O
-du O
-Nord B-LOC
+du B-LOC
+Nord I-LOC
 , O
 belges O
 , O
@@ -43710,7 +43710,7 @@ plaisir O
 , O
 moindres O
 même O
-s’ B-LOC
+s’ O
 il O
 se O
 pou- O
@@ -43732,8 +43732,8 @@ me I-MISC
 
 | I-MISC
 206 I-MISC
-MON O
-VILLAGE O
+MON I-MISC
+VILLAGE I-MISC
 . O
 |
 
@@ -43803,9 +43803,9 @@ eussiez O
 « O
 perdre O
 AUX B-MISC
-TRAINS I-MISC
-DE O
-TRAVAIL B-ORG
+TRAINS B-MISC
+DE I-MISC
+TRAVAIL I-MISC
 . O
 |
 
@@ -43813,7 +43813,7 @@ TRAVAIL B-ORG
 « O
 Agréez B-LOC
 , O
-Messieurs B-LOC
+Messieurs B-PER
 ... O
 » O
 |
@@ -43885,11 +43885,11 @@ aller O
 la O
 Frañce B-LOC
 que O
-lé O
-père O
-Roux B-PER
+lé B-PER
+père I-PER
+Roux I-PER
 , O
-berg B-PER
+berg O
 ; O
 |
 | O
@@ -43920,7 +43920,7 @@ des O
 trains O
 de O
 travail O
-n6 B-ORG
+n6 O
 pouvaient O
 être O
 établis O
@@ -43980,8 +43980,8 @@ d O
  
 
 | O
-MON O
-VILLAGE O
+MON B-MISC
+VILLAGE I-MISC
 . O
 207 O
 |
@@ -43997,7 +43997,7 @@ bonnets O
 |
 | O
 blancs O
-n’ B-PER
+n’ O
 entendent O
 rien O
 aux O
@@ -44069,7 +44069,7 @@ l' O
 arrangement O
 |
 | O
-d’ B-PER
+d’ O
 une O
 affaire O
 pareille O
@@ -44078,7 +44078,7 @@ J' O
 opine O
 qu’ O
 afin O
-d’ B-MISC
+d’ O
 ache- O
 |
 | O
@@ -44100,7 +44100,7 @@ nous O
 mettons O
 huit O
 ou O
-dix' O
+dix' B-MISC
 jours O
 à O
 finir O
@@ -44216,15 +44216,15 @@ considération O
  
 
 | O
-ET O
-UNE O
+ET B-MISC
+UNE I-MISC
 |
 
-| O
-D O
-Ne O
-TAROT O
-ER O
+| I-MISC
+D I-MISC
+Ne I-MISC
+TAROT I-MISC
+ER I-MISC
 |
 | O
 » O
@@ -44328,7 +44328,7 @@ notre O
 maire O
 nous O
 ordonne O
-d’ B-MISC
+d’ O
 exé- O
 |
 | O
@@ -44342,7 +44342,7 @@ faut O
 convenir O
 que O
 nous O
-n’ B-PER
+n’ O
 au- O
 |
 | O
@@ -44355,14 +44355,14 @@ notre O
 mairesse O
 |
 | O
-|||| O
+|||| B-LOC
 venait O
 à O
 nous O
 les O
 commander O
 . O
-M’ B-PER
+M’ B-LOC
 est O
 avis O
 , O
@@ -44372,10 +44372,10 @@ d’ O
 autre O
 part O
 , O
-qu’ B-PER
+qu’ O
 elle O
 saurait O
-s’ B-PER
+s’ O
 y O
 prendre O
 de O
@@ -44390,7 +44390,7 @@ travailler O
 au- O
 |
 | O
-L B-PER
+L O
 tant O
 à O
 notre O
@@ -44404,7 +44404,7 @@ autres O
 |
 | O
 |||| O
-Allez B-LOC
+Allez O
 ! O
 allez O
 ! O
@@ -44470,13 +44470,13 @@ père O
 Remblay B-PER
 , O
 dit O
-Jean- O
+Jean- B-PER
 |
 
 | O
 et O
-mé O
-ME O
+mé B-PER
+ME I-PER
 ‘ O
 : O
 à O
@@ -44510,9 +44510,9 @@ clair O
 de O
 tout O
 , O
-c’ B-MISC
+c’ O
 est O
-qu’ B-LOC
+qu’ O
 une O
 mai- O
 |
@@ -44580,7 +44580,7 @@ k O
 k O
 |
 | O
-Ÿ O
+Ÿ B-LOC
 |
 | O
 12 O
@@ -44604,9 +44604,9 @@ a O
 D B-PER
 S I-PER
 REP I-PER
-ECS I-PER
-APT I-PER
-US I-PER
+ECS O
+APT O
+US O
 LT O
 |
 
@@ -44628,17 +44628,17 @@ Esa B-ORG
 |
 
 | O
-A B-LOC
-t O
-te O
+A B-MISC
+t I-MISC
+te I-MISC
 |
 
-| O
-en O
-nan O
+| I-MISC
+en I-MISC
+nan I-MISC
 LA O
-Èe B-MISC
-# I-MISC
+Èe O
+# O
 = O
 , O
 |
@@ -44648,8 +44648,8 @@ LA O
 | O
 et O
 Re B-MISC
-oU O
-CAR O
+oU I-MISC
+CAR I-MISC
 |
 | O
 à O
@@ -44662,7 +44662,7 @@ ait O
 |
 
 | O
-PER B-ORG
+PER O
 : O
 |
 
@@ -44680,12 +44680,12 @@ L B-MISC
 
 | I-MISC
 PRIÈRE I-MISC
-ET O
-SOUHAITS B-ORG
+ET I-MISC
+SOUHAITS I-MISC
 |
 
-| I-ORG
-PRIÈRE I-ORG
+| O
+PRIÈRE B-MISC
 . O
 |
 
@@ -44783,7 +44783,7 @@ LE I-MISC
 | I-MISC
 voyage I-MISC
 dans I-MISC
-Paris I-MISC
+Paris B-LOC
 , O
 nous O
 en O
@@ -44800,41 +44800,41 @@ facilités O
  
 
 | O
-PR O
-EN O
-ORNOTT B-ORG
+PR B-ORG
+EN I-ORG
+ORNOTT I-ORG
 eT O
 |
 
 | O
-F B-LOC
+F B-PER
 |
-| O
-È O
+| I-PER
+È I-PER
 |
-| O
-t O
+| I-PER
+t I-PER
 |
-| O
-} O
+| I-PER
+} I-PER
 |
-| O
-# O
+| I-PER
+# I-PER
 |
-| O
-” O
+| I-PER
+” I-PER
 |
-| O
-: O
+| I-PER
+: I-PER
 |
-| O
-É B-LOC
+| I-PER
+É I-PER
 |
-| O
-Ë O
+| I-PER
+Ë I-PER
 |
-| O
-Ë O
+| I-PER
+Ë I-PER
 |
 | O
 ñ O
@@ -44861,7 +44861,7 @@ SOUHAITS B-ORG
 |
 
 | O
-Premièrement B-LOC
+Premièrement O
 , O
 je O
 vous O
@@ -44893,8 +44893,8 @@ une O
 mairesse O
 pareille O
 à O
-la O
-nôtre O
+la B-LOC
+nôtre I-LOC
 . O
 |
 
@@ -44934,10 +44934,10 @@ es O
 |
 
 | O
-C' B-MISC
-est I-MISC
-un I-MISC
-homme I-MISC
+C' O
+est O
+un O
+homme O
 si O
 avisé O
 pour O
@@ -44991,7 +44991,7 @@ chapeau O
 |
 
 | O
-Votre B-LOC
+Votre O
 ami O
 , O
 |

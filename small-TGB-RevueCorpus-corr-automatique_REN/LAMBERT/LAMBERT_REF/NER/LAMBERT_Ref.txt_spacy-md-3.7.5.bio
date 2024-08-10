@@ -29,8 +29,8 @@ Londres B-LOC
 , O
 in-8 O
 , O
-dem.-c B-PER
-g. I-PER
+dem.-c O
+g. B-PER
 ( O
 208 O
 ) O
@@ -42,40 +42,40 @@ LES O
 FOURMIS B-MISC
 |
 | O
-DU O
-PARC B-ORG
-DE O
-VERSAILLES O
+DU B-ORG
+PARC I-ORG
+DE I-ORG
+VERSAILLES I-ORG
 , O
 |
 | O
-RAISONNANT B-ORG
-ENSEMBLE I-ORG
+RAISONNANT B-MISC
+ENSEMBLE I-MISC
 |
 | O
 DANS O
-LEURS B-ORG
-FOURMILIÈRES I-ORG
+LEURS B-MISC
+FOURMILIÈRES I-MISC
   O
   O
 |
 | O
-FABLE B-ORG
-ALLÉGORIQUE O
+FABLE B-MISC
+ALLÉGORIQUE I-MISC
 |
 | O
-ET O
-PHILOSOPHIQUE B-MISC
+ET B-ORG
+PHILOSOPHIQUE I-ORG
 , O
 |
 | O
-Traduite B-PER
-de I-PER
-l’ I-PER
-Anglais O
+Traduite B-MISC
+de I-MISC
+l’ I-MISC
+Anglais I-MISC
 par O
 feu O
-CH O
+CH B-MISC
 . O
 L. O
 |
@@ -86,7 +86,7 @@ Bel B-PER
 |
 | O
 Hic B-PER
-piscis O
+piscis I-PER
 non O
 est O
 omnium O
@@ -95,8 +95,8 @@ omnium O
 | O
 11 O
 1 O
-H1 B-ORG
-1 I-ORG
+H1 O
+1 O
 |
 | O
 A O
@@ -123,29 +123,29 @@ Marchands B-MISC
 de O
 |
 | O
-Nouveautés B-LOC
+Nouveautés B-ORG
 , O
 au O
 Palais B-LOC
 ci I-LOC
 - I-LOC
 devant I-LOC
-Royal B-PER
+Royal I-LOC
 . O
 |
 | O
-i8Q3 B-ORG
+i8Q3 O
 . O
 |
 | O
 AVERTISSEMENT B-MISC
-DE O
-L’ B-PER
-ÉDITEUR I-PER
+DE I-MISC
+L’ I-MISC
+ÉDITEUR I-MISC
 . O
 |
 | O
-CET O
+CET B-ORG
 ouvrage O
 posthume O
 , O
@@ -155,7 +155,7 @@ trouvé O
 par O
 hasard O
 , O
-n’ B-PER
+n’ O
 a O
 été O
 imprimé O
@@ -221,7 +221,7 @@ combien O
 les O
 écarts O
 de O
-l’ B-LOC
+l’ O
 esprit O
 humain O
 |
@@ -258,7 +258,7 @@ aveugle O
 , O
 et O
 à O
-l’ B-LOC
+l’ O
 épreuve O
 |
 | O
@@ -287,7 +287,7 @@ raison O
 les O
 pères O
 de O
-l’ B-LOC
+l’ O
 église O
 |
 | O
@@ -307,7 +307,7 @@ paraîtraient O
 | O
 craindre O
 que O
-l’ B-ORG
+l’ O
 incrédulité O
 ne O
 triomphdt O
@@ -384,7 +384,7 @@ comptent O
 pas O
 beaucoup O
 sur O
-l’ B-LOC
+l’ O
 assurance O
 |
 | O
@@ -400,14 +400,14 @@ que O
 | O
 cette O
 religion O
-sainte O
+sainte B-PER
 la O
 seule O
 vraie O
 , O
 |
 | O
-quoiqu’ B-ORG
+quoiqu’ O
 en O
 disent O
 toutes O
@@ -442,8 +442,8 @@ que O
 les O
 portes O
 de O
-l’ B-MISC
-enfer I-MISC
+l’ O
+enfer O
 ne O
 prévaudraient O
 |
@@ -453,14 +453,14 @@ contr' O
 elle O
   O
 ? O
-C’ B-MISC
+C’ O
 est O
 de O
 part O
 |
 | O
 et O
-d’ B-MISC
+d’ O
 autre O
 une O
 incrédulité O
@@ -477,9 +477,9 @@ injurieuse O
 à O
 |
 | O
-l’ B-LOC
-Être O
-suprême O
+l’ O
+Être B-MISC
+suprême I-MISC
 qu’ O
 incompatible O
 avec O
@@ -502,7 +502,7 @@ encore O
 | O
 le O
 publier O
-c’ B-MISC
+c’ O
 est O
 que O
 le O
@@ -620,7 +620,7 @@ peut O
 contestée O
 , O
 puisque O
-l’ B-ORG
+l’ O
 église O
 |
 | O
@@ -663,7 +663,7 @@ croire O
 tout O
 ce O
 que O
-l’ B-ORG
+l’ O
 église O
 enseigne O
   O
@@ -681,7 +681,7 @@ qu’ O
 il O
 |
 | O
-n’ B-PER
+n’ O
 y O
 a O
 rien O
@@ -751,7 +751,7 @@ des O
 idées O
 il O
 auraitpu O
-s’ B-PER
+s’ O
 attacher O
 |
 | O
@@ -770,7 +770,7 @@ de O
 manière O
 à O
 respecter O
-d’ B-MISC
+d’ O
 avantage O
 les O
 |
@@ -806,9 +806,9 @@ et O
 | O
 elles O
 feront O
-l’ B-LOC
+l’ O
 effet O
-qu’ B-LOC
+qu’ O
 elles O
 doivent O
 |
@@ -816,7 +816,7 @@ doivent O
 produire O
 tant O
 sur O
-l’ B-LOC
+l’ O
 esprit O
 de O
 ceux O
@@ -844,7 +844,7 @@ pas O
 | O
 Son O
 style O
-n’ B-PER
+n’ O
 est O
 pas O
 recherché O
@@ -856,7 +856,7 @@ que O
 les O
 maières O
 philosophiques O
-n’ B-MISC
+n’ O
 ont O
 |
 | O
@@ -874,7 +874,7 @@ même O
 déplacée O
 : O
 de O
-L’ B-ORG
+L’ O
 ordre O
 , O
 de O
@@ -922,7 +922,7 @@ beaucoup O
 | O
 plus O
 commode O
-s’ B-PER
+s’ O
 occuper O
 des O
 mots O
@@ -930,7 +930,7 @@ mots O
 que O
 |
 | O
-Vj B-PER
+Vj B-MISC
 |
 | O
 des O
@@ -938,7 +938,7 @@ choses O
 , O
 et O
 qui O
-n’ B-PER
+n’ O
 affectent O
 de O
 se O
@@ -958,7 +958,7 @@ métaphysique O
 , O
 que O
 parce O
-qu’ B-PER
+qu’ O
 ils O
 seraient O
 |
@@ -967,7 +967,7 @@ incapables O
 de O
 lire O
 et O
-d’ B-MISC
+d’ O
 entendre O
 |
 | O
@@ -996,19 +996,19 @@ nourrices O
 Aussi O
 , O
 comme O
-l’ B-LOC
+l’ O
 annonce O
-l’ B-LOC
+l’ O
 épigraphe O
 |
 | O
 , O
-l’ B-ORG
+l’ O
 auteur O
-s’ B-PER
+s’ O
 attend O
 bien O
-qu’ B-LOC
+qu’ O
 il O
 |
 | O
@@ -1058,20 +1058,20 @@ LES O
 FOURMIS B-MISC
 |
 | O
-DU O
-PARC B-ORG
-DE O
-VERSAILLES O
+DU B-ORG
+PARC I-ORG
+DE I-ORG
+VERSAILLES I-ORG
 , O
 |
 | O
-RAISONNANT O
-ENSEMBLE B-ORG
+RAISONNANT B-MISC
+ENSEMBLE I-MISC
 |
 | O
 DANS O
-LEURS B-ORG
-FOURMILIÈRES I-ORG
+LEURS B-MISC
+FOURMILIÈRES I-MISC
 . O
 |
 | O
@@ -1095,7 +1095,7 @@ Versailles I-LOC
 Dieu B-MISC
 , O
 pour O
-s’ B-PER
+s’ O
 amuser O
 un O
 moment O
@@ -1105,9 +1105,9 @@ ayant O
 | O
 donné O
 aux O
-Fourmis B-MISC
+Fourmis B-ORG
 qui O
-s’ B-PER
+s’ O
 y O
 établirent O
 , O
@@ -1124,7 +1124,7 @@ raisonner O
 de O
 |
 | O
-s’ B-PER
+s’ O
 entendre O
 ensemble O
 , O
@@ -1137,7 +1137,7 @@ balbutier O
 , O
 et O
 à O
-n’ B-PER
+n’ O
 exprimer O
 par O
 |
@@ -1219,7 +1219,7 @@ communication O
 établie O
 , O
 les O
-Fourmis B-MISC
+Fourmis B-ORG
 |
 | O
 apprirent O
@@ -1331,7 +1331,7 @@ les O
 |
 | O
 jets O
-d’ B-MISC
+d’ O
 eau O
 et O
 les O
@@ -1346,7 +1346,7 @@ volcans O
 | O
 les O
 feux O
-d’ B-MISC
+d’ O
 artifice O
 en O
 épouvantaient O
@@ -1365,7 +1365,7 @@ dans O
 certains O
 jours O
 de O
-l’ B-LOC
+l’ O
 année O
   O
   O
@@ -1413,7 +1413,7 @@ situées O
 |
 | O
 dans O
-l’ B-LOC
+l’ O
 intérieur O
 du O
 parc O
@@ -1424,7 +1424,7 @@ presque O
 | O
 toujours O
 à O
-l’ B-LOC
+l’ O
 abri O
 de O
 ces O
@@ -1467,14 +1467,14 @@ monarques O
 , O
 qui O
 présidaient O
-l’ B-LOC
+l’ O
 un O
 au O
 |
 | O
 bien O
 , O
-l’ B-ORG
+l’ O
 autre O
 au O
 mal O
@@ -1489,13 +1489,13 @@ Fourmis I-MISC
 les O
 plus O
 rusées O
-d’ B-MISC
+d’ O
 entre- O
 |
 | O
 elles O
 , O
-s’ B-PER
+s’ O
 emparant O
 de O
 ces O
@@ -1523,12 +1523,12 @@ rendre O
 | O
 favorables O
 , O
-d’ B-PER
+d’ O
 exciter O
 leur O
 pitié O
 , O
-d’ B-PER
+d’ O
 appaiser O
 |
 | O
@@ -1596,7 +1596,7 @@ intérêt O
 voilà O
 quelle O
 fut O
-l’ B-LOC
+l’ O
 origine O
 |
 | O
@@ -1609,7 +1609,7 @@ qui O
 |
 | O
 bientôt O
-s’ B-PER
+s’ O
 introduisit O
 dans O
 presque O
@@ -1625,8 +1625,8 @@ et O
 exposa O
 |
 | O
-les B-MISC
-Fourmis I-MISC
+les O
+Fourmis B-ORG
 les O
 plus O
 distinguées O
@@ -1715,7 +1715,7 @@ un O
 avec O
 |
 | O
-l’ B-LOC
+l’ O
 autre O
 . O
 Les O
@@ -1810,7 +1810,7 @@ ciel O
 ou O
 paradis O
 , O
-d’ B-MISC
+d’ O
 où O
 il O
 dirigeait O
@@ -1832,7 +1832,7 @@ et O
 cette O
 doctrine O
 de O
-l’ B-LOC
+l’ O
 unité O
 d’ O
 un O
@@ -1857,7 +1857,7 @@ les O
 fourmilières O
 , O
 il O
-s’ B-PER
+s’ O
 éleva O
 bientôt O
 |
@@ -1873,7 +1873,7 @@ particulières O
 |
 | O
 de O
-Fourmis B-PER
+Fourmis B-ORG
 qui O
 cherchèrent O
 |
@@ -1914,7 +1914,7 @@ la O
 raison O
 ne O
 sert O
-qu’ B-MISC
+qu’ O
 à O
 nous O
 égarer O
@@ -1922,7 +1922,7 @@ nous O
   O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 faut O
 les O
@@ -2002,7 +2002,7 @@ ou O
 raisonneurs O
 , O
 qui O
-n’ B-PER
+n’ O
 admettant O
 pour O
 |
@@ -2018,7 +2018,7 @@ caractères O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 évidence O
 ( O
 1 O
@@ -2051,11 +2051,11 @@ au O
 | O
 coin O
 de O
-l’ B-LOC
+l’ O
 erreur O
 ou O
 de O
-l’ B-LOC
+l’ O
 imposture O
 , O
 |
@@ -2091,7 +2091,7 @@ ces O
 |
 | O
 enthousiastes O
-n’ B-PER
+n’ O
 ont O
 pas O
 honte O
@@ -2217,11 +2217,11 @@ ou O
 étoiles O
 que O
 vous O
-appercevez O
+appercevez B-MISC
 |
-| O
-la O
-nuit O
+| I-MISC
+la I-MISC
+nuit I-MISC
 , O
 par O
 un O
@@ -2236,7 +2236,7 @@ du O
 grand O
 château O
 , O
-n’ B-PER
+n’ O
 ont O
 été O
 |
@@ -2244,7 +2244,7 @@ ont O
 placés O
 là O
 et O
-n’ B-PER
+n’ O
 y O
 sont O
 entretenus O
@@ -2321,7 +2321,7 @@ quelques O
 vers O
 |
 | O
-luisans O
+luisans B-LOC
 qui O
 se O
 traînent O
@@ -2368,7 +2368,7 @@ considérable O
 dont O
 |
 | O
-l’ B-LOC
+l’ O
 éclat O
 vous O
 éblouit O
@@ -2385,7 +2385,7 @@ tournez O
 sans O
 cesse O
 , O
-n’ B-PER
+n’ O
 a O
 |
 | O
@@ -2432,7 +2432,7 @@ les O
 | O
 animaux O
 qui O
-n’ B-PER
+n’ O
 ont O
 pas O
 comme O
@@ -2444,7 +2444,7 @@ une O
 ame O
 spirituelle O
 , O
-quoiqu’ B-ORG
+quoiqu’ O
 ils O
 naissent O
 , O
@@ -2486,7 +2486,7 @@ des O
 prières O
 , O
 afin O
-qu’ B-LOC
+qu’ O
 ayant O
 la O
 conscience O
@@ -2519,7 +2519,7 @@ nombre O
 comme O
 il O
 vous O
-l’ B-LOC
+l’ O
 a O
 dit O
 formellement O
@@ -2606,7 +2606,7 @@ comme O
 vous O
 |
 | O
-n’ B-PER
+n’ O
 en O
 doutez O
 pas O
@@ -2626,7 +2626,7 @@ quelques O
 | O
 fourmilières O
 qui O
-n’ B-PER
+n’ O
 ont O
 jamais O
 entendu O
@@ -2653,7 +2653,7 @@ dictée O
 par O
 le O
 grand O
-Être B-PER
+Être B-LOC
 lui-même O
   O
   O
@@ -2664,7 +2664,7 @@ fourmilières O
 réprouvées O
 , O
 où O
-l’ B-LOC
+l’ O
 on O
 prétend O
 |
@@ -2685,7 +2685,7 @@ que O
 tenir O
 la O
 queue O
-d’ B-MISC
+d’ O
 unrat O
 , O
 ou O
@@ -2706,7 +2706,7 @@ autres O
 |
 | O
 où O
-l’ B-ORG
+l’ O
 on O
 enseigne O
 que O
@@ -2750,7 +2750,7 @@ jouissance O
 des O
 plus O
 belles O
-Fourmis B-MISC
+Fourmis B-ORG
 |
 | O
 dans O
@@ -2768,7 +2768,7 @@ pra- O
 ) O
 |
 | O
-tiquiez O
+tiquiez B-PER
 le O
 bien O
 pendant O
@@ -2780,7 +2780,7 @@ que O
 |
 | O
 vous O
-croyez B-ORG
+croyez O
 en O
 lui O
 et O
@@ -2796,8 +2796,8 @@ Mais O
 toutes O
 sont O
 dans O
-l’ B-MISC
-erreur I-MISC
+l’ O
+erreur O
 , O
 |
 | O
@@ -2811,7 +2811,7 @@ quelque O
 |
 | O
 bien O
-qu’ B-PER
+qu’ O
 elles O
 fassent O
   O
@@ -2827,7 +2827,7 @@ avoir O
 ignoré O
 |
 | O
-l’ B-LOC
+l’ O
 existence O
 de O
 ces O
@@ -2880,7 +2880,7 @@ parc O
 |
 | O
 vous O
-n’ B-PER
+n’ O
 en O
 êtes O
 pas O
@@ -2937,7 +2937,7 @@ régénérer O
 , O
 |
 | O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -2950,7 +2950,7 @@ meilleures O
 à O
 |
 | O
-l’ B-LOC
+l’ O
 avenir O
   O
   O
@@ -3019,7 +3019,7 @@ ses O
 représentans O
 , O
 ses O
-vice-Dieux B-PER
+vice-Dieux B-LOC
 , O
 |
 | O
@@ -3086,7 +3086,7 @@ et O
 de O
 |
 | O
-l’ B-LOC
+l’ O
 avaler O
 tous O
 les O
@@ -3170,7 +3170,7 @@ une O
 confidence O
 dont O
 nous O
-n’ B-PER
+n’ O
 abusons O
 |
 | O
@@ -3341,7 +3341,7 @@ maître O
 qui O
 |
 | O
-l’ B-LOC
+l’ O
 habite O
 ( O
 ce O
@@ -3381,12 +3381,12 @@ pieds O
 où O
 vous O
 , O
-c’ B-PER
-cst I-PER
-- I-PER
-à I-PER
-- I-PER
-dire I-PER
+c’ O
+cst O
+- O
+à O
+- O
+dire O
 vos O
 âmes O
 , O
@@ -3413,7 +3413,7 @@ fin O
 | O
 comme O
 si O
-c’ B-MISC
+c’ O
 était O
 de O
 la O
@@ -3441,7 +3441,7 @@ forts O
 , O
 qui O
 auront O
-l’ B-LOC
+l’ O
 audace O
 de O
 nous O
@@ -3511,7 +3511,7 @@ poche O
 mais O
 comme O
 ils O
-n’ B-PER
+n’ O
 ont O
 jamais O
 |
@@ -3668,7 +3668,7 @@ jour O
 . O
 |
 | O
-D’ B-PER
+D’ O
 un O
 autre O
 côté O
@@ -3819,8 +3819,8 @@ Meudon B-LOC
 , O
 |
 | O
-Bellevue B-PER
-Boulogne I-PER
+Bellevue B-LOC
+Boulogne I-LOC
 et O
 St.- B-PER
 Germain I-PER
@@ -3846,11 +3846,11 @@ environs O
 |
 | O
 comme O
-Trianon B-PER
+Trianon B-LOC
 à O
 côté O
-de B-LOC
-Versailles I-LOC
+de O
+Versailles B-LOC
 |
 | O
 , O
@@ -3867,7 +3867,7 @@ pouvaient O
 habités O
 par O
 des O
-Fourmis B-MISC
+Fourmis B-ORG
 |
 | O
 , O
@@ -3923,7 +3923,7 @@ hypocrites O
 |
 | O
 qui O
-n’ B-PER
+n’ O
 attendent O
 leur O
 existence O
@@ -3964,10 +3964,10 @@ doctrine O
 | O
 merveilleuse O
 , O
-qu’ B-LOC
+qu’ O
 ils O
 ont O
-l’ B-LOC
+l’ O
 effronterie O
 |
 | O
@@ -3977,7 +3977,7 @@ dictée O
 par O
 le O
 grand O
-Être B-PER
+Être O
 , O
 par O
 |
@@ -4003,7 +4003,7 @@ plus O
 |
 | O
 éloignée O
-d’ B-PER
+d’ O
 ici O
 , O
 au O
@@ -4017,10 +4017,10 @@ roche O
 sont O
 si O
 remplis O
-d’ B-MISC
+d’ O
 inepties O
 et O
-d’ B-MISC
+d’ O
 absurdités O
 , O
 |
@@ -4041,15 +4041,15 @@ de O
 la O
 nature O
 , O
-qu’ B-PER
+qu’ O
 il O
-n’ B-PER
+n’ O
 y O
 |
 | O
 a O
 que O
-l’ B-LOC
+l’ O
 ignorance O
 et O
 la O
@@ -4070,14 +4070,14 @@ qui O
 puisse O
 leur O
 servir O
-d’ B-PER
+d’ O
 excuse O
   O
   O
 plusieurs O
 |
 | O
-d’ B-PER
+d’ O
 entr'eux O
 renferment O
 même O
@@ -4091,7 +4091,7 @@ infamies O
 si O
 révoltantes O
 , O
-qu’ B-LOC
+qu’ O
 on O
 |
 | O
@@ -4115,7 +4115,7 @@ bord O
   O
   O
 et O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -4141,7 +4141,7 @@ impos- O
 teurs O
 vont O
 puiser O
-l’ B-LOC
+l’ O
 origine O
 de O
 leur O
@@ -4151,7 +4151,7 @@ pouvoir O
 sacerdotal O
 , O
 à O
-l’ B-LOC
+l’ O
 aide O
 duquel O
 ils O
@@ -4182,13 +4182,13 @@ pouvons I-MISC
 pas I-MISC
 vous I-MISC
 dire I-MISC
-d’ O
-une O
+d’ I-MISC
+une I-MISC
 |
-| O
-manière O
-bien O
-positive O
+| I-MISC
+manière I-MISC
+bien I-MISC
+positive I-MISC
 , O
 quoique O
 nous O
@@ -4215,8 +4215,8 @@ plus O
 célèbres O
 |
 | O
-Fourmis B-PER
-jusqu’ I-PER
+Fourmis B-ORG
+jusqu’ O
 à O
 nos O
 jours O
@@ -4238,7 +4238,7 @@ durée O
 |
 | O
 ou O
-s’ B-PER
+s’ O
 il O
 existe O
 une O
@@ -4299,7 +4299,7 @@ avouer O
 qu’ O
 en O
 admettant O
-l’ B-ORG
+l’ O
 éternité O
 de O
 la O
@@ -4385,7 +4385,7 @@ sens O
   O
   O
 mais O
-n’ B-PER
+n’ O
 importe O
 , O
 admettons O
@@ -4458,7 +4458,7 @@ hypothèse O
 , O
 |
 | O
-l’ B-LOC
+l’ O
 univers O
 même O
 , O
@@ -4481,7 +4481,7 @@ quatre O
 , O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 ne O
 peut O
@@ -4493,7 +4493,7 @@ infinis O
 : O
 |
 | O
-qu’ B-LOC
+qu’ O
 en O
 résultera O
 -t O
@@ -4592,8 +4592,8 @@ vous O
 que O
 quand O
 le O
-grand B-LOC
-Etre I-LOC
+grand B-MISC
+Etre I-MISC
 , O
 le O
 maître O
@@ -4639,7 +4639,7 @@ il O
 |
 | O
 doive O
-s’ B-PER
+s’ O
 en O
 abstenir O
 , O
@@ -4690,7 +4690,7 @@ tuent O
   O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 fera O
 attention O
@@ -4723,7 +4723,7 @@ pour O
 le O
 prier O
 de O
-n’ B-PER
+n’ O
 en O
 rien O
 |
@@ -4766,7 +4766,7 @@ dans O
 certains O
 jours O
 de O
-l’ B-LOC
+l’ O
 année O
 , O
 des O
@@ -4796,7 +4796,7 @@ une O
 | O
 Divinité B-MISC
 r I-MISC
-Et O
+Et I-MISC
 ne O
 serait O
 -ce O
@@ -4809,7 +4809,7 @@ de O
 la O
 démence O
 , O
-d’ B-PER
+d’ O
 imaginer O
 que O
 le O
@@ -4854,8 +4854,8 @@ fourmilières O
 ? O
 |
 | O
-Vous B-MISC
-n’ I-MISC
+Vous O
+n’ O
 êtes O
 que O
 des O
@@ -4884,10 +4884,10 @@ imperceptible O
 dans O
 |
 | O
-l’ B-LOC
+l’ O
 immensité O
 de O
-l’ B-LOC
+l’ O
 univers O
 , O
 et O
@@ -4895,7 +4895,7 @@ vous O
 voulez O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 intervertisse O
 à O
@@ -4907,7 +4907,7 @@ cours O
 | O
 des O
 lois O
-qu’ B-MISC
+qu’ O
 il O
 aura O
 faites O
@@ -4958,10 +4958,10 @@ importantes O
 ? O
 |
 | O
-Vos B-PER
+Vos O
 docteurs O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -5003,7 +5003,7 @@ nécessité O
 , O
 dont O
 ils O
-n’ B-PER
+n’ O
 ont O
 aucune O
 |
@@ -5032,13 +5032,13 @@ qualités O
 |
 | O
 éminentes O
-qu’ B-MISC
+qu’ O
 ils O
 donnent O
 à O
-l’ B-LOC
-Etre O
-suprême O
+l’ O
+Etre B-MISC
+suprême I-MISC
 |
 | O
 , O
@@ -5068,7 +5068,7 @@ très O
 irascible O
 , O
 à O
-l’ B-LOC
+l’ O
 instar O
 du O
 |
@@ -5107,7 +5107,7 @@ lui O
 comme O
 |
 | O
-s’ B-LOC
+s’ O
 il O
 pouvait O
 être O
@@ -5200,7 +5200,7 @@ les O
 |
 | O
 femelles O
-s’ B-PER
+s’ O
 accouplent O
 ensemble O
   O
@@ -5273,7 +5273,7 @@ idiot O
 votre O
 image O
 , O
-s’ B-PER
+s’ O
 il O
 |
 | O
@@ -5315,18 +5315,18 @@ outrages O
 si O
 toutefois O
 des O
-Fourmis B-MISC
+Fourmis B-ORG
 pouvaient O
 |
 | O
 offenser O
 une O
-Divinité B-LOC
-  O
-? O
+Divinité B-MISC
+  I-MISC
+? I-MISC
 |
-| O
-Enfin O
+| I-MISC
+Enfin I-MISC
 , O
 réfléchissez O
 sérieusement O
@@ -5470,7 +5470,7 @@ idée O
 distincte O
 , O
 vous O
-l’ B-ORG
+l’ O
 ont O
 |
 | O
@@ -5480,7 +5480,7 @@ semblable O
 à O
 eux O
 , O
-jusqu’ B-PER
+jusqu’ O
 à O
 |
 | O
@@ -5535,25 +5535,25 @@ parc O
 |
 | O
 afin O
-d’ B-PER
+d’ O
 y O
 créer O
-d’ B-PER
-autres I-PER
-Fourmis I-PER
-pour O
-l’ B-ORG
-habiter O
-  O
-  O
+d’ O
+autres O
+Fourmis B-MISC
+pour I-MISC
+l’ I-MISC
+habiter I-MISC
+  I-MISC
+  I-MISC
 |
-| O
-qui O
-un O
-moment O
+| I-MISC
+qui I-MISC
+un I-MISC
+moment I-MISC
 après O
 , O
-s’ B-PER
+s’ O
 est O
 mis O
 en O
@@ -5570,7 +5570,7 @@ chassées O
 de O
 |
 | O
-l’ B-LOC
+l’ O
 espèce O
 de O
 jardin O
@@ -5620,7 +5620,7 @@ lequel O
 il O
 savait O
 bien O
-qu’ B-PER
+qu’ O
 elles O
 se O
 |
@@ -5634,12 +5634,12 @@ ensuite O
 après O
 |
 | O
-s’ B-PER
+s’ O
 être O
 avisé O
 de O
 naître O
-d’ B-PER
+d’ O
 une O
 race O
 de O
@@ -5676,8 +5676,8 @@ la O
 plus O
 |
 | O
-abj B-PER
-ecte O
+abj B-ORG
+ecte I-ORG
 , O
 et O
 descend O
@@ -5838,7 +5838,7 @@ dont O
 |
 | O
 vous O
-n’ B-PER
+n’ O
 aviez O
 aucune O
 idée O
@@ -5856,7 +5856,7 @@ peuvent O
 habités O
 par O
 des O
-Fourmis B-MISC
+Fourmis B-ORG
 ou O
 autre O
 |
@@ -5889,7 +5889,7 @@ innombrable O
 | O
 que O
 de O
-l’ B-LOC
+l’ O
 impossibilité O
 d’ O
 assigner O
@@ -5901,11 +5901,11 @@ bornes O
 aucunes O
 limites O
 à O
-l’ B-LOC
+l’ O
 espace O
 |
 | O
-qu’ B-LOC
+qu’ O
 ils O
 parcourent O
 , O
@@ -5914,8 +5914,8 @@ aussi O
 infini O
 |
 | O
-qu’ B-PER
-indéfinissable I-PER
+qu’ O
+indéfinissable O
 , O
 et O
 alors O
@@ -5933,7 +5933,7 @@ que O
 vous O
 |
 | O
-n’ B-PER
+n’ O
 êtes O
 réellement O
 que O
@@ -5963,7 +5963,7 @@ le O
 système O
 général O
 de O
-l’ B-LOC
+l’ O
 univers O
   O
   O
@@ -5974,7 +5974,7 @@ par O
 conséquent O
 , O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 qu’ O
@@ -5993,7 +5993,7 @@ dignes O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 attention O
 particulière O
 et O
@@ -6014,7 +6014,7 @@ empire O
 et O
 que O
 vous O
-n’ B-PER
+n’ O
 avez O
 autre O
 chose O
@@ -6049,7 +6049,7 @@ les O
 castors O
 , O
 etc. O
-qu’ B-LOC
+qu’ O
 à O
 |
 | O
@@ -6077,7 +6077,7 @@ eux O
 , O
 et O
 qui O
-n’ B-PER
+n’ O
 est O
 que O
 le O
@@ -6127,7 +6127,7 @@ une O
 Fourmi B-PER
 raisonnable O
 puisse O
-l’ B-ORG
+l’ O
 être O
 dans O
 une O
@@ -6174,7 +6174,7 @@ avec O
 courage O
 le O
 mal O
-qu’ B-MISC
+qu’ O
 on O
 ne O
 peut O
@@ -6222,7 +6222,7 @@ folie O
 et O
 des O
 sottises O
-d’ B-MISC
+d’ O
 autrui O
 , O
 parce O
@@ -6247,7 +6247,7 @@ troublant O
 sous O
 aucun O
 prétexte O
-l’ B-ORG
+l’ O
 ordre O
 |
 | O
@@ -6332,7 +6332,7 @@ après O
 une O
 perfection O
 qui O
-n’ B-PER
+n’ O
 est O
 |
 | O
@@ -6424,8 +6424,8 @@ inaccessibles O
 , O
 où O
 vous O
-n’ B-PER
-entendrez I-PER
+n’ O
+entendrez O
 ni O
 |
 | O
@@ -6459,10 +6459,10 @@ grillons O
 . O
 |
 | O
-Voilà O
-toute O
-la O
-science O
+Voilà B-MISC
+toute I-MISC
+la I-MISC
+science I-MISC
 que O
 vous O
 devez O
@@ -6482,7 +6482,7 @@ acquérir O
 si O
 vous O
 ne O
-l’ B-ORG
+l’ O
 avez O
 pas O
   O
@@ -6575,7 +6575,7 @@ préjugés O
 honteux O
 dont O
 vous O
-n’ B-PER
+n’ O
 avez O
 |
 | O
@@ -6687,7 +6687,7 @@ jours O
 . O
 |
 | O
-C’ B-MISC
+C’ O
 est O
 d’ O
 un O
@@ -6728,10 +6728,10 @@ céleste O
   O
 |
 | O
-c’ B-MISC
+c’ O
 est O
 de O
-l’ B-LOC
+l’ O
 autre O
 , O
 en O
@@ -6749,11 +6749,11 @@ tourmens O
 |
 | O
 de O
-goufres O
+goufres B-PER
 toujours O
 prêts O
 à O
-s’ B-PER
+s’ O
 entr' O
 ouvrir O
 |
@@ -6763,7 +6763,7 @@ vos O
 pas O
   O
   O
-c’ B-MISC
+c’ O
 est O
 tantôt O
 en O
@@ -6784,8 +6784,8 @@ palais O
 |
 | O
 de O
-l’ B-LOC
-éloïnie B-LOC
+l’ O
+éloïnie O
 auquel O
 ils O
 vous O
@@ -6794,7 +6794,7 @@ identifient O
   O
 |
 | O
-c’ B-MISC
+c’ O
 est O
 tantôt O
 en O
@@ -6857,7 +6857,7 @@ naturelles O
 |
 | O
 ils O
-n’ B-PER
+n’ O
 ont O
 inventé O
 cette O
@@ -6870,7 +6870,7 @@ vous O
 bercent O
 , O
 et O
-qu’ B-LOC
+qu’ O
 ils O
 ne O
 conçoivent O
@@ -6948,7 +6948,7 @@ Mais O
 comme O
 nous O
 vous O
-l’ B-ORG
+l’ O
 avons O
 déjà O
 |
@@ -6968,7 +6968,7 @@ le O
 répéter O
 , O
 vous O
-n’ B-PER
+n’ O
 êtes O
 que O
 des O
@@ -7011,12 +7011,12 @@ tout O
 ce O
 qui O
 existe O
-n’ B-PER
+n’ O
 est O
 |
 | O
 que O
-l’ B-LOC
+l’ O
 effet O
 nécessaire O
 des O
@@ -7062,7 +7062,7 @@ penser O
 de O
 raisonner O
 , O
-n’ B-PER
+n’ O
 est O
 |
 | O
@@ -7111,7 +7111,7 @@ conque O
 de O
 même O
 que O
-l’ B-LOC
+l’ O
 élasticité O
 , O
 la O
@@ -7148,7 +7148,7 @@ non O
 une O
 substance O
 distincte O
-d’ B-PER
+d’ O
 eux O
 - O
 mêmes O
@@ -7159,7 +7159,7 @@ inhérente O
 avec O
 eux O
 ( O
-io B-LOC
+io O
 ) O
   O
   O
@@ -7167,15 +7167,15 @@ et O
 quand O
 TJOUS B-ORG
 |
-| O
-mourrez B-PER
+| I-ORG
+mourrez I-ORG
 , O
 vous O
 ne O
 ferez O
 , O
 comme O
-l’ B-LOC
+l’ O
 a O
 dit O
 , O
@@ -7195,7 +7195,7 @@ plus O
 célèbres O
 |
 | O
-Fourmis B-PER
+Fourmis B-ORG
 , O
 que O
 redevenir O
@@ -7209,7 +7209,7 @@ avant O
 de O
 naître O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 àdire O
@@ -7247,13 +7247,13 @@ espèce O
 . O
 |
 | O
-A O
+A B-LOC
 de O
 pareils O
 raisonnemens O
 , O
 il O
-n’ B-PER
+n’ O
 y O
 |
 | O
@@ -7313,7 +7313,7 @@ prosélytes O
   O
   O
 et O
-qu’ B-PER
+qu’ O
 arriva O
 -t O
 -il O
@@ -7347,7 +7347,7 @@ Les B-MISC
 Fourmis I-MISC
 |
 | I-MISC
-nées O
+nées I-MISC
 avec O
 un O
 peu O
@@ -7390,7 +7390,7 @@ furent O
 plus O
 pour O
 eux O
-qu’ B-LOC
+qu’ O
 un O
 |
 | O
@@ -7408,7 +7408,7 @@ multitude O
 |
 | O
 qui O
-n’ B-PER
+n’ O
 est O
 et O
 ne O
@@ -7422,7 +7422,7 @@ troupeau O
 de O
 bétail O
 , O
-qu’ B-PER
+qu’ O
 un O
 tas O
 d’ O
@@ -7458,8 +7458,8 @@ leur O
 | O
 joug O
 , O
-s’ B-PER
-ameuta I-PER
+s’ O
+ameuta B-PER
 dans O
 plusieurs O
 fourmilières O
@@ -7467,14 +7467,14 @@ fourmilières O
 | O
 , O
 à O
-l’ B-LOC
+l’ O
 instigation O
 des O
 plus O
 furieuses O
 |
 | O
-d’ B-MISC
+d’ O
 entr'elles O
 , O
 et O
@@ -7520,14 +7520,14 @@ au O
 nom O
 de O
 la O
-FourmiDieu B-ORG
+FourmiDieu B-MISC
 , O
 |
 | O
 de O
 la O
-Fourmi B-PER
-pendue O
+Fourmi B-MISC
+pendue I-MISC
 , O
 et O
 un O
@@ -7569,7 +7569,7 @@ parc O
 poussèrent O
 le O
 délire O
-jusqu’ B-PER
+jusqu’ O
 à O
 passer O
 d’ O
@@ -7578,12 +7578,12 @@ une O
 | O
 rive O
 à O
-l’ B-LOC
+l’ O
 autre O
 , O
 pour O
 aller O
-s’ B-PER
+s’ O
 entr' O
 égorger O
 |
@@ -7603,13 +7603,13 @@ mémoire O
 de O
 Fourmi B-PER
 , O
-n’ B-PER
+n’ O
 avaient O
 |
 | O
 entendu O
 parler O
-d’ B-MISC
+d’ O
 elles O
 , O
 le O
@@ -7629,14 +7629,14 @@ merveilleuse O
 le O
 seul O
 maître O
-qu’ B-PER
+qu’ O
 elles O
 devaient O
 révérer O
 |
  | O
   O
-qu’ B-PER
+qu’ O
 elles O
 avaient O
 eu O
@@ -7655,11 +7655,11 @@ Dieu B-MISC
 , O
 mécontent O
 de O
-l’ B-LOC
+l’ O
 usage O
 |
 | O
-qu’ B-LOC
+qu’ O
 elles O
 faisaient O
 de O
@@ -7673,7 +7673,7 @@ leur O
 avait O
 donnée O
 de O
-s’ B-PER
+s’ O
 entendre O
 et O
 de O
@@ -7683,10 +7683,10 @@ raisonner O
 , O
 faculté O
 qui O
-n’ B-PER
+n’ O
 avait O
 servi O
-qu’ B-PER
+qu’ O
 à O
 |
 | O
@@ -7699,19 +7699,19 @@ perpétuel O
 |
 | O
 de O
-déraisonnement O
+déraisonnement B-PER
 , O
 mécontent O
 sur-tout O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 esprit O
 de O
 vertige O
 qui O
-s’ B-PER
+s’ O
 était O
 emparé O
 |
@@ -7733,7 +7733,7 @@ toutes O
 les O
 fureurs O
 de O
-l’ B-LOC
+l’ O
 intolérance O
 |
 | O
@@ -7750,7 +7750,7 @@ rentrer O
 bien O
 vîte O
 dans O
-l’ B-ORG
+l’ O
 état O
 où O
 elles O
@@ -7771,8 +7771,8 @@ aujourd’hui O
 ) O
 |
 | O
-NO B-ORG
-TES B-MISC
+NO B-MISC
+TES I-MISC
 . O
 |
 | O
@@ -7786,14 +7786,14 @@ sait O
 ou O
 doit O
 savoir O
-qu’ B-MISC
-il I-MISC
+qu’ O
+il O
 |
-| I-MISC
-n’ B-PER
+| O
+n’ O
 y O
 a O
-d’ B-PER
+d’ O
 absolument O
 certain O
 que O
@@ -7807,7 +7807,7 @@ mathématiquement O
 , O
 comme O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 rien O
@@ -7859,7 +7859,7 @@ arbitraire O
 | O
 qu’ O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 point O
@@ -7917,7 +7917,7 @@ ce O
 |
 | O
 qui O
-n’ B-PER
+n’ O
 en O
 sera O
 pas O
@@ -7935,7 +7935,7 @@ au O
 premier O
 abord O
 , O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -7981,7 +7981,7 @@ discor- O
 |
 | O
 dans O
-qu’ B-MISC
+qu’ O
 ils O
 soient O
 avec O
@@ -7992,8 +7992,8 @@ autres O
 . O
 |
 | O
-Que B-LOC
-l’ I-LOC
+Que O
+l’ O
 on O
 y O
 réfléchisse O
@@ -8069,7 +8069,7 @@ de O
 juger O
 autrement O
 . O
-Combien B-LOC
+Combien O
 cette O
 vérité O
 bien O
@@ -8087,7 +8087,7 @@ fureurs O
 de O
 |
 | O
-l’ B-LOC
+l’ O
 intolérance O
 , O
 et O
@@ -8121,11 +8121,11 @@ excès O
 |
 | O
 que O
-l’ B-LOC
+l’ O
 intérêt O
 général O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -8137,7 +8137,7 @@ raison O
 |
 | O
 d’ O
-état B-LOC
+état O
 , O
 doit O
 faire O
@@ -8147,9 +8147,9 @@ réprimer O
 ! O
 |
 | O
-( B-LOC
-2 I-LOC
-) I-LOC
+( O
+2 O
+) O
 Le O
 mot O
 ciel O
@@ -8171,7 +8171,7 @@ vulgaire O
 : O
 demandez O
 à O
-l’ B-LOC
+l’ O
 aumônier O
 |
 | O
@@ -8202,8 +8202,8 @@ où O
 |
 | O
 est O
-l’ B-MISC
-enfer I-MISC
+l’ O
+enfer O
   O
   O
 à O
@@ -8225,7 +8225,7 @@ sa O
 tête O
 , O
 et O
-l’ B-ORG
+l’ O
 autre O
 sous O
 |
@@ -8246,12 +8246,12 @@ aura O
 | O
 peuplé O
 tout O
-l’ B-ORG
+l’ O
 univers O
 de O
 paradis O
 et O
-d’ B-MISC
+d’ O
 enfers O
 confondus O
 |
@@ -8264,7 +8264,7 @@ ensemble O
 3 O
 ) O
 On O
-n’ B-PER
+n’ O
 a O
 mis O
 ici O
@@ -8275,7 +8275,7 @@ initiales O
 , O
 |
 | O
-d’ B-PER
+d’ O
 un O
 mot O
 qui O
@@ -8284,7 +8284,7 @@ trouve O
 tout O
 entier O
 dans O
-l’ B-LOC
+l’ O
 original O
 , O
 |
@@ -8327,9 +8327,9 @@ penser O
 , O
 avec O
 leur O
-Collins B-PER
-  O
-! O
+Collins B-MISC
+  I-MISC
+! I-MISC
 |
 | O
 Note B-MISC
@@ -8343,7 +8343,7 @@ Traducteur I-MISC
 ) O
 - O
 Rien O
-n’ B-PER
+n’ O
 est O
 plus O
 commun O
@@ -8389,7 +8389,7 @@ quatre O
 , O
 et O
 rien O
-n’ B-PER
+n’ O
 est O
 plus O
 absurde O
@@ -8398,7 +8398,7 @@ absurde O
 |
 | O
 car O
-n’ B-PER
+n’ O
 étant O
 pas O
 possible O
@@ -8430,9 +8430,9 @@ proposition O
 sans O
 avoir O
 dans O
-l’ B-ORG
+l’ O
 esprit O
-l’ B-LOC
+l’ O
 idée O
 |
 | O
@@ -8440,7 +8440,7 @@ du O
 nombre O
 quatre O
 , O
-c’ B-MISC
+c’ O
 est O
 exactement O
 comme O
@@ -8454,7 +8454,7 @@ quatre O
 font O
 quatre O
 , O
-qu’ B-LOC
+qu’ O
 un O
 |
 | O
@@ -8523,7 +8523,7 @@ que O
 quelques O
 |
 | O
-Fourmis B-PER
+Fourmis B-ORG
 de O
 son O
 parc O
@@ -8536,7 +8536,7 @@ bonnets O
 quarrés O
 , O
 et O
-s’ B-PER
+s’ O
 entr' O
 égorgeaient O
 pour O
@@ -8547,11 +8547,11 @@ prouver O
 à O
 priori O
 , O
-qu’ B-PER
+qu’ O
 il O
 existait O
 , O
-qu’ B-PER
+qu’ O
 il O
 était O
 ens O
@@ -8589,7 +8589,7 @@ assurément O
 | O
 il O
 ne O
-l’ B-LOC
+l’ O
 aurait O
 pas O
 voulu O
@@ -8597,12 +8597,12 @@ croire O
 , O
 ou O
 il O
-n’ B-PER
+n’ O
 eût O
 pu O
 |
 | O
-s’ B-PER
+s’ O
 empêcher O
 d’ O
 en O
@@ -8810,7 +8810,7 @@ horreur O
 ces O
 |
 | O
-Fourmis B-PER
+Fourmis B-ORG
 antropophages O
 , O
 avalent O
@@ -8857,9 +8857,9 @@ quelquefois O
 encore O
 sales O
 de O
-l’ B-LOC
+l’ O
 usage O
-qu’ B-LOC
+qu’ O
 elles O
 en O
 |
@@ -8872,7 +8872,7 @@ nuit O
   O
 en O
 vérité O
-c’ B-MISC
+c’ O
 est O
 un O
 excès O
@@ -8885,7 +8885,7 @@ les O
 générations O
 futures O
 de O
-Fourmis B-PER
+Fourmis B-ORG
 ne O
 |
 | O
@@ -8896,7 +8896,7 @@ un O
 jour O
 , O
 et O
-qu’ B-PER
+qu’ O
 elles O
 rangeront O
 |
@@ -8905,7 +8905,7 @@ dans O
 la O
 classe O
 des O
-Mille B-LOC
+Mille B-MISC
 et O
 Une B-MISC
 Nuits I-MISC
@@ -8939,7 +8939,7 @@ le O
 | O
 bonheur O
 , O
-qu’ B-LOC
+qu’ O
 ils O
 ont O
 placé O
@@ -8980,8 +8980,8 @@ que O
 |
 | O
 dans O
-l’ B-MISC
-opinion I-MISC
+l’ O
+opinion O
 particulière O
 de O
 chaque O
@@ -9000,8 +9000,8 @@ juger O
 . O
 |
 | O
-Un O
-Capucin B-PER
+Un B-PER
+Capucin I-PER
 qui O
 se O
 fouette O
@@ -9022,7 +9022,7 @@ parfaitement O
 heureux O
 , O
 et O
-n’ B-PER
+n’ O
 a O
 aucun O
 |
@@ -9032,7 +9032,7 @@ de O
 se O
 fouetter O
 , O
-s’ B-PER
+s’ O
 il O
 est O
 bien O
@@ -9058,7 +9058,7 @@ béatitude O
 Il O
 paraît O
 que O
-l’ B-LOC
+l’ O
 auteur O
 a O
 ici O
@@ -9072,13 +9072,13 @@ suicide O
 | O
 mais O
 il O
-n’ B-PER
+n’ O
 a O
 pas O
 réfléchi O
 que O
 rien O
-n’ B-PER
+n’ O
 est O
 plus O
 |
@@ -9095,12 +9095,12 @@ veut O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 ordre O
   O
 : O
 ce O
-n’ B-PER
+n’ O
 est O
 , O
 il O
@@ -9108,7 +9108,7 @@ est O
 vrai O
 , O
 que O
-l’ B-LOC
+l’ O
 effet O
 du O
 |
@@ -9139,7 +9139,7 @@ arithmétique O
 | O
 , O
 comme O
-l’ B-ORG
+l’ O
 a O
 dit O
 Montesquieu B-PER
@@ -9149,13 +9149,13 @@ Cependant O
 | O
 , O
 il O
-n’ B-PER
+n’ O
 en O
 est O
 pas O
 moins O
 constant O
-qu’ B-LOC
+qu’ O
 il O
 y O
 a O
@@ -9236,17 +9236,17 @@ auteur O
 | O
 mais O
 je O
-l’ B-LOC
+l’ O
 ai O
 retrouvée O
 depuis O
 dans O
 les O
-Essais B-LOC
-de I-LOC
+Essais B-MISC
+de I-MISC
 |
-| I-LOC
-Montagne I-LOC
+| I-MISC
+Montagne I-MISC
 , O
 et O
 ensuite O
@@ -9257,7 +9257,7 @@ en O
 sorte O
 |
 | O
-qu’ B-LOC
+qu’ O
 il O
 est O
 bien O
@@ -9269,20 +9269,20 @@ ait O
 à O
 |
 | O
-l’ B-ORG
+l’ O
 illustre O
 auteur O
 de O
-l’ B-PER
-Esprit I-PER
-des I-PER
-Lois I-PER
+l’ O
+Esprit B-MISC
+des I-MISC
+Lois I-MISC
 . O
 |
 | O
-Note O
-du O
-Traducteur B-MISC
+Note B-MISC
+du I-MISC
+Traducteur I-MISC
 . O
 |
 | O
@@ -9304,7 +9304,7 @@ elle O
 a O
 un O
 penchant O
-presqu’ B-PER
+presqu’ O
 irrésistible O
 , O
 |
@@ -9329,14 +9329,14 @@ et O
 la O
 tranquillité O
 des O
-Empires B-LOC
+Empires B-MISC
 , O
 que O
 le O
 matérialisme O
 |
 | O
-qu’ B-PER
+qu’ O
 elle O
 est O
 incapable O
@@ -9372,7 +9372,7 @@ est O
 vrai O
 , O
 qui O
-n’ B-PER
+n’ O
 ont O
 |
 | O
@@ -9385,7 +9385,7 @@ spiritualité O
 de O
 |
 | O
-l’ B-LOC
+l’ O
 ame O
 et O
 d’ O
@@ -9393,16 +9393,16 @@ une O
 autre O
 vie O
 , O
-jusqu’ B-PER
+jusqu’ O
 au O
 temps O
 de O
 |
 | O
-Philon B-LOC
+Philon B-PER
 et O
 de O
-l’ B-LOC
+l’ O
 historien O
 Joseph B-PER
 , O
@@ -9525,7 +9525,7 @@ stoïcisme O
 cousin O
 germain O
 de O
-l’ B-LOC
+l’ O
 athéisme O
 |
 | O
@@ -9534,7 +9534,7 @@ fut O
 la O
 secte O
 de O
-l’ B-LOC
+l’ O
 antiquité O
 la O
 plus O
@@ -9624,7 +9624,7 @@ ver- O
 tiges O
 religieux O
 de O
-l’ B-LOC
+l’ O
 autre O
   O
 ? O
@@ -9643,7 +9643,7 @@ le O
 profond O
 respect O
 que O
-j’ B-LOC
+j’ O
 ai O
 pour O
 la O
@@ -9661,7 +9661,7 @@ Isaac B-PER
 | I-PER
 Newton I-PER
 , O
-j’ B-PER
+j’ O
 aurais O
 dit O
   O
@@ -9673,7 +9673,7 @@ la O
 lumière O
 |
 | O
-n’ B-PER
+n’ O
 est O
 qu’ O
 une O
@@ -9748,7 +9748,7 @@ faiblesse O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 esprit O
 humain O
   O
@@ -9864,8 +9864,8 @@ saltimbanques O
 |
 | O
 dont O
-l’ B-ORG
-ignorance I-ORG
+l’ O
+ignorance O
 et O
 la O
 dépravation O
@@ -9893,18 +9893,18 @@ plus O
 nombreuse O
 |
 | O
-d’ B-PER
+d’ O
 entr'eux O
 . O
 |
 | O
-Note O
-du O
-Traducteur B-MISC
+Note B-MISC
+du I-MISC
+Traducteur I-MISC
 . O
 |
 | O
-POST-SCRIPTUM O
+POST-SCRIPTUM B-MISC
 . O
 |
 | O
@@ -9923,7 +9923,7 @@ de O
 pénétration O
 |
 | O
-d’ B-MISC
+d’ O
 esprit O
 , O
 à O
@@ -9937,20 +9937,20 @@ ne O
 peut O
 regarder O
 que O
-l’ B-LOC
+l’ O
 espèce O
 humaine O
 |
 | O
 comparée O
 aux O
-Fourmis B-MISC
-du I-MISC
-parc I-MISC
+Fourmis B-ORG
+du O
+parc B-LOC
 |
-| I-MISC
-de I-MISC
-Versailles I-MISC
+| I-LOC
+de I-LOC
+Versailles I-LOC
 , O
 et O
 la O
@@ -10024,8 +10024,8 @@ fini O
 avec O
 |
 | O
-l’ B-PER
-infini I-PER
+l’ O
+infini O
 , O
 le O
 souverain O
@@ -10038,7 +10038,7 @@ avec O
 le O
 maître O
 de O
-l’ B-LOC
+l’ O
 univers O
   O
   O
@@ -10051,12 +10051,12 @@ conséquent O
 les O
 raisonnemens O
 des O
-Fourmis B-MISC
+Fourmis O
 |
-| I-MISC
-raisonneuses I-MISC
+| O
+raisonneuses O
 , O
-n’ B-MISC
+n’ O
 en O
 acquerraient O
 que O
@@ -10067,7 +10067,7 @@ plus O
 de O
 force O
 , O
-qu’ B-PER
+qu’ O
 ils O
 resteraient O
 |
@@ -10081,7 +10081,7 @@ Et O
 en O
 effet O
 , O
-s’ B-PER
+s’ O
 il O
 |
 | O
@@ -10110,7 +10110,7 @@ le O
 souverain O
 |
 | O
-d’ B-PER
+d’ O
 un O
 Etat B-LOC
 quelconque O
@@ -10148,7 +10148,7 @@ admettre O
 que O
 Dieu B-MISC
 , O
-s’ B-PER
+s’ O
 il O
 en O
 existe O
@@ -10165,7 +10165,7 @@ sens O
 que O
 le O
 vulgaire O
-l’ B-ORG
+l’ O
 entend O
 , O
 ait O
@@ -10197,14 +10197,14 @@ perdu O
 |
 | O
 dans O
-l’ B-LOC
+l’ O
 immensité O
 de O
-l’ B-LOC
+l’ O
 espace O
 , O
 et O
-qu’ B-LOC
+qu’ O
 il O
 soit O
 |
@@ -10272,7 +10272,7 @@ dire O
 des O
 |
 | O
-Fourmis B-PER
+Fourmis B-ORG
 ce O
 que O
 les O
@@ -10282,7 +10282,7 @@ philosophes O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 antiquité O
 et O
 de O
@@ -10291,7 +10291,7 @@ jours O
 , O
 |
 | O
-n’ B-PER
+n’ O
 ont O
 pas O
 osé O
@@ -10371,7 +10371,7 @@ est O
 forcé O
 |
 | O
-d’ B-LOC
+d’ O
 en O
 convenir O
 , O
@@ -10399,7 +10399,7 @@ religion O
 A B-LOC
 cela O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 que O
@@ -10439,8 +10439,8 @@ toutes O
 les O
 académies O
 de O
-l’ B-ORG
-Europe B-LOC
+l’ B-LOC
+Europe I-LOC
 ne O
 le O
 feront O
@@ -10460,7 +10460,7 @@ d’ O
 un O
 côté O
 , O
-l’ B-ORG
+l’ O
 état O
 de O
 misère O
@@ -10478,7 +10478,7 @@ et O
 de O
 |
 | O
-l’ B-LOC
+l’ O
 autre O
 , O
 la O
@@ -10517,7 +10517,7 @@ parce O
 | O
 qu’ O
 il O
-n’ B-PER
+n’ O
 a O
 pas O
 le O
@@ -10526,7 +10526,7 @@ de O
 lire O
   O
   O
-s’ B-PER
+s’ O
 il O
 lit O
 des O
@@ -10536,7 +10536,7 @@ ouvrages O
 abstraits O
 , O
 il O
-n’ B-PER
+n’ O
 y O
 comprend O
 rien O
@@ -10603,7 +10603,7 @@ ils O
 ignorent O
 |
 | O
-jusqu’ B-PER
+jusqu’ O
 au O
 nom O
 & O
@@ -10622,7 +10622,7 @@ Léïbnitz B-PER
 , O
 dont O
 ils O
-n’ B-PER
+n’ O
 ont O
 |
 | O
@@ -10650,12 +10650,12 @@ vingtième O
 partie O
 |
 | O
-qu’ B-LOC
+qu’ O
 on O
 peut O
 en O
 excepter O
-à-peu-près B-PER
+à-peu-près O
 , O
 il O
 y O
@@ -10680,7 +10680,7 @@ d’ O
 |
 | O
 , O
-s’ B-PER
+s’ O
 en O
 tiennent O
 tout O
@@ -10733,7 +10733,7 @@ on O
 | O
 leur O
 disait O
-qu’ B-LOC
+qu’ O
 il O
 faut O
 le O
@@ -10742,7 +10742,7 @@ parce O
 |
 | O
 que O
-c’ B-MISC
+c’ O
 est O
 incroyable O
 , O
@@ -10879,7 +10879,7 @@ etc. O
 |
 | O
 qui O
-l’ B-ORG
+l’ O
 absurdité O
 de O
 tous O
@@ -10919,7 +10919,7 @@ un O
 jugement O
 timide O
 , O
-n’ B-PER
+n’ O
 admettent O
 un O
 |
@@ -10935,7 +10935,7 @@ que O
 |
 | O
 parce O
-qu’ B-PER
+qu’ O
 ils O
 sont O
 effrayés O
@@ -10998,7 +10998,7 @@ et O
 |
 | O
 ne O
-s’ B-PER
+s’ O
 inquiètent O
 de O
 rien O
@@ -11013,7 +11013,7 @@ le O
 passé O
 que O
 sur O
-l’ B-LOC
+l’ O
 avenir O
 , O
 ils O
@@ -11056,7 +11056,7 @@ leurs O
 | O
 dispositions O
 , O
-qu’ B-PER
+qu’ O
 il O
 les O
 dispense O
@@ -11071,7 +11071,7 @@ toutes O
 disputes O
   O
   O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -11085,7 +11085,7 @@ Eclictiques B-LOC
 |
 | O
 , O
-Quiétistes B-LOC
+Quiétistes B-MISC
 , O
 etc. O
 |
@@ -11109,7 +11109,7 @@ comprend O
 | O
 ceux O
 que O
-l’ B-LOC
+l’ O
 on O
 désigne O
 sous O
@@ -11122,13 +11122,13 @@ Matérialistes B-LOC
 , O
 Athées B-LOC
 , O
-Fatalistes B-LOC
+Fatalistes B-ORG
 , O
 etc. O
 |
 | O
 qui O
-n’ B-PER
+n’ O
 ayant O
 d’ O
 autre O
@@ -11149,7 +11149,7 @@ eux O
 et O
 |
 | O
-n’ B-PER
+n’ O
 ayant O
 pas O
 le O
@@ -11226,7 +11226,7 @@ unique O
 , O
 modifiée O
 à O
-l’ B-LOC
+l’ O
 infini O
 par O
 le O
@@ -11244,7 +11244,7 @@ essence O
 |
 | O
 comme O
-l’ B-ORG
+l’ O
 étendue O
 et O
 la O
@@ -11252,9 +11252,9 @@ solidité O
 . O
 |
 | O
-D’ B-LOC
+D’ O
 où O
-l’ B-LOC
+l’ O
 on O
 voit O
 que O
@@ -11263,8 +11263,8 @@ population O
 de O
 |
 | O
-l’ O
-Europe B-LOC
+l’ B-LOC
+Europe I-LOC
 étant O
 évaluée O
 à O
@@ -11286,7 +11286,7 @@ ces O
 derniers O
 |
 | O
-n’ B-PER
+n’ O
 y O
 sont O
 pas O
@@ -11321,12 +11321,12 @@ rapport O
 , O
 sur-tout O
 si O
-l’ B-LOC
+l’ O
 on O
 considère O
 |
 | O
-qu’ B-LOC
+qu’ O
 ils O
 sont O
 intéressés O
@@ -11351,9 +11351,9 @@ dans O
 ce O
 monde O
 , O
-puisqu’ B-ORG
+puisqu’ O
 ils O
-n’ B-PER
+n’ O
 en O
 attendent O
 |
@@ -11389,7 +11389,7 @@ profondes O
 | O
 qu’ O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 pas O
@@ -11400,9 +11400,9 @@ le O
 com- O
 |
 | O
-mun B-PER
-des I-PER
-hommes I-PER
+mun O
+des O
+hommes O
 , O
 même O
 des O
@@ -11458,7 +11458,7 @@ patrie O
 , O
 |
 | O
-l’ B-LOC
+l’ O
 orna O
 de O
 tous O
@@ -11471,7 +11471,7 @@ poësie O
 | O
 et O
 de O
-l’ B-LOC
+l’ O
 éloquence O
   O
   O
@@ -11486,7 +11486,7 @@ de O
 Rome B-LOC
   O
 : O
-Post B-PER
+Post B-MISC
 mortem O
 nihil O
 est O
@@ -11538,9 +11538,9 @@ doute O
 que O
 |
 | O
-Buf B-PER
-Ibn I-PER
-n’ I-PER
+Buf B-ORG
+Ibn I-ORG
+n’ O
 eût O
 commencé O
 la O
@@ -11550,7 +11550,7 @@ de O
 | O
 même O
 , O
-s’ B-PER
+s’ O
 il O
 eût O
 eu O
@@ -11562,7 +11562,7 @@ vivre O
 | O
 sous O
 des O
-Tites B-LOC
+Tites B-ORG
 et O
 des O
 Vespasiens B-LOC
@@ -11573,9 +11573,9 @@ sous O
 un O
 B. B-PER
 , O
-s’ B-MISC
-il I-MISC
-n’ I-MISC
+s’ O
+il O
+n’ O
 eût O
 craint O
 la O
@@ -11704,7 +11704,7 @@ trouvaient O
 |
 | O
 , O
-n’ B-PER
+n’ O
 en O
 imposait O
 pas O
@@ -11812,7 +11812,7 @@ attention O
 pour O
 |
 | O
-qu’ B-LOC
+qu’ O
 ils O
 jettent O
 le O
@@ -11825,15 +11825,15 @@ se O
 |
 | O
 récriant O
-qu’ B-MISC
-on I-MISC
-n’ I-MISC
+qu’ O
+on O
+n’ O
 y O
 conçoit O
 rien O
 , O
 que O
-c’ B-MISC
+c’ O
 est O
 |
 | O
@@ -11843,7 +11843,7 @@ métaphysique O
 toute O
 pure O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 àdire O
@@ -11872,7 +11872,7 @@ les O
 | O
 posthumes O
 de O
-Spinosa B-MISC
+Spinosa B-PER
 ( O
 5 O
 ) O
@@ -11901,7 +11901,7 @@ les O
 maximes O
 de O
 la O
-Rochefoucaut B-LOC
+Rochefoucaut B-MISC
 > O
 où O
 |
@@ -11943,7 +11943,7 @@ un O
 mauvais O
 effet O
 sur O
-l’ B-LOC
+l’ O
 esprit O
 |
 | O
@@ -11957,7 +11957,7 @@ nous O
 venons O
 de O
 dire O
-qu’ B-LOC
+qu’ O
 ils O
 |
 | O
@@ -11978,7 +11978,7 @@ pas O
 lire O
 , O
 et O
-n’ B-PER
+n’ O
 ayant O
 |
 | O
@@ -12049,12 +12049,12 @@ et O
 |
 | O
 que O
-d’ B-PER
+d’ O
 après O
 leurs O
 préjugés O
 , O
-c’ B-MISC
+c’ O
 est O
 un O
 |
@@ -12085,7 +12085,7 @@ Il O
 ne O
 reste O
 donc O
-qu’ B-PER
+qu’ O
 un O
 trèspetit O
 |
@@ -12129,7 +12129,7 @@ fanatiques O
 exceptés O
 ) O
 , O
-d’ B-MISC
+d’ O
 abuser O
 des O
 erreurs O
@@ -12137,7 +12137,7 @@ qui O
 |
 | O
 pourraient O
-s’ B-PER
+s’ O
 y O
 être O
 glissées O
@@ -12239,7 +12239,7 @@ ce O
 monde O
 , O
 est O
-d’ B-PER
+d’ O
 y O
 |
 | O
@@ -12254,7 +12254,7 @@ long O
 temps O
 |
 | O
-qu’ B-LOC
+qu’ O
 ils O
 peuvent O
 , O
@@ -12277,7 +12277,7 @@ religion O
 |
 | O
 et O
-d’ B-PER
+d’ O
 y O
 respecter O
 les O
@@ -12291,7 +12291,7 @@ généralement O
 reçus O
 , O
 soit O
-qu’ B-LOC
+qu’ O
 ils O
 croient O
 à O
@@ -12302,9 +12302,9 @@ autre O
 vie O
 , O
 soit O
-qu’ B-MISC
+qu’ O
 ils O
-n’ B-PER
+n’ O
 y O
 croient O
 pas O
@@ -12316,7 +12316,7 @@ pas O
 ) O
 |
 | O
-NOTES B-ORG
+NOTES O
 . O
 |
 | O
@@ -12341,7 +12341,7 @@ d’ O
 une O
 bataille O
 , O
-s’ B-PER
+s’ O
 écriait O
 : O
 mon O
@@ -12349,7 +12349,7 @@ mon O
 | O
 Dieu B-MISC
 , O
-s’ B-PER
+s’ O
 il O
 y O
 en O
@@ -12365,7 +12365,7 @@ ame O
 |
 | O
 si O
-j’ B-LOC
+j’ O
 en O
 ai O
 une O
@@ -12373,9 +12373,9 @@ une O
 ! O
 |
 | O
-( B-LOC
-2 I-LOC
-) I-LOC
+( O
+2 O
+) O
 La O
 doctrine O
 du O
@@ -12387,18 +12387,18 @@ plus O
 | O
 ancienne O
 que O
-Zoroastre B-LOC
+Zoroastre B-PER
 et O
-Manès B-LOC
+Manès B-PER
 à O
 qui O
 on O
-l’ B-LOC
+l’ O
 attribue O
 |
 | O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -12496,7 +12496,7 @@ autres O
 |
 | O
 puisque O
-l’ B-ORG
+l’ O
 on O
 a O
 vu O
@@ -12517,13 +12517,13 @@ génération O
 |
 | O
 le O
-Phallum B-MISC
-des I-MISC
-anciens I-MISC
+Phallum B-LOC
+des O
+anciens O
 , O
 et O
 dans O
-d’ B-MISC
+d’ O
 autres O
 , O
 |
@@ -12531,10 +12531,10 @@ autres O
 des O
 Santons B-MISC
 nus I-MISC
-, O
-sales O
-et O
-crasseux O
+, I-MISC
+sales I-MISC
+et I-MISC
+crasseux I-MISC
 , O
 le O
 donner O
@@ -12579,7 +12579,7 @@ que O
 ce O
 soit O
 , O
-l’ B-LOC
+l’ O
 amour O
 |
 | O
@@ -12588,7 +12588,7 @@ soi O
 , O
 qui O
 est O
-l’ B-LOC
+l’ O
 épouvantail O
 des O
 sots O
@@ -12599,7 +12599,7 @@ cagots O
 |
 | O
 qui O
-n’ B-PER
+n’ O
 en O
 est O
 pas O
@@ -12625,7 +12625,7 @@ est O
 en O
 physique O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -12650,7 +12650,7 @@ jamais O
 sans O
 |
 | O
-l’ B-LOC
+l’ O
 amour O
 de O
 ses O
@@ -12690,7 +12690,7 @@ et O
 leur O
 apprend O
 même O
-qu’ B-LOC
+qu’ O
 ils O
 |
 | O
@@ -12704,7 +12704,7 @@ peuple O
 , O
 |
 | O
-jusqu’ B-PER
+jusqu’ O
 à O
 un O
 certain O
@@ -12718,8 +12718,8 @@ temps O
 |
 | O
 à O
-l’ B-ORG
-instruction I-ORG
+l’ O
+instruction O
 et O
 à O
 la O
@@ -12753,7 +12753,7 @@ absolue O
 |
 | O
 dès O
-qu’ B-PER
+qu’ O
 il O
 lui O
 faut O
@@ -12763,9 +12763,9 @@ quelconque O
 . O
 |
 | O
-( B-LOC
-3 I-LOC
-) I-LOC
+( O
+3 O
+) O
 La O
 franchise O
 des O
@@ -12812,7 +12812,7 @@ foi O
 des O
 principes O
 philosophiques O
-qu’ B-MISC
+qu’ O
 ils O
 |
 | O
@@ -12829,7 +12829,7 @@ parade O
 ridicule O
 , O
 sans O
-s’ B-PER
+s’ O
 ériger O
 en O
 sectateurs O
@@ -12845,7 +12845,7 @@ un O
 gage O
 assuré O
 de O
-l’ B-LOC
+l’ O
 austérité O
 de O
 leurs O
@@ -12856,7 +12856,7 @@ zaoeurs O
   O
 tandis O
 que O
-l’ B-LOC
+l’ O
 hypocrisie O
 de O
 cette O
@@ -12865,7 +12865,7 @@ nouvelle O
 | O
 espèce O
 de O
-Tartufes B-LOC
+Tartufes B-PER
 , O
 qui O
 avec O
@@ -12948,7 +12948,7 @@ abuser O
 de O
 la O
 confiance O
-qu’ B-MISC
+qu’ O
 ils O
 veulent O
 inspirer O
@@ -12970,7 +12970,7 @@ Toutes O
 les O
 fois O
 que O
-j’ B-LOC
+j’ O
 entends O
 des O
 gens O
@@ -13086,7 +13086,7 @@ arbitre O
 | O
 et O
 ce O
-n’ B-PER
+n’ O
 est O
 que O
 dans O
@@ -13108,7 +13108,7 @@ Dargental B-LOC
 |
 | O
 etc. O
-qu’ B-LOC
+qu’ O
 il O
 ne O
 déguisait O
@@ -13181,11 +13181,11 @@ toutes O
 les O
 fois O
 que O
-l’ B-LOC
+l’ O
 occasion O
 |
 | O
-s’ B-LOC
+s’ O
 en O
 présente O
 , O
@@ -13203,7 +13203,7 @@ de O
 vouloir O
 le O
 juger O
-d’ B-PER
+d’ O
 après O
 ses O
 ouvrages O
@@ -13217,14 +13217,14 @@ de O
 son O
 vivant O
 , O
-qu’ B-PER
+qu’ O
 il O
 dit O
 , O
 avec O
 |
 | O
-presqu’ B-PER
+presqu’ O
 un O
 ton O
 de O
@@ -13242,9 +13242,9 @@ la O
 ) O
 |
 | O
-marquise O
-du O
-Défant B-LOC
+marquise B-PER
+du I-PER
+Défant I-PER
 qui O
 lui O
 reprochai O
@@ -13274,7 +13274,7 @@ que O
 quand O
 |
 | O
-j’ B-LOC
+j’ O
 écris O
 pour O
 le O
@@ -13309,7 +13309,7 @@ pensait O
 il O
 |
 | O
-n’ B-PER
+n’ O
 aurait O
 pas O
 fait O
@@ -13333,7 +13333,7 @@ les O
 |
 | O
 Juifs B-MISC
-n’ B-PER
+n’ O
 étaient O
 pas O
 le O
@@ -13358,11 +13358,11 @@ que O
 |
 | O
 les O
-serpens B-LOC
+serpens O
 et O
 les O
 ânesses O
-n’ B-PER
+n’ O
 avaient O
 parlé O
 dans O
@@ -13399,7 +13399,7 @@ quatre O
 mille O
 ans O
 à O
-l’ B-LOC
+l’ O
 historiette O
 |
 | O
@@ -13419,8 +13419,8 @@ avaient O
 été O
 copiés O
 sur O
-le B-MISC
-Veidam I-MISC
+le O
+Veidam B-MISC
 des I-MISC
 anciens I-MISC
 |
@@ -13454,7 +13454,7 @@ et O
 | O
 donc O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 point O
@@ -13507,7 +13507,7 @@ vie O
 5 O
 ) O
 Tout O
-n’ B-PER
+n’ O
 est O
 pas O
 démontré O
@@ -13517,11 +13517,11 @@ système O
 |
 | O
 de O
-Spinosa B-MISC
+Spinosa B-PER
   O
 : O
 il O
-s’ B-PER
+s’ O
 y O
 trouve O
 bien O
@@ -13565,7 +13565,7 @@ est O
 ) O
 |
 | O
-qu’ B-LOC
+qu’ O
 un O
 aussi O
 vaste O
@@ -13580,7 +13580,7 @@ les O
 | O
 athées O
 de O
-l’ B-LOC
+l’ O
 antiquité O
 , O
 en O
@@ -13602,12 +13602,12 @@ Foppens B-LOC
 « O
   O
 que O
-l’ B-LOC
+l’ O
 être O
 absolu O
 |
 | O
-n’ B-PER
+n’ O
 est O
 ni O
 pensée O
@@ -13615,18 +13615,18 @@ pensée O
 ni O
 étendue O
 exclusivement O
-l’ B-LOC
+l’ O
 une O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 autre O
   O
   O
 mais O
 que O
-l’ B-LOC
+l’ O
 étendue O
 et O
 la O
@@ -13639,7 +13639,7 @@ des O
 attributs O
 nécessaires O
 de O
-l’ B-LOC
+l’ O
 être O
 absolu O
 , O
@@ -13665,7 +13665,7 @@ page O
 |
 | O
 que O
-l’ B-ORG
+l’ O
 idée O
 de O
 Dieu B-MISC
@@ -13673,12 +13673,12 @@ comprise O
 sous O
 celle O
 de O
-l’ B-LOC
+l’ O
 infinité O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 univers O
 , O
 ne O
@@ -13686,13 +13686,13 @@ le O
 dispense O
 pas O
 de O
-l’ B-LOC
+l’ O
 obéissance O
 |
 | O
 , O
 de O
-l’ B-LOC
+l’ O
 amour O
 et O
 du O
@@ -13708,7 +13708,7 @@ attendu O
 que O
 les O
 lois O
-qu’ B-LOC
+qu’ O
 il O
 a O
 reçues O
@@ -13743,7 +13743,7 @@ raisonnable O
   O
   O
 car O
-qu’ B-PER
+qu’ O
 est O
 -ce O
 qu’ O
@@ -13755,23 +13755,23 @@ recevant O
 des O
 lois O
 de O
-l’ B-LOC
+l’ O
 infinité O
 de O
-l’ B-ORG
-univers I-ORG
+l’ O
+univers O
 , O
 un O
 |
 | O
-atôme B-PER
+atôme O
 se O
 croyant O
 dans O
-l’ B-MISC
-obligation I-MISC
+l’ O
+obligation O
 de O
-l’ B-LOC
+l’ O
 aimer O
 , O
 |
@@ -13790,7 +13790,7 @@ quelconque O
 ? O
 |
 | O
-S’ B-PER
+S’ O
 il O
 a O
 dit O
@@ -13859,8 +13859,8 @@ commentaire O
 sur O
 |
 | O
-l’ B-MISC
-Apocalypse I-MISC
+l’ O
+Apocalypse B-MISC
 par O
 Newton B-PER
 qui O
@@ -13873,21 +13873,21 @@ que O
 le O
 Pape B-PER
 était O
-l’ B-MISC
-antechrist I-MISC
+l’ O
+antechrist O
 , O
 et O
 la O
 conversation O
 |
 | O
-d’ B-PER
+d’ O
 un O
 perroquet O
 avec O
 le O
 chevalier O
-Temple B-LOC
+Temple B-PER
 , O
 |
 | O
@@ -13898,7 +13898,7 @@ rapportée O
 par O
 le O
 sage O
-Lock B-MISC
+Lock B-PER
 , O
 dans O
 |
@@ -13913,21 +13913,21 @@ Essai B-MISC
 philosophique I-MISC
 sur I-MISC
 l’ I-MISC
-entendement O
-humain O
+entendement I-MISC
+humain I-MISC
 . O
 |
 | O
-Quandoque O
+Quandoque B-MISC
 bonus O
 dormitat O
 Homerus B-MISC
 . O
 |
 | O
-Note O
-du O
-Traducteur B-MISC
+Note B-MISC
+du I-MISC
+Traducteur I-MISC
 . O
 |
 | O
@@ -13936,7 +13936,7 @@ Traducteur B-MISC
 ) O
 Qui O
 croirait O
-qu’ B-LOC
+qu’ O
 au O
 moment O
 où O
@@ -13972,8 +13972,8 @@ de O
 deux O
 souverains O
 de O
-l’ B-ORG
-Europe B-LOC
+l’ B-LOC
+Europe I-LOC
 , O
 les O
 |
@@ -13981,7 +13981,7 @@ les O
 plus O
 éclairés O
 , O
-l’ B-LOC
+l’ O
 un O
 , O
 le O
@@ -14001,15 +14001,15 @@ tolérance O
 universelle O
   O
   O
-l’ B-LOC
+l’ O
 autre O
 , O
 |
 | O
 le O
-Duc B-LOC
-de I-LOC
-Bavière I-LOC
+Duc B-PER
+de I-PER
+Bavière I-PER
 , O
 vient O
 de O
@@ -14046,7 +14046,7 @@ Spinosa B-PER
 regardées O
 généralement O
 comme O
-l’ B-LOC
+l’ O
 arsenal O
 |
 | O
@@ -14081,7 +14081,7 @@ quand O
 |
 | O
 ils O
-n’ B-PER
+n’ O
 ont O
 comme O
 lui O
@@ -14099,7 +14099,7 @@ bienfaisantes O
 Qui O
 croirait O
 encore O
-qu’ B-LOC
+qu’ O
 un O
 autre O
 |
@@ -14120,7 +14120,7 @@ les O
 différentes O
 communions O
 de O
-l’ B-LOC
+l’ O
 église O
 |
 | O
@@ -14132,13 +14132,13 @@ en O
 principe O
 qu’ O
 il O
-n’ B-PER
+n’ O
 y O
 aurait O
 |
 | O
 à O
-l’ B-LOC
+l’ O
 avenir O
 aucune O
 opinion O
@@ -14149,7 +14149,7 @@ dogme O
 , O
 |
 | O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -14166,7 +14166,7 @@ aurait O
 |
 | O
 raison O
-d’ B-MISC
+d’ O
 en O
 penser O
 ce O
@@ -14179,10 +14179,10 @@ Mais O
 comme O
 |
 | O
-l’ B-LOC
+l’ O
 annonce O
 le O
-Publiciste B-LOC
+Publiciste O
 judicieux O
 de O
 qui O
@@ -14206,7 +14206,7 @@ février I-MISC
 dernier I-MISC
 , O
 il O
-n’ B-PER
+n’ O
 y O
 a O
 pas O
@@ -14269,7 +14269,7 @@ résoudre O
 oublier O
 leur O
 fameux O
-compelle O
+compelle B-LOC
 |
 | O
 eos O
@@ -14290,7 +14290,7 @@ sanguinaire O
 et O
 digne O
 de O
-l’ B-LOC
+l’ O
 exécration O
 de O
 tous O
@@ -14321,12 +14321,12 @@ de O
 raisonnement O
 |
 | O
-qu’ B-LOC
+qu’ O
 on O
 ne O
 peut O
 attendre O
-d’ B-PER
+d’ O
 aucuns O
 docteurs O
 en O
@@ -14337,9 +14337,9 @@ théologie O
 fussent O
 -ils O
 des O
-universités O
-de O
-Coimbre B-LOC
+universités B-ORG
+de I-ORG
+Coimbre I-ORG
 |
 | O
 et O
@@ -14396,7 +14396,7 @@ un O
 acheminement O
 heureux O
 à O
-l’ B-LOC
+l’ O
 adoption O
 d’ O
 une O
@@ -14450,7 +14450,7 @@ porte O
 , O
 quelque O
 discordans O
-qu’ B-MISC
+qu’ O
 ils O
 soient O
 avec O
@@ -14595,7 +14595,7 @@ plus O
 à O
 la O
 pensée O
-qu’ B-PER
+qu’ O
 à O
 , O
 |
@@ -14731,7 +14731,7 @@ particulière O
 |
 | O
 de O
-l’ B-LOC
+l’ O
 anatomie O
 et O
 de O
@@ -14764,7 +14764,7 @@ qu’ O
 tel O
 autre O
 qui O
-n’ B-PER
+n’ O
 aura O
 |
 | O
@@ -14797,7 +14797,7 @@ espèce O
 qui O
 |
 | O
-n’ B-PER
+n’ O
 aura O
 végété O
 que O
@@ -14818,7 +14818,7 @@ trempe O
 , O
 se O
 félicitant O
-eutr' O
+eutr' B-PER
 eux O
 |
 | O
@@ -14912,7 +14912,7 @@ toute O
 espèce O
 , O
 que O
-l’ B-ORG
+l’ O
 on O
 oppose O
 |
@@ -14928,15 +14928,15 @@ en O
 modifier O
 |
 | O
-l’ B-LOC
+l’ O
 impulsion O
 , O
-n’ B-PER
+n’ O
 est O
 qu’ O
 un O
 pur O
-galimathias O
+galimathias B-PER
 scolastique O
 , O
 |
@@ -14959,7 +14959,7 @@ Traducteur B-MISC
 . O
 |
 | O
-FIN B-ORG
+FIN B-MISC
 . O
 |
 | O

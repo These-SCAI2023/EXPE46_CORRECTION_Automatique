@@ -2,10 +2,10 @@
 
 | O
 1e O
-Gallica B-PER
+Gallica B-MISC
 |
 
-| O
+| I-MISC
 Le O
 département B-LOC
 de I-LOC
@@ -16,8 +16,8 @@ Oise I-LOC
 | O
 Compiègne B-LOC
 et O
-M B-MISC
-arat I-MISC
+M B-LOC
+arat I-LOC
 , O
 |
 
@@ -39,29 +39,29 @@ Sorel I-PER
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèques B-MISC
-de I-MISC
-la I-MISC
-Ville I-MISC
-de I-MISC
-Compiègne I-MISC
+Bibliothèques B-ORG
+de I-ORG
+la I-ORG
+Ville I-ORG
+de I-ORG
+Compiègne I-ORG
 |
 
-| O
-11 O
-Gallica O
+| I-ORG
+11 I-ORG
+Gallica I-ORG
 |
 
  
 
-| O
-de O
-l' O
-Oise O
+| I-ORG
+de I-ORG
+l' I-ORG
+Oise I-ORG
 : O
 Compiègne B-LOC
 et O
-Marat B-PER
+Marat B-LOC
 , O
 fragment O
 historique O
@@ -70,9 +70,9 @@ par O
 M. B-PER
 |
 
-| O
-|||| O
-Sorel B-PER
+| I-PER
+|||| I-PER
+Sorel I-PER
 , O
 Alexandre B-PER
 ( O
@@ -209,10 +209,10 @@ après O
 Source O
 gallica.bnf.fr O
 / O
-Bibliothèque B-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 » O
 ou O
 « O
@@ -318,16 +318,16 @@ etc. O
 |
 
 | O
-CLIQUER B-MISC
-ICI I-MISC
+CLIQUER O
+ICI O
 POUR O
-ACCÉDER B-ORG
-AUX O
-TARIFS B-MISC
-ET O
-À B-MISC
-LA I-MISC
-LICENCE I-MISC
+ACCÉDER O
+AUX B-MISC
+TARIFS I-MISC
+ET I-MISC
+À O
+LA O
+LICENCE B-MISC
 |
 
 | I-MISC
@@ -335,7 +335,7 @@ LICENCE I-MISC
 Les O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 la O
 propriété O
@@ -490,7 +490,7 @@ réutilisation O
 
 | O
 4/ O
-Gallica B-LOC
+Gallica B-MISC
 constitue O
 une O
 base O
@@ -509,9 +509,9 @@ au O
 sens O
 des O
 articles O
-L341 B-MISC
-- I-MISC
-1 I-MISC
+L341 O
+- O
+1 O
 et O
 |
 | O
@@ -535,7 +535,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 régies O
 par O
@@ -643,7 +643,7 @@ obtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 définition O
@@ -663,18 +663,18 @@ ANS O
 
 | O
 .... O
-DÉPARTEMENT O
-DE O
-L' O
-OISE O
-|||| O
+DÉPARTEMENT B-MISC
+DE I-MISC
+L' I-MISC
+OISE I-MISC
+|||| I-MISC
 |
-| O
+| I-MISC
 : O
 |||| O
-COMPIEGNE B-ORG
+COMPIEGNE O
 ET O
-SMARAT B-ORG
+SMARAT O
 |
 
 | O
@@ -721,7 +721,7 @@ re O
 
 | O
 j O
-Dot B-PER
+Dot O
 ee O
 te O
 Ses O
@@ -733,21 +733,21 @@ IUT O
 | O
 Le O
 ou O
-7 O
+7 B-LOC
 |
 
  
          
 
-| O
-D O
-Compiègne O
+| I-LOC
+D I-LOC
+Compiègne I-LOC
 2 O
 } O
 |
 
 | O
-Vo B-LOC
+Vo O
 |
 
  
@@ -756,25 +756,25 @@ Vo B-LOC
 O O
 |
 | O
-URI B-LOC
+URI O
 |
 
-| I-LOC
-Lit I-LOC
-BEAUVAIS I-LOC
+| O
+Lit O
+BEAUVAIS O
 |
 | O
 |||| O
 VICTOR O
 PINEAU O
 , O
-LIBRAIRE B-ORG
+LIBRAIRE B-MISC
 - O
 |
 
 | O
 PLACE O
-SAINT-SAUVEUR B-LOC
+SAINT-SAUVEUR B-ORG
 . O
 : O
 : O
@@ -792,23 +792,23 @@ $ O
   
 
 | O
-Hours O
-me O
-ee O
-|||| O
-ss O
-uste O
-Ste B-PER
-D I-PER
-4 O
+Hours B-MISC
+me I-MISC
+ee I-MISC
+|||| I-MISC
+ss I-MISC
+uste I-MISC
+Ste I-MISC
+D I-MISC
+4 I-MISC
 jt O
 : O
 |
 | O
-ET O
-LL B-MISC
-A I-MISC
-UE B-ORG
+ET B-ORG
+LL I-ORG
+A I-ORG
+UE I-ORG
 mot O
 2 O
 Qt B-MISC
@@ -818,13 +818,13 @@ A O
 one O
 CE O
 rt O
-A B-MISC
-D I-MISC
-CR I-MISC
-Que I-MISC
-mes I-MISC
-me I-MISC
-nat I-MISC
+A O
+D O
+CR O
+Que O
+mes O
+me O
+nat O
 et O
 et O
 TT B-ORG
@@ -834,14 +834,14 @@ TT B-ORG
  
 
 | O
-ARRAS O
+ARRAS B-MISC
 , O
 DE O
-L' O
-IMPRIMERIE B-ORG
-ROUSSEAU I-ORG
-- I-ORG
-LEROY I-ORG
+L' B-MISC
+IMPRIMERIE I-MISC
+ROUSSEAU I-MISC
+- I-MISC
+LEROY I-MISC
 . O
 |
 
@@ -854,19 +854,19 @@ eee O
 | O
 ein O
 me O
-nee B-ORG
+nee O
 » O
 dora O
 same O
 de O
 20 O
 er O
-ET O
-SAM B-PER
+ET B-ORG
+SAM I-ORG
 |
 
-| O
-pa O
+| I-ORG
+pa I-ORG
 |
 
 | O
@@ -877,26 +877,26 @@ erér O
 
 | O
 _ O
-LE O
-DÉPARTEMENT B-ORG
-DE I-ORG
-L' O
-OISE O
+LE B-MISC
+DÉPARTEMENT I-MISC
+DE I-MISC
+L' I-MISC
+OISE I-MISC
 ( O
 aa O
 ) O
 |
 
 | O
-PENDANT O
+PENDANT B-MISC
 LA O
 REVOLUTION O
 |
 
 | O
-COMPIÈGNE B-ORG
-ET O
-MARAT B-MISC
+COMPIÈGNE B-MISC
+ET I-MISC
+MARAT I-MISC
 |
 
 | O
@@ -1070,7 +1070,7 @@ liste O
 que O
 publia O
 le O
-Moniteur B-LOC
+Moniteur B-MISC
 ? O
 , O
 la O
@@ -1161,13 +1161,13 @@ composer O
 la O
 société O
 des O
-Amis B-MISC
-de I-MISC
-la I-MISC
+Amis B-ORG
+de I-ORG
+la I-ORG
 |
-| I-MISC
-« I-MISC
-Constitution B-ORG
+| I-ORG
+« I-ORG
+Constitution I-ORG
 , O
 association O
 dont O
@@ -1220,7 +1220,7 @@ rôles O
 de O
 la O
 nouvelle O
-Contribution B-MISC
+Contribution B-ORG
 . O
 » O
 |
@@ -1287,12 +1287,12 @@ le O
 4 O
 mars O
 1791 O
-jusqu’ B-PER
+jusqu’ O
 au O
 30 O
 brumaire O
 an O
-IL O
+IL B-LOC
 ( O
 20 O
 novembre O
@@ -1310,7 +1310,7 @@ inèdits O
 , O
 figurent O
 dans O
-nn O
+nn B-MISC
 registre O
 qui O
 appartient O
@@ -1330,7 +1330,7 @@ l' I-LOC
 Oise I-LOC
 . O
 Il O
-m’ B-PER
+m’ O
 a O
 semblé O
 qu' O
@@ -1385,19 +1385,19 @@ Moniteur O
 t. O
 VII O
 , O
-p. B-LOC
-554 I-LOC
+p. O
+554 O
 . O
 |
 
 | O
 2 O
 , O
-Id B-LOC
+Id B-ORG
 . O
 , O
-t. O
-VIII B-MISC
+t. B-MISC
+VIII I-MISC
 , O
 p. O
 697 O
@@ -1451,8 +1451,8 @@ donna O
 bientôt O
 pour O
 successeur O
-M. O
-Stanislas B-PER
+M. B-PER
+Stanislas I-PER
 Leféron I-PER
 . O
 |
@@ -1519,12 +1519,12 @@ du O
 royaume O
 décrélée O
 par O
-l’ B-ORG
-Assemblée I-ORG
+l’ O
+Assemblée B-ORG
 |
-| O
-« O
-nationale O
+| I-ORG
+« I-ORG
+nationale I-ORG
 et O
 acceptée O
 par O
@@ -1642,7 +1642,7 @@ elle O
 | O
 demandait O
 à O
-s’ B-PER
+s’ O
 affilier O
 à O
 celle O
@@ -1677,7 +1677,7 @@ de O
 tous O
 les O
 sentiments O
-d’ B-PER
+d’ O
 attachement O
 et O
 de O
@@ -1721,7 +1721,7 @@ conçu O
 | O
 « O
 Il O
-n’ B-PER
+n’ O
 est O
 point O
 de O
@@ -1759,10 +1759,10 @@ sentinelle O
 la O
 porte O
 du O
-temple O
-de O
-la O
-Constitution B-ORG
+temple B-LOC
+de I-LOC
+la I-LOC
+Constitution I-LOC
 , O
 pour O
 la O
@@ -1899,9 +1899,9 @@ tions O
 .... O
 |
 | O
-Venait B-LOC
+Venait O
 ensuite O
-l’ B-LOC
+l’ O
 article O
 3 O
 : O
@@ -1954,9 +1954,9 @@ sur O
 le O
 cachet O
 : O
-SALUS O
-POPULI B-ORG
-SUPREMA I-ORG
+SALUS B-ORG
+POPULI O
+SUPREMA B-ORG
 LEX I-ORG
 ESTO I-ORG
 . O
@@ -1992,10 +1992,10 @@ A B-LOC
 |
 
 | O
-FR B-LOC
-À I-LOC
-& I-LOC
-A I-LOC
+FR B-MISC
+À I-MISC
+& I-MISC
+A I-MISC
 |
 
 | O
@@ -2009,7 +2009,7 @@ A I-LOC
 Æ B-MISC
 |
 
-| O
+| I-MISC
 — O
 3 O
 — O
@@ -2047,7 +2047,7 @@ ordre O
 public O
 et O
 elle O
-s’ B-PER
+s’ O
 occupera O
 |
 | O
@@ -2083,15 +2083,15 @@ arrêta O
 que O
 la O
 société O
-s’ B-ORG
+s’ O
 affilierait O
 à O
 celle O
 des O
 Jda- B-LOC
 |
-| I-LOC
-cobins I-LOC
+| O
+cobins O
 de O
 Paris B-LOC
 et O
@@ -2166,7 +2166,7 @@ société O
 de O
 la O
 lettre O
-quil O
+quil B-PER
 avait O
 écrite O
 à O
@@ -2213,11 +2213,11 @@ présen- O
 ter O
 à O
 l' O
-affilialion O
-des O
-Jacobins B-MISC
-de I-MISC
-Paris I-MISC
+affilialion B-ORG
+des I-ORG
+Jacobins I-ORG
+de I-ORG
+Paris I-ORG
 . O
 » O
 |
@@ -2235,7 +2235,7 @@ répondu O
 « O
 qu’ O
 elle O
-s’ B-PER
+s’ O
 en O
 ferait O
 un O
@@ -2275,7 +2275,7 @@ de O
 Beauvais B-LOC
 , O
 et O
-l’ B-LOC
+l’ O
 informer O
 qu' O
 il O
@@ -2284,7 +2284,7 @@ sollicité O
 également O
 |
 | O
-l’ B-ORG
+l’ O
 affilialion O
 à O
 la O
@@ -2315,7 +2315,7 @@ anniver- O
 | O
 saire O
 de O
-Jean-Jacques-Rousseau B-LOC
+Jean-Jacques-Rousseau B-PER
 . O
 Il O
 invita O
@@ -2380,7 +2380,7 @@ voir O
 là O
 visite O
 de O
-Massieu B-PER
+Massieu B-LOC
 , O
 évêque O
 constitutionnel O
@@ -2391,7 +2391,7 @@ son O
 |
 | O
 grand-vicaire O
-Rainville B-LOC
+Rainville B-PER
 , O
 et O
 du O
@@ -2412,8 +2412,8 @@ par O
 un O
 discours O
 du O
-président O
-Penon B-PER
+président B-PER
+Penon I-PER
 « O
 sur O
 |
@@ -2459,7 +2459,7 @@ fuit O
 | O
 4 O
 . O
-Massieu B-PER
+Massieu B-MISC
 ( O
 Jean-Baptiste B-PER
 ) O
@@ -2609,7 +2609,7 @@ des O
 lois O
 , O
 de O
-l’ B-LOC
+l’ O
 hamanité O
   O
 en O
@@ -2669,7 +2669,7 @@ misère O
 | O
 « O
 de O
-Ja B-LOC
+Ja B-PER
 manière O
 la O
 plus O
@@ -2688,7 +2688,7 @@ des O
 louanges O
 et O
 de O
-l’ B-LOC
+l’ O
 affiliation O
 qu’ O
 elle O
@@ -2816,7 +2816,7 @@ de O
 l' O
 accueil O
 favorable O
-qu’ B-PER
+qu’ O
 elle O
 fäisait O
 à O
@@ -2885,7 +2885,7 @@ Noyon B-LOC
 il O
 adoucit O
 cependant O
-l’ B-ORG
+l’ O
 amertume O
 de O
 ses O
@@ -2953,11 +2953,11 @@ nouveau O
 M. B-PER
 Massieu I-PER
 et O
-M. O
-Gibert B-PER
-de I-PER
-la I-PER
-joie I-PER
+M. B-PER
+Gibert I-PER
+de O
+la O
+joie O
 |
 | O
 « O
@@ -3020,7 +3020,7 @@ dans O
 le O
 temple O
 des O
-loix B-LOC
+loix O
 . O
 » O
 |
@@ -3069,7 +3069,7 @@ perte O
 |
 
 | O
-L’ B-LOC
+L’ O
 éloge O
 funèbre O
 de O
@@ -3098,8 +3098,8 @@ un O
 des O
 quarante O
 de O
-l’ B-ORG
-Académie I-ORG
+l’ O
+Académie B-ORG
 |
 | I-ORG
 Française I-ORG
@@ -3120,7 +3120,7 @@ il O
 serait O
 célébré O
 en O
-l’ B-LOC
+l’ O
 église O
 |
 | O
@@ -3146,14 +3146,14 @@ une O
 « O
 invitation O
 aux O
-Corps B-ORG
-Administratifs I-ORG
-et O
-Militaires B-MISC
-de I-MISC
-vouloir I-MISC
-bien I-MISC
-s’ B-PER
+Corps B-MISC
+Administratifs I-MISC
+et I-MISC
+Militaires I-MISC
+de O
+vouloir O
+bien O
+s’ O
 y O
 |
 | O
@@ -3261,7 +3261,7 @@ assemblé O
 |
 
 | O
-AR B-LOC
+AR O
 set O
 el O
 |
@@ -3280,8 +3280,8 @@ une O
 autre O
 pétition O
 à O
-l’ B-ORG
-Assemblée I-ORG
+l’ O
+Assemblée B-ORG
 nationale I-ORG
 à O
 l' O
@@ -3342,8 +3342,8 @@ calamité O
 |
 
 | O
-La O
-seconde O
+La B-MISC
+seconde I-MISC
 : O
 « O
 Vrai O
@@ -3355,7 +3355,7 @@ Constitution B-ORG
 il O
 fit O
 taire O
-l’ B-ORG
+l’ O
 aristo- O
 |
 | O
@@ -3419,8 +3419,8 @@ produit O
 à O
 Paris B-LOC
 . O
-Le B-PER
-roi I-PER
+Le O
+roi O
 avait O
 |
 | O
@@ -3456,7 +3456,7 @@ du I-MISC
 Roï I-MISC
 à O
 l' O
-As- O
+As- B-LOC
 |
 | O
 semblée O
@@ -3554,12 +3554,12 @@ de O
 la O
 plupart O
 des O
-Amis B-MISC
-de I-MISC
-lu I-MISC
-Constitution I-MISC
-de I-MISC
-Compiègne I-MISC
+Amis B-ORG
+de I-ORG
+lu I-ORG
+Constitution I-ORG
+de I-ORG
+Compiègne I-ORG
 s' O
 amoindris- O
 |
@@ -3624,18 +3624,18 @@ prenaient O
 les O
 événements O
 ou O
-s’ B-PER
-asso I-PER
-- I-PER
+s’ O
+asso O
+- O
 |
 
 | O
 composé O
 de O
-MM. B-MISC
-Thibaut I-MISC
+MM. B-PER
+Thibaut I-PER
 , O
-Berger B-LOC
+Berger B-PER
 , O
 Saiget B-LOC
 , O
@@ -3647,9 +3647,9 @@ Mercier B-PER
 , O
 |
 | O
-Courtois B-LOC
+Courtois B-PER
 , O
-Lambin B-LOC
+Lambin B-PER
 , O
 Veron B-LOC
 , O
@@ -3657,7 +3657,7 @@ Rey B-LOC
 , O
 Beaugrand B-LOC
 , O
-Chambon B-PER
+Chambon B-LOC
 et O
 Mosnies B-LOC
 , O
@@ -3684,14 +3684,14 @@ Conseil B-ORG
 général O
 et O
 par O
-MM. B-ORG
-d’ O
-Auger B-ORG
+MM. B-PER
+d’ I-PER
+Auger I-PER
 , O
 Thi- B-ORG
 |
-| O
-baut O
+| I-ORG
+baut I-ORG
 et O
 Étienne B-PER
 Poulain I-PER
@@ -3708,11 +3708,11 @@ de I-ORG
 | I-ORG
 la I-ORG
 Constitution I-ORG
-de O
-cette O
-ville O
+de I-ORG
+cette I-ORG
+ville I-ORG
 , O
-tendante O
+tendante B-LOC
 à O
 ce O
 que O
@@ -3720,9 +3720,9 @@ le O
 nom O
 de O
 la O
-rue O
-d’ O
-Enfer O
+rue B-LOC
+d’ I-LOC
+Enfer I-LOC
 |
 | O
 soit O
@@ -3753,10 +3753,10 @@ ses O
 conclusions O
 , O
 le O
-Con- B-LOC
+Con- B-ORG
 |
-| O
-seil O
+| I-ORG
+seil I-ORG
 , O
 voulant O
 donner O
@@ -3788,7 +3788,7 @@ ma- O
 |
 
 | O
-nifester O
+nifester B-PER
 , O
 et O
 a O
@@ -3816,9 +3816,9 @@ le O
 nom O
 de O
 la O
-rue O
-d’ O
-Enfer O
+rue B-LOC
+d’ I-LOC
+Enfer I-LOC
 |
 
 | O
@@ -3844,7 +3844,7 @@ serait O
 faite O
 en O
 lettres O
-d’ B-MISC
+d’ O
 or O
 sur O
 pierre O
@@ -3853,7 +3853,7 @@ noire O
 » O
 |
 | O
-Nonobstant O
+Nonobstant B-PER
 cet O
 arrèlé O
 , O
@@ -3871,19 +3871,19 @@ nom O
 a O
 ee O
 ee O
-ue B-ORG
+ue O
 de O
 de O
 eee O
 ee O
-nee B-ORG
+nee O
 me O
 ra O
 se O
 . O
 Lomme B-LOC
 en O
-ece B-LOC
+ece O
 qe O
 |
 
@@ -3915,7 +3915,7 @@ association O
   O
 mais O
 ils O
-n’ B-PER
+n’ O
 y O
 purentparvenir O
 et O
@@ -3975,7 +3975,7 @@ inei- O
 |
 | O
 « O
-visme O
+visme B-MISC
 . O
 |
 
@@ -4029,11 +4029,11 @@ IV I-MISC
 , O
 de O
 la O
-Li- B-LOC
+Li- B-ORG
 |
 | O
 « O
-berté O
+berté B-PER
 . O
 » O
 |||| O
@@ -4130,9 +4130,9 @@ dissolution O
 fût O
 prononcée O
 et O
-qu’ B-MISC
-on I-MISC
-reformât I-MISC
+qu’ O
+on O
+reformât O
 immédiatement O
 une O
 |
@@ -4174,7 +4174,7 @@ Constitution I-ORG
 fat I-ORG
 prononcée O
 à O
-l’ B-LOC
+l’ O
 unanimité O
 , O
 et O
@@ -4223,8 +4223,8 @@ de O
 ses O
 membres O
 , O
-Les B-MISC
-arrêtés I-MISC
+Les O
+arrêtés O
 pris O
 par O
 |
@@ -4320,7 +4320,7 @@ massacres O
 qui O
 jetérent O
 partout O
-l’ B-ORG
+l’ O
 épouvante O
 . O
 Aussi O
@@ -4384,7 +4384,7 @@ démesurée O
 et O
 presque O
 tous O
-n’ B-PER
+n’ O
 ayant O
 rien O
 à O
@@ -4410,8 +4410,8 @@ dans O
 le O
 couvent O
 de O
-Sainte- B-PER
-Marie I-PER
+Sainte- O
+Marie O
 , O
 puis O
 dans O
@@ -4420,10 +4420,10 @@ dans O
 uue O
 salle O
 de O
-l’ B-LOC
+l’ O
 ancienne O
-abbaye B-LOC
-de I-LOC
+abbaye O
+de O
 Saint-Corneille B-LOC
 . O
 |
@@ -4450,12 +4450,12 @@ la O
 nouvelle O
 |
 | O
-sociélé O
-des O
-Amis B-MISC
-de I-MISC
-la I-MISC
-République I-MISC
+sociélé B-ORG
+des I-ORG
+Amis I-ORG
+de I-ORG
+la I-ORG
+République I-ORG
 . O
 |
 
@@ -4536,8 +4536,8 @@ spé- O
 cialement O
 contribuée O
 à O
-la O
-Révolution B-MISC
+la B-MISC
+Révolution I-MISC
 qui O
 avait O
 débarrassé O
@@ -4550,8 +4550,8 @@ des O
 rois O
 et O
 de O
-La O
-royauté O
+La B-MISC
+royauté I-MISC
 » O
   O
 il O
@@ -4559,9 +4559,9 @@ demanda O
 en O
 outre O
 , O
-qu’ B-MISC
-on I-MISC
-priât I-MISC
+qu’ O
+on O
+priât O
 la O
 municipa- O
 |
@@ -4684,8 +4684,8 @@ du O
 joug O
 du O
 petfil O
-despote O
-Sarde B-MISC
+despote B-PER
+Sarde I-PER
 , O
 » O
 |
@@ -4809,7 +4809,7 @@ un O
 « O
 autre O
 ou O
-d’ B-MISC
+d’ O
 un O
 autre O
 » O
@@ -4840,7 +4840,7 @@ de O
 la O
 liberté O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -4902,14 +4902,14 @@ mai O
 . O
 ) O
 — O
-Qu' B-MISC
-on I-MISC
+Qu' O
+on O
 |
-| I-MISC
-_ I-MISC
-rayerait I-MISC
-du I-MISC
-procès-verbal I-MISC
+| O
+_ O
+rayerait O
+du O
+procès-verbal O
 , O
 la O
 qualification O
@@ -4951,18 +4951,18 @@ eux O
 » O
 — O
 — O
-Qu' B-MISC
-on I-MISC
-adresserait I-MISC
-une I-MISC
+Qu' O
+on O
+adresserait O
+une O
 |
-| I-MISC
-pétition I-MISC
-au I-MISC
-conseil I-MISC
-municipal I-MISC
+| O
+pétition O
+au O
+conseil O
+municipal O
 « O
-tendante O
+tendante B-LOC
 à O
 obtenir O
 le O
@@ -5034,16 +5034,16 @@ dans O
 son O
 ouvrage O
 intitulé O
-Compiègne B-MISC
-historique I-MISC
-et I-MISC
-monumentale I-MISC
+Compiègne B-LOC
+historique O
+et O
+monumentale O
 , O
 |
 | O
 t.1 O
 , O
-p.279 B-LOC
+p.279 B-PER
 , O
 a O
 donné O
@@ -5072,7 +5072,7 @@ _ O
 la O
 moustache O
 et O
-d’ B-MISC
+d’ O
 être O
 toujours O
 armés O
@@ -5186,7 +5186,7 @@ que O
 | O
 « O
 ce O
-n’ B-PER
+n’ O
 était O
 pas O
 leur O
@@ -5252,7 +5252,7 @@ elles O
 | O
 reproduisaient O
 , O
-el B-LOC
+el B-PER
 il O
 fut O
 décidé O
@@ -5275,7 +5275,7 @@ avenir O
 |
 
 | O
-A B-LOC
+A O
 la O
 séance O
 du O
@@ -5318,23 +5318,23 @@ qui O
 donne O
 les O
 nouvelles O
-Les O
-plus O
-favorables O
-sur O
+Les B-MISC
+plus I-MISC
+favorables I-MISC
+sur I-MISC
 |
-| O
-« O
-l' O
-état O
-de O
-la O
-frontière O
-du B-LOC
-Nord I-LOC
+| I-MISC
+« I-MISC
+l' I-MISC
+état I-MISC
+de I-MISC
+la I-MISC
+frontière I-MISC
+du I-MISC
+Nord I-MISC
 , O
 sur O
-l’ B-LOC
+l’ O
 évacuation O
 de O
 Valenciennes B-LOC
@@ -5342,15 +5342,15 @@ et O
 du O
 |
 | O
-t B-PER
-Quesnoy I-PER
+t O
+Quesnoy B-LOC
 par O
 l' O
 ennemi O
 . O
 La O
 joie O
-qu’ B-PER
+qu’ O
 elles O
 répandent O
 fait O
@@ -5439,8 +5439,8 @@ brumaire O
 de O
 l' O
 an O
-I B-LOC
-! O
+I B-MISC
+! I-MISC
 ( O
 8 O
 novembre O
@@ -5473,7 +5473,7 @@ société O
 . O
 Le O
 président O
-convia B-PER
+convia O
 « O
 les O
 sans-culottes O
@@ -5571,7 +5571,7 @@ comme O
 un O
 mélier O
 de O
-charlatan B-LOC
+charlatan O
 » O
 . O
 L' O
@@ -5664,20 +5664,20 @@ que O
 |
 
 | O
-A B-LOC
+A B-MISC
 |
 
-| O
-em O
+| I-MISC
+em I-MISC
 |
 
-| O
-2 O
-À O
+| I-MISC
+2 I-MISC
+À I-MISC
 |
 
-| O
-CS B-MISC
+| I-MISC
+CS I-MISC
 |
 
 | O
@@ -5689,17 +5689,17 @@ eme O
 mme O
 ne O
 de O
-ee O
-ee O
-dé O
-qe O
-A B-LOC
-eg O
-es O
+ee B-ORG
+ee I-ORG
+dé I-ORG
+qe I-ORG
+A I-ORG
+eg I-ORG
+es I-ORG
 |
 
-| O
-ee O
+| I-ORG
+ee I-ORG
 . O
 |
 
@@ -5733,8 +5733,8 @@ en O
 ... O
   O
 l' O
-an O
-II O
+an B-MISC
+II I-MISC
 de O
 la O
 |
@@ -5760,9 +5760,9 @@ trouvé O
 |
 | O
 « O
-Vive B-PER
-Louis O
-XVII O
+Vive O
+Louis B-PER
+XVII I-PER
 ! O
 et O
 plusieurs O
@@ -5776,7 +5776,7 @@ Après O
 « O
 un O
 grand O
-tumulie O
+tumulie B-PER
 causé O
 par O
 des O
@@ -5800,7 +5800,7 @@ soient O
 toujours O
 fermées O
 et O
-qu’ B-PER
+qu’ O
 elles O
 ne O
 soient O
@@ -5881,9 +5881,9 @@ Un O
 autre O
 membre O
 demande O
-qu’ B-MISC
-on I-MISC
-mette I-MISC
+qu’ O
+on O
+mette O
 |
 | O
 « O
@@ -5917,7 +5917,7 @@ société O
 deux O
 frères O
 de O
-l’ B-LOC
+l’ O
 armée O
 révolutionnaire O
 et O
@@ -5942,8 +5942,8 @@ procès- O
 verbal O
 ... O
 Le O
-citoyen B-MISC
-CG I-MISC
+citoyen B-ORG
+CG I-ORG
 ... O
 obtient O
 la O
@@ -5951,7 +5951,7 @@ parole O
 et O
 dit O
 en O
-s’ B-LOC
+s’ O
 adressant O
 aux O
 |
@@ -6007,7 +6007,7 @@ trouvera O
 | O
 Cet O
 incident O
-n’ B-PER
+n’ O
 eut O
 aucune O
 suite O
@@ -6053,11 +6053,11 @@ avril O
 1793 O
 , O
 le O
-Publiciste B-PER
-de I-PER
-la I-PER
-République I-PER
-française I-PER
+Publiciste B-ORG
+de I-ORG
+la I-ORG
+République I-ORG
+française I-ORG
 , O
 journal O
 que O
@@ -6124,17 +6124,17 @@ française I-LOC
 
 | O
 AU O
-CITOYEN B-MISC
-MARAT B-ORG
+CITOYEN O
+MARAT B-MISC
 . O
 |
 
 | O
 « O
-Citoyen O
+Citoyen B-LOC
 législateur O
 , O
-c’ B-MISC
+c’ O
 est O
 parce O
 que O
@@ -6186,10 +6186,10 @@ len O
 ° O
 83 O
 du O
-Moniteur B-LOC
+Moniteur B-MISC
 , O
 à O
-l’ B-LOC
+l’ O
 article O
 de O
 la O
@@ -6224,8 +6224,8 @@ les O
 rebelles O
 dans O
 le O
-département B-LOC
-de I-LOC
+département O
+de O
 Mayenne B-LOC
 et O
 |
@@ -6272,11 +6272,11 @@ Vitgen B-PER
 ne O
 a O
 qe O
-Ce B-MISC
-ee I-MISC
+Ce O
+ee O
 |
-| I-MISC
-NW I-MISC
+| O
+NW O
 ? O
 + O
 se O
@@ -6301,13 +6301,13 @@ Te O
 |
 
 | O
-En B-MISC
-mm I-MISC
-mme I-MISC
-ms I-MISC
+En O
+mm O
+mme O
+ms O
 |
 
-| I-MISC
+| O
 _ O
 10 O
 — O
@@ -6336,7 +6336,7 @@ commandement O
 | O
 « O
 de O
-l’ B-LOC
+l’ O
 armée O
 de O
 l' O
@@ -6471,8 +6471,8 @@ lieu O
 des O
 séances O
 de O
-l’ B-ORG
-Assemblée I-ORG
+l’ O
+Assemblée B-ORG
 . O
 A O
 la O
@@ -6500,7 +6500,7 @@ aristocrate O
 : O
 |
 | O
-c’ B-MISC
+c’ O
 étoit O
 à O
 9 O
@@ -6582,7 +6582,7 @@ inquiétudes O
 fondées O
 sur O
 les O
-Marseillois B-LOC
+Marseillois B-PER
 , O
 sur O
 |
@@ -6592,11 +6592,11 @@ porlion O
 des O
 membres O
 de O
-l’ B-ORG
-Assemblée I-ORG
+l’ O
+Assemblée B-ORG
 législative I-ORG
 , O
-qu’ B-LOC
+qu’ O
 il O
 nous O
 désigna O
@@ -6618,7 +6618,7 @@ il O
 |
 | O
 ajouta O
-qu’ B-PER
+qu’ O
 il O
 y O
 en O
@@ -6631,7 +6631,7 @@ s' O
 éloit O
 assuré O
 ( O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -6660,8 +6660,8 @@ limides O
 
 | O
 « O
-Huit B-MISC
-jours I-MISC
+Huit O
+jours O
 après O
 , O
 l' O
@@ -6693,10 +6693,10 @@ J' O
 avais O
 prévenu O
 un O
-Jaco- O
+Jaco- B-MISC
 |
-| O
-bin O
+| I-MISC
+bin I-MISC
 , O
 et O
 , O
@@ -6708,7 +6708,7 @@ nous O
 sommes O
 partis O
 , O
-c’ B-MISC
+c’ O
 est O
 - O
 à O
@@ -6813,7 +6813,7 @@ de O
 ruse O
 et O
 de O
-l’ B-LOC
+l’ O
 adresser O
 à O
 une O
@@ -6846,7 +6846,7 @@ connus O
 , O
 |
 | O
-qu’ B-PER
+qu’ O
 à O
 peine O
 osé O
@@ -6894,7 +6894,7 @@ pensée O
 sur O
 vous O
 , O
-Ro- O
+Ro- B-LOC
 |
 | O
 bespierre O
@@ -6947,15 +6947,15 @@ A B-MISC
 | I-MISC
 Re I-MISC
 . O
-SR B-ORG
+SR B-MISC
 eRe O
 nent O
-E O
-ER O
+E B-MISC
+ER I-MISC
 SRE O
 |
 | O
-B B-LOC
+B O
 7 O
 . O
 CE O
@@ -7016,7 +7016,7 @@ aristocrates O
 
 | O
 « O
-Prenez B-LOC
+Prenez O
 , O
 s' O
 il O
@@ -7076,7 +7076,7 @@ aussi O
 
 | O
 « O
-Recevez B-PER
+Recevez O
 l' O
 assurance O
 des O
@@ -7335,7 +7335,7 @@ cette O
 lettre O
 , O
 et O
-s’ B-PER
+s’ O
 il O
 fit O
 connaître O
@@ -7353,7 +7353,7 @@ qui O
 est O
 certain O
 , O
-c’ B-MISC
+c’ O
 est O
 qu' O
 il O
@@ -7398,8 +7398,8 @@ séances O
 du O
 journal O
 du O
-Patrivte B-LOC
-Marat I-LOC
+Patrivte B-MISC
+Marat I-MISC
 , O
 et O
 , O
@@ -7487,8 +7487,8 @@ la O
 so- O
 |
 | O
-ciélé O
-s’ B-PER
+ciélé B-ORG
+s’ O
 en O
 montra O
 profondément O
@@ -7524,7 +7524,7 @@ Rous- I-PER
 seau O
 , O
 de O
-Brulus B-PER
+Brulus B-LOC
 et O
 de O
 Lepelletier-Saint-Fargeau B-LOC
@@ -7582,8 +7582,8 @@ honneur O
 |
 
 | O
-En O
-attendant O
+En B-MISC
+attendant I-MISC
 , O
 on O
 chercha O
@@ -7691,7 +7691,7 @@ Marat B-PER
 , O
 et O
 sur O
-l’ B-LOC
+l’ O
 observation O
 d' O
 un O
@@ -7705,12 +7705,12 @@ ci- O
 | O
 « O
 toyenne O
-W B-MISC
-..... I-MISC
-pour I-MISC
-servir I-MISC
-de I-MISC
-marraine I-MISC
+W B-PER
+..... O
+pour O
+servir O
+de O
+marraine O
 à O
 ce O
 citoyen O
@@ -7730,7 +7730,7 @@ l' O
 officier O
 public O
 de O
-Venette B-LOC
+Venette B-MISC
 . O
 » O
 |
@@ -7805,7 +7805,7 @@ qui O
 est O
 sur O
 Ja B-MISC
-ville I-MISC
+ville O
 , O
 fût O
 ôté O
@@ -7893,7 +7893,7 @@ On O
 proposa O
 par O
 amendement O
-d’ B-PER
+d’ O
 en O
 charger O
 particulièrement O
@@ -8110,11 +8110,11 @@ novembre O
 | O
 arnmagremmen O
 , O
-vanne O
-rire O
+vanne B-MISC
+rire I-MISC
 |
 
-| O
+| I-MISC
 — O
 13 O
 — O
@@ -8150,7 +8150,7 @@ illustres O
 martyrs O
 de O
 la O
-Ré- B-LOC
+Ré- O
 |
 
 | O
@@ -8217,7 +8217,7 @@ bruit O
 du O
 canon O
 dans O
-l’ B-ORG
+l’ O
 ordre O
 suivant O
 : O
@@ -8228,8 +8228,8 @@ suivant O
 Groupe B-ORG
 de I-ORG
 l’ I-ORG
-armée O
-révolutionnaire O
+armée I-ORG
+révolutionnaire I-ORG
 précédant O
 une O
 pyramide O
@@ -8254,8 +8254,8 @@ patrie O
 | O
 « O
 Groupe B-ORG
-de O
-tambours O
+de I-ORG
+tambours I-ORG
   O
 |
 
@@ -8265,12 +8265,12 @@ tambours O
 Groupe B-ORG
 de I-ORG
 citoyennes I-ORG
-portant O
-diverses O
-inscriptions O
-et O
-notamment O
-celle- O
+portant I-ORG
+diverses I-ORG
+inscriptions I-ORG
+et I-ORG
+notamment I-ORG
+celle- I-ORG
 |
 | O
 ci O
@@ -8290,9 +8290,9 @@ patrie O
 
 | O
 « O
-Buste B-PER
-de I-PER
-Rousseau I-PER
+Buste O
+de O
+Rousseau B-PER
 porté O
 par O
 deux O
@@ -8348,9 +8348,9 @@ musiciens I-ORG
 
 | O
 « O
-Buste B-MISC
-de I-MISC
-MARAT I-MISC
+Buste O
+de O
+MARAT B-MISC
 précédé O
 de O
 deux O
@@ -8414,9 +8414,9 @@ amour O
 Groupe B-ORG
 de I-ORG
 citoyennes I-ORG
-portant O
-des O
-fleurs O
+portant I-ORG
+des I-ORG
+fleurs I-ORG
 et O
 le O
 flambeau O
@@ -8429,16 +8429,16 @@ Raison B-LOC
 | O
 « O
 Groupe B-ORG
-de O
-citoyens O
+de I-ORG
+citoyens I-ORG
 avec O
 cette O
 devise O
 : O
-l’ B-ORG
-Ami I-ORG
+l’ O
+Ami O
 du O
-Peuple B-MISC
+Peuple O
 nous O
 laisse O
 |
@@ -8453,9 +8453,9 @@ exemple O
 
 | O
 « O
-Buste B-PER
-de I-PER
-Pelletier I-PER
+Buste O
+de O
+Pelletier B-PER
 Saint-Fargeau I-PER
 : O
 sur O
@@ -8472,7 +8472,7 @@ paroles O
 : O
 Z B-MISC
 ! I-MISC
-vota I-MISC
+vota O
 la O
 mort O
 du O
@@ -8480,20 +8480,20 @@ tyran O
 et O
 le O
 royalisme O
-l’ B-PER
-immola I-PER
+l’ O
+immola O
 . O
 |
 
 | O
 « O
-Groupe O
-de O
-citoyennes O
-portant O
-diverses O
-inscriptions O
-relativés O
+Groupe B-ORG
+de I-ORG
+citoyennes I-ORG
+portant I-ORG
+diverses I-ORG
+inscriptions I-ORG
+relativés I-ORG
 à O
 la O
 fête O
@@ -8516,10 +8516,10 @@ armes I-ORG
 En O
 suivant O
 la O
-rue B-LOC
-de I-LOC
-la I-LOC
-Fédération I-LOC
+rue O
+de O
+la O
+Fédération O
 ? O
 on O
 se O
@@ -8531,7 +8531,7 @@ de O
 la O
 |
 | O
-Liberté O
+Liberté B-ORG
 ( O
 ci O
 - O
@@ -8548,14 +8548,14 @@ de O
 Marat B-PER
 et O
 de O
-Pel- O
+Pel- B-PER
 |
 | O
 letier O
 fut O
 prononcé O
 . O
-L’ B-ORG
+L’ O
 orateur O
 le O
 termina O
@@ -8595,7 +8595,7 @@ le O
 moindre O
 |
 | O
-Succès B-LOC
+Succès O
 enivre O
 comme O
 le O
@@ -8666,10 +8666,10 @@ Orléans I-LOC
 | O
 3 O
 . O
-Place O
-de O
-l' O
-Hôtel B-LOC
+Place B-LOC
+de I-LOC
+l' I-LOC
+Hôtel I-LOC
 de I-LOC
 Ville I-LOC
 . O
@@ -8727,7 +8727,7 @@ la O
 République B-LOC
 ! I-LOC
 il O
-n’ B-PER
+n’ O
 en O
 resta O
 plus O
@@ -8753,10 +8753,10 @@ rendit O
 ensuite O
 dans O
 le O
-temple O
-de O
-la O
-Raison O
+temple B-LOC
+de I-LOC
+la I-LOC
+Raison I-LOC
 * O
 , O
 où O
@@ -8828,13 +8828,13 @@ Raison B-LOC
 , O
 de O
 la O
-Liberté B-LOC
+Liberté B-ORG
 et O
 de O
 |
 | O
 l' O
-Égalité B-LOC
+Égalité O
 . O
 Îl O
 à O
@@ -8889,7 +8889,7 @@ elle O
 devait O
 à O
 la O
-Pa- B-PER
+Pa- B-MISC
 |
 | O
 trie O
@@ -9009,10 +9009,10 @@ deux O
 hymnes O
 à O
 la O
-Liberté B-LOC
+Liberté B-ORG
 et O
 en O
-l’ B-LOC
+l’ O
 honneur O
 de O
 Pelletier B-PER
@@ -9090,10 +9090,10 @@ est O
 trouvée O
 une O
 superbe O
-statue O
-de O
-la O
-Liberté O
+statue B-LOC
+de I-LOC
+la I-LOC
+Liberté I-LOC
 peinte O
 en O
 |
@@ -9138,7 +9138,7 @@ Révolution B-MISC
 Sur O
 la O
 motion O
-d’ B-MISC
+d’ O
 un O
 membre O
 , O
@@ -9164,10 +9164,10 @@ bal O
 patriotique O
 dans O
 le O
-temple O
-de O
-la O
-Raison B-LOC
+temple B-LOC
+de I-LOC
+la I-LOC
+Raison I-LOC
 , O
 et O
 la O
@@ -9211,7 +9211,7 @@ la O
 patrie O
 ont O
 fait O
-l’ B-LOC
+l’ O
 ornement O
 , O
 d' O
@@ -9271,13 +9271,13 @@ in- O
 | O
 1 O
 . O
-Eglise B-PER
-Saint-Antoine I-PER
+Eglise B-LOC
+Saint-Antoine I-LOC
 . O
 |
 
 | O
-EL O
+EL B-LOC
 |
 
 | O
@@ -9316,7 +9316,7 @@ Ainour B-PER
 sacré O
 de O
 la O
-Patrie B-LOC
+Patrie O
 a O
 été O
 chantée O
@@ -9351,10 +9351,10 @@ plein O
 de O
 haine O
 et O
-d’ B-MISC
+d’ O
 invectives O
 pour O
-l’ B-LOC
+l’ O
 infor- O
 |
 | O
@@ -9412,7 +9412,7 @@ Pron- I-PER
 . O
 |
 | O
-nay B-LOC
+nay O
 , O
 elle O
 lui O
@@ -9448,7 +9448,7 @@ nommé O
 ZLouie B-MISC
 - O
 le- O
-Bienfaisant B-PER
+Bienfaisant O
 . O
 |
 
@@ -9472,7 +9472,7 @@ rois O
 et O
 |
 | O
-d’ B-PER
+d’ O
 en O
 être O
 aimée O
@@ -9510,7 +9510,7 @@ prédécesseurs O
 Ces O
 sentiments O
 , O
-Sire B-LOC
+Sire B-PER
 , O
 sont O
 le O
@@ -9556,7 +9556,7 @@ suivra O
 « O
 Ouy B-LOC
 , O
-Sire B-LOC
+Sire B-PER
 , O
 tous O
 également O
@@ -9604,9 +9604,9 @@ et O
 nostre O
 soumission O
 . O
-Daignez B-LOC
+Daignez B-PER
 , O
-Sire B-LOC
+Sire B-PER
 , O
 agréer O
 nos O
@@ -9632,16 +9632,16 @@ les O
 | O
 prémices O
 de O
-vostre O
-règne O
+vostre B-PER
+règne I-PER
 . O
 |
 
 | O
 « O
-Puisse B-LOC
+Puisse O
 , O
-Sire B-LOC
+Sire B-PER
 , O
 vostre O
 ville O
@@ -9657,7 +9657,7 @@ ville O
 | O
 bien-aimée O
 ! O
-Puisse B-PER
+Puisse O
 la O
 grâce O
 quelle O
@@ -9665,15 +9665,15 @@ reçoit O
 aujourd'hui O
 de O
 posséder O
-Votre B-MISC
+Votre B-PER
 |
-| I-MISC
-Majesté I-MISC
+| I-PER
+Majesté I-PER
 dans O
 ses O
 murs O
 , O
-luy B-LOC
+luy O
 assurer O
 la O
 même O
@@ -9709,7 +9709,7 @@ nation O
 
 | O
 « O
-Sire B-LOC
+Sire B-PER
 , O
 nous O
 n' O
@@ -9748,8 +9748,8 @@ heureux O
 |
 
 | O
-Doit B-MISC
--on I-MISC
+Doit O
+-on O
 s' O
 étonner O
 d’ O
@@ -9785,10 +9785,10 @@ son O
 antique O
 devise O
 : O
-Regi B-PER
-et O
-regno O
-fidelissima O
+Regi B-LOC
+et I-LOC
+regno I-LOC
+fidelissima I-LOC
 ? O
 Évidemment O
 non O
@@ -9801,9 +9801,9 @@ non O
 Vatout B-PER
 , O
 /e O
-Chéteau B-PER
-de I-PER
-Compiègne I-PER
+Chéteau O
+de O
+Compiègne B-LOC
 , O
 p. O
 499 O
@@ -9911,7 +9911,7 @@ on O
 oublie O
 ce O
 qui O
-s’ B-PER
+s’ O
 est O
 passé O
 et O
@@ -9939,13 +9939,13 @@ est O
 -ce O
 donc O
 pas O
-À B-MISC
+À O
 |
-| I-MISC
-le I-MISC
-cas I-MISC
+| O
+le O
+cas O
 de O
-s’ B-PER
+s’ O
 écrier O
 avec O
 Pillustre B-PER
@@ -9970,7 +9970,7 @@ terram O
 |
 
 | O
-FIN B-ORG
+FIN B-MISC
 . O
 |
 
@@ -9993,9 +9993,9 @@ vit O
 
 | O
 TV O
-SO O
-TL O
-RE O
+SO B-MISC
+TL I-MISC
+RE I-MISC
 |
 
 | O

@@ -1,11 +1,11 @@
 ( O
 b O
 ) O
-Caltica B-ORG
+Caltica B-PER
 |
-| O
-Le B-LOC
-Parnasse I-LOC
+| I-PER
+Le I-PER
+Parnasse I-PER
 envahi O
 , O
 parti O
@@ -14,10 +14,10 @@ parti O
 poeme O
 allegorique O
 du O
-suijet O
+suijet B-MISC
 |
-| O
-dusacre O
+| I-MISC
+dusacre I-MISC
 de O
 S. B-PER
 M. I-PER
@@ -52,9 +52,9 @@ S I-PER
 180 O
 |
 | O
-Oublier B-LOC
+Oublier B-MISC
 , O
-Eugèje B-LOC
+Eugèje B-MISC
 ( O
 2792.1863 O
 ) O
@@ -63,14 +63,14 @@ Auteur O
 dutexte O
 . O
 le O
-Parndsse B-LOC
-envati O
+Parndsse B-MISC
+envati I-MISC
 , O
 |
 | O
-Petit B-MISC
-poeme I-MISC
-alegorique I-MISC
+Petit B-LOC
+poeme I-LOC
+alegorique O
 du O
 sujet O
 du O
@@ -92,7 +92,7 @@ Juillet I-PER
 . O
 |
 | O
-I1 B-ORG
+I1 B-MISC
 lescontenus O
 accessibles O
 sur O
@@ -116,10 +116,10 @@ domdine O
 public O
 provenant O
 des O
-Colections B-MISC
-de I-MISC
-la I-MISC
-Bnf I-MISC
+Colections B-LOC
+de O
+la O
+Bnf B-PER
 . O
 leur O
 reutilisation O
@@ -129,8 +129,8 @@ dans O
 le O
 cadre O
 de O
-la B-LOC
-loin078 I-LOC
+la O
+loin078 B-LOC
 . O
 |
 | O
@@ -148,12 +148,12 @@ non O
 Comercidle B-PER
 de O
 ces O
-Contenus B-PER
+Contenus B-MISC
 ou O
 dans O
 le O
-Cadre B-LOC
-d' O
+Cadre B-MISC
+d' I-MISC
 une O
 publication O
 dcadémique O
@@ -187,18 +187,18 @@ source O
 des O
 contenustele O
 que O
-precisce O
-Ciapres B-MISC
-: I-MISC
-u I-MISC
-Source I-MISC
+precisce B-PER
+Ciapres I-PER
+: O
+u O
+Source O
 gallicd O
 . O
-onf O
+onf B-ORG
 fr(Bibliotheque O
 nationale O
-de O
-France O
+de B-LOC
+France I-LOC
 s O
 o4 O
 u O
@@ -215,7 +215,7 @@ areutilisation O
 commerciale O
 de O
 ces O
-Contenus B-PER
+Contenus B-MISC
 est O
 payante O
 et O
@@ -232,7 +232,7 @@ par O
 reutilisation O
 |
 | O
-Commerciale B-LOC
+Commerciale B-MISC
 ( O
 a O
 revente O
@@ -271,7 +271,7 @@ des O
 ouvrages O
 |
 | O
-Académiques O
+Académiques B-MISC
 ou O
 scientifiques O
 ) O
@@ -284,7 +284,7 @@ production O
 audiorisuelle O
 , O
 un O
-Service B-MISC
+Service B-ORG
 ou O
 un O
 produit O
@@ -293,27 +293,27 @@ payant O
 un O
 |
 | O
-Support B-LOC
-dvocation O
+Support B-MISC
+dvocation I-MISC
 promotionnelle O
 etc. O
 |
 | O
 ChOUERIGIPOURACCEDERAUATARITS B-MISC
-EIALA B-MISC
-AICERCE I-MISC
+EIALA I-MISC
+AICERCE O
 |
 | O
-I B-LOC
-lescontenus O
-de O
-Callica B-LOC
+I B-PER
+lescontenus I-PER
+de I-PER
+Callica I-PER
 sont O
 la O
 propricté O
 de O
 la O
-Bnf B-LOC
+Bnf B-MISC
 au O
 sens O
 de O
@@ -336,7 +336,7 @@ publiques O
 | O
 I B-ORG
 Oueiques I-ORG
-cContenussontsoumis I-ORG
+cContenussontsoumis O
 dun O
 regime O
 de O
@@ -410,16 +410,16 @@ mention O
 source O
 gallicd O
 . O
-Bnf O
-frj B-LOC
-Bibtiotheque I-LOC
+Bnf B-PER
+frj I-PER
+Bibtiotheque O
 municipale O
 de O
 ... O
 ( O
 ou O
-dutre O
-partendire O
+dutre B-PER
+partendire I-PER
 ) O
 . O
 l' O
@@ -428,7 +428,7 @@ est O
 |
 | O
 invité O
-aS' B-MISC
+aS' B-PER
 informer O
 aupres O
 de O
@@ -438,12 +438,12 @@ de O
 leurs O
 conditions O
 de O
-reutitisation O
+reutitisation B-PER
 . O
 |
 | O
-A1 O
-Callica O
+A1 B-MISC
+Callica I-MISC
 Constitue O
 une O
 base O
@@ -457,14 +457,14 @@ est O
 le O
 producteur O
 , O
-protegée B-MISC
-du I-MISC
-sens I-MISC
-des I-MISC
-articles I-MISC
-1342 I-MISC
-- I-MISC
-2 I-MISC
+protegée O
+du O
+sens O
+des O
+articles O
+1342 O
+- O
+2 O
 et O
 |
 | O
@@ -474,7 +474,7 @@ code O
 de O
 la O
 propriét́ O
-intetectuete B-PER
+intetectuete O
 . O
 |
 | O
@@ -487,7 +487,7 @@ utilisation O
 des O
 contenus O
 de O
-Callica B-LOC
+Callica B-MISC
 sont O
 regies O
 par O
@@ -496,7 +496,7 @@ loi O
 frangaise O
 . O
 En O
-Ca5 O
+Ca5 B-MISC
 de O
 |
 | O
@@ -549,21 +549,21 @@ viqueur O
 , O
 |
 | O
-Notamment O
+Notamment B-MISC
 en O
 maticre O
 de O
 proprieté O
 intellectuelle O
 . O
-En O
-Cas B-PER
-de O
-non O
-respect O
-de O
-ces O
-dispositions O
+En B-MISC
+Cas I-MISC
+de I-MISC
+non I-MISC
+respect I-MISC
+de I-MISC
+ces I-MISC
+dispositions I-MISC
 , O
 i O
 est O
@@ -585,7 +585,7 @@ juillet O
 . O
 |
 | O
-I1 B-MISC
+I1 B-LOC
 Pourobtenir O
 un O
 document O
@@ -599,22 +599,22 @@ contactet O
 |
 | O
 utilisation O
-Comnerciale B-MISC
-Cobntfr I-MISC
+Comnerciale B-PER
+Cobntfr I-PER
 . O
 |
 | O
-IL O
+IL B-MISC
 |
 
-| O
-RVENTAIRE B-MISC
-d I-MISC
-Si I-MISC
+| I-MISC
+RVENTAIRE I-MISC
+d O
+Si O
 . O
 |
 | O
-S O
+S B-LOC
 |
 | O
 1 O
@@ -642,23 +642,23 @@ N B-MISC
 Me I-MISC
 |
 | I-MISC
-Il O
+Il I-MISC
 |
-| O
+| I-MISC
 AH1.- B-PER
 |
- | O
+ | I-PER
 . O
 |
 | O
-A. O
+A. B-PER
 |
-| O
-Ai O
+| I-PER
+Ai I-PER
 |
-| O
-5 O
-fi O
+| I-PER
+5 I-PER
+fi I-PER
 |
 | O
 148 O
@@ -667,19 +667,19 @@ fi O
 2 O
 |
 | O
-ÊTRE B-MISC
+ÊTRE O
 |
 | O
-D1 B-MISC
+D1 B-ORG
 |
-| I-MISC
-A I-MISC
+| I-ORG
+A I-ORG
 |
-| I-MISC
-JE I-MISC
+| I-ORG
+JE I-ORG
 |
-| I-MISC
-RNV.A O
+| I-ORG
+RNV.A I-ORG
 |
 | O
 151 O
@@ -691,30 +691,30 @@ du- O
 P- O
 |
 | O
-NSASALEESAitr B-MISC
+NSASALEESAitr O
 |
 | O
-NATI O
+NATI B-LOC
 |
 | O
 NPETIT B-ORG
-POEME I-ORG
+POEME O
 ALLEGORIRIE O
 : O
 . O
 |
 | O
 y O
-A7 B-LOC
-SeuLe O
+A7 B-MISC
+SeuLe I-MISC
 . O
 DU O
 SacRE B-MISC
 oE I-MISC
 S. O
 H. O
-Gninits B-PER
-K. I-PER
+Gninits O
+K. O
 |
 | O
 18^i O
@@ -735,14 +735,14 @@ sI O
  | O
 pAR O
 l. O
-B. B-PER
-Bullier I-PER
+B. O
+Bullier B-PER
 , O
 de O
-Cognues B-LOC
+Cognues B-PER
 |
 | O
-E B-LOC
+E O
 |
 | O
 1 O
@@ -752,7 +752,7 @@ E B-LOC
 M O
 |
 | O
-Ii B-PER
+Ii O
 |
 | O
 rue O
@@ -765,7 +765,7 @@ rue O
 |
 
 | O
-A1e O
+A1e B-MISC
 |
 | O
 . O
@@ -799,32 +799,32 @@ I B-LOC
 3e O
 |
 | O
-I B-LOC
+I B-MISC
 |
-| O
-T O
+| I-MISC
+T I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-1et O
-|
-
-| O
-d O
+| I-MISC
+1et I-MISC
 |
 
- | O
-De O
-l O
+| I-MISC
+d I-MISC
 |
-| O
----- O
+
+ | I-MISC
+De I-MISC
+l I-MISC
+|
+| I-MISC
+---- I-MISC
 |
 
  
- | O
+ | I-MISC
 Du O
 |
  
@@ -833,12 +833,12 @@ Du O
 - O
 |
 | O
-I B-LOC
+I O
 |
 | O
-JE B-ORG
+JE O
 |
- | I-ORG
+ | O
 jE O
 N O
 |
@@ -856,48 +856,48 @@ air O
 ENVERS B-MISC
 |
 | O
-Aifl O
-BEEIT B-ORG
+Aifl B-PER
+BEEIT I-PER
 . O
-POE B-ORG
+POE B-MISC
 |
 | O
 1a O
 |
 
  | O
-EHNNRNNE B-ORG
+EHNNRNNE B-MISC
 |
 | O
 eis O
 1112 O
-Et B-MISC
+Et O
 |
-| I-MISC
-^e I-MISC
+| O
+^e B-LOC
 . O
 |
 | O
 d O
 |
 | O
-CI B-LOC
+CI B-ORG
 |
 | O
 RUE O
 |
 | O
-N. O
+N. B-PER
 |
 
-| O
-I O
+| I-PER
+I I-PER
 |
-| O
-DE O
+| I-PER
+DE I-PER
 |
-| O
-vIE O
+| I-PER
+vIE I-PER
 |
 
 | O
@@ -911,10 +911,10 @@ vIE O
 11 O
 |
 | O
-aIR B-ORG
+aIR B-PER
 |
-| O
-i18 B-MISC
+| I-PER
+i18 I-PER
 . O
 |
 
@@ -941,11 +941,11 @@ l O
 A B-LOC
 |
 | O
-a1 B-LOC
+a1 O
 |
 
 | O
-CI B-LOC
+CI O
 . O
 |
 | O
@@ -993,24 +993,24 @@ el8 B-MISC
 l. O
 |
 | O
-i18 B-MISC
+i18 B-LOC
 |
 
 | O
-aIR O
+aIR B-LOC
 . O
 |
 | O
 e O
 |
  | O
-ANEGULENE.- O
+ANEGULENE.- B-MISC
 |
 | O
-N B-ORG
+N O
 |
- | I-ORG
-Le I-ORG
+ | O
+Le O
 . O
 |
 | O
@@ -1019,11 +1019,11 @@ STISINIE I-MISC
 D I-MISC
 E I-MISC
 : I-MISC
-FAUtᗅU I-MISC
+FAUtᗅU B-LOC
 , O
-AMEAINTER B-MISC
-DO I-MISC
-ROI I-MISC
+AMEAINTER B-ORG
+DO I-ORG
+ROI I-ORG
 . O
 J O
 |
@@ -1032,50 +1032,50 @@ ET O
 l8 O
 |
 | O
-MRS B-ORG
+MRS B-LOC
 |
  | O
 eT---- O
 |
 | O
-AH B-ORG
+AH B-MISC
 |
-| O
-ELLE B-ORG
+| I-MISC
+ELLE I-MISC
 |
-| O
-P B-ORG
+| I-MISC
+P I-MISC
 |
-| I-ORG
-Mi O
+| I-MISC
+Mi B-MISC
 |
 | O
 a O
 d O
 |
  | O
-ELLE O
+ELLE B-MISC
 |
 
 
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-DE O
+| I-MISC
+DE I-MISC
 |
-| O
-d O
-e O
-d^r B-LOC
+| I-MISC
+d I-MISC
+e I-MISC
+d^r O
 --- O
 |
  | O
 jE O
-N B-ORG
+N O
 |
- | I-ORG
-S I-ORG
+ | O
+S O
 |
 | O
 3d^ O
@@ -1083,7 +1083,7 @@ S I-ORG
 - O
 |
 | O
-I5 B-ORG
+I5 B-LOC
 . O
 |
  
@@ -1113,51 +1113,51 @@ d O
 1'Ai O
 |
 | O
-ACTE B-ORG
+ACTE B-MISC
 |
-| O
-RRTS B-ORG
+| I-MISC
+RRTS I-MISC
 |
-| O
-REA B-ORG
+| I-MISC
+REA I-MISC
 |
-| I-ORG
-RE O
+| I-MISC
+RE I-MISC
 CRREIADIS B-MISC
 |
 | O
 1 O
 |
 | O
-NVI--- B-MISC
+NVI--- B-LOC
 |
 | O
 PNUAHL B-ORG
 : O
 |
 | O
-IPETIE O
+IPETIE B-ORG
 POÉMI O
-AALEGORIGWE O
+AALEGORIGWE B-ORG
 . O
 |
  | O
 AU O
 SosEr B-PER
-dU O
-SacnE O
-DE O
-D. B-PER
-L. I-PER
-Gnanles I-PER
-Ri I-PER
+dU I-PER
+SacnE B-MISC
+DE I-MISC
+D. I-MISC
+L. I-MISC
+Gnanles I-MISC
+Ri I-MISC
 |
  
  | O
 PAr O
-MOI.r B-PER
-O. I-PER
-Poullier I-PER
+MOI.r O
+O. O
+Poullier O
 , O
 de O
 Cognat B-LOC
@@ -1202,27 +1202,27 @@ RES I-MISC
 D O
 |
  | O
-DE O
-S O
+DE B-PER
+S I-PER
+|
+| I-PER
+AI I-PER
+|
+
+
+| I-PER
+E I-PER
+|
+| I-PER
+I I-PER
+d O
 |
 | O
-AI B-ORG
+ROSE B-MISC
 |
-
-
-| I-ORG
-E I-ORG
-|
-| I-ORG
-I I-ORG
-d I-ORG
-|
-| I-ORG
-ROSE I-ORG
-|
-| I-ORG
-A O
-ixcOUTEnE. B-LOC
+| I-MISC
+A I-MISC
+ixcOUTEnE. I-MISC
 |
 | O
 17 O
@@ -1234,15 +1234,15 @@ AH O
 |
  | O
 DE O
-LAERIERE B-ORG
-DE O
-E B-LOC
-: O
-TnENrAU O
+LAERIERE O
+DE B-PER
+E I-PER
+: I-PER
+TnENrAU I-PER
 , O
-MEKihErR B-PER
-DU I-PER
-Bot I-PER
+MEKihErR B-MISC
+DU I-MISC
+Bot I-MISC
 . O
 |
  | O
@@ -1267,7 +1267,7 @@ ami O
 |
 | O
 Je O
-d2 O
+d2 B-ORG
 |
 | O
 1 O
@@ -1277,7 +1277,7 @@ d2 O
 d^e-- O
 |
  | O
-Mdecaaiy O
+Mdecaaiy B-PER
 .. O
 |
  | O
@@ -1305,7 +1305,7 @@ F B-LOC
 7 O
 |
 | O
-J O
+J B-LOC
 |
 | O
 8 O
@@ -1316,18 +1316,18 @@ J O
 |
  | O
 jE O
-N B-LOC
+N O
 |
 | O
 . O
 |
 | O
-e O
-d. O
+e B-PER
+d. I-PER
 |
 
-| O
-E B-LOC
+| I-PER
+E I-PER
 |
 | O
 88 O
@@ -1353,7 +1353,7 @@ se O
 |
 
 | O
-A5 B-LOC
+A5 O
 |
 | O
 2 O
@@ -1424,16 +1424,16 @@ Le O
 . O
 |
 | O
-D. O
+D. B-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
- | O
-1 O
+ | I-PER
+1 I-PER
 |
-| O
-D0 B-MISC
+| I-PER
+D0 B-LOC
 |
 | O
 61 O
@@ -1490,7 +1490,7 @@ a O
 |
 
 | O
-.D O
+.D B-MISC
 |
 
  | O
@@ -1505,11 +1505,11 @@ d O
 ° O
 |
 | O
-D O
+D B-PER
 |
 
-| O
-N B-LOC
+| I-PER
+N I-PER
 |
 | O
 " O
@@ -1545,8 +1545,8 @@ a O
 Ah B-MISC
 8 I-MISC
 |
-| I-MISC
-1 I-MISC
+| O
+1 O
 |
 | O
 21 O
@@ -1627,7 +1627,7 @@ a O
 |
 
 | O
-a1 B-LOC
+a1 O
 |
 | O
 1 O
@@ -1696,13 +1696,13 @@ a O
 . O
 |
 | O
-R B-PER
+R B-MISC
 |
-| I-PER
-D I-PER
+| I-MISC
+D I-MISC
 |
-| O
-88 O
+| I-MISC
+88 I-MISC
 |
 | O
 21 O
@@ -1735,7 +1735,7 @@ a O
 8 O
 |
 | O
-A O
+A B-LOC
 |
  | O
 1 O
@@ -1776,7 +1776,7 @@ a O
 . O
 |
 | O
-N O
+N B-LOC
 |
  | O
 1 O
@@ -1785,17 +1785,17 @@ N O
 1 O
 |
  | O
-S O
+S B-MISC
 |
-| O
-DE O
+| I-MISC
+DE I-MISC
 |
-| O
-a O
+| I-MISC
+a I-MISC
 |
-| O
-i O
-1 O
+| I-MISC
+i I-MISC
+1 I-MISC
 |
 | O
 1 O
@@ -1822,7 +1822,7 @@ a O
 D O
 |
 | O
-a1 B-LOC
+a1 O
 |
  | O
 1 O
@@ -1840,8 +1840,8 @@ o1 B-MISC
 1 O
 |
 | O
-A O
-1 O
+A B-MISC
+1 I-MISC
 |
 | O
 a O
@@ -1854,17 +1854,17 @@ a O
 1 O
 |
 | O
-R O
+R B-MISC
 |
 
-| O
-E O
+| I-MISC
+E I-MISC
 |
-| O
-I B-LOC
+| I-MISC
+I I-MISC
 |
 
-| O
+| I-MISC
 a O
 1 O
 |
@@ -1876,7 +1876,7 @@ a O
 .. O
 |
 | O
-E1 B-LOC
+E1 B-MISC
 |
 | O
 1 O
@@ -1934,10 +1934,10 @@ A O
 . O
 |
  | O
-a1 B-LOC
+a1 B-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
 | O
 1e O
@@ -1967,7 +1967,7 @@ a O
 |
 
 | O
-E1 B-LOC
+E1 O
 |
 | O
 1e O
@@ -2017,10 +2017,10 @@ a O
 1er O
 |
 | O
-E B-LOC
+E B-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 |
 | O
 a O
@@ -2053,13 +2053,13 @@ a O
 2 O
 |
 | O
-a1 B-LOC
+a1 O
 |
 | O
-D1 B-PER
+D1 O
 |
-| I-PER
-E8 O
+| O
+E8 B-LOC
 |
 | O
 o O
@@ -2076,7 +2076,7 @@ o O
 |
 | O
 a O
-R1 B-ORG
+R1 B-MISC
 |
 
 | O
@@ -2104,13 +2104,13 @@ d O
 |
 
 | O
-S B-ORG
+S O
 |
- | I-ORG
-a8 I-ORG
+ | O
+a8 B-ORG
 |
 | O
-DES B-MISC
+DES O
 |
 | O
 1 O
@@ -2165,7 +2165,7 @@ a O
 |
 | O
 01 O
-o1 O
+o1 B-MISC
 |
 
 | O
@@ -2181,7 +2181,7 @@ o1 O
 1 O
 |
 | O
-R O
+R B-LOC
 |
 | O
 a O
@@ -2198,17 +2198,17 @@ a O
 1 O
 |
 | O
-Ra B-LOC
-B I-LOC
+Ra B-ORG
+B I-ORG
 |
 | O
-D9 B-ORG
+D9 B-LOC
 |
 | O
 21 O
 |
  | O
-S O
+S B-LOC
 |
 | O
 a O
@@ -2225,7 +2225,7 @@ a O
 .2 O
 |
 | O
-NE B-ORG
+NE B-LOC
 |
 | O
 .. O
@@ -2288,8 +2288,8 @@ N O
 1 O
 |
  | O
-Il O
-N O
+Il B-MISC
+N I-MISC
 |
 | O
 15 O
@@ -2305,10 +2305,10 @@ a O
 " O
 |
 | O
-N. B-LOC
+N. B-PER
 |
-| O
-Y B-LOC
+| I-PER
+Y I-PER
 a O
 |
 | O
@@ -2345,10 +2345,10 @@ a O
 S1 B-MISC
 |
 | O
-E B-LOC
+E O
 |
 | O
-A B-LOC
+A O
 |
 | O
 . O
@@ -2376,17 +2376,17 @@ D O
 1 O
 |
 | O
-E B-LOC
-2 I-LOC
+E B-MISC
+2 I-MISC
 |
-| I-LOC
-A I-LOC
+| I-MISC
+A I-MISC
 |
-| I-LOC
-A I-LOC
+| I-MISC
+A I-MISC
 |
-| O
-a1 B-LOC
+| I-MISC
+a1 I-MISC
 |
  
 | O
@@ -2400,7 +2400,7 @@ a1 B-LOC
 d O
 |
 | O
-DE O
+DE B-PER
 |
  
 | O
@@ -2419,8 +2419,8 @@ DE O
 1 O
 |
 | O
-DE O
-1 O
+DE B-MISC
+1 I-MISC
 |
 | O
 8 O
@@ -2432,19 +2432,19 @@ DE O
 1 O
 |
  | O
-Ah O
+Ah B-MISC
 |
  
-| O
-81 O
+| I-MISC
+81 I-MISC
 |
 
- | O
-1 O
+ | I-MISC
+1 I-MISC
 |
  
 
-| O
+| I-MISC
 M1 B-MISC
 |
 | O
@@ -2457,9 +2457,9 @@ No B-MISC
 d. I-MISC
 |
  
-| I-MISC
-a I-MISC
-1 I-MISC
+| O
+a O
+1 O
 |
 | O
 1 O
@@ -2501,16 +2501,16 @@ N I-ORG
 2 O
 |
 | O
-N B-ORG
+N O
 |
-| I-ORG
-DES I-ORG
+| O
+DES O
 |
 | O
 .. O
 |
 | O
-a1 B-LOC
+a1 O
 |
 | O
 2S O
@@ -2586,7 +2586,7 @@ d O
 a O
 |
 | O
-D1 B-MISC
+D1 B-ORG
 |
 | O
 a O
@@ -2703,7 +2703,7 @@ de O
 1 O
 |
 | O
-N.1 B-PER
+N.1 O
 |
 | O
 3 O
@@ -2730,7 +2730,7 @@ N.1 B-PER
 .8 O
 |
 | O
-E B-LOC
+E O
 1 O
 |
 | O
@@ -2813,8 +2813,8 @@ D O
 . O
 |
 | O
-Sges B-MISC
-J2 I-MISC
+Sges B-PER
+J2 I-PER
 |
 | O
 . O
@@ -2856,11 +2856,11 @@ l O
 1 O
 |
  | O
-A O
+A B-LOC
 |
 
 
-| O
+| I-LOC
 . O
 |
 | O
@@ -2891,11 +2891,11 @@ E B-LOC
 . O
 |
 | O
-DE O
+DE B-PER
 |
-| O
-E B-LOC
-1 O
+| I-PER
+E I-PER
+1 I-PER
 |
 | O
 a O
@@ -2948,13 +2948,13 @@ esT O
 " O
 |
 | O
-N1 B-LOC
+N1 B-MISC
 |
-| O
-E1 B-LOC
+| I-MISC
+E1 I-MISC
 |
 
-| O
+| I-MISC
 . O
 |
 | O
@@ -2990,11 +2990,11 @@ S O
 | O
 E B-LOC
 |
-| O
-E O
+| I-LOC
+E I-LOC
 |
-| O
-T O
+| I-LOC
+T I-LOC
 |
 | O
 8 O
@@ -3003,11 +3003,11 @@ T O
 21 O
 |
 | O
-a1 B-LOC
+a1 B-PER
 |
 
 
-| O
+| I-PER
 . O
 |
 | O
@@ -3077,17 +3077,17 @@ A9EsT8 B-LOC
 | O
 L1 B-ORG
 |
-| O
-.1 O
+| I-ORG
+.1 I-ORG
 |
 
-| O
-D O
+| I-ORG
+D I-ORG
 |
-| O
-828 O
+| I-ORG
+828 I-ORG
 |
-| O
+| I-ORG
 . O
 " O
 |
@@ -3108,14 +3108,14 @@ aVanT O
 a O
 |
 | O
-A O
+A B-LOC
 |
 | O
 11 O
 |
 | O
-E B-PER
-E8 I-PER
+E B-LOC
+E8 I-LOC
 |
 | O
 8e O
@@ -3133,10 +3133,10 @@ E8 I-PER
 .. O
 |
  | O
-a1 B-LOC
+a1 O
 |
 | O
-L1 B-ORG
+L1 B-LOC
 |
 | O
 2 O
@@ -3155,14 +3155,14 @@ de O
 |
  | O
 aH O
-Ça B-MISC
+Ça O
 |
 
 | O
 . O
 |
 | O
-R O
+R B-LOC
 |
 
 | O
@@ -3172,7 +3172,7 @@ R O
 21 O
 |
  | O
-MaIs O
+MaIs B-LOC
 |
 | O
 2 O
@@ -3183,8 +3183,8 @@ MaIs O
 lE1 O
 |
 | O
-IL B-ORG
-aIme I-ORG
+IL B-MISC
+aIme I-MISC
 |
   
 | O
@@ -3206,7 +3206,7 @@ i1 O
 A O
 |
 | O
-E1 B-LOC
+E1 O
 |
 | O
 3 O
@@ -3218,7 +3218,7 @@ E B-LOC
 1 O
 |
  | O
-NOn O
+NOn B-PER
 |
  | O
 a O
@@ -3241,10 +3241,10 @@ D O
 1 O
 |
 | O
-R O
+R B-MISC
 |
-| O
-E O
+| I-MISC
+E I-MISC
 |
 | O
 1 O
@@ -3267,10 +3267,10 @@ As O
 a O
 |
 | O
-E1 B-LOC
+E1 B-MISC
 |
-| O
-I B-LOC
+| I-MISC
+I I-MISC
 |
 | O
 y O
@@ -3290,20 +3290,20 @@ t O
 | O
 D1 B-PER
 |
-| O
-DE O
+| I-PER
+DE I-PER
 |
- | O
+ | I-PER
 et O
 d O
 |
 | O
-M B-MISC
+M B-PER
 |
- | I-MISC
-S I-MISC
+ | I-PER
+S I-PER
 |
- | I-MISC
+ | O
 a O
 |
 
@@ -3324,7 +3324,7 @@ d O
 11 O
 |
 | O
-N. B-LOC
+N. O
 |
 
 | O
@@ -3356,10 +3356,10 @@ et O
 d. O
 | 
  | O
-i B-MISC
+i O
 |
- | I-MISC
-OUi1 I-MISC
+ | O
+OUi1 O
 |
 | O
 2"1 O
@@ -3371,10 +3371,10 @@ OUi1 I-MISC
 . O
 |
 | O
-DE O
+DE B-PER
 |
-| O
-N B-LOC
+| I-PER
+N I-PER
 |
 | O
 a O
@@ -3403,9 +3403,9 @@ a O
 |
 | O
 a O
-Pe B-LOC
+Pe B-PER
 |
- | O
+ | I-PER
 a O
 |
 | O
@@ -3448,7 +3448,7 @@ a O
 1 O
 |
 | O
-L1 B-ORG
+L1 O
 |
  | O
 e O
@@ -3515,7 +3515,7 @@ a O
   | O
 e O
 a O
-a1 B-LOC
+a1 O
 |
 | O
 E B-LOC
@@ -3536,17 +3536,17 @@ d O
 |
 | O
 a O
-L B-LOC
+L B-MISC
 |
 
-| I-LOC
-.-- I-LOC
+| I-MISC
+.-- I-MISC
 |
- | I-LOC
-D I-LOC
+ | I-MISC
+D I-MISC
 |
-| I-LOC
-88 I-LOC
+| O
+88 O
 |
 | O
 " O
@@ -3575,19 +3575,19 @@ ii O
 " O
 |
 | O
-aBat B-MISC
+aBat B-PER
 |
-| O
-DE O
+| I-PER
+DE I-PER
 |
-| O
-d O
+| I-PER
+d I-PER
 |
-| O
-A B-LOC
+| I-PER
+A I-PER
 |
- | O
-1 O
+ | I-PER
+1 I-PER
 |
  
 | O
@@ -3604,7 +3604,7 @@ d O
 |
 
 | O
-E B-LOC
+E O
 |
  | O
 DE O
@@ -3615,7 +3615,7 @@ m8 O
 |
 
 | O
-I1 B-LOC
+I1 O
 |
  | O
 1 O
@@ -3642,10 +3642,10 @@ E I-MISC
 R I-MISC
 |
 | I-MISC
-D8 O
+D8 I-MISC
 |
-| O
-D2 B-MISC
+| I-MISC
+D2 I-MISC
 |
  | O
 a O
@@ -3662,16 +3662,16 @@ de O
 |
 
 | O
-N B-LOC
+N O
 |
 | O
 8 O
 |
 
 | O
-E1 B-MISC
+E1 O
 |
- | I-MISC
+ | O
 Oh O
 |
 | O
@@ -3684,7 +3684,7 @@ Oh O
 .8 O
 |
 | O
-A B-LOC
+A O
 |
 
 | O
@@ -3720,7 +3720,7 @@ d O
 a O
 |
 | O
-D B-LOC
+D O
 |
 | O
 a O
@@ -3738,7 +3738,7 @@ as O
 81 O
 |
 | O
-M B-PER
+M O
 |
  | O
 s O
@@ -3749,10 +3749,10 @@ ah O
 
 
 | O
-a1 B-LOC
+a1 B-PER
 |
-| O
-D B-LOC
+| I-PER
+D I-PER
 |
 | O
 . O
@@ -3787,7 +3787,7 @@ de O
 |
 
 | O
-N B-LOC
+N O
 |
 | O
 . O
@@ -3816,17 +3816,17 @@ t"1 O
 |
 | O
 . O
-d B-PER
-i I-PER
+d O
+i O
 |
-| I-PER
-1 I-PER
+| O
+1 O
 |
 | O
 .8 O
 |
 | O
-o12 B-MISC
+o12 O
 |
 | O
 a1 B-LOC
@@ -3840,7 +3840,7 @@ a1 B-LOC
 8 O
 |
  | O
-A8 B-ORG
+A8 O
 |
  | O
 AH O
@@ -3864,7 +3864,7 @@ a O
 o O
 |
 | O
-N B-LOC
+N O
 ° O
 |
 
@@ -3939,7 +3939,7 @@ aH O
 1 O
 |
 | O
-N1e O
+N1e B-MISC
 " O
 d O
 |
@@ -4052,7 +4052,7 @@ l O
 N1 B-LOC
 |
 | O
-a1 B-LOC
+a1 O
 |
 
  
@@ -4090,14 +4090,14 @@ a O
 281 O
 |
 | O
-S B-LOC
+S B-MISC
 |
  | O
 a O
 |
 | O
-IL B-LOC
-Y I-LOC
+IL B-PER
+Y I-PER
 a O
 |
  | O
@@ -4123,12 +4123,12 @@ Ni B-MISC
 de I-MISC
 M I-MISC
 |
-| I-MISC
-roi8 I-MISC
+| O
+roi8 O
 |
- | I-MISC
-çA I-MISC
-Va I-MISC
+ | O
+çA B-MISC
+Va O
 |
 | O
 . O
@@ -4261,10 +4261,10 @@ a O
 a O
 |
 | O
-E B-LOC
+E B-MISC
 |
-| O
-E B-LOC
+| I-MISC
+E I-MISC
 |
 | O
 . O
@@ -4292,13 +4292,13 @@ R O
 .. O
 |
 | O
-A B-LOC
+A B-ORG
 |
-| O
-.---- O
+| I-ORG
+.---- I-ORG
 |
-| O
-es O
+| I-ORG
+es I-ORG
 a O
 |
 | O
@@ -4314,7 +4314,7 @@ s8 O
 21 O
 |
  | O
-A8 B-ORG
+A8 B-LOC
 |
 | O
 12 O
@@ -4331,14 +4331,14 @@ d O
  
  
 | O
-D O
+D B-MISC
 |
-| O
-E B-LOC
+| I-MISC
+E I-MISC
 |
 
-| I-LOC
-R I-LOC
+| I-MISC
+R I-MISC
 |
 | O
 a O
@@ -4347,8 +4347,8 @@ a O
 a O
 M B-PER
 |
-| O
-Y B-PER
+| I-PER
+Y I-PER
 A I-PER
 |
 | O
@@ -4356,8 +4356,8 @@ A I-PER
 |
 
 | O
-Y B-PER
-a8 I-PER
+Y O
+a8 B-ORG
 |
 | O
 8 O
@@ -4389,13 +4389,13 @@ a O
 a O
 |
 | O
-D1 B-PER
+D1 B-ORG
 |
-| O
-d O
+| I-ORG
+d I-ORG
 |
-| O
-81 O
+| I-ORG
+81 I-ORG
 |
 | O
 . O
@@ -4452,15 +4452,15 @@ st O
 |
 | O
 , O
-Bas B-MISC
+Bas B-LOC
 |
 
-| I-MISC
-E I-MISC
-d I-MISC
+| I-LOC
+E I-LOC
+d O
 |
-| I-MISC
-11 I-MISC
+| O
+11 O
 |
  | O
 Mais O
@@ -4479,10 +4479,10 @@ de O
 1es O
 |
 | O
-N B-ORG
+N B-MISC
 |
- | I-ORG
-S I-ORG
+ | I-MISC
+S I-MISC
 |
 | O
 .--- O
@@ -4533,7 +4533,7 @@ a O
 |
 
 | O
-a1 B-LOC
+a1 O
 |
 
 | O
@@ -4546,15 +4546,15 @@ Ah B-MISC
 D I-MISC
 |
 | I-MISC
-Y B-PER
-A I-PER
+Y I-MISC
+A I-MISC
 |
-| O
-d O
+| I-MISC
+d I-MISC
 |
 
 
- | O
+ | I-MISC
 a O
 |
 | O
@@ -4636,7 +4636,7 @@ a1 B-LOC
 a O
 |
 | O
-DE O
+DE B-PER
 |
  
 | O
@@ -4665,7 +4665,7 @@ DE O
 28 O
 |
  | O
-S O
+S B-LOC
 |
 | O
 1 O
@@ -4735,18 +4735,18 @@ a1 B-LOC
 1 O
 |
 | O
-E B-LOC
-1 I-LOC
+E B-MISC
+1 I-MISC
 |
-| O
-E B-PER
-D I-PER
+| I-MISC
+E I-MISC
+D I-MISC
 |
-| I-PER
-R I-PER
+| I-MISC
+R I-MISC
 |
-| I-PER
-D1 I-PER
+| I-MISC
+D1 I-MISC
 |
  
 | O
@@ -4759,8 +4759,8 @@ d O
  | O
 C---- B-MISC
 |
- | O
-Ça B-MISC
+ | I-MISC
+Ça O
 va O
 |
  | O
@@ -4790,14 +4790,14 @@ po O
 a O
 pRis B-MISC
 |
-| O
-0 O
-d O
+| I-MISC
+0 I-MISC
+d I-MISC
 |
 
 
-| O
-1d O
+| I-MISC
+1d I-MISC
 |
 | O
 2 O
@@ -4807,7 +4807,7 @@ d O
 021 O
 |
 | O
-D B-LOC
+D O
 |
 | O
 a O
@@ -4836,8 +4836,8 @@ d O
 | O
 S8 B-MISC
 |
-| I-MISC
-5 I-MISC
+| O
+5 O
 |
 | O
 .. O
@@ -4898,7 +4898,7 @@ a O
 |
 
 | O
-H B-PER
+H O
 |
 | O
 . O
@@ -4918,8 +4918,8 @@ Je O
 E B-LOC
 1 I-LOC
 |
-| I-LOC
-a1 I-LOC
+| O
+a1 B-LOC
 |
 
  
@@ -4945,7 +4945,7 @@ M O
 -- O
 |
  | O
-a1 B-LOC
+a1 O
 |
 | O
 8 O
@@ -4955,10 +4955,10 @@ SIrE B-MISC
 . O
 |
  | O
-MaIs O
+MaIs B-LOC
 |
 | O
-HuI B-MISC
+HuI B-PER
 |
 | O
 o211 O
@@ -4978,7 +4978,7 @@ d O
 88 O
 |
  | O
-S O
+S B-LOC
 |
 | O
 . O
@@ -4997,11 +4997,11 @@ a O
 5 O
 |
 | O
-JE B-ORG
-1 I-ORG
+JE B-MISC
+1 I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 a O
@@ -5018,11 +5018,11 @@ A B-LOC
 |
 
 
-| O
+| I-LOC
 . O
 |
 | O
-.5 B-MISC
+.5 O
 |
  
 | O
@@ -5059,18 +5059,18 @@ a O
 1 O
 |
 | O
-a1 B-LOC
+a1 B-PER
 |
-| O
-OR O
+| I-PER
+OR I-PER
 |
-| O
-2E B-LOC
-1 I-LOC
+| I-PER
+2E B-MISC
+1 I-MISC
 |
-| I-LOC
-E I-LOC
-1 I-LOC
+| I-MISC
+E I-MISC
+1 I-MISC
 |
 
 | O
@@ -5090,11 +5090,11 @@ a O
 1 O
 |
 | O
-.3 B-MISC
+.3 O
 |
 
-| I-MISC
-E B-LOC
+| O
+E O
 1 O
 |
 | O
@@ -5112,7 +5112,7 @@ Au O
 ah O
 |
 | O
-D B-LOC
+D O
 |
 | O
 E B-LOC
@@ -5131,7 +5131,7 @@ E B-LOC
 1 O
 |
 | O
-N1 O
+N1 B-LOC
 |
 | O
 1 O
@@ -5158,7 +5158,7 @@ d O
 |
 
 | O
-E B-LOC
+E O
 1 O
 |
 | O
@@ -5166,7 +5166,7 @@ y O
 A B-LOC
 |
 | O
-DEn B-LOC
+DEn B-PER
 a O
 |
  | O
@@ -5214,12 +5214,12 @@ o8 O
 ah O
 |
  | O
-An B-LOC
+An O
 |
- | I-LOC
-aH I-LOC
+ | O
+aH O
 |
-| I-LOC
+| O
 - O
 |
 | O
@@ -5261,7 +5261,7 @@ D O
 . O
 |
 | O
-E1 B-LOC
+E1 B-MISC
 |
 | O
 1e1 O
@@ -5306,7 +5306,7 @@ DES B-MISC
 R I-MISC
 |
 | I-MISC
-DTE I-MISC
+DTE B-MISC
 R I-MISC
 |
  
@@ -5326,13 +5326,13 @@ D O
 1 O
 |
 | O
-R B-PER
+R B-MISC
 |
-| I-PER
-E1 I-PER
+| I-MISC
+E1 I-MISC
 |
-| O
-a1 B-LOC
+| I-MISC
+a1 I-MISC
 |
 | O
 2 O
@@ -5344,7 +5344,7 @@ a1 B-LOC
 1 O
 |
  | O
-A O
+A B-LOC
 |
 | O
 E B-LOC
@@ -5409,7 +5409,7 @@ d^ O
 4 O
 |
 | O
-N B-LOC
+N O
 .. O
 |
 | O
@@ -5429,22 +5429,22 @@ N B-LOC
 |
 
 | O
-Cnfocii B-LOC
---- I-LOC
+Cnfocii O
+--- O
 |
-| I-LOC
-Lecteur I-LOC
+| O
+Lecteur B-PER
 |
- | I-LOC
-D I-LOC
+ | I-PER
+D I-PER
 |
- | I-LOC
-- O
+ | I-PER
+- I-PER
 |
- | O
+ | I-PER
 ouvrant O
-mou B-PER
-doeme I-PER
+mou O
+doeme O
 , O
 guelgues O
 personnes O
@@ -5457,11 +5457,11 @@ groire O
 que O
 j' O
 ai O
-gonfracte O
-j' O
-obligalion O
+gonfracte B-MISC
+j' I-MISC
+obligalion I-MISC
 de O
-fatter O
+fatter B-PER
 , O
 |
 | O
@@ -5469,17 +5469,17 @@ deptis O
 le O
 premier O
 jueqir O
-aii B-PER
-dernier I-PER
-werg I-PER
+aii O
+dernier O
+werg B-PER
 , O
-ct O
-lon O
+ct B-PER
+lon I-PER
 se O
 .. O
 |
 | O
-Connerait B-ORG
+Connerait B-MISC
 , O
 A' B-MISC
 la I-MISC
@@ -5507,10 +5507,10 @@ Aussi O
 , O
 Un B-MISC
 jour I-MISC
-. I-MISC
+. O
 |
-| I-MISC
-presse I-MISC
+| O
+presse O
 . O
 d' O
 anhoncei O
@@ -5527,10 +5527,10 @@ penses O
 | O
 Néheure B-LOC
 , O
-au' O
-Monarque B-LOC
+au' B-LOC
+Monarque I-LOC
 , O
-uin O
+uin B-ORG
 de O
 Cosionuinens B-LOC
 d' O
@@ -5542,13 +5542,13 @@ ai O
 patron O
 , O
 ailssi O
-floignés B-MISC
-de I-MISC
-la I-MISC
-dignite I-MISC
+floignés O
+de O
+la O
+dignite O
 . O
 des O
-Peuples B-PER
+Peuples O
 , O
 que O
 |
@@ -5558,31 +5558,31 @@ lamiajeste O
 des O
 Kois B-LOC
 . O
-Hon O
-Duvrsgo O
+Hon B-PER
+Duvrsgo I-PER
 n' O
 esfquin O
 joi O
 |
 | O
-Dimaginalion B-PER
+Dimaginalion B-MISC
 , O
-ine O
-suile O
+ine B-PER
+suile I-PER
 de O
 . O
-lablearix B-MISC
-allfgoriqries O
+lablearix B-PER
+allfgoriqries I-PER
 , O
 |
  | O
-Varifs B-MISC
+Varifs O
 autant O
-qug O
+qug B-ORG
 possiblo O
 , O
 pour O
-chdsser O
+chdsser B-MISC
 l' O
 ennui O
 , O
@@ -5591,7 +5591,7 @@ et O
 | O
 Eviier B-LOC
 la O
-wisriolonie O
+wisriolonie B-LOC
 , O
 sans O
 doirio O
@@ -5604,11 +5604,11 @@ d' O
 i O
 |
 | O
-noiir B-PER
+noiir O
 cf. O
-de B-PER
-. I-PER
-respest O
+de O
+. O
+respest B-LOC
 , O
 ijiie B-PER
 ja I-PER
@@ -5625,14 +5625,14 @@ qui O
 , O
 apres O
 nous O
-aroir O
+aroir B-LOC
 sauve O
-au- O
+au- B-LOC
 . O
 |
 | O
-gieung O
-Jois B-LOC
+gieung B-PER
+Jois I-PER
 y O
 ne O
 . O
@@ -5641,17 +5641,17 @@ do O
 wciller O
 I. O
 Nolis O
-Sloiro O
-Ct O
+Sloiro B-PER
+Ct I-PER
 |
 | O
 anotre O
-lonlierir O
+lonlierir B-PER
 : O
 mais O
-J' B-MISC
-ai I-MISC
-pensé I-MISC
+J' O
+ai O
+pensé O
 que O
 C B-MISC
 , O
@@ -5662,12 +5662,12 @@ la O
 | O
 louarige O
 , O
-cEsl B-MISC
-1aIdégraderi O
-qiie O
-pluis O
-clle O
-Cst B-PER
+cEsl B-PER
+1aIdégraderi I-PER
+qiie I-PER
+pluis I-PER
+clle I-PER
+Cst O
 rare O
 , O
 |
@@ -5698,7 +5698,7 @@ noble O
 mnodlestie O
 . O
 de O
-PLus- B-LOC
+PLus- B-MISC
 |
 | O
 . O
@@ -5736,28 +5736,28 @@ aprés O
 . O
 |
 | O
-Moi B-PER
+Moi O
 , O
 par O
-lininicnse O
-majorile O
+lininicnse B-PER
+majorile I-PER
 , O
-penbtrle O
+penbtrle B-LOC
 , O
-aujouidihui O
+aujouidihui B-LOC
 , O
 |
 | O
-Au O
-praiiel O
-hicrilait O
+Au B-MISC
+praiiel I-MISC
+hicrilait I-MISC
 de O
-l2 B-ORG
-Teslauralion I-ORG
+l2 O
+Teslauralion B-ORG
 . O
 |
  | O
-Lenaipasomtis B-LOC
+Lenaipasomtis B-PER
 le O
 niomn O
 dema O
@@ -5775,7 +5775,7 @@ que O
 , O
 do O
 lout O
-lemps O
+lemps B-PER
 , O
 clle O
 d O
@@ -5786,16 +5786,16 @@ son O
 . O
 |
 | O
-Aevoncrnent O
-I B-LOC
+Aevoncrnent B-PER
+I I-PER
 la O
-legilinille O
+legilinille B-LOC
 , O
 cl O
 que O
 , O
 sous O
-cerapport O
+cerapport B-PER
 , O
 |
 | O
@@ -5808,8 +5808,8 @@ elle O
 le O
 sulliage O
 le O
-plirs O
-auguisle O
+plirs B-LOC
+auguisle I-LOC
 ( O
 e O
 ) O
@@ -5822,7 +5822,7 @@ fond O
 . O
 de O
 l' O
-Ouvrage B-LOC
+Ouvrage B-MISC
 , O
 jen O
 ai O
@@ -5833,7 +5833,7 @@ lés O
 | O
 impesfeclions O
 , O
-inais O
+inais B-PER
 les O
 circoustarices O
 m' O
@@ -5851,9 +5851,9 @@ qui O
 , O
 jesptre O
 , O
-Sera O
+Sera B-MISC
 . O
-Adresse B-MISC
+Adresse B-PER
 . O
 par O
 |
@@ -5862,13 +5862,13 @@ eux O
 : O
 Il O
 n. O
-Aimaient B-LOC
+Aimaient O
 . O
-L B-LOC
-Crcoyrager I-LOC
-ia I-LOC
-houne I-LOC
-rolonle I-LOC
+L B-MISC
+Crcoyrager I-MISC
+ia I-MISC
+houne I-MISC
+rolonle O
 , O
 . O
 |
@@ -5877,10 +5877,10 @@ Qul B-PER
 GVir.foit I-PER
 sentent O
 , O
-coirirne O
-inoi O
+coirirne B-PER
+inoi I-PER
 , O
-Coinbicn B-ORG
+Coinbicn B-MISC
 il O
 est O
 . O
@@ -5892,10 +5892,10 @@ d' O
 esesyer O
 un O
 horimage O
-A B-MISC
-Liialps I-MISC
+A B-LOC
+Liialps I-LOC
 . O
-K B-MISC
+K O
 .. O
 |
  | O
@@ -5915,20 +5915,20 @@ Vous O
 eles O
 de O
 Cogriael B-PER
-disali O
+disali I-PER
 un O
 jour O
-Monsiroa B-PER
-à I-PER
-Venez I-PER
+Monsiroa B-LOC
+à O
+Venez B-LOC
 |
-| O
-Losbonoiablés B-ORG
+| I-LOC
+Losbonoiablés I-LOC
 . O
-Dépulésjtant O
-inieux O
+Dépulésjtant B-PER
+inieux I-PER
 , O
-soyes O
+soyes B-MISC
 le O
 bien O
 venllite O
@@ -5941,7 +5941,7 @@ venllite O
 sifsiitestierisittitiitistrsicisisiisiilficititissieitirt O
 |
  | O
-TI B-LOC
+TI O
 |
 | O
 d° O
@@ -5953,7 +5953,7 @@ M O
 . O
 |
 | O
-N O
+N B-LOC
 |
 | O
 - O
@@ -5965,17 +5965,17 @@ i O
 avril O
 |
  | O
-AH B-ORG
+AH B-PER
 |
 | O
 NORIE B-ORG
-1 I-ORG
+1 O
 |
 | O
-HUMAiN B-MISC
+HUMAiN O
 |
- | I-MISC
-OUI I-MISC
+ | O
+OUI O
 |
 | O
 M B-PER
@@ -5991,13 +5991,13 @@ AVENUE B-LOC
 |
  
 | O
-AVE B-MISC
-BEE I-MISC
+AVE O
+BEE B-MISC
 ViRES O
 |
 | O
-GIANT B-MISC
-PRÉMAIRE I-MISC
+GIANT O
+PRÉMAIRE O
 . O
 |
  | O
@@ -6005,7 +6005,7 @@ s O
 .. O
 |
 | O
-Loxarines B-LOC
+Loxarines O
 ( O
 Enfane B-MISC
 du I-MISC
@@ -6015,11 +6015,11 @@ Permiesso I-MISC
 | O
 Aux B-MISC
 Armies I-MISC
-l' O
-leclauiger O
-rouis B-PER
-pressc I-PER
-lio I-PER
+l' I-MISC
+leclauiger I-MISC
+rouis I-MISC
+pressc I-MISC
+lio I-MISC
 . O
 |
 | O
@@ -6031,14 +6031,14 @@ signal O
 . O
 |
 | O
-Quis B-PER
-Grelce I-PER
+Quis B-LOC
+Grelce I-LOC
 , O
 sans O
 doute O
 , O
 au O
-Genie B-LOC
+Genie B-MISC
 . O
 |
 | O
@@ -6050,11 +6050,11 @@ mnal O
 , O
 |
  | O
-Froubsla B-PER
+Froubsla B-MISC
 soudainr O
 la O
-douco O
-vic O
+douco B-PER
+vic I-PER
 .. O
 |
 | O
@@ -6074,11 +6074,11 @@ noini O
 Aclimnis B-LOC
 d O
 boire O
-L' B-MISC
-amibroisie I-MISC
+L' O
+amibroisie O
 |
- | I-MISC
-Dont I-MISC
+ | O
+Dont O
 , O
 chaque O
 jour O
@@ -6086,15 +6086,15 @@ jour O
 la O
 coupe B-MISC
 d' I-MISC
-Apollou B-LOC
+Apollou I-MISC
 , O
 .. O
 |
  | O
-Regoit O
+Regoit B-PER
 les O
 Rote B-LOC
-sacresi O
+sacresi I-LOC
 ... O
 Aux O
 arines O
@@ -6107,16 +6107,16 @@ l O
 Il O
 l' O
 quie O
-ccsignal O
-esi O
-affreur O
+ccsignal B-PER
+esi I-PER
+affreur I-PER
 , O
 |
  | O
-Quanil B-LOC
+Quanil O
 ou O
 a O
-Saroure B-PER
+Saroure B-LOC
 les O
 chainies O
 |
@@ -6132,20 +6132,20 @@ PARRASSE-- I-PER
 |
  | O
 De O
-cesdjour O
-delicicns O
+cesdjour B-PER
+delicicns I-PER
 , O
 |
 | O
 Pitsi B-PER
-recheichi O
+recheichi I-PER
 , O
 qui O
 surpelsse O
 , O
 |
 | O
-Wir B-PER
+Wir B-ORG
 moins O
 rivalise O
 les O
@@ -6154,7 +6154,7 @@ Cierticis B-MISC
 |
 | O
 Die B-ORG
-lout O
+lout I-ORG
 est O
 plaisir O
 .. O
@@ -6163,23 +6163,23 @@ plaisir O
 A B-MISC
 Parnasse I-MISC
 I I-MISC
-.. O
+.. I-MISC
 |
-| O
-Qitanil B-LOC
-dlonc O
-Ce B-MISC
-cri I-MISC
-desolaicur I-MISC
+| I-MISC
+Qitanil I-MISC
+dlonc I-MISC
+Ce O
+cri O
+desolaicur O
 , O
 |
 | O
 Lcliappé B-PER
-dit O
-Conel O
-dc O
-l' O
-ahsymio O
+dit I-PER
+Conel I-PER
+dc I-PER
+l' I-PER
+ahsymio I-PER
 , O
 |
 | O
@@ -6208,11 +6208,11 @@ dinquiéétude O
 |
  | O
 Aux O
-Vicus B-PER
+Vicus B-LOC
 chlris O
 elu O
-Dicis B-LOC
-dles O
+Dicis B-MISC
+dles I-MISC
 vers O
 , O
 ) O
@@ -6227,7 +6227,7 @@ Aivers I-PER
 , O
 |
 | O
-uivsil O
+uivsil B-PER
 ses O
 penchans O
 d' O
@@ -6262,8 +6262,8 @@ pris O
 de O
 la O
 plute O
-Couco B-LOC
-ivressc O
+Couco B-PER
+ivressc I-PER
 , O
 |
 | O
@@ -6308,13 +6308,13 @@ coeurs I-MISC
  | O
 d O
 , O
-Sapho B-MISC
+Sapho B-PER
 , O
 sur O
 um O
 lit O
 de O
-Reurs B-LOC
+Reurs B-MISC
 , O
 |
 | O
@@ -6322,17 +6322,17 @@ Du O
 coii O
 dle O
 l' O
-azil O
+azil B-MISC
 , O
 au O
 cher' O
-Acier B-LOC
+Acier B-ORG
 , O
 . O
 |
  | O
 Disait O
-leuiilremicnt O
+leuiilremicnt B-PER
 sa O
 penile O
 , O
@@ -6342,13 +6342,13 @@ Près O
 d' O
 elle O
 , O
-ProperccAjournait B-MISC
+ProperccAjournait B-PER
 . O
 |
 | O
 LCsouvenir B-MISC
 de O
-sou B-PER
+sou O
 ainie O
 : O
 .. O
@@ -6365,23 +6365,23 @@ d O
 1 O
 |
 | O
-ENTRÉE B-ORG
+ENTRÉE O
 . O
 |
 | O
 l O
 , O
 meme O
-ihulle O
-Cessait B-MISC
+ihulle B-MISC
+Cessait I-MISC
 . O
 |
  | O
-Dorepretter O
+Dorepretter B-PER
 les O
 charmes O
-da O
-Delic B-MISC
+da B-PER
+Delic I-PER
 , O
 |
 | O
@@ -6408,7 +6408,7 @@ Récar B-PER
 , O
 |
  | O
-Horace B-MISC
+Horace B-PER
 , O
 Arme B-MISC
 iluri I-MISC
@@ -6418,18 +6418,18 @@ wcctdr I-MISC
 , O
 |
  | O
-Verssit O
+Verssit B-LOC
 , O
 criant O
 , O
-Virgisic B-MISC
+Virgisic B-PER
 . O
 |
 | O
 " O
 |
  | O
-Ptsur O
+Ptsur B-LOC
 Winclare O
 ri O
 Sur O
@@ -6468,8 +6468,8 @@ plus O
 | O
 Ruanil B-LOC
 , O
-usaist O
-largemicat O
+usaist B-PER
+largemicat I-PER
 des O
 laveurs O
 de O
@@ -6478,20 +6478,20 @@ Wacchus B-PER
 s O
 |
  | O
-Lecdlehic B-LOC
-aini O
-dlo O
+Lecdlehic B-PER
+aini I-PER
+dlo I-PER
 Mecdne O
 .. O
 |
  | O
-Dun B-MISC
+Dun O
 vinl O
-scc B-ORG
+scc O
 ct O
 leger O
 cotrige O
-Wllippoereno B-PER
+Wllippoereno B-ORG
 . O
 |
 | O
@@ -6500,31 +6500,31 @@ Et O
 voirs O
 arissi O
 , O
-Chapelle B-MISC
+Chapelle B-LOC
 , O
 et O
-SaintAuge B-MISC
+SaintAuge B-ORG
 , O
 ct O
-Chauilien B-PER
+Chauilien O
 , O
 |
 | O
-Poites B-MISC
-di I-MISC
-plaisir I-MISC
+Poites B-ORG
+di I-ORG
+plaisir I-ORG
 , O
 ctque O
 Id B-MISC
-Krainice O
-lionoro O
+Krainice I-MISC
+lionoro I-MISC
 , O
 |
 | O
 1 O
 |
  | O
-Etier O
+Etier B-PER
 daris O
 cetaimable O
 lieu.l O
@@ -6543,7 +6543,7 @@ Cucores B-LOC
 .. O
 |
  | O
-Retirez B-LOC
+Retirez O
 , O
 si O
 Moric B-PER
@@ -6556,9 +6556,9 @@ Repardonner B-PER
 , O
 Beris B-PER
 Ilon I-PER
-nonl O
-wr O
-Echapperait O
+nonl I-PER
+wr I-PER
+Echapperait I-PER
 Si O
 ... O
 |
@@ -6566,11 +6566,11 @@ Si O
 Plus O
 loin O
 , O
-Mmé O
-nanette B-LOC
+Mmé B-PER
+nanette I-PER
 , O
-ct O
-Lerenco B-LOC
+ct B-LOC
+Lerenco I-LOC
 et O
 Molitre B-LOC
 s. O
@@ -6579,7 +6579,7 @@ s. O
 Et O
 le O
 mmordaut O
-Encille B-LOC
+Encille B-PER
 , O
 et O
 l' O
@@ -6589,14 +6589,14 @@ Suvénal O
 |
  | O
 Et O
-Despréaur B-MISC
+Despréaur B-PER
 et O
 Martial B-PER
 , O
 - O
 |
  | O
-Ettous O
+Ettous B-PER
 ceuii O
 douit O
 la O
@@ -6613,22 +6613,22 @@ séjéle B-MISC
 |
 | O
 - O
-E--- B-PER
+E--- O
 |
 | O
-E B-PER
-PARRASSE I-PER
+E B-LOC
+PARRASSE O
 |
 
-| I-PER
-Pourvainere I-PER
+| O
+Pourvainere O
 nos O
-delauis O
+delauis B-PER
 , O
 s' O
 arina O
 wuln O
-Couclsdrglant B-LOC
+Couclsdrglant O
 , O
 . O
 |
@@ -6636,12 +6636,12 @@ Couclsdrglant B-LOC
 Du O
 sious O
 reprit O
-cu O
-hailinanl O
+cu B-PER
+hailinanl I-PER
 , O
 |
 | O
-Assls B-LOC
+Assls B-MISC
 souis O
 des O
 saules O
@@ -6650,11 +6650,11 @@ Ahliques B-LOC
 ... O
 |
  | O
-Dout O
+Dout B-LOC
 les O
 cimes O
 , O
-cu B-MISC
+cu O
 siriclinant O
 y O
 |
@@ -6666,40 +6666,40 @@ porliques O
 , O
 |
  | O
-Philosophaicnt B-LOC
+Philosophaicnt B-PER
 .... O
 Et O
 , O
 pour O
-Conclusfon B-PER
+Conclusfon B-LOC
 , O
 |
  | O
-Lous B-MISC
+Lous O
 cleculaient O
 , O
 saris O
-uul O
-seripule O
+uul B-MISC
+seripule I-MISC
 , O
 -- O
 |
  | O
-Quc O
-Coujours O
+Quc B-LOC
+Coujours I-LOC
 loin O
 de O
 la O
-purleclion,.--- B-ORG
+purleclion,.--- O
 |
- | I-ORG
-Lhomrino I-ORG
-scrait O
+ | O
+Lhomrino B-MISC
+scrait I-MISC
 toujours O
 miechant O
 , O
-oit O
-ridlicule O
+oit B-PER
+ridlicule I-PER
 . O
 |
  | O
@@ -6707,9 +6707,9 @@ Ailleurs O
 , O
 sous O
 un O
-hetecai O
-de O
-Reurs B-LOC
+hetecai B-MISC
+de I-MISC
+Reurs I-MISC
 , O
 . O
 |
@@ -6717,10 +6717,10 @@ Reurs B-LOC
 Seul O
 confident O
 du O
-sccret O
-dle O
-leurs O
-cceuirs O
+sccret B-MISC
+dle I-MISC
+leurs I-MISC
+cceuirs I-MISC
 , O
 .. O
 -- O
@@ -6728,25 +6728,25 @@ cceuirs O
 | O
 Pinilare B-PER
 , O
-A B-LOC
-li O
+A B-PER
+li I-PER
 voin O
 de O
-Gorine,.--- O
+Gorine,.--- B-MISC
 |
-| O
-Mariail B-LOC
+| I-MISC
+Mariail I-MISC
 sa O
-lyie O
-dlivine O
+lyie B-LOC
+dlivine I-LOC
 : O
 |
 | O
-El B-PER
+El B-LOC
 , O
 dans O
 ses O
-traneports O
+traneports B-ORG
 , O
 pardonnait O
 . O
@@ -6762,9 +6762,9 @@ atto O
 |
 | O
 Aiaient B-LOC
-cu B-MISC
+cu O
 , O
-laut O
+laut B-MISC
 de O
 fois O
 , O
@@ -6789,7 +6789,7 @@ Attendri B-PER
 recitait O
 ses O
 vers O
-à B-LOC
+à O
 la O
 tumiere O
 : O
@@ -6815,22 +6815,22 @@ dei O
 troupeauts O
 |
  | O
-Eagloire B-LOC
-de I-LOC
-Roine I-LOC
+Eagloire O
+de O
+Roine B-PER
 , O
-Viigiles B-ORG
+Viigiles B-PER
 |
- | I-ORG
-Ravi I-ORG
+ | I-PER
+Ravi I-PER
 , O
 se O
 ictrouvait O
 daus O
 les O
 cliante O
-de O
-Dé O
+de B-PER
+Dé I-PER
 il O
 l O
 .. O
@@ -6866,15 +6866,15 @@ ulelices O
 lit O
 tout O
 le O
-Partiaese B-MISC
-cil I-MISC
-riiencur I-MISC
+Partiaese O
+cil O
+riiencur O
 |
 | O
 Courail O
 Consuillir O
 les O
-Aucpices B-MISC
+Aucpices B-LOC
 , O
 . O
 |
@@ -6887,8 +6887,8 @@ epollan I-PER
 |
 | O
 rest O
-aiis O
-conscils O
+aiis B-PER
+conscils I-PER
 dlu O
 la O
 raison O
@@ -6897,11 +6897,11 @@ raison O
 |
  | O
 n O
-Cesl B-PER
-A I-PER
-d' I-PER
-Energiques B-MISC
-mesiires I-MISC
+Cesl B-LOC
+A I-LOC
+d' O
+Energiques B-PER
+mesiires I-PER
 , O
 |
 | O
@@ -6911,23 +6911,23 @@ d O
 moi O
 que O
 le O
-peril O
-i' O
-a O
-jamalis O
-lait O
-plier O
+peril B-MISC
+i' I-MISC
+a I-MISC
+jamalis I-MISC
+lait I-MISC
+plier I-MISC
 , O
 . O
 |
  | O
-Lori O
+Lori B-PER
 pas O
 i O
 lit O
 foi O
 des O
-Augnres B-ORG
+Augnres B-PER
 . O
 |
  | O
@@ -6938,28 +6938,28 @@ cuis O
 ineliuut O
 |
 | O
-i B-PER
-Duc I-PER
+i O
+Duc O
 , O
 pour O
-feter O
-un O
-Frincequil B-MISC
-chi.il I-MISC
+feter B-PER
+un I-PER
+Frincequil I-PER
+chi.il O
 , O
 |
  | O
 n O
 Vis B-LOC
-periple O
-cutier O
-rers O
-le O
-Parnaese B-MISC
+periple I-LOC
+cutier I-LOC
+rers I-LOC
+le I-LOC
+Parnaese I-LOC
 |
- | I-MISC
-S' O
-Seprecipilo B-MISC
+ | I-LOC
+S' B-LOC
+Seprecipilo I-LOC
 , O
 et O
 vous O
@@ -6967,21 +6967,21 @@ meudce O
 . O
 |
  | O
-Dit B-MISC
-alesastro I-MISC
+Dit O
+alesastro O
 le O
 plus O
-affrcun O
+affrcun B-MISC
 |
-  | O
-Que O
-pilisrc O
+  | I-MISC
+Que B-MISC
+pilisrc I-MISC
 vous O
-garilci O
-la O
-coltie O
+garilci B-PER
+la I-PER
+coltie I-PER
 des O
-dicwriee O
+dicwriee B-PER
 |
 | O
 1 O
@@ -6995,21 +6995,21 @@ dicwriee O
 Mais O
 le O
 charinc O
-A B-MISC
+A O
 cesse O
 , O
-li O
+li B-PER
 . O
 peur O
 . O
 |
  | O
 I. O
-Volrc B-LOC
+Volrc O
 toulicui O
 , O
-wotre O
-ricliesse O
+wotre B-PER
+ricliesse I-PER
 , O
 |
 | O
@@ -7031,11 +7031,11 @@ n. O
 aprls O
 le O
 nectar O
-Siluls B-MISC
-parcil I-MISC
+Siluls B-LOC
+parcil O
 |
- | I-MISC
-QuLlebe I-MISC
+ | O
+QuLlebe B-PER
 ierse O
 au O
 maitre O
@@ -7046,22 +7046,22 @@ ciel O
 |
  | O
 ( O
-t B-MISC
-Ionleinlici I-MISC
+t O
+Ionleinlici B-ORG
 que O
-lllippocrenc O
-el O
-le O
-Fermicsse B-LOC
+lllippocrenc B-PER
+el I-PER
+le I-PER
+Fermicsse O
 srroseaile O
 |
 | O
 Mlont B-PER
 Caruaese I-PER
 , O
-bicn B-LOC
-qie O
-lun O
+bicn B-PER
+qie I-PER
+lun I-PER
 et O
 l' O
 avlre O
@@ -7077,18 +7077,18 @@ n O
 teNEźolie O
 , O
 mais O
-L' B-MISC
-auleui I-MISC
+L' O
+auleui O
 ioudliait O
 que O
 la O
 crilique O
-hcrit O
-guo O
+hcrit B-PER
+guo I-PER
 |
 | O
 " O
-Clla O
+Clla B-LOC
 d O
 lui O
 reprocherise O
@@ -7112,8 +7112,8 @@ mIdi B-MISC
 qu' O
 il O
 fauit O
-sc O
-coulier O
+sc B-PER
+coulier I-PER
 , O
 |
 | O
@@ -7123,7 +7123,7 @@ coulier O
 1 O
 |
  | O
-FRANcS.- O
+FRANcS.- B-PER
 |
 | O
 .. O
@@ -7135,26 +7135,26 @@ FRANcS.- O
 d O
 |
  | O
-EE B-ORG
-PARNAGSE I-ORG
+EE O
+PARNAGSE O
 |
- | I-ORG
-QUe O
-j. O
-breuivsge B-PER
+ | O
+QUe B-PER
+j. I-PER
+breuivsge I-PER
 est O
 pluis B-PER
 cloux I-PER
 que O
 celleondle O
-sacrée B-LOC
+sacrée O
 |
-  | I-LOC
-Etsipure I-LOC
+  | O
+Etsipure O
 , O
 dont O
-j' O
-aimne O
+j' B-PER
+aimne I-PER
 il O
 voir O
 . O
@@ -7165,17 +7165,17 @@ Fous B-MISC
 les I-MISC
 . O
 forirs O
-iia B-ORG
-cour I-ORG
-euivrdo O
-d. O
+iia B-PER
+cour I-PER
+euivrdo B-PER
+d. I-PER
 |
 | O
 a O
-Quel O
-serdit O
-volrc' O
-Adscspoir O
+Quel B-MISC
+serdit I-MISC
+volrc' I-MISC
+Adscspoir I-MISC
 , O
 |
 | O
@@ -7185,24 +7185,24 @@ la O
 sourcc O
 ch O
 elait O
-lario B-PER
-liss I-PER
+lario O
+liss O
 . O
 |
  | O
 Vous O
 imauidirier O
-yolre B-PER
-Lmnmiortelle I-PER
+yolre O
+Lmnmiortelle B-PER
 vicrrii O
 |
 | O
 w O
 Et O
-poirrlaniti B-LOC
-sl I-LOC
+poirrlaniti O
+sl O
 , O
-pouisse O
+pouisse B-ORG
 . O
 pai O
 dcs O
@@ -7215,17 +7215,17 @@ o. O
 le O
 peuple O
 . O
-amhiliciiss O
+amhiliciiss B-MISC
 qu' O
-apollou O
-rous O
-signgle O
+apollou B-PER
+rous I-PER
+signgle I-PER
 y O
 . O
 |
 | O
 . O
-Et́nvahll O
+Et́nvahll B-MISC
 nos O
 , O
 Mirins B-LOC
@@ -7247,16 +7247,16 @@ Alail B-LOC
 épicist O
 les O
 Retires B-LOC
-sainiis O
+sainiis I-LOC
 . O
 |
   | O
-Auxqilels B-LOC
+Auxqilels O
 S' O
 alfacheul O
 . O
 vos O
-Aeslins B-LOC
+Aeslins B-MISC
 f.il O
 . O
 |
@@ -7267,19 +7267,19 @@ S. O
 diqiesCnluns O
 du O
 , O
-larrasse O
-y O
+larrasse B-PER
+y I-PER
 |
 
-  | O
-Jovs B-MISC
-rif O
-subicck O
+  | I-PER
+Jovs B-PER
+rif I-PER
+subicck I-PER
 . O
-poinl O
+poinl B-LOC
 une O
-teile O
-disyider O
+teile B-PER
+disyider I-PER
 , O
 |
  | O
@@ -7298,19 +7298,19 @@ droils O
  | O
 OU O
 . O
-secoudler O
+secoudler B-PER
 mon O
 bras O
 pour O
 les O
-Aefendre B-PER
+Aefendre B-LOC
 , O
 |
  | O
 AMlallerinir B-MISC
 aur O
 le O
-lisrie O
+lisrie B-LOC
 , O
 orimren B-PER
 laisier I-PER
@@ -7326,34 +7326,34 @@ je O
 connais O
 rotre O
 choise O
-Viris B-LOC
+Viris B-PER
 ne O
 -- O
 |
 
 | O
-Apres B-MISC
-un I-MISC
-Monient I-MISC
+Apres O
+un O
+Monient B-ORG
 de O
 silence,- O
 |
 | O
 Wi B-MISC
-poile O
+poile I-MISC
 , O
 aux O
 longs O
-chevcuy O
-blarles O
+chevcuy B-PER
+blarles I-PER
 , O
 . O
 |
 | O
 Mais O
 les O
-yetis O
-cncor O
+yetis B-MISC
+cncor I-MISC
 pétiilans O
 |
 | O
@@ -7372,35 +7372,35 @@ Avance B-LOC
 |
  | O
 Kliombe B-PER
-aus O
-Genoun B-PER
-de I-PER
-soii I-PER
+aus I-PER
+Genoun O
+de O
+soii B-PER
 Aoi I-PER
 , O
 |
 | O
-Qui O
-, O
-pai O
-respeel O
+Qui B-MISC
+, I-MISC
+pai I-MISC
+respeel I-MISC
 , O
 Claigne B-PER
-lul I-PER
+lul O
 incuis.--- O
 |
 | O
 EN O
-VA B-LOC
+VA O
 .. O
 |
  | O
-Porter B-LOC
+Porter O
 la O
 maini O
 ilcvant O
-sou B-PER
-diademe I-PER
+sou O
+diademe O
 , O
 . O
 |
@@ -7417,7 +7417,7 @@ moi O
 |
  | O
 " O
-Steria B-LOC
+Steria O
 le O
 chanilre O
 diUlysee O
@@ -7426,7 +7426,7 @@ diUlysee O
  | O
 Siftlippocrerie B-LOC
 , O
-Lequel B-LOC
+Lequel B-PER
 , O
 me O
 refusait O
@@ -7434,30 +7434,30 @@ refusait O
 |
 | O
 . O
-nSoul B-MISC
-douin O
-neclati O
+nSoul O
+douin B-PER
+neclati I-PER
 . O
 Qui O
 verserait O
 |
 | O
 . O
-Vlus O
+Vlus B-PER
 de O
-pleriis O
+pleriis B-LOC
 sur O
 son O
 sacrilicod O
 ... O
 |
   | O
-Reptris B-PER
-qucti O
-cc O
-dlivinisejour O
+Reptris B-MISC
+qucti I-MISC
+cc I-MISC
+dlivinisejour I-MISC
 |
-| O
+| I-MISC
 . O
 n O
 Je O
@@ -7477,11 +7477,11 @@ jour I-MISC
 . O
 B. B-PER
 Llcuicily I-PER
-de O
-lasoifqui O
+de I-PER
+lasoifqui I-PER
 , O
-nic O
-pressc O
+nic B-LOC
+pressc I-LOC
 , O
 |
 | O
@@ -7492,12 +7492,12 @@ les O
 dotiecurs O
 dl' O
 unic O
-omlle O
-onchauleresso O
+omlle B-PER
+onchauleresso I-PER
 , O
 |
  | O
-A O
+A B-LOC
 Trois O
 miille O
 Cois O
@@ -7507,7 +7507,7 @@ henriot O
 Philomnele B-LOC
 , O
 au O
-prinlenrs O
+prinlenrs B-LOC
 , O
 -- O
 |
@@ -7538,10 +7538,10 @@ Eois B-PER
 Florc' I-PER
 et O
 Pomond B-PER
----- I-PER
+---- O
 |
-  | I-PER
-Out I-PER
+  | O
+Out O
 ril O
 reverdir O
 lcur O
@@ -7555,15 +7555,15 @@ liois O
 mille O
 lois O
 les O
-guéjêlà B-MISC
+guéjêlà O
 , O
 |
  | O
-Riclies B-MISC
-des I-MISC
-litsois I-MISC
-de I-MISC
-Certs I-MISC
+Riclies O
+des O
+litsois O
+de O
+Certs B-LOC
 , O
 |
  | O
@@ -7590,7 +7590,7 @@ plaisirs O
 
 | O
 . O
-Hcsc B-PER
+Hcsc O
 seraicnl O
 grarli O
 dans O
@@ -7600,25 +7600,25 @@ pensco O
 . O
 |
 | O
-o B-LOC
-Quc I-LOC
+o O
+Quc B-PER
 pour O
 mic O
 iappcler O
 md O
-forluric O
-paesic O
+forluric B-PER
+paesic I-PER
 , O
 : O
 |
 | O
 . O
-Lour B-LOC
+Lour B-PER
 me O
 lirrei O
 a O
-ile O
-crucls O
+ile B-LOC
+crucls I-LOC
 desirs O
 lis O
 . O
@@ -7628,14 +7628,14 @@ I O
 Houil O
 iammais O
 je O
-ue B-ORG
+ue O
 sauirais O
 croire O
 |
 | O
 u B-PER
 Quelo I-PER
-dlestin O
+dlestin I-PER
 , O
 en O
 me O
@@ -7656,19 +7656,19 @@ tronviitule O
 laploire O
 |
  | O
-el B-MISC
-ine I-MISC
-lroimper I-MISC
+el O
+ine O
+lroimper O
 , O
 d O
-iso B-ORG
-líahir O
-ainsili O
+iso O
+líahir B-LOC
+ainsili I-LOC
 . O
 |
  | O
-LeR B-MISC
-PRRNASSR O
+LeR O
+PRRNASSR B-MISC
 . O
 |
 | O
@@ -7677,20 +7677,20 @@ PRRNASSR O
 | O
 -D. O
 Mais O
-jo O
+jo B-PER
 nie O
-laisnce O
-bls O
-ile O
+laisnce B-ORG
+bls I-ORG
+ile I-ORG
 laiono,--- O
 |
  | O
 LOraclg B-MISC
 ilc O
 ces O
-lietix O
+lietix B-PER
 , O
-oriloitrie O
+oriloitrie B-LOC
 , O
 - O
 |
@@ -7700,24 +7700,24 @@ cu O
 iialtrc O
 , O
 Alonrere B-PER
-na O
-do O
-foi O
+na I-PER
+do I-PER
+foi I-PER
 , O
 - O
 |
 | O
 . O
-I B-LOC
-Do O
-viect O
-de O
-houlieur O
+I B-PER
+Do I-PER
+viect I-PER
+de I-PER
+houlieur I-PER
 qulentoii--- O
 |
  | O
-R. O
-Plein.d' O
+R. B-PER
+Plein.d' I-PER
 ignorer O
 , O
 et O
@@ -7727,16 +7727,16 @@ srainie,-- O
 |
 | O
 - O
-Il B-MISC
-S' I-MISC
-abarielourie I-MISC
-d I-MISC
-la I-MISC
+Il O
+S' O
+abarielourie O
+d O
+la O
 . O
 Folorile B-PER
-sairilc O
+sairilc I-PER
 . O
-n--- O
+n--- B-PER
 |
 | O
 .. O
@@ -7765,16 +7765,16 @@ approbaleurs O
 | O
 cesmols O
 , O
-sr O
-hrent O
-cnteridrr O
+sr B-PER
+hrent I-PER
+cnteridrr I-PER
 , O
 |
 | O
 e O
 stieu O
 du O
-Pinile B-MISC
+Pinile B-LOC
 allait O
 reprerielrdioe O
 . O
@@ -7800,8 +7800,8 @@ frbre O
 . O
 |
  | O
-Quoil O
-dilcllo O
+Quoil B-PER
+dilcllo I-PER
 , O
 ce O
 mani O
@@ -7813,33 +7813,33 @@ sdcid O
 Par O
 toul B-PER
 Lunirers I-PER
-réneis O
+réneis I-PER
 , O
 |
 | O
 . O
 5 O
-Getle B-LOC
-dciieure O
+Getle B-PER
+dciieure I-PER
 a O
-lous O
-lee O
+lous B-PER
+lee I-PER
 liens O
 si O
-chere O
+chere B-PER
 a O
 |
 | O
 .R. O
-Le O
-Parnasse B-LOC
+Le B-MISC
+Parnasse I-MISC
 , O
 pourrait O
 enliu,.- O
 |
  | O
-I O
-Depouille O
+I B-PER
+Depouille I-PER
 de O
 ses O
 privilegés O
@@ -7861,8 +7861,8 @@ n O
 Mais O
 Apollon B-PER
 , O
-aslul O
-corisuilie O
+aslul B-PER
+corisuilie I-PER
 le O
 destind.-- O
 |
@@ -7873,22 +7873,22 @@ destind.-- O
 --- O
 |
  | O
-I O
+I B-LOC
 Einoire O
 pierie O
-estelle O
-inevitable O
+estelle B-PER
+inevitable I-PER
 s O
 |
 | O
 - O
-Melpoinetie O
+Melpoinetie B-ORG
 , O
-aranil O
-iout O
-cousulloirs O
-lo O
-dangetoi O
+aranil B-PER
+iout I-PER
+cousulloirs I-PER
+lo I-PER
+dangetoi I-PER
 |
 | O
 A. O
@@ -7897,11 +7897,11 @@ destinr O
 n' O
 est O
 icivariable O
-.---- O
+.---- B-PER
 |
-| O
-E B-LOC
-Que I-LOC
+| I-PER
+E I-PER
+Que O
 pour O
 qui O
 peril O
@@ -7910,18 +7910,18 @@ espoir O
 de O
 le O
 faire O
-Changer B-PER
+Changer O
 .. O
 |
  | O
 h O
-Quanel B-LOC
+Quanel O
 , O
 allere O
 des O
 oudles O
 du O
-Barinesse B-LOC
+Barinesse B-MISC
 , O
 -- O
 |
@@ -7930,8 +7930,8 @@ Barinesse B-LOC
 AEtjalour B-MISC
 de O
 la O
-douco O
-ivresso O
+douco B-MISC
+ivresso I-MISC
 : O
 |
 | O
@@ -7946,7 +7946,7 @@ bouhcur O
 de O
 Md B-LOC
 . O
-Coury B-LOC
+Coury B-PER
 . O
 |
  | O
@@ -7965,9 +7965,9 @@ eimpiesse O
 |
 | O
 o. O
-Vere B-MISC
-co I-MISC
-delicieun I-MISC
+Vere O
+co O
+delicieun O
 sfjour O
 .. O
 |
@@ -7986,41 +7986,41 @@ w O
 Je O
 dols O
 couserrer O
-V' B-MISC
-ainhroisie I-MISC
+V' B-PER
+ainhroisie I-PER
 s O
 |
 | O
-LOdgépdl O
+LOdgépdl B-LOC
 . O
-trols O
+trols B-LOC
 fois O
-précicuin B-ORG
+précicuin B-PER
 |
- | I-ORG
-JE I-ORG
+ | I-PER
+JE I-PER
 n O
 , O
 pr O
-aes O
-Sluis O
+aes B-PER
+Sluis I-PER
 , O
 m' O
 ont O
 conlif O
 les O
-Dieukerr- B-MISC
+Dieukerr- B-LOC
 |
 | O
 i O
 Mla O
 sceur O
 , O
-Arindns B-MISC
-- I-MISC
-kous I-MISC
-de O
-courdps O
+Arindns B-LOC
+- I-LOC
+kous I-LOC
+de I-LOC
+courdps I-LOC
 , O
 |
 
@@ -8028,16 +8028,16 @@ courdps O
 . O
 |
  | O
-Wt O
+Wt B-PER
 par O
 de O
 genéreur O
-Cfforts,.- O
+Cfforts,.- B-PER
 |
- | O
-Delendons O
+ | I-PER
+Delendons I-PER
 , O
-gardoris O
+gardoris B-LOC
 les O
 trtsors O
 . O
@@ -8058,7 +8058,7 @@ partagaln O
 aI O
 dit O
 , O
-ctsurson O
+ctsurson B-PER
 cceur O
 , O
 lrois O
@@ -8066,10 +8066,10 @@ Lois B-PER
 y O
 |
 | O
-Pressairt B-MISC
-sa I-MISC
-coimpagnc I-MISC
-immorlello I-MISC
+Pressairt B-LOC
+sa O
+coimpagnc O
+immorlello O
 , O
 |
  | O
@@ -8077,30 +8077,30 @@ Jura B-LOC
 trois O
 fois O
 de O
-iriompher O
+iriompher B-LOC
 pour O
-alleroti O
+alleroti B-PER
 |
-| O
-n O
+| I-PER
+n I-PER
 Kils B-MISC
 des I-MISC
 dicux I-MISC
 , O
 Apollon B-PER
-i O
-entencls B-PER
-allesl I-PER
+i I-PER
+entencls O
+allesl O
 mu O
 voify- O
 |
  | O
-Seerin B-PER
-kércinenl I-PER
+Seerin O
+kércinenl O
 , O
-avcc B-PER
-la I-PER
-sayo I-PER
+avcc O
+la O
+sayo O
 audaco O
 |
  | O
@@ -8112,7 +8112,7 @@ n O
 um O
 soldat O
 du O
-Painasse B-MISC
+Painasse B-ORG
 , O
 |
  | O
@@ -8126,26 +8126,26 @@ ai O
 lu O
 . O
 teus B-PER
-comrhaltys O
+comrhaltys I-PER
 |
  | O
 d. O
 Quiconque O
 , O
 sur O
-li O
-Clouble O
+li B-PER
+Clouble I-PER
 cline O
 , O
 -- O
 |
 | O
 . O
-Osa B-PER
-pretendro I-PER
-rin O
-drolt B-PER
-illegilinio I-PER
+Osa B-MISC
+pretendro I-MISC
+rin I-MISC
+drolt I-MISC
+illegilinio I-MISC
 , O
 |
   | O
@@ -8164,7 +8164,7 @@ Et O
 pour O
 Sloigner B-PER
 du O
-Veriesse O
+Veriesse B-LOC
 |
 | O
 - O
@@ -8200,19 +8200,19 @@ ai I-MISC
 sourenl I-MISC
 porisse I-MISC
 lu O
-valcur O
+valcur B-LOC
 , O
 . O
 |
 | O
 ' O
-Dir O
-lesait O
+Dir B-MISC
+lesait I-MISC
 , O
 Maigre B-PER
 . O
-l. O
-Tuidlesso B-PER
+l. B-PER
+Tuidlesso I-PER
 . O
 |
  | O
@@ -8220,8 +8220,8 @@ Tuidlesso B-PER
 Hou B-PER
 pas O
 que O
-jo O
-reuille O
+jo B-PER
+reuille I-PER
 y O
 u' O
 les O
@@ -8230,10 +8230,10 @@ y. O
 |
 | O
 a O
-Hr B-MISC
-peiidlre I-MISC
-areo I-MISC
-trop I-MISC
+Hr B-LOC
+peiidlre O
+areo O
+trop O
 . O
 dawaislags O
 j O
@@ -8243,10 +8243,10 @@ j O
 |
   | O
 a O
-Lollrir O
+Lollrir B-PER
 dut O
-lon O
-faslieuis O
+lon B-PER
+faslieuis I-PER
 . O
 |
  | O
@@ -8313,12 +8313,12 @@ clisail O
 ces O
 Mhols B-MISC
 , O
-Mercuro.- B-MISC
+Mercuro.- B-PER
 |
-| I-MISC
-Accours I-MISC
+| I-PER
+Accours I-PER
 , O
-jussi O
+jussi B-PER
 prompt O
 quo O
 léclair O
@@ -8334,7 +8334,7 @@ Supiier B-LOC
 . O
 |
 | O
-Dout O
+Dout B-LOC
 la O
 volonte O
 souveraine O
@@ -8344,11 +8344,11 @@ souveraine O
 . O
 |
 | O
-Jégit B-PER
-louli I-PER
+Jégit B-MISC
+louli O
 hormmis O
 le O
-ilestin B-LOC
+ilestin O
 . O
 |
 | O
@@ -8366,60 +8366,60 @@ d O
 |
  | O
 IOlyinpe B-MISC
-so B-LOC
+so I-MISC
 . O
-russemmhle B-LOC
+russemmhle B-PER
   O
 ce O
 que O
-J B-MISC
-: I-MISC
-sais I-MISC
-plug I-MISC
-alieidr I-MISC
+J B-PER
+: O
+sais O
+plug O
+alieidr O
 |
-| I-MISC
-- B-LOC
-Luilmtine I-LOC
+| O
+- O
+Luilmtine O
 apolloit O
 . O
-Aloit O
+Aloit B-PER
 ay O
 reeuelrciese-- O
 |
  | O
-Roul O
+Roul B-PER
 le O
 farnasek O
 : O
 A O
 co O
 coup O
-impieruy----- B-PER
+impieruy----- O
 |
- | I-PER
-Breuillaril I-PER
+ | O
+Breuillaril O
 . O
 : O
 érrit O
-avoii O
-enteirili.- B-LOC
+avoii B-PER
+enteirili.- O
 |
  | O
 d O
 |
  | O
 Zeirrel B-PER
-dusort O
+dusort I-PER
 , O
 Variet B-MISC
 lertihla----- I-MISC
 |
- | I-MISC
+ | O
 Quil O
 rcilointait O
 . O
-tOut B-MISC
+tOut O
 d' O
 horace O
 , O
@@ -8451,20 +8451,20 @@ d. O
 |
 
 | O
-AIME B-MISC
+AIME O
 . O
 |
  | O
-Soit O
-jusle B-PER
+Soit B-PER
+jusle I-PER
 respecl I-PER
-pourson I-PER
-Koi I-PER
+pourson O
+Koi O
 , O
 |
 | O
-RRestu B-MISC
-rruet O
+RRestu B-LOC
+rruet I-LOC
 , O
 presqu' O
 insenisiblos O
@@ -8481,7 +8481,7 @@ de O
 douleur O
 |
  | O
-Frallissanl B-MISC
+Frallissanl O
 ce O
 caline O
 limposteur O
@@ -8491,8 +8491,8 @@ limposteur O
 | O
 Or O
 . O
-afficun O
-Aescspoir B-LOC
+afficun B-PER
+Aescspoir O
 s' O
 emipare O
 . O
@@ -8512,36 +8512,36 @@ Virgile B-PER
 maidilissait O
 ses O
 vers O
-y.-- O
+y.-- B-LOC
 |
 | O
 Des O
 wers O
 cheris O
 de O
-Vunivers B-LOC
+Vunivers O
 , O
 . O
 |
 | O
-Reti B-PER
+Reti B-LOC
 dans O
 ses O
 franlsporls O
-Eucrgiques B-PER
+Eucrgiques B-MISC
 , O
 . O
 |
 | O
 Au O
 Rammrncs B-MISC
-Cucore O
-uine O
-Lois B-PER
+Cucore B-PER
+uine I-PER
+Lois O
 .. O
 |
 | O
-Devouait B-LOC
+Devouait B-PER
 ses O
 chanls O
 leroiques O
@@ -8557,15 +8557,15 @@ voiny O
  | O
 aucun O
 , O
-deson O
-Odysseo B-PER
+deson B-PER
+Odysseo I-PER
 . O
 |
 | O
-Trappait O
-sd O
-poilrinle O
-oppresstcs O
+Trappait B-PER
+sd I-PER
+poilrinle I-PER
+oppresstcs I-PER
 |
  | O
 rapide O
@@ -8588,8 +8588,8 @@ voulait O
 | O
 lLe O
 priver O
-deson O
-ainbroisie O
+deson B-PER
+ainbroisie I-PER
 , O
 .. O
 |
@@ -8613,8 +8613,8 @@ immiortelle O
 vicee- O
 |
  | O
-Vardlent O
-Corneille B-PER
+Vardlent B-PER
+Corneille I-PER
 s' O
 emportait O
 , O
@@ -8632,7 +8632,7 @@ Et O
 , O
 dauts O
 Ceticisenst́ B-MISC
-dédire O
+dédire I-MISC
 , O
 -- O
 |
@@ -8653,15 +8653,15 @@ Que O
 lui O
 coulia O
 pour O
-foujours O
+foujours B-PER
 . O
 |
 | O
 i O
-Liodlicu B-PER
-Colittro I-PER
-des I-PER
-Aiiotirs I-PER
+Liodlicu O
+Colittro O
+des O
+Aiiotirs B-LOC
 . O
 |
 | O
@@ -8672,7 +8672,7 @@ Aiiotirs I-PER
 B B-LOC
 |
 | O
-S B-LOC
+S O
 PARNASSE O
 |
  | O
@@ -8681,19 +8681,19 @@ PARNASSE O
  | O
 n O
 Hoilerce B-PER
-ces O
-liausporls O
+ces I-PER
+liausporls I-PER
 , O
 dit O
 lo O
 kls O
 de O
-hatore O
+hatore B-LOC
 , O
 |
  | O
 d O
-Etctdensans O
+Etctdensans B-LOC
 . O
 dépilici O
 . O
@@ -8709,8 +8709,8 @@ jamais O
 PARis B-LOC
 . O
 vous O
-quiliairt O
-jo O
+quiliairt B-MISC
+jo I-MISC
 . O
 n' O
 eus O
@@ -8732,20 +8732,20 @@ Vordonne B-LOC
 H B-PER
 Jupilcr I-PER
 . O
-tnori O
-pere O
+tnori B-PER
+pere I-PER
 , O
 cl O
 inon O
-Aoir B-MISC
+Aoir B-PER
 |
- | I-MISC
-Quilui I-MISC
+ | I-PER
+Quilui I-PER
 doit O
 plus O
 d O
 ' O
-harnoy B-MISC
+harnoy B-PER
 , O
 plus O
 derespeet O
@@ -8760,18 +8760,18 @@ Saveriouesi O
 Liapps B-PER
 dit O
 coup O
-qul O
-houis O
-ietiacei O
+qul B-PER
+houis I-PER
+ietiacei I-PER
 |
- | O
+ | I-PER
 n O
 ' O
 soN O
 cœur O
 , O
-nA B-PER
-pas I-PER
+nA O
+pas O
 . O
 freinl B-PER
 porir O
@@ -8788,15 +8788,15 @@ pas O
 potir O
 sauvar O
 le O
-Painasse B-LOC
+Painasse B-ORG
 , O
 : O
 |
  | O
-Quil B-LOC
+Quil O
 veut O
 prendre O
-conscil O
+conscil B-PER
 . O
 de O
 Vous O
@@ -8806,8 +8806,8 @@ de O
 |
 | O
 . O
-n. B-PER
-Je I-PER
+n. O
+Je O
 vole O
 oie O
 le O
@@ -8819,14 +8819,14 @@ appelles O
 |
  | O
 à O
-Vous B-LOC
+Vous B-MISC
 , O
 redoubler O
 do O
-Courago B-LOC
+Courago B-PER
 et O
 de O
-rllo B-PER
+rllo O
 , O
 .. O
 |
@@ -8834,8 +8834,8 @@ rllo B-PER
 W. O
 Et O
 pour O
-resler O
-rivaur O
+resler B-PER
+rivaur I-PER
 . O
 , O
 sais O
@@ -8845,7 +8845,7 @@ jalorix O
 |
  | O
 n O
-Couscnler B-PER
+Couscnler B-LOC
 que O
 . O
 le O
@@ -8856,9 +8856,9 @@ desigre O
 | O
 " O
 le O
-posle O
+posle B-PER
 dont O
-chachn B-MISC
+chachn B-PER
 . O
 devra O
 se O
@@ -8870,7 +8870,7 @@ dieu O
 |
  | O
 n O
-licu B-LOC
+licu B-PER
 est O
 un O
 pourtant O
@@ -8885,7 +8885,7 @@ crois O
 , O
 |
  | O
-He B-LOC
+He B-PER
 cloit O
 pas O
 ilgir O
@@ -8897,8 +8897,8 @@ importance O
 Celui O
 qui O
 sur O
-L' O
-airain O
+L' B-MISC
+airain I-MISC
 jadlis O
 Gravi B-PER
 ros O
@@ -8906,13 +8906,13 @@ lois O
 : O
 |
  | O
-aINsi O
+aINsi B-PER
 , O
-plcin O
+plcin B-LOC
 . O
 de O
-ceeur O
-ct O
+ceeur B-PER
+ct I-PER
 . O
 de O
 prudence O
@@ -8920,11 +8920,11 @@ prudence O
 |
 | O
 w O
-A B-LOC
+A O
 si O
 souvent O
 . O
-Aeconcerte O
+Aeconcerte B-PER
 .. O
 |
 | O
@@ -8950,7 +8950,7 @@ lu.demence O
 |
 | O
 o O
-Boilear O
+Boilear B-PER
 , O
 n' O
 a O
@@ -8961,23 +8961,23 @@ merites O
 . O
 |
 | O
-i B-MISC
-ld I-MISC
-Lecommpense I-MISC
-quil I-MISC
+i O
+ld O
+Lecommpense B-MISC
+quil O
 . O
-denidile B-PER
-y. I-PER
+denidile B-MISC
+y. O
 |
 | O
 n O
-Et B-MISC
-le I-MISC
-posle I-MISC
+Et O
+le O
+posle B-PER
 qui O
 doit O
 . O
-ollpir B-MISC
+ollpir B-LOC
 .. O
 |
 | O
@@ -8987,21 +8987,21 @@ plus O
 de O
 chances O
 a O
-courirs.- B-LOC
+courirs.- O
 |
 
 | O
 4 O
 |
  | O
-ENVAHE O
+ENVAHE B-ORG
 |
  | O
 14 O
 |
  | O
 " O
-Soutlrirei B-PER
+Soutlrirei B-LOC
 vous O
 quum O
 autre O
@@ -9017,46 +9017,46 @@ le O
 temps O
 fuitici O
 le O
-Moudrque B-LOC
-des I-LOC
-Bieux I-LOC
+Moudrque B-MISC
+des I-MISC
+Bieux I-MISC
 |
  | O
 " O
 Matlemls B-LOC
 .. O
-Jupiier B-PER
+Jupiier B-LOC
 l O
 d O
-mnon O
-pere1 O
+mnon B-PER
+pere1 I-PER
 |
  | O
 n O
-Sougo.que B-LOC
+Sougo.que B-ORG
 j' O
 est O
 pour O
 toi O
 que O
 je O
-giilte O
+giilte B-PER
 ces O
-licus O
-ls O
+licus B-PER
+ls I-PER
 |
- | O
+ | I-PER
 n O
-Htsi B-ORG
-lessain I-ORG
-Smmhilicirx B-MISC
+Htsi B-PER
+lessain I-PER
+Smmhilicirx B-PER
 |
- | I-MISC
-Dout I-MISC
-fe I-MISC
-suis I-MISC
-le I-MISC
-Vori I-MISC
+ | I-PER
+Dout I-PER
+fe I-PER
+suis I-PER
+le O
+Vori B-LOC
 lEmédire O
 , O
 . O
@@ -9066,8 +9066,8 @@ MHlapprelnit B-MISC
 un O
 alfronttce O
 Eronnols B-MISC
-tuolton O
-lonneriel O
+tuolton I-MISC
+lonneriel I-MISC
 . O
 |
  | O
@@ -9090,8 +9090,8 @@ Ouïs O
 1 O
 |
  | O
-A O
-dlevine O
+A B-LOC
+dlevine I-LOC
 les O
 ordris O
 de O
@@ -9101,7 +9101,7 @@ r O
 |
 | O
 Al B-PER
-aceourt O
+aceourt I-PER
 , O
 et O
 le O
@@ -9110,12 +9110,12 @@ de O
 qui O
 la O
 main O
-st B-LOC
-Abrs I-LOC
+st B-PER
+Abrs I-PER
 . O
 |
  | O
-Disparali B-MISC
+Disparali B-PER
 toutidcoup O
 siur O
 som O
@@ -9130,7 +9130,7 @@ Laissant O
 apres O
 lui O
 , O
-danis O
+danis B-PER
 les O
 dirs O
 , O
@@ -9156,8 +9156,8 @@ ient O
 . O
 le O
 Aammbeau B-LOC
-de I-LOC
-Vumivers I-LOC
+de O
+Vumivers B-MISC
 , O
 |
 | O
@@ -9190,14 +9190,14 @@ PARNASSE- O
 --iL.-- O
 |
   | O
-DEED O
-D O
-DE O
-E B-PER
+DEED B-LOC
+D I-LOC
+DE I-LOC
+E I-LOC
 |
- | I-PER
-GHANT I-PER
-DEPRLÉMIE I-PER
+ | I-LOC
+GHANT O
+DEPRLÉMIE B-MISC
 . O
 |
  | O
@@ -9216,7 +9216,7 @@ Empirée I-LOC
 . O
 Sous O
 les O
-lainhris O
+lainhris B-LOC
 d' O
 unc O
 woule O
@@ -9227,32 +9227,32 @@ Eclairee B-LOC
 | O
 Desoleils B-PER
 lotis O
-pluis O
-radicury O
+pluis B-PER
+radicury I-PER
 |
 
-| O
+| I-PER
 Que O
 celui O
 qui O
 brille O
-d O
-nos O
-yeur O
+d B-LOC
+nos I-LOC
+yeur I-LOC
 , O
 |
  | O
 Ai O
 . O
-Cond B-PER
-duhe I-PER
+Cond O
+duhe O
 salle O
 pavéo O
 .. O
 |
 | O
-S' O
-emieraudi O
+S' B-MISC
+emieraudi I-MISC
 : O
 ct O
 de O
@@ -9260,7 +9260,7 @@ rubis O
 , O
 |
 | O
-Elsurnn B-LOC
+Elsurnn B-PER
 : O
 .. O
 We O
@@ -9270,8 +9270,8 @@ thagnilique O
 | O
 forme O
 dune O
-lopaie O
-uuicque O
+lopaie B-MISC
+uuicque I-MISC
 , O
 .. O
 |
@@ -9281,12 +9281,12 @@ miaitre O
 de O
 l' O
 Olyirpie B-LOC
-aesis O
-s. O
+aesis I-LOC
+s. I-LOC
 |
-| O
-DDes O
-Vicux O
+| I-LOC
+DDes I-LOC
+Vicux I-LOC
 presidait O
 l' O
 aesemihlee O
@@ -9298,21 +9298,21 @@ mion O
 deseszionr O
 . O
 l O
-Sferid B-PER
-Jupiterior I-PER
+Sferid B-LOC
+Jupiterior O
 |
- | I-PER
-d I-PER
-Une I-PER
-region I-PER
-desôle I-PER
+ | O
+d O
+Une O
+region O
+desôle O
 |
  | O
 ' O
-Eenrissait O
+Eenrissait B-LOC
 souis O
-uri B-PER
-joug I-PER
+uri O
+joug O
 de O
 ler B-LOC
 . O
@@ -9338,8 +9338,8 @@ l' O
 ambition O
 |
   | O
-Buin B-PER
-lyrari I-PER
+Buin B-LOC
+lyrari I-LOC
 , O
 dont O
 Vaine B-PER
@@ -9362,15 +9362,15 @@ les O
 mieres O
 , O
 les O
-Lemmmies B-ORG
-ftremblariles I-ORG
+Lemmmies B-MISC
+ftremblariles I-MISC
 , O
 |
  | O
 n O
 a O
-fenour O
-devaiil O
+fenour B-PER
+devaiil I-PER
 més O
 aulels,-- O
 |
@@ -9380,7 +9380,7 @@ aulels,-- O
 |
 
  | O
-TENACE- O
+TENACE- B-MISC
 |
 | O
 1 O
@@ -9388,25 +9388,25 @@ TENACE- O
 |
  | O
 n O
-Hle B-PER
+Hle B-LOC
 lendzient O
 leurs O
-miainis O
-suppliaiies O
+miainis B-PER
+suppliaiies I-PER
 , O
 |
  | O
-S O
-Simpilerl O
+S B-MISC
+Simpilerl I-MISC
 roi O
 des O
-imimortels O
+imimortels B-MISC
 , O
 . O
 |
  | O
-M O
-Disaicntclles O
+M B-MISC
+Disaicntclles I-MISC
 , O
 sois O
 - O
@@ -9419,22 +9419,22 @@ d O
 . O
 Que O
 le O
-Rainbeait B-ORG
-du I-ORG
-jour I-ORG
-ne I-ORG
-brille I-ORG
-plus O
+Rainbeait B-MISC
+du I-MISC
+jour I-MISC
+ne I-MISC
+brille I-MISC
+plus I-MISC
 pour O
 nous O
 , O
 |
  | O
-DOis B-MISC
+DOis B-LOC
 . O
 quo O
 notre O
-Courinenl B-LOC
+Courinenl B-MISC
 anisse O
 , O
 .. O
@@ -9453,14 +9453,14 @@ l. O
 d O
 |
  | O
-J. O
-Du O
-ligrecouronne O
+J. B-PER
+Du I-PER
+ligrecouronne I-PER
 dont O
 le O
 jorg O
-nole O
-oppirine O
+nole B-PER
+oppirine I-PER
 , O
 |
 | O
@@ -9483,9 +9483,9 @@ I I-MISC
 |
 | O
 . O
-Dands B-LOC
-tiouis B-PER
-L. I-PER
+Dands B-PER
+tiouis I-PER
+L. O
 Lios O
 aliciennes O
 Lois B-MISC
@@ -9493,8 +9493,8 @@ Lois B-MISC
 . O
 |
 | O
-w O
-A O
+w B-MISC
+A I-MISC
 celte O
 Camille B-PER
 de I-PER
@@ -9502,15 +9502,15 @@ Rois I-PER
 , O
 |
 | O
-.Quijaminis O
+.Quijaminis B-MISC
 ne O
 virent O
 de O
 glsirs O
 |
 | O
-D O
-Juo O
+D B-PER
+Juo I-PER
 dans O
 l' O
 ainorir O
@@ -9520,7 +9520,7 @@ sujels O
 , O
 |
  | O
-QUi O
+QUi B-PER
 , O
 pour O
 consacrer O
@@ -9529,12 +9529,12 @@ Memroire B-MISC
 , O
 |
 | O
-M. B-PER
-Furenl I-PER
-Assei O
-do O
-leuis O
-Bichilails O
+M. O
+Furenl B-LOC
+Assei B-PER
+do I-PER
+leuis I-PER
+Bichilails I-PER
 , O
 s O
 ... O
@@ -9542,8 +9542,8 @@ s O
  | O
 eT O
 quE O
-l. O
-Lureux B-LOC
+l. B-LOC
+Lureux I-LOC
 , O
 le O
 fanatisine O
@@ -9553,10 +9553,10 @@ n. O
 On O
 l O
 , O
-reporescs O
+reporescs B-LOC
 , O
 .. O
-Inais O
+Inais B-PER
 que O
 le O
 repeniir O
@@ -9576,23 +9576,23 @@ despotisrio O
 |
 | O
 w O
-Rappellent B-ORG
+Rappellent O
 d O
-giandle O
-ctisicci O
+giandle B-PER
+ctisicci I-PER
 , O
-n. B-PER
-Je I-PER
-seulis I-PER
+n. O
+Je O
+seulis O
 tressaillir- O
 |
 | O
 n O
 Vhorreur B-PER
-ct O
+ct I-PER
 . O
 de O
-pilie O
+pilie B-LOC
 , O
 mies O
 cutrailles.divinesieo O
@@ -9602,8 +9602,8 @@ cutrailles.divinesieo O
 D' B-MISC
 Assis I-MISC
 sur O
-dovasles O
-tuiresy O
+dovasles B-PER
+tuiresy I-PER
 . O
 |
 | O
@@ -9623,14 +9623,14 @@ Gicl B-LOC
 le O
 droit O
 de O
-Vecrasers- B-LOC
+Vecrasers- B-PER
 |
- | O
+ | I-PER
 Récomiplissant B-PER
 Varrei I-PER
-de I-PER
-ma I-PER
-colero I-PER
+de O
+ma O
+colero O
 , O
 --- O
 |
@@ -9672,18 +9672,18 @@ PARRASSE B-LOC
 . O
 |
  | O
-SEul O
+SEul B-LOC
 , O
 st B-LOC
 Pier I-LOC
-de O
-V' O
+de I-LOC
+V' I-LOC
 unigie O
 appui O
 |
 | O
 w O
-Qivil B-LOC
+Qivil O
 cherche O
 en O
 su O
@@ -9694,7 +9694,7 @@ auducey O
 | O
 i O
 liveut O
-Tutier B-MISC
+Tutier O
 , O
 ef O
 ne O
@@ -9721,7 +9721,7 @@ n O
 Desupiler B-PER
 qui O
 le O
-letrgsseyre O
+letrgsseyre B-LOC
 . O
 |
 | O
@@ -9730,8 +9730,8 @@ Sllomtbe B-PER
 . O
 nélida.s O
 .. O
-Etses O
-sisiels O
+Etses B-PER
+sisiels I-PER
 , O
 |
 | O
@@ -9746,8 +9746,8 @@ puis O
 , O
 |
 | O
-I B-LOC
-Recouvient O
+I B-PER
+Recouvient I-PER
 aclr O
 ilnslre O
 Face O
@@ -9759,24 +9759,24 @@ Qui O
 leur O
 proinet O
 , O
-Coinple B-LOC
-autrclois I-LOC
+Coinple B-PER
+autrclois I-PER
 , O
 |
 | O
 n O
 Auiant B-PER
-deplres O
+deplres I-PER
 que O
 de O
-Rois B-PER
+Rois B-MISC
 , O
 . O
 |
 | O
 idecrois O
 que O
-Supiler B-PER
+Supiler B-LOC
 , O
 par O
 ce O
@@ -9786,9 +9786,9 @@ insigne O
 |
 | O
 . O
-N O
-Dequelyrie B-LOC
-cncens O
+N B-PER
+Dequelyrie I-PER
+cncens I-PER
 se O
 montrail O
 digne.e O
@@ -9800,12 +9800,12 @@ n' O
 ai O
 fail O
 que O
-decingrals O
+decingrals B-PER
 , O
 ---- O
 |
   | O
-Wescoupables O
+Wescoupables B-LOC
 , O
 dont O
 je O
@@ -9823,18 +9823,18 @@ jalousif O
  | O
 n O
 Voirces B-PER
-Rois I-PER
+Rois O
 , O
 que O
-Vairetires B-LOC
-- O
+Vairetires B-MISC
+- I-MISC
 |
-| O
-... O
+| I-MISC
+... I-MISC
 |
 
- | O
-Delapondyf B-PER
+ | I-MISC
+Delapondyf I-MISC
 , O
 oi O
 leuisricils O
@@ -9845,8 +9845,8 @@ presgiliguorés O
  | O
 Sommes B-LOC
 , O
-chef́ris O
-jushy B-LOC
+chef́ris B-PER
+jushy I-PER
 a O
 Vidoldiric B-PER
 , O
@@ -9859,15 +9859,15 @@ le O
 premierreprit O
 |
  | O
-A. O
-lee O
+A. B-PER
+lee I-PER
 eceplro O
 que O
 non O
 bras O
 , O
-pai O
-pilie O
+pai B-PER
+pilie I-PER
 , O
 lui O
 rendit,- O
@@ -9886,16 +9886,16 @@ simbra O
 .. O
 |
  | O
-Eirante B-MISC
+Eirante O
 slir O
 la O
-Five B-ORG
-Sormbreeee I-ORG
+Five B-MISC
+Sormbreeee I-MISC
 |
- | I-ORG
-Mais I-ORG
-le I-ORG
-soimmeil I-ORG
+ | I-MISC
+Mais O
+le O
+soimmeil O
 de O
 Véterielle B-LOC
 uult O
@@ -9929,7 +9929,7 @@ de O
 |
  | O
 n O
-Hermait O
+Hermait B-PER
 ses O
 paupieres O
 d O
@@ -9937,7 +9937,7 @@ peino O
 , O
 |
  | O
-QUe O
+QUe B-PER
 J' O
 ai O
 su O
@@ -9954,64 +9954,64 @@ hainel O
 - O
 n O
 Des O
-millione O
+millione B-LOC
 d' O
 adoraleurs O
 . O
 |
  | O
-Vernier O
+Vernier B-LOC
 , O
 pour O
-lul O
+lul B-ORG
 , O
 . O
 des O
-houneurs O
+houneurs B-PER
 , O
 |
 | O
 i O
-Ausquels B-ORG
-loufe O
+Ausquels B-PER
+loufe I-PER
 la O
 pompe O
 humaine O
 , O
 |
 | O
-i B-LOC
-Selespèje I-LOC
+i B-PER
+Selespèje I-PER
 , O
 n' O
-alteindrs O
-pluis O
-l. O
+alteindrs B-PER
+pluis I-PER
+l. I-PER
 , O
 |
 | O
-.A O
-Digne O
-herilier O
+.A B-LOC
+Digne B-PER
+herilier I-PER
 , O
 dit O
 - O
 an O
 , O
-deses O
-verlus O
+deses B-PER
+verlus I-PER
 , O
 |
  | O
-Woi B-LOC
+Woi B-PER
 je O
 dis O
 , O
 un O
 Jour B-MISC
-qu' I-MISC
-oi I-MISC
-gheelses I-MISC
+qu' O
+oi O
+gheelses O
 . O
 |
  | O
@@ -10038,8 +10038,8 @@ vcul O
 , O
 d' O
 un O
-Sacre B-MISC
-imposdnt I-MISC
+Sacre B-PER
+imposdnt I-PER
 . O
 |
   | O
@@ -10061,7 +10061,7 @@ lete O
 . O
 |
  | O
-Lessoldals B-LOC
+Lessoldals O
 , O
 etlepeiple O
 , O
@@ -10069,7 +10069,7 @@ et O
 la O
 coui O
 , O
-tout' O
+tout' B-MISC
 apprete O
 , O
 |
@@ -10087,19 +10087,19 @@ cicl O
 |
 | O
 a O
-I B-LOC
-Lhourine O
-jariais O
+I B-PER
+Lhourine I-PER
+jariais I-PER
 ne O
 vit O
-ricn O
+ricn B-PER
 de O
 pareil O
 , O
 : O
 |
  | O
-Vraimicist B-LOC
+Vraimicist B-PER
 , O
 je O
 sais O
@@ -10122,8 +10122,8 @@ solennels O
 |
 | O
 n O
-Cest B-LOC
-oi O
+Cest B-PER
+oi I-PER
 face O
 do O
 , O
@@ -10137,7 +10137,7 @@ Que O
 tout O
 doits' O
 accomplireci O
-Mlais B-LOC
+Mlais O
 peul O
 , O
 on O
@@ -10182,16 +10182,16 @@ Geschants O
 d' O
 amour O
 , O
-Celle O
-ivresse O
-publique O
-d. O
+Celle B-MISC
+ivresse I-MISC
+publique I-MISC
+d. I-MISC
 |
-| O
-" O
+| I-MISC
+" I-MISC
 |
- | O
-A----- B-LOC
+ | I-MISC
+A----- I-MISC
 |
 | O
 - O
@@ -10201,12 +10201,12 @@ A----- B-LOC
 |
 
  | O
-AR B-MISC
-PARNASSE- O
+AR B-LOC
+PARNASSE- B-PER
 |
 | O
 i. O
-Poilr B-PER
+Poilr B-LOC
 qui O
 coi O
 or O
@@ -10218,24 +10218,24 @@ d.-- O
 |
 | O
 n O
-Pour O
-qui O
-celle O
-poiipre O
-eclalanief O
+Pour B-MISC
+qui I-MISC
+celle I-MISC
+poiipre I-MISC
+eclalanief I-MISC
 . O
 |
 | O
-D. B-LOC
-Et I-LOC
+D. O
+Et O
 . O
 bien O
 ... O
 , O
-polr O
+polr B-PER
 qui O
 ccl O
-Cucens B-LOC
+Cucens O
 , O
 .- O
 |
@@ -10260,12 +10260,12 @@ tout O
 csl O
 pour O
 le O
-Rois B-LOC
+Rois O
 |
- | I-LOC
-D I-LOC
-Iit O
-rieniee O
+ | O
+D O
+Iit B-PER
+rieniee I-PER
 . O
 que O
 le O
@@ -10276,22 +10276,22 @@ moleor--- O
 |
  | O
 hant O
-dhonneurs O
-auii O
-Grands B-PER
+dhonneurs B-PER
+auii I-PER
+Grands I-PER
 de O
 la O
 . O
-lerre O
+lerre B-PER
 |
- | O
-A B-LOC
-Sohine I-LOC
+ | I-PER
+A O
+Sohine B-PER
 injure O
 au O
-Alattre B-MISC
-du I-MISC
-lonneire I-MISC
+Alattre B-ORG
+du I-ORG
+lonneire I-ORG
 , O
 .- O
 |
@@ -10307,17 +10307,17 @@ courrois O
  | O
 . O
 Aurait O
-rainci O
-ila O
-palienecseis O
+rainci B-PER
+ila I-PER
+palienecseis I-PER
 . O
 |
  | O
-MAis O
+MAis B-PER
 J' O
 ai O
-rouli O
-sarsir O
+rouli B-MISC
+sarsir I-MISC
 de O
 rouis.-- O
 |
@@ -10335,20 +10335,20 @@ cleiienee O
 | O
 n.du O
 , O
-pai O
-qrel O
-nioyens O
+pai B-PER
+qrel I-PER
+nioyens I-PER
 je O
 pourais O
 |
  | O
-Sanis B-LOC
-Eotasei I-LOC
+Sanis B-MISC
+Eotasei I-MISC
 , O
 les O
 ingrats O
-qrie O
-jai B-PER
+qrie B-PER
+jai I-PER
 faiis I-PER
 , O
 |
@@ -10378,9 +10378,9 @@ d O
 .. O
 |
 | O
-enuis B-PER
+enuis O
 , O
-Crière O
+Crière B-ORG
 de O
 co O
 sourire O
@@ -10393,7 +10393,7 @@ sourire O
 . O
 |
 | O
-Bl B-LOC
+Bl B-PER
 piiscant O
 et O
 si O
@@ -10413,13 +10413,13 @@ cmpire O
  | O
 Venris B-PER
 repiond I-PER
-a I-PER
-Supiler I-PER
+a O
+Supiler B-LOC
 . O
 |
  | O
-Mois O
-Vincline B-PER
+Mois B-MISC
+Vincline I-MISC
 pour O
 la O
 clémencessis.- O
@@ -10431,12 +10431,12 @@ clémencessis.- O
 | O
 . O
 d. O
-Ehoimie O
+Ehoimie B-PER
 eoit O
 mielire O
 et O
 ses O
-Rois B-PER
+Rois B-MISC
 et O
 ses O
 Bicux B-LOC
@@ -10446,7 +10446,7 @@ Bicux B-LOC
 ha O
 , O
 Jéesse B-PER
-desrls O
+desrls I-PER
 , O
 des O
 plaisirs O
@@ -10458,7 +10458,7 @@ jeux O
 77 O
 |
 | O
-RNUAHS B-ORG
+RNUAHS B-MISC
 . O
 |
 | O
@@ -10474,11 +10474,11 @@ Roi B-PER
 dont O
 le O
 fasto O
-loffenscs O
+loffenscs B-PER
 |
- | O
+ | I-PER
 n O
-Molio B-LOC
+Molio B-PER
 j' O
 ose O
 dire O
@@ -10505,7 +10505,7 @@ inon O
 . O
 peuple O
 dle O
-Cythere B-PER
+Cythere O
 , O
 |
 | O
@@ -10524,10 +10524,10 @@ i O
 Tant O
 il O
 est O
-hicn B-LOC
-daris O
-lo O
-coeur O
+hicn B-PER
+daris I-PER
+lo I-PER
+coeur I-PER
 de O
 Cspris B-LOC
 , O
@@ -10546,23 +10546,23 @@ plaire O
 .. O
 |
  | O
-Qiril B-LOC
+Qiril O
 soit O
 incouslant O
 . O
-at O
-leger O
+at B-PER
+leger I-PER
 , O
 . O
 |
  | O
-I O
-Jele O
-veus O
+I B-PER
+Jele I-PER
+veus I-PER
 , O
 imais O
-atissly B-LOC
-coimmie O
+atissly B-PER
+coimmie I-PER
 il O
 cst O
 douk O
@@ -10572,7 +10572,7 @@ alfable O
 |
  | O
 . O
-Etsui O
+Etsui B-PER
 fout O
 pŕhomme O
 d' O
@@ -10598,24 +10598,24 @@ aimnablel O
 |
  | O
 a O
-Toujours O
-vil O
+Toujours B-MISC
+vil I-MISC
 , O
 mais O
-Coujours B-MISC
-Eraitable I-MISC
+Coujours B-PER
+Eraitable I-PER
 , O
 |
 
 
 
 | O
-I B-LOC
-Toujoirrs B-PER
+I B-MISC
+Toujoirrs I-MISC
 sensible O
 d O
 de O
-lendres O
+lendres B-PER
 appas O
 , O
 . O
@@ -10623,40 +10623,40 @@ appas O
 | O
 a O
 Mais O
-loujours O
-pret O
+loujours B-PER
+pret I-PER
 a O
 voler O
 aux O
-commbats O
+commbats B-PER
 , O
 |
 | O
 a O
-Toujours O
-jaloux O
-du O
-surnonr O
-d' O
-invincibls O
+Toujours B-MISC
+jaloux I-MISC
+du I-MISC
+surnonr I-MISC
+d' I-MISC
+invincibls I-MISC
 , O
 |
 | O
 i O
-Hlals B-MISC
-Lotjours I-MISC
+Hlals B-PER
+Lotjours I-PER
 aux O
 regrels O
 que O
-ulars O
-soilsileiriblc.es O
+ulars B-LOC
+soilsileiriblc.es I-LOC
 . O
 |
 | O
 P. O
 Al B-PER
-lquipeut O
-sirriler O
+lquipeut I-PER
+sirriler I-PER
 contre O
 un O
 peuple O
@@ -10668,11 +10668,11 @@ o O
 Tout O
 d O
 ses O
-Rois B-PER
+Rois B-MISC
 , O
 il O
 les O
-adoref O
+adoref B-LOC
 |
 | O
 J B-PER
@@ -10689,15 +10689,15 @@ Et I-MISC
 ne I-MISC
 vois I-MISC
 pas I-MISC
-qu' O
-il O
-ouirags O
-le O
-ciels O
+qu' I-MISC
+il I-MISC
+ouirags I-MISC
+le I-MISC
+ciels I-MISC
 . O
 |
  | O
-I O
+I B-LOC
 Quel O
 mollarque O
 donc O
@@ -10717,12 +10717,12 @@ irinudlalaire O
 d O
 |
  | O
-lEQuel O
+lEQuel B-PER
 , O
 saus B-PER
-cu I-PER
-laire I-PER
-Vaveu I-PER
+cu O
+laire O
+Vaveu B-ORG
 , O
 |
  | O
@@ -10744,19 +10744,19 @@ d O
 |
  | O
 o O
-hequel O
+hequel B-PER
 , O
 sur O
 tes O
-huicls B-MISC
-consere O
+huicls B-PER
+consere I-PER
 Sil B-MISC
 Courouules I-MISC
 , O
 |
 | O
 . O
-Sanis B-LOC
+Sanis B-PER
 conlesser O
 quil O
 no O
@@ -10765,13 +10765,13 @@ doitqul O
 loi,.--- O
 |
  | O
-QUi O
+QUi B-PER
 n' O
 oceupe O
 un O
 si O
-liaut O
-cmmploi O
+liaut B-PER
+cmmploi I-PER
 , O
 |
 | O
@@ -10786,20 +10786,20 @@ eneous O
 qu' O
 on O
 lui O
-donned O
+donned B-PER
 |
 | O
 ' O
-ahlSiipiler B-ORG
+ahlSiipiler B-PER
 , O
 songè O
 bien O
 fiio O
 les O
-Bigux B-MISC
+Bigux B-PER
 |
- | I-MISC
-S' O
+ | I-PER
+S' I-PER
 Doivent O
 Stre O
 moiris O
@@ -10813,30 +10813,30 @@ absoudre O
 |
 | O
 . O
-U O
+U B-MISC
 Hl O
 que O
 tu O
 ne O
 porles O
 la O
-fouire O
+fouire B-LOC
 .. O
 --- O
 |
 | O
 . O
-JQuepoulr B-MISC
-godier O
-eucore O
-micun O
+JQuepoulr B-PER
+godier I-PER
+eucore I-PER
+micun I-PER
 |
-| O
+| I-PER
 - O
-Lebouheur B-PER
+Lebouheur O
 d' O
 etro O
-Génercuiee B-LOC
+Génercuiee O
 . O
 & O
 . O
@@ -10851,12 +10851,12 @@ Cyiheres B-PER
 |
 | I-PER
 Art́cart I-PER
-i O
-degouirait O
-di O
-maifre O
-dui O
-founerio O
+i I-PER
+degouirait I-PER
+di I-PER
+maifre I-PER
+dui I-PER
+founerio I-PER
 .. O
 |
 | O
@@ -10868,35 +10868,35 @@ iyetérieur O
 |
 | O
 Ratto B-PER
-cointrire O
-Criclismieresso B-PER
+cointrire I-PER
+Criclismieresso I-PER
 , O
 . O
 |
 | O
-isi O
-ioujouis O
-ajouile O
-d O
-Veniie O
+isi B-PER
+ioujouis I-PER
+ajouile I-PER
+d I-PER
+Veniie I-PER
 . O
 |
  | O
 Diegidco B-PER
 , O
-uin O
-charinc O
-do O
-pluisuaie O
-- O
+uin B-PER
+charinc I-PER
+do I-PER
+pluisuaie I-PER
+- I-PER
 |
-| O
-les O
-yeux O
-Cres B-LOC
+| I-PER
+les I-PER
+yeux I-PER
+Cres I-PER
 sur O
 la O
-Veesse B-LOC
+Veesse B-MISC
 , O
 . O
 |
@@ -10908,7 +10908,7 @@ Apaiser B-PER
 , O
 Ami B-PER
 , O
-soupiraifiei O
+soupiraifiei B-PER
 . O
 |
 | O
@@ -10942,11 +10942,11 @@ paidoniie O
 |
  | O
 a O
-Est O
-auesi O
-fort O
-que O
-lodieu O
+Est B-LOC
+auesi I-LOC
+fort I-LOC
+que I-LOC
+lodieu I-LOC
 qui O
 puiilsier O
 -- O
@@ -10963,10 +10963,10 @@ RNVAIII B-MISC
  | O
 e O
 Mais O
-lioy O
+lioy B-PER
 souvent O
-finclulyence O
-enilurcit O
+finclulyence B-PER
+enilurcit I-PER
 |
 | O
 les O
@@ -10977,8 +10977,8 @@ do O
 les O
 vaincrs O
 , O
-Et O
-hienist B-PER
+Et B-MISC
+hienist I-MISC
 une O
 prico O
 . O
@@ -10994,11 +10994,11 @@ prico O
 " O
 |
  | O
-Proiluit O
+Proiluit B-PER
 le O
-comblo O
-do O
-Vaidatder B-LOC
+comblo B-LOC
+do I-LOC
+Vaidatder I-LOC
 . O
 |
 | O
@@ -11010,7 +11010,7 @@ aussi O
 .. O
 |
  | O
-Copeuple B-MISC
+Copeuple B-PER
 infteto O
 ot O
 sucrillgs O
@@ -11042,16 +11042,16 @@ proilge O
 Mais O
 qui O
 , O
-pairr O
-hongier O
-ses O
-Nois B-MISC
+pairr B-PER
+hongier I-PER
+ses I-PER
+Nois I-PER
 , O
 . O
 |
  | O
 . O
-Viole B-PER
+Viole O
 , O
 confondl O
 tous O
@@ -11075,22 +11075,22 @@ Descalader B-LOC
 d' O
 enyahrir O
 la O
-Parndsss B-ORG
+Parndsss B-LOC
 y O
 : O
 |
  | O
-QUi O
+QUi B-PER
 , O
 pourun O
-nouréaussi(disans B-LOC
+nouréaussi(disans O
 un O
 nouveaudiou O
 ) O
 |
 | O
-D. B-PER
-Die I-PER
+D. O
+Die O
 alfcndlro O
 do O
 mid O
@@ -11099,21 +11099,21 @@ faiblesss O
 |
  | O
 Jue B-PER
-jo O
+jo I-PER
 lui O
-permeitrgi O
+permeitrgi B-PER
 d' O
 epuiiser O
-lo O
-Perniessdrrer B-MISC
+lo B-PER
+Perniessdrrer I-PER
 . O
 |
  | O
-Ditirec B-LOC
+Ditirec B-PER
 . O
-Jorir B-PER
-Sa I-PER
-Mageste I-PER
+Jorir O
+Sa O
+Mageste O
 . O
 : O
 c' O
@@ -11127,18 +11127,18 @@ d. O
 |
  | O
 Que O
-chactir O
+chactir B-LOC
 , O
 pour O
 lui O
-reudro O
-homimage O
+reudro B-PER
+homimage I-PER
 . O
 |
  | O
 ASotte B-MISC
 des O
-Reurs B-MISC
+Reurs O
 sur O
 soir O
 passage O
@@ -11161,28 +11161,28 @@ i O
 Lui O
 soicne O
 d. O
-Venvs O
-prodliqiiés O
+Venvs B-PER
+prodliqiiés I-PER
 , O
 |
 | O
 .. O
-SGuo O
+SGuo B-MISC
 lout O
 genoi O
-Réchiieso B-ORG
-ensd I-ORG
+Réchiieso O
+ensd O
 presenco O
 si O
 |
 | O
 a. O
 Sir' B-MISC
-on I-MISC
-le I-MISC
-benisso I-MISC
+on O
+le O
+benisso O
 , O
-ot O
+ot B-LOC
 gusir O
 Vonconso B-LOC
 . O
@@ -11192,7 +11192,7 @@ Vonconso B-LOC
 ET O
 qu' O
 a. O
-Vairain B-PER
+Vairain B-MISC
 qui O
 lonrie O
 dans O
@@ -11206,8 +11206,8 @@ diis O
 aLErté O
 pâle O
 , O
-aredtranspart B-MISC
-, I-MISC
+aredtranspart B-PER
+, O
 mitisss B-PER
 sosiooricerls I-PER
 , O
@@ -11216,11 +11216,11 @@ s. O
  | O
 a O
 Pour O
-pleie O
-dhonnerir O
+pleie B-PER
+dhonnerir I-PER
 , O
 il O
-Faut B-LOC
+Faut O
 . O
 encore O
 .. O
@@ -11228,7 +11228,7 @@ encore O
  | O
 uivra O
 de O
-monnéctai B-MISC
+monnéctai O
 si O
 doun O
 , O
@@ -11239,18 +11239,18 @@ ceux O
 |
 
  | O
-DE O
-PARNASSE-- O
+DE B-MISC
+PARNASSE-- I-MISC
 |
-| O
-38 O
+| I-MISC
+38 I-MISC
 |
- | O
-a O
-Lo O
+ | I-MISC
+a I-MISC
+Lo B-PER
 plers O
 minée O
-Alatteur O
+Alatteur B-LOC
 , O
 dans O
 la O
@@ -11274,12 +11274,12 @@ adore O
 | O
 a O
 Jupiler B-PER
-l O
+l I-PER
 ... O
 16 O
 pailo O
 savis O
-Rel B-ORG
+Rel B-PER
 : O
 |
 | O
@@ -11295,7 +11295,7 @@ frivole O
 |
 | O
 u O
-Trop B-PER
+Trop O
 sonvent O
 , O
 aux O
@@ -11314,8 +11314,8 @@ idolo O
 , O
 |
  | O
-Etje B-MISC
-Crsinsoir I-MISC
+Etje O
+Crsinsoir O
 . O
 Quil O
 sferia O
@@ -11327,7 +11327,7 @@ i O
 Qui O
 , O
 pour O
-justilieria O
+justilieria B-LOC
 plainte O
 , O
 |
@@ -11338,12 +11338,12 @@ Lu O
 nss O
 que O
 la O
-craintoise B-ORG
+craintoise B-LOC
 |
- | I-ORG
-Gar I-ORG
-lo I-ORG
-monde I-ORG
+ | O
+Gar O
+lo O
+monde O
 , O
 jamais O
 , O
@@ -11356,14 +11356,14 @@ iegards O
 |
  | O
 o O
-Riplie O
+Riplie B-PER
 d' O
 honneur O
 , O
 ni O
 plirs O
 de O
-Gloiro B-PER
+Gloiro B-LOC
 , O
 |
 | O
@@ -11378,8 +11378,8 @@ Thistoire B-PER
 , O
 |
  | O
-L. O
-Ruie B-LOC
+L. B-PER
+Ruie I-PER
 ce O
 perplo O
 , O
@@ -11392,7 +11392,7 @@ veur O
 . O
 |
  | O
-Memic O
+Memic B-PER
 de O
 la O
 pilie O
@@ -11401,8 +11401,8 @@ Dicukiir B-LOC
 . O
 |
  | O
-N. O
-Quianeltu O
+N. B-PER
+Quianeltu I-PER
 lais O
 lo O
 tour O
@@ -11414,12 +11414,12 @@ jarre O
 |
 | O
 . O
-n B-PER
-Eit I-PER
+n O
+Eit B-PER
 que O
 lon O
 char O
-Cliricclanit O
+Cliricclanit B-MISC
 , O
 |
  | O
@@ -11433,15 +11433,15 @@ brdlarit O
 | O
 . O
 y O
-En O
-desclimals O
+En B-MISC
+desclimals I-MISC
 . O
 pliis B-PER
 douix I-PER
 va O
 seinci O
 la O
-luiniero O
+luiniero B-LOC
 , O
 |
 | O
@@ -11452,9 +11452,9 @@ au O
 pays O
 , O
 Roi B-PER
-cncoi.- I-PER
+cncoi.- O
 |
- | I-PER
+ | O
 Du O
 noin O
 que O
@@ -11476,7 +11476,7 @@ Fapille B-MISC
 .- O
 |
 | O
-Arrete B-PER
+Arrete O
 loi O
 , O
 Plichuis B-LOC
@@ -11488,13 +11488,13 @@ Aiciddiien B-LOC
 |
 | O
 .. O
-N B-PER
-La I-PER
-hi I-PER
+N O
+La O
+hi O
 Virds B-MISC
-j I-MISC
-on I-MISC
-lolires I-MISC
+j O
+on O
+lolires O
 dare O
 |
  | O
@@ -11510,11 +11510,11 @@ lEbre B-MISC
 |
 | O
 . O
-A. O
-Frop B-PER
-heireitr O
+A. B-PER
+Frop I-PER
+heireitr I-PER
 ai O
-séini B-LOC
+séini O
 de O
 la O
 paier O
@@ -11530,7 +11530,7 @@ paier O
 |
 | O
 .. O
-J5 B-MISC
+J5 B-LOC
 |
 | O
 7 O
@@ -11574,20 +11574,20 @@ Mais O
 l O
 ' O
 o' O
-est́élui B-LOC
+est́élui O
 |
 | O
 . O
 n. O
 Qu' O
-Apollon O
-poureciee O
-dirferirekiai O
+Apollon B-PER
+poureciee I-PER
+dirferirekiai I-PER
 , O
 |
 | O
 s O
-Lelui O
+Lelui B-PER
 gud O
 supiter O
 décelui O
@@ -11600,21 +11600,21 @@ je O
 |
 | O
 - O
-Jupiler B-PER
+Jupiler O
 lui O
 pardonneris O
 . O
 eN O
 luI O
 , O
-pae O
+pae B-ORG
 un O
 predige O
 --- O
 |
  | O
-Ancoie O
-nourcaid O
+Ancoie B-PER
+nourcaid I-PER
 , O
 pour O
 les O
@@ -11622,14 +11622,14 @@ cicur O
 , O
 |
  | O
-Ld O
+Ld B-PER
 foudre O
 , O
-quie O
-le O
-Roi B-PER
-des I-PER
-Bieiir I-PER
+quie B-PER
+le I-PER
+Roi I-PER
+des O
+Bieiir B-LOC
 -- O
 |
 | O
@@ -11654,10 +11654,10 @@ Luniceile O
 .. O
 |
 | O
-jéclair B-PER
-siil O
-de O
-pres O
+jéclair B-LOC
+siil I-LOC
+de I-LOC
+pres I-LOC
 , O
 et O
 soudain O
@@ -11674,9 +11674,9 @@ soudain O
 u' O
 horrible O
 , O
-coup O
-de O
-fonnerie O
+coup B-MISC
+de I-MISC
+fonnerie I-MISC
 . O
 ---- O
 |
@@ -11697,12 +11697,12 @@ dicu O
 du O
 feu O
 , O
-Vulesin B-MISC
+Vulesin B-PER
 |
-| I-MISC
-e I-MISC
-ars I-MISC
-couspentes I-MISC
+| O
+e O
+ars O
+couspentes O
 canisure O
 |
 | O
@@ -11715,7 +11715,7 @@ quo O
 son O
 pere O
 l' O
-louise O
+louise B-PER
 , O
 |
  | O
@@ -11746,9 +11746,9 @@ Surprisés I-MISC
 que O
 la O
 peur O
-ful O
-pluis O
-pirissanie O
+ful B-PER
+pluis I-PER
+pirissanie I-PER
 qu' O
 elles O
 , O
@@ -11792,8 +11792,8 @@ siiraise- O
 e O
 Veniis B-PER
 , O
-guemibellil O
-oncors O
+guemibellil B-MISC
+oncors I-MISC
 . O
 - O
 |
@@ -11818,7 +11818,7 @@ d--- O
 . O
 |
 | O
-NE O
+NE B-LOC
 PARHASSE B-MISC
 |
  | O
@@ -11830,15 +11830,15 @@ alarme O
 , O
 |
  | O
-Gblait O
-lo O
-Roidlus B-PER
-cielsans O
-Couitro B-MISC
+Gblait B-PER
+lo I-PER
+Roidlus I-PER
+cielsans I-PER
+Couitro I-PER
 , O
 |
  | O
-Cétait O
+Cétait B-LOC
 supiler O
 alesarmie,,er.-- O
 |
@@ -11863,10 +11863,10 @@ Eimalgie B-MISC
 lui O
 , O
 son O
-frout O
-iristo O
-ot O
-chagrin O
+frout B-PER
+iristo I-PER
+ot I-PER
+chagrin I-PER
 , O
 . O
 |
@@ -11882,7 +11882,7 @@ aecltudle O
 . O
 |
 | O
-Lout B-PER
+Lout B-LOC
 decelait O
 sa O
 vivo O
@@ -11892,7 +11892,7 @@ iueguietuildinri O
 1 O
 |
  | O
-MAis O
+MAis B-PER
 , O
 bientôt O
 , O
@@ -11902,7 +11902,7 @@ des O
 Bieu B-PER
 |
 | O
-Reprend B-PER
+Reprend O
 sa O
 milicold O
 , O
@@ -11928,9 +11928,9 @@ frails O
 out O
 retiqure O
 leui O
-Pieris B-LOC
+Pieris B-PER
 , O
-leui O
+leui B-PER
 noblesse O
 , O
 .. O
@@ -11945,15 +11945,15 @@ ses O
 yeur O
 |
  | O
-Dit B-MISC
-assek I-MISC
+Dit O
+assek O
 qrie O
 sori O
 Coeui B-LOC
 n' O
-a O
-pliis O
-rion O
+a B-LOC
+pliis I-LOC
+rion I-LOC
 qii O
 l' O
 oppicise O
@@ -11975,23 +11975,23 @@ chlouissant O
 i B-LOC
 Court I-LOC
 dlu O
-Vion O
-lesiqire O
-aident,---- O
+Vion B-PER
+lesiqire I-PER
+aident,---- I-PER
+|
+ | I-PER
+Lit O
+, O
+suir B-PER
+ious I-PER
+, O
+Rre B-MISC
+los I-MISC
+nuages I-MISC
+, O
 |
  | O
-Lit B-LOC
-, O
-suir O
-ious O
-, O
-Rre B-PER
-los I-PER
-nuages I-PER
-, O
-|
- | O
-Eristes O
+Eristes B-LOC
 precuirscurs O
 des O
 orages O
@@ -12003,8 +12003,8 @@ dune O
 , O
 vois O
 , O
-lemenic O
-instant O
+lemenic B-PER
+instant I-PER
 - O
 |
  | O
@@ -12013,7 +12013,7 @@ le O
 calmno O
 d O
 la O
-lemmpeio B-ORG
+lemmpeio B-LOC
 , O
 |
 | O
@@ -12021,17 +12021,17 @@ lemmpeio B-ORG
 - O
 |
  | O
-Reclou B-LOC
-rephir B-LOC
-Auy I-LOC
+Reclou O
+rephir O
+Auy O
 aguilons O
 ... O
 |
  | O
-Le O
-Dicu B-MISC
-quinous I-MISC
-menaeg I-MISC
+Le B-LOC
+Dicu I-LOC
+quinous I-LOC
+menaeg I-LOC
 , O
 ct O
 que O
@@ -12056,7 +12056,7 @@ supiter O
 egscons O
 lous O
 de O
-Crermir- B-PER
+Crermir- B-ORG
 |
 | O
 17 O
@@ -12064,7 +12064,7 @@ Crermir- B-PER
  | O
 PRIEZ B-ORG
 |
- | I-ORG
+ | O
 Du O
 prodigo O
 eclalant O
@@ -12080,11 +12080,11 @@ accomplir O
 |
 | O
 W O
-Crstlo O
-dostin O
+Crstlo B-PER
+dostin I-PER
 qui O
-mo O
-rippello O
+mo B-PER
+rippello I-PER
 .- O
 |
 | O
@@ -12099,20 +12099,20 @@ i O
 .. O
 |
 | O
-Wno B-MISC
-promgsse O
-solennellce O
+Wno B-PER
+promgsse I-PER
+solennellce I-PER
 . O
 , O
 |
  | O
-S B-LOC
+S O
 lo O
 jour O
 qu' O
 a O
-cnon O
-juslo O
+cnon B-PER
+juslo I-PER
 couirouy O
 |
  | O
@@ -12127,18 +12127,18 @@ fillous O
  | O
 . O
 Quand O
-J' B-MISC
-vouS I-MISC
-́post I-MISC
-mion I-MISC
-tonnierio I-MISC
+J' O
+vouS O
+́post O
+mion O
+tonnierio O
 , O
 |
 | O
 a. O
-Cohiont B-LOC
-d' O
-aroir O
+Cohiont B-PER
+d' I-PER
+aroir I-PER
 humilie O
 -- O
 |
@@ -12154,21 +12154,21 @@ lerios O
  | O
 . O
 Et O
-Que B-MISC
-, I-MISC
-de I-MISC
-mon I-MISC
-ceeur I-MISC
-la I-MISC
-pilis I-MISC
+Que O
+, O
+de O
+mon O
+ceeur O
+la O
+pilis B-LOC
 , O
 |
 | O
-D B-PER
-Kutonlin I-PER
-hanni O
+D O
+Kutonlin B-PER
+hanni I-PER
 ld O
-colero O
+colero B-PER
 : O
 |
 | O
@@ -12176,8 +12176,8 @@ i O
 do O
 vis O
 les O
-Cauavres O
-Piriaris- O
+Cauavres B-LOC
+Piriaris- I-LOC
 |
 | O
 i O
@@ -12193,8 +12193,8 @@ palisi O
 . O
 , O
 Ctmon B-PER
-aina O
-firue O
+aina I-PER
+firue I-PER
 -- O
 |
  | O
@@ -12205,11 +12205,11 @@ dicla O
 loplute O
 eaint O
 des O
-sermieus O
+sermieus B-PER
 |
 | O
 . O
-adejuiai O
+adejuiai B-LOC
 par O
 le O
 Slye B-LOC
@@ -12243,23 +12243,23 @@ a O
 l' O
 astre O
 hirillant O
-qul O
-miesiire O
+qul B-PER
+miesiire I-PER
 les O
 joure O
 , O
 --- O
 |
  | O
-Raintnciait O
+Raintnciait B-LOC
 l' O
 anniversaire O
 |
  | O
-Du O
-triomiplie O
+Du B-PER
+triomiplie I-PER
 que O
-jo O
+jo B-PER
 pleurais O
 : O
 |
@@ -12270,11 +12270,11 @@ pleurais O
 o O
 SI O
 les O
-morlcls O
+morlcls B-LOC
 , O
-pai O
-queleju' O
-hortense O
+pai B-MISC
+queleju' I-MISC
+hortense I-MISC
 , O
 |
 | O
@@ -12305,7 +12305,7 @@ DCegianel B-MISC
 jour O
 , O
 . O
-cc O
+cc B-ORG
 jour O
 etindulgence- O
 |
@@ -12348,37 +12348,37 @@ PARNASSE O
 : O
 |
  | O
-PArdon B-MISC
-4 O
+PArdon B-LOC
+4 I-LOC
 . O
 lon B-PER
 iclold I-PER
 , O
-d B-PER
-lou I-PER
-rol O
+d O
+lou B-PER
+rol I-PER
 , O
 . O
 |
 | O
 I B-LOC
-loncens O
-grie O
-fe O
-voulnis O
+loncens I-LOC
+grie I-LOC
+fe I-LOC
+voulnis I-LOC
 pour O
 moi O
 , O
 . O
 |
 | O
-I B-LOC
-Jolaijursec B-PER
+I B-PER
+Jolaijursec I-PER
 . O
 je O
 lo O
 pariloniie O
-V8 B-MISC
+V8 O
 . O
 , O
 à. O
@@ -12396,8 +12396,8 @@ apollon B-PER
 , O
 |
 | O
-w B-PER
-Partous I-PER
+w B-MISC
+Partous I-MISC
 les O
 dlictin.l O
 ci O
@@ -12408,8 +12408,8 @@ foucke O
 | O
 n O
 ' O
-Lesermieni B-LOC
-sorli O
+Lesermieni B-MISC
+sorli I-MISC
 de O
 la O
 boricho O
@@ -12417,15 +12417,15 @@ d O
 .. O
 |
 | O
-p B-PER
+p O
 fit O
-gu' O
-as O
-li O
-prorrie O
-cli O
-sion O
-Monid B-LOC
+gu' B-PER
+as I-PER
+li I-PER
+prorrie I-PER
+cli I-PER
+sion I-PER
+Monid I-PER
 . O
 |
 | O
@@ -12435,14 +12435,14 @@ lu O
 fure O
 yjug O
 lo O
-Parnidsse B-MISC
+Parnidsse O
 , O
 |
 | O
 n O
-Ouo O
-mon O
-herifage O
+Ouo B-MISC
+mon I-MISC
+herifage I-MISC
 serait O
 , O
 |
@@ -12466,41 +12466,41 @@ uetivain O
 lEs O
 gEnśnon O
 , O
-lon B-LOC
-Cls I-LOC
-lo O
-supplierdie O
+lon B-PER
+Cls I-PER
+lo I-PER
+supplierdie I-PER
 |
  | O
-Le O
-Dućentrée O
+Le B-MISC
+Dućentrée I-MISC
 d' O
 une O
 ofleiso O
 |
 | O
 . O
-Qiri O
+Qiri B-LOC
 doit O
-sè O
-relechir O
+sè B-LOC
+relechir I-LOC
 sur O
-loificr O
+loificr B-ORG
 |
 | O
 . O
 Lars B-PER
-poini O
+poini I-PER
 de O
-détour B-PER
+détour B-MISC
 , O
 la O
 disiacica O
 |
 | O
-De B-PER
-Supiler I-PER
-jueques O
+De O
+Supiler B-PER
+jueques I-PER
 I O
 mol O
 , O
@@ -12510,10 +12510,10 @@ a O
 Eetelle B-LOC
 donc O
 si O
-granile O
+granile B-PER
 , O
-guuirie O
-lisjuie O
+guuirie B-PER
+lisjuie I-PER
 . O
 |
 | O
@@ -12528,37 +12528,37 @@ au O
 puiisse O
 comhler O
 la O
-mesiria B-LOC
-d I-LOC
----- I-LOC
+mesiria O
+d O
+---- O
 |
- | I-LOC
-Etnestlu I-LOC
-prertion I-LOC
-pero I-LOC
+ | O
+Etnestlu B-MISC
+prertion I-MISC
+pero I-MISC
 , O
-duissi O
-hien B-MISC
-quemionroid I-MISC
+duissi B-PER
+hien I-PER
+quemionroid I-PER
 . O
 |
 | O
 - O
 Phlhien B-PER
 , O
-iie O
+iie B-PER
 le O
 matire O
-elu O
-morielo O
+elu B-PER
+morielo I-PER
 , O
 |
 | O
 ' O
 Parle B-MISC
-, O
-mon O
-FIls B-MISC
+, I-MISC
+mon I-MISC
+FIls I-MISC
 , O
 parle O
 avcc O
@@ -12569,11 +12569,11 @@ liberté O
 Et O
 voyoris O
 si O
-famnais O
-ion O
-cacur O
+famnais B-PER
+ion I-PER
+cacur I-PER
 d O
-resisle O
+resisle B-LOC
 |
 | O
 .. O
@@ -12586,7 +12586,7 @@ seconddi O
 - O
 |
  | O
-Etvaloril B-MISC
+Etvaloril O
 , O
 si O
 l O
@@ -12598,7 +12598,7 @@ ciel O
 |
 | O
 . O
-Wn O
+Wn B-MISC
 porle O
 plus O
 digne O
@@ -12607,8 +12607,8 @@ envie O
 |
 | O
 a O
-Que O
-celni O
+Que B-MISC
+celni I-MISC
 quic O
 je O
 le O
@@ -12616,7 +12616,7 @@ couiled O
 |
 
 | O
-RRVAIIR.--- O
+RRVAIIR.--- B-PER
 |
  | O
 39 O
@@ -12631,7 +12631,7 @@ mioi O
 quel O
 cit B-PER
 lou I-PER
-parell,--- O
+parell,--- I-PER
 |
  | O
 avril O
@@ -12640,9 +12640,9 @@ Giridant B-MISC
 le I-MISC
 char I-MISC
 dlu I-MISC
-soleil,-- I-MISC
+soleil,-- O
 |
- | I-MISC
+ | O
 I' O
 hui O
 mmarches O
@@ -12652,7 +12652,7 @@ lriammplio B-LOC
 au O
 fait O
 . O
-roir O
+roir B-PER
 a O
 la O
 lerre O
@@ -12677,22 +12677,22 @@ poripeu O
 .. O
 |
 | O
-- B-PER
-Aoulans I-PER
+- O
+Aoulans O
 , O
 si O
 digne O
-pout O
-aira O
+pout B-PER
+aira I-PER
 --- O
 |
  | O
 à O
-N' O
-abienir O
-lenceus O
-deson O
-miiailro O
+N' B-MISC
+abienir I-MISC
+lenceus I-MISC
+deson I-MISC
+miiailro I-MISC
 , O
 ---- O
 |
@@ -12705,11 +12705,11 @@ pour O
 lo O
 pero O
 des O
-Clieun.je B-MISC
+Clieun.je B-ORG
 |
- | I-MISC
-a I-MISC
-Gianel I-MISC
+ | O
+a O
+Gianel B-LOC
 , O
 porisse O
 pai O
@@ -12719,7 +12719,7 @@ sinprudened O
 |
 | O
 -Dout O
-Supiter B-MISC
+Supiter B-LOC
 , O
 commie O
 Apotton,.-- O
@@ -12728,16 +12728,16 @@ Apotton,.-- O
 PGarelel B-MISC
 jaenais O
 la O
-souivenanco,.- B-MISC
+souivenanco,.- O
 |
-| I-MISC
----- I-MISC
+| O
+---- O
 |
- | I-MISC
+ | O
 a O
-Priariel B-PER
-Varidlacieun I-PER
-Thaïton O
+Priariel B-MISC
+Varidlacieun B-ORG
+Thaïton I-ORG
 , O
 --- O
 |
@@ -12747,8 +12747,8 @@ trop O
 coufiant O
 cu O
 des O
-innins O
-inhiahiles O
+innins B-PER
+inhiahiles I-PER
 . O
 |
 | O
@@ -12776,7 +12776,7 @@ revers O
 | O
 D. B-PER
 Ri I-PER
-Collemieni O
+Collemieni I-PER
 exposd O
 lunivers O
 : O
@@ -12823,10 +12823,10 @@ senllainiier O
 | O
 a O
 de O
-Pus B-LOC
-conlraint O
+Pus B-ORG
+conlraint I-ORG
 dò O
-Wiminoler B-PER
+Wiminoler B-LOC
 , O
 -- O
 |
@@ -12845,9 +12845,9 @@ tienne,-- O
  | O
 Quielte B-LOC
 donteur O
-Cutégalo O
-à'la O
-miennie O
+Cutégalo B-PER
+à'la I-PER
+miennie I-PER
 di-- O
 |
 | O
@@ -12860,21 +12860,21 @@ amnaii--- O
 |
  | O
 a O
-Quon O
+Quon B-PER
 r'appelat O
 ledieu O
 du O
 jouir--- O
 |
  | O
-E---- O
+E---- B-LOC
 |
 | O
 - O
 |
 | O
-HE B-LOC
-PARNASSE I-LOC
+HE O
+PARNASSE B-MISC
 |
 | O
 30 O
@@ -12884,10 +12884,10 @@ J' O
 ai O
 voulu O
 , O
-Ial B-LOC
-laif O
-plirs O
-cncoid O
+Ial B-PER
+laif I-PER
+plirs I-PER
+cncoid I-PER
 : O
 - O
 |
@@ -12917,7 +12917,7 @@ l' O
 alors O
 |
 | O
-ACtégal B-LOC
+ACtégal B-MISC
 du O
 preuriir O
 des O
@@ -12930,20 +12930,20 @@ loi O
 , O
 pour O
 les O
-licns O
+licns B-LOC
 , O
-conle O
-Ccfis B-PER
-ambroisie O
+conle B-PER
+Ccfis I-PER
+ambroisie I-PER
 , O
 |
  | O
-Rivalo B-MISC
+Rivalo B-LOC
 du O
 riectir O
 . O
 le O
-Cieĺ O
+Cieĺ B-LOC
 , O
 |
  | O
@@ -12974,32 +12974,32 @@ tant O
 de O
 lreurs O
 , O
-lo O
+lo B-PER
 |
- | O
-' O
-Tuprerois B-LOC
+ | I-PER
+' I-PER
+Tuprerois I-PER
 , O
-lil O
-sraing O
+lil B-PER
+sraing I-PER
 un O
 putrggss O
 , O
 |
  | O
-Etteu B-LOC
-qiie O
+Etteu B-PER
+qiie I-PER
 , O
-dupiier O
+dupiier B-MISC
 sengage O
 . O
 |
  | O
-Ate O
-vensere O
+Ate B-PER
+vensere I-PER
 Mlais B-LOC
 , O
-Poisson B-PER
+Poisson B-LOC
 , O
 . O
 |
@@ -13009,7 +13009,7 @@ delelaidits O
 , O
 le O
 jour O
-gil O
+gil B-MISC
 . O
 , O
 noiis B-LOC
@@ -13021,10 +13021,10 @@ a O
 tst O
 un O
 jour O
-saeyf O
+saeyf B-PER
 . O
-panr O
-tor O
+panr B-ORG
+tor I-ORG
 . O
 porfs B-LOC
 , O
@@ -13034,8 +13034,8 @@ porfs B-LOC
 |
 | O
 a O
-Jour O
-dineluigenes O
+Jour B-MISC
+dineluigenes I-MISC
 , O
 et O
 de O
@@ -13046,25 +13046,25 @@ pardon O
  | O
 Gui B-PER
 proserit O
-lout B-PER
-arrfi I-PER
-sevtre I-PER
+lout O
+arrfi O
+sevtre O
 s O
 .. O
 |
 | O
 a O
-Du O
-mere O
+Du B-PER
+mere I-PER
 , O
 de O
 dois O
 miahsiepir O
 |
 | O
-.la B-MISC
+.la O
 , O
-volonie O
+volonie B-LOC
 , O
 de O
 , O
@@ -13083,11 +13083,11 @@ fondis O
 . O
 |
   | O
-Aved O
-le O
-drgit O
+Aved B-PER
+le I-PER
+drgit I-PER
 de O
-frspperou O
+frspperou B-PER
 d' O
 ahsoudiais O
 .... O
@@ -13124,33 +13124,33 @@ ahsoudiais O
 1 O
 |
  | O
-À O
-demain O
+À B-MISC
+demain I-MISC
 , O
 mien O
 Wle B-MISC
-, O
-ii B-MISC
+, I-MISC
+ii I-MISC
 seras I-MISC
-fgorile B-PER
-y. I-PER
-: O
+fgorile I-MISC
+y. I-MISC
+: I-MISC
 . O
 |
 | O
 ̀ O
-Poniotroicete B-PER
-ders O
-c̀aeue O
-us O
-dosuion O
+Poniotroicete B-MISC
+ders I-MISC
+c̀aeue I-MISC
+us I-MISC
+dosuion I-MISC
 e O
 rouls O
 . O
 |
  | O
-Oiipe B-MISC
-paile I-MISC
+Oiipe B-LOC
+paile O
 piys.voie O
 , O
 n. O
@@ -13158,7 +13158,7 @@ acgserment O
 : O
 |
 | O
-ERVAII.- B-LOC
+ERVAII.- B-MISC
 |
 | O
 i O
@@ -13173,20 +13173,20 @@ Rrmamnent.- B-MISC
 |
 | I-MISC
 i I-MISC
-Euf O
-Chranle O
+Euf B-PER
+Chranle I-PER
 , O
-los B-MISC
-oniles I-MISC
-ilu I-MISC
-Loeyte.---- I-MISC
+los O
+oniles O
+ilu O
+Loeyte.---- B-MISC
 |
  | I-MISC
-Souelain I-MISC
-suepqnilicenl I-MISC
+Souelain B-PER
+suepqnilicenl I-PER
 . O
 leur O
-coury O
+coury B-LOC
 -- O
 |
 | O
@@ -13205,12 +13205,12 @@ desjoure O
 --- O
 |
  | O
-Voila B-MISC
+Voila O
 ses O
 rayone O
 au O
 plus O
-vidoee O
+vidoee B-MISC
 |
  | O
 Et O
@@ -13223,9 +13223,9 @@ conslerne O
 ----- O
 |
  | O
-Paisait O
-des O
-veur O
+Paisait B-PER
+des I-PER
+veur I-PER
 , O
 an O
 malire O
@@ -13235,10 +13235,10 @@ Connarre B-LOC
 .- O
 |
  | O
-Aveźs O
-lous O
-ses O
-paicils O
+Aveźs B-LOC
+lous I-LOC
+ses I-LOC
+paicils I-LOC
 , O
 humhlement O
 prostaine O
@@ -13285,14 +13285,14 @@ peie O
 - O
 |
 | O
---- B-LOC
-|
- | I-LOC
-D3- O
+--- O
 |
  | O
-LE O
-PARRASSE--- B-MISC
+D3- B-PER
+|
+ | I-PER
+LE I-PER
+PARRASSE--- O
 |
  | O
 Je O
@@ -13302,10 +13302,10 @@ rri O
 aici O
 |
  | O
-CHANT B-MISC
-TROISLLAIE.-- O
+CHANT B-LOC
+TROISLLAIE.-- I-LOC
 |
-| O
+| I-LOC
 - O
 dE O
 l O
@@ -13316,7 +13316,7 @@ l O
 | O
 - O
 | | O
-Paindsso B-LOC
+Paindsso O
 ollro O
 au O
 voyageur O
@@ -13325,17 +13325,17 @@ voyageur O
 De O
 loin O
 , O
-un' O
+un' B-LOC
 aspect O
 enchanteur O
 |
  | O
-Foril B-LOC
+Foril B-PER
 ce O
-quie O
+quie B-LOC
 la O
-bello O
-valure O
+bello B-LOC
+valure I-LOC
 . O
 --- O
 |
@@ -13393,7 +13393,7 @@ bosqiets O
 |
 | O
 - O
-Daris O
+Daris B-MISC
 leure O
 miiarices O
 fugitives O
@@ -13401,16 +13401,16 @@ fugitives O
 - O
 |
  | O
-Les O
-Reurs B-PER
+Les B-MISC
+Reurs I-MISC
 y O
 paraisseit O
 pluis O
-vivès B-LOC
---- I-LOC
+vivès O
+--- O
 |
- | I-LOC
-Pien O
+ | O
+Pien B-LOC
 nos O
 jardins O
 , O
@@ -13442,15 +13442,15 @@ déclore O
 - O
 |
 | O
-Que B-LOC
-do I-LOC
-Venil I-LOC
-on I-LOC
-los I-LOC
-choreho I-LOC
-enćordre--- I-LOC
+Que B-PER
+do I-PER
+Venil I-PER
+on O
+los O
+choreho O
+enćordre--- O
 |
-| I-LOC
+| O
 - O
 Le O
 vin O
@@ -13462,15 +13462,15 @@ cieus- O
 |
  | O
 Porlasi B-MISC
-Bérement I-MISC
+Bérement O
 la O
-iétài B-ORG
+iétài O
 --- O
 |
  | O
 Dans O
 nos O
-foréil B-LOC
+foréil O
 n' O
 est O
 poisie O
@@ -13478,10 +13478,10 @@ majestieui- O
 |
 | O
 -- O
-Coimie B-ORG
-celuii O
-quie O
-corirorine O
+Coimie B-PER
+celuii I-PER
+quie I-PER
+corirorine I-PER
 la O
 audio O
 |
@@ -13510,7 +13510,7 @@ audio O
 - O
 |
 | O
-.3 B-MISC
+.3 O
 |
 | O
 d- O
@@ -13538,22 +13538,22 @@ USAGE O
 ne O
 csmontsaere O
 , O
-lo O
-Cyptis.--- B-MISC
+lo B-PER
+Cyptis.--- I-PER
 |
-| I-MISC
-Aqui O
+| I-PER
+Aqui I-PER
 nous O
 conlions O
 nos O
 pleurs O
 et O
-rios O
-regrots O
-i O
+rios B-PER
+regrots I-PER
+i I-PER
 |
- | O
-A'2 O
+ | I-PER
+A'2 I-PER
 point O
 cole O
 mélancolis O
@@ -13568,25 +13568,25 @@ picil O
 duquel O
 wihulle O
 , O
-cu B-MISC
-soupicant O
+cu B-PER
+soupicant I-PER
 , O
 . O
 |
 | O
-i O
-Seplaint O
+i B-MISC
+Seplaint I-MISC
 des O
 riqueurs O
 de O
-Dalis B-LOC
+Dalis B-PER
 , O
 |
 | O
 otro O
 laurier O
 , O
-Surrloul B-LOC
+Surrloul B-PER
 est O
 different O
 |
@@ -13598,11 +13598,11 @@ Virgilo B-MISC
 et O
 le O
 divin O
-Homerg B-MISC
+Homerg B-LOC
 . O
 |
 | O
-Tressent B-ORG
+Tressent B-LOC
 , O
 en O
 d́hiant O
@@ -13615,16 +13615,16 @@ rivaris O
 |
 | O
 i O
-Ves O
-Couronnies O
+Ves B-MISC
+Couronnies I-MISC
 de O
-Leurs B-MISC
-Reroseere I-MISC
+Leurs O
+Reroseere B-PER
 .. O
 |
 
 | O
-Dui B-LOC
+Dui O
 l' O
 srir O
 co O
@@ -13643,8 +13643,8 @@ des O
 appas O
 et O
 des O
-clarinies O
-noureaun O
+clarinies B-MISC
+noureaun I-MISC
 , O
 . O
 |
@@ -13671,14 +13671,14 @@ eavidier O
 |
 | O
 i O
-Lesperasice B-PER
+Lesperasice O
 nous O
 y O
 couduit O
 . O
 |
  | O
-Etpour B-LOC
+Etpour B-PER
 cucillir O
 plufot O
 cos O
@@ -13687,11 +13687,11 @@ imsriorteiles O
 . O
 |
  | O
-Dit O
-l' O
-amibition O
-nouis O
-sedurit O
+Dit B-MISC
+l' I-MISC
+amibition I-MISC
+nouis I-MISC
+sedurit I-MISC
 , O
 |
 | O
@@ -13716,7 +13716,7 @@ Nouisairiyons B-MISC
 : O
 , O
 . O
-Lecharins O
+Lecharins B-LOC
 , O
 hélas O
 , O
@@ -13733,18 +13733,18 @@ pour O
 tociclier O
 4 O
 ce O
-licui O
+licui B-LOC
 de O
 dé O
 les O
 , O
 |
 | O
-Piie B-LOC
-do O
-perils O
-| | O
-vainièje O
+Piie B-PER
+do I-PER
+perils I-PER
+| | I-PER
+vainièje I-PER
 , O
 ct O
 qire O
@@ -13754,31 +13754,31 @@ precipices O
 |
  | O
 Afrarichir B-PER
-lieo O
-bès O
-Caricsoscarpes.- B-LOC
+lieo B-PER
+bès I-PER
+Caricsoscarpes.- I-PER
 |
-| O
-De O
-la O
-mnontegns O
+| I-PER
+De I-PER
+la I-PER
+mnontegns I-PER
 . O
 , O
 ou O
 le O
 pile O
 de O
-latone B-LOC
+latone O
 : O
 |
  | O
 Asou B-PER
-apuriage O
-etson O
-irdiie O
-s-- B-PER
+apuriage I-PER
+etson I-PER
+irdiie I-PER
+s-- O
 |
-| I-PER
+| O
 - O
 An O
 ligrie O
@@ -13790,7 +13790,7 @@ droitésonicoupéa O
 |
  | O
 LE O
-PARNASOE B-LOC
+PARNASOE O
 |
  | O
 Parcles O
@@ -13802,43 +13802,43 @@ pento O
 rapicle.-- O
 |
 | O
-Pait B-MISC
-trembler I-MISC
+Pait B-LOC
+trembler O
 le O
 plus O
 iutrépiedS O
 , O
 |
  | O
-Dis B-LOC
+Dis B-PER
 , O
 souveuil O
 , O
 le O
-moinelre O
+moinelre B-LOC
 faun O
 pas O
 |
  | O
-Dn O
-lo O
+Dn B-PER
+lo I-PER
 sait O
 , O
-amnene O
-rine O
+amnene B-PER
+rine I-PER
 chute O
 |
 | O
 . O
-Dout O
-om O
-meso O
-rellve O
-pasooie O
+Dout B-PER
+om I-PER
+meso I-PER
+rellve I-PER
+pasooie I-PER
 . O
 |
  | O
-Lemal O
+Lemal B-PER
 , O
 et O
 qUe O
@@ -13853,12 +13853,12 @@ trop O
 tard O
 , O
 des O
-obslaclos O
+obslaclos B-LOC
 divere O
 : O
 |
  | O
-Semnes B-LOC
+Semnes B-PER
 clans O
 ces O
 foules O
@@ -13867,7 +13867,7 @@ sisaintes O
 . O
 |
 | O
-Poiir B-LOC
+Poiir B-PER
 inépirer O
 de O
 saluiaires O
@@ -13887,11 +13887,11 @@ uni O
 revers O
 |
 | O
-A O
-ld O
-Causse B-LOC
-honiedlo I-LOC
-laird O
+A B-MISC
+ld I-MISC
+Causse I-MISC
+honiedlo I-MISC
+laird I-MISC
 : O
 .--- O
 |
@@ -13899,10 +13899,10 @@ laird O
 Pourson B-PER
 caluit O
 , O
-iuclquiès B-MISC
+iuclquiès O
 pas O
 en O
-Arriero B-MISC
+Arriero B-LOC
 , O
 |
  | O
@@ -13910,7 +13910,7 @@ Le O
 pied O
 glissei O
 .. O
-Fit B-PER
+Fit O
 payant O
 un O
 iemifraire O
@@ -13933,7 +13933,7 @@ usquair B-PER
 leiiel I-PER
 doçé̀s O
 noirs O
-ablues O
+ablues B-PER
 , O
 .. O
 |
@@ -13950,9 +13950,9 @@ C' O
 est O
 la O
 que O
-lo O
-fristè O
-Cousin B-PER
+lo B-PER
+fristè I-PER
+Cousin I-PER
 . O
 - O
 |
@@ -13966,7 +13966,7 @@ enfin O
 , O
 |
  | O
-Dét́sie O
+Dét́sie B-PER
 culin O
 ses O
 vers O
@@ -13974,32 +13974,32 @@ vers O
 quil O
 frappe O
 d' O
-analhiemio O
+analhiemio B-LOC
 , O
 |
 | O
-Que B-MISC
-lemallieurerx I-MISC
-Chapelain I-MISC
-y. I-MISC
+Que O
+lemallieurerx O
+Chapelain O
+y. O
 |
- | I-MISC
-Raveloppe I-MISC
-d' I-MISC
-uno I-MISC
-mulit I-MISC
-biernello I-MISC
+ | O
+Raveloppe O
+d' O
+uno O
+mulit O
+biernello O
 , O
 |
  | O
-Firo O
+Firo B-PER
 au O
 hasard O
 , O
 palo O
 , O
-cl O
-ticimhlart O
+cl B-PER
+ticimhlart I-PER
 , O
 . O
 |
@@ -14016,11 +14016,11 @@ sangloiant O
 , O
 |
  | O
-Le O
-Roïme O
-de O
-la O
-Driceité O
+Le B-MISC
+Roïme I-MISC
+de I-MISC
+la I-MISC
+Driceité I-MISC
 : O
 |
  | O
@@ -14028,12 +14028,12 @@ d O
 , O
 guen B-PER
 grand I-PER
-deuil O
+deuil I-PER
 , O
 Lammotlie B-PER
-- I-PER
-Amour I-PER
-d I-PER
+- O
+Amour O
+d O
 , O
 . O
 |
@@ -14046,88 +14046,88 @@ d I-PER
 . O
 |
 | O
-RVASIL.- B-LOC
+RVASIL.- B-PER
 |
 | O
 d5 O
 |
 | O
-Iimmilie B-LOC
+Iimmilie B-PER
 , O
-reconndit O
+reconndit B-PER
 , O
 mais O
-frop O
-tarils O
+frop B-PER
+tarils I-PER
 . O
 |
 | O
 as O
 . O
-Pous B-PER
-Chmuer I-PER
+Pous O
+Chmuer B-LOC
 dtsarent O
 la O
-cotse O
+cotse B-LOC
 |
- | O
-Dui O
+ | I-LOC
+Dui I-LOC
 valelircun O
-Cils B-MISC
-do I-MISC
+Cils O
+do O
 . O
-Thetys B-PER
+Thetys B-MISC
 , O
 |
 | O
 l O
-Earit B-LOC
+Earit B-PER
 le O
-roin O
-ct O
-les O
-secens O
-dlHomlrsisii B-MISC
+roin B-LOC
+ct I-LOC
+les I-LOC
+secens I-LOC
+dlHomlrsisii I-LOC
 . O
 |
  | O
 l O
 , O
-eirun B-LOC
-inforluoe O
+eirun B-PER
+inforluoe I-PER
 . O
 Vlarcquis.-- B-PER
 |
-| O
-Decos O
+| I-PER
+Decos I-PER
 disgraces O
 authenliques O
 |
 | O
 i O
-Aecuso B-PER
+Aecuso B-MISC
 , O
 en O
-gemissanit O
+gemissanit B-LOC
 , O
 lA O
 Biblo B-LOC
 et O
 ses O
-Canliquednsir B-MISC
+Canliquednsir B-PER
 . O
 |
 | O
 3 O
 |
 | O
-Enlin B-LOC
+Enlin O
 , O
 oest O
 la O
 qu' O
 an O
-Carilinal B-LOC
+Carilinal B-PER
 . O
 |
  | O
@@ -14135,7 +14135,7 @@ Qui O
 , O
 pourillustrer O
 sa O
-Cuemioire B-PER
+Cuemioire B-MISC
 , O
 . O
 |
@@ -14148,7 +14148,7 @@ qui O
 méncuf O
 d O
 la O
-gloiro O
+gloiro B-LOC
 , O
 . O
 |
@@ -14161,18 +14161,18 @@ on O
 iniligncrival,-- O
 |
  | O
-Pouisuivi B-PER
+Pouisuivi B-LOC
 f' O
 auteur O
 do O
-Rodriqiie,- B-PER
+Rodriqiie,- O
 |
 | O
 8 O
 . O
 |
  | O
-Regoit O
+Regoit B-PER
 le O
 prix O
 de O
@@ -14182,7 +14182,7 @@ intrigue O
 . O
 |
  | O
-Etmmalgré B-MISC
+Etmmalgré O
 lui O
 , O
 songe O
@@ -14194,30 +14194,30 @@ ses O
 vers O
 |
  | O
-Cout B-MISC
-oublies I-MISC
-de I-MISC
-l' I-MISC
-uiniversreie I-MISC
+Cout B-PER
+oublies O
+de O
+l' O
+uiniversreie O
 |
-| I-MISC
-- I-MISC
+| O
+- O
 |
-| I-MISC
-DU I-MISC
+| O
+DU B-PER
 |
- | I-MISC
-Louielois I-MISC
+ | I-PER
+Louielois I-PER
 , O
 il O
 est O
 au O
 Parriasso B-LOC
 |
-| I-LOC
+| O
 - O
-Gortain O
-seulier O
+Gortain B-PER
+seulier I-PER
 , O
 ois O
 l' O
@@ -14245,7 +14245,7 @@ I B-LOC
 i. O
 |
 | O
-Etglissersaus O
+Etglissersaus B-LOC
 frop O
 de O
 disgrdce O
@@ -14291,7 +14291,7 @@ ainours O
 . O
 Danos B-PER
 Painy I-PER
-dui O
+dui I-PER
 nouvelage,--- O
 |
  | O
@@ -14307,20 +14307,20 @@ I B-LOC
 36- O
 |
  | O
-LeR B-MISC
+LeR B-LOC
 PARHASSE B-MISC
 |
 | O
 i O
 De O
 nos O
-Moderiiés O
-trquliadloiirs O
+Moderiiés B-MISC
+trquliadloiirs I-MISC
 , O
---- B-LOC
+--- O
 |
- | I-LOC
-Peseulier I-LOC
+ | O
+Peseulier O
 , O
 qucn B-PER
 leursreveries I-PER
@@ -14362,7 +14362,7 @@ le O
 legers O
 l' O
 aimable O
-Bachaiunoit B-MISC
+Bachaiunoit B-LOC
 , O
 |
  | O
@@ -14374,13 +14374,13 @@ Chapelle O
 , O
 |
  | O
-Venait O
+Venait B-LOC
 , O
 i O
 pour O
-Bacchuis B-PER
+Bacchuis B-MISC
 , O
-poursa O
+poursa B-PER
 belle O
 , O
 |
@@ -14403,16 +14403,16 @@ depiris O
 ceux O
 qui O
 , O
-saris O
-dutwc O
-cuvid O
+saris B-PER
+dutwc I-PER
+cuvid I-PER
 |
-| O
-Qug B-PER
+| I-PER
+Qug I-PER
 de O
 roinasser O
 quelgries O
-Reurs B-LOC
+Reurs B-ORG
 . O
 |
 | O
@@ -14436,9 +14436,9 @@ sceurs O
 , O
 |
  | O
-A O
-dopracicus O
-badlinages O
+A B-PER
+dopracicus I-PER
+badlinages I-PER
 . O
 |
  | O
@@ -14454,10 +14454,10 @@ de O
 cosenlier O
 , O
 ques O
-Rer B-MISC
-du I-MISC
-beau I-MISC
-desscln I-MISC
+Rer B-PER
+du I-PER
+beau I-PER
+desscln I-PER
 . O
 |
  | O
@@ -14473,9 +14473,9 @@ guido O
 |
  | O
 irresle O
-rcucontra O
-V' B-MISC
-olselsi I-MISC
+rcucontra B-PER
+V' I-PER
+olselsi I-PER
 , O
 |
 | O
@@ -14484,7 +14484,7 @@ les O
 chets O
 de O
 la O
-troupeintrepide O
+troupeintrepide B-LOC
 . O
 |
 | O
@@ -14500,7 +14500,7 @@ prochalriz O
 .. O
 |
  | O
-Froublant O
+Froublant B-PER
 les O
 borils O
 do O
@@ -14526,18 +14526,18 @@ utalltrouti O
 . O
 |
  | O
-Eulans B-LOC
+Eulans O
 dles O
 rives O
 de O
-la B-LOC
-Seine I-LOC
+la O
+Seine B-LOC
 , O
 |
  | O
-Doces O
-délioleux O
-climals O
+Doces B-MISC
+délioleux I-MISC
+climals I-MISC
 , O
 |
 | O
@@ -14567,24 +14567,24 @@ Pallas B-PER
 |
 | O
 . O
-Als O
+Als B-ORG
 vendient O
 , O
 sur O
 l. O
-Joublo B-MISC
-olmie I-MISC
+Joublo B-PER
+olmie I-PER
 , O
 , O
-i O
+i B-PER
 |
- | O
+ | I-PER
 S' O
 abrenver O
 du O
 divin O
 . O
-claire B-PER
+claire O
 . O
 , O
 --- O
@@ -14593,20 +14593,20 @@ claire B-PER
 Sans O
 lequel O
 l' O
-Ecrivain B-LOC
+Ecrivain B-PER
 , O
-inlmig O
+inlmig B-LOC
 le O
 plus O
 subliie O
 , O
 |
 | O
-Chérif B-ORG
+Chérif B-PER
 . O
 Coujorris B-PER
-i O
-polle O
+i I-PER
+polle I-PER
 sans O
 Arl B-LOC
 .. O
@@ -14625,25 +14625,25 @@ placo O
 au O
 lemmple O
 de O
-mnemioire O
+mnemioire B-ORG
 , O
 . O
 |
 | O
 i O
 Paimti O
-celix O
-dequi O
-lunivers O
+celix B-PER
+dequi I-PER
+lunivers I-PER
 ... O
 |
 | O
-Céril O
+Céril B-LOC
 ct O
 les O
 noins O
 cl O
-Les B-LOC
+Les O
 . O
 vers O
 l O
@@ -14656,14 +14656,14 @@ Iwresss B-MISC
 .--- O
 |
  | O
-Ois B-LOC
-lon O
+Ois B-PER
+lon I-PER
 s' O
 euilort O
 auix O
 áources O
 elr O
-Cerirlesse B-PER
+Cerirlesse B-LOC
 , O
 . O
 |
@@ -14692,7 +14692,7 @@ amour O
 I B-LOC
 |
  | O
-RNUAME B-LOC
+RNUAME O
 . O
 |
  | O
@@ -14710,12 +14710,12 @@ diguemment O
 le O
 granil B-LOC
 jour I-LOC
-- I-LOC
+- O
 |
-| I-LOC
-Dont I-LOC
-l' I-LOC
-aurore I-LOC
+| O
+Dont O
+l' O
+aurore O
 , O
 dejd O
 , O
@@ -14743,8 +14743,8 @@ heréditaires O
 -- O
 |
 | O
-nantes B-PER
-Dix I-PER
+nantes O
+Dix O
 , O
 snimoinine O
 l' O
@@ -14755,12 +14755,12 @@ Francais B-LOC
 : O
 |
 | O
-Dam O
-qune O
-ctteure O
-puleumat O
+Dam B-MISC
+qune I-MISC
+ctteure B-PER
+puleumat I-PER
 les O
-apuilie O
+apuilie B-MISC
 |
  | O
 NLatnemnent B-MISC
@@ -14768,7 +14768,7 @@ NLatnemnent B-MISC
 en O
 lhoniieur O
 du O
-Princo,-- O
+Princo,-- B-LOC
 |
 | O
 a O
@@ -14790,21 +14790,21 @@ proritice O
 Etimille O
 Cois O
 plus O
-Rer B-MISC
-des I-MISC
-Vedu- I-MISC
+Rer B-LOC
+des O
+Vedu- B-LOC
 |
-| I-MISC
-Du I-MISC
-peuple I-MISC
-qut I-MISC
-l' I-MISC
-appello I-MISC
+| O
+Du O
+peuple O
+qut O
+l' O
+appello O
 au O
 lrdute O
 do O
-sé B-ORG
-Certes I-ORG
+sé O
+Certes O
 , O
 |
 
@@ -14816,8 +14816,8 @@ i O
 Wi O
 prince O
 , O
-riohlo O
-ct O
+riohlo B-PER
+ct I-PER
 generoun,-- O
 |
 | O
@@ -14827,16 +14827,16 @@ generoun,-- O
 38- O
 |
 | O
-E O
-PARHASOE O
+E B-PER
+PARHASOE I-PER
 |
- | O
-ET.peuple B-LOC
+ | I-PER
+ET.peuple I-PER
 a O
 jure O
 que O
 les O
-Grairils B-MISC
+Grairils O
 . O
 |
  | O
@@ -14849,8 +14849,8 @@ denccudiere I-PER
 . O
 |
 | O
-los B-LOC
-Grandls I-LOC
+los O
+Grandls B-PER
 oui O
 . O
 Konesle B-PER
@@ -14861,7 +14861,7 @@ i6là O
 . O
 |
  | O
-Ernesle O
+Ernesle B-PER
 oila O
 decorti O
 . O
@@ -14872,7 +14872,7 @@ ET O
 Qui O
 , O
 pour O
-triommpher O
+triommpher B-PER
 , O
 s' O
 appelle O
@@ -14904,9 +14904,9 @@ conlie O
  | O
 Etcroit B-LOC
 , O
-arce O
-cc O
-chelardlent O
+arce B-PER
+cc I-PER
+chelardlent I-PER
 : O
 -- O
 |
@@ -14941,28 +14941,28 @@ divers O
 Aux O
 Vicuis B-MISC
 . O
-clieris O
+clieris B-MISC
 iu O
-Dicir B-LOC
-- I-LOC
-dles I-LOC
-rers O
+Dicir B-MISC
+- I-MISC
+dles I-MISC
+rers I-MISC
 y O
 |
  | O
 Les O
 deuk O
 pailis O
-sc O
-Erouvuicut B-LOC
+sc B-PER
+Erouvuicut I-PER
 . O
-cu B-MISC
-prbscnce O
+cu B-PER
+prbscnce I-PER
 : O
 |
  | O
-Lesreun O
-lixes O
+Lesreun B-PER
+lixes I-PER
 sur O
 ce O
 mioril O
@@ -14976,25 +14976,25 @@ poult O
 deconcerter O
 les O
 plus O
-auilacicus O
+auilacicus B-PER
 , O
 |
  | O
-Nous O
-garilaient O
-uii O
-prolonil O
-silericcsir O
+Nous B-MISC
+garilaient I-MISC
+uii I-MISC
+prolonil I-MISC
+silericcsir I-MISC
 , O
 |
  | O
 Kincste B-PER
-culin O
+culin I-PER
 , O
 vots B-PER
-sou I-PER
-riral O
-savaniee O
+sou O
+riral B-PER
+savaniee I-PER
 . O
 |
 | O
@@ -15005,7 +15005,7 @@ dit O
 , O
 sout O
 les O
-muicus O
+muicus B-MISC
 , O
 .- O
 |
@@ -15023,13 +15023,13 @@ liciisiirs O
 |
  | O
 y O
-Jois B-LOC
+Jois B-PER
 sculeiricnl O
 , O
 vois O
 ces O
-penlcs O
-rapillesiirs O
+penlcs B-MISC
+rapillesiirs I-MISC
 . O
 |
 
@@ -15041,24 +15041,24 @@ rapillesiirs O
 |
  | O
 Et O
-ccs O
-clemilnis O
-plissaus O
+ccs B-PER
+clemilnis I-PER
+plissaus I-PER
 , O
-ct O
-cesrocheis O
-perlidesioi O
+ct B-PER
+cesrocheis I-PER
+perlidesioi I-PER
 |
  | O
 p5 O
 Nous O
-Verrons B-MISC
+Verrons B-PER
 , O
-lel O
+lel B-MISC
 y O
 nous O
 dispuler O
-Wlouueur B-ORG
+Wlouueur B-LOC
 , O
 ---- O
 |
@@ -15067,8 +15067,8 @@ Ou O
 le O
 dioil O
 de O
-la O
-presdarice O
+la B-MISC
+presdarice I-MISC
 , O
 : O
 |
@@ -15107,12 +15107,12 @@ ONCLE B-MISC
 . O
 |
 | O
-d9 B-LOC
+d9 B-PER
 . O
 |
  | O
 le O
-vaincl O
+vaincl B-ORG
 . O
 J' O
 en O
@@ -15142,10 +15142,10 @@ lees O
  | O
 ouvre-loi O
 , O
-sacis B-PER
+sacis O
 inguletirdle O
 . O
-s O
+s B-LOC
 . O
 |
 | O
@@ -15161,10 +15161,10 @@ paix O
 .. O
 |
  | O
-Celous O
-cesscntiers O
+Celous B-PER
+cesscntiers I-PER
 y O
-io O
+io B-LOC
 coundis O
 . O
 . O
@@ -15172,8 +15172,8 @@ coundis O
 |
 | O
 I. O
-Lo O
-pliis O
+Lo B-PER
+pliis I-PER
 lacilo O
 ct O
 lo O
@@ -15190,7 +15190,7 @@ giriclerzi O
 les O
 pas O
 , O
-er B-LOC
+er O
 . O
 |
  | O
@@ -15199,41 +15199,41 @@ de O
 pour O
 que O
 la O
-fulousie.- B-LOC
+fulousie.- B-MISC
 |
-  | I-LOC
-Ho O
-hous O
-parilo O
-utic O
-perlilio O
+  | I-MISC
+Ho I-MISC
+hous I-MISC
+parilo I-MISC
+utic I-MISC
+perlilio I-MISC
 , O
 |
  | O
-A O
-Jeleveur O
-liee O
+A B-LOC
+Jeleveur I-LOC
+liee I-LOC
 fit O
 Coiniirieinilcias B-PER
-liee O
+liee I-PER
 ne O
 -- O
 |
  | O
-Mille B-MISC
-aeclainalions I-MISC
+Mille O
+aeclainalions O
 réponilont.- O
 |
  | O
 a O
-cocliscolirs O
+cocliscolirs B-LOC
 , O
-los O
-pratils O
-ati O
-peuplo O
-sg B-PER
-coufonueul I-PER
+los B-MISC
+pratils I-MISC
+ati B-MISC
+peuplo I-MISC
+sg I-MISC
+coufonueul I-MISC
 , O
 . O
 |
@@ -15244,33 +15244,33 @@ Vet O
 folis O
 , O
 a O
-Vinslant O
+Vinslant B-ORG
 , O
-onf O
+onf B-ORG
 ptoinis O
 , O
 |
  | O
-Qut B-MISC
-jute I-MISC
-deresler I-MISC
+Qut B-PER
+jute O
+deresler O
 . O
 si O
-j,-- B-ORG
+j,-- O
 |
- | I-ORG
-Porr I-ORG
-ctlehrcr I-ORG
+ | O
+Porr O
+ctlehrcr O
 , O
 pour O
-cinlicllir O
+cinlicllir B-LOC
 la O
-futo-- B-LOC
+futo-- O
 |
- | I-LOC
-Qiio I-LOC
-letrignthoirstasino B-PER
-appielci I-PER
+ | O
+Qiio B-LOC
+letrignthoirstasino O
+appielci O
 . O
 |
 | O
@@ -15281,30 +15281,30 @@ accoril O
 loutelsls B-PER
 , O
 n' O
-Elait B-ORG
-pas I-ORG
+Elait B-LOC
+pas O
 uu O
-sficcès B-MISC
+sficcès O
 , O
 . O
 |
  | O
 QuoI O
-.ARranger B-PER
+.ARranger O
 .. O
 avant O
-Waliciruilro B-LOC
+Waliciruilro B-PER
 -- O
 |
 | O
 1 O
 |
  | O
-A O
+A B-LOC
 la O
-hautteur O
-do O
-cessomiriiels O
+hautteur B-LOC
+do I-LOC
+cessomiriiels I-LOC
 . O
 |
  | O
@@ -15330,7 +15330,7 @@ est O
 ce O
 qu' O
 a O
-comballie O
+comballie B-LOC
 les O
 lieuln O
 les O
@@ -15353,21 +15353,21 @@ PARRASSE B-LOC
 de---- O
 |
  | O
-Detre O
-jele O
-soidain O
-aur O
-milien O
+Detre B-PER
+jele I-PER
+soidain I-PER
+aur I-PER
+milien I-PER
 . O
-dès O
-alarmies O
+dès B-PER
+alarmies I-PER
 .---- O
 |
  | O
 Poust B-PER
 le I-PER
 Parnasse I-PER
-glait O
+glait I-PER
 . O
 en O
 . O
@@ -15378,15 +15378,15 @@ Et O
 cela O
 , O
 les O
-moindres.ellés,- B-MISC
-|
- | I-MISC
-Lesposlesso I-MISC
-. O
-tiouvaicut O
-douklese O
+moindres.ellés,- O
 |
  | O
+Lesposlesso B-LOC
+. O
+tiouvaicut B-PER
+douklese I-PER
+|
+ | I-PER
 quand O
 . O
 Voleein B-PER
@@ -15414,13 +15414,13 @@ comhicn O
 lo O
 triomnphe O
 élait O
-encot O
-douleuk O
+encot B-PER
+douleuk I-PER
 . O
 |
  | O
 Et O
-couilicn B-LOC
+couilicn B-PER
 un O
 ecliec O
 pouvait O
@@ -15430,7 +15430,7 @@ funeslo O
 |
  | O
 Ils' B-MISC
-arreldice O
+arreldice I-MISC
 . O
 a O
 Phers B-PER
@@ -15442,15 +15442,15 @@ Dit O
 -il O
 , O
 Theure B-PER
-crilique O
-apprgekider O
+crilique B-PER
+apprgekider I-PER
 |
 | O
 a O
 faforis O
 . O
 du O
-mOins B-MISC
+mOins B-LOC
 , O
 auerin B-PER
 lepracko I-PER
@@ -15468,7 +15468,7 @@ diablérons.-- O
 |
  | O
 yEe O
-Nesl O
+Nesl B-ORG
 pas O
 quo O
 se O
@@ -15477,34 +15477,34 @@ consellle.--- O
 |
 | O
 a O
-Ma O
-rerioricar O
-ais O
-hean O
+Ma B-MISC
+rerioricar I-MISC
+ais I-MISC
+hean I-MISC
 déenfin O
 .. O
 -- O
 |
  | O
-Qui O
-Loue O
-aineudies O
-urir O
+Qui B-PER
+Loue I-PER
+aineudies I-PER
+urir I-PER
 . O
-hanlo B-PER
+hanlo B-MISC
 pearaillo.-- O
 |
 | O
 . O
-nRo B-LOC
-lerd O
-poiril O
-rougir O
+nRo B-PER
+lerd I-PER
+poiril I-PER
+rougir I-PER
 . O
-Voleeli B-PER
-.-- I-PER
+Voleeli B-MISC
+.-- I-MISC
 |
-| I-PER
+| I-MISC
 - O
 Puis O
 , O
@@ -15518,7 +15518,7 @@ ferangais,---- O
 |
 | O
 n O
-Gutile B-MISC
+Gutile B-LOC
 par O
 Cariouir B-PER
 do I-PER
@@ -15541,7 +15541,7 @@ A O
 Il O
 ne O
 vlrogiaelr O
-fainais.- B-LOC
+fainais.- O
 |
 | O
 . O
@@ -15555,8 +15555,8 @@ mineo O
 , O
 |
   | O
-Le O
-dauger O
+Le B-LOC
+dauger I-LOC
 . O
 iiril O
 roit O
@@ -15572,23 +15572,23 @@ ćoui O
 , O
 pautr B-PER
 eon I-PER
-Rol O
+Rol I-PER
 |
- | O
-deno O
-reus O
-quo O
+ | I-PER
+deno I-PER
+reus I-PER
+quo I-PER
 celle O
 prililcireo O
 . O
 -- O
 |
  | O
-A. O
-Dit O
+A. B-PER
+Dit I-PER
 , O
-sanis O
-Vinlimiidlei B-LOC
+sanis B-PER
+Vinlimiidlei I-PER
 , O
 secoiilo O
 la O
@@ -15616,11 +15616,11 @@ D. O
 4 O
 |
 | O
-D O
+D B-PER
 |
 
-| O
-D O
+| I-PER
+D I-PER
 |
 | O
 8 O
@@ -15672,7 +15672,7 @@ laveurs O
 |
 | O
 a O
-Quo O
+Quo B-ORG
 la O
 gloire O
 do O
@@ -15689,13 +15689,13 @@ N B-LOC
 |
  | O
 Et O
-Le B-MISC
-soir I-MISC
-, I-MISC
-on I-MISC
-cae I-MISC
-do I-MISC
-matheur I-MISC
+Le O
+soir O
+, O
+on O
+cae B-PER
+do I-PER
+matheur I-PER
 , O
 .. O
 |
@@ -15710,7 +15710,7 @@ davise O
 |
 | O
 . O
-Lout B-MISC
+Lout B-PER
 est O
 perdu O
 , O
@@ -15722,8 +15722,8 @@ honnierir O
 li O
 |
  | O
-Aars B-MISC
-lcl I-MISC
+Aars O
+lcl O
 , O
 richter B-PER
 . O
@@ -15743,34 +15743,34 @@ vainero O
 . O
 et O
 les O
-lieuir O
+lieuir B-ORG
 , O
 |
 | O
 i. O
 AEtles B-MISC
-culans O
-dil B-ORG
+culans B-MISC
+dil I-MISC
 . O
-arnasse O
+arnasse B-PER
 , O
-cu B-MISC
-colfics O
+cu B-PER
+colfics I-PER
 . O
 |
  | O
 y O
-Etpent O
-ctie O
-aeme O
+Etpent B-PER
+ctie I-PER
+aeme I-PER
 les O
 Bicuiir B-LOC
 |
-  | O
-Voyer B-ORG
+  | I-LOC
+Voyer I-LOC
 celle O
-pento O
-plissanios O
+pento B-PER
+plissanios I-PER
 |
  | O
 d O
@@ -15794,7 +15794,7 @@ sCeswochon I-MISC
 gul O
 , O
 pour O
-restor O
+restor B-PER
 auspenats,- O
 |
  | O
@@ -15802,9 +15802,9 @@ a O
 Wout B-PER
 plus O
 que O
-loui O
-riasse O
-limposdritc O
+loui B-PER
+riasse I-PER
+limposdritc I-PER
 ... O
 |
  | O
@@ -15817,28 +15817,28 @@ escarpis O
 .. O
 |
   | O
-Etcesdedles B-PER
+Etcesdedles O
 oecupts O
 . O
 |
 | O
 . O
-U O
+U B-MISC
 Pat O
 uuo O
-Gaide O
-menaganidus O
+Gaide B-PER
+menaganidus I-PER
 . O
 |
  | O
 i O
-Voili B-PER
+Voili O
 qui O
 cloit O
 . O
 , O
-sins O
-chaiger O
+sins B-PER
+chaiger I-PER
 nos O
 proletsy O
 |
@@ -15847,23 +15847,23 @@ N. B-PER
 Leris I-PER
 paranlir O
 dun O
-Seart B-LOC
-Edmneraire I-LOC
+Seart O
+Edmneraire O
 , O
 .-- B-LOC
 |
  | I-LOC
 P I-LOC
-Carlea I-LOC
+Carlea O
 , O
 pour O
-aticlndro O
+aticlndro B-LOC
 au O
-suecés O
+suecés B-LOC
 . O
 |
  | O
-Quorous B-LOC
+Quorous O
 desirce O
 , O
 que O
@@ -15873,12 +15873,12 @@ espernon O
 |
  | O
 s O
-Thers O
-comrpagnons O
+Thers B-PER
+comrpagnons I-PER
 , O
 que O
 lauteil O
-Cairod B-LOC
+Cairod B-PER
 a O
 |
 | O
@@ -15892,17 +15892,17 @@ inoii O
 | O
 . O
 AÏépoud B-PER
-Krueslo I-PER
+Krueslo O
 , O
 at O
 resior O
 sans O
-elfrolori O
+elfrolori B-PER
 |
-  | O
-llnest O
-qiun O
-senller O
+  | I-PER
+llnest I-PER
+qiun I-PER
+senller I-PER
 , O
 au O
 Parniassb B-LOC
@@ -15924,7 +15924,7 @@ bi O
 vous O
 piulsslet O
 vous O
-cuzageri O
+cuzageri B-PER
 |
 | O
 a O
@@ -15937,17 +15937,17 @@ a O
 5 O
 |
 | O
-.---- O
+.---- B-PER
 |
- | O
+ | I-PER
 Du O
 moins O
 , O
 sais O
 . O
-Ccherolier O
-lo O
-dangée O
+Ccherolier B-PER
+lo I-PER
+dangée I-PER
 ... O
 |
 | O
@@ -15985,18 +15985,18 @@ dangée O
 |
  | O
 LE O
-PARNASSE B-LOC
+PARNASSE O
 . O
 |
  | O
-Lo O
-roicli O
+Lo B-PER
+roicli I-PER
 , O
 Est B-LOC
 , O
 la O
 que O
-jo O
+jo B-PER
 passe O
 , O
 . O
@@ -16030,9 +16030,9 @@ Coule O
 , O
 iI O
 cat O
-souis O
-honrie O
-Gardo B-PER
+souis B-PER
+honrie I-PER
+Gardo I-PER
 : O
 |
  | O
@@ -16048,11 +16048,11 @@ looi.-- O
  | O
 SEul O
 , O
-jo O
-vas O
-sonder O
-lo O
-lerraiur O
+jo B-PER
+vas I-PER
+sonder I-PER
+lo I-PER
+lerraiur I-PER
 : O
 -- O
 |
@@ -16062,8 +16062,8 @@ lerraiur O
  | O
 Et O
 , O
-siiguclquie O
-peril O
+siiguclquie B-PER
+peril I-PER
 mie O
 presse O
 , O
@@ -16078,24 +16078,24 @@ i O
 ' O
 Moi O
 . O
-Francuis O
+Francuis B-MISC
 l O
 d O
 mioi O
-Vobsein B-PER
+Vobsein B-MISC
 . O
 |
  | O
-Sers O
+Sers B-PER
 mon O
 signal O
 de O
 , O
-Aetrossber B-LOC
-- I-LOC
+Aetrossber B-PER
+- O
 |
-| I-LOC
-italie I-LOC
+| O
+italie B-LOC
 , O
 d' O
 un O
@@ -16115,8 +16115,8 @@ nouvalle O
 . O
 |
 | O
-aarcho O
-dioit O
+aarcho B-PER
+dioit I-PER
 a O
 lasculiniellcii O
 .. O
@@ -16127,25 +16127,25 @@ va O
 ld O
 d O
 ... O
-Shr O
+Shr B-PER
 ce O
 inouf O
 sacre,-- O
 |
 | O
 a O
-Bloriel,.coupable O
-at B-LOC
-Lemeraire I-LOC
+Bloriel,.coupable B-MISC
+at I-MISC
+Lemeraire I-MISC
 y O
 |
 | O
 a' O
 Jépouds B-PER
-tuol O
+tuol I-PER
   O
-quie O
-prelendstin B-PER
+quie B-PER
+prelendstin I-PER
 Calroy.---- I-PER
 |
 | O
@@ -16162,7 +16162,7 @@ se- O
 . O
 Sache O
 quo O
-Cest B-LOC
+Cest O
 un O
 sinietudire O
 .. O
@@ -16188,21 +16188,21 @@ dieuikue I-PER
 | O
 a. O
 Fuis B-PER
-hien O
+hien I-PER
 . O
 Lui O
 , O
-ct O
+ct B-PER
 crains O
-iui O
-colere O
-li B-LOC
+iui B-PER
+colere I-PER
+li I-PER
 |
- | I-LOC
-Cest I-LOC
+ | I-PER
+Cest I-PER
 pour O
 Chanlts B-PER
-i O
+i I-PER
 c' O
 est O
 poilr O
@@ -16229,21 +16229,21 @@ jeanne B-PER
 | O
 ' O
 a O
-Aeliciclisd B-LOC
-amrbroisier O
+Aeliciclisd B-PER
+amrbroisier I-PER
 | | O
 : O
 |
  | O
-NOn O
+NOn B-PER
 , O
-loIn' B-LOC
+loIn' B-PER
 y O
 pretouils O
 wlen O
 pour O
 mot O
-lei B-MISC
+lei O
 . O
 |
 | O
@@ -16254,7 +16254,7 @@ lei B-MISC
 1 O
 |
  | O
-BNUAHE O
+BNUAHE B-MISC
 . O
 |
 | O
@@ -16277,14 +16277,14 @@ les O
 dignes O
 chels O
 , O
-Tout- O
+Tout- B-LOC
 oui O
 , O
 |
 | O
 .. O
-E B-PER
-Birrilerent I-PER
+E O
+Birrilerent O
 de O
 nolre O
 Arnoui- B-PER
@@ -16306,11 +16306,11 @@ dusle I-MISC
 , O
 |
 | O
-C' B-MISC
-est I-MISC
-pour I-MISC
-ri I-MISC
-Pririce I-MISC
+C' O
+est O
+pour O
+ri O
+Pririce B-LOC
 , O
 dout O
 lo O
@@ -16318,24 +16318,24 @@ cecur O
 . O
 |
  | O
-Tanjours O
+Tanjours B-PER
 droiti O
 fut O
-loiljouis O
-sanis O
+loiljouis B-PER
+sanis I-PER
 peur O
 , O
 . O
 |
  | O
-QUi O
+QUi B-LOC
 , O
 pres O
 du O
-lrdne O
-dle O
-sou O
-perej O
+lrdne B-LOC
+dle I-LOC
+sou I-LOC
+perej I-LOC
 ... O
 |
  | O
@@ -16350,7 +16350,7 @@ Ansiis B-MISC
 |
  | O
 n O
-Aulsti B-LOC
+Aulsti B-PER
 biest O
 qu' O
 t. O
@@ -16365,10 +16365,10 @@ n O
 Vient O
 claus O
 ses O
-Minins B-MISC
+Minins O
 les O
-Couilres O
-do O
+Couilres B-LOC
+do I-LOC
 la O
 Guerre B-MISC
 , O
@@ -16379,7 +16379,7 @@ C' O
 est O
 pour O
 la O
-Blle B-MISC
+Blle B-LOC
 d' O
 un O
 marlyrii O
@@ -16393,7 +16393,7 @@ des O
 poines O
 de O
 soul O
-Culanice B-ORG
+Culanice B-PER
 . O
 |
 | O
@@ -16408,8 +16408,8 @@ souvenir O
 a O
 Que O
 pour O
-gorler O
-fout O
+gorler B-PER
+fout I-PER
 , O
 lo O
 plaisir O
@@ -16428,12 +16428,12 @@ bicnfuisanco O
 " O
 |
  | O
-Cieslpour B-MISC
-ui I-MISC
-Frince I-MISC
+Cieslpour B-PER
+ui I-PER
+Frince I-PER
 , O
 Cucoraripres B-LOC
-do O
+do I-LOC
 son O
 bercearis O
 |
@@ -16442,8 +16442,8 @@ dE O
 quoi O
 , O
 sur O
-lesein O
-ilo O
+lesein B-PER
+ilo I-PER
 sa O
 inero O
 , O
@@ -16452,15 +16452,15 @@ inero O
  | O
 . O
 Gronietnolrc B-PER
-houlieurt O
+houlieurt I-PER
 , O
 poirriniclix B-PER
 veugersonpero I-PER
 , O
 |
  | O
-M. O
-Cirst O
+M. B-PER
+Cirst I-PER
 pour O
 uuil O
 Eragilo B-MISC
@@ -16469,31 +16469,31 @@ roseau I-MISC
 |
 | I-MISC
 A I-MISC
-Quicloit O
+Quicloit B-LOC
 , O
 un O
 jour O
 , O
 porler O
-la B-LOC
-France I-LOC
-cutidro O
+la O
+France O
+cutidro B-LOC
 l O
 |
  | O
 as O
 . O
 Ra O
-Franice B-PER
+Franice O
 l. O
 s' O
 Écrid O
 lo O
 solelat O
 d' O
-apolloni O
+apolloni B-PER
 |
- | O
+ | I-PER
 Ol O
 llehéau O
 , O
@@ -16505,26 +16505,26 @@ d-- O
 |
  | O
 n O
-Parlelere O
-Cclle O
-lerro O
-cherio O
+Parlelere B-PER
+Cclle I-PER
+lerro I-PER
+cherio I-PER
 --- O
 |
  | O
-NE O
+NE B-LOC
 serait O
 . O
-clo O
+clo B-MISC
 . O
-Volro B-LOC
+Volro O
 pairir O
 d- O
 |
  | O
 A B-LOC
 Et O
-Chaalesmii B-LOC
+Chaalesmii B-PER
 ecralt O
 il O
 un O
@@ -16546,21 +16546,21 @@ d-- O
 |
  | O
 LE O
-PARNASSE B-ORG
+PARNASSE O
 |
-| I-ORG
+| O
 - O
 n O
-Oitlee B-LOC
-Bourhous O
+Oitlee B-MISC
+Bourhous I-MISC
 cl O
 . O
 digne O
-do O
-Velrbier B-LOC
+do B-PER
+Velrbier I-PER
 |
-| O
-Autrdne B-LOC
+| I-PER
+Autrdne O
 il O
 ne O
 lait O
@@ -16585,17 +16585,17 @@ Le O
 petitfls O
 de O
 Louis B-PER
-ct O
-dHenry B-MISC
+ct I-PER
+dHenry I-PER
 : O
 . O
 |
 | O
-à B-LOC
-0 O
-asbon O
-aubrura O
-tours O
+à O
+0 B-LOC
+asbon I-LOC
+aubrura I-LOC
+tours I-LOC
 , O
 Certes,- B-LOC
 |
@@ -16617,26 +16617,26 @@ Cranigais B-LOC
 .. O
 |
  | O
-Quil B-MISC
-no I-MISC
-Tressdille I-MISC
+Quil B-PER
+no I-PER
+Tressdille I-PER
 , O
 cf O
 sente O
 son O
 Cesur B-LOC
-balilro I-LOC
+balilro O
 , O
 |
  | O
-De O
-Lorisle B-PER
+De B-PER
+Lorisle I-PER
 . O
 Grand O
 , O
 fils O
 do O
-Wars B-PER
+Wars O
 , O
 |
 | O
@@ -16644,21 +16644,21 @@ IPare B-MISC
 des O
 leltres O
 , O
-cl O
-des O
-arte O
+cl B-MISC
+des I-MISC
+arte I-MISC
 , O
 de O
 |
  | O
-LouviLle B-MISC
+LouviLle B-LOC
 . O
-Grand B-PER
+Grand O
 feprit O
 le O
 faidieh O
 du O
-Partiasso B-LOC
+Partiasso B-MISC
 , O
 . O
 |
@@ -16675,19 +16675,19 @@ Mareiracelo I-PER
 |
  | O
 . O
-Loulis B-LOC
-lebtandjdaris O
-c O
-dlivilisgforir O
+Loulis B-MISC
+lebtandjdaris I-MISC
+c I-MISC
+dlivilisgforir I-MISC
 , O
 |
 | O
 . O
 I O
-Jesouge O
+Jesouge B-PER
 ercoi O
-ali O
-boulieiir O
+ali B-PER
+boulieiir I-PER
 de O
 la O
 couirl O
@@ -16704,8 +16704,8 @@ celle O
 cour O
 , O
 si O
-brillanle O
-etsi O
+brillanle B-PER
+etsi I-PER
 belle O
 , O
 |
@@ -16714,7 +16714,7 @@ belle O
 plalt O
 , O
 vous O
-Coricheraitellof B-LOC
+Coricheraitellof B-PER
 |
 | O
 " O
@@ -16731,7 +16731,7 @@ entends O
 - O
 fer O
 .. O
-Lo O
+Lo B-PER
 noble O
 adversaie O
 |
@@ -16744,17 +16744,17 @@ Pes B-PER
 Chapelain I-PER
 et O
 des O
-haserre O
-i O
+haserre B-PER
+i I-PER
 |
- | O
-ha O
-lerteur O
-de O
-lant O
-do O
-rivarin O
-his O
+ | I-PER
+ha I-PER
+lerteur I-PER
+de I-PER
+lant I-PER
+do I-PER
+rivarin I-PER
+his I-PER
 . O
 |
 | O
@@ -16763,9 +16763,9 @@ Ethieu O
 vllo O
 Frneslo O
 , O
-a O
-oes O
-mnols O
+a B-ORG
+oes I-ORG
+mnols I-ORG
 , O
 . O
 |
@@ -16793,9 +16793,9 @@ De O
 ce O
 qúair O
 . O
-siecle O
-d' O
-iminoriels O
+siecle B-PER
+d' I-PER
+iminoriels I-PER
 , O
 |
 | O
@@ -16804,15 +16804,15 @@ ET O
 qui O
 l' O
 kurope O
-cleva O
+cleva B-LOC
 , O
-laut O
+laut B-PER
 d' O
-auitels O
-der--- O
+auitels B-PER
+der--- I-PER
 |
 | O
---Ah B-ORG
+--Ah O
 --- O
 |
 | O
@@ -16820,9 +16820,9 @@ der--- O
 d. B-PER
 Erangnis I-PER
   O
-dil B-PER
-Bolleau I-PER
-i O
+dil O
+Bolleau B-PER
+i I-PER
 le O
 regialls O
 -- O
@@ -16833,32 +16833,32 @@ regialls O
 De O
 he O
 pourain O
-vouis O
-Ereiter O
+vouis B-PER
+Ereiter I-PER
 au O
-dinis B-LOC
-- I-LOC
+dinis O
+- O
 |
-  | I-LOC
-Mlais I-LOC
-apollon I-LOC
+  | O
+Mlais O
+apollon B-PER
 , O
 madamé. B-PER
-pres O
-deson O
-pere O
+pres I-PER
+deson I-PER
+pere I-PER
 , O
 |
 | O
 -9 O
-Houis B-LOC
+Houis B-PER
 a O
 laisee O
 la O
 Consique B-LOC
-serere-- I-LOC
+serere-- O
 |
-| I-LOC
+| O
 - O
 Berepousser O
 Cotning O
@@ -16867,22 +16867,22 @@ anfiarris O
 |
  | O
 d O
-Yolls O
+Yolls B-PER
 ceux O
 doutle O
-caprico O
-jou O
-la O
-folle O
-inprudenco O
+caprico B-PER
+jou I-PER
+la I-PER
+folle I-PER
+inprudenco I-PER
 , O
 |
 | O
 . O
 M. O
 Pour O
-penelrer O
-jueqiran B-MISC
+penelrer B-PER
+jueqiran I-PER
 ces O
 lieur,- O
 |
@@ -16895,8 +16895,8 @@ alsenco O
 |
  | O
 dJe O
-dols O
-ecor O
+dols B-PER
+ecor I-PER
 vous O
 dire O
 qu' O
@@ -16928,9 +16928,9 @@ amibrolsie,--- O
 . O
 |
  | O
-Hourrisses B-MISC
-la I-MISC
-Coupable I-MISC
+Hourrisses B-PER
+la O
+Coupable O
 euvibrer O
 .. O
 - O
@@ -16940,7 +16940,7 @@ Ki O
 je O
 laconlosse O
 , O
-farnals O
+farnals B-PER
 , O
 .- O
 |
@@ -16948,14 +16948,14 @@ farnals O
 Dépiris O
 qire O
 lo O
-Als B-ORG
+Als O
 de O
 Haloné,--- B-MISC
 |
- | I-MISC
-a I-MISC
-M' I-MISC
-appelanl O
+ | O
+a O
+M' B-PER
+appelanl I-PER
 auprés O
 de O
 sou O
@@ -16965,10 +16965,10 @@ trons O
 |
  | O
 a O
-Rse B-LOC
+Rse B-PER
 inoi O
 sejoir O
-sun B-ORG
+sun O
 ces O
 divlns O
 soimmists O
@@ -16976,10 +16976,10 @@ y O
 ... O
 |
  | O
-Sainnis B-LOC
-fo I-LOC
-Wavuls I-LOC
-wi I-LOC
+Sainnis B-PER
+fo I-PER
+Wavuls I-PER
+wi I-PER
 des O
 leglons O
 enlisies O
@@ -17015,10 +17015,10 @@ appeles O
 d O
 pulser O
 au O
-Lorinesse B-MISC
+Lorinesse B-LOC
 |
 | O
-N. B-LOC
+N. O
 ------ O
 |
 | O
@@ -17034,7 +17034,7 @@ PARRASSE-- O
 ----- O
 |
 | O
-.E O
+.E B-ORG
 Le O
 dotix O
 . O
@@ -17048,24 +17048,24 @@ vichesse O
 |
  | O
 n O
-A O
-spirer O
-Vencenis B-LOC
-da O
-nos O
-aulels O
-de O
+A B-MISC
+spirer I-MISC
+Vencenis I-MISC
+da I-MISC
+nos I-MISC
+aulels I-MISC
+de I-MISC
 . O
 |
  | O
 n O
-Costai B-MISC
-noin I-MISC
+Costai B-PER
+noin I-PER
 . O
 de O
 . O
 nolre B-PER
-palrios I-PER
+palrios O
 . O
 |
 | O
@@ -17074,66 +17074,66 @@ Erangais B-LOC
 , O
 que O
 . O
-jo O
+jo B-PER
 vous O
 eu O
-supplideir--- O
+supplideir--- B-PER
 |
- | O
-AH O
+ | I-PER
+AH I-PER
 . O
 l' O
 ienoncek O
 d O
 des O
-projels O
+projels B-PER
 |
-  | O
-Qui O
+  | I-PER
+Qui I-PER
 peuvent O
 . O
 vous O
 garder O
-do O
-sl O
-cuisans O
+do B-PER
+sl I-PER
+cuisans I-PER
 regrets O
 , O
 , O
 |
 | O
 - O
-A B-MISC
-Non I-MISC
-i I-MISC
-croisfoi I-MISC
+A O
+Non O
+i O
+croisfoi O
 , O
 repondlit O
 Ernesie B-LOC
 , O
 |
 | O
-E. O
-Lous O
-ho O
-venons O
+E. B-MISC
+Lous I-MISC
+ho I-MISC
+venons I-MISC
 . O
-fioint O
+fioint B-ORG
 ou O
 ces O
 . O
 hier O
 |
 | O
-S. B-PER
-Aecoinplir I-PER
-de O
-coupahles O
+S. O
+Aecoinplir B-PER
+de I-PER
+coupahles I-PER
 veourer.-- O
 |
  | O
-Sais B-LOC
-nuil O
+Sais B-PER
+nuil I-PER
 scrupule O
 , O
 j' O
@@ -17142,32 +17142,32 @@ altesid O
 . O
 |
 | O
-E B-PER
-Lhonnieur I-PER
+E B-LOC
+Lhonnieur I-LOC
 , O
-lopremier O
-donos O
+lopremier B-PER
+donos I-PER
 dieu O
 l O
 |
 | O
 . O
-MAIs O
+MAIs B-PER
 , O
-Despreanr B-MISC
+Despreanr B-LOC
 : O
 Mi B-MISC
 sais O
 coinmo O
 la O
-Vianco-- B-MISC
+Vianco-- O
 |
- | I-MISC
-J I-MISC
-Aline O
-scs O
+ | O
+J B-MISC
+Aline I-MISC
+scs I-MISC
 , O
-Rois B-PER
+Rois B-MISC
 , O
 coinime O
 alle O
@@ -17190,24 +17190,24 @@ aiari I-PER
 |
  | O
 d. O
-Veuty B-LOC
-du O
-pieil O
+Veuty B-PER
+du I-PER
+pieil I-PER
 , O
-dles O
-aulels O
+dles B-PER
+aulels I-PER
 , O
-receroir O
+receroir B-PER
 , O
 la O
 . O
-couronie,-- B-ORG
+couronie,-- B-PER
 |
 | O
 n O
-Que O
-les O
-droils O
+Que B-MISC
+les I-MISC
+droils I-MISC
 . O
 lit O
 sary O
@@ -17215,39 +17215,39 @@ lui O
 parilaianti-- O
 |
 | O
-Riio B-PER
-chgérin O
+Riio B-LOC
+chgérin I-LOC
 de O
 granil B-LOC
-ćceiirluil O
+ćceiirluil I-LOC
 donnos O
 |
  | O
-Ri B-LOC
+Ri O
 casfours O
 solelincls O
 lous O
 lis O
-Fiangais B-LOC
+Fiangais B-PER
 voridlraicirt O
 , O
 |
 | O
 a O
 Fressds B-PER
-auloui O
-ile O
+auloui I-PER
+ile I-PER
 leur O
 Moriaiqud B-LOC
 , O
 . O
 |
  | O
-E O
-Eulouner O
-dles O
+E B-LOC
+Eulouner I-LOC
+dles I-LOC
 . O
-liyinisies O
+liyinisies B-LOC
 . O
 d' O
 ariidir--- O
@@ -17259,13 +17259,13 @@ El O
 le O
 salrier O
 , O
-lourdloui O
+lourdloui B-LOC
 --- O
 |
 | O
 . O
-E O
-Duit O
+E B-PER
+Duit I-PER
 seul O
 cnot O
 digne O
@@ -17278,8 +17278,8 @@ oui O
 Voudlralout B-PER
 pour O
 s' O
-asptiricr O
-inieuis O
+asptiricr B-MISC
+inieuis I-MISC
 , O
 |
 
@@ -17315,13 +17315,13 @@ R O
 5 O
 |
 | O
-D8 B-PER
+D8 B-MISC
 |
-| I-PER
-D I-PER
+| O
+D O
 |
-| I-PER
-3 I-PER
+| O
+3 O
 |
 | O
 3 O
@@ -17338,8 +17338,8 @@ a O
 . O
 |
 | O
-EN O
-Va B-LOC
+EN B-PER
+Va I-PER
 . O
 -- O
 |
@@ -17349,11 +17349,11 @@ Va B-LOC
 " O
 |
  | O
-Fmmprrinier B-LOC
+Fmmprrinier B-PER
 la O
 langue O
 des O
-Biculilss B-PER
+Biculilss B-LOC
 .. O
 |
  | O
@@ -17370,24 +17370,24 @@ pretendre O
 li-- O
 |
  | O
-E O
-Alon O
-ileroir O
+E B-PER
+Alon I-PER
+ileroir I-PER
 ... O
-lorsdeld B-PER
+lorsdeld B-LOC
 , O
-jonepuisrien O
+jonepuisrien B-LOC
 . O
 cnienurel O
 . O
 |
  | O
-PLus O
+PLus B-MISC
 d' O
 inslalices O
 .. O
 , O
-relircrvoue O
+relircrvoue B-MISC
 . O
 |
 | O
@@ -17399,10 +17399,10 @@ multre O
 din B-PER
 Purnasse.- I-PER
 |
-  | I-PER
-Jouis I-PER
-lrouvait O
-enceslicur O
+  | O
+Jouis B-MISC
+lrouvait I-MISC
+enceslicur I-MISC
 , O
 quel O
 serait O
@@ -17429,7 +17429,7 @@ sur O
 L' B-MISC
 honneur I-MISC
 ( O
-lil O
+lil B-MISC
 sais O
 , O
 . O
@@ -17444,18 +17444,18 @@ sais O
 |
 | O
 A B-LOC
-Qucn I-LOC
-nolre I-LOC
-chei I-LOC
-pays I-LOC
+Qucn B-PER
+nolre I-PER
+chei I-PER
+pays O
 , O
 jamais O
 |
  | O
-Cetic B-MISC
+Cetic B-LOC
 borne O
-rio B-ORG
-vc O
+rio B-LOC
+vc I-LOC
 depasse O
 38 O
 .. O
@@ -17475,8 +17475,8 @@ protnelsl O
 i O
 Si O
 le O
-beair O
-rile O
+beair B-PER
+rile I-PER
 qui O
 nouis O
 guide O
@@ -17491,34 +17491,34 @@ d́aide O
  | O
 arious O
 irailer O
-aved O
-luveur O
+aved B-PER
+luveur I-PER
 , O
 |
 | O
 a O
-Codicr O
+Codicr B-PER
 la O
 ligricur O
 dit O
-Verinceso B-LOC
-y. I-LOC
+Verinceso B-PER
+y. O
 |
 | O
 o O
-Ht B-MISC
-Culr I-MISC
+Ht B-PER
+Culr I-PER
 avce O
 plus O
-do O
-vitcsso O
+do B-PER
+vitcsso I-PER
 . O
 |
 | O
 5 O
 |
  | O
-uo B-LOC
+uo O
 le O
 cerf O
 dewant O
@@ -17532,30 +17532,30 @@ SERait B-MISC
 , O
 pour O
 Vous B-MISC
-, I-MISC
-la I-MISC
-loi I-MISC
-la I-MISC
-plus I-MISC
-sacrlc I-MISC
+, O
+la O
+loi O
+la O
+plus O
+sacrlc O
 , O
 . O
 |
  | O
 y O
-Vont B-LOC
-Voblissdtice I-LOC
+Vont B-PER
+Voblissdtice I-PER
 ail O
 cncor O
 , O
 |
  | O
-Chet B-LOC
+Chet B-PER
 les O
 moriels O
 , O
-die B-MISC
-jurlcs I-MISC
+die B-PER
+jurlcs I-PER
 . O
 |
 | O
@@ -17567,9 +17567,9 @@ le O
 raincio O
 , O
 il O
-laut O
-uu O
-uuiro O
+laut B-LOC
+uu I-LOC
+uuiro I-LOC
 Cllori,-- O
 |
  | O
@@ -17589,19 +17589,19 @@ lario O
 | O
 . O
 arer O
-lol O
+lol B-MISC
 , O
-proclamio O
-cl O
-terirdeos O
+proclamio B-PER
+cl I-PER
+terirdeos I-PER
 |
- | O
-LE O
+ | I-PER
+LE I-PER
 . O
 PAHMASSE B-MISC
 |
 | O
-A8 B-ORG
+A8 B-MISC
 - O
 -- O
 |
@@ -17610,7 +17610,7 @@ i O
 Cest O
 an O
 . O
-noin O
+noin B-PER
 de O
 Louis B-PER
 - I-PER
@@ -17624,24 +17624,24 @@ Randal I-PER
 Que O
 . O
 Despreaur B-PER
-ctde O
+ctde I-PER
 et O
-so O
-reuil O
-li O
+so B-PER
+reuil I-PER
+li I-PER
 |
-| O
-i B-PER
-n. I-PER
-Vous I-PER
+| I-PER
+i I-PER
+n. O
+Vous O
 l' O
 aven O
 entendui O
 l. O
-S' B-MISC
-feria I-MISC
-lo I-MISC
-pocle I-MISC
+S' O
+feria O
+lo O
+pocle O
 , O
 . O
 |
@@ -17662,20 +17662,20 @@ violence O
 qui O
 mgsl O
 . O
-FaiteS:--- O
+FaiteS:--- B-PER
 |
  | O
 " O
-Jouis B-PER
-bies O
-justes O
+Jouis B-MISC
+bies I-MISC
+justes I-MISC
 ... O
 Cest O
 asseal O
 . O
 |
   | O
-Etloilquisaissi B-ORG
+Etloilquisaissi O
 bien O
 subjuguer O
 ma O
@@ -17683,9 +17683,9 @@ faiblesse O
 , O
 |
   | O
-Qui O
-veus O
-loufours O
+Qui B-MISC
+veus I-MISC
+loufours I-MISC
 , O
 vaincrlio B-PER
 FranģainSI I-PER
@@ -17693,20 +17693,20 @@ FranģainSI I-PER
 |
  | O
 a O
-Dis B-PER
-aus O
-liens O
+Dis B-MISC
+aus I-MISC
+liens I-MISC
 que O
 ( O
 o O
 lour O
-periicts.- B-LOC
+periicts.- O
 |
- | I-LOC
-M. I-LOC
-Rees I-LOC
-fives O
-suivilcs O
+ | O
+M. O
+Rees B-PER
+fives I-PER
+suivilcs I-PER
 du O
 Verinessdos B-LOC
 |
@@ -17716,7 +17716,7 @@ Rlals I-LOC
 , O
 par O
 l O
-Piel B-LOC
+Piel B-PER
 , O
 souvenez O
 . O
@@ -17727,23 +17727,23 @@ vous O
 -Aile O
 , O
 si O
-tromiper O
+tromiper B-PER
 , O
-pai O
-co O
-neclar O
+pai B-ORG
+co I-ORG
+neclar I-ORG
 trop O
 doun O
 , O
 |
 | O
 - O
-Jous O
-sriceoinher O
+Jous B-PER
+sriceoinher I-PER
 ait O
 sortimicil O
 de O
-Vivrcsse B-PER
+Vivrcsse B-ORG
 , O
 |
  | O
@@ -17778,7 +17778,7 @@ D O
 |
 
  | O
-ARR B-ORG
+ARR O
 |
  | O
 An- O
@@ -17791,15 +17791,15 @@ n O
 . O
 |
 | O
-A O
-Mii B-PER
-AR I-PER
+A B-MISC
+Mii I-MISC
+AR I-MISC
 : O
 : O
 |
 | O
-CNANE B-ORG
-QUATRIÉME B-LOC
+CNANE B-PER
+QUATRIÉME I-PER
 . O
 |
 | O
@@ -17817,11 +17817,11 @@ silence O
 s. O
 |
 | O
-M' B-PER
-osant I-PER
-crolre O
-uns O
-frahisons O
+M' O
+osant O
+crolre B-PER
+uns I-PER
+frahisons I-PER
 . O
 |
 | O
@@ -17841,7 +17841,7 @@ Apolloi B-PER
 . O
 |
  | O
-Ouvraient O
+Ouvraient B-ORG
 leur O
 iarigs O
 . O
@@ -17849,15 +17849,15 @@ auy O
 cnlans O
 de O
 la O
-Francé. O
+Francé. B-MISC
 . O
 |
  | O
 Cest O
-Pespteaun B-PER
+Pespteaun O
 qui O
 les O
-devanco O
+devanco B-PER
 , O
 |
 | O
@@ -17867,7 +17867,7 @@ devanco O
 et O
 qU O
 , O
-eur O
+eur B-ORG
 sa O
 lelo O
 , O
@@ -17882,10 +17882,10 @@ reporleu O
 
 | O
 Mais O
-les B-MISC
-Eemeraites I-MISC
-a I-MISC
-peins I-MISC
+les O
+Eemeraites B-LOC
+a O
+peins O
 . O
 |
 | O
@@ -17894,18 +17894,18 @@ sur O
 le O
 lapts O
 de O
-Reries B-MISC
+Reries B-ORG
 |
-| I-MISC
-tendus I-MISC
+| O
+tendus O
 aux O
 bords O
 cuchaniteurs O
 .. O
 |
 | O
-Du O
-Perinesse B-LOC
+Du B-PER
+Perinesse I-PER
 et O
 de O
 VHippoerenss B-MISC
@@ -17933,7 +17933,7 @@ mots O
 |
 | O
 a O
-Prudence B-LOC
+Prudence B-MISC
 au O
 l' O
 arnasse O
@@ -17945,8 +17945,8 @@ lois O
 |
 | O
 i O
-Glialt B-PER
-Vinstant I-PER
+Glialt O
+Vinstant O
 oi O
 les O
 neufScuts O
@@ -17955,7 +17955,7 @@ neufScuts O
 |
 
 | O
-AE B-ORG
+AE O
 PARRASSE B-LOC
 ---- O
 |
@@ -17963,7 +17963,7 @@ PARRASSE B-LOC
 f---- O
 |
  | O
-Piyant O
+Piyant B-PER
 etlevre O
 adloraiciirss--- O
 |
@@ -17973,26 +17973,26 @@ di O
 saholriariro,.-- O
 |
  | O
-Alaierl O
+Alaierl B-PER
 , O
 au O
 beyii O
 crislal O
 dles O
-Caiir B-MISC
+Caiir B-LOC
 , O
-.--- B-ORG
+.--- O
 |
- | I-ORG
-Conbor I-ORG
+ | O
+Conbor B-PER
 ces O
 appas O
 , O
-cliers O
-à B-LOC
+cliers B-LOC
+à O
 iant O
 de O
-riraiir B-LOC
+riraiir O
 , O
 |
  | O
@@ -18002,10 +18002,10 @@ les O
 nymuphes O
 Cli B-PER
 Parnasis I-PER
---- I-PER
+--- O
 |
- | I-PER
-Sisagement I-PER
+ | O
+Sisagement O
 ne O
 prodliquent O
 famais,.-- O
@@ -18013,26 +18013,26 @@ famais,.-- O
  | O
 Pour O
 que O
-lo O
-desir O
+lo B-PER
+desir I-PER
 , O
 guisurpaese B-PER
 |
-| O
-.. O
+| I-PER
+.. I-PER
 |
-| O
-- O
+| I-PER
+- I-PER
 |
-| O
-.. O
+| I-PER
+.. I-PER
 |
-| O
-SI O
-souvenf O
+| I-PER
+SI I-PER
+souvenf I-PER
 . O
-Ia B-PER
-Lareur I-PER
+Ia B-LOC
+Lareur I-LOC
 , O
 parde O
 lous O
@@ -18045,19 +18045,19 @@ aBlatheur B-MISC
 a O
 giri O
 , O
-pouese O
+pouese B-PER
 par O
 iino O
-Iamimie B-MISC
-Ioipure I-MISC
+Iamimie B-PER
+Ioipure I-PER
 , O
 |
 | O
-Dserait O
+Dserait B-PER
 d' O
 Actéon O
 renouiveler O
-Vinjurdt-- B-PER
+Vinjurdt-- O
 |
 | O
 . O
@@ -18070,15 +18070,15 @@ sans O
 desscin--- O
 |
  | O
-Soiilevant O
+Soiilevant B-PER
 la O
 voile O
 iacertain O
 --- O
 |
  | O
-Da O
-Pondle O
+Da B-PER
+Pondle I-PER
 qui O
 hiigne O
 lenes O
@@ -18087,17 +18087,17 @@ charmies,.--- O
  | O
 Aurait O
 des O
-chdsles O
-sceurs O
-ezoiie O
+chdsles B-PER
+sceurs I-PER
+ezoiie I-PER
 les O
 alariiesi O
 . O
 |
 | O
-Carvaecident O
-deviont O
-Egal B-ORG
+Carvaecident B-PER
+deviont B-PER
+Egal I-PER
 .. O
 |
 | O
@@ -18114,9 +18114,9 @@ Egal B-ORG
 |
 | O
 a O
-lacle O
-leplis O
-temierdiro O
+lacle B-PER
+leplis I-PER
+temierdiro I-PER
 , O
 , O
 . O
@@ -18126,8 +18126,8 @@ temierdiro O
 it O
 touie O
 , O
-lanie O
-sstwolainiaise.- B-PER
+lanie B-PER
+sstwolainiaise.- I-PER
 |
 | O
 pres O
@@ -18154,28 +18154,28 @@ Douzent O
 Le B-MISC
 , I-MISC
 partilemioins I-MISC
-ai I-MISC
+ai O
 |
- | I-MISC
-Pour I-MISC
-sortir I-MISC
-d' I-MISC
-in I-MISC
-peril I-MISC
-extreme I-MISC
+ | O
+Pour O
+sortir O
+d' O
+in O
+peril O
+extreme O
 , O
 ---- O
 |
  | O
-Jtlojielllerr O
+Jtlojielllerr B-LOC
 et O
 la O
 plii O
 , O
-sir O
+sir B-PER
 |
-| O
-Boilesit B-LOC
+| I-PER
+Boilesit I-PER
 . O
 on O
 voit O
@@ -18198,9 +18198,9 @@ PARLEZ B-MISC
 82 O
 |
  | O
-Fitsans B-MISC
-rficlerson O
-desschiori O
+Fitsans B-LOC
+rficlerson B-PER
+desschiori I-PER
 . O
 |
 | O
@@ -18209,12 +18209,12 @@ Aussi O
 promipt O
 quo O
 l' O
-Éclair B-ORG
+Éclair B-MISC
 , O
 guitle O
-Ernesto B-ORG
-of I-ORG
-foholury I-ORG
+Ernesto B-PER
+of I-PER
+foholury I-PER
 |
  | O
 AIcourt B-MISC
@@ -18222,7 +18222,7 @@ d O
 l' O
 ararice O
 dos O
-Pliises,- B-LOC
+Pliises,- B-PER
 |
 | O
 ¥ O
@@ -18244,7 +18244,7 @@ Crouses B-LOC
 , O
 |
  | O
-Fperell B-PER
+Fperell B-LOC
 , O
 les O
 lainies O
@@ -18263,16 +18263,16 @@ Disrix B-MISC
 . O
 |
 | O
-Decroiro B-PER
+Decroiro B-LOC
 au O
 rtlo O
 quilaninie O
 , O
 |
  | O
-Sur.loUl B-MISC
-de I-MISC
-na I-MISC
+Sur.loUl B-LOC
+de O
+na O
 . O
 pas O
 diffirer O
@@ -18291,17 +18291,17 @@ eut O
 , O
 qui O
 seul O
-peht B-LOC
+peht O
 . O
-assurep B-MISC
+assurep B-PER
 . O
 |
 | O
-lo O
-saluit O
+lo B-PER
+saluit I-PER
 . O
-dala O
-douhiaaimie O
+dala B-PER
+douhiaaimie I-PER
 . O
 |
 | O
@@ -18320,8 +18320,8 @@ i O
 --- O
 |
   | O
-Vous O
-saverjditillj O
+Vous B-MISC
+saverjditillj I-MISC
 , O
 guelsiprojets O
 .. O
@@ -18329,19 +18329,19 @@ guelsiprojets O
 | O
 . O
 | | O
-Stmient O
-l' O
-elfrot O
+Stmient B-PER
+l' I-PER
+elfrot I-PER
 sur O
-rios O
+rios B-LOC
 diviris O
 sousihielsy O
 |
  | O
-E B-LOC
+E O
 fetiquels O
 snaiir O
-Lotis B-LOC
+Lotis B-PER
 avons O
 d O
 craludre O
@@ -18351,9 +18351,9 @@ y. O
  | O
 ' O
 Apolloi B-PER
-fouls O
+fouls I-PER
 a O
-loutappiis O
+loutappiis B-LOC
 , O
 . O
 , O
@@ -18361,17 +18361,17 @@ loutappiis O
  | O
 j0 O
 n' O
-at O
-hesoin O
-de O
-vien O
-depeindid O
+at B-PER
+hesoin I-PER
+de I-PER
+vien I-PER
+depeindid I-PER
 , O
-i. O
+i. B-PER
 |
 | O
 o O
-Voiis O
+Voiis B-PER
 sayor O
 eiisst O
 dequietprin O
@@ -18385,7 +18385,7 @@ etre O
 le O
 paie O
 au O
-Perfiasse B-LOC
+Perfiasse B-MISC
   O
 . O
 |
@@ -18402,15 +18402,15 @@ menace.- B-MISC
 | O
 . O
 n O
-Metio B-PER
+Metio B-LOC
 , O
 afi O
-Caée O
+Caée B-LOC
 de O
-bennerni,-- B-ORG
+bennerni,-- O
 |
- | I-ORG
-Cresti O
+ | O
+Cresti B-PER
 eneoue O
 peop O
 pon O
@@ -18418,9 +18418,9 @@ de O
 s' O
 encandre O
 de O
-dathis O
+dathis B-PER
 |
-  | O
+  | I-PER
 Eh O
 hienl O
 quand O
@@ -18443,11 +18443,11 @@ presse O
 1 O
 |
 | O
-- B-PER
-A. I-PER
-Demain I-PER
+- O
+A. O
+Demain O
 . O
-mieine B-LOC
+mieine B-PER
 epvit O
 = O
 air O
@@ -18455,15 +18455,15 @@ iine O
 cceuit O
 |
  | O
-à B-ORG
-Déridledt I-ORG
+à O
+Déridledt B-LOC
 rinir O
 les O
 enlatis O
 . O
 du O
-Pavitieses O
-ìr B-MISC
+Pavitieses B-LOC
+ìr O
 .. O
 |
  | O
@@ -18472,18 +18472,18 @@ do O
 
  | O
 LE O
-PARRASSE B-ORG
+PARRASSE B-LOC
 |
 | O
 Ahlele B-PER
 dis O
-aves O
-doulour O
-i O
+aves B-PER
+doulour I-PER
+i I-PER
 |
- | O
+ | I-PER
 a O
-Cestalois B-LOC
+Cestalois B-PER
 , O
 au O
 fort O
@@ -18493,8 +18493,8 @@ crise O
 , O
 |
  | O
-Que O
-li O
+Que B-PER
+li I-PER
 discorde O
 nous O
 divisc O
@@ -18507,7 +18507,7 @@ divisc O
 . O
 |
 | O
-Rois B-LOC
+Rois B-MISC
 voudraient O
 , O
 maitres O
@@ -18516,7 +18516,7 @@ absolrs O
 |
 | O
 à O
-Resuivrg O
+Resuivrg B-LOC
 que O
 leur O
 Lantaisis B-PER
@@ -18525,9 +18525,9 @@ Lantaisis B-PER
 | O
 o O
 Eideia B-PER
-lon O
+lon I-PER
 ne O
-conridlt O
+conridlt B-LOC
 plus O
 |
  | O
@@ -18536,7 +18536,7 @@ farigs O
 maiques O
 par O
 le O
-fenie O
+fenie B-LOC
 : O
 . O
 |
@@ -18544,27 +18544,27 @@ fenie O
 lechantre O
 de O
 fanoreda B-PER
-ailend O
+ailend I-PER
 .. O
 |
 | O
 a O
-Que O
-cslui O
+Que B-MISC
+cslui I-MISC
 d' O
 Achille B-PER
-opeissg O
+opeissg I-PER
 , O
 |
 | O
-Prop B-PER
-fer O
+Prop B-MISC
+fer I-MISC
 , O
 rariosie O
 preiend O
 |
 | O
-̀ B-LOC
+̀ O
 Qu' O
 humiblenient O
 Virgile B-PER
@@ -18581,7 +18581,7 @@ caprico O
 |
  | O
 Pindare B-PER
-délend O
+délend I-PER
 a O
 Rousseais B-LOC
 .. O
@@ -18590,8 +18590,8 @@ Rousseais B-LOC
  | O
 P' O
 oserse O
-meltrs B-PER
-avei I-PER
+meltrs O
+avei O
 lui O
 do O
 nivéai O
@@ -18599,10 +18599,10 @@ nivéai O
 . O
 |
   | O
-Puripide B-PER
+Puripide B-MISC
 veut O
-qre B-PER
-Racind I-PER
+qre O
+Racind B-LOC
 .. O
 --- O
 |
@@ -18610,20 +18610,20 @@ Racind I-PER
 à O
 Quiveces.pas B-MISC
 , O
-Blaile B-PER
-c' I-PER
-antoiné I-PER
-.. O
+Blaile B-MISC
+c' I-MISC
+antoiné I-MISC
+.. I-MISC
 |
 
-| O
+| I-MISC
 . O
 |
 
 | O
 . O
 A O
-rarger O
+rarger B-LOC
 soule O
 san B-LOC
 Slandarid I-LOC
@@ -18642,7 +18642,7 @@ Regnard B-PER
 |
 | O
 a O
-Llsemble B-MISC
+Llsemble B-LOC
 . O
 meme O
 que O
@@ -18652,14 +18652,14 @@ Catulle B-PER
 |
 | O
 à O
-Ronigisse B-LOC
-di I-LOC
-tendlra I-LOC
+Ronigisse B-PER
+di I-PER
+tendlra I-PER
 . O
-Kihulles- B-PER
+Kihulles- B-LOC
 |
 | O
-aRT O
+aRT B-PER
 . O
 Dorat B-LOC
 , O
@@ -18669,19 +18669,19 @@ Doitin B-PER
 |
 | O
 --N O
-Dsensient B-MISC
-dispaiier I-MISC
-ana I-MISC
+Dsensient B-PER
+dispaiier I-PER
+ana I-PER
 |
- | I-MISC
-A I-MISC
-laimahle I-MISC
+ | I-PER
+A I-PER
+laimahle I-PER
 Fathys O
 le O
-déoit B-MISC
-deire I-MISC
-leuir O
-inaliroi O
+déoit O
+deire B-PER
+leuir I-PER
+inaliroi I-PER
 . O
 |
 
@@ -18697,7 +18697,7 @@ Quand O
 la O
 mnuse O
 de O
-Klilylene B-PER
+Klilylene B-LOC
 , O
 |
 | O
@@ -18709,7 +18709,7 @@ bralane O
 |
 | O
 Pour O
-Vingrat B-PER
+Vingrat B-ORG
 , O
 auleuir O
 de O
@@ -18723,11 +18723,11 @@ peine O
 |
 | O
 i O
-Leguait O
+Leguait B-MISC
 a O
 l' O
 amhoureun O
-Ltphir B-LOC
+Ltphir B-ORG
 .. O
 |
 | O
@@ -18735,7 +18735,7 @@ es O
 derniers O
 chants O
 , O
-cison O
+cison B-PER
 deimior O
 soupit O
 .... O
@@ -18752,9 +18752,9 @@ alerta O
 - O
 |
 | O
-i B-PER
-Dont I-PER
-Boilcair I-PER
+i B-MISC
+Dont I-MISC
+Boilcair I-MISC
 seul O
 a O
 lo O
@@ -18763,10 +18763,10 @@ secrets O
 |
  | O
 La O
-lroupe O
-sainie O
-sc O
-Concetio B-LOC
+lroupe B-LOC
+sainie I-LOC
+sc I-LOC
+Concetio I-LOC
 , O
 . O
 |
@@ -18794,11 +18794,11 @@ Vivresss B-LOC
 | O
 les O
 Frangais B-LOC
-savouiaient O
-le O
-scctar B-LOC
-din I-LOC
-Petinesse I-LOC
+savouiaient B-PER
+le I-PER
+scctar I-PER
+din I-PER
+Petinesse O
 , O
 : O
 |
@@ -18807,8 +18807,8 @@ n O
 l O
 bivanl O
 ce O
-reciar O
-prealeus O
+reciar B-PER
+prealeus I-PER
 , O
 ... O
 |
@@ -18836,19 +18836,19 @@ la O
 lumilre,- O
 |
  | O
-Partout O
+Partout B-LOC
 , O
-dars O
-la O
-vialuie B-MISC
-entiere I-MISC
+dars B-PER
+la I-PER
+vialuie I-PER
+entiere I-PER
 , O
 |
  | O
-Est O
+Est B-LOC
 deveni O
-Boriveaii B-PER
-poii I-PER
+Boriveaii B-LOC
+poii O
 cun O
 |
  | O
@@ -18860,7 +18860,7 @@ respiie O
 , O
 |
  | O
-Vairain B-MISC
+Vairain B-LOC
 scinent O
   O
 ct O
@@ -18877,8 +18877,8 @@ le O
 hisardi O
 o' O
 est O
-lasoitdu O
-déair O
+lasoitdu B-PER
+déair I-PER
 .. O
 |
  | O
@@ -18891,32 +18891,32 @@ orage O
 . O
 |
  | O
-Alinehe B-LOC
+Alinehe B-PER
 la O
 viene O
 sauydgai O
 .. O
 |
  | O
-Lutendie B-PER
-oumieaie O
+Lutendie B-LOC
+oumieaie I-LOC
 qui O
 doit O
 la O
-voirinorirlier O
+voirinorirlier B-LOC
 . O
 |
  | O
 Cenest B-LOC
 pluis O
 la O
-ckalé̀ue B-MISC
-Vidilra I-MISC
+ckalé̀ue B-LOC
+Vidilra I-LOC
 . O
 |
  | O
-PR O
-PARNASSS B-ORG
+PR B-ORG
+PARNASSS I-ORG
 |
 | O
 - O
@@ -18926,7 +18926,7 @@ PARNASSS B-ORG
 Descoloils B-PER
 bienlaleans O
 do O
-Blars B-LOC
+Blars O
 , O
 - O
 . O
@@ -18936,7 +18936,7 @@ Qui O
 , O
 cecondant O
 la O
-mhain O
+mhain B-ORG
 qui O
 ley O
 oultio O
@@ -18945,7 +18945,7 @@ oultio O
  | O
 Force O
 les O
-Reuis B-ORG
+Reuis B-LOC
 d O
 charmner O
 nos O
@@ -18955,12 +18955,12 @@ regaide O
 - O
 |
  | O
-P' O
-ect O
-la O
-compazne O
+P' B-MISC
+ect I-MISC
+la I-MISC
+compazne I-MISC
 de O
-Zéphico B-LOC
+Zéphico B-PER
 i--- O
 |
  | O
@@ -18968,7 +18968,7 @@ Alors O
 , O
 dont O
 l' O
-Alindhlo B-LOC
+Alindhlo B-MISC
 sourice O
 .- O
 |
@@ -18989,8 +18989,8 @@ qini O
 , O
 de O
 ses O
-leun O
-brillans O
+leun B-ORG
+brillans I-ORG
 , O
 .. O
 |
@@ -19010,7 +19010,7 @@ Celic I-MISC
 rose I-MISC
 qui O
 vient O
-declorcss O
+declorcss B-PER
 .. O
 |
 
@@ -19019,13 +19019,13 @@ declorcss O
 |
 
 | O
-lenns B-PER
+lenns O
 veut O
 , O
-pouir O
-douhier O
-soui O
-pirit O
+pouir B-PER
+douhier I-PER
+soui I-PER
+pirit I-PER
 , O
 |
 | O
@@ -19034,16 +19034,16 @@ rougir O
 dul O
 eaiig O
 d' O
-Adouisro B-LOC
+Adouisro B-MISC
 . O
 |
 | O
 En O
 vain O
-daris O
-leo O
-perles O
-hiinides O
+daris B-PER
+leo I-PER
+perles I-PER
+hiinides I-PER
 . O
 |
 | O
@@ -19067,11 +19067,11 @@ ciains O
 . O
 |
 | O
-Ru O
-vulgairs O
+Ru B-LOC
+vulgairs I-LOC
 les O
-yeuy B-ORG
-stupides I-ORG
+yeuy O
+stupides O
 .. O
 |
 | O
@@ -19081,8 +19081,8 @@ veulent O
 . O
 voir O
 que O
-dès O
-vapeurds O
+dès B-PER
+vapeurds I-PER
 . O
 |
 | O
@@ -19091,30 +19091,30 @@ Dne B-PER
 Deese I-PER
 accourt O
 , O
-cfreconnalt O
-cce O
-pleursesr O
+cfreconnalt B-PER
+cce I-PER
+pleursesr I-PER
 |
- | O
-Henrí O
+ | I-PER
+Henrí I-PER
 De O
-Nolaŕ O
-de O
-merveilles O
+Nolaŕ B-MISC
+de I-MISC
+merveilles I-MISC
 , O
 |
  | O
-Ravis B-LOC
-euttfout O
+Ravis B-PER
+euttfout I-PER
 . O
 des O
-Loiiccuies B-ORG
-saris O
-pareilles O
+Loiiccuies B-MISC
+saris I-MISC
+pareilles I-MISC
 : O
 |
  | O
-Dune B-MISC
+Dune O
 ivresse O
 , O
 dont O
@@ -19133,10 +19133,10 @@ inysiaie O
 |
  | O
 Les O
-Français B-MISC
+Français B-LOC
 , O
-loufouis B-PER
-Rers I-PER
+loufouis O
+Rers O
 d' O
 an O
 ' O
@@ -19146,8 +19146,8 @@ femibraire O
 |
  | O
 D' O
-hanesie O
-suppliaat O
+hanesie B-PER
+suppliaat I-PER
 repotissalent O
 les O
 allotisie O
@@ -19174,9 +19174,9 @@ M I-PER
 |
 | O
 EN O
-VA- B-ORG
+VA- O
 |
- | I-ORG
+ | O
 Ra O
 vain O
 fai O
@@ -19185,8 +19185,8 @@ roe O
 petinellrs O
 |
  | O
-DRes O
-conscils O
+DRes B-PER
+conscils I-PER
 ... O
 Chaenn B-PER
 Confre I-PER
@@ -19194,32 +19194,32 @@ Enai I-PER
 |
 | O
 --Sest O
-emporis O
-jiiegira O
-Vinjuire,,- B-PER
+emporis B-PER
+jiiegira I-PER
+Vinjuire,,- O
 |
- | I-PER
-Mesuppliant I-PER
+ | O
+Mesuppliant O
 , O
 pour O
-comiblei O
-la O
-meeuzo O
+comiblei B-PER
+la I-PER
+meeuzo I-PER
 : O
 . O
 |
  | O
 D' O
 avoir O
-A O
-boiner O
-fuon O
-Criploi B-LOC
+A B-PER
+boiner I-PER
+fuon I-PER
+Criploi I-PER
 . O
 |
 | O
 . O
-AuCielacier O
+AuCielacier B-MISC
 de O
 la O
 Saiyre B-LOC
@@ -19235,8 +19235,8 @@ Saiyre B-LOC
 - O
 |
  | O
-Aui B-LOC
-trisle O
+Aui B-ORG
+trisle I-ORG
 lalent O
 de O
 medtire O
@@ -19275,13 +19275,13 @@ d^t---- O
 .- O
 |
 | O
-.---- O
+.---- B-PER
 |
- | O
+ | I-PER
 Quinauli O
 , O
-fimiplacablo O
-Quinault B-PER
+fimiplacablo B-PER
+Quinault I-PER
 . O
 . O
 |
@@ -19294,8 +19294,8 @@ colers O
 . O
 |
  | O
-Htme O
-prodiqier O
+Htme B-PER
+prodiqier I-PER
 , O
 sans O
 , O
@@ -19309,21 +19309,21 @@ Lous B-MISC
 les I-MISC
 nopis I-MISC
 dont O
-rorigi B-LOC
-Vhonrenr,, I-LOC
-.. O
+rorigi B-MISC
+Vhonrenr,, I-MISC
+.. I-MISC
 - O
 |
 | O
 Me O
 iraiterdndigie O
 et O
-laun O
-Erere B-MISC
+laun B-MISC
+Erere I-MISC
 , O
 |
  | O
-Delche O
+Delche B-PER
 , O
 de O
 vil O
@@ -19332,12 +19332,12 @@ plagiaire O
 . O
 |
  | O
-Active O
+Active B-MISC
   O
 des O
-hanes O
-du O
-Barreai B-LOC
+hanes B-MISC
+du I-MISC
+Barreai I-MISC
   O
 . O
 |
@@ -19346,8 +19346,8 @@ sieques O
 au O
 soiiciels O
 dlu O
-P' B-LOC
-arriasse I-LOC
+P' B-MISC
+arriasse I-MISC
 , O
 .. O
 |
@@ -19364,7 +19364,7 @@ jemainiear O
  | O
 Di O
 de O
-suvéral O
+suvéral B-LOC
 , O
 au O
 deRoiseeiee- O
@@ -19402,15 +19402,15 @@ Contre O
 moi O
 provoqiier O
 là O
-hainé,- B-MISC
+hainé,- O
 |
- | I-MISC
-lesouliageset I-MISC
-lamepris O
-5.--- B-MISC
+ | O
+lesouliageset B-PER
+lamepris I-PER
+5.--- I-PER
 |
-| I-MISC
-Rasonser I-MISC
+| I-PER
+Rasonser B-MISC
 louf I-MISC
 net I-MISC
 diinjistice I-MISC
@@ -19439,25 +19439,25 @@ d----- O
 |
 | O
 E B-LOC
-PARNASSE I-LOC
+PARNASSE O
 |
 | O
 . O
 Et O
-deimnder O
+deimnder B-MISC
 par O
 quel O
-Ltavets B-ORG
+Ltavets B-PER
 |
-| I-ORG
-W I-ORG
-do I-ORG
-garilai I-ORG
-Coujoisrs I-ORG
+| I-PER
+W I-PER
+do I-PER
+garilai I-PER
+Coujoisrs I-PER
 , O
-danis O
-wies O
-vets O
+danis B-PER
+wies I-PER
+vets I-PER
 , O
 |
  | O
@@ -19471,27 +19471,27 @@ prejudicdio O
  | O
 Bref O
 , O
-loist O
+loist B-PER
 le O
-Parnasso B-PER
+Parnasso O
 est O
 en O
-Leulis B-LOC
+Leulis B-PER
 |
 | O
 . O
 Semble O
 , O
-jo O
-no O
-crole O
+jo B-PER
+no I-PER
+crole I-PER
 pas O
 guun O
 Vien B-PER
 |
 | O
 o O
-Pati B-LOC
+Pati B-PER
 , O
 et O
 c' O
@@ -19504,21 +19504,21 @@ severe O
 | O
 n O
 Ou O
-hieu B-PER
-nolrs I-PER
+hieu O
+nolrs O
 ruine O
 anlilre,- O
 |
 | O
 n' O
-Fronver B-LOC
-onliri O
+Fronver B-PER
+onliri I-PER
 quelque O
 imilien O
-S. B-MISC
+S. O
 |
- | I-MISC
-A I-MISC
+ | O
+A O
 cediscours O
 , O
 cédani O
@@ -19531,27 +19531,27 @@ Colere B-LOC
 |
 | O
 Ves B-LOC
-chasles O
+chasles I-LOC
 sipre O
 Rirenf B-PER
 serment O
 .. O
 |
  | O
-ue B-ORG
+ue O
 famiais O
-Caêtiens B-LOC
+Caêtiens B-MISC
 , O
 sur O
 leur O
 cime O
-chérieN B-PER
+chérieN O
 , O
 . O
 |
  | O
-Eappellerait O
-iinpuinéorient O
+Eappellerait B-LOC
+iinpuinéorient I-LOC
 . O
 |
 | O
@@ -19588,13 +19588,13 @@ hui O
 , O
 pour O
 paier O
-loujouire O
+loujouire B-PER
 sa O
 cheveluirs O
 y. O
 |
 | O
-Carllent B-LOC
+Carllent O
 foufoiris O
 leur O
 riamie O
@@ -19602,7 +19602,7 @@ werduis O
 : O
 |
  | O
-Vainiahle B-LOC
+Vainiahle O
 ct O
 serisihle O
 Krato B-LOC
@@ -19613,10 +19613,10 @@ Krato B-LOC
 Parcello B-PER
 lre I-PER
 ctsi I-PER
-donce O
+donce I-PER
 ct O
 si O
-lendie O
+lendie B-MISC
 , O
 . O
 |
@@ -19628,14 +19628,14 @@ les O
 doists O
 de O
 la O
-liello O
-Saplio B-PER
+liello B-MISC
+Saplio I-MISC
 , O
 . O
 |
 | O
 . O
-Daris O
+Daris B-MISC
 Lesbosr O
 jadis O
 , O
@@ -19655,8 +19655,8 @@ forichaaisice O
 - O
 |
  | O
-JE B-MISC
-VAIS I-MISC
+JE O
+VAIS O
 : O
 |
 | O
@@ -19664,8 +19664,8 @@ VAIS I-MISC
 . O
 |
  | O
-Lin B-LOC
-vairi O
+Lin B-PER
+vairi I-PER
 , O
 ce O
 noble O
@@ -19685,7 +19685,7 @@ Roni B-PER
 do O
 tous O
 les O
-Diour B-MISC
+Diour B-LOC
 , O
 |
 | O
@@ -19711,8 +19711,8 @@ Reitmesse B-LOC
 : O
 |
 | O
-lea O
-colere O
+lea B-PER
+colere I-PER
 , O
 mi O
 la O
@@ -19724,7 +19724,7 @@ douceur O
 la O
 priere O
 , O
-vii O
+vii B-MISC
 la O
 mienace O
 , O
@@ -19735,7 +19735,7 @@ d O
 |
  | O
 Mon O
-ue B-ORG
+ue O
 ler O
 anale O
 , O
@@ -19766,7 +19766,7 @@ indiscrells O
 , O
 |
  | O
-El O
+El B-LOC
 leur O
 iele O
 profaniateur O
@@ -19774,10 +19774,10 @@ profaniateur O
 e.-- O
 |
  | O
-Sifillvistre B-MISC
-nomi' I-MISC
+Sifillvistre B-LOC
+nomi' O
 dir O
-poetès B-MISC
+poetès O
 . O
 |
 | O
@@ -19794,15 +19794,15 @@ jarnais O
 |
 | O
 .. O
-Fehonneur O
-da O
-cesdivins O
-sompielsis O
+Fehonneur B-PER
+da I-PER
+cesdivins I-PER
+sompielsis I-PER
 |
 | O
 lenom O
 de O
-céliri B-PER
+céliri O
 qut O
 , O
 du O
@@ -19812,17 +19812,17 @@ trone O
 : O
 |
  | O
-Dun B-MISC
-Gesio I-MISC
+Dun O
+Gesio O
 abianla O
 , O
-Vuisivèrs B-LOC
+Vuisivèrs B-MISC
 : O
 - O
 |
 | O
-Moceliit B-LOC
-cjiel O
+Moceliit B-PER
+cjiel I-PER
 , O
 dlyidliinl O
 , O
@@ -19831,17 +19831,17 @@ ierieszor O
 avin O
 Mrifers.-- B-PER
 |
-| O
-DDe B-PER
-fupiler O
+| I-PER
+DDe I-PER
+fupiler I-PER
 , O
 Counant B-PER
 pouir O
 le O
 Rls B-LOC
 . O
-do O
-Latore B-LOC
+do B-PER
+Latore I-PER
 . O
 . O
 |
@@ -19868,7 +19868,7 @@ iavolonialie O
 - O
 Noleein O
 roia O
-Enesla B-PER
+Enesla O
 sererd O
 , O
 ---- O
@@ -19881,11 +19881,11 @@ eniiaine O
 , O
 |
  | O
-Sire B-LOC
-deresier O
+Sire B-PER
+deresier I-PER
 a O
 la O
-pace----- B-MISC
+pace----- O
 |
  | O
 quil O
@@ -19894,7 +19894,7 @@ vient O
 de O
 oligislr O
 au O
-Carnaess B-ORG
+Carnaess B-MISC
 .. O
 |
  | O
@@ -19902,7 +19902,7 @@ d O
 |
  | O
 LE O
-PARNASSE B-LOC
+PARNASSE O
 . O
 |
  | O
@@ -19913,29 +19913,29 @@ Volséair O
 |
 | O
 i. O
-Surait B-PER
+Surait O
 au O
-Liomri B-MISC
-dos I-MISC
-Wierinici I-MISC
+Liomri O
+dos O
+Wierinici B-MISC
 souelait.- O
 |
  | O
-Un O
-cri O
-delfroi O
+Un B-MISC
+cri I-MISC
+delfroi I-MISC
 , O
 suivi O
 d' O
 uri B-MISC
 lorig I-MISC
-sllené O
+sllené I-MISC
 , O
 - O
 . O
 |
  | O
-Adapolloi O
+Adapolloi B-PER
 slaciale O
 la O
 précèidiot O
@@ -19958,33 +19958,33 @@ I B-LOC
 a O
 trahis O
 , O
-sEorla B-MISC
-le I-MISC
-Bls I-MISC
-de I-MISC
-Sripitetse I-MISC
+sEorla B-PER
+le I-PER
+Bls I-PER
+de O
+Sripitetse O
 . O
 |
  | O
 darile O
 cl O
 coupable O
-insolenice O
+insolenice B-PER
 , O
 |
 | O
-i B-PER
-D I-PER
-Des I-PER
-ce O
-jous O
+i B-MISC
+D I-MISC
+Des I-MISC
+ce I-MISC
+jous I-MISC
 , O
-iecerrason O
-prir O
-t O
+iecerrason B-PER
+prir I-PER
+t I-PER
 |
- | O
-SPour B-MISC
+ | I-PER
+SPour I-PER
 en O
 dieè O
 plus O
@@ -20008,20 +20008,20 @@ imnerdire O
 |
 | O
 a' O
-Encrès O
+Encrès B-MISC
 lieur O
 saints O
 , O
 réponts O
 , O
 que O
-visrs O
-- O
-lufuiref O
+visrs B-PER
+- I-PER
+lufuiref I-PER
 |
- | O
+ | I-PER
 . O
-Prolanesl B-PER
+Prolanesl B-LOC
 . O
 Yous O
 no O
@@ -20040,16 +20040,16 @@ pas O
 qua O
 blieuie O
 . O
-mme O
-d O
+mme B-PER
+d I-PER
 , O
 Sous B-MISC
 voe I-MISC
-pas I-MISC
+pas O
 , O
 |
  | O
-PliEhiarir B-MISC
+PliEhiarir B-PER
 p' O
 ourre O
 Un O
@@ -20070,15 +20070,15 @@ Peut O
 poui B-PER
 janiciis I-PER
   O
-vouss O
-engloulissese O
+vouss B-PER
+engloulissese I-PER
 . O
 . O
 |
  | O
-Pailehn O
-Dir' O
-avez O
+Pailehn B-LOC
+Dir' I-LOC
+avez I-LOC
 - O
 voiis O
 defit O
@@ -20086,8 +20086,8 @@ defit O
 .. O
 |
  | O
-Sla B-PER
-Caiblesso I-PER
+Sla O
+Caiblesso B-PER
 , O
 ou O
 hien O
@@ -20101,7 +20101,7 @@ je O
 devrais O
 : O
 , O
-miais O
+miais B-LOC
 je O
 dé O
 sire O
@@ -20124,8 +20124,8 @@ a O
 mies O
 Jeus B-PER
 , O
-dunatieniat O
-pareili O
+dunatieniat B-PER
+pareili I-PER
 , O
 i O
 n° O
@@ -20137,18 +20137,18 @@ et O
 de O
 son O
 seepite O
-Ayahi B-MISC
-faihe O
+Ayahi B-ORG
+faihe B-PER
 sa O
 lyie,-- O
 |
  | O
 Emiieriet B-MISC
-bis O
-det O
+bis I-MISC
+det I-MISC
 dot O
 dè O
-Sirèy B-MISC
+Sirèy B-LOC
 a--- O
 |
 | O
@@ -20162,11 +20162,11 @@ a--- O
 . O
 |
 | O
-ai--- B-PER
+ai--- O
 |
-| I-PER
+| O
 Aefsiual B-PER
-hurmionicn O
+hurmionicn I-PER
 . O
 |
 | O
@@ -20177,9 +20177,9 @@ Woseraif B-MISC
 inecounplffes O
 |
 | O
-Vit B-MISC
-fout I-MISC
-lo O
+Vit B-LOC
+fout I-LOC
+lo I-LOC
 , O
 Varidsso B-PER
 , O
@@ -20196,16 +20196,16 @@ maltrgioi O
 |
  
  | O
-Iansson B-ORG
-maintion O
+Iansson B-PER
+maintion I-PER
 chacun O
 cherchait O
-A O
-Aecouwrir O
+A B-LOC
+Aecouwrir I-LOC
 - O
 |
  | O
-Cospuieson B-PER
+Cospuieson O
 ceuir O
 alldit O
 rfsiielre O
@@ -20213,7 +20213,7 @@ rfsiielre O
 . O
 |
  | O
-Pilcederait O
+Pilcederait B-LOC
 au O
 hesolis O
 , O
@@ -20231,9 +20231,9 @@ gaksonelre O
 , O
 |
  | O
-Jous B-MISC
-frissornaientee I-MISC
-quanel I-MISC
+Jous B-ORG
+frissornaientee I-ORG
+quanel I-ORG
 , O
 ' O
 an O
@@ -20243,34 +20243,34 @@ danger,-- O
 - O
 Lousorirs O
 , O
-esuiant O
-san B-LOC
-audaco O
+esuiant B-PER
+san I-PER
+audaco I-PER
 , O
 |
 | O
 . O
 Etpen B-PER
-lonche O
+lonche I-PER
 de O
 lainengèo---- O
 |
  | O
-Dun O
-Sien O
-iurant O
+Dun B-LOC
+Sien I-LOC
+iurant I-LOC
 dose O
 venger O
 , O
 |
 | O
 i. O
-Hespregusloinhoaux B-LOC
+Hespregusloinhoaux O
 pieils O
 du O
 fourerain O
 deg O
-Iluses B-MISC
+Iluses O
 . O
 |
  | O
@@ -20281,23 +20281,23 @@ air O
 que O
 n O
 , O
-meausesie-- B-MISC
+meausesie-- O
 |
- | I-MISC
-nDue I-MISC
-se.ne I-MISC
-sris I-MISC
-blis I-MISC
-j O
-ales O
-sani O
+ | O
+nDue B-LOC
+se.ne I-LOC
+sris I-LOC
+blis I-LOC
+j I-LOC
+ales I-LOC
+sani I-LOC
 . O
 |
  | O
-Giin B-MISC
-Erattre I-MISC
+Giin B-PER
+Erattre I-PER
 , O
-Jont B-PER
+Jont B-LOC
 le O
 non O
 le O
@@ -20330,7 +20330,7 @@ jurbrsi O
 |
 | O
 . O
-Wais O
+Wais B-PER
 si O
 la O
 jusiice O
@@ -20342,22 +20342,22 @@ accord O
 |
 | O
 ' O
-Areo O
+Areo B-LOC
 la O
 pilie O
 , O
-veulençor O
+veulençor B-LOC
 . O
 - O
 |
  | O
 dit O
 , O
-ln O
-defense O
+ln B-ORG
+defense I-ORG
 . O
-soil B-LOC
-saeris O
+soil B-MISC
+saeris I-MISC
 : O
 . O
 |
@@ -20365,34 +20365,34 @@ saeris O
 EIlsdesuniler B-MISC
 , O
 a O
-ManRoi- B-MISC
+ManRoi- B-PER
 |
 | O
 1 O
 |
  | O
 Je O
-dencnrn O
-i O
-Leoiieos O
-f- O
+dencnrn B-PER
+i I-PER
+Leoiieos I-PER
+f- I-PER
 |
 | O
 1 O
 |
 | O
 EGSCAljour B-MISC
-AanSniet I-MISC
+AanSniet O
 . O
-Celle- B-ORG
+Celle- O
 |
 | O
-LS B-ORG
-PANNASSS I-ORG
+LS B-LOC
+PANNASSS O
 |
 
  | O
-Hofali B-PER
+Hofali B-LOC
 poinl O
 un O
 sisfet O
@@ -20404,18 +20404,18 @@ d O
 jamais O
 passs O
 , O
-daris O
+daris B-MISC
 un O
 fuornerit O
 , O
 |
  | O
-DE O
-L' B-MISC
+DE B-MISC
+L' I-MISC
 amour I-MISC
 , O
 au O
-Lehordlement B-PER
+Lehordlement B-MISC
 . O
 |
 | O
@@ -20423,11 +20423,11 @@ Lehordlement B-PER
 |
 | O
 a O
-Dol B-LOC
-halrie O
+Dol B-PER
+halrie I-PER
 la O
 plus O
-coupablo O
+coupablo B-LOC
 , O
 .. O
 |
@@ -20467,20 +20467,20 @@ suis O
 .. O
 |
 | O
-I B-MISC
-Tusate I-MISC
-mon I-MISC
-Eflc I-MISC
+I O
+Tusate B-PER
+mon I-PER
+Eflc I-PER
 , O
 ud O
-Corisiaince B-MISC
+Corisiaince O
 .. O
 |
  | O
 A O
 poursuivre O
-feg O
-annicrmis O
+feg B-PER
+annicrmis I-PER
 , O
 .. O
 |
@@ -20488,7 +20488,7 @@ annicrmis O
 n O
 Tusdis B-ORG
 mes I-ORG
-périls O
+périls I-ORG
 y O
 mes O
 auinuiis.aise O
@@ -20499,22 +20499,22 @@ j O
 , O
 enlin O
 , O
-larecomipense O
+larecomipense B-LOC
 . O
 . O
 |
  | O
 DA B-ORG
-Couronne I-ORG
+Couronne O
 tauido O
 nobles O
 fiayarir O
 , O
 |
  | O
-Quaveo B-MISC
-mes I-MISC
-pairs I-MISC
+Quaveo O
+mes O
+pairs O
 , O
 etsans B-PER
 rivarin I-PER
@@ -20528,10 +20528,10 @@ rivarin I-PER
 . O
 |
 | O
---- B-LOC
+--- O
 |
- | I-LOC
-nJehois B-MISC
+ | O
+nJehois B-PER
 , O
 chaque O
 jorir O
@@ -20545,15 +20545,15 @@ parde O
 d' O
 sès O
 elis O
-r.- B-MISC
+r.- O
 |
-| I-MISC
-a I-MISC
-Juandl I-MISC
-jo O
+| O
+a O
+Juandl B-PER
+jo I-PER
 ne O
-poiiz O
-desirer O
+poiiz B-PER
+desirer I-PER
 rien O
 de O
 , O
@@ -20574,20 +20574,20 @@ folies O
 -- O
 |
 | O
-sc O
-Pouirsecondsi B-LOC
+sc B-PER
+Pouirsecondsi I-PER
 . O
-do O
-porkides O
-dessoins O
+do B-PER
+porkides I-PER
+dessoins I-PER
 : O
 |
  | O
-Prahi O
+Prahi B-PER
 ches O
 devoire O
 les O
-pluis O
+pluis B-PER
 saints O
 lise O
 . O
@@ -20604,26 +20604,26 @@ auspiees O
  | O
 dClest B-MISC
 par O
-moigre O
-cesSitargèt O
+moigre B-PER
+cesSitargèt I-PER
 , O
 |
  | O
 n. O
-Kchappes B-ORG
+Kchappes B-MISC
 dtous O
 les O
 danger O
 |
  | O
-Idenoseerlessat B-LOC
-aa O
-aospreoipies O
+Idenoseerlessat B-PER
+aa I-PER
+aospreoipies I-PER
 |
 
 
-| O
-1 O
+| I-PER
+1 I-PER
 |
 
 | O
@@ -20633,20 +20633,20 @@ d- O
 QUATRE.- B-MISC
 |
  | I-MISC
-W O
-Ont O
-pensire O
+W I-MISC
+Ont I-MISC
+pensire I-MISC
 dans O
 ce O
 Vicu B-PER
-de O
-Mé O
+de I-PER
+Mé I-PER
 les O
 , O
 |
  | O
 ils O
-S B-LOC
+S B-MISC
 , O
 en O
 ocuant O
@@ -20689,14 +20689,14 @@ animid O
 . O
 |
 | O
---- B-LOC
+--- O
 |
 
- | I-LOC
-Pas I-LOC
-trop I-LOC
+ | O
+Pas O
+trop O
 . O
-Doble O
+Doble B-MISC
 et O
 trop O
 legiiime O
@@ -20704,10 +20704,10 @@ legiiime O
 .--- O
 |
  | O
-Canesl B-MISC
+Canesl B-LOC
 point O
 an O
-meurpaieuis O
+meurpaieuis B-PER
 , O
 |
 | O
@@ -20715,15 +20715,15 @@ meurpaieuis O
 |
 | O
 . O
-Gostcoinpe O
+Gostcoinpe B-MISC
 simples O
 voyageurs O
 . O
 |
 | O
 ' O
-Quils B-LOC
-Viennentsur I-LOC
+Quils B-PER
+Viennentsur I-PER
 la O
 double O
 ciene O
@@ -20754,16 +20754,16 @@ au O
 Honargiie B-LOC
 qui O
 piroinet O
-deirs.- B-MISC
+deirs.- O
 |
-| I-MISC
----- I-MISC
+| O
+---- O
 |
-| I-MISC
--enr I-MISC
-pere I-MISC
-pllot I-MISC
-qie O
+| O
+-enr O
+pere O
+pllot B-PER
+qie I-PER
 leur O
 ialirdeoe O
 |
@@ -20776,7 +20776,7 @@ lerre O
 en O
 honorant O
 ses O
-Rois B-PER
+Rois B-MISC
 , O
 - O
 |
@@ -20784,13 +20784,13 @@ Rois B-PER
 -Deses O
 piens O
 . O
-Consderait O
-les O
-Aroilsii B-PER
+Consderait B-PER
+les I-PER
+Aroilsii I-PER
 |
- | I-PER
-' I-PER
-Jaicedsoie I-PER
+ | O
+' O
+Jaicedsoie B-LOC
 , O
 suis O
 je O
@@ -20818,24 +20818,24 @@ Apollon,--- O
 feisfenien O
 la O
 révolie O
-coinmierice-- B-PER
+coinmierice-- O
 |
-  | I-PER
-Dusairele I-PER
+  | O
+Dusairele B-PER
 , O
-Vokeissance B-PER
-| | I-PER
-- I-PER
+Vokeissance B-MISC
+| | O
+- O
 |
-| I-PER
-iEtque I-PER
+| O
+iEtque B-MISC
 sourent O
-uin O
-ininsie O
+uin B-PER
+ininsie I-PER
 parilon-- O
 |
  | O
-Epiralne O
+Epiralne B-PER
 nne O
 séconda O
 olfense O
@@ -20843,17 +20843,17 @@ olfense O
 loin O
 |
  | O
-Disliss B-MISC
-56 I-MISC
-Convions I-MISC
+Disliss O
+56 O
+Convions O
 qua O
-Despreau- B-PER
+Despreau- B-MISC
 |
-  | I-PER
-Ma I-PER
-ioutsaerilee I-PER
-soh I-PER
-Bonheur I-PER
+  | I-MISC
+Ma I-MISC
+ioutsaerilee O
+soh O
+Bonheur O
 , O
 son O
 repossio O
@@ -20863,25 +20863,25 @@ repossio O
 ie O
 jamals O
 sulelphs O
-Ciaele B-ORG
+Ciaele B-PER
 -- O
 |
 
 | O
-P B-LOC
+P O
 |
  | O
 d----- O
 |
 | O
-6A O
+6A B-MISC
 |
- | O
-LE O
-PARNASSE B-LOC
+ | I-MISC
+LE I-MISC
+PARNASSE I-MISC
 |
-  | I-LOC
-Went O
+  | I-MISC
+Went I-MISC
 plus O
 camour O
 , O
@@ -20895,17 +20895,17 @@ rtlo O
 Desouiemris B-MISC
 quil O
 a O
-Vaincus B-PER
+Vaincus B-MISC
 , O
 . O
 |
  | O
 n O
 Deswains B-LOC
-proiets O
-quil O
-a O
-Aequis B-PER
+proiets B-PER
+quil I-PER
+a I-PER
+Aequis B-LOC
 , O
 |
  | O
@@ -20917,56 +20917,56 @@ msmoire O
 |
 | O
 o O
-Hais B-LOC
-rin O
+Hais B-PER
+rin I-PER
 seul O
 jour O
-dloirahizon-- B-ORG
+dloirahizon-- O
 |
- | I-ORG
-y I-ORG
-Rent I-ORG
-allicor I-ORG
-hien O
-des O
-luisires O
-dogloire O
+ | O
+y O
+Rent B-PER
+allicor I-PER
+hien I-PER
+des I-PER
+luisires I-PER
+dogloire I-PER
 , O
 - O
 |
 | O
 . O
-Etrien B-LOC
+Etrien B-PER
 ne O
-comipemse O
+comipemse B-MISC
 l' O
 alront O
 . O
 |
 | O
 . O
-Eaitaii O
-Dicux O
+Eaitaii B-PER
+Dicux I-PER
 , O
-iropsouvenf O
-foices O
+iropsouvenf B-PER
+foices I-PER
 , O
 a O
 la O
-Vengeaneo B-ORG
+Vengeaneo B-LOC
 , O
 |
  | O
 Jadis O
 , O
-E B-LOC
-la O
-reconindisssnce O
+E B-PER
+la I-PER
+reconindisssnce I-PER
 . O
 |
   | O
-Plais B-LOC
-laut O
+Plais B-PER
+laut I-PER
 . O
 Il O
 , O
@@ -20977,27 +20977,27 @@ Lelours B-MISC
 , O
 |
  | O
-Lous B-MISC
-Epasguant I-MISC
+Lous B-PER
+Epasguant I-PER
 de O
 vains O
-Aiecouir B-LOC
+Aiecouir B-MISC
 , O
 : O
 |
  | O
 n O
 ZSfer B-MISC
-culn O
+culn I-MISC
 lespoir O
 sierile- O
 |
  | O
 n O
-Desurpreudlielin O
-cécur O
-trop O
-facils O
+Desurpreudlielin B-MISC
+cécur I-MISC
+trop I-MISC
+facils I-MISC
 , O
 . O
 |
@@ -21005,8 +21005,8 @@ facils O
 DEtirop B-MISC
 enelin O
 s O
-semourair O
-3 O
+semourair B-MISC
+3 I-MISC
 . O
 |
   | O
@@ -21045,33 +21045,33 @@ bouelio,- O
 I O
 A O
 cesse O
-detre O
-eu O
-mion O
+detre B-PER
+eu I-PER
+mion I-PER
 pouvoit O
-liie O
+liie B-PER
 |
- | O
-lephis O
+ | I-PER
+lephis I-PER
 saint O
 des O
-sermens O
+sermens B-LOC
 , O
 le O
-om O
+om B-ORG
 du O
 S4 B-MISC
-Je I-MISC
-n- I-MISC
+Je O
+n- O
 |
- | I-MISC
-Chaincreoe I-MISC
+ | O
+Chaincreoe B-LOC
 |
 | O
 1 O
 |
  | O
-Apolloi B-LOC
+Apolloi B-PER
 pronancait O
 & O
 peine O
@@ -21079,21 +21079,21 @@ peine O
 --- O
 |
  | O
-Cenom B-MISC
-iarille I-MISC
-igile I-MISC
-saudaisi I-MISC
+Cenom B-PER
+iarille I-PER
+igile I-PER
+saudaisi I-PER
 . O
 |
  | O
-sUr O
+sUr B-MISC
 l' O
 roclie O
 voisine O
 , O
-uine O
-iurisible O
-maii O
+uine B-LOC
+iurisible I-LOC
+maii I-LOC
 y- O
 |
 | O
@@ -21103,7 +21103,7 @@ y- O
 Entrails B-PER
 de I-PER
 leuSraws I-PER
-ieilosenience O
+ieilosenience I-PER
 . O
 . O
 |
@@ -21117,7 +21117,7 @@ morfels O
 mais O
 aux O
 . O
-Dierser O
+Dierser B-PER
 , O
 le O
 |
@@ -21140,9 +21140,9 @@ rapicles O
 delairs O
 |
  | O
-Prots O
+Prots B-LOC
 fois O
-onl O
+onl B-ORG
 sillonne O
 lesaire O
 , O
@@ -21179,9 +21179,9 @@ Et O
 trois O
 fois O
 , O
-Cnlrouivrant B-MISC
-la I-MISC
-nirc I-MISC
+Cnlrouivrant B-LOC
+la O
+nirc O
 , O
 |
  | O
@@ -21189,18 +21189,18 @@ nirc I-MISC
 . O
 |
  | O
-Adieu B-LOC
+Adieu O
 . O
 lje B-ORG
 rous O
 entends O
 loie O
 d O
-Génous B-LOC
-131 O
+Génous B-MISC
+131 I-MISC
 |
- | O
-ISteris B-MISC
+ | I-MISC
+ISteris I-MISC
 le O
 Ols B-MISC
 de O
@@ -21216,11 +21216,11 @@ prostetrer.vous O
  | O
 . O
 Devant O
-lo O
-Giel B-LOC
+lo B-PER
+Giel I-PER
 qui O
 vous O
-pardonric O
+pardonric B-LOC
 ... O
 |
 | O
@@ -21239,8 +21239,8 @@ imipuirs- O
  | O
 . O
 Toujours O
-darigé B-PER
-bieN I-PER
+darigé O
+bieN O
 , O
 ct O
 peu O
@@ -21268,16 +21268,16 @@ que O
 , O
 sins O
 ' O
-disardee O
+disardee B-LOC
 , O
 . O
 |
 | O
 a O
 Jolis B-PER
-ayex O
+ayex I-PER
 . O
-Uaisicirles B-LOC
+Uaisicirles B-MISC
 liasarals--- O
 |
  | O
@@ -21326,10 +21326,10 @@ dey O
 . O
 trop O
 d' O
-awsir O
+awsir B-PER
 dehe O
 mon O
-courfouis O
+courfouis B-ORG
 , O
 . O
 |
@@ -21340,15 +21340,15 @@ susqidigodier O
 ce O
 bicuvage O
 si O
-dotisi O
+dotisi B-PER
 , O
 |
 | O
-Maissi B-PER
+Maissi B-MISC
 rédouiiabilo O
 et O
-st O
-ixatira O
+st B-PER
+ixatira I-PER
 |
  | O
 a O
@@ -21381,10 +21381,10 @@ aLesfpiits I-PER
 de I-PER
 votic' I-PER
 audlac̈e I-PER
-ct O
-de O
-mon O
-indulgenco O
+ct I-PER
+de I-PER
+mon I-PER
+indulgenco I-PER
 . O
 |
 | O
@@ -21397,32 +21397,32 @@ indulgenco O
 d.- O
 |
 | O
-I- B-PER
+I- B-MISC
+|
+| I-MISC
+de I-MISC
+- I-MISC
+|
+| I-MISC
+d I-MISC
+|
+ | I-MISC
+LE I-MISC
+PARNASSE I-MISC
+--- O
 |
 | O
-de O
 - O
-|
-| O
-d O
-|
- | O
-LE O
-PARNASSE B-LOC
---- I-LOC
-|
-| I-LOC
-- I-LOC
-C.-- I-LOC
+C.-- O
 |
 | O
 i. O
-IL B-ORG
+IL O
 s. O
 oui O
 , O
-l. O
-Yous B-PER
+l. B-PER
+Yous I-PER
 voulerch I-PER
 laire O
 un O
@@ -21433,7 +21433,7 @@ y O
 a O
 |
   | O
-Encenisck B-PER
+Encenisck B-MISC
 le O
 mnerito O
 , O
@@ -21441,12 +21441,12 @@ non O
 . O
 pas O
 la O
-puissancsd O
+puissancsd B-LOC
 . O
 |
   | O
-Un O
-gisnd O
+Un B-MISC
+gisnd I-MISC
 . O
 Prince O
 n' O
@@ -21456,42 +21456,42 @@ Ralie B-LOC
 |
 | O
 . O
-Pai O
-qul O
-Vezalle B-LOC
+Pai B-PER
+qul I-PER
+Vezalle I-PER
 , O
 sais O
 . O
-scriipulo B-PER
-s. I-PER
+scriipulo B-LOC
+s. O
 |
- | I-PER
+ | O
 " O
 Au O
-Feúpens O
+Feúpens B-LOC
 de O
 la O
 . O
-vernieR O
+vernieR B-PER
 , O
 . O
 |
 | O
 . O
-E O
+E B-PER
 Et O
 la O
-lausso O
-louaige O
-cst O
+lausso B-PER
+louaige I-PER
+cst I-PER
 au O
 moins O
 widiculg O
 , O
 |
   | O
-Votre O
-Houiaiqne O
+Votre B-PER
+Houiaiqne I-PER
 cat.il O
 , O
 a O
@@ -21506,11 +21506,11 @@ vevtris O
  | O
 I B-MISC
 Be I-MISC
-Lous O
-les O
-Mois O
-quo O
-loinondo O
+Lous I-MISC
+les I-MISC
+Mois I-MISC
+quo I-MISC
+loinondo I-MISC
 a O
 Conrius B-PER
 : O
@@ -21527,19 +21527,19 @@ lhistoire O
 |
 | O
 . O
-nE O
+nE B-PER
 t. O
 ne O
-ls O
-fricllee O
+ls B-PER
+fricllee I-PER
 . O
 pas O
 au O
-alioie-- B-ORG
+alioie-- O
 |
- | I-ORG
-Wetreiror I-ORG
-vnln I-ORG
+ | O
+Wetreiror B-LOC
+vnln O
 , O
 ' O
 oudo O
@@ -21551,9 +21551,9 @@ croiree O
 |
 | O
 a O
-Vouis O
-lii O
-direr O
+Vouis B-PER
+lii I-PER
+direr I-PER
 ( O
 si O
 toutelois O
@@ -21561,7 +21561,7 @@ toutelois O
 |
  | O
 . O
-Llestlcl O
+Llestlcl B-PER
 que O
 le O
 , O
@@ -21579,7 +21579,7 @@ J B-LOC
 | | O
 Joris B-PER
 lui O
-direa O
+direa B-PER
 . O
 Grand O
 , O
@@ -21601,11 +21601,11 @@ courlisasis O
 |
  | O
 n O
-Lccotiliemes B-LOC
+Lccotiliemes B-MISC
 a O
 nsfrir O
 , O
-laurEncéen B-MISC
+laurEncéen O
 . O
 |
  | O
@@ -21620,11 +21620,11 @@ iiademe O
 . O
 |
  | O
-D. O
-Lenesont B-LOC
+D. B-PER
+Lenesont I-PER
 point O
 des O
-Rlaileurs B-MISC
+Rlaileurs B-LOC
 . O
 corrompiis O
 = O
@@ -21632,8 +21632,8 @@ corrompiis O
 | O
 . O
 Dlus B-PER
-devouds O
-alia O
+devouds I-PER
+alia I-PER
 vices O
 qu O
 aua O
@@ -21666,7 +21666,7 @@ fols O
 encor O
 , O
 veut O
-repeter O
+repeter B-PER
 qu O
 ' O
 il O
@@ -21700,11 +21700,11 @@ firances O
 . O
 |
   | O
-Bebage O
+Bebage B-LOC
 d' O
 or O
 ' O
-henretise O
+henretise B-PER
 ressemblance O
 , O
 . O
@@ -21718,30 +21718,30 @@ les O
 levres O
 , O
 eh O
-BIeńtiai O
+BIeńtiai B-LOC
 |
  | O
 7 O
 ---- O
 |
 | O
-I B-ORG
+I B-LOC
 |
- | I-ORG
-TENACE I-ORG
+ | O
+TENACE O
 |
  | O
 n O
 huisséront O
 brilier O
 ce O
-sourire.- B-MISC
+sourire.- O
 |
- | I-MISC
-A I-MISC
-Etci I-MISC
-doux I-MISC
-ct O
+ | O
+A B-PER
+Etci I-PER
+doux I-PER
+ct I-PER
 se O
 gracier O
 ... O
@@ -21751,13 +21751,13 @@ gracier O
 85- O
 |
   | O
-Loujonre B-PER
+Loujonre O
 d' O
 accord O
 . O
 avec O
-l̀s O
-veua O
+l̀s B-PER
+veua I-PER
 , O
 |
  | O
@@ -21771,9 +21771,9 @@ qui O
 pour O
 toi O
 , O
-semible O
-Eouijours B-MISC
-reuires I-MISC
+semible B-PER
+Eouijours I-PER
+reuires I-PER
 . O
 |
 | O
@@ -21786,8 +21786,8 @@ J' O
 aisoif O
 encore O
 dien O
-bienfast B-ORG
-l.r I-ORG
+bienfast O
+l.r B-MISC
 . O
 |
 | O
@@ -21797,7 +21797,7 @@ ces O
 mols O
 , O
 lo O
-Dieu B-MISC
+Dieu O
 disparallerr O
 |
  | O
@@ -21806,51 +21806,51 @@ les O
 Frangais B-LOC
 , O
 dans O
-l. O
-houreun O
-deliro O
+l. B-LOC
+houreun I-LOC
+deliro I-LOC
 , O
 . O
 |
 | O
-Arant O
+Arant B-PER
 de O
 Sarrachci B-PER
 de I-PER
 co I-PER
-charmant O
-sffour O
+charmant I-PER
+sffour I-PER
 . O
 |
 | O
 . O
 |
  | O
-Dis O
-fout O
-les O
-ravit O
+Dis B-MISC
+fout I-MISC
+les I-MISC
+ravit I-MISC
 , O
 les O
 , O
-inspiren O
+inspiren B-PER
 .. O
 |
 | O
 . O
-Caaaiesdir O
+Caaaiesdir B-PER
 , O
 au O
-Darirhons B-MISC
-do I-MISC
-sa I-MISC
-Coury I-MISC
+Darirhons B-LOC
+do I-LOC
+sa I-LOC
+Coury I-LOC
 . O
 |
 | O
-Ont O
-entowne O
-leut O
+Ont B-MISC
+entowne I-MISC
+leut I-MISC
 prepig O
 |
 | O
@@ -21866,16 +21866,16 @@ R I-MISC
 |
 | I-MISC
 ELle I-MISC
-l I-MISC
+l O
 |
-| I-MISC
-ils I-MISC
+| O
+ils O
 |
-| I-MISC
-LIEU I-MISC
+| O
+LIEU O
 |
-| I-MISC
-hui I-MISC
+| O
+hui O
 . O
 |
 | O
@@ -21892,11 +21892,11 @@ CE I-MISC
 |
 
  | O
-Lente B-MISC
-deteriore O
+Lente B-PER
+deteriore I-PER
 . O
-teliure O
-defectueuse O
+teliure B-PER
+defectueuse I-PER
 |
 | O
 TASILOIU B-MISC
@@ -21952,7 +21952,7 @@ ah.------ O
 aH O
 |
 | O
-je----- B-PER
+je----- O
 |
 | O
 ---- O
@@ -21974,7 +21974,7 @@ V O
 |
 | O
 . O
-.--- O
+.--- B-MISC
 |
 | O
 -- O
@@ -22069,7 +22069,7 @@ d O
 ---- O
 |
 | O
-.e O
+.e B-ORG
 . O
 |
 
@@ -22094,18 +22094,18 @@ o O
 | O
 . O
 a. O
-aH O
+aH B-MISC
 |
-| O
-.aH B-PER
+| I-MISC
+.aH I-MISC
 |
-| O
-i. O
+| I-MISC
+i. I-MISC
 |
-| O
-a. O
-çA O
-Va O
+| I-MISC
+a. I-MISC
+çA B-MISC
+Va I-MISC
 . O
 a O
 |
@@ -22137,14 +22137,14 @@ do O
 
 | O
 dlr O
-SIEAeFSsressdA. B-LOC
+SIEAeFSsressdA. O
 |
 | O
 MF B-LOC
 J I-LOC
 A.V2O.I I-LOC
 |
-| I-LOC
+| O
 . O
 . O
 W.F1 B-ORG
@@ -22156,18 +22156,18 @@ d. O
 |
 
 | O
-II B-MISC
+II O
 |
- | I-MISC
-À I-MISC
+ | O
+À O
 |
-| I-MISC
-ato I-MISC
+| O
+ato O
 Atrsstticatit B-MISC
 |
 | I-MISC
 E I-MISC
-SAEAEYAAA I-MISC
+SAEAEYAAA O
 |
  
  | O

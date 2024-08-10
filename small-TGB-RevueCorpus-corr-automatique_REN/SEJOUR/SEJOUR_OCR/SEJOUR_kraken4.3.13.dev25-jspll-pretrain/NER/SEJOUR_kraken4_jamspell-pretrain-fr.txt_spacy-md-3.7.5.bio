@@ -1,13 +1,13 @@
 ( O
 b O
 ) O
-Caltica B-ORG
+Caltica B-PER
 |
-| O
-Diegarias B-PER
+| I-PER
+Diegarias I-PER
 , O
 drame O
-Cn O
+Cn B-MISC
 Actes O
 |
 | O
@@ -15,18 +15,18 @@ renvers O
 , O
 par O
 M. B-PER
-Victor B-PER
+Victor I-PER
 |
 | I-PER
 Sejour I-PER
 ... O
 PAris B-LOC
 , O
-Théâtre B-LOC
+Théâtre O
 . O
 |
 | O
-Français B-LOC
+Français B-MISC
 , O
 23 O
 juillet O
@@ -43,10 +43,10 @@ A41 B-LOC
 880 O
 |
 | O
-Calice B-MISC
+Calice B-PER
 |
-| I-MISC
-DS I-MISC
+| O
+DS B-ORG
 |
 | O
 180 O
@@ -82,20 +82,20 @@ Sejour I-PER
 ... O
 Paris B-LOC
 , O
-Théâtre B-LOC
-franchis I-LOC
+Théâtre O
+franchis O
 , O
 |
 | O
-A2juillet B-PER
+A2juillet B-ORG
 1894.7 O
 . O
 1892 O
 . O
 |
 | O
-I1 B-ORG
-lescontenus O
+I1 B-PER
+lescontenus I-PER
 accessibles O
 sur O
 le O
@@ -118,10 +118,10 @@ domaine O
 public O
 provenant O
 des O
-Collections B-MISC
-de I-MISC
-la I-MISC
-Bnf I-MISC
+Collections B-LOC
+de I-LOC
+la I-LOC
+Bnf I-LOC
 . O
 leur O
 utilisation O
@@ -131,8 +131,8 @@ dans O
 le O
 cadre O
 de O
-la B-LOC
-loin078 I-LOC
+la O
+loin078 O
 . O
 |
 | O
@@ -147,7 +147,7 @@ juillet O
 a O
 utilisation O
 non O
-Commercial B-LOC
+Commercial B-MISC
 de O
 ces O
 Contenus B-MISC
@@ -187,7 +187,7 @@ source O
 |
 | O
 des O
-contenustele O
+contenustele B-PER
 que O
 precinct O
 Charles B-PER
@@ -196,18 +196,18 @@ u O
 Source O
 gallica O
 . O
-onf B-MISC
+onf O
 fr(Bibliothque O
 nationale O
 de B-LOC
 France I-LOC
 s O
 o4 O
-u O
-Source O
+u B-MISC
+Source I-MISC
 |
-| O
-Calice.Onf.fr O
+| I-MISC
+Calice.Onf.fr I-MISC
 ( O
 Ont B-MISC
 n. I-MISC
@@ -215,8 +215,8 @@ n. I-MISC
 | I-MISC
 areutilisation I-MISC
 commerciale I-MISC
-de O
-ces O
+de I-MISC
+ces I-MISC
 Contenus B-PER
 est O
 payante O
@@ -234,7 +234,7 @@ par O
 utilisation O
 |
 | O
-Commerciale B-LOC
+Commerciale B-MISC
 ( O
 a O
 revente O
@@ -273,7 +273,7 @@ des O
 ouvrages O
 |
 | O
-Acad́miques O
+Acad́miques B-LOC
 ou O
 scientifiques O
 ) O
@@ -286,7 +286,7 @@ production O
 audiovisuelle O
 , O
 un O
-Service B-MISC
+Service B-ORG
 ou O
 un O
 produit O
@@ -295,27 +295,27 @@ payant O
 un O
 |
 | O
-Support B-LOC
+Support B-ORG
 vocation O
 promotionnelle O
 etc. O
 |
 | O
 ChOUERIGIPOURACCEDERAUATARITS B-MISC
-EIALA B-MISC
-CHERCHE O
+EIALA I-MISC
+CHERCHE I-MISC
 |
 | O
-I O
+I B-LOC
 lescontenus O
 de O
-Gallica B-PER
+Gallica B-MISC
 sont O
 la O
-proprieté O
-de O
-la O
-Bnf B-LOC
+proprieté B-ORG
+de I-ORG
+la I-ORG
+Bnf I-ORG
 au O
 sens O
 de O
@@ -336,11 +336,11 @@ publiques O
 . O
 |
 | O
-I O
+I B-ORG
 Quelques O
 cContenussontsoumis B-ORG
-dun O
-rgime O
+dun I-ORG
+rgime I-ORG
 de O
 lutilisation O
 particulier O
@@ -412,9 +412,9 @@ mention O
 source O
 gallica O
 . O
-Bnf B-PER
-fr I-PER
-Bibtiotheque I-PER
+Bnf B-LOC
+fr I-LOC
+Bibtiotheque I-LOC
 municipale O
 de O
 ... O
@@ -445,8 +445,8 @@ reutitisation O
 . O
 |
 | O
-A1 B-PER
-Gallica I-PER
+A1 B-MISC
+Gallica I-MISC
 Constitue O
 une O
 base O
@@ -454,20 +454,20 @@ de O
 donnes O
 , O
 dont O
-la O
-But B-LOC
+la B-MISC
+But I-MISC
 est O
 le O
 producteur O
 , O
-protegée B-MISC
-du I-MISC
-sens I-MISC
-des I-MISC
-articles I-MISC
-1342 I-MISC
-- I-MISC
-2 I-MISC
+protegée O
+du O
+sens O
+des O
+articles O
+1342 O
+- O
+2 O
 et O
 |
 | O
@@ -476,12 +476,12 @@ du O
 code O
 de O
 la O
-proprít́ B-MISC
-intetectuete I-MISC
+proprít́ O
+intetectuete O
 . O
 |
 | O
-S1 B-MISC
+S1 B-LOC
 les O
 presentes O
 conditions O
@@ -490,7 +490,7 @@ utilisation O
 des O
 contenus O
 de O
-Gallica B-LOC
+Gallica B-MISC
 sont O
 regis O
 par O
@@ -499,12 +499,12 @@ loi O
 frangaise O
 . O
 En O
-Cas5 O
-de O
+Cas5 B-MISC
+de I-MISC
 |
-| O
-utilisation O
-pŕvue B-PER
+| I-MISC
+utilisation I-MISC
+pŕvue I-MISC
 dans O
 un O
 autre O
@@ -552,21 +552,21 @@ vigueur O
 , O
 |
 | O
-Notamment O
+Notamment B-LOC
 en O
 matire O
 de O
-proprieté O
-intellectuelle O
+proprieté B-ORG
+intellectuelle I-ORG
 . O
 En O
-Cas B-PER
-de O
-non O
-respect O
-de O
-ces O
-dispositions O
+Cas B-MISC
+de I-MISC
+non I-MISC
+respect I-MISC
+de I-MISC
+ces I-MISC
+dispositions I-MISC
 , O
 i O
 est O
@@ -588,12 +588,12 @@ juillet O
 . O
 |
 | O
-I1 B-MISC
+I1 O
 Pourobtenir O
 un O
 document O
 de O
-Gallica B-LOC
+Gallica B-MISC
 en O
 haute O
 définition O
@@ -602,16 +602,16 @@ contacter O
 |
 | O
 utilisation O
-Commerciale B-PER
-Contre O
-. O
+Commerciale B-MISC
+Contre I-MISC
+. I-MISC
 |
 
 | O
-A O
+A B-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
 | O
 23 O
@@ -633,7 +633,7 @@ a O
 : O
 |
 | O
-N. B-LOC
+N. O
 |
  
 | O
@@ -649,7 +649,7 @@ dey O
 171 O
 |
 | O
-N B-LOC
+N B-PER
 .. O
 |
  | O
@@ -676,9 +676,9 @@ D O
 . O
 |
 | O
-E B-ORG
-U I-ORG
-9 I-ORG
+E B-MISC
+U I-MISC
+9 I-MISC
 . O
 |
  | O
@@ -689,13 +689,13 @@ A O
 E B-LOC
 D I-LOC
 |
-| O
-E B-LOC
+| I-LOC
+E I-LOC
 |
-| O
-r B-PER
-s. I-PER
-W. I-PER
+| I-LOC
+r I-LOC
+s. I-LOC
+W. I-LOC
 |
 | O
 ---- O
@@ -705,7 +705,7 @@ W. I-PER
 a O
 |
 | O
-D B-LOC
+D O
 |
 | O
 12 O
@@ -716,10 +716,10 @@ aid O
 s O
 |
 | O
-DS B-MISC
+DS B-ORG
 |
 | O
-E B-LOC
+E O
 |
 | O
 . O
@@ -744,7 +744,7 @@ a O
 33 O
 |
 | O
-.E B-ORG
+.E O
 |
  
 | O
@@ -793,31 +793,31 @@ Se O
 |
 
 | O
-rel B-PER
-ett I-PER
+rel B-ORG
+ett I-ORG
 . O
 |
 | O
-a3 B-LOC
+a3 B-PER
 |
 
 
-| O
-- O
+| I-PER
+- I-PER
 |
 
-| O
+| I-PER
 ---- O
 |
 | O
 -- O
 |
 | O
-N O
+N B-PER
 |
 
-| O
-r O
+| I-PER
+r I-PER
 |
 | O
 21 O
@@ -826,18 +826,18 @@ do O
 
 
  | O
-E1 B-MISC
+E1 O
 |
  
-| I-MISC
-E I-MISC
+| O
+E O
 |
-| I-MISC
-e I-MISC
-d I-MISC
+| O
+e O
+d O
 |
- | I-MISC
-2 I-MISC
+ | O
+2 O
 |
 | O
 N B-LOC
@@ -852,7 +852,7 @@ do O
 |
 
 | O
-D8E B-MISC
+D8E B-ORG
 |
 
 | O
@@ -860,7 +860,7 @@ D8E B-MISC
 a O
 |
 | O
-.V.a O
+.V.a B-MISC
 . O
 |
 | O
@@ -880,15 +880,15 @@ m O
 . O
 |
 | O
-D O
+D B-PER
 |
 
-| O
-D. O
+| I-PER
+D. I-PER
 |
 
-| O
-N. B-LOC
+| I-PER
+N. I-PER
 |
 | O
 5 O
@@ -903,7 +903,7 @@ i O
 .. O
 |
 | O
-D B-PER
+D O
 |
 | O
 . O
@@ -963,7 +963,7 @@ i O
 1iv- O
 |
 | O
-i35- O
+i35- B-LOC
 |
 | O
 35 O
@@ -990,13 +990,13 @@ e O
 | O
 arr O
 , O
-di B-PER
-d I-PER
+di O
+d O
 - O
 |
 | O
 . O
-125- O
+125- B-ORG
 |
  
 | O
@@ -1063,10 +1063,10 @@ W. O
 ai O
 |
 | O
-R. B-MISC
+R. O
 |
-| I-MISC
-e I-MISC
+| O
+e O
 a O
 |
 | O
@@ -1115,7 +1115,7 @@ pe O
 |
 | O
 . O
-Wi O
+Wi B-LOC
 , O
 e O
 |
@@ -1140,7 +1140,7 @@ o O
 
 
 | O
-A O
+A B-LOC
 " O
 |
 | O
@@ -1162,7 +1162,7 @@ a O
 |
 
 | O
-V. B-MISC
+V. O
 | | O
 a O
 at1 O
@@ -1186,11 +1186,11 @@ I.- O
 5 O
 |
 | O
-T1 B-ORG
+T1 B-MISC
 |
 | O
 Ne O
-H B-PER
+H O
 |
 | O
 52 O
@@ -1210,7 +1210,7 @@ a O
 |
 
 | O
-N B-LOC
+N B-PER
 |
 | O
 . O
@@ -1239,7 +1239,7 @@ ARAS B-ORG
 |
 | O
 1 O
-a8 B-ORG
+a8 O
 |
 | O
 DE O
@@ -1250,49 +1250,49 @@ aR O
 | O
 M B-PER
 |
-| O
-DE O
+| I-PER
+DE I-PER
 |
-| O
-I O
+| I-PER
+I I-PER
 |
-| O
-I O
-rie O
+| I-PER
+I I-PER
+rie I-PER
 |
-| O
-NS B-ORG
+| I-PER
+NS I-PER
 . O
 |
 | O
-TET B-MISC
+TET B-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
-| O
-A O
+| I-ORG
+A I-ORG
 |
-| O
-D O
+| I-ORG
+D I-ORG
 |
-| O
-DM O
+| I-ORG
+DM I-ORG
 |
-| O
-I B-LOC
+| I-ORG
+I I-ORG
 |
  
-| O
-N. O
+| I-ORG
+N. I-ORG
 |
-| O
-" O
-4 O
+| I-ORG
+" I-ORG
+4 I-ORG
 |
 
-| O
-E B-LOC
+| I-ORG
+E I-ORG
 ... O
 |
 | O
@@ -1303,16 +1303,16 @@ RE O
 . O
 |
 | O
-AE B-ORG
+AE B-MISC
 |
 
-| O
-A O
-Mm O
+| I-MISC
+A I-MISC
+Mm I-MISC
 |
-| O
-R O
-NON O
+| I-MISC
+R I-MISC
+NON I-MISC
 |
 | O
 1 O
@@ -1346,7 +1346,7 @@ N B-ORG
 |
 
 | I-ORG
-EEE B-ORG
+EEE I-ORG
 |
 | O
 Nas B-PER
@@ -1355,7 +1355,7 @@ Nas B-PER
 Ns O
 |
 | O
-AE B-ORG
+AE O
 a O
 |
 | O
@@ -1371,84 +1371,84 @@ D O
 1 O
 |
 | O
-DE O
+DE B-PER
 |
-| O
-I O
+| I-PER
+I I-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
-| O
-M. O
-LATIN O
+| I-PER
+M. I-PER
+LATIN I-PER
 |
 | O
 ARTS O
 |
 | O
-RTa B-ORG
-|
-| I-ORG
-I I-ORG
-|
-| I-ORG
-184 I-ORG
-|
-| O
-WERE B-ORG
-|
-| O
-RATION B-ORG
-|
-| O
-PARCE B-ORG
-|
-| O
-NTS B-ORG
-|
-| O
-Ches O
-|
-   
-  | O
-a. O
-e O
-|
-| O
-IE B-ORG
-|
-| O
-I O
-|
-
-| O
-DE O
+RTa O
 |
 | O
 I B-LOC
 |
 | O
+184 O
+|
+| O
+WERE B-MISC
+|
+| O
+RATION O
+|
+| O
+PARCE B-MISC
+|
+| O
+NTS O
+|
+| O
+Ches B-MISC
+|
+   
+  | I-MISC
+a. I-MISC
+e I-MISC
+|
+| O
+IE B-MISC
+|
+| I-MISC
+I I-MISC
+|
+
+| I-MISC
+DE I-MISC
+|
+| I-MISC
+I I-MISC
+|
+| I-MISC
 a. O
-Ω B-LOC
-A I-LOC
+Ω O
+A O
 t O
 a O
 t O
 m O
 |
 | O
-H. B-LOC
+H. B-PER
 . O
-d. O
-Ω O
+d. B-PER
+Ω I-PER
 m O
 me O
 d O
 |
    | O
 sraer.aaseseeraesare O
-ac B-LOC
+ac O
 .. O
 |
 | O
@@ -1458,7 +1458,7 @@ n O
 , O
 a O
 | | O
-ult B-ORG
+ult O
 ............. O
 |
 | O
@@ -1466,19 +1466,19 @@ ult B-ORG
 |
 
 | O
-R B-PER
+R B-MISC
 |
-  | I-PER
-ae I-PER
+  | I-MISC
+ae I-MISC
 . O
-ates B-MISC
+ates O
 .......... O
-ena O
+ena B-ORG
 .. O
 |
 | O
-LEE B-LOC
-A I-LOC
+LEE B-PER
+A I-PER
 |
  | O
 a O
@@ -1491,10 +1491,10 @@ a O
 | O
 a.120 O
 ....... O
-aa O
+aa B-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 s O
 l O
 a O
@@ -1502,8 +1502,8 @@ a O
 a O
 as O
 a O
-l B-MISC
-As I-MISC
+l O
+As B-MISC
 |
      | I-MISC
 a O
@@ -1512,13 +1512,13 @@ ae O
 ........ O
 |
 | O
-EN O
+EN B-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
-| O
-E B-LOC
+| I-PER
+E I-PER
 |
  | O
 ... O
@@ -1538,7 +1538,7 @@ m O
 DEMEURE O
 |
 | O
-N B-LOC
+N O
 |
  | O
 n O
@@ -1553,31 +1553,31 @@ e O
 de O
 a O
 o O
-Ma B-MISC
+Ma O
 |
-| I-MISC
-EAA I-MISC
-FINALE I-MISC
+| O
+EAA O
+FINALE O
 . O
 |
 | O
-METTRE B-ORG
+METTRE B-MISC
 . O
 |
 | O
-MARI B-ORG
+MARI B-MISC
 . O
 |
 | O
 ALA B-ORG
-GARE O
+GARE I-ORG
 M. O
 |
 | O
 ILL B-ORG
 |
 | O
-RAMENER B-ORG
+RAMENER B-MISC
 |
 | O
 MILIEU B-MISC
@@ -1586,19 +1586,19 @@ MILIEU B-MISC
 A.AR B-MISC
 |
 | O
-RRAETISNEE B-PER
+RRAETISNEE B-ORG
 . O
 |
 | O
 e.eeeeore O
 . O
-vae.se B-PER
-e I-PER
+vae.se O
+e O
 ............ O
 | 
 | O
-AA O
-SERA O
+AA B-MISC
+SERA I-MISC
 |
  | O
 i O
@@ -1609,7 +1609,7 @@ a O
 |
 
 | O
-AA B-ORG
+AA B-LOC
 |
 | O
 DEMI O
@@ -1618,13 +1618,13 @@ DEMI O
 NMADTNAR B-MISC
 |
 | O
-ADIS O
+ADIS B-PER
 |
-| O
-Aee O
+| I-PER
+Aee I-PER
 |
-| O
-I B-LOC
+| I-PER
+I I-PER
 |
 
  | O
@@ -1635,7 +1635,7 @@ A B-LOC
 |
  
 | O
-RRE B-ORG
+RRE O
 . O
 |
   
@@ -1644,35 +1644,35 @@ p O
 d O
 |
 | O
-D O
+D B-LOC
 |
 | O
 DMEA O
 |
 | O
-ACCOYER O
-REfl O
-A. O
+ACCOYER B-ORG
+REfl I-ORG
+A. I-ORG
 |
-| O
-I B-LOC
+| I-ORG
+I I-ORG
 |
-| O
-am O
+| I-ORG
+am I-ORG
 |
-| O
-Aa B-MISC
+| I-ORG
+Aa I-ORG
 |
-| I-MISC
-RE I-MISC
+| I-ORG
+RE I-ORG
 |
-| O
-TAT O
-TERRIENS B-ORG
+| I-ORG
+TAT I-ORG
+TERRIENS I-ORG
 . O
 |
 | O
-RIH B-ORG
+RIH B-PER
 |
 
  | O
@@ -1681,7 +1681,7 @@ pe O
 |  
  
 | O
-ASSURER B-ORG
+ASSURER O
 |
 | O
 QARETE O
@@ -1699,18 +1699,18 @@ e I-PER
 M I-PER
 ALR I-PER
 . O
-AE B-ORG
+AE B-MISC
 |
  
-| O
-M O
+| I-MISC
+M I-MISC
 a O
 , O
 E B-LOC
 E I-LOC
 |
-| O
-ANE B-ORG
+| I-LOC
+ANE O
 |
  | O
 A O
@@ -1720,44 +1720,44 @@ M O
 141 O
 |
 | O
-N B-PER
+N B-ORG
 |
-  | I-PER
-Ba I-PER
+  | I-ORG
+Ba I-ORG
 |
-| I-PER
-I I-PER
+| I-ORG
+I I-ORG
 M O
 |
 | O
-DAE O
+DAE B-ORG
 |
-| O
-Nam B-ORG
+| I-ORG
+Nam I-ORG
 SMAM I-ORG
 , O
 Su B-MISC
 |
-| I-MISC
-< I-MISC
-l I-MISC
-is I-MISC
-pt I-MISC
+| O
+< O
+l O
+is O
+pt O
 |
 | O
 RT B-ORG
 |
 
              
-  | O
-G O
-A O
+  | I-ORG
+G I-ORG
+A I-ORG
 |
 | O
 7e O
 |
 | O
-D B-LOC
+D O
 |
 | O
 , O
@@ -1767,21 +1767,21 @@ kika O
 ............... O
 |
 | O
-ACHAT B-PER
+ACHAT O
 |
-  | I-PER
+  | O
 a O
 | 
 | O
-Du B-MISC
+Du O
 |
-| I-MISC
-Au O
+| O
+Au B-MISC
 |
 
  
-  | O
-ett O
+  | I-MISC
+ett I-MISC
 | | O
 k O
 .. O
@@ -1791,31 +1791,31 @@ k O
 a O
 |  
 | O
-WAi O
+WAi B-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
 
-| O
-trs O
+| I-PER
+trs I-PER
 . O
-det O
+det B-ORG
 |
 | O
 e O
 r O
 le O
 przitt O
-t. O
-lui O
-at O
-lanta O
+t. B-MISC
+lui I-MISC
+at I-MISC
+lanta I-MISC
 , O
 a O
 d O
-L O
-ftth O
+L B-PER
+ftth I-PER
 l O
 | | O
 all O
@@ -1825,27 +1825,27 @@ Au O
 . O
 | 
 | O
-AE B-ORG
+AE B-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 |
-| O
+| I-MISC
 NENAME O
-AI B-ORG
-AIMAIt I-ORG
-ANTIE O
-PIT B-MISC
+AI O
+AIMAIt B-MISC
+ANTIE I-MISC
+PIT I-MISC
 D I-MISC
 WE I-MISC
 |
- | I-MISC
-AE B-MISC
-E I-MISC
+ | O
+AE O
+E O
 |
-| I-MISC
-Ios I-MISC
-1 I-MISC
+| O
+Ios O
+1 O
 |
 | O
 7 O
@@ -1855,18 +1855,18 @@ Ios I-MISC
 |
 
 | O
-MM B-ORG
+MM B-PER
+|
+| I-PER
+M I-PER
+E I-PER
+|
+| I-PER
+C I-PER
 |
 | O
-M O
-E O
-|
-| O
-C O
-|
-| O
-MM. O
-W O
+MM. B-PER
+W I-PER
 |
 | O
 4 O
@@ -1874,13 +1874,13 @@ Je O
 1 O
 |
 | O
-A O
+A B-MISC
 | 
-| O
-A O
+| I-MISC
+A I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 |
 | O
 a O
@@ -1891,34 +1891,34 @@ Sr B-MISC
 ET I-MISC
 C I-MISC
 |
-| O
-I O
+| I-MISC
+I I-MISC
 CIE O
 |
 | O
-REi B-MISC
+REi B-PER
 |
-| I-MISC
-I I-MISC
+| I-PER
+I I-PER
 ME O
 |
    
 | O
-E O
-Am O
-|
-| O
-RATE B-ORG
+E B-ORG
+Am I-ORG
 |
 | I-ORG
-MA I-ORG
-|
- | I-ORG
-S I-ORG
+RATE I-ORG
 |
 | O
-M B-PER
-WaDE I-PER
+MA O
+|
+ | O
+S O
+|
+| O
+M O
+WaDE O
 |
 | O
 1a O
@@ -1930,8 +1930,8 @@ N B-ORG
 | I-ORG
 DR I-ORG
 |
-| I-ORG
-Ae I-ORG
+| O
+Ae B-ORG
 |
 | I-ORG
 M I-ORG
@@ -1950,19 +1950,19 @@ ya O
 A. O
 |
 | O
-AH O
-PATS O
+AH B-ORG
+PATS I-ORG
 |
 | O
 IA O
-SRL O
-AE B-ORG
-DA I-ORG
-R I-ORG
+SRL B-MISC
+AE I-MISC
+DA I-MISC
+R I-MISC
 |
- | I-ORG
-I I-ORG
-TI I-ORG
+ | I-MISC
+I I-MISC
+TI O
 Ca O
 a O
 |
@@ -1970,10 +1970,10 @@ a O
 a O
 |
 | O
-Iu B-MISC
+Iu B-LOC
 |
- | I-MISC
-EE I-MISC
+ | O
+EE B-MISC
 E I-MISC
 |
   
@@ -1984,21 +1984,21 @@ WEB I-MISC
 Mr. I-MISC
 M I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 |
-| O
-MES O
+| I-MISC
+MES I-MISC
 Sal O
 |
 | O
-Dui B-LOC
-|
-| I-LOC
-N I-LOC
+Dui O
 |
 | O
-DS B-MISC
+N O
+|
+| O
+DS B-ORG
 . O
 |
 | O
@@ -2009,37 +2009,37 @@ M O
 |
 | O
 > O
-W B-LOC
-di I-LOC
+W B-PER
+di I-PER
 |
-| I-LOC
-AM I-LOC
+| I-PER
+AM I-PER
 |
-| I-LOC
-AS I-LOC
+| I-PER
+AS I-PER
 |
-| I-LOC
-RM I-LOC
+| I-PER
+RM I-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 E I-PER
 |
-| O
-AIRE O
+| I-PER
+AIRE I-PER
 |
-| O
-DrA B-ORG
+| I-PER
+DrA B-MISC
 |
 | O
 DE O
 |
 | O
-MEE B-LOC
-TI I-LOC
+MEE B-ORG
+TI I-ORG
 |
-| O
-NAE O
+| I-ORG
+NAE I-ORG
 |
 | O
 AmF B-ORG
@@ -2047,12 +2047,12 @@ AmF B-ORG
 | O
 T B-ORG
 SE I-ORG
-AN I-ORG
-EA I-ORG
+AN O
+EA O
 |
 | O
-ACE B-ORG
-CI I-ORG
+ACE B-MISC
+CI I-MISC
 . O
 |
  | O
@@ -2060,11 +2060,11 @@ AME O
 |
 | O
 Rien O
-FENE O
-M O
+FENE B-ORG
+M I-ORG
 |
 | O
-AEY B-ORG
+AEY B-LOC
 . O
 : O
 |
@@ -2082,81 +2082,81 @@ D O
 LEE O
 |
 | O
-Ay B-PER
-Wall I-PER
+Ay O
+Wall O
 |
 | O
-LUE O
+LUE B-ORG
 |
  | O
-MLE B-MISC
-A I-MISC
+MLE O
+A B-LOC
 |
 | O
-RSS O
-PITA O
+RSS B-PER
+PITA I-PER
+|
+| I-PER
+A I-PER
+BA I-PER
+ATl I-PER
 |
 | O
-A O
-BA B-ORG
-ATl I-ORG
-|
-| I-ORG
-ME I-ORG
-AO I-ORG
-AE I-ORG
-|
-| I-ORG
-I I-ORG
-|
-| I-ORG
-u I-ORG
-EE I-ORG
-|
-| O
-NEE B-ORG
-|
-| O
-N0 B-MISC
-|
-| I-MISC
-A I-MISC
-|
-| I-MISC
-M I-MISC
+ME B-MISC
+AO I-MISC
+AE I-MISC
 |
 | I-MISC
 I I-MISC
 |
 | I-MISC
-R I-MISC
-E I-MISC
+u I-MISC
+EE O
 |
-| I-MISC
-IRE I-MISC
+| O
+NEE O
 |
-| I-MISC
+| O
+N0 O
+|
+| O
+A O
+|
+| O
+M O
+|
+| O
+I O
+|
+| O
+R O
+E O
+|
+| O
+IRE O
+|
+| O
 I O
 A O
 |
 | O
 NE O
-GRES O
-ITALIE O
+GRES B-ORG
+ITALIE B-LOC
 : O
 |
 | O
 F B-LOC
-A O
-I O
+A I-LOC
+I I-LOC
 |
-| O
-Mar O
+| I-LOC
+Mar I-LOC
 ai O
 |
 | O
 i O
-E O
+E B-LOC
 |
 
 
@@ -2178,7 +2178,7 @@ a O
 | O
 > O
 |     | O
-S O
+S B-PER
 |
     
 | O
@@ -2187,7 +2187,7 @@ M B-PER
 A I-PER
 |
 | O
-ENE B-ORG
+ENE B-LOC
 |
      
       
@@ -2204,20 +2204,20 @@ C B-MISC
 | I-MISC
 I I-MISC
 LA O
-E O
+E B-LOC
 |
       
 | O
 > O
-Da O
+Da B-PER
 | 
-      | O
-F O
+      | I-PER
+F I-PER
 |
       
 | O
 > O
-G O
+G B-LOC
 |  
 | O
 RA B-PER
@@ -2235,10 +2235,10 @@ E I-MISC
 A I-MISC
 |
 | O
-II B-LOC
-l I-LOC
-| | I-LOC
-D I-LOC
+II O
+l O
+| | O
+D O
 a O
 da O
 |
@@ -2246,8 +2246,8 @@ da O
 N O
 |
 | O
-I O
-E O
+I B-MISC
+E I-MISC
 E O
 |  | O
 C O
@@ -2263,15 +2263,15 @@ A O
 |
  
 | O
-Ade B-MISC
+Ade B-PER
 |
-  | I-MISC
-M I-MISC
-|   | I-MISC
-E O
+  | I-PER
+M I-PER
+|   | I-PER
+E I-PER
 |
-    | O
-da O
+    | I-PER
+da I-PER
 ad O
 |
    | O
@@ -2281,50 +2281,50 @@ M O
 E O
 |
 | O
-I O
-E O
-G O
-N O
-ME O
-A O
+I B-MISC
+E I-MISC
+G I-MISC
+N I-MISC
+ME I-MISC
+A I-MISC
 |
    
 | O
-LES O
-R B-MISC
+LES B-MISC
+R I-MISC
 E I-MISC
 |
- | I-MISC
-A I-MISC
+ | O
+A O
 |
- | I-MISC
-EE I-MISC
+ | O
+EE B-ORG
 |
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
- | I-MISC
-a I-MISC
-M I-MISC
-A I-MISC
-A I-MISC
+ | O
+a O
+M B-PER
+A I-PER
+A I-PER
 |
- | I-MISC
-M I-MISC
+ | I-PER
+M O
 |
  
-| I-MISC
-A I-MISC
+| O
+A B-LOC
 |
-  | I-MISC
-KI B-LOC
+  | I-LOC
+KI I-LOC
 AE I-LOC
 |
 | I-LOC
 D I-LOC
 |
-| O
-Armel B-ORG
+| I-LOC
+Armel I-LOC
 y O
 |
 | O
@@ -2334,18 +2334,18 @@ ME I-ORG
 | I-ORG
 E I-ORG
 |
-| O
-PREMIER O
+| I-ORG
+PREMIER I-ORG
 |
-| O
-D O
-EE B-ORG
+| I-ORG
+D I-ORG
+EE I-ORG
 |
 | I-ORG
 Ω I-ORG
 |   
 | O
-DS B-MISC
+DS B-ORG
 |
 | O
 A O
@@ -2360,24 +2360,24 @@ R I-MISC
 | I-MISC
 RA I-MISC
 |
-| O
-uk O
-E B-LOC
+| I-MISC
+uk I-MISC
+E I-MISC
 | 
 | O
-ETIENNE O
-GARE B-LOC
+ETIENNE B-LOC
+GARE I-LOC
 B I-LOC
 |
 | O
 AMEEREEE B-ORG
 |
 | O
-D B-PER
-M I-PER
+D O
+M O
 |
-   | I-PER
-B I-PER
+   | O
+B O
 |
    | O
 p O
@@ -2386,8 +2386,8 @@ p O
 | O
 Nam B-LOC
 |
-| I-LOC
-R8 I-LOC
+| O
+R8 B-ORG
 |
 | O
 MMEMEEE B-ORG
@@ -2400,7 +2400,7 @@ RERA B-ORG
 A O
 |
 | O
-E O
+E B-LOC
 |
 
   
@@ -2412,24 +2412,24 @@ A O
 e O
 |
   | O
-ER B-ORG
+ER O
 |
-| I-ORG
-I I-ORG
-| | I-ORG
-E I-ORG
-DE I-ORG
-|
-| I-ORG
-I I-ORG
-| | I-ORG
-N I-ORG
-A I-ORG
-ELEY O
+| O
+I O
+| | O
 E O
+DE O
+|
+| O
+I O
+| | O
+N O
+A O
+ELEY B-MISC
+E I-MISC
 |
    
-    | O
+    | I-MISC
 . O
 A O
 |
@@ -2442,11 +2442,11 @@ I I-MISC
 |   
 | I-MISC
 A I-MISC
-A O
+A I-MISC
 |
-| O
+| I-MISC
 RAS O
-ER B-LOC
+ER O
 . O
 |
    
@@ -2464,15 +2464,15 @@ am O
 | O
 > O
 l O
-Ωw O
+Ωw B-LOC
 aha O
 | | O
 la O
 < O
 |
 | O
-IIATISNE B-PER
-A I-PER
+IIATISNE B-ORG
+A I-ORG
 |
    | O
 a O
@@ -2483,7 +2483,7 @@ BTL B-MISC
 | O
 m O
 | | O
-I B-LOC
+I O
 Sa O
 a O
 S B-MISC
@@ -2499,16 +2499,16 @@ t O
 de O
 |
 | O
-el O
-| | O
-Qui O
-G O
-|
-   | O
-Salt B-LOC
+el B-LOC
 | | I-LOC
-E I-LOC
-S I-LOC
+Qui I-LOC
+G I-LOC
+|
+   | I-LOC
+Salt O
+| | O
+E O
+S O
 |
       | O
 A O
@@ -2519,44 +2519,44 @@ A O
 MMA B-MISC
 E I-MISC
 |
-| O
-I O
+| I-MISC
+I I-MISC
 |
 
-| O
-I O
-MI O
+| I-MISC
+I I-MISC
+MI I-MISC
 |
    
   
 | O
-Ω O
-| | O
-Te B-MISC
-A I-MISC
+Ω B-LOC
+| | I-LOC
+Te I-LOC
+A I-LOC
 |  
    
     
-| I-MISC
-I I-MISC
+| I-LOC
+I I-LOC
 SI O
 ME O
-SEXE O
+SEXE B-MISC
 |
 | O
-I O
-SEt O
-EA O
+I B-MISC
+SEt I-MISC
+EA I-MISC
 |
 | O
-Al B-LOC
-E I-LOC
+Al O
+E O
 |
 | O
 < O
 p O
 | | O
-F B-LOC
+F O
 |
 | O
 a O
@@ -2564,7 +2564,7 @@ M O
 |    
        
 | O
-N O
+N B-LOC
 |
 | O
 > O
@@ -2577,41 +2577,41 @@ l O
 d O
 |
 | O
-II B-MISC
-m I-MISC
-M I-MISC
+II B-PER
+m I-PER
+M I-PER
 |
-  | I-MISC
-A I-MISC
+  | I-PER
+A I-PER
 |
-| O
+| I-PER
 RaiE B-MISC
 |
 | O
-P B-LOC
+P O
 |
  | O
 . O
 p O
 | 
 | O
-M B-MISC
-E I-MISC
+M B-PER
+E I-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
-| I-MISC
-> I-MISC
-> I-MISC
+| O
+> O
+> O
 |
-| I-MISC
-> I-MISC
-| | I-MISC
-m I-MISC
+| O
+> O
+| | O
+m O
 |  
       
-| I-MISC
+| O
 a O
 |   
      | O
@@ -2627,29 +2627,29 @@ e O
 le O
 | 
 | O
-E B-ORG
-AT I-ORG
+E B-LOC
+AT I-LOC
 |
-| I-ORG
-I I-ORG
-| | I-ORG
-AS I-ORG
+| O
+I O
+| | O
+AS O
 |
-| I-ORG
-MARE I-ORG
+| O
+MARE O
 |
    | O
-E7 B-ORG
+E7 O
 |
       
     
   | O
-E B-MISC
-D I-MISC
-EEE I-MISC
+E B-LOC
+D I-LOC
+EEE I-LOC
 |
-| I-MISC
-A I-MISC
+| O
+A B-LOC
 a O
 |
 | O
@@ -2658,18 +2658,18 @@ C I-MISC
 A I-MISC
 A I-MISC
 |
-| I-MISC
-> I-MISC
+| O
+> O
 |     
        
-| I-MISC
-Ω I-MISC
+| O
+Ω B-PER
 | 
-   | I-MISC
+   | O
 a O
 | 
 | O
-AESME B-MISC
+AESME B-LOC
 |
   | O
 < O
@@ -2686,11 +2686,11 @@ pe O
 N O
 |
 | O
-IM O
+IM B-LOC
 |
 
-| O
-A O
+| I-LOC
+A I-LOC
 | | O
 d O
 |
@@ -2698,18 +2698,18 @@ d O
 < O
 a O
 | | O
-p B-LOC
-A I-LOC
+p O
+A O
 |
- | I-LOC
-B I-LOC
-AaS I-LOC
-| | I-LOC
+ | O
+B O
+AaS O
+| | O
 Lig O
 aI O
-ME B-ORG
-L I-ORG
-A I-ORG
+ME O
+L B-MISC
+A I-MISC
 |
 | O
 a O
@@ -2729,7 +2729,7 @@ SAlle B-MISC
 |
 | O
 m O
-acEmrlat B-MISC
+acEmrlat B-PER
 . O
 Sus O
 une O
@@ -2744,21 +2744,21 @@ allan O
 . O
 la O
 teint O
-rafa B-ORG
-& I-ORG
-papa I-ORG
-ai I-ORG
+rafa B-MISC
+& I-MISC
+papa I-MISC
+ai O
 |
-| I-ORG
-a I-ORG
-| | I-ORG
-p I-ORG
-|    | I-ORG
-o I-ORG
-a I-ORG
+| O
+a O
+| | O
+p O
+|    | O
+o O
+a O
 |
- | I-ORG
-pan I-ORG
+ | O
+pan O
 eul O
 aw O
 lalchmlk O
@@ -2784,9 +2784,9 @@ lE O
 |
 | O
 > O
-lu B-PER
-|    | I-PER
-Wal I-PER
+lu O
+|    | O
+Wal B-PER
 |
  | O
 l O
@@ -2795,11 +2795,11 @@ l O
 opa O
 |  
  | O
-Cta B-ORG
+Cta O
 |
- | I-ORG
-AN I-ORG
-LAZARE I-ORG
+ | O
+AN O
+LAZARE O
 |
 | O
 am O
@@ -2816,7 +2816,7 @@ Aea B-MISC
  
  | I-MISC
 TAE I-MISC
-RALE O
+RALE B-MISC
 |
    
 | O
@@ -2827,7 +2827,7 @@ P. O
 C O
 |
  | O
-SEAE O
+SEAE B-ORG
 |
  | O
 p O
@@ -2843,29 +2843,29 @@ GAgS B-MISC
 |
 | I-MISC
 DE I-MISC
-MAME B-PER
-WADE I-PER
+MAME I-MISC
+WADE I-MISC
 |
 | O
 RA O
-TI B-LOC
+TI O
 : O
 |
 | O
-NEE B-ORG
+NEE O
 |
 | O
-Al B-PER
+Al B-LOC
 . O
 A. O
-Aum B-PER
-F. I-PER
+Aum O
+F. O
 |
- | I-PER
-pa I-PER
+ | O
+pa O
 |   
-| I-PER
-SalaT I-PER
+| O
+SalaT O
 | | O
 a O
 Sa O
@@ -2893,28 +2893,28 @@ N. O
  | O
 Re O
 | | O
-wi B-MISC
+wi O
+|
+| O
+AM B-ORG
+GA I-ORG
+|
+| O
+I B-MISC
+| | I-MISC
+DE I-MISC
+A I-MISC
+SEIMEY I-MISC
+A I-MISC
+|
+| O
+IE B-MISC
+SATETE I-MISC
+AE I-MISC
 |
 | I-MISC
-AM I-MISC
-GA I-MISC
-|
-| O
-I O
-| | O
-DE O
-A B-ORG
-SEIMEY I-ORG
-A I-ORG
-|
-| O
-IE O
-SATETE O
-AE B-ORG
-|
-| O
-R.M O
-Be B-LOC
+R.M I-MISC
+Be O
 . O
 |
 | O
@@ -2925,7 +2925,7 @@ AIEA B-ORG
 |
 | O
 DE O
-M B-PER
+M O
 |
 | O
 ITEM O
@@ -2938,48 +2938,48 @@ p O
 po O
 | | O
 d O
-S B-LOC
+S O
 Les O
-G B-LOC
+G O
 |
 | O
 ( O
 SI O
-Al B-MISC
+Al B-PER
 |
-| I-MISC
-Ω I-MISC
-| | I-MISC
+| I-PER
+Ω I-PER
+| | O
 p O
 |  | O
 al O
 |
 | O
-I B-MISC
+I O
 |
- | I-MISC
-E I-MISC
-QAL I-MISC
-E I-MISC
-G I-MISC
-A I-MISC
+ | O
+E O
+QAL O
+E O
+G O
+A O
 |
 | O
-aire O
-cime O
-pre O
-Si O
-! O
+aire B-LOC
+cime I-LOC
+pre I-LOC
+Si I-LOC
+! I-LOC
 qeuy O
-wii B-PER
-find I-PER
+wii B-MISC
+find I-MISC
 , O
 u O
 |
 | O
-I B-LOC
+I O
 lY O
-EA B-ORG
+EA O
 |
 | O
 E O
@@ -2988,13 +2988,13 @@ E O
 I O
 |
 | O
-Ii B-PER
+Ii O
 de O
 e O
 s O
 u O
-Sa B-LOC
-S I-LOC
+Sa O
+S O
 |
 | O
 AEle O
@@ -3002,9 +3002,9 @@ AEle O
 | O
 Me B-MISC
 B I-MISC
-A I-MISC
+A O
 |
-| I-MISC
+| O
 AN B-ORG
 PASJ I-ORG
 . O
@@ -3014,17 +3014,17 @@ N O
 |
 | O
 AE B-ORG
-AEA B-MISC
+AEA I-ORG
 |
 | O
 M. B-PER
 P. I-PER
 Ak I-PER
 |
-| I-PER
-Da I-PER
-P I-PER
-AGE O
+| O
+Da B-MISC
+P I-MISC
+AGE I-MISC
 |
 | O
 AE B-ORG
@@ -3034,20 +3034,20 @@ AEE I-ORG
 Adela B-ORG
 |
 | I-ORG
-Ae O
+Ae I-ORG
 AASEE O
-AE B-ORG
-Pai I-ORG
+AE O
+Pai O
 . O
 |
 | O
-alem B-PER
+alem O
 tg O
 qu O
 eux O
-fe O
-Eni B-LOC
-waux I-LOC
+fe B-ORG
+Eni I-ORG
+waux I-ORG
 |
 | O
 s O
@@ -3057,51 +3057,51 @@ E O
 |
 | O
 NIUE O
-STAERE B-ORG
+STAERE O
 |
 | O
-DuE B-ORG
-BARE I-ORG
+DuE B-MISC
+BARE I-MISC
 : O
 |
 | O
 RENE B-ORG
-AEA B-ORG
+AEA I-ORG
 |
 | O
 AC B-ORG
 A I-ORG
 |
-| I-ORG
-DES I-ORG
-DADA I-ORG
+| O
+DES B-MISC
+DADA I-MISC
 |
 | O
-Plus O
-la O
-. O
+Plus B-MISC
+la I-MISC
+. I-MISC
 |
-| O
-NE O
-DATE O
-ENANLSEE B-MISC
+| I-MISC
+NE B-LOC
+DATE I-LOC
+ENANLSEE I-LOC
 |
 | O
 RA O
-MEE B-MISC
+MEE B-ORG
 |
 | O
-AEEAMEE O
+AEEAMEE B-ORG
 |
 | O
 GimE B-MISC
 .. O
 |
 | O
-APollon B-MISC
+APollon B-PER
 |
-| O
-Ωa O
+| I-PER
+Ωa I-PER
 l O
 re O
 p O
@@ -3109,14 +3109,14 @@ p O
 l O
 | 
 | O
-I B-LOC
-l O
-E O
+I B-MISC
+l I-MISC
+E I-MISC
 a O
 pr O
 |
 | O
-M B-PER
+M O
 waS O
 , O
 a O
@@ -3127,58 +3127,58 @@ du O
 AaII B-PER
 pell I-PER
 |
-  | O
-C O
+  | I-PER
+C I-PER
 |
-| O
-NE B-ORG
-BEGIN I-ORG
+| I-PER
+NE I-PER
+BEGIN I-PER
 |
  | O
 k O
 | | O
 pays O
-Sel B-LOC
+Sel O
 |
- | I-LOC
-Vam B-PER
-| | I-PER
-D I-PER
+ | O
+Vam B-LOC
+| | I-LOC
+D I-LOC
 |
-| O
-N O
+| I-LOC
+N I-LOC
 |
-| O
-Ro B-PER
-wES I-PER
+| I-LOC
+Ro I-LOC
+wES I-LOC
 , O
-BEWAMDAD B-MISC
+BEWAMDAD B-ORG
 . O
-E B-PER
-B I-PER
+E B-LOC
+B I-LOC
 |
 | O
-AS O
+AS B-ORG
 |
-| O
-Ma B-MISC
-BE I-MISC
+| I-ORG
+Ma I-ORG
+BE I-ORG
 |
-| I-MISC
-Ont I-MISC
+| I-ORG
+Ont I-ORG
 |
-| I-MISC
-SOMMAIRE I-MISC
-| | I-MISC
-A I-MISC
+| I-ORG
+SOMMAIRE I-ORG
+| | I-ORG
+A I-ORG
 |
-| I-MISC
-E I-MISC
+| I-ORG
+E I-ORG
 |
-| I-MISC
-I I-MISC
-E O
-SEM O
+| I-ORG
+I I-ORG
+E I-ORG
+SEM I-ORG
 Sa O
 |
 
@@ -3189,15 +3189,15 @@ MANQUERA B-ORG
 |
       
 | O
-Dai B-MISC
+Dai B-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
- | I-MISC
-E O
+ | I-PER
+E I-PER
 |
- | O
+ | I-PER
 u O
 m O
 |
@@ -3208,11 +3208,11 @@ AA I-LOC
 |
       
    | I-LOC
-a O
-| | O
-E B-LOC
+a I-LOC
+| | I-LOC
+E I-LOC
 |
-| O
+| I-LOC
 A O
 Sa O
 G O
@@ -3226,7 +3226,7 @@ MISE O
 ARREE O
 |
 | O
-AE B-ORG
+AE O
 |
 | O
 R. O
@@ -3244,26 +3244,26 @@ RE I-MISC
 ATS B-MISC
 |
 | O
-QM O
+QM B-MISC
 | 
-| O
+| I-MISC
 NI B-LOC
 A I-LOC
 |
  
 | O
-IU O
-LIGNE O
-| | O
-AuAEN O
-EEE O
+IU B-MISC
+LIGNE I-MISC
+| | I-MISC
+AuAEN I-MISC
+EEE I-MISC
 |
 | O
-Adm B-ORG
+Adm B-LOC
 |
- | I-ORG
-BE I-ORG
-E I-ORG
+ | O
+BE O
+E O
 |
 | O
 ae O
@@ -3271,9 +3271,9 @@ ae O
 fe O
 |     
  | O
-Y O
-| | O
-Sfh B-PER
+Y B-PER
+| | I-PER
+Sfh O
 |  
  | O
 sa O
@@ -3312,63 +3312,63 @@ E I-MISC
 EME I-MISC
 EEE I-MISC
 A I-MISC
-T O
+T I-MISC
 |
-| O
-RI O
+| I-MISC
+RI I-MISC
 |
-  | O
-SG O
+  | I-MISC
+SG I-MISC
 |
-  | O
-c O
-h O
-p O
-|  | O
-C B-ORG
+  | I-MISC
+c I-MISC
+h I-MISC
+p I-MISC
+|  | I-MISC
+C I-MISC
 |
      
-   | I-ORG
-Be I-ORG
+   | I-MISC
+Be I-MISC
 | 
 | O
-DEE O
-AEE B-ORG
+DEE B-ORG
+AEE I-ORG
 . O
 |
 | O
-De O
-| | O
-C B-MISC
-S I-MISC
-Bri I-MISC
-Dar I-MISC
+De B-PER
+| | I-PER
+C I-PER
+S I-PER
+Bri O
+Dar O
 |
-| I-MISC
-SME I-MISC
+| O
+SME O
 |
- | I-MISC
+ | O
 pl O
-BR B-MISC
+BR O
 |
-| I-MISC
-E I-MISC
+| O
+E O
 |
   | O
 p O
 p O
 |
 | O
-DRIE B-PER
+DRIE B-ORG
 |
-  | I-PER
-a I-PER
-p I-PER
-A I-PER
-S I-PER
+  | I-ORG
+a O
+p O
+A O
+S O
 |
-| I-PER
-I I-PER
+| O
+I O
 StadE O
 Fam O
 weF O
@@ -3377,11 +3377,11 @@ weF O
 Et O
 |
 | O
-D O
-d O
+D B-PER
+d I-PER
 |
-| O
-NE O
+| I-PER
+NE I-PER
 |
 | O
 m O
@@ -3390,13 +3390,13 @@ a O
 lE O
 |
 | O
-RNERAS B-MISC
+RNERAS B-LOC
 |
  | O
 p O
 w O
-So B-MISC
-Site I-MISC
+So O
+Site O
 , O
 | | O
 A O
@@ -3421,8 +3421,8 @@ de O
 A O
 |
 | O
-A O
-PGA O
+A B-MISC
+PGA I-MISC
 |
 | O
 NEEEE B-ORG
@@ -3434,10 +3434,10 @@ DA B-ORG
 DATE O
 |
 | O
-I B-MISC
-|  | I-MISC
-S I-MISC
-| | I-MISC
+I O
+|  | O
+S O
+| | O
 Me O
 p O
 |
@@ -3448,14 +3448,14 @@ EE O
    
       
 | O
-DAmS O
-EFE O
+DAmS B-ORG
+EFE I-ORG
 |
 | O
 E B-LOC
 |
-| O
-P B-LOC
+| I-LOC
+P I-LOC
 |
   
 | O
@@ -3466,12 +3466,12 @@ o O
 |  
       
 | O
-AE B-ORG
+AE O
 |
 | O
-E B-LOC
+E B-MISC
 |
-   | O
+   | I-MISC
 pu O
 | | O
 f O
@@ -3479,24 +3479,24 @@ f O
 
      
 | O
-Na B-MISC
-| | I-MISC
-e I-MISC
+Na O
+| | O
+e O
 | 
-  | I-MISC
+  | O
 a O
 |   
 | O
-MEE O
+MEE B-ORG
 RE O
 |
      
       
     
    | O
-YE B-MISC
-MI I-MISC
-ME I-MISC
+YE B-ORG
+MI I-ORG
+ME O
 |
    | O
 l O
@@ -3508,84 +3508,84 @@ me O
 |       
      
 | O
-DA B-MISC
+DA B-ORG
 |
-  | I-MISC
+  | I-ORG
 , O
 |
 | O
-M B-MISC
+M B-PER
 |
- | I-MISC
-ETE O
-FE B-ORG
-AA I-ORG
-|
-| O
-PAR O
+ | I-PER
+ETE I-PER
+FE I-PER
+AA I-PER
 |
 | O
-DEA O
+PAR B-ORG
+|
+| I-ORG
+DEA I-ORG
 |
 | O
-NEE B-ORG
-PEACE I-ORG
+NEE B-MISC
+PEACE I-MISC
 |
     
-| I-ORG
-A I-ORG
+| I-MISC
+A I-MISC
 |      
-| I-ORG
-AEi O
+| O
+AEi B-PER
 |
 | O
 a O
 f O
 |
 | O
-NTS B-ORG
+NTS O
 |
       
 | O
 A O
 |
 | O
-Dr B-MISC
-A I-MISC
+Dr B-PER
+A I-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-AA I-MISC
+| I-PER
+AA I-PER
 |
-    | I-MISC
-A I-MISC
+    | I-PER
+A I-PER
 |
- | I-MISC
-l I-MISC
-| | I-MISC
-d I-MISC
+ | O
+l O
+| | O
+d O
 |   
- | I-MISC
-p I-MISC
-| | I-MISC
-a I-MISC
-| | I-MISC
-aa I-MISC
+ | O
+p O
+| | O
+a O
+| | O
+aa B-PER
 |
-| I-MISC
-Ωan I-MISC
-p I-MISC
+| I-PER
+Ωan I-PER
+p O
 | 
-| I-MISC
-NME I-MISC
+| O
+NME B-ORG
 |
-| I-MISC
-NR I-MISC
+| O
+NR O
 |
-| I-MISC
-EE I-MISC
+| O
+EE B-MISC
 |
 | I-MISC
 Ωey O
@@ -3597,27 +3597,27 @@ ma O
 va O
 |
 | O
-I B-MISC
-| | I-MISC
-Fel O
-o O
-Fel O
-Cl O
+I B-PER
+| | I-PER
+Fel I-PER
+o I-PER
+Fel I-PER
+Cl I-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
 | O
 ME O
-MANI O
-SN O
-BE O
+MANI B-MISC
+SN I-MISC
+BE I-MISC
 |
 | O
-F O
+F B-LOC
 | 
  | O
 ta O
@@ -3634,7 +3634,7 @@ D O
 a O
 |
 | O
-Ω O
+Ω B-LOC
 m O
 |    
  
@@ -3642,28 +3642,28 @@ m O
 | O
 E B-LOC
 |
-   | O
-M O
+   | I-LOC
+M I-LOC
 |
-| O
-D O
-ET O
-DE O
+| I-LOC
+D I-LOC
+ET I-LOC
+DE I-LOC
 |
 
-| O
-AA O
+| I-LOC
+AA I-LOC
 |
-  | O
+  | I-LOC
 a O
 |  
  | O
-BA B-ORG
+BA O
 |
     
 | O
-EEE B-MISC
-MATA I-MISC
+EEE O
+MATA O
 |
   
 | O
@@ -3673,24 +3673,24 @@ M O
 AUSAAMLAE B-MISC
 |
   
-| O
-E B-LOC
+| I-MISC
+E I-MISC
 |
  | O
 p O
 |
 | O
-RAE B-LOC
-E I-LOC
-EN O
-GAEALHS B-MISC
+RAE B-MISC
+E I-MISC
+EN I-MISC
+GAEALHS I-MISC
 |
 | O
 < O
 e O
 | 
 | O
-EME B-MISC
+EME O
 | | O
 BE O
 A O
@@ -3703,38 +3703,38 @@ d O
 p O
 |
 | O
-AMmf B-LOC
+AMmf B-PER
 |
-    | I-LOC
-M I-LOC
+    | I-PER
+M I-PER
 |
      
-  | I-LOC
-p I-LOC
-< I-LOC
-p I-LOC
+  | I-PER
+p I-PER
+< I-PER
+p I-PER
 |  
        
- | I-LOC
-M I-LOC
+ | I-PER
+M I-PER
 | 
 | O
-A B-MISC
-AA I-MISC
+A B-ORG
+AA I-ORG
 |
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
     
- | I-MISC
-E B-LOC
-E I-LOC
+ | I-ORG
+E I-ORG
+E I-ORG
 |
-| O
-A O
+| I-ORG
+A I-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
    
 | O
@@ -3742,9 +3742,9 @@ ARR O
 R. O
 |
 | O
-ACTE B-ORG
-DE O
-LINRRREE B-ORG
+ACTE B-MISC
+DE I-MISC
+LINRRREE I-MISC
 . O
 |
 | O
@@ -3754,35 +3754,35 @@ LINRRREE B-ORG
 B O
 |
 | O
-AE B-ORG
+AE B-LOC
 . O
-AR B-LOC
+AR B-MISC
 |
-  | O
-B O
+  | I-MISC
+B I-MISC
+|
+| I-MISC
+D I-MISC
+AT I-MISC
+AC I-MISC
+|
+| I-MISC
+A I-MISC
+|
+| I-MISC
+A I-MISC
+E I-MISC
+|
+| I-MISC
+RE I-MISC
+|
+| I-MISC
+ME I-MISC
 |
 | O
-D B-ORG
-AT I-ORG
-AC I-ORG
-|
-| I-ORG
-A I-ORG
-|
-| O
-A B-LOC
-E I-LOC
-|
-| I-LOC
-RE I-LOC
-|
-| I-LOC
-ME I-LOC
-|
-| I-LOC
-I I-LOC
-A I-LOC
-ART I-LOC
+I B-MISC
+A I-MISC
+ART I-MISC
 . O
 |
 | O
@@ -3797,21 +3797,21 @@ E I-MISC
 |
   
 | O
-VRAI B-ORG
+VRAI O
 |
  
 | O
-AEl B-PER
+AEl B-MISC
 |
-| I-PER
-R I-PER
+| O
+R B-LOC
 |
-| I-PER
-NEE B-ORG
+| I-LOC
+NEE I-LOC
 . O
 |
 | O
-RET B-ORG
+RET O
 |
 | O
 A O
@@ -3839,7 +3839,7 @@ p O
 |  | O
 a O
 in O
-Ωal B-LOC
+Ωal B-ORG
 . O
 D O
 t O
@@ -3849,18 +3849,18 @@ t O
 d O
 | 
 | O
-M B-MISC
-| | I-MISC
-A I-MISC
+M B-PER
+| | I-PER
+A I-PER
 |
-| I-MISC
-ME I-MISC
+| O
+ME O
 |
-| I-MISC
-A I-MISC
+| O
+A B-LOC
 |  
-| I-MISC
-TSaR I-MISC
+| O
+TSaR B-ORG
 |
    | O
 p O
@@ -3869,16 +3869,16 @@ d O
 |
    
 | O
-RAMENER O
-A O
+RAMENER B-MISC
+A I-MISC
 |
  | O
 M O
 |  
       
 | O
-A B-MISC
-A I-MISC
+A B-PER
+A I-PER
 |
 | O
 Ea B-MISC
@@ -3898,18 +3898,18 @@ DEALER O
 |
 | O
 ad O
-E B-LOC
+E B-MISC
 |
 
-| I-LOC
-N I-LOC
+| I-MISC
+N I-MISC
 |
 | O
 a O
-Ad O
+Ad B-MISC
 |
-  | O
-AE B-ORG
+  | I-MISC
+AE I-MISC
 , O
 SAA B-MISC
 |
@@ -3918,42 +3918,42 @@ SAA B-MISC
 | I-MISC
 A I-MISC
 |
-| O
-ASA B-ORG
+| I-MISC
+ASA I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 | 
-| O
-A O
+| I-MISC
+A I-MISC
 |
-| O
-AE B-ORG
+| I-MISC
+AE I-MISC
 |
-| O
-D O
+| I-MISC
+D I-MISC
 |
-| O
-I O
+| I-MISC
+I I-MISC
 |
 
-| O
-A O
+| I-MISC
+A I-MISC
 |
  | O
 po O
 |  
 | O
-A O
+A B-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
- | O
-a O
-E O
+ | I-PER
+a I-PER
+E I-PER
 |
-| O
+| I-PER
 M O
 Lfr O
 |
@@ -3965,8 +3965,8 @@ ai O
 |
 | O
 DE O
-R B-PER
-AT I-PER
+R O
+AT O
 |
 | O
 D O
@@ -3992,9 +3992,9 @@ SUEBANIAS B-MISC
 ui O
 leurs O
 , O
-Telard B-MISC
-le I-MISC
-Ils I-MISC
+Telard B-ORG
+le I-ORG
+Ils I-ORG
 , O
 am O
 w O
@@ -4005,16 +4005,16 @@ C I-MISC
 | O
 TITR B-MISC
 |
-| O
-Ia O
-| | O
+| I-MISC
+Ia I-MISC
+| | I-MISC
 l O
 |  
  | O
-E O
-BEST O
-| | O
-E O
+E B-MISC
+BEST I-MISC
+| | I-MISC
+E I-MISC
 y O
 | | O
 qui O
@@ -4024,12 +4024,12 @@ Br B-MISC
 I I-MISC
 | 
 | I-MISC
-At B-MISC
+At I-MISC
 |
-| O
-u O
-| | O
-w O
+| I-MISC
+u I-MISC
+| | I-MISC
+w I-MISC
 , O
 w O
 |  | O
@@ -4041,7 +4041,7 @@ Ad O
 : O
 |
 | O
-IM O
+IM B-ORG
 |
 | O
 He O
@@ -4057,7 +4057,7 @@ E B-LOC
 | 
 | O
 IEEE B-ORG
-MIE I-ORG
+MIE O
 ELLE O
 |
 | O
@@ -4069,9 +4069,9 @@ Khal B-LOC
 , O
 il O
 MS B-MISC
-Luca I-MISC
+Luca O
 |
-| I-MISC
+| O
 Re O
 AS O
 JhNTSMY O
@@ -4084,25 +4084,25 @@ A O
 I O
 IEA O
 , O
-AI B-ORG
-JESSIE I-ORG
+AI B-MISC
+JESSIE I-MISC
 DEMANDE O
 JRS B-MISC
 SERAIT I-MISC
 |
 | O
-Pam B-PER
+Pam O
 . O
 fol O
 a O
 pil O
 . O
-pse B-MISC
+pse O
 |  | O
 al O
 |
 | O
-NAIRE B-ORG
+NAIRE B-MISC
 . O
 |
 | O
@@ -4120,22 +4120,22 @@ livres O
 etat O
 al O
 de O
-Sr B-MISC
-Jriy I-MISC
+Sr B-PER
+Jriy I-PER
 |
-| I-MISC
-RuE I-MISC
-1E.A I-MISC
+| I-PER
+RuE I-PER
+1E.A O
 |
-| I-MISC
-I I-MISC
+| O
+I B-MISC
 | | I-MISC
-XVIIIE O
+XVIIIE I-MISC
 III O
 LIxTIE O
 A O
-FI B-ORG
-N I-ORG
+FI O
+N O
 |
 | O
 y O
@@ -4159,26 +4159,26 @@ we O
 | O
 IS O
 , O
-S B-ORG
-M I-ORG
-Di I-ORG
+S B-PER
+M I-PER
+Di I-PER
 . O
 |
 | O
-Ω O
+Ω B-LOC
 | | O
 l O
 pl O
 , O
-so B-LOC
+so O
 , O
 | | O
 t O
 |
 | O
-Mes B-MISC
-lieu I-MISC
-Letkfri I-MISC
+Mes O
+lieu O
+Letkfri B-LOC
 r O
 | | O
 a O
@@ -4199,11 +4199,11 @@ E B-LOC
 S I-LOC
 |
 | I-LOC
-Datant O
-i O
-wl O
-Sati O
-weli O
+Datant I-LOC
+i I-LOC
+wl I-LOC
+Sati B-PER
+weli I-PER
 < O
 d O
 |
@@ -4218,8 +4218,8 @@ lite O
 ti O
 |
 | O
-ME O
-Jo O
+ME B-MISC
+Jo I-MISC
 | | O
 a O
 , O
@@ -4249,29 +4249,29 @@ I B-LOC
 | O
 < O
 | | O
-Ly O
+Ly B-PER
 |
-| O
-I B-MISC
-A I-MISC
-C O
+| I-PER
+I I-PER
+A I-PER
+C I-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
-   | O
+   | I-PER
 Ek O
 , O
 af O
 |
 | O
-I B-LOC
-A O
+I B-MISC
+A I-MISC
 |
-  | O
-A O
-S O
-Do O
+  | I-MISC
+A I-MISC
+S I-MISC
+Do I-MISC
 |
  | O
 partir O
@@ -4280,11 +4280,11 @@ liens O
 Drew B-MISC
 . O
 L O
-thnie O
+thnie B-MISC
 a O
-Vw O
+Vw B-MISC
 |
-  | O
+  | I-MISC
 p O
 | | O
 a O
@@ -4306,10 +4306,10 @@ d O
 a O
 |
 | O
-Iam B-PER
-AI I-PER
-| | I-PER
-DuT I-PER
+Iam B-MISC
+AI I-MISC
+| | I-MISC
+DuT I-MISC
 , O
 Arly B-PER
 |
@@ -4327,45 +4327,45 @@ Imit I-MISC
 Tous O
 sas O
 tons O
-p B-PER
-t I-PER
+p O
+t O
 , O
-cro B-LOC
+cro B-ORG
 |
-| I-LOC
-Gott I-LOC
-sf.a.t O
+| I-ORG
+Gott I-ORG
+sf.a.t I-ORG
 . O
-E.a B-PER
-fwywatfewl I-PER
+E.a B-MISC
+fwywatfewl I-MISC
 . O
 ait O
 Gigu B-PER
 |
 | I-PER
 As I-PER
-M O
+M I-PER
 |
 | O
 IMM B-MISC
 |
 | O
-W B-MISC
+W B-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-> I-MISC
-l. I-MISC
-ir I-MISC
-Tei B-LOC
+| I-PER
+> I-PER
+l. I-PER
+ir I-PER
+Tei I-PER
 aurait O
 seuil O
 . O
-w B-LOC
-Su I-LOC
-Mei I-LOC
+w O
+Su B-PER
+Mei I-PER
 |
 | O
 if O
@@ -4373,38 +4373,38 @@ a O
 aste O
 a O
 d O
-touff O
+touff B-LOC
 . O
-lu B-LOC
-harqk O
-at O
-paule O
-al O
+lu O
+harqk B-MISC
+at I-MISC
+paule I-MISC
+al I-MISC
 Ale O
 |
 | O
 DERA B-ORG
-AuL I-ORG
+AuL O
 |
 | O
-FAIRE B-ORG
+FAIRE B-PER
 |
-| O
-W O
+| I-PER
+W I-PER
 |
   
-| O
-I O
-| | O
-W O
-Elg O
+| I-PER
+I I-PER
+| | I-PER
+W I-PER
+Elg I-PER
 , O
 |
 | O
-el B-LOC
-lhkan I-LOC
-u I-LOC
-t I-LOC
+el B-ORG
+lhkan I-ORG
+u I-ORG
+t I-ORG
 < O
 w O
 |
@@ -4434,14 +4434,14 @@ l' O
 a O
 taw O
 , O
-futtl B-PER
-G I-PER
+futtl O
+G O
 |
 | O
 QuE O
 |
 | O
-I' B-MISC
+I' O
 emllftat O
 l O
 ph O
@@ -4455,12 +4455,12 @@ k O
 |
 | O
 a O
-Seslslice B-LOC
+Seslslice B-MISC
 ( O
 ak O
 . O
 a O
-Mewll B-LOC
+Mewll B-PER
 |
  | O
 , O
@@ -4510,20 +4510,20 @@ perd O
 , O
 sale O
 , O
-teen O
-p O
+teen B-PER
+p I-PER
 |
-| O
-Di B-ORG
+| I-PER
+Di I-PER
 |
- | I-ORG
-siffl I-ORG
+ | I-PER
+siffl I-PER
 , O
 < O
 ke O
 , O
-way O
-Be B-LOC
+way B-MISC
+Be I-MISC
 a O
 ai O
 b O
@@ -4541,16 +4541,16 @@ d O
 I B-LOC
 A I-LOC
 sault I-LOC
-we O
+we I-LOC
 |  | O
 a O
 |
 | O
-W O
-M O
+W B-PER
+M I-PER
 | 
 | O
-ATS O
+ATS B-MISC
 |
  | O
 l O
@@ -4558,9 +4558,9 @@ ce O
 c O
 |
 | O
-iir O
-de O
-pr B-ORG
+iir B-ORG
+de I-ORG
+pr I-ORG
 , O
 |  | O
 t O
@@ -4572,7 +4572,7 @@ ap O
 o O
 | 
 | O
-RETE O
+RETE B-ORG
 |
  
      
@@ -4641,8 +4641,8 @@ p O
 | O
 > O
 wti B-MISC
-< I-MISC
-t I-MISC
+< O
+t O
 julie O
 lu O
 at O
@@ -4652,8 +4652,8 @@ d' O
 a O
 |
 | O
-AA O
-Soe O
+AA B-LOC
+Soe I-LOC
 du O
 |
  
@@ -4697,34 +4697,34 @@ que O
 Adicyarin B-PER
 De I-PER
 www I-PER
-dle O
+dle I-PER
 < O
 y O
 di O
 quetel O
 pla O
-clara O
-sell O
+clara B-PER
+sell I-PER
 |
 | O
-A O
-A O
-L O
+A B-PER
+A I-PER
+L I-PER
 |
 | O
-AV B-ORG
-J I-ORG
+AV O
+J O
 |
  | O
 ke O
 |   
  | O
 met O
-quil O
-sne O
-Nitales B-ORG
-de I-ORG
-< I-ORG
+quil B-ORG
+sne I-ORG
+Nitales I-ORG
+de O
+< O
 et O
 p O
 Le O
@@ -4743,37 +4743,37 @@ Esi I-PER
 . O
 D O
 wm O
-we B-LOC
-h I-LOC
-| | I-LOC
-B I-LOC
+we O
+h O
+| | O
+B O
 |
-| I-LOC
-Pallh I-LOC
+| O
+Pallh O
 , O
 Ai B-MISC
 o I-MISC
 pilL I-MISC
 |
 | I-MISC
-Iw I-MISC
+Iw B-LOC
 , O
 ci O
 wzlrti O
 . O
-n B-LOC
+n O
 a O
 , O
-t B-LOC
-Texda I-LOC
+t B-ORG
+Texda I-ORG
 < O
 l O
-wep O
-f O
+wep B-LOC
+f I-LOC
 |
-| O
-D B-PER
-T I-PER
+| I-LOC
+D I-LOC
+T I-LOC
 , O
 Et B-MISC
 | 
@@ -4790,13 +4790,13 @@ fu O
 | O
 Tout O
 qu' O
-ansrelselie O
+ansrelselie B-LOC
 , O
 wendel B-PER
 , O
 al B-PER
 tausalls I-PER
-tui O
+tui I-PER
 . O
 W O
 af O
@@ -4804,26 +4804,26 @@ af O
 Fpulwlse B-PER
 amy I-PER
 mod I-PER
-fissure O
-al O
-aml O
+fissure I-PER
+al I-PER
+aml I-PER
 |
 | O
 Aa B-LOC
 Sa O
 |
 | O
-IE O
+IE B-MISC
 |
-| O
-E B-MISC
+| I-MISC
+E I-MISC
 AXEL I-MISC
 |
-| O
+| I-MISC
 M O
 |
 | O
-QEGEMDE B-ORG
+QEGEMDE O
 |
 | O
 ui O
@@ -4845,13 +4845,13 @@ p O
 d O
 |
 | O
-Mes B-PER
-pal I-PER
-serena I-PER
-sopleimseetame I-PER
+Mes B-MISC
+pal I-MISC
+serena I-MISC
+sopleimseetame I-MISC
 , O
-I B-MISC
-Holilgarde I-MISC
+I B-PER
+Holilgarde O
 , O
 |
 | O
@@ -4859,16 +4859,16 @@ A B-LOC
 , O
 E B-LOC
 |
-| O
-Mai O
-Sca B-LOC
+| I-LOC
+Mai I-LOC
+Sca I-LOC
 . O
 |
 | O
-D O
+D B-PER
 |
-| O
-E B-LOC
+| I-PER
+E I-PER
 , O
 E B-LOC
 |
@@ -4890,9 +4890,9 @@ l O
 arf O
 |
     | O
-I B-MISC
-|  | I-MISC
-B I-MISC
+I O
+|  | O
+B O
 |
 | O
 De O
@@ -4900,28 +4900,28 @@ si O
 atif O
 eh O
 Hip B-PER
-Fet O
-sal O
-am O
-laa O
+Fet I-PER
+sal I-PER
+am I-PER
+laa I-PER
+|
+| I-PER
+I I-PER
 |
 | O
-I B-LOC
-|
-| O
-DcRI B-LOC
+DcRI B-MISC
 |
 | O
 Eullllo B-LOC
 . O
 |
 | O
-Satrenhr O
+Satrenhr B-MISC
 . O
 He B-LOC
-rent I-LOC
-- I-LOC
-Pare I-LOC
+rent O
+- O
+Pare O
 , O
 Scel B-MISC
 imp I-MISC
@@ -4937,8 +4937,8 @@ d O
 , O
 a O
 d O
-Rile B-LOC
-all I-LOC
+Rile B-PER
+all I-PER
 , O
 |
  | O
@@ -4949,12 +4949,12 @@ i O
 p O
 |  
 | O
-AA O
-AEE O
+AA B-ORG
+AEE I-ORG
 |
 | O
-< B-LOC
-E I-LOC
+< O
+E B-LOC
 | | I-LOC
 F I-LOC
 |
@@ -4964,8 +4964,8 @@ t O
 a O
 |
 | O
-EE B-ORG
-A I-ORG
+EE O
+A O
 |
 | O
 furent O
@@ -4984,7 +4984,7 @@ p O
 | 
 | O
 tat O
-eir O
+eir B-ORG
 au O
 lancer O
 krivas O
@@ -4995,14 +4995,14 @@ Mm B-PER
 M I-PER
 Gl I-PER
 |
- | I-PER
-REl I-PER
-Gwi I-PER
+ | O
+REl O
+Gwi O
 |
-| I-PER
-E I-PER
+| O
+E B-LOC
 |
-| I-PER
+| I-LOC
 Aep O
 ( O
 i O
@@ -5063,16 +5063,16 @@ se O
 a O
 | | O
 llpwtis O
-Sut B-LOC
-pr O
-S O
+Sut B-MISC
+pr I-MISC
+S I-MISC
 |
 | O
-Iolit B-MISC
+Iolit O
 |
  | O
 tgs O
-tren B-PER
+tren O
 a O
 a O
 |
@@ -5081,13 +5081,13 @@ a O
 dk O
 |
 | O
-sTADE B-ORG
+sTADE O
 , O
-EAU B-LOC
+EAU B-PER
 |
-| O
-A O
-AI B-ORG
+| I-PER
+A I-PER
+AI I-PER
 , O
 Au B-MISC
 BAYER I-MISC
@@ -5095,10 +5095,10 @@ AE I-MISC
 |
  | I-MISC
 quil I-MISC
-fat O
-tts O
+fat I-MISC
+tts I-MISC
 . O
-e B-LOC
+e O
 d O
 de O
 l O
@@ -5115,10 +5115,10 @@ c I-MISC
 s O
 fat O
 | | O
-Irwt B-MISC
-| | I-MISC
-E I-MISC
-hs I-MISC
+Irwt O
+| | O
+E O
+hs O
 |
      
 | O
@@ -5129,13 +5129,13 @@ e O
 S O
 |
 | O
-Pie B-PER
-athl I-PER
+Pie O
+athl O
 . O
 |
 | O
 > O
-u B-MISC
+u B-ORG
 a O
 g O
 a O
@@ -5143,15 +5143,15 @@ a O
 | O
 sni O
 de O
-Bari B-MISC
+Bari B-LOC
 |
-| I-MISC
-DULEE I-MISC
-F. I-MISC
+| O
+DULEE O
+F. O
 |
-| I-MISC
-qi I-MISC
-d I-MISC
+| O
+qi O
+d O
 a O
 d O
 |
@@ -5160,9 +5160,9 @@ a O
 Se O
 . O
 Fee B-PER
-p O
+p I-PER
 |
- | O
+ | I-PER
 ei O
 l O
 , O
@@ -5185,8 +5185,8 @@ D O
 
 | O
 < O
-E O
-Tal O
+E B-PER
+Tal I-PER
 |
       
 | O
@@ -5196,22 +5196,22 @@ e O
 w O
 fets O
 arlit O
-Aram B-PER
+Aram B-LOC
 |
-     | I-PER
-m I-PER
+     | O
+m O
 |
-  | I-PER
-Aa I-PER
-S I-PER
+  | O
+Aa B-LOC
+S I-LOC
 |
 | O
 4 O
 A O
 |
  | O
-adl B-MISC
-|   | I-MISC
+adl O
+|   | O
 < O
 | 
   | O
@@ -5222,39 +5222,39 @@ va O
 d O
 |
  | O
-A B-MISC
-AA I-MISC
-|
- | I-MISC
-de I-MISC
-d I-MISC
-|
-| I-MISC
-< I-MISC
-a I-MISC
-E I-MISC
-| | I-MISC
-D I-MISC
-|
- | I-MISC
-Sae O
-p. O
-MS B-MISC
-S I-MISC
-|
-| I-MISC
-RE O
+A O
+AA B-LOC
 |
  | O
-P O
-willy O
-cl O
+de O
+d O
+|
+| O
+< O
+a O
+E B-PER
+| | I-PER
+D I-PER
+|
+ | I-PER
+Sae I-PER
+p. I-PER
+MS I-PER
+S I-PER
+|
+| I-PER
+RE I-PER
+|
+ | O
+P B-PER
+willy I-PER
+cl I-PER
 sa O
 is O
 | | O
-aYu B-LOC
+aYu B-PER
 |
-     | O
+     | I-PER
 se O
 d O
 sera O
@@ -5262,31 +5262,31 @@ par O
 e O
 |
 | O
-mlagi58 O
+mlagi58 B-ORG
 |
 | O
 EYe B-ORG
 |
-| O
-i O
-Mi O
-Cie O
-| | O
-pre O
+| I-ORG
+i I-ORG
+Mi B-MISC
+Cie I-MISC
+| | I-MISC
+pre I-MISC
 |
-| O
-E B-LOC
+| I-MISC
+E I-MISC
 , O
-S B-ORG
-vhrill I-ORG
+S B-LOC
+vhrill I-LOC
 , O
 ral B-PER
 wanyeckley I-PER
-aun O
-Gyfyfler B-PER
+aun I-PER
+Gyfyfler I-PER
 |
-  | O
-pl O
+  | I-PER
+pl I-PER
 < O
 | | O
 a O
@@ -5297,8 +5297,8 @@ efdAN O
 | | O
 E B-LOC
 |
- | I-LOC
-A I-LOC
+ | O
+A O
 |
 | O
 NER B-MISC
@@ -5313,7 +5313,7 @@ ALES B-MISC
 . O
 |
 | O
-AE B-ORG
+AE O
 AIME O
 |
 | O
@@ -5327,48 +5327,48 @@ le O
 | O
 AIA B-ORG
 |
- | I-ORG
-T I-ORG
-B I-ORG
+ | O
+T B-LOC
+B I-LOC
 |
 | O
-DUEDRRIAI B-PER
+DUEDRRIAI B-MISC
 . O
 |
 | O
 INSEE B-ORG
 |
- | I-ORG
-M I-ORG
+ | O
+M O
 |
-| I-ORG
-Ωqa I-ORG
+| O
+Ωqa B-PER
 | 
 | O
 AAA O
 . O
 |
 | O
-Ω O
+Ω B-PER
 |
-| O
-E B-LOC
+| I-PER
+E I-PER
 , O
-at O
+at B-LOC
 et O
-M B-MISC
-E I-MISC
+M B-LOC
+E I-LOC
 |
- | I-MISC
-p I-MISC
-| | I-MISC
-p I-MISC
+ | O
+p O
+| | O
+p O
 |  
-  | I-MISC
-e I-MISC
+  | O
+e O
 |  
-   | I-MISC
-D I-MISC
+   | O
+D O
 |
 | O
 ap O
@@ -5380,27 +5380,27 @@ p O
 | O
 Ωumt O
 li O
-Al B-PER
+Al O
 , O
 d O
 |
      
  | O
 a O
-S B-MISC
-M I-MISC
-E I-MISC
-De I-MISC
+S B-PER
+M I-PER
+E I-PER
+De O
 |
-  | I-MISC
-A I-MISC
+  | O
+A O
 |
-| I-MISC
-Ωh O
+| O
+Ωh B-MISC
 il O
 |
 | O
-AD B-MISC
+AD O
 |
   
 | O
@@ -5410,11 +5410,11 @@ net O
 I B-ORG
 |
  | I-ORG
-Cin O
+Cin I-ORG
 |
-| O
-DAME O
-MAD B-MISC
+| I-ORG
+DAME I-ORG
+MAD I-ORG
 . O
 |
  | O
@@ -5427,14 +5427,14 @@ d O
 DAEAAAE B-ORG
 |
 | O
-De O
-| | O
-es O
-| | O
+De B-MISC
+| | I-MISC
+es I-MISC
+| | I-MISC
 p O
 | 
 | O
-AEAREAES B-MISC
+AEAREAES O
 |
 | O
 Ral O
@@ -5449,11 +5449,11 @@ a O
 Ωte B-MISC
 e I-MISC
 Fa I-MISC
-A I-MISC
+A O
 |
- | I-MISC
-k I-MISC
-die I-MISC
+ | O
+k O
+die O
 | | O
 pd O
 |
@@ -5482,7 +5482,7 @@ Dite O
 | | O
 de O
 d O
-Rae O
+Rae B-PER
 |
 | O
 < O
@@ -5506,17 +5506,17 @@ sat O
 i O
 | 
 | O
-Arc B-MISC
-vet I-MISC
+Arc B-LOC
+vet I-LOC
 |
 
-| I-MISC
-A I-MISC
+| I-LOC
+A I-LOC
 |
-| I-MISC
-i I-MISC
+| O
+i O
 |
- | I-MISC
+ | O
 a O
 c O
 p O
@@ -5524,18 +5524,18 @@ p O
      
  | O
 c O
-f O
-| | O
-e O
-|    | O
-e O
+f B-LOC
+| | I-LOC
+e I-LOC
+|    | I-LOC
+e I-LOC
 |
-| O
-D O
+| I-LOC
+D I-LOC
 |
-  | O
-d O
-p O
+  | I-LOC
+d I-LOC
+p I-LOC
 |  | O
 p O
 |  
@@ -5555,9 +5555,9 @@ t O
 l O
 Socle B-MISC
 | | I-MISC
-de I-MISC
-payre I-MISC
-real I-MISC
+de O
+payre B-PER
+real I-PER
 |
  | O
 sa O
@@ -5568,9 +5568,9 @@ p O
 rail O
 |
 | O
-Tard B-PER
+Tard B-ORG
 |
-  | I-PER
+  | I-ORG
 l O
 |
 | O
@@ -5587,10 +5587,10 @@ A O
 |
  | O
 we O
-EA B-MISC
-SAE I-MISC
+EA O
+SAE O
 |
- | I-MISC
+ | O
 A O
 |
 | O
@@ -5598,11 +5598,11 @@ A O
 e O
 |
 | O
-I O
-D O
-E O
+I B-MISC
+D I-MISC
+E I-MISC
 |
-| O
+| I-MISC
 Ω O
 |  | O
 B O
@@ -5616,10 +5616,10 @@ Sp B-MISC
 | I-MISC
 Ω I-MISC
 < I-MISC
-S I-MISC
+S B-LOC
 | 
-   | I-MISC
-F I-MISC
+   | I-LOC
+F I-LOC
 , O
 | | O
 p O
@@ -5632,10 +5632,10 @@ p O
 p O
 |
 | O
-Atr B-MISC
+Atr B-PER
 |
- | I-MISC
-vii I-MISC
+ | I-PER
+vii I-PER
 a O
 all O
 a O
@@ -5644,34 +5644,34 @@ S O
 p O
 |
 | O
-Il B-MISC
-| | I-MISC
-S I-MISC
-|
-| I-MISC
-< I-MISC
-r I-MISC
-f I-MISC
-| | I-MISC
-anl I-MISC
-sali I-MISC
-| | I-MISC
-di I-MISC
-|
- | I-MISC
-d I-MISC
+Il O
+| | O
+S O
 |
 | O
-DEE O
-ELBE B-ORG
+< O
+r O
+f O
+| | O
+anl O
+sali O
+| | O
+di O
+|
+ | O
+d O
 |
 | O
-FAMEUSE B-MISC
+DEE B-ORG
+ELBE I-ORG
+|
+| O
+FAMEUSE O
 . O
 |
 | O
-Ωlalp O
-A B-LOC
+Ωlalp B-PER
+A I-PER
 |
 | O
 < O
@@ -5708,13 +5708,13 @@ B B-LOC
 s O
 S O
 ils O
-Esp B-PER
+Esp O
 |
 | O
 d O
-H O
+H B-PER
 |
-| O
+| I-PER
 Cska O
 |
 | O
@@ -5753,13 +5753,13 @@ c O
 EI O
 |
 | O
-i O
-d O
-De O
-Pi O
+i B-MISC
+d I-MISC
+De I-MISC
+Pi I-MISC
 |
  | O
-SE5 O
+SE5 B-MISC
 |
 | O
 ames O
@@ -5767,25 +5767,25 @@ ames O
 | O
 E B-LOC
 |
-| O
-E O
+| I-LOC
+E I-LOC
 |
-| O
-A O
+| I-LOC
+A I-LOC
 |
-   | O
+   | I-LOC
 r O
 p O
 |
 | O
-Atk B-LOC
+Atk B-MISC
 |
-  | O
-< O
-d O
+  | I-MISC
+< I-MISC
+d I-MISC
 |   
-| O
-MAiRE O
+| I-MISC
+MAiRE I-MISC
 |
 | O
 u O
@@ -5804,8 +5804,8 @@ AGENCE B-ORG
 ANCE B-MISC
 WS I-MISC
 . O
-MAIRE O
-WS B-MISC
+MAIRE B-MISC
+WS I-MISC
 . O
 |
  | O
@@ -5818,41 +5818,41 @@ lES O
 EEN B-ORG
 |
 | O
-DEENRE O
+DEENRE B-ORG
 . O
 |
 | O
 < O
 |     | O
-B O
+B B-LOC
 |
 | O
-DA O
-Vh O
+DA B-MISC
+Vh I-MISC
 |
 | O
-RELE O
-BEE O
+RELE B-MISC
+BEE I-MISC
 |
-| O
-INi O
+| I-MISC
+INi I-MISC
 |
 | O
 Mi B-MISC
 |
-| O
-SlE O
+| I-MISC
+SlE I-MISC
 |
 | O
-FEMME B-ORG
-EEI I-ORG
+FEMME O
+EEI O
 |
 | O
 Ω O
 | | O
-WE B-MISC
-FaE I-MISC
-A I-MISC
+WE O
+FaE O
+A O
 |
 | O
 IIA O
@@ -5862,44 +5862,44 @@ A O
 A O
 |
 | O
-NUATEAESAER B-ORG
+NUATEAESAER O
 |
 | O
 DR B-ORG
-EE I-ORG
+EE O
 |
-| I-ORG
-M I-ORG
+| O
+M O
 |
 | O
 NeAR B-MISC
 |
 | O
 I O
-AEA B-MISC
+AEA O
 |
 | O
-anS. O
+anS. B-MISC
 |
-| O
-IA O
-R O
+| I-MISC
+IA I-MISC
+R I-MISC
 |
-| O
-ATE O
+| I-MISC
+ATE I-MISC
 |
-| O
-DV O
+| I-MISC
+DV I-MISC
 , O
-WHEE B-LOC
-A I-LOC
+WHEE B-ORG
+A O
 |
 | O
-AE B-ORG
+AE O
 . O
 |
 | O
-Ack B-LOC
+Ack B-MISC
 |
  | O
 op O
@@ -5908,7 +5908,7 @@ op O
 WarS B-MISC
 |
 | O
-AI B-ORG
+AI B-LOC
 |
 | O
 a O
@@ -5960,14 +5960,14 @@ D B-PER
 S I-PER
 |
        
-| O
-es O
+| I-PER
+es I-PER
 d O
 | 
   | O
 sa O
 a O
-Re B-PER
+Re O
 a O
 d O
 |
@@ -5987,7 +5987,7 @@ f O
 | O
 E B-LOC
 |
-     | O
+     | I-LOC
 p O
 | 
 | O
@@ -5995,10 +5995,10 @@ t O
 qu O
 |  
 | O
-De B-PER
+De O
 |
-   | I-PER
-M I-PER
+   | O
+M O
 |
     
 | O
@@ -6023,7 +6023,7 @@ c O
 po O
 |
 | O
-Aai B-LOC
+Aai O
 at O
 |
  | O
@@ -6031,24 +6031,24 @@ c O
 |
  | O
 e O
-S O
+S B-PER
 , O
 | | O
-La B-MISC
+La O
 |
- | I-MISC
-fi I-MISC
+ | O
+fi O
 l O
 qui O
 |  
 | O
-DIE O
+DIE B-ORG
 a O
-S B-MISC
-SnS I-MISC
-INDiEN I-MISC
-CiSES I-MISC
-SESIR I-MISC
+S B-ORG
+SnS I-ORG
+INDiEN I-ORG
+CiSES I-ORG
+SESIR I-ORG
 . O
 |
 | O
@@ -6062,13 +6062,13 @@ la O
 E.l B-ORG
 |
 | O
-AI B-ORG
+AI O
 |
     | O
 a O
 S O
 a O
-S B-PER
+S O
 f O
 |
 | O
@@ -6081,21 +6081,21 @@ II B-MISC
 A I-MISC
 A I-MISC
 |
-| I-MISC
-p I-MISC
-| | I-MISC
-< I-MISC
+| O
+p O
+| | O
+< O
 . O
 | | O
 wa O
 |
 | O
-A1EEE B-LOC
-SMM B-MISC
-S I-MISC
+A1EEE B-ORG
+SMM O
+S O
 |
 | O
-GUERRE B-ORG
+GUERRE O
 . O
 |
 | O
@@ -6116,9 +6116,9 @@ k O
 A O
 |
  | O
-S O
-wu O
-Srifh B-LOC
+S B-PER
+wu I-PER
+Srifh I-PER
 , O
 Cealioyt B-PER
 |
@@ -6131,8 +6131,8 @@ BAE B-ORG
 a O
 | | O
 ne O
-de B-PER
-pete I-PER
+de O
+pete B-PER
 d I-PER
 |
 | I-PER
@@ -6142,39 +6142,39 @@ DE I-PER
 sc O
 | | O
 ( O
-Lame B-MISC
-|
-| I-MISC
-> I-MISC
-g. I-MISC
-a I-MISC
-Eta I-MISC
+Lame B-PER
 |
 | O
-Nie B-PER
-GT I-PER
+> O
+g. B-PER
+a O
+Eta B-PER
 |
-  | I-PER
+| O
+Nie O
+GT O
+|
+  | O
 fo O
 lr O
 sorti O
 |
 | O
-A O
-A O
+A B-MISC
+A I-MISC
 |
-| O
-ly O
-< O
-Air B-ORG
+| I-MISC
+ly I-MISC
+< I-MISC
+Air I-MISC
 |
-| I-ORG
-e I-ORG
-sud I-ORG
+| I-MISC
+e I-MISC
+sud I-MISC
 , O
-Salir B-ORG
-we I-ORG
-Dois I-ORG
+Salir B-LOC
+we I-LOC
+Dois I-LOC
 |
  | O
 < O
@@ -6205,7 +6205,7 @@ d O
 |
 | O
 > O
-oys B-ORG
+oys O
 |  | O
 e O
 s O
@@ -6213,7 +6213,7 @@ s O
 | O
 EE B-ORG
 |
-     | O
+     | I-ORG
 a O
 sa O
 | 
@@ -6242,27 +6242,27 @@ u O
 |  
         
 | O
-SCARE O
-TS B-ORG
+SCARE B-ORG
+TS I-ORG
 . O
 |
 | O
-ΩI O
+ΩI B-ORG
 , O
-Ro B-MISC
-E I-MISC
-Fa I-MISC
+Ro B-ORG
+E I-ORG
+Fa I-ORG
 |
-| I-MISC
-> I-MISC
-d I-MISC
-A I-MISC
+| O
+> O
+d O
+A B-MISC
 |
   | I-MISC
 a O
-martel O
+martel B-ORG
 |
-  | O
+  | I-ORG
 d O
 |
 | O
@@ -6282,37 +6282,37 @@ a O
 p O
 | 
 | O
-Ω B-MISC
+Ω B-LOC
 | 
   
-| I-MISC
-A I-MISC
-| | I-MISC
-ho I-MISC
-| | I-MISC
-Ee I-MISC
+| O
+A O
+| | O
+ho O
+| | O
+Ee B-PER
 |
-| I-MISC
-Ral I-MISC
+| I-PER
+Ral I-PER
 , O
 voies O
 , O
 Wal B-ORG
-aet O
+aet I-ORG
 . O
 |
 | O
-IEIRI B-MISC
-AL I-MISC
-SILENCE I-MISC
+IEIRI B-ORG
+AL I-ORG
+SILENCE I-ORG
 |
-| O
-EmEA B-MISC
+| I-ORG
+EmEA I-ORG
 , O
 | 
 | O
-DE O
-NᗅYES B-MISC
+DE B-MISC
+NᗅYES I-MISC
 SERIES I-MISC
 . O
 |
@@ -6320,17 +6320,17 @@ SERIES I-MISC
 10 O
 |
 | O
-MARIAGE B-ORG
+MARIAGE O
 . O
 |
  
 | O
-MESURE B-PER
-M. I-PER
+MESURE O
+M. O
 |
 | O
-ACTE B-MISC
-TIOMSTEMIES I-MISC
+ACTE O
+TIOMSTEMIES B-MISC
 . O
 |
  | O
@@ -6338,23 +6338,23 @@ TIOMSTEMIES I-MISC
 a O
 |   | O
 a O
-L B-MISC
+L B-PER
 |
- | I-MISC
-l I-MISC
-s I-MISC
+ | O
+l O
+s O
 a O
 d O
 d O
-we O
+we B-MISC
 |
-   | O
+   | I-MISC
 p O
 t O
 |
  | O
 de O
-ea O
+ea B-PER
 |   
  | O
 a O
@@ -6372,11 +6372,11 @@ l O
 ARE B-MISC
 , O
 AR B-MISC
-W O
-Al O
+W I-MISC
+Al I-MISC
 |
 
-| O
+| I-MISC
 Ω O
 | | O
 S O
@@ -6394,9 +6394,9 @@ MArk I-MISC
 d I-MISC
 d I-MISC
 |
- | I-MISC
-i I-MISC
-t I-MISC
+ | O
+i B-PER
+t I-PER
 a O
 t O
 d O
@@ -6413,17 +6413,17 @@ p O
 d O
 |
 | O
-At B-PER
+At B-LOC
 |
    
-| I-PER
-A I-PER
-| | O
-a O
-S B-PER
+| I-LOC
+A I-LOC
+| | I-LOC
+a I-LOC
+S I-LOC
 |
-| I-PER
-Amailealst I-PER
+| I-LOC
+Amailealst O
 |
   | O
 c O
@@ -6447,7 +6447,7 @@ ne O
 d O
 |
 | O
-18E3 B-LOC
+18E3 O
 |
        
   | O
@@ -6469,13 +6469,13 @@ t O
 d O
 |
 | O
-v B-PER
-|   | I-PER
-t I-PER
-d I-PER
+v O
+|   | O
+t O
+d O
 |
- | I-PER
-E. I-PER
+ | O
+E. O
 |
 | O
 a O
@@ -6483,14 +6483,14 @@ a O
  | O
 E O
 aI O
-LICATE B-MISC
-AA I-MISC
+LICATE B-LOC
+AA I-LOC
 |
-| O
-S O
+| I-LOC
+S I-LOC
 |
-| O
-M O
+| I-LOC
+M I-LOC
 p O
 |
 | O
@@ -6513,7 +6513,7 @@ m O
 fa O
 |   | O
 ta O
-B B-LOC
+B O
 |
    | O
 m O
@@ -6534,8 +6534,8 @@ e O
 l O
 a O
 a O
-Sait B-LOC
-Be I-LOC
+Sait B-PER
+Be I-PER
 a O
 |
  | O
@@ -6562,24 +6562,24 @@ kekk O
 p O
 |
 | O
-I B-LOC
+I O
 < O
 , O
 | | O
-sl O
-lr O
-Ba B-LOC
+sl B-PER
+lr I-PER
+Ba I-PER
 a O
 | 
    | O
 A O
 |
 | O
-A B-LOC
-D I-LOC
+A B-MISC
+D I-MISC
 |
-| I-LOC
-ΩE I-LOC
+| I-MISC
+ΩE B-LOC
 AEd I-LOC
 |
 | O
@@ -6596,47 +6596,47 @@ B B-LOC
 e O
 |  
 | O
-Ω B-MISC
-B I-MISC
-|  | I-MISC
-d I-MISC
+Ω B-PER
+B I-PER
+|  | O
+d O
 |
-   | I-MISC
-d I-MISC
+   | O
+d O
 |   
-   | I-MISC
-p I-MISC
+   | O
+p O
 | 
-  | I-MISC
-p I-MISC
+  | O
+p O
 |
-  | I-MISC
-dl I-MISC
+  | O
+dl O
 |   
           
-| I-MISC
-FaL1 I-MISC
-|
-| I-MISC
-E I-MISC
-|
-    | I-MISC
-p I-MISC
-d I-MISC
-e I-MISC
-|
-  | I-MISC
-p I-MISC
-|    
- | I-MISC
-sin I-MISC
-|  | I-MISC
-j I-MISC
-| | I-MISC
-d I-MISC
+| O
+FaL1 O
 |
 | O
-Pa B-PER
+E O
+|
+    | O
+p O
+d O
+e O
+|
+  | O
+p O
+|    
+ | O
+sin O
+|  | O
+j O
+| | O
+d O
+|
+| O
+Pa B-MISC
 l O
 c O
 |
@@ -6675,8 +6675,8 @@ d O
 am O
 |
 | O
-I B-MISC
-BM I-MISC
+I O
+BM O
 |
 | O
 C O
@@ -6688,7 +6688,7 @@ p O
 M O
 |
   | O
-ds B-MISC
+ds O
 au O
 casey O
 k O
@@ -6701,16 +6701,16 @@ c O
 | 
  
 | O
-t B-MISC
-V I-MISC
-place I-MISC
+t O
+V O
+place O
 |
-| I-MISC
-Me B-MISC
-A I-MISC
+| O
+Me B-PER
+A I-PER
 |
- | I-MISC
-p I-MISC
+ | O
+p O
 , O
 |     | O
 t O
@@ -6737,9 +6737,9 @@ A O
 |
 
 | O
-I O
-A O
-MA O
+I B-LOC
+A I-LOC
+MA I-LOC
 |
 | O
 D.E O
@@ -6747,12 +6747,12 @@ WeA O
 M O
 |
 | O
-AA O
-GuLI B-MISC
+AA B-MISC
+GuLI I-MISC
 |
 | O
-DM O
-MMS O
+DM B-MISC
+MMS I-MISC
 . O
 |
 | O
@@ -6761,17 +6761,17 @@ DE O
 |
 
 | O
-ME O
-DAME O
+ME B-PER
+DAME I-PER
 |
-| O
-E B-MISC
-wi I-MISC
-SAIT O
+| I-PER
+E B-LOC
+wi I-LOC
+SAIT I-LOC
 . O
 |
 | O
-lAbellis B-LOC
+lAbellis B-MISC
 e O
 l O
 atl O
@@ -6810,22 +6810,22 @@ sana O
 e O
 |
 | O
-IE O
-AME O
+IE B-ORG
+AME I-ORG
 |
 | O
 t O
 | | O
-Elvira B-ORG
+Elvira B-PER
 |
  | O
 m O
 pseis O
-Ke B-MISC
+Ke B-PER
 |
-| I-MISC
-Is I-MISC
-ErATEl O
+| I-PER
+Is I-PER
+ErATEl I-PER
 A O
 E O
 Et O
@@ -6837,9 +6837,9 @@ p O
 D O
 |
    | O
-p B-MISC
-B I-MISC
-B I-MISC
+p O
+B O
+B O
 |
  | O
 a O
@@ -6850,10 +6850,10 @@ p O
 |   
 | O
 la O
-wii O
+wii B-MISC
 |     
-| O
-Sien B-PER
+| I-MISC
+Sien I-MISC
 contre O
 si O
 taient O
@@ -6865,13 +6865,13 @@ abt I-MISC
 | O
 a O
 eai O
-D B-LOC
+D O
 , O
 al O
 p O
 | 
  | O
-B O
+B B-LOC
 |   | O
 p O
 | 
@@ -6882,8 +6882,8 @@ p O
 |
  
 | O
-Ie O
-am O
+Ie B-PER
+am I-PER
 qui O
 yel O
 , O
@@ -6905,22 +6905,22 @@ se O
 , O
 i O
 . O
-v B-PER
+v O
 < O
 |
   | O
 sa O
-C B-MISC
+C O
 p O
 le O
 a O
 Ce O
 |
 | O
-I B-LOC
-| | I-LOC
-d I-LOC
-pti I-LOC
+I B-MISC
+| | I-MISC
+d I-MISC
+pti I-MISC
 . O
 |
 | O
@@ -6929,13 +6929,13 @@ ACaCIa B-MISC
 AR I-MISC
 |
 | O
-Ii B-PER
+Ii B-MISC
 |
-  | I-PER
-d I-PER
+  | I-MISC
+d I-MISC
 |
-  | I-PER
-Ere I-PER
+  | I-MISC
+Ere I-MISC
 , O
 a O
 e O
@@ -6964,38 +6964,38 @@ k O
 |
 | O
 la O
-sie O
-l O
+sie B-LOC
+l I-LOC
 e. O
 |    | O
-Ai B-MISC
+Ai B-PER
 |
      
-| I-MISC
-A I-MISC
-M I-MISC
+| I-PER
+A I-PER
+M I-PER
 |
-| I-MISC
-Ω I-MISC
-w I-MISC
-y I-MISC
-a I-MISC
+| I-PER
+Ω I-PER
+w O
+y O
+a O
 |
-  | I-MISC
-Sa I-MISC
-d I-MISC
+  | O
+Sa O
+d O
 |
- | I-MISC
+ | O
 . O
 sgA O
 |
 | O
-A B-MISC
-a I-MISC
-MA I-MISC
+A B-LOC
+a O
+MA O
 |
-| I-MISC
-A I-MISC
+| O
+A O
 ase O
 mais O
 . O
@@ -7013,15 +7013,15 @@ s O
 marin O
 ta O
 ene O
-Sew B-PER
+Sew O
 |
-| I-PER
+| O
 ME O
 158 O
 . O
 |
 | O
-Me O
+Me B-MISC
 . O
 we O
 , O
@@ -7030,7 +7030,7 @@ a O
 | O
 AS O
 . O
-E O
+E B-LOC
 |
 | O
 Sa O
@@ -7038,29 +7038,29 @@ Sa O
 il O
 la O
 tall O
-patley B-MISC
-|  | I-MISC
-Set I-MISC
-|
-| I-MISC
-Ram I-MISC
-D. I-MISC
+patley O
+|  | O
+Set O
 |
 | O
-EMB B-ORG
+Ram O
+D. O
 |
 | O
-EIpENACEESLEN O
+EMB O
+|
+| O
+EIpENACEESLEN B-MISC
 , O
-BE B-ORG
+BE B-LOC
 |
 | O
-D O
-M O
+D B-PER
+M I-PER
 |
-| O
-Aawta B-PER
-I I-PER
+| I-PER
+Aawta O
+I O
 liens O
 une O
 head O
@@ -7076,8 +7076,8 @@ a O
 l. O
 le O
 , O
-f O
-seww O
+f B-PER
+seww I-PER
 . O
 Eei B-PER
 |
@@ -7086,18 +7086,18 @@ Sw I-PER
 |
   
    
-| I-PER
-NINE I-PER
-AT I-PER
+| O
+NINE B-ORG
+AT I-ORG
 . O
 |
 | O
-Dn O
-aw O
+Dn B-MISC
+aw I-MISC
 , O
 i O
 | | O
-Sam O
+Sam B-PER
 le O
 d. O
 |
@@ -7111,7 +7111,7 @@ e O
 < O
 | 
 | O
-EEEAAE O
+EEEAAE B-LOC
 |
  | O
 Sa O
@@ -7131,14 +7131,14 @@ l O
 at O
 |
 | O
-N B-LOC
-< I-LOC
-wul I-LOC
+N O
+< O
+wul O
 . O
 |
 | O
-RA O
-AE B-ORG
+RA B-ORG
+AE I-ORG
 . O
 |
 | O
@@ -7146,18 +7146,18 @@ Srlen B-PER
 . O
 am O
 | | O
-Alla B-MISC
-Bale I-MISC
+Alla B-PER
+Bale I-PER
 |
 | O
 ic O
 lrt O
 attends O
 . O
-Nur O
-Lisi O
-d O
-Cimales O
+Nur B-PER
+Lisi I-PER
+d I-PER
+Cimales I-PER
 |
    | O
 < O
@@ -7178,7 +7178,7 @@ t O
 a O
 a O
 ail O
-Ely B-PER
+Ely B-LOC
 . O
 Fb O
 |
@@ -7189,36 +7189,36 @@ ff O
 > O
 w O
 | | O
-B. B-PER
-Bob I-PER
+B. O
+Bob O
 |
 | O
-REGIYCIAILRIT O
+REGIYCIAILRIT B-MISC
 . O
 |
 | O
 Moi B-MISC
 FaE I-MISC
 |
-| I-MISC
-AM I-MISC
-Ma I-MISC
+| O
+AM O
+Ma O
 . O
 |
 | O
 ITEWAIAE B-MISC
 ELS O
-AR B-MISC
+AR O
 |
 | O
-Ii B-PER
-pwhs O
-ariaawik O
+Ii B-MISC
+pwhs I-MISC
+ariaawik I-MISC
 , O
 aile O
 , O
-al B-PER
-tran I-PER
+al O
+tran O
 a O
 se O
 a O
@@ -7231,23 +7231,23 @@ tours O
 | | O
 ald O
 , O
-fay O
+fay B-PER
 5 O
 |
 | O
 > O
 | | O
 i O
-win B-PER
-p I-PER
+win B-MISC
+p I-MISC
 , O
-Ω B-MISC
+Ω B-PER
 |
-| O
-Al B-PER
-< O
-es O
-frip O
+| I-PER
+Al I-PER
+< I-PER
+es I-PER
+frip I-PER
 c O
 dit O
 , O
@@ -7312,18 +7312,18 @@ Maxtesallri B-PER
 d I-PER
 wu I-PER
 Glise I-PER
-ba O
+ba I-PER
 |
-     | O
-pat O
+     | I-PER
+pat I-PER
 | | O
 de O
-c B-PER
-| | I-PER
-t I-PER
-d I-PER
+c O
+| | O
+t O
+d O
 |
-       | I-PER
+       | O
 , O
 < O
 fet O
@@ -7339,13 +7339,13 @@ d O
 |      
      | O
 l O
-Caa O
+Caa B-LOC
 |
 | O
-Mes B-PER
+Mes O
 |
-  | I-PER
-ia I-PER
+  | O
+ia O
 . O
 |
 | O
@@ -7364,25 +7364,25 @@ d O
 | O
 ΩAN O
 | | O
-AXE B-PER
-D I-PER
+AXE O
+D B-PER
 E. I-PER
 |
 | I-PER
-Alli I-PER
+Alli O
 |
     
  
 
 | O
-AEA B-MISC
-AAA I-MISC
+AEA B-ORG
+AAA I-ORG
 |
- | I-MISC
-pw I-MISC
-Wars B-MISC
-fa I-MISC
-wrawak I-MISC
+ | O
+pw O
+Wars O
+fa O
+wrawak O
 |
  | O
 p O
@@ -7390,18 +7390,18 @@ p O
 ans O
 | | O
 a O
-E B-LOC
+E B-PER
+|
+| I-PER
+S I-PER
+|
+| I-PER
+Me I-PER
+H I-PER
 |
 | O
-S B-ORG
-|
-| I-ORG
-Me I-ORG
-H I-ORG
-|
-| O
-ACTE B-ORG
-SSR I-ORG
+ACTE O
+SSR B-MISC
 , O
 APER B-MISC
 DT I-MISC
@@ -7412,17 +7412,17 @@ DT I-MISC
 |
 | O
 ^te O
-J O
+J B-MISC
 |
 
-| O
-AE B-ORG
+| I-MISC
+AE I-MISC
 |
 | O
 14 O
 |
 | O
-MIEESRRIAS O
+MIEESRRIAS B-PER
 , O
 |
  | O
@@ -7433,17 +7433,17 @@ wee O
 l O
 | 
 | O
-E B-LOC
+E B-MISC
 |
-| O
-Mos O
-SE O
+| I-MISC
+Mos I-MISC
+SE I-MISC
 |
 | O
 RM O
 BESS B-ORG
 |
- | I-ORG
+ | O
 Fi O
 | 
 | O
@@ -7452,17 +7452,17 @@ V. O
 |
 | O
 EMI B-ORG
-EN O
+EN I-ORG
 , O
 |
 | O
-A B-MISC
+A B-LOC
 |
-| I-MISC
-ΩE O
-I O
-| | O
-B O
+| O
+ΩE B-LOC
+I I-LOC
+| | I-LOC
+B I-LOC
 |
  
 | O
@@ -7472,8 +7472,8 @@ si O
 d O
 |
 | O
-Wa B-LOC
-| | O
+Wa B-PER
+| | I-PER
 p O
 e O
 a O
@@ -7501,7 +7501,7 @@ d O
 | 
 | O
 < O
-alis O
+alis B-PER
 te O
 il O
 a O
@@ -7545,12 +7545,12 @@ A O
      
  
 | O
-u O
-T O
+u B-MISC
+T I-MISC
 |
-| O
-os O
-ALLiE O
+| I-MISC
+os I-MISC
+ALLiE I-MISC
 , O
 lE O
 B B-LOC
@@ -7559,15 +7559,15 @@ B B-LOC
 d O
 |
 | O
-M B-MISC
+M B-PER
 |
- | I-MISC
-A I-MISC
+ | I-PER
+A I-PER
 |
 | O
 SAmedi B-MISC
 |
-| O
+| I-MISC
 Du O
 r O
 |
@@ -7582,7 +7582,7 @@ us O
 takashi O
 |
 | O
-Amia B-PER
+Amia O
 |
 | O
 a O
@@ -7607,13 +7607,13 @@ le O
 d O
 |
 | O
-d B-PER
-c I-PER
-| | I-PER
-d I-PER
-d I-PER
-|    | I-PER
-p I-PER
+d O
+c O
+| | O
+d O
+d O
+|    | O
+p B-PER
 e I-PER
 |
  | I-PER
@@ -7633,7 +7633,7 @@ p O
 d O
 | 
 | O
-aciak O
+aciak B-PER
 . O
 t O
 |
@@ -7651,14 +7651,14 @@ d O
 sd O
 c O
 |  | O
-p B-LOC
+p O
 |
- | I-LOC
-d I-LOC
-B I-LOC
+ | O
+d O
+B B-LOC
 | 
-  | I-LOC
-E I-LOC
+  | O
+E O
 |
 | O
 > O
@@ -7669,12 +7669,12 @@ de O
 l O
 |  
 | O
-D O
+D B-PER
 |
- | O
-E O
-ABD O
-E O
+ | I-PER
+E I-PER
+ABD I-PER
+E I-PER
 |
  | O
 t O
@@ -7682,24 +7682,24 @@ t O
 t O
 |
 | O
-Am B-LOC
+Am O
 |
     | O
 p O
 |
 | O
-A B-LOC
+A O
 |
-| I-LOC
-aDopt I-LOC
-| | I-LOC
+| O
+aDopt O
+| | O
 Mi B-MISC
 |
  | O
-dledy O
+dledy B-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 F I-PER
 |
 | I-PER
@@ -7712,32 +7712,32 @@ AM I-PER
 D I-PER
 |
 | I-PER
-A O
+A I-PER
 |
-| O
-h O
-< O
-| | O
-pet O
+| I-PER
+h I-PER
+< I-PER
+| | I-PER
+pet I-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
-    | O
-t O
+    | I-PER
+t I-PER
 | 
-| O
-D O
+| I-PER
+D I-PER
 |
  
  
-| O
-la O
-d O
-a O
+| I-PER
+la I-PER
+d I-PER
+a I-PER
 |
-| O
-Ω O
+| I-PER
+Ω I-PER
 melo O
 ti O
 | 
@@ -7748,10 +7748,10 @@ k O
 a O
 |
 | O
-A O
+A B-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
 
      | O
@@ -7759,8 +7759,8 @@ e O
 |
       
 | O
-ERi O
-A O
+ERi B-LOC
+A I-LOC
 |
  | O
 e O
@@ -7770,31 +7770,31 @@ a O
 d O
 |
 | O
-De O
-pi O
-triplet O
-web O
+De B-MISC
+pi I-MISC
+triplet I-MISC
+web I-MISC
 |
-| O
-A O
-| | O
-d O
+| I-MISC
+A I-MISC
+| | I-MISC
+d I-MISC
 |
- | O
-C O
-S.tt O
+ | I-MISC
+C I-MISC
+S.tt I-MISC
 |
-| O
-M O
-E O
+| I-MISC
+M I-MISC
+E I-MISC
 |
 
-    | O
-d O
+    | I-MISC
+d I-MISC
 |
-| O
-Daii B-PER
-dc I-PER
+| I-MISC
+Daii I-MISC
+dc O
 |
 | O
 a O
@@ -7805,12 +7805,12 @@ a O
 t O
 | 
 | O
-D B-PER
+D O
 |
-  | I-PER
-pi I-PER
+  | O
+pi O
 |    
-| I-PER
+| O
 Ai O
 |
 | O
@@ -7837,7 +7837,7 @@ Audi B-MISC
 | I-MISC
 Audet I-MISC
 |
-| I-MISC
+| O
 Ra O
 la O
 d O
@@ -7851,7 +7851,7 @@ d O
 d O
 |
 | O
-Mvi B-PER
+Mvi B-MISC
 s O
 la O
 c O
@@ -7859,10 +7859,10 @@ d O
 d O
 |
 | O
-Arm B-PER
+Arm B-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 acu O
@@ -7872,7 +7872,7 @@ c O
 |
 | O
 WIRE B-MISC
-NES B-MISC
+NES I-MISC
 . O
 |
 | O
@@ -7884,43 +7884,43 @@ DANS O
 . O
 |
 | O
-Ae O
-BirD B-MISC
+Ae B-PER
+BirD I-PER
 , O
-AET B-MISC
+AET B-ORG
 : O
 |
 | O
-Re O
-w O
+Re B-MISC
+w I-MISC
 |
-| O
-Mo O
-d O
+| I-MISC
+Mo I-MISC
+d I-MISC
 |
-| O
-Ra O
+| I-MISC
+Ra I-MISC
 |
-| O
-RATS O
+| I-MISC
+RATS I-MISC
 . O
 |
 | O
-DID B-ORG
+DID B-MISC
 |
 | O
 Mi B-MISC
 | 
-| O
-D O
+| I-MISC
+D I-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 |
-| O
-temp O
+| I-MISC
+temp I-MISC
 |
-| O
+| I-MISC
 Do B-MISC
 S I-MISC
 |
@@ -7929,11 +7929,11 @@ M I-MISC
 S I-MISC
 | 
   | I-MISC
-p O
-< O
-i O
-| | O
-p O
+p I-MISC
+< I-MISC
+i I-MISC
+| | I-MISC
+p I-MISC
 |
 | O
 a O
@@ -7952,8 +7952,8 @@ d O
 |
         
 | O
-Ai O
-g O
+Ai B-PER
+g I-PER
 s O
 |
 | O
@@ -7962,13 +7962,13 @@ s O
 p O
 |
 | O
-A O
+A B-LOC
 |
-  | O
-p O
+  | I-LOC
+p I-LOC
 |   
-| O
-Mai O
+| I-LOC
+Mai I-LOC
 |
  | O
 e O
@@ -7980,7 +7980,7 @@ l O
 |    
 | O
 MuERY B-MISC
-SENS B-ORG
+SENS I-MISC
 . O
 |
 | O
@@ -8002,7 +8002,7 @@ r O
 S O
 |
 | O
-Mi B-MISC
+Mi O
 de O
 d O
 |
@@ -8019,26 +8019,26 @@ d O
 c O
 |
 | O
-Dad O
+Dad B-MISC
 | 
-| O
-Mt B-MISC
+| I-MISC
+Mt O
 et O
 a O
 t O
 |
 | O
-I B-ORG
-N I-ORG
+I O
+N O
 |
 | O
 AE B-ORG
 |
-  | O
-di O
-p O
+  | I-ORG
+di I-ORG
+p I-ORG
 |
-| O
+| I-ORG
 aidant O
 i O
 m O
@@ -8047,7 +8047,7 @@ m O
 RAR O
 |
  | O
-MIS O
+MIS B-MISC
 : O
 |
 | O
@@ -8062,7 +8062,7 @@ a O
 Mo O
 |
 | O
-DN O
+DN B-LOC
 |
   | O
 < O
@@ -8070,57 +8070,57 @@ DN O
 | O
 M B-PER
 O I-PER
-d I-PER
+d O
 |
-   | I-PER
-dg I-PER
+   | O
+dg O
 |
     | O
 pi O
 | 
 | O
-RAS O
+RAS B-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |  
 | O
-ΩT B-PER
+ΩT O
 p O
 dt O
 | 
 | O
-RM B-PER
-A I-PER
+RM O
+A O
 |
 | O
 Ma B-MISC
 m I-MISC
 C I-MISC
 |
-| O
-I B-MISC
+| I-MISC
+I I-MISC
 SAA I-MISC
 |
-| O
-NINE O
+| I-MISC
+NINE I-MISC
 , O
-AE B-ORG
+AE B-MISC
 |
 | O
-AM O
-AE B-ORG
+AM B-MISC
+AE I-MISC
 |
 | O
-RA O
-AA O
+RA B-ORG
+AA I-ORG
 |
-| O
-D O
-File O
+| I-ORG
+D I-ORG
+File I-ORG
 |
  | O
 w O
@@ -8138,59 +8138,59 @@ IAAES B-MISC
 |
       
 | O
-Arcs O
+Arcs B-PER
 |
  
-| O
-MEAAEAE O
+| I-PER
+MEAAEAE I-PER
 |
 | O
 Il O
 |
 | O
-MA B-MISC
-BE I-MISC
+MA B-ORG
+BE I-ORG
 |
-| I-MISC
-Ari I-MISC
-dt I-MISC
+| O
+Ari B-PER
+dt I-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
  | O
 p O
 |
 | O
-A B-MISC
-D I-MISC
-A I-MISC
+A B-PER
+D I-PER
+A I-PER
 |
-| I-MISC
-E I-MISC
+| I-PER
+E I-PER
 , O
-A B-ORG
+A B-LOC
 |
-| I-ORG
-EE I-ORG
+| O
+EE B-LOC
 |
-| I-ORG
-A I-ORG
+| I-LOC
+A I-LOC
 a O
 a O
-Alit B-MISC
+Alit B-PER
 |
-| I-MISC
-Me I-MISC
-ai I-MISC
-sad I-MISC
-p I-MISC
+| I-PER
+Me O
+ai O
+sad O
+p O
 |
- | I-MISC
-Gaie I-MISC
+ | O
+Gaie O
 | 
  
-| I-MISC
+| O
 < O
 p O
 t O
@@ -8216,8 +8216,8 @@ p O
 | O
 < O
 d O
-wti O
-bt O
+wti B-PER
+bt I-PER
 |
  
 | O
@@ -8239,16 +8239,16 @@ a O
 |
 
 | O
-Ns B-MISC
-ME I-MISC
+Ns B-LOC
+ME I-LOC
 |
     
  | O
-EE B-ORG
-A I-ORG
+EE B-MISC
+A I-MISC
 |
-  | O
-c O
+  | I-MISC
+c I-MISC
 |
  | O
 c O
@@ -8283,8 +8283,8 @@ p I-MISC
 | I-MISC
 ll I-MISC
 | | I-MISC
-d I-MISC
-|        | I-MISC
+d O
+|        | O
 de O
 < O
 m O
@@ -8296,15 +8296,15 @@ B O
 p O
 |
 | O
-I B-LOC
-E I-LOC
+I O
+E O
 |
 | O
-M B-PER
-Ja I-PER
+M O
+Ja O
 |
-| I-PER
-Ab B-PER
+| O
+Ab O
 |
 | O
 d O
@@ -8325,27 +8325,27 @@ a O
 nie O
 l O
 lu O
-els O
-< B-MISC
-t I-MISC
-sucel I-MISC
-palnl O
+els B-ORG
+< I-ORG
+t I-ORG
+sucel I-ORG
+palnl I-ORG
 , O
-saf B-ORG
+saf B-PER
 |
-   | O
+   | I-PER
 l O
 |
  | O
 l O
-tte O
-wEl O
-Sld O
+tte B-MISC
+wEl I-MISC
+Sld B-MISC
 |
-| O
-DalE O
+| I-MISC
+DalE I-MISC
 |
-| O
+| I-MISC
 Ωon O
 | | O
 D O
@@ -8359,7 +8359,7 @@ E B-LOC
 au O
 |
 | O
-Ω O
+Ω B-LOC
 | | O
 dat O
 was O
@@ -8375,7 +8375,7 @@ M O
 < O
 |  
  | O
-Es B-LOC
+Es O
 wo O
 k O
 , O
@@ -8384,13 +8384,13 @@ mi O
  
 | O
 a O
-SeC B-ORG
+SeC B-MISC
 |
  | O
-BREE B-ORG
+BREE B-MISC
 |
 | O
-I B-LOC
+I O
 h O
 s O
 qat O
@@ -8399,49 +8399,49 @@ at O
 |
 | O
 DINELNNA O
-NERI B-MISC
-VoIE I-MISC
+NERI O
+VoIE O
 EE O
 MEE O
 |
 | O
-Pa O
-ass O
+Pa B-MISC
+ass I-MISC
 alli O
 p O
 .. O
-Ai O
-pee B-MISC
+Ai B-PER
+pee I-PER
 |
-| I-MISC
-rE I-MISC
+| O
+rE O
 < O
 dulit O
 < O
 wa O
-E O
-W O
+E B-LOC
+W I-LOC
 |
-| O
-Ω O
+| I-LOC
+Ω I-LOC
 a O
 | | O
 d O
 |
 | O
 FanfARE B-MISC
-| | O
-FR B-ORG
+| | I-MISC
+FR O
 |
-| I-ORG
-N' I-ORG
-EmE I-ORG
+| O
+N' B-MISC
+EmE I-MISC
 |
-| I-ORG
-ad I-ORG
+| O
+ad O
 |
-| I-ORG
-PalaiS I-ORG
+| O
+PalaiS B-MISC
 , O
 a O
 a O
@@ -8471,7 +8471,7 @@ D I-PER
 p O
 |
 | O
-D B-LOC
+D O
 | | O
 a O
 F B-LOC
@@ -8484,18 +8484,18 @@ d O
 s O
 | 
 | O
-Ω O
+Ω B-LOC
 | | O
 le O
 , O
 t O
 , O
 | | O
-D B-LOC
+D B-PER
 |
-| O
-Ωaise B-LOC
-leader O
+| I-PER
+Ωaise B-ORG
+leader I-ORG
 < O
 l O
 la O
@@ -8503,34 +8503,34 @@ la O
 | O
 DEE B-ORG
 |
-| I-ORG
-I I-ORG
-| | I-ORG
-w I-ORG
-| | I-ORG
-B I-ORG
-m I-ORG
-ME O
-A O
+| O
+I O
+| | O
+w O
+| | O
+B O
+m O
+ME B-LOC
+A I-LOC
 |
 | O
 > O
 m O
 | | O
-u O
+u B-MISC
 fera O
-t O
-pbs O
+t B-MISC
+pbs I-MISC
 |
- | O
-at O
-| | O
-as O
-da O
-an O
+ | I-MISC
+at I-MISC
+| | I-MISC
+as I-MISC
+da I-MISC
+an I-MISC
 |
-| O
-fasa O
+| I-MISC
+fasa B-ORG
 . O
 |  | O
 p O
@@ -8540,7 +8540,7 @@ d O
 Ωe B-MISC
 | | I-MISC
 t I-MISC
-mis I-MISC
+mis O
 , O
 la O
 faits O
@@ -8582,10 +8582,10 @@ adt O
 a O
 |
 | O
-S B-LOC
+S B-PER
 |
-| O
-DE O
+| I-PER
+DE I-PER
 |
 | O
 < O
@@ -8601,10 +8601,10 @@ p O
 n O
 |
 | O
-A B-ORG
+A B-LOC
 |
-| I-ORG
-DEI I-ORG
+| O
+DEI B-ORG
 |
  | O
 s O
@@ -8618,9 +8618,9 @@ e O
 p O
 |
 | O
-< B-MISC
-| | I-MISC
-M I-MISC
+< O
+| | O
+M O
 |
 | O
 < O
@@ -8630,11 +8630,11 @@ wolf O
 de O
 |
 | O
-N' O
-arie O
+N' B-MISC
+arie I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 |
  | O
 ss O
@@ -8655,10 +8655,10 @@ e O
 , O
 |
 | O
-DitE B-MISC
+DitE B-ORG
 |
- | I-MISC
-C I-MISC
+ | O
+C O
 |
 | O
 M O
@@ -8668,7 +8668,7 @@ d O
 |
  | O
 d O
-pr O
+pr B-PER
 | | O
 c O
 |
@@ -8677,14 +8677,14 @@ D O
 |
       
 | O
-MaM B-ORG
+MaM O
 |
 | O
-Ai B-LOC
-A I-LOC
+Ai O
+A O
 |
 | O
-Mentirahocietay B-PER
+Mentirahocietay O
 tender O
 . O
 |
@@ -8692,8 +8692,8 @@ tender O
 t O
 | 
 | O
-aci B-PER
-|   | I-PER
+aci O
+|   | O
 p O
 | | O
 d O
@@ -8709,7 +8709,7 @@ Ie O
 |
     
 | O
-IIIISTNISKAI O
+IIIISTNISKAI B-ORG
 Saurait O
 . O
 |
@@ -8727,23 +8727,23 @@ d O
 |
 | O
 Mel B-PER
-| | O
-isp O
+| | I-PER
+isp I-PER
 | | O
 e O
 |
 | O
-AE B-ORG
+AE B-MISC
+|
+| I-MISC
+Dec I-MISC
+|
+ | I-MISC
+EEE I-MISC
 |
 | O
-Dec B-ORG
-|
- | I-ORG
-EEE I-ORG
-|
-| O
-Ecd B-PER
-A I-PER
+Ecd B-LOC
+A I-LOC
 |
 | O
 tabli O
@@ -8756,29 +8756,29 @@ AM O
 date O
 |
 | O
-D O
-F B-LOC
+D B-PER
+F I-PER
 |
 | O
 in O
 |
 | O
-I O
+I B-PER
 |
-| O
-B O
-o O
-d O
-d O
-e O
-le O
+| I-PER
+B I-PER
+o I-PER
+d I-PER
+d I-PER
+e I-PER
+le I-PER
 |
-| O
+| I-PER
 ek B-PER
 k. I-PER
 |
-| O
-A B-LOC
+| I-PER
+A I-PER
 ci O
 |
 | O
@@ -8789,9 +8789,9 @@ aks O
 , O
 ce O
 fae O
-f B-PER
-t I-PER
-Fi O
+f B-MISC
+t I-MISC
+Fi I-MISC
 , O
 li O
 w O
@@ -8824,9 +8824,9 @@ seles O
 |
 | O
 Au O
-Pls B-LOC
-pe O
-tee O
+Pls B-ORG
+pe I-ORG
+tee I-ORG
 a O
 di O
 |
@@ -8878,23 +8878,23 @@ Tals O
 . O
 J. O
 Sauf O
-Aw O
+Aw B-MISC
 |
-  | O
-ta O
-lte O
-at O
-lath O
+  | I-MISC
+ta I-MISC
+lte I-MISC
+at I-MISC
+lath I-MISC
 |
 | O
-ΩM B-ORG
+ΩM O
 ITALIE O
 A O
 A O
 |
 | O
 Du O
-Sal B-LOC
+Sal O
 als O
 |  | O
 t O
@@ -8903,13 +8903,13 @@ d O
 | O
 Ωenl B-LOC
 . O
-sl O
+sl B-PER
 |
  | O
 a O
-st O
-lotf O
-al O
+st B-PER
+lotf I-PER
+al I-PER
 a O
 |
 | O
@@ -8933,8 +8933,8 @@ al O
 le O
 Et O
 , O
-ved O
-dle O
+ved B-PER
+dle I-PER
 |
 | O
 an O
@@ -8942,19 +8942,19 @@ les O
 |
       
 | O
-MoE B-MISC
-MARBRE I-MISC
+MoE B-PER
+MARBRE I-PER
 |
 
-    | I-MISC
-d I-MISC
+    | O
+d O
 a O
 |
   | O
-dde O
+dde B-ORG
 . O
-len B-PER
-Bercy I-PER
+len O
+Bercy B-LOC
 , O
 an O
 s O
@@ -8964,44 +8964,44 @@ m O
 , O
 |
  | O
-ps O
-apl B-ORG
+ps B-ORG
+apl O
 | | O
 su O
-S B-MISC
-Bea I-MISC
+S B-PER
+Bea I-PER
 |
-| I-MISC
-E I-MISC
-DE I-MISC
+| I-PER
+E I-PER
+DE I-PER
 |
-| I-MISC
-< I-MISC
-l I-MISC
-Ai I-MISC
+| O
+< O
+l O
+Ai B-PER
 , O
-M B-MISC
+M O
 |
-| I-MISC
-DEM I-MISC
-SC I-MISC
-p. O
-FalLS O
-Sm O
-Si O
+| O
+DEM B-ORG
+SC I-ORG
+p. I-ORG
+FalLS I-ORG
+Sm I-ORG
+Si I-ORG
 Su O
-MeS B-ORG
+MeS O
 |
     | O
 sa O
 | | O
 d O
-cid O
+cid B-ORG
 |
-| O
-DISe B-MISC
-< O
-Tknl B-MISC
+| I-ORG
+DISe I-ORG
+< I-ORG
+Tknl I-ORG
 k O
 |
 | O
@@ -9010,7 +9010,7 @@ e O
 ltat O
 p O
 piesiedre O
-I B-LOC
+I O
 liste O
 rents O
 , O
@@ -9023,18 +9023,18 @@ ba O
 p O
 |  
 | O
-fllfemrson O
-tesses O
-picer O
+fllfemrson B-PER
+tesses I-PER
+picer I-PER
 ) O
 |
 | O
-Di2 O
+Di2 B-PER
 |
-| O
-Ω O
-MARA B-ORG
-AE I-ORG
+| I-PER
+Ω I-PER
+MARA I-PER
+AE I-PER
 |
 | O
 < O
@@ -9063,11 +9063,11 @@ Ky B-MISC
 e I-MISC
 wrdn I-MISC
 e I-MISC
-de I-MISC
-a I-MISC
+de O
+a O
 |
-| I-MISC
-po O
+| O
+po B-ORG
 < O
 cei B-ORG
 a O
@@ -9086,9 +9086,9 @@ ban O
 |
 | O
 ar O
-pa B-PER
-| | I-PER
-d I-PER
+pa O
+| | O
+d O
 a O
 a O
 sale O
@@ -9100,22 +9100,22 @@ u O
 STEELE B-MISC
 A I-MISC
 |
- | I-MISC
-M I-MISC
-a I-MISC
-M I-MISC
+ | O
+M O
+a O
+M O
 |
-| I-MISC
-A I-MISC
+| O
+A O
 |
-| I-MISC
-Ae I-MISC
+| O
+Ae B-MISC
 , O
-AE B-ORG
-EE I-ORG
+AE B-MISC
+EE I-MISC
 |
-| I-ORG
-Ie O
+| I-MISC
+Ie I-MISC
 s O
 pe O
 ie O
@@ -9139,8 +9139,8 @@ p O
 a O
 |
 | O
-ACTE B-ORG
-QUATEMENT O
+ACTE O
+QUATEMENT B-ORG
 . O
 |
           
@@ -9149,7 +9149,7 @@ S B-PER
 B. I-PER
 |
 | I-PER
-Ains B-LOC
+Ains O
 a O
 a O
 sulays O
@@ -9157,31 +9157,31 @@ ai O
 cip O
 |
 | O
-DAni B-MISC
+DAni O
+|
+| O
+JEAN O
+: O
+EE B-MISC
 |
 | I-MISC
-JEAN I-MISC
-: O
-EE B-ORG
-|
-| I-ORG
-S I-ORG
+S I-MISC
 a O
 e O
 |
  | O
-B O
+B B-LOC
 |
 | O
 Da B-PER
 i I-PER
 |
 | I-PER
-Ami O
+Ami I-PER
 a O
 |
 | O
-Ωal B-LOC
+Ωal B-ORG
 a O
 Elo O
 set O
@@ -9197,15 +9197,15 @@ a O
 d O
 |  | O
 dE O
-S B-LOC
+S B-PER
 |
 | O
 < O
 se O
 | | O
 e O
-Beke B-LOC
-Bae I-LOC
+Beke B-PER
+Bae I-PER
 Et O
 |
 | O
@@ -9223,7 +9223,7 @@ d O
 D O
 | 
 | O
-AMEN B-MISC
+AMEN O
 |
      
 | O
@@ -9243,9 +9243,9 @@ e O
 a O
 ad O
 | | O
-ave B-MISC
-arm I-MISC
-| | I-MISC
+ave O
+arm O
+| | O
 Soy O
 archa O
 |
@@ -9269,15 +9269,15 @@ DE O
 p O
 |
 | O
-T B-MISC
+T O
 |
-| I-MISC
-D I-MISC
+| O
+D O
 |  
-| I-MISC
-l I-MISC
-| | I-MISC
-< I-MISC
+| O
+l O
+| | O
+< O
 a O
 a O
 | 
@@ -9295,8 +9295,8 @@ o O
 |
     
 | O
-NARR B-MISC
-2S I-MISC
+NARR B-ORG
+2S O
 : O
 |
 | O
@@ -9305,23 +9305,23 @@ WISAESAE B-ORG
 RIEL B-MISC
 GISELA I-MISC
 |
-| O
-ALA B-ORG
+| I-MISC
+ALA I-MISC
 |
 | O
-Au O
-a O
-p O
+Au B-MISC
+a I-MISC
+p I-MISC
 |
- | O
-E B-LOC
-s O
-lA O
-aura O
+ | I-MISC
+E I-MISC
+s I-MISC
+lA I-MISC
+aura I-MISC
 . O
 |
 | O
-aVe B-LOC
+aVe O
 |
 | O
 > O
@@ -9332,10 +9332,10 @@ ct O
 fat B-ORG
 a O
 , O
-c B-MISC
+c O
 |
-| I-MISC
-RE I-MISC
+| O
+RE O
 |
 | O
 MIECARISS B-MISC
@@ -9356,20 +9356,20 @@ et O
 |  | O
 d O
 | | O
-D B-PER
+D O
 |
-| I-PER
-Saints I-PER
-n O
-Sait O
-Balles O
-De O
-Cik O
+| O
+Saints B-PER
+n I-PER
+Sait I-PER
+Balles I-PER
+De I-PER
+Cik I-PER
 an O
 le O
 |
 | O
-DRAS O
+DRAS B-PER
 . O
 |
 | O
@@ -9387,7 +9387,7 @@ I B-LOC
 f O
 |    
 | O
-I O
+I B-LOC
 s O
 d O
 e O
@@ -9398,38 +9398,38 @@ d O
 |
     
 | O
-DIENS O
+DIENS B-ORG
 |
-| O
-Ω O
+| I-ORG
+Ω I-ORG
 , O
 a O
 |  | O
 h O
 |
 | O
-D B-MISC
+D B-PER
 |
- | I-MISC
-E I-MISC
-D I-MISC
-D I-MISC
+ | I-PER
+E I-PER
+D I-PER
+D I-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 , O
-D B-LOC
+D O
 |
-| I-LOC
-m I-LOC
-mcAFeE I-LOC
+| O
+m O
+mcAFeE O
 |
-| I-LOC
-De I-LOC
+| O
+De O
 |
-| I-LOC
-peI I-LOC
-world I-LOC
+| O
+peI O
+world O
 fi O
 |
  | O
@@ -9449,24 +9449,24 @@ SE I-MISC
 aa I-MISC
 |
  
-  | I-MISC
-p I-MISC
+  | O
+p O
 |
-| I-MISC
-d I-MISC
-de I-MISC
+| O
+d O
+de O
 |
-| I-MISC
-A I-MISC
+| O
+A B-MISC
 magal I-MISC
 Sb.n I-MISC
 |
- | I-MISC
-d I-MISC
-| | I-MISC
-d I-MISC
+ | O
+d O
+| | O
+d O
 |
-| I-MISC
+| O
 DechieNEi B-PER
 TsIgaNE I-PER
 . O
@@ -9478,7 +9478,7 @@ at O
 p O
 | 
 | O
-Ω O
+Ω B-LOC
 q O
 |  | O
 ad O
@@ -9486,54 +9486,54 @@ ad O
 | O
 arsenal O
 . O
-de O
-Urent O
+de B-PER
+Urent I-PER
 , O
 enfin- O
 |
 | O
-Am B-MISC
+Am B-ORG
+|
+| I-ORG
+I I-ORG
+EEIAAE B-MISC
+E I-MISC
 |
 | I-MISC
-I I-MISC
-EEIAAE O
-E O
+A I-MISC
 |
-| O
-A O
-|
-| O
+| I-MISC
 ΩenE O
 AW O
 . O
 AES B-MISC
-AE O
+AE I-MISC
 |
-| O
-Is O
-garder O
+| I-MISC
+Is I-MISC
+garder I-MISC
 |
-| O
-Trin B-PER
+| I-MISC
+Trin I-MISC
 , O
-dhahaiptd O
+dhahaiptd B-LOC
 . O
 |
 | O
 Mhi B-PER
 |
-| O
-DAME O
-BES O
+| I-PER
+DAME I-PER
+BES I-PER
 . O
 |
 | O
-BAND B-ORG
+BAND B-MISC
 , O
 PETER B-ORG
 |
-| I-ORG
-Sas I-ORG
+| O
+Sas O
 , O
 |
 | O
@@ -9555,13 +9555,13 @@ Biere I-LOC
  | O
 a O
 |  | O
-E O
+E B-LOC
 |
 | O
 SEE O
 |
 | O
-SENTE B-ORG
+SENTE B-MISC
 |
 | O
 DIE O
@@ -9570,8 +9570,8 @@ DIE O
 M B-PER
 W I-PER
 |
-| I-PER
-ai I-PER
+| O
+ai O
 |
 | O
 a O
@@ -9582,24 +9582,24 @@ a O
 e O
 d O
 de O
-p B-LOC
-E I-LOC
+p O
+E O
 |
-| I-LOC
-DEA I-LOC
+| O
+DEA O
 |
 | O
 sCenaisinsta B-MISC
 , O
 |
 | O
-Ωal B-LOC
+Ωal B-ORG
 p O
 | | O
 a O
-St B-LOC
+St B-PER
 |
-| I-LOC
+| I-PER
 Ωa O
 d O
 | | O
@@ -9612,7 +9612,7 @@ c O
 |
 | O
 el B-LOC
-f O
+f I-LOC
 a O
 | | O
 Frei B-PER
@@ -9620,8 +9620,8 @@ Frei B-PER
 | O
 ai O
 est O
-t B-PER
-El I-PER
+t O
+El O
 |
  
 | O
@@ -9671,36 +9671,36 @@ vo O
  | O
 a O
 , O
-SANTI O
-AXE B-ORG
+SANTI B-ORG
+AXE I-ORG
 , O
 |
   
  | O
-t B-PER
-draft I-PER
+t O
+draft O
 , O
 a O
 a O
 ca O
 |
 | O
-MAI B-MISC
+MAI O
 |
 | O
-EM B-ORG
+EM O
 |
 | O
-W B-ORG
+W B-MISC
 |
-   | O
+   | I-MISC
 < O
 | | O
 d O
 d O
 |
 | O
-A O
+A B-LOC
 |
 | O
 Ie B-MISC
@@ -9730,7 +9730,7 @@ d O
 |
 | O
 a O
-Bree B-LOC
+Bree B-PER
 d O
 il O
 |
@@ -9761,33 +9761,33 @@ c O
 d O
 |
 | O
-Ei B-MISC
+Ei B-PER
 |
-| I-MISC
-a I-MISC
-| | I-MISC
-ailes I-MISC
+| O
+a O
+| | O
+ailes O
 |
-| I-MISC
-a I-MISC
-f I-MISC
-| | I-MISC
-dit I-MISC
-e I-MISC
-< I-MISC
-| | I-MISC
-d I-MISC
-s I-MISC
-d I-MISC
+| O
+a O
+f O
+| | O
+dit O
+e O
+< O
+| | O
+d O
+s O
+d O
 |
-| I-MISC
-ert I-MISC
-f I-MISC
+| O
+ert O
+f O
 |
-| I-MISC
-tertet I-MISC
+| O
+tertet O
 |
- | I-MISC
+ | O
 pl O
 a O
 |    
@@ -9805,13 +9805,13 @@ i O
 d O
 |
   | O
-Ap O
+Ap B-MISC
 |
  | O
 a O
 | | O
-t B-PER
-|   | I-PER
+t O
+|   | O
   O
 d O
 |  | O
@@ -9824,19 +9824,19 @@ A O
 p O
 |     
 | O
-ACTE B-MISC
+ACTE O
 EN O
 , O
-SCSRI B-PER
-V. I-PER
+SCSRI B-ORG
+V. I-ORG
 |
 | O
 a O
 |  | O
 D O
 , O
-Ae B-LOC
-sident O
+Ae B-PER
+sident I-PER
 . O
 |
   
@@ -9849,28 +9849,28 @@ sident O
 flor O
 |
    | O
-MENACE B-MISC
-EEE I-MISC
+MENACE O
+EEE O
 |
 | O
 I O
 Pualle O
 deAL O
-ELOEAEAA B-ORG
+ELOEAEAA O
 . O
 |
 | O
-Ω O
+Ω B-LOC
 |  
   | O
 p O
 |
 | O
-RAMEN O
+RAMEN B-MISC
 . O
 |
 | O
-Ωis O
+Ωis B-MISC
 |    | O
 l O
 |
@@ -9882,20 +9882,20 @@ n O
 a O
 | | O
 Su B-MISC
-dey I-MISC
+dey O
 |
-| I-MISC
-aii I-MISC
-p I-MISC
+| O
+aii O
+p O
 a O
 | 
    
 | O
-FREE B-ORG
+FREE O
 |
 | O
-I B-MISC
-I I-MISC
+I O
+I O
 Fa O
 . O
 W O
@@ -9903,24 +9903,24 @@ W O
     
     
  | O
-T B-MISC
-|
-| I-MISC
-Ra I-MISC
-|
-| I-MISC
-DRI I-MISC
+T O
 |
 | O
-A O
-E O
+Ra O
+|
+| O
+DRI B-MISC
+|
+| O
+A B-MISC
+E I-MISC
 |
  
-| O
-lN O
+| I-MISC
+lN I-MISC
 |
 | O
-NAGE O
+NAGE B-ORG
 : O
 |
 | O
@@ -9931,28 +9931,28 @@ Vo B-LOC
 , O
 |
 | O
-EEIS B-ORG
+EEIS B-MISC
 |
-   | O
+   | I-MISC
 w O
 |
  
 | O
 a O
 En O
-La O
-p O
+La B-MISC
+p I-MISC
 |
-| O
-Ies O
+| I-MISC
+Ies I-MISC
 , O
-ES B-ORG
+ES B-MISC
 |
-   | I-ORG
-pa I-ORG
+   | I-MISC
+pa I-MISC
 |
-| I-ORG
-Rebond I-ORG
+| I-MISC
+Rebond I-MISC
 . O
 filiale O
 . O
@@ -9973,9 +9973,9 @@ lera O
   
  | O
 maple O
-cp B-PER
+cp O
 |  
-  | I-PER
+  | O
 a O
 PESaIT B-MISC
 E I-MISC
@@ -9986,8 +9986,8 @@ m O
 pd O
 |
 | O
-A B-LOC
-Bri- O
+A B-MISC
+Bri- I-MISC
 |
 | O
 a O
@@ -9996,18 +9996,18 @@ a O
 c O
 |   
  | O
-Se B-MISC
-| | I-MISC
-E I-MISC
+Se O
+| | O
+E O
 |
-  | I-MISC
+  | O
 a O
 |
 | O
-Dai B-PER
+Dai B-MISC
 |
 | O
-AMES B-ORG
+AMES O
 |
   | O
 MpE O
@@ -10015,22 +10015,22 @@ MpE O
     
   
 | O
-DS O
-E O
+DS B-MISC
+E I-MISC
 |
-| O
+| I-MISC
 N O
 |
 | O
 A O
 | 
 | O
-AE B-ORG
+AE O
 |
 | O
-IE O
-ATE O
-MAYOR B-MISC
+IE B-MISC
+ATE I-MISC
+MAYOR I-MISC
 . O
 |
 | O
@@ -10041,22 +10041,22 @@ l O
 les O
 | 
 | O
-J B-MISC
+J B-PER
 |
- | I-MISC
-c I-MISC
-| | I-MISC
-< I-MISC
-| | I-MISC
-o I-MISC
+ | O
+c O
+| | O
+< O
+| | O
+o O
 |   
-  | I-MISC
-e I-MISC
-| | I-MISC
-d I-MISC
+  | O
+e O
+| | O
+d O
 |
     
-| I-MISC
+| O
 s O
 de O
 d O
@@ -10078,22 +10078,22 @@ e O
 sis O
 b O
 , O
-al B-PER
-t I-PER
-sot I-PER
-k I-PER
-av I-PER
+al B-ORG
+t I-ORG
+sot O
+k O
+av O
 |
-| I-PER
-DURE I-PER
+| O
+DURE B-MISC
 . O
 F. O
 |
 | O
-EGEEN B-ORG
+EGEEN B-MISC
 |
- | I-ORG
-Flashs O
+ | I-MISC
+Flashs I-MISC
 - O
 es O
 aumatarai O
@@ -10112,23 +10112,23 @@ a O
 |
  | O
 < O
-ayd B-PER
-t I-PER
-d I-PER
-pron I-PER
-de I-PER
-d I-PER
+ayd O
+t O
+d O
+pron O
+de O
+d O
 |
-     | I-PER
-c I-PER
+     | O
+c O
 |
-  | I-PER
+  | O
 < O
 < O
 |
 | O
-AfE B-ORG
-SF I-ORG
+AfE B-PER
+SF O
 . O
 |
  | O
@@ -10139,23 +10139,23 @@ BE O
 , O
 |
  | O
-Dat B-MISC
+Dat B-PER
 |
-| I-MISC
-i I-MISC
-Acide I-MISC
+| I-PER
+i I-PER
+Acide O
 |
 | O
 k O
 |
 | O
-Ω O
+Ω B-PER
 La O
 i B-LOC
 A I-LOC
 |
 | I-LOC
-Al I-LOC
+Al B-LOC
 . O
 |
   | O
@@ -10184,8 +10184,8 @@ li O
 a O
 | 
 | O
-oriE B-MISC
-VE I-MISC
+oriE O
+VE B-ORG
 |
   | O
 a O
@@ -10235,7 +10235,7 @@ S O
 |
 | O
 DE O
-AA B-ORG
+AA O
 |
 | O
 DIEGAMIAS B-ORG
@@ -10245,9 +10245,9 @@ DIEGAMIAS B-ORG
 I B-LOC
 A I-LOC
 |
-| O
-E O
-MAa O
+| I-LOC
+E I-LOC
+MAa I-LOC
 |
 | O
 < O
@@ -10301,26 +10301,26 @@ p O
 d O
 |
 | O
-d B-PER
-|   | I-PER
+d O
+|   | O
 be O
 | 
 | O
-Ae B-MISC
+Ae O
 |
  
  
 | O
-Ω O
-wi O
+Ω B-MISC
+wi I-MISC
 | | O
 p O
 | 
 | O
-I B-LOC
-D O
-|  | O
-wa O
+I B-MISC
+D I-MISC
+|  | I-MISC
+wa I-MISC
 |
  | O
 d O
@@ -10336,24 +10336,24 @@ pos O
 | 
 | O
 > O
-p B-LOC
+p O
 |    
-   | I-LOC
+   | O
 a O
 , O
-bitdi O
+bitdi B-PER
 d O
 fae O
 |
   | O
-t B-LOC
+t O
 |
     
-      | I-LOC
-d I-LOC
+      | O
+d O
 |
-| I-LOC
-Mat I-LOC
+| O
+Mat O
 p O
 | 
 | O
@@ -10392,21 +10392,21 @@ I B-LOC
 a O
 |
 | O
+A B-LOC
+|
+| O
+ME B-MISC
+E I-MISC
+|
+| I-MISC
+Me O
+t O
 A O
 |
 | O
-ME B-ORG
-E I-ORG
-|
-| I-ORG
-Me I-ORG
-t I-ORG
-A I-ORG
-|
-| I-ORG
-A I-ORG
-EM I-ORG
-MEE I-ORG
+A B-MISC
+EM I-MISC
+MEE I-MISC
 , O
 A B-MISC
 |
@@ -10414,38 +10414,38 @@ A B-MISC
 Dar I-MISC
 utau I-MISC
 |
-| O
-All B-MISC
+| I-MISC
+All I-MISC
 < I-MISC
 J I-MISC
-Way O
+Way I-MISC
 |
-| O
-ARABE B-MISC
+| I-MISC
+ARABE I-MISC
 |
 
-| O
-E O
-A O
+| I-MISC
+E I-MISC
+A I-MISC
 |
-   | O
-d O
+   | I-MISC
+d I-MISC
 |
-| O
-D O
-| | O
+| I-MISC
+D I-MISC
+| | I-MISC
 la O
 d O
 |
    
 | O
-Ri O
+Ri B-PER
 |
-   | O
+   | I-PER
 p O
 |    
 | O
-AEAAEE B-MISC
+AEAAEE B-ORG
 |
      
 | O
@@ -10485,13 +10485,13 @@ du I-MISC
  | I-MISC
 d I-MISC
 |
-| O
-Mo O
+| I-MISC
+Mo B-MISC
 p. O
 |
 | O
-VIe B-MISC
-M I-MISC
+VIe O
+M O
 |
  | O
 a O
@@ -10522,9 +10522,9 @@ l O
 |
  
    | O
-pe O
-| | O
-c O
+pe B-ORG
+| | I-ORG
+c I-ORG
 |
 | O
 EA B-ORG
@@ -10542,22 +10542,22 @@ p O
 d O
 n O
 | | O
-ve O
+ve B-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 |
 | I-PER
 I I-PER
 D I-PER
-| | O
-a O
-| | O
-a O
+| | I-PER
+a I-PER
+| | I-PER
+a I-PER
 | 
- | O
-isiae O
-tul O
+ | I-PER
+isiae I-PER
+tul I-PER
 , O
 athlue O
 , O
@@ -10597,8 +10597,8 @@ d O
 a O
 | 
 | O
-Iem B-PER
-warS I-PER
+Iem B-MISC
+warS I-MISC
 A. O
 |
  | O
@@ -10607,42 +10607,42 @@ p O
 e O
 |
 | O
-Ed B-MISC
+Ed B-PER
 |
-| I-MISC
-M I-MISC
+| I-PER
+M I-PER
 |
-| O
-m O
-| | O
-s O
-sel O
+| I-PER
+m I-PER
+| | I-PER
+s I-PER
+sel I-PER
 |
-  | O
-p O
-|    | O
-A O
+  | I-PER
+p I-PER
+|    | I-PER
+A I-PER
 |
-  | O
-d O
+  | I-PER
+d I-PER
 |
 
- | O
-p O
-| | O
-B O
+ | I-PER
+p I-PER
+| | I-PER
+B I-PER
 | 
-  | O
-i O
-t O
-p O
-ant O
+  | I-PER
+i I-PER
+t I-PER
+p I-PER
+ant I-PER
 a O
 |
   
    
 | O
-Ω O
+Ω B-LOC
 |  
  | O
 vers O
@@ -10652,14 +10652,14 @@ de O
 si O
 |
 | O
-II B-MISC
+II B-ORG
 |
-| I-MISC
-RiNA I-MISC
-LAw I-MISC
-i O
+| I-ORG
+RiNA I-ORG
+LAw I-ORG
+i I-ORG
 |
-    | O
+    | I-ORG
 q O
 |    
  | O
@@ -10713,8 +10713,8 @@ al O
 D O
 |
 | O
-R B-PER
-BA I-PER
+R O
+BA O
 |
 | O
 AlTE B-MISC
@@ -10722,12 +10722,12 @@ AlTE B-MISC
 IV B-MISC
 . O
 ShE O
-WI B-ORG
+WI O
 . O
 |
 | O
-Ω O
-rEMET O
+Ω B-LOC
+rEMET I-LOC
 El O
 wM O
 Aewl O
@@ -10740,8 +10740,8 @@ Je O
 | O
 t O
 et O
-Cole B-PER
-fusil O
+Cole B-MISC
+fusil I-MISC
 |
   | O
 < O
@@ -10753,22 +10753,22 @@ le O
 faretr O
 fns O
 wr O
-Attirent B-MISC
-siy I-MISC
-f O
+Attirent B-PER
+siy I-PER
+f I-PER
 |
-| O
-SPlm B-ORG
+| I-PER
+SPlm I-PER
 , O
 |
 | O
 ad O
-MAsSy O
+MAsSy B-PER
 a O
-Gr O
+Gr B-LOC
 |
-     | O
-f O
+     | I-LOC
+f I-LOC
 | | O
 s O
 |
@@ -10790,11 +10790,11 @@ l O
 c O
 | 
 | O
-AEE B-MISC
-AMEEE I-MISC
+AEE B-ORG
+AMEEE O
 |
-| I-MISC
-aC I-MISC
+| O
+aC O
 Fer O
 d O
 Ve O
@@ -10803,33 +10803,33 @@ Ve O
 Mme B-PER
 D I-PER
 |
- | I-PER
-AgenCE B-MISC
+ | O
+AgenCE B-PER
+|
+| I-PER
+A I-PER
+|
+| I-PER
+A I-PER
+|
+| I-PER
+D I-PER
+| | I-PER
+AEY I-PER
 |
 | O
-A O
-|
-| O
-A O
-|
-| O
-D O
-| | O
-AEY O
-|
-| O
-NANIE O
-AEN B-ORG
+NANIE B-ORG
+AEN I-ORG
 |
 | O
 NEEMAE B-ORG
 |
 | O
-REESE O
-MANE B-ORG
+REESE B-MISC
+MANE I-MISC
 |
 | O
-DUNE B-ORG
+DUNE B-MISC
 . O
 |
 | O
@@ -10838,8 +10838,8 @@ p O
 | 
  
   | O
-B B-ORG
-ALE I-ORG
+B O
+ALE O
 |
 | O
 s O
@@ -10864,9 +10864,9 @@ a O
 d O
 |
 | O
-N B-LOC
+N B-MISC
 |
-   | O
+   | I-MISC
 adfi O
 au O
 c O
@@ -10874,15 +10874,15 @@ c O
  | O
 a O
 |  | O
-A O
+A B-PER
+|
+| I-PER
+A I-PER
 |
 | O
-A O
+IR B-ORG
 |
-| O
-IR O
-|
-  | O
+  | I-ORG
 le O
 | | O
 d O
@@ -10890,24 +10890,24 @@ d O
 de O
 |
 | O
-W B-ORG
-WS I-ORG
+W B-MISC
+WS I-MISC
 . O
 |
 | O
-NEGNARDED B-MISC
+NEGNARDED B-ORG
 , O
-EDIL B-MISC
+EDIL B-ORG
 SADRESSE B-MISC
 . O
 |
 | O
-E B-LOC
-BEM O
+E B-MISC
+BEM I-MISC
 |
-| O
+| I-MISC
 RE O
-MADAME B-PER
+MADAME O
 |
 | O
 Il O
@@ -10920,8 +10920,8 @@ imn O
 sa O
 aC O
 ele O
-Entiers B-PER
-er I-PER
+Entiers O
+er O
 d O
 roul O
 |
@@ -10951,54 +10951,54 @@ dun O
 MEEMAMEA B-ORG
 |
 | O
-NpE O
+NpE B-PER
 |
 | O
-IHI B-ORG
+IHI O
 DAME O
 |
  | O
-ENSU B-MISC
-S I-MISC
+ENSU O
+S B-MISC
 D I-MISC
 |
   | I-MISC
 t I-MISC
-< I-MISC
+< O
 a O
 sai O
 |
 | O
-TEAM B-ORG
+TEAM O
 |
 | O
 < O
-Saki B-MISC
+Saki B-PER
 |
-| O
-Mor O
-Gi O
+| I-PER
+Mor I-PER
+Gi I-PER
 |
 | O
 is O
 myl O
 adulte O
-Seyale B-MISC
+Seyale B-ORG
 , O
 |
 | O
-E B-ORG
-AXE I-ORG
+E B-LOC
+AXE I-LOC
 |
-| I-ORG
-nni I-ORG
-lu I-ORG
+| O
+nni B-ORG
+lu O
 liant O
 . O
 |
 | O
-MM O
-AMM B-ORG
+MM B-PER
+AMM I-PER
 |
 | O
 < O
@@ -11007,7 +11007,7 @@ la O
 tu O
 |
 | O
-AE B-ORG
+AE O
 |
  | O
 da O
@@ -11022,29 +11022,29 @@ k O
 f O
 |
 | O
-Rtl B-MISC
-EL I-MISC
-E I-MISC
-|
-| I-MISC
-Me I-MISC
-MAM I-MISC
-|
- | I-MISC
-ETI I-MISC
-nINSULE O
-ANTHLE B-ORG
+Rtl B-ORG
+EL I-ORG
+E I-ORG
 |
 | I-ORG
 Me I-ORG
-ta I-ORG
-pl I-ORG
-aet I-ORG
-aff I-ORG
-fu O
-A B-LOC
+MAM I-ORG
 |
-| I-LOC
+ | O
+ETI O
+nINSULE O
+ANTHLE B-MISC
+|
+| O
+Me O
+ta O
+pl O
+aet O
+aff O
+fu O
+A B-PER
+|
+| I-PER
 Mabi O
 plus O
 w O
@@ -11076,11 +11076,11 @@ tei O
 w O
 wiirenl O
 , O
-Lia B-MISC
-f I-MISC
+Lia B-PER
+f I-PER
 |
-| I-MISC
-At I-MISC
+| I-PER
+At I-PER
 . O
 |
 | O
@@ -11088,26 +11088,26 @@ I O
 Alable O
 fal O
 . O
-teil O
-leslie O
+teil B-PER
+leslie I-PER
 . O
-al B-PER
-les I-PER
+al O
+les O
 . O
 sil O
 latt O
 , O
 |
 | O
-D B-LOC
-TUiS. O
-M.hsl O
+D O
+TUiS. B-ORG
+M.hsl I-ORG
 Alors O
 alit O
 tesla O
-Limit B-LOC
+Limit B-MISC
 |
-   | O
+   | I-MISC
 ? O
 lu O
 et O
@@ -11138,12 +11138,12 @@ A O
 | O
 ilse O
 . O
-ad B-PER
-soe I-PER
-f I-PER
-aukir I-PER
-| | I-PER
-Wa I-PER
+ad B-MISC
+soe I-MISC
+f I-MISC
+aukir I-MISC
+| | I-MISC
+Wa I-MISC
 |
 | O
 a O
@@ -11158,15 +11158,15 @@ e O
 w O
 |
  | O
-Bo O
-Sal B-LOC
-w O
+Bo B-PER
+Sal I-PER
+w I-PER
 engag O
 e O
-Few B-LOC
-of I-LOC
+Few O
+of O
 rent O
-Sei B-LOC
+Sei B-PER
 |
  | O
 p O
@@ -11192,10 +11192,10 @@ Res B-PER
 a O
 t O
 d O
-pll O
-wall O
-tt O
-int O
+pll B-PER
+wall I-PER
+tt I-PER
+int I-PER
 . O
 |
   
@@ -11212,28 +11212,28 @@ a O
 | O
 Me B-MISC
 | 
-| I-MISC
-p I-MISC
-|  | I-MISC
-te I-MISC
+| O
+p O
+|  | O
+te O
 |
-| I-MISC
-A I-MISC
+| O
+A B-LOC
 d O
 |
 | O
 Mi B-MISC
-c O
+c I-MISC
 |
      
 | O
 Ddi B-PER
 |
-  | O
-p O
+  | I-PER
+p I-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 a O
 |
 | O
@@ -11241,22 +11241,22 @@ Il O
 s O
 | 
 | O
-AE B-ORG
-E I-ORG
+AE B-MISC
+E I-MISC
 |
   
  
-| O
-Muscles B-LOC
-la O
-quid O
+| I-MISC
+Muscles I-MISC
+la I-MISC
+quid I-MISC
 . O
 |
 | O
-IEEAM B-MISC
+IEEAM B-ORG
 |
 | O
-NE O
+NE B-LOC
 |
 | O
 > O
@@ -11265,13 +11265,13 @@ SAMu B-ORG
 | O
 a O
 paslat O
-Ail B-PER
+Ail O
 , O
 |
 | O
-Ωa O
-lu O
-stis O
+Ωa B-MISC
+lu I-MISC
+stis I-MISC
 , O
 Le B-MISC
 libanais I-MISC
@@ -11281,16 +11281,16 @@ de O
 L B-LOC
 A I-LOC
 |
-| I-LOC
-LEE I-LOC
+| O
+LEE B-PER
 |
-| I-LOC
-Me I-LOC
+| I-PER
+Me I-PER
 En O
 lele O
 . O
 A O
-wleilltel O
+wleilltel B-LOC
 , O
 turage O
 d O
@@ -11298,8 +11298,8 @@ lu O
 peu O
 |
 | O
-DERE O
-ATURE O
+DERE B-MISC
+ATURE I-MISC
 : O
 |
  | O
@@ -11310,64 +11310,64 @@ s O
 la O
 |  | O
 Gu B-MISC
-s I-MISC
+s O
 |
-| I-MISC
-Ia I-MISC
-la I-MISC
-mlle I-MISC
-g' I-MISC
+| O
+Ia B-PER
+la O
+mlle O
+g' O
 allie O
 ata O
 les O
 atens O
-A B-MISC
+A B-PER
 |
-| I-MISC
-Dos I-MISC
+| I-PER
+Dos I-PER
 . O
 |
 
 | O
-D O
+D B-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
-| O
-Ad B-MISC
+| I-PER
+Ad I-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
-| I-MISC
-M I-MISC
-R I-MISC
+| I-PER
+M I-PER
+R I-PER
 |
-| I-MISC
-Mi B-MISC
-B I-MISC
+| I-PER
+Mi I-PER
+B I-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-AEEa O
+| I-PER
+AEEa I-PER
 |
 | O
 N O
-EAU B-LOC
+EAU O
 . O
 |
 | O
-NEM O
+NEM B-LOC
 |
 | O
-RA B-LOC
-B I-LOC
+RA O
+B O
 |
 | O
 D O
@@ -11382,14 +11382,14 @@ DE O
 N O
 |
 | O
-RES O
+RES B-ORG
 |
 
-| O
-D O
+| I-ORG
+D I-ORG
 |
-| O
-DA O
+| I-ORG
+DA B-ORG
 |
 
 
@@ -11397,102 +11397,102 @@ DA O
 MAA O
 |
 | O
-M B-MISC
+M O
 |
- | I-MISC
-M I-MISC
+ | O
+M O
 |
-| I-MISC
-D I-MISC
-|
- 
-| I-MISC
-M I-MISC
-|
-
-
-| I-MISC
-R I-MISC
-|
-
-| I-MISC
-N I-MISC
-|
-| I-MISC
-A I-MISC
-|
-| I-MISC
-MiB I-MISC
-|
-| I-MISC
-a I-MISC
-M I-MISC
-|
-| I-MISC
-A I-MISC
-|
-
- | I-MISC
-M I-MISC
-|
-| I-MISC
-P I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-MEE B-LOC
-|
-
-| I-LOC
-D I-LOC
-|
-| I-LOC
-NE I-LOC
-|
-| I-LOC
-D I-LOC
-|
-
-| I-LOC
-D I-LOC
-|
-
-| I-LOC
-Ma I-LOC
-R I-LOC
-|
-
-
-| I-LOC
-D I-LOC
-|
-| I-LOC
-D I-LOC
+| O
+D B-PER
 |
  
+| I-PER
+M I-PER
+|
 
- | I-LOC
-R I-LOC
+
+| I-PER
+R I-PER
 |
-| I-LOC
-MS I-LOC
+
+| I-PER
+N I-PER
 |
-| I-LOC
-6E I-LOC
+| I-PER
+A I-PER
 |
-| I-LOC
-A I-LOC
+| O
+MiB O
+|
+| O
+a O
+M B-PER
+|
+| I-PER
+A I-PER
+|
+
+ | I-PER
+M I-PER
+|
+| I-PER
+P I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+MEE I-PER
+|
+
+| I-PER
+D I-PER
+|
+| I-PER
+NE I-PER
+|
+| I-PER
+D I-PER
+|
+
+| I-PER
+D I-PER
+|
+
+| I-PER
+Ma I-PER
+R I-PER
+|
+
+
+| I-PER
+D I-PER
+|
+| I-PER
+D I-PER
+|
+ 
+
+ | I-PER
+R I-PER
+|
+| I-PER
+MS I-PER
+|
+| I-PER
+6E O
+|
+| O
+A O
 |
 | O
 INE B-ORG
@@ -11502,59 +11502,59 @@ LeaF B-MISC
 A4 I-MISC
 |
 | I-MISC
-Res I-MISC
+Res O
 |
-| I-MISC
-M I-MISC
-7 I-MISC
+| O
+M O
+7 O
 |
-| I-MISC
-N I-MISC
+| O
+N O
 |
-| I-MISC
-R I-MISC
-L I-MISC
+| O
+R O
+L O
 |
-| I-MISC
-R I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-D I-MISC
-|
- 
-| I-MISC
-RAMES I-MISC
-|
-
-
-| I-MISC
-D I-MISC
-|
-| I-MISC
-49 I-MISC
-|
-| I-MISC
-I I-MISC
-Aa O
+| O
+R O
 |
 | O
 D O
 |
 | O
-M O
+D O
+|
+ 
+| O
+RAMES O
+|
+
+
+| O
+D O
+|
+| O
+49 O
+|
+| O
+I O
+Aa O
+|
+| O
+D B-PER
+|
+| I-PER
+M I-PER
 |
  
 
-| O
-S O
-M. O
-E O
+| I-PER
+S I-PER
+M. I-PER
+E I-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
 | O
 4 O
@@ -11564,90 +11564,90 @@ A O
 E. O
 |
 | O
-DE O
+DE B-PER
 |
+| I-PER
+A I-PER
+|
+| O
+MM O
+|
+| O
+7E O
+|
+| O
+Dut O
+|
+
 | O
 A O
 |
 | O
-MM B-ORG
-|
-| I-ORG
-7E I-ORG
+M O
 |
 | O
-Dut B-MISC
-|
-
-| I-MISC
-A I-MISC
-|
-| I-MISC
-M I-MISC
-|
-| I-MISC
-C I-MISC
+C B-MISC
 |
 | O
 s O
 |
 | O
-D O
+D B-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
 
-| O
-E O
+| I-PER
+E I-PER
 |
 
 | O
 DEAE O
 |
 | O
-M B-MISC
+M B-PER
 |
-| I-MISC
-M I-MISC
+| I-PER
+M I-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
-| I-MISC
-N I-MISC
-|
-| I-MISC
-1E I-MISC
-|
-
-| I-MISC
-N I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-E I-MISC
-|
-| I-MISC
-D I-MISC
-|
-| I-MISC
-M I-MISC
-|
-| I-MISC
-A I-MISC
+| I-PER
+N I-PER
 |
 | O
-IAE B-ORG
+1E B-ORG
 |
 
-| O
-RENE B-LOC
+| I-ORG
+N I-ORG
+|
+| I-ORG
+D I-ORG
+|
+| I-ORG
+E I-ORG
+|
+| I-ORG
+D I-ORG
+|
+| I-ORG
+M I-ORG
+|
+| I-ORG
+A I-ORG
+|
+| I-ORG
+IAE I-ORG
+|
+
+| I-ORG
+RENE I-ORG
 |
 | O
 175 O
@@ -11655,29 +11655,29 @@ RENE B-LOC
 | O
 AE B-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
-| O
-E O
+| I-ORG
+E I-ORG
 |
-| O
-Mm O
+| I-ORG
+Mm I-ORG
 |
-| O
-1 O
+| I-ORG
+1 I-ORG
 |
-| O
-N B-LOC
+| I-ORG
+N I-ORG
 |
 
-| I-LOC
-M B-MISC
+| I-ORG
+M I-ORG
 |
- | I-MISC
-B I-MISC
+ | I-ORG
+B I-ORG
 |
- | I-MISC
+ | O
 R. O
 |
 | O
@@ -11685,28 +11685,28 @@ AEE B-ORG
 |
 
 | O
-M B-MISC
-|
-| I-MISC
-3 I-MISC
-|
-| I-MISC
-E B-PER
-M I-PER
-d O
-E O
+M O
 |
 | O
-N B-LOC
+3 O
+|
+| O
+E B-LOC
+M I-LOC
+d I-LOC
+E I-LOC
+|
+| I-LOC
+N I-LOC
 |
  
 | O
 a. O
 |
 | O
-M B-PER
+M O
 |
-| I-PER
+| O
 Pea O
 |
 | O
@@ -11715,58 +11715,58 @@ I O
 
  
  | O
-p B-MISC
+p O
 |
  
 
-| I-MISC
-RR I-MISC
+| O
+RR O
 . O
 |
 | O
-ME B-ORG
-M I-ORG
+ME B-PER
+M I-PER
 . O
 |
   
 | O
-I O
+I B-LOC
 |
 | O
-M. O
+M. B-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
 | O
 2 O
 d O
 |
 | O
-N O
+N B-ORG
 |
-| O
-N O
-E O
+| I-ORG
+N I-ORG
+E I-ORG
 |
 | O
 NONCER O
-DAS B-ORG
+DAS O
 |
 | O
-D B-PER
+D B-MISC
 |
 
- | I-PER
-B I-PER
+ | I-MISC
+B I-MISC
 |
 | O
 I O
-BEE B-MISC
+BEE O
 |
  
-| I-MISC
-E I-MISC
+| O
+E B-MISC
 | 
 | I-MISC
 R I-MISC
@@ -11792,24 +11792,24 @@ A I-MISC
 |
 | O
 . O
-P B-LOC
+P B-PER
 |
    
-| O
-E O
+| I-PER
+E I-PER
 |
-| O
-DEE B-ORG
+| I-PER
+DEE I-PER
 |
 | O
 RSE O
 EE O
 |
 | O
-AE B-ORG
+AE B-MISC
 |
 
-| O
+| I-MISC
 Ti O
 d O
 w O
@@ -11821,18 +11821,18 @@ w O
 D O
 |
 | O
-M B-PER
+M O
 |
   
-| I-PER
-D I-PER
+| O
+D O
 |
-| I-PER
-A I-PER
+| O
+A O
 |
 
-| I-PER
-M I-PER
+| O
+M O
 AEE O
 |
 | O
@@ -11840,26 +11840,26 @@ NE O
 |
 
 | O
-AIES O
+AIES B-MISC
 . O
 |
 | O
-Ci O
-d O
+Ci B-LOC
+d I-LOC
 |
-| O
-E B-LOC
+| I-LOC
+E I-LOC
 |
 
-| O
-N O
+| I-LOC
+N I-LOC
 |
-| O
+| I-LOC
 Ce O
 d O
 |
 | O
-IRE O
+IRE B-ORG
 |
  
 | O
@@ -11869,24 +11869,24 @@ D O
 DE O
 |
 | O
-C B-MISC
+C O
 d O
 |
  
 | O
-N B-MISC
+N O
 |
-| I-MISC
-C I-MISC
+| O
+C O
 |
-| I-MISC
-D I-MISC
+| O
+D O
 |
- | I-MISC
-ME I-MISC
+ | O
+ME O
 |
-| I-MISC
-M I-MISC
+| O
+M B-PER
 a O
 |
   
@@ -11896,39 +11896,39 @@ M O
  
 
 | O
-Ih B-MISC
-E I-MISC
+Ih O
+E O
 |
-| I-MISC
-M I-MISC
+| O
+M O
 |
-| I-MISC
-RR I-MISC
+| O
+RR O
 |
 
 | O
-M B-PER
-W I-PER
+M O
+W O
 |
-| I-PER
-A I-PER
+| O
+A O
 |
 
 
-| I-PER
-C I-PER
+| O
+C O
 |
-| I-PER
-E I-PER
+| O
+E O
 |
   
-| I-PER
-I I-PER
-| | I-PER
-E I-PER
+| O
+I O
+| | O
+E O
 |
-| I-PER
-Ain I-PER
+| O
+Ain O
 |
 | O
 D O
@@ -11939,20 +11939,20 @@ A B-MISC
 T I-MISC
 |
 | I-MISC
-I I-MISC
+I O
 |
-| I-MISC
-W I-MISC
+| O
+W O
 |
-| I-MISC
-M I-MISC
+| O
+M O
 |
-| I-MISC
-D I-MISC
+| O
+D O
 |
 
-| I-MISC
-AaA I-MISC
+| O
+AaA B-MISC
 |
  
 | O
@@ -11962,7 +11962,7 @@ la O
 | O
 I B-LOC
 |
-| I-LOC
+| O
 Rse O
 i O
 |
@@ -11978,157 +11978,157 @@ I O
 de O
 |
 | O
-Di O
-9 O
+Di B-MISC
+9 I-MISC
 |
-| O
-D O
+| I-MISC
+D I-MISC
 |
-| O
-R B-PER
-B I-PER
+| I-MISC
+R I-MISC
+B I-MISC
 |
-  | I-PER
-B O
+  | I-MISC
+B I-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 | 
-| O
-REE B-LOC
+| I-MISC
+REE I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-M O
+| I-MISC
+M I-MISC
 |
-| O
-R O
+| I-MISC
+R I-MISC
 |
-| O
-DE O
-E O
+| I-MISC
+DE I-MISC
+E I-MISC
 |
-| O
-S O
-|
-
-
-| O
-D O
-|
-| O
-N O
-|
-| O
-NE O
-|
-  | O
-C O
-|
-| O
-M O
-|
-| O
-a O
+| I-MISC
+S I-MISC
 |
 
-| O
-A B-LOC
-B I-LOC
+
+| I-MISC
+D I-MISC
 |
-| O
-M O
+| I-MISC
+N I-MISC
 |
-| O
-D O
+| I-MISC
+NE I-MISC
+|
+  | I-MISC
+C I-MISC
+|
+| I-MISC
+M I-MISC
+|
+| I-MISC
+a I-MISC
 |
 
-| O
-M O
+| I-MISC
+A I-MISC
+B I-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 |
-| O
-M O
+| I-MISC
+D I-MISC
+|
+
+| I-MISC
+M I-MISC
+|
+| I-MISC
+M I-MISC
+|
+| I-MISC
+M I-MISC
 |
  
-| O
-D O
+| I-MISC
+D I-MISC
 |
 
-| O
-M B-PER
+| I-MISC
+M I-MISC
 |
  | O
 a O
 |
 | O
-N B-ORG
+N B-PER
 |
-| I-ORG
-NR I-ORG
+| I-PER
+NR I-PER
 |
-| I-ORG
-A I-ORG
-|
-
-| I-ORG
-D I-ORG
+| I-PER
+A I-PER
 |
 
-| I-ORG
-D I-ORG
+| I-PER
+D I-PER
 |
-| I-ORG
-D I-ORG
+
+| I-PER
+D I-PER
 |
- | I-ORG
-i. I-ORG
+| I-PER
+D I-PER
 |
-| I-ORG
-M B-PER
+ | I-PER
+i. I-PER
 |
 | I-PER
 M I-PER
 |
-| O
-NEE B-ORG
+| I-PER
+M I-PER
 |
-| O
-AB B-ORG
+| I-PER
+NEE I-PER
 |
-| O
-D B-LOC
+| I-PER
+AB I-PER
+|
+| I-PER
+D I-PER
 |
 | O
 . O
 |
 | O
-Ad B-PER
+Ad B-MISC
 |
 
 
-| I-PER
-M I-PER
+| I-MISC
+M I-MISC
 |
 | O
-NPA B-MISC
-B I-MISC
-|
-| O
-N B-ORG
+NPA B-ORG
+B I-ORG
 |
 | I-ORG
-N I-ORG
+N O
+|
+| O
+N O
 |
  
-| I-ORG
+| O
 M O
 |
 
@@ -12146,24 +12146,24 @@ M I-MISC
 N I-MISC
 |
 | I-MISC
-WE O
-FAS O
+WE I-MISC
+FAS I-MISC
 . O
 |
 | O
-E B-PER
+E B-LOC
 |
-| I-PER
-D I-PER
-| | I-PER
-M O
+| I-LOC
+D I-LOC
+| | I-LOC
+M I-LOC
 |
-| O
-S O
+| I-LOC
+S I-LOC
 |
-| O
-NE B-ORG
-TERRE I-ORG
+| I-LOC
+NE I-LOC
+TERRE I-LOC
 |
 | O
 a O
@@ -12176,18 +12176,18 @@ a O
 DE O
 |
 | O
-NE B-ORG
+NE O
 |
 
-| I-ORG
-N I-ORG
-BIEBER I-ORG
-|
-| O
-NEES O
-|
 | O
 N O
+BIEBER O
+|
+| O
+NEES B-ORG
+|
+| I-ORG
+N I-ORG
 |
 
 
@@ -12198,11 +12198,11 @@ N O
  
  
 | O
-I O
+I B-MISC
 |
  
-| O
-I O
+| I-MISC
+I I-MISC
 |
 | O
 DEvaIt B-MISC
@@ -12217,35 +12217,35 @@ D O
 NM B-ORG
 BE I-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
 
-| O
-D O
+| I-ORG
+D I-ORG
 |
 
 
-| O
+| I-ORG
 " O
 , O
 |
 | O
-N B-MISC
+N B-ORG
 |
-| I-MISC
-IM I-MISC
+| I-ORG
+IM I-ORG
 |
-| I-MISC
-SETU I-MISC
+| O
+SETU O
 D. O
 MIRE O
-AAS B-ORG
+AAS O
 . O
 |
 | O
 ACTE B-ORG
-ESIEIEIRRES O
+ESIEIEIRRES I-ORG
 . O
 |
 | O
@@ -12275,46 +12275,46 @@ S O
 kS. O
 |
 | O
-N B-PER
+N B-MISC
 |
      
-| I-PER
-DM O
+| I-MISC
+DM I-MISC
 |
  
-| O
-N O
-A O
+| I-MISC
+N I-MISC
+A I-MISC
 |
-| O
-D O
-M O
+| I-MISC
+D I-MISC
+M I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 
-| O
-M O
+| I-MISC
+M I-MISC
 |
    
   
   
    
-| O
-D O
-A O
+| I-MISC
+D I-MISC
+A I-MISC
 |
- | O
-C O
+ | I-MISC
+C I-MISC
 |
-| O
+| I-MISC
 NR B-MISC
 |
  
 | I-MISC
 A I-MISC
-SE O
+SE I-MISC
 |
    
    
@@ -12326,25 +12326,25 @@ M B-MISC
 E I-MISC
 B I-MISC
 |
-| O
-D B-PER
+| I-MISC
+D I-MISC
 |
- | I-PER
+ | I-MISC
+M I-MISC
+|
+| I-MISC
+De B-PER
+WEMASE I-PER
 M I-PER
 |
-| O
-De O
-WEMASE O
-M O
-|
-| O
-M B-PER
+| I-PER
+M I-PER
 S I-PER
 |
      | I-PER
 B I-PER
 |
-| O
+| I-PER
 A O
 |
 | O
@@ -12365,16 +12365,16 @@ SE O
 
 | O
 M O
-MA O
+MA B-LOC
 |
-  | O
-B O
+  | I-LOC
+B I-LOC
 |
       
-| O
-D O
+| I-LOC
+D I-LOC
 |
-| O
+| I-LOC
 Dec B-MISC
 EEM I-MISC
 CEMA I-MISC
@@ -12397,8 +12397,8 @@ D I-MISC
 A I-MISC
 |
 
-| I-MISC
-DAYAN I-MISC
+| O
+DAYAN B-MISC
 BE I-MISC
 |
 | I-MISC
@@ -12408,7 +12408,7 @@ A I-MISC
 M I-MISC
 |
 | I-MISC
-EEE B-ORG
+EEE I-MISC
 |
           
 | O
@@ -12416,14 +12416,14 @@ DE O
 D. O
 |
 | O
-AI B-ORG
+AI B-PER
+|
+| I-PER
+M I-PER
+M I-PER
 |
 | O
-M O
-M O
-|
-| O
-DEMI B-MISC
+DEMI O
 |
   
    
@@ -12438,15 +12438,15 @@ d O
 . O
 |
 | O
-GAEL B-LOC
-E I-LOC
+GAEL B-MISC
+E I-MISC
 |
-| O
-< O
-s O
-S O
+| I-MISC
+< I-MISC
+s I-MISC
+S I-MISC
 |
-   | O
+   | I-MISC
 d O
 |
 
@@ -12454,13 +12454,13 @@ d O
 < O
 | 
 | O
-EN O
+EN B-MISC
 |
      
        
   
-| O
-I B-LOC
+| I-MISC
+I I-MISC
 |
  | O
 < O
@@ -12493,18 +12493,18 @@ SALI I-MISC
 , O
 SEE B-ORG
 |
- | I-ORG
-b I-ORG
+ | O
+b O
 | 
-     | I-ORG
-wa I-ORG
+     | O
+wa O
 |
-| I-ORG
-D I-ORG
+| O
+D B-PER
 |
-   | I-ORG
-< O
-pri O
+   | I-PER
+< I-PER
+pri I-PER
 Ωa O
 Re O
 | | O
@@ -12518,36 +12518,36 @@ d O
 < O
 |
 | O
-A O
+A B-PER
 |
-| O
-D B-ORG
-EMap I-ORG
+| I-PER
+D I-PER
+EMap I-PER
 |
-   | O
+   | I-PER
 Se O
 |
 | O
-I B-MISC
-|  | I-MISC
-S I-MISC
+I O
+|  | O
+S O
 |
-| I-MISC
-D I-MISC
+| O
+D O
 |
-| I-MISC
-M I-MISC
+| O
+M O
 |  
-    | I-MISC
+    | O
 p O
 |
  | O
-p B-LOC
-B I-LOC
+p O
+B O
 |
       
- | I-LOC
-S I-LOC
+ | O
+S B-LOC
 s O
 | | O
 p O
@@ -12559,28 +12559,28 @@ e O
 d O
 |
   | O
-Ai B-MISC
+Ai B-PER
 |
-| I-MISC
-S I-MISC
+| I-PER
+S I-PER
 |
    
-| I-MISC
-MAE I-MISC
+| O
+MAE B-ORG
 |
     | O
 ab O
 | | O
-pa O
+pa B-PER
 |
-| O
-E B-LOC
+| I-PER
+E I-PER
 |
-| O
-d O
+| I-PER
+d I-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 |
    
 | I-PER
@@ -12590,31 +12590,22 @@ D I-PER
 N I-PER
 |
 | O
-NI B-MISC
-AA I-MISC
+NI B-ORG
+AA I-ORG
 |
-| I-MISC
-I I-MISC
+| I-ORG
+I I-ORG
 |
-| I-MISC
-A I-MISC
+| I-ORG
+A I-ORG
 |
    
-| I-MISC
-A I-MISC
+| I-ORG
+A I-ORG
 |
-| I-MISC
-I O
-WE O
-|
-| O
-M O
-|
-| O
-A O
-|
-| O
-Ma B-MISC
+| I-ORG
+I B-MISC
+WE I-MISC
 |
 | I-MISC
 M I-MISC
@@ -12622,15 +12613,24 @@ M I-MISC
 | I-MISC
 A I-MISC
 |
- | I-MISC
-R I-MISC
-A I-MISC
-lA I-MISC
-E I-MISC
-|
 | I-MISC
-M. B-PER
-M I-PER
+Ma O
+|
+| O
+M O
+|
+| O
+A O
+|
+ | O
+R O
+A O
+lA O
+E B-LOC
+|
+| O
+M. O
+M O
 |
 | O
 I O
@@ -12653,22 +12653,22 @@ M O
 Ni O
 |
 | O
-N B-LOC
+N B-PER
 |
 
-| I-LOC
-D I-LOC
+| I-PER
+D I-PER
 |
-| I-LOC
-a I-LOC
-M I-LOC
+| O
+a O
+M O
 | 
 | O
 l O
-A B-LOC
+A O
 |
 | O
-Sn1 O
+Sn1 B-LOC
 |
 | O
 RE O
@@ -12698,28 +12698,28 @@ Au O
 | O
 RRE B-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
-| O
-A O
+| I-ORG
+A I-ORG
 |
  
-| O
-N O
+| I-ORG
+N I-ORG
 |
-| O
-d O
-de O
+| I-ORG
+d I-ORG
+de I-ORG
 |
 
- | O
-d O
+ | I-ORG
+d I-ORG
 |
-| O
-D O
+| I-ORG
+D I-ORG
 |
-| O
+| I-ORG
 NAE O
 |
 | O
@@ -12731,22 +12731,22 @@ b O
 N O
 |
 | O
-DAE O
+DAE B-ORG
+|
+| I-ORG
+Na I-ORG
+|
+| I-ORG
+A I-ORG
 |
 | O
-Na B-MISC
-|
-| I-MISC
-A I-MISC
-|
-| I-MISC
-1 I-MISC
+1 O
 |
 | O
-Ni B-MISC
+Ni O
 |
-| I-MISC
-C I-MISC
+| O
+C B-MISC
 |
 | I-MISC
 P I-MISC
@@ -12754,7 +12754,7 @@ pee I-MISC
 |
 | I-MISC
 A I-MISC
-v O
+v I-MISC
 |
 | O
 ( O
@@ -12777,18 +12777,18 @@ Ns I-PER
 | I-PER
 DE I-PER
 |
+| I-PER
+N I-PER
+A I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+REE I-PER
+|
 | O
-N B-LOC
-A I-LOC
-|
-| I-LOC
-D I-LOC
-|
-| I-LOC
-REE O
-|
-| O
-RT O
+RT B-ORG
 |
 
 | O
@@ -12796,62 +12796,62 @@ RT O
 g O
 |
 | O
-N B-ORG
+N O
 |
 | O
 DA B-ORG
 S I-ORG
 |
-| O
-d O
+| I-ORG
+d I-ORG
+|
+| I-ORG
+R I-ORG
+|
+| I-ORG
+R I-ORG
+|
+| I-ORG
+S I-ORG
+Re I-ORG
+|
+| I-ORG
+W I-ORG
+|
+| I-ORG
+RE I-ORG
+|
+| I-ORG
+MO I-ORG
+|
+| I-ORG
+Mili I-ORG
+|
+| I-ORG
+C I-ORG
 |
 | O
-R B-PER
+AAR B-MISC
+E I-MISC
 |
-| I-PER
-R I-PER
+| I-MISC
+.1 I-MISC
 |
-| I-PER
-S I-PER
-Re I-PER
-|
-| O
-W B-MISC
-|
+ 
 | I-MISC
 RE I-MISC
 |
-| O
-MO B-PER
-|
-| I-PER
-Mili I-PER
-|
-| I-PER
-C I-PER
-|
-| O
-AAR B-LOC
-E I-LOC
-|
-| O
-.1 O
-|
- 
-| O
-RE O
-|
-| O
-M B-MISC
+| I-MISC
+M I-MISC
 |
 | I-MISC
 A I-MISC
 |
 | I-MISC
 N I-MISC
-M O
+M I-MISC
 |
-| O
+| I-MISC
 I O
 |
 | O
@@ -12863,86 +12863,86 @@ D O
 m O
 |
 | O
-A B-LOC
-|
-| O
-A. B-PER
-W I-PER
+A B-PER
 |
 | I-PER
+A. O
+W O
+|
+| O
 Dm O
 |
 | O
-F. B-PER
+F. O
+|
+| O
+D B-PER
 |
 | I-PER
-D I-PER
-|
-| I-PER
-M I-PER
+M O
 |
 | O
 DE O
 |
 | O
-N B-LOC
+N O
 |
 
-| I-LOC
-MW I-LOC
+| O
+MW O
 |
 
-| I-LOC
-Mon O
-A O
-|
 | O
-D O
+Mon B-MISC
+A I-MISC
 |
-| O
-ME B-ORG
-E I-ORG
+| I-MISC
+D I-MISC
 |
-| I-ORG
-I I-ORG
+| I-MISC
+ME I-MISC
+E I-MISC
 |
-| I-ORG
-D I-ORG
+| I-MISC
+I I-MISC
 |
- | I-ORG
-i I-ORG
+| I-MISC
+D I-MISC
 |
-| I-ORG
-N I-ORG
+ | I-MISC
+i I-MISC
 |
-| I-ORG
-M O
+| I-MISC
+N I-MISC
 |
-| O
-A O
+| I-MISC
+M I-MISC
 |
-| O
-D O
+| I-MISC
+A I-MISC
 |
-| O
-NR O
+| I-MISC
+D I-MISC
 |
-| O
-R O
+| I-MISC
+NR I-MISC
 |
-| O
-A O
+| I-MISC
+R I-MISC
 |
-| O
-fe O
+| I-MISC
+A I-MISC
 |
-| O
-D O
+| I-MISC
+fe I-MISC
 |
- | O
-Ai O
+| I-MISC
+D I-MISC
 |
-| O
+ | I-MISC
+Ai B-PER
+|
+| I-PER
 N O
 |
 | O
@@ -12958,28 +12958,28 @@ Ce O
 vrmil O
 |
 | O
-I B-LOC
+I B-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
-| O
-N. O
-d O
+| I-PER
+N. I-PER
+d I-PER
 |
-| O
+| I-PER
 ( O
 . O
 mal O
@@ -12988,13 +12988,13 @@ mal O
 . O
 |
 | O
-S B-PER
-d I-PER
+S B-LOC
+d I-LOC
 |
 
 
-| I-PER
-NE I-PER
+| I-LOC
+NE I-LOC
 |
 | O
 a O
@@ -13006,24 +13006,24 @@ a O
 |
 
 | O
-A B-LOC
+A B-MISC
 |
 
-| I-LOC
-Ba O
+| I-MISC
+Ba I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 |
 
-| O
-C O
+| I-MISC
+C I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 1 O
@@ -13035,17 +13035,17 @@ vh O
 am O
 | 
 | O
-Ss O
-Vi O
+Ss B-MISC
+Vi I-MISC
 dresde O
 |
 | O
-N B-MISC
+N O
 |
-| I-MISC
-A I-MISC
+| O
+A O
 |
-| I-MISC
+| O
 Eu O
 |
 | O
@@ -13059,26 +13059,26 @@ El O
 N O
 |
 | O
-MM B-MISC
+MM O
 |
  
-| I-MISC
-Ip I-MISC
+| O
+Ip O
 |
 
-| I-MISC
-pic I-MISC
+| O
+pic B-LOC
 |
-| I-MISC
-M I-MISC
+| I-LOC
+M I-LOC
 |
  
-| O
-I O
+| I-LOC
+I I-LOC
 |
  
-| O
-MJe O
+| I-LOC
+MJe I-LOC
 |
     
 | O
@@ -13088,60 +13088,60 @@ MJe O
 . O
 |
 | O
-EE B-ORG
-RE I-ORG
-A I-ORG
+EE B-MISC
+RE I-MISC
+A I-MISC
 |
 
 
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-mE B-LOC
+| I-MISC
+mE I-MISC
 a O
 |
 | O
-D O
-|
-| O
-E B-LOC
-E I-LOC
-|
-| O
-S O
-|
-| O
-ATE B-ORG
-|
-| O
-I B-LOC
-|
-| O
-MES B-ORG
-|
-| I-ORG
-Fr I-ORG
-. O
-|
- | O
-EE O
-AA B-LOC
-|
-
-| I-LOC
-It O
-|
-| O
-M B-PER
-M I-PER
-d I-PER
+D B-PER
 |
 | I-PER
 E I-PER
+E I-PER
 |
 | I-PER
-A I-PER
+S I-PER
+|
+| I-PER
+ATE I-PER
+|
+| I-PER
+I I-PER
+|
+| I-PER
+MES I-PER
+|
+| I-PER
+Fr I-PER
+. O
+|
+ | O
+EE B-ORG
+AA I-ORG
+|
+
+| I-ORG
+It I-ORG
+|
+| I-ORG
+M I-ORG
+M I-ORG
+d I-ORG
+|
+| I-ORG
+E I-ORG
+|
+| I-ORG
+A I-ORG
 m O
 |
 | O
@@ -13149,36 +13149,36 @@ m O
 |
   
 | O
-M B-MISC
+M O
 |
-| I-MISC
-C I-MISC
+| O
+C B-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-d I-MISC
+| I-PER
+d I-PER
 |
  
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
 
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
-| I-MISC
-n I-MISC
+| O
+n O
 |
- | I-MISC
-E I-MISC
+ | O
+E B-LOC
 | 
-| I-MISC
-M I-MISC
+| O
+M O
 |
-| I-MISC
-EE I-MISC
+| O
+EE B-MISC
 |
 
 | I-MISC
@@ -13208,16 +13208,16 @@ Iv I-MISC
 d I-MISC
 M I-MISC
 |
-| O
+| I-MISC
 l O
 |
 | O
-I O
+I B-MISC
 |
-| O
-I O
+| I-MISC
+I I-MISC
 |
-| O
+| I-MISC
 N O
 |
 | O
@@ -13231,7 +13231,7 @@ AE O
 |
 
 | O
-NS O
+NS B-ORG
 : O
 |
 | O
@@ -13246,7 +13246,7 @@ RUIEA B-ORG
 |
    
 | O
-FERN B-MISC
+FERN B-LOC
 a O
 |
 | O
@@ -13262,21 +13262,21 @@ P I-PER
 | I-PER
 M I-PER
 |
-| O
-E B-MISC
-AR I-MISC
+| I-PER
+E I-PER
+AR I-PER
 . O
 a O
 |
 | O
 s O
-AA B-LOC
+AA O
 |
 | O
 . O
 |
 | O
-N O
+N B-LOC
 |
 | O
 4 O
@@ -13286,32 +13286,32 @@ I O
 M O
 |
 | O
-E O
-M O
-p O
-|
-| O
 E B-LOC
+M I-LOC
+p I-LOC
+|
+| I-LOC
+E I-LOC
 Sa O
 |
 
 | O
 I B-LOC
 au O
-dey O
+dey B-ORG
 |
-| O
-N B-PER
+| I-ORG
+N I-ORG
 |
-| I-PER
-D I-PER
+| I-ORG
+D I-ORG
 |
   
-| I-PER
-EMPaRA I-PER
+| I-ORG
+EMPaRA I-ORG
 |
-| I-PER
-Aa I-PER
+| I-ORG
+Aa I-ORG
 |
 | O
 < O
@@ -13321,33 +13321,33 @@ M O
 |
   
 | O
-A B-MISC
+A O
 |
  
-| I-MISC
-A I-MISC
-m I-MISC
+| O
+A O
+m O
 |
-  | I-MISC
-R I-MISC
+  | O
+R B-LOC
 |
 
- | I-MISC
-M I-MISC
+ | I-LOC
+M I-LOC
 |
-| I-MISC
-I I-MISC
+| I-LOC
+I I-LOC
 |
    
-| I-MISC
-A I-MISC
-1 I-MISC
+| I-LOC
+A I-LOC
+1 I-LOC
 |
-| I-MISC
-N I-MISC
+| I-LOC
+N I-LOC
 |
-| I-MISC
-I I-MISC
+| I-LOC
+I O
 F O
 A O
 |
@@ -13356,7 +13356,7 @@ M O
 |
 
 | O
-M B-PER
+M O
 a O
 |
 | O
@@ -13376,58 +13376,58 @@ M B-MISC
 E I-MISC
 R I-MISC
 |
-| I-MISC
-MSR I-MISC
+| O
+MSR O
 |
 | O
-M O
+M B-PER
 |
-| O
-DE O
-B O
+| I-PER
+DE I-PER
+B I-PER
 |
-| O
-D B-LOC
+| I-PER
+D I-PER
 |
 
-| I-LOC
-As O
+| I-PER
+As I-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
 | O
 DA B-ORG
 ER I-ORG
 |
 | O
-A O
-S B-ORG
+A B-MISC
+S I-MISC
 |
-| I-ORG
-I I-ORG
+| I-MISC
+I I-MISC
 |
-| I-ORG
-D I-ORG
+| I-MISC
+D I-MISC
 |
 
-| I-ORG
-2 I-ORG
+| I-MISC
+2 I-MISC
 . O
 |
 | O
-N B-LOC
+N B-MISC
 |
-| O
-E B-LOC
-e O
+| I-MISC
+E I-MISC
+e I-MISC
 |
-| O
-E O
-E O
+| I-MISC
+E I-MISC
+E I-MISC
 |
 
-| O
+| I-MISC
 N O
 R O
 |
@@ -13458,46 +13458,46 @@ E O
 DAMENDE B-ORG
 |
 | O
-M O
+M B-LOC
 | 
 | O
-D O
+D B-PER
 |
-| O
-A O
-S O
+| I-PER
+A I-PER
+S I-PER
 |
-| O
-N O
-A O
+| I-PER
+N I-PER
+A I-PER
 |
-| O
-M O
+| I-PER
+M I-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
 
-| O
-I O
+| I-PER
+I I-PER
 |
-| O
-D O
-P O
+| I-PER
+D I-PER
+P I-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
-| O
-E B-LOC
-E I-LOC
+| I-PER
+E I-PER
+E I-PER
 |
-| O
-Da B-MISC
+| I-PER
+Da I-PER
 |
-| I-MISC
-A I-MISC
-AA I-MISC
+| I-PER
+A I-PER
+AA I-PER
 |
 | O
 a O
@@ -13511,17 +13511,17 @@ R B-MISC
 | I-MISC
 RE I-MISC
 |
-| O
-I. O
+| I-MISC
+I. I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-E O
+| I-MISC
+E I-MISC
 |
-| O
-RUA B-ORG
+| I-MISC
+RUA I-MISC
 |
 | O
 a O
@@ -13536,23 +13536,23 @@ R I-LOC
 D I-LOC
 |
 | I-LOC
-DNES I-LOC
+DNES B-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| O
-M O
-M O
+| I-MISC
+M I-MISC
+M I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-ri O
+| I-MISC
+ri I-MISC
 |
-| O
-1 O
+| I-MISC
+1 I-MISC
 a O
 |
 | O
@@ -13575,25 +13575,25 @@ d O
 |
 | O
 DE O
-D B-LOC
+D O
 |
 | O
 1 O
 |
  
  | O
-B B-MISC
-E I-MISC
-|
-| I-MISC
-R I-MISC
-|
-| I-MISC
-REE I-MISC
+B O
+E O
 |
 | O
-BMW O
-A O
+R O
+|
+| O
+REE O
+|
+| O
+BMW B-MISC
+A I-MISC
 |
 | O
 AES B-MISC
@@ -13602,48 +13602,48 @@ AES B-MISC
 S O
 |
 | O
-N B-LOC
+N O
 |
 
-| I-LOC
-D I-LOC
+| O
+D O
 |
 | O
 N O
 |
 
 | O
-RIR B-LOC
+RIR O
 | 
- | I-LOC
-Vii I-LOC
+ | O
+Vii B-MISC
 |
-| I-LOC
-DM I-LOC
+| I-MISC
+DM I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-N1 I-LOC
+| I-MISC
+N1 I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-M I-LOC
+| I-MISC
+M I-MISC
 |
- | I-LOC
-B I-LOC
-|
-| O
-AFMII O
+ | I-MISC
+B I-MISC
 |
 | O
-S B-MISC
+AFMII B-MISC
+|
+| I-MISC
+S I-MISC
 |
 
 | I-MISC
@@ -13651,67 +13651,67 @@ A I-MISC
 a O
 |
 | O
-A B-LOC
-A I-LOC
-|
-| I-LOC
-En I-LOC
-d I-LOC
-c I-LOC
+A B-PER
+A I-PER
 |
 | O
-N O
+En B-MISC
+d I-MISC
+c I-MISC
 |
-| O
-M O
+| I-MISC
+N I-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
+|
+| I-MISC
+M I-MISC
 |
 
-| O
-I O
+| I-MISC
+I I-MISC
 |
-| O
-D O
+| I-MISC
+D I-MISC
 |
  
   
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-i O
+| I-MISC
+i I-MISC
 |
-| O
-ENESE O
+| I-MISC
+ENESE I-MISC
 |
-| O
-Aen B-LOC
+| I-MISC
+Aen I-MISC
 |
-| O
-I O
+| I-MISC
+I I-MISC
 |
-| O
-S O
+| I-MISC
+S I-MISC
 adE O
 |
 
 | O
-NTER B-MISC
+NTER B-ORG
 |
    
-| I-MISC
-M I-MISC
-BIEN I-MISC
+| O
+M O
+BIEN O
 |
- | I-MISC
-m I-MISC
-d I-MISC
+ | O
+m O
+d O
 |
 
-| I-MISC
-M B-PER
+| O
+M O
 |
  
 | O
@@ -13719,7 +13719,7 @@ M B-PER
 d O
 |
 | O
-M B-PER
+M O
 d O
 |
  | O
@@ -13729,10 +13729,10 @@ A O
 - O
 |
 | O
-P B-ORG
+P O
 |
-| I-ORG
-M I-ORG
+| O
+M O
 |
 | O
 a O
@@ -13759,63 +13759,63 @@ I B-LOC
 a O
 |  
 | O
-Mt B-MISC
+Mt B-PER
 |
-| I-MISC
-N I-MISC
-M I-MISC
+| I-PER
+N I-PER
+M I-PER
 |
-| I-MISC
-D I-MISC
+| I-PER
+D I-PER
 |
 
-| I-MISC
-D I-MISC
-BE I-MISC
+| I-PER
+D I-PER
+BE I-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
-| I-MISC
-I I-MISC
+| I-PER
+I I-PER
 |
-| I-MISC
-IA I-MISC
-| | I-MISC
-B I-MISC
+| I-PER
+IA I-PER
+| | I-PER
+B I-PER
+|
+| I-PER
+MER I-PER
+A I-PER
+|
+ | I-PER
+A I-PER
+B I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+a O
 |
 | O
-MER B-LOC
-A I-LOC
+R B-PER
 |
- | I-LOC
-A I-LOC
-B I-LOC
+| I-PER
+A I-PER
 |
-| I-LOC
-D I-LOC
-|
-| I-LOC
-D I-LOC
-|
-| I-LOC
-a I-LOC
-|
-| I-LOC
-R I-LOC
-|
-| I-LOC
-A I-LOC
-|
-| I-LOC
-AMARR I-LOC
-DT I-LOC
+| O
+AMARR B-ORG
+DT I-ORG
 |
 | O
 a O
 |
 | O
-DREE B-ORG
+DREE B-PER
 |
 | O
 I O
@@ -13830,65 +13830,65 @@ D O
 |
 
 | O
-N B-LOC
+N O
 |
       | O
 a O
 |
 | O
-D O
+D B-LOC
 |
 | O
 78 O
 |
 | O
-A O
+A B-PER
+|
+| I-PER
+M I-PER
+A I-PER
+|
+ | I-PER
+R I-PER
+|
+| I-PER
+M I-PER
+A I-PER
+|
+| I-PER
+M I-PER
+M I-PER
 |
 | O
-M B-MISC
-A I-MISC
+IE B-MISC
 |
- | I-MISC
-R I-MISC
+| I-MISC
+A I-MISC
 |
 | I-MISC
 M I-MISC
+|
+| I-MISC
+TUE I-MISC
+|
+| I-MISC
+M I-MISC
+|
+ 
+| I-MISC
+M I-MISC
+T I-MISC
+|
+| I-MISC
+IC I-MISC
+|
+| I-MISC
+I I-MISC
+|
+| I-MISC
 A I-MISC
 |
 | O
-M O
-M O
-|
-| O
-IE O
-|
-| O
-A O
-|
-| O
-M O
-|
-| O
-TUE O
-|
-| O
-M O
-|
- 
-| O
-M O
-T O
-|
-| O
-IC B-ORG
-|
-| I-ORG
-I I-ORG
-|
-| I-ORG
-A I-ORG
-|
-| I-ORG
 IE O
 A O
 |
@@ -13899,7 +13899,7 @@ S O
 A O
 |
 | O
-E B-LOC
+E O
 |
 | O
 1e O
@@ -13907,17 +13907,17 @@ E B-LOC
 |
 
 | O
-D B-LOC
-E I-LOC
+D B-PER
+E I-PER
 |
-| I-LOC
-D I-LOC
+| I-PER
+D I-PER
 |
-| I-LOC
-1 I-LOC
+| I-PER
+1 O
 |
-| I-LOC
-M B-PER
+| O
+M O
 |
 
 | O
@@ -13925,7 +13925,7 @@ a O
 b O
 |
 | O
-N B-LOC
+N O
 |
 | O
 A O
@@ -13951,87 +13951,87 @@ E I-LOC
 | O
 < O
 | | O
-Ω O
-R O
-|
-| O
-E O
-|
-| O
-D O
-|
-| O
-N O
-|
-
-
-
- | O
-R O
-|
-| O
-I O
-|
-| O
-. O
-|
-| O
-M B-PER
-|  
-| I-PER
-I I-PER
+Ω B-PER
+R I-PER
 |
 | I-PER
-D I-PER
-M O
-|
-| O
-a O
-|
- | O
-PE O
-|
-| O
-I O
-A O
-|
-| O
-M O
-M O
-|
- 
-| O
-M B-PER
 E I-PER
 |
 | I-PER
 D I-PER
 |
 | I-PER
-RAE B-ORG
-Na I-ORG
+N I-PER
+|
+
+
+
+ | I-PER
+R I-PER
+|
+| I-PER
+I I-PER
 |
 | O
-A O
+. O
 |
 | O
-N O
+M O
+|  
+| O
+I B-PER
+|
+| I-PER
+D I-PER
+M I-PER
 |
 | O
-N. O
-AE B-ORG
+a O
+|
+ | O
+PE B-ORG
 |
 | O
-EEE B-ORG
+I B-LOC
+A I-LOC
 |
-| O
-D O
+| I-LOC
+M I-LOC
+M I-LOC
 |
-| O
-Iu B-MISC
+ 
+| I-LOC
+M I-LOC
+E I-LOC
+|
+| I-LOC
+D I-LOC
+|
+| I-LOC
+RAE B-MISC
+Na I-MISC
 |
 | I-MISC
-IE I-MISC
+A I-MISC
+|
+| I-MISC
+N I-MISC
+|
+| I-MISC
+N. I-MISC
+AE I-MISC
+|
+| I-MISC
+EEE I-MISC
+|
+| I-MISC
+D I-MISC
+|
+| I-MISC
+Iu B-LOC
+|
+| O
+IE B-MISC
 |
 | I-MISC
 A I-MISC
@@ -14054,83 +14054,83 @@ Ma B-PER
 |
 | I-PER
 D I-PER
-M O
+M I-PER
 |
-| O
+| I-PER
 Di O
 |
 | O
-N B-ORG
+N O
 |
- | I-ORG
-M I-ORG
-P I-ORG
+ | O
+M O
+P O
 |
 
-  | I-ORG
-p I-ORG
+  | O
+p O
 |
-| I-ORG
-D I-ORG
-A I-ORG
+| O
+D O
+A O
 |
-| I-ORG
-N I-ORG
+| O
+N O
 |
-| I-ORG
-D I-ORG
+| O
+D O
 |
   
- | I-ORG
-E I-ORG
+ | O
+E O
 |
-| I-ORG
-N I-ORG
+| O
+N O
 |
-| I-ORG
-DR I-ORG
+| O
+DR O
 |
-| I-ORG
-i I-ORG
-|
-
-  | I-ORG
-M I-ORG
-M I-ORG
-|
- | I-ORG
-M I-ORG
-A I-ORG
+| O
+i O
 |
 
-| I-ORG
-E I-ORG
-BA I-ORG
+  | O
+M O
+M O
 |
-| I-ORG
-D I-ORG
-|
-| I-ORG
-HE I-ORG
-|
-| I-ORG
-M I-ORG
+ | O
+M O
+A O
 |
 
-    | I-ORG
-d I-ORG
+| O
+E O
+BA O
 |
-| I-ORG
-RN B-LOC
+| O
+D O
+|
+| O
+HE B-PER
+|
+| I-PER
+M I-PER
 |
 
-| I-LOC
-M I-LOC
+    | I-PER
+d I-PER
+|
+| I-PER
+RN I-PER
+|
+
+| I-PER
+M I-PER
 |
  
-| O
-RA B-ORG
-GE I-ORG
+| I-PER
+RA I-PER
+GE I-PER
 |
 | O
 Als B-ORG
@@ -14152,17 +14152,17 @@ A O
 A O
 |
 | O
-I O
+I B-LOC
 |
 | O
 QUE O
-D. O
+D. B-PER
 |
-| O
-DATE O
-D. B-MISC
-E I-MISC
-W I-MISC
+| I-PER
+DATE I-PER
+D. I-PER
+E I-PER
+W I-PER
 .. O
 |
 | O
@@ -14193,8 +14193,8 @@ D. B-PER
 C I-PER
 |
 
-| O
-M O
+| I-PER
+M I-PER
 Me O
 |
  | O
@@ -14210,85 +14210,85 @@ I O
 Im O
 |
 | O
-M B-MISC
+M O
 |
      
   
 
-| I-MISC
-M I-MISC
+| O
+M O
 |
- | I-MISC
-EEE I-MISC
+ | O
+EEE O
 DE O
-S B-PER
+S O
 |
   
    
-| I-PER
-M I-PER
+| O
+M O
 |
- | I-PER
-J I-PER
+ | O
+J O
 |  
-  | I-PER
+  | O
 d O
 |  | O
 p O
 |
 | O
-Ea B-LOC
+Ea B-PER
 |
     | O
 p O
 |
 | O
-LE O
-E B-LOC
-A I-LOC
+LE B-MISC
+E I-MISC
+A I-MISC
 |
     
-  | I-LOC
-E I-LOC
-| | I-LOC
-B I-LOC
+  | I-MISC
+E I-MISC
+| | I-MISC
+B I-MISC
 |
-| O
-D B-MISC
+| I-MISC
+D I-MISC
 E I-MISC
 ME I-MISC
-ET O
-A O
+ET I-MISC
+A I-MISC
 |
 | O
 DA B-ORG
 AP I-ORG
 |
-| O
-D O
+| I-ORG
+D I-ORG
 |
-| O
-AE B-ORG
-EE O
+| I-ORG
+AE B-MISC
+EE I-MISC
 |
-| O
-E O
+| I-MISC
+E I-MISC
 |
  
-| O
-D O
-m O
+| I-MISC
+D I-MISC
+m I-MISC
 |  
      
 | O
-Ne B-MISC
+Ne O
 |
- | I-MISC
-S I-MISC
+ | O
+S O
 |
 | O
-EE B-ORG
-E I-ORG
+EE O
+E O
 |
  | O
 e O
@@ -14309,13 +14309,13 @@ a O
 | O
 E B-LOC
 |
-| O
-E B-LOC
-8S. O
+| I-LOC
+E I-LOC
+8S. I-LOC
 |
- | O
-DE O
-B O
+ | I-LOC
+DE I-LOC
+B I-LOC
 , O
 |
 | O
@@ -14341,81 +14341,81 @@ a O
 M O
 |
 | O
-DE O
+DE B-PER
 |
   
-| O
-N O
+| I-PER
+N I-PER
 |
-| O
-Do O
+| I-PER
+Do I-PER
 |
    
   
   
-| O
-DE O
-| | O
-C O
+| I-PER
+DE I-PER
+| | I-PER
+C I-PER
 |
-| O
-DE O
+| I-PER
+DE I-PER
 |
-| O
-E B-LOC
+| I-PER
+E I-PER
 |
-| O
-R B-PER
+| I-PER
+R I-PER
 S I-PER
 C I-PER
 D I-PER
 |
   
  
-| O
-D B-PER
+| I-PER
+D I-PER
 B I-PER
 |
  
-| O
-N B-ORG
+| I-PER
+N I-PER
 |
-| I-ORG
-I I-ORG
-ME O
+| I-PER
+I I-PER
+ME I-PER
 |  
 | O
 DM O
 |
 
 | O
-GARE O
+GARE B-PER
 |
-  | O
-B B-LOC
+  | I-PER
+B I-PER
 | 
  
  
-    | I-LOC
-E O
+    | I-PER
+E I-PER
 |
-| O
-R. O
-MEEAE O
+| I-PER
+R. I-PER
+MEEAE I-PER
 |
 | O
 ls O
 |  
 | O
-E B-PER
-DE I-PER
-AA I-PER
+E B-LOC
+DE I-LOC
+AA I-LOC
 |
-| O
-A O
+| I-LOC
+A I-LOC
 |
-| O
-RAME O
+| I-LOC
+RAME I-LOC
 . O
 |
 | O
@@ -14427,45 +14427,45 @@ RM O
    | O
 Lu O
 le O
-Bien B-LOC
-Sal I-LOC
+Bien O
+Sal O
 . O
 |
 | O
-MEC O
+MEC B-MISC
 |
-  | O
-Bh O
+  | I-MISC
+Bh I-MISC
 |
-| O
+| I-MISC
 AM O
 |
 | O
-E B-LOC
+E O
 | 
 | O
 IEEE B-ORG
 |
 | O
 Me O
-Ma B-MISC
-v I-MISC
-p I-MISC
+Ma O
+v O
+p O
 |
-| I-MISC
-DUN I-MISC
+| O
+DUN O
 |
-| I-MISC
-D I-MISC
+| O
+D O
 | 
 | O
-DEE B-LOC
-E I-LOC
-| | I-LOC
-B I-LOC
+DEE B-MISC
+E I-MISC
+| | I-MISC
+B I-MISC
 |
-| O
-R.NE B-MISC
+| I-MISC
+R.NE I-MISC
 |
 | O
 I O
@@ -14475,16 +14475,16 @@ I O
 D O
 |
 | O
-DAE B-ORG
+DAE B-MISC
 |
-   | O
+   | I-MISC
 a O
 a O
 |
 | O
-D O
+D B-PER
 |
- | O
+ | I-PER
 Ma O
 | 
 | O
@@ -14496,8 +14496,8 @@ E I-MISC
 MS I-MISC
 A I-MISC
 |
-| I-MISC
-D I-MISC
+| O
+D B-MISC
 |
    | I-MISC
 ta I-MISC
@@ -14512,18 +14512,18 @@ I B-MISC
 | | I-MISC
 S I-MISC
 |
-| O
-AAA O
+| I-MISC
+AAA I-MISC
 |
 | O
 Wr B-MISC
 |
    
- | I-MISC
-aE I-MISC
+ | O
+aE O
 | 
-| I-MISC
-D I-MISC
+| O
+D B-MISC
 |
      
     
@@ -14555,21 +14555,21 @@ DE I-MISC
 N I-MISC
 |
 | I-MISC
-RE I-MISC
-C I-MISC
+RE O
+C O
 |
 
-| I-MISC
-Te I-MISC
+| O
+Te O
 |
-| I-MISC
-A I-MISC
+| O
+A O
 |
-| I-MISC
-pe I-MISC
+| O
+pe O
 |
-| I-MISC
-NETS I-MISC
+| O
+NETS B-MISC
 |
 | I-MISC
 A I-MISC
@@ -14579,21 +14579,21 @@ A I-MISC
 | I-MISC
 NE I-MISC
 |
-| I-MISC
-Ds I-MISC
+| O
+Ds B-ORG
 . O
 |
 | O
-Ao O
+Ao B-MISC
 |
 
-| O
-D O
+| I-MISC
+D I-MISC
 |
-| O
-A O
+| I-MISC
+A I-MISC
 |
-| O
+| I-MISC
 N O
 |
 | O
@@ -14607,66 +14607,66 @@ d O
 C B-MISC
 |
 
-| O
-DIE O
+| I-MISC
+DIE I-MISC
 |
-| O
-N B-ORG
+| I-MISC
+N I-MISC
 |
-| I-ORG
-LES I-ORG
-ES I-ORG
+| I-MISC
+LES B-MISC
+ES I-MISC
 . O
 |
 | O
-D B-PER
-J. I-PER
+D O
+J. O
 |
-| I-PER
-N I-PER
-|
-
-| I-PER
-A I-PER
-|
-| I-PER
-E. I-PER
-|
-| I-PER
-N I-PER
+| O
+N O
 |
 
-| I-PER
-N I-PER
+| O
+A O
+|
+| O
+E. O
+|
+| O
+N O
+|
+
+| O
+N O
 |
 | O
 a O
 |
 | O
-D O
+D B-PER
 |
-| O
-NEE B-ORG
+| I-PER
+NEE O
 |
 | O
 ad O
 |
 | O
-AIRE O
+AIRE B-PER
 |
 
-| O
-M B-MISC
+| I-PER
+M I-PER
 |
-| I-MISC
-D I-MISC
-AE I-MISC
+| I-PER
+D I-PER
+AE I-PER
 |
-| I-MISC
-E I-MISC
+| I-PER
+E I-PER
 |
- | I-MISC
-A I-MISC
+ | I-PER
+A I-PER
 |
 | O
 1.2 O
@@ -14675,10 +14675,10 @@ A I-MISC
 l O
 |  
  | O
-M B-PER
+M O
 |
-| I-PER
-E. I-PER
+| O
+E. B-PER
 |
 | I-PER
 P I-PER
@@ -14692,8 +14692,8 @@ dr O
 de O
 M B-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
 | O
 . O
@@ -14702,21 +14702,21 @@ N O
 a O
 | 
 | O
-De B-MISC
-B I-MISC
+De B-PER
+B I-PER
 |
- | I-MISC
-M I-MISC
+ | I-PER
+M I-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
 
-| O
-DE O
+| I-PER
+DE I-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 | | I-PER
 D I-PER
 |
@@ -14724,13 +14724,13 @@ D I-PER
 it I-PER
 |
 | I-PER
-E B-LOC
-MEA B-ORG
+E I-PER
+MEA I-PER
 |
-| I-ORG
-I I-ORG
+| O
+I B-LOC
 |
-| I-ORG
+| O
 1 O
 . O
 de O
@@ -14754,9 +14754,9 @@ a O
 Ni O
 |
 | O
-D O
+D B-PER
 |
- | O
+ | I-PER
 < O
 i O
 |
@@ -14773,33 +14773,33 @@ Di O
 DH B-ORG
 |
  
-| O
-e O
+| I-ORG
+e I-ORG
 |
-| O
-Pi B-PER
+| I-ORG
+Pi I-ORG
 |
 
-| O
-8 O
+| I-ORG
+8 I-ORG
 |
-| O
-R B-PER
+| I-ORG
+R I-ORG
 |
-| I-PER
-D I-PER
+| I-ORG
+D I-ORG
 |
  
 
-| I-PER
-D I-PER
+| I-ORG
+D I-ORG
 |
 
-| I-PER
-M O
+| I-ORG
+M I-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
 | O
 " O
@@ -14807,38 +14807,38 @@ N O
 | O
 MEN B-ORG
 |
-| O
-M O
+| I-ORG
+M I-ORG
 |
-| O
-DAE O
+| I-ORG
+DAE I-ORG
 |
-| O
-M B-PER
+| I-ORG
+M I-ORG
 |
-| I-PER
-D I-PER
+| I-ORG
+D I-ORG
 |
-| I-PER
-i I-PER
+| I-ORG
+i I-ORG
 |
-| I-PER
-M O
+| I-ORG
+M I-ORG
 |
 
-| O
-M B-PER
-F I-PER
+| I-ORG
+M I-ORG
+F I-ORG
 a O
 |
 | O
-Ao B-ORG
-W I-ORG
+Ao B-PER
+W I-PER
 |
-| I-ORG
-NRE I-ORG
+| O
+NRE O
 |
-| I-ORG
+| O
 MEN B-ORG
 . O
 |
@@ -14846,14 +14846,14 @@ MEN B-ORG
 M O
 |
 | O
-NV B-MISC
+NV B-ORG
 |
-| I-MISC
-A I-MISC
+| I-ORG
+A I-ORG
 |
 
-| I-MISC
-1 I-MISC
+| O
+1 O
 |
 | O
 a O
@@ -14861,152 +14861,152 @@ de O
 |
 | O
 E B-LOC
-UNE O
+UNE I-LOC
 |
  
-| O
-D O
+| I-LOC
+D I-LOC
+|
+| I-LOC
+REaS I-LOC
+|
+| I-LOC
+Sh I-LOC
+|
+| I-LOC
+N I-LOC
+|
+| I-LOC
+D I-LOC
+CTA I-LOC
 |
 | O
-REaS O
-|
-| O
-Sh O
-|
-| O
-N O
-|
-| O
-D O
-CTA B-ORG
-|
-| O
-A B-LOC
+A O
 a O
 |
 | O
-D O
-R O
+D B-MISC
+R I-MISC
 |
-| O
-N O
-R O
+| I-MISC
+N I-MISC
+R I-MISC
 |
-| O
-NS O
+| I-MISC
+NS I-MISC
 |
-| O
-D O
-|
-
-| O
-n O
-M O
+| I-MISC
+D I-MISC
 |
 
-| O
-4 O
+| I-MISC
+n I-MISC
+M I-MISC
 |
-| O
-E O
-M O
+
+| I-MISC
+4 I-MISC
+|
+| I-MISC
+E B-LOC
+M I-LOC
+|
+ 
+| I-LOC
+AM I-LOC
+AS I-LOC
 |
  
 | O
-AM O
-AS O
-|
- 
-| O
-RAE O
+RAE B-ORG
 |
 | O
 D O
 |
 | O
-MN B-ORG
-EATEE I-ORG
+MN O
+EATEE O
 |
 | O
 N O
 |
 | O
-EA B-ORG
+EA B-LOC
 |
-| O
-Terroir B-LOC
+| I-LOC
+Terroir I-LOC
 a O
 |   | O
 e O
 7 O
 |
 | O
-N B-PER
+N B-MISC
 |
 
- | I-PER
-Ds O
+ | I-MISC
+Ds I-MISC
 |
-| O
-at O
+| I-MISC
+at I-MISC
 |
-| O
-M B-PER
+| I-MISC
+M I-MISC
 |
-| I-PER
-Di O
+| I-MISC
+Di I-MISC
 |
  
 
-| O
-D O
-| | O
-E O
+| I-MISC
+D I-MISC
+| | I-MISC
+E I-MISC
 |
-| O
-M O
+| I-MISC
+M I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 DA B-ORG
 |
-| O
-D O
+| I-ORG
+D I-ORG
+|
+| I-ORG
+i I-ORG
+|
+| I-ORG
+N I-ORG
 |
 | O
-i O
+MES O
 |
 | O
-N O
+DAE O
 |
 | O
-MES B-ORG
-|
-| O
-DAE B-ORG
-|
-| O
-D O
-E B-LOC
+D B-MISC
+E I-MISC
 |
 | O
 ( O
 e O
 |
 | O
-A. O
+A. B-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
  
- | O
-MA B-ORG
+ | I-PER
+MA I-PER
 |
-| O
-NE B-ORG
+| I-PER
+NE I-PER
 |
 | O
 a O
@@ -15015,26 +15015,26 @@ a O
 | O
 A B-LOC
 |
-| I-LOC
-RHIN I-LOC
+| O
+RHIN O
 |
 | O
 N O
 |
 | O
-M O
-M O
+M B-PER
+M I-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
-| O
-A O
-Pr O
-M O
+| I-PER
+A I-PER
+Pr I-PER
+M I-PER
 |
-| O
-R O
+| I-PER
+R I-PER
 |
 
 | O
@@ -15055,7 +15055,7 @@ e O
 f O
 |
 | O
-RA B-LOC
+RA O
 |
 | O
 . O
@@ -15064,8 +15064,8 @@ RA B-LOC
 D. B-PER
 M I-PER
 |
-| O
-D B-PER
+| I-PER
+D I-PER
 M I-PER
 d I-PER
 |
@@ -15076,17 +15076,17 @@ I I-PER
 a O
 |
 | O
-Na B-MISC
+Na B-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
-| I-MISC
-m I-MISC
+| O
+m O
 |
-| I-MISC
-M. B-PER
-M I-PER
+| O
+M. O
+M O
 |
 | O
 art O
@@ -15098,17 +15098,17 @@ A O
 N O
 |
 | O
-D O
-M O
+D B-PER
+M I-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
-| O
+| I-PER
 am O
 |  
 | O
-DES B-MISC
+DES O
 |
 | O
 N O
@@ -15136,28 +15136,28 @@ D O
 Ne O
 |
 | O
-DIN B-MISC
+DIN B-ORG
 |
 | O
 RAS O
 |
 | O
-N O
-EE B-ORG
+N B-MISC
+EE I-MISC
 |
-| I-ORG
-BAE I-ORG
+| O
+BAE B-ORG
 |
-| I-ORG
-E I-ORG
+| O
+E B-LOC
 |
 
-| I-ORG
-R I-ORG
+| I-LOC
+R I-LOC
 |
-| I-ORG
-M I-ORG
-B I-ORG
+| I-LOC
+M I-LOC
+B I-LOC
 |
  | O
 1- O
@@ -15175,11 +15175,11 @@ d I-LOC
 M I-LOC
 |
  
-| O
-me O
+| I-LOC
+me I-LOC
 |
-| O
-A B-LOC
+| I-LOC
+A I-LOC
 W I-LOC
 .. O
 |
@@ -15195,42 +15195,42 @@ NA O
 D O
 |
 | O
-a4 B-LOC
+a4 O
 |
 | O
 D.1i O
 |
 | O
-S. B-MISC
-d I-MISC
-in I-MISC
+S. O
+d O
+in O
 |
-| I-MISC
-ia I-MISC
-a. I-MISC
+| O
+ia O
+a. O
 |
-| I-MISC
-AEAE I-MISC
+| O
+AEAE B-LOC
 |
 
-| I-MISC
-D I-MISC
+| I-LOC
+D I-LOC
 |
  
-| I-MISC
-AT I-MISC
-|
-| I-MISC
-Ae O
-1 O
+| I-LOC
+AT I-LOC
 |
 | O
-C O
-e O
+Ae B-ORG
+1 I-ORG
+|
+| I-ORG
+C I-ORG
+e I-ORG
 |
 
-| O
-C O
+| I-ORG
+C I-ORG
 |
 | O
 2 O
@@ -15238,9 +15238,9 @@ C O
 1 O
 |
 | O
-M B-PER
-S I-PER
-D I-PER
+M B-MISC
+S I-MISC
+D I-MISC
 |
   
 | O
@@ -15268,60 +15268,60 @@ M O
 |
 
 | O
-NAGE O
+NAGE B-LOC
 |
 | O
-R O
+R B-LOC
+|
+| I-LOC
+NE I-LOC
+|
+| I-LOC
+M I-LOC
+|
+ | O
+M. O
 |
 | O
-NE O
+N O
 |
 | O
-M B-PER
-|
- | I-PER
-M. I-PER
+MM B-PER
+M I-PER
+A I-PER
 |
 | I-PER
 N I-PER
-|
-| O
-MM B-MISC
-M I-MISC
-A I-MISC
-|
-| I-MISC
-N I-MISC
-BREE I-MISC
+BREE I-PER
 |
 
- | O
-B O
+ | I-PER
+B I-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
 | O
 DS B-MISC
 |
-| O
-I B-LOC
+| I-MISC
+I I-MISC
 |
 
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-AA I-LOC
+| I-MISC
+AA I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 |
-| I-LOC
-D I-LOC
+| I-MISC
+D I-MISC
 .. O
 |
 | O
@@ -15356,99 +15356,99 @@ D O
 ME O
 |
 | O
-I O
+I B-ORG
 |
-| O
-AA O
+| I-ORG
+AA I-ORG
 |
 
 | O
 1 O
 |
 | O
-EE B-ORG
-|
-| I-ORG
-A I-ORG
-|
-| I-ORG
-Am O
-|
-| O
-M O
-|
-| O
-I O
-A O
-|
-| O
-LE O
-E B-LOC
-D I-LOC
-|
-| I-LOC
-D I-LOC
-|
-| I-LOC
-T I-LOC
+EE B-LOC
 |
 | I-LOC
 A I-LOC
 |
-| O
-NEED B-MISC
+| I-LOC
+Am I-LOC
+|
+| I-LOC
+M I-LOC
+|
+| I-LOC
+I I-LOC
+A I-LOC
 |
 | O
-D O
+LE B-MISC
+E I-MISC
+D I-MISC
+|
+| I-MISC
+D I-MISC
+|
+| I-MISC
+T O
 |
 | O
-N O
+A O
+|
+| O
+NEED O
+|
+| O
+D B-PER
+|
+| I-PER
+N I-PER
 |
   
  | O
 ou O
 |
 | O
-DS B-MISC
+DS B-ORG
 . O
 |
 | O
-N O
-M O
+N B-PER
+M I-PER
 |
-| O
-D O
-M O
+| I-PER
+D I-PER
+M I-PER
 |
  
-| O
-N O
+| I-PER
+N I-PER
 |
 
  
  
 | O
-D O
+D B-PER
+|
+| I-PER
+D I-PER
+|
+| I-PER
+1n I-PER
 |
 | O
-D O
-|
-| O
-1n O
-|
-| O
-Ms B-MISC
-Tont I-MISC
+Ms O
+Tont O
 |
 | O
 md O
 |
 | O
-AE B-ORG
+AE O
 . O
 |
 | O
-AE B-ORG
+AE O
 i O
 |
 | O
@@ -15473,62 +15473,62 @@ i O
 M O
 |
 | O
-A O
+A B-PER
 |
-| O
-D O
+| I-PER
+D I-PER
 |
-| O
-R O
-RE O
+| I-PER
+R I-PER
+RE I-PER
 . O
 |
 | O
-S O
+S B-LOC
 |
 
-| O
-am O
+| I-LOC
+am I-LOC
 . O
 |
  | O
 t O
 |
 | O
-M O
-M O
+M B-PER
+M I-PER
 |
-| O
-A O
+| I-PER
+A I-PER
 |
  
 
-| O
-Di O
+| I-PER
+Di I-PER
 |
-| O
-N B-ORG
+| I-PER
+N I-PER
 |
-| I-ORG
-N I-ORG
+| I-PER
+N I-PER
 ... O
 |
 | O
-A O
+A B-PER
+|
+| I-PER
+D. I-PER
+|
+| I-PER
+N I-PER
 |
 | O
-D. O
-|
-| O
-N O
-|
-| O
-D. O
-D. O
+D. B-PER
+D. I-PER
 |
  
-| O
-N O
+| I-PER
+N I-PER
 |
 | O
 AR O
@@ -15539,11 +15539,11 @@ C O
 | O
 P O
 , O
-R B-MISC
+R B-LOC
 |
-| I-MISC
-A I-MISC
-B I-MISC
+| I-LOC
+A I-LOC
+B I-LOC
 |
 | O
 I O
@@ -15558,7 +15558,7 @@ d O
 |
 
 | O
-AE B-ORG
+AE O
 |
 
 | O
@@ -15580,35 +15580,35 @@ RE O
 |
 
 | O
-NM B-ORG
+NM O
 |
 | O
 NIERIE B-ORG
 RENTS I-ORG
 |
 | O
-E O
-ME O
+E B-LOC
+ME I-LOC
 |
 | O
-R O
-|
-
-| O
-v O
-|
-| O
-N B-LOC
+R B-LOC
 |
 
 | I-LOC
-C I-LOC
+v I-LOC
 |
 | I-LOC
-A I-LOC
+N O
 |
-| I-LOC
-D I-LOC
+
+| O
+C O
+|
+| O
+A O
+|
+| O
+D O
 |
  
 | O
@@ -15618,32 +15618,32 @@ D I-LOC
 ELA B-ORG
 |
 | O
-P B-ORG
+P B-LOC
 |
-| I-ORG
-I I-ORG
+| O
+I O
 |
-| I-ORG
-I I-ORG
+| O
+I O
 |
-| I-ORG
-M I-ORG
+| O
+M O
 |
-| I-ORG
-M I-ORG
+| O
+M B-PER
 |
-| I-ORG
-W I-ORG
+| I-PER
+W I-PER
 |
-| I-ORG
-7ée I-ORG
-1 I-ORG
+| O
+7ée O
+1 O
 |
 
 
 
 | O
-Aise B-PER
+Aise B-LOC
 |
 | O
 - O
@@ -15666,16 +15666,16 @@ A O
 N O
 |
 | O
-Mods B-LOC
+Mods O
 |
 | O
 d O
 |
 | O
-D O
+D B-PER
 |
-| O
--E B-PER
+| I-PER
+-E I-PER
 |
 
 | I-PER
@@ -15688,8 +15688,8 @@ DM I-PER
 | I-PER
 D I-PER
 |
-| O
-NE O
+| I-PER
+NE I-PER
 |
 | O
 oi O
@@ -15701,23 +15701,23 @@ M. I-PER
 | I-PER
 A I-PER
 |
-| O
-N B-LOC
-E I-LOC
+| I-PER
+N I-PER
+E I-PER
 |
  
- | I-LOC
+ | I-PER
 . O
 |
 | O
-ee1 O
+ee1 B-ORG
 |
 
-| O
-NIE B-ORG
+| I-ORG
+NIE I-ORG
 |
 | I-ORG
-I I-ORG
+I B-LOC
 duit O
 |
 
@@ -15727,29 +15727,29 @@ DROITE B-ORG
 . O
 |
 | O
-D O
+D B-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
 | O
 2 O
 |
 | O
-Ma B-MISC
+Ma B-PER
 |
-| I-MISC
-A I-MISC
+| I-PER
+A I-PER
 |
-| I-MISC
-D1 I-MISC
+| I-PER
+D1 I-PER
 |
-| I-MISC
-Me I-MISC
+| I-PER
+Me I-PER
 |
-| I-MISC
-C. I-MISC
-B I-MISC
+| I-PER
+C. I-PER
+B I-PER
 |
 | O
 .. O
@@ -15761,20 +15761,20 @@ MS B-ORG
 N I-ORG
 |
 | I-ORG
-RIE B-ORG
+RIE I-ORG
 : O
 |
 | O
-Ae B-LOC
+Ae B-ORG
 |
- | O
-R.M O
+ | I-ORG
+R.M I-ORG
 |
-| O
-M O
+| I-ORG
+M I-ORG
 |
-| O
-A O
+| I-ORG
+A I-ORG
 |
 | O
 -- O
@@ -15783,16 +15783,16 @@ A O
 4 O
 |
 | O
-DTE B-ORG
+DTE B-MISC
 |
 | O
 51 O
 |
 | O
-N.i O
+N.i B-PER
 |
-| O
-M B-PER
+| I-PER
+M I-PER
 a. O
 |
  | O
@@ -15818,7 +15818,7 @@ N I-ORG
 |
 | I-ORG
 D I-ORG
-R O
+R I-ORG
 |
 | O
 7 O
@@ -15832,8 +15832,8 @@ R O
 8u O
 |
 | O
-Ar B-MISC
-A O
+Ar B-PER
+A I-PER
 |
 | O
 1 O
@@ -15849,26 +15849,26 @@ a O
  
 
 | O
-NS O
+NS B-ORG
 . O
 |
 | O
-Pit B-MISC
+Pit B-ORG
 |
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
-| I-MISC
-DE I-MISC
+| I-ORG
+DE I-ORG
 |
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
-| I-MISC
-< I-MISC
+| O
+< O
 . O
 " O
 |
@@ -15884,72 +15884,72 @@ A I-MISC
 | I-MISC
 N I-MISC
 |
-| O
-AEE B-ORG
+| I-MISC
+AEE I-MISC
 |
 | O
-A O
+A B-PER
 |
-| O
-D.sts O
+| I-PER
+D.sts I-PER
 |
-| O
-Ai B-MISC
-7r I-MISC
-9 I-MISC
+| I-PER
+Ai I-PER
+7r O
+9 O
 |
 | O
 11 O
 4 O
 |
 | O
-N B-ORG
-.E I-ORG
+N O
+.E O
 |
 
 
-| I-ORG
-M I-ORG
-|
-| I-ORG
-D I-ORG
-R I-ORG
-|
-| I-ORG
-N I-ORG
-|
-
-| I-ORG
+| O
 M O
 |
 | O
-D O
+D B-PER
+R I-PER
+|
+| I-PER
+N I-PER
+|
+
+| I-PER
+M I-PER
+|
+| I-PER
+D I-PER
 |
 | O
 " O
 a O
 |
 | O
-N B-LOC
+N B-ORG
 |
-| O
-i O
+| I-ORG
+i I-ORG
 |
-| O
-N O
+| I-ORG
+N I-ORG
 |
 | O
 3 O
 |
 | O
-D O
+D B-MISC
 |
  
-| O
-NES B-MISC
+| I-MISC
+NES I-MISC
 |
 | O
-NAE B-ORG
+NAE O
 |
 | O
 D B-PER
@@ -15957,8 +15957,8 @@ D B-PER
 | I-PER
 Nti I-PER
 |
-| O
-N O
+| I-PER
+N I-PER
 |
 | O
 Vi O
@@ -15967,16 +15967,16 @@ M O
 | O
 a O
 V B-PER
-frs11 I-PER
+frs11 O
 . O
 |
 | O
-Se O
-u O
+Se B-MISC
+u I-MISC
 | 
 
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 Rs O
@@ -15991,7 +15991,7 @@ M O
 |
 
 | O
-Moiti B-LOC
+Moiti O
 |
 | O
 N O
@@ -16010,7 +16010,7 @@ NS B-ORG
 |
 
 | O
-P O
+P B-LOC
 |
 | O
 A O
@@ -16029,40 +16029,40 @@ D O
 | O
 NE O
 , O
-T B-MISC
+T B-LOC
 |
-| I-MISC
-D. I-MISC
+| I-LOC
+D. I-LOC
 |
-| I-MISC
-I I-MISC
+| I-LOC
+I I-LOC
 |
-| I-MISC
-R I-MISC
+| I-LOC
+R I-LOC
 |
 
-| I-MISC
-I I-MISC
+| I-LOC
+I I-LOC
 |
-| I-MISC
-1 I-MISC
+| O
+1 O
 . O
 |
 | O
-DE O
-E B-LOC
+DE B-MISC
+E I-MISC
 |
-| O
-I O
+| I-MISC
+I I-MISC
 |
-| O
-NS B-ORG
+| I-MISC
+NS I-MISC
 |
-| O
-DE O
+| I-MISC
+DE I-MISC
 |
-| O
-N.2 B-MISC
+| I-MISC
+N.2 I-MISC
 . O
 |
  | O
@@ -16079,24 +16079,24 @@ D O
 d. O
 |
 | O
-ER B-LOC
+ER B-ORG
 |
 | O
 14 O
 m O
 |
 | O
-RTE B-PER
+RTE B-ORG
 |
-| I-PER
-D I-PER
+| I-ORG
+D I-ORG
 |
-| I-PER
-D I-PER
-T I-PER
+| I-ORG
+D I-ORG
+T I-ORG
 |
-| I-PER
-Aa B-LOC
+| I-ORG
+Aa I-ORG
 |
 
 | O
@@ -16108,24 +16108,24 @@ D O
 A O
 |
 | O
-Iu B-MISC
+Iu B-ORG
 |
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
-| I-MISC
-M I-MISC
+| I-ORG
+M I-ORG
 |
  
 
-| I-MISC
-N I-MISC
+| I-ORG
+N I-ORG
 |
 | O
-AAN B-ORG
+AAN O
 |
 | O
-MA B-ORG
+MA O
 M. O
 |
 
@@ -16134,18 +16134,18 @@ Dm O
 |
 
 | O
-AE B-ORG
+AE O
 |
 | O
-AU1 B-ORG
+AU1 B-MISC
 |
-| O
-D O
+| I-MISC
+D I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
+| I-MISC
 Hm O
 |
 | O
@@ -16166,17 +16166,17 @@ N O
 |
 
 | O
-Ni B-MISC
+Ni O
 |
 
-| I-MISC
-A I-MISC
+| O
+A B-PER
 |
-| I-MISC
-M I-MISC
+| I-PER
+M I-PER
 |
-| I-MISC
-M B-PER
+| I-PER
+M I-PER
 F I-PER
 |
 | I-PER
@@ -16192,102 +16192,102 @@ N B-ORG
 | I-ORG
 IE I-ORG
 |
- | I-ORG
-M I-ORG
+ | O
+M O
 |
- | I-ORG
-P I-ORG
+ | O
+P B-PER
 |
-| I-ORG
-DE I-ORG
+| I-PER
+DE I-PER
 |
 | O
 . O
 |
 | O
-E B-PER
-M I-PER
-E O
+E B-LOC
+M I-LOC
+E I-LOC
 |
-| O
-TMA B-LOC
-B I-LOC
+| I-LOC
+TMA O
+B O
 |
 | O
 d O
 |
 | O
-DS B-MISC
+DS B-ORG
 |
 | O
 o O
 |
 | O
-N B-LOC
+N B-PER
 |
- | I-LOC
-E I-LOC
+ | I-PER
+E I-PER
 |
-| I-LOC
-AA I-LOC
+| I-PER
+AA I-PER
 |
-| I-LOC
-D I-LOC
+| I-PER
+D I-PER
 |
 
-| I-LOC
-D I-LOC
+| I-PER
+D I-PER
 |
-| I-LOC
-D I-LOC
+| I-PER
+D I-PER
 |
-| I-LOC
-I I-LOC
+| I-PER
+I I-PER
 |
-| I-LOC
-DES I-LOC
+| I-PER
+DES I-PER
 |
-| I-LOC
-M I-LOC
+| I-PER
+M I-PER
 |
-| I-LOC
-E I-LOC
+| I-PER
+E I-PER
 |
-| I-LOC
-N I-LOC
-|
-| O
-M. O
-F O
+| I-PER
+N I-PER
 |
 | O
-A O
+M. B-PER
+F I-PER
+|
+| I-PER
+A I-PER
+|
+| I-PER
+M I-PER
+|
+| I-PER
+ITE I-PER
+|
+| I-PER
+DE I-PER
 |
 | O
-M O
+IE B-MISC
 |
-| O
-ITE O
+| I-MISC
+D I-MISC
 |
-| O
-DE O
-|
-| O
-IE O
-|
-| O
-D O
-|
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 DE,94 O
 |
 | O
-N B-ORG
+N O
 |
-| I-ORG
+| O
 R O
 |
 | O
@@ -16297,18 +16297,18 @@ N O
 1 O
 |
 | O
-I O
-P O
+I B-MISC
+P I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 
-| O
-N O
+| I-MISC
+N I-MISC
 |
-| O
-N O
+| I-MISC
+N I-MISC
 |
 | O
 . O
@@ -16322,7 +16322,7 @@ D O
 | O
 I B-MISC
 B I-MISC
-M O
+M I-MISC
 |
 | O
 18 O

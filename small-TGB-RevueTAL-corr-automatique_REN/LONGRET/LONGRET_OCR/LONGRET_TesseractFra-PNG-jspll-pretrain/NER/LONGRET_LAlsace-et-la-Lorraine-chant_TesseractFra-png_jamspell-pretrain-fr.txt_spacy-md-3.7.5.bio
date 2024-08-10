@@ -8,7 +8,7 @@ je O
 |
 
 | O
-Eæ B-PER
+Eæ B-LOC
 . O
 Lo O
 } O
@@ -22,15 +22,15 @@ Lo O
 |
 
 | O
-NT B-ORG
-fr I-ORG
-Couplet I-ORG
+NT B-MISC
+fr I-MISC
+Couplet I-MISC
 . O
 |
 | O
 Nou B-LOC
-- I-LOC
-avons I-LOC
+- O
+avons O
 fleurons O
 l O
 ’ O
@@ -55,7 +55,7 @@ cha O
 dot O
 faire O
 de O
-l’ B-LOC
+l’ O
 peine O
 , O
 |
@@ -64,8 +64,8 @@ Quoi O
 qu' O
 on O
 dit O
-qu’ B-PER
-chet I-PER
+qu’ O
+chet O
 eun O
 ? O
 destinée O
@@ -76,15 +76,15 @@ On O
 a O
 vu O
 dans O
-cheull B-MISC
-mardi I-MISC
-guerre I-MISC
+cheull O
+mardi O
+guerre O
 , O
 |
 | O
-Par O
-des O
-barbares O
+Par B-MISC
+des I-MISC
+barbares I-MISC
 , O
 même O
 des O
@@ -94,7 +94,7 @@ bourreaux O
 
 | O
 : O
-Réduire B-PER
+Réduire O
 en O
 ’ O
 puissance O
@@ -104,8 +104,8 @@ entière O
 |
 
 | O
-En O
-ruine O
+En B-MISC
+ruine I-MISC
 , O
 à O
 l O
@@ -123,16 +123,16 @@ Refrain B-PER
 |
 
 | O
-Point O
-d' O
-désespoir O
+Point B-MISC
+d' I-MISC
+désespoir I-MISC
 , O
 car O
 nos O
 infants O
 |
 | O
-Crieront B-LOC
+Crieront B-PER
 victoire O
 avant O
 dix O
@@ -160,7 +160,7 @@ guerre B-MISC
 | I-MISC
 Que I-MISC
 ce' I-MISC
-n’ I-MISC
+n’ O
 est O
 point O
 pour O
@@ -175,7 +175,7 @@ Mais O
 chés O
 entrailles O
 remplis O
-d’ B-MISC
+d’ O
 misère O
 , O
 |
@@ -184,7 +184,7 @@ misère O
 N O
 ' O
 s' O
-oPtent B-MISC
+oPtent B-ORG
 point O
 ch' O
 que O
@@ -222,21 +222,21 @@ r’tourne O
 dins O
 ch O
 ’ O
-pays B-LOC
-d I-LOC
-’ I-LOC
-avranches I-LOC
+pays O
+d O
+’ O
+avranches B-LOC
 |
 | O
-Nous B-MISC
-leu I-MISC
-rindrons I-MISC
-du I-MISC
-bure I-MISC
-pou O
+Nous B-PER
+leu I-PER
+rindrons I-PER
+du I-PER
+bure I-PER
+pou I-PER
 d’ O
-z’ B-MISC
-ués O
+z’ B-PER
+ués I-PER
 . O
 |
 
@@ -247,14 +247,14 @@ Couplet B-LOC
 |
 
 | O
-Dites O
+Dites B-LOC
 m' O
 un O
 peu O
 si O
 ce O
 ’ O
-n’ B-PER
+n’ O
 est O
 point O
 cruel O
@@ -280,17 +280,17 @@ fidèles O
 
 | O
 Et O
-s’ B-LOC
+s’ O
 vir O
 au O
 pouvoir O
 des O
-Prussiens B-MISC
+Prussiens B-LOC
 . O
 . O
 |
 | O
-Chés O
+Chés B-LOC
 bonnes O
 gins O
 dotent O
@@ -306,7 +306,7 @@ s' O
 vir O
 égorger O
 la O
-d’ B-LOC
+d’ O
 s' O
 idiots O
 , O
@@ -351,11 +351,11 @@ LONGUET I-PER
 
 | O
 Air B-ORG
-: I-ORG
-le I-ORG
-Jour I-ORG
-de I-ORG
-Bonheur I-ORG
+: O
+le O
+Jour B-MISC
+de I-MISC
+Bonheur I-MISC
 , O
 |
 
@@ -364,9 +364,9 @@ Lille B-LOC
 , O
 Imp B-LOC
 . O
-Six B-LOC
-- I-LOC
-Horemans I-LOC
+Six O
+- O
+Horemans O
 . O
 73 O
 - O
@@ -375,13 +375,13 @@ Horemans I-LOC
 |
 
 | O
-DODOPDOOOC O
-DOoCGCOC O
+DODOPDOOOC B-ORG
+DOoCGCOC B-LOC
 |
 
-| O
+| I-LOC
 4e O
-Couplet O
+Couplet B-LOC
 , O
 |
 
@@ -394,15 +394,15 @@ s O
 diable' O
 s O
 in O
-Lorraine B-LOC
+Lorraine O
 , O
 |
 | O
 On O
 l O
 ’ O
-s’ B-MISC
-intind I-MISC
+s’ O
+intind O
 crier O
 tour O
 à O
@@ -419,9 +419,9 @@ viens O
 nous O
 r’tirer O
 de O
-J B-MISC
-’ I-MISC
-peine I-MISC
+J B-PER
+’ O
+peine O
 , O
 |
 | O
@@ -442,10 +442,10 @@ A O
 chés O
 barbares O
 , O
-chel B-PER
-- I-PER
-y I-PER
-pénible I-PER
+chel O
+- O
+y O
+pénible O
 , O
 |
 
@@ -458,19 +458,19 @@ soumet O
 à O
 Jeu B-MISC
 loi I-MISC
-dictée I-MISC
+dictée O
 . O
 |
 
 | O
-Vivre B-LOC
+Vivre O
 comme O
 cha O
 , O
 noa O
 ! O
-chet O
-impossible O
+chet B-PER
+impossible I-PER
 , O
 |
 | O
@@ -487,7 +487,7 @@ délivrer O
 | O
 5 O
 " O
-Couplet B-PER
+Couplet B-LOC
 . O
 |
 | O
@@ -502,9 +502,9 @@ point O
 royale O
 |
 | O
-Tous O
-|||| O
-’ O
+Tous B-MISC
+|||| I-MISC
+’ I-MISC
 s’ O
 atrocités O
 qui O
@@ -513,9 +513,9 @@ fait O
 , O
 |
 | O
-Faut B-LOC
-qui O
-ench' O
+Faut B-MISC
+qui I-MISC
+ench' I-MISC
 tent O
 l O
 ' O
@@ -523,7 +523,7 @@ cœur O
 du O
 dur O
 que O
-l’ B-LOC
+l’ O
 diable O
 . O
 |
@@ -531,7 +531,7 @@ diable O
 On O
 frot O
 bien O
-d’ B-MISC
+d’ O
 les O
 civiliser O
 . O
@@ -545,8 +545,8 @@ certains O
 villages O
 |
 | O
-L’ B-PER
-s’ I-PER
+L’ O
+s’ O
 habitants O
 définie O
 le O
@@ -571,7 +571,7 @@ bandits O
 | O
 6 O
 ° O
-Couplet B-PER
+Couplet B-LOC
 . O
 |
 | O
@@ -586,10 +586,10 @@ Alsace B-LOC
 , O
 |
 | O
-Pu B-MISC
-d’ I-MISC
-un I-MISC
-cœur I-MISC
+Pu B-LOC
+d’ O
+un O
+cœur O
 bat O
 in O
 soupirant O
@@ -621,7 +621,7 @@ viendra O
 le’ O
 jour O
 de O
-l’ B-LOC
+l’ O
 délivrance O
 , O
 |
@@ -635,7 +635,7 @@ bras O
 , O
 |
 | O
-Ja B-LOC
+Ja B-MISC
 criant O
 : O
 merci O
@@ -663,7 +663,7 @@ Refrain B-PER
 | O
 A B-MISC
 d’ I-MISC
-désespoir O
+désespoir I-MISC
 , O
 car O
 nos O
@@ -681,19 +681,19 @@ combattant I-MISC
 0 O
 |
 | O
-C0 B-LOC
+C0 B-MISC
 |
-| O
-ô O
+| I-MISC
+ô I-MISC
 |
 
-| O
-S B-PER
-» O
-H B-PER
-f I-PER
-D I-PER
-ve I-PER
+| I-MISC
+S I-MISC
+» I-MISC
+H I-MISC
+f I-MISC
+D I-MISC
+ve I-MISC
 |
 | O
 11 O
@@ -707,17 +707,17 @@ Se O
 707 O
 |
 | O
-Source B-ORG
-gallica.bnf.fr I-ORG
-/ I-ORG
-Bibliothèque I-ORG
-nationale I-ORG
-de I-ORG
-France I-ORG
+Source O
+gallica.bnf.fr O
+/ O
+Bibliothèque B-LOC
+nationale I-LOC
+de I-LOC
+France I-LOC
 |
 
-| I-ORG
-Jouons I-ORG
+| I-LOC
+Jouons I-LOC
 |
 
 | O
@@ -725,11 +725,11 @@ gidweort O
 th O
 |
 | O
-Hat B-MISC
+Hat O
 |
 
-| I-MISC
-Latin I-MISC
+| O
+Latin O
 ub-04 O
 1097 O
 |
@@ -747,12 +747,12 @@ ASE B-ORG
 ent O
 et O
 " O
-J O
-|||| O
-“ O
-lébr O
-# O
-1 O
+J B-MISC
+|||| I-MISC
+“ I-MISC
+lébr I-MISC
+# I-MISC
+1 I-MISC
 : O
 |
 
@@ -769,9 +769,9 @@ iso B-MISC
 uicn B-MISC
 # I-MISC
 |
-| O
-|||| O
-38301 O
+| I-MISC
+|||| I-MISC
+38301 I-MISC
 114490 O
 |
 
@@ -788,29 +788,29 @@ ie O
 ot O
 |
 | O
-Devions B-PER
+Devions O
 dt O
 trottoir O
 ff O
-Î B-MISC
-2ühdi I-MISC
-E I-MISC
-’ I-MISC
-É I-MISC
-L I-MISC
+Î B-LOC
+2ühdi O
+E O
+’ O
+É O
+L O
 se O
 15888 O
 oi O
-vd O
+vd B-PER
 |
 | O
 { O
-uhodiunt O
-296 O
-‘ O
-np O
-toit O
-x B-ORG
+uhodiunt B-ORG
+296 I-ORG
+‘ I-ORG
+np I-ORG
+toit I-ORG
+x I-ORG
 din I-ORG
 ÉICED I-ORG
 |
@@ -824,8 +824,8 @@ es O
 : O
 à O
 . O
-TE B-ORG
+TE B-LOC
 |
 
  
-| I-ORG
+| O

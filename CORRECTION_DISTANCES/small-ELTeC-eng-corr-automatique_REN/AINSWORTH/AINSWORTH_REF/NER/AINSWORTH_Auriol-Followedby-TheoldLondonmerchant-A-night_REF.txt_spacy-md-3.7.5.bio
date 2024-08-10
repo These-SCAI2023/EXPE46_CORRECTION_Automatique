@@ -1,43 +1,43 @@
 |
   
   | O
-AURIOL O
+AURIOL B-ORG
 | 
   | O
 or O
-The B-WORK_OF_ART
-Elixir I-WORK_OF_ART
-of I-WORK_OF_ART
-Life I-WORK_OF_ART
+The B-ORG
+Elixir I-ORG
+of I-ORG
+Life I-ORG
 | 
-  | I-WORK_OF_ART
-William I-WORK_OF_ART
-Harrison I-WORK_OF_ART
-Ainsworth I-WORK_OF_ART
+  | I-ORG
+William I-ORG
+Harrison I-ORG
+Ainsworth I-ORG
 | 
-  | I-WORK_OF_ART
-With I-WORK_OF_ART
-Illustrations I-WORK_OF_ART
-by I-WORK_OF_ART
-H. I-WORK_OF_ART
-K. I-WORK_OF_ART
-Browne I-WORK_OF_ART
+  | I-ORG
+With I-ORG
+Illustrations I-ORG
+by I-ORG
+H. I-ORG
+K. I-ORG
+Browne I-ORG
 | 
   
-  | I-WORK_OF_ART
-Prologue O
+  | I-ORG
+Prologue I-ORG
 | 
-  | O
-1599 B-DATE
+  | I-ORG
+1599 I-ORG
 | 
-    | O
+    | I-ORG
 Dr. O
 Lamb B-PERSON
 |   
-  | O
-The O
-Sixteenth O
-Century O
+  | I-PERSON
+The B-DATE
+Sixteenth I-DATE
+Century I-DATE
 drew O
 to O
 a O
@@ -65,8 +65,8 @@ to O
 the O
 birth O
 of O
-another B-DATE
-year I-DATE
+another O
+year O
 and O
 of O
 another B-DATE
@@ -90,13 +90,13 @@ deep O
 vault O
 of O
 heaven O
-; O
+  O
 the O
 |
      | O
 crescent O
-moon B-PERSON
-hung I-PERSON
+moon O
+hung O
 like O
 a O
 silver O
@@ -106,7 +106,7 @@ the O
 midst O
 of O
 them O
-; O
+  O
 a O
 stream O
 of O
@@ -133,7 +133,7 @@ of O
 some O
 stupendous O
 comet O
-; O
+  O
 while O
 |
      | O
@@ -172,7 +172,7 @@ A O
 sharp O
 frost O
 prevailed O
-; O
+  O
 but O
 the O
 atmosphere O
@@ -235,7 +235,7 @@ to O
 horsemen O
 and O
 vehicles O
-; O
+  O
 but O
 the O
 footways O
@@ -290,7 +290,7 @@ draughts O
 of O
 |
      | O
-metheglin B-PERSON
+metheglin O
 and O
 ale O
 out O
@@ -317,7 +317,7 @@ heavens O
 , O
 and O
 drawing O
-auguries O
+auguries B-DATE
 from O
 them O
 , O
@@ -387,7 +387,7 @@ her O
 successor O
 , O
 James B-PERSON
-of I-PERSON
+of O
 Scotland B-GPE
 . O
 | 
@@ -455,7 +455,7 @@ in O
 their O
 diamond O
 panes O
-; O
+  O
 while O
 , O
 whenever O
@@ -505,7 +505,7 @@ blind O
 - O
 man O
 ’s O
-buff B-PERSON
+buff B-ORG
 , O
 or O
 |
@@ -638,10 +638,10 @@ was O
 the O
 vigil O
 of O
-the O
-year O
-sixteen O
-hundred O
+the B-DATE
+year I-DATE
+sixteen I-DATE
+hundred I-DATE
 . O
 | 
   | O
@@ -722,7 +722,7 @@ his O
 |
      | O
 girdle O
-; O
+  O
 so O
 were O
 the O
@@ -770,7 +770,7 @@ noble O
 and O
 majestic O
 cast O
-; O
+  O
 and O
 his O
 figure O
@@ -972,8 +972,8 @@ the O
      | O
 position O
 of O
-the B-LOC
-moon I-LOC
+the O
+moon O
 with O
 reference O
 to O
@@ -1061,7 +1061,7 @@ poles O
      | O
 fifteen B-QUANTITY
 or I-QUANTITY
-sixteen I-QUANTITY
+sixteen B-QUANTITY
 feet I-QUANTITY
 high O
 , O
@@ -1269,7 +1269,7 @@ to O
 draw O
 his O
 sword O
-; O
+  O
 but O
 before O
 he O
@@ -1325,7 +1325,7 @@ kill O
 him O
 , O
 good O
-Baldred B-PERSON
+Baldred B-NORP
 , O
 ” O
 he O
@@ -1393,8 +1393,8 @@ doctor O
 , O
 ” O
 replied O
-Baldred B-PERSON
-; O
+Baldred O
+  O
 “ O
 and O
 if O
@@ -1453,7 +1453,7 @@ it O
 replied O
 Doctor O
 Lamb B-PERSON
-; O
+  O
 “ O
 and O
 you O
@@ -1501,7 +1501,7 @@ papists O
 , O
 ” O
 replied O
-Baldred B-PERSON
+Baldred O
 , O
 “ O
 who O
@@ -1514,10 +1514,10 @@ Tower B-FAC
 Hill I-FAC
 , O
 on O
-Saint B-LOC
-Nicholas I-LOC
-’s I-LOC
-Day I-LOC
+Saint B-FAC
+Nicholas I-FAC
+’s I-FAC
+Day I-FAC
 , O
 three B-DATE
 weeks I-DATE
@@ -1639,7 +1639,7 @@ youth O
 , O
 ” O
 replied O
-Baldred B-PERSON
+Baldred O
 , O
 holding O
 down O
@@ -1687,7 +1687,7 @@ book O
 from O
 his O
 doublet O
-; O
+  O
 “ O
 these O
 may O
@@ -1724,8 +1724,8 @@ the O
      | O
 others O
 — O
-Auriol O
-Darcy B-PERSON
+Auriol B-PERSON
+Darcy I-PERSON
 . O
 ” O
 | 
@@ -1759,7 +1759,7 @@ to O
 my O
 dwelling O
 , O
-Baldred B-PERSON
+Baldred B-NORP
 , O
 and O
 you O
@@ -1857,7 +1857,7 @@ wonders O
 , O
 ” O
 cried O
-Baldred B-PERSON
+Baldred B-LANGUAGE
 , O
 throwing O
 the O
@@ -1938,12 +1938,12 @@ put O
 to O
 excruciating O
 pain O
-; O
+  O
 and O
 |
      | O
 when O
-Baldred B-PERSON
+Baldred B-NORP
 placed O
 him O
 on O
@@ -1986,7 +1986,7 @@ him O
 murmured O
 the O
 gatekeeper O
-; O
+  O
 “ O
 I O
 shall O
@@ -2109,7 +2109,7 @@ of O
 the O
 muscles O
 subsided O
-; O
+  O
 the O
 features O
 assumed O
@@ -2300,7 +2300,7 @@ they O
 lighted O
 it O
 up O
-; O
+  O
 but O
 notwithstanding O
 its O
@@ -2426,7 +2426,7 @@ sir O
 , O
 ” O
 replied O
-Baldred B-PERSON
+Baldred O
 . O
 “ O
 I O
@@ -2502,7 +2502,7 @@ a O
 look O
 of O
 gratitude O
-; O
+  O
 “ O
 the O
 torture O
@@ -2615,7 +2615,7 @@ then O
 replied O
 Auriol B-PERSON
 faintly O
-; O
+  O
 “ O
 for O
 though O
@@ -2655,7 +2655,7 @@ me O
 , O
 ” O
 said O
-Baldred B-PERSON
+Baldred B-NORP
 . O
 “ O
 Doctor O
@@ -2714,7 +2714,7 @@ him O
 replied O
 Auriol B-PERSON
 faintly O
-; O
+  O
 “ O
 but O
 take O
@@ -2791,9 +2791,9 @@ Flapdragon B-GPE
 . O
 | 
   | O
-Blear B-GPE
-- O
-eyed O
+Blear B-ORG
+- I-ORG
+eyed I-ORG
 , O
 smoke O
 - O
@@ -2854,7 +2854,7 @@ the O
 halberd O
 with O
 which O
-Auriol B-PERSON
+Auriol B-ORG
 had O
 been O
 wounded O
@@ -2876,7 +2876,7 @@ eh O
 ? O
 ” O
 cried O
-Baldred B-PERSON
+Baldred B-LANGUAGE
 . O
 | 
   | O
@@ -2941,11 +2941,11 @@ then O
 on O
 the O
 other O
-; O
+  O
 next O
 wiped O
 it O
-; O
+  O
 and O
 then O
 smeared O
@@ -2969,8 +2969,8 @@ pain O
 , O
 ” O
 replied O
-Baldred B-PERSON
-; O
+Baldred O
+  O
 “ O
 but O
 help O
@@ -3002,7 +3002,7 @@ disturbed O
 , O
 ” O
 said O
-Flapdragon B-PERSON
+Flapdragon B-ORG
 . O
 “ O
 He O
@@ -3030,7 +3030,7 @@ myself O
 , O
 ” O
 said O
-Baldred B-PERSON
+Baldred B-NORP
 . O
 “ O
 The O
@@ -3179,9 +3179,9 @@ to O
 me O
 on O
 the O
-morrow O
+morrow B-DATE
 , O
-Baldred B-PERSON
+Baldred B-NORP
 , O
 and O
 I O
@@ -3261,17 +3261,17 @@ cried O
 Doctor O
 Lamb B-PERSON
 impatiently O
-; O
+  O
 |
      | O
 “ O
 to O
 - O
-morrow O
+morrow B-DATE
 — O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
 ” O
 | 
@@ -3289,13 +3289,13 @@ shrugging O
 his O
 shoulders O
 , O
-Baldred B-PERSON
+Baldred B-NORP
 departed O
-; O
+  O
 |
      | O
 and O
-Flapdragon B-GPE
+Flapdragon B-ORG
 having O
 bathed O
 the O
@@ -3392,7 +3392,7 @@ by O
 the O
 stimulant O
 , O
-Auriol B-PERSON
+Auriol B-ORG
 presently O
 opened O
 his O
@@ -3543,7 +3543,7 @@ mysterious O
 symbols O
 of O
 the O
-Isaical O
+Isaical B-PRODUCT
 table O
 . O
 Near O
@@ -3626,7 +3626,7 @@ sages O
 , O
 “ O
 the O
-Malachim O
+Malachim B-PRODUCT
 , O
 ” O
 and O
@@ -3832,7 +3832,7 @@ two B-CARDINAL
      | O
 skeletons O
 , O
-one O
+one B-CARDINAL
 of O
 which O
 , O
@@ -3992,7 +3992,7 @@ toads O
 bursting O
 with O
 venom O
-; O
+  O
 the O
 long O
 - O
@@ -4003,7 +4003,7 @@ heads O
 became O
 monstrous O
 serpents O
-; O
+  O
 the O
 |
      | O
@@ -4014,21 +4014,21 @@ pipes O
 turned O
 into O
 adders O
-; O
+  O
 the O
-alembics O
+alembics B-GPE
 looked O
 like O
 plumed O
 helmets O
-; O
+  O
 the O
 characters O
 on O
 |
      | O
 the O
-Isaical O
+Isaical B-LOC
 table O
 , O
 and O
@@ -4047,7 +4047,7 @@ to O
 be O
 ever O
 changing O
-; O
+  O
 |
      | O
 the O
@@ -4070,7 +4070,7 @@ burst O
 from O
 his O
 hook O
-; O
+  O
 the O
 |
      | O
@@ -4097,7 +4097,7 @@ in O
 their O
 eyeless O
 sockets O
-; O
+  O
 the O
 bellows O
 became O
@@ -4112,7 +4112,7 @@ its O
 |
      | O
 wings O
-; O
+  O
 and O
 the O
 old O
@@ -4122,7 +4122,7 @@ the O
 appearance O
 of O
 the O
-archfiend O
+archfiend B-ORG
 presiding O
 over O
 a O
@@ -4164,7 +4164,7 @@ thus O
 they O
 pursued O
 him O
-; O
+  O
 and O
 he O
 imagined O
@@ -4302,10 +4302,10 @@ to O
 |
      | O
 see O
-the B-DATE
-opening I-DATE
-of I-DATE
-centuries I-DATE
+the O
+opening O
+of O
+centuries O
 and O
 centuries O
 to O
@@ -4335,11 +4335,11 @@ the O
 instructions O
 of O
 the O
-Rabbi O
-Ben O
+Rabbi B-PERSON
+Ben I-PERSON
 |
-     | O
-Lucca O
+     | I-PERSON
+Lucca I-PERSON
 — O
 namely O
 , O
@@ -4437,7 +4437,7 @@ cried O
 , O
 after O
 a O
-pause—“to B-PRODUCT
+pause—“to B-NORP
 escape O
 the O
 jaws O
@@ -4471,12 +4471,12 @@ me O
 |
      | O
 the O
-rabbi O
+rabbi B-PERSON
 said O
 there O
 was O
 |  | O
-one O
+one B-CARDINAL
 |  | O
 peril O
 against O
@@ -4491,7 +4491,7 @@ guard O
 me O
 — O
 | | O
-one O
+one B-CARDINAL
 |  | O
 vulnerable O
 point O
@@ -4503,7 +4503,7 @@ like O
 the O
 heel O
 of O
-Achilles B-GPE
+Achilles B-PERSON
 , O
 death O
 might O
@@ -4543,7 +4543,7 @@ happiness O
 ” O
 he O
 continued O
-; O
+  O
 “ O
 I O
 shall O
@@ -4961,7 +4961,7 @@ have O
 stained O
 my O
 soul O
-; O
+  O
 but O
 both O
 , O
@@ -5158,7 +5158,7 @@ he O
 unfolded O
 the O
 mystery O
-; O
+  O
 but O
 he O
 bade O
@@ -5306,7 +5306,7 @@ plunged O
 it O
 to O
 the O
-rabbi O
+rabbi B-PERSON
 ’s O
 heart O
 . O
@@ -5328,7 +5328,7 @@ and O
 obliterated O
 the O
 characters O
-; O
+  O
 nor O
 could O
 I O
@@ -5371,8 +5371,8 @@ night O
 , O
 ” O
 replied O
-Darcy—“within O
-this B-TIME
+Darcy—“within B-TIME
+this I-TIME
 hour I-TIME
 . O
 For O
@@ -5434,7 +5434,7 @@ into O
 sol O
 and O
 luna O
-; O
+  O
 but O
 I O
 have O
@@ -5480,7 +5480,7 @@ liquid O
 I O
 did O
 so O
-; O
+  O
 and O
 doubting O
 the O
@@ -5947,7 +5947,7 @@ capons O
 nourished O
 with O
 vipers O
-; O
+  O
 |
      | O
 caused O
@@ -5964,7 +5964,7 @@ from O
 roses O
 and O
 violets O
-; O
+  O
 and O
 had O
 |
@@ -6085,7 +6085,7 @@ entertained O
 for O
 my O
 lost O
-Amice B-ORG
+Amice O
 — O
 never O
 more O
@@ -6157,7 +6157,7 @@ animal O
 No O
 — O
 no O
-; O
+  O
 it O
 is O
 the O
@@ -6205,7 +6205,7 @@ was O
 at O
 |
      | O
-twenty O
+twenty B-CARDINAL
 . O
 ” O
 | 
@@ -6256,7 +6256,7 @@ afraid O
 ” O
 replied O
 Darcy B-PERSON
-; O
+  O
 “ O
 you O
 shall O
@@ -6270,7 +6270,7 @@ care O
 for O
 you O
 presently O
-; O
+  O
 and O
 I O
 |
@@ -6326,7 +6326,7 @@ man O
 raising O
 the O
 phial O
-; O
+  O
 “ O
 but O
 now O
@@ -6380,7 +6380,7 @@ breast O
 . O
 “ O
 No O
-; O
+  O
 I O
 will O
 be O
@@ -6528,7 +6528,7 @@ stir O
 , O
 ” O
 groaned O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 You O
@@ -6563,7 +6563,7 @@ his O
 palsied O
 |
      | O
-arm,—“perish O
+arm,—“perish B-NORP
 with O
 the O
 blissful O
@@ -6705,7 +6705,7 @@ Auriol B-PERSON
 snatching O
 the O
 potion O
-; O
+  O
 “ O
 no O
 — O
@@ -6860,7 +6860,7 @@ together O
 yet O
 remained O
 uninjured O
-; O
+  O
 the O
 furnace O
 breathed O
@@ -6869,7 +6869,7 @@ flames O
 and O
 mephitic O
 vapours O
-; O
+  O
 the O
 spiral O
 worm O
@@ -6888,7 +6888,7 @@ filled O
 with O
 molten O
 lead O
-; O
+  O
 the O
 pipe O
 of O
@@ -6900,7 +6900,7 @@ head O
      | O
 ran O
 blood O
-; O
+  O
 the O
 sphere O
 of O
@@ -6925,13 +6925,13 @@ by O
 a O
 giant O
 hand O
-; O
+  O
 the O
 skeletons O
 grinned O
 and O
 gibbered O
-; O
+  O
 so O
 did O
 the O
@@ -6943,7 +6943,7 @@ the O
 |
      | O
 table O
-; O
+  O
 so O
 did O
 the O
@@ -6951,7 +6951,7 @@ skulls O
 against O
 the O
 chimney O
-; O
+  O
 the O
 monstrous O
 sea O
@@ -6964,7 +6964,7 @@ and O
 |
      | O
 smoke O
-; O
+  O
 the O
 bald O
 , O
@@ -6989,7 +6989,7 @@ the O
      | O
 young O
 man O
-; O
+  O
 while O
 the O
 dead O
@@ -7036,7 +7036,7 @@ the O
 lamp O
 had O
 expired O
-; O
+  O
 but O
 the O
 bright O
@@ -7075,7 +7075,7 @@ him O
 . O
 | 
   | O
-Eager O
+Eager B-PERSON
 to O
 test O
 the O
@@ -7101,7 +7101,7 @@ the O
 wound O
 were O
 gone O
-; O
+  O
 nor O
 did O
 he O
@@ -7232,7 +7232,7 @@ thought O
 “ O
 and O
 scarcely O
-one O
+one B-CARDINAL
 soul O
 of O
 the O
@@ -7352,7 +7352,7 @@ occurrence O
 “ O
 There O
 is O
-one B-CARDINAL
+one O
 peril O
 to O
 be O
@@ -7361,9 +7361,9 @@ avoided O
 ” O
 he O
 thought O
-; O
+  O
 ” O
-ONE O
+ONE B-CARDINAL
 PERIL!—what O
 is O
 it O
@@ -7421,7 +7421,7 @@ he O
 |
      | O
 found O
-Flapdragon B-PERSON
+Flapdragon B-GPE
 , O
 passed O
 out O
@@ -7447,9 +7447,9 @@ Vauxhall I-FAC
 Road I-FAC
 | 
   | I-FAC
-Late I-FAC
-one O
-night O
+Late B-TIME
+one I-TIME
+night I-TIME
 , O
 in O
 the B-DATE
@@ -7484,10 +7484,10 @@ in O
 the O
 direction O
 of O
-Vauxhall B-PERSON
+Vauxhall B-ORG
 |
-     | I-PERSON
-Bridge I-PERSON
+     | I-ORG
+Bridge I-ORG
 . O
 Avoiding O
 the O
@@ -7574,7 +7574,7 @@ in O
 their O
 favour O
 . O
-Haggard O
+Haggard B-PERSON
 features O
 , O
 stamped O
@@ -7588,19 +7588,19 @@ and O
 |
      | O
 debauchery O
-; O
+  O
 fierce O
 , O
 restless O
 eyes O
-; O
+  O
 beards O
 of O
-several O
-days O
-’ O
+several B-DATE
+days I-DATE
+’ I-DATE
 growth O
-; O
+  O
 wild O
 , O
 unkempt O
@@ -7615,7 +7615,7 @@ their O
 chief O
 personal O
 characteristics O
-; O
+  O
 while O
 sordid O
 and O
@@ -7649,14 +7649,14 @@ them O
 was O
 tall O
 and O
-gaunt B-PERSON
+gaunt O
 , O
 with O
 large O
 hands O
 and O
 feet O
-; O
+  O
 but O
 despite O
 his O
@@ -7854,7 +7854,7 @@ word O
 passed O
 between O
 them O
-; O
+  O
 but O
 keeping O
 a O
@@ -7908,7 +7908,7 @@ betokening O
 some O
 passing O
 craft O
-; O
+  O
 but O
 generally O
 all O
@@ -7970,7 +7970,7 @@ only O
 be O
 imperfectly O
 discerned O
-; O
+  O
 but O
 the O
 moonlight O
@@ -8022,7 +8022,7 @@ like O
 pile O
 of O
 the O
-Penitentiary B-ORG
+Penitentiary O
 — O
 perhaps O
 the O
@@ -8070,7 +8070,7 @@ saw O
 nothing O
 of O
 them O
-; O
+  O
 but O
 , O
 on O
@@ -8151,7 +8151,7 @@ in O
 this O
 matter O
 , O
-Tinker B-PERSON
+Tinker B-ORG
 ? O
 ” O
 observed O
@@ -8190,7 +8190,7 @@ can O
 for O
 myself O
 , O
-Sandman B-PRODUCT
+Sandman B-PERSON
 , O
 ” O
 replied O
@@ -8198,7 +8198,7 @@ the O
 |
      | O
 other O
-; O
+  O
 “ O
 but O
 if O
@@ -8220,7 +8220,7 @@ be O
 there O
 . O
 I O
-heerd O
+heerd B-PERSON
 him O
 say O
 , O
@@ -8241,7 +8241,7 @@ here O
 to O
 - O
 morrow O
-night O
+night B-TIME
 — O
 at O
 the B-TIME
@@ -8263,12 +8263,12 @@ o’clock O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
 “ O
-Thereabouts B-PERSON
+Thereabouts B-WORK_OF_ART
 , O
 ” O
 replied O
@@ -8289,7 +8289,7 @@ to O
 ” O
 demanded O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -8304,7 +8304,7 @@ s’pose O
 answered O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 for O
 , O
@@ -8341,7 +8341,7 @@ perfession O
 ” O
 inquired O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -8359,13 +8359,13 @@ n’t O
 ” O
 returned O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 He O
 ’s O
 a O
-reg’lar O
+reg’lar B-GPE
 slap O
 - O
 up O
@@ -8385,7 +8385,7 @@ all O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Many O
@@ -8444,7 +8444,7 @@ say O
 replied O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 and O
 it O
@@ -8472,7 +8472,7 @@ bit O
 ” O
 rejoined O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 “ O
 except O
@@ -8484,13 +8484,13 @@ worn’t O
 a O
 sperrit O
 , O
-Tinker B-PERSON
+Tinker B-ORG
 . O
 I O
 ’ve O
 |
      | O
-heerd O
+heerd B-PERSON
 say O
 that O
 this O
@@ -8524,13 +8524,13 @@ customer O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 you O
 ’ll O
 find O
 our O
-svell O
+svell B-ORG
 raal O
 flesh O
 and O
@@ -8547,7 +8547,7 @@ replied O
 the O
 |
      | O
-Tinker B-PRODUCT
+Tinker B-ORG
 . O
 “ O
 So O
@@ -8607,12 +8607,12 @@ which O
 brought O
 them O
 into O
-the B-FAC
-Vauxhall I-FAC
+the O
+Vauxhall O
 |
-     | I-FAC
-Bridge I-FAC
-Road I-FAC
+     | O
+Bridge O
+Road O
 . O
 | 
   | O
@@ -8653,8 +8653,8 @@ were O
 seen O
 advancing O
 from O
-Belvoir B-ORG
-Terrace I-ORG
+Belvoir B-FAC
+Terrace I-FAC
 , O
 and O
 , O
@@ -8664,8 +8664,8 @@ the O
      | O
 guardians O
 of O
-the O
-night B-TIME
+the B-TIME
+night I-TIME
 drew O
 near O
 , O
@@ -8746,7 +8746,7 @@ vulgarly O
 called O
 “ O
 in O
-Chancery O
+Chancery B-ORG
 , O
 ” O
 and O
@@ -8844,7 +8844,7 @@ avoided O
 by O
 passengers O
 after O
-nightfall O
+nightfall B-TIME
 . O
 | 
   | O
@@ -8905,7 +8905,7 @@ the O
 gaze O
 of O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 |
      | O
@@ -9048,7 +9048,7 @@ and O
 colossal O
 head O
 of O
-Neptune B-ORG
+Neptune B-LOC
 , O
 which O
 had O
@@ -9273,7 +9273,7 @@ means O
 of O
 crossing O
 from O
-one O
+one B-CARDINAL
 side O
 of O
 the O
@@ -9298,7 +9298,7 @@ a O
 couple O
 of O
 planks O
-; O
+  O
 though O
 as O
 the O
@@ -9385,7 +9385,7 @@ companion O
 | 
   | O
 The O
-Sandman B-ORG
+Sandman B-PERSON
 jumped O
 down O
 . O
@@ -9397,12 +9397,12 @@ ale O
 I O
 drank O
 at O
-the B-FAC
-‘ I-FAC
-Two I-FAC
-Fighting I-FAC
-Cocks I-FAC
-’ O
+the B-EVENT
+‘ I-EVENT
+Two I-EVENT
+Fighting I-EVENT
+Cocks I-EVENT
+’ I-EVENT
 has O
 made O
 me O
@@ -9422,7 +9422,7 @@ himself O
 on O
 the O
 bulk O
-; O
+  O
 “ O
 I O
 ’ll O
@@ -9455,7 +9455,7 @@ replied O
 in O
 the O
 affirmative O
-; O
+  O
 and O
 the O
 other O
@@ -9480,7 +9480,7 @@ side O
 and O
 his O
 companion O
-whispered—“He O
+whispered—“He B-GPE
 ’s O
 here O
 ! O
@@ -9488,14 +9488,14 @@ here O
 | 
   | O
 “ O
-Vhere B-WORK_OF_ART
+Vhere B-FAC
 — O
 vhere O
 ? O
 ” O
 demanded O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 in O
 some O
@@ -9595,7 +9595,7 @@ and O
 well O
 - O
 proportioned O
-; O
+  O
 and O
 the O
 general O
@@ -9648,7 +9648,7 @@ sleep O
 ” O
 muttered O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 He O
@@ -9743,7 +9743,7 @@ him O
 ” O
 whispered O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Vot O
@@ -9770,7 +9770,7 @@ me O
 cried O
 the O
 young O
-man—“why B-WORK_OF_ART
+man—“why B-LANGUAGE
 do O
 you O
 beckon O
@@ -9817,7 +9817,7 @@ door O
 ” O
 cried O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Let O
@@ -9839,7 +9839,7 @@ it O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 his O
 teeth O
@@ -9870,7 +9870,7 @@ Tut O
 cried O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 it O
 ’s O
@@ -9934,7 +9934,7 @@ a O
 sign O
 to O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 who O
 was O
@@ -9951,7 +9951,7 @@ on O
 all O
 |
      | O
-fours O
+fours B-CARDINAL
 , O
 and O
 , O
@@ -10098,7 +10098,7 @@ window O
 . O
 | 
   | O
-Hastily O
+Hastily B-PERSON
 retreating O
 to O
 their O
@@ -10185,13 +10185,13 @@ Now O
 , O
 then O
 , O
-Sandman B-PRODUCT
+Sandman B-PERSON
 ! O
 ” O
 cried O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 now O
 ’s O
@@ -10262,7 +10262,7 @@ the O
 presence O
 of O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 when O
 the O
@@ -10310,7 +10310,7 @@ dark O
 |
      | O
 lantern O
-; O
+  O
 “ O
 let O
 ’s O
@@ -10332,12 +10332,12 @@ Agreed O
 replied O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 but O
 first B-ORDINAL
 let O
-’s B-NORP
+’s O
 see O
 wot O
 he O
@@ -10360,7 +10360,7 @@ art O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 searching O
 the O
@@ -10390,7 +10390,7 @@ body O
 ‘ O
 ud O
 tell O
-awkvard O
+awkvard B-GPE
 tales O
 if O
 any O
@@ -10455,7 +10455,7 @@ fool O
 ” O
 cried O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 springing O
 into O
@@ -10617,7 +10617,7 @@ mark O
 |
      | O
 the O
-ruffian B-NORP
+ruffian O
 kicked O
 the O
 lantern O
@@ -10629,7 +10629,7 @@ and O
 sprang O
 after O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 who O
 had O
@@ -10725,7 +10725,7 @@ had O
 acted O
 as O
 leader O
-; O
+  O
 “ O
 never O
 mind O
@@ -10762,7 +10762,7 @@ him O
 He O
 still O
 breathes O
-; O
+  O
 but O
 he O
 has O
@@ -10805,7 +10805,7 @@ replied O
 the O
 foremost O
 watchman O
-; O
+  O
 “ O
 but O
 them O
@@ -10866,7 +10866,7 @@ n’t O
 gone O
 to O
 bed O
-; O
+  O
 and O
 still O
 more O
@@ -11039,7 +11039,7 @@ noise O
 , O
 |
      | O
-Peggy O
+Peggy B-PERSON
 — O
 less O
 noise O
@@ -11140,15 +11140,15 @@ fancier O
 | 
   | O
 The O
-Rookery O
+Rookery B-PERSON
 ! O
 Who O
 that O
 has O
 passed O
-Saint B-LOC
-Giles I-LOC
-’s I-LOC
+Saint B-PERSON
+Giles I-PERSON
+’s O
 , O
 on O
 the O
@@ -11248,7 +11248,7 @@ has O
 caused O
 its O
 removal O
-; O
+  O
 but O
 whether O
 any O
@@ -11540,7 +11540,7 @@ of O
 |
      | O
 glass O
-; O
+  O
 some O
 even O
 wanted O
@@ -11580,7 +11580,7 @@ of O
 |
      | O
 furniture O
-; O
+  O
 floors O
 and O
 walls O
@@ -11594,7 +11594,7 @@ with O
 coarse O
 flaring O
 prints O
-; O
+  O
 shameless O
 |
      | O
@@ -11603,7 +11603,7 @@ abandoned O
 - O
 looking O
 women O
-; O
+  O
 children O
 without O
 shoes O
@@ -11652,7 +11652,7 @@ is O
 to O
 be O
 presumed O
-; O
+  O
 but O
 where O
 a O
@@ -11788,7 +11788,7 @@ to O
 track O
 these O
 labyrinths O
-; O
+  O
 but O
 imagination O
 , O
@@ -11825,7 +11825,7 @@ seemed O
 brutalised O
 and O
 degraded O
-; O
+  O
 and O
 the O
 women O
@@ -11886,7 +11886,7 @@ the O
 aspect O
 of O
 the O
-Rookery O
+Rookery B-PERSON
 in O
 the O
 daytime O
@@ -11945,9 +11945,9 @@ their O
      | O
 course O
 towards O
-Saint B-LOC
-Giles I-LOC
-’s I-LOC
+Saint B-PERSON
+Giles I-PERSON
+’s O
 , O
 running O
 the O
@@ -12109,10 +12109,10 @@ by O
 the O
 name O
 of O
-Old O
+Old B-WORK_OF_ART
 |
-     | O
-Parr B-PERSON
+     | I-WORK_OF_ART
+Parr I-WORK_OF_ART
 , O
 the O
 ruffians O
@@ -12360,7 +12360,7 @@ a O
 pair O
 of O
 ancient O
-Wellingtons B-ORG
+Wellingtons B-GPE
 ascending O
 half B-CARDINAL
 - O
@@ -12448,7 +12448,7 @@ neck O
 was O
 of O
 a O
-dunnish O
+dunnish B-NORP
 red O
 , O
 as O
@@ -12524,10 +12524,10 @@ tan O
 spaniel O
 , O
 of O
-Charles B-ORG
-the I-ORG
-Second I-ORG
-’s I-ORG
+Charles B-PERSON
+the I-PERSON
+Second I-PERSON
+’s O
 breed O
 , O
 popped O
@@ -12563,7 +12563,7 @@ he O
 carried O
 an O
 exquisite O
-Blenheim B-PERSON
+Blenheim B-DATE
 under O
 either O
 arm O
@@ -12573,11 +12573,11 @@ his O
 feet O
 reposed O
 an O
-Isle B-LOC
-of I-LOC
+Isle O
+of O
 |
-     | I-LOC
-Skye I-LOC
+     | O
+Skye O
 terrier O
 , O
 and O
@@ -12673,7 +12673,7 @@ clever O
 fellow,—and O
 adroit O
 and O
-knavish B-GPE
+knavish O
 he O
 was O
 , O
@@ -12718,14 +12718,14 @@ by O
 the O
 appellation O
 of O
-Ginger B-PERSON
+Ginger O
 . O
 On O
 the O
 entrance O
 of O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 and O
 |
      | O
@@ -12743,7 +12743,7 @@ with O
 a O
 sly O
 look O
-inquired—“Vell B-ORG
+inquired—“Vell O
 , O
 my O
 ‘ O
@@ -12761,13 +12761,13 @@ luck O
 Oh O
 , O
 pretty O
-middlin O
+middlin B-PERSON
 ’ O
 , O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-PERSON
 gruffly O
 . O
 | 
@@ -12850,7 +12850,7 @@ a O
 couple O
 of O
 pulls O
-; O
+  O
 while O
 Mr. O
 Ginger B-PERSON
@@ -12886,7 +12886,7 @@ now O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 unable O
 to O
@@ -13003,7 +13003,7 @@ all O
 this O
 trouble O
 for O
-nuffin O
+nuffin B-PERSON
 ’ O
 , O
 and O
@@ -13019,7 +13019,7 @@ cried O
 the O
 |
      | O
-Sandman B-PRODUCT
+Sandman B-PERSON
 , O
 slapping O
 down O
@@ -13065,7 +13065,7 @@ urry O
 replied O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 summat O
 may O
@@ -13096,7 +13096,7 @@ yourself O
 ” O
 rejoined O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 pushing O
 the O
@@ -13187,7 +13187,7 @@ Not O
 content O
 with O
 one B-CARDINAL
-perusal O
+perusal B-GPE
 , O
 he O
 looked O
@@ -13212,15 +13212,15 @@ glee O
 | 
   | O
 “ O
-Wot B-WORK_OF_ART
-’s I-WORK_OF_ART
+Wot O
+’s O
 the O
 matter O
 ? O
 ” O
 cried O
 the O
-Sandman B-PRODUCT
+Sandman B-PERSON
 , O
 who O
 had O
@@ -13237,10 +13237,10 @@ it O
 |
      | O
 “ O
-Wot B-WORK_OF_ART
-’s I-WORK_OF_ART
-the I-WORK_OF_ART
-row I-WORK_OF_ART
+Wot O
+’s O
+the O
+row O
 , O
 eh O
 ? O
@@ -13248,7 +13248,7 @@ eh O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
 this O
 is O
@@ -13264,7 +13264,7 @@ to O
 contain O
 his O
 satisfaction O
-; O
+  O
 “ O
 there O
 ’s O
@@ -13297,7 +13297,7 @@ had O
 our O
 trouble O
 for O
-nuffin O
+nuffin B-PERSON
 ’ O
 . O
 ” O
@@ -13312,7 +13312,7 @@ it O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 looking O
 hard O
@@ -13332,7 +13332,7 @@ they O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
 |  | O
 hangin O
@@ -13376,7 +13376,7 @@ Wholesale O
 ” O
 echoed O
 the O
-Sandman B-PRODUCT
+Sandman B-PERSON
 , O
 removing O
 the O
@@ -13430,7 +13430,7 @@ hands O
 ” O
 said O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -13442,8 +13442,8 @@ not O
 ” O
 replied O
 the O
-Sandman B-ORG
-; O
+Sandman B-PERSON
+  O
 “ O
 but O
 somebody O
@@ -13486,8 +13486,8 @@ be O
 |
      | O
 agin O
-us O
-ven O
+us B-GPE
+ven I-GPE
 our O
 accounts O
 comed O
@@ -13504,13 +13504,13 @@ Ourn O
 is O
 a O
 different O
-bus’ness O
+bus’ness B-PRODUCT
 altogether O
 , O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 This O
@@ -13538,11 +13538,11 @@ be O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
-five B-CARDINAL
-- I-CARDINAL
-an’-twenty I-CARDINAL
+five O
+- O
+an’-twenty O
 at O
 the O
 outside O
@@ -13550,16 +13550,16 @@ outside O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
 “ O
-Five B-CARDINAL
-- O
-an’-sixty O
-‘ O
-ud O
+Five B-WORK_OF_ART
+- I-WORK_OF_ART
+an’-sixty I-WORK_OF_ART
+‘ I-WORK_OF_ART
+ud I-WORK_OF_ART
 be O
 nearer O
 the O
@@ -13568,7 +13568,7 @@ mark O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 There O
@@ -13594,8 +13594,8 @@ devils O
 ” O
 cried O
 the O
-Sandman B-ORG
-; O
+Sandman B-PERSON
+  O
 “ O
 there O
 must O
@@ -13629,7 +13629,7 @@ reg’lar O
 rejoined O
 the O
 other O
-; O
+  O
 “ O
 and O
 that O
@@ -13654,7 +13654,7 @@ papers O
 twice O
 , O
 and O
-one O
+one B-CARDINAL
 , O
 dated O
 1780 B-DATE
@@ -13684,7 +13684,7 @@ then O
 said O
 the O
 Sandman B-ORG
-; O
+  O
 “ O
 it O
 ’s O
@@ -13729,7 +13729,7 @@ having O
 his O
 assertion O
 denied O
-; O
+  O
 “ O
 at O
 least O
@@ -13798,14 +13798,14 @@ case O
 worthy O
 of O
 an O
-Old B-FAC
-Bailey I-FAC
+Old B-GPE
+Bailey I-GPE
 lawyer O
 , O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Wot O
@@ -13844,7 +13844,7 @@ address O
 ” O
 asked O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -13865,7 +13865,7 @@ agin O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Ai O
@@ -13892,14 +13892,14 @@ perceive O
 ” O
 said O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
 “ O
-Vy O
-, O
-zounds O
+Vy B-WORK_OF_ART
+, I-WORK_OF_ART
+zounds I-WORK_OF_ART
 , O
 then O
 , O
@@ -13913,7 +13913,7 @@ from O
 ” O
 cried O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 But O
@@ -13952,23 +13952,23 @@ done O
 |
      | O
 his O
-bus’ness O
+bus’ness B-PRODUCT
 . O
 ” O
 | 
   | O
 “ O
-Nuffin B-GPE
-’ O
-o O
-’ O
+Nuffin B-WORK_OF_ART
+’ I-WORK_OF_ART
+o I-WORK_OF_ART
+’ I-WORK_OF_ART
 the O
 kind O
 , O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 He O
@@ -13986,13 +13986,13 @@ accident O
 | 
   | O
 “ O
-Alvays O
+Alvays B-ORG
 recovers O
 ! O
 ” O
 exclaimed O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 in O
 amazement O
@@ -14018,7 +14018,7 @@ Surprisin O
 replied O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 he O
 never O
@@ -14031,19 +14031,19 @@ least O
 , O
 not O
 much O
-; O
+  O
 never O
 |
      | O
 grows O
 old O
-; O
+  O
 and O
 never O
 expects O
 to O
 die O
-; O
+  O
 for O
 he O
 mentions O
@@ -14051,9 +14051,9 @@ wot O
 he O
 intends O
 doin’ O
-a O
-hundred O
-years O
+a B-DATE
+hundred I-DATE
+years I-DATE
 |
      | O
 hence O
@@ -14074,7 +14074,7 @@ nattic O
 ” O
 exclaimed O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 “ O
 a O
@@ -14082,7 +14082,7 @@ downright O
 lu O
 - O
 nattic O
-; O
+  O
 and O
 that O
 accounts O
@@ -14104,7 +14104,7 @@ a O
 fancyin O
 ’ O
 he O
-heerd O
+heerd B-PERSON
 some O
 one O
 talk O
@@ -14145,7 +14145,7 @@ opinion O
 ” O
 said O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -14179,21 +14179,21 @@ discourse O
 | 
   | O
 “ O
-Vy O
-, O
-vot O
+Vy B-WORK_OF_ART
+, I-WORK_OF_ART
+vot I-WORK_OF_ART
 can O
 you O
 know O
 about O
 it O
 , O
-Ginger B-PERSON
+Ginger O
 ? O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 looking O
 up O
@@ -14214,7 +14214,7 @@ this O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 that O
@@ -14249,7 +14249,7 @@ it O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 I O
 ’m O
@@ -14258,7 +14258,7 @@ agreeable O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -14296,8 +14296,8 @@ papers O
 , O
 ” O
 purused O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 the O
 |
@@ -14365,7 +14365,7 @@ murders O
 ? O
 ” O
 perused O
-Ginger B-PERSON
+Ginger B-PRODUCT
 . O
 | 
   | O
@@ -14397,10 +14397,10 @@ price O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
-Ve’ll B-GPE
+Ve’ll O
 deal O
 vith O
 him O
@@ -14446,7 +14446,7 @@ first B-ORDINAL
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -14460,7 +14460,7 @@ that O
 , O
 ” O
 rejoined O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 You O
@@ -14497,8 +14497,8 @@ true O
 ” O
 replied O
 the O
-Sandman B-ORG
-; O
+Sandman B-PERSON
+  O
 “ O
 and O
 there O
@@ -14513,7 +14513,7 @@ us O
 , O
 for O
 the O
-werry B-NORP
+werry B-GPE
 |
      | O
 moment O
@@ -14531,7 +14531,7 @@ head O
 | 
   | O
 “ O
-Arter O
+Arter B-PERSON
 all O
 , O
 ” O
@@ -14553,7 +14553,7 @@ safe O
 as O
 yours O
 , O
-Ginger B-PERSON
+Ginger O
 . O
 |
      | O
@@ -14597,7 +14597,7 @@ business O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 but O
@@ -14621,14 +14621,14 @@ high O
 price O
 sometimes O
 for O
-restorin O
+restorin B-NORP
 ’ O
 a O
 favourite O
 , O
 especially O
-ven O
-ve’ve O
+ven B-ORG
+ve’ve I-ORG
 a O
 soft O
 - O
@@ -14657,7 +14657,7 @@ own O
 childer O
 , O
 and O
-ven O
+ven B-ORG
 ve O
 gets O
 one B-CARDINAL
@@ -14681,17 +14681,17 @@ you O
 see O
 at O
 the O
-Adelphi B-ORG
+Adelphi B-GPE
 or O
 the O
 |
      | O
-Surrey B-PRODUCT
+Surrey B-GPE
 sarves O
 their O
 prisoners O
 , O
-threatenin O
+threatenin B-PERSON
 ’ O
 to O
 send O
@@ -14763,12 +14763,12 @@ her O
      | O
 heart O
 . O
-Vell O
+Vell B-PERSON
 , O
 she O
 lost O
 it O
-; O
+  O
 and O
 , O
 somehow O
@@ -14840,11 +14840,11 @@ be O
 |
      | O
 offered O
-; O
+  O
 so O
 I O
 sends O
-vord O
+vord B-PERSON
 by O
 my O
 friend O
@@ -14868,8 +14868,8 @@ vill O
 be O
 cut O
 that O
-werry B-PERSON
-night I-PERSON
+werry B-TIME
+night I-TIME
 . O
 ” O
 | 
@@ -14885,7 +14885,7 @@ others O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 she O
 sent O
@@ -14901,8 +14901,8 @@ it O
 , O
 ” O
 pursued O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 but O
 about B-DATE
@@ -14943,8 +14943,8 @@ comes O
 down O
 with O
 another O
-four B-CARDINAL
-pound O
+four B-QUANTITY
+pound I-QUANTITY
 . O
 But O
 she O
@@ -14961,7 +14961,7 @@ n’t O
 repeat O
 the O
 trick O
-; O
+  O
 for O
 no O
 sooner O
@@ -15025,7 +15025,7 @@ Bailey B-PERSON
      | O
 sang O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -15046,7 +15046,7 @@ there O
 ” O
 asked O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -15061,8 +15061,8 @@ yes O
 , O
 ” O
 replied O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 there O
 ’s O
@@ -15139,7 +15139,7 @@ asked O
 They O
 goes O
 to O
-Ostend O
+Ostend B-GPE
 , O
 Antverp B-GPE
 , O
@@ -15157,8 +15157,8 @@ Havre B-LOC
 There O
 ’s O
 a O
-Mounseer O
-Coqquilu O
+Mounseer B-NORP
+Coqquilu I-NORP
 as O
 comes O
 over O
@@ -15178,7 +15178,7 @@ at O
 a O
 house O
 near O
-Billinsgit B-GPE
+Billinsgit B-ORG
 market O
 . O
 ” O
@@ -15200,16 +15200,16 @@ somehow O
 ” O
 observed O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
 “ O
-Sartin O
+Sartin B-PERSON
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 cos O
@@ -15221,7 +15221,7 @@ kind O
 to O
 us O
 . O
-Vy O
+Vy B-PERSON
 , O
 bless O
 you O
@@ -15254,7 +15254,7 @@ it O
 ’s O
 our O
 own O
-; O
+  O
 |
      | O
 and O
@@ -15334,9 +15334,9 @@ or O
 have O
 six B-DATE
 months I-DATE
-’ O
+’ I-DATE
 imprisonment O
-; O
+  O
 vile O
 , O
 if O
@@ -15377,7 +15377,7 @@ us O
 ” O
 observed O
 the O
-Sandman B-PRODUCT
+Sandman B-PERSON
 reflectively O
 . O
 | 
@@ -15392,7 +15392,7 @@ law O
 ! O
 ” O
 exclaimed O
-Ginger B-PERSON
+Ginger O
 triumphantly O
 . O
 “ O
@@ -15439,16 +15439,16 @@ reg’lar O
 horganisation O
 among O
 us O
-; O
+  O
 so O
 ve O
 can O
 alvays O
 bring O
-vitnesses O
+vitnesses B-ORG
 to O
-svear O
-vot O
+svear B-ORG
+vot I-ORG
 |
      | O
 ve O
@@ -15521,7 +15521,7 @@ found O
 . O
 I O
 have O
-nuffin O
+nuffin B-PERSON
 ’ O
 more O
 |
@@ -15558,7 +15558,7 @@ fanciers O
 ” O
 remarked O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -15572,7 +15572,7 @@ this O
 ? O
 ” O
 pursued O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -15586,10 +15586,10 @@ the O
 corner O
 o O
 ’ O
-Gray B-WORK_OF_ART
-’s I-WORK_OF_ART
-Inn I-WORK_OF_ART
-Lane I-WORK_OF_ART
+Gray B-ORG
+’s I-ORG
+Inn I-ORG
+Lane I-ORG
 |
      | O
 vith O
@@ -15604,7 +15604,7 @@ coach O
 - O
 stand O
 , O
-ven O
+ven B-PERSON
 a O
 lady O
 passes O
@@ -15636,7 +15636,7 @@ follerin O
 of O
 her O
 . O
-Vell O
+Vell B-PERSON
 , O
 the O
 moment O
@@ -15664,7 +15664,7 @@ in O
 a O
 trice O
 . O
-Vell O
+Vell B-PERSON
 , O
 the O
 lady O
@@ -15686,7 +15686,7 @@ perliceman O
 But O
 that O
 si’nifies O
-nuffin O
+nuffin B-PERSON
 ’ O
 . O
 I O
@@ -15694,7 +15694,7 @@ brings O
 six B-CARDINAL
 vitnesses O
 to O
-svear O
+svear B-ORG
 the O
 dog O
 vos O
@@ -15714,10 +15714,10 @@ a O
 blind O
 little O
 puppy O
-; O
+  O
 and O
 , O
-wot O
+wot B-ORG
 ’s O
 more O
 , O
@@ -15741,7 +15741,7 @@ course O
 I O
 ’m O
 discharged O
-; O
+  O
 the O
 dog O
 is O
@@ -15751,14 +15751,14 @@ up O
      | O
 to O
 me O
-; O
+  O
 and O
 the O
 lady O
 goes O
-avay O
-lamentin O
-’ O
+avay B-PERSON
+lamentin I-PERSON
+’ I-PERSON
 . O
 I O
 then O
@@ -15776,8 +15776,8 @@ her O
 |
      | O
 for O
-twenty B-CARDINAL
-guineas O
+twenty B-MONEY
+guineas I-MONEY
 , O
 seein O
 ’ O
@@ -15790,7 +15790,7 @@ a O
 fancy O
 to O
 it O
-; O
+  O
 but O
 she O
 von’t O
@@ -15813,8 +15813,8 @@ shall O
 send O
 it O
 to O
-Mounseer B-ORG
-Coqquilu I-ORG
+Mounseer B-NORP
+Coqquilu I-NORP
 . O
 The O
 only O
@@ -15871,11 +15871,11 @@ animal O
 , O
 though O
 vorth O
-a B-QUANTITY
-hundred I-QUANTITY
+a O
+hundred O
 |
-     | I-QUANTITY
-pound I-QUANTITY
+     | O
+pound O
 , O
 ca O
 n’t O
@@ -15906,7 +15906,7 @@ law O
 ” O
 laughed O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -15922,7 +15922,7 @@ cruelty O
 , O
 ” O
 pursued O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 and O
@@ -15942,7 +15942,7 @@ teeth O
 to O
 disguise O
 him O
-; O
+  O
 but O
 I O
 ’m O
@@ -16031,11 +16031,11 @@ Tinker B-PRODUCT
 | 
   | O
 “ O
-Alvays O
+Alvays B-ORG
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 No O
@@ -16162,7 +16162,7 @@ stolen O
 ” O
 inquired O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -16175,8 +16175,8 @@ sure O
 , O
 ” O
 replied O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 sometimes O
 first B-ORDINAL
@@ -16193,7 +16193,7 @@ it O
 |
      | O
 themselves O
-; O
+  O
 they O
 ’ll O
 say O
@@ -16247,7 +16247,7 @@ couple O
 | | O
 . O
 ’ O
-Vell O
+Vell B-PERSON
 , O
 ve O
 understands O
@@ -16288,7 +16288,7 @@ done O
 ” O
 remarked O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -16298,11 +16298,11 @@ Yes O
 that O
 ’s O
 the O
-vay O
+vay B-ORG
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Sometimes O
@@ -16319,9 +16319,9 @@ the O
 |
      | O
 shootin O
-’ O
-season O
-; O
+’ B-DATE
+season I-DATE
+  O
 and O
 then O
 ve O
@@ -16335,7 +16335,7 @@ you O
 a O
 - O
 goin’—into O
-Surrey B-PERSON
+Surrey B-GPE
 or O
 Kent B-PERSON
 ? O
@@ -16359,7 +16359,7 @@ plans O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 yourn O
 appears O
@@ -16376,7 +16376,7 @@ say O
 ” O
 remarked O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -16386,7 +16386,7 @@ so O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Nothin’ O
@@ -16454,7 +16454,7 @@ started O
 said O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 our O
 gemman O
@@ -16518,29 +16518,29 @@ declares O
 he O
 lived O
 in O
-Queen B-ORG
-Bess I-ORG
-’s I-ORG
+Queen B-PERSON
+Bess I-PERSON
+’s I-PERSON
 time O
 , O
 recollects O
-King O
-Charles B-PERSON
+King B-PERSON
+Charles I-PERSON
 bein O
 ’ O
 beheaded O
 perfectly O
-vell O
+vell B-ORG
 , O
 |
      | O
 and O
 remembers O
-the B-FAC
-Great I-FAC
-Fire I-FAC
-o O
-’ O
+the B-EVENT
+Great I-EVENT
+Fire I-EVENT
+o I-EVENT
+’ I-EVENT
 London B-GPE
 , O
 as O
@@ -16558,7 +16558,7 @@ Walker O
 ! O
 ” O
 exclaimed O
-Ginger B-PERSON
+Ginger O
 , O
 putting O
 his O
@@ -16582,7 +16582,7 @@ true O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 I O
@@ -16590,7 +16590,7 @@ recollect O
 an O
 old O
 man O
-tellin B-GPE
+tellin O
 ’ O
 me O
 that O
@@ -16627,7 +16627,7 @@ Humph O
 ! O
 ” O
 exclaimed O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 He O
@@ -16676,7 +16676,7 @@ i O
 ’ O
 the O
 humour O
-; O
+  O
 but O
 he O
 once O
@@ -16697,7 +16697,7 @@ unless O
      | O
 it O
 were O
-owin O
+owin B-GPE
 ’ O
 to O
 a O
@@ -16706,7 +16706,7 @@ he O
 ’d O
 swallowed O
 , O
-vich O
+vich B-PERSON
 his O
 master O
 , O
@@ -16721,7 +16721,7 @@ Queen B-ORG
      | I-ORG
 Bess I-ORG
 ’s I-ORG
-days B-DATE
+days I-ORG
 , O
 had O
 brew’d O
@@ -16734,7 +16734,7 @@ Pshaw B-PERSON
 ! O
 ” O
 exclaimed O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -16782,7 +16782,7 @@ him O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Here O
@@ -16998,7 +16998,7 @@ middle O
 period O
 of O
 life O
-; O
+  O
 but O
 a O
 closer O
@@ -17034,7 +17034,7 @@ an O
 ourang O
 - O
 outang O
-; O
+  O
 the O
 resemblance O
 to O
@@ -17164,7 +17164,7 @@ blood O
 red O
 tunic O
 with O
-vandyke O
+vandyke B-ORG
 points O
 was O
 girded O
@@ -17251,12 +17251,12 @@ joined O
 by O
 the O
 Tinker B-ORG
-; O
+  O
 but O
 |
      | O
 the O
-Sandman B-ORG
+Sandman B-PERSON
 never O
 relaxed O
 a O
@@ -17317,7 +17317,7 @@ deputy O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Here O
@@ -17355,7 +17355,7 @@ The O
 spirit O
 was O
 brought O
-; O
+  O
 water O
 was O
 |
@@ -17365,7 +17365,7 @@ from O
 the O
 boiling O
 copper O
-; O
+  O
 and O
 the O
 Tinker B-ORG
@@ -17426,7 +17426,7 @@ hand O
 - O
 rail O
 . O
-Midway O
+Midway B-ORG
 up O
 it O
 stood O
@@ -17542,7 +17542,7 @@ were O
      | O
 locked O
 outside O
-; O
+  O
 and O
 as O
 the O
@@ -17587,7 +17587,7 @@ them O
 . O
 | 
   | O
-Conciliated O
+Conciliated B-PERSON
 by O
 the O
 Tinker B-ORG
@@ -17648,7 +17648,7 @@ howl O
 fearfully O
 , O
 and O
-Ginger B-PERSON
+Ginger O
 had O
 enough O
 to O
@@ -17693,9 +17693,9 @@ he O
 observed O
 , O
 “ O
-ve’ve O
-bin O
-havin’ O
+ve’ve B-PERSON
+bin I-PERSON
+havin’ I-PERSON
 a O
 bit O
 o O
@@ -17735,7 +17735,7 @@ it O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
 it O
 ’s O
@@ -17747,10 +17747,10 @@ age O
 ” O
 rejoined O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
-Ven O
+Ven B-PERSON
 wos O
 you O
 born O
@@ -17794,7 +17794,7 @@ time O
 ” O
 resumed O
 the O
-Tinker B-PRODUCT
+Tinker B-ORG
 , O
 waiting O
 till O
@@ -17826,8 +17826,8 @@ few O
 , O
 ” O
 replied O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 whose O
 tongue O
@@ -17897,7 +17897,7 @@ that O
 I O
 recollect O
 this O
-Rookery O
+Rookery B-PERSON
 of O
 ours O
 — O
@@ -17930,10 +17930,10 @@ was O
 . O
 |
      | O
-Broad B-FAC
-Saint I-FAC
-Giles I-FAC
-’s I-FAC
+Broad O
+Saint O
+Giles O
+’s O
 , O
 at O
 the O
@@ -17973,8 +17973,8 @@ it O
 and O
 |
      | O
-Convent B-FAC
-Garden I-FAC
+Convent O
+Garden O
 ( O
 for O
 so O
@@ -17985,7 +17985,7 @@ was O
 once O
 called O
 ) O
-; O
+  O
 while O
 that O
 garden O
@@ -18005,10 +18005,10 @@ park O
 , O
 extended O
 from O
-Saint B-GPE
-Martin I-GPE
-’s I-GPE
-Lane I-GPE
+Saint B-FAC
+Martin I-FAC
+’s I-FAC
+Lane O
 to O
 Drury B-ORG
 House I-ORG
@@ -18024,8 +18024,8 @@ the O
 easterly O
 side O
 of O
-Drury B-PERSON
-Lane I-PERSON
+Drury B-FAC
+Lane I-FAC
 , O
 amid O
 a O
@@ -18043,13 +18043,13 @@ eyes O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 with O
 a O
 prolonged O
 whistle O
-; O
+  O
 “ O
 the O
 place O
@@ -18113,7 +18113,7 @@ altered O
 |
      | O
 The O
-Thames O
+Thames B-ORG
 itself O
 is O
 unlike O
@@ -18133,17 +18133,17 @@ bright O
 above O
 |
      | O
-London B-FAC
-Bridge I-FAC
+London O
+Bridge O
 as O
 they O
 are O
 now O
 at O
-Kew B-PERSON
+Kew B-FAC
 or O
 Richmond B-GPE
-; O
+  O
 and O
 its O
 banks O
@@ -18164,7 +18164,7 @@ gardens O
 And O
 then O
 the O
-thousand O
+thousand B-CARDINAL
 gay O
 wherries O
 and O
@@ -18217,7 +18217,7 @@ ply O
 chanted O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 but O
 the O
@@ -18239,9 +18239,9 @@ True O
 , O
 ” O
 replied O
-Old O
-Parr B-PERSON
-; O
+Old B-PERSON
+Parr I-PERSON
+  O
 “ O
 and O
 I O
@@ -18322,7 +18322,7 @@ its O
 wealth O
 and O
 power O
-; O
+  O
 but O
 in O
 point O
@@ -18340,10 +18340,10 @@ with O
 the O
 city O
 of O
-Queen B-ORG
-Bess I-ORG
-’s I-ORG
-days B-DATE
+Queen B-GPE
+Bess I-GPE
+’s I-GPE
+days O
 . O
 You O
 should O
@@ -18368,8 +18368,8 @@ to O
 Lombard B-FAC
 Street I-FAC
 and O
-Gracechurch O
-Street O
+Gracechurch B-FAC
+Street I-FAC
 , O
 with O
 |
@@ -18394,7 +18394,7 @@ of O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 I O
 ’m O
@@ -18485,7 +18485,7 @@ creaters O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 raising O
 his O
@@ -18545,8 +18545,8 @@ I O
 have O
 seen O
 him O
-a B-CARDINAL
-hundred I-CARDINAL
+a O
+hundred B-CARDINAL
 times O
 with O
 a O
@@ -18566,8 +18566,8 @@ heels O
 | 
   | O
 “ O
-Old O
-Rowley O
+Old B-WORK_OF_ART
+Rowley I-WORK_OF_ART
 wos O
 a O
 king O
@@ -18579,7 +18579,7 @@ art O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 rising O
 and O
@@ -18596,9 +18596,9 @@ fire O
 He O
 loved O
 the O
-femi- B-CARDINAL
-| | I-CARDINAL
-nine I-CARDINAL
+femi- O
+| | O
+nine B-CARDINAL
 |  | O
 specious O
 as O
@@ -18712,8 +18712,8 @@ have O
 a O
 glimpse O
 of O
-Old O
-London O
+Old B-GPE
+London I-GPE
 , O
 you O
 would O
@@ -18753,7 +18753,7 @@ sea O
 - O
 coal O
 fires O
-; O
+  O
 and O
 the O
 old O
@@ -18787,7 +18787,7 @@ want O
 You O
 talk O
 like O
-one B-CARDINAL
+one O
 o O
 ’ O
 them O
@@ -18797,8 +18797,8 @@ they O
 calls O
 , O
 and O
-werry B-PERSON
-properly O
+werry B-ORG
+properly I-ORG
 , O
 penny O
 - O
@@ -18810,7 +18810,7 @@ liars O
 |
      | O
 observed O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 But O
@@ -18931,7 +18931,7 @@ gone O
 | 
   | O
 “ O
-Accordin O
+Accordin B-PERSON
 ’ O
 to O
 your O
@@ -18951,17 +18951,17 @@ lived O
 uppards O
 o O
 ’ O
-two O
+two B-CARDINAL
 |
-     | O
-hundred O
-and O
+     | I-CARDINAL
+hundred I-CARDINAL
+and I-CARDINAL
 seventy O
 year O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 assuming O
 a O
@@ -19041,7 +19041,7 @@ think O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 hemming O
 significantly O
@@ -19066,11 +19066,11 @@ yourself O
 , O
 my O
 wenerable O
-; O
+  O
 but O
 von B-PERSON
-thing I-PERSON
-’s I-PERSON
+thing O
+’s O
 quite O
 clear O
 — O
@@ -19151,7 +19151,7 @@ picters O
 o O
 ’ O
 Old O
-Lunnon B-PERSON
+Lunnon O
 , O
 and O
 they O
@@ -19178,7 +19178,7 @@ times O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -19235,7 +19235,7 @@ legs O
 and O
 arranging O
 his O
-neckcloth,—“how B-CARDINAL
+neckcloth,—“how B-PERSON
 comes O
 it O
 , O
@@ -19300,7 +19300,7 @@ moments O
 ’ O
 pause O
 , O
-Ginger B-PERSON
+Ginger O
 repeated O
 the O
 question O
@@ -19328,8 +19328,8 @@ answer O
 , O
 ” O
 said O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 |
      | O
@@ -19360,7 +19360,7 @@ and O
 so O
 does O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 ” O
 | 
@@ -19386,7 +19386,7 @@ comes O
 to O
 pass O
 . O
-Fate O
+Fate B-PERSON
 has O
 been O
 against O
@@ -19571,8 +19571,8 @@ of O
 good O
 |
      | O
-Queen O
-Bess O
+Queen B-PERSON
+Bess I-PERSON
 , O
 and O
 who O
@@ -19619,7 +19619,7 @@ wenerable O
 , O
 ” O
 observed O
-Ginger B-PERSON
+Ginger O
 . O
 |
      | O
@@ -19654,8 +19654,8 @@ gold O
 , O
 ” O
 rejoined O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 in O
 a O
@@ -19688,10 +19688,10 @@ day O
 he O
 worked O
 at O
-the B-DATE
-operation;—night I-DATE
-and I-DATE
-day I-DATE
+the O
+operation —night O
+and O
+day O
 I O
 laboured O
 with O
@@ -19726,14 +19726,14 @@ remember O
 it O
 |
      | O
-well,—it B-PERSON
+well,—it B-ORG
 was O
 the B-TIME
 last I-TIME
 night I-TIME
 of I-TIME
 the I-TIME
-sixteenth B-ORDINAL
+sixteenth I-TIME
 century,—a O
 young O
 man O
@@ -19848,11 +19848,11 @@ ensue O
 . O
 |
      | O
-Half O
-- O
-an O
-- O
-hour O
+Half B-DATE
+- I-DATE
+an I-DATE
+- I-DATE
+hour I-DATE
 elapsed O
 , O
 and O
@@ -20024,7 +20024,7 @@ accounted O
 the O
 young O
 man O
-; O
+  O
 but O
 , O
 on O
@@ -20067,7 +20067,7 @@ strong O
 spirituous O
 odour O
 exhaled O
-; O
+  O
 but O
 it O
 was O
@@ -20150,7 +20150,7 @@ it O
 to O
 my O
 lips O
-; O
+  O
 but O
 apprehension O
 lest O
@@ -20197,7 +20197,7 @@ fire O
 , O
 and O
 at O
-first O
+first B-ORDINAL
 I O
 thought O
 all O
@@ -20211,7 +20211,7 @@ I O
      | O
 shrieked O
 out O
-; O
+  O
 but O
 there O
 was O
@@ -20254,7 +20254,7 @@ seem O
 to O
 hear O
 me O
-; O
+  O
 |
      | O
 for O
@@ -20270,7 +20270,7 @@ and O
 eyed O
 me O
 reproachfully O
-; O
+  O
 the O
 skeletons O
 shook O
@@ -20281,7 +20281,7 @@ fleshless O
 arms O
 and O
 gibbered O
-; O
+  O
 and O
 the O
 various O
@@ -20338,7 +20338,7 @@ tranquil O
 Doctor O
 |
      | O
-Lamb B-PERSON
+Lamb O
 was O
 lying O
 stark O
@@ -20359,7 +20359,7 @@ fixed O
 |
      | O
 countenance O
-; O
+  O
 and O
 the O
 skeletons O
@@ -20471,7 +20471,7 @@ the O
 Tinker B-ORG
 to O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Have O
@@ -20511,7 +20511,7 @@ dwarf O
 | 
   | O
 “ O
-Never O
+Never B-WORK_OF_ART
 . O
 ” O
 | 
@@ -20530,7 +20530,7 @@ name O
   | O
 “ O
 No O
-; O
+  O
 it O
 has O
 quite O
@@ -20553,7 +20553,7 @@ it O
 , O
 if O
 you O
-heerd O
+heerd B-PERSON
 it O
 ? O
 ” O
@@ -20572,7 +20572,7 @@ might O
 returned O
 the O
 dwarf O
-; O
+  O
 “ O
 but O
 I O
@@ -20584,10 +20584,10 @@ say O
 | 
   | O
 “ O
-Wos O
-it O
-Auriol O
-Darcy B-PERSON
+Wos B-WORK_OF_ART
+it I-WORK_OF_ART
+Auriol B-PERSON
+Darcy I-PERSON
 ? O
 ” O
 demanded O
@@ -20606,8 +20606,8 @@ name O
 , O
 ” O
 cried O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 starting O
 up O
@@ -20708,7 +20708,7 @@ with O
 a O
 cunning O
 look O
-; O
+  O
 “ O
 you O
 see O
@@ -20729,15 +20729,15 @@ my O
 old O
 file O
 . O
-Yo’ll O
+Yo’ll B-ORG
 be O
 good O
 evidence O
 , O
 in O
 case O
-ve O
-vishes O
+ve B-PERSON
+vishes I-PERSON
 to O
 prove O
 the O
@@ -20776,7 +20776,7 @@ done O
 ” O
 pursued O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Should O
@@ -20809,9 +20809,9 @@ it O
 , O
 ” O
 replied O
-Old O
-Parr B-PERSON
-; O
+Old B-PERSON
+Parr I-PERSON
+  O
 “ O
 his O
 figure O
@@ -20849,14 +20849,14 @@ tone O
 | 
   | O
 “ O
-Ay O
-— O
-ay O
+Ay B-WORK_OF_ART
+— I-WORK_OF_ART
+ay I-WORK_OF_ART
 , O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -20868,7 +20868,7 @@ bit O
 , O
 ” O
 remarked O
-Ginger B-PERSON
+Ginger O
 , O
 shaking O
 his O
@@ -20886,7 +20886,7 @@ hurry O
   | O
 “ O
 No O
-; O
+  O
 ve O
 must O
 decide O
@@ -20896,10 +20896,10 @@ vonce O
 ” O
 said O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
-Jist B-NORP
+Jist B-PERSON
 examine O
 them O
 papers O
@@ -20916,8 +20916,8 @@ pocket O
 - O
 book O
 to O
-Old O
-Parr B-PERSON
+Old B-WORK_OF_ART
+Parr I-WORK_OF_ART
 , O
 “ O
 and O
@@ -21098,7 +21098,7 @@ him O
 from O
 his O
 slumbers O
-; O
+  O
 while O
 the O
 Tinker B-ORG
@@ -21124,7 +21124,7 @@ the O
 dwarf O
 ’s O
 legs O
-; O
+  O
 |
      | O
 but O
@@ -21158,7 +21158,7 @@ go O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 who O
 , O
@@ -21258,7 +21258,7 @@ book O
 ” O
 cried O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 |
      | O
@@ -21334,7 +21334,7 @@ answer O
 to O
 his O
 vociferations O
-; O
+  O
 neither O
 could O
 he O
@@ -21379,7 +21379,7 @@ what O
 was O
 going O
 forward O
-; O
+  O
 but O
 being O
 locked O
@@ -21440,7 +21440,7 @@ the O
 key O
 in O
 the O
-greatcoat B-PERSON
+greatcoat O
 left O
 behind O
 by O
@@ -21454,9 +21454,9 @@ landlord O
      | O
 came O
 the O
-Sandman B-PRODUCT
+Sandman B-PERSON
 and O
-Ginger B-PERSON
+Ginger B-PRODUCT
 , O
 the O
 latter O
@@ -21474,7 +21474,7 @@ barking O
 |
      | O
 furiously O
-; O
+  O
 while O
 the O
 rear O
@@ -21595,7 +21595,7 @@ questin O
 ” O
 rejoined O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 I O
@@ -21603,7 +21603,7 @@ begin O
 to O
 be O
 of O
-Ginger B-PERSON
+Ginger O
 ’s O
 opinion O
 , O
@@ -21616,9 +21616,9 @@ himself O
 must O
 have O
 flown O
-avay O
-vith O
-him O
+avay B-PERSON
+vith I-PERSON
+him I-PERSON
 . O
 No O
 von O
@@ -21649,7 +21649,7 @@ cloak O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -21668,7 +21668,7 @@ hoofs O
 cried O
 the O
 waiter O
-; O
+  O
 “ O
 and O
 I O
@@ -21684,7 +21684,7 @@ o O
 |
      | O
 great O
-glitterin O
+glitterin B-NORP
 ’ O
 eyes O
 , O
@@ -21737,7 +21737,7 @@ such O
 as O
 you O
 describe O
-; O
+  O
 nor O
 could O
 any O
@@ -21759,8 +21759,8 @@ rooms O
 . O
 It O
 was O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 ’s O
 business O
 , O
@@ -21783,7 +21783,7 @@ night O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 all O
 ’s O
@@ -21796,7 +21796,7 @@ now O
 said O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 and O
 vith O
@@ -21822,7 +21822,7 @@ yet O
 , O
 ” O
 rejoined O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 The O
@@ -21833,7 +21833,7 @@ gone O
 to O
 be O
 sure O
-; O
+  O
 and O
 the O
 only O
@@ -21846,7 +21846,7 @@ left O
 behind O
 him O
 , O
-barrin O
+barrin B-PERSON
 ’ O
 his O
 topcoat O
@@ -21902,7 +21902,7 @@ But O
 come O
 , O
 let O
-’s B-GPE
+’s O
 go O
 down O
 - O
@@ -21944,16 +21944,16 @@ Chapter B-LAW
 4 I-LAW
 | 
   | I-LAW
-The O
-Iron O
+The I-LAW
+Iron I-LAW
 - O
 merchant O
 ’s O
-Daughter B-PERSON
+Daughter B-WORK_OF_ART
 | 
-  | I-PERSON
-A I-PERSON
-week O
+  | I-WORK_OF_ART
+A I-WORK_OF_ART
+week I-WORK_OF_ART
 had O
 elapsed O
 since O
@@ -21984,7 +21984,7 @@ in O
 the O
 ruined O
 house O
-; O
+  O
 and O
 though O
 almost O
@@ -22014,8 +22014,8 @@ It O
 was O
 a O
 bright O
-spring O
-morning O
+spring B-TIME
+morning I-TIME
 , O
 when O
 a O
@@ -22043,7 +22043,7 @@ and O
 fresh O
 as O
 the O
-morning B-TIME
+morning O
 ’s O
 self O
 , O
@@ -22155,7 +22155,7 @@ was O
 a O
 type O
 of O
-Saxon B-PERSON
+Saxon O
 beauty O
 . O
 Her O
@@ -22426,7 +22426,7 @@ jacks O
 . O
 | 
   | O
-Stout O
+Stout B-PERSON
 upright O
 posts O
 , O
@@ -22510,15 +22510,15 @@ cross O
 - O
 beam O
 nearest O
-the B-ORG
+the O
 |
-     | I-ORG
-house I-ORG
-hung I-ORG
-a I-ORG
-row I-ORG
-of I-ORG
-old I-ORG
+     | O
+house O
+hung O
+a O
+row O
+of O
+old O
 horse O
 - O
 shoes O
@@ -22610,7 +22610,7 @@ was O
 astir O
 with O
 passengers O
-; O
+  O
 and O
 many O
 waggons O
@@ -22646,8 +22646,8 @@ by O
 the O
 beauty O
 of O
-the B-TIME
-morning I-TIME
+the O
+morning O
 , O
 and O
 she O
@@ -22721,7 +22721,7 @@ desired O
 a O
 solitary O
 stroll O
-; O
+  O
 but O
 however O
 |
@@ -23280,7 +23280,7 @@ doubt O
 , O
 ” O
 rejoined O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 in O
 a O
@@ -23498,7 +23498,7 @@ to O
 regard O
 the O
 other O
-; O
+  O
 and O
 a O
 profound O
@@ -23534,9 +23534,9 @@ your O
 father O
 ’s O
 house O
-to B-DATE
-- I-DATE
-day I-DATE
+to O
+- O
+day O
 . O
 ” O
 | 
@@ -23583,9 +23583,9 @@ said O
 | 
   | O
 “ O
-Dare O
-not O
-! O
+Dare B-WORK_OF_ART
+not I-WORK_OF_ART
+! I-WORK_OF_ART
 ” O
 cried O
 Ebba B-PERSON
@@ -23597,7 +23597,7 @@ cast O
 down O
 her O
 eyes O
-; O
+  O
 but O
 Auriol B-PERSON
 made O
@@ -23664,7 +23664,7 @@ assuredly O
 , O
 ” O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 I O
@@ -23982,7 +23982,7 @@ desire O
 , O
 ” O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 You O
@@ -24069,7 +24069,7 @@ mad O
 ” O
 said O
 Auriol B-PERSON
-; O
+  O
 “ O
 would O
 I O
@@ -24115,7 +24115,7 @@ experienced O
 your O
 gentle O
 ministry O
-; O
+  O
 and O
 it O
 is O
@@ -24502,7 +24502,7 @@ supposed O
 ! O
 ” O
 ejaculated O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 I O
@@ -24708,8 +24708,8 @@ day I-TIME
 at O
 the B-TIME
 hour I-TIME
-of I-TIME
-seven I-TIME
+of O
+seven O
 , O
 I O
 shall O
@@ -24725,8 +24725,8 @@ of O
 the O
 statue O
 in O
-Hyde B-LOC
-Park I-LOC
+Hyde B-FAC
+Park I-FAC
 . O
 ” O
 | 
@@ -24765,11 +24765,11 @@ smile O
 | 
   | O
 “ O
-Peace O
+Peace B-WORK_OF_ART
 ! O
 ” O
 thundered O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 | 
   | O
@@ -24827,7 +24827,7 @@ disappeared O
 | 
   | O
 “ O
-Fate B-ORG
+Fate B-WORK_OF_ART
 has O
 once O
 more O
@@ -24895,26 +24895,26 @@ Chapter B-LAW
 5 I-LAW
 | 
   | I-LAW
-The B-WORK_OF_ART
-Meeting I-WORK_OF_ART
+The I-LAW
+Meeting I-LAW
 near O
-the B-FAC
-Statue I-FAC
+the O
+Statue O
 | 
-  | I-FAC
+  | O
 The O
 evening O
 of O
-the B-DATE
-third I-DATE
-day I-DATE
+the O
+third O
+day O
 arrived O
 , O
 and O
 Auriol B-PERSON
 entered O
-Hyde O
-Park O
+Hyde B-FAC
+Park I-FAC
 by O
 Stanhope B-FAC
 Gate I-FAC
@@ -24930,10 +24930,10 @@ and O
 finding O
 it O
 wanted O
-nearly B-DATE
-three I-DATE
-- I-DATE
-quarters I-DATE
+nearly O
+three O
+- O
+quarters O
 of O
 an O
 hour O
@@ -25030,7 +25030,7 @@ aghast O
 A B-TIME
 few I-TIME
 minutes I-TIME
-’ O
+’ I-TIME
 rapid O
 walking O
 brought O
@@ -25101,7 +25101,7 @@ my O
 sufferings O
 . O
 No O
-; O
+  O
 I O
 must O
 continue O
@@ -25202,7 +25202,7 @@ springing O
 from O
 its O
 back O
-; O
+  O
 but O
 after O
 watching O
@@ -25510,7 +25510,7 @@ for O
 such O
 , O
 at O
-first O
+first B-ORDINAL
 sight O
 , O
 the O
@@ -25590,8 +25590,8 @@ no!—he O
 must O
 be O
 dead O
-ages O
-ago O
+ages B-DATE
+ago I-DATE
 ! O
 Yet O
 the O
@@ -25818,7 +25818,7 @@ gazing O
 at O
 him O
 fixedly O
-; O
+  O
 “ O
 you O
 are O
@@ -25893,7 +25893,7 @@ another O
 laying O
 hold O
 of O
-Auriol B-PERSON
+Auriol B-ORG
 . O
 | 
   | O
@@ -25907,7 +25907,7 @@ no O
 said O
 the O
 dwarf O
-; O
+  O
 “ O
 I O
 have O
@@ -26013,7 +26013,7 @@ it O
 rejoined O
 the O
 dwarf O
-; O
+  O
 “ O
 my O
 senses O
@@ -26154,7 +26154,7 @@ made O
 ? O
 ” O
 inquired O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 | 
   | O
@@ -26337,7 +26337,7 @@ arms O
 | 
   | O
 “ O
-Willingly O
+Willingly B-WORK_OF_ART
 , O
 sir O
 , O
@@ -26468,7 +26468,7 @@ the O
 gigantic O
 statue O
 of O
-Achilles B-GPE
+Achilles B-PERSON
 is O
 |
      | O
@@ -26587,7 +26587,7 @@ figure O
 of O
 its O
 wearer O
-; O
+  O
 while O
 the O
 large O
@@ -26672,12 +26672,12 @@ Auriol B-PERSON
 | 
   | O
 “ O
-Possession B-WORK_OF_ART
-of I-WORK_OF_ART
-the I-WORK_OF_ART
-girl I-WORK_OF_ART
-I I-WORK_OF_ART
-saw I-WORK_OF_ART
+Possession O
+of O
+the O
+girl O
+I O
+saw O
 three B-DATE
 days I-DATE
 ago I-DATE
@@ -26686,7 +26686,7 @@ ago I-DATE
 said O
 the O
 other O
-; O
+  O
 “ O
 the O
 iron O
@@ -26733,7 +26733,7 @@ power O
 said O
 the O
 stranger O
-; O
+  O
 “ O
 she O
 |  | O
@@ -26758,7 +26758,7 @@ you O
 ” O
 rejoined O
 Auriol B-PERSON
-; O
+  O
 “ O
 I O
 will O
@@ -26798,8 +26798,8 @@ her O
 to O
 me O
 ere O
-the O
-week O
+the B-DATE
+week I-DATE
 be O
 out O
 , O
@@ -26865,11 +26865,11 @@ bench O
 Chapter B-LAW
 6 I-LAW
 | 
-  | I-LAW
+  | O
 The O
 Charles O
 the O
-Second O
+Second B-ORDINAL
 Spaniel O
 | 
   | O
@@ -26985,7 +26985,7 @@ the O
      | O
 young O
 lady O
-; O
+  O
 she O
 blushed O
 deeply O
@@ -27146,7 +27146,7 @@ day O
 |
      | O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 I O
@@ -27173,7 +27173,7 @@ unavoidable O
 To O
 be O
 sure O
-; O
+  O
 and O
 I O
 also O
@@ -27254,7 +27254,7 @@ the O
 iron O
 - O
 merchant O
-; O
+  O
 |
      | O
 “ O
@@ -27403,7 +27403,7 @@ night I-TIME
 she O
 added O
 to O
-Auriol B-PERSON
+Auriol B-ORG
 . O
 “ O
 I O
@@ -27544,11 +27544,11 @@ Go O
 to O
 |
      | O
-Langham B-WORK_OF_ART
-Place I-WORK_OF_ART
+Langham O
+Place O
 to O
 - O
-morrow O
+morrow B-DATE
 , O
 and O
 , O
@@ -27618,7 +27618,7 @@ of O
 meeting O
 Mr. O
 Darcy B-PERSON
-; O
+  O
 but O
 you O
 did O
@@ -27767,8 +27767,8 @@ they O
 walked O
 along O
 towards O
-Oxford B-ORG
-Street I-ORG
+Oxford B-FAC
+Street I-FAC
 , O
 while O
 Mr. O
@@ -27860,7 +27860,7 @@ a O
 shudder O
 pass O
 through O
-Auriol B-PERSON
+Auriol B-ORG
 ’s O
 frame O
 . O
@@ -27894,7 +27894,7 @@ Ebba B-PERSON
 ” O
 he O
 replied O
-; O
+  O
 “ O
 but O
 a O
@@ -27929,7 +27929,7 @@ it O
 ” O
 she O
 replied O
-; O
+  O
 “ O
 because O
 , O
@@ -28136,7 +28136,7 @@ this O
 they O
 reached O
 the O
-Quadrant B-PERSON
+Quadrant B-PRODUCT
 , O
 and O
 were O
@@ -28253,7 +28253,7 @@ replied O
 , O
 blushing O
 deeply O
-; O
+  O
 “ O
 but O
 I O
@@ -28263,7 +28263,7 @@ not O
      | O
 accept O
 it O
-; O
+  O
 so O
 I O
 will O
@@ -28404,8 +28404,8 @@ miss O
 , O
 ” O
 observed O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 and O
 she O
@@ -28457,7 +28457,7 @@ in O
 her O
 place O
 . O
-Vell O
+Vell B-PERSON
 , O
 now O
 , O
@@ -28551,8 +28551,8 @@ miss O
 , O
 ” O
 replied O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 you O
 should O
@@ -28572,7 +28572,7 @@ a O
 livelihood O
 , O
 and O
-Fairy B-PERSON
+Fairy B-WORK_OF_ART
 is O
 the O
 most O
@@ -28660,8 +28660,8 @@ hayf O
 , O
 ” O
 said O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 and O
 if O
@@ -28734,11 +28734,11 @@ Bishop B-PERSON
 , O
 the O
 great O
-gunmaker O
+gunmaker B-PERSON
 o O
 ’ O
-Bond B-FAC
-Street I-FAC
+Bond O
+Street O
 , O
 about O
 me O
@@ -28749,7 +28749,7 @@ the O
 nobs O
 calls O
 the O
-Bishop B-ORG
+Bishop O
 o O
 ’ O
 |
@@ -28838,8 +28838,8 @@ sir O
 , O
 ” O
 replied O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 it O
 ’ll O
@@ -28858,10 +28858,10 @@ you O
 she O
 ’ll O
 be O
-five B-CARDINAL
-- I-CARDINAL
-an’-twenty I-CARDINAL
-guineas O
+five B-MONEY
+- I-MONEY
+an’-twenty I-MONEY
+guineas I-MONEY
 . O
 To O
 the O
@@ -28909,7 +28909,7 @@ figure O
 ! O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -28955,7 +28955,7 @@ sir O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 because O
@@ -28972,7 +28972,7 @@ a O
 |
      | O
 hanimal O
-; O
+  O
 but O
 I O
 can O
@@ -28991,7 +28991,7 @@ Vy O
 his O
 Excellency O
 the O
-Prooshan B-PERSON
+Prooshan O
 Ambassador O
 |
      | O
@@ -29001,8 +29001,8 @@ Charley B-PERSON
 from O
 me O
 , O
-t’other B-DATE
-week I-DATE
+t’other O
+week O
 , O
 to O
 present O
@@ -29051,16 +29051,16 @@ gruffly O
 | 
   | O
 “ O
-Eighty B-CARDINAL
-guineas O
+Eighty B-MONEY
+guineas I-MONEY
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
-Eighty B-CARDINAL
-guineas O
+Eighty B-MONEY
+guineas I-MONEY
 , O
 as O
 I O
@@ -29091,7 +29091,7 @@ be O
 compared O
 wi O
 ’ O
-Fairy B-WORK_OF_ART
+Fairy O
 . O
 ” O
 | 
@@ -29105,7 +29105,7 @@ stuff O
 cried O
 Mr. O
 Thorneycroft B-PERSON
-; O
+  O
 “ O
 I O
 ai O
@@ -29128,7 +29128,7 @@ gammon O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Look O
@@ -29240,7 +29240,7 @@ the O
 two B-CARDINAL
 to O
 his O
-companion—“it O
+companion—“it B-PERSON
 ’s O
 the O
 young O
@@ -29253,8 +29253,8 @@ lookin O
 ’ O
 for O
 — O
-Auriol O
-Darcy B-PERSON
+Auriol B-PERSON
+Darcy I-PERSON
 . O
 ” O
 | 
@@ -29296,7 +29296,7 @@ a O
 leetle O
 more O
 this O
-vay O
+vay B-ORG
 . O
 ” O
 | 
@@ -29310,7 +29310,7 @@ I O
 tell O
 you O
 , O
-Sandman B-ORG
+Sandman B-PERSON
 , O
 ” O
 said O
@@ -29333,7 +29333,7 @@ comrade O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 I O
 ’ll O
@@ -29347,7 +29347,7 @@ miss O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 coaxingly O
 , O
 “ O
@@ -29400,7 +29400,7 @@ pound I-QUANTITY
 by O
 the O
 transaction O
-; O
+  O
 but O
 I O
 do O
@@ -29486,7 +29486,7 @@ is O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -29521,7 +29521,7 @@ On O
 no O
 account O
 , O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 ” O
 cried O
@@ -29554,13 +29554,13 @@ Thorneycroft B-PERSON
 | 
   | O
 “ O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 and O
 Darcy B-PERSON
 ! O
 ” O
 muttered O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Can O
@@ -29575,7 +29575,7 @@ lookin O
 ’ O
 for O
 . O
-Vere O
+Vere B-PERSON
 ’s O
 my O
 |
@@ -29651,7 +29651,7 @@ sir O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 but O
@@ -29678,13 +29678,13 @@ some O
 accident O
 in O
 the O
-vay O
+vay B-ORG
 . O
 ” O
 | 
   | O
 “ O
-Accident!—stuff O
+Accident!—stuff B-ORG
 and O
 nonsense O
 ! O
@@ -29746,7 +29746,7 @@ concluded O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 delivering O
 the O
@@ -29872,7 +29872,7 @@ coach O
 that O
 was O
 passing O
-; O
+  O
 adding O
 , O
 as O
@@ -30004,7 +30004,7 @@ ask O
 I O
 vants O
 a O
-vord O
+vord B-LANGUAGE
 or O
 two B-CARDINAL
 vith O
@@ -30125,14 +30125,14 @@ Auriol B-PERSON
 No O
 , O
 you O
-von’t B-PERSON
+von’t O
 , O
 sir O
 — O
 no O
 , O
 you O
-von’t B-PERSON
+von’t O
 , O
 ” O
 replied O
@@ -30166,10 +30166,10 @@ my O
 silence O
 ven O
 you O
-larns O
-wot O
-secrets O
-o O
+larns B-ORG
+wot I-ORG
+secrets I-ORG
+o I-ORG
 ’ O
 yourn O
 |
@@ -30216,7 +30216,7 @@ man O
 , O
 ” O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 I O
@@ -30278,7 +30278,7 @@ sir O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 There O
@@ -30301,7 +30301,7 @@ conference O
 . O
 Ve’d O
 better O
-valk O
+valk B-ORG
 into O
 a O
 back O
@@ -30334,10 +30334,10 @@ turn O
 was O
 followed O
 by O
-Ginger B-PERSON
+Ginger O
 and O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 the O
 Tinker B-ORG
@@ -30382,7 +30382,7 @@ he O
 was O
 acquainted O
 , O
-Ginger B-PERSON
+Ginger O
 |
      | O
 caused O
@@ -30450,7 +30450,7 @@ presently O
 replied O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 but O
 first B-ORDINAL
@@ -30459,7 +30459,7 @@ it O
 may O
 be O
 as O
-vell O
+vell B-ORG
 to O
 state O
 , O
@@ -30540,13 +30540,13 @@ awful O
 diskiveries O
 . O
 Our O
-werry O
+werry B-WORK_OF_ART
 ‘ O
 air O
 stood O
 on O
 end O
-ven O
+ven B-ORG
 ve O
 first B-ORDINAL
 read O
@@ -30565,7 +30565,7 @@ you O
 must O
 be O
 ! O
-Vy O
+Vy B-PERSON
 , O
 ve O
 finds O
@@ -30586,8 +30586,8 @@ avay O
 with O
 a O
 young O
-ooman O
-vonce O
+ooman B-ORG
+vonce I-ORG
 every B-DATE
 ten I-DATE
 years I-DATE
@@ -30611,7 +30611,7 @@ in O
 — O
 and O
 the O
-one B-CARDINAL
+one O
 before O
 her O
 , O
@@ -30622,7 +30622,7 @@ in O
 | 
   | O
 “ O
-Hangin B-PERSON
+Hangin B-WORK_OF_ART
 ’s O
 too O
 good O
@@ -30632,8 +30632,8 @@ you O
 ” O
 cried O
 the O
-Sandman B-ORG
-; O
+Sandman B-PERSON
+  O
 “ O
 but O
 if O
@@ -30669,16 +30669,16 @@ wictim O
 ? O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
 “ O
-Peace O
+Peace B-WORK_OF_ART
 ! O
 ” O
 thundered O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 What O
@@ -30690,8 +30690,8 @@ require O
 | 
   | O
 “ O
-A B-QUANTITY
-hundred I-QUANTITY
+A O
+hundred B-QUANTITY
 pound I-QUANTITY
 each’ll O
 buy O
@@ -30716,7 +30716,7 @@ that O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 “ O
 for O
@@ -30734,7 +30734,7 @@ parpetrated O
 . O
 Ve’re O
 not O
-werry O
+werry B-GPE
 partic’lar O
 ourselves O
 , O
@@ -30762,7 +30762,7 @@ all O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -30824,21 +30824,21 @@ famous O
 halchemist O
 o O
 ’ O
-Queen O
-Bess O
-’s O
+Queen B-PERSON
+Bess I-PERSON
+’s I-PERSON
 time O
 , O
 and O
 , O
-havin’ O
+havin’ B-GPE
 drank O
-the O
-‘ O
-lixir O
+the B-EVENT
+‘ I-EVENT
+lixir I-EVENT
 |
-     | O
-vich O
+     | I-EVENT
+vich I-EVENT
 the O
 doctor O
 had O
@@ -30955,7 +30955,7 @@ Lamb B-PERSON
 ” O
 rejoined O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 He O
@@ -30964,13 +30964,13 @@ He O
      | O
 alive O
 still O
-; O
+  O
 and O
 ve O
 calls O
 him O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 on O
 account O
@@ -30985,7 +30985,7 @@ age O
 “ O
 Where O
 is O
-he?—what O
+he?—what B-PERSON
 has O
 become O
 of O
@@ -31085,7 +31085,7 @@ fear O
 ” O
 rejoined O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 But O
@@ -31172,7 +31172,7 @@ found O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
 as O
 to O
@@ -31187,7 +31187,7 @@ promise O
 replied O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 there O
 ’s O
@@ -31246,13 +31246,13 @@ Auriol B-PERSON
 | 
   | O
 “ O
-Here B-WORK_OF_ART
-’s I-WORK_OF_ART
-a I-WORK_OF_ART
-bit I-WORK_OF_ART
-o I-WORK_OF_ART
-’ I-WORK_OF_ART
-paper I-WORK_OF_ART
+Here O
+’s O
+a O
+bit O
+o O
+’ O
+paper O
 as O
 come O
 from O
@@ -31263,7 +31263,7 @@ book O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Would O
@@ -31352,10 +31352,10 @@ moment O
 , O
 and O
 while O
-Ginger B-PERSON
+Ginger O
 retreated O
 from O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 the O
 door O
@@ -31387,7 +31387,7 @@ his O
 grasp O
 . O
 Before O
-Ginger B-PERSON
+Ginger O
 could O
 turn O
 round O
@@ -31401,7 +31401,7 @@ again O
 | 
   | O
 “ O
-Halloa O
+Halloa B-WORK_OF_ART
 ! O
 What O
 ’s O
@@ -31428,7 +31428,7 @@ again O
 ” O
 cried O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 in O
 alarm O
@@ -31481,7 +31481,7 @@ devil O
 I O
 ’ll O
 have O
-nuffin O
+nuffin B-PERSON
 ’ O
 more O
 to O
@@ -31499,7 +31499,7 @@ matter O
 “ O
 Poh O
 ! O
-poh O
+poh B-PERSON
 ! O
 do O
 n’t O
@@ -31510,7 +31510,7 @@ chicken-‘arted O
 ” O
 cried O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 But O
@@ -31598,7 +31598,7 @@ him O
 , O
 ” O
 whispered O
-Ginger B-PERSON
+Ginger O
 , O
 plucking O
 the O
@@ -31648,12 +31648,12 @@ the O
 matter O
 wi O
 ’ O
-Ginger B-PERSON
+Ginger O
 , O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 slinking O
 after O
@@ -31893,7 +31893,7 @@ evening I-TIME
 | 
   | O
 “ O
-Perchance O
+Perchance B-WORK_OF_ART
 , O
 ” O
 replied O
@@ -31917,7 +31917,7 @@ Remember O
 your O
 ten B-DATE
 years I-DATE
-’ O
+’ I-DATE
 limit O
 draws O
 to O
@@ -31936,7 +31936,7 @@ be O
 at O
 an O
 end O
-; O
+  O
 and O
 if O
 you O
@@ -32094,11 +32094,11 @@ door O
 Chapter B-LAW
 8 I-LAW
 | 
-  | I-LAW
+  | O
 The O
-Barber O
+Barber B-PERSON
 of O
-London O
+London B-GPE
 | 
   | O
 Who O
@@ -32106,10 +32106,10 @@ has O
 not O
 heard O
 of O
-the B-ORG
-Barber I-ORG
-of I-ORG
-London I-ORG
+the O
+Barber O
+of O
+London B-GPE
 ? O
 His O
 dwelling O
@@ -32137,7 +32137,7 @@ everybody O
 knows O
 the O
 shop O
-; O
+  O
 that O
 is O
 to O
@@ -32258,7 +32258,7 @@ the O
 |
      | O
 court O
-; O
+  O
 he O
 will O
 give O
@@ -32271,7 +32271,7 @@ of O
 Mr. O
 Serjeant B-PERSON
 Larkins I-PERSON
-; O
+  O
 he O
 will O
 tell O
@@ -32295,7 +32295,7 @@ Vice O
 Chancellor O
 is O
 doing O
-; O
+  O
 and O
 you O
 will O
@@ -32442,7 +32442,7 @@ my O
 |
      | O
 time O
-; O
+  O
 but O
 I O
 hope O
@@ -32491,7 +32491,7 @@ master O
 in O
 |
      | O
-Chancery B-PRODUCT
+Chancery B-ORG
 , O
 and O
 listening O
@@ -32501,7 +32501,7 @@ attention O
 to O
 his O
 remarks O
-; O
+  O
 or O
 screaming O
 with O
@@ -32516,7 +32516,7 @@ some O
 smart O
 special O
 pleader O
-; O
+  O
 or O
 talking O
 of O
@@ -32541,7 +32541,7 @@ in O
 conveyancers O
 ’ O
 chambers O
-; O
+  O
 for O
 those O
 are O
@@ -32557,7 +32557,7 @@ Mr. O
 Trigge B-PERSON
 chiefly O
 delights O
-; O
+  O
 with O
 them O
 , O
@@ -32580,10 +32580,10 @@ he O
 has O
 been O
 dubbed O
-the B-ORG
-Barber I-ORG
-of I-ORG
-London I-ORG
+the O
+Barber O
+of O
+London B-GPE
 . O
 His O
 shop O
@@ -32605,7 +32605,7 @@ clerks O
 , O
 and O
 others O
-; O
+  O
 but O
 these O
 are O
@@ -32632,8 +32632,8 @@ none O
 of O
 your O
 spruce O
-West B-LOC
-End I-LOC
+West O
+End O
 hair O
 - O
 cutting O
@@ -32805,7 +32805,7 @@ Mr. O
 Trigge B-PERSON
 ’s O
 art O
-; O
+  O
 and O
 above O
 |
@@ -32920,7 +32920,7 @@ and O
 Lord O
 |
      | O
-Lyndhurst O
+Lyndhurst B-GPE
 . O
 Some O
 other O
@@ -32947,9 +32947,9 @@ displaying O
 the O
 playbill O
 of O
-the B-TIME
-evening I-TIME
-; O
+the O
+evening O
+  O
 and O
 near O
 it O
@@ -33030,7 +33030,7 @@ as O
 to O
 Mr. O
 Tuffnell B-PERSON
-Trigge B-PERSON
+Trigge I-PERSON
 himself O
 . O
 He O
@@ -33102,13 +33102,13 @@ earn O
 the O
 appellation O
 of O
-the B-ORG
-Barber I-ORG
-of I-ORG
-London I-ORG
+the O
+Barber O
+of O
+London B-GPE
 without O
 talent O
-; O
+  O
 and O
 it O
 is O
@@ -33227,7 +33227,7 @@ his O
 scissors O
 and O
 combs O
-; O
+  O
 over O
 all O
 , O
@@ -33288,10 +33288,10 @@ Tuffnell B-PERSON
 Trigge I-PERSON
 , O
 yclept O
-the B-ORG
-Barber I-ORG
-of I-ORG
-London I-ORG
+the O
+Barber B-PERSON
+of O
+London B-GPE
 . O
 | 
   | O
@@ -33370,7 +33370,7 @@ returning O
 , O
 he O
 found O
-Watts B-LOC
+Watts B-ORG
 occupied O
 in O
 cutting O
@@ -33575,7 +33575,7 @@ dear O
 ” O
 screamed O
 the O
-magpie B-FAC
+magpie O
 . O
 | 
   | O
@@ -33637,10 +33637,10 @@ the O
 barber O
 , O
 unfolded O
-the B-ORG
+the O
 |
-        | I-ORG
-Times I-ORG
+        | O
+Times B-ORG
 |  | O
 newspaper O
 , O
@@ -33687,7 +33687,7 @@ wages O
 ” O
 screamed O
 the O
-magpie B-FAC
+magpie O
 . O
 | 
   | O
@@ -33763,7 +33763,7 @@ new O
 - O
 comer O
 , O
-Watts B-LOC
+Watts B-ORG
 neglected O
 to O
 draw O
@@ -33888,13 +33888,13 @@ fellow O
 | 
   | O
 “ O
-Sarve O
+Sarve B-PERSON
 him O
 right O
 ! O
 ” O
 screamed O
-Mag—“sarve B-PRODUCT
+Mag—“sarve O
 him O
 right O
 ! O
@@ -34103,9 +34103,9 @@ last I-DATE
 century I-DATE
 — O
 in O
-Queen B-GPE
-Anne I-GPE
-’s I-GPE
+Queen B-PERSON
+Anne I-PERSON
+’s O
 |
      | O
 time O
@@ -34136,9 +34136,9 @@ It O
 was O
 |  | O
 in O
-Queen B-GPE
-Anne I-GPE
-’s I-GPE
+Queen B-FAC
+Anne I-FAC
+’s O
 |
      | O
 time O
@@ -34158,7 +34158,7 @@ worn O
 , O
 my O
 little O
-Nestor B-PERSON
+Nestor O
 ? O
 ” O
 cried O
@@ -34183,10 +34183,10 @@ were O
 first B-ORDINAL
 worn O
 in O
-Charles B-GPE
-the O
-Second B-ORDINAL
-’s O
+Charles B-PERSON
+the I-PERSON
+Second I-PERSON
+’s I-PERSON
 |
      | O
 time O
@@ -34258,11 +34258,11 @@ issue O
 here O
 , O
 as O
-the B-WORK_OF_ART
-Master I-WORK_OF_ART
-of I-WORK_OF_ART
-the I-WORK_OF_ART
-Rolls I-WORK_OF_ART
+the O
+Master O
+of O
+the O
+Rolls O
 would O
 observe O
 . O
@@ -34302,7 +34302,7 @@ friend O
 replied O
 Mr. O
 Trigge B-PERSON
-; O
+  O
 “ O
 I O
 do O
@@ -34350,10 +34350,10 @@ the O
 enviable O
 title O
 of O
-the B-ORG
-Barber I-ORG
-of I-ORG
-London I-ORG
+the O
+Barber O
+of O
+London B-GPE
 ? O
 I O
 ’m O
@@ -34387,13 +34387,13 @@ Mag B-PERSON
 “ O
 Precisely O
 , O
-Mag B-PERSON
+Mag B-ORG
 , O
 ” O
 said O
 Mr. O
 Trigge B-PERSON
-; O
+  O
 “ O
 as O
 if O
@@ -34430,7 +34430,7 @@ dear O
 ” O
 screamed O
 Mag B-PERSON
-; O
+  O
 “ O
 pretty O
 dear O
@@ -34461,7 +34461,7 @@ paying O
 Mr. O
 |
      | O
-Trigge B-ORG
+Trigge B-PERSON
 . O
 “ O
 I O
@@ -34596,10 +34596,10 @@ I O
 believe O
 , O
 is O
-Morse B-ORG
-— I-ORG
-Gregory I-ORG
-Morse I-ORG
+Morse B-PERSON
+— O
+Gregory B-PERSON
+Morse I-PERSON
 . O
 ” O
 | 
@@ -34623,14 +34623,14 @@ head O
 Flapdragon B-GPE
 , O
 alias O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 — O
 alias O
 |
      | O
-Gregory O
-Morse O
+Gregory B-PERSON
+Morse I-PERSON
 — O
 alias O
 — O
@@ -34719,15 +34719,15 @@ together O
 Chapter B-LAW
 9 I-LAW
 | 
-  | I-LAW
-The I-LAW
-Moon I-LAW
-in O
-the B-DATE
-First I-DATE
-Quarter I-DATE
-| 
   | O
+The O
+Moon O
+in O
+the B-EVENT
+First I-EVENT
+Quarter I-EVENT
+| 
+  | I-EVENT
 In O
 spite O
 of O
@@ -34833,7 +34833,7 @@ had O
 taken O
 place O
 in O
-Auriol B-PERSON
+Auriol B-ORG
 ’s O
 manner O
 , O
@@ -34877,8 +34877,8 @@ future O
 . O
 | 
   | O
-One B-CARDINAL
-evening O
+One B-TIME
+evening I-TIME
 they O
 walked O
 forth O
@@ -35033,7 +35033,7 @@ happy O
 ” O
 she O
 replied O
-; O
+  O
 “ O
 and O
 the O
@@ -35087,8 +35087,8 @@ moon O
 She O
 is O
 in O
-her B-DATE
-first I-DATE
+her O
+first B-DATE
 |
      | I-DATE
 quarter I-DATE
@@ -35849,7 +35849,7 @@ a O
 |
      | O
 spot O
-one B-CARDINAL
+one O
 reads O
 of O
 in O
@@ -35877,7 +35877,7 @@ doubt O
 , O
 ” O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 But O
@@ -36224,7 +36224,7 @@ has O
 replied O
 the O
 stranger O
-; O
+  O
 “ O
 and O
 by O
@@ -36466,13 +36466,13 @@ Chapter B-LAW
   | I-LAW
 The I-LAW
 Statue I-LAW
-at I-LAW
-Charing I-LAW
-Cross I-LAW
+at O
+Charing O
+Cross O
 | 
   | O
-One O
-morning O
+One B-TIME
+morning I-TIME
 , O
 two B-CARDINAL
 persons O
@@ -36480,10 +36480,10 @@ took O
 their O
 way O
 along O
-Parliament B-FAC
-Street I-FAC
+Parliament B-ORG
+Street I-ORG
 and O
-Whitehall O
+Whitehall B-ORG
 , O
 and O
 , O
@@ -36499,8 +36499,8 @@ into O
 the O
 entrance O
 of O
-Spring B-EVENT
-Gardens I-EVENT
+Spring B-FAC
+Gardens I-FAC
 , O
 for O
 the O
@@ -36632,8 +36632,8 @@ lived O
 in O
 |
      | O
-Abingdon O
-Street O
+Abingdon B-FAC
+Street I-FAC
 . O
 He O
 was O
@@ -36644,7 +36644,7 @@ and O
 therefore O
 pleased O
 himself O
-; O
+  O
 and O
 being O
 a O
@@ -36656,10 +36656,10 @@ an O
 antiquary O
 , O
 rambled O
-about O
-all O
-day O
-long O
+about B-DATE
+all I-DATE
+day I-DATE
+long I-DATE
 in O
 search O
 of O
@@ -36688,7 +36688,7 @@ view O
   | O
 “ O
 By O
-Jove O
+Jove B-PERSON
 ! O
 what O
 a O
@@ -36785,7 +36785,7 @@ of O
 your O
 head O
 , O
-Morse B-PERSON
+Morse B-ORG
 , O
 ” O
 said O
@@ -36808,9 +36808,9 @@ lived O
 for O
 two B-DATE
 centuries I-DATE
-and O
-a O
-half O
+and I-DATE
+a I-DATE
+half I-DATE
 . O
 ” O
 | 
@@ -36833,10 +36833,10 @@ there O
 erected O
 by O
 Edward B-PERSON
-the O
+the I-PERSON
 |
-     | O
-First B-ORDINAL
+     | I-PERSON
+First I-PERSON
 to O
 his O
 beloved O
@@ -36850,7 +36850,7 @@ Castile O
 ! O
 ” O
 said O
-Morse B-PERSON
+Morse B-ORG
 , O
 heedless O
 of O
@@ -36870,7 +36870,7 @@ when O
 I O
 remember O
 it O
-; O
+  O
 some O
 of O
 the O
@@ -36897,7 +36897,7 @@ standing O
 in O
 the O
 recesses O
-; O
+  O
 and O
 altogether O
 the O
@@ -36924,7 +36924,7 @@ Loftus B-ORG
 rubbing O
 his O
 hands O
-; O
+  O
 “ O
 and O
 , O
@@ -36944,7 +36944,7 @@ have O
 had O
 the O
 old O
-Gothic B-ORG
+Gothic O
 cross O
 . O
 But O
@@ -37013,7 +37013,7 @@ indeed O
 ! O
 ” O
 exclaimed O
-Loftus B-WORK_OF_ART
+Loftus B-ORG
 . O
 “ O
 I O
@@ -37050,7 +37050,7 @@ replied O
 Morse B-PERSON
 . O
 “ O
-Yon O
+Yon B-PERSON
 statue O
 , O
 which O
@@ -37096,7 +37096,7 @@ Rivers I-PERSON
 being O
 a O
 stanch O
-Royalist O
+Royalist B-PRODUCT
 , O
 though O
 he O
@@ -37169,7 +37169,7 @@ a O
 hater O
 of O
 the O
-Roundheads B-ORG
+Roundheads O
 , O
 and O
 as O
@@ -37223,7 +37223,7 @@ a I-DATE
 |
      | I-DATE
 month I-DATE
-; O
+  O
 and O
 during O
 that O
@@ -37324,7 +37324,7 @@ monarch O
 , O
 and O
 the O
-Roundheads B-ORG
+Roundheads O
 as O
 |
      | O
@@ -37355,7 +37355,7 @@ ha O
 ! O
 ” O
 laughed O
-Loftus B-WORK_OF_ART
+Loftus B-ORG
 . O
 | 
   | O
@@ -37367,12 +37367,12 @@ due O
 season B-DATE
 came O
 the O
-Restoration B-PRODUCT
+Restoration O
 , O
 ” O
 pursued O
-Morse B-PERSON
-; O
+Morse B-ORG
+  O
 “ O
 and O
 my O
@@ -37384,8 +37384,8 @@ King B-PERSON
 |
      | I-PERSON
 Charles I-PERSON
-the O
-Second B-ORDINAL
+the I-PERSON
+Second I-PERSON
 the O
 treasure O
 he O
@@ -37432,7 +37432,7 @@ matter O
 ” O
 cried O
 Loftus B-ORG
-; O
+  O
 “ O
 he O
 was O
@@ -37474,7 +37474,7 @@ crossed O
 over O
 the O
 road O
-; O
+  O
 and O
 , O
 taking O
@@ -37496,7 +37496,7 @@ the O
 pedestal O
 , O
 while O
-Morse B-PERSON
+Morse B-ORG
 , O
 in O
 order O
@@ -37533,8 +37533,8 @@ is O
 the O
 work O
 of O
-Grinling B-ORG
-Gibbons I-ORG
+Grinling B-PERSON
+Gibbons I-PERSON
 , O
 sir O
 ? O
@@ -37704,7 +37704,7 @@ apprentice O
 , O
 an O
 old O
-Israelitish B-NORP
+Israelitish O
 clothes O
 - O
 man O
@@ -37759,8 +37759,8 @@ done O
 | 
   | O
 “ O
-Old O
-Spectacles O
+Old B-WORK_OF_ART
+Spectacles I-WORK_OF_ART
 thinks O
 he O
 has O
@@ -37773,7 +37773,7 @@ out O
 remarked O
 the O
 porter O
-; O
+  O
 “ O
 ve O
 shall O
@@ -37794,10 +37794,10 @@ by O
 | 
   | O
 “ O
-Plesh B-WORK_OF_ART
-ma I-WORK_OF_ART
-‘ I-WORK_OF_ART
-art I-WORK_OF_ART
+Plesh O
+ma O
+‘ O
+art O
 , O
 ” O
 cried O
@@ -37839,7 +37839,7 @@ the O
 butcher O
 ’s O
 apprentice O
-; O
+  O
 “ O
 they O
 ’re O
@@ -37945,10 +37945,10 @@ replied O
 Loftus B-ORG
 , O
 fancying O
-Morse B-ORG
+Morse B-PERSON
 had O
 spoken O
-; O
+  O
 “ O
 it O
 ’ll O
@@ -37986,9 +37986,9 @@ you O
 get O
 over O
 the O
-railin O
+railin B-PERSON
 ’ O
-; O
+  O
 |
      | O
 they O
@@ -38023,7 +38023,7 @@ Joe B-PERSON
 replied O
 the O
 other O
-; O
+  O
 “ O
 but O
 just O
@@ -38057,7 +38057,7 @@ rascals O
 cried O
 the O
 coalheaver O
-; O
+  O
 “ O
 come O
 down O
@@ -38150,7 +38150,7 @@ him O
 | 
   | O
 “ O
-Arrah B-PERSON
+Arrah O
 ! O
 let O
 ’em O
@@ -38169,7 +38169,7 @@ cried O
 an O
 Irish B-NORP
 bricklayer O
-; O
+  O
 “ O
 do O
 n’t O
@@ -38206,7 +38206,7 @@ street O
 sweeper O
 . O
 “ O
-Vell O
+Vell B-PERSON
 , O
 I O
 never O
@@ -38218,7 +38218,7 @@ likes O
 on O
 ’em O
 afore O
-; O
+  O
 did O
 you O
 , O
@@ -38245,7 +38245,7 @@ in O
 Irish B-NORP
 ! O
 ye’re O
-upsettin B-PERSON
+upsettin B-LANGUAGE
 ’ O
 me O
 , O
@@ -38291,8 +38291,8 @@ n’t O
 you O
 look O
 where O
-ye’re B-PERSON
-goin’ I-PERSON
+ye’re O
+goin’ O
 , O
 and O
 not O
@@ -38307,16 +38307,16 @@ way O
 | 
   | O
 “ O
-Axes O
-pardon O
+Axes B-WORK_OF_ART
+pardon I-WORK_OF_ART
 , O
-Molly B-GPE
+Molly B-PERSON
 , O
 ” O
 said O
 the O
 bricklayer O
-; O
+  O
 “ O
 but O
 I O
@@ -38344,7 +38344,7 @@ ye O
 | 
   | O
 “ O
-Antiquaries O
+Antiquaries B-WORK_OF_ART
 be O
 hanged O
 ! O
@@ -38396,7 +38396,7 @@ good O
 - O
 natured O
 bricklayer O
-; O
+  O
 “ O
 I O
 ’ll O
@@ -38453,7 +38453,7 @@ and O
 |
      | O
 perceiving O
-Loftus B-PRODUCT
+Loftus B-ORG
 , O
 cried—“Why O
 , O
@@ -38471,7 +38471,7 @@ you O
 | 
   | O
 But O
-Loftus O
+Loftus B-ORG
 was O
 too O
 much O
@@ -38586,7 +38586,7 @@ the O
 |
      | O
 shoulder O
-; O
+  O
 “ O
 but O
 do O
@@ -38661,7 +38661,7 @@ him O
 away O
 , O
 while O
-Morse B-PERSON
+Morse B-ORG
 |
      | O
 followed O
@@ -38694,7 +38694,7 @@ clear O
 of O
 the O
 mob O
-; O
+  O
 “ O
 you O
 ’ll O
@@ -38729,7 +38729,7 @@ her O
 ? O
 ” O
 demanded O
-Loftus B-WORK_OF_ART
+Loftus B-ORG
 . O
 “ O
 You O
@@ -38763,7 +38763,7 @@ me O
 , O
 ” O
 replied O
-Thorneycroft—“left O
+Thorneycroft—“left B-ORG
 her O
 old O
 indulgent O
@@ -38781,7 +38781,7 @@ away O
 ! O
 ” O
 exclaimed O
-Loftus B-WORK_OF_ART
+Loftus B-ORG
 . O
 “ O
 Impossible O
@@ -38931,7 +38931,7 @@ him O
 , O
 ” O
 said O
-Loftus B-WORK_OF_ART
+Loftus B-ORG
 . O
 | 
   | O
@@ -38942,7 +38942,7 @@ have O
 , O
 ” O
 interposed O
-Morse B-PERSON
+Morse B-ORG
 . O
 “ O
 I O
@@ -38988,7 +38988,7 @@ valet O
 , O
 ” O
 replied O
-Loftus B-WORK_OF_ART
+Loftus B-ORG
 . O
 “ O
 He O
@@ -38999,9 +38999,9 @@ he O
 was O
 born O
 in O
-Queen O
-Elizabeth B-PERSON
-’s O
+Queen B-PERSON
+Elizabeth I-PERSON
+’s I-PERSON
 time O
 . O
 ” O
@@ -39024,7 +39024,7 @@ perfectly O
 acquainted O
 with O
 Auriol B-PERSON
-Darcy B-PERSON
+Darcy I-PERSON
 ’s O
 history O
 . O
@@ -39085,9 +39085,9 @@ for O
 a B-TIME
 few I-TIME
 minutes I-TIME
-the I-TIME
-other I-TIME
-night I-TIME
+the O
+other O
+night O
 , O
 |
      | O
@@ -39190,7 +39190,7 @@ be O
 | 
   | O
 “ O
-What!—who O
+What!—who B-WORK_OF_ART
 ? O
 ” O
 demanded O
@@ -39329,7 +39329,7 @@ I O
 fancy O
 , O
 is O
-Ginger B-PERSON
+Ginger O
 ? O
 ” O
 | 
@@ -39383,7 +39383,7 @@ darter O
   | O
 “ O
 Of O
-Ebba O
+Ebba B-PERSON
 ! O
 ” O
 exclaimed O
@@ -39431,7 +39431,7 @@ dog O
 - O
 fancier O
 gravely O
-; O
+  O
 |
      | O
 “ O
@@ -39442,7 +39442,7 @@ afeerd O
 she O
 ’s O
 in O
-werry B-EVENT
+werry B-GPE
 bad O
 hands O
 . O
@@ -39473,10 +39473,10 @@ Morse B-PERSON
 | 
   | O
 “ O
-Vy O
-, O
-Old O
-Parr B-PERSON
+Vy B-WORK_OF_ART
+, I-WORK_OF_ART
+Old I-WORK_OF_ART
+Parr I-WORK_OF_ART
 , O
 that O
 ai O
@@ -39485,7 +39485,7 @@ you O
 ? O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 gazing O
 at O
@@ -39494,9 +39494,9 @@ in O
 astonishment O
 . O
 “ O
-Vy O
-, O
-‘ O
+Vy B-WORK_OF_ART
+, I-WORK_OF_ART
+‘ I-WORK_OF_ART
 ow O
 you O
 are O
@@ -39521,7 +39521,7 @@ daughter O
 ” O
 cried O
 Thorneycroft B-PERSON
-; O
+  O
 “ O
 where O
 is O
@@ -39565,7 +39565,7 @@ sir O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 for O
@@ -39602,7 +39602,7 @@ allude O
 to O
 Mr. O
 Auriol B-PERSON
-Darcy B-PERSON
+Darcy I-PERSON
 ? O
 ” O
 cried O
@@ -39629,8 +39629,8 @@ darter O
 , O
 ” O
 replied O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 I O
 thought O
@@ -39698,7 +39698,7 @@ hours I-TIME
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -39725,7 +39725,7 @@ night I-TIME
 , O
 at O
 the O
-Turk O
+Turk B-NORP
 ’s O
 Head O
 , O
@@ -39734,8 +39734,8 @@ the O
 back O
 o O
 ’ O
-Shoreditch O
-Church O
+Shoreditch B-ORG
+Church I-ORG
 , O
 and O
 I O
@@ -39790,7 +39790,7 @@ you O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -39809,7 +39809,7 @@ a O
 |
      | O
 dangerous O
-bus’ness O
+bus’ness B-PRODUCT
 , O
 and O
 can O
@@ -39844,7 +39844,7 @@ To O
 night O
 , O
 at O
-eleven O
+eleven B-CARDINAL
 ! O
 Good O
 - O
@@ -39881,19 +39881,19 @@ away O
 Chapter B-LAW
 11 I-LAW
 | 
-  | O
-Preparations O
+  | I-LAW
+Preparations I-LAW
 | 
-  | O
+  | I-LAW
 On O
 that B-TIME
 same I-TIME
 night I-TIME
 , O
 at O
-the B-TIME
-appointed I-TIME
-hour I-TIME
+the O
+appointed O
+hour O
 , O
 Mr. O
 Thorneycroft B-PERSON
@@ -39915,7 +39915,7 @@ church O
 speedily O
 discovered O
 the O
-Turk O
+Turk B-NORP
 ’s O
 Head O
 , O
@@ -40029,7 +40029,7 @@ Thorneycroft B-PERSON
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 who O
 was O
@@ -40040,7 +40040,7 @@ trio O
 at O
 the O
 table O
-; O
+  O
 “ O
 and O
 |
@@ -40092,7 +40092,7 @@ The O
 Tinker B-ORG
 and O
 the O
-Sandman B-ORG
+Sandman B-PERSON
 coughed O
 slightly O
 , O
@@ -40117,8 +40117,8 @@ I O
 said O
 to O
 you O
-this O
-mornin O
+this B-TIME
+mornin I-TIME
 ’ O
 , O
 Mr. O
@@ -40126,7 +40126,7 @@ Thorneycroft B-PERSON
 , O
 ” O
 pursued O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 this O
@@ -40138,7 +40138,7 @@ a O
 |
      | O
 dangerous O
-bus’ness O
+bus’ness B-PRODUCT
 , O
 and O
 there O
@@ -40182,7 +40182,7 @@ chance O
 ” O
 echoed O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -40203,7 +40203,7 @@ sir O
 said O
 the O
 Sandman B-ORG
-; O
+  O
 “ O
 so O
 , O
@@ -40277,7 +40277,7 @@ too O
 ” O
 said O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -40285,7 +40285,7 @@ Sandman B-PRODUCT
 I O
 shall O
 take O
-nuffin O
+nuffin B-PERSON
 ’ O
 but O
 the O
@@ -40298,7 +40298,7 @@ afore O
 , O
 ” O
 remarked O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -40313,7 +40313,7 @@ poor O
 distressed O
 young O
 damsils O
-; O
+  O
 but O
 my O
 friends O
@@ -40336,7 +40336,7 @@ assent O
 returned O
 Mr. O
 Thorneycroft B-PERSON
-; O
+  O
 “ O
 and O
 the O
@@ -40357,7 +40357,7 @@ armed O
 ? O
 ” O
 asked O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -40393,7 +40393,7 @@ cutlashes O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 So O
@@ -40412,9 +40412,9 @@ spoke O
 the O
 Tinker B-ORG
 and O
-Sandman B-PRODUCT
+Sandman B-PERSON
 arose O
-; O
+  O
 and O
 the O
 man O
@@ -40487,7 +40487,7 @@ friend O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Vithout O
@@ -40495,13 +40495,13 @@ him O
 ve O
 could O
 do O
-nuffin O
+nuffin B-PERSON
 ’ O
 . O
 His O
 name O
 is O
-Reeks B-GPE
+Reeks B-DATE
 , O
 and O
 he O
@@ -40549,7 +40549,7 @@ Thorneycroft B-PERSON
 , O
 ” O
 rejoined O
-Reeks B-GPE
+Reeks B-DATE
 , O
 in O
 a O
@@ -40645,7 +40645,7 @@ a O
 footstep O
 with O
 you O
-; O
+  O
 and O
 I O
 alone O
@@ -40664,10 +40664,10 @@ detained O
 | 
   | O
 “ O
-Svear B-WORK_OF_ART
+Svear B-ORG
 , O
 sir O
-; O
+  O
 it O
 is O
 your O
@@ -40676,7 +40676,7 @@ chance O
 , O
 ” O
 whispered O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -40699,7 +40699,7 @@ silence O
 rejoined O
 Mr. O
 Thorneycroft B-PERSON
-; O
+  O
 “ O
 but O
 your O
@@ -40722,7 +40722,7 @@ mysterious O
 , O
 ” O
 replied O
-Reeks O
+Reeks B-DATE
 . O
 “ O
 You O
@@ -40785,7 +40785,7 @@ destination O
 |
      | O
 rejoined O
-Reeks B-GPE
+Reeks B-DATE
 . O
 “ O
 Otherwise O
@@ -40829,7 +40829,7 @@ understood O
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 , O
 “ O
 and O
@@ -40845,7 +40845,7 @@ out O
 Upon O
 this O
 , O
-Ginger B-ORG
+Ginger O
 conducted O
 Mr. O
 Thorneycroft B-PERSON
@@ -40880,12 +40880,12 @@ Mr. O
 Thorneycroft B-PERSON
 heard O
 the O
-Tinker B-PRODUCT
+Tinker B-ORG
 |
      | O
 and O
 the O
-Sandman B-PRODUCT
+Sandman B-PERSON
 take O
 their O
 places O
@@ -40898,7 +40898,7 @@ remarking O
 the O
 voice O
 of O
-Reeks B-GPE
+Reeks B-DATE
 , O
 concluded O
 |
@@ -40939,7 +40939,7 @@ It O
 made O
 many O
 turns O
-; O
+  O
 but O
 at O
 length O
@@ -41031,7 +41031,7 @@ was O
 mistaken O
 , O
 for O
-Reeks B-GPE
+Reeks B-DATE
 , O
 |
      | O
@@ -41109,7 +41109,7 @@ was O
 then O
 removed O
 from O
-Thorneycroft B-GPE
+Thorneycroft B-PERSON
 ’s O
 eyes O
 , O
@@ -41163,7 +41163,7 @@ arrived O
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 to O
 the O
 iron O
@@ -41228,7 +41228,7 @@ me O
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 , O
 “ O
 and O
@@ -41326,14 +41326,14 @@ Chamber I-ORG
 of I-ORG
 Mystery I-ORG
 | 
-  | I-ORG
+  | O
 We O
 shall O
 now O
 return O
 to O
-the O
-night O
+the B-TIME
+night I-TIME
 of O
 Ebba B-PERSON
 ’s O
@@ -41478,7 +41478,7 @@ along O
 a O
 winding O
 passage O
-; O
+  O
 after O
 which O
 , O
@@ -41532,7 +41532,7 @@ herself O
 seated O
 on O
 a O
-fauteuil O
+fauteuil B-NORP
 covered O
 with O
 black O
@@ -41655,7 +41655,7 @@ Drink O
 ” O
 he O
 cried O
-; O
+  O
 “ O
 it O
 will O
@@ -41715,7 +41715,7 @@ foolishly O
 he O
 said O
 sternly O
-; O
+  O
 “ O
 the O
 potion O
@@ -41888,7 +41888,7 @@ stuck O
 into O
 the O
 table O
-; O
+  O
 and O
 beside O
 it O
@@ -41957,7 +41957,7 @@ black O
 |
      | O
 curtain O
-; O
+  O
 and O
 on O
 the O
@@ -42215,7 +42215,7 @@ and O
 for O
 that O
 of O
-Auriol B-EVENT
+Auriol B-PERSON
 . O
 In O
 the O
@@ -42383,7 +42383,7 @@ grim O
 and O
 motionless O
 figures O
-; O
+  O
 mufflers O
 enveloped O
 their O
@@ -42565,7 +42565,7 @@ entrance O
 to O
 |
      | O
-three O
+three B-CARDINAL
 female O
 figures O
 , O
@@ -42794,7 +42794,7 @@ distractedly O
 | 
   | O
 “ O
-Witness O
+Witness B-WORK_OF_ART
 his O
 chastisement O
 , O
@@ -42843,10 +42843,10 @@ looked O
 like O
 familiars O
 of O
-the O
+the B-LAW
 |
-     | O
-Inquisition O
+     | I-LAW
+Inquisition I-LAW
 . O
 | 
   | O
@@ -42956,7 +42956,7 @@ sign O
 cried O
 the O
 voice O
-; O
+  O
 “ O
 and O
 , O
@@ -43024,7 +43024,7 @@ chamber O
 It O
 broke O
 from O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 who O
 vainly O
@@ -43311,12 +43311,12 @@ terrible O
 clangour O
 was O
 heard O
-; O
+  O
 the O
 lights O
 were O
 extinguished O
-; O
+  O
 and O
 Auriol B-PERSON
 was O
@@ -43395,8 +43395,8 @@ the O
      | O
 neighbourhood O
 of O
-Stepney B-LOC
-Green I-LOC
+Stepney B-FAC
+Green I-FAC
 . O
 He O
 was O
@@ -43418,7 +43418,7 @@ vigour O
 of O
 early O
 manhood O
-; O
+  O
 but O
 his O
 features O
@@ -43552,7 +43552,7 @@ heaps O
 upon O
 the O
 floor O
-; O
+  O
 the O
 glories O
 of O
@@ -43567,7 +43567,7 @@ were O
 obliterated O
 by O
 damps O
-; O
+  O
 the O
 squares O
 of O
@@ -43593,7 +43593,7 @@ quaked O
 beneath O
 the O
 footsteps O
-; O
+  O
 the O
 wide O
 and O
@@ -43608,7 +43608,7 @@ mouth O
 of O
 a O
 cavern O
-; O
+  O
 the O
 bolts O
 of O
@@ -43620,7 +43620,7 @@ rusted O
 in O
 their O
 sockets O
-; O
+  O
 and O
 the O
 heaps O
@@ -43634,8 +43634,8 @@ outer O
 door O
 proved O
 that O
-long O
-years O
+long B-DATE
+years I-DATE
 had O
 elapsed O
 since O
@@ -43755,10 +43755,10 @@ cap O
 and O
 gown O
 of O
-Henry B-FAC
-the I-FAC
-Eighth I-FAC
-’s I-FAC
+Henry B-PERSON
+the I-PERSON
+Eighth B-LOC
+’s O
 time O
 , O
 painted O
@@ -43813,7 +43813,7 @@ Cyprianus B-WORK_OF_ART
 de I-WORK_OF_ART
 Rougemont I-WORK_OF_ART
 , O
-Fra O
+Fra B-GPE
 . O
 R.C. O
 ” O
@@ -43832,9 +43832,9 @@ the O
 portrait O
 , O
 with O
-the B-DATE
-date I-DATE
-1550 I-DATE
+the O
+date O
+1550 B-CARDINAL
 . O
 | 
   | O
@@ -43917,7 +43917,7 @@ it O
 | 
   | O
 “ O
-Dost O
+Dost B-PERSON
 hear O
 me O
 , O
@@ -43934,9 +43934,9 @@ I O
 thy O
 descendant O
 , O
-Cyprian B-PERSON
-de I-PERSON
-Rougemont I-PERSON
+Cyprian B-NORP
+de O
+Rougemont O
 , O
 call O
 upon O
@@ -43960,13 +43960,13 @@ wert O
 a O
 brother O
 of O
-the B-ORG
-Rosy I-ORG
+the O
+Rosy O
 |
-     | I-ORG
-Cross I-ORG
+     | O
+Cross O
 — O
-one O
+one B-CARDINAL
 of O
 the O
 illuminati O
@@ -44004,7 +44004,7 @@ with O
 a O
 vast O
 treasure O
-; O
+  O
 but O
 though O
 I O
@@ -44038,7 +44038,7 @@ Listen O
 to O
 me O
 ! O
-Methought B-PERSON
+Methought O
 Satan O
 appeared O
 to O
@@ -44046,8 +44046,8 @@ me O
 in O
 a O
 dream O
-last O
-night O
+last B-TIME
+night I-TIME
 , O
 and O
 bade O
@@ -44089,7 +44089,7 @@ him O
 that O
 of O
 Auriol B-PERSON
-Darcy B-PERSON
+Darcy I-PERSON
 . O
 I O
 assented O
@@ -44130,7 +44130,7 @@ voice O
 | 
   | O
 “ O
-Dost O
+Dost B-PERSON
 hear O
 me O
 , O
@@ -44150,7 +44150,7 @@ me O
 thy O
 treasure O
 . O
-Dost O
+Dost B-PERSON
 hear O
 , O
 I O
@@ -44205,7 +44205,7 @@ this O
 ? O
 ” O
 cried O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 gazing O
 into O
@@ -44249,8 +44249,8 @@ recess O
 about B-CARDINAL
 two I-CARDINAL
 |
-     | O
-feet O
+     | I-CARDINAL
+feet I-CARDINAL
 deep O
 , O
 a O
@@ -44311,8 +44311,8 @@ tomb O
 , O
 ” O
 cried O
-Rougemont B-ORG
-; O
+Rougemont B-FAC
+  O
 “ O
 there O
 can O
@@ -44332,7 +44332,7 @@ kept O
 his O
 secret O
 well O
-; O
+  O
 but O
 the O
 devil O
@@ -44398,7 +44398,7 @@ lever O
 and O
 a O
 pitchfork O
-; O
+  O
 armed O
 with O
 which O
@@ -44481,7 +44481,7 @@ C.C.L. I-ORG
 ANNOS I-ORG
 PATEBO I-ORG
 , O
-1550 B-DATE
+1550 B-CARDINAL
 . O
 ” O
 |   
@@ -44499,7 +44499,7 @@ open O
 ! O
 ” O
 cried O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 “ O
 and O
@@ -44518,7 +44518,7 @@ is O
 arrived O
 . O
 Old O
-Cyprian B-PERSON
+Cyprian B-NORP
 must O
 have O
 foreseen O
@@ -44678,7 +44678,7 @@ Rosicrucians B-NORP
 |
      | O
 and O
-Rougemont O
+Rougemont B-LOC
 gazed O
 at O
 it O
@@ -44736,7 +44736,7 @@ wrought O
 in O
 purest O
 gold O
-; O
+  O
 while O
 |
      | O
@@ -44889,7 +44889,7 @@ inexhaustible O
 |
      | O
 treasure O
-; O
+  O
 while O
 in O
 the O
@@ -45023,7 +45023,7 @@ gold O
 , O
 on O
 which O
-Rougemont B-ORG
+Rougemont B-FAC
 read O
 the O
 following O
@@ -45036,10 +45036,10 @@ inscription O
 Hoc O
 universi O
 compendium O
-unius O
-mihi O
-sepulcrum O
-feci O
+unius B-PERSON
+mihi I-PERSON
+sepulcrum I-PERSON
+feci I-PERSON
 . O
 ” O
 |   
@@ -45050,7 +45050,7 @@ Here O
 then O
 , O
 old O
-Cyprian B-ORG
+Cyprian B-NORP
 lies O
 , O
 ” O
@@ -45136,7 +45136,7 @@ by O
 this O
 warning O
 , O
-Rougemont O
+Rougemont B-ORG
 |
      | O
 placed O
@@ -45205,9 +45205,9 @@ of O
 his O
 ancestor O
 , O
-Cyprian B-PERSON
-de I-PERSON
-Rougemont I-PERSON
+Cyprian B-ORG
+de I-ORG
+Rougemont I-ORG
 . O
 The O
 corpse O
@@ -45480,7 +45480,7 @@ and O
      | O
 precious O
 stones O
-; O
+  O
 and O
 the O
 rest O
@@ -45555,7 +45555,7 @@ its O
 |
      | O
 perdition O
-; O
+  O
 but O
 it O
 shall O
@@ -45579,8 +45579,8 @@ his O
      | O
 passion O
 for O
-Edith B-FAC
-Talbot I-FAC
+Edith B-PERSON
+Talbot I-PERSON
 shall O
 be O
 the O
@@ -45645,13 +45645,13 @@ well O
 serve O
 my O
 purpose O
-; O
+  O
 and O
 I O
 thank O
 thee O
 , O
-Satan B-DATE
+Satan B-PERSON
 , O
 for O
 the O
@@ -45665,13 +45665,13 @@ Chapter B-LAW
 2 I-LAW
 | 
   | I-LAW
-The O
-Compact O
+The I-LAW
+Compact I-LAW
 | 
   | O
-About O
-two O
-months O
+About B-DATE
+two I-DATE
+months I-DATE
 after O
 this O
 occurrence O
@@ -45688,8 +45688,8 @@ hurrying O
 along O
 |
      | O
-Pall B-WORK_OF_ART
-Mall I-WORK_OF_ART
+Pall B-FAC
+Mall I-FAC
 , O
 with O
 a O
@@ -45800,10 +45800,10 @@ him O
 | 
   | O
 “ O
-Leave B-WORK_OF_ART
-me I-WORK_OF_ART
-, I-WORK_OF_ART
-Rougemont I-WORK_OF_ART
+Leave O
+me O
+, O
+Rougemont B-FAC
 ! O
 ” O
 he O
@@ -45878,7 +45878,7 @@ friend O
 ! O
 ” O
 replied O
-Rougemont B-ORG
+Rougemont O
 . O
 “ O
 I O
@@ -45997,7 +45997,7 @@ jesting O
 , O
 ” O
 rejoined O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 “ O
 Come O
@@ -46084,7 +46084,7 @@ questions O
 , O
 ” O
 replied O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 knocking O
 at O
@@ -46194,7 +46194,7 @@ servant O
 then O
 left O
 them O
-; O
+  O
 and O
 as O
 soon O
@@ -46365,7 +46365,7 @@ all O
 , O
 ” O
 said O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 “ O
 You O
@@ -46416,7 +46416,7 @@ ha O
 ! O
 ” O
 laughed O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 “ O
 It O
@@ -46529,7 +46529,7 @@ please O
 , O
 ” O
 replied O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 | 
   | O
@@ -46678,7 +46678,7 @@ it O
 said O
 |
      | O
-Rougemont B-ORG
+Rougemont B-GPE
 , O
 carefully O
 closing O
@@ -46700,7 +46700,7 @@ them O
 | 
   | O
 “ O
-Notes B-PRODUCT
+Notes B-WORK_OF_ART
 to O
 an O
 immense O
@@ -46738,7 +46738,7 @@ house O
 , O
 ” O
 cried O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 “ O
 if O
@@ -46943,7 +46943,7 @@ he O
 looked O
 up O
 at O
-Rougemont B-GPE
+Rougemont B-FAC
 , O
 who O
 was O
@@ -46999,9 +46999,9 @@ other O
 | 
   | O
 “ O
-You O
-are O
-Satan B-LOC
+You B-WORK_OF_ART
+are I-WORK_OF_ART
+Satan I-WORK_OF_ART
 in O
 the O
 form O
@@ -47055,7 +47055,7 @@ other O
 |
      | O
 “ O
-Granting B-WORK_OF_ART
+Granting O
 even O
 your O
 silly O
@@ -47088,7 +47088,7 @@ True O
 rejoined O
 Auriol B-PERSON
 thoughtfully O
-; O
+  O
 “ O
 but O
 yet O
@@ -47155,7 +47155,7 @@ Precisely O
 replied O
 the O
 other O
-; O
+  O
 “ O
 you O
 can O
@@ -47280,7 +47280,7 @@ his O
 shoulder O
 . O
 “ O
-Riches B-ORG
+Riches O
 and O
 happiness O
 are O
@@ -47352,7 +47352,7 @@ the O
 parchment O
 , O
 which O
-Rougemont B-ORG
+Rougemont B-FAC
 |
      | O
 thrust O
@@ -47418,8 +47418,8 @@ house O
 , O
 ” O
 pursued O
-Rougemont B-ORG
-; O
+Rougemont B-FAC
+  O
 “ O
 but O
 I O
@@ -47465,23 +47465,23 @@ my O
 choice O
 falls O
 on O
-Edith B-FAC
-Talbot I-FAC
+Edith B-PERSON
+Talbot I-PERSON
 ! O
 ” O
 replied O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 | 
   | O
 “ O
-Edith B-FAC
-Talbot I-FAC
+Edith B-WORK_OF_ART
+Talbot I-WORK_OF_ART
 ! O
 ” O
 exclaimed O
 Auriol B-PERSON
-; O
+  O
 “ O
 she O
 your O
@@ -47623,7 +47623,7 @@ he O
 rushed O
 wildly O
 after O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 who O
 had O
@@ -47632,7 +47632,7 @@ gained O
 the O
 larger O
 chamber O
-; O
+  O
 but O
 , O
 ere O
@@ -47696,9 +47696,9 @@ had O
 quitted O
 the O
 house O
-some B-TIME
-moments I-TIME
-ago I-TIME
+some B-DATE
+moments I-DATE
+ago I-DATE
 , O
 telling O
 them O
@@ -47810,7 +47810,7 @@ him O
 cried O
 Auriol B-PERSON
 sharply O
-; O
+  O
 “ O
 mind O
 that O
@@ -47819,7 +47819,7 @@ Deny O
 me O
 to O
 him O
-; O
+  O
 and O
 on O
 no O
@@ -47911,7 +47911,7 @@ Chapter B-LAW
 Irresolution I-LAW
 | 
   | I-LAW
-On I-LAW
+On O
 returning O
 to O
 the O
@@ -48140,7 +48140,7 @@ not O
 remain O
 here O
 longer O
-; O
+  O
 nor O
 will O
 I O
@@ -48234,7 +48234,7 @@ that O
 of O
 |
      | O
-Rougemont B-ORG
+Rougemont B-GPE
 , O
 called O
 upon O
@@ -48318,7 +48318,7 @@ on O
 the O
 |
      | O
-seventh B-ORDINAL
+seventh O
 night O
 from O
 this O
@@ -48461,7 +48461,7 @@ the O
 bargain O
 to O
 - O
-morrow O
+morrow B-DATE
 . O
 Meanwhile O
 , O
@@ -48611,12 +48611,12 @@ announces O
 the O
 payment O
 of O
-a B-QUANTITY
-hundred I-QUANTITY
-and I-QUANTITY
-twenty I-QUANTITY
-thousand I-QUANTITY
-pounds I-QUANTITY
+a B-CARDINAL
+hundred I-CARDINAL
+and I-CARDINAL
+twenty I-CARDINAL
+thousand I-CARDINAL
+pounds I-CARDINAL
 to O
 |
      | O
@@ -48652,7 +48652,7 @@ voice O
 was O
 then O
 hushed O
-; O
+  O
 and O
 though O
 Auriol B-PERSON
@@ -48810,7 +48810,7 @@ antique O
      | O
 bottle O
 and O
-flagon B-PERSON
+flagon O
 . O
 The O
 latter O
@@ -48832,7 +48832,7 @@ to O
 |
      | O
 examine O
-; O
+  O
 but O
 seizing O
 the O
@@ -48964,7 +48964,7 @@ which O
 was O
 a O
 fountain O
-; O
+  O
 and O
 they O
 were O
@@ -48980,7 +48980,7 @@ when O
 all O
 at O
 once O
-Edith B-ORG
+Edith B-PERSON
 uttered O
 a O
 scream O
@@ -49013,7 +49013,7 @@ the O
 next O
 moment O
 . O
-Auriol O
+Auriol B-PERSON
 sprang O
 forward O
 and O
@@ -49027,7 +49027,7 @@ reptile O
 with O
 his O
 heel O
-; O
+  O
 but O
 , O
 avoiding O
@@ -49153,8 +49153,8 @@ Chapter B-LAW
 4 I-LAW
 | 
   | O
-Edith O
-Talbot O
+Edith B-PERSON
+Talbot I-PERSON
 | 
   | O
 It O
@@ -49267,7 +49267,7 @@ sumptuous O
 breakfast O
 awaited O
 him O
-; O
+  O
 and O
 having O
 partaken O
@@ -49372,8 +49372,8 @@ He O
 then O
 proceeded O
 towards O
-May B-WORK_OF_ART
-Fair I-WORK_OF_ART
+May B-DATE
+Fair I-DATE
 , O
 and O
 knocked O
@@ -49391,8 +49391,8 @@ end O
 |
      | O
 of O
-Curzon B-LOC
-Street I-LOC
+Curzon B-FAC
+Street I-FAC
 . O
 His O
 heart O
@@ -49507,7 +49507,7 @@ demanding O
 the O
 hand O
 of O
-Edith B-GPE
+Edith B-ORG
 . O
 He O
 was O
@@ -49532,7 +49532,7 @@ servant O
 It O
 was O
 from O
-Edith B-GPE
+Edith B-ORG
 . O
 Having O
 |
@@ -49618,9 +49618,9 @@ for O
 a O
 reply O
 . O
-Ere B-TIME
-an I-TIME
-hour I-TIME
+Ere B-PERSON
+an I-PERSON
+hour I-PERSON
 had O
 |
      | O
@@ -49649,15 +49649,15 @@ tall O
 thin O
 , O
 and O
-gentlemanlike O
+gentlemanlike B-PERSON
 in O
 deportment O
 , O
 with O
-grey B-ORG
+grey O
 |
-     | I-ORG
-hair I-ORG
+     | O
+hair O
 , O
 and O
 black O
@@ -49781,7 +49781,7 @@ pecuniary O
 point O
 of O
 view O
-; O
+  O
 but O
 the O
 magnificence O
@@ -49789,18 +49789,18 @@ of O
 the O
 house O
 in O
-Saint B-GPE
-James I-GPE
-’s I-GPE
+Saint B-FAC
+James I-FAC
+’s I-FAC
 |
-     | I-GPE
-Square I-GPE
+     | I-FAC
+Square I-FAC
 , O
 which O
 fully O
 bore O
 out O
-Auriol B-PERSON
+Auriol B-ORG
 ’s O
 account O
 of O
@@ -49910,10 +49910,10 @@ could O
 not O
 possibly O
 return O
-under O
+under B-DATE
 |
-     | O
-three B-DATE
+     | I-DATE
+three I-DATE
 days I-DATE
 . O
 | 
@@ -50017,7 +50017,7 @@ his O
 victim O
 , O
 struck O
-Auriol B-PERSON
+Auriol B-ORG
 forcibly O
 . O
 His O
@@ -50237,7 +50237,7 @@ her O
 movements O
 , O
 and O
-one B-CARDINAL
+one O
 only O
 wondered O
 that O
@@ -50332,7 +50332,7 @@ next O
 ” O
 pursued O
 Auriol B-PERSON
-; O
+  O
 “ O
 but O
 I O
@@ -50396,7 +50396,7 @@ it O
 ” O
 he O
 said O
-; O
+  O
 “ O
 and O
 my O
@@ -50436,7 +50436,7 @@ Oh O
 no O
 , O
 Auriol B-PERSON
-; O
+  O
 much O
 as O
 I O
@@ -50556,9 +50556,9 @@ pleasantly O
 and O
 so O
 did O
-the B-TIME
-evening I-TIME
-; O
+the O
+evening O
+  O
 for O
 the O
 old O
@@ -50597,7 +50597,7 @@ tea O
 they O
 found O
 that O
-Edith B-ORG
+Edith B-PERSON
 ’s O
 aunt O
 , O
@@ -50627,7 +50627,7 @@ exhibited O
 a O
 partiality O
 for O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 and O
 |
@@ -50639,7 +50639,7 @@ suit O
 to O
 her O
 niece O
-; O
+  O
 consequently O
 she O
 was O
@@ -50664,7 +50664,7 @@ could O
 tear O
 himself O
 away O
-; O
+  O
 and O
 when O
 he O
@@ -50726,7 +50726,7 @@ of O
 Mrs. O
 Maitland B-PERSON
 and O
-Edith B-ORG
+Edith B-PERSON
 . O
 | 
   | O
@@ -50737,14 +50737,14 @@ by O
 rapidly O
 and O
 delightfully O
-; O
+  O
 and O
 on O
 the B-TIME
 evening I-TIME
-of O
-the O
-last O
+of I-TIME
+the I-TIME
+last I-TIME
 , O
 just O
 as O
@@ -50886,7 +50886,7 @@ sir O
 |
      | O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 | 
   | O
@@ -50930,7 +50930,7 @@ sound O
 . O
 To O
 - O
-morrow O
+morrow B-DATE
 we O
 will O
 finish O
@@ -51001,8 +51001,8 @@ you O
 have O
 not O
 invited O
-Cyprian B-ORG
-Rougemont I-ORG
+Cyprian B-NORP
+Rougemont O
 ? O
 ” O
 said O
@@ -51093,7 +51093,7 @@ hears O
 of O
 a O
 man O
-; O
+  O
 and O
 , O
 indeed O
@@ -51117,7 +51117,7 @@ Rougemont I-ORG
 replied O
 Mr. O
 Talbot B-PERSON
-; O
+  O
 “ O
 but O
 I O
@@ -51211,14 +51211,14 @@ lawyer O
 in O
 Lincoln B-ORG
 ’s O
-Inn O
+Inn B-GPE
 , O
 at O
 noon B-TIME
 on O
-the O
-following O
-day O
+the B-DATE
+following I-DATE
+day I-DATE
 . O
 He O
 was O
@@ -51253,9 +51253,9 @@ lawyer O
 paid O
 over B-CARDINAL
 a I-CARDINAL
-hundred O
-thousand O
-pounds O
+hundred I-CARDINAL
+thousand I-CARDINAL
+pounds I-CARDINAL
 , O
 to O
 be O
@@ -51295,7 +51295,7 @@ shoulder O
 and O
 I O
 hope O
-Edith B-ORG
+Edith B-PERSON
 will O
 make O
 you O
@@ -51316,8 +51316,8 @@ it O
 | 
   | O
 “ O
-Nor B-WORK_OF_ART
-I,—if I-WORK_OF_ART
+Nor O
+I,—if O
 I O
 ever O
 possess O
@@ -51326,12 +51326,12 @@ her O
 ” O
 mentally O
 ejaculated O
-Auriol B-DATE
+Auriol B-PERSON
 . O
 | 
   | O
-The O
-morning O
+The B-TIME
+morning I-TIME
 passed O
 in O
 other O
@@ -51384,7 +51384,7 @@ Auriol B-PERSON
 had O
 neither O
 seen O
-Rougemont B-GPE
+Rougemont B-FAC
 , O
 nor O
 heard O
@@ -51410,8 +51410,8 @@ Chapter B-LAW
 5 I-LAW
 | 
   | I-LAW
-The O
-Seventh O
+The I-LAW
+Seventh B-ORDINAL
 Night O
 | 
   | O
@@ -51621,10 +51621,10 @@ first B-ORDINAL
      | O
 singers O
 from O
-the O
-Italian B-NORP
-Opera O
-; O
+the B-ORG
+Italian I-ORG
+Opera I-ORG
+  O
 after O
 which O
 , O
@@ -51707,7 +51707,7 @@ at O
 him O
 with O
 tenderness O
-; O
+  O
 “ O
 I O
 long O
@@ -51731,7 +51731,7 @@ Auriol B-PERSON
 . O
 | 
   | O
-Edith B-ORG
+Edith B-PERSON
 arose O
 , O
 and O
@@ -51822,7 +51822,7 @@ supported O
 by O
 two B-CARDINAL
 stately O
-scagliola B-GPE
+scagliola B-ORG
 pillars O
 . O
 From O
@@ -51925,7 +51925,7 @@ this O
 ? O
 ” O
 cried O
-Edith B-ORG
+Edith B-PERSON
 , O
 as O
 a O
@@ -51978,7 +51978,7 @@ of O
 apprehension O
 passed O
 through O
-Auriol B-PERSON
+Auriol B-ORG
 ’s O
 frame O
 . O
@@ -51987,7 +51987,7 @@ looked O
 up O
 and O
 beheld O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 |
      | O
@@ -52034,7 +52034,7 @@ audible O
 only O
 to O
 Auriol B-PERSON
-; O
+  O
 “ O
 but O
 |
@@ -52192,7 +52192,7 @@ friend O
 Mr. O
 |
      | O
-Rougemont O
+Rougemont B-GPE
 — O
 go O
 with O
@@ -52240,7 +52240,7 @@ Rougemont B-ORG
 with O
 sarcastic O
 emphasis O
-; O
+  O
 “ O
 but O
 |
@@ -52314,7 +52314,7 @@ courage O
 , O
 and O
 suffered O
-Rougemont O
+Rougemont B-FAC
 to O
 throw O
 a O
@@ -52537,7 +52537,7 @@ the O
 power O
 of O
 the O
-Fiend B-LOC
+Fiend O
 , O
 and O
 I O
@@ -52576,10 +52576,10 @@ distraction O
 I O
 heard O
 that O
-Cyprian B-PERSON
+Cyprian B-NORP
 |
-     | I-PERSON
-Rougemont I-PERSON
+     | O
+Rougemont B-GPE
 was O
 here O
 . O
@@ -52606,7 +52606,7 @@ truth O
 , O
 ” O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 “ O
 He O
@@ -52634,7 +52634,7 @@ perdition O
 | 
   | O
 “ O
-Horror O
+Horror B-WORK_OF_ART
 ! O
 ” O
 exclaimed O
@@ -52695,16 +52695,16 @@ went O
 End O
 of O
 the O
-Intermean B-NORP
+Intermean O
 | 
   
   | O
-Chapter B-LAW
-1 I-LAW
+Chapter O
+1 O
 | 
-  | I-LAW
-The I-LAW
-Cell I-LAW
+  | O
+The O
+Cell O
 | 
   | O
 Mr. O
@@ -52860,7 +52860,7 @@ were O
 cautiously O
 tried O
 by O
-Reeks B-GPE
+Reeks B-DATE
 , O
 but O
 they O
@@ -52911,8 +52911,8 @@ walls O
 were O
 panelled O
 with O
-dusky B-PERSON
-oak I-PERSON
+dusky O
+oak O
 , O
 |
      | O
@@ -52936,7 +52936,7 @@ his O
 |
      | O
 captive O
-Zoroaster B-PERSON
+Zoroaster O
 , O
 King O
 of O
@@ -53144,7 +53144,7 @@ room O
 he O
 observed O
 to O
-Reeks B-GPE
+Reeks B-DATE
 , O
 on O
 concluding O
@@ -53229,7 +53229,7 @@ moment O
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 . O
 “ O
 Keep O
@@ -53283,8 +53283,8 @@ say O
 , O
 ” O
 answered O
-Reeks O
-; O
+Reeks B-DATE
+  O
 “ O
 but O
 I O
@@ -53333,7 +53333,7 @@ Thorneycroft B-PERSON
 Make O
 yourself O
 easy O
-; O
+  O
 I O
 have O
 no O
@@ -53342,7 +53342,7 @@ intention O
 , O
 ” O
 rejoined O
-Reeks O
+Reeks B-DATE
 sternly O
 . O
 | 
@@ -53366,7 +53366,7 @@ gent O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -53385,7 +53385,7 @@ the O
 Tinker B-ORG
 and O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -53403,7 +53403,7 @@ sir O
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 . O
 “ O
 Before O
@@ -53441,11 +53441,11 @@ subterranean O
 apartments O
 , O
 Mr. O
-Reeks B-PERSON
+Reeks B-DATE
 ? O
 ” O
 interposed O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Ve O
@@ -53472,7 +53472,7 @@ to O
 the O
 inquiry O
 , O
-Reeks B-GPE
+Reeks B-DATE
 quitted O
 the O
 room O
@@ -53580,7 +53580,7 @@ black O
 pacing O
 to O
 and O
-fro O
+fro B-ORG
 with O
 rapid O
 strides O
@@ -53622,8 +53622,8 @@ tall O
 man O
 he O
 recognised O
-Cyprian B-ORG
-Rougemont I-ORG
+Cyprian B-LOC
+Rougemont I-LOC
 . O
 Upon O
 a O
@@ -53752,7 +53752,7 @@ it O
      | O
 seemed O
 to O
-Reeks B-GPE
+Reeks B-DATE
 ) O
 , O
 clothed O
@@ -53867,7 +53867,7 @@ room O
 seeing O
 which O
 , O
-Reeks B-NORP
+Reeks B-DATE
 hastily O
 |
      | O
@@ -53903,7 +53903,7 @@ on O
 the O
 gallery O
 . O
-Reeks O
+Reeks B-DATE
 heard O
 |
      | O
@@ -53949,7 +53949,7 @@ moment O
 ’s O
 deliberation O
 , O
-Rougemont B-ORG
+Rougemont B-FAC
 noiselessly O
 locked O
 the O
@@ -53989,7 +53989,7 @@ to O
 confront O
 them O
 , O
-Reeks B-GPE
+Reeks O
 started O
 back O
 , O
@@ -54083,7 +54083,7 @@ one B-CARDINAL
 of O
 these O
 , O
-Reeks B-GPE
+Reeks O
 discovered O
 the O
 door O
@@ -54127,10 +54127,10 @@ within O
 cried O
 , O
 “ O
-Leave B-WORK_OF_ART
-me I-WORK_OF_ART
-in I-WORK_OF_ART
-peace I-WORK_OF_ART
+Leave O
+me O
+in O
+peace O
 ! O
 ” O
 | 
@@ -54138,14 +54138,14 @@ peace I-WORK_OF_ART
 “ O
 Is O
 it O
-Auriol O
-Darcy B-PERSON
+Auriol B-PERSON
+Darcy I-PERSON
 who O
 speaks O
 ? O
 ” O
 demanded O
-Reeks B-GPE
+Reeks B-DATE
 . O
 | 
   | O
@@ -54176,7 +54176,7 @@ friend O
 , O
 ” O
 replied O
-Reeks O
+Reeks B-DATE
 . O
 | 
   | O
@@ -54200,7 +54200,7 @@ mistaken O
 , O
 ” O
 rejoined O
-Reeks B-GPE
+Reeks B-DATE
 . O
 “ O
 I O
@@ -54245,7 +54245,7 @@ her O
 ? O
 ” O
 demanded O
-Reeks B-GPE
+Reeks B-DATE
 . O
 | 
   | O
@@ -54277,7 +54277,7 @@ Rougemont I-ORG
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 . O
 “ O
 But O
@@ -54320,7 +54320,7 @@ despair O
 , O
 ” O
 rejoined O
-Reeks B-GPE
+Reeks B-DATE
 . O
 “ O
 She O
@@ -54359,8 +54359,8 @@ you O
 , O
 ” O
 rejoined O
-Reeks B-GPE
-; O
+Reeks B-DATE
+  O
 “ O
 but O
 you O
@@ -54446,7 +54446,7 @@ again O
 , O
 ” O
 said O
-Reeks O
+Reeks B-DATE
 . O
 | 
   | O
@@ -54478,7 +54478,7 @@ friend O
 , O
 ” O
 replied O
-Reeks O
+Reeks B-DATE
 . O
 | 
   | O
@@ -54523,12 +54523,12 @@ have O
 no O
 fear O
 of O
-Cyprian B-ORG
-Rougemont I-ORG
+Cyprian B-LOC
+Rougemont I-LOC
 , O
 ” O
 rejoined O
-Reeks B-GPE
+Reeks B-DATE
 , O
 with O
 a O
@@ -54566,7 +54566,7 @@ anon O
 , O
 ” O
 replied O
-Reeks O
+Reeks B-DATE
 . O
 “ O
 But O
@@ -54576,7 +54576,7 @@ are O
 interrupted O
 . O
 Some O
-one B-CARDINAL
+one O
 |
      | O
 approaches O
@@ -54589,19 +54589,19 @@ Chapter B-LAW
 2 I-LAW
 | 
   | I-LAW
-The B-WORK_OF_ART
-Enchanted I-WORK_OF_ART
-Chairs I-WORK_OF_ART
+The I-LAW
+Enchanted I-LAW
+Chairs I-LAW
 | 
-  | I-WORK_OF_ART
-More I-WORK_OF_ART
-than I-WORK_OF_ART
-ten I-WORK_OF_ART
-minutes I-WORK_OF_ART
+  | I-LAW
+More I-LAW
+than I-LAW
+ten O
+minutes O
 had O
 elapsed O
 since O
-Reeks B-GPE
+Reeks B-DATE
 ’ O
 departure O
 , O
@@ -54650,7 +54650,7 @@ who O
 stepping O
 up O
 to O
-Ginger B-PERSON
+Ginger O
 , O
 |
      | O
@@ -54664,13 +54664,13 @@ the O
 devil O
 can O
 Mr. O
-Reeks B-PERSON
+Reeks B-DATE
 be O
 about O
 ? O
 I O
 hope O
-nuffin O
+nuffin B-PERSON
 ’ O
 has O
 happened O
@@ -54693,8 +54693,8 @@ here O
 , O
 ” O
 remarked O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 or O
 if O
@@ -54720,7 +54720,7 @@ exclaimed O
 the O
 Tinker B-ORG
 impatiently O
-; O
+  O
 “ O
 I O
 do O
@@ -54761,7 +54761,7 @@ take O
 a O
 |
      | O
-keviet B-NORP
+keviet O
 nap O
 by O
 himself O
@@ -54775,8 +54775,8 @@ sir O
 . O
 Ve’ll O
 only O
-jist B-ORG
-giv I-ORG
+jist O
+giv O
 ’ O
 a O
 look O
@@ -54828,9 +54828,9 @@ you O
 | 
   | O
 “ O
-Vell O
+Vell B-ORG
 , O
-ve’ve O
+ve’ve B-ORG
 got O
 a O
 noo O
@@ -54886,7 +54886,7 @@ is O
 anyvhere O
 thereabouts O
 . O
-Vy O
+Vy B-PERSON
 , O
 zounds O
 ! O
@@ -54932,7 +54932,7 @@ sure O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Ve’re O
@@ -55063,7 +55063,7 @@ head O
 | 
   | O
 “ O
-Holloa O
+Holloa B-WORK_OF_ART
 ! O
 wot O
 are O
@@ -55114,7 +55114,7 @@ it O
 as O
 |
      | O
-vell O
+vell B-ORG
 as O
 yourself O
 . O
@@ -55131,7 +55131,7 @@ is O
 ” O
 added O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Sit O
@@ -55223,7 +55223,7 @@ sitivations O
 , O
 ” O
 observed O
-Ginger B-PERSON
+Ginger O
 , O
 “ O
 and O
@@ -55279,7 +55279,7 @@ seen O
 ” O
 observed O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 taking O
 the O
@@ -55309,16 +55309,16 @@ door O
 | 
   | O
 “ O
-Plenty O
-o O
-’ O
+Plenty B-WORK_OF_ART
+o I-WORK_OF_ART
+’ I-WORK_OF_ART
 time O
 for O
 that O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 sauntering O
 towards O
@@ -55332,7 +55332,7 @@ provisions O
      | O
 were O
 spread O
-; O
+  O
 “ O
 wot O
 do O
@@ -55361,7 +55361,7 @@ world O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 | 
   | O
@@ -55373,7 +55373,7 @@ I O
 added O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 they O
 may O
@@ -55384,14 +55384,14 @@ pisoned O
 | 
   | O
 “ O
-Pisoned O
+Pisoned B-WORK_OF_ART
 — O
 nonsense O
 ! O
 ” O
 cried O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 do O
 n’t O
@@ -55432,7 +55432,7 @@ art O
 ” O
 said O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 | 
   | O
@@ -55477,7 +55477,7 @@ afeerd O
 , O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 helping O
 himself O
@@ -55517,7 +55517,7 @@ goblet O
 from O
 |
      | O
-one O
+one B-CARDINAL
 of O
 the O
 bottles O
@@ -55570,7 +55570,7 @@ in O
 all O
 my O
 born O
-days B-DATE
+days O
 , O
 ” O
 he O
@@ -55606,17 +55606,17 @@ gruffly O
 | 
   | O
 “ O
-Proossic O
+Proossic B-PERSON
 fiddlestick O
 ! O
 ” O
 cried O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 more O
 likely O
-Tokay B-PERSON
+Tokay O
 . O
 I O
 shall O
@@ -55647,7 +55647,7 @@ svipy O
 ” O
 said O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 I O
@@ -55656,7 +55656,7 @@ vether O
 it O
 ’s O
 really O
-Tokay B-PERSON
+Tokay O
 ? O
 ” O
 | 
@@ -55669,7 +55669,7 @@ thing O
 ” O
 cried O
 Thorneycroft B-PERSON
-; O
+  O
 “ O
 let O
 him O
@@ -55716,7 +55716,7 @@ pleasure O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 filling O
 a O
@@ -55741,13 +55741,13 @@ be O
 perwailed O
 upon O
 , O
-Sandy B-ORG
+Sandy B-PERSON
 . O
 ” O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 I O
 s’pose O
@@ -55757,7 +55757,7 @@ must O
 ” O
 replied O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 taking O
 the O
@@ -55768,16 +55768,16 @@ him O
 | 
   | O
 “ O
-Here B-WORK_OF_ART
-’s I-WORK_OF_ART
-the I-WORK_OF_ART
-beaks I-WORK_OF_ART
-’ I-WORK_OF_ART
-healths I-WORK_OF_ART
+Here O
+’s O
+the O
+beaks O
+’ O
+healths O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -55814,7 +55814,7 @@ rather O
 dog O
 - O
 stealers O
-; O
+  O
 for O
 that O
 ’s O
@@ -55841,7 +55841,7 @@ asperity O
 | 
   | O
 “ O
-Vell O
+Vell B-ORG
 , O
 ve O
 von’t O
@@ -55851,7 +55851,7 @@ names O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 , O
 laughing O
 , O
@@ -55893,7 +55893,7 @@ There O
 can O
 be O
 but O
-one O
+one B-CARDINAL
 opinion O
 as O
 to O
@@ -55951,13 +55951,13 @@ sir O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 winking O
 at O
 the O
 others O
-; O
+  O
 “ O
 but O
 to O
@@ -55995,8 +55995,8 @@ miles I-QUANTITY
 from O
 |
      | O
-Pall B-WORK_OF_ART
-Mall I-WORK_OF_ART
+Pall B-FAC
+Mall I-FAC
 , O
 as O
 the O
@@ -56007,7 +56007,7 @@ as O
 had O
 a O
 favourite O
-Scotch B-GPE
+Scotch O
 terrier O
 , O
 not O
@@ -56042,7 +56042,7 @@ favourite O
 . O
 |
      | O
-Vell O
+Vell B-PERSON
 , O
 the O
 dog O
@@ -56091,7 +56091,7 @@ do O
 n’t O
 offer O
 enough O
-; O
+  O
 so O
 |
      | O
@@ -56105,9 +56105,9 @@ Mr. O
 Simpkins B-PERSON
 , O
 in O
-the B-FAC
-Edger I-FAC
-Road I-FAC
+the B-LOC
+Edger I-LOC
+Road I-LOC
 , O
 and O
 Mr. O
@@ -56141,7 +56141,7 @@ com’d O
 about O
 that O
 ere O
-Scotch B-NORP
+Scotch O
 terrier O
 . O
 |
@@ -56168,7 +56168,7 @@ afore O
 long O
 . O
 ’ O
-Seein B-PERSON
+Seein O
 ’ O
 |
      | O
@@ -56201,10 +56201,10 @@ party O
      | O
 von’t O
 take O
-less B-CARDINAL
-than I-CARDINAL
-six I-CARDINAL
-guineas O
+less B-MONEY
+than I-MONEY
+six I-MONEY
+guineas I-MONEY
 . O
 He O
 knows O
@@ -56364,7 +56364,7 @@ you O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -56373,7 +56373,7 @@ I O
 ’d O
 shoot O
 the O
-ruffian B-NORP
+ruffian O
 who O
 treated O
 a O
@@ -56407,7 +56407,7 @@ too O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -56426,7 +56426,7 @@ interrupt O
 me O
 again O
 . O
-Arter O
+Arter B-PERSON
 a O
 bit O
 more O
@@ -56529,7 +56529,7 @@ it O
 but O
 the O
 inspector O
-von’t B-PERSON
+von’t O
 give O
 it O
 up O
@@ -56547,13 +56547,13 @@ out O
 o O
 ’ O
 the O
-vay O
+vay B-ORG
 . O
 ” O
 | 
   | O
 “ O
-Shameful O
+Shameful B-WORK_OF_ART
 ! O
 ” O
 cried O
@@ -56563,7 +56563,7 @@ Thorneycroft B-PERSON
 | 
   | O
 “ O
-Shameful O
+Shameful B-WORK_OF_ART
 , O
 indeed O
 , O
@@ -56571,12 +56571,12 @@ sir O
 , O
 ” O
 echoed O
-Ginger B-PERSON
+Ginger O
 , O
 laughing O
 . O
 “ O
-Thinkin B-PERSON
+Thinkin O
 ’ O
 his O
 dog O
@@ -56600,12 +56600,12 @@ that O
 night O
 , O
 but O
-ven O
+ven B-PERSON
 he O
 goes O
 back O
-next O
-mornin O
+next B-TIME
+mornin I-TIME
 ’ O
 he O
 finds O
@@ -56655,12 +56655,12 @@ Thorneycroft B-PERSON
 “ O
 Under O
 their O
-werry B-NORP
+werry B-ORG
 noses O
 , O
 ” O
 replied O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 But O
@@ -56731,7 +56731,7 @@ here O
 vith O
 complaints O
 of O
-vhich O
+vhich B-PERSON
 I O
 ca O
 n’t O
@@ -56751,13 +56751,13 @@ and O
 |
      | O
 I O
-sha’n’t O
+sha’n’t B-ORG
 suffer O
 it O
 to O
 be O
 made O
-von O
+von B-PERSON
 . O
 I O
 von’t O
@@ -56781,7 +56781,7 @@ affectin O
 |  | O
 our O
 |  | O
-characters,—do B-PERSON
+characters,—do O
 you O
 tvig O
 that O
@@ -56802,7 +56802,7 @@ said O
 Thorneycroft B-PERSON
 , O
 sighing O
-; O
+  O
 “ O
 and O
 I O
@@ -56839,7 +56839,7 @@ sir O
 , O
 ” O
 laughed O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -56853,7 +56853,7 @@ our O
      | O
 best O
 friends O
-; O
+  O
 they O
 alvays O
 takes O
@@ -56881,7 +56881,7 @@ dog O
 owners O
 , O
 the O
-magistrit O
+magistrit B-GPE
 angrily O
 interrupts O
 him O
@@ -57013,8 +57013,8 @@ law O
 , O
 ” O
 said O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 here O
 ’s O
@@ -57037,7 +57037,7 @@ time O
 | 
   | O
 “ O
-Halloa O
+Halloa B-WORK_OF_ART
 ! O
 wot O
 ’s O
@@ -57047,7 +57047,7 @@ that O
 cried O
 the O
 Tinker B-ORG
-; O
+  O
 “ O
 I O
 thought O
@@ -57068,14 +57068,14 @@ I O
 rejoined O
 the O
 Sandman B-ORG
-; O
+  O
 “ O
 a O
 strange O
 sort O
 o O
 ’ O
-rumblin O
+rumblin B-PERSON
 ’ O
 sound O
 overhead O
@@ -57091,8 +57091,8 @@ again O
 ! O
 ” O
 cried O
-Ginger B-PERSON
-; O
+Ginger O
+  O
 “ O
 wot O
 an O
@@ -57435,7 +57435,7 @@ shouted O
 and O
 swore O
 frightfully O
-; O
+  O
 but O
 their O
 vociferations O
@@ -57462,7 +57462,7 @@ had O
 been O
 seen O
 by O
-Reeks B-GPE
+Reeks B-DATE
 , O
 |
      | O
@@ -57516,7 +57516,7 @@ his O
 roaring O
 within O
 the O
-casque O
+casque B-NORP
 sounded O
 like O
 the O
@@ -57543,7 +57543,7 @@ slowly O
 , O
 and O
 the O
-Sandman B-ORG
+Sandman B-PERSON
 was O
 eclipsed O
 in O
@@ -57610,7 +57610,7 @@ like O
 the O
 sword O
 of O
-Damocles B-GPE
+Damocles B-PERSON
 . O
 While O
 the O
@@ -57784,7 +57784,7 @@ into O
 a O
 vault O
 beneath O
-; O
+  O
 and O
 as O
 the O
@@ -57897,7 +57897,7 @@ him O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
 it O
 ca O
@@ -57922,10 +57922,10 @@ almost O
 svear O
 it O
 was O
-Old O
+Old B-WORK_OF_ART
 |
-     | O
-Parr B-PERSON
+     | I-WORK_OF_ART
+Parr I-WORK_OF_ART
 . O
 ” O
 | 
@@ -57988,8 +57988,8 @@ Ven O
 I O
 see O
 you O
-this O
-mornin O
+this B-TIME
+mornin I-TIME
 ’ O
 , O
 you O
@@ -58031,7 +58031,7 @@ it O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 shaking O
 his O
@@ -58048,7 +58048,7 @@ like O
 |
      | O
 Doctor O
-Forster O
+Forster B-PERSON
 — O
 eh O
 ? O
@@ -58056,11 +58056,11 @@ eh O
 | 
   | O
 “ O
-Faustus B-ORG
+Faustus B-PERSON
 , O
 my O
 dear O
-Ginger B-PERSON
+Ginger O
 — O
 not O
 Forster B-PERSON
@@ -58123,7 +58123,7 @@ wenerable O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 , O
 in O
 a O
@@ -58156,8 +58156,8 @@ say O
 , O
 ” O
 supplied O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 . O
 “ O
 Between O
@@ -58178,21 +58178,21 @@ it O
 | 
   | O
 “ O
-La O
-! O
-wot O
+La B-WORK_OF_ART
+! I-WORK_OF_ART
+wot I-WORK_OF_ART
 a O
 horrible O
 idea O
 ! O
 ” O
 exclaimed O
-Ginger B-PERSON
+Ginger O
 , O
 with O
 a O
 shudder O
-; O
+  O
 “ O
 it O
 makes O
@@ -58263,8 +58263,8 @@ Lord O
 ! O
 ” O
 groaned O
-Ginger B-ORG
-; O
+Ginger O
+  O
 “ O
 I O
 ’ll O
@@ -58348,7 +58348,7 @@ others O
 ? O
 ” O
 demanded O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -58378,7 +58378,7 @@ do O
 , O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 Ve’re O
@@ -58397,7 +58397,7 @@ together O
      | O
 the O
 best O
-vay O
+vay B-ORG
 ve O
 can O
 . O
@@ -58431,7 +58431,7 @@ but O
 you O
 ’re O
 mortal O
-; O
+  O
 and O
 if O
 you O
@@ -58472,8 +58472,8 @@ you O
 , O
 ” O
 said O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 twisting O
 himself O
@@ -58509,7 +58509,7 @@ angry O
 , O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 seeing O
 the O
@@ -58525,7 +58525,7 @@ conciliate O
 |
      | O
 him O
-; O
+  O
 “ O
 I O
 only O
@@ -58543,7 +58543,7 @@ me O
 if O
 Mr. O
 Auriol B-PERSON
-Darcy B-PERSON
+Darcy I-PERSON
 is O
 here O
 ? O
@@ -58614,7 +58614,7 @@ dead O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 with O
 a O
@@ -58635,7 +58635,7 @@ replied O
 the O
 dwarf O
 mysteriously O
-; O
+  O
 “ O
 and O
 I O
@@ -58668,7 +58668,7 @@ notvithstandin O
 , O
 ” O
 muttered O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -58718,8 +58718,8 @@ then O
 , O
 ” O
 said O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 giving O
 him O
@@ -58733,7 +58733,7 @@ ear O
 | 
   | O
 “ O
-Holloa O
+Holloa B-WORK_OF_ART
 , O
 wenerable O
 ! O
@@ -58743,7 +58743,7 @@ hard O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 . O
 | 
   | O
@@ -58777,7 +58777,7 @@ exactly O
 , O
 ” O
 said O
-Ginger B-PERSON
+Ginger O
 . O
 “ O
 I O
@@ -58809,8 +58809,8 @@ den O
 , O
 ” O
 said O
-Old O
-Parr B-PERSON
+Old B-PERSON
+Parr I-PERSON
 , O
 in O
 a O
@@ -58866,7 +58866,7 @@ passed O
      | O
 and O
 beckoned O
-Ginger B-PERSON
+Ginger O
 to O
 follow O
 him O
@@ -58888,7 +58888,7 @@ complied O
 Chapter B-LAW
 3 I-LAW
 | 
-  | O
+  | I-LAW
 Gerard B-PERSON
 Paston I-PERSON
 | 
@@ -58932,7 +58932,7 @@ him O
 after O
 a O
 time O
-; O
+  O
 but O
 he O
 had O
@@ -59023,7 +59023,7 @@ merchant O
 cries O
 and O
 entreaties O
-; O
+  O
 but O
 as O
 |
@@ -59039,8 +59039,8 @@ move O
 , O
 they O
 touched O
-a B-DATE
-spring I-DATE
+a O
+spring O
 , O
 which O
 freed O
@@ -59110,8 +59110,8 @@ the O
 walls O
 , O
 sat O
-Cyprian B-ORG
-Rougemont I-ORG
+Cyprian O
+Rougemont O
 . O
 It O
 was O
@@ -59135,7 +59135,7 @@ trial O
 . O
 | 
   | O
-Bewildered B-PERSON
+Bewildered O
 with O
 terror O
 , O
@@ -59231,13 +59231,13 @@ as O
 pale O
 as O
 death O
-; O
+  O
 her O
 limbs O
 rigid O
 and O
 motionless O
-; O
+  O
 but O
 her O
 eyes O
@@ -59418,7 +59418,7 @@ in O
 a O
 taunting O
 tone O
-; O
+  O
 “ O
 but O
 she O
@@ -59448,7 +59448,7 @@ Come O
 to O
 me O
 , O
-Ebba!—come O
+Ebba!—come B-PERSON
 to O
 your O
 father O
@@ -59487,7 +59487,7 @@ spell O
 , O
 ” O
 said O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 “ O
 Take O
@@ -59546,7 +59546,7 @@ content O
 ? O
 ” O
 cried O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 “ O
 Will O
@@ -59794,7 +59794,7 @@ true O
 , O
 ” O
 said O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 | 
   | O
@@ -59914,7 +59914,7 @@ possible O
 cried O
 |
      | O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 | 
   | O
@@ -59945,7 +59945,7 @@ he O
 added O
 , O
 to O
-Rougemont B-ORG
+Rougemont B-GPE
 , O
 “ O
 fiend O
@@ -60023,7 +60023,7 @@ distress O
 . O
 |
      | O
-Bid B-PERSON
+Bid O
 a O
 lasting O
 farewell O
@@ -60079,7 +60079,7 @@ passage O
 | 
   | O
 “ O
-Ha!—who O
+Ha!—who B-PERSON
 speaks O
 ? O
 ” O
@@ -60103,7 +60103,7 @@ Paston I-PERSON
 ! O
 ” O
 exclaimed O
-Reeks B-GPE
+Reeks B-DATE
 , O
 stepping O
 forward O
@@ -60162,12 +60162,12 @@ Auriol B-PERSON
 , O
 regarding O
 him O
-; O
+  O
 “ O
 the O
 brother O
 of O
-Clara B-PERSON
+Clara B-GPE
 , O
 my O
 second B-ORDINAL
@@ -60212,7 +60212,7 @@ Gerard B-PERSON
 ? O
 ” O
 cried O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 stamping O
 the O
@@ -60235,7 +60235,7 @@ the O
 same O
 ties O
 as O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 and O
 you O
@@ -60281,7 +60281,7 @@ long O
 . O
 Deliver O
 up O
-Auriol B-PERSON
+Auriol B-ORG
 and O
 this O
 gentleman O
@@ -60309,7 +60309,7 @@ Fire O
 ! O
 ” O
 cried O
-Rougemont B-ORG
+Rougemont B-FAC
 , O
 drawing O
 himself O
@@ -60333,13 +60333,13 @@ me O
 | 
   | O
 “ O
-Ve’ll B-GPE
+Ve’ll O
 try O
 that O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 coming O
 up O
@@ -60347,7 +60347,7 @@ at O
 the O
 moment O
 behind O
-Paston B-PERSON
+Paston B-GPE
 . O
 | 
   | O
@@ -60366,7 +60366,7 @@ at O
 the O
 breast O
 of O
-Rougemont B-GPE
+Rougemont B-LOC
 . O
 The O
 latter O
@@ -60410,7 +60410,7 @@ devil O
 ! O
 ” O
 cried O
-Ginger B-PERSON
+Ginger O
 , O
 running O
 off O
@@ -60478,8 +60478,8 @@ Chapter B-LAW
 4 I-LAW
 | 
   | I-LAW
-The O
-Pit O
+The I-LAW
+Pit I-LAW
 | 
   | O
 So O
@@ -60614,7 +60614,7 @@ out O
 of O
 sight O
 of O
-Rougemont B-ORG
+Rougemont B-GPE
 and O
 his O
 attendants O
@@ -60764,7 +60764,7 @@ Thorneycroft B-PERSON
 accelerating O
 his O
 movements O
-; O
+  O
 “ O
 I O
 hope O
@@ -60850,8 +60850,8 @@ I O
 shall O
 drop O
 in O
-a O
-minute O
+a B-TIME
+minute I-TIME
 . O
 ” O
 | 
@@ -61059,7 +61059,7 @@ them O
 . O
 | 
   | O
-Roused O
+Roused B-PERSON
 by O
 the O
 imminence O
@@ -61106,7 +61106,7 @@ door O
 It O
 was O
 closed O
-; O
+  O
 and O
 venting O
 his O
@@ -61255,7 +61255,7 @@ small O
 iron O
 button O
 within O
-it,—“saved O
+it,—“saved B-WORK_OF_ART
 — O
 saved O
 ! O
@@ -61345,7 +61345,7 @@ themselves O
 against O
 the O
 door O
-; O
+  O
 but O
 |
      | O
@@ -61391,7 +61391,7 @@ a O
 moment O
 to O
 listen O
-; O
+  O
 “ O
 come O
 on O
@@ -61450,7 +61450,7 @@ think O
 of O
 that O
 now O
-; O
+  O
 besides O
 , O
 you O
@@ -61575,7 +61575,7 @@ myself O
 replied O
 the O
 dwarf O
-; O
+  O
 “ O
 but O
 I O
@@ -61868,7 +61868,7 @@ it O
 cried O
 Mr. O
 Thorneycroft B-PERSON
-; O
+  O
 “ O
 I O
 shall O
@@ -61899,8 +61899,8 @@ some O
 fresh O
 air O
 in O
-a O
-minute O
+a B-TIME
+minute I-TIME
 , O
 ” O
 rejoined O
@@ -62137,9 +62137,9 @@ spoken O
 | 
   | O
 “ O
-It B-WORK_OF_ART
-’s I-WORK_OF_ART
-Rougemont I-WORK_OF_ART
+It O
+’s O
+Rougemont B-LOC
 himself O
 , O
 ” O
@@ -62490,7 +62490,7 @@ ladder O
 was O
 planted O
 at O
-one O
+one B-CARDINAL
 side O
 , O
 and O
@@ -62554,11 +62554,11 @@ exclaimed O
 | 
   | O
 “ O
-Vy O
-, O
-bless O
-my O
-‘ O
+Vy B-WORK_OF_ART
+, I-WORK_OF_ART
+bless I-WORK_OF_ART
+my I-WORK_OF_ART
+‘ I-WORK_OF_ART
 art O
 , O
 if O
@@ -62606,7 +62606,7 @@ you O
 | 
   | O
 “ O
-Vy O
+Vy B-WORK_OF_ART
 , O
 who O
 should O
@@ -62614,7 +62614,7 @@ it O
 be O
 but O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 , O
 ” O
 rejoined O
@@ -62717,7 +62717,7 @@ fast O
 ” O
 rejoined O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Ve O
@@ -62735,7 +62735,7 @@ your O
 darter O
 , O
 but O
-ve’ve O
+ve’ve B-ORG
 catched O
 a O
 peep O
@@ -62806,7 +62806,7 @@ ee O
 ” O
 replied O
 the O
-Tinker B-ORG
+Tinker B-PRODUCT
 . O
 “ O
 Ve O
@@ -62843,7 +62843,7 @@ eagerly O
 | 
   | O
 “ O
-Vell O
+Vell B-PERSON
 , O
 if O
 you O
@@ -62852,7 +62852,7 @@ go O
 , O
 step O
 this O
-vay O
+vay B-ORG
 , O
 then O
 , O
@@ -62871,7 +62871,7 @@ archway O
 “ O
 Halloa O
 , O
-Sandy B-ORG
+Sandy B-PERSON
 , O
 did O
 you O
@@ -62892,7 +62892,7 @@ I O
 replied O
 the O
 other O
-; O
+  O
 “ O
 open O
 it O
@@ -62901,7 +62901,7 @@ it O
 | 
   | O
 “ O
-Easily B-ORG
+Easily O
 said O
 , O
 ” O
@@ -62973,7 +62973,7 @@ too O
 ” O
 cried O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Look O
@@ -63025,7 +63025,7 @@ say O
 ” O
 cried O
 the O
-Sandman B-PRODUCT
+Sandman B-ORG
 . O
 “ O
 Do O
@@ -63033,15 +63033,15 @@ n’t O
 ye O
 see O
 , O
-Tinker B-PERSON
+Tinker B-ORG
 ? O
 ” O
 | 
   | O
 “ O
-Ay O
-, O
-ay O
+Ay B-WORK_OF_ART
+, I-WORK_OF_ART
+ay I-WORK_OF_ART
 , O
 I O
 see O
@@ -63166,9 +63166,9 @@ it O
 Chapter B-LAW
 5 I-LAW
 | 
-  | O
-New O
-Perplexities O
+  | I-LAW
+New I-LAW
+Perplexities I-LAW
 | 
   | O
 For O
@@ -63191,7 +63191,7 @@ senses O
 |
      | O
 of O
-Auriol B-EVENT
+Auriol B-ORG
 . O
 On O
 awaking O
@@ -63266,7 +63266,7 @@ against O
 this O
 pillar O
 leaned O
-Auriol B-PERSON
+Auriol B-ORG
 , O
 with O
 his O
@@ -63516,7 +63516,7 @@ of O
      | O
 Elizabeth B-PERSON
 ’s O
-days B-DATE
+days O
 . O
 | 
   | O
@@ -63905,7 +63905,7 @@ ones O
 spring O
 up O
 . O
-Fashions B-PERSON
+Fashions O
 seem O
 to O
 me O
@@ -63924,7 +63924,7 @@ forgotten O
 the O
 old O
 ones O
-; O
+  O
 while O
 my O
 fellow O
@@ -64107,7 +64107,7 @@ added O
 with O
 a O
 shudder O
-; O
+  O
 “ O
 I O
 have O
@@ -64337,8 +64337,8 @@ told O
 me O
 of O
 Charles B-PERSON
-the O
-Second B-ORDINAL
+the I-PERSON
+Second I-PERSON
 ? O
 How O
 know O
@@ -64492,7 +64492,7 @@ compact O
 with O
 |
      | O
-Rougemont O
+Rougemont B-FAC
 — O
 ha O
 ! O
@@ -64604,7 +64604,7 @@ a O
 compact O
 with O
 the O
-Fiend B-LOC
+Fiend O
 , O
 and O
 delivered O
@@ -64623,7 +64623,7 @@ can O
 not O
 now O
 know O
-; O
+  O
 but O
 if O
 it O
@@ -64681,7 +64681,7 @@ cried O
 , O
 “ O
 What O
-ho O
+ho B-PERSON
 , O
 Auriol!—Auriol O
 Darcy B-PERSON
@@ -64722,7 +64722,7 @@ fancies O
 , O
 ” O
 rejoined O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 “ O
 I O
@@ -64760,7 +64760,7 @@ Auriol B-PERSON
 stupefied O
 with O
 astonishment O
-; O
+  O
 “ O
 in O
 what O
@@ -64770,7 +64770,7 @@ am O
 |
      | O
 living O
-; O
+  O
 and O
 whether O
 I O
@@ -64798,8 +64798,8 @@ Darcy I-PERSON
 , O
 ” O
 replied O
-Rougemont B-ORG
-; O
+Rougemont B-FAC
+  O
 “ O
 for O
 the O
@@ -64827,7 +64827,7 @@ and O
 Sixth B-ORDINAL
 of O
 Scotland B-GPE
-; O
+  O
 |
      | O
 and O
@@ -64895,8 +64895,8 @@ condition O
 replied O
 |
      | O
-Rougemont B-ORG
-; O
+Rougemont B-GPE
+  O
 “ O
 but O
 calm O
@@ -64955,7 +64955,7 @@ keeper O
 , O
 ” O
 replied O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 | 
   | O
@@ -65054,8 +65054,8 @@ world O
 said O
 |
      | O
-Rougemont O
-; O
+Rougemont B-FAC
+  O
 “ O
 but O
 the O
@@ -65128,11 +65128,11 @@ Chapter B-LAW
 | 
   | O
 Doctor O
-Lamb B-PERSON
-Again I-PERSON
+Lamb O
+Again O
 | 
-  | I-PERSON
-Night I-PERSON
+  | O
+Night O
 came O
 , O
 and O
@@ -65142,7 +65142,7 @@ grew O
 profoundly O
 dark O
 . O
-Auriol O
+Auriol B-PERSON
 became O
 impatient O
 for O
@@ -65750,8 +65750,8 @@ purpose O
 , O
 ” O
 said O
-Rougemont B-ORG
-; O
+Rougemont B-FAC
+  O
 “ O
 but O
 I O
@@ -65911,7 +65911,7 @@ he O
 proceeded O
 to O
 unfasten O
-Auriol B-PERSON
+Auriol B-ORG
 ’s O
 chain O
 . O
@@ -65993,7 +65993,7 @@ stealthy O
 footsteps O
 behind O
 him O
-; O
+  O
 but O
 he O
 never O
@@ -66033,7 +66033,7 @@ in O
 which O
 |
      | O
-Rougemont B-ORG
+Rougemont B-LOC
 paused O
 , O
 and O
@@ -66088,13 +66088,13 @@ to O
 be O
 seated O
 upon O
-one O
+one B-CARDINAL
 of O
 them O
 , O
 |
      | O
-Rougemont B-ORG
+Rougemont B-LOC
 sounded O
 a O
 silver O
@@ -66130,8 +66130,8 @@ in O
 a O
 jerkin O
 of O
-grey O
-serge O
+grey B-ORG
+serge I-ORG
 , O
 |
      | O
@@ -66169,7 +66169,7 @@ he O
 timidly O
 advanced O
 towards O
-Rougemont B-GPE
+Rougemont B-FAC
 , O
 and O
 had O
@@ -66183,7 +66183,7 @@ having O
 seen O
 him O
 before O
-; O
+  O
 but O
 could O
 not O
@@ -66254,7 +66254,7 @@ set O
   | O
 “ O
 Doctor O
-Lamb B-PERSON
+Lamb O
 ! O
 ” O
 repeated O
@@ -66403,8 +66403,8 @@ your O
 own O
 — O
 Darcy B-PERSON
-— I-PERSON
-Reginald I-PERSON
+— O
+Reginald B-PERSON
 Darcy I-PERSON
 . O
 He O
@@ -66448,11 +66448,11 @@ it O
 | 
   | O
 “ O
-Am O
-I O
-in O
-a O
-dream O
+Am B-WORK_OF_ART
+I I-WORK_OF_ART
+in I-WORK_OF_ART
+a I-WORK_OF_ART
+dream I-WORK_OF_ART
 , O
 good O
 fellow O
@@ -66472,7 +66472,7 @@ amazement O
 | 
   | O
 “ O
-Alack O
+Alack B-WORK_OF_ART
 , O
 no O
 , O
@@ -66482,7 +66482,7 @@ sir O
 replied O
 the O
 dwarf O
-; O
+  O
 “ O
 to O
 my O
@@ -66557,7 +66557,7 @@ sir O
 replied O
 the O
 dwarf O
-; O
+  O
 “ O
 and O
 for O
@@ -66639,7 +66639,7 @@ river O
 rejoined O
 the O
 dwarf O
-; O
+  O
 “ O
 though O
 , O
@@ -66687,7 +66687,7 @@ dwarf O
 and O
 |
      | O
-Rougemont B-ORG
+Rougemont B-FAC
 . O
 | 
   | O
@@ -66759,7 +66759,7 @@ to O
 enter O
 his O
 laboratory O
-; O
+  O
 but O
 I O
 will O
@@ -66987,7 +66987,7 @@ me O
 ” O
 replied O
 Auriol B-PERSON
-; O
+  O
 “ O
 I O
 meant O
@@ -67314,7 +67314,7 @@ the O
 furnace O
 — O
 my O
-Athanor B-PRODUCT
+Athanor O
 , O
 as O
 we O
@@ -67424,7 +67424,7 @@ sir O
 ” O
 said O
 Auriol B-PERSON
-; O
+  O
 “ O
 indeed O
 I O
@@ -67498,7 +67498,7 @@ if O
 I O
 am O
 mad O
-; O
+  O
 but O
 |
      | O
@@ -67781,7 +67781,7 @@ seem O
 , O
 ” O
 replied O
-Auriol B-WORK_OF_ART
+Auriol B-PERSON
 . O
 | 
   | O
@@ -67935,7 +67935,7 @@ the O
 gloom O
 the O
 venerable O
-Gothic B-ORG
+Gothic B-PRODUCT
 pile O
 of O
 Saint B-ORG
@@ -67972,8 +67972,8 @@ tolled O
 forth O
 |
      | O
-the O
-hour O
+the B-TIME
+hour I-TIME
 of O
 two B-CARDINAL
 . O
@@ -68003,11 +68003,11 @@ satisfied O
 I O
 have O
 lived O
-centuries O
+centuries B-DATE
 in O
-a B-DATE
-few I-DATE
-nights I-DATE
+a B-TIME
+few I-TIME
+nights I-TIME
 . O
 ” O
 | 
