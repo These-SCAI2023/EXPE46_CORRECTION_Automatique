@@ -2,15 +2,30 @@
 
 pour citer les travaux :
 
-@inproceedings{koudoro2026_ocr_ner,
-  title        = {Analyse multilingue de l’impact de la correction automatique de la ROC sur la reconnaissance d’entités nommées spatiales dans des corpus littéraires},
-  author       = {Caroline Koudoro-Parfait and Ljudmila Petkovic and Glenn Roe},
-  institution  = {Sorbonne Université, Observatoire des textes, des idées et des corpus (OBTIC), Paris, France},
-  booktitle    = {Robustesse et limites des modèles de traitement automatique des langues},
-  year         = {2026},
-  abstract     = {L’extraction d’informations de textes issus de reconnaissance optique de caractères (ROC) interroge sur la possibilité d’exploiter des données bruitées. Notre contribution est double : déterminer si la correction de la ROC permet d’améliorer significativement les résultats de la tâche de reconnaissance d’entités nommées (REN) sur des corpus de langue française, anglaise et portugaise ; et montrer les limites des évaluations strictes (F-score ou intersections), tout en proposant des stratégies d’évaluation plus souples. Nous présentons plusieurs typologies et protocoles d’évaluation pour la REN sur des données bruitées et sur des données bruitées corrigées automatiquement.},
-  abstract_en  = {The extraction of information from texts produced by optical character recognition (OCR) raises questions about the possibility of exploiting noisy data. Our contribution is twofold: firstly, to determine whether OCR correction can significantly improve the results of the Named Entity Recognition (NER) task on French, English and Portuguese language corpora, and secondly, to show the limitations of strict evaluations (F-score or intersections), while proposing more flexible evaluation strategies. We present several typologies and evaluation protocols for NER on noisy data and on automatically corrected noisy data.}
+## Paru dans la Revue TAL 
+
+@article{koudoro-parfait-etal-2024-analyse,
+    title = "Analyse multilingue de l{'}impact de la correction automatique de la {ROC} sur la reconnaissance d{'}entit{\'e}s nomm{\'e}es spatiales dans des corpus litt{\'e}raires [Multilingual Analysis of the Impact of Automatic {OCR} Correction on Spatial Recognition of Spatial Named Entities in Literary Corpora]",
+    author = "Koudoro-Parfait, Caroline  and
+      Petkovic, Ljudmila  and
+      Roe, Glenn",
+    editor = {Corro, Caio  and
+      Lejeune, Ga{\"e}l  and
+      Niculae, Vlad},
+    journal = "Traitement Automatique des Langues",
+    volume = "64",
+    number = "2",
+    year = "2024",
+    address = "France",
+    publisher = "ATALA (Association pour le Traitement Automatique des Langues)",
+    url = "https://aclanthology.org/2023.tal-2.3/",
+    doi = "10.57896/2023-tal-64_2_2",
+    pages = "43--67",
+    language = "fra"
 }
+
+
+## Paru dans la Revue Corpus
 
 @article{petkovic:hal-05121498,
   TITLE = {{Quelle solution pour am{\'e}liorer les performances de la reconnaissance d'entit{\'e}s nomm{\'e}es sur des donn{\'e}es bruit{\'e}es, corriger l'entr{\'e}e ou filtrer la sortie~?}},
